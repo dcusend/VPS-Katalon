@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test Case verifies the error message for when a card is not accepted.</description>
+   <name>CardNotAcceptedErrorCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca5594dd-58e2-4776-bb01-874c7787ec06</testCaseGuid>
+</TestCaseEntity>

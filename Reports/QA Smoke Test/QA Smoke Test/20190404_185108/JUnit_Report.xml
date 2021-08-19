@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QA Smoke Test" time="56" tests="2" failures="0" errors="0">
+   <testsuite name="QA Smoke Test" tests="2" failures="0" errors="0" time="56" timestamp="2019-04-04 18:51:23" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/QA Smoke Test/QA Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="Y:\\VPSSmoke\\VPS-Smoke-Version001\\Reports\\QA Smoke Test\\QA Smoke Test\\20190404_185108"/>
+         <property name="logFiles" value="Y:\\VPSSmoke\\VPS-Smoke-Version001\\Reports\\QA Smoke Test\\QA Smoke Test\\20190404_185108\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.0.24"/>
+         <property name="sessionId" value="6a0a204e7f2b9e98dd13d6432b9faeb9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/VirtualTerminal/Sale-ReqFieldsOnly" classname="Test Cases/VirtualTerminal/Sale-ReqFieldsOnly" status="PASSED">
+         <system-out><![CDATA[2019-04-04 18:51:25 - [TEST_CASE][PASSED] - Test Cases/VirtualTerminal/Sale-ReqFieldsOnly: Test Cases/VirtualTerminal/Sale-ReqFieldsOnly
+
+2019-04-04 18:51:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("VirtualTerminal/Login"), ["username":"iahmed", "password":"hello2222"], STOP_ON_FAILURE): Call Test Case 'Test Cases/VirtualTerminal/Login' successfully
+
+2019-04-04 18:51:31 - [TEST_CASE][PASSED] - Test Cases/VirtualTerminal/Login: Test Cases/VirtualTerminal/Login
+
+2019-04-04 18:51:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-04 18:51:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-04 18:51:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-04 18:51:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-04 18:51:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-04 18:51:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-04 18:51:47 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.velocitypayment.com/admin/imtiaz"): Navigate to 'https://qa.velocitypayment.com/admin/imtiaz' successfully
+
+2019-04-04 18:51:48 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/admin/imtiaz' successfully
+
+2019-04-04 18:51:48 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Login_Page/Login_Username"), 30)): Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-04-04 18:51:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2019-04-04 18:51:48 - [TEST_STEP][PASSED] - out.println("We are on Login Page, start populating the fields"): null
+
+2019-04-04 18:51:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Username"), username): Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2019-04-04 18:51:48 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2019-04-04 18:51:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Password"), password): Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2019-04-04 18:51:49 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2019-04-04 18:51:49 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Login_Submit")): Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-04-04 18:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-04-04 18:51:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VirtualTerminal/Login' successfully
+
+2019-04-04 18:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard/AccessAhmedPayment")): Object: 'Object Repository/Dashboard/AccessAhmedPayment' is clicked on
+
+2019-04-04 18:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/AccessAhmedPayment' is clicked on
+
+2019-04-04 18:51:51 - [TEST_STEP][PASSED] - click(findTestObject("Issue Transactions/SaleLink")): Object: 'Object Repository/Issue Transactions/SaleLink' is clicked on
+
+2019-04-04 18:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Issue Transactions/SaleLink' is clicked on
+
+2019-04-04 18:51:51 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/ClientAccountNumber"), "123456wwe"): Text '123456wwe' is set on object 'Object Repository/Sale Payment Entry/ClientAccountNumber'
+
+2019-04-04 18:51:52 - [MESSAGE][PASSED] - Text '123456wwe' is set on object 'Object Repository/Sale Payment Entry/ClientAccountNumber'
+
+2019-04-04 18:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/CardName"), "imtiaz ahmed"): Text 'imtiaz ahmed' is set on object 'Object Repository/Sale Payment Entry/CardName'
+
+2019-04-04 18:51:52 - [MESSAGE][PASSED] - Text 'imtiaz ahmed' is set on object 'Object Repository/Sale Payment Entry/CardName'
+
+2019-04-04 18:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/AL1"), "2311 york road"): Text '2311 york road' is set on object 'Object Repository/Sale Payment Entry/AL1'
+
+2019-04-04 18:51:52 - [MESSAGE][PASSED] - Text '2311 york road' is set on object 'Object Repository/Sale Payment Entry/AL1'
+
+2019-04-04 18:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/ZIP"), "22201"): Text '22201' is set on object 'Object Repository/Sale Payment Entry/ZIP'
+
+2019-04-04 18:51:52 - [MESSAGE][PASSED] - Text '22201' is set on object 'Object Repository/Sale Payment Entry/ZIP'
+
+2019-04-04 18:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/CardNumber"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/Sale Payment Entry/CardNumber'
+
+2019-04-04 18:51:52 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/Sale Payment Entry/CardNumber'
+
+2019-04-04 18:51:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/MM"), "3", true): All options with value '3' are selected in object 'Object Repository/Sale Payment Entry/MM'  using regular expression
+
+2019-04-04 18:51:53 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Sale Payment Entry/MM'  using regular expression
+
+2019-04-04 18:51:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/YYYY"), "2024", true): All options with value '2024' are selected in object 'Object Repository/Sale Payment Entry/YYYY'  using regular expression
+
+2019-04-04 18:51:53 - [MESSAGE][PASSED] - All options with value '2024' are selected in object 'Object Repository/Sale Payment Entry/YYYY'  using regular expression
+
+2019-04-04 18:51:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/TransactionCategory"), "MOTO", true): All options with value 'MOTO' are selected in object 'Object Repository/Sale Payment Entry/TransactionCategory'  using regular expression
+
+2019-04-04 18:51:53 - [MESSAGE][PASSED] - All options with value 'MOTO' are selected in object 'Object Repository/Sale Payment Entry/TransactionCategory'  using regular expression
+
+2019-04-04 18:51:53 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/Amount"), "10.00"): Text '10.00' is set on object 'Object Repository/Sale Payment Entry/Amount'
+
+2019-04-04 18:51:54 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Sale Payment Entry/Amount'
+
+2019-04-04 18:51:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/UDF1"), "groupItem66", true): All options with value 'groupItem66' are selected in object 'Object Repository/Sale Payment Entry/UDF1'  using regular expression
+
+2019-04-04 18:51:54 - [MESSAGE][PASSED] - All options with value 'groupItem66' are selected in object 'Object Repository/Sale Payment Entry/UDF1'  using regular expression
+
+2019-04-04 18:51:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/UDF2"), "groupItem84", true): All options with value 'groupItem84' are selected in object 'Object Repository/Sale Payment Entry/UDF2'  using regular expression
+
+2019-04-04 18:51:54 - [MESSAGE][PASSED] - All options with value 'groupItem84' are selected in object 'Object Repository/Sale Payment Entry/UDF2'  using regular expression
+
+2019-04-04 18:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Sale Payment Entry/Submit")): Object: 'Object Repository/Sale Payment Entry/Submit' is clicked on
+
+2019-04-04 18:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Sale Payment Entry/Submit' is clicked on
+
+2019-04-04 18:51:55 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction Successful", true): Text 'Transaction Successful' is present on page  using regular expression
+
+2019-04-04 18:51:55 - [MESSAGE][PASSED] - Text 'Transaction Successful' is present on page  using regular expression
+
+2019-04-04 18:51:55 - [TEST_STEP][PASSED] - verifyTextPresent("Authorization and Capture", true): Text 'Authorization and Capture' is present on page  using regular expression
+
+2019-04-04 18:51:55 - [MESSAGE][PASSED] - Text 'Authorization and Capture' is present on page  using regular expression
+
+2019-04-04 18:51:55 - [TEST_STEP][PASSED] - verifyTextPresent("Visa", true): Text 'Visa' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text 'Visa' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [TEST_STEP][PASSED] - verifyTextPresent("IMTIAZ AHMED", true): Text 'IMTIAZ AHMED' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text 'IMTIAZ AHMED' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [TEST_STEP][PASSED] - verifyTextPresent("************1111", false): Text '************1111' is present on page 
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text '************1111' is present on page 
+
+2019-04-04 18:51:56 - [TEST_STEP][PASSED] - verifyTextPresent("The transaction has been successfully processed", true): Text 'The transaction has been successfully processed' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text 'The transaction has been successfully processed' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [TEST_STEP][PASSED] - verifyTextPresent("2311 york road", true): Text '2311 york road' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text '2311 york road' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [TEST_STEP][PASSED] - verifyTextPresent("United States", true): Text 'United States' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text 'United States' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [TEST_STEP][PASSED] - verifyTextPresent("ARLINGTON", true): Text 'ARLINGTON' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text 'ARLINGTON' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [TEST_STEP][PASSED] - verifyTextPresent("Virginia", true): Text 'Virginia' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text 'Virginia' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [TEST_STEP][PASSED] - verifyTextPresent("22201", true): Text '22201' is present on page  using regular expression
+
+2019-04-04 18:51:56 - [MESSAGE][PASSED] - Text '22201' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VirtualTerminal/Sale-Void" classname="Test Cases/VirtualTerminal/Sale-Void" status="PASSED">
+         <system-out><![CDATA[2019-04-04 18:51:56 - [TEST_CASE][PASSED] - Test Cases/VirtualTerminal/Sale-Void: Test Cases/VirtualTerminal/Sale-Void
+
+2019-04-04 18:52:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("VirtualTerminal/Login"), ["username":"iahmed", "password":"hello2222"], STOP_ON_FAILURE): Call Test Case 'Test Cases/VirtualTerminal/Login' successfully
+
+2019-04-04 18:52:00 - [TEST_CASE][PASSED] - Test Cases/VirtualTerminal/Login: Test Cases/VirtualTerminal/Login
+
+2019-04-04 18:52:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-04 18:52:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-04 18:52:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-04 18:52:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-04 18:52:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-04 18:52:04 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-04 18:52:04 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.velocitypayment.com/admin/imtiaz"): Navigate to 'https://qa.velocitypayment.com/admin/imtiaz' successfully
+
+2019-04-04 18:52:08 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/admin/imtiaz' successfully
+
+2019-04-04 18:52:08 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Login_Page/Login_Username"), 30)): Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-04-04 18:52:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2019-04-04 18:52:08 - [TEST_STEP][PASSED] - out.println("We are on Login Page, start populating the fields"): null
+
+2019-04-04 18:52:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Username"), username): Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2019-04-04 18:52:08 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2019-04-04 18:52:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Password"), password): Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2019-04-04 18:52:08 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2019-04-04 18:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Login_Submit")): Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-04-04 18:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-04-04 18:52:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VirtualTerminal/Login' successfully
+
+2019-04-04 18:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard/AccessAhmedPayment")): Object: 'Object Repository/Dashboard/AccessAhmedPayment' is clicked on
+
+2019-04-04 18:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/AccessAhmedPayment' is clicked on
+
+2019-04-04 18:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Issue Transactions/SaleLink")): Object: 'Object Repository/Issue Transactions/SaleLink' is clicked on
+
+2019-04-04 18:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Issue Transactions/SaleLink' is clicked on
+
+2019-04-04 18:52:11 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/ClientAccountNumber"), "123456wwe"): Text '123456wwe' is set on object 'Object Repository/Sale Payment Entry/ClientAccountNumber'
+
+2019-04-04 18:52:11 - [MESSAGE][PASSED] - Text '123456wwe' is set on object 'Object Repository/Sale Payment Entry/ClientAccountNumber'
+
+2019-04-04 18:52:11 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/CardName"), "imtiaz ahmed"): Text 'imtiaz ahmed' is set on object 'Object Repository/Sale Payment Entry/CardName'
+
+2019-04-04 18:52:11 - [MESSAGE][PASSED] - Text 'imtiaz ahmed' is set on object 'Object Repository/Sale Payment Entry/CardName'
+
+2019-04-04 18:52:11 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/AL1"), "2311 york road"): Text '2311 york road' is set on object 'Object Repository/Sale Payment Entry/AL1'
+
+2019-04-04 18:52:11 - [MESSAGE][PASSED] - Text '2311 york road' is set on object 'Object Repository/Sale Payment Entry/AL1'
+
+2019-04-04 18:52:11 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/ZIP"), "22201"): Text '22201' is set on object 'Object Repository/Sale Payment Entry/ZIP'
+
+2019-04-04 18:52:12 - [MESSAGE][PASSED] - Text '22201' is set on object 'Object Repository/Sale Payment Entry/ZIP'
+
+2019-04-04 18:52:12 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/CardNumber"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/Sale Payment Entry/CardNumber'
+
+2019-04-04 18:52:12 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/Sale Payment Entry/CardNumber'
+
+2019-04-04 18:52:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/MM"), "3", true): All options with value '3' are selected in object 'Object Repository/Sale Payment Entry/MM'  using regular expression
+
+2019-04-04 18:52:12 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Sale Payment Entry/MM'  using regular expression
+
+2019-04-04 18:52:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/YYYY"), "2024", true): All options with value '2024' are selected in object 'Object Repository/Sale Payment Entry/YYYY'  using regular expression
+
+2019-04-04 18:52:12 - [MESSAGE][PASSED] - All options with value '2024' are selected in object 'Object Repository/Sale Payment Entry/YYYY'  using regular expression
+
+2019-04-04 18:52:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/TransactionCategory"), "MOTO", true): All options with value 'MOTO' are selected in object 'Object Repository/Sale Payment Entry/TransactionCategory'  using regular expression
+
+2019-04-04 18:52:13 - [MESSAGE][PASSED] - All options with value 'MOTO' are selected in object 'Object Repository/Sale Payment Entry/TransactionCategory'  using regular expression
+
+2019-04-04 18:52:13 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/Amount"), "10.00"): Text '10.00' is set on object 'Object Repository/Sale Payment Entry/Amount'
+
+2019-04-04 18:52:13 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Sale Payment Entry/Amount'
+
+2019-04-04 18:52:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/UDF1"), "groupItem66", true): All options with value 'groupItem66' are selected in object 'Object Repository/Sale Payment Entry/UDF1'  using regular expression
+
+2019-04-04 18:52:13 - [MESSAGE][PASSED] - All options with value 'groupItem66' are selected in object 'Object Repository/Sale Payment Entry/UDF1'  using regular expression
+
+2019-04-04 18:52:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/UDF2"), "groupItem84", true): All options with value 'groupItem84' are selected in object 'Object Repository/Sale Payment Entry/UDF2'  using regular expression
+
+2019-04-04 18:52:13 - [MESSAGE][PASSED] - All options with value 'groupItem84' are selected in object 'Object Repository/Sale Payment Entry/UDF2'  using regular expression
+
+2019-04-04 18:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Sale Payment Entry/Submit")): Object: 'Object Repository/Sale Payment Entry/Submit' is clicked on
+
+2019-04-04 18:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Sale Payment Entry/Submit' is clicked on
+
+2019-04-04 18:52:14 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction Successful", true): Text 'Transaction Successful' is present on page  using regular expression
+
+2019-04-04 18:52:14 - [MESSAGE][PASSED] - Text 'Transaction Successful' is present on page  using regular expression
+
+2019-04-04 18:52:14 - [TEST_STEP][PASSED] - verifyTextPresent("The transaction has been successfully processed", true): Text 'The transaction has been successfully processed' is present on page  using regular expression
+
+2019-04-04 18:52:14 - [MESSAGE][PASSED] - Text 'The transaction has been successfully processed' is present on page  using regular expression
+
+2019-04-04 18:52:14 - [TEST_STEP][PASSED] - sdf = getText(findTestObject("Receipt/div_Transaction Successful")): Text of object 'Object Repository/Receipt/div_Transaction Successful' is: 'Transaction Successful
+The transaction has been successfully processed. Please click here to continue.
+
+To print a receipt, please  click here
+
+Please print this receipt for your records
+Remittance ID:  AhmedP040419185211129Ahm
+Mel label mod:  123456wwe
+Received:  April 04, 2019 06:52PM EDT
+udf1:  vanilla type
+udf2:  Scr009
+udf3: 
+udf4: 
+udf5: 
+Amount:   $10.00
+CF Label:   $0.00
+CF Label Type:   Single Transaction
+Total Amount:  $10.00
+Transaction Type:  Authorization and Capture
+Card Information:  Visa
+IMTIAZ AHMED
+************1111
+Billing information:  Address Line 1: 2311 york road
+Country: United States
+City: ARLINGTON
+State: Virginia
+ZIP Code: 22201'
+
+2019-04-04 18:52:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Receipt/div_Transaction Successful' is: 'Transaction Successful
+The transaction has been successfully processed. Please click here to continue.
+
+To print a receipt, please  click here
+
+Please print this receipt for your records
+Remittance ID:  AhmedP040419185211129Ahm
+Mel label mod:  123456wwe
+Received:  April 04, 2019 06:52PM EDT
+udf1:  vanilla type
+udf2:  Scr009
+udf3: 
+udf4: 
+udf5: 
+Amount:   $10.00
+CF Label:   $0.00
+CF Label Type:   Single Transaction
+Total Amount:  $10.00
+Transaction Type:  Authorization and Capture
+Card Information:  Visa
+IMTIAZ AHMED
+************1111
+Billing information:  Address Line 1: 2311 york road
+Country: United States
+City: ARLINGTON
+State: Virginia
+ZIP Code: 22201'
+
+2019-04-04 18:52:15 - [TEST_STEP][PASSED] - out.println("sdf: " + sdf): null
+
+2019-04-04 18:52:15 - [TEST_STEP][PASSED] - remID = substring(203, 227).trim(): null
+
+2019-04-04 18:52:15 - [TEST_STEP][PASSED] - out.println("remID: " + remID): null
+
+2019-04-04 18:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_V-POS - Transaction Successfully Processed/a_Issue Transactions")): Object: 'Object Repository/Page_V-POS - Transaction Successfully Processed/a_Issue Transactions' is clicked on
+
+2019-04-04 18:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_V-POS - Transaction Successfully Processed/a_Issue Transactions' is clicked on
+
+2019-04-04 18:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_V-POS - Transactions Menu/a_Search Transactions")): Object: 'Object Repository/Page_V-POS - Transactions Menu/a_Search Transactions' is clicked on
+
+2019-04-04 18:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_V-POS - Transactions Menu/a_Search Transactions' is clicked on
+
+2019-04-04 18:52:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_V-POS - Search Transactions/input_Search Value"), remID): Text 'AhmedP040419185211129Ahm' is set on object 'Object Repository/Page_V-POS - Search Transactions/input_Search Value'
+
+2019-04-04 18:52:16 - [MESSAGE][PASSED] - Text 'AhmedP040419185211129Ahm' is set on object 'Object Repository/Page_V-POS - Search Transactions/input_Search Value'
+
+2019-04-04 18:52:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_V-POS - Search Transactions/select_CCTranx"), "104", true): All options with value '104' are selected in object 'Object Repository/Page_V-POS - Search Transactions/select_CCTranx'  using regular expression
+
+2019-04-04 18:52:16 - [MESSAGE][PASSED] - All options with value '104' are selected in object 'Object Repository/Page_V-POS - Search Transactions/select_CCTranx'  using regular expression
+
+2019-04-04 18:52:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_V-POS - Search Transactions/input_AdvSearch_sbutton")): Object: 'Object Repository/Page_V-POS - Search Transactions/input_AdvSearch_sbutton' is clicked on
+
+2019-04-04 18:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_V-POS - Search Transactions/input_AdvSearch_sbutton' is clicked on
+
+2019-04-04 18:52:16 - [TEST_STEP][PASSED] - fgr = getText(findTestObject("Object Repository/Page_Transaction Search Results/div_PaymentID")): Text of object 'Object Repository/Page_Transaction Search Results/div_PaymentID' is: 'Application: Ahmed Payment
+v+POS
+Transaction Search Results
+
+Transactions Matching Search Criteria:
+One item found.
+Page: 1
+Payment ID Payment Type Transaction Type Remittance ID Name Total Amount End Date Status
+11997137 Credit Card Authorization and Capture AhmedP040419185211129Ahm imtiaz ahmed $10.00 04/04/2019 Success
+One item found.
+Page: 1
+All times are displayed in Eastern Standard Time
+
+Modify Search Criteria'
+
+2019-04-04 18:52:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Transaction Search Results/div_PaymentID' is: 'Application: Ahmed Payment
+v+POS
+Transaction Search Results
+
+Transactions Matching Search Criteria:
+One item found.
+Page: 1
+Payment ID Payment Type Transaction Type Remittance ID Name Total Amount End Date Status
+11997137 Credit Card Authorization and Capture AhmedP040419185211129Ahm imtiaz ahmed $10.00 04/04/2019 Success
+One item found.
+Page: 1
+All times are displayed in Eastern Standard Time
+
+Modify Search Criteria'
+
+2019-04-04 18:52:16 - [TEST_STEP][PASSED] - payID = substring(213, 221).trim(): null
+
+2019-04-04 18:52:16 - [TEST_STEP][PASSED] - out.println("payID: " + payID): null
+
+2019-04-04 18:52:16 - [TEST_STEP][PASSED] - remIDLink = modifyObjectProperty(findTestObject("Object Repository/Page_Transaction Search Results/a_11997044"), "text", "equals", payID, true): Modify property of object successfully
+
+2019-04-04 18:52:16 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-04-04 18:52:16 - [TEST_STEP][PASSED] - click(remIDLink): Object: 'Object Repository/Page_Transaction Search Results/a_11997044' is clicked on
+
+2019-04-04 18:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Transaction Search Results/a_11997044' is clicked on
+
+2019-04-04 18:52:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_V-POS - Transaction Detail/a_Void this transaction")): Object: 'Object Repository/Page_V-POS - Transaction Detail/a_Void this transaction' is clicked on
+
+2019-04-04 18:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_V-POS - Transaction Detail/a_Void this transaction' is clicked on
+
+2019-04-04 18:52:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Void Confirmation/input_Date_submit")): Object: 'Object Repository/Page_Void Confirmation/input_Date_submit' is clicked on
+
+2019-04-04 18:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Void Confirmation/input_Date_submit' is clicked on
+
+2019-04-04 18:52:18 - [TEST_STEP][PASSED] - verifyTextPresent("Void", true): Text 'Void' is present on page  using regular expression
+
+2019-04-04 18:52:18 - [MESSAGE][PASSED] - Text 'Void' is present on page  using regular expression
+
+2019-04-04 18:52:18 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction Successful", true): Text 'Transaction Successful' is present on page  using regular expression
+
+2019-04-04 18:52:18 - [MESSAGE][PASSED] - Text 'Transaction Successful' is present on page  using regular expression
+
+2019-04-04 18:52:18 - [TEST_STEP][PASSED] - verifyTextPresent("The transaction has been successfully processed", true): Text 'The transaction has been successfully processed' is present on page  using regular expression
+
+2019-04-04 18:52:18 - [MESSAGE][PASSED] - Text 'The transaction has been successfully processed' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-04 18:51:23 - [TEST_SUITE][PASSED] - QA Smoke Test: Test Cases/VirtualTerminal/Sale-Void]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

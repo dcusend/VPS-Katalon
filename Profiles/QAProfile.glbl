@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QAProfile</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/admin/imtiaz'</initValue>
+      <name>AdminSuiteURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'iahmed'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hello2222'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>QA Emulator URL</description>
+      <initValue>'https://qa.velocitypayment.com/agency/config.do?action=editor'</initValue>
+      <name>urlEmulator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>QA TestHarness URL</description>
+      <initValue>'https://dev-algorithm.govolution.com/vrelaytest/QA/version_2_2/vrelaytest.html'</initValue>
+      <name>urlTestHarness</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'987'</initValue>
+      <name>VLinkSaleRemID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'987'</initValue>
+      <name>VLinkSaleTranxID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/'</initValue>
+      <name>VLinkURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/deep'</initValue>
+      <name>MultiBillNoCFURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/deepscf'</initValue>
+      <name>MultiBillSingleCFURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/deepdcf'</initValue>
+      <name>MultiBillDualCFURL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The Test Case verifies the error message for a duplicate transaction.</description>
+   <name>DuplicateTransactionCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d144272e-2b02-4087-8a05-7687f7d603c6</testCaseGuid>
+</TestCaseEntity>

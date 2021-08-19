@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ACHDebit-ReqFieldsOnly</name>
+   <tag>ACH Debit</tag>
+   <comment></comment>
+   <testCaseGuid>d2f494e4-5682-4d48-8afe-53d8b0379f01</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test Case verifies the error message for when the card is expired.</description>
+   <name>CardExpiredErrorCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d712fd2f-f489-4d9e-be0d-0a300213d7e9</testCaseGuid>
+</TestCaseEntity>

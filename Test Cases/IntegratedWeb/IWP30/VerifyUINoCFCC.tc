@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test Case verifies the User Interface for Credit Card like Static text, text boxes, drop downs and buttons.</description>
+   <name>VerifyUINoCFCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea151f20-9842-475d-bd15-97a701b94384</testCaseGuid>
+</TestCaseEntity>

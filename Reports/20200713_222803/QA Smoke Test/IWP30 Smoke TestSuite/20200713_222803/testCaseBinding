@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/IntegratedWeb/IWP30/PayNowReqFieldsCC","testCaseId":"Test Cases/IntegratedWeb/IWP30/PayNowReqFieldsCC"}
+{"testCaseName":"Test Cases/IntegratedWeb/IWP30/Misc","testCaseId":"Test Cases/IntegratedWeb/IWP30/Misc"}
+{"testCaseName":"Test Cases/IntegratedWeb/IWP30/AmountLessThanMinCC","testCaseId":"Test Cases/IntegratedWeb/IWP30/AmountLessThanMinCC"}
+{"testCaseName":"Test Cases/IntegratedWeb/IWP30/AmountMoreThanMaxCC","testCaseId":"Test Cases/IntegratedWeb/IWP30/AmountMoreThanMaxCC"}
+{"testCaseName":"Test Cases/IntegratedWeb/IWP30/MissingReqFieldsCC","testCaseId":"Test Cases/IntegratedWeb/IWP30/MissingReqFieldsCC"}

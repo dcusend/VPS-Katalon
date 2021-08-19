@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case verifies the error message for when amount is more than maximum.</description>
+   <name>AmountMoreThanMaxCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab90a79f-3867-446b-9504-e1a38e6b41d9</testCaseGuid>
+</TestCaseEntity>

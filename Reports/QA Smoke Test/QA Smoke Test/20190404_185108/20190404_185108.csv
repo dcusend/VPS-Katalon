@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+QA Smoke Test,Chrome 73.0.3683.86,,2019-04-04 18:51:23,2019-04-04 18:52:19,56.107s,PASSED
+,,,,,,
+Test Cases/VirtualTerminal/Sale-ReqFieldsOnly,Chrome 73.0.3683.86,,2019-04-04 18:51:25,2019-04-04 18:51:56,30.957s,PASSED
+"callTestCase(findTestCase(""VirtualTerminal/Login""), [""username"":""iahmed"", ""password"":""hello2222""], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-04 18:51:30,2019-04-04 18:51:50,20.477s,PASSED
+"click(findTestObject(""Dashboard/AccessAhmedPayment""))",Chrome 73.0.3683.86,,2019-04-04 18:51:50,2019-04-04 18:51:51,0.441s,PASSED
+"click(findTestObject(""Issue Transactions/SaleLink""))",Chrome 73.0.3683.86,,2019-04-04 18:51:51,2019-04-04 18:51:51,0.549s,PASSED
+"setText(findTestObject(""Sale Payment Entry/ClientAccountNumber""), ""123456wwe"")",Chrome 73.0.3683.86,,2019-04-04 18:51:51,2019-04-04 18:51:52,0.192s,PASSED
+"setText(findTestObject(""Sale Payment Entry/CardName""), ""imtiaz ahmed"")",Chrome 73.0.3683.86,,2019-04-04 18:51:52,2019-04-04 18:51:52,0.192s,PASSED
+"setText(findTestObject(""Sale Payment Entry/AL1""), ""2311 york road"")",Chrome 73.0.3683.86,,2019-04-04 18:51:52,2019-04-04 18:51:52,0.195s,PASSED
+"setText(findTestObject(""Sale Payment Entry/ZIP""), ""22201"")",Chrome 73.0.3683.86,,2019-04-04 18:51:52,2019-04-04 18:51:52,0.141s,PASSED
+"setText(findTestObject(""Sale Payment Entry/CardNumber""), ""4111111111111111"")",Chrome 73.0.3683.86,,2019-04-04 18:51:52,2019-04-04 18:51:52,0.212s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/MM""), ""3"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:52,2019-04-04 18:51:53,0.424s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/YYYY""), ""2024"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:53,2019-04-04 18:51:53,0.353s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/TransactionCategory""), ""MOTO"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:53,2019-04-04 18:51:53,0.184s,PASSED
+"setText(findTestObject(""Sale Payment Entry/Amount""), ""10.00"")",Chrome 73.0.3683.86,,2019-04-04 18:51:53,2019-04-04 18:51:54,0.154s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/UDF1""), ""groupItem66"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:54,2019-04-04 18:51:54,0.484s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/UDF2""), ""groupItem84"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:54,2019-04-04 18:51:54,0.314s,PASSED
+"click(findTestObject(""Sale Payment Entry/Submit""))",Chrome 73.0.3683.86,,2019-04-04 18:51:54,2019-04-04 18:51:55,0.915s,PASSED
+"verifyTextPresent(""Transaction Successful"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:55,2019-04-04 18:51:55,0.150s,PASSED
+"verifyTextPresent(""Authorization and Capture"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:55,2019-04-04 18:51:55,0.070s,PASSED
+"verifyTextPresent(""Visa"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:55,2019-04-04 18:51:56,0.075s,PASSED
+"verifyTextPresent(""IMTIAZ AHMED"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:51:56,0.102s,PASSED
+"verifyTextPresent(""************1111"", false)",Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:51:56,0.075s,PASSED
+"verifyTextPresent(""The transaction has been successfully processed"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:51:56,0.070s,PASSED
+"verifyTextPresent(""2311 york road"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:51:56,0.065s,PASSED
+"verifyTextPresent(""United States"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:51:56,0.068s,PASSED
+"verifyTextPresent(""ARLINGTON"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:51:56,0.073s,PASSED
+"verifyTextPresent(""Virginia"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:51:56,0.065s,PASSED
+"verifyTextPresent(""22201"", true)",Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:51:56,0.069s,PASSED
+,,,,,,
+Test Cases/VirtualTerminal/Sale-Void,Chrome 73.0.3683.86,,2019-04-04 18:51:56,2019-04-04 18:52:18,21.964s,PASSED
+"callTestCase(findTestCase(""VirtualTerminal/Login""), [""username"":""iahmed"", ""password"":""hello2222""], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-04 18:52:00,2019-04-04 18:52:10,9.931s,PASSED
+"click(findTestObject(""Dashboard/AccessAhmedPayment""))",Chrome 73.0.3683.86,,2019-04-04 18:52:10,2019-04-04 18:52:10,0.468s,PASSED
+"click(findTestObject(""Issue Transactions/SaleLink""))",Chrome 73.0.3683.86,,2019-04-04 18:52:10,2019-04-04 18:52:11,0.551s,PASSED
+"setText(findTestObject(""Sale Payment Entry/ClientAccountNumber""), ""123456wwe"")",Chrome 73.0.3683.86,,2019-04-04 18:52:11,2019-04-04 18:52:11,0.201s,PASSED
+"setText(findTestObject(""Sale Payment Entry/CardName""), ""imtiaz ahmed"")",Chrome 73.0.3683.86,,2019-04-04 18:52:11,2019-04-04 18:52:11,0.219s,PASSED
+"setText(findTestObject(""Sale Payment Entry/AL1""), ""2311 york road"")",Chrome 73.0.3683.86,,2019-04-04 18:52:11,2019-04-04 18:52:11,0.204s,PASSED
+"setText(findTestObject(""Sale Payment Entry/ZIP""), ""22201"")",Chrome 73.0.3683.86,,2019-04-04 18:52:11,2019-04-04 18:52:12,0.164s,PASSED
+"setText(findTestObject(""Sale Payment Entry/CardNumber""), ""4111111111111111"")",Chrome 73.0.3683.86,,2019-04-04 18:52:12,2019-04-04 18:52:12,0.228s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/MM""), ""3"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:12,2019-04-04 18:52:12,0.257s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/YYYY""), ""2024"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:12,2019-04-04 18:52:12,0.295s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/TransactionCategory""), ""MOTO"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:12,2019-04-04 18:52:13,0.177s,PASSED
+"setText(findTestObject(""Sale Payment Entry/Amount""), ""10.00"")",Chrome 73.0.3683.86,,2019-04-04 18:52:13,2019-04-04 18:52:13,0.147s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/UDF1""), ""groupItem66"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:13,2019-04-04 18:52:13,0.454s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/UDF2""), ""groupItem84"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:13,2019-04-04 18:52:13,0.213s,PASSED
+"click(findTestObject(""Sale Payment Entry/Submit""))",Chrome 73.0.3683.86,,2019-04-04 18:52:13,2019-04-04 18:52:14,0.837s,PASSED
+"verifyTextPresent(""Transaction Successful"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:14,2019-04-04 18:52:14,0.086s,PASSED
+"verifyTextPresent(""The transaction has been successfully processed"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:14,2019-04-04 18:52:14,0.067s,PASSED
+"sdf = getText(findTestObject(""Receipt/div_Transaction Successful""))",Chrome 73.0.3683.86,,2019-04-04 18:52:14,2019-04-04 18:52:15,0.113s,PASSED
+"out.println(""sdf: "" + sdf)",Chrome 73.0.3683.86,,2019-04-04 18:52:15,2019-04-04 18:52:15,0.002s,PASSED
+"remID = substring(203, 227).trim()",Chrome 73.0.3683.86,,2019-04-04 18:52:15,2019-04-04 18:52:15,0.002s,PASSED
+"out.println(""remID: "" + remID)",Chrome 73.0.3683.86,,2019-04-04 18:52:15,2019-04-04 18:52:15,0.002s,PASSED
+"click(findTestObject(""Page_V-POS - Transaction Successfully Processed/a_Issue Transactions""))",Chrome 73.0.3683.86,,2019-04-04 18:52:15,2019-04-04 18:52:15,0.331s,PASSED
+"click(findTestObject(""Page_V-POS - Transactions Menu/a_Search Transactions""))",Chrome 73.0.3683.86,,2019-04-04 18:52:15,2019-04-04 18:52:15,0.481s,PASSED
+"setText(findTestObject(""Page_V-POS - Search Transactions/input_Search Value""), remID)",Chrome 73.0.3683.86,,2019-04-04 18:52:15,2019-04-04 18:52:16,0.201s,PASSED
+"selectOptionByValue(findTestObject(""Page_V-POS - Search Transactions/select_CCTranx""), ""104"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:16,2019-04-04 18:52:16,0.179s,PASSED
+"click(findTestObject(""Page_V-POS - Search Transactions/input_AdvSearch_sbutton""))",Chrome 73.0.3683.86,,2019-04-04 18:52:16,2019-04-04 18:52:16,0.410s,PASSED
+"fgr = getText(findTestObject(""Object Repository/Page_Transaction Search Results/div_PaymentID""))",Chrome 73.0.3683.86,,2019-04-04 18:52:16,2019-04-04 18:52:16,0.075s,PASSED
+"payID = substring(213, 221).trim()",Chrome 73.0.3683.86,,2019-04-04 18:52:16,2019-04-04 18:52:16,0.002s,PASSED
+"out.println(""payID: "" + payID)",Chrome 73.0.3683.86,,2019-04-04 18:52:16,2019-04-04 18:52:16,0.002s,PASSED
+"remIDLink = modifyObjectProperty(findTestObject(""Object Repository/Page_Transaction Search Results/a_11997044""), ""text"", ""equals"", payID, true)",Chrome 73.0.3683.86,,2019-04-04 18:52:16,2019-04-04 18:52:16,0.066s,PASSED
+click(remIDLink),Chrome 73.0.3683.86,,2019-04-04 18:52:16,2019-04-04 18:52:17,0.402s,PASSED
+"click(findTestObject(""Object Repository/Page_V-POS - Transaction Detail/a_Void this transaction""))",Chrome 73.0.3683.86,,2019-04-04 18:52:17,2019-04-04 18:52:17,0.391s,PASSED
+"click(findTestObject(""Object Repository/Page_Void Confirmation/input_Date_submit""))",Chrome 73.0.3683.86,,2019-04-04 18:52:17,2019-04-04 18:52:18,0.841s,PASSED
+"verifyTextPresent(""Void"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:18,2019-04-04 18:52:18,0.084s,PASSED
+"verifyTextPresent(""Transaction Successful"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:18,2019-04-04 18:52:18,0.065s,PASSED
+"verifyTextPresent(""The transaction has been successfully processed"", true)",Chrome 73.0.3683.86,,2019-04-04 18:52:18,2019-04-04 18:52:18,0.061s,PASSED

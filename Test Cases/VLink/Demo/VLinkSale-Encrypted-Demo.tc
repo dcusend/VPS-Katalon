@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test Case is to verify if HSM is working correctly.</description>
+   <name>VLinkSale-Encrypted-Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23ac4a5e-03d3-4095-9096-462867c1a424</testCaseGuid>
+</TestCaseEntity>

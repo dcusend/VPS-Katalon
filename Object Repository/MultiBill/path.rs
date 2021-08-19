@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>6463ad38-0aba-4449-92db-f0c6f355284e</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;billSearchTableBody&quot;)/tr[@class=&quot;ng-scope&quot;]/td[8]/a[@class=&quot;addTo align-items-center d-flex justify-content-center btn py-1 btn rounded-pill&quot;]/svg[@class=&quot;cartIcon&quot;]/path[6]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M266.2,242.916c14.58,5.906,30.501,9.167,47.174,9.167c69.5,0,126.042-56.541,126.042-126.041
+												c0-34.75-14.136-66.26-36.958-89.083C379.635,14.136,348.125,0,313.375,0c-47.213,0-88.439,26.099-110.029,64.623
+												c-10.19,18.184-16.012,39.133-16.012,61.418C187.333,178.868,220.005,224.202,266.2,242.916z M267.542,114.583h34.375V80.208
+												c0-6.334,5.125-11.459,11.458-11.459c6.333,0.001,11.459,5.126,11.459,11.459v34.375h34.375c6.333,0,11.458,5.125,11.458,11.459
+												s-5.125,11.458-11.458,11.458h-34.375v34.374c0,6.333-5.126,11.458-11.459,11.458c-6.334,0-11.459-5.125-11.459-11.458v-34.374
+												h-34.374c-6.334,0-11.459-5.125-11.459-11.458C256.083,119.709,261.209,114.583,267.542,114.583z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;billSearchTableBody&quot;)/tr[@class=&quot;ng-scope&quot;]/td[8]/a[@class=&quot;addTo align-items-center d-flex justify-content-center btn py-1 btn rounded-pill&quot;]/svg[@class=&quot;cartIcon&quot;]/path[6]</value>
+   </webElementProperties>
+</WebElementEntity>

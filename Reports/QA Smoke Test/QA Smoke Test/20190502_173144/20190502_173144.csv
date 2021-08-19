@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+QA Smoke Test,Chrome 74.0.3729.131,,2019-05-02 17:31:50,2019-05-02 17:32:28,38.394s,PASSED
+,,,,,,
+Test Cases/VirtualTerminal/Sale-ReqFieldsOnly,Chrome 74.0.3729.131,,2019-05-02 17:31:51,2019-05-02 17:32:13,21.806s,PASSED
+"callTestCase(findTestCase(""VirtualTerminal/Login""), [""username"":""iahmed"", ""password"":""hello2222""], STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-02 17:31:55,2019-05-02 17:32:08,12.598s,PASSED
+"click(findTestObject(""Dashboard/AccessAhmedPayment""))",Chrome 74.0.3729.131,,2019-05-02 17:32:08,2019-05-02 17:32:08,0.539s,PASSED
+"click(findTestObject(""Issue Transactions/SaleLink""))",Chrome 74.0.3729.131,,2019-05-02 17:32:08,2019-05-02 17:32:09,0.640s,PASSED
+"setText(findTestObject(""Sale Payment Entry/ClientAccountNumber""), ""123456wwe"")",Chrome 74.0.3729.131,,2019-05-02 17:32:09,2019-05-02 17:32:09,0.180s,PASSED
+"setText(findTestObject(""Sale Payment Entry/CardName""), ""imtiaz ahmed"")",Chrome 74.0.3729.131,,2019-05-02 17:32:09,2019-05-02 17:32:09,0.168s,PASSED
+"setText(findTestObject(""Sale Payment Entry/AL1""), ""2311 york road"")",Chrome 74.0.3729.131,,2019-05-02 17:32:09,2019-05-02 17:32:09,0.181s,PASSED
+"setText(findTestObject(""Sale Payment Entry/ZIP""), ""22201"")",Chrome 74.0.3729.131,,2019-05-02 17:32:09,2019-05-02 17:32:09,0.123s,PASSED
+"setText(findTestObject(""Sale Payment Entry/CardNumber""), ""4111111111111111"")",Chrome 74.0.3729.131,,2019-05-02 17:32:09,2019-05-02 17:32:10,0.190s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/MM""), ""3"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:10,2019-05-02 17:32:10,0.289s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/YYYY""), ""2024"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:10,2019-05-02 17:32:10,0.295s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/TransactionCategory""), ""MOTO"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:10,2019-05-02 17:32:10,0.161s,PASSED
+"setText(findTestObject(""Sale Payment Entry/Amount""), ""10.00"")",Chrome 74.0.3729.131,,2019-05-02 17:32:10,2019-05-02 17:32:10,0.126s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/UDF1""), ""groupItem66"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:10,2019-05-02 17:32:11,0.498s,PASSED
+"selectOptionByValue(findTestObject(""Sale Payment Entry/UDF2""), ""groupItem84"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:11,2019-05-02 17:32:11,0.177s,PASSED
+"click(findTestObject(""Sale Payment Entry/Submit""))",Chrome 74.0.3729.131,,2019-05-02 17:32:11,2019-05-02 17:32:12,0.953s,PASSED
+"verifyTextPresent(""Transaction Successful"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:12,2019-05-02 17:32:12,0.118s,PASSED
+"verifyTextPresent(""Authorization and Capture"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:12,2019-05-02 17:32:12,0.065s,PASSED
+"verifyTextPresent(""Visa"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:12,2019-05-02 17:32:12,0.067s,PASSED
+"verifyTextPresent(""IMTIAZ AHMED"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:12,2019-05-02 17:32:12,0.057s,PASSED
+"verifyTextPresent(""************1111"", false)",Chrome 74.0.3729.131,,2019-05-02 17:32:12,2019-05-02 17:32:12,0.058s,PASSED
+"verifyTextPresent(""The transaction has been successfully processed"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:12,2019-05-02 17:32:13,0.058s,PASSED
+"verifyTextPresent(""2311 york road"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:13,2019-05-02 17:32:13,0.065s,PASSED
+"verifyTextPresent(""United States"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:13,2019-05-02 17:32:13,0.064s,PASSED
+"verifyTextPresent(""ARLINGTON"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:13,2019-05-02 17:32:13,0.056s,PASSED
+"verifyTextPresent(""Virginia"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:13,2019-05-02 17:32:13,0.055s,PASSED
+"verifyTextPresent(""22201"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:13,2019-05-02 17:32:13,0.089s,PASSED
+,,,,,,
+Test Cases/VLink/VLinkSale-ReqFieldsOnly,Chrome 74.0.3729.131,,2019-05-02 17:32:13,2019-05-02 17:32:28,14.618s,PASSED
+"openBrowser(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"")",Chrome 74.0.3729.131,,2019-05-02 17:32:16,2019-05-02 17:32:19,3.064s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-02 17:32:19,2019-05-02 17:32:20,1.122s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Transaction Type""), ""104"")",Chrome 74.0.3729.131,,2019-05-02 17:32:20,2019-05-02 17:32:21,0.149s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Message Version""), ""2.0C"")",Chrome 74.0.3729.131,,2019-05-02 17:32:21,2019-05-02 17:32:21,0.117s,PASSED
+"genRemID = RandomStringUtils.random(12, true, true)",Chrome 74.0.3729.131,,2019-05-02 17:32:21,2019-05-02 17:32:21,0.036s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Remittance Id_remittance_id""), genRemID)",Chrome 74.0.3729.131,,2019-05-02 17:32:21,2019-05-02 17:32:21,0.160s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Application Id_application_id""), ""234"")",Chrome 74.0.3729.131,,2019-05-02 17:32:21,2019-05-02 17:32:21,0.108s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Username_username""), ""username"")",Chrome 74.0.3729.131,,2019-05-02 17:32:21,2019-05-02 17:32:21,0.136s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Password_password""), ""password"")",Chrome 74.0.3729.131,,2019-05-02 17:32:21,2019-05-02 17:32:21,0.141s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Response Format_response_format""), ""fixed_width"")",Chrome 74.0.3729.131,,2019-05-02 17:32:21,2019-05-02 17:32:22,0.148s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Category_category""), ""ECOM"")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:22,0.111s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Transaction ID_transaction_id""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:22,0.096s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Approval Code_approval_code""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:22,0.087s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card name_card_name""), ""Imtiaz Ahmed"")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:22,0.156s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card address_card_address""), ""2311 york road"")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:22,0.161s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card address2_card_address2""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:22,0.088s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card city_card_city""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:22,0.090s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card state_card_state""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:22,0.091s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card zip_card_zip""), ""22201"")",Chrome 74.0.3729.131,,2019-05-02 17:32:22,2019-05-02 17:32:23,0.116s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Country ID_country_id""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:23,0.087s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Amount_amount""), ""10.00"")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:23,0.115s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card number_card_number""), ""4111111111111111"")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:23,0.166s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card ex month_card_exmo""), ""06"")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:23,0.102s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Card ex year_card_exyr""), ""2020"")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:23,0.119s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_CVV data_cvv_data""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:23,0.129s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_CVV state_cvv_state""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:23,0.093s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Track Data_track_data""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:23,0.092s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Track 1 Data_track_1_data""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:23,2019-05-02 17:32:24,0.096s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Track 2 Data_track_2_data""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.087s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_POS Entry mode_entry_mode""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.093s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_concat(Cardholder  s email)_email""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.093s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Order Number_order_number""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.090s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Tax Amount_tax_amount""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.087s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Charge Description_charge_description""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.101s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Client Account Number_client_account_number""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.089s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_Bill Payment Indicator_bill_payment_indicator""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.112s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined1_user_defined1""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.094s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined2_user_defined2""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:24,2019-05-02 17:32:24,0.107s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined3_user_defined3""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:25,0.096s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined4_user_defined4""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:25,0.096s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined5_user_defined5""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:25,0.091s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined6_user_defined6""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:25,0.088s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined7_user_defined7""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:25,0.089s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined8_user_defined8""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:25,0.094s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined9_user_defined9""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:25,0.091s,PASSED
+"setText(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input_user_defined10_user_defined10""), """")",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:25,0.092s,PASSED
+"click(findTestObject(""Object Repository/Page_QAVLinkAuthCap/input""))",Chrome 74.0.3729.131,,2019-05-02 17:32:25,2019-05-02 17:32:26,0.751s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 74.0.3729.131,,2019-05-02 17:32:26,2019-05-02 17:32:26,0.043s,PASSED
+"sdfo = getText(findTestObject(""Object Repository/Page_VLinkReceipt/pre_STX""))",Chrome 74.0.3729.131,,2019-05-02 17:32:26,2019-05-02 17:32:26,0.099s,PASSED
+"out.println(""sdfo: "" + sdfo)",Chrome 74.0.3729.131,,2019-05-02 17:32:26,2019-05-02 17:32:26,0.002s,PASSED
+"remID = substring(5, 35).trim()",Chrome 74.0.3729.131,,2019-05-02 17:32:26,2019-05-02 17:32:26,0.004s,PASSED
+"out.println(""remID: "" + remID)",Chrome 74.0.3729.131,,2019-05-02 17:32:26,2019-05-02 17:32:26,0.002s,PASSED
+"traxID = substring(35, 55).trim()",Chrome 74.0.3729.131,,2019-05-02 17:32:26,2019-05-02 17:32:26,0.002s,PASSED
+"out.println(""traxID: "" + traxID)",Chrome 74.0.3729.131,,2019-05-02 17:32:26,2019-05-02 17:32:26,0.002s,PASSED
+VLinkSaleRemID = remID,Chrome 74.0.3729.131,,2019-05-02 17:32:26,2019-05-02 17:32:28,1.350s,PASSED
+VLinkSaleTranxID = traxID,Chrome 74.0.3729.131,,2019-05-02 17:32:28,2019-05-02 17:32:28,0.002s,PASSED

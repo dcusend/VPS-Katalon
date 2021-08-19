@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EnhancedMultiBillTestSuite,,,,2021-08-11 23:34:24,2021-08-11 23:34:27,3.372s,ERROR
+,,,,,,,
+Test Cases/MultiBill/SingleBillCC,,,,2021-08-11 23:34:24,2021-08-11 23:34:25,0.659s,ERROR
+,,,,,,,
+Test Cases/MultiBill/SingleBillCC,,,,2021-08-11 23:34:25,2021-08-11 23:34:26,0.663s,ERROR
+,,,,,,,
+Test Cases/MultiBill/SingleBillCC,,,,2021-08-11 23:34:26,2021-08-11 23:34:26,0.615s,ERROR
+,,,,,,,
+Test Cases/MultiBill/SingleBillCC,,,,2021-08-11 23:34:26,2021-08-11 23:34:27,0.514s,ERROR

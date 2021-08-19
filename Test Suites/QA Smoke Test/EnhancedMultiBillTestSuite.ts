@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>EnhancedMultiBillTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>7423403c-f850-4a41-9202-ed97c47e4cb7</testSuiteGuid>
+   <testCaseLink>
+      <guid>abf1806d-6977-4d3c-a0df-d4d603765214</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MultiBill/SingleBillCC</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>73a0f813-723c-4fc4-908e-b8f155621323</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/QA/EnhancedMultiBillTestData/SingleBillCCTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>73a0f813-723c-4fc4-908e-b8f155621323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Result</value>
+         <variableId>b8e49881-5dfc-410d-bcf9-da703a4c60a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>73a0f813-723c-4fc4-908e-b8f155621323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date</value>
+         <variableId>7fc315be-e3e8-45bb-8f84-55ea9f121afa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>73a0f813-723c-4fc4-908e-b8f155621323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Test Case</value>
+         <variableId>991fc14f-3eec-47d3-945b-03f8c84076f2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>73a0f813-723c-4fc4-908e-b8f155621323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Execute</value>
+         <variableId>329f1a02-333a-49e0-9229-5402527e67c0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>73a0f813-723c-4fc4-908e-b8f155621323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SearchString</value>
+         <variableId>2d9e9379-86b8-4e80-9406-0fa7086a0428</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>73a0f813-723c-4fc4-908e-b8f155621323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardNumber</value>
+         <variableId>9efa8f6e-22b3-420b-a24e-855fe4fcfdfb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>73a0f813-723c-4fc4-908e-b8f155621323</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV</value>
+         <variableId>9944a216-d5b8-4b40-b6c0-da67a8303258</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

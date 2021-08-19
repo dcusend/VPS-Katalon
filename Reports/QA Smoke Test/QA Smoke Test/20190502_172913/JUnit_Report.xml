@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QA Smoke Test" time="40" tests="2" failures="0" errors="0">
+   <testsuite name="QA Smoke Test" tests="2" failures="0" errors="0" time="40" timestamp="2019-05-02 17:29:20" hostname="DESKTOP-B2QI6NS$ - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/QA Smoke Test/QA Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="\\\\saleen\\tech\\QA\\KatalonProjects\\VPSSmoke\\VPS-Smoke-Version001\\Reports\\QA Smoke Test\\QA Smoke Test\\20190502_172913"/>
+         <property name="logFiles" value="\\\\saleen\\tech\\QA\\KatalonProjects\\VPSSmoke\\VPS-Smoke-Version001\\Reports\\QA Smoke Test\\QA Smoke Test\\20190502_172913\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-B2QI6NS$ - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="192.168.0.24"/>
+         <property name="sessionId" value="bf79ada9f87135bef9023b423dd8682c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/VirtualTerminal/Sale-ReqFieldsOnly" classname="Test Cases/VirtualTerminal/Sale-ReqFieldsOnly" status="PASSED">
+         <system-out><![CDATA[2019-05-02 17:29:21 - [TEST_CASE][PASSED] - Test Cases/VirtualTerminal/Sale-ReqFieldsOnly: Test Cases/VirtualTerminal/Sale-ReqFieldsOnly
+
+2019-05-02 17:29:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("VirtualTerminal/Login"), ["username":"iahmed", "password":"hello2222"], STOP_ON_FAILURE): Call Test Case 'Test Cases/VirtualTerminal/Login' successfully
+
+2019-05-02 17:29:26 - [TEST_CASE][PASSED] - Test Cases/VirtualTerminal/Login: Test Cases/VirtualTerminal/Login
+
+2019-05-02 17:29:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-02 17:29:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-02 17:29:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-02 17:29:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-02 17:29:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-02 17:29:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-02 17:29:35 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.velocitypayment.com/admin/imtiaz"): Navigate to 'https://qa.velocitypayment.com/admin/imtiaz' successfully
+
+2019-05-02 17:29:36 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/admin/imtiaz' successfully
+
+2019-05-02 17:29:36 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Login_Page/Login_Username"), 30)): Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-05-02 17:29:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2019-05-02 17:29:36 - [TEST_STEP][PASSED] - out.println("We are on Login Page, start populating the fields"): null
+
+2019-05-02 17:29:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Username"), username): Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2019-05-02 17:29:36 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2019-05-02 17:29:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/Login_Password"), password): Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2019-05-02 17:29:36 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2019-05-02 17:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Login_Submit")): Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-05-02 17:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2019-05-02 17:29:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VirtualTerminal/Login' successfully
+
+2019-05-02 17:29:39 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard/AccessAhmedPayment")): Object: 'Object Repository/Dashboard/AccessAhmedPayment' is clicked on
+
+2019-05-02 17:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard/AccessAhmedPayment' is clicked on
+
+2019-05-02 17:29:39 - [TEST_STEP][PASSED] - click(findTestObject("Issue Transactions/SaleLink")): Object: 'Object Repository/Issue Transactions/SaleLink' is clicked on
+
+2019-05-02 17:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Issue Transactions/SaleLink' is clicked on
+
+2019-05-02 17:29:40 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/ClientAccountNumber"), "123456wwe"): Text '123456wwe' is set on object 'Object Repository/Sale Payment Entry/ClientAccountNumber'
+
+2019-05-02 17:29:41 - [MESSAGE][PASSED] - Text '123456wwe' is set on object 'Object Repository/Sale Payment Entry/ClientAccountNumber'
+
+2019-05-02 17:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/CardName"), "imtiaz ahmed"): Text 'imtiaz ahmed' is set on object 'Object Repository/Sale Payment Entry/CardName'
+
+2019-05-02 17:29:41 - [MESSAGE][PASSED] - Text 'imtiaz ahmed' is set on object 'Object Repository/Sale Payment Entry/CardName'
+
+2019-05-02 17:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/AL1"), "2311 york road"): Text '2311 york road' is set on object 'Object Repository/Sale Payment Entry/AL1'
+
+2019-05-02 17:29:41 - [MESSAGE][PASSED] - Text '2311 york road' is set on object 'Object Repository/Sale Payment Entry/AL1'
+
+2019-05-02 17:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/ZIP"), "22201"): Text '22201' is set on object 'Object Repository/Sale Payment Entry/ZIP'
+
+2019-05-02 17:29:41 - [MESSAGE][PASSED] - Text '22201' is set on object 'Object Repository/Sale Payment Entry/ZIP'
+
+2019-05-02 17:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/CardNumber"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/Sale Payment Entry/CardNumber'
+
+2019-05-02 17:29:41 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/Sale Payment Entry/CardNumber'
+
+2019-05-02 17:29:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/MM"), "3", true): All options with value '3' are selected in object 'Object Repository/Sale Payment Entry/MM'  using regular expression
+
+2019-05-02 17:29:41 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Sale Payment Entry/MM'  using regular expression
+
+2019-05-02 17:29:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/YYYY"), "2024", true): All options with value '2024' are selected in object 'Object Repository/Sale Payment Entry/YYYY'  using regular expression
+
+2019-05-02 17:29:42 - [MESSAGE][PASSED] - All options with value '2024' are selected in object 'Object Repository/Sale Payment Entry/YYYY'  using regular expression
+
+2019-05-02 17:29:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/TransactionCategory"), "MOTO", true): All options with value 'MOTO' are selected in object 'Object Repository/Sale Payment Entry/TransactionCategory'  using regular expression
+
+2019-05-02 17:29:42 - [MESSAGE][PASSED] - All options with value 'MOTO' are selected in object 'Object Repository/Sale Payment Entry/TransactionCategory'  using regular expression
+
+2019-05-02 17:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("Sale Payment Entry/Amount"), "10.00"): Text '10.00' is set on object 'Object Repository/Sale Payment Entry/Amount'
+
+2019-05-02 17:29:42 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Sale Payment Entry/Amount'
+
+2019-05-02 17:29:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/UDF1"), "groupItem66", true): All options with value 'groupItem66' are selected in object 'Object Repository/Sale Payment Entry/UDF1'  using regular expression
+
+2019-05-02 17:29:43 - [MESSAGE][PASSED] - All options with value 'groupItem66' are selected in object 'Object Repository/Sale Payment Entry/UDF1'  using regular expression
+
+2019-05-02 17:29:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Sale Payment Entry/UDF2"), "groupItem84", true): All options with value 'groupItem84' are selected in object 'Object Repository/Sale Payment Entry/UDF2'  using regular expression
+
+2019-05-02 17:29:43 - [MESSAGE][PASSED] - All options with value 'groupItem84' are selected in object 'Object Repository/Sale Payment Entry/UDF2'  using regular expression
+
+2019-05-02 17:29:43 - [TEST_STEP][PASSED] - click(findTestObject("Sale Payment Entry/Submit")): Object: 'Object Repository/Sale Payment Entry/Submit' is clicked on
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Sale Payment Entry/Submit' is clicked on
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction Successful", true): Text 'Transaction Successful' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text 'Transaction Successful' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("Authorization and Capture", true): Text 'Authorization and Capture' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text 'Authorization and Capture' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("Visa", true): Text 'Visa' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text 'Visa' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("IMTIAZ AHMED", true): Text 'IMTIAZ AHMED' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text 'IMTIAZ AHMED' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("************1111", false): Text '************1111' is present on page 
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text '************1111' is present on page 
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("The transaction has been successfully processed", true): Text 'The transaction has been successfully processed' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text 'The transaction has been successfully processed' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("2311 york road", true): Text '2311 york road' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text '2311 york road' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("United States", true): Text 'United States' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text 'United States' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("ARLINGTON", true): Text 'ARLINGTON' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text 'ARLINGTON' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("Virginia", true): Text 'Virginia' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text 'Virginia' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [TEST_STEP][PASSED] - verifyTextPresent("22201", true): Text '22201' is present on page  using regular expression
+
+2019-05-02 17:29:45 - [MESSAGE][PASSED] - Text '22201' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VLink/VLinkSale-ReqFieldsOnly" classname="Test Cases/VLink/VLinkSale-ReqFieldsOnly" status="PASSED">
+         <system-out><![CDATA[2019-05-02 17:29:45 - [TEST_CASE][PASSED] - Test Cases/VLink/VLinkSale-ReqFieldsOnly: Test Cases/VLink/VLinkSale-ReqFieldsOnly
+
+2019-05-02 17:29:49 - [TEST_STEP][PASSED] - openBrowser("https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html'
+
+2019-05-02 17:29:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-02 17:29:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-02 17:29:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html'
+
+2019-05-02 17:29:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-02 17:29:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-02 17:29:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Transaction Type"), "104"): Text '104' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Transaction Type'
+
+2019-05-02 17:29:53 - [MESSAGE][PASSED] - Text '104' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Transaction Type'
+
+2019-05-02 17:29:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Message Version"), "2.0C"): Text '2.0C' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Message Version'
+
+2019-05-02 17:29:53 - [MESSAGE][PASSED] - Text '2.0C' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Message Version'
+
+2019-05-02 17:29:53 - [TEST_STEP][PASSED] - genRemID = RandomStringUtils.random(12, true, true): null
+
+2019-05-02 17:29:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Remittance Id_remittance_id"), genRemID): Text 'tRqdf3nieRde' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Remittance Id_remittance_id'
+
+2019-05-02 17:29:53 - [MESSAGE][PASSED] - Text 'tRqdf3nieRde' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Remittance Id_remittance_id'
+
+2019-05-02 17:29:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Application Id_application_id"), "234"): Text '234' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Application Id_application_id'
+
+2019-05-02 17:29:54 - [MESSAGE][PASSED] - Text '234' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Application Id_application_id'
+
+2019-05-02 17:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Username_username"), "username"): Text 'username' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Username_username'
+
+2019-05-02 17:29:54 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Username_username'
+
+2019-05-02 17:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Password_password"), "password"): Text 'password' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Password_password'
+
+2019-05-02 17:29:54 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Password_password'
+
+2019-05-02 17:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Response Format_response_format"), "fixed_width"): Text 'fixed_width' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Response Format_response_format'
+
+2019-05-02 17:29:54 - [MESSAGE][PASSED] - Text 'fixed_width' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Response Format_response_format'
+
+2019-05-02 17:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Category_category"), "ECOM"): Text 'ECOM' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Category_category'
+
+2019-05-02 17:29:54 - [MESSAGE][PASSED] - Text 'ECOM' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Category_category'
+
+2019-05-02 17:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Transaction ID_transaction_id"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Transaction ID_transaction_id'
+
+2019-05-02 17:29:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Transaction ID_transaction_id'
+
+2019-05-02 17:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Approval Code_approval_code"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Approval Code_approval_code'
+
+2019-05-02 17:29:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Approval Code_approval_code'
+
+2019-05-02 17:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card name_card_name"), "Imtiaz Ahmed"): Text 'Imtiaz Ahmed' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card name_card_name'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text 'Imtiaz Ahmed' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card name_card_name'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card address_card_address"), "2311 york road"): Text '2311 york road' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card address_card_address'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text '2311 york road' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card address_card_address'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card address2_card_address2"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card address2_card_address2'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card address2_card_address2'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card city_card_city"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card city_card_city'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card city_card_city'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card state_card_state"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card state_card_state'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card state_card_state'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card zip_card_zip"), "22201"): Text '22201' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card zip_card_zip'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text '22201' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card zip_card_zip'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Country ID_country_id"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Country ID_country_id'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Country ID_country_id'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Amount_amount"), "10.00"): Text '10.00' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Amount_amount'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text '10.00' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Amount_amount'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card number_card_number"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card number_card_number'
+
+2019-05-02 17:29:55 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card number_card_number'
+
+2019-05-02 17:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card ex month_card_exmo"), "06"): Text '06' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card ex month_card_exmo'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card ex month_card_exmo'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Card ex year_card_exyr"), "2020"): Text '2020' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card ex year_card_exyr'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '2020' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Card ex year_card_exyr'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_CVV data_cvv_data"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_CVV data_cvv_data'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_CVV data_cvv_data'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_CVV state_cvv_state"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_CVV state_cvv_state'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_CVV state_cvv_state'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Track Data_track_data"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Track Data_track_data'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Track Data_track_data'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Track 1 Data_track_1_data"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Track 1 Data_track_1_data'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Track 1 Data_track_1_data'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Track 2 Data_track_2_data"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Track 2 Data_track_2_data'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Track 2 Data_track_2_data'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_POS Entry mode_entry_mode"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_POS Entry mode_entry_mode'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_POS Entry mode_entry_mode'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_concat(Cardholder  s email)_email"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_concat(Cardholder  s email)_email'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_concat(Cardholder  s email)_email'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Order Number_order_number"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Order Number_order_number'
+
+2019-05-02 17:29:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Order Number_order_number'
+
+2019-05-02 17:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Tax Amount_tax_amount"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Tax Amount_tax_amount'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Tax Amount_tax_amount'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Charge Description_charge_description"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Charge Description_charge_description'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Charge Description_charge_description'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Client Account Number_client_account_number"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Client Account Number_client_account_number'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Client Account Number_client_account_number'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_Bill Payment Indicator_bill_payment_indicator"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Bill Payment Indicator_bill_payment_indicator'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_Bill Payment Indicator_bill_payment_indicator'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined1_user_defined1"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined1_user_defined1'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined1_user_defined1'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined2_user_defined2"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined2_user_defined2'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined2_user_defined2'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined3_user_defined3"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined3_user_defined3'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined3_user_defined3'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined4_user_defined4"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined4_user_defined4'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined4_user_defined4'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined5_user_defined5"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined5_user_defined5'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined5_user_defined5'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined6_user_defined6"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined6_user_defined6'
+
+2019-05-02 17:29:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined6_user_defined6'
+
+2019-05-02 17:29:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined7_user_defined7"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined7_user_defined7'
+
+2019-05-02 17:29:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined7_user_defined7'
+
+2019-05-02 17:29:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined8_user_defined8"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined8_user_defined8'
+
+2019-05-02 17:29:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined8_user_defined8'
+
+2019-05-02 17:29:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined9_user_defined9"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined9_user_defined9'
+
+2019-05-02 17:29:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined9_user_defined9'
+
+2019-05-02 17:29:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QAVLinkAuthCap/input_user_defined10_user_defined10"), ""): Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined10_user_defined10'
+
+2019-05-02 17:29:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_QAVLinkAuthCap/input_user_defined10_user_defined10'
+
+2019-05-02 17:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QAVLinkAuthCap/input")): Object: 'Object Repository/Page_QAVLinkAuthCap/input' is clicked on
+
+2019-05-02 17:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QAVLinkAuthCap/input' is clicked on
+
+2019-05-02 17:29:59 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction approved, no errors", true): Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2019-05-02 17:29:59 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2019-05-02 17:29:59 - [TEST_STEP][PASSED] - sdfo = getText(findTestObject("Object Repository/Page_VLinkReceipt/pre_STX")): Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>tRqdf3nieRde                  11998789            0  Transaction approved, no errors                   0                                                                                  Y 985842915<ETX>'
+
+2019-05-02 17:29:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>tRqdf3nieRde                  11998789            0  Transaction approved, no errors                   0                                                                                  Y 985842915<ETX>'
+
+2019-05-02 17:29:59 - [TEST_STEP][PASSED] - out.println("sdfo: " + sdfo): null
+
+2019-05-02 17:29:59 - [TEST_STEP][PASSED] - remID = substring(5, 35).trim(): null
+
+2019-05-02 17:29:59 - [TEST_STEP][PASSED] - out.println("remID: " + remID): null
+
+2019-05-02 17:29:59 - [TEST_STEP][PASSED] - traxID = substring(35, 55).trim(): null
+
+2019-05-02 17:29:59 - [TEST_STEP][PASSED] - out.println("traxID: " + traxID): null
+
+2019-05-02 17:29:59 - [TEST_STEP][PASSED] - VLinkSaleRemID = remID: null
+
+2019-05-02 17:30:00 - [TEST_STEP][PASSED] - VLinkSaleTranxID = traxID: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-02 17:29:20 - [TEST_SUITE][PASSED] - QA Smoke Test: Test Cases/VLink/VLinkSale-ReqFieldsOnly]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
