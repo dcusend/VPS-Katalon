@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-14 20:34:56,2021-10-14 20:35:04,8.661s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/LandingPageUI_TC,Chrome 94.0.4606.81,,,2021-10-14 20:34:56,2021-10-14 20:35:04,8.219s,FAILED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-14 20:34:57,2021-10-14 20:35:00,3.011s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-14 20:35:00,2021-10-14 20:35:00,0.155s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-14 20:35:00,2021-10-14 20:35:02,1.818s,PASSED
+"orPath = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-14 20:35:02,2021-10-14 20:35:02,0.002s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/dd_TaxType""), 30))",Chrome 94.0.4606.81,,,2021-10-14 20:35:02,2021-10-14 20:35:02,0.509s,PASSED
+"if (verifyTextPresent(""Your Progress"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:35:02,2021-10-14 20:35:03,0.466s,PASSED
+"if (verifyTextPresent(""Tax Type/Taxpayer Information"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:35:03,2021-10-14 20:35:03,0.334s,PASSED
+"if (verifyTextPresent(""Summary"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:35:03,2021-10-14 20:35:03,0.337s,PASSED
+"if (verifyTextPresent(""Need Help?"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:35:03,2021-10-14 20:35:04,0.359s,PASSED
+"if (verifyTextPresent(""Contact 1-800-MD TAXES (1-800-638-2937)"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:35:04,2021-10-14 20:35:04,0.343s,FAILED
+else,Chrome 94.0.4606.81,,,2021-10-14 20:35:04,2021-10-14 20:35:04,0.002s,PASSED
+"if (verifyTextPresent(""FOR TAX RELATED QUESTIONS"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:35:04,2021-10-14 20:35:04,0.357s,PASSED

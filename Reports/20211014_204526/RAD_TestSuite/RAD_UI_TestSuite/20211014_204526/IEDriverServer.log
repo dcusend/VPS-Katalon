@@ -1,0 +1,260 @@
+I 2021-10-14 20:45:31:722 C:\Projects\selenium\cpp\webdriver-server\server.cc(88) Starting WebDriver server on port: '45614' on host: ''
+T 2021-10-14 20:45:31:722 C:\Projects\selenium\cpp\webdriver-server\server.cc(738) Entering Server::PopulateCommandRepository
+T 2021-10-14 20:45:31:723 C:\Projects\selenium\cpp\iedriver\IEServer.cpp(32) Entering IEServer::IEServer
+I 2021-10-14 20:45:31:723 C:\Projects\selenium\cpp\iedriver\IEServer.cpp(33) Driver version: 3.150.1.1 (32-bit)
+T 2021-10-14 20:45:31:723 C:\Projects\selenium\cpp\webdriver-server\server.cc(180) Entering Server::Start
+T 2021-10-14 20:45:31:759 C:\Projects\selenium\cpp\webdriver-server\server.cc(234) Entering Server::ProcessRequest
+T 2021-10-14 20:45:31:760 C:\Projects\selenium\cpp\webdriver-server\server.cc(243) Process request with: URI: /status HTTP verb: GET
+body: {}
+T 2021-10-14 20:45:31:760 C:\Projects\selenium\cpp\webdriver-server\server.cc(334) Entering Server::DispatchCommand
+T 2021-10-14 20:45:31:760 C:\Projects\selenium\cpp\webdriver-server\server.cc(687) Entering Server::LookupCommand
+D 2021-10-14 20:45:31:760 C:\Projects\selenium\cpp\webdriver-server\server.cc(343) Command: GET /status {}
+T 2021-10-14 20:45:31:760 C:\Projects\selenium\cpp\iedriver\IEServer.cpp(51) Entering IEServer::GetStatus
+T 2021-10-14 20:45:31:761 C:\Projects\selenium\cpp\webdriver-server\response.cc(81) Entering Response::SetSuccessResponse
+T 2021-10-14 20:45:31:761 C:\Projects\selenium\cpp\webdriver-server\response.cc(87) Entering Response::SetResponse
+T 2021-10-14 20:45:31:761 C:\Projects\selenium\cpp\webdriver-server\response.cc(60) Entering Response::Serialize
+D 2021-10-14 20:45:31:761 C:\Projects\selenium\cpp\webdriver-server\server.cc(426) Response: {
+	"value" : 
+	{
+		"build" : 
+		{
+			"version" : "3.150.1.1 (32-bit)"
+		},
+		"message" : "Ready to create session",
+		"os" : 
+		{
+			"arch" : "x64",
+			"name" : "windows",
+			"version" : "10.0.16299.15 (WinBuild.160101.0800)"
+		},
+		"ready" : true
+	}
+}
+T 2021-10-14 20:45:31:761 C:\Projects\selenium\cpp\webdriver-server\server.cc(479) Entering Server::SendResponseToClient
+T 2021-10-14 20:45:31:761 C:\Projects\selenium\cpp\webdriver-server\response.cc(30) Entering Response::Deserialize
+T 2021-10-14 20:45:31:762 C:\Projects\selenium\cpp\webdriver-server\server.cc(540) Entering Server::SendHttpOk
+T 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\webdriver-server\server.cc(234) Entering Server::ProcessRequest
+T 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\webdriver-server\server.cc(298) Entering Server::ReadRequestBody
+T 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\webdriver-server\server.cc(243) Process request with: URI: /session HTTP verb: POST
+body: {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true"
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true"
+        }
+      }
+    ]
+  }
+}
+T 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\webdriver-server\server.cc(334) Entering Server::DispatchCommand
+T 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\webdriver-server\server.cc(687) Entering Server::LookupCommand
+D 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\webdriver-server\server.cc(343) Command: POST /session {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true"
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true"
+        }
+      }
+    ]
+  }
+}
+T 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\iedriver\IEServer.cpp(42) Entering IEServer::InitializeSession
+T 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\iedriver\IESession.cpp(45) Entering IESession::Initialize
+D 2021-10-14 20:45:32:103 C:\Projects\selenium\cpp\iedriver\IESession.cpp(60) Mutex acquired for session initalization
+T 2021-10-14 20:45:32:105 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(743) Entering IECommandExecutor::ThreadProc
+T 2021-10-14 20:45:32:109 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(74) Entering IECommandExecutor::OnCreate
+T 2021-10-14 20:45:32:109 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(1470) Entering IECommandExecutor::PopulateElementFinderMethods
+T 2021-10-14 20:45:32:109 C:\Projects\selenium\cpp\iedriver\InputManager.cpp(56) Entering InputManager::InputManager
+T 2021-10-14 20:45:32:109 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1141) Entering BrowserFactory::GetExecutableLocation
+T 2021-10-14 20:45:32:109 C:\Projects\selenium\cpp\iedriver\RegistryUtilities.cpp(49) Attempting to get registry value  from HKEY_LOCAL_MACHINE\SOFTWARE\Classes\InternetExplorer.Application\CLSID
+T 2021-10-14 20:45:32:109 C:\Projects\selenium\cpp\iedriver\RegistryUtilities.cpp(133) Retrieved value {0002DF01-0000-0000-C000-000000000046}
+T 2021-10-14 20:45:32:110 C:\Projects\selenium\cpp\iedriver\RegistryUtilities.cpp(49) Attempting to get registry value  from HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0002DF01-0000-0000-C000-000000000046}\LocalServer32
+T 2021-10-14 20:45:32:110 C:\Projects\selenium\cpp\iedriver\RegistryUtilities.cpp(133) Retrieved value "%ProgramFiles%\Internet Explorer\iexplore.exe"
+T 2021-10-14 20:45:32:110 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1190) Entering BrowserFactory::GetIEVersion
+T 2021-10-14 20:45:32:113 C:\Projects\selenium\cpp\iedriver\CommandHandlerRepository.cpp(110) Entering CommandHandlerRepository::PopulateCommandHandlers
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IESession.cpp(106) Created thread for command executor returns HWND: '003E0ED4'
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IESession.cpp(110) Session id is retrived from command executor window: 'ed5ab279-5c81-461f-aba3-9848eed1e763'
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IESession.cpp(116) Releasing session initialization mutex
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IESession.cpp(198) Entering IESession::ExecuteCommand
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(154) Entering IECommandExecutor::OnSetCommand
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\webdriver-server\command.cc(31) Entering Command::Deserialize
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true"
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true"
+        }
+      }
+    ]
+  }
+} }
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\webdriver-server\command.cc(31) Entering Command::Deserialize
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\webdriver-server\command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {
+    "se:ieOptions": {
+      "ie.usePerProcessProxy": "true"
+    },
+    "browserName": "internet explorer",
+    "ie.usePerProcessProxy": "true"
+  },
+  "capabilities": {
+    "firstMatch": [
+      {
+        "browserName": "internet explorer",
+        "se:ieOptions": {
+          "ie.usePerProcessProxy": "true"
+        }
+      }
+    ]
+  }
+} }
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IESession.cpp(226) Beginning wait for response length to be not zero
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(176) Entering IECommandExecutor::OnExecCommand
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(815) Entering IECommandExecutor::DispatchCommand
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(880) Executing command: newSession
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(48) Found W3C capabilities structure
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(183) Entering NewSessionCommandHandler::ValidateArguments
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(199) Validating alwaysMatch capability set
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(672) Entering NewSessionCommandHandler::ValidateCapabilities
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(673) Validating capabilities object
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(220) Validating firstMatch capability set with index 0
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(672) Entering NewSessionCommandHandler::ValidateCapabilities
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(673) Validating capabilities object
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(722) Found browserName capability. Validating value type is string.
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(989) Found se:ieOptions capability. Validating value type is object.
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(648) Entering NewSessionCommandHandler::MergeCapabilities
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(274) Entering NewSessionCommandHandler::ProcessCapabilities
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(589) Entering NewSessionCommandHandler::MatchCapabilities
+D 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(279) Processing matched capability set with index 0
+T 2021-10-14 20:45:32:114 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability unhandledPromptBehavior
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability pageLoadStrategy
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(167) Entering NewSessionCommandHandler::GetPageLoadStrategyValue
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability strictFileInteractability
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability timeouts
+W 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(105) Invalid capability setting: timeouts is type null instead of object. Default value will be used: null
+
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(345) Entering NewSessionCommandHandler::SetTimeoutSettings
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(364) Entering NewSessionCommandHandler::SetBrowserFactorySettings
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ignoreProtectedModeSettings
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ignoreZoomSetting
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability browserAttachTimeout
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability initialBrowserUrl
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ie.forceCreateProcessApi
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ie.forceShellWindowsApi
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ie.browserCommandLineSwitches
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ie.ensureCleanSession
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ie.edgechromium
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ie.edgepath
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(118) Entering BrowserFactory::Initialize
+D 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(128) path before was 
+
+D 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(130) path after was 0066E248
+
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(485) Entering NewSessionCommandHandler::SetInputSettings
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability nativeEvents
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability elementScrollBehavior
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability requireWindowFocus
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability ie.fileUploadDialogTimeout
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(101) Entering NewSessionCommandHandler::GetCapability for capability enablePersistentHover
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\InputManager.cpp(82) Entering InputManager::Initialize
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\CommandHandlers\NewSessionCommandHandler.cpp(532) Entering NewSessionCommandHandler::CreateReturnedCapabilities
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(1345) Entering IECommandExecutor::CreateNewBrowser
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(150) Entering BrowserFactory::LaunchBrowserProcess
+D 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(154) Ignoring Protected Mode Settings: 0
+D 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(157) Checking validity of Protected Mode settings.
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1209) Entering BrowserFactory::ProtectedModeSettingsAreValid
+D 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1212) Detected IE version: 11, Windows version supports Protected Mode: 1
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1286) Entering BrowserFactory::GetZoneProtectedModeSetting
+D 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 1
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1286) Entering BrowserFactory::GetZoneProtectedModeSetting
+D 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 3 for zone 2
+T 2021-10-14 20:45:32:115 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1286) Entering BrowserFactory::GetZoneProtectedModeSetting
+D 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(1303) Found Protected Mode setting value of 0 for zone 3
+D 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\BrowserFactory.cpp(160) Has Valid Protected Mode Settings: 0
+W 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(1349) Unable to launch browser, received NULL process ID
+T 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\webdriver-server\response.cc(94) Entering Response::SetErrorResponse
+T 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\webdriver-server\response.cc(87) Entering Response::SetResponse
+D 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(883) Command execution for newSession complete
+T 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(1123) Entering IECommandExecutor::GetCurrentBrowser
+T 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(1129) Entering IECommandExecutor::GetManagedBrowser
+T 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(1132) Current command executor is not valid
+W 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(929) Unable to get current browser
+T 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\webdriver-server\response.cc(60) Entering Response::Serialize
+D 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(935) Setting serialized response to {
+	"value" : 
+	{
+		"error" : "session not created",
+		"message" : "Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.",
+		"stacktrace" : ""
+	}
+}
+D 2021-10-14 20:45:32:116 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(936) Is waiting flag: 0
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IESession.cpp(235) Found non-zero response length
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(199) Entering IECommandExecutor::OnGetResponse
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(485) Entering IECommandExecutor::OnIsSessionValid
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\webdriver-server\response.cc(30) Entering Response::Deserialize
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\webdriver-server\server.cc(285) Entering Server::ShutDownSession
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IESession.cpp(126) Entering IESession::ShutDown
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IESession.cpp(180) Entering IESession::WaitForCommandExecutorExit
+D 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IESession.cpp(157) Executor shutdown successful!
+D 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IESession.cpp(165) Posting thread shutdown message
+D 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IESession.cpp(168) Starting wait for thread completion
+D 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(793) Shutdown message received
+D 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IESession.cpp(171) Waiting for thread to end returned 4294967295
+D 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\webdriver-server\server.cc(426) Response: {
+	"value" : 
+	{
+		"error" : "session not created",
+		"message" : "Unexpected error launching Internet Explorer. Protected Mode settings are not the same for all zones. Enable Protected Mode must be set to the same value (enabled or disabled) for all zones.",
+		"stacktrace" : ""
+	}
+}
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\webdriver-server\server.cc(479) Entering Server::SendResponseToClient
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\webdriver-server\response.cc(30) Entering Response::Deserialize
+D 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(129) Entering IECommandExecutor::OnDestroy
+T 2021-10-14 20:45:32:126 C:\Projects\selenium\cpp\webdriver-server\server.cc(582) Entering Server::SendHttpInternalError
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(131) Clearing managed element cache
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(134) Closing command handler repository
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(136) Closing element finder
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(138) Closing input manager
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(140) Closing proxy manager
+T 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\ProxyManager.cpp(190) ProxyManager::RestoreProxySettings
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(142) Closing browser factory
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(144) Posting quit message
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(146) Leaving IECommandExecutor::OnDestroy
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(795) Returned from DestroyWindow()
+D 2021-10-14 20:45:32:127 C:\Projects\selenium\cpp\iedriver\IECommandExecutor.cpp(808) Exited IECommandExecutor thread message loop
+T 2021-10-14 20:45:33:529 C:\Projects\selenium\cpp\webdriver-server\server.cc(234) Entering Server::ProcessRequest
+T 2021-10-14 20:45:33:529 C:\Projects\selenium\cpp\webdriver-server\server.cc(243) Process request with: URI: /shutdown HTTP verb: GET
+body: {}
+T 2021-10-14 20:45:33:529 C:\Projects\selenium\cpp\webdriver-server\server.cc(540) Entering Server::SendHttpOk
+T 2021-10-14 20:45:33:530 C:\Projects\selenium\cpp\iedriver\IEServer.cpp(88) Entering IEServer::ShutDown
+T 2021-10-14 20:45:33:530 C:\Projects\selenium\cpp\iedriver\WebDriver.cpp(54) Entering StopServer
+T 2021-10-14 20:45:33:531 C:\Projects\selenium\cpp\webdriver-server\server.cc(225) Entering Server::Stop

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-14 20:36:04,2021-10-14 20:36:12,8.185s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/LandingPageUI_TC,Chrome 94.0.4606.81,,,2021-10-14 20:36:04,2021-10-14 20:36:12,7.770s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-14 20:36:05,2021-10-14 20:36:08,2.825s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-14 20:36:08,2021-10-14 20:36:08,0.171s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-14 20:36:08,2021-10-14 20:36:10,1.783s,PASSED
+"orPath = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-14 20:36:10,2021-10-14 20:36:10,0.003s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/dd_TaxType""), 30))",Chrome 94.0.4606.81,,,2021-10-14 20:36:10,2021-10-14 20:36:10,0.515s,PASSED
+"if (verifyTextPresent(""Your Progress"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:36:10,2021-10-14 20:36:11,0.486s,PASSED
+"if (verifyTextPresent(""Tax Type/Taxpayer Information"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:36:11,2021-10-14 20:36:11,0.391s,PASSED
+"if (verifyTextPresent(""Summary"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:36:11,2021-10-14 20:36:12,0.342s,PASSED
+"if (verifyTextPresent(""Need Help?"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:36:12,2021-10-14 20:36:12,0.340s,PASSED
+"if (verifyTextPresent(""FOR TAX RELATED QUESTIONS"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:36:12,2021-10-14 20:36:12,0.357s,PASSED

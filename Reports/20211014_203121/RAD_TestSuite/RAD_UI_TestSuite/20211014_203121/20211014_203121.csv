@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-14 20:31:24,2021-10-14 20:31:33,9.042s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/LandingPageUI_TC,Chrome 94.0.4606.81,,,2021-10-14 20:31:25,2021-10-14 20:31:33,8.577s,FAILED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-14 20:31:25,2021-10-14 20:31:28,3.064s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-14 20:31:28,2021-10-14 20:31:28,0.164s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-14 20:31:28,2021-10-14 20:31:30,1.932s,PASSED
+"orPath = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-14 20:31:30,2021-10-14 20:31:30,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/dd_TaxType""), 30))",Chrome 94.0.4606.81,,,2021-10-14 20:31:30,2021-10-14 20:31:31,0.544s,PASSED
+"if (verifyTextPresent(""Your Progress"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:31:31,2021-10-14 20:31:31,0.437s,PASSED
+"if (verifyTextPresent(""Tax Type/Taxpayer Information"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:31:31,2021-10-14 20:31:32,0.356s,PASSED
+"if (verifyTextPresent(""Summary"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:31:32,2021-10-14 20:31:32,0.357s,PASSED
+"if (verifyTextPresent(""Need Help?"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:31:32,2021-10-14 20:31:32,0.360s,PASSED
+"if (verifyTextPresent(""Contact 1-800-MD TAXES (1-800-638-2937) or taxhelp@marylandtaxes.gov"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:31:32,2021-10-14 20:31:33,0.375s,FAILED
+else,Chrome 94.0.4606.81,,,2021-10-14 20:31:33,2021-10-14 20:31:33,0.005s,PASSED
+"if (verifyTextPresent(""FOR TAX RELATED QUESTIONS"", true))",Chrome 94.0.4606.81,,,2021-10-14 20:31:33,2021-10-14 20:31:33,0.366s,PASSED

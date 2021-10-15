@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,,,,2021-10-14 20:39:54,2021-10-14 20:39:58,4.285s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/LandingPageUI_TC,,,,2021-10-14 20:39:54,2021-10-14 20:39:58,3.862s,FAILED
+"openBrowser("""")",,,,2021-10-14 20:39:55,2021-10-14 20:39:57,2.572s,FAILED
+maximizeWindow(),,,,2021-10-14 20:39:57,2021-10-14 20:39:57,0.060s,FAILED
+navigateToUrl(RADurl),,,,2021-10-14 20:39:57,2021-10-14 20:39:58,0.365s,FAILED
+"orPath = ""Object Repository/RAD_Pages/Landing_Page""",,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.000s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/dd_TaxType""), 30))",,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.189s,FAILED
+else,,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.029s,PASSED
+"if (verifyTextPresent(""Your Progress"", true))",,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.028s,FAILED
+else,,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.000s,PASSED
+"if (verifyTextPresent(""Tax Type/Taxpayer Information"", true))",,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.016s,FAILED
+else,,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.000s,PASSED
+"if (verifyTextPresent(""Summary"", true))",,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.020s,FAILED
+else,,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.000s,PASSED
+"if (verifyTextPresent(""Need Help?"", true))",,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.015s,FAILED
+else,,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.000s,PASSED
+"if (verifyTextPresent(""FOR TAX RELATED QUESTIONS"", true))",,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.016s,FAILED
+else,,,,2021-10-14 20:39:58,2021-10-14 20:39:58,0.000s,PASSED

@@ -59,4 +59,9 @@
       <initValue>'https://qa.velocitypayment.com/ebills/billLookup/deepdcf'</initValue>
       <name>MultiBillDualCFURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/client/rad/index.html'</initValue>
+      <name>RADurl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

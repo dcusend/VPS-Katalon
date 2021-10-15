@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="1.5" tests="1" failures="0" errors="1">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="1" time="1.5" skipped="0" timestamp="2021-10-14 23:18:19" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211014_231815\\RAD_TestSuite\\RAD_UI_TestSuite\\20211014_231815"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211014_231815\\RAD_TestSuite\\RAD_UI_TestSuite\\20211014_231815\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/EstimatedTaxUI_TC" time="0.511" classname="Test Cases/RAD_TestCases/EstimatedTaxUI_TC" status="ERROR">
+         <error type="ERROR" message="Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 31: unable to resolve class Strin 
+ @ line 31, column 7.
+   Strin orPath_FilingStatus = &quot;Object Repository/RAD_Pages/FilingStatus_Page&quot;
+         ^
+
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 32: unable to resolve class Strin 
+ @ line 32, column 7.
+   Strin orPath_Amount = &quot;Object Repository/RAD_Pages/PaymentAmount_Page&quot;
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634267895818.run(TempTestSuite1634267895818.groovy:39)
+"/>
+         <system-out><![CDATA[2021-10-14 23:18:19 - [TEST_CASE][ERROR] - Test Cases/RAD_TestCases/EstimatedTaxUI_TC: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 31: unable to resolve class Strin 
+ @ line 31, column 7.
+   Strin orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
+         ^
+
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 32: unable to resolve class Strin 
+ @ line 32, column 7.
+   Strin orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634267895818.run(TempTestSuite1634267895818.groovy:39)]]></system-out>
+         <system-err><![CDATA[2021-10-14 23:18:19 - [TEST_CASE][ERROR] - Test Cases/RAD_TestCases/EstimatedTaxUI_TC: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 31: unable to resolve class Strin 
+ @ line 31, column 7.
+   Strin orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
+         ^
+
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 32: unable to resolve class Strin 
+ @ line 32, column 7.
+   Strin orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634267895818.run(TempTestSuite1634267895818.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-14 23:18:19 - [TEST_SUITE][ERROR] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 31: unable to resolve class Strin 
+ @ line 31, column 7.
+   Strin orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
+         ^
+
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 32: unable to resolve class Strin 
+ @ line 32, column 7.
+   Strin orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634267895818.run(TempTestSuite1634267895818.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-10-14 23:18:19 - [TEST_SUITE][ERROR] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 31: unable to resolve class Strin 
+ @ line 31, column 7.
+   Strin orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
+         ^
+
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/EstimatedTaxUI_TC/Script1634267103497.groovy: 32: unable to resolve class Strin 
+ @ line 32, column 7.
+   Strin orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
+         ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634267895818.run(TempTestSuite1634267895818.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

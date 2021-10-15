@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,,,,2021-10-14 23:18:19,2021-10-14 23:18:20,0.949s,ERROR
+,,,,,,,
+Test Cases/RAD_TestCases/EstimatedTaxUI_TC,,,,2021-10-14 23:18:19,2021-10-14 23:18:20,0.511s,ERROR

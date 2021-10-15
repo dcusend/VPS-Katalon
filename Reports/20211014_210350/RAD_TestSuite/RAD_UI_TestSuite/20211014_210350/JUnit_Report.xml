@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="12.038" tests="1" failures="0" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="0" time="12.038" skipped="0" timestamp="2021-10-14 21:03:53" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211014_210350\\RAD_TestSuite\\RAD_UI_TestSuite\\20211014_210350"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211014_210350\\RAD_TestSuite\\RAD_UI_TestSuite\\20211014_210350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="6567b14ada151d543641ec4fe5d8f282"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/LandingPageUI_TC" time="10.344" classname="Test Cases/RAD_TestCases/LandingPageUI_TC" status="PASSED">
+         <system-out><![CDATA[2021-10-14 21:03:54 - [TEST_CASE][PASSED] - Test Cases/RAD_TestCases/LandingPageUI_TC: Test Cases/RAD_TestCases/LandingPageUI_TC
+
+2021-10-14 21:03:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-14 21:03:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-14 21:03:54 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-14 21:03:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-14 21:03:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-14 21:03:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-14 21:03:57 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-14 21:03:57 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-14 21:03:59 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-14 21:03:59 - [TEST_STEP][PASSED] - orPath = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-14 21:03:59 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath + "/dd_TaxType"), 30)): null
+
+2021-10-14 21:04:00 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' is present
+
+2021-10-14 21:04:00 - [TEST_STEP][PASSED] - out.println("Tax Type/Filing Year drop down was found on the Landing Page"): null
+
+2021-10-14 21:04:00 - [TEST_STEP][PASSED] - if (verifyTextPresent("Your Progress", true)): null
+
+2021-10-14 21:04:00 - [MESSAGE][PASSED] - Text 'Your Progress' is present on page  using regular expression
+
+2021-10-14 21:04:00 - [TEST_STEP][PASSED] - out.println("Your Progress Static text was found on the Landing Page"): null
+
+2021-10-14 21:04:00 - [TEST_STEP][PASSED] - if (verifyTextPresent("Tax Type/Taxpayer Information", true)): null
+
+2021-10-14 21:04:01 - [MESSAGE][PASSED] - Text 'Tax Type/Taxpayer Information' is present on page  using regular expression
+
+2021-10-14 21:04:01 - [TEST_STEP][PASSED] - out.println("Tax Type/Taxpayer Information text was found on the Landing Page"): null
+
+2021-10-14 21:04:01 - [TEST_STEP][PASSED] - if (verifyTextPresent("Summary", true)): null
+
+2021-10-14 21:04:01 - [MESSAGE][PASSED] - Text 'Summary' is present on page  using regular expression
+
+2021-10-14 21:04:01 - [TEST_STEP][PASSED] - out.println("Summary Static text was found on the Landing Page"): null
+
+2021-10-14 21:04:01 - [TEST_STEP][PASSED] - if (verifyTextPresent("Need Help?", true)): null
+
+2021-10-14 21:04:01 - [MESSAGE][PASSED] - Text 'Need Help?' is present on page  using regular expression
+
+2021-10-14 21:04:01 - [TEST_STEP][PASSED] - out.println("Need Help? Static text was found on the Landing Page"): null
+
+2021-10-14 21:04:01 - [TEST_STEP][PASSED] - if (verifyTextPresent("FOR TAX RELATED QUESTIONS", true)): null
+
+2021-10-14 21:04:02 - [MESSAGE][PASSED] - Text 'FOR TAX RELATED QUESTIONS' is present on page  using regular expression
+
+2021-10-14 21:04:02 - [TEST_STEP][PASSED] - out.println("FOR TAX RELATED QUESTIONS Static text was found on the Landing Page"): null
+
+2021-10-14 21:04:02 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath + "/button_Continue"), 30)): null
+
+2021-10-14 21:04:02 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is present
+
+2021-10-14 21:04:02 - [TEST_STEP][PASSED] - out.println("Continue Button was found on the Landing Page"): null
+
+2021-10-14 21:04:02 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath + "/a_taxhelpmarylandtaxes.gov"), 30)): null
+
+2021-10-14 21:04:02 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/a_taxhelpmarylandtaxes.gov' is present
+
+2021-10-14 21:04:02 - [TEST_STEP][PASSED] - out.println("Tax Help Maryland.gov link was found on the Landing Page"): null
+
+2021-10-14 21:04:02 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath + "/a_For technical questions and support"), 30)): null
+
+2021-10-14 21:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/a_For technical questions and support' is present
+
+2021-10-14 21:04:03 - [TEST_STEP][PASSED] - out.println("For technical questions and support link was found on the Landing Page"): null
+
+2021-10-14 21:04:03 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath + "/a_Comptroller of Maryland"), 30)): null
+
+2021-10-14 21:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/a_Comptroller of Maryland' is present
+
+2021-10-14 21:04:03 - [TEST_STEP][PASSED] - out.println("Comptroller of Maryland link was found on the Landing Page"): null
+
+2021-10-14 21:04:03 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath + "/a_Department of Information Technology (DoIT)"), 30)): null
+
+2021-10-14 21:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/a_Department of Information Technology (DoIT)' is present
+
+2021-10-14 21:04:03 - [TEST_STEP][PASSED] - out.println("Department of Information Technology link was found on the Landing Page"): null
+
+2021-10-14 21:04:03 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath + "/a_double_arrow Click for 247 Support"), 30)): null
+
+2021-10-14 21:04:04 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/a_double_arrow Click for 247 Support' is present
+
+2021-10-14 21:04:04 - [TEST_STEP][PASSED] - out.println("Click for 24/7 Support link was found on the Landing Page"): null
+
+2021-10-14 21:04:04 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath + "/a_Maryland.gov"), 30)): null
+
+2021-10-14 21:04:04 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/a_Maryland.gov' is present
+
+2021-10-14 21:04:04 - [TEST_STEP][PASSED] - out.println("Mayrland.gov link was found on the Landing Page"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-14 21:03:53 - [TEST_SUITE][PASSED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/LandingPageUI_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

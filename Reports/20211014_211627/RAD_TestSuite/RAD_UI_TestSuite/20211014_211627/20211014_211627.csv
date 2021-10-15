@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-14 21:16:30,2021-10-14 21:16:42,11.951s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/LandingPageUI_TC,Chrome 94.0.4606.81,,,2021-10-14 21:16:30,2021-10-14 21:16:42,11.543s,FAILED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-14 21:16:31,2021-10-14 21:16:34,3.016s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-14 21:16:34,2021-10-14 21:16:34,0.179s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-14 21:16:34,2021-10-14 21:16:36,1.631s,PASSED
+"orPath = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-14 21:16:36,2021-10-14 21:16:36,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/dd_TaxType""), 30))",Chrome 94.0.4606.81,,,2021-10-14 21:16:36,2021-10-14 21:16:36,0.503s,PASSED
+"if (verifyTextPresent(""Your Progress"", true))",Chrome 94.0.4606.81,,,2021-10-14 21:16:36,2021-10-14 21:16:37,0.458s,PASSED
+"if (verifyTextPresent(""Tax Type/Taxpayer Information"", true))",Chrome 94.0.4606.81,,,2021-10-14 21:16:37,2021-10-14 21:16:37,0.407s,PASSED
+"if (verifyTextPresent(""Summary"", true))",Chrome 94.0.4606.81,,,2021-10-14 21:16:37,2021-10-14 21:16:37,0.346s,PASSED
+"if (verifyTextPresent(""Need Help?"", true))",Chrome 94.0.4606.81,,,2021-10-14 21:16:37,2021-10-14 21:16:38,0.340s,PASSED
+"if (verifyTextPresent(""FOR TAX RELATED QUESTIONS"", true))",Chrome 94.0.4606.81,,,2021-10-14 21:16:38,2021-10-14 21:16:38,0.357s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/button_Continue""), 30))",Chrome 94.0.4606.81,,,2021-10-14 21:16:38,2021-10-14 21:16:38,0.321s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_taxhelpmarylandtaxes.gov""), 30))",Chrome 94.0.4606.81,,,2021-10-14 21:16:38,2021-10-14 21:16:39,0.315s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_For technical questions and support""), 30))",Chrome 94.0.4606.81,,,2021-10-14 21:16:39,2021-10-14 21:16:39,0.318s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Comptroller of Maryland""), 30))",Chrome 94.0.4606.81,,,2021-10-14 21:16:39,2021-10-14 21:16:39,0.312s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Department of Information Technology (DoIT)""), 30))",Chrome 94.0.4606.81,,,2021-10-14 21:16:39,2021-10-14 21:16:40,0.313s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_double_arrow Click for 247 Support""), 30))",Chrome 94.0.4606.81,,,2021-10-14 21:16:40,2021-10-14 21:16:40,0.321s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Maryland.gov""), 30))",Chrome 94.0.4606.81,,,2021-10-14 21:16:40,2021-10-14 21:16:40,0.349s,PASSED
+"totalOptions = getNumberOfTotalOption(findTestObject(orPath + ""/dd_TaxType""))",Chrome 94.0.4606.81,,,2021-10-14 21:16:40,2021-10-14 21:16:41,0.581s,PASSED
+if (totalOptions == 7),Chrome 94.0.4606.81,,,2021-10-14 21:16:41,2021-10-14 21:16:41,0.001s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Estimated Taxes"", false, 60))",Chrome 94.0.4606.81,,,2021-10-14 21:16:41,2021-10-14 21:16:42,0.925s,FAILED
+else,Chrome 94.0.4606.81,,,2021-10-14 21:16:42,2021-10-14 21:16:42,0.002s,PASSED

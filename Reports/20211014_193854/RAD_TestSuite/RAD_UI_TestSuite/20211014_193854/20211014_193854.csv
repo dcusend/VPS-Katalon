@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-14 19:38:58,2021-10-14 19:39:05,6.714s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/LandingPageUI_TC,Chrome 94.0.4606.81,,,2021-10-14 19:38:58,2021-10-14 19:39:05,6.296s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-14 19:38:59,2021-10-14 19:39:02,3.322s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-14 19:39:02,2021-10-14 19:39:02,0.176s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-14 19:39:02,2021-10-14 19:39:04,1.755s,PASSED
+"orPath = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-14 19:39:04,2021-10-14 19:39:04,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/dd_TaxType""), 30))",Chrome 94.0.4606.81,,,2021-10-14 19:39:04,2021-10-14 19:39:05,0.543s,PASSED
