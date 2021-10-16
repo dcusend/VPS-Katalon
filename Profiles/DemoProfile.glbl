@@ -19,4 +19,9 @@
       <initValue>'hello2222'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.velocitypayment.com/client/rad/index.html'</initValue>
+      <name>RADurl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

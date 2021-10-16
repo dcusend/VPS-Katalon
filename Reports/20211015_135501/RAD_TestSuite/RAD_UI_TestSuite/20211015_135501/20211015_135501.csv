@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-15 13:55:04,2021-10-15 13:55:24,19.848s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/LandingPageUI_TC,Chrome 94.0.4606.81,,,2021-10-15 13:55:05,2021-10-15 13:55:19,14.663s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-15 13:55:05,2021-10-15 13:55:08,3.129s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-15 13:55:08,2021-10-15 13:55:09,0.169s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-15 13:55:09,2021-10-15 13:55:10,1.674s,PASSED
+"orPath = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:55:10,2021-10-15 13:55:10,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/dd_TaxType""), 30))",Chrome 94.0.4606.81,,,2021-10-15 13:55:10,2021-10-15 13:55:11,0.509s,PASSED
+"if (verifyTextPresent(""Your Progress"", true))",Chrome 94.0.4606.81,,,2021-10-15 13:55:11,2021-10-15 13:55:11,0.482s,PASSED
+"if (verifyTextPresent(""Tax Type/Taxpayer Information"", true))",Chrome 94.0.4606.81,,,2021-10-15 13:55:11,2021-10-15 13:55:12,0.427s,PASSED
+"if (verifyTextPresent(""Summary"", true))",Chrome 94.0.4606.81,,,2021-10-15 13:55:12,2021-10-15 13:55:12,0.331s,PASSED
+"if (verifyTextPresent(""Need Help?"", true))",Chrome 94.0.4606.81,,,2021-10-15 13:55:12,2021-10-15 13:55:12,0.325s,PASSED
+"if (verifyTextPresent(""FOR TAX RELATED QUESTIONS"", true))",Chrome 94.0.4606.81,,,2021-10-15 13:55:12,2021-10-15 13:55:13,0.333s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/button_Continue""), 30))",Chrome 94.0.4606.81,,,2021-10-15 13:55:13,2021-10-15 13:55:13,0.326s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_taxhelpmarylandtaxes.gov""), 30))",Chrome 94.0.4606.81,,,2021-10-15 13:55:13,2021-10-15 13:55:13,0.370s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_For technical questions and support""), 30))",Chrome 94.0.4606.81,,,2021-10-15 13:55:13,2021-10-15 13:55:14,0.350s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Comptroller of Maryland""), 30))",Chrome 94.0.4606.81,,,2021-10-15 13:55:14,2021-10-15 13:55:14,0.329s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Department of Information Technology (DoIT)""), 30))",Chrome 94.0.4606.81,,,2021-10-15 13:55:14,2021-10-15 13:55:14,0.327s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_double_arrow Click for 247 Support""), 30))",Chrome 94.0.4606.81,,,2021-10-15 13:55:14,2021-10-15 13:55:15,0.313s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Maryland.gov""), 30))",Chrome 94.0.4606.81,,,2021-10-15 13:55:15,2021-10-15 13:55:15,0.309s,PASSED
+"totalOptions = getNumberOfTotalOption(findTestObject(orPath + ""/dd_TaxType""))",Chrome 94.0.4606.81,,,2021-10-15 13:55:15,2021-10-15 13:55:16,0.573s,PASSED
+if (totalOptions == 7),Chrome 94.0.4606.81,,,2021-10-15 13:55:16,2021-10-15 13:55:16,0.017s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Estimated Tax"", false, 60))",Chrome 94.0.4606.81,,,2021-10-15 13:55:16,2021-10-15 13:55:16,0.688s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Personal Income Tax"", false, 60))",Chrome 94.0.4606.81,,,2021-10-15 13:55:16,2021-10-15 13:55:17,0.630s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Extension Payments"", false, 60))",Chrome 94.0.4606.81,,,2021-10-15 13:55:17,2021-10-15 13:55:17,0.629s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Existing Liability"", false, 60))",Chrome 94.0.4606.81,,,2021-10-15 13:55:17,2021-10-15 13:55:18,0.652s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Sales and Use"", false, 60))",Chrome 94.0.4606.81,,,2021-10-15 13:55:18,2021-10-15 13:55:19,0.605s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Withholding Tax"", false, 60))",Chrome 94.0.4606.81,,,2021-10-15 13:55:19,2021-10-15 13:55:19,0.600s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/EstimatedTaxUI_TC,Chrome 94.0.4606.81,,,2021-10-15 13:55:19,2021-10-15 13:55:24,4.765s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-15 13:55:20,2021-10-15 13:55:22,2.306s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-15 13:55:22,2021-10-15 13:55:22,0.148s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-15 13:55:22,2021-10-15 13:55:23,0.942s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:55:23,2021-10-15 13:55:23,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:55:23,2021-10-15 13:55:23,0.001s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:55:23,2021-10-15 13:55:23,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:55:23,2021-10-15 13:55:23,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:55:23,2021-10-15 13:55:23,0.000s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Chrome 94.0.4606.81,,,2021-10-15 13:55:23,2021-10-15 13:55:24,0.947s,PASSED

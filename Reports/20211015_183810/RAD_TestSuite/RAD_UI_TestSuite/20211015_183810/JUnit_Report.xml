@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="24.409" tests="1" failures="1" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="1" errors="0" time="24.409" skipped="0" timestamp="2021-10-15 18:38:13" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211015_183810\\RAD_TestSuite\\RAD_UI_TestSuite\\20211015_183810"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211015_183810\\RAD_TestSuite\\RAD_UI_TestSuite\\20211015_183810\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="7b0cb5f9a993e425dff36b62dc4c9fba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/EstimatedTaxUI_TC" time="22.81" classname="Test Cases/RAD_TestCases/EstimatedTaxUI_TC" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '52' and expected object '51' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+"/>
+         <system-out><![CDATA[2021-10-15 18:38:13 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/EstimatedTaxUI_TC: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '52' and expected object '51' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more
+
+
+2021-10-15 18:38:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-15 18:38:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-15 18:38:14 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-15 18:38:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-15 18:38:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-15 18:38:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-15 18:38:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-15 18:38:17 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-15 18:38:19 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-15 18:38:19 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-15 18:38:19 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-15 18:38:19 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-15 18:38:19 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-15 18:38:19 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-15 18:38:19 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-15 18:38:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), "Estimated Tax", false): All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-15 18:38:20 - [MESSAGE][PASSED] - All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-15 18:38:20 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType"), 30)): null
+
+2021-10-15 18:38:20 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' is present
+
+2021-10-15 18:38:20 - [TEST_STEP][PASSED] - out.println("Payment Type drop down was found on the Estimated Tax Page"): null
+
+2021-10-15 18:38:20 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), 30)): null
+
+2021-10-15 18:38:20 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' is present
+
+2021-10-15 18:38:20 - [TEST_STEP][PASSED] - out.println("Filing Year drop down was found on the Estimated Tax Page"): null
+
+2021-10-15 18:38:20 - [TEST_STEP][PASSED] - totalOptionsPaymentType = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType")): 3 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' counted
+
+2021-10-15 18:38:21 - [MESSAGE][PASSED] - 3 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' counted
+
+2021-10-15 18:38:21 - [TEST_STEP][PASSED] - if (verifyEqual(totalOptionsPaymentType, 3)): null
+
+2021-10-15 18:38:21 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2021-10-15 18:38:21 - [TEST_STEP][PASSED] - out.println("Total Options for Payment Type are correct: " + totalOptionsPaymentType): null
+
+2021-10-15 18:38:21 - [TEST_STEP][PASSED] - markPassed("Total Options are correct for Payment Type"): Total Options are correct for Payment Type
+
+2021-10-15 18:38:21 - [MESSAGE][PASSED] - Total Options are correct for Payment Type
+
+2021-10-15 18:38:21 - [TEST_STEP][PASSED] - totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear")): 4 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' counted
+
+2021-10-15 18:38:22 - [MESSAGE][PASSED] - 4 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' counted
+
+2021-10-15 18:38:22 - [TEST_STEP][PASSED] - if (verifyEqual(totalOptionsFilingYear, 4)): null
+
+2021-10-15 18:38:22 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2021-10-15 18:38:22 - [TEST_STEP][PASSED] - out.println("Total Options for Filing Year are correct: " + totalOptionsFilingYear): null
+
+2021-10-15 18:38:22 - [TEST_STEP][PASSED] - markPassed("Total Options are correct for Filing Year"): Total Options are correct for Filing Year
+
+2021-10-15 18:38:22 - [MESSAGE][PASSED] - Total Options are correct for Filing Year
+
+2021-10-15 18:38:22 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType"), ["Personal", "Corporate"]): Options [Personal, Corporate] present.
+
+2021-10-15 18:38:22 - [MESSAGE][PASSED] - Options [Personal, Corporate] present.
+
+2021-10-15 18:38:22 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), ["2022", "2021", "2020"]): Options [2022, 2021, 2020] present.
+
+2021-10-15 18:38:23 - [MESSAGE][PASSED] - Options [2022, 2021, 2020] present.
+
+2021-10-15 18:38:23 - [TEST_STEP][PASSED] - verifyTextPresent("Tax Type/Filing Year", true): Text 'Tax Type/Filing Year' is present on page  using regular expression
+
+2021-10-15 18:38:23 - [MESSAGE][PASSED] - Text 'Tax Type/Filing Year' is present on page  using regular expression
+
+2021-10-15 18:38:23 - [TEST_STEP][PASSED] - verifyTextPresent("Taxpayer", true): Text 'Taxpayer' is present on page  using regular expression
+
+2021-10-15 18:38:24 - [MESSAGE][PASSED] - Text 'Taxpayer' is present on page  using regular expression
+
+2021-10-15 18:38:24 - [TEST_STEP][PASSED] - verifyTextPresent("Provide the following taxpayer information", true): Text 'Provide the following taxpayer information' is present on page  using regular expression
+
+2021-10-15 18:38:24 - [MESSAGE][PASSED] - Text 'Provide the following taxpayer information' is present on page  using regular expression
+
+2021-10-15 18:38:24 - [TEST_STEP][PASSED] - verifyTextPresent("Note: If you are paying on behalf of the Taxpayer, enter Taxpayer", true): Text 'Note: If you are paying on behalf of the Taxpayer, enter Taxpayer' is present on page  using regular expression
+
+2021-10-15 18:38:25 - [MESSAGE][PASSED] - Text 'Note: If you are paying on behalf of the Taxpayer, enter Taxpayer' is present on page  using regular expression
+
+2021-10-15 18:38:25 - [TEST_STEP][PASSED] - verifyTextPresent("information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information", true): Text 'information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information' is present on page  using regular expression
+
+2021-10-15 18:38:25 - [MESSAGE][PASSED] - Text 'information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information' is present on page  using regular expression
+
+2021-10-15 18:38:25 - [TEST_STEP][PASSED] - verifyTextPresent("Address and Contact Information", true): Text 'Address and Contact Information' is present on page  using regular expression
+
+2021-10-15 18:38:25 - [MESSAGE][PASSED] - Text 'Address and Contact Information' is present on page  using regular expression
+
+2021-10-15 18:38:25 - [TEST_STEP][PASSED] - verifyTextPresent("Enter the taxpayer", true): Text 'Enter the taxpayer' is present on page  using regular expression
+
+2021-10-15 18:38:26 - [MESSAGE][PASSED] - Text 'Enter the taxpayer' is present on page  using regular expression
+
+2021-10-15 18:38:26 - [TEST_STEP][PASSED] - verifyTextPresent("address and contact information", true): Text 'address and contact information' is present on page  using regular expression
+
+2021-10-15 18:38:26 - [MESSAGE][PASSED] - Text 'address and contact information' is present on page  using regular expression
+
+2021-10-15 18:38:26 - [TEST_STEP][PASSED] - verifyTextPresent("Filing Status", true): Text 'Filing Status' is present on page  using regular expression
+
+2021-10-15 18:38:26 - [MESSAGE][PASSED] - Text 'Filing Status' is present on page  using regular expression
+
+2021-10-15 18:38:26 - [TEST_STEP][PASSED] - verifyTextPresent("Is this an Individual or Joint Filing?", true): Text 'Is this an Individual or Joint Filing?' is present on page  using regular expression
+
+2021-10-15 18:38:27 - [MESSAGE][PASSED] - Text 'Is this an Individual or Joint Filing?' is present on page  using regular expression
+
+2021-10-15 18:38:27 - [TEST_STEP][PASSED] - verifyTextPresent("Filing type", true): Text 'Filing type' is present on page  using regular expression
+
+2021-10-15 18:38:27 - [MESSAGE][PASSED] - Text 'Filing type' is present on page  using regular expression
+
+2021-10-15 18:38:27 - [TEST_STEP][PASSED] - verifyTextPresent("Individual Filing", true): Text 'Individual Filing' is present on page  using regular expression
+
+2021-10-15 18:38:27 - [MESSAGE][PASSED] - Text 'Individual Filing' is present on page  using regular expression
+
+2021-10-15 18:38:27 - [TEST_STEP][PASSED] - verifyTextPresent("Joint Filing", true): Text 'Joint Filing' is present on page  using regular expression
+
+2021-10-15 18:38:28 - [MESSAGE][PASSED] - Text 'Joint Filing' is present on page  using regular expression
+
+2021-10-15 18:38:28 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Amount", true): Text 'Payment Amount' is present on page  using regular expression
+
+2021-10-15 18:38:28 - [MESSAGE][PASSED] - Text 'Payment Amount' is present on page  using regular expression
+
+2021-10-15 18:38:28 - [TEST_STEP][PASSED] - verifyTextPresent("Service Fee: This electronic government service includes a service/convenience fee. Click here for details", true): Text 'Service Fee: This electronic government service includes a service/convenience fee. Click here for details' is present on page  using regular expression
+
+2021-10-15 18:38:28 - [MESSAGE][PASSED] - Text 'Service Fee: This electronic government service includes a service/convenience fee. Click here for details' is present on page  using regular expression
+
+2021-10-15 18:38:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Amount + "/a_Click here for details"), 30): Object 'Object Repository/RAD_Pages/PaymentAmount_Page/a_Click here for details' is present
+
+2021-10-15 18:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/PaymentAmount_Page/a_Click here for details' is present
+
+2021-10-15 18:38:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Landing + "/button_Continue"), 30): Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is present
+
+2021-10-15 18:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is present
+
+2021-10-15 18:38:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_firstName"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName' is present
+
+2021-10-15 18:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName' is present
+
+2021-10-15 18:38:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_middleName"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_middleName' is present
+
+2021-10-15 18:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_middleName' is present
+
+2021-10-15 18:38:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_lastName"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName' is present
+
+2021-10-15 18:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName' is present
+
+2021-10-15 18:38:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_suffix"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_suffix' is present
+
+2021-10-15 18:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_suffix' is present
+
+2021-10-15 18:38:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_PSSN"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_PSSN' is present
+
+2021-10-15 18:38:31 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_PSSN' is present
+
+2021-10-15 18:38:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_reEnterPSSN"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_reEnterPSSN' is present
+
+2021-10-15 18:38:31 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_reEnterPSSN' is present
+
+2021-10-15 18:38:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/select_Country"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' is present
+
+2021-10-15 18:38:31 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' is present
+
+2021-10-15 18:38:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_streetAddress1"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1' is present
+
+2021-10-15 18:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1' is present
+
+2021-10-15 18:38:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_streetAddress2"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2' is present
+
+2021-10-15 18:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2' is present
+
+2021-10-15 18:38:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_city"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city' is present
+
+2021-10-15 18:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city' is present
+
+2021-10-15 18:38:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/select_State"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' is present
+
+2021-10-15 18:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' is present
+
+2021-10-15 18:38:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_zipCode"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode' is present
+
+2021-10-15 18:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode' is present
+
+2021-10-15 18:38:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_phoneNumber"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber' is present
+
+2021-10-15 18:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber' is present
+
+2021-10-15 18:38:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_eMailAddress"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress' is present
+
+2021-10-15 18:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress' is present
+
+2021-10-15 18:38:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress' is present
+
+2021-10-15 18:38:34 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress' is present
+
+2021-10-15 18:38:34 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_AddressContact + "/select_Country"), ["United States"]): Options [United States] present.
+
+2021-10-15 18:38:34 - [MESSAGE][PASSED] - Options [United States] present.
+
+2021-10-15 18:38:34 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_AddressContact + "/select_State"), ["Alabama", "District of Columbia", "Maryland", "Virginia", "Wyoming"]): Options [Alabama, District of Columbia, Maryland, Virginia, Wyoming] present.
+
+2021-10-15 18:38:36 - [MESSAGE][PASSED] - Options [Alabama, District of Columbia, Maryland, Virginia, Wyoming] present.
+
+2021-10-15 18:38:36 - [TEST_STEP][PASSED] - totalOptionsState = getNumberOfTotalOption(findTestObject(orPath_AddressContact + "/select_State")): 52 options of object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' counted
+
+2021-10-15 18:38:36 - [MESSAGE][PASSED] - 52 options of object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' counted
+
+2021-10-15 18:38:36 - [TEST_STEP][FAILED] - verifyEqual(totalOptionsState, 51): Unable to verify equal between actual object '52' and expected object '51' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+)
+
+2021-10-15 18:38:36 - [MESSAGE][FAILED] - Unable to verify equal between actual object '52' and expected object '51' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2021-10-15 18:38:13 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/EstimatedTaxUI_TC: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '52' and expected object '51' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-15 18:38:13 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '52' and expected object '51' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-out>
+      <system-err><![CDATA[2021-10-15 18:38:13 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '52' and expected object '51' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:202)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634337490278.run(TempTestSuite1634337490278.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '52' and expected object '51' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 18 more]]></system-err>
+   </testsuite>
+</testsuites>

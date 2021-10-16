@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-15 17:52:07,2021-10-15 17:52:17,10.104s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/EstimatedTaxUI_TC,Chrome 94.0.4606.81,,,2021-10-15 17:52:07,2021-10-15 17:52:17,9.651s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-15 17:52:08,2021-10-15 17:52:11,2.978s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-15 17:52:11,2021-10-15 17:52:11,0.158s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-15 17:52:11,2021-10-15 17:52:13,1.642s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-15 17:52:13,2021-10-15 17:52:13,0.008s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-15 17:52:13,2021-10-15 17:52:13,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-15 17:52:13,2021-10-15 17:52:13,0.001s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-15 17:52:13,2021-10-15 17:52:13,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-15 17:52:13,2021-10-15 17:52:13,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-15 17:52:13,2021-10-15 17:52:13,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Chrome 94.0.4606.81,,,2021-10-15 17:52:13,2021-10-15 17:52:14,0.806s,PASSED
+"if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""), 30))",Chrome 94.0.4606.81,,,2021-10-15 17:52:14,2021-10-15 17:52:14,0.463s,PASSED
+"if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), 30))",Chrome 94.0.4606.81,,,2021-10-15 17:52:14,2021-10-15 17:52:15,0.356s,PASSED
+"totalOptionsPaymentType = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""))",Chrome 94.0.4606.81,,,2021-10-15 17:52:15,2021-10-15 17:52:15,0.636s,PASSED
+"if (verifyEqual(totalOptionsPaymentType, 3))",Chrome 94.0.4606.81,,,2021-10-15 17:52:15,2021-10-15 17:52:15,0.051s,PASSED
+"totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""))",Chrome 94.0.4606.81,,,2021-10-15 17:52:15,2021-10-15 17:52:16,0.600s,PASSED
+"if (verifyEqual(totalOptionsFilingYear, 4))",Chrome 94.0.4606.81,,,2021-10-15 17:52:16,2021-10-15 17:52:16,0.006s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""), [""Personal"", ""Corporate""])",Chrome 94.0.4606.81,,,2021-10-15 17:52:16,2021-10-15 17:52:16,0.672s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), [""2022"", ""2021"", ""2020""])",Chrome 94.0.4606.81,,,2021-10-15 17:52:16,2021-10-15 17:52:17,0.672s,PASSED

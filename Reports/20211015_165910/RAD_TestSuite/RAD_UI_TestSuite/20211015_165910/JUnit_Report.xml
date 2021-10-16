@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="10.43" tests="1" failures="1" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="1" errors="0" time="10.43" skipped="0" timestamp="2021-10-15 16:59:14" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211015_165910\\RAD_TestSuite\\RAD_UI_TestSuite\\20211015_165910"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211015_165910\\RAD_TestSuite\\RAD_UI_TestSuite\\20211015_165910\\execution0.log"/>
+         <property name="attachments" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211015_165910\\RAD_TestSuite\\RAD_UI_TestSuite\\20211015_165910\\1634331563038.png"/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="8fa1bb77889f3e19bf891ddbb8fe6f42"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/EstimatedTaxUI_TC" time="8.665" classname="Test Cases/RAD_TestCases/EstimatedTaxUI_TC" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	... 23 more
+"/>
+         <system-out><![CDATA[2021-10-15 16:59:14 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/EstimatedTaxUI_TC: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	... 23 more
+
+
+2021-10-15 16:59:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-15 16:59:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-15 16:59:15 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-15 16:59:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-15 16:59:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-15 16:59:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-15 16:59:18 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-15 16:59:18 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-15 16:59:19 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-15 16:59:19 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-15 16:59:19 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-15 16:59:19 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-15 16:59:19 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-15 16:59:19 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-15 16:59:19 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-15 16:59:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), "Estimated Tax", false): All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-15 16:59:20 - [MESSAGE][PASSED] - All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-15 16:59:20 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType"), 30)): null
+
+2021-10-15 16:59:21 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' is present
+
+2021-10-15 16:59:21 - [TEST_STEP][PASSED] - out.println("Payment Type drop down was found on the Landing Page"): null
+
+2021-10-15 16:59:21 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), 30)): null
+
+2021-10-15 16:59:21 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' is present
+
+2021-10-15 16:59:21 - [TEST_STEP][PASSED] - out.println("Filing Year drop down was found on the Landing Page"): null
+
+2021-10-15 16:59:21 - [TEST_STEP][PASSED] - totalOptionsPaymentType = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType")): 3 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' counted
+
+2021-10-15 16:59:22 - [MESSAGE][PASSED] - 3 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' counted
+
+2021-10-15 16:59:22 - [TEST_STEP][PASSED] - if (verifyEqual(totalOptionsPaymentType, 3)): null
+
+2021-10-15 16:59:22 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2021-10-15 16:59:22 - [TEST_STEP][PASSED] - out.println("Total Options for Payment Type are correct: " + totalOptionsPaymentType): null
+
+2021-10-15 16:59:22 - [TEST_STEP][PASSED] - markPassed("Total Options are correct for Payment Type"): Total Options are correct for Payment Type
+
+2021-10-15 16:59:22 - [MESSAGE][PASSED] - Total Options are correct for Payment Type
+
+2021-10-15 16:59:22 - [TEST_STEP][FAILED] - verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType"), ["Personal", "Corporates"]): Options [Personal, Corporates] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+)
+
+2021-10-15 16:59:23 - [MESSAGE][FAILED] - Options [Personal, Corporates] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211015_165910\\RAD_TestSuite\\RAD_UI_TestSuite\\20211015_165910\\1634331563038.png]]]]></system-out>
+         <system-err><![CDATA[2021-10-15 16:59:14 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/EstimatedTaxUI_TC: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-15 16:59:14 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2021-10-15 16:59:14 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present. (Root cause: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailedWithReason(WebUIKeywordMain.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.doCall(VerifyOptionsPresentKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword$_verifyOptionsPresent_closure1.call(VerifyOptionsPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.verifyOptionsPresent(VerifyOptionsPresentKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionsPresentKeyword.execute(VerifyOptionsPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionsPresent(WebUiBuiltInKeywords.groovy:4716)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionsPresent$5.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634331550886.run(TempTestSuite1634331550886.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Options [Personal, Corporates] do NOT present.. Reason: Your expected options are [Personal, Corporates] but the actual are [Select, Personal, Corporate].
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

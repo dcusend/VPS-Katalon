@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-15 18:05:06,2021-10-15 18:05:23,17.709s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/EstimatedTaxUI_TC,Chrome 94.0.4606.81,,,2021-10-15 18:05:06,2021-10-15 18:05:23,17.271s,FAILED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-15 18:05:07,2021-10-15 18:05:10,2.851s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-15 18:05:10,2021-10-15 18:05:10,0.153s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-15 18:05:10,2021-10-15 18:05:11,1.778s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-15 18:05:11,2021-10-15 18:05:11,0.005s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-15 18:05:11,2021-10-15 18:05:11,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-15 18:05:11,2021-10-15 18:05:11,0.001s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-15 18:05:11,2021-10-15 18:05:11,0.005s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-15 18:05:11,2021-10-15 18:05:11,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-15 18:05:11,2021-10-15 18:05:11,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Chrome 94.0.4606.81,,,2021-10-15 18:05:11,2021-10-15 18:05:12,0.977s,PASSED
+"if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""), 30))",Chrome 94.0.4606.81,,,2021-10-15 18:05:12,2021-10-15 18:05:13,0.520s,PASSED
+"if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), 30))",Chrome 94.0.4606.81,,,2021-10-15 18:05:13,2021-10-15 18:05:13,0.325s,PASSED
+"totalOptionsPaymentType = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""))",Chrome 94.0.4606.81,,,2021-10-15 18:05:13,2021-10-15 18:05:14,0.691s,PASSED
+"if (verifyEqual(totalOptionsPaymentType, 3))",Chrome 94.0.4606.81,,,2021-10-15 18:05:14,2021-10-15 18:05:14,0.051s,PASSED
+"totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""))",Chrome 94.0.4606.81,,,2021-10-15 18:05:14,2021-10-15 18:05:15,0.598s,PASSED
+"if (verifyEqual(totalOptionsFilingYear, 4))",Chrome 94.0.4606.81,,,2021-10-15 18:05:15,2021-10-15 18:05:15,0.001s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""), [""Personal"", ""Corporate""])",Chrome 94.0.4606.81,,,2021-10-15 18:05:15,2021-10-15 18:05:15,0.631s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), [""2022"", ""2021"", ""2020""])",Chrome 94.0.4606.81,,,2021-10-15 18:05:15,2021-10-15 18:05:16,0.613s,PASSED
+"verifyTextPresent(""Tax Type/Filing Year"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:16,2021-10-15 18:05:16,0.424s,PASSED
+"verifyTextPresent(""Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:16,2021-10-15 18:05:17,0.377s,PASSED
+"verifyTextPresent(""Provide the following taxpayer information"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:17,2021-10-15 18:05:17,0.370s,PASSED
+"verifyTextPresent(""Note: If you are paying on behalf of the Taxpayer, enter Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:17,2021-10-15 18:05:17,0.365s,PASSED
+"verifyTextPresent(""information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:17,2021-10-15 18:05:18,0.373s,PASSED
+"verifyTextPresent(""Address and Contact Information"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:18,2021-10-15 18:05:18,0.359s,PASSED
+"verifyTextPresent(""Enter the taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:18,2021-10-15 18:05:18,0.350s,PASSED
+"verifyTextPresent(""address and contact information"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:18,2021-10-15 18:05:19,0.355s,PASSED
+"verifyTextPresent(""Filing Status"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:19,2021-10-15 18:05:19,0.351s,PASSED
+"verifyTextPresent(""Is this an Individual or Joint Filing?"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:19,2021-10-15 18:05:20,0.355s,PASSED
+"verifyTextPresent(""Filing type"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:20,2021-10-15 18:05:20,0.356s,PASSED
+"verifyTextPresent(""Individual Filing"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:20,2021-10-15 18:05:20,0.362s,PASSED
+"verifyTextPresent(""Joint Filing"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:20,2021-10-15 18:05:21,0.358s,PASSED
+"verifyTextPresent(""Payment Amount"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:21,2021-10-15 18:05:21,0.361s,PASSED
+"verifyTextPresent(""Service Fee: This electronic government service includes a service/convenience fee. Click here for details"", true)",Chrome 94.0.4606.81,,,2021-10-15 18:05:21,2021-10-15 18:05:21,0.364s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/a_Click here for details""), 30)",Chrome 94.0.4606.81,,,2021-10-15 18:05:21,2021-10-15 18:05:22,0.311s,PASSED
+"click(findTestObject(orPath_Amount + ""/a_Click here for details""))",Chrome 94.0.4606.81,,,2021-10-15 18:05:22,2021-10-15 18:05:23,1.693s,FAILED

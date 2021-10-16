@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-15 13:54:16,2021-10-15 13:54:25,8.573s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/EstimatedTaxUI_TC,Chrome 94.0.4606.81,,,2021-10-15 13:54:16,2021-10-15 13:54:25,8.120s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-15 13:54:17,2021-10-15 13:54:21,4.030s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-15 13:54:21,2021-10-15 13:54:21,0.157s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-15 13:54:21,2021-10-15 13:54:23,2.317s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:54:24,2021-10-15 13:54:24,0.006s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:54:24,2021-10-15 13:54:24,0.001s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:54:24,2021-10-15 13:54:24,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:54:24,2021-10-15 13:54:24,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-15 13:54:24,2021-10-15 13:54:24,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Chrome 94.0.4606.81,,,2021-10-15 13:54:24,2021-10-15 13:54:24,0.986s,PASSED

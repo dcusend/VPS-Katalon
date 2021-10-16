@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="28.825" tests="1" failures="0" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="0" time="28.825" skipped="0" timestamp="2021-10-16 18:34:08" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211016_183405\\RAD_TestSuite\\RAD_UI_TestSuite\\20211016_183405"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211016_183405\\RAD_TestSuite\\RAD_UI_TestSuite\\20211016_183405\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="30c09e65673271820ca81ae7c40397ca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/UI_TestCases/WithholdingTax_UI_TC" time="27.247" classname="Test Cases/RAD_TestCases/UI_TestCases/WithholdingTax_UI_TC" status="PASSED">
+         <system-out><![CDATA[2021-10-16 18:34:08 - [TEST_CASE][PASSED] - Test Cases/RAD_TestCases/UI_TestCases/WithholdingTax_UI_TC: Test Cases/RAD_TestCases/UI_TestCases/WithholdingTax_UI_TC
+
+2021-10-16 18:34:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-16 18:34:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-16 18:34:09 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-16 18:34:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-16 18:34:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-16 18:34:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-16 18:34:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-16 18:34:12 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-16 18:34:14 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page": null
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - orPath_Withholding = "Object Repository/RAD_Pages/Withholding_Page": null
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-16 18:34:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), "Withholding Tax", false): All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-16 18:34:15 - [MESSAGE][PASSED] - All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-16 18:34:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), 30): Object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' is present
+
+2021-10-16 18:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' is present
+
+2021-10-16 18:34:15 - [TEST_STEP][PASSED] - totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear")): 4 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' counted
+
+2021-10-16 18:34:16 - [MESSAGE][PASSED] - 4 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' counted
+
+2021-10-16 18:34:16 - [TEST_STEP][PASSED] - verifyEqual(totalOptionsFilingYear, 4): Actual object '4' and expected object '4' are equal
+
+2021-10-16 18:34:16 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2021-10-16 18:34:16 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), ["2022", "2021", "2020"]): Options [2022, 2021, 2020] present.
+
+2021-10-16 18:34:17 - [MESSAGE][PASSED] - Options [2022, 2021, 2020] present.
+
+2021-10-16 18:34:17 - [TEST_STEP][PASSED] - verifyTextPresent("Tax Type/Filing Year", true): Text 'Tax Type/Filing Year' is present on page  using regular expression
+
+2021-10-16 18:34:17 - [MESSAGE][PASSED] - Text 'Tax Type/Filing Year' is present on page  using regular expression
+
+2021-10-16 18:34:17 - [TEST_STEP][PASSED] - verifyTextPresent("Taxpayer", true): Text 'Taxpayer' is present on page  using regular expression
+
+2021-10-16 18:34:17 - [MESSAGE][PASSED] - Text 'Taxpayer' is present on page  using regular expression
+
+2021-10-16 18:34:17 - [TEST_STEP][PASSED] - verifyTextPresent("Provide the following taxpayer information", true): Text 'Provide the following taxpayer information' is present on page  using regular expression
+
+2021-10-16 18:34:18 - [MESSAGE][PASSED] - Text 'Provide the following taxpayer information' is present on page  using regular expression
+
+2021-10-16 18:34:18 - [TEST_STEP][PASSED] - verifyTextPresent("Note: If you are paying on behalf of the Taxpayer, enter Taxpayer", true): Text 'Note: If you are paying on behalf of the Taxpayer, enter Taxpayer' is present on page  using regular expression
+
+2021-10-16 18:34:18 - [MESSAGE][PASSED] - Text 'Note: If you are paying on behalf of the Taxpayer, enter Taxpayer' is present on page  using regular expression
+
+2021-10-16 18:34:18 - [TEST_STEP][PASSED] - verifyTextPresent("information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information", true): Text 'information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information' is present on page  using regular expression
+
+2021-10-16 18:34:18 - [MESSAGE][PASSED] - Text 'information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information' is present on page  using regular expression
+
+2021-10-16 18:34:18 - [TEST_STEP][PASSED] - verifyTextPresent("Address and Contact Information", true): Text 'Address and Contact Information' is present on page  using regular expression
+
+2021-10-16 18:34:19 - [MESSAGE][PASSED] - Text 'Address and Contact Information' is present on page  using regular expression
+
+2021-10-16 18:34:19 - [TEST_STEP][PASSED] - verifyTextPresent("Enter the taxpayer", true): Text 'Enter the taxpayer' is present on page  using regular expression
+
+2021-10-16 18:34:19 - [MESSAGE][PASSED] - Text 'Enter the taxpayer' is present on page  using regular expression
+
+2021-10-16 18:34:19 - [TEST_STEP][PASSED] - verifyTextPresent("address and contact information", true): Text 'address and contact information' is present on page  using regular expression
+
+2021-10-16 18:34:20 - [MESSAGE][PASSED] - Text 'address and contact information' is present on page  using regular expression
+
+2021-10-16 18:34:20 - [TEST_STEP][PASSED] - verifyTextPresent("Tax Information", true): Text 'Tax Information' is present on page  using regular expression
+
+2021-10-16 18:34:20 - [MESSAGE][PASSED] - Text 'Tax Information' is present on page  using regular expression
+
+2021-10-16 18:34:20 - [TEST_STEP][PASSED] - verifyTextPresent("Withholding", true): Text 'Withholding' is present on page  using regular expression
+
+2021-10-16 18:34:20 - [MESSAGE][PASSED] - Text 'Withholding' is present on page  using regular expression
+
+2021-10-16 18:34:20 - [TEST_STEP][PASSED] - verifyTextPresent("Are you filing on an accelerated basis?", true): Text 'Are you filing on an accelerated basis?' is present on page  using regular expression
+
+2021-10-16 18:34:21 - [MESSAGE][PASSED] - Text 'Are you filing on an accelerated basis?' is present on page  using regular expression
+
+2021-10-16 18:34:21 - [TEST_STEP][PASSED] - verifyTextPresent("Yes", true): Text 'Yes' is present on page  using regular expression
+
+2021-10-16 18:34:21 - [MESSAGE][PASSED] - Text 'Yes' is present on page  using regular expression
+
+2021-10-16 18:34:21 - [TEST_STEP][PASSED] - verifyTextPresent("No", true): Text 'No' is present on page  using regular expression
+
+2021-10-16 18:34:21 - [MESSAGE][PASSED] - Text 'No' is present on page  using regular expression
+
+2021-10-16 18:34:21 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Amount", true): Text 'Payment Amount' is present on page  using regular expression
+
+2021-10-16 18:34:22 - [MESSAGE][PASSED] - Text 'Payment Amount' is present on page  using regular expression
+
+2021-10-16 18:34:22 - [TEST_STEP][PASSED] - verifyTextPresent("Service Fee: This electronic government service includes a service/convenience fee. Click here for details", true): Text 'Service Fee: This electronic government service includes a service/convenience fee. Click here for details' is present on page  using regular expression
+
+2021-10-16 18:34:22 - [MESSAGE][PASSED] - Text 'Service Fee: This electronic government service includes a service/convenience fee. Click here for details' is present on page  using regular expression
+
+2021-10-16 18:34:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Amount + "/a_Click here for details"), 30): Object 'Object Repository/RAD_Pages/PaymentAmount_Page/a_Click here for details' is present
+
+2021-10-16 18:34:22 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/PaymentAmount_Page/a_Click here for details' is present
+
+2021-10-16 18:34:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Landing + "/button_Continue"), 30): Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is present
+
+2021-10-16 18:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is present
+
+2021-10-16 18:34:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_businessName"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_businessName' is present
+
+2021-10-16 18:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_businessName' is present
+
+2021-10-16 18:34:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_firstName"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName' is present
+
+2021-10-16 18:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName' is present
+
+2021-10-16 18:34:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_middleName"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_middleName' is present
+
+2021-10-16 18:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_middleName' is present
+
+2021-10-16 18:34:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_lastName"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName' is present
+
+2021-10-16 18:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName' is present
+
+2021-10-16 18:34:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxPayer + "/input_suffix"), 30): Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_suffix' is present
+
+2021-10-16 18:34:24 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Taxpayer_Page/input_suffix' is present
+
+2021-10-16 18:34:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/select_Country"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' is present
+
+2021-10-16 18:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' is present
+
+2021-10-16 18:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_streetAddress1"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1' is present
+
+2021-10-16 18:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1' is present
+
+2021-10-16 18:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_streetAddress2"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2' is present
+
+2021-10-16 18:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2' is present
+
+2021-10-16 18:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_city"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city' is present
+
+2021-10-16 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city' is present
+
+2021-10-16 18:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/select_State"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' is present
+
+2021-10-16 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' is present
+
+2021-10-16 18:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_zipCode"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode' is present
+
+2021-10-16 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode' is present
+
+2021-10-16 18:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_phoneNumber"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber' is present
+
+2021-10-16 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber' is present
+
+2021-10-16 18:34:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_eMailAddress"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress' is present
+
+2021-10-16 18:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress' is present
+
+2021-10-16 18:34:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), 30): Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress' is present
+
+2021-10-16 18:34:27 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress' is present
+
+2021-10-16 18:34:27 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_AddressContact + "/select_Country"), ["United States"]): Options [United States] present.
+
+2021-10-16 18:34:28 - [MESSAGE][PASSED] - Options [United States] present.
+
+2021-10-16 18:34:28 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_AddressContact + "/select_State"), ["Alabama", "District of Columbia", "Maryland", "Virginia", "Wyoming"]): Options [Alabama, District of Columbia, Maryland, Virginia, Wyoming] present.
+
+2021-10-16 18:34:29 - [MESSAGE][PASSED] - Options [Alabama, District of Columbia, Maryland, Virginia, Wyoming] present.
+
+2021-10-16 18:34:29 - [TEST_STEP][PASSED] - totalOptionsState = getNumberOfTotalOption(findTestObject(orPath_AddressContact + "/select_State")): 52 options of object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' counted
+
+2021-10-16 18:34:29 - [MESSAGE][PASSED] - 52 options of object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' counted
+
+2021-10-16 18:34:29 - [TEST_STEP][PASSED] - verifyEqual(totalOptionsState, 52): Actual object '52' and expected object '52' are equal
+
+2021-10-16 18:34:29 - [MESSAGE][PASSED] - Actual object '52' and expected object '52' are equal
+
+2021-10-16 18:34:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxInfo + "/input_FEIN"), 30): Object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FEIN' is present
+
+2021-10-16 18:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FEIN' is present
+
+2021-10-16 18:34:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxInfo + "/input_ReTypeFEIN"), 30): Object 'Object Repository/RAD_Pages/TaxInfo_Page/input_ReTypeFEIN' is present
+
+2021-10-16 18:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxInfo_Page/input_ReTypeFEIN' is present
+
+2021-10-16 18:34:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_TaxInfo + "/input_MDCRegistration"), 30): Object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration' is present
+
+2021-10-16 18:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration' is present
+
+2021-10-16 18:34:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Withholding + "/input_acceleratedBasis_Yes"), 30): Object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_Yes' is present
+
+2021-10-16 18:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_Yes' is present
+
+2021-10-16 18:34:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Withholding + "/input_acceleratedBasis_No"), 30): Object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_No' is present
+
+2021-10-16 18:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_No' is present
+
+2021-10-16 18:34:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Withholding + "/input_PayDate"), 30): Object 'Object Repository/RAD_Pages/Withholding_Page/input_PayDate' is present
+
+2021-10-16 18:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Withholding_Page/input_PayDate' is present
+
+2021-10-16 18:34:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Withholding + "/input__WithholdingTaxReported"), 30): Object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported' is present
+
+2021-10-16 18:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported' is present
+
+2021-10-16 18:34:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Withholding + "/input_acceleratedBasis_No"), 3): Scroll to object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_No' successfully
+
+2021-10-16 18:34:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_No' successfully
+
+2021-10-16 18:34:32 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Withholding + "/input_acceleratedBasis_No")): Object: 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_No' is clicked on
+
+2021-10-16 18:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_No' is clicked on
+
+2021-10-16 18:34:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Withholding + "/select_Month"), 30): Object 'Object Repository/RAD_Pages/Withholding_Page/select_Month' is present
+
+2021-10-16 18:34:33 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Withholding_Page/select_Month' is present
+
+2021-10-16 18:34:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Withholding + "/input__WithholdingTaxReported"), 30): Object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported' is present
+
+2021-10-16 18:34:33 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported' is present
+
+2021-10-16 18:34:33 - [TEST_STEP][PASSED] - totalOptionsPeriodEnding = getNumberOfTotalOption(findTestObject(orPath_Withholding + "/select_Month")): 13 options of object 'Object Repository/RAD_Pages/Withholding_Page/select_Month' counted
+
+2021-10-16 18:34:34 - [MESSAGE][PASSED] - 13 options of object 'Object Repository/RAD_Pages/Withholding_Page/select_Month' counted
+
+2021-10-16 18:34:34 - [TEST_STEP][PASSED] - verifyEqual(totalOptionsPeriodEnding, 13): Actual object '13' and expected object '13' are equal
+
+2021-10-16 18:34:34 - [MESSAGE][PASSED] - Actual object '13' and expected object '13' are equal
+
+2021-10-16 18:34:34 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_Withholding + "/select_Month"), ["January", "February", "March", "April", "May", "June"]): Options [January, February, March, April, May, June] present.
+
+2021-10-16 18:34:35 - [MESSAGE][PASSED] - Options [January, February, March, April, May, June] present.
+
+2021-10-16 18:34:35 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_Withholding + "/select_Month"), ["July", "August", "September", "October", "November", "December"]): Options [July, August, September, October, November, December] present.
+
+2021-10-16 18:34:35 - [MESSAGE][PASSED] - Options [July, August, September, October, November, December] present.
+
+2021-10-16 18:34:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Amount + "/input__paymentAmount"), 30): Object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' is present
+
+2021-10-16 18:34:36 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-16 18:34:08 - [TEST_SUITE][PASSED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/UI_TestCases/WithholdingTax_UI_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

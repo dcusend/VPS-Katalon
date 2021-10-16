@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="17.718" tests="1" failures="1" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="1" errors="0" time="17.718" skipped="0" timestamp="2021-10-15 18:06:58" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211015_180655\\RAD_TestSuite\\RAD_UI_TestSuite\\20211015_180655"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211015_180655\\RAD_TestSuite\\RAD_UI_TestSuite\\20211015_180655\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="914af9183235cf8b3277fb8c7b77d00a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/EstimatedTaxUI_TC" time="15.994" classname="Test Cases/RAD_TestCases/EstimatedTaxUI_TC" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	... 23 more
+"/>
+         <system-out><![CDATA[2021-10-15 18:06:58 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/EstimatedTaxUI_TC: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	... 23 more
+
+
+2021-10-15 18:06:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-15 18:06:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-15 18:06:59 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-15 18:06:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-15 18:07:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-15 18:07:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-15 18:07:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-15 18:07:02 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-15 18:07:04 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-15 18:07:04 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-15 18:07:04 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-15 18:07:04 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-15 18:07:04 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-15 18:07:04 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-15 18:07:04 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-15 18:07:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), "Estimated Tax", false): All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-15 18:07:05 - [MESSAGE][PASSED] - All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-15 18:07:05 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType"), 30)): null
+
+2021-10-15 18:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' is present
+
+2021-10-15 18:07:05 - [TEST_STEP][PASSED] - out.println("Payment Type drop down was found on the Estimated Tax Page"): null
+
+2021-10-15 18:07:05 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), 30)): null
+
+2021-10-15 18:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' is present
+
+2021-10-15 18:07:06 - [TEST_STEP][PASSED] - out.println("Filing Year drop down was found on the Estimated Tax Page"): null
+
+2021-10-15 18:07:06 - [TEST_STEP][PASSED] - totalOptionsPaymentType = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType")): 3 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' counted
+
+2021-10-15 18:07:06 - [MESSAGE][PASSED] - 3 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' counted
+
+2021-10-15 18:07:06 - [TEST_STEP][PASSED] - if (verifyEqual(totalOptionsPaymentType, 3)): null
+
+2021-10-15 18:07:06 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2021-10-15 18:07:06 - [TEST_STEP][PASSED] - out.println("Total Options for Payment Type are correct: " + totalOptionsPaymentType): null
+
+2021-10-15 18:07:06 - [TEST_STEP][PASSED] - markPassed("Total Options are correct for Payment Type"): Total Options are correct for Payment Type
+
+2021-10-15 18:07:06 - [MESSAGE][PASSED] - Total Options are correct for Payment Type
+
+2021-10-15 18:07:06 - [TEST_STEP][PASSED] - totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear")): 4 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' counted
+
+2021-10-15 18:07:07 - [MESSAGE][PASSED] - 4 options of object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' counted
+
+2021-10-15 18:07:07 - [TEST_STEP][PASSED] - if (verifyEqual(totalOptionsFilingYear, 4)): null
+
+2021-10-15 18:07:07 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2021-10-15 18:07:07 - [TEST_STEP][PASSED] - out.println("Total Options for Filing Year are correct: " + totalOptionsFilingYear): null
+
+2021-10-15 18:07:07 - [TEST_STEP][PASSED] - markPassed("Total Options are correct for Filing Year"): Total Options are correct for Filing Year
+
+2021-10-15 18:07:07 - [MESSAGE][PASSED] - Total Options are correct for Filing Year
+
+2021-10-15 18:07:07 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType"), ["Personal", "Corporate"]): Options [Personal, Corporate] present.
+
+2021-10-15 18:07:07 - [MESSAGE][PASSED] - Options [Personal, Corporate] present.
+
+2021-10-15 18:07:07 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), ["2022", "2021", "2020"]): Options [2022, 2021, 2020] present.
+
+2021-10-15 18:07:08 - [MESSAGE][PASSED] - Options [2022, 2021, 2020] present.
+
+2021-10-15 18:07:08 - [TEST_STEP][PASSED] - verifyTextPresent("Tax Type/Filing Year", true): Text 'Tax Type/Filing Year' is present on page  using regular expression
+
+2021-10-15 18:07:09 - [MESSAGE][PASSED] - Text 'Tax Type/Filing Year' is present on page  using regular expression
+
+2021-10-15 18:07:09 - [TEST_STEP][PASSED] - verifyTextPresent("Taxpayer", true): Text 'Taxpayer' is present on page  using regular expression
+
+2021-10-15 18:07:09 - [MESSAGE][PASSED] - Text 'Taxpayer' is present on page  using regular expression
+
+2021-10-15 18:07:09 - [TEST_STEP][PASSED] - verifyTextPresent("Provide the following taxpayer information", true): Text 'Provide the following taxpayer information' is present on page  using regular expression
+
+2021-10-15 18:07:09 - [MESSAGE][PASSED] - Text 'Provide the following taxpayer information' is present on page  using regular expression
+
+2021-10-15 18:07:09 - [TEST_STEP][PASSED] - verifyTextPresent("Note: If you are paying on behalf of the Taxpayer, enter Taxpayer", true): Text 'Note: If you are paying on behalf of the Taxpayer, enter Taxpayer' is present on page  using regular expression
+
+2021-10-15 18:07:10 - [MESSAGE][PASSED] - Text 'Note: If you are paying on behalf of the Taxpayer, enter Taxpayer' is present on page  using regular expression
+
+2021-10-15 18:07:10 - [TEST_STEP][PASSED] - verifyTextPresent("information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information", true): Text 'information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information' is present on page  using regular expression
+
+2021-10-15 18:07:10 - [MESSAGE][PASSED] - Text 'information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information' is present on page  using regular expression
+
+2021-10-15 18:07:10 - [TEST_STEP][PASSED] - verifyTextPresent("Address and Contact Information", true): Text 'Address and Contact Information' is present on page  using regular expression
+
+2021-10-15 18:07:10 - [MESSAGE][PASSED] - Text 'Address and Contact Information' is present on page  using regular expression
+
+2021-10-15 18:07:10 - [TEST_STEP][PASSED] - verifyTextPresent("Enter the taxpayer", true): Text 'Enter the taxpayer' is present on page  using regular expression
+
+2021-10-15 18:07:11 - [MESSAGE][PASSED] - Text 'Enter the taxpayer' is present on page  using regular expression
+
+2021-10-15 18:07:11 - [TEST_STEP][PASSED] - verifyTextPresent("address and contact information", true): Text 'address and contact information' is present on page  using regular expression
+
+2021-10-15 18:07:11 - [MESSAGE][PASSED] - Text 'address and contact information' is present on page  using regular expression
+
+2021-10-15 18:07:11 - [TEST_STEP][PASSED] - verifyTextPresent("Filing Status", true): Text 'Filing Status' is present on page  using regular expression
+
+2021-10-15 18:07:11 - [MESSAGE][PASSED] - Text 'Filing Status' is present on page  using regular expression
+
+2021-10-15 18:07:11 - [TEST_STEP][PASSED] - verifyTextPresent("Is this an Individual or Joint Filing?", true): Text 'Is this an Individual or Joint Filing?' is present on page  using regular expression
+
+2021-10-15 18:07:12 - [MESSAGE][PASSED] - Text 'Is this an Individual or Joint Filing?' is present on page  using regular expression
+
+2021-10-15 18:07:12 - [TEST_STEP][PASSED] - verifyTextPresent("Filing type", true): Text 'Filing type' is present on page  using regular expression
+
+2021-10-15 18:07:12 - [MESSAGE][PASSED] - Text 'Filing type' is present on page  using regular expression
+
+2021-10-15 18:07:12 - [TEST_STEP][PASSED] - verifyTextPresent("Individual Filing", true): Text 'Individual Filing' is present on page  using regular expression
+
+2021-10-15 18:07:13 - [MESSAGE][PASSED] - Text 'Individual Filing' is present on page  using regular expression
+
+2021-10-15 18:07:13 - [TEST_STEP][FAILED] - verifyTextPresent("Joint Filings", true): Text 'Joint Filings' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+)
+
+2021-10-15 18:07:13 - [MESSAGE][FAILED] - Text 'Joint Filings' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+)
+
+2021-10-15 18:07:13 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Amount", true): Text 'Payment Amount' is present on page  using regular expression
+
+2021-10-15 18:07:13 - [MESSAGE][PASSED] - Text 'Payment Amount' is present on page  using regular expression
+
+2021-10-15 18:07:13 - [TEST_STEP][PASSED] - verifyTextPresent("Service Fee: This electronic government service includes a service/convenience fee. Click here for details", true): Text 'Service Fee: This electronic government service includes a service/convenience fee. Click here for details' is present on page  using regular expression
+
+2021-10-15 18:07:14 - [MESSAGE][PASSED] - Text 'Service Fee: This electronic government service includes a service/convenience fee. Click here for details' is present on page  using regular expression
+
+2021-10-15 18:07:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Amount + "/a_Click here for details"), 30): Object 'Object Repository/RAD_Pages/PaymentAmount_Page/a_Click here for details' is present
+
+2021-10-15 18:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/PaymentAmount_Page/a_Click here for details' is present]]></system-out>
+         <system-err><![CDATA[2021-10-15 18:06:58 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/EstimatedTaxUI_TC: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-15 18:06:58 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2021-10-15 18:06:58 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/EstimatedTaxUI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at EstimatedTaxUI_TC.run(EstimatedTaxUI_TC:127)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634335615026.run(TempTestSuite1634335615026.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Joint Filings' is not present on page  using regular expression
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

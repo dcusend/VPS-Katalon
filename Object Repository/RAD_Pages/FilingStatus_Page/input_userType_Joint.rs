@@ -10,6 +10,10 @@
          <value>#joint</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;joint&quot;)[count(. | //input[@class = 'form-check-input' and @value = 'joint' and @name = 'userType' and @type = 'radio' and @id = 'joint']) = count(//input[@class = 'form-check-input' and @value = 'joint' and @name = 'userType' and @type = 'radio' and @id = 'joint'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='joint']</value>
       </entry>
@@ -17,21 +21,21 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
@@ -59,7 +63,7 @@
       <value>joint</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
