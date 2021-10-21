@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Edge Chromium 94,,,2021-10-16 19:05:34,2021-10-16 19:05:49,15.175s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/PersonalIncomeTax_UI_TC,Edge Chromium 94,,,2021-10-16 19:05:34,2021-10-16 19:05:49,14.761s,FAILED
+"openBrowser("""")",Edge Chromium 94,,,2021-10-16 19:05:35,2021-10-16 19:05:39,3.869s,PASSED
+maximizeWindow(),Edge Chromium 94,,,2021-10-16 19:05:39,2021-10-16 19:05:39,0.184s,PASSED
+navigateToUrl(RADurl),Edge Chromium 94,,,2021-10-16 19:05:39,2021-10-16 19:05:40,1.557s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Edge Chromium 94,,,2021-10-16 19:05:40,2021-10-16 19:05:40,0.001s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Edge Chromium 94,,,2021-10-16 19:05:40,2021-10-16 19:05:40,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Edge Chromium 94,,,2021-10-16 19:05:40,2021-10-16 19:05:40,0.001s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Edge Chromium 94,,,2021-10-16 19:05:40,2021-10-16 19:05:40,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Edge Chromium 94,,,2021-10-16 19:05:40,2021-10-16 19:05:40,0.000s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Edge Chromium 94,,,2021-10-16 19:05:40,2021-10-16 19:05:40,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Personal Income Tax"", false)",Edge Chromium 94,,,2021-10-16 19:05:40,2021-10-16 19:05:41,0.438s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), 30)",Edge Chromium 94,,,2021-10-16 19:05:41,2021-10-16 19:05:41,0.168s,PASSED
+"totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""))",Edge Chromium 94,,,2021-10-16 19:05:41,2021-10-16 19:05:41,0.161s,PASSED
+"verifyEqual(totalOptionsFilingYear, 4)",Edge Chromium 94,,,2021-10-16 19:05:41,2021-10-16 19:05:41,0.032s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), [""2022"", ""2021"", ""2020""])",Edge Chromium 94,,,2021-10-16 19:05:41,2021-10-16 19:05:41,0.229s,PASSED
+"verifyTextPresent(""Tax Type/Filing Year"", true)",Edge Chromium 94,,,2021-10-16 19:05:41,2021-10-16 19:05:42,0.218s,PASSED
+"verifyTextPresent(""Taxpayer"", true)",Edge Chromium 94,,,2021-10-16 19:05:42,2021-10-16 19:05:42,0.181s,PASSED
+"verifyTextPresent(""Provide the following taxpayer information"", true)",Edge Chromium 94,,,2021-10-16 19:05:42,2021-10-16 19:05:42,0.152s,PASSED
+"verifyTextPresent(""Note: If you are paying on behalf of the Taxpayer, enter Taxpayer"", true)",Edge Chromium 94,,,2021-10-16 19:05:42,2021-10-16 19:05:42,0.154s,PASSED
+"verifyTextPresent(""information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information"", true)",Edge Chromium 94,,,2021-10-16 19:05:42,2021-10-16 19:05:42,0.157s,PASSED
+"verifyTextPresent(""Address and Contact Information"", true)",Edge Chromium 94,,,2021-10-16 19:05:42,2021-10-16 19:05:42,0.148s,PASSED
+"verifyTextPresent(""Enter the taxpayer"", true)",Edge Chromium 94,,,2021-10-16 19:05:42,2021-10-16 19:05:43,0.148s,PASSED
+"verifyTextPresent(""address and contact information"", true)",Edge Chromium 94,,,2021-10-16 19:05:43,2021-10-16 19:05:43,0.152s,PASSED
+"verifyTextPresent(""Filing Status"", true)",Edge Chromium 94,,,2021-10-16 19:05:43,2021-10-16 19:05:43,0.149s,PASSED
+"verifyTextPresent(""Is this an Individual or Joint Filing?"", true)",Edge Chromium 94,,,2021-10-16 19:05:43,2021-10-16 19:05:43,0.165s,PASSED
+"verifyTextPresent(""Filing type"", true)",Edge Chromium 94,,,2021-10-16 19:05:43,2021-10-16 19:05:43,0.165s,PASSED
+"verifyTextPresent(""Individual Filing"", true)",Edge Chromium 94,,,2021-10-16 19:05:43,2021-10-16 19:05:43,0.178s,PASSED
+"verifyTextPresent(""Joint Filing"", true)",Edge Chromium 94,,,2021-10-16 19:05:43,2021-10-16 19:05:43,0.169s,PASSED
+"verifyTextPresent(""Payment Amount"", true)",Edge Chromium 94,,,2021-10-16 19:05:43,2021-10-16 19:05:44,0.150s,PASSED
+"verifyTextPresent(""Service Fee: This electronic government service includes a service/convenience fee. Click here for details"", true)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:44,0.140s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/a_Click here for details""), 30)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:44,0.114s,PASSED
+"verifyElementPresent(findTestObject(orPath_Landing + ""/button_Continue""), 30)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:44,0.085s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_firstName""), 30)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:44,0.086s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_middleName""), 30)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:44,0.088s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_lastName""), 30)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:44,0.100s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_suffix""), 30)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:44,0.080s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_PSSN""), 30)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:44,0.082s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_reEnterPSSN""), 30)",Edge Chromium 94,,,2021-10-16 19:05:44,2021-10-16 19:05:45,0.090s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_Country""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.088s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress1""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.088s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress2""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.094s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_city""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.083s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_State""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.079s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_zipCode""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.087s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_phoneNumber""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.088s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_eMailAddress""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.085s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_reEnterEMailAddress""), 30)",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.089s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_Country""), [""United States""])",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:45,0.144s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_State""), [""Alabama"", ""District of Columbia"", ""Maryland"", ""Virginia"", ""Wyoming""])",Edge Chromium 94,,,2021-10-16 19:05:45,2021-10-16 19:05:46,0.779s,PASSED
+"totalOptionsState = getNumberOfTotalOption(findTestObject(orPath_AddressContact + ""/select_State""))",Edge Chromium 94,,,2021-10-16 19:05:46,2021-10-16 19:05:46,0.107s,PASSED
+"verifyEqual(totalOptionsState, 52)",Edge Chromium 94,,,2021-10-16 19:05:46,2021-10-16 19:05:46,0.003s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_userType_Individual""), 30)",Edge Chromium 94,,,2021-10-16 19:05:46,2021-10-16 19:05:46,0.090s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""), 30)",Edge Chromium 94,,,2021-10-16 19:05:46,2021-10-16 19:05:46,0.080s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/input__paymentAmount""), 30)",Edge Chromium 94,,,2021-10-16 19:05:46,2021-10-16 19:05:47,0.078s,PASSED
+"scrollToElement(findTestObject(orPath_Amount + ""/input__paymentAmount""), 3)",Edge Chromium 94,,,2021-10-16 19:05:47,2021-10-16 19:05:47,0.091s,PASSED
+"click(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""))",Edge Chromium 94,,,2021-10-16 19:05:47,2021-10-16 19:05:48,1.492s,FAILED
+"verifyTextPresent(""Provide the following information for the joint filer"", true)",Edge Chromium 94,,,2021-10-16 19:05:48,2021-10-16 19:05:48,0.157s,FAILED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointFirstName""), 30)",Edge Chromium 94,,,2021-10-16 19:05:48,2021-10-16 19:05:48,0.099s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointMiddleName""), 30)",Edge Chromium 94,,,2021-10-16 19:05:48,2021-10-16 19:05:49,0.159s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointLastName""), 30)",Edge Chromium 94,,,2021-10-16 19:05:49,2021-10-16 19:05:49,0.090s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointSuffix""), 30)",Edge Chromium 94,,,2021-10-16 19:05:49,2021-10-16 19:05:49,0.086s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointSSN""), 30)",Edge Chromium 94,,,2021-10-16 19:05:49,2021-10-16 19:05:49,0.086s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_reEnterjointSSN""), 30)",Edge Chromium 94,,,2021-10-16 19:05:49,2021-10-16 19:05:49,0.077s,PASSED

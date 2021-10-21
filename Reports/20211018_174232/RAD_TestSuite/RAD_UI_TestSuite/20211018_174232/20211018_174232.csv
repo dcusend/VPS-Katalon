@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-18 17:42:35,2021-10-18 17:42:45,10.696s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/ExistingLiability_UI_TC,Chrome 94.0.4606.81,,,2021-10-18 17:42:35,2021-10-18 17:42:45,10.282s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-18 17:42:36,2021-10-18 17:42:39,2.866s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 17:42:39,2021-10-18 17:42:39,0.164s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-18 17:42:39,2021-10-18 17:42:40,1.749s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:40,2021-10-18 17:42:40,0.001s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:40,2021-10-18 17:42:40,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:40,2021-10-18 17:42:41,0.001s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:41,2021-10-18 17:42:41,0.001s,PASSED
+"orPath_TaxInfo = ""Object Repository/RAD_Pages/TaxInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:41,2021-10-18 17:42:41,0.001s,PASSED
+"orPath_Withholding = ""Object Repository/RAD_Pages/Withholding_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:41,2021-10-18 17:42:41,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:41,2021-10-18 17:42:41,0.002s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:41,2021-10-18 17:42:41,0.004s,PASSED
+"orPath_SalesTaxReturnInfo = ""Object Repository/RAD_Pages/SalesTaxReturnInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:42:41,2021-10-18 17:42:41,0.000s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Existing Liability"", false)",Chrome 94.0.4606.81,,,2021-10-18 17:42:41,2021-10-18 17:42:42,1.032s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_TaxType_ExistingLiability""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:42:42,2021-10-18 17:42:42,0.440s,PASSED
+"totalOptionsExistingLiability = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_TaxType_ExistingLiability""))",Chrome 94.0.4606.81,,,2021-10-18 17:42:42,2021-10-18 17:42:43,0.654s,PASSED
+"verifyEqual(totalOptionsExistingLiability, 12)",Chrome 94.0.4606.81,,,2021-10-18 17:42:43,2021-10-18 17:42:43,0.045s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_TaxType_ExistingLiability""), [""Bay Restoration Fund Tax"", ""CORP Tax"", ""Fiduciary Tax""])",Chrome 94.0.4606.81,,,2021-10-18 17:42:43,2021-10-18 17:42:44,0.814s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_TaxType_ExistingLiability""), [""Personal Tax"", ""PTE (Partnership)"", ""PTE (LLC)""])",Chrome 94.0.4606.81,,,2021-10-18 17:42:44,2021-10-18 17:42:44,0.663s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_TaxType_ExistingLiability""), [""PTE (SCorp)"", ""Sales & Use Tax""])",Chrome 94.0.4606.81,,,2021-10-18 17:42:44,2021-10-18 17:42:45,0.663s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_TaxType_ExistingLiability""), [""Withholding Tax"", ""Alcohol Tax""])",Chrome 94.0.4606.81,,,2021-10-18 17:42:45,2021-10-18 17:42:45,0.656s,PASSED

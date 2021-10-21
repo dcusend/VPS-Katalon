@@ -4,14 +4,23 @@
    <name>input_FEIN</name>
    <tag></tag>
    <elementGuidId>67f4851c-9d8f-4fd2-a96e-04e802ea58d4</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='FEIN']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#FEIN</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='FEIN']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'FEIN' and @id = 'FEIN']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +33,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -59,7 +68,7 @@
       <value>9</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>

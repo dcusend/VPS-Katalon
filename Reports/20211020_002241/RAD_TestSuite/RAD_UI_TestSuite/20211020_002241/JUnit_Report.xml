@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="2.769" tests="1" failures="0" errors="1">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="1" time="2.769" skipped="0" timestamp="2021-10-20 00:22:45" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211020_002241\\RAD_TestSuite\\RAD_UI_TestSuite\\20211020_002241"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211020_002241\\RAD_TestSuite\\RAD_UI_TestSuite\\20211020_002241\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC" time="1.726" classname="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC" status="ERROR">
+         <error type="ERROR" message="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column name 'TaxTypeEL' for test data 'C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx'. Possible values are '{Result,Date,Execute,TaxType,PaymentType,FilingYear,PeriodEnding,Fname,Lname,SSN,BusName,AL1,City,ZIP,FilingType,Withholding,Amount,CCNumber,CVV}'
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnName(AbstractTestData.java:78)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:136)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:107)
+	at com.kms.katalon.core.testdata.TestData$getValue$0.call(Unknown Source)
+	at Payments_ExistingLiability_HC_TC.run(Payments_ExistingLiability_HC_TC:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634703761356.run(TempTestSuite1634703761356.groovy:39)
+"/>
+         <system-out><![CDATA[2021-10-20 00:22:45 - [TEST_CASE][ERROR] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column name 'TaxTypeEL' for test data 'C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx'. Possible values are '{Result,Date,Execute,TaxType,PaymentType,FilingYear,PeriodEnding,Fname,Lname,SSN,BusName,AL1,City,ZIP,FilingType,Withholding,Amount,CCNumber,CVV}'
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnName(AbstractTestData.java:78)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:136)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:107)
+	at com.kms.katalon.core.testdata.TestData$getValue$0.call(Unknown Source)
+	at Payments_ExistingLiability_HC_TC.run(Payments_ExistingLiability_HC_TC:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634703761356.run(TempTestSuite1634703761356.groovy:39)
+
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx": null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - nameSheet = "Sheet1": null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - dataFile = "RADTestData/PaymentsHardCoded": null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - TaxTypeEL = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - FName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - LName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - AL1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - City = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - ZIP = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - Amount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - CCNumber = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - CVV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - numOfRows = findTestData(dataFile).getRowNumbers(): null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2021-10-20 00:22:46 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-20 00:22:47 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-20 00:22:47 - [TEST_STEP][PASSED] - TaxTypeEL = findTestData(dataFile).getValue("TaxTypeEL", row): null]]></system-out>
+         <system-err><![CDATA[2021-10-20 00:22:45 - [TEST_CASE][ERROR] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column name 'TaxTypeEL' for test data 'C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx'. Possible values are '{Result,Date,Execute,TaxType,PaymentType,FilingYear,PeriodEnding,Fname,Lname,SSN,BusName,AL1,City,ZIP,FilingType,Withholding,Amount,CCNumber,CVV}'
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnName(AbstractTestData.java:78)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:136)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:107)
+	at com.kms.katalon.core.testdata.TestData$getValue$0.call(Unknown Source)
+	at Payments_ExistingLiability_HC_TC.run(Payments_ExistingLiability_HC_TC:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634703761356.run(TempTestSuite1634703761356.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-20 00:22:45 - [TEST_SUITE][ERROR] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column name 'TaxTypeEL' for test data 'C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx'. Possible values are '{Result,Date,Execute,TaxType,PaymentType,FilingYear,PeriodEnding,Fname,Lname,SSN,BusName,AL1,City,ZIP,FilingType,Withholding,Amount,CCNumber,CVV}'
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnName(AbstractTestData.java:78)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:136)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:107)
+	at com.kms.katalon.core.testdata.TestData$getValue$0.call(Unknown Source)
+	at Payments_ExistingLiability_HC_TC.run(Payments_ExistingLiability_HC_TC:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634703761356.run(TempTestSuite1634703761356.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-10-20 00:22:45 - [TEST_SUITE][ERROR] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column name 'TaxTypeEL' for test data 'C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx'. Possible values are '{Result,Date,Execute,TaxType,PaymentType,FilingYear,PeriodEnding,Fname,Lname,SSN,BusName,AL1,City,ZIP,FilingType,Withholding,Amount,CCNumber,CVV}'
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnName(AbstractTestData.java:78)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:136)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:107)
+	at com.kms.katalon.core.testdata.TestData$getValue$0.call(Unknown Source)
+	at Payments_ExistingLiability_HC_TC.run(Payments_ExistingLiability_HC_TC:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634703761356.run(TempTestSuite1634703761356.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

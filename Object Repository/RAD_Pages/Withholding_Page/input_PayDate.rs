@@ -6,15 +6,19 @@
    <elementGuidId>17faf087-6946-4f88-a7fa-960e4081bf50</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='payDate']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#payDate</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='payDate']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'PayDate' and @id = 'payDate']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +63,7 @@
       <value>30</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>

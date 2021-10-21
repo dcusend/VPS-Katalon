@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="1.708" tests="1" failures="0" errors="1">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="1" time="1.708" skipped="0" timestamp="2021-10-19 23:13:25" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211019_231322\\RAD_TestSuite\\RAD_UI_TestSuite\\20211019_231322"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211019_231322\\RAD_TestSuite\\RAD_UI_TestSuite\\20211019_231322\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC" time="0.673" classname="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC" status="ERROR">
+         <error type="ERROR" message="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC/Script1634674829687.groovy: 262: unable to resolve class WebElement 
+ @ line 262, column 17.
+   					WebElement element = helper.findWebElement(findTestObject(orPath_Summary + '/button_Continue_Summary'),30)
+                   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634699602135.run(TempTestSuite1634699602135.groovy:39)
+"/>
+         <system-out><![CDATA[2021-10-19 23:13:26 - [TEST_CASE][ERROR] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC/Script1634674829687.groovy: 262: unable to resolve class WebElement 
+ @ line 262, column 17.
+   					WebElement element = helper.findWebElement(findTestObject(orPath_Summary + '/button_Continue_Summary'),30)
+                   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634699602135.run(TempTestSuite1634699602135.groovy:39)]]></system-out>
+         <system-err><![CDATA[2021-10-19 23:13:26 - [TEST_CASE][ERROR] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC/Script1634674829687.groovy: 262: unable to resolve class WebElement 
+ @ line 262, column 17.
+   					WebElement element = helper.findWebElement(findTestObject(orPath_Summary + '/button_Continue_Summary'),30)
+                   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634699602135.run(TempTestSuite1634699602135.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-19 23:13:25 - [TEST_SUITE][ERROR] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC/Script1634674829687.groovy: 262: unable to resolve class WebElement 
+ @ line 262, column 17.
+   					WebElement element = helper.findWebElement(findTestObject(orPath_Summary + '/button_Continue_Summary'),30)
+                   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634699602135.run(TempTestSuite1634699602135.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-10-19 23:13:25 - [TEST_SUITE][ERROR] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/Cloned-Project-Katalon/VPS-Katalon/Scripts/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC/Script1634674829687.groovy: 262: unable to resolve class WebElement 
+ @ line 262, column 17.
+   					WebElement element = helper.findWebElement(findTestObject(orPath_Summary + '/button_Continue_Summary'),30)
+                   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634699602135.run(TempTestSuite1634699602135.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

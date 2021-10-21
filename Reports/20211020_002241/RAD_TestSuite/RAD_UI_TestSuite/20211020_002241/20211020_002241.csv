@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,,,,2021-10-20 00:22:45,2021-10-20 00:22:47,2.195s,ERROR
+,,,,,,,
+Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC,,,,2021-10-20 00:22:45,2021-10-20 00:22:47,1.726s,ERROR
+"resText = ""Fail""",,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.001s,PASSED
+"resColumn = ""Result""",,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+"datCloumn = ""Date""",,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx""",,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+"nameSheet = ""Sheet1""",,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+"dataFile = ""RADTestData/PaymentsHardCoded""",,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+TaxTypeEL = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+FName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+LName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.002s,PASSED
+AL1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+City = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+ZIP = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+Amount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+CCNumber = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+CVV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.826s,PASSED
+"println(""Number of Records: "" + numOfRows)",,,,2021-10-20 00:22:46,2021-10-20 00:22:46,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",,,,2021-10-20 00:22:46,2021-10-20 00:22:47,0.285s,PASSED

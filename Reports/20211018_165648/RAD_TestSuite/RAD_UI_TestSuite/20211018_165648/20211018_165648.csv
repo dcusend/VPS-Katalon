@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-18 16:56:51,2021-10-18 16:57:01,10.450s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMarketplaceFacilitator_UI_TC,Chrome 94.0.4606.81,,,2021-10-18 16:56:51,2021-10-18 16:57:01,10.021s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-18 16:56:52,2021-10-18 16:56:55,2.924s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 16:56:55,2021-10-18 16:56:55,0.161s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-18 16:56:55,2021-10-18 16:56:57,1.541s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.004s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.000s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.000s,PASSED
+"orPath_TaxInfo = ""Object Repository/RAD_Pages/TaxInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.001s,PASSED
+"orPath_Withholding = ""Object Repository/RAD_Pages/Withholding_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.000s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.001s,PASSED
+"orPath_SalesTaxReturnInfo = ""Object Repository/RAD_Pages/SalesTaxReturnInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:57,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Sales and Use"", false)",Chrome 94.0.4606.81,,,2021-10-18 16:56:57,2021-10-18 16:56:58,0.978s,PASSED
+"scrollToElement(findTestObject(orPath_SalesTaxReturnInfo + ""/input_OutOfStateVendor""), 3)",Chrome 94.0.4606.81,,,2021-10-18 16:56:58,2021-10-18 16:56:58,0.414s,PASSED
+"click(findTestObject(orPath_SalesTaxReturnInfo + ""/input_MarketplaceFacilitator""))",Chrome 94.0.4606.81,,,2021-10-18 16:56:58,2021-10-18 16:56:58,0.474s,PASSED
+"verifyTextPresent(""Maryland Form 202F"", true)",Chrome 94.0.4606.81,,,2021-10-18 16:56:58,2021-10-18 16:56:59,0.583s,PASSED
+"verifyTextPresent(""To be completed by marketplace facilitator. Refer to your Maryland Sales Tax Instructions to complete the following."", true)",Chrome 94.0.4606.81,,,2021-10-18 16:56:59,2021-10-18 16:57:00,0.520s,PASSED
+"verifyTextPresent(""Maryland Form 202"", true)",Chrome 94.0.4606.81,,,2021-10-18 16:57:00,2021-10-18 16:57:00,0.465s,PASSED
+"verifyTextPresent(""Refer to your Maryland Sales Tax Instructions to complete the following"", true)",Chrome 94.0.4606.81,,,2021-10-18 16:57:00,2021-10-18 16:57:01,0.464s,PASSED
+"verifyTextPresent(""Maryland Form 202"", true)",Chrome 94.0.4606.81,,,2021-10-18 16:57:01,2021-10-18 16:57:01,0.470s,PASSED
+"verifyTextPresent(""Refer to your Maryland Sales Tax Instructions to complete the following"", true)",Chrome 94.0.4606.81,,,2021-10-18 16:57:01,2021-10-18 16:57:01,0.467s,PASSED

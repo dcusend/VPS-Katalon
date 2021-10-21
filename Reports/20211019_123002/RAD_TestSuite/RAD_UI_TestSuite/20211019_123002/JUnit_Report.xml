@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="58.252" tests="1" failures="0" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="0" time="58.252" skipped="0" timestamp="2021-10-19 12:30:05" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211019_123002\\RAD_TestSuite\\RAD_UI_TestSuite\\20211019_123002"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211019_123002\\RAD_TestSuite\\RAD_UI_TestSuite\\20211019_123002\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Edge Chromium 94"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="e8ce7898aad691e538918f1d19ee734a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch" time="56.502" classname="Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch" status="PASSED">
+         <system-out><![CDATA[2021-10-19 12:30:06 - [TEST_CASE][PASSED] - Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch: Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\RADTestData\EmailNoMatch.xlsx": null
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - nameSheet = "Sheet1": null
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - dataFile = "RADTestData/EmailNoMatch": null
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 12:30:06 - [TEST_STEP][PASSED] - numOfRows = findTestData(dataFile).getRowNumbers(): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 12:30:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 12:30:08 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-10-19 12:30:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 12:30:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 12:30:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 12:30:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 12:30:12 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:14 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:14 - [MESSAGE][PASSED] - All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:14 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "imtiazster@gmail.com"): Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:15 - [MESSAGE][PASSED] - Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:15 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:15 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-10-19 12:30:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-19 12:30:17 - [TEST_STEP][PASSED] - if (verifyTextPresent("The Email and Re-enter email do not match", true)): null
+
+2021-10-19 12:30:18 - [MESSAGE][PASSED] - Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - println("Emails Dont match text is present"): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:18 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 12:30:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 12:30:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-19 12:30:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-10-19 12:30:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 12:30:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 12:30:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 12:30:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 12:30:22 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:23 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:23 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 12:30:23 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 12:30:23 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 12:30:23 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 12:30:23 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 12:30:23 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 12:30:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Personal Income Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:24 - [MESSAGE][PASSED] - All options with label 'Personal Income Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:24 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "imtiazster@gmail.com"): Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:24 - [MESSAGE][PASSED] - Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:24 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:25 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-10-19 12:30:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - if (verifyTextPresent("The Email and Re-enter email do not match", true)): null
+
+2021-10-19 12:30:27 - [MESSAGE][PASSED] - Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - println("Emails Dont match text is present"): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:27 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 12:30:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 12:30:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-19 12:30:28 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-10-19 12:30:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 12:30:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 12:30:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 12:30:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 12:30:30 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:32 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:32 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 12:30:32 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 12:30:32 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 12:30:32 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 12:30:32 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 12:30:32 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 12:30:32 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Extension Payments' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:32 - [MESSAGE][PASSED] - All options with label 'Extension Payments' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:33 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "imtiazster@gmail.com"): Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:33 - [MESSAGE][PASSED] - Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:33 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:33 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-10-19 12:30:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-19 12:30:35 - [TEST_STEP][PASSED] - if (verifyTextPresent("The Email and Re-enter email do not match", true)): null
+
+2021-10-19 12:30:35 - [MESSAGE][PASSED] - Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-19 12:30:35 - [TEST_STEP][PASSED] - println("Emails Dont match text is present"): null
+
+2021-10-19 12:30:35 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-19 12:30:35 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-19 12:30:35 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:36 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 12:30:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 12:30:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-19 12:30:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-10-19 12:30:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 12:30:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 12:30:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 12:30:39 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 12:30:39 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:41 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Existing Liability' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:41 - [MESSAGE][PASSED] - All options with label 'Existing Liability' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:41 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "imtiazster@gmail.com"): Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:42 - [MESSAGE][PASSED] - Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:42 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:42 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-10-19 12:30:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-19 12:30:44 - [TEST_STEP][PASSED] - if (verifyTextPresent("The Email and Re-enter email do not match", true)): null
+
+2021-10-19 12:30:45 - [MESSAGE][PASSED] - Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - println("Emails Dont match text is present"): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:45 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 12:30:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 12:30:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-19 12:30:46 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-10-19 12:30:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 12:30:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 12:30:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 12:30:48 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 12:30:48 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:50 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Sales and Use' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:50 - [MESSAGE][PASSED] - All options with label 'Sales and Use' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:50 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "imtiazster@gmail.com"): Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:51 - [MESSAGE][PASSED] - Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:30:51 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:51 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:30:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-10-19 12:30:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-19 12:30:53 - [TEST_STEP][PASSED] - if (verifyTextPresent("The Email and Re-enter email do not match", true)): null
+
+2021-10-19 12:30:54 - [MESSAGE][PASSED] - Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - println("Emails Dont match text is present"): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:54 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 12:30:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 12:30:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-19 12:30:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-10-19 12:30:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 12:30:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 12:30:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 12:30:57 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 12:30:57 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:59 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:59 - [MESSAGE][PASSED] - All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 12:30:59 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "imtiazster@gmail.com"): Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:31:00 - [MESSAGE][PASSED] - Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:31:00 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:31:00 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:31:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-10-19 12:31:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-19 12:31:02 - [TEST_STEP][PASSED] - if (verifyTextPresent("The Email and Re-enter email do not match", true)): null
+
+2021-10-19 12:31:02 - [MESSAGE][PASSED] - Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-19 12:31:02 - [TEST_STEP][PASSED] - println("Emails Dont match text is present"): null
+
+2021-10-19 12:31:02 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-19 12:31:02 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-19 12:31:02 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-19 12:31:02 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-19 12:30:05 - [TEST_SUITE][PASSED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

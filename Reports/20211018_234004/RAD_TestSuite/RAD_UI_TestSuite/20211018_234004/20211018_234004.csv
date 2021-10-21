@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-18 23:40:08,2021-10-18 23:40:22,14.174s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC,Chrome 94.0.4606.81,,,2021-10-18 23:40:08,2021-10-18 23:40:22,13.766s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-18 23:40:09,2021-10-18 23:40:12,3.495s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 23:40:12,2021-10-18 23:40:12,0.149s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-18 23:40:12,2021-10-18 23:40:14,1.835s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-18 23:40:14,2021-10-18 23:40:14,0.004s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-18 23:40:14,2021-10-18 23:40:14,0.003s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-18 23:40:14,2021-10-18 23:40:14,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Existing Liability"", false)",Chrome 94.0.4606.81,,,2021-10-18 23:40:14,2021-10-18 23:40:15,0.818s,PASSED
+"scrollToElement(findTestObject(orPath_Landing + ""/button_Continue""), 3)",Chrome 94.0.4606.81,,,2021-10-18 23:40:15,2021-10-18 23:40:15,0.450s,PASSED
+"waitForElementClickable(findTestObject(orPath_Landing + ""/button_Continue""), 5)",Chrome 94.0.4606.81,,,2021-10-18 23:40:15,2021-10-18 23:40:16,0.659s,PASSED
+"click(findTestObject(orPath_Landing + ""/button_Continue""))",Chrome 94.0.4606.81,,,2021-10-18 23:40:16,2021-10-18 23:40:16,0.433s,PASSED
+"verifyTextPresent(""Select a tax type"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:16,2021-10-18 23:40:17,0.541s,PASSED
+"verifyTextPresent(""Enter first name"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:17,2021-10-18 23:40:17,0.396s,PASSED
+"verifyTextPresent(""Enter last name"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:17,2021-10-18 23:40:18,0.397s,PASSED
+"verifyTextPresent(""Select a country"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:18,2021-10-18 23:40:18,0.364s,PASSED
+"verifyTextPresent(""Enter address"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:18,2021-10-18 23:40:18,0.368s,PASSED
+"verifyTextPresent(""Enter city"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:18,2021-10-18 23:40:19,0.370s,PASSED
+"verifyTextPresent(""Select a state"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:19,2021-10-18 23:40:19,0.366s,PASSED
+"verifyTextPresent(""Enter ZIP code"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:19,2021-10-18 23:40:20,0.372s,PASSED
+"verifyTextPresent(""Enter a phone number"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:20,2021-10-18 23:40:20,0.370s,PASSED
+"verifyTextPresent(""Enter Email"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:20,2021-10-18 23:40:20,0.379s,PASSED
+"verifyTextPresent(""The Email and Re-enter email do not match"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:20,2021-10-18 23:40:21,0.378s,PASSED
+"verifyTextPresent(""Enter notice number"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:21,2021-10-18 23:40:21,0.367s,PASSED
+"verifyTextPresent(""The notice number and Re-Type notice number do not match"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:21,2021-10-18 23:40:21,0.364s,PASSED
+"verifyTextPresent(""Payment amount must be greater than zero and less than 10,000,000"", true)",Chrome 94.0.4606.81,,,2021-10-18 23:40:21,2021-10-18 23:40:22,0.373s,PASSED

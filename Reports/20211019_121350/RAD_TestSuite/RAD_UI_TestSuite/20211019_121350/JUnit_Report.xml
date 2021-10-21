@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="14.438" tests="1" failures="0" errors="1">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="1" time="14.438" skipped="0" timestamp="2021-10-19 12:13:54" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211019_121350\\RAD_TestSuite\\RAD_UI_TestSuite\\20211019_121350"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211019_121350\\RAD_TestSuite\\RAD_UI_TestSuite\\20211019_121350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="86ca8bd166007a6e2589d39f822e5f4d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch" time="12.737" classname="Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch" status="ERROR">
+         <error type="ERROR" message="Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getRow() on null object
+	at pages.WriteExcel.demoKey(WriteExcel.groovy:75)
+	at pages.WriteExcel.invokeMethod(WriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at EMailNoMatch.run(EMailNoMatch:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634660030991.run(TempTestSuite1634660030991.groovy:39)
+"/>
+         <system-out><![CDATA[2021-10-19 12:13:54 - [TEST_CASE][ERROR] - Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch: Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getRow() on null object
+	at pages.WriteExcel.demoKey(WriteExcel.groovy:75)
+	at pages.WriteExcel.invokeMethod(WriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at EMailNoMatch.run(EMailNoMatch:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634660030991.run(TempTestSuite1634660030991.groovy:39)
+
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\RADTestData\EmailNoMatch.xlsx": null
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - nameSheet = "CCSaleData": null
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - dataFile = "RADTestData/EmailNoMatch": null
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 12:13:55 - [TEST_STEP][PASSED] - numOfRows = findTestData(dataFile).getRowNumbers(): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 12:13:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 12:13:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-19 12:13:56 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-19 12:13:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 12:14:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 12:14:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 12:14:00 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 12:14:00 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:14:02 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 12:14:02 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 12:14:02 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 12:14:02 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 12:14:02 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 12:14:02 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 12:14:02 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 12:14:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:14:03 - [MESSAGE][PASSED] - All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 12:14:03 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "imtiazster@gmail.com"): Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:14:04 - [MESSAGE][PASSED] - Text 'imtiazster@gmail.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 12:14:04 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:14:04 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 12:14:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-10-19 12:14:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-10-19 12:14:07 - [TEST_STEP][PASSED] - if (verifyTextPresent("The Email and Re-enter email do not match", true)): null
+
+2021-10-19 12:14:07 - [MESSAGE][PASSED] - Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-19 12:14:07 - [TEST_STEP][PASSED] - println("Emails Dont match text is present"): null
+
+2021-10-19 12:14:07 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-19 12:14:07 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-19 12:14:07 - [TEST_STEP][ERROR] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): Cannot invoke method getRow() on null object
+
+2021-10-19 12:14:07 - [MESSAGE][ERROR] - Cannot invoke method getRow() on null object]]></system-out>
+         <system-err><![CDATA[2021-10-19 12:13:54 - [TEST_CASE][ERROR] - Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch: Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getRow() on null object
+	at pages.WriteExcel.demoKey(WriteExcel.groovy:75)
+	at pages.WriteExcel.invokeMethod(WriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at EMailNoMatch.run(EMailNoMatch:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634660030991.run(TempTestSuite1634660030991.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-19 12:13:54 - [TEST_SUITE][ERROR] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getRow() on null object
+	at pages.WriteExcel.demoKey(WriteExcel.groovy:75)
+	at pages.WriteExcel.invokeMethod(WriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at EMailNoMatch.run(EMailNoMatch:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634660030991.run(TempTestSuite1634660030991.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-10-19 12:13:54 - [TEST_SUITE][ERROR] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getRow() on null object
+	at pages.WriteExcel.demoKey(WriteExcel.groovy:75)
+	at pages.WriteExcel.invokeMethod(WriteExcel.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at EMailNoMatch.run(EMailNoMatch:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634660030991.run(TempTestSuite1634660030991.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

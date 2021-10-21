@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="12.76" tests="1" failures="0" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="0" time="12.76" skipped="0" timestamp="2021-10-18 23:40:33" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211018_234029\\RAD_TestSuite\\RAD_UI_TestSuite\\20211018_234030"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211018_234029\\RAD_TestSuite\\RAD_UI_TestSuite\\20211018_234030\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Edge Chromium 94"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="3853c9accd8a80020ee009c5ee2682a8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC" time="10.981" classname="Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC" status="PASSED">
+         <system-out><![CDATA[2021-10-18 23:40:34 - [TEST_CASE][PASSED] - Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC: Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC
+
+2021-10-18 23:40:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-18 23:40:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-10-18 23:40:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-18 23:40:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-18 23:40:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-18 23:40:39 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-18 23:40:39 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-18 23:40:41 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-18 23:40:41 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-18 23:40:41 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-18 23:40:41 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-18 23:40:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), "Existing Liability", false): All options with label 'Existing Liability' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-18 23:40:41 - [MESSAGE][PASSED] - All options with label 'Existing Liability' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-18 23:40:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Landing + "/button_Continue"), 3): Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-18 23:40:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-18 23:40:41 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject(orPath_Landing + "/button_Continue"), 5): Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clickable
+
+2021-10-18 23:40:42 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clickable
+
+2021-10-18 23:40:42 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Continue")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clicked on
+
+2021-10-18 23:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clicked on
+
+2021-10-18 23:40:42 - [TEST_STEP][PASSED] - verifyTextPresent("Select a tax type", true): Text 'Select a tax type' is present on page  using regular expression
+
+2021-10-18 23:40:42 - [MESSAGE][PASSED] - Text 'Select a tax type' is present on page  using regular expression
+
+2021-10-18 23:40:42 - [TEST_STEP][PASSED] - verifyTextPresent("Enter first name", true): Text 'Enter first name' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [MESSAGE][PASSED] - Text 'Enter first name' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [TEST_STEP][PASSED] - verifyTextPresent("Enter last name", true): Text 'Enter last name' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [MESSAGE][PASSED] - Text 'Enter last name' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [TEST_STEP][PASSED] - verifyTextPresent("Select a country", true): Text 'Select a country' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [MESSAGE][PASSED] - Text 'Select a country' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [TEST_STEP][PASSED] - verifyTextPresent("Enter address", true): Text 'Enter address' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [MESSAGE][PASSED] - Text 'Enter address' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [TEST_STEP][PASSED] - verifyTextPresent("Enter city", true): Text 'Enter city' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [MESSAGE][PASSED] - Text 'Enter city' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [TEST_STEP][PASSED] - verifyTextPresent("Select a state", true): Text 'Select a state' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [MESSAGE][PASSED] - Text 'Select a state' is present on page  using regular expression
+
+2021-10-18 23:40:43 - [TEST_STEP][PASSED] - verifyTextPresent("Enter ZIP code", true): Text 'Enter ZIP code' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [MESSAGE][PASSED] - Text 'Enter ZIP code' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [TEST_STEP][PASSED] - verifyTextPresent("Enter a phone number", true): Text 'Enter a phone number' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [MESSAGE][PASSED] - Text 'Enter a phone number' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [TEST_STEP][PASSED] - verifyTextPresent("Enter Email", true): Text 'Enter Email' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [MESSAGE][PASSED] - Text 'Enter Email' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [TEST_STEP][PASSED] - verifyTextPresent("The Email and Re-enter email do not match", true): Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [MESSAGE][PASSED] - Text 'The Email and Re-enter email do not match' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [TEST_STEP][PASSED] - verifyTextPresent("Enter notice number", true): Text 'Enter notice number' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [MESSAGE][PASSED] - Text 'Enter notice number' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [TEST_STEP][PASSED] - verifyTextPresent("The notice number and Re-Type notice number do not match", true): Text 'The notice number and Re-Type notice number do not match' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [MESSAGE][PASSED] - Text 'The notice number and Re-Type notice number do not match' is present on page  using regular expression
+
+2021-10-18 23:40:44 - [TEST_STEP][PASSED] - verifyTextPresent("Payment amount must be greater than zero and less than 10,000,000", true): Text 'Payment amount must be greater than zero and less than 10,000,000' is present on page  using regular expression
+
+2021-10-18 23:40:45 - [MESSAGE][PASSED] - Text 'Payment amount must be greater than zero and less than 10,000,000' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-18 23:40:33 - [TEST_SUITE][PASSED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

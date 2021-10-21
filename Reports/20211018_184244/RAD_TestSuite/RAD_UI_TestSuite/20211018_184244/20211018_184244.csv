@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Edge Chromium 94,,,2021-10-18 18:42:47,2021-10-18 18:42:55,8.387s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_MRF_TC,Edge Chromium 94,,,2021-10-18 18:42:47,2021-10-18 18:42:55,7.971s,PASSED
+"openBrowser("""")",Edge Chromium 94,,,2021-10-18 18:42:48,2021-10-18 18:42:52,4.264s,PASSED
+maximizeWindow(),Edge Chromium 94,,,2021-10-18 18:42:52,2021-10-18 18:42:52,0.179s,PASSED
+navigateToUrl(RADurl),Edge Chromium 94,,,2021-10-18 18:42:52,2021-10-18 18:42:54,1.976s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Edge Chromium 94,,,2021-10-18 18:42:54,2021-10-18 18:42:54,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Edge Chromium 94,,,2021-10-18 18:42:54,2021-10-18 18:42:54,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Edge Chromium 94,,,2021-10-18 18:42:54,2021-10-18 18:42:55,0.440s,PASSED
+"scrollToElement(findTestObject(orPath_Landing + ""/button_Continue""), 3)",Edge Chromium 94,,,2021-10-18 18:42:55,2021-10-18 18:42:55,0.222s,PASSED
+"click(findTestObject(orPath_Landing + ""/button_Continue""))",Edge Chromium 94,,,2021-10-18 18:42:55,2021-10-18 18:42:55,0.370s,PASSED

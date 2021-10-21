@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-18 17:17:14,2021-10-18 17:17:24,10.398s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC,Chrome 94.0.4606.81,,,2021-10-18 17:17:14,2021-10-18 17:17:24,9.977s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-18 17:17:15,2021-10-18 17:17:18,3.017s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 17:17:18,2021-10-18 17:17:18,0.151s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-18 17:17:18,2021-10-18 17:17:19,1.421s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.001s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.000s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.000s,PASSED
+"orPath_TaxInfo = ""Object Repository/RAD_Pages/TaxInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.000s,PASSED
+"orPath_Withholding = ""Object Repository/RAD_Pages/Withholding_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.000s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.003s,PASSED
+"orPath_SalesTaxReturnInfo = ""Object Repository/RAD_Pages/SalesTaxReturnInfo_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.001s,PASSED
+"orPath_MDForm202 = ""Object Repository/RAD_Pages/MarylandForm202_Page""",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:19,0.000s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Sales and Use"", false)",Chrome 94.0.4606.81,,,2021-10-18 17:17:19,2021-10-18 17:17:20,0.862s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line3""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:20,2021-10-18 17:17:20,0.467s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line4a""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:20,2021-10-18 17:17:21,0.357s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line5a""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:21,2021-10-18 17:17:21,0.343s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line6a""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:21,2021-10-18 17:17:21,0.321s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line8a""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:21,2021-10-18 17:17:22,0.330s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line12a""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:22,2021-10-18 17:17:22,0.350s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line13a""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:22,2021-10-18 17:17:22,0.307s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line15""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:22,2021-10-18 17:17:23,0.303s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line17a""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:23,2021-10-18 17:17:23,0.303s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line17b""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:23,2021-10-18 17:17:23,0.300s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line19a""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:23,2021-10-18 17:17:24,0.303s,PASSED
+"verifyElementPresent(findTestObject(orPath_MDForm202 + ""/input__Line19b""), 30)",Chrome 94.0.4606.81,,,2021-10-18 17:17:24,2021-10-18 17:17:24,0.302s,PASSED

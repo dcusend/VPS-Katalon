@@ -6,18 +6,22 @@
    <elementGuidId>f7a28a1f-535a-4ba5-8b4f-ccc5d55607e3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='ReTypeFEIN']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#ReTypeFEIN</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ReTypeFEIN']</value>
+         <key>BASIC</key>
+         <value>id(&quot;ReTypeFEIN&quot;)[count(. | //input[@type = 'password' and @name = 'ReTypeFEIN' and @class = 'form-control' and @id = 'ReTypeFEIN' and @maxlength = '9' and @placeholder = 'Federal EIN']) = count(//input[@type = 'password' and @name = 'ReTypeFEIN' and @class = 'form-control' and @id = 'ReTypeFEIN' and @maxlength = '9' and @placeholder = 'Federal EIN'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>ReTypeFEIN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -52,7 +56,7 @@
       <value>ReTypeFEIN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
@@ -66,7 +70,7 @@
       <value>Federal EIN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

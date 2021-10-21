@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="90.709" tests="1" failures="0" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="0" time="90.709" skipped="0" timestamp="2021-10-19 21:55:06" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211019_215502\\RAD_TestSuite\\RAD_UI_TestSuite\\20211019_215502"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211019_215502\\RAD_TestSuite\\RAD_UI_TestSuite\\20211019_215502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="57ab46cf6f340a22b342bbaab625b3c7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC" time="88.937" classname="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC" status="PASSED">
+         <system-out><![CDATA[2021-10-19 21:55:06 - [TEST_CASE][PASSED] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx": null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - nameSheet = "Sheet1": null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - dataFile = "RADTestData/PaymentsHardCoded": null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - PaymentType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - FilingYear = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - PeriodEnding = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - FName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - LName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - SSN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - AL1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - City = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - ZIP = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - FilingType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - Withholding = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - Amount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-19 21:55:07 - [TEST_STEP][PASSED] - numOfRows = findTestData(dataFile).getRowNumbers(): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:55:08 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:55:09 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:55:10 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): Text '30.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 21:55:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 21:55:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-19 21:55:12 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-19 21:55:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 21:55:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 21:55:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 21:55:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 21:55:15 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 21:55:17 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page": null
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - orPath_Withholding = "Object Repository/RAD_Pages/Withholding_Page": null
+
+2021-10-19 21:55:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 21:55:18 - [MESSAGE][PASSED] - All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 21:55:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-19 21:55:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-19 21:55:21 - [TEST_STEP][PASSED] - switch (Taxtype): null
+
+2021-10-19 21:55:21 - [TEST_STEP][PASSED] - case "Estimated Tax":: null
+
+2021-10-19 21:55:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType"), PaymentType, false): All options with label 'Personal' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' 
+
+2021-10-19 21:55:21 - [MESSAGE][PASSED] - All options with label 'Personal' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' 
+
+2021-10-19 21:55:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), FilingYear, false): All options with label '2022' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-19 21:55:22 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-19 21:55:22 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_PSSN"), SSN): Text '157865236' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_PSSN'
+
+2021-10-19 21:55:23 - [MESSAGE][PASSED] - Text '157865236' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_PSSN'
+
+2021-10-19 21:55:23 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_reEnterPSSN"), SSN): Text '157865236' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_reEnterPSSN'
+
+2021-10-19 21:55:24 - [MESSAGE][PASSED] - Text '157865236' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_reEnterPSSN'
+
+2021-10-19 21:55:24 - [TEST_STEP][PASSED] - if (FilingType.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:55:24 - [TEST_STEP][PASSED] - else: Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:55:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 21:55:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 21:55:24 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject(orPath_FilingStatus + "/input_userType_Joint"), 5): Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is clickable
+
+2021-10-19 21:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is clickable
+
+2021-10-19 21:55:25 - [TEST_STEP][PASSED] - check(findTestObject(orPath_FilingStatus + "/input_userType_Joint")): Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is checked
+
+2021-10-19 21:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is checked
+
+2021-10-19 21:55:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-19 21:55:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-19 21:55:28 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointFirstName"), "Sam"): Text 'Sam' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointFirstName'
+
+2021-10-19 21:55:29 - [MESSAGE][PASSED] - Text 'Sam' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointFirstName'
+
+2021-10-19 21:55:29 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointLastName"), "Katrina"): Text 'Katrina' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointLastName'
+
+2021-10-19 21:55:29 - [MESSAGE][PASSED] - Text 'Katrina' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointLastName'
+
+2021-10-19 21:55:29 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointSSN"), "357951852"): Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointSSN'
+
+2021-10-19 21:55:30 - [MESSAGE][PASSED] - Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointSSN'
+
+2021-10-19 21:55:30 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_reEnterjointSSN"), "357951852"): Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:55:31 - [MESSAGE][PASSED] - Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:55:31 - [TEST_STEP][PASSED] - break: null
+
+2021-10-19 21:55:31 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_firstName"), FName): Text 'Michael' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-19 21:55:32 - [MESSAGE][PASSED] - Text 'Michael' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-19 21:55:32 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_lastName"), LName): Text 'Atherton' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-19 21:55:33 - [MESSAGE][PASSED] - Text 'Atherton' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-19 21:55:33 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_Country"), "United States", false): All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-19 21:55:33 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-19 21:55:33 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress1"), AL1): Text '2311 York road' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-19 21:55:34 - [MESSAGE][PASSED] - Text '2311 York road' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-19 21:55:34 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress2"), ""): Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-19 21:55:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-19 21:55:35 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_city"), City): Text 'Gambrills' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-19 21:55:35 - [MESSAGE][PASSED] - Text 'Gambrills' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-19 21:55:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_State"), "Maryland", false): All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-19 21:55:36 - [MESSAGE][PASSED] - All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-19 21:55:36 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_zipCode"), ZIP): Text '21054' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-19 21:55:37 - [MESSAGE][PASSED] - Text '21054' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-19 21:55:37 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_phoneNumber"), "7038945000"): Text '7038945000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-19 21:55:38 - [MESSAGE][PASSED] - Text '7038945000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-19 21:55:38 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 21:55:38 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 21:55:38 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 21:55:39 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 21:55:39 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), Amount): Text '30.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:55:40 - [MESSAGE][PASSED] - Text '30.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): Text '40.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 21:55:40 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 21:55:41 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 21:55:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 21:55:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-19 21:55:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-19 21:55:41 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-19 21:55:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 21:55:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 21:55:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 21:55:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 21:55:43 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 21:55:45 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page": null
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - orPath_Withholding = "Object Repository/RAD_Pages/Withholding_Page": null
+
+2021-10-19 21:55:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Personal Income Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 21:55:46 - [MESSAGE][PASSED] - All options with label 'Personal Income Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 21:55:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-19 21:55:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-19 21:55:49 - [TEST_STEP][PASSED] - switch (Taxtype): null
+
+2021-10-19 21:55:49 - [TEST_STEP][PASSED] - case "Personal Income Tax":: null
+
+2021-10-19 21:55:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), FilingYear, false): All options with label '2022' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-19 21:55:49 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-19 21:55:49 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_PSSN"), SSN): Text '325874589' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_PSSN'
+
+2021-10-19 21:55:50 - [MESSAGE][PASSED] - Text '325874589' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_PSSN'
+
+2021-10-19 21:55:50 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_reEnterPSSN"), SSN): Text '325874589' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_reEnterPSSN'
+
+2021-10-19 21:55:51 - [MESSAGE][PASSED] - Text '325874589' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_reEnterPSSN'
+
+2021-10-19 21:55:51 - [TEST_STEP][PASSED] - if (FilingType.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:55:51 - [TEST_STEP][PASSED] - else: Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:55:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 21:55:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 21:55:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject(orPath_FilingStatus + "/input_userType_Joint"), 5): Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is clickable
+
+2021-10-19 21:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is clickable
+
+2021-10-19 21:55:52 - [TEST_STEP][PASSED] - check(findTestObject(orPath_FilingStatus + "/input_userType_Joint")): Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is checked
+
+2021-10-19 21:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is checked
+
+2021-10-19 21:55:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-19 21:55:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-19 21:55:55 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointFirstName"), "Sam"): Text 'Sam' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointFirstName'
+
+2021-10-19 21:55:56 - [MESSAGE][PASSED] - Text 'Sam' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointFirstName'
+
+2021-10-19 21:55:56 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointLastName"), "Katrina"): Text 'Katrina' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointLastName'
+
+2021-10-19 21:55:56 - [MESSAGE][PASSED] - Text 'Katrina' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointLastName'
+
+2021-10-19 21:55:56 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointSSN"), "357951852"): Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointSSN'
+
+2021-10-19 21:55:57 - [MESSAGE][PASSED] - Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointSSN'
+
+2021-10-19 21:55:57 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_reEnterjointSSN"), "357951852"): Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:55:58 - [MESSAGE][PASSED] - Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:55:58 - [TEST_STEP][PASSED] - break: null
+
+2021-10-19 21:55:58 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_firstName"), FName): Text 'Andy' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-19 21:55:59 - [MESSAGE][PASSED] - Text 'Andy' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-19 21:55:59 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_lastName"), LName): Text 'Roberts' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-19 21:55:59 - [MESSAGE][PASSED] - Text 'Roberts' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-19 21:55:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_Country"), "United States", false): All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-19 21:56:00 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-19 21:56:00 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress1"), AL1): Text '25 Moan Road' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-19 21:56:01 - [MESSAGE][PASSED] - Text '25 Moan Road' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-19 21:56:01 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress2"), ""): Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-19 21:56:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-19 21:56:01 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_city"), City): Text 'Severn' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-19 21:56:02 - [MESSAGE][PASSED] - Text 'Severn' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-19 21:56:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_State"), "Maryland", false): All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-19 21:56:03 - [MESSAGE][PASSED] - All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-19 21:56:03 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_zipCode"), ZIP): Text '21114' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-19 21:56:04 - [MESSAGE][PASSED] - Text '21114' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-19 21:56:04 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_phoneNumber"), "7038945000"): Text '7038945000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-19 21:56:04 - [MESSAGE][PASSED] - Text '7038945000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-19 21:56:04 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 21:56:05 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 21:56:05 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 21:56:06 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 21:56:06 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), Amount): Text '40.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:56:07 - [MESSAGE][PASSED] - Text '40.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): Text '50.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-19 21:56:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-19 21:56:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-19 21:56:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-19 21:56:08 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-19 21:56:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 21:56:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-19 21:56:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 21:56:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 21:56:10 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 21:56:12 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page": null
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - orPath_Withholding = "Object Repository/RAD_Pages/Withholding_Page": null
+
+2021-10-19 21:56:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Extension Payments' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 21:56:13 - [MESSAGE][PASSED] - All options with label 'Extension Payments' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-19 21:56:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-19 21:56:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-19 21:56:16 - [TEST_STEP][PASSED] - switch (Taxtype): null
+
+2021-10-19 21:56:16 - [TEST_STEP][PASSED] - case "Extension Payments":: null
+
+2021-10-19 21:56:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_PaymentType"), PaymentType, false): All options with label 'Personal' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' 
+
+2021-10-19 21:56:16 - [MESSAGE][PASSED] - All options with label 'Personal' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PaymentType' 
+
+2021-10-19 21:56:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), FilingYear, false): All options with label '2022' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-19 21:56:17 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-19 21:56:17 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_PSSN"), SSN): Text '632574895' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_PSSN'
+
+2021-10-19 21:56:18 - [MESSAGE][PASSED] - Text '632574895' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_PSSN'
+
+2021-10-19 21:56:18 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_reEnterPSSN"), SSN): Text '632574895' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_reEnterPSSN'
+
+2021-10-19 21:56:18 - [MESSAGE][PASSED] - Text '632574895' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_reEnterPSSN'
+
+2021-10-19 21:56:18 - [TEST_STEP][PASSED] - if (FilingType.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:56:18 - [TEST_STEP][PASSED] - else: Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:56:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Amount + "/input__paymentAmount"), 3): Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 21:56:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount' successfully
+
+2021-10-19 21:56:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject(orPath_FilingStatus + "/input_userType_Joint"), 5): Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is clickable
+
+2021-10-19 21:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is clickable
+
+2021-10-19 21:56:19 - [TEST_STEP][PASSED] - check(findTestObject(orPath_FilingStatus + "/input_userType_Joint")): Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is checked
+
+2021-10-19 21:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/FilingStatus_Page/input_userType_Joint' is checked
+
+2021-10-19 21:56:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-19 21:56:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-19 21:56:22 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointFirstName"), "Sam"): Text 'Sam' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointFirstName'
+
+2021-10-19 21:56:23 - [MESSAGE][PASSED] - Text 'Sam' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointFirstName'
+
+2021-10-19 21:56:23 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointLastName"), "Katrina"): Text 'Katrina' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointLastName'
+
+2021-10-19 21:56:24 - [MESSAGE][PASSED] - Text 'Katrina' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointLastName'
+
+2021-10-19 21:56:24 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_jointSSN"), "357951852"): Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointSSN'
+
+2021-10-19 21:56:25 - [MESSAGE][PASSED] - Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_jointSSN'
+
+2021-10-19 21:56:25 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_FilingStatus + "/input_reEnterjointSSN"), "357951852"): Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:56:25 - [MESSAGE][PASSED] - Text '357951852' is set on object 'Object Repository/RAD_Pages/FilingStatus_Page/input_reEnterjointSSN'
+
+2021-10-19 21:56:25 - [TEST_STEP][PASSED] - break: null
+
+2021-10-19 21:56:25 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_firstName"), FName): Text 'Jason' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-19 21:56:26 - [MESSAGE][PASSED] - Text 'Jason' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-19 21:56:26 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_lastName"), LName): Text 'Roy' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-19 21:56:27 - [MESSAGE][PASSED] - Text 'Roy' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-19 21:56:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_Country"), "United States", false): All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-19 21:56:27 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-19 21:56:27 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress1"), AL1): Text '1501 Mandan Terrace' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-19 21:56:28 - [MESSAGE][PASSED] - Text '1501 Mandan Terrace' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-19 21:56:28 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress2"), ""): Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-19 21:56:29 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-19 21:56:29 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_city"), City): Text 'Bowie' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-19 21:56:30 - [MESSAGE][PASSED] - Text 'Bowie' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-19 21:56:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_State"), "Maryland", false): All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-19 21:56:30 - [MESSAGE][PASSED] - All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-19 21:56:30 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_zipCode"), ZIP): Text '20720' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-19 21:56:31 - [MESSAGE][PASSED] - Text '20720' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-19 21:56:31 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_phoneNumber"), "7038945000"): Text '7038945000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-19 21:56:32 - [MESSAGE][PASSED] - Text '7038945000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-19 21:56:32 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 21:56:32 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-19 21:56:32 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 21:56:33 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-19 21:56:33 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), Amount): Text '50.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:56:34 - [MESSAGE][PASSED] - Text '50.50' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:56:34 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-19 21:56:35 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-19 21:55:06 - [TEST_SUITE][PASSED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

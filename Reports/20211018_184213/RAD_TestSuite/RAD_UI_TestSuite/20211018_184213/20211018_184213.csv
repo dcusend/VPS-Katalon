@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-18 18:42:16,2021-10-18 18:42:24,7.842s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_MRF_TC,Chrome 94.0.4606.81,,,2021-10-18 18:42:16,2021-10-18 18:42:24,7.421s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-18 18:42:17,2021-10-18 18:42:20,3.215s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 18:42:20,2021-10-18 18:42:20,0.156s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-18 18:42:20,2021-10-18 18:42:22,1.599s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-18 18:42:22,2021-10-18 18:42:22,0.004s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-18 18:42:22,2021-10-18 18:42:22,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Chrome 94.0.4606.81,,,2021-10-18 18:42:22,2021-10-18 18:42:23,0.925s,PASSED
+"scrollToElement(findTestObject(orPath_Landing + ""/button_Continue""), 3)",Chrome 94.0.4606.81,,,2021-10-18 18:42:23,2021-10-18 18:42:23,0.495s,PASSED
+"click(findTestObject(orPath_Landing + ""/button_Continue""))",Chrome 94.0.4606.81,,,2021-10-18 18:42:23,2021-10-18 18:42:24,0.517s,PASSED

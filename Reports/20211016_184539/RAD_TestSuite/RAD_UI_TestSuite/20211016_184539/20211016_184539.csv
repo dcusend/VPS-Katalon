@@ -1,0 +1,299 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-16 18:45:42,2021-10-16 18:47:37,1m - 55.593s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/LandingPage_UI_TC,Chrome 94.0.4606.81,,,2021-10-16 18:45:42,2021-10-16 18:45:56,14.321s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-16 18:45:43,2021-10-16 18:45:46,2.825s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-16 18:45:46,2021-10-16 18:45:46,0.160s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-16 18:45:46,2021-10-16 18:45:47,1.718s,PASSED
+"orPath = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:45:47,2021-10-16 18:45:47,0.003s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/dd_TaxType""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:45:47,2021-10-16 18:45:48,0.523s,PASSED
+"if (verifyTextPresent(""Your Progress"", true))",Chrome 94.0.4606.81,,,2021-10-16 18:45:48,2021-10-16 18:45:48,0.466s,PASSED
+"if (verifyTextPresent(""Tax Type/Taxpayer Information"", true))",Chrome 94.0.4606.81,,,2021-10-16 18:45:48,2021-10-16 18:45:49,0.383s,PASSED
+"if (verifyTextPresent(""Summary"", true))",Chrome 94.0.4606.81,,,2021-10-16 18:45:49,2021-10-16 18:45:49,0.404s,PASSED
+"if (verifyTextPresent(""Need Help?"", true))",Chrome 94.0.4606.81,,,2021-10-16 18:45:49,2021-10-16 18:45:50,0.343s,PASSED
+"if (verifyTextPresent(""FOR TAX RELATED QUESTIONS"", true))",Chrome 94.0.4606.81,,,2021-10-16 18:45:50,2021-10-16 18:45:50,0.346s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/button_Continue""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:45:50,2021-10-16 18:45:50,0.335s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_taxhelpmarylandtaxes.gov""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:45:50,2021-10-16 18:45:51,0.315s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_For technical questions and support""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:45:51,2021-10-16 18:45:51,0.336s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Comptroller of Maryland""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:45:51,2021-10-16 18:45:51,0.334s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Department of Information Technology (DoIT)""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:45:51,2021-10-16 18:45:52,0.323s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_double_arrow Click for 247 Support""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:45:52,2021-10-16 18:45:52,0.316s,PASSED
+"if (verifyElementPresent(findTestObject(orPath + ""/a_Maryland.gov""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:45:52,2021-10-16 18:45:52,0.320s,PASSED
+"totalOptions = getNumberOfTotalOption(findTestObject(orPath + ""/dd_TaxType""))",Chrome 94.0.4606.81,,,2021-10-16 18:45:52,2021-10-16 18:45:53,0.581s,PASSED
+if (totalOptions == 7),Chrome 94.0.4606.81,,,2021-10-16 18:45:53,2021-10-16 18:45:53,0.000s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Estimated Tax"", false, 60))",Chrome 94.0.4606.81,,,2021-10-16 18:45:53,2021-10-16 18:45:53,0.676s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Personal Income Tax"", false, 60))",Chrome 94.0.4606.81,,,2021-10-16 18:45:53,2021-10-16 18:45:54,0.633s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Extension Payments"", false, 60))",Chrome 94.0.4606.81,,,2021-10-16 18:45:54,2021-10-16 18:45:55,0.616s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Existing Liability"", false, 60))",Chrome 94.0.4606.81,,,2021-10-16 18:45:55,2021-10-16 18:45:55,0.591s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Sales and Use"", false, 60))",Chrome 94.0.4606.81,,,2021-10-16 18:45:55,2021-10-16 18:45:56,0.585s,PASSED
+"if (verifyOptionPresentByLabel(findTestObject(orPath + ""/dd_TaxType""), ""Withholding Tax"", false, 60))",Chrome 94.0.4606.81,,,2021-10-16 18:45:56,2021-10-16 18:45:56,0.590s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/EstimatedTax_UI_TC,Chrome 94.0.4606.81,,,2021-10-16 18:45:56,2021-10-16 18:46:22,25.463s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-16 18:45:57,2021-10-16 18:45:59,2.187s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-16 18:45:59,2021-10-16 18:45:59,0.148s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-16 18:45:59,2021-10-16 18:46:00,1.168s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:00,2021-10-16 18:46:00,0.000s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:00,2021-10-16 18:46:00,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:00,2021-10-16 18:46:00,0.000s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:00,2021-10-16 18:46:00,0.000s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:00,2021-10-16 18:46:00,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:00,2021-10-16 18:46:00,0.000s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Chrome 94.0.4606.81,,,2021-10-16 18:46:00,2021-10-16 18:46:01,0.880s,PASSED
+"if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:46:01,2021-10-16 18:46:02,0.501s,PASSED
+"if (verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), 30))",Chrome 94.0.4606.81,,,2021-10-16 18:46:02,2021-10-16 18:46:02,0.337s,PASSED
+"totalOptionsPaymentType = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:02,2021-10-16 18:46:03,0.640s,PASSED
+"if (verifyEqual(totalOptionsPaymentType, 3))",Chrome 94.0.4606.81,,,2021-10-16 18:46:03,2021-10-16 18:46:03,0.031s,PASSED
+"totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:03,2021-10-16 18:46:03,0.560s,PASSED
+"if (verifyEqual(totalOptionsFilingYear, 4))",Chrome 94.0.4606.81,,,2021-10-16 18:46:03,2021-10-16 18:46:03,0.002s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""), [""Personal"", ""Corporate""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:03,2021-10-16 18:46:04,0.616s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), [""2022"", ""2021"", ""2020""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:04,2021-10-16 18:46:05,0.607s,PASSED
+"verifyTextPresent(""Tax Type/Filing Year"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:05,2021-10-16 18:46:05,0.417s,PASSED
+"verifyTextPresent(""Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:05,2021-10-16 18:46:05,0.378s,PASSED
+"verifyTextPresent(""Provide the following taxpayer information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:05,2021-10-16 18:46:06,0.363s,PASSED
+"verifyTextPresent(""Note: If you are paying on behalf of the Taxpayer, enter Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:06,2021-10-16 18:46:06,0.366s,PASSED
+"verifyTextPresent(""information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:06,2021-10-16 18:46:07,0.363s,PASSED
+"verifyTextPresent(""Address and Contact Information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:07,2021-10-16 18:46:07,0.377s,PASSED
+"verifyTextPresent(""Enter the taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:07,2021-10-16 18:46:07,0.343s,PASSED
+"verifyTextPresent(""address and contact information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:07,2021-10-16 18:46:08,0.347s,PASSED
+"verifyTextPresent(""Filing Status"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:08,2021-10-16 18:46:08,0.349s,PASSED
+"verifyTextPresent(""Is this an Individual or Joint Filing?"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:08,2021-10-16 18:46:08,0.348s,PASSED
+"verifyTextPresent(""Filing type"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:08,2021-10-16 18:46:09,0.352s,PASSED
+"verifyTextPresent(""Individual Filing"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:09,2021-10-16 18:46:09,0.355s,PASSED
+"verifyTextPresent(""Joint Filing"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:09,2021-10-16 18:46:09,0.355s,PASSED
+"verifyTextPresent(""Payment Amount"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:09,2021-10-16 18:46:10,0.354s,PASSED
+"verifyTextPresent(""Service Fee: This electronic government service includes a service/convenience fee. Click here for details"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:10,2021-10-16 18:46:10,0.353s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/a_Click here for details""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:10,2021-10-16 18:46:10,0.302s,PASSED
+"verifyElementPresent(findTestObject(orPath_Landing + ""/button_Continue""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:10,2021-10-16 18:46:11,0.306s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_firstName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:11,2021-10-16 18:46:11,0.303s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_middleName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:11,2021-10-16 18:46:11,0.311s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_lastName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:11,2021-10-16 18:46:12,0.297s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_suffix""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:12,2021-10-16 18:46:12,0.297s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_PSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:12,2021-10-16 18:46:12,0.294s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_reEnterPSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:12,2021-10-16 18:46:12,0.291s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_Country""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:12,2021-10-16 18:46:13,0.293s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress1""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:13,2021-10-16 18:46:13,0.309s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress2""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:13,2021-10-16 18:46:13,0.319s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_city""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:13,2021-10-16 18:46:14,0.326s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_State""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:14,2021-10-16 18:46:14,0.311s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_zipCode""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:14,2021-10-16 18:46:14,0.328s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_phoneNumber""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:14,2021-10-16 18:46:15,0.331s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_eMailAddress""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:15,2021-10-16 18:46:15,0.327s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_reEnterEMailAddress""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:15,2021-10-16 18:46:15,0.331s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_Country""), [""United States""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:15,2021-10-16 18:46:16,0.647s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_State""), [""Alabama"", ""District of Columbia"", ""Maryland"", ""Virginia"", ""Wyoming""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:16,2021-10-16 18:46:17,1.237s,PASSED
+"totalOptionsState = getNumberOfTotalOption(findTestObject(orPath_AddressContact + ""/select_State""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:17,2021-10-16 18:46:18,0.617s,PASSED
+"verifyEqual(totalOptionsState, 52)",Chrome 94.0.4606.81,,,2021-10-16 18:46:18,2021-10-16 18:46:18,0.000s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_userType_Individual""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:18,2021-10-16 18:46:18,0.323s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:18,2021-10-16 18:46:18,0.315s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/input__paymentAmount""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:18,2021-10-16 18:46:19,0.325s,PASSED
+"scrollToElement(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""), 3)",Chrome 94.0.4606.81,,,2021-10-16 18:46:19,2021-10-16 18:46:19,0.317s,PASSED
+"click(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:19,2021-10-16 18:46:20,0.472s,PASSED
+"verifyTextPresent(""Provide the following information for the joint filer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:20,2021-10-16 18:46:20,0.383s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointFirstName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:20,2021-10-16 18:46:20,0.311s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointMiddleName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:20,2021-10-16 18:46:21,0.325s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointLastName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:21,2021-10-16 18:46:21,0.309s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointSuffix""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:21,2021-10-16 18:46:21,0.321s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:21,2021-10-16 18:46:22,0.334s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_reEnterjointSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:22,2021-10-16 18:46:22,0.335s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/PersonalIncomeTax_UI_TC,Chrome 94.0.4606.81,,,2021-10-16 18:46:22,2021-10-16 18:46:46,23.928s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-16 18:46:22,2021-10-16 18:46:24,2.145s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-16 18:46:24,2021-10-16 18:46:25,0.134s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-16 18:46:25,2021-10-16 18:46:26,1.682s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:26,2021-10-16 18:46:26,0.000s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:26,2021-10-16 18:46:26,0.000s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:26,2021-10-16 18:46:26,0.000s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:26,2021-10-16 18:46:26,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:26,2021-10-16 18:46:26,0.000s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:26,2021-10-16 18:46:26,0.000s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Personal Income Tax"", false)",Chrome 94.0.4606.81,,,2021-10-16 18:46:26,2021-10-16 18:46:27,0.842s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:27,2021-10-16 18:46:28,0.474s,PASSED
+"totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:28,2021-10-16 18:46:28,0.641s,PASSED
+"verifyEqual(totalOptionsFilingYear, 4)",Chrome 94.0.4606.81,,,2021-10-16 18:46:28,2021-10-16 18:46:28,0.002s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), [""2022"", ""2021"", ""2020""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:28,2021-10-16 18:46:29,0.643s,PASSED
+"verifyTextPresent(""Tax Type/Filing Year"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:29,2021-10-16 18:46:29,0.416s,PASSED
+"verifyTextPresent(""Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:29,2021-10-16 18:46:30,0.358s,PASSED
+"verifyTextPresent(""Provide the following taxpayer information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:30,2021-10-16 18:46:30,0.362s,PASSED
+"verifyTextPresent(""Note: If you are paying on behalf of the Taxpayer, enter Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:30,2021-10-16 18:46:30,0.362s,PASSED
+"verifyTextPresent(""information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:30,2021-10-16 18:46:31,0.362s,PASSED
+"verifyTextPresent(""Address and Contact Information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:31,2021-10-16 18:46:31,0.361s,PASSED
+"verifyTextPresent(""Enter the taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:31,2021-10-16 18:46:31,0.372s,PASSED
+"verifyTextPresent(""address and contact information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:31,2021-10-16 18:46:32,0.386s,PASSED
+"verifyTextPresent(""Filing Status"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:32,2021-10-16 18:46:32,0.362s,PASSED
+"verifyTextPresent(""Is this an Individual or Joint Filing?"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:32,2021-10-16 18:46:33,0.371s,PASSED
+"verifyTextPresent(""Filing type"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:33,2021-10-16 18:46:33,0.351s,PASSED
+"verifyTextPresent(""Individual Filing"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:33,2021-10-16 18:46:33,0.348s,PASSED
+"verifyTextPresent(""Joint Filing"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:33,2021-10-16 18:46:34,0.345s,PASSED
+"verifyTextPresent(""Payment Amount"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:34,2021-10-16 18:46:34,0.347s,PASSED
+"verifyTextPresent(""Service Fee: This electronic government service includes a service/convenience fee. Click here for details"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:34,2021-10-16 18:46:34,0.353s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/a_Click here for details""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:34,2021-10-16 18:46:35,0.296s,PASSED
+"verifyElementPresent(findTestObject(orPath_Landing + ""/button_Continue""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:35,2021-10-16 18:46:35,0.298s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_firstName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:35,2021-10-16 18:46:35,0.294s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_middleName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:35,2021-10-16 18:46:35,0.295s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_lastName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:35,2021-10-16 18:46:36,0.288s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_suffix""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:36,2021-10-16 18:46:36,0.295s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_PSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:36,2021-10-16 18:46:36,0.291s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_reEnterPSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:36,2021-10-16 18:46:37,0.292s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_Country""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:37,2021-10-16 18:46:37,0.290s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress1""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:37,2021-10-16 18:46:37,0.289s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress2""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:37,2021-10-16 18:46:37,0.290s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_city""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:37,2021-10-16 18:46:38,0.293s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_State""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:38,2021-10-16 18:46:38,0.290s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_zipCode""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:38,2021-10-16 18:46:38,0.293s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_phoneNumber""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:38,2021-10-16 18:46:39,0.314s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_eMailAddress""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:39,2021-10-16 18:46:39,0.325s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_reEnterEMailAddress""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:39,2021-10-16 18:46:39,0.294s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_Country""), [""United States""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:39,2021-10-16 18:46:40,0.617s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_State""), [""Alabama"", ""District of Columbia"", ""Maryland"", ""Virginia"", ""Wyoming""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:40,2021-10-16 18:46:41,1.264s,PASSED
+"totalOptionsState = getNumberOfTotalOption(findTestObject(orPath_AddressContact + ""/select_State""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:41,2021-10-16 18:46:42,0.603s,PASSED
+"verifyEqual(totalOptionsState, 52)",Chrome 94.0.4606.81,,,2021-10-16 18:46:42,2021-10-16 18:46:42,0.001s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_userType_Individual""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:42,2021-10-16 18:46:42,0.345s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:42,2021-10-16 18:46:42,0.329s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/input__paymentAmount""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:42,2021-10-16 18:46:43,0.318s,PASSED
+"scrollToElement(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""), 3)",Chrome 94.0.4606.81,,,2021-10-16 18:46:43,2021-10-16 18:46:43,0.330s,PASSED
+"click(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:43,2021-10-16 18:46:44,0.414s,PASSED
+"verifyTextPresent(""Provide the following information for the joint filer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:44,2021-10-16 18:46:44,0.408s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointFirstName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:44,2021-10-16 18:46:44,0.320s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointMiddleName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:44,2021-10-16 18:46:45,0.298s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointLastName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:45,2021-10-16 18:46:45,0.324s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointSuffix""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:45,2021-10-16 18:46:45,0.311s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:45,2021-10-16 18:46:45,0.316s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_reEnterjointSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:45,2021-10-16 18:46:46,0.326s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/ExtensionPayments_UI_TC,Chrome 94.0.4606.81,,,2021-10-16 18:46:46,2021-10-16 18:47:11,25.544s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-16 18:46:46,2021-10-16 18:46:48,2.158s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-16 18:46:48,2021-10-16 18:46:48,0.140s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-16 18:46:48,2021-10-16 18:46:50,1.587s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:50,2021-10-16 18:46:50,0.001s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:50,2021-10-16 18:46:50,0.000s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:50,2021-10-16 18:46:50,0.001s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:50,2021-10-16 18:46:50,0.000s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:50,2021-10-16 18:46:50,0.000s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:46:50,2021-10-16 18:46:50,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Extension Payments"", false)",Chrome 94.0.4606.81,,,2021-10-16 18:46:50,2021-10-16 18:46:51,0.888s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:51,2021-10-16 18:46:51,0.458s,PASSED
+"totalOptionsPaymentType = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:51,2021-10-16 18:46:52,0.670s,PASSED
+"verifyEqual(totalOptionsPaymentType, 3)",Chrome 94.0.4606.81,,,2021-10-16 18:46:52,2021-10-16 18:46:52,0.000s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_PaymentType""), [""Personal"", ""Corporate""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:52,2021-10-16 18:46:53,0.656s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:46:53,2021-10-16 18:46:53,0.305s,PASSED
+"totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""))",Chrome 94.0.4606.81,,,2021-10-16 18:46:53,2021-10-16 18:46:54,0.546s,PASSED
+"verifyEqual(totalOptionsFilingYear, 4)",Chrome 94.0.4606.81,,,2021-10-16 18:46:54,2021-10-16 18:46:54,0.000s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), [""2022"", ""2021"", ""2020""])",Chrome 94.0.4606.81,,,2021-10-16 18:46:54,2021-10-16 18:46:54,0.602s,PASSED
+"verifyTextPresent(""Tax Type/Filing Year"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:54,2021-10-16 18:46:55,0.416s,PASSED
+"verifyTextPresent(""Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:55,2021-10-16 18:46:55,0.363s,PASSED
+"verifyTextPresent(""Provide the following taxpayer information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:55,2021-10-16 18:46:55,0.363s,PASSED
+"verifyTextPresent(""Note: If you are paying on behalf of the Taxpayer, enter Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:55,2021-10-16 18:46:56,0.367s,PASSED
+"verifyTextPresent(""information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:56,2021-10-16 18:46:56,0.365s,PASSED
+"verifyTextPresent(""Address and Contact Information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:56,2021-10-16 18:46:56,0.362s,PASSED
+"verifyTextPresent(""Enter the taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:56,2021-10-16 18:46:57,0.339s,PASSED
+"verifyTextPresent(""address and contact information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:57,2021-10-16 18:46:57,0.362s,PASSED
+"verifyTextPresent(""Filing Status"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:57,2021-10-16 18:46:57,0.350s,PASSED
+"verifyTextPresent(""Is this an Individual or Joint Filing?"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:57,2021-10-16 18:46:58,0.348s,PASSED
+"verifyTextPresent(""Filing type"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:58,2021-10-16 18:46:58,0.354s,PASSED
+"verifyTextPresent(""Individual Filing"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:58,2021-10-16 18:46:59,0.356s,PASSED
+"verifyTextPresent(""Joint Filing"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:59,2021-10-16 18:46:59,0.356s,PASSED
+"verifyTextPresent(""Payment Amount"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:59,2021-10-16 18:46:59,0.356s,PASSED
+"verifyTextPresent(""Service Fee: This electronic government service includes a service/convenience fee. Click here for details"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:46:59,2021-10-16 18:47:00,0.349s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/a_Click here for details""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:00,2021-10-16 18:47:00,0.285s,PASSED
+"verifyElementPresent(findTestObject(orPath_Landing + ""/button_Continue""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:00,2021-10-16 18:47:00,0.296s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_firstName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:00,2021-10-16 18:47:00,0.307s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_middleName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:00,2021-10-16 18:47:01,0.294s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_lastName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:01,2021-10-16 18:47:01,0.290s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_suffix""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:01,2021-10-16 18:47:01,0.286s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_PSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:01,2021-10-16 18:47:02,0.285s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_reEnterPSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:02,2021-10-16 18:47:02,0.286s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_Country""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:02,2021-10-16 18:47:02,0.294s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress1""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:02,2021-10-16 18:47:03,0.310s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress2""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:03,2021-10-16 18:47:03,0.327s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_city""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:03,2021-10-16 18:47:03,0.326s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_State""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:03,2021-10-16 18:47:03,0.322s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_zipCode""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:03,2021-10-16 18:47:04,0.326s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_phoneNumber""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:04,2021-10-16 18:47:04,0.323s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_eMailAddress""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:04,2021-10-16 18:47:04,0.306s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_reEnterEMailAddress""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:04,2021-10-16 18:47:05,0.326s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_Country""), [""United States""])",Chrome 94.0.4606.81,,,2021-10-16 18:47:05,2021-10-16 18:47:05,0.597s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_State""), [""Alabama"", ""District of Columbia"", ""Maryland"", ""Virginia"", ""Wyoming""])",Chrome 94.0.4606.81,,,2021-10-16 18:47:05,2021-10-16 18:47:07,1.250s,PASSED
+"totalOptionsState = getNumberOfTotalOption(findTestObject(orPath_AddressContact + ""/select_State""))",Chrome 94.0.4606.81,,,2021-10-16 18:47:07,2021-10-16 18:47:07,0.599s,PASSED
+"verifyEqual(totalOptionsState, 52)",Chrome 94.0.4606.81,,,2021-10-16 18:47:07,2021-10-16 18:47:07,0.000s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_userType_Individual""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:07,2021-10-16 18:47:08,0.338s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:08,2021-10-16 18:47:08,0.324s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/input__paymentAmount""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:08,2021-10-16 18:47:08,0.326s,PASSED
+"scrollToElement(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""), 3)",Chrome 94.0.4606.81,,,2021-10-16 18:47:08,2021-10-16 18:47:09,0.323s,PASSED
+"click(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""))",Chrome 94.0.4606.81,,,2021-10-16 18:47:09,2021-10-16 18:47:09,0.433s,PASSED
+"verifyTextPresent(""Provide the following information for the joint filer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:09,2021-10-16 18:47:09,0.388s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointFirstName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:09,2021-10-16 18:47:10,0.427s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointMiddleName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:10,2021-10-16 18:47:10,0.330s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointLastName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:10,2021-10-16 18:47:10,0.327s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointSuffix""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:10,2021-10-16 18:47:11,0.327s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_jointSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:11,2021-10-16 18:47:11,0.313s,PASSED
+"verifyElementPresent(findTestObject(orPath_FilingStatus + ""/input_reEnterjointSSN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:11,2021-10-16 18:47:11,0.292s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/UI_TestCases/WithholdingTax_UI_TC,Chrome 94.0.4606.81,,,2021-10-16 18:47:11,2021-10-16 18:47:37,25.925s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-16 18:47:12,2021-10-16 18:47:14,2.095s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-16 18:47:14,2021-10-16 18:47:14,0.141s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-16 18:47:14,2021-10-16 18:47:16,1.705s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:16,0.001s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:16,0.001s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:16,0.000s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:16,0.001s,PASSED
+"orPath_TaxInfo = ""Object Repository/RAD_Pages/TaxInfo_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:16,0.001s,PASSED
+"orPath_Withholding = ""Object Repository/RAD_Pages/Withholding_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:16,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:16,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:16,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Withholding Tax"", false)",Chrome 94.0.4606.81,,,2021-10-16 18:47:16,2021-10-16 18:47:17,0.848s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:17,2021-10-16 18:47:17,0.460s,PASSED
+"totalOptionsFilingYear = getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""))",Chrome 94.0.4606.81,,,2021-10-16 18:47:17,2021-10-16 18:47:18,0.613s,PASSED
+"verifyEqual(totalOptionsFilingYear, 4)",Chrome 94.0.4606.81,,,2021-10-16 18:47:18,2021-10-16 18:47:18,0.002s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + ""/select_FilingYear""), [""2022"", ""2021"", ""2020""])",Chrome 94.0.4606.81,,,2021-10-16 18:47:18,2021-10-16 18:47:18,0.628s,PASSED
+"verifyTextPresent(""Tax Type/Filing Year"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:18,2021-10-16 18:47:19,0.432s,PASSED
+"verifyTextPresent(""Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:19,2021-10-16 18:47:19,0.386s,PASSED
+"verifyTextPresent(""Provide the following taxpayer information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:19,2021-10-16 18:47:19,0.367s,PASSED
+"verifyTextPresent(""Note: If you are paying on behalf of the Taxpayer, enter Taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:19,2021-10-16 18:47:20,0.367s,PASSED
+"verifyTextPresent(""information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:20,2021-10-16 18:47:20,0.372s,PASSED
+"verifyTextPresent(""Address and Contact Information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:20,2021-10-16 18:47:21,0.362s,PASSED
+"verifyTextPresent(""Enter the taxpayer"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:21,2021-10-16 18:47:21,0.365s,PASSED
+"verifyTextPresent(""address and contact information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:21,2021-10-16 18:47:21,0.374s,PASSED
+"verifyTextPresent(""Tax Information"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:21,2021-10-16 18:47:22,0.373s,PASSED
+"verifyTextPresent(""Withholding"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:22,2021-10-16 18:47:22,0.377s,PASSED
+"verifyTextPresent(""Are you filing on an accelerated basis?"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:22,2021-10-16 18:47:22,0.361s,PASSED
+"verifyTextPresent(""Yes"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:22,2021-10-16 18:47:23,0.350s,PASSED
+"verifyTextPresent(""No"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:23,2021-10-16 18:47:23,0.350s,PASSED
+"verifyTextPresent(""Payment Amount"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:23,2021-10-16 18:47:23,0.350s,PASSED
+"verifyTextPresent(""Service Fee: This electronic government service includes a service/convenience fee. Click here for details"", true)",Chrome 94.0.4606.81,,,2021-10-16 18:47:23,2021-10-16 18:47:24,0.356s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/a_Click here for details""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:24,2021-10-16 18:47:24,0.291s,PASSED
+"verifyElementPresent(findTestObject(orPath_Landing + ""/button_Continue""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:24,2021-10-16 18:47:24,0.294s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_businessName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:24,2021-10-16 18:47:25,0.292s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_firstName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:25,2021-10-16 18:47:25,0.290s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_middleName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:25,2021-10-16 18:47:25,0.290s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_lastName""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:25,2021-10-16 18:47:26,0.290s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxPayer + ""/input_suffix""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:26,2021-10-16 18:47:26,0.288s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_Country""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:26,2021-10-16 18:47:26,0.291s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress1""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:26,2021-10-16 18:47:26,0.291s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_streetAddress2""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:26,2021-10-16 18:47:27,0.306s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_city""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:27,2021-10-16 18:47:27,0.296s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/select_State""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:27,2021-10-16 18:47:27,0.289s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_zipCode""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:27,2021-10-16 18:47:28,0.290s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_phoneNumber""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:28,2021-10-16 18:47:28,0.293s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_eMailAddress""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:28,2021-10-16 18:47:28,0.295s,PASSED
+"verifyElementPresent(findTestObject(orPath_AddressContact + ""/input_reEnterEMailAddress""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:28,2021-10-16 18:47:29,0.322s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_Country""), [""United States""])",Chrome 94.0.4606.81,,,2021-10-16 18:47:29,2021-10-16 18:47:29,0.632s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_AddressContact + ""/select_State""), [""Alabama"", ""District of Columbia"", ""Maryland"", ""Virginia"", ""Wyoming""])",Chrome 94.0.4606.81,,,2021-10-16 18:47:29,2021-10-16 18:47:30,1.242s,PASSED
+"totalOptionsState = getNumberOfTotalOption(findTestObject(orPath_AddressContact + ""/select_State""))",Chrome 94.0.4606.81,,,2021-10-16 18:47:30,2021-10-16 18:47:31,0.590s,PASSED
+"verifyEqual(totalOptionsState, 52)",Chrome 94.0.4606.81,,,2021-10-16 18:47:31,2021-10-16 18:47:31,0.000s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxInfo + ""/input_FEIN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:31,2021-10-16 18:47:31,0.336s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxInfo + ""/input_ReTypeFEIN""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:31,2021-10-16 18:47:32,0.325s,PASSED
+"verifyElementPresent(findTestObject(orPath_TaxInfo + ""/input_MDCRegistration""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:32,2021-10-16 18:47:32,0.331s,PASSED
+"scrollToElement(findTestObject(orPath_Withholding + ""/input_acceleratedBasis_Yes""), 3)",Chrome 94.0.4606.81,,,2021-10-16 18:47:32,2021-10-16 18:47:32,0.326s,PASSED
+"verifyElementPresent(findTestObject(orPath_Withholding + ""/input_acceleratedBasis_Yes""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:32,2021-10-16 18:47:33,0.324s,PASSED
+"verifyElementPresent(findTestObject(orPath_Withholding + ""/input_acceleratedBasis_No""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:33,2021-10-16 18:47:33,0.384s,PASSED
+"verifyElementPresent(findTestObject(orPath_Withholding + ""/input_PayDate""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:33,2021-10-16 18:47:33,0.302s,PASSED
+"verifyElementPresent(findTestObject(orPath_Withholding + ""/input__WithholdingTaxReported""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:33,2021-10-16 18:47:34,0.335s,PASSED
+"scrollToElement(findTestObject(orPath_Withholding + ""/input_acceleratedBasis_No""), 3)",Chrome 94.0.4606.81,,,2021-10-16 18:47:34,2021-10-16 18:47:34,0.324s,PASSED
+"click(findTestObject(orPath_Withholding + ""/input_acceleratedBasis_No""))",Chrome 94.0.4606.81,,,2021-10-16 18:47:34,2021-10-16 18:47:34,0.384s,PASSED
+"verifyElementPresent(findTestObject(orPath_Withholding + ""/select_Month""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:34,2021-10-16 18:47:35,0.332s,PASSED
+"verifyElementPresent(findTestObject(orPath_Withholding + ""/input__WithholdingTaxReported""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:35,2021-10-16 18:47:35,0.311s,PASSED
+"totalOptionsPeriodEnding = getNumberOfTotalOption(findTestObject(orPath_Withholding + ""/select_Month""))",Chrome 94.0.4606.81,,,2021-10-16 18:47:35,2021-10-16 18:47:36,0.584s,PASSED
+"verifyEqual(totalOptionsPeriodEnding, 13)",Chrome 94.0.4606.81,,,2021-10-16 18:47:36,2021-10-16 18:47:36,0.002s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_Withholding + ""/select_Month""), [""January"", ""February"", ""March"", ""April"", ""May"", ""June""])",Chrome 94.0.4606.81,,,2021-10-16 18:47:36,2021-10-16 18:47:36,0.761s,PASSED
+"verifyOptionsPresent(findTestObject(orPath_Withholding + ""/select_Month""), [""July"", ""August"", ""September"", ""October"", ""November"", ""December""])",Chrome 94.0.4606.81,,,2021-10-16 18:47:36,2021-10-16 18:47:37,0.658s,PASSED
+"verifyElementPresent(findTestObject(orPath_Amount + ""/input__paymentAmount""), 30)",Chrome 94.0.4606.81,,,2021-10-16 18:47:37,2021-10-16 18:47:37,0.309s,PASSED

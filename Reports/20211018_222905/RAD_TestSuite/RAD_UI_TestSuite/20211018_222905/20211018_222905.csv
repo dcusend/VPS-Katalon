@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Edge Chromium 94,,,2021-10-18 22:29:09,2021-10-18 22:29:23,14.331s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_MRF_TC,Edge Chromium 94,,,2021-10-18 22:29:09,2021-10-18 22:29:23,13.849s,FAILED
+"openBrowser("""")",Edge Chromium 94,,,2021-10-18 22:29:10,2021-10-18 22:29:15,5.113s,PASSED
+maximizeWindow(),Edge Chromium 94,,,2021-10-18 22:29:15,2021-10-18 22:29:15,0.183s,PASSED
+navigateToUrl(RADurl),Edge Chromium 94,,,2021-10-18 22:29:15,2021-10-18 22:29:17,1.905s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Edge Chromium 94,,,2021-10-18 22:29:17,2021-10-18 22:29:17,0.007s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Edge Chromium 94,,,2021-10-18 22:29:17,2021-10-18 22:29:17,0.001s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Edge Chromium 94,,,2021-10-18 22:29:17,2021-10-18 22:29:17,0.001s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Edge Chromium 94,,,2021-10-18 22:29:17,2021-10-18 22:29:17,0.488s,PASSED
+"scrollToElement(findTestObject(orPath_Landing + ""/button_Continue""), 3)",Edge Chromium 94,,,2021-10-18 22:29:17,2021-10-18 22:29:17,0.179s,PASSED
+"click(findTestObject(orPath_Landing + ""/button_Continue""))",Edge Chromium 94,,,2021-10-18 22:29:17,2021-10-18 22:29:18,0.344s,PASSED
+"verifyTextPresent(""Select a payment type"", true)",Edge Chromium 94,,,2021-10-18 22:29:18,2021-10-18 22:29:18,0.345s,PASSED
+"verifyTextPresent(""Select a filing year"", true)",Edge Chromium 94,,,2021-10-18 22:29:18,2021-10-18 22:29:18,0.288s,PASSED
+"verifyTextPresent(""Enter first name"", true)",Edge Chromium 94,,,2021-10-18 22:29:18,2021-10-18 22:29:19,0.178s,PASSED
+"verifyTextPresent(""Enter last name"", true)",Edge Chromium 94,,,2021-10-18 22:29:19,2021-10-18 22:29:19,0.169s,PASSED
+"verifyTextPresent(""Please enter a valid SSN with 9 digits"", true)",Edge Chromium 94,,,2021-10-18 22:29:19,2021-10-18 22:29:19,0.155s,PASSED
+"verifyTextPresent(""The SSN and Re-type SSN do not match"", true)",Edge Chromium 94,,,2021-10-18 22:29:19,2021-10-18 22:29:19,0.162s,PASSED
+"verifyTextPresent(""Select a country"", true)",Edge Chromium 94,,,2021-10-18 22:29:19,2021-10-18 22:29:19,0.152s,PASSED
+"verifyTextPresent(""Enter address"", true)",Edge Chromium 94,,,2021-10-18 22:29:19,2021-10-18 22:29:19,0.151s,PASSED
+"verifyTextPresent(""Enter city"", true)",Edge Chromium 94,,,2021-10-18 22:29:19,2021-10-18 22:29:20,0.150s,PASSED
+"verifyTextPresent(""Select a state"", true)",Edge Chromium 94,,,2021-10-18 22:29:20,2021-10-18 22:29:20,0.156s,PASSED
+"verifyTextPresent(""Enter ZIP code"", true)",Edge Chromium 94,,,2021-10-18 22:29:20,2021-10-18 22:29:20,0.156s,PASSED
+"verifyTextPresent(""Enter a phone number"", true)",Edge Chromium 94,,,2021-10-18 22:29:20,2021-10-18 22:29:20,0.149s,PASSED
+"verifyTextPresent(""Enter Email"", true)",Edge Chromium 94,,,2021-10-18 22:29:20,2021-10-18 22:29:20,0.143s,PASSED
+"verifyTextPresent(""The Email and Re-enter email do not match"", true)",Edge Chromium 94,,,2021-10-18 22:29:20,2021-10-18 22:29:20,0.155s,PASSED
+"verifyTextPresent(""Payment amount must be greater than zero and less than 10,000,000"", true)",Edge Chromium 94,,,2021-10-18 22:29:20,2021-10-18 22:29:21,0.154s,PASSED
+"scrollToElement(findTestObject(orPath_Amount + ""/input__paymentAmount""), 3)",Edge Chromium 94,,,2021-10-18 22:29:21,2021-10-18 22:29:21,0.095s,PASSED
+"click(findTestObject(orPath_FilingStatus + ""/input_userType_Joint""))",Edge Chromium 94,,,2021-10-18 22:29:21,2021-10-18 22:29:21,0.199s,PASSED
+"click(findTestObject(orPath_Landing + ""/button_Continue""))",Edge Chromium 94,,,2021-10-18 22:29:21,2021-10-18 22:29:22,1.453s,FAILED
+"verifyTextPresent(""Enter joint payer first name"", true)",Edge Chromium 94,,,2021-10-18 22:29:22,2021-10-18 22:29:22,0.164s,FAILED
+"verifyTextPresent(""Enter joint payer last name"", true)",Edge Chromium 94,,,2021-10-18 22:29:22,2021-10-18 22:29:23,0.180s,FAILED
+"verifyTextPresent(""Enter joint payer social security number"", true)",Edge Chromium 94,,,2021-10-18 22:29:23,2021-10-18 22:29:23,0.176s,FAILED
+"verifyTextPresent(""The joint payer SSN and Re-enter SSN do not match"", true)",Edge Chromium 94,,,2021-10-18 22:29:23,2021-10-18 22:29:23,0.163s,FAILED

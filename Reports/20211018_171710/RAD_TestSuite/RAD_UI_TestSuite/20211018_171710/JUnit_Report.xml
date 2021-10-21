@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="11.743" tests="1" failures="0" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="0" time="11.743" skipped="0" timestamp="2021-10-18 17:17:14" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211018_171710\\RAD_TestSuite\\RAD_UI_TestSuite\\20211018_171710"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211018_171710\\RAD_TestSuite\\RAD_UI_TestSuite\\20211018_171710\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="73d1c79895a41a45cbbcdc9348f17564"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC" time="9.977" classname="Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC" status="PASSED">
+         <system-out><![CDATA[2021-10-18 17:17:14 - [TEST_CASE][PASSED] - Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC: Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC
+
+2021-10-18 17:17:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-18 17:17:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-18 17:17:15 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-18 17:17:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-18 17:17:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-18 17:17:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-18 17:17:18 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-18 17:17:18 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-18 17:17:19 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_Withholding = "Object Repository/RAD_Pages/Withholding_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnInfo_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - orPath_MDForm202 = "Object Repository/RAD_Pages/MarylandForm202_Page": null
+
+2021-10-18 17:17:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), "Sales and Use", false): All options with label 'Sales and Use' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-18 17:17:20 - [MESSAGE][PASSED] - All options with label 'Sales and Use' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-18 17:17:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line3"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line3' is present
+
+2021-10-18 17:17:20 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line3' is present
+
+2021-10-18 17:17:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line4a"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line4a' is present
+
+2021-10-18 17:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line4a' is present
+
+2021-10-18 17:17:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line5a"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line5a' is present
+
+2021-10-18 17:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line5a' is present
+
+2021-10-18 17:17:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line6a"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line6a' is present
+
+2021-10-18 17:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line6a' is present
+
+2021-10-18 17:17:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line8a"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line8a' is present
+
+2021-10-18 17:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line8a' is present
+
+2021-10-18 17:17:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line12a"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line12a' is present
+
+2021-10-18 17:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line12a' is present
+
+2021-10-18 17:17:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line13a"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line13a' is present
+
+2021-10-18 17:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line13a' is present
+
+2021-10-18 17:17:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line15"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line15' is present
+
+2021-10-18 17:17:23 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line15' is present
+
+2021-10-18 17:17:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line17a"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line17a' is present
+
+2021-10-18 17:17:23 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line17a' is present
+
+2021-10-18 17:17:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line17b"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line17b' is present
+
+2021-10-18 17:17:23 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line17b' is present
+
+2021-10-18 17:17:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line19a"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line19a' is present
+
+2021-10-18 17:17:24 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line19a' is present
+
+2021-10-18 17:17:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_MDForm202 + "/input__Line19b"), 30): Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line19b' is present
+
+2021-10-18 17:17:24 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/MarylandForm202_Page/input__Line19b' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-18 17:17:14 - [TEST_SUITE][PASSED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

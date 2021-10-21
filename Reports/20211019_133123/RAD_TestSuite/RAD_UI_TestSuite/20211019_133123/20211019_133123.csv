@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-19 13:31:26,2021-10-19 13:31:48,22.449s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/TaxPayerSSNNoMatch,Chrome 94.0.4606.81,,,2021-10-19 13:31:26,2021-10-19 13:31:48,22.022s,PASSED
+"resText = ""Fail""",Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:27,0.002s,PASSED
+"resColumn = ""Result""",Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:27,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:27,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\RADTestData\TaxPayerSSNNoMatch.xlsx""",Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:27,0.000s,PASSED
+"nameSheet = ""Sheet1""",Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:27,0.000s,PASSED
+"dataFile = ""RADTestData/TaxPayerSSNNoMatch""",Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:27,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:27,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:27,0.014s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 94.0.4606.81,,,2021-10-19 13:31:27,2021-10-19 13:31:28,0.717s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 94.0.4606.81,,,2021-10-19 13:31:28,2021-10-19 13:31:28,0.006s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 94.0.4606.81,,,2021-10-19 13:31:28,2021-10-19 13:31:48,20.700s,PASSED

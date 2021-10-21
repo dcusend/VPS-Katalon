@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 94.0.4606.81,,,2021-10-18 18:57:23,2021-10-18 18:57:34,11.135s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_MRF_TC,Chrome 94.0.4606.81,,,2021-10-18 18:57:24,2021-10-18 18:57:34,10.721s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2021-10-18 18:57:24,2021-10-18 18:57:28,3.701s,PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 18:57:28,2021-10-18 18:57:28,0.214s,PASSED
+navigateToUrl(RADurl),Chrome 94.0.4606.81,,,2021-10-18 18:57:28,2021-10-18 18:57:30,1.811s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 94.0.4606.81,,,2021-10-18 18:57:30,2021-10-18 18:57:30,0.003s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 94.0.4606.81,,,2021-10-18 18:57:30,2021-10-18 18:57:30,0.002s,PASSED
+"selectOptionByLabel(findTestObject(orPath_Landing + ""/dd_TaxType""), ""Estimated Tax"", false)",Chrome 94.0.4606.81,,,2021-10-18 18:57:30,2021-10-18 18:57:31,0.929s,PASSED
+"scrollToElement(findTestObject(orPath_Landing + ""/button_Continue""), 3)",Chrome 94.0.4606.81,,,2021-10-18 18:57:31,2021-10-18 18:57:31,0.457s,PASSED
+"click(findTestObject(orPath_Landing + ""/button_Continue""))",Chrome 94.0.4606.81,,,2021-10-18 18:57:31,2021-10-18 18:57:32,0.591s,PASSED
+"verifyTextPresent(""Select a payment type"", true)",Chrome 94.0.4606.81,,,2021-10-18 18:57:32,2021-10-18 18:57:32,0.571s,PASSED
+"verifyTextPresent(""Select a filing year"", true)",Chrome 94.0.4606.81,,,2021-10-18 18:57:32,2021-10-18 18:57:33,0.426s,PASSED
+"verifyTextPresent(""Enter first name"", true)",Chrome 94.0.4606.81,,,2021-10-18 18:57:33,2021-10-18 18:57:33,0.377s,PASSED
+"verifyTextPresent(""Enter last name"", true)",Chrome 94.0.4606.81,,,2021-10-18 18:57:33,2021-10-18 18:57:34,0.391s,PASSED
+"verifyTextPresent(""Please enter a valid SSN with 9 digits"", true)",Chrome 94.0.4606.81,,,2021-10-18 18:57:34,2021-10-18 18:57:34,0.368s,PASSED
+"verifyTextPresent(""The SSN and Re-type SSN do not match"", true)",Chrome 94.0.4606.81,,,2021-10-18 18:57:34,2021-10-18 18:57:34,0.370s,PASSED
