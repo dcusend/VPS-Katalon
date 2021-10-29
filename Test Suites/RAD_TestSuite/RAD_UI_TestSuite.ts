@@ -102,6 +102,12 @@
       <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>d439f9bf-d810-4c22-8b00-26f95155f245</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_Joint_MRF_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>823e2b34-fea5-4e50-9883-cb13535a7791</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -114,6 +120,12 @@
       <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/TaxPayerSSNNoMatch</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>c0eca099-98dd-4ef7-b1a8-a41d9eb08888</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/JointFilerSSNNoMatch</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7bdfe500-8821-402c-acf8-e8e2571c90ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -122,7 +134,7 @@
    <testCaseLink>
       <guid>8317c7b7-a43c-4eb9-b3f8-25672813d129</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

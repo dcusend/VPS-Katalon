@@ -1,0 +1,17 @@
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/LandingPage_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/LandingPage_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/EstimatedTax_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/EstimatedTax_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/PersonalIncomeTax_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/PersonalIncomeTax_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/ExtensionPayments_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/ExtensionPayments_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/WithholdingTax_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/WithholdingTax_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/SalesAndUse_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/SalesAndUse_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMarketplaceFacilitator_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMarketplaceFacilitator_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/UI_TestCases/ExistingLiability_UI_TC","testCaseId":"Test Cases/RAD_TestCases/UI_TestCases/ExistingLiability_UI_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/PersonalIncomeTax_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/PersonalIncomeTax_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/ExtensionPayments_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/ExtensionPayments_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/SaleAndUse_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/SaleAndUse_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/WithholdingTax_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/WithholdingTax_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch","testCaseId":"Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch"}
+{"testCaseName":"Test Cases/RAD_TestCases/Negative_TestCases/TaxPayerSSNNoMatch","testCaseId":"Test Cases/RAD_TestCases/Negative_TestCases/TaxPayerSSNNoMatch"}

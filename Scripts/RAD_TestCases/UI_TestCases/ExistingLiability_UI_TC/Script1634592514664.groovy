@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -55,13 +57,32 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Bay Restoration Fund Tax','CORP Tax','Fiduciary Tax'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Personal Tax','PTE (Partnership)','PTE (LLC)'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Personal Tax','PTE Tax (Partnership)','PTE Tax (LLC)'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['PTE (SCorp)','Sales & Use Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['PTE Tax (SCorp)','Sales & Use Tax'])
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Withholding Tax','Alcohol Tax'])
 		
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
 		
+		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
+		
+	if (WebUI.verifyEqual(totalOptionsFilingYear, 4))
+		
+		{
+			System.out.println('Total Options for Filing Year are correct: ' + totalOptionsFilingYear)
+			KeywordUtil.markPassed("Total Options are correct for Filing Year")
+		}
+	else
+		{
+			System.out.println('Total Options for Filing Year are NOT correct: ' + totalOptionsFilingYear)
+			KeywordUtil.markFailed("Total Options for Filing Year are NOT correct")
+		}
+		
+	
+	
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2021','2020','2019'])
+	
 		
 /*
 * #############################################

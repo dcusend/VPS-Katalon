@@ -58,7 +58,7 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Withh
 		
 				
 		
-	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022','2021','2020'])
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2021','2020','2019'])
 	
 	
 /*

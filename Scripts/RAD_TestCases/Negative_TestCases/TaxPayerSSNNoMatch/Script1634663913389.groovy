@@ -72,11 +72,16 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'),Taxtype , false)
 					
-					WebUI.scrollToElement(findTestObject(orPath_TaxPayer + '/input_suffix'), 3)
+					WebUI.scrollToElement(findTestObject(orPath_TaxPayer + '/input_firstName'), 3)
 					
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),"111111111")
+//					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),"111111111")
 					
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),"222222222")
+//					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),"222222222")
+					
+					WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "111111111")
+					WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "222222222")
+					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+					
 					
 					WebUI.delay(2)
 					

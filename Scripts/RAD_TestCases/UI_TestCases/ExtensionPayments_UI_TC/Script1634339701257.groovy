@@ -62,16 +62,16 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 			
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 			
-		WebUI.verifyEqual(totalOptionsFilingYear, 4)
+		WebUI.verifyEqual(totalOptionsFilingYear, 1)
 			
 						
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022','2021','2020'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2020'])
 		
 		
 /*
  * #############################################
  * Verify Static Text is present on the page
- * ##############################################
+ * #############################################
  */
 		
 		
@@ -128,9 +128,13 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_suffix'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_PSSN'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_PSSN'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatSSN'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), 30)
 		
 		
 /*
@@ -218,9 +222,13 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 				
 		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSuffix'), 30)
 				
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSSN'), 30)
+//		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_JointFilingSSN'), 30)
 				
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'), 30)
+//		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_JointFilingReEnterSSN'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'), 30)
 				
 				
 		

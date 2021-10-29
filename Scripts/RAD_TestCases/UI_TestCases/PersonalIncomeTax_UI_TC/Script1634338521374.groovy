@@ -54,7 +54,7 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 		WebUI.verifyEqual(totalOptionsFilingYear, 4)
 			
 						
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022','2021','2020'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2018','2019','2020'])
 		
 		
 /*
@@ -117,9 +117,13 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_suffix'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_PSSN'), 30)
+//		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_PSSN'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'), 30)
+//		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatSSN'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), 30)
 		
 		
 /*
@@ -210,9 +214,13 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 				
 		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSuffix'), 30)
 				
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSSN'), 30)
+//		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSSN'), 30)
 				
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'), 30)
+//		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'), 30)
 				
 				
 		

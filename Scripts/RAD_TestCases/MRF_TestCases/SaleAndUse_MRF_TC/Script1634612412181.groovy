@@ -62,7 +62,7 @@ import org.openqa.selenium.Keys as Keys
 	
 	
 //	Address and Contact Information Error Message
-	WebUI.verifyTextPresent('Select a country', true)
+//	WebUI.verifyTextPresent('Select a country', true)
 	
 	WebUI.verifyTextPresent('Enter address', true)
 	
@@ -83,7 +83,7 @@ import org.openqa.selenium.Keys as Keys
 // Tax Information Error Message
 	WebUI.verifyTextPresent('Enter Federal EIN', true)
 	
-	WebUI.verifyTextPresent('The federal EIN and Re-enter federal EIN', true)
+	WebUI.verifyTextPresent('The Federal EIN and Re-enter federal EIN do not match', true)
 	
 	//placeholder for missing MD Central Registration
 	

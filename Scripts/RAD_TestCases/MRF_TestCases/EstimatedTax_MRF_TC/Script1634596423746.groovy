@@ -26,8 +26,17 @@ import org.openqa.selenium.Keys as Keys
 	String orPath_Landing = "Object Repository/RAD_Pages/Landing_Page"
 	String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 	String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
+	String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
+	
 
 	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Estimated Tax", false)
+	
+	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123-44-1234")
+	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123-44-1234")
+	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),"")
+	
+	
 	
 	WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
 	
@@ -54,15 +63,15 @@ import org.openqa.selenium.Keys as Keys
 // Taxpayer Error Message	
 	WebUI.verifyTextPresent('Enter first name', true)
 	
-	WebUI.verifyTextPresent('Enter last name', true)
+//	WebUI.verifyTextPresent('Enter last name', true)
 	
-	WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true)
+//	WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true)
 	
-	WebUI.verifyTextPresent('The SSN and Re-type SSN do not match', true)
+//	WebUI.verifyTextPresent('The SSN and Re-type SSN do not match', true)
 	
 	
 //	Address and Contact Information Error Message
-	WebUI.verifyTextPresent('Select a country', true)
+//	WebUI.verifyTextPresent('Select a country', true)
 	
 	WebUI.verifyTextPresent('Enter address', true)
 	
@@ -85,19 +94,25 @@ import org.openqa.selenium.Keys as Keys
 	
 
 // Joint Filing Error Message
-	WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
+//	WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 	
-	WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
+//	WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
 	
-	WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+//	WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 	
-	WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+//	WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
+//	WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"123-44-6523")
+//	WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"123-44-6523")
+
 	
-	WebUI.verifyTextPresent('Enter joint payer first name', true)
 	
-	WebUI.verifyTextPresent('Enter joint payer last name', true)
+//	WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 	
-	WebUI.verifyTextPresent('Enter joint payer social security number', true)
+//	WebUI.verifyTextPresent('Enter joint payer first name', true)
 	
-	WebUI.verifyTextPresent('The joint payer SSN and Re-enter SSN do not match', true)
+//	WebUI.verifyTextPresent('Enter joint payer last name', true)
+	
+//	WebUI.verifyTextPresent('Enter joint payer social security number', true)
+	
+//	WebUI.verifyTextPresent('The joint payer SSN and Re-enter SSN do not match', true)
 		

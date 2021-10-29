@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 95.0.4638.54,,,2021-10-27 17:07:43,2021-10-27 17:10:09,2m - 25.543s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch,Chrome 95.0.4638.54,,,2021-10-27 17:07:44,2021-10-27 17:08:48,1m - 4.320s,PASSED
+"resText = ""Fail""",Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.001s,PASSED
+"resColumn = ""Result""",Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.002s,PASSED
+"fileLoc = ""C:\KatalonData\RADTestData\EmailNoMatch.xlsx""",Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.001s,PASSED
+"nameSheet = ""Sheet1""",Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.001s,PASSED
+"dataFile = ""RADTestData/EmailNoMatch""",Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.001s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.001s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.740s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:07:45,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 95.0.4638.54,,,2021-10-27 17:07:45,2021-10-27 17:08:48,1m - 2.938s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/TaxPayerSSNNoMatch,Chrome 95.0.4638.54,,,2021-10-27 17:08:48,2021-10-27 17:09:23,35.167s,PASSED
+"resText = ""Fail""",Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.000s,PASSED
+"resColumn = ""Result""",Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\RADTestData\TaxPayerSSNNoMatch.xlsx""",Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.001s,PASSED
+"nameSheet = ""Sheet1""",Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.002s,PASSED
+"dataFile = ""RADTestData/TaxPayerSSNNoMatch""",Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.001s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.005s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.052s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:08:49,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 95.0.4638.54,,,2021-10-27 17:08:49,2021-10-27 17:09:23,34.558s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/JointFilerSSNNoMatch,Chrome 95.0.4638.54,,,2021-10-27 17:09:23,2021-10-27 17:10:09,45.580s,FAILED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 95.0.4638.54,,,2021-10-27 17:09:24,2021-10-27 17:09:24,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 95.0.4638.54,,,2021-10-27 17:09:24,2021-10-27 17:09:24,0.000s,PASSED
+"orPath_FilingStatus = ""Object Repository/RAD_Pages/FilingStatus_Page""",Chrome 95.0.4638.54,,,2021-10-27 17:09:24,2021-10-27 17:09:24,0.000s,PASSED
+"orPath_TaxPayer = ""Object Repository/RAD_Pages/Taxpayer_Page""",Chrome 95.0.4638.54,,,2021-10-27 17:09:24,2021-10-27 17:09:24,0.000s,PASSED
+"taxTypeDropList = [""Estimated Tax"", ""Personal Income Tax"", ""Extension Payments""]",Chrome 95.0.4638.54,,,2021-10-27 17:09:24,2021-10-27 17:09:24,0.000s,PASSED
+listSize = taxTypeDropList.size(),Chrome 95.0.4638.54,,,2021-10-27 17:09:24,2021-10-27 17:09:24,0.000s,PASSED
+println(listSize),Chrome 95.0.4638.54,,,2021-10-27 17:09:24,2021-10-27 17:09:24,0.000s,PASSED
+"for ([i = 0, i < listSize, (i++)])",Chrome 95.0.4638.54,,,2021-10-27 17:09:24,2021-10-27 17:10:09,45.159s,FAILED

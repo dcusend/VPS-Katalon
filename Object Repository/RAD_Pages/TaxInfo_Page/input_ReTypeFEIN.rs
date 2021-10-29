@@ -3,29 +3,46 @@
    <description></description>
    <name>input_ReTypeFEIN</name>
    <tag></tag>
-   <elementGuidId>f7a28a1f-535a-4ba5-8b4f-ccc5d55607e3</elementGuidId>
+   <elementGuidId>4c08c470-6f7f-429b-85cb-51a802062535</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ReTypeFEIN']</value>
+         <value>//input[@id='data']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ReTypeFEIN</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;ReTypeFEIN&quot;)[count(. | //input[@type = 'password' and @name = 'ReTypeFEIN' and @class = 'form-control' and @id = 'ReTypeFEIN' and @maxlength = '9' and @placeholder = 'Federal EIN']) = count(//input[@type = 'password' and @name = 'ReTypeFEIN' and @class = 'form-control' and @id = 'ReTypeFEIN' and @maxlength = '9' and @placeholder = 'Federal EIN'])]</value>
+         <value>#data</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>data</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Data</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,64 +54,36 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>ReTypeFEIN</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>ReTypeFEIN</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>9</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Federal EIN</value>
+      <value>Re-Type FEIN Number</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ReTypeFEIN&quot;)</value>
+      <value>id(&quot;data&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/RAD_Pages/TaxInfo_Page/iframe_Please enter a valid FEIN with 9 dig_ffc08e</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ReTypeFEIN']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//form[@id='taxForm']/div[7]/div[3]/div/input</value>
+      <value>//input[@id='data']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div[3]/div/input</value>
+      <value>//input[15]</value>
    </webElementXpaths>
 </WebElementEntity>

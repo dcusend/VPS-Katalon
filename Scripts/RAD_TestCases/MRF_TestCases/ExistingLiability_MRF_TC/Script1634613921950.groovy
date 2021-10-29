@@ -26,8 +26,13 @@ WebUI.openBrowser('')
 	String orPath_Landing = "Object Repository/RAD_Pages/Landing_Page"
 	String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 	String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
+	String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
 
 	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability", false)
+	
+//	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123-44-1234")
+//	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123-44-1234")
+//	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
 	
 	WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
 	

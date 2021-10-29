@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 95.0.4638.54,,,2021-10-21 14:10:40,2021-10-21 14:11:50,1m - 9.856s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC,Chrome 95.0.4638.54,,,2021-10-21 14:10:41,2021-10-21 14:11:50,1m - 9.432s,PASSED
+"resText = ""Fail""",Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.002s,PASSED
+"resColumn = ""Result""",Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+"fileLoc = ""C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx""",Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+"nameSheet = ""Sheet1""",Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+"dataFile = ""RADTestData/PaymentsHardCoded""",Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.002s,PASSED
+PaymentType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.002s,PASSED
+FilingYear = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.002s,PASSED
+PeriodEnding = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.002s,PASSED
+FName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.007s,PASSED
+LName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.002s,PASSED
+SSN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.002s,PASSED
+AL1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.003s,PASSED
+City = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.005s,PASSED
+ZIP = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.002s,PASSED
+FilingType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.007s,PASSED
+Withholding = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.007s,PASSED
+Amount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+CCNumber = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+CVV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:42,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 95.0.4638.54,,,2021-10-21 14:10:42,2021-10-21 14:10:43,0.966s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 95.0.4638.54,,,2021-10-21 14:10:43,2021-10-21 14:10:43,0.006s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 95.0.4638.54,,,2021-10-21 14:10:43,2021-10-21 14:11:50,1m - 7.620s,PASSED

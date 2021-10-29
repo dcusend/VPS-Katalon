@@ -31,9 +31,9 @@ String dataFile = "RADTestData/PaymentsHardCoded"
 def ExecuteTC, Taxtype, PaymentType, FilingYear, PeriodEnding, FName, LName, SSN
 def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 
-def i
-for (i = 1; i <= 5; i++)
-{
+//def i
+//for (i = 1; i <= 5; i++)
+//{
 	def numOfRows = findTestData(dataFile).getRowNumbers()
 
 	println("Number of Records: " + numOfRows)
@@ -115,31 +115,40 @@ for (i = 1; i <= 5; i++)
 						case "Estimated Tax":
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),PaymentType,false)
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
-							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
-							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
+							//WebUI.waitForElementClickable(findTestObject('RAD_RecordAndPlay/input_concatSSN'),5)
 							
-							if (FilingType.equalsIgnoreCase("Y"))
-								{
-									WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
-								}
-							else
-								{
-									WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
-									WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
-									WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
-									WebUI.delay(3)
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointFirstName'),"Sam")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Katrina")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"357-95-1852")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"357-95-1852")
-								}
-							
-							break
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
+							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
+							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
+								if (PaymentType.equalsIgnoreCase("Personal"))
+									{
+										if (FilingType.equalsIgnoreCase("Y"))
+											{
+												WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+											}
+										else
+											{
+												WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
+												WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
+												WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+												WebUI.delay(3)
+												WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointFirstName'),"Katrina")
+												WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Stokes")
+												WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"123443210")
+												WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"123443210")
+												
+											}
+									}
+						break
 						
 						case "Personal Income Tax":
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
-							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
-							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
+							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
+							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
 							
 							if (FilingType.equalsIgnoreCase("Y"))
 								{
@@ -152,9 +161,9 @@ for (i = 1; i <= 5; i++)
 									WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 									WebUI.delay(3)
 									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointFirstName'),"Sam")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Katrina")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"357-95-1852")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"357-95-1852")
+									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
+									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"123446523")
+									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"123446523")
 								}
 							
 							break
@@ -162,33 +171,38 @@ for (i = 1; i <= 5; i++)
 						case "Extension Payments":
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),PaymentType,false)
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
-							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
-							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
-							
-							if (FilingType.equalsIgnoreCase("Y"))
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
+							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
+							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
+							if (PaymentType.equalsIgnoreCase("Personal"))
 								{
-									WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+									if (FilingType.equalsIgnoreCase("Y"))
+										{
+											WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+										}
+									else
+										{
+											WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
+											WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
+											WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+											WebUI.delay(3)
+											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointFirstName'),"Sam")
+											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
+											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"123446523")
+											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"123446523")
+										}
 								}
-							else
-								{
-									WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
-									WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
-									WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
-									WebUI.delay(3)
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointFirstName'),"Sam")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Katrina")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"357-95-1852")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"357-95-1852")
-								}
-							
 							break
 							
 						case "Sales and Use":
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),PeriodEnding,false)
 							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),BusName)
-							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325698563")
-							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325698563")
+							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325698563")
+							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325698563")
+							WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'), 'GYDmRgS5yd7gEHREC4bJaQ==')
+							WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN'), 'GYDmRgS5yd7gEHREC4bJaQ==')
 							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
 							
 							break
@@ -196,8 +210,10 @@ for (i = 1; i <= 5; i++)
 						case "Withholding Tax":
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
 							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),BusName)
-							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325698563")
-							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325698563")
+							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325698563")
+							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325698563")
+							WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'), 'GYDmRgS5yd7gEHREC4bJaQ==')
+							WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN'), 'GYDmRgS5yd7gEHREC4bJaQ==')
 							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
 							
 							if (Withholding.equalsIgnoreCase("Y"))
@@ -261,18 +277,19 @@ for (i = 1; i <= 5; i++)
 					WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true)
 					WebUI.verifyTextPresent('When you are confident that all the information is correct', true)
 					
-					WebUI.scrollToElement(findTestObject(orPath_Summary + '/button_Continue_Summary'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_Summary + '/button_Continue_Summary'),5)
+					//WebUI.scrollToElement(findTestObject(orPath_Summary + '/button_Continue_Summary'), 3)
+					//WebUI.waitForElementClickable(findTestObject(orPath_Summary + '/button_Proceed to Payment'),5)
 					WebUI.delay(3)
-					WebUI.click(findTestObject(orPath_Summary + '/button_Continue_Summary'))
+					//WebUI.click(findTestObject(orPath_Summary + '/button_Continue_Summary'))
+					WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
 					//WebElement element = WebUiCommonHelper.findWebElement(findTestObject(orPath_Summary + '/button_Continue_Summary'),30)
 					//WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))
 					
 					
 // Select Proceed to Payment button
-					WebUI.delay(3)
-					//WebUI.waitForElementClickable(findTestObject(orPath_PaymentEntry + '/button_ProceedtoPayment'),5)
-					WebUI.click(findTestObject(orPath_PaymentReady + '/button_ProceedtoPayment'))
+//					WebUI.delay(3)
+//				//WebUI.waitForElementClickable(findTestObject(orPath_PaymentEntry + '/button_ProceedtoPayment'),5)
+//				WebUI.click(findTestObject(orPath_PaymentReady + '/button_ProceedtoPayment'))
 					
 					
 // Populate Payment Entry page
@@ -317,4 +334,4 @@ for (i = 1; i <= 5; i++)
 		
 		}
 		
-}		
+//}		

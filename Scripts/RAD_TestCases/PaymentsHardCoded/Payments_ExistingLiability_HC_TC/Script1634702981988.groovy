@@ -28,9 +28,9 @@ String dataFile = "RADTestData/PaymentsELHardCoded"
 def ExecuteTC, Taxtype, TaxTypeEL, FName, LName
 def AL1, City, ZIP, Amount, CCNumber, CVV, SSN
 
-def i
-for (i = 1; i <= 5; i++)
-{
+//def i
+//for (i = 1; i <= 5; i++)
+//{
 
 
 	def numOfRows = findTestData(dataFile).getRowNumbers()
@@ -132,14 +132,17 @@ for (i = 1; i <= 5; i++)
 					WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 					//WebUI.waitForElementClickable(findTestObject(orPath_TaxInfo + '/input_FEIN'),5)
 					WebUI.delay(3)
+					//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_The Social Security Number and Re-ent_e292a4'),
+					//	'RigbBhfdqODKcAsiUrg+1Q==')
 					
-					WebUI.scrollToElement(findTestObject(orPath_TaxInfo + '/input_FEIN'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_TaxInfo + '/input_FEIN'),5)
-					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"123456789")
-					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"123456789")
+					//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Federal EIN_reTaxTypeExisitingFEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+					//WebUI.scrollToElement(findTestObject(orPath_TaxInfo + '/input_FEIN'), 3)
+					//WebUI.waitForElementClickable(findTestObject(orPath_TaxInfo + '/input_FEIN'),5)
+					//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"123456789")
+					//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"123456789")
 					
-					WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
-					WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
 					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'),"965896")
 					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'),"965896")
 					
@@ -216,4 +219,4 @@ for (i = 1; i <= 5; i++)
 				}
 				
 		}		
-}		
+//}		
