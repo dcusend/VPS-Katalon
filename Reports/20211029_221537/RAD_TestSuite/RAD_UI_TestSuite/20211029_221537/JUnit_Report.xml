@@ -1,0 +1,2510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="277.152" tests="1" failures="1" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="1" errors="0" time="277.152" skipped="0" timestamp="2021-10-29 22:15:41" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\execution0.log"/>
+         <property name="attachments" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560180710.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560212164.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560243659.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560275176.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560306542.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560337993.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560369384.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560400697.png"/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="bb085254b92a0f49e576b01a65d97495"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC" time="274.643" classname="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	... 23 more
+"/>
+         <system-out><![CDATA[2021-10-29 22:15:41 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	... 23 more
+
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx": null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - nameSheet = "Sheet1": null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - dataFile = "RADTestData/PaymentsHardCoded": null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - PaymentType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - FilingYear = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - PeriodEnding = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - FName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - LName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - SSN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - AL1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - City = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - ZIP = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - FilingType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - Withholding = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - Amount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - CCNumber = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - CVV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:15:42 - [TEST_STEP][PASSED] - numOfRows = findTestData(dataFile).getRowNumbers(): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2021-10-29 22:15:43 - [TEST_STEP][FAILED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:43 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:44 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:45 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:46 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:47 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:48 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:49 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:50 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:15:51 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:15:52 - [TEST_STEP][FAILED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-29 22:15:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-29 22:15:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-29 22:15:52 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-29 22:15:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-29 22:15:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-29 22:15:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-29 22:15:56 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-29 22:15:56 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-29 22:15:58 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_Withholding = "Object Repository/RAD_Pages/Withholding_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_Summary = "Object Repository/RAD_Pages/Summary_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_PaymentReady = "Object Repository/RAD_Pages/PaymentReady_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirmation_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page": null
+
+2021-10-29 22:15:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Sales and Use' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-29 22:15:59 - [MESSAGE][PASSED] - All options with label 'Sales and Use' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-29 22:15:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-29 22:16:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-29 22:16:02 - [TEST_STEP][PASSED] - switch (Taxtype): null
+
+2021-10-29 22:16:02 - [TEST_STEP][PASSED] - case "Sales and Use":: null
+
+2021-10-29 22:16:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), FilingYear, false): All options with label '2020' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-29 22:16:03 - [MESSAGE][PASSED] - All options with label '2020' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-29 22:16:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_PeriodEnding"), PeriodEnding, false): All options with label 'December' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PeriodEnding' 
+
+2021-10-29 22:16:03 - [MESSAGE][PASSED] - All options with label 'December' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PeriodEnding' 
+
+2021-10-29 22:16:03 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_businessName"), BusName): Text 'Light Car Wash' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_businessName'
+
+2021-10-29 22:16:04 - [MESSAGE][PASSED] - Text 'Light Car Wash' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_businessName'
+
+2021-10-29 22:16:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject(orPath_TaxInfo + "/input_FederalEIN"), "0fDtEjy4ijeV75Gl5M+mSg=="): Text ****** has been set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN'
+
+2021-10-29 22:16:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN'
+
+2021-10-29 22:16:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject(orPath_TaxInfo + "/input_FederalEIN_ReEnter"), "0fDtEjy4ijeV75Gl5M+mSg=="): Text ****** has been set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN_ReEnter'
+
+2021-10-29 22:16:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN_ReEnter'
+
+2021-10-29 22:16:06 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxInfo + "/input_MDCRegistration"), "07640126"): Text '07640126' is set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration'
+
+2021-10-29 22:16:07 - [MESSAGE][PASSED] - Text '07640126' is set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration'
+
+2021-10-29 22:16:07 - [TEST_STEP][PASSED] - break: null
+
+2021-10-29 22:16:07 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_firstName"), FName): Text 'Larsons' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-29 22:16:07 - [MESSAGE][PASSED] - Text 'Larsons' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-29 22:16:07 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_lastName"), LName): Text 'Bell' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-29 22:16:08 - [MESSAGE][PASSED] - Text 'Bell' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-29 22:16:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_Country"), "United States", false): All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-29 22:16:09 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-29 22:16:09 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress1"), AL1): Text '114 Clark Ave' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-29 22:16:09 - [MESSAGE][PASSED] - Text '114 Clark Ave' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-29 22:16:09 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress2"), ""): Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-29 22:16:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-29 22:16:10 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_city"), City): Text 'Severn' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-29 22:16:11 - [MESSAGE][PASSED] - Text 'Severn' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-29 22:16:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_State"), "Maryland", false): All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-29 22:16:11 - [MESSAGE][PASSED] - All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-29 22:16:11 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_zipCode"), ZIP): Text '21144' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-29 22:16:12 - [MESSAGE][PASSED] - Text '21144' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-29 22:16:12 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_phoneNumber"), "(703) 894-5000"): Text '(703) 894-5000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-29 22:16:13 - [MESSAGE][PASSED] - Text '(703) 894-5000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-29 22:16:13 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-29 22:16:14 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-29 22:16:14 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-29 22:16:15 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-29 22:16:15 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), Amount): Text '100.00' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-29 22:16:16 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-29 22:16:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Landing + "/button_Continue"), 3): Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-29 22:16:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-29 22:16:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject(orPath_Landing + "/button_Continue"), 5): Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clickable
+
+2021-10-29 22:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clickable
+
+2021-10-29 22:16:17 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Continue")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clicked on
+
+2021-10-29 22:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clicked on
+
+2021-10-29 22:16:17 - [TEST_STEP][FAILED] - verifyTextPresent("Review the information below and make any necessary corrections by clicking the", true): Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+
+2021-10-29 22:16:18 - [MESSAGE][FAILED] - Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+
+2021-10-29 22:16:18 - [TEST_STEP][FAILED] - verifyTextPresent("When you are confident that all the information is correct", true): Text 'When you are confident that all the information is correct' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'When you are confident that all the information is correct' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:285)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+
+2021-10-29 22:16:19 - [MESSAGE][FAILED] - Text 'When you are confident that all the information is correct' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'When you are confident that all the information is correct' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:285)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+
+2021-10-29 22:16:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-10-29 22:16:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-10-29 22:16:20 - [TEST_STEP][FAILED] - click(findTestObject(orPath_Summary + "/button_Proceed to Payment")): Unable to click on object 'Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:291)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2QI6NS', ip: '172.30.2.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\iahmed\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb085254b92a0f49e576b01a65d97495
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:291)
+	... 13 more
+)
+
+2021-10-29 22:16:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:291)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2QI6NS', ip: '172.30.2.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\iahmed\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bb085254b92a0f49e576b01a65d97495
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:291)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560180710.png]]
+
+2021-10-29 22:16:21 - [TEST_STEP][FAILED] - setText(findTestObject(orPath_PaymentEntry + "/input__cardNumber"), CCNumber): Unable to set text '5146312200000035' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '5146312200000035' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:303)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber' located by '//*[@type = 'text' and @id = 'cardNumber' and @name = 'cardNumber' and @alt = 'Card Number']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:303)
+	... 13 more
+)
+
+2021-10-29 22:16:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @id = 'cardNumber' and @name = 'cardNumber' and @alt = 'Card Number']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:16:52 - [MESSAGE][FAILED] - Unable to set text '5146312200000035' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '5146312200000035' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:303)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber' located by '//*[@type = 'text' and @id = 'cardNumber' and @name = 'cardNumber' and @alt = 'Card Number']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:303)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560212164.png]]
+
+2021-10-29 22:16:52 - [TEST_STEP][FAILED] - setText(findTestObject(orPath_PaymentEntry + "/input__spc"), CVV): Unable to set text '123' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:304)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc' located by '//*[@type = 'text' and @name = 'spc' and @id = 'spc' and @alt = 'Card Security Code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:304)
+	... 13 more
+)
+
+2021-10-29 22:17:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'spc' and @id = 'spc' and @alt = 'Card Security Code']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:17:23 - [MESSAGE][FAILED] - Unable to set text '123' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '123' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:304)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc' located by '//*[@type = 'text' and @name = 'spc' and @id = 'spc' and @alt = 'Card Security Code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:304)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560243659.png]]
+
+2021-10-29 22:17:23 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject(orPath_PaymentEntry + "/select_MM"), "12", false): Unable to select option by label '12' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '12' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:305)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM' located by '//*[@name = 'cardExpMonth' and @alt = 'Expiration Date' and (text() = '
+									MM
+										
+									01
+						
+									02
+						
+									03
+						
+									04
+						
+									05
+						
+									06
+						
+									07
+						
+									08
+						
+									09
+						
+									10
+						
+									11
+						
+									12
+						
+								' or . = '
+									MM
+										
+									01
+						
+									02
+						
+									03
+						
+									04
+						
+									05
+						
+									06
+						
+									07
+						
+									08
+						
+									09
+						
+									10
+						
+									11
+						
+									12
+						
+								')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:305)
+	... 13 more
+)
+
+2021-10-29 22:17:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'cardExpMonth' and @alt = 'Expiration Date' and (text() = '
+									MM
+										
+									01
+						
+									02
+						
+									03
+						
+									04
+						
+									05
+						
+									06
+						
+									07
+						
+									08
+						
+									09
+						
+									10
+						
+									11
+						
+									12
+						
+								' or . = '
+									MM
+										
+									01
+						
+									02
+						
+									03
+						
+									04
+						
+									05
+						
+									06
+						
+									07
+						
+									08
+						
+									09
+						
+									10
+						
+									11
+						
+									12
+						
+								')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:17:55 - [MESSAGE][FAILED] - Unable to select option by label '12' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '12' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:305)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM' located by '//*[@name = 'cardExpMonth' and @alt = 'Expiration Date' and (text() = '
+									MM
+										
+									01
+						
+									02
+						
+									03
+						
+									04
+						
+									05
+						
+									06
+						
+									07
+						
+									08
+						
+									09
+						
+									10
+						
+									11
+						
+									12
+						
+								' or . = '
+									MM
+										
+									01
+						
+									02
+						
+									03
+						
+									04
+						
+									05
+						
+									06
+						
+									07
+						
+									08
+						
+									09
+						
+									10
+						
+									11
+						
+									12
+						
+								')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:305)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560275176.png]]
+
+2021-10-29 22:17:55 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject(orPath_PaymentEntry + "/select_YYYY"), "2023", false): Unable to select option by label '2023' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '2023' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:306)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY' located by '//*[@name = 'cardExpYear' and @alt = 'Expiration Date' and (text() = '
+									YYYY
+						
+									2021
+						
+									2022
+						
+									2023
+						
+									2024
+						
+									2025
+						
+									2026
+						
+									2027
+						
+									2028
+						
+									2029
+						
+									2030
+						
+									2031
+						
+									2032
+						
+									2033
+						
+									2034
+						
+									2035
+						
+									2036
+						
+								' or . = '
+									YYYY
+						
+									2021
+						
+									2022
+						
+									2023
+						
+									2024
+						
+									2025
+						
+									2026
+						
+									2027
+						
+									2028
+						
+									2029
+						
+									2030
+						
+									2031
+						
+									2032
+						
+									2033
+						
+									2034
+						
+									2035
+						
+									2036
+						
+								')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:306)
+	... 13 more
+)
+
+2021-10-29 22:18:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'cardExpYear' and @alt = 'Expiration Date' and (text() = '
+									YYYY
+						
+									2021
+						
+									2022
+						
+									2023
+						
+									2024
+						
+									2025
+						
+									2026
+						
+									2027
+						
+									2028
+						
+									2029
+						
+									2030
+						
+									2031
+						
+									2032
+						
+									2033
+						
+									2034
+						
+									2035
+						
+									2036
+						
+								' or . = '
+									YYYY
+						
+									2021
+						
+									2022
+						
+									2023
+						
+									2024
+						
+									2025
+						
+									2026
+						
+									2027
+						
+									2028
+						
+									2029
+						
+									2030
+						
+									2031
+						
+									2032
+						
+									2033
+						
+									2034
+						
+									2035
+						
+									2036
+						
+								')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:18:26 - [MESSAGE][FAILED] - Unable to select option by label '2023' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '2023' of object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:306)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY' located by '//*[@name = 'cardExpYear' and @alt = 'Expiration Date' and (text() = '
+									YYYY
+						
+									2021
+						
+									2022
+						
+									2023
+						
+									2024
+						
+									2025
+						
+									2026
+						
+									2027
+						
+									2028
+						
+									2029
+						
+									2030
+						
+									2031
+						
+									2032
+						
+									2033
+						
+									2034
+						
+									2035
+						
+									2036
+						
+								' or . = '
+									YYYY
+						
+									2021
+						
+									2022
+						
+									2023
+						
+									2024
+						
+									2025
+						
+									2026
+						
+									2027
+						
+									2028
+						
+									2029
+						
+									2030
+						
+									2031
+						
+									2032
+						
+									2033
+						
+									2034
+						
+									2035
+						
+									2036
+						
+								')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$2.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:306)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560306542.png]]
+
+2021-10-29 22:18:26 - [TEST_STEP][FAILED] - click(findTestObject(orPath_PaymentEntry + "/input_Field_ccSubmit")): Unable to click on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:307)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit' located by '//*[@type = 'submit' and @name = 'ccSubmit']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:307)
+	... 13 more
+)
+
+2021-10-29 22:18:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'submit' and @name = 'ccSubmit']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:18:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:307)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit' located by '//*[@type = 'submit' and @name = 'ccSubmit']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:307)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560337993.png]]
+
+2021-10-29 22:18:58 - [TEST_STEP][FAILED] - click(findTestObject(orPath_PaymentConfirmation + "/input_N_confirmNotifyAction")): Unable to click on object 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:312)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction' located by '//*[@type = 'submit' and @name = 'confirmNotifyAction']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:312)
+	... 13 more
+)
+
+2021-10-29 22:19:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'submit' and @name = 'confirmNotifyAction']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:19:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:312)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction' located by '//*[@type = 'submit' and @name = 'confirmNotifyAction']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:312)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560369384.png]]
+
+2021-10-29 22:19:29 - [TEST_STEP][FAILED] - click(findTestObject(orPath_ServiceFeesAccept + "/input_convFeeNotifyAction")): Unable to click on object 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:316)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction' located by '//*[@type = 'submit' and @name = 'convFeeNotifyAction']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:316)
+	... 13 more
+)
+
+2021-10-29 22:20:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'submit' and @name = 'convFeeNotifyAction']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:20:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:316)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction' located by '//*[@type = 'submit' and @name = 'convFeeNotifyAction']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:316)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_221537\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_221537\\1635560400697.png]]
+
+2021-10-29 22:20:00 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2021-10-29 22:20:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2021-10-29 22:20:10 - [TEST_STEP][FAILED] - verifyTextPresent("Successful Payment Receipt", true): Text 'Successful Payment Receipt' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Successful Payment Receipt' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:323)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+
+2021-10-29 22:20:11 - [MESSAGE][FAILED] - Text 'Successful Payment Receipt' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Successful Payment Receipt' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:323)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+
+2021-10-29 22:20:11 - [TEST_STEP][FAILED] - if (verifyTextPresent("Successful Payment Receipt", true)): Text 'Successful Payment Receipt' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Successful Payment Receipt' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:325)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+
+2021-10-29 22:20:11 - [MESSAGE][FAILED] - Text 'Successful Payment Receipt' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Successful Payment Receipt' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:325)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+
+2021-10-29 22:20:11 - [TEST_STEP][PASSED] - else: pages.WriteExcel.demoKey is PASSED
+
+2021-10-29 22:20:11 - [TEST_STEP][PASSED] - println("Transaction was NOT Successful"): null
+
+2021-10-29 22:20:11 - [TEST_STEP][PASSED] - out.println("Fail Record Number: " + row): null
+
+2021-10-29 22:20:11 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2021-10-29 22:20:11 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-29 22:20:12 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:20:12 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:20:13 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:20:14 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:20:15 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:20:16 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:20:16 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:20:16 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:20:16 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:20:16 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:20:16 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:20:16 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null]]></system-out>
+         <system-err><![CDATA[2021-10-29 22:15:41 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-29 22:15:41 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2021-10-29 22:15:41 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:284)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635560137524.run(TempTestSuite1635560137524.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Review the information below and make any necessary corrections by clicking the' is not present on page  using regular expression
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="240.401" tests="1" failures="1" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="1" errors="0" time="240.401" skipped="0" timestamp="2021-10-29 22:37:09" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\execution0.log"/>
+         <property name="attachments" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\1635561484129.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\1635561515787.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\1635561598499.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\1635561630005.png"/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="fc1c59bab635a305af617de5554e4bd1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC" time="238.441" classname="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-10-29 22:37:09 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\RADTestData\PaymentsHardCoded.xlsx": null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - nameSheet = "Sheet1": null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - dataFile = "RADTestData/PaymentsHardCoded": null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - PaymentType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - FilingYear = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - PeriodEnding = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - FName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - LName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - SSN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - AL1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - City = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - ZIP = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - FilingType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - Withholding = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - Amount = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - CCNumber = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - CVV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2021-10-29 22:37:10 - [TEST_STEP][PASSED] - numOfRows = findTestData(dataFile).getRowNumbers(): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2021-10-29 22:37:11 - [TEST_STEP][FAILED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:11 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:12 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:13 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:14 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:15 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:16 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:17 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:18 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:19 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:37:20 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:37:21 - [TEST_STEP][FAILED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-29 22:37:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-29 22:37:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-29 22:37:21 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-29 22:37:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-29 22:37:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-29 22:37:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-29 22:37:24 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-29 22:37:24 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-29 22:37:27 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_Withholding = "Object Repository/RAD_Pages/Withholding_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_Summary = "Object Repository/RAD_Pages/Summary_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_PaymentReady = "Object Repository/RAD_Pages/PaymentReady_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirmation_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page": null
+
+2021-10-29 22:37:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-29 22:37:28 - [MESSAGE][PASSED] - All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-29 22:37:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-29 22:37:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-29 22:37:31 - [TEST_STEP][FAILED] - switch (Taxtype): null
+
+2021-10-29 22:37:31 - [TEST_STEP][FAILED] - case "Withholding Tax":: null
+
+2021-10-29 22:37:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), FilingYear, false): All options with label '2021' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-29 22:37:32 - [MESSAGE][PASSED] - All options with label '2021' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-29 22:37:32 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_businessName"), BusName): Text 'Lux & Sons Corporation' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_businessName'
+
+2021-10-29 22:37:32 - [MESSAGE][PASSED] - Text 'Lux & Sons Corporation' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_businessName'
+
+2021-10-29 22:37:32 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN"), "xLVb905G4/sGR8qgNWNzNQ=="): Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+
+2021-10-29 22:38:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:38:04 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\1635561484129.png]]
+
+2021-10-29 22:38:04 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN"), "xLVb905G4/sGR8qgNWNzNQ=="): Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:223)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN' located by '//*[@type = 'password' and @name = 'ReTypeFEIN' and @id = 'ReTypeFEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:223)
+	... 13 more
+)
+
+2021-10-29 22:38:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'password' and @name = 'ReTypeFEIN' and @id = 'ReTypeFEIN' and @placeholder = 'Federal EIN']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:38:36 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:223)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN' located by '//*[@type = 'password' and @name = 'ReTypeFEIN' and @id = 'ReTypeFEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:223)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\1635561515787.png]]
+
+2021-10-29 22:38:36 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxInfo + "/input_MDCRegistration"), "07640126"): Text '07640126' is set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration'
+
+2021-10-29 22:38:36 - [MESSAGE][PASSED] - Text '07640126' is set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration'
+
+2021-10-29 22:38:36 - [TEST_STEP][PASSED] - if (Withholding.equalsIgnoreCase("Y")): Text '10.50' is set on object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported'
+
+2021-10-29 22:38:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Landing + "/button_Continue"), 3): Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-29 22:38:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-29 22:38:37 - [TEST_STEP][PASSED] - check(findTestObject(orPath_Withholding + "/input_acceleratedBasis_Yes")): Object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_Yes' is checked
+
+2021-10-29 22:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_Yes' is checked
+
+2021-10-29 22:38:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-29 22:38:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-29 22:38:40 - [TEST_STEP][PASSED] - nowDate = Date().format("MM/dd/yyyy"): null
+
+2021-10-29 22:38:40 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById('payDate').removeAttribute('readonly')", null): Execute JavaScript 'document.getElementById('payDate').removeAttribute('readonly')' successfully
+
+2021-10-29 22:38:40 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById('payDate').removeAttribute('readonly')' successfully
+
+2021-10-29 22:38:40 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Withholding + "/input_PayDate"), nowDate): Text '10/29/2021' is set on object 'Object Repository/RAD_Pages/Withholding_Page/input_PayDate'
+
+2021-10-29 22:38:41 - [MESSAGE][PASSED] - Text '10/29/2021' is set on object 'Object Repository/RAD_Pages/Withholding_Page/input_PayDate'
+
+2021-10-29 22:38:41 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Withholding + "/input__WithholdingTaxReported"), "10.50"): Text '10.50' is set on object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported'
+
+2021-10-29 22:38:42 - [MESSAGE][PASSED] - Text '10.50' is set on object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported'
+
+2021-10-29 22:38:42 - [TEST_STEP][PASSED] - break: null
+
+2021-10-29 22:38:42 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_firstName"), FName): Text 'Jimmie' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-29 22:38:43 - [MESSAGE][PASSED] - Text 'Jimmie' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-29 22:38:43 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_lastName"), LName): Text 'Anderson' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-29 22:38:44 - [MESSAGE][PASSED] - Text 'Anderson' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-29 22:38:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_Country"), "United States", false): All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-29 22:38:45 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-29 22:38:45 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress1"), AL1): Text '15 Main Street' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-29 22:38:45 - [MESSAGE][PASSED] - Text '15 Main Street' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-29 22:38:45 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress2"), ""): Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-29 22:38:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-29 22:38:46 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_city"), City): Text 'Gambrills' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-29 22:38:47 - [MESSAGE][PASSED] - Text 'Gambrills' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-29 22:38:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_State"), "Maryland", false): All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-29 22:38:47 - [MESSAGE][PASSED] - All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-29 22:38:47 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_zipCode"), ZIP): Text '21054' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-29 22:38:48 - [MESSAGE][PASSED] - Text '21054' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-29 22:38:48 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_phoneNumber"), "(703) 894-5000"): Text '(703) 894-5000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-29 22:38:49 - [MESSAGE][PASSED] - Text '(703) 894-5000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-29 22:38:49 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-29 22:38:50 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-29 22:38:50 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-29 22:38:50 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-29 22:38:50 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), Amount): Text '100.00' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-29 22:38:51 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-29 22:38:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Landing + "/button_Continue"), 3): Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-29 22:38:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-29 22:38:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject(orPath_Landing + "/button_Continue"), 5): Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clickable
+
+2021-10-29 22:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clickable
+
+2021-10-29 22:38:52 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Continue")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clicked on
+
+2021-10-29 22:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clicked on
+
+2021-10-29 22:38:52 - [TEST_STEP][PASSED] - verifyTextPresent("Review the information below and make any necessary corrections by clicking the", true): Text 'Review the information below and make any necessary corrections by clicking the' is present on page  using regular expression
+
+2021-10-29 22:38:53 - [MESSAGE][PASSED] - Text 'Review the information below and make any necessary corrections by clicking the' is present on page  using regular expression
+
+2021-10-29 22:38:53 - [TEST_STEP][PASSED] - verifyTextPresent("When you are confident that all the information is correct", true): Text 'When you are confident that all the information is correct' is present on page  using regular expression
+
+2021-10-29 22:38:53 - [MESSAGE][PASSED] - Text 'When you are confident that all the information is correct' is present on page  using regular expression
+
+2021-10-29 22:38:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-10-29 22:38:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-10-29 22:38:54 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Summary + "/button_Proceed to Payment")): Object: 'Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment' is clicked on
+
+2021-10-29 22:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment' is clicked on
+
+2021-10-29 22:38:56 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_PaymentEntry + "/input__cardNumber"), CCNumber): Text '6011000993026909' is set on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber'
+
+2021-10-29 22:38:57 - [MESSAGE][PASSED] - Text '6011000993026909' is set on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber'
+
+2021-10-29 22:38:57 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_PaymentEntry + "/input__spc"), CVV): Text '123' is set on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc'
+
+2021-10-29 22:38:58 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc'
+
+2021-10-29 22:38:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_PaymentEntry + "/select_MM"), "12", false): All options with label '12' are selected in object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM' 
+
+2021-10-29 22:38:59 - [MESSAGE][PASSED] - All options with label '12' are selected in object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM' 
+
+2021-10-29 22:38:59 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_PaymentEntry + "/select_YYYY"), "2023", false): All options with label '2023' are selected in object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY' 
+
+2021-10-29 22:38:59 - [MESSAGE][PASSED] - All options with label '2023' are selected in object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY' 
+
+2021-10-29 22:38:59 - [TEST_STEP][PASSED] - click(findTestObject(orPath_PaymentEntry + "/input_Field_ccSubmit")): Object: 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit' is clicked on
+
+2021-10-29 22:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit' is clicked on
+
+2021-10-29 22:39:00 - [TEST_STEP][PASSED] - click(findTestObject(orPath_PaymentConfirmation + "/input_N_confirmNotifyAction")): Object: 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction' is clicked on
+
+2021-10-29 22:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction' is clicked on
+
+2021-10-29 22:39:02 - [TEST_STEP][PASSED] - click(findTestObject(orPath_ServiceFeesAccept + "/input_convFeeNotifyAction")): Object: 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction' is clicked on
+
+2021-10-29 22:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction' is clicked on
+
+2021-10-29 22:39:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2021-10-29 22:39:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2021-10-29 22:39:13 - [TEST_STEP][PASSED] - verifyTextPresent("Successful Payment Receipt", true): Text 'Successful Payment Receipt' is present on page  using regular expression
+
+2021-10-29 22:39:14 - [MESSAGE][PASSED] - Text 'Successful Payment Receipt' is present on page  using regular expression
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - if (verifyTextPresent("Successful Payment Receipt", true)): null
+
+2021-10-29 22:39:14 - [MESSAGE][PASSED] - Text 'Successful Payment Receipt' is present on page  using regular expression
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - println("Transaction was Successful"): null
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-29 22:39:14 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:39:14 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:39:15 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:39:16 - [TEST_STEP][FAILED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - println(today): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - datText = today: null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - Taxtype = findTestData(dataFile).getValue("TaxType", row): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - out.println("Taxtype value is : " + Taxtype): null
+
+2021-10-29 22:39:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-29 22:39:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-29 22:39:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-29 22:39:18 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-29 22:39:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-29 22:39:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-29 22:39:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-29 22:39:19 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-29 22:39:19 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-29 22:39:21 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_Withholding = "Object Repository/RAD_Pages/Withholding_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_Summary = "Object Repository/RAD_Pages/Summary_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_PaymentReady = "Object Repository/RAD_Pages/PaymentReady_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirmation_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page": null
+
+2021-10-29 22:39:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), Taxtype, false): All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-29 22:39:22 - [MESSAGE][PASSED] - All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-10-29 22:39:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-29 22:39:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-29 22:39:25 - [TEST_STEP][FAILED] - switch (Taxtype): null
+
+2021-10-29 22:39:25 - [TEST_STEP][FAILED] - case "Withholding Tax":: null
+
+2021-10-29 22:39:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + "/select_FilingYear"), FilingYear, false): All options with label '2021' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-29 22:39:26 - [MESSAGE][PASSED] - All options with label '2021' are selected in object 'Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_FilingYear' 
+
+2021-10-29 22:39:26 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_businessName"), BusName): Text 'Lux & Sons Corporation' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_businessName'
+
+2021-10-29 22:39:27 - [MESSAGE][PASSED] - Text 'Lux & Sons Corporation' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_businessName'
+
+2021-10-29 22:39:27 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN"), "xLVb905G4/sGR8qgNWNzNQ=="): Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+
+2021-10-29 22:39:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:39:58 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\1635561598499.png]]
+
+2021-10-29 22:39:58 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN"), "xLVb905G4/sGR8qgNWNzNQ=="): Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:223)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN' located by '//*[@type = 'password' and @name = 'ReTypeFEIN' and @id = 'ReTypeFEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:223)
+	... 13 more
+)
+
+2021-10-29 22:40:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'password' and @name = 'ReTypeFEIN' and @id = 'ReTypeFEIN' and @placeholder = 'Federal EIN']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-29 22:40:30 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:223)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN' located by '//*[@type = 'password' and @name = 'ReTypeFEIN' and @id = 'ReTypeFEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:223)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211029_223706\\RAD_TestSuite\\RAD_UI_TestSuite\\20211029_223706\\1635561630005.png]]
+
+2021-10-29 22:40:30 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxInfo + "/input_MDCRegistration"), "07640126"): Text '07640126' is set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration'
+
+2021-10-29 22:40:31 - [MESSAGE][PASSED] - Text '07640126' is set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration'
+
+2021-10-29 22:40:31 - [TEST_STEP][PASSED] - if (Withholding.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:40:31 - [TEST_STEP][PASSED] - else: Text '10.50' is set on object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported'
+
+2021-10-29 22:40:31 - [TEST_STEP][PASSED] - check(findTestObject(orPath_Withholding + "/input_acceleratedBasis_No")): Object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_No' is checked
+
+2021-10-29 22:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Withholding_Page/input_acceleratedBasis_No' is checked
+
+2021-10-29 22:40:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-29 22:40:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-29 22:40:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Withholding + "/select_Month"), "January", false): All options with label 'January' are selected in object 'Object Repository/RAD_Pages/Withholding_Page/select_Month' 
+
+2021-10-29 22:40:35 - [MESSAGE][PASSED] - All options with label 'January' are selected in object 'Object Repository/RAD_Pages/Withholding_Page/select_Month' 
+
+2021-10-29 22:40:35 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Withholding + "/input__WithholdingTaxReported"), "10.50"): Text '10.50' is set on object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported'
+
+2021-10-29 22:40:36 - [MESSAGE][PASSED] - Text '10.50' is set on object 'Object Repository/RAD_Pages/Withholding_Page/input__WithholdingTaxReported'
+
+2021-10-29 22:40:36 - [TEST_STEP][PASSED] - break: null
+
+2021-10-29 22:40:36 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_firstName"), FName): Text 'Jimmie' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-29 22:40:36 - [MESSAGE][PASSED] - Text 'Jimmie' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_firstName'
+
+2021-10-29 22:40:36 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_TaxPayer + "/input_lastName"), LName): Text 'Anderson' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-29 22:40:37 - [MESSAGE][PASSED] - Text 'Anderson' is set on object 'Object Repository/RAD_Pages/Taxpayer_Page/input_lastName'
+
+2021-10-29 22:40:37 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_Country"), "United States", false): All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-29 22:40:38 - [MESSAGE][PASSED] - All options with label 'United States' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_Country' 
+
+2021-10-29 22:40:38 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress1"), AL1): Text '15 Main Street' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-29 22:40:39 - [MESSAGE][PASSED] - Text '15 Main Street' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress1'
+
+2021-10-29 22:40:39 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_streetAddress2"), ""): Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-29 22:40:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_streetAddress2'
+
+2021-10-29 22:40:39 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_city"), City): Text 'Gambrills' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-29 22:40:40 - [MESSAGE][PASSED] - Text 'Gambrills' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_city'
+
+2021-10-29 22:40:40 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_AddressContact + "/select_State"), "Maryland", false): All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-29 22:40:41 - [MESSAGE][PASSED] - All options with label 'Maryland' are selected in object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State' 
+
+2021-10-29 22:40:41 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_zipCode"), ZIP): Text '21054' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-29 22:40:41 - [MESSAGE][PASSED] - Text '21054' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_zipCode'
+
+2021-10-29 22:40:41 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_phoneNumber"), "(703) 894-5000"): Text '(703) 894-5000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-29 22:40:42 - [MESSAGE][PASSED] - Text '(703) 894-5000' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_phoneNumber'
+
+2021-10-29 22:40:42 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_eMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-29 22:40:43 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_eMailAddress'
+
+2021-10-29 22:40:43 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_AddressContact + "/input_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-29 22:40:44 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/AddressAndContactInfo_Page/input_reEnterEMailAddress'
+
+2021-10-29 22:40:44 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), Amount): Text '100.00' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-29 22:40:44 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-10-29 22:40:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject(orPath_Landing + "/button_Continue"), 3): Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-29 22:40:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' successfully
+
+2021-10-29 22:40:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject(orPath_Landing + "/button_Continue"), 5): Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clickable
+
+2021-10-29 22:40:45 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clickable
+
+2021-10-29 22:40:45 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Continue")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clicked on
+
+2021-10-29 22:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Continue' is clicked on
+
+2021-10-29 22:40:46 - [TEST_STEP][PASSED] - verifyTextPresent("Review the information below and make any necessary corrections by clicking the", true): Text 'Review the information below and make any necessary corrections by clicking the' is present on page  using regular expression
+
+2021-10-29 22:40:46 - [MESSAGE][PASSED] - Text 'Review the information below and make any necessary corrections by clicking the' is present on page  using regular expression
+
+2021-10-29 22:40:46 - [TEST_STEP][PASSED] - verifyTextPresent("When you are confident that all the information is correct", true): Text 'When you are confident that all the information is correct' is present on page  using regular expression
+
+2021-10-29 22:40:47 - [MESSAGE][PASSED] - Text 'When you are confident that all the information is correct' is present on page  using regular expression
+
+2021-10-29 22:40:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-10-29 22:40:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-10-29 22:40:48 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Summary + "/button_Proceed to Payment")): Object: 'Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment' is clicked on
+
+2021-10-29 22:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment' is clicked on
+
+2021-10-29 22:40:49 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_PaymentEntry + "/input__cardNumber"), CCNumber): Text '6011000993026909' is set on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber'
+
+2021-10-29 22:40:50 - [MESSAGE][PASSED] - Text '6011000993026909' is set on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__cardNumber'
+
+2021-10-29 22:40:50 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_PaymentEntry + "/input__spc"), CVV): Text '123' is set on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc'
+
+2021-10-29 22:40:51 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/RAD_Pages/PaymentEntry_Page/input__spc'
+
+2021-10-29 22:40:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_PaymentEntry + "/select_MM"), "12", false): All options with label '12' are selected in object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM' 
+
+2021-10-29 22:40:52 - [MESSAGE][PASSED] - All options with label '12' are selected in object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_MM' 
+
+2021-10-29 22:40:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_PaymentEntry + "/select_YYYY"), "2023", false): All options with label '2023' are selected in object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY' 
+
+2021-10-29 22:40:52 - [MESSAGE][PASSED] - All options with label '2023' are selected in object 'Object Repository/RAD_Pages/PaymentEntry_Page/select_YYYY' 
+
+2021-10-29 22:40:52 - [TEST_STEP][PASSED] - click(findTestObject(orPath_PaymentEntry + "/input_Field_ccSubmit")): Object: 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit' is clicked on
+
+2021-10-29 22:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/PaymentEntry_Page/input_Field_ccSubmit' is clicked on
+
+2021-10-29 22:40:53 - [TEST_STEP][PASSED] - click(findTestObject(orPath_PaymentConfirmation + "/input_N_confirmNotifyAction")): Object: 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction' is clicked on
+
+2021-10-29 22:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/PaymentConfirmation_Page/input_N_confirmNotifyAction' is clicked on
+
+2021-10-29 22:40:55 - [TEST_STEP][PASSED] - click(findTestObject(orPath_ServiceFeesAccept + "/input_convFeeNotifyAction")): Object: 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction' is clicked on
+
+2021-10-29 22:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/ServiceFeeAccept_Page/input_convFeeNotifyAction' is clicked on
+
+2021-10-29 22:40:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2021-10-29 22:41:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2021-10-29 22:41:06 - [TEST_STEP][PASSED] - verifyTextPresent("Successful Payment Receipt", true): Text 'Successful Payment Receipt' is present on page  using regular expression
+
+2021-10-29 22:41:07 - [MESSAGE][PASSED] - Text 'Successful Payment Receipt' is present on page  using regular expression
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - if (verifyTextPresent("Successful Payment Receipt", true)): null
+
+2021-10-29 22:41:07 - [MESSAGE][PASSED] - Text 'Successful Payment Receipt' is present on page  using regular expression
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - println("Transaction was Successful"): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2021-10-29 22:41:07 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2021-10-29 22:41:07 - [TEST_STEP][PASSED] - PaymentType = findTestData(dataFile).getValue("PaymentType", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - FilingYear = findTestData(dataFile).getValue("FilingYear", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - PeriodEnding = findTestData(dataFile).getValue("PeriodEnding", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - FName = findTestData(dataFile).getValue("Fname", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - LName = findTestData(dataFile).getValue("Lname", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - SSN = findTestData(dataFile).getValue("SSN", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - BusName = findTestData(dataFile).getValue("BusName", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - AL1 = findTestData(dataFile).getValue("AL1", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - City = findTestData(dataFile).getValue("City", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - ZIP = findTestData(dataFile).getValue("ZIP", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - FilingType = findTestData(dataFile).getValue("FilingType", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - Withholding = findTestData(dataFile).getValue("Withholding", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - Amount = findTestData(dataFile).getValue("Amount", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - CCNumber = findTestData(dataFile).getValue("CCNumber", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - CVV = findTestData(dataFile).getValue("CVV", row): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2021-10-29 22:41:08 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null]]></system-out>
+         <system-err><![CDATA[2021-10-29 22:37:09 - [TEST_CASE][FAILED] - Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-29 22:37:09 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-10-29 22:37:09 - [TEST_SUITE][FAILED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Script1634674829687.run(Script1634674829687.groovy:222)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at Payments_HC_TC.run(Payments_HC_TC:222)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1635561426486.run(TempTestSuite1635561426486.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'
+	... 21 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN' located by '//*[@type = 'password' and @name = 'FEIN' and @id = 'FEIN' and @placeholder = 'Federal EIN']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
