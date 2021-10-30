@@ -119,6 +119,7 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
 							//WebUI.waitForElementClickable(findTestObject('RAD_RecordAndPlay/input_concatSSN'),5)
 							
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
 							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
 							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
@@ -147,6 +148,8 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
 							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
 							
@@ -161,9 +164,9 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 									WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 									WebUI.delay(3)
 									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointFirstName'),"Sam")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"123446523")
-									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"123446523")
+									WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Stokes")
+									WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"123453210")
+									WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"123453210")
 								}
 							
 							break
@@ -173,6 +176,8 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
 							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
 							if (PaymentType.equalsIgnoreCase("Personal"))
@@ -188,9 +193,9 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 											WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 											WebUI.delay(3)
 											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointFirstName'),"Sam")
-											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
-											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"123446523")
-											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"123446523")
+											WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Stokes")
+											WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"123443210")
+											WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"123443210")
 										}
 								}
 							break
@@ -199,10 +204,10 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),PeriodEnding,false)
 							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),BusName)
-							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325698563")
-							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325698563")
-							WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'), 'GYDmRgS5yd7gEHREC4bJaQ==')
-							WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN'), 'GYDmRgS5yd7gEHREC4bJaQ==')
+							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325696543")
+							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325696543")
+							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), '0fDtEjy4ijeV75Gl5M+mSg==')
+							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '0fDtEjy4ijeV75Gl5M+mSg==')
 							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
 							
 							break
@@ -210,10 +215,12 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 						case "Withholding Tax":
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
 							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),BusName)
-							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325698563")
-							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325698563")
-							WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Tax Information_FEIN'), 'GYDmRgS5yd7gEHREC4bJaQ==')
-							WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Enter Federal EIN_ReTypeFEIN'), 'GYDmRgS5yd7gEHREC4bJaQ==')
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325695432")
+							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325695432")
+							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'xLVb905G4/sGR8qgNWNzNQ==')
+							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'xLVb905G4/sGR8qgNWNzNQ==')
 							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
 							
 							if (Withholding.equalsIgnoreCase("Y"))
@@ -279,7 +286,7 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 					
 					//WebUI.scrollToElement(findTestObject(orPath_Summary + '/button_Continue_Summary'), 3)
 					//WebUI.waitForElementClickable(findTestObject(orPath_Summary + '/button_Proceed to Payment'),5)
-					WebUI.delay(3)
+					WebUI.delay(1)
 					//WebUI.click(findTestObject(orPath_Summary + '/button_Continue_Summary'))
 					WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
 					//WebElement element = WebUiCommonHelper.findWebElement(findTestObject(orPath_Summary + '/button_Continue_Summary'),30)
