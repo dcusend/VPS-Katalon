@@ -19,3 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 
+Random rand = new Random()
+def rand_Num = rand.nextInt(1000000000)
+println rand_Num
+println rand_Num

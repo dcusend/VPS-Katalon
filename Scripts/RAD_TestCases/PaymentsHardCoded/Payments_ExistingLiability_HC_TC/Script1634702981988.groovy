@@ -26,7 +26,9 @@ String nameSheet = "Sheet1"
 String dataFile = "RADTestData/PaymentsELHardCoded"
 
 def ExecuteTC, Taxtype, TaxTypeEL, FName, LName
-def AL1, City, ZIP, Amount, CCNumber, CVV, SSN
+def AL1, City, ZIP, Amount, CCNumber, CVV, SSN, FilingYear, FEIN
+
+Random rand = new Random()
 
 //def i
 //for (i = 1; i <= 5; i++)
@@ -45,6 +47,7 @@ def AL1, City, ZIP, Amount, CCNumber, CVV, SSN
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
 			Taxtype = findTestData(dataFile).getValue('TaxType', row)
 			TaxTypeEL = findTestData(dataFile).getValue('TaxTypeEL', row)
+			FilingYear = findTestData(dataFile).getValue('FilingYear', row)
 			FName = findTestData(dataFile).getValue('Fname', row)
 			LName = findTestData(dataFile).getValue('Lname', row)
 			AL1 = findTestData(dataFile).getValue('AL1', row)
@@ -54,6 +57,7 @@ def AL1, City, ZIP, Amount, CCNumber, CVV, SSN
 			CCNumber = findTestData(dataFile).getValue('CCNumber', row)
 			CVV = findTestData(dataFile).getValue('CVV', row)
 			SSN = findTestData(dataFile).getValue('SSN', row)
+			FEIN = findTestData(dataFile).getValue('FEIN', row)
 			
 			
 			
@@ -101,9 +105,11 @@ def AL1, City, ZIP, Amount, CCNumber, CVV, SSN
 					
 					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'),Taxtype , false)
 					
-					WebUI.delay(3)
+					WebUI.delay(1)
 					
 					WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),TaxTypeEL , false)
+					
+					WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), FilingYear, false)
 					
 // Populate Tax Payer
 					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
@@ -127,11 +133,23 @@ def AL1, City, ZIP, Amount, CCNumber, CVV, SSN
 					
 					
 // Populate Tax Information
-					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_ExisitingSSN'),SSN)
-					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),SSN)
+					if (!SSN.isEmpty())
+					{
+						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_ExisitingSSN'),SSN)
+						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),SSN)
+					}
+
 					WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
+					
+					if (!FEIN.isEmpty())
+					{
+						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'), FEIN)
+						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), FEIN)
+					}
+					//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FEIN'), 30)
+					//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 30)
 					//WebUI.waitForElementClickable(findTestObject(orPath_TaxInfo + '/input_FEIN'),5)
-					WebUI.delay(3)
+					WebUI.delay(1)
 					//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_The Social Security Number and Re-ent_e292a4'),
 					//	'RigbBhfdqODKcAsiUrg+1Q==')
 					
@@ -143,8 +161,15 @@ def AL1, City, ZIP, Amount, CCNumber, CVV, SSN
 					
 					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
 					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
-					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'),"965896")
-					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'),"965896")
+					//def rand_Num = rand.nextInt(1000000000)
+					
+					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'),"258147147")
+					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'),"258147147")
+					
+					if (TaxTypeEL.equalsIgnoreCase("Sales & Use Tax"))
+					{
+						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
+					}
 					
 					
 // Populate Amount
@@ -162,15 +187,14 @@ def AL1, City, ZIP, Amount, CCNumber, CVV, SSN
 					WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true)
 					WebUI.verifyTextPresent('When you are confident that all the information is correct', true)
 					
-					WebUI.scrollToElement(findTestObject(orPath_Summary + '/button_Continue_Summary'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_Summary + '/button_Continue_Summary'),5)
-					WebUI.delay(3)
-					WebUI.click(findTestObject(orPath_Summary + '/button_Continue_Summary'))
+					
+					
+			
 					
 					
 					
 // Select Proceed to Payment button
-					WebUI.delay(3)
+					WebUI.delay(1)
 					//WebUI.waitForElementClickable(findTestObject(orPath_PaymentEntry + '/button_ProceedtoPayment'),5)
 					WebUI.click(findTestObject(orPath_PaymentReady + '/button_ProceedtoPayment'))
 					

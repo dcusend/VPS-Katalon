@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="60.779" tests="1" failures="0" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="0" time="60.779" skipped="0" timestamp="2021-10-31 17:43:22" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211031_174319\\RAD_TestSuite\\RAD_UI_TestSuite\\20211031_174319"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211031_174319\\RAD_TestSuite\\RAD_UI_TestSuite\\20211031_174319\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="44de5f8e12978461aa236cd8743fc139"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_HC_TC" time="59.881" classname="Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_HC_TC" status="PASSED">
+         <system-out><![CDATA[2021-10-31 17:43:23 - [TEST_CASE][PASSED] - Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_HC_TC: Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_HC_TC
+
+2021-10-31 17:43:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-31 17:43:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-31 17:43:24 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-10-31 17:43:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-31 17:43:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-31 17:43:27 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.velocitypayment.com/client/rad/index.html"): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-31 17:43:29 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-10-31 17:43:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/select_Select    Estimated Tax    Personal _7587a1"), "5", true): All options with value '5' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_Select    Estimated Tax    Personal _7587a1'  using regular expression
+
+2021-10-31 17:43:30 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_Select    Estimated Tax    Personal _7587a1'  using regular expression
+
+2021-10-31 17:43:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/select_Select202220212020"), "2021", true): All options with value '2021' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_Select202220212020'  using regular expression
+
+2021-10-31 17:43:31 - [MESSAGE][PASSED] - All options with value '2021' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_Select202220212020'  using regular expression
+
+2021-10-31 17:43:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb"), "07", true): All options with value '07' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'  using regular expression
+
+2021-10-31 17:43:33 - [MESSAGE][PASSED] - All options with value '07' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb'  using regular expression
+
+2021-10-31 17:43:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Note_businessName"), "My Business"): Text 'My Business' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Note_businessName'
+
+2021-10-31 17:43:33 - [MESSAGE][PASSED] - Text 'My Business' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Note_businessName'
+
+2021-10-31 17:43:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter business name_firstName"), "Imtiaz"): Text 'Imtiaz' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter business name_firstName'
+
+2021-10-31 17:43:34 - [MESSAGE][PASSED] - Text 'Imtiaz' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter business name_firstName'
+
+2021-10-31 17:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter first name_middleName"), "John"): Text 'John' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter first name_middleName'
+
+2021-10-31 17:43:35 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter first name_middleName'
+
+2021-10-31 17:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Middle Name_lastName"), "Ahmed"): Text 'Ahmed' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Middle Name_lastName'
+
+2021-10-31 17:43:35 - [MESSAGE][PASSED] - Text 'Ahmed' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Middle Name_lastName'
+
+2021-10-31 17:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter last name_suffix"), "Mr"): Text 'Mr' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter last name_suffix'
+
+2021-10-31 17:43:36 - [MESSAGE][PASSED] - Text 'Mr' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter last name_suffix'
+
+2021-10-31 17:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Select a country_streetAddress1"), "2311 york road"): Text '2311 york road' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Select a country_streetAddress1'
+
+2021-10-31 17:43:37 - [MESSAGE][PASSED] - Text '2311 york road' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Select a country_streetAddress1'
+
+2021-10-31 17:43:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter address_streetAddress2"), "Suite 600"): Text 'Suite 600' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter address_streetAddress2'
+
+2021-10-31 17:43:38 - [MESSAGE][PASSED] - Text 'Suite 600' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter address_streetAddress2'
+
+2021-10-31 17:43:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Street Address 2_city"), "Gambrills"): Text 'Gambrills' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Street Address 2_city'
+
+2021-10-31 17:43:38 - [MESSAGE][PASSED] - Text 'Gambrills' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Street Address 2_city'
+
+2021-10-31 17:43:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/select_SelectAlabamaAlaskaArizonaArkansasCa_90914a"), "MD", true): All options with value 'MD' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_SelectAlabamaAlaskaArizonaArkansasCa_90914a'  using regular expression
+
+2021-10-31 17:43:40 - [MESSAGE][PASSED] - All options with value 'MD' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_SelectAlabamaAlaskaArizonaArkansasCa_90914a'  using regular expression
+
+2021-10-31 17:43:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Select a state_zipCode"), "21054"): Text '21054' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Select a state_zipCode'
+
+2021-10-31 17:43:41 - [MESSAGE][PASSED] - Text '21054' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Select a state_zipCode'
+
+2021-10-31 17:43:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter ZIP code_phoneNumber"), "(703) 894-5000"): Text '(703) 894-5000' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter ZIP code_phoneNumber'
+
+2021-10-31 17:43:41 - [MESSAGE][PASSED] - Text '(703) 894-5000' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter ZIP code_phoneNumber'
+
+2021-10-31 17:43:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter a phone number_eMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter a phone number_eMailAddress'
+
+2021-10-31 17:43:42 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter a phone number_eMailAddress'
+
+2021-10-31 17:43:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter Email_reEnterEMailAddress"), "iahmed@govolution.com"): Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter Email_reEnterEMailAddress'
+
+2021-10-31 17:43:43 - [MESSAGE][PASSED] - Text 'iahmed@govolution.com' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_Enter Email_reEnterEMailAddress'
+
+2021-10-31 17:43:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN"), "0fDtEjy4ijeV75Gl5M+mSg=="): Text ****** has been set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN'
+
+2021-10-31 17:43:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN'
+
+2021-10-31 17:43:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN_ReEnter"), "0fDtEjy4ijeV75Gl5M+mSg=="): Text ****** has been set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN_ReEnter'
+
+2021-10-31 17:43:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN_ReEnter'
+
+2021-10-31 17:43:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration"), "07640126"): Text '07640126' is set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration'
+
+2021-10-31 17:43:45 - [MESSAGE][PASSED] - Text '07640126' is set on object 'Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration'
+
+2021-10-31 17:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__GrossSales2"), "2000.00"): Text '2000.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__GrossSales2'
+
+2021-10-31 17:43:46 - [MESSAGE][PASSED] - Text '2000.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__GrossSales2'
+
+2021-10-31 17:43:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSales2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSales2'
+
+2021-10-31 17:43:47 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSales2'
+
+2021-10-31 17:43:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSalesESD2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSalesESD2'
+
+2021-10-31 17:43:47 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSalesESD2'
+
+2021-10-31 17:43:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSalesVapingLiquid2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSalesVapingLiquid2'
+
+2021-10-31 17:43:48 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TaxableSalesVapingLiquid2'
+
+2021-10-31 17:43:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__CarRental2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__CarRental2'
+
+2021-10-31 17:43:49 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__CarRental2'
+
+2021-10-31 17:43:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TruckRental2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TruckRental2'
+
+2021-10-31 17:43:50 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TruckRental2'
+
+2021-10-31 17:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__AlcoholSales2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__AlcoholSales2'
+
+2021-10-31 17:43:51 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__AlcoholSales2'
+
+2021-10-31 17:43:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Purchases2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Purchases2'
+
+2021-10-31 17:43:51 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Purchases2'
+
+2021-10-31 17:43:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TruckRentalPurchases2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TruckRentalPurchases2'
+
+2021-10-31 17:43:52 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__TruckRentalPurchases2'
+
+2021-10-31 17:43:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__AlcoholPurchases2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__AlcoholPurchases2'
+
+2021-10-31 17:43:53 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__AlcoholPurchases2'
+
+2021-10-31 17:43:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__CarRentalPurchases2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__CarRentalPurchases2'
+
+2021-10-31 17:43:54 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__CarRentalPurchases2'
+
+2021-10-31 17:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__ESDPurchases2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__ESDPurchases2'
+
+2021-10-31 17:43:55 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__ESDPurchases2'
+
+2021-10-31 17:43:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__VapingLiquidPurchases2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__VapingLiquidPurchases2'
+
+2021-10-31 17:43:55 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__VapingLiquidPurchases2'
+
+2021-10-31 17:43:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Refund2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Refund2'
+
+2021-10-31 17:43:56 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Refund2'
+
+2021-10-31 17:43:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Penalty2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Penalty2'
+
+2021-10-31 17:43:57 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Penalty2'
+
+2021-10-31 17:43:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__PenaltyInterest2"), "100.00"): Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__PenaltyInterest2'
+
+2021-10-31 17:43:58 - [MESSAGE][PASSED] - Text '100.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__PenaltyInterest2'
+
+2021-10-31 17:43:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__E911Fee2"), "95.00"): Text '95.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__E911Fee2'
+
+2021-10-31 17:43:58 - [MESSAGE][PASSED] - Text '95.00' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__E911Fee2'
+
+2021-10-31 17:43:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue"), 3): Scroll to object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue' successfully
+
+2021-10-31 17:43:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue' successfully
+
+2021-10-31 17:43:59 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue"), 5): Object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue' is clickable
+
+2021-10-31 17:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue' is clickable
+
+2021-10-31 17:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue")): Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue' is clicked on
+
+2021-10-31 17:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue' is clicked on
+
+2021-10-31 17:44:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Proceed to Payment")): Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Proceed to Payment' is clicked on
+
+2021-10-31 17:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Proceed to Payment' is clicked on
+
+2021-10-31 17:44:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__cardNumber"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__cardNumber'
+
+2021-10-31 17:44:05 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__cardNumber'
+
+2021-10-31 17:44:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input__spc"), "123"): Text '123' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__spc'
+
+2021-10-31 17:44:05 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input__spc'
+
+2021-10-31 17:44:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/select_MM010203040506070809101112"), "12", true): All options with value '12' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_MM010203040506070809101112'  using regular expression
+
+2021-10-31 17:44:06 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_MM010203040506070809101112'  using regular expression
+
+2021-10-31 17:44:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/select_YYYY20212022202320242025202620272028_8c4dd4"), "2025", true): All options with value '2025' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_YYYY20212022202320242025202620272028_8c4dd4'  using regular expression
+
+2021-10-31 17:44:08 - [MESSAGE][PASSED] - All options with value '2025' are selected in object 'Object Repository/RAD_Pages/SAU_MDForm202_Page/select_YYYY20212022202320242025202620272028_8c4dd4'  using regular expression
+
+2021-10-31 17:44:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_BillInvoice Details_ccSubmit")): Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_BillInvoice Details_ccSubmit' is clicked on
+
+2021-10-31 17:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_BillInvoice Details_ccSubmit' is clicked on
+
+2021-10-31 17:44:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_233.40_confirmNotifyAction")): Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_233.40_confirmNotifyAction' is clicked on
+
+2021-10-31 17:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_233.40_confirmNotifyAction' is clicked on
+
+2021-10-31 17:44:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RAD_Pages/SAU_MDForm202_Page/input_239.12_convFeeNotifyAction")): Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_239.12_convFeeNotifyAction' is clicked on
+
+2021-10-31 17:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/SAU_MDForm202_Page/input_239.12_convFeeNotifyAction' is clicked on
+
+2021-10-31 17:44:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2021-10-31 17:44:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2021-10-31 17:44:21 - [TEST_STEP][PASSED] - verifyTextPresent("Successful Payment Receipt", true): Text 'Successful Payment Receipt' is present on page  using regular expression
+
+2021-10-31 17:44:22 - [MESSAGE][PASSED] - Text 'Successful Payment Receipt' is present on page  using regular expression
+
+2021-10-31 17:44:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-31 17:44:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-31 17:43:22 - [TEST_SUITE][PASSED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_HC_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
