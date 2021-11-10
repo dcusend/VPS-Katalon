@@ -168,7 +168,8 @@ Random rand = new Random()
 					
 					if (TaxTypeEL.equalsIgnoreCase("Sales & Use Tax"))
 					{
-						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
+						println("TaxTypeEL : " + TaxTypeEL)
+						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'),'07640126')
 					}
 					
 					

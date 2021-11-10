@@ -82,11 +82,12 @@ import org.openqa.selenium.Keys as Keys
 	
 
 // Tax Information Error Message
-	WebUI.verifyTextPresent('Enter Federal EIN', true)
+//	WebUI.verifyTextPresent('Enter Federal EIN', true)
 	
-	WebUI.verifyTextPresent('The Federal EIN and Re-enter federal EIN do not match', true)
+//	WebUI.verifyTextPresent('The Federal EIN and Re-enter federal EIN do not match', true)
 	
 	//placeholder for MD Central Registration
+	WebUI.verifyTextPresent('Enter valid MD Central Registration.', true)
 	
 	
 // Withholding Error Message

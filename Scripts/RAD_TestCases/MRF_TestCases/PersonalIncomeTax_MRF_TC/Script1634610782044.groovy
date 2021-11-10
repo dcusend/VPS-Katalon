@@ -30,8 +30,8 @@ WebUI.openBrowser('')
 
 	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Personal Income Tax", false)
 	
-	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123-44-1234")
-	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123-44-1234")
+	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123451234")
+	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123451234")
 	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
 	
 	WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)

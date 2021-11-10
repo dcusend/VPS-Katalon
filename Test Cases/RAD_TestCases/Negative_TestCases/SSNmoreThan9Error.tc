@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the error for SSN more than 9 numbers</description>
+   <name>SSNmoreThan9Error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d65ceefe-5ed5-448f-b906-fc973dd0624a</testCaseGuid>
+</TestCaseEntity>

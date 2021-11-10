@@ -51,7 +51,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/RAD_Pages/SAU_MDForm
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input_Select a state_zipCode'),
 	'21114')
 
-WebUI.click(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/div_Tax TypeFiling Year      Select    Esti_e6768c'))
+//WebUI.click(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/div_Tax TypeFiling Year      Select    Esti_e6768c'))
 
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input_Select a state_zipCode'),
 	'20720')
@@ -106,13 +106,13 @@ WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_Befo
 
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input__Refund1'), '100.00')
 
-WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input__Penalty1'), '100.00')
+//WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input__Penalty1'), '100.00')
 
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input__PenaltyInterest1'), '100.00')
 
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input__E911Fee1'), '95.00')
 
-WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input__E911Discount1'), '10.00')
+//WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/input__E911Discount1'), '10.00')
 
 
 WebUI.scrollToElement(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/button_Continue'), 3)

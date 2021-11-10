@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RAD_UI_TestSuite" time="57.111" tests="1" failures="0" errors="0">
+   <testsuite name="RAD_UI_TestSuite" tests="1" failures="0" errors="0" time="57.111" skipped="0" timestamp="2021-11-05 18:00:24" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/RAD_TestSuite/RAD_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211105_180020\\RAD_TestSuite\\RAD_UI_TestSuite\\20211105_180020"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20211105_180020\\RAD_TestSuite\\RAD_UI_TestSuite\\20211105_180020\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="172.30.2.167"/>
+         <property name="sessionId" value="a60b52ae2bb6173667bb7e3c45649c4f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RAD_TestCases/UI_TestCases/VerifyServiceFeeVerbiage_UI_TC" time="55.205" classname="Test Cases/RAD_TestCases/UI_TestCases/VerifyServiceFeeVerbiage_UI_TC" status="PASSED">
+         <system-out><![CDATA[2021-11-05 18:00:24 - [TEST_CASE][PASSED] - Test Cases/RAD_TestCases/UI_TestCases/VerifyServiceFeeVerbiage_UI_TC: Test Cases/RAD_TestCases/UI_TestCases/VerifyServiceFeeVerbiage_UI_TC
+
+2021-11-05 18:00:25 - [TEST_STEP][PASSED] - taxTypeDropList = ["Estimated Tax", "Personal Income Tax", "Extension Payments", "Existing Liability", "Sales and Use", "Withholding Tax"]: null
+
+2021-11-05 18:00:25 - [TEST_STEP][PASSED] - listSize = taxTypeDropList.size(): null
+
+2021-11-05 18:00:25 - [TEST_STEP][PASSED] - println(listSize): null
+
+2021-11-05 18:00:25 - [TEST_STEP][PASSED] - for ([i = 0, i < listSize, (i++)]): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:00:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-05 18:00:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 18:00:25 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-11-05 18:00:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 18:00:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-05 18:00:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 18:00:29 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 18:00:29 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:00:31 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:00:31 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:00:31 - [TEST_STEP][PASSED] - orPath = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:00:31 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-11-05 18:00:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), taxTypeDropList[i], false): All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:00:32 - [MESSAGE][PASSED] - All options with label 'Estimated Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:00:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-05 18:00:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-05 18:00:33 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), ""): Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:00:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:00:34 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/a_Click here for details")): Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:00:34 - [TEST_STEP][PASSED] - cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express.": null
+
+2021-11-05 18:00:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject(orPath_Landing + "/div_ServiceFeesVerbiage"), cfVerbiage): Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:00:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:00:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Landing + "/button_Close"), 30): Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:00:35 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:00:35 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Close")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:00:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-05 18:00:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 18:00:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 18:00:37 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-11-05 18:00:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 18:00:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-05 18:00:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 18:00:38 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 18:00:38 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:00:40 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:00:40 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:00:40 - [TEST_STEP][PASSED] - orPath = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:00:40 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-11-05 18:00:40 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), taxTypeDropList[i], false): All options with label 'Personal Income Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:00:41 - [MESSAGE][PASSED] - All options with label 'Personal Income Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:00:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-05 18:00:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-05 18:00:42 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), ""): Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:00:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:00:43 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/a_Click here for details")): Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:00:43 - [TEST_STEP][PASSED] - cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express.": null
+
+2021-11-05 18:00:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject(orPath_Landing + "/div_ServiceFeesVerbiage"), cfVerbiage): Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:00:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:00:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Landing + "/button_Close"), 30): Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:00:44 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:00:44 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Close")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:00:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-05 18:00:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 18:00:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 18:00:46 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-11-05 18:00:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 18:00:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-05 18:00:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 18:00:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 18:00:47 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:00:49 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:00:49 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:00:49 - [TEST_STEP][PASSED] - orPath = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:00:49 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-11-05 18:00:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), taxTypeDropList[i], false): All options with label 'Extension Payments' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:00:50 - [MESSAGE][PASSED] - All options with label 'Extension Payments' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:00:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-05 18:00:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-05 18:00:51 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), ""): Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:00:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:00:51 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/a_Click here for details")): Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:00:52 - [TEST_STEP][PASSED] - cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express.": null
+
+2021-11-05 18:00:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject(orPath_Landing + "/div_ServiceFeesVerbiage"), cfVerbiage): Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:00:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:00:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Landing + "/button_Close"), 30): Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:00:53 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:00:53 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Close")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:00:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-05 18:00:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 18:00:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 18:00:54 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-11-05 18:00:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 18:00:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-05 18:00:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 18:00:56 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 18:00:56 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:00:58 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:00:58 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:00:58 - [TEST_STEP][PASSED] - orPath = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:00:58 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-11-05 18:00:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), taxTypeDropList[i], false): All options with label 'Existing Liability' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:00:59 - [MESSAGE][PASSED] - All options with label 'Existing Liability' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:00:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-05 18:01:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-05 18:01:00 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), ""): Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:01:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:01:00 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/a_Click here for details")): Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:01:01 - [TEST_STEP][PASSED] - cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express.": null
+
+2021-11-05 18:01:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject(orPath_Landing + "/div_ServiceFeesVerbiage"), cfVerbiage): Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:01:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:01:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Landing + "/button_Close"), 30): Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:01:02 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Close")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:01:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-05 18:01:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 18:01:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 18:01:03 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-11-05 18:01:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 18:01:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-05 18:01:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 18:01:05 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 18:01:05 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:01:07 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:01:07 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:01:07 - [TEST_STEP][PASSED] - orPath = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:01:07 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-11-05 18:01:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), taxTypeDropList[i], false): All options with label 'Sales and Use' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:01:07 - [MESSAGE][PASSED] - All options with label 'Sales and Use' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:01:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-05 18:01:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-05 18:01:08 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), ""): Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:01:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:01:09 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/a_Click here for details")): Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:01:10 - [TEST_STEP][PASSED] - cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express.": null
+
+2021-11-05 18:01:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject(orPath_Landing + "/div_ServiceFeesVerbiage"), cfVerbiage): Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:01:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:01:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Landing + "/button_Close"), 30): Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:01:11 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Close")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:01:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-05 18:01:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-11-05 18:01:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-05 18:01:12 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2021-11-05 18:01:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-05 18:01:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-05 18:01:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-05 18:01:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-05 18:01:13 - [TEST_STEP][PASSED] - navigateToUrl(RADurl): Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:01:15 - [MESSAGE][PASSED] - Navigate to 'https://qa.velocitypayment.com/client/rad/index.html' successfully
+
+2021-11-05 18:01:15 - [TEST_STEP][PASSED] - orPath_Landing = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:01:15 - [TEST_STEP][PASSED] - orPath = "Object Repository/RAD_Pages/Landing_Page": null
+
+2021-11-05 18:01:15 - [TEST_STEP][PASSED] - orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page": null
+
+2021-11-05 18:01:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject(orPath_Landing + "/dd_TaxType"), taxTypeDropList[i], false): All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:01:16 - [MESSAGE][PASSED] - All options with label 'Withholding Tax' are selected in object 'Object Repository/RAD_Pages/Landing_Page/dd_TaxType' 
+
+2021-11-05 18:01:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-05 18:01:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-05 18:01:17 - [TEST_STEP][PASSED] - setText(findTestObject(orPath_Amount + "/input__paymentAmount"), ""): Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:01:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RAD_Pages/PaymentAmount_Page/input__paymentAmount'
+
+2021-11-05 18:01:18 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/a_Click here for details")): Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/a_Click here for details' is clicked on
+
+2021-11-05 18:01:18 - [TEST_STEP][PASSED] - cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express.": null
+
+2021-11-05 18:01:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject(orPath_Landing + "/div_ServiceFeesVerbiage"), cfVerbiage): Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:01:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage' are matched.
+
+2021-11-05 18:01:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(orPath_Landing + "/button_Close"), 30): Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:01:19 - [MESSAGE][PASSED] - Object 'Object Repository/RAD_Pages/Landing_Page/button_Close' is present
+
+2021-11-05 18:01:19 - [TEST_STEP][PASSED] - click(findTestObject(orPath_Landing + "/button_Close")): Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on
+
+2021-11-05 18:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/RAD_Pages/Landing_Page/button_Close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-05 18:00:24 - [TEST_SUITE][PASSED] - RAD_UI_TestSuite: Test Cases/RAD_TestCases/UI_TestCases/VerifyServiceFeeVerbiage_UI_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

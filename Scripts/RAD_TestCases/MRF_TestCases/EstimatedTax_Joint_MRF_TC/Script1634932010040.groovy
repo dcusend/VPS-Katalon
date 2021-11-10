@@ -46,9 +46,10 @@ import org.openqa.selenium.Keys as Keys
 		
 		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), taxTypeDropList[i], false)
 		
+		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
 		WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123441234")
 		WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123441234")
-		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+		
 		
 		
 	// Joint Filing Error Message
@@ -58,10 +59,13 @@ import org.openqa.selenium.Keys as Keys
 			
 		WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 			
-		WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
-		WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"123-44-6523")
-		WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"123-44-6523")
-		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_suffix'),"")
+		WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Stokes")
+		WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"123443210")
+		WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"123443210")
+		
+		//WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"123456523")
+		//WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"123456523")
+		//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_suffix'),"")
 		WebUI.delay(2)
 		
 		WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))

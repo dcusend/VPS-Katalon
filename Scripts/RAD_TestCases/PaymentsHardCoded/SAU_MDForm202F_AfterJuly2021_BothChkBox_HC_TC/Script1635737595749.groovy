@@ -128,7 +128,7 @@ WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_Afte
 
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_AfterJuly2021_Page/input__Refund2'), '100.00')
 
-WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_AfterJuly2021_Page/input__Penalty2'), '100.00')
+//WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_AfterJuly2021_Page/input__Penalty2'), '100.00')
 
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_AfterJuly2021_Page/input__E911Fee2'), '95.00')
 

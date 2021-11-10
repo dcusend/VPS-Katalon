@@ -1,0 +1,17 @@
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/PersonalIncomeTax_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/PersonalIncomeTax_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/ExtensionPayments_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/ExtensionPayments_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/SaleAndUse_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/SaleAndUse_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/WithholdingTax_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/WithholdingTax_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/ExistingLiability_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_Joint_MRF_TC","testCaseId":"Test Cases/RAD_TestCases/MRF_TestCases/EstimatedTax_Joint_MRF_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_AfterJuly2021_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_AfterJuly2021_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_BeforeJuly2021_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_BeforeJuly2021_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_AfterJuly2021_MarketplaceFacilitator_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_AfterJuly2021_MarketplaceFacilitator_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_BeforeJuly2021_MarketplaceFacilitator_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_BeforeJuly2021_MarketplaceFacilitator_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_BeforeJuly2021_OutOfStateVendor_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_BeforeJuly2021_OutOfStateVendor_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_AfterJuly2021_OutOfStateVendor_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_AfterJuly2021_OutOfStateVendor_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_AfterJuly2021_BothChkBox_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_AfterJuly2021_BothChkBox_HC_TC"}
+{"testCaseName":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_BeforeJuly2021_BothChkBox_HC_TC","testCaseId":"Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_BeforeJuly2021_BothChkBox_HC_TC"}

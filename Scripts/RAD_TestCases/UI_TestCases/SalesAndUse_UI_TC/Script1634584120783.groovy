@@ -54,10 +54,10 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Sales
 		
 	def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 		
-	WebUI.verifyEqual(totalOptionsFilingYear, 4)
+	WebUI.verifyEqual(totalOptionsFilingYear, 5)
 		
 			
-	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022','2021','2020'])
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022','2021','2020','2019'])
 	
 	
 	
@@ -233,3 +233,75 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Sales
 	
 	
 // ####################################################
+	
+	
+// Select 2 Years in the Past
+// Only last 6 months should be displayed
+	
+	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2019",false)
+	
+	
+	def totalOptionsPeriodEnding2 = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+	
+	WebUI.verifyEqual(totalOptionsPeriodEnding2, 7)
+	
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'January', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'February', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'March', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'April', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'May', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'June', false, 30)
+		
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
+	
+	
+// Select 1 Year in the Past
+// All Months should be displayed
+	
+	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2020",false)
+	
+	
+	def totalOptionsPeriodEnding3 = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+	
+	WebUI.verifyEqual(totalOptionsPeriodEnding3, 13)
+			
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['January','February','March','April','May','June'])
+	
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
+	
+	
+// Select Current Year
+// All Months should be displayed
+	
+	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2021",false)
+	
+	
+	def totalOptionsPeriodEnding4 = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+	
+	WebUI.verifyEqual(totalOptionsPeriodEnding4, 13)
+			
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['January','February','March','April','May','June'])
+	
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
+			
+	
+// Select Next Year
+// Only first 6 months should be displayed
+	
+	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2022",false)
+	
+	
+	def totalOptionsPeriodEnding5 = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+	
+	WebUI.verifyEqual(totalOptionsPeriodEnding5, 7)
+	
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'July', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'August', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'September', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'October', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'November', false, 30)
+	WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 'December', false, 30)
+		
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['January','February','March','April','May','June'])
+	
+	

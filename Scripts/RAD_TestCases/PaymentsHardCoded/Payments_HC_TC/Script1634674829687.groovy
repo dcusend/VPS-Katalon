@@ -120,13 +120,14 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							//WebUI.waitForElementClickable(findTestObject('RAD_RecordAndPlay/input_concatSSN'),5)
 							
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
-							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
-							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
-							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
+							
 								if (PaymentType.equalsIgnoreCase("Personal"))
 									{
 										if (FilingType.equalsIgnoreCase("Y"))
 											{
+												WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
+												WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
+												WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
 												WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
 											}
 										else
@@ -141,6 +142,11 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 												WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"123443210")
 												
 											}
+									}
+								else if (PaymentType.equalsIgnoreCase("Corporate"))
+									{
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), '0fDtEjy4ijeV75Gl5M+mSg==')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '0fDtEjy4ijeV75Gl5M+mSg==')
 									}
 						break
 						
@@ -177,13 +183,14 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
-							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
-							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
-							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
+
 							if (PaymentType.equalsIgnoreCase("Personal"))
 								{
 									if (FilingType.equalsIgnoreCase("Y"))
 										{
+											WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
+											WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
+											WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
 											WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
 										}
 									else
@@ -197,6 +204,11 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 											WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"123443210")
 											WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"123443210")
 										}
+								}
+							else if (PaymentType.equalsIgnoreCase("Corporate"))
+								{
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), '0fDtEjy4ijeV75Gl5M+mSg==')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '0fDtEjy4ijeV75Gl5M+mSg==')
 								}
 							break
 							

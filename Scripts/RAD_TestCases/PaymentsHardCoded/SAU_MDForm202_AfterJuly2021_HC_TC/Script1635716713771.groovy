@@ -101,7 +101,7 @@ WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/inp
 
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Refund2'), '100.00')
 
-WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Penalty2'), '100.00')
+//WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/input__Penalty2'), '100.00')
 
 WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/input__PenaltyInterest2'), '100.00')
 

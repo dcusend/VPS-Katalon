@@ -32,8 +32,8 @@ import org.openqa.selenium.Keys as Keys
 	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Estimated Tax", false)
 	
 	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
-	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123-44-1234")
-	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123-44-1234")
+	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123451234")
+	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123451234")
 	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),"")
 	
 	
@@ -57,7 +57,7 @@ import org.openqa.selenium.Keys as Keys
 // Tax Type Filing Year Error Message	
 	WebUI.verifyTextPresent('Select a payment type', true)
 	
-	WebUI.verifyTextPresent('Select a filing year', true)
+//	WebUI.verifyTextPresent('Select a filing year', true)
 	
 	
 // Taxpayer Error Message	
