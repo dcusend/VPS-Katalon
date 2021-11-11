@@ -29,6 +29,7 @@ String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
 String orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page"
 String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
 String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
+String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 
@@ -233,3 +234,73 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 				
 		
 // ####################################################
+		
+		
+/*
+* #########################################################
+* Select Personal Payment Type
+		 
+* ###########################################################
+*/
+				
+				
+			WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Personal',false)
+			
+			
+			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
+			
+			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_middleName'))
+			
+			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_lastName'))
+			
+			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
+			
+			WebUI.verifyElementVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
+			
+			WebUI.verifyElementVisible(findTestObject('RAD_RecordAndPlay/input_concatReSSN'))
+			
+			WebUI.verifyElementVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+			
+			WebUI.verifyElementVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+				
+				
+				
+			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
+						
+			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN'))
+				
+			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'))
+				
+				
+				
+/*
+* #########################################################
+* Select Corporate Payment Type
+				 
+* ###########################################################
+*/
+					
+			WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Corporate',false)
+			
+			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
+			WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN'))
+			WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'))
+			
+			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
+			
+			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_middleName'))
+			
+			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_lastName'))
+			
+			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
+			
+			WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
+			
+			WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatReSSN'))
+			
+			
+			WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+			
+			WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+				
+				
