@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//ul[@id='login-options']/li[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/vsecurity/servlet/logout.do?referringURL=/admin/testcustomer/' and (text() = 'Logout' or . = 'Logout')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -28,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/vsecurity/servlet/logout.do?referringURL=/admin/testcustomer</value>
+      <value>/vsecurity/servlet/logout.do?referringURL=/admin/testcustomer/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AdminSuiteBootstrap_UI_TestSuite,Chrome 97.0.4692.71,,,2022-01-21 18:31:44,2022-01-21 18:32:03,18.110s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/Dashboard_TestCases/VerifyDashboardLinks_TC,Chrome 97.0.4692.71,,,2022-01-21 18:31:45,2022-01-21 18:32:03,17.691s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 97.0.4692.71,,,2022-01-21 18:31:45,2022-01-21 18:31:57,11.986s,PASSED
+"verifyTextPresent(""Imtiaz Ahmed"", true)",Chrome 97.0.4692.71,,,2022-01-21 18:31:57,2022-01-21 18:31:58,0.377s,PASSED
+"verifyTextPresent(""iahmed"", true)",Chrome 97.0.4692.71,,,2022-01-21 18:31:58,2022-01-21 18:31:58,0.322s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard_Bootstrap/a_Logout""))",Chrome 97.0.4692.71,,,2022-01-21 18:31:58,2022-01-21 18:31:58,0.362s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard_Bootstrap/a_Logout""), 30)",Chrome 97.0.4692.71,,,2022-01-21 18:31:58,2022-01-21 18:31:59,0.302s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DashBoard_Bootstrap/a_My Account""), 30)",Chrome 97.0.4692.71,,,2022-01-21 18:31:59,2022-01-21 18:31:59,0.312s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DashBoard_Bootstrap/span_Call Center""), 30)",Chrome 97.0.4692.71,,,2022-01-21 18:31:59,2022-01-21 18:31:59,0.321s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DashBoard_Bootstrap/span_Payment""), 30)",Chrome 97.0.4692.71,,,2022-01-21 18:31:59,2022-01-21 18:32:00,0.304s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DashBoard_Bootstrap/span_Reporting""), 30)",Chrome 97.0.4692.71,,,2022-01-21 18:32:00,2022-01-21 18:32:00,0.306s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DashBoard_Bootstrap/span_User Management""), 30)",Chrome 97.0.4692.71,,,2022-01-21 18:32:00,2022-01-21 18:32:00,0.313s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DashBoard_Bootstrap/a_My Account""))",Chrome 97.0.4692.71,,,2022-01-21 18:32:00,2022-01-21 18:32:01,0.331s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard_Bootstrap/span_Call Center""))",Chrome 97.0.4692.71,,,2022-01-21 18:32:01,2022-01-21 18:32:01,0.316s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard_Bootstrap/span_Payment""))",Chrome 97.0.4692.71,,,2022-01-21 18:32:01,2022-01-21 18:32:01,0.326s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard_Bootstrap/span_Reporting""))",Chrome 97.0.4692.71,,,2022-01-21 18:32:01,2022-01-21 18:32:02,0.319s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard_Bootstrap/span_User Management""))",Chrome 97.0.4692.71,,,2022-01-21 18:32:02,2022-01-21 18:32:02,0.332s,PASSED
+"verifyTextPresent(""Velocity Payment System Version 2022-1 - Copyright © 2022 Govolution"", true)",Chrome 97.0.4692.71,,,2022-01-21 18:32:02,2022-01-21 18:32:02,0.330s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DashBoard_Bootstrap/span_CustomerDD""), 30)",Chrome 97.0.4692.71,,,2022-01-21 18:32:02,2022-01-21 18:32:03,0.302s,PASSED

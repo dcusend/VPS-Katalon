@@ -117,6 +117,70 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/SAU_MDForm202F_MF_BeforeJuly2021_Page/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "#data",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN_ReEnter",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027data\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/TaxInfo_Page/input_FederalEIN_ReEnter_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_RecordAndPlay/input_JointFilerSSN",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027data\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_RecordAndPlay/input_JointFilerSSN_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027data\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Dashboard/a_Logout",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Logout\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Dashboard/a_Logout_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DashBoard_Bootstrap/span_CustomerDD",
+      "brokenLocator": "//*[@role \u003d \u0027combobox\u0027 and (text() \u003d \u0027imtiaz\u0027 or . \u003d \u0027imtiaz\u0027) and @id \u003d \u0027customer-select\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Imtiaz Ahmed [iahmed]\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DashBoard_Bootstrap/span_CustomerDD_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DashBoard_Bootstrap/span_Govolution_select2-selection__arrow",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Imtiaz Ahmed [iahmed]\u0027])[1]/following::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DashBoard_Bootstrap/span_Govolution_select2-selection__arrow_neighbor.png"
     }
   ]
 }
