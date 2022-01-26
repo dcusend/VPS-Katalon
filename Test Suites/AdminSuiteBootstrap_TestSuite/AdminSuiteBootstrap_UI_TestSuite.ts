@@ -29,4 +29,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/VerifyUsersLinks_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6fc7f33d-f141-40ac-b315-7c4dc03fd2bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>231d972e-61db-4f2a-b097-8bdbf235521b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

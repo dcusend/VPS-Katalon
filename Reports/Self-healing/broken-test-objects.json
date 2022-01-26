@@ -181,6 +181,80 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/DashBoard_Bootstrap/span_Govolution_select2-selection__arrow_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027collapseOne\u0027]/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027smsNumber\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027card_name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address",
+      "brokenLocator": "//*[@type \u003d \u0027TEXT\u0027 and @name \u003d \u0027address\u0027 and @id \u003d \u0027address\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027address\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027zip\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027emailAddressText\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee",
+      "brokenLocator": "//*[@type \u003d \u0027TEXT\u0027 and @name \u003d \u0027convenienceFee\u0027 and @placeholder \u003d \u0027convenienceFee\u0027 and @id \u003d \u0027convenienceFee\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027convenienceFee\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button[@id\u003d\u0027submit1\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit_XPATH.png"
     }
   ]
 }

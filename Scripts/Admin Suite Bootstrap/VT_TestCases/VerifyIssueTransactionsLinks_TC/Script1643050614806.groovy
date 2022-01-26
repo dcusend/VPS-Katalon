@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
-String path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/"
+String path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/"
 
 	CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
 	
