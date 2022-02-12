@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_My Account",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027imtiaz\u0027])[2]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220211_141943/AdminSuiteBootstrap_TestSuite/AdminSuiteBootstrap_UI_TestSuite/20220211_141944/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_My Account_neighbor.png"
+    }
+  ]
+}

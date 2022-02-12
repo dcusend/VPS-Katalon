@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "1581320AE72360D6DF6B08E0097FBE82",
+  "keywordClasses": [
+    {
+      "name": "adminSuiteBootstrap.virtualTerminalSetData",
+      "keywordMethods": [
+        {
+          "name": "saleKeyboard_HardCoded",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "saleKeyboard_HardCoded_AllCardTypes",
+          "parameters": [
+            {
+              "name": "numCard",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

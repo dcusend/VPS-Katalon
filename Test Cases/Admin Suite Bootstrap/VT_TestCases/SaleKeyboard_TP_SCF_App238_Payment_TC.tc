@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Processor Single CF App 238</description>
+   <name>SaleKeyboard_TP_SCF_App238_Payment_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a1b89ff-bccf-41c6-9de7-db660e6a154d</testCaseGuid>
+</TestCaseEntity>

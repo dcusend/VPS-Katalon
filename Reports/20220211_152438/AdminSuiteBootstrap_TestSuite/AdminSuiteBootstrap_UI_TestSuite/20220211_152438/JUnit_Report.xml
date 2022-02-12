@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminSuiteBootstrap_UI_TestSuite" time="1294.495" tests="2" failures="2" errors="0">
+   <testsuite name="AdminSuiteBootstrap_UI_TestSuite" tests="2" failures="2" errors="0" time="1294.495" skipped="0" timestamp="2022-02-11 15:24:42" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/AdminSuiteBootstrap_TestSuite/AdminSuiteBootstrap_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\execution0.log"/>
+         <property name="attachments" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611182653.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611248342.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611346251.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611409144.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611507439.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611570311.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611667705.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611730655.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611829038.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611891855.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611989082.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644612052101.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644612149132.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644612211894.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644612310018.png, E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644612372974.png"/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="172.31.253.177"/>
+         <property name="sessionId" value="49888917f882131a993218c09625da7a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC" time="160.371" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	... 26 more
+"/>
+         <system-out><![CDATA[2022-02-11 15:32:54 - [TEST_CASE][FAILED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	... 26 more
+
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - appliID = "238": null
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - li_1 = "/admin/imtiaz/bootstrap/vpos/": null
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthCapForm/": null
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appliID + li_2: null
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - out.println("hrefID is : " + hrefAppID): null
+
+2022-02-11 15:32:54 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-02-11 15:32:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-11 15:32:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 15:32:55 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-02-11 15:32:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 15:32:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2022-02-11 15:32:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-11 15:32:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2022-02-11 15:33:00 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2022-02-11 15:33:00 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2022-02-11 15:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2022-02-11 15:33:05 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-02-11 15:33:05 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Payment")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2022-02-11 15:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2022-02-11 15:33:05 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "a_HelloWorld3")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2022-02-11 15:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2022-02-11 15:33:07 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization  Capture (Sale)")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2022-02-11 15:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2022-02-11 15:33:07 - [TEST_STEP][PASSED] - saleKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + "a_KeyboardEntry_Sale"), "href", "equals", hrefAppID, true): Modify property of object successfully
+
+2022-02-11 15:33:07 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2022-02-11 15:33:07 - [TEST_STEP][PASSED] - click(saleKeyboardEntryLink): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2022-02-11 15:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2022-02-11 15:33:09 - [TEST_STEP][PASSED] - verifyTextPresent("Issue Transactions", true): Text 'Issue Transactions' is present on page  using regular expression
+
+2022-02-11 15:33:10 - [MESSAGE][PASSED] - Text 'Issue Transactions' is present on page  using regular expression
+
+2022-02-11 15:33:10 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Card Authorization Capture", true): Text 'Credit Card Authorization Capture' is present on page  using regular expression
+
+2022-02-11 15:33:10 - [MESSAGE][PASSED] - Text 'Credit Card Authorization Capture' is present on page  using regular expression
+
+2022-02-11 15:33:10 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk", true): Text 'Required fields are highlighted with an asterisk' is present on page  using regular expression
+
+2022-02-11 15:33:10 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk' is present on page  using regular expression
+
+2022-02-11 15:33:10 - [TEST_STEP][PASSED] - verifyTextPresent("Remittance ID", true): Text 'Remittance ID' is present on page  using regular expression
+
+2022-02-11 15:33:11 - [MESSAGE][PASSED] - Text 'Remittance ID' is present on page  using regular expression
+
+2022-02-11 15:33:11 - [TEST_STEP][PASSED] - verifyTextPresent("Bill/Invoice Information", true): Text 'Bill/Invoice Information' is present on page  using regular expression
+
+2022-02-11 15:33:11 - [MESSAGE][PASSED] - Text 'Bill/Invoice Information' is present on page  using regular expression
+
+2022-02-11 15:33:11 - [TEST_STEP][PASSED] - verifyTextPresent("Application: Hello World3", true): Text 'Application: Hello World3' is present on page  using regular expression
+
+2022-02-11 15:33:12 - [MESSAGE][PASSED] - Text 'Application: Hello World3' is present on page  using regular expression
+
+2022-02-11 15:33:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_cardName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is visible
+
+2022-02-11 15:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is visible
+
+2022-02-11 15:33:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_cardName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is present
+
+2022-02-11 15:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is present
+
+2022-02-11 15:33:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_transactionCategory")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is visible
+
+2022-02-11 15:33:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is visible
+
+2022-02-11 15:33:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_transactionCategory"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is present
+
+2022-02-11 15:33:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is present
+
+2022-02-11 15:33:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__cardNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cardNumber' is present
+
+2022-02-11 15:33:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cardNumber' is present
+
+2022-02-11 15:33:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__cvv"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cvv' is present
+
+2022-02-11 15:33:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cvv' is present
+
+2022-02-11 15:33:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_MM")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is visible
+
+2022-02-11 15:33:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is visible
+
+2022-02-11 15:33:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_MM"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is present
+
+2022-02-11 15:33:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is present
+
+2022-02-11 15:33:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_YYYY")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is visible
+
+2022-02-11 15:33:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is visible
+
+2022-02-11 15:33:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_YYYY"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is present
+
+2022-02-11 15:33:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is present
+
+2022-02-11 15:33:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__address")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is visible
+
+2022-02-11 15:33:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is visible
+
+2022-02-11 15:33:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__address"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is present
+
+2022-02-11 15:33:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is present
+
+2022-02-11 15:33:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__address2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is visible
+
+2022-02-11 15:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is visible
+
+2022-02-11 15:33:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__address2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is present
+
+2022-02-11 15:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is present
+
+2022-02-11 15:33:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_Country")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is visible
+
+2022-02-11 15:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is visible
+
+2022-02-11 15:33:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_Country"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is present
+
+2022-02-11 15:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is present
+
+2022-02-11 15:33:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__zip")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is visible
+
+2022-02-11 15:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is visible
+
+2022-02-11 15:33:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__zip"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is present
+
+2022-02-11 15:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is present
+
+2022-02-11 15:33:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__city")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is visible
+
+2022-02-11 15:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is visible
+
+2022-02-11 15:33:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__city"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is present
+
+2022-02-11 15:33:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is present
+
+2022-02-11 15:33:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_State")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is visible
+
+2022-02-11 15:33:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is visible
+
+2022-02-11 15:33:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_State"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is present
+
+2022-02-11 15:33:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is present
+
+2022-02-11 15:33:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_emailAddress")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is visible
+
+2022-02-11 15:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is visible
+
+2022-02-11 15:33:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_emailAddress"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is present
+
+2022-02-11 15:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is present
+
+2022-02-11 15:33:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_smsNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is visible
+
+2022-02-11 15:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is visible
+
+2022-02-11 15:33:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_smsNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is present
+
+2022-02-11 15:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is present
+
+2022-02-11 15:33:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_amount")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is visible
+
+2022-02-11 15:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is visible
+
+2022-02-11 15:33:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_amount"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is present
+
+2022-02-11 15:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is present
+
+2022-02-11 15:33:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_convenienceFee")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is visible
+
+2022-02-11 15:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is visible
+
+2022-02-11 15:33:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_convenienceFee"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is present
+
+2022-02-11 15:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is present
+
+2022-02-11 15:33:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_convenienceFeeType")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is visible
+
+2022-02-11 15:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is visible
+
+2022-02-11 15:33:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_convenienceFeeType"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is present
+
+2022-02-11 15:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is present
+
+2022-02-11 15:33:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_totalAmount")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is visible
+
+2022-02-11 15:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is visible
+
+2022-02-11 15:33:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_totalAmount"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is present
+
+2022-02-11 15:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is present
+
+2022-02-11 15:33:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined1")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is visible
+
+2022-02-11 15:33:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is visible
+
+2022-02-11 15:33:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined1"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is present
+
+2022-02-11 15:33:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is present
+
+2022-02-11 15:33:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is visible
+
+2022-02-11 15:33:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is visible
+
+2022-02-11 15:33:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is present
+
+2022-02-11 15:33:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is present
+
+2022-02-11 15:33:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined3")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is visible
+
+2022-02-11 15:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is visible
+
+2022-02-11 15:33:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined3"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is present
+
+2022-02-11 15:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is present
+
+2022-02-11 15:33:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined4")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is visible
+
+2022-02-11 15:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is visible
+
+2022-02-11 15:33:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined4"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is present
+
+2022-02-11 15:33:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is present
+
+2022-02-11 15:33:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined5")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' is visible
+
+2022-02-11 15:33:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 15:33:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5'. Try using Self-healing.
+
+2022-02-11 15:33:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' was broken. Propose an alternative one: '#userDefined5'.
+
+2022-02-11 15:33:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' is visible
+
+2022-02-11 15:33:56 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined5"), 30): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+
+2022-02-11 15:34:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 15:34:27 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611667705.png]]
+
+2022-02-11 15:34:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined6")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' is visible
+
+2022-02-11 15:34:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 15:34:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6'. Try using Self-healing.
+
+2022-02-11 15:34:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' was broken. Propose an alternative one: '#userDefined6'.
+
+2022-02-11 15:34:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' is visible
+
+2022-02-11 15:34:59 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined6"), 30): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' located by '//*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' located by '//*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+
+2022-02-11 15:35:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 15:35:30 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' located by '//*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' located by '//*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644611730655.png]]
+
+2022-02-11 15:35:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined7")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is visible
+
+2022-02-11 15:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is visible
+
+2022-02-11 15:35:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined7"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is present
+
+2022-02-11 15:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is present
+
+2022-02-11 15:35:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined8")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is visible
+
+2022-02-11 15:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is visible
+
+2022-02-11 15:35:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined8"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is present
+
+2022-02-11 15:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is present
+
+2022-02-11 15:35:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined9")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is visible
+
+2022-02-11 15:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is visible
+
+2022-02-11 15:35:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined9"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is present
+
+2022-02-11 15:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is present
+
+2022-02-11 15:35:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined10")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is visible
+
+2022-02-11 15:35:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is visible
+
+2022-02-11 15:35:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined10"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is present
+
+2022-02-11 15:35:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is present
+
+2022-02-11 15:35:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "button_Submit")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is visible
+
+2022-02-11 15:35:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is visible
+
+2022-02-11 15:35:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "button_Submit"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is present
+
+2022-02-11 15:35:34 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is present
+
+2022-02-11 15:35:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "button_Reset")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is visible
+
+2022-02-11 15:35:34 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is visible
+
+2022-02-11 15:35:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "button_Reset"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is present
+
+2022-02-11 15:35:34 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is present]]></system-out>
+         <system-err><![CDATA[2022-02-11 15:32:54 - [TEST_CASE][FAILED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	... 26 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC" time="161.098" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	... 26 more
+"/>
+         <system-out><![CDATA[2022-02-11 15:43:36 - [TEST_CASE][FAILED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	... 26 more
+
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - appliID = "238": null
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - li_1 = "/admin/imtiaz/bootstrap/vpos/": null
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthOnlyForm/": null
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appliID + li_2: null
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - out.println("hrefID is : " + hrefAppID): null
+
+2022-02-11 15:43:36 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-02-11 15:43:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-11 15:43:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 15:43:37 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-02-11 15:43:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 15:43:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2022-02-11 15:43:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-11 15:43:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2022-02-11 15:43:41 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2022-02-11 15:43:42 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2022-02-11 15:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2022-02-11 15:43:46 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-02-11 15:43:46 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Payment")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2022-02-11 15:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2022-02-11 15:43:46 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "a_HelloWorld3")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2022-02-11 15:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2022-02-11 15:43:48 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization Only")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is clicked on
+
+2022-02-11 15:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is clicked on
+
+2022-02-11 15:43:49 - [TEST_STEP][PASSED] - authOnlyKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + "a_KeyboardEntry_Sale"), "href", "equals", hrefAppID, true): Modify property of object successfully
+
+2022-02-11 15:43:49 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2022-02-11 15:43:49 - [TEST_STEP][PASSED] - click(authOnlyKeyboardEntryLink): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2022-02-11 15:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2022-02-11 15:43:50 - [TEST_STEP][PASSED] - verifyTextPresent("Issue Transactions", true): Text 'Issue Transactions' is present on page  using regular expression
+
+2022-02-11 15:43:51 - [MESSAGE][PASSED] - Text 'Issue Transactions' is present on page  using regular expression
+
+2022-02-11 15:43:51 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Card Authorization", true): Text 'Credit Card Authorization' is present on page  using regular expression
+
+2022-02-11 15:43:52 - [MESSAGE][PASSED] - Text 'Credit Card Authorization' is present on page  using regular expression
+
+2022-02-11 15:43:52 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk", true): Text 'Required fields are highlighted with an asterisk' is present on page  using regular expression
+
+2022-02-11 15:43:52 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk' is present on page  using regular expression
+
+2022-02-11 15:43:52 - [TEST_STEP][PASSED] - verifyTextPresent("Remittance ID", true): Text 'Remittance ID' is present on page  using regular expression
+
+2022-02-11 15:43:52 - [MESSAGE][PASSED] - Text 'Remittance ID' is present on page  using regular expression
+
+2022-02-11 15:43:52 - [TEST_STEP][PASSED] - verifyTextPresent("Bill/Invoice Information", true): Text 'Bill/Invoice Information' is present on page  using regular expression
+
+2022-02-11 15:43:53 - [MESSAGE][PASSED] - Text 'Bill/Invoice Information' is present on page  using regular expression
+
+2022-02-11 15:43:53 - [TEST_STEP][PASSED] - verifyTextPresent("Application: Hello World3", true): Text 'Application: Hello World3' is present on page  using regular expression
+
+2022-02-11 15:43:53 - [MESSAGE][PASSED] - Text 'Application: Hello World3' is present on page  using regular expression
+
+2022-02-11 15:43:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_cardName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is visible
+
+2022-02-11 15:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is visible
+
+2022-02-11 15:43:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_cardName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is present
+
+2022-02-11 15:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is present
+
+2022-02-11 15:43:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_transactionCategory")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is visible
+
+2022-02-11 15:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is visible
+
+2022-02-11 15:43:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_transactionCategory"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is present
+
+2022-02-11 15:43:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is present
+
+2022-02-11 15:43:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__cardNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cardNumber' is present
+
+2022-02-11 15:43:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cardNumber' is present
+
+2022-02-11 15:43:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__cvv"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cvv' is present
+
+2022-02-11 15:43:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cvv' is present
+
+2022-02-11 15:43:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_MM")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is visible
+
+2022-02-11 15:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is visible
+
+2022-02-11 15:43:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_MM"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is present
+
+2022-02-11 15:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is present
+
+2022-02-11 15:43:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_YYYY")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is visible
+
+2022-02-11 15:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is visible
+
+2022-02-11 15:43:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_YYYY"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is present
+
+2022-02-11 15:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is present
+
+2022-02-11 15:43:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__address")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is visible
+
+2022-02-11 15:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is visible
+
+2022-02-11 15:43:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__address"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is present
+
+2022-02-11 15:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is present
+
+2022-02-11 15:43:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__address2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is visible
+
+2022-02-11 15:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is visible
+
+2022-02-11 15:43:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__address2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is present
+
+2022-02-11 15:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is present
+
+2022-02-11 15:43:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_Country")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is visible
+
+2022-02-11 15:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is visible
+
+2022-02-11 15:43:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_Country"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is present
+
+2022-02-11 15:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is present
+
+2022-02-11 15:43:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__zip")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is visible
+
+2022-02-11 15:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is visible
+
+2022-02-11 15:43:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__zip"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is present
+
+2022-02-11 15:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is present
+
+2022-02-11 15:43:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__city")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is visible
+
+2022-02-11 15:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is visible
+
+2022-02-11 15:43:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__city"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is present
+
+2022-02-11 15:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is present
+
+2022-02-11 15:44:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_State")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is visible
+
+2022-02-11 15:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is visible
+
+2022-02-11 15:44:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_State"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is present
+
+2022-02-11 15:44:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is present
+
+2022-02-11 15:44:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_emailAddress")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is visible
+
+2022-02-11 15:44:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is visible
+
+2022-02-11 15:44:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_emailAddress"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is present
+
+2022-02-11 15:44:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is present
+
+2022-02-11 15:44:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_smsNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is visible
+
+2022-02-11 15:44:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is visible
+
+2022-02-11 15:44:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_smsNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is present
+
+2022-02-11 15:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is present
+
+2022-02-11 15:44:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_amount")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is visible
+
+2022-02-11 15:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is visible
+
+2022-02-11 15:44:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_amount"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is present
+
+2022-02-11 15:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is present
+
+2022-02-11 15:44:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_convenienceFee")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is visible
+
+2022-02-11 15:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is visible
+
+2022-02-11 15:44:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_convenienceFee"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is present
+
+2022-02-11 15:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is present
+
+2022-02-11 15:44:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_convenienceFeeType")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is visible
+
+2022-02-11 15:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is visible
+
+2022-02-11 15:44:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_convenienceFeeType"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is present
+
+2022-02-11 15:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is present
+
+2022-02-11 15:44:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_totalAmount")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is visible
+
+2022-02-11 15:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is visible
+
+2022-02-11 15:44:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_totalAmount"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is present
+
+2022-02-11 15:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is present
+
+2022-02-11 15:44:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined1")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is visible
+
+2022-02-11 15:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is visible
+
+2022-02-11 15:44:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined1"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is present
+
+2022-02-11 15:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is present
+
+2022-02-11 15:44:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is visible
+
+2022-02-11 15:44:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is visible
+
+2022-02-11 15:44:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is present
+
+2022-02-11 15:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is present
+
+2022-02-11 15:44:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined3")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is visible
+
+2022-02-11 15:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is visible
+
+2022-02-11 15:44:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined3"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is present
+
+2022-02-11 15:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is present
+
+2022-02-11 15:44:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined4")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is visible
+
+2022-02-11 15:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is visible
+
+2022-02-11 15:44:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined4"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is present
+
+2022-02-11 15:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is present
+
+2022-02-11 15:44:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined5")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' is visible
+
+2022-02-11 15:44:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 15:44:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5'. Try using Self-healing.
+
+2022-02-11 15:44:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' was broken. Propose an alternative one: '#userDefined5'.
+
+2022-02-11 15:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' is visible
+
+2022-02-11 15:44:38 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined5"), 30): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+
+2022-02-11 15:45:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 15:45:10 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644612310018.png]]
+
+2022-02-11 15:45:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined6")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' is visible
+
+2022-02-11 15:45:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 15:45:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6'. Try using Self-healing.
+
+2022-02-11 15:45:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' was broken. Propose an alternative one: '#userDefined6'.
+
+2022-02-11 15:45:41 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' is visible
+
+2022-02-11 15:45:41 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined6"), 30): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' located by '//*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' located by '//*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+
+2022-02-11 15:46:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 15:46:13 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' located by '//*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6' located by '//*[@type = 'text' and @name = 'userDefined6' and @id = 'userDefined6']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:123)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_152438\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_UI_TestSuite\\20220211_152438\\1644612372974.png]]
+
+2022-02-11 15:46:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined7")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is visible
+
+2022-02-11 15:46:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is visible
+
+2022-02-11 15:46:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined7"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is present
+
+2022-02-11 15:46:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is present
+
+2022-02-11 15:46:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined8")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is visible
+
+2022-02-11 15:46:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is visible
+
+2022-02-11 15:46:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined8"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is present
+
+2022-02-11 15:46:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is present
+
+2022-02-11 15:46:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined9")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is visible
+
+2022-02-11 15:46:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is visible
+
+2022-02-11 15:46:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined9"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is present
+
+2022-02-11 15:46:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is present
+
+2022-02-11 15:46:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined10")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is visible
+
+2022-02-11 15:46:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is visible
+
+2022-02-11 15:46:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined10"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is present
+
+2022-02-11 15:46:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is present
+
+2022-02-11 15:46:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "button_Submit")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is visible
+
+2022-02-11 15:46:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is visible
+
+2022-02-11 15:46:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "button_Submit"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is present
+
+2022-02-11 15:46:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is present
+
+2022-02-11 15:46:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "button_Reset")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is visible
+
+2022-02-11 15:46:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is visible
+
+2022-02-11 15:46:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "button_Reset"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is present
+
+2022-02-11 15:46:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is present]]></system-out>
+         <system-err><![CDATA[2022-02-11 15:43:36 - [TEST_CASE][FAILED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboardUI_1_TC.run(VerifyAuthOnlyKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	... 26 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 15:24:42 - [TEST_SUITE][FAILED] - AdminSuiteBootstrap_UI_TestSuite: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2022-02-11 15:24:42 - [TEST_SUITE][FAILED] - AdminSuiteBootstrap_UI_TestSuite: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifySaleKeyboardUI_1_TC.run(VerifySaleKeyboardUI_1_TC:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644611078875.run(TempTestSuite1644611078875.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5' located by '//*[@type = 'text' and @name = 'userDefined5' and @id = 'userDefined5']' not found
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

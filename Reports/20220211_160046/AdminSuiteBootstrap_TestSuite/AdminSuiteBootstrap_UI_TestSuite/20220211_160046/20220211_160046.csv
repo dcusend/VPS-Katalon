@@ -1,0 +1,162 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AdminSuiteBootstrap_UI_TestSuite,Chrome 98.0.4758.82,,,2022-02-11 16:00:50,2022-02-11 16:02:05,1m - 14.760s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboardUI_1_TC,Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:01:29,38.376s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:00:51,0.002s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:00:51,0.002s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:00:51,0.003s,PASSED
+"appliID = ""238""",Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:00:51,0.002s,PASSED
+"li_1 = ""/admin/imtiaz/bootstrap/vpos/""",Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:00:51,0.002s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:00:51,0.001s,PASSED
+hrefAppID = li_1 + appliID + li_2,Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:00:51,0.003s,PASSED
+"out.println(""hrefID is : "" + hrefAppID)",Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:00:51,0.022s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 98.0.4758.82,,,2022-02-11 16:00:51,2022-02-11 16:01:03,11.596s,PASSED
+"click(findTestObject(path_Dashboard + ""span_Payment""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:03,2022-02-11 16:01:03,0.465s,PASSED
+"click(findTestObject(path_Dashboard + ""a_HelloWorld3""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:03,2022-02-11 16:01:05,1.393s,PASSED
+"click(findTestObject(path_VT + ""button_Authorization  Capture (Sale)""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:05,2022-02-11 16:01:05,0.486s,PASSED
+"saleKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + ""a_KeyboardEntry_Sale""), ""href"", ""equals"", hrefAppID, true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:05,2022-02-11 16:01:05,0.121s,PASSED
+click(saleKeyboardEntryLink),Chrome 98.0.4758.82,,,2022-02-11 16:01:05,2022-02-11 16:01:06,1.271s,PASSED
+"verifyTextPresent(""Issue Transactions"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:06,2022-02-11 16:01:07,0.988s,PASSED
+"verifyTextPresent(""Credit Card Authorization Capture"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:07,2022-02-11 16:01:08,0.410s,PASSED
+"verifyTextPresent(""Required fields are highlighted with an asterisk"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:08,2022-02-11 16:01:08,0.404s,PASSED
+"verifyTextPresent(""Remittance ID"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:08,2022-02-11 16:01:09,0.396s,PASSED
+"verifyTextPresent(""Bill/Invoice Information"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:09,2022-02-11 16:01:09,0.414s,PASSED
+"verifyTextPresent(""Application: Hello World3"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:09,2022-02-11 16:01:10,0.424s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_cardName""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:10,2022-02-11 16:01:10,0.377s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_cardName""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:10,2022-02-11 16:01:10,0.319s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_transactionCategory""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:10,2022-02-11 16:01:11,0.335s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_transactionCategory""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:11,2022-02-11 16:01:11,0.300s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__cardNumber""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:11,2022-02-11 16:01:11,0.344s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__cvv""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:11,2022-02-11 16:01:12,0.340s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_MM""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:12,2022-02-11 16:01:12,0.368s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_MM""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:12,2022-02-11 16:01:12,0.339s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_YYYY""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:12,2022-02-11 16:01:13,0.331s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_YYYY""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:13,2022-02-11 16:01:13,0.328s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input__address""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:13,2022-02-11 16:01:13,0.350s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__address""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:13,2022-02-11 16:01:14,0.324s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input__address2""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:14,2022-02-11 16:01:14,0.355s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__address2""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:14,2022-02-11 16:01:14,0.318s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_Country""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:14,2022-02-11 16:01:15,0.366s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_Country""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:15,2022-02-11 16:01:15,0.316s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input__zip""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:15,2022-02-11 16:01:15,0.349s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__zip""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:15,2022-02-11 16:01:16,0.299s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input__city""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:16,2022-02-11 16:01:16,0.353s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__city""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:16,2022-02-11 16:01:16,0.303s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_State""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:16,2022-02-11 16:01:17,0.332s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_State""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:17,2022-02-11 16:01:17,0.312s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_emailAddress""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:17,2022-02-11 16:01:17,0.355s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_emailAddress""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:17,2022-02-11 16:01:18,0.309s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_smsNumber""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:18,2022-02-11 16:01:18,0.360s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_smsNumber""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:18,2022-02-11 16:01:18,0.332s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_amount""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:18,2022-02-11 16:01:19,0.348s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_amount""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:19,2022-02-11 16:01:19,0.314s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_convenienceFee""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:19,2022-02-11 16:01:19,0.348s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_convenienceFee""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:19,2022-02-11 16:01:20,0.318s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_convenienceFeeType""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:20,2022-02-11 16:01:20,0.354s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_convenienceFeeType""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:20,2022-02-11 16:01:20,0.316s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_totalAmount""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:20,2022-02-11 16:01:21,0.347s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_totalAmount""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:21,2022-02-11 16:01:21,0.315s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined1""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:21,2022-02-11 16:01:21,0.345s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined1""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:21,2022-02-11 16:01:22,0.294s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined2""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:22,2022-02-11 16:01:22,0.359s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined2""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:22,2022-02-11 16:01:22,0.314s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined3""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:22,2022-02-11 16:01:23,0.339s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined3""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:23,2022-02-11 16:01:23,0.307s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined4""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:23,2022-02-11 16:01:23,0.347s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined4""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:23,2022-02-11 16:01:24,0.324s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_UDF5_DropDown""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:24,2022-02-11 16:01:24,0.369s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_UDF5_DropDown""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:24,2022-02-11 16:01:24,0.309s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_UDF6_DropDown""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:24,2022-02-11 16:01:25,0.349s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_UDF6_DropDown""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:25,2022-02-11 16:01:25,0.318s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined7""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:25,2022-02-11 16:01:25,0.329s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined7""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:25,2022-02-11 16:01:26,0.324s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined8""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:26,2022-02-11 16:01:26,0.353s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined8""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:26,2022-02-11 16:01:26,0.313s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined9""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:26,2022-02-11 16:01:27,0.351s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined9""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:27,2022-02-11 16:01:27,0.317s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined10""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:27,2022-02-11 16:01:27,0.351s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined10""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:27,2022-02-11 16:01:28,0.330s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""button_Submit""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:28,2022-02-11 16:01:28,0.347s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""button_Submit""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:28,2022-02-11 16:01:28,0.309s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""button_Reset""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:28,2022-02-11 16:01:29,0.347s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""button_Reset""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.318s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboardUI_1_TC,Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:02:05,35.948s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.000s,PASSED
+"appliID = ""238""",Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.000s,PASSED
+"li_1 = ""/admin/imtiaz/bootstrap/vpos/""",Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.001s,PASSED
+hrefAppID = li_1 + appliID + li_2,Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.000s,PASSED
+"out.println(""hrefID is : "" + hrefAppID)",Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:29,0.001s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 98.0.4758.82,,,2022-02-11 16:01:29,2022-02-11 16:01:40,10.229s,PASSED
+"click(findTestObject(path_Dashboard + ""span_Payment""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:40,2022-02-11 16:01:40,0.486s,PASSED
+"click(findTestObject(path_Dashboard + ""a_HelloWorld3""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:40,2022-02-11 16:01:41,1.375s,PASSED
+"click(findTestObject(path_VT + ""button_Authorization Only""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:41,2022-02-11 16:01:42,0.518s,PASSED
+"authOnlyKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + ""a_KeyboardEntry_Sale""), ""href"", ""equals"", hrefAppID, true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:42,2022-02-11 16:01:42,0.077s,PASSED
+click(authOnlyKeyboardEntryLink),Chrome 98.0.4758.82,,,2022-02-11 16:01:42,2022-02-11 16:01:43,1.266s,PASSED
+"verifyTextPresent(""Issue Transactions"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:43,2022-02-11 16:01:44,0.979s,PASSED
+"verifyTextPresent(""Credit Card Authorization"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:44,2022-02-11 16:01:45,0.405s,PASSED
+"verifyTextPresent(""Required fields are highlighted with an asterisk"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:45,2022-02-11 16:01:45,0.407s,PASSED
+"verifyTextPresent(""Remittance ID"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:45,2022-02-11 16:01:46,0.407s,PASSED
+"verifyTextPresent(""Bill/Invoice Information"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:46,2022-02-11 16:01:46,0.405s,PASSED
+"verifyTextPresent(""Application: Hello World3"", true)",Chrome 98.0.4758.82,,,2022-02-11 16:01:46,2022-02-11 16:01:46,0.407s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_cardName""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:46,2022-02-11 16:01:47,0.336s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_cardName""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:47,2022-02-11 16:01:47,0.294s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_transactionCategory""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:47,2022-02-11 16:01:47,0.325s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_transactionCategory""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:47,2022-02-11 16:01:48,0.316s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__cardNumber""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:48,2022-02-11 16:01:48,0.337s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__cvv""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:48,2022-02-11 16:01:48,0.320s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_MM""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:48,2022-02-11 16:01:49,0.335s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_MM""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:49,2022-02-11 16:01:49,0.311s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_YYYY""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:49,2022-02-11 16:01:49,0.338s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_YYYY""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:49,2022-02-11 16:01:50,0.289s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input__address""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:50,2022-02-11 16:01:50,0.316s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__address""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:50,2022-02-11 16:01:50,0.299s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input__address2""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:50,2022-02-11 16:01:50,0.316s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__address2""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:50,2022-02-11 16:01:51,0.302s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_Country""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:51,2022-02-11 16:01:51,0.320s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_Country""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:51,2022-02-11 16:01:51,0.290s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input__zip""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:51,2022-02-11 16:01:52,0.308s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__zip""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:52,2022-02-11 16:01:52,0.284s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input__city""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:52,2022-02-11 16:01:52,0.309s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input__city""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:52,2022-02-11 16:01:53,0.291s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_State""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:53,2022-02-11 16:01:53,0.306s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_State""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:53,2022-02-11 16:01:53,0.284s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_emailAddress""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:53,2022-02-11 16:01:54,0.318s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_emailAddress""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:54,2022-02-11 16:01:54,0.292s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_smsNumber""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:54,2022-02-11 16:01:54,0.306s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_smsNumber""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:54,2022-02-11 16:01:54,0.287s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_amount""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:54,2022-02-11 16:01:55,0.307s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_amount""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:55,2022-02-11 16:01:55,0.291s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_convenienceFee""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:55,2022-02-11 16:01:55,0.307s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_convenienceFee""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:55,2022-02-11 16:01:56,0.291s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_convenienceFeeType""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:56,2022-02-11 16:01:56,0.343s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_convenienceFeeType""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:56,2022-02-11 16:01:56,0.315s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_totalAmount""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:56,2022-02-11 16:01:57,0.349s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_totalAmount""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:57,2022-02-11 16:01:57,0.322s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined1""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:57,2022-02-11 16:01:57,0.348s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined1""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:57,2022-02-11 16:01:58,0.305s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined2""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:58,2022-02-11 16:01:58,0.355s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined2""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:58,2022-02-11 16:01:58,0.307s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined3""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:58,2022-02-11 16:01:59,0.318s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined3""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:59,2022-02-11 16:01:59,0.343s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined4""))",Chrome 98.0.4758.82,,,2022-02-11 16:01:59,2022-02-11 16:01:59,0.368s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined4""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:01:59,2022-02-11 16:02:00,0.318s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_UDF5_DropDown""))",Chrome 98.0.4758.82,,,2022-02-11 16:02:00,2022-02-11 16:02:00,0.350s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_UDF5_DropDown""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:02:00,2022-02-11 16:02:00,0.308s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""select_UDF6_DropDown""))",Chrome 98.0.4758.82,,,2022-02-11 16:02:00,2022-02-11 16:02:01,0.350s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""select_UDF6_DropDown""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:02:01,2022-02-11 16:02:01,0.303s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined7""))",Chrome 98.0.4758.82,,,2022-02-11 16:02:01,2022-02-11 16:02:01,0.349s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined7""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:02:01,2022-02-11 16:02:02,0.294s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined8""))",Chrome 98.0.4758.82,,,2022-02-11 16:02:02,2022-02-11 16:02:02,0.347s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined8""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:02:02,2022-02-11 16:02:02,0.323s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined9""))",Chrome 98.0.4758.82,,,2022-02-11 16:02:02,2022-02-11 16:02:03,0.361s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined9""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:02:03,2022-02-11 16:02:03,0.321s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""input_userDefined10""))",Chrome 98.0.4758.82,,,2022-02-11 16:02:03,2022-02-11 16:02:03,0.349s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""input_userDefined10""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:02:03,2022-02-11 16:02:04,0.311s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""button_Submit""))",Chrome 98.0.4758.82,,,2022-02-11 16:02:04,2022-02-11 16:02:04,0.341s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""button_Submit""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:02:04,2022-02-11 16:02:04,0.309s,PASSED
+"verifyElementVisible(findTestObject(path_SaleKB + ""button_Reset""))",Chrome 98.0.4758.82,,,2022-02-11 16:02:04,2022-02-11 16:02:05,0.335s,PASSED
+"verifyElementPresent(findTestObject(path_SaleKB + ""button_Reset""), 30)",Chrome 98.0.4758.82,,,2022-02-11 16:02:05,2022-02-11 16:02:05,0.318s,PASSED

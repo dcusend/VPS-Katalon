@@ -255,6 +255,52 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_My Account",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027imtiaz\u0027])[2]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_My Account_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "#userDefined5",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "#userDefined6",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_Profile",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_Profile_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Sabu1",
+      "brokenLocator": "//*[@href \u003d \u0027/admin/imtiaz/bootstrap/vpos/255/\u0027 and (text() \u003d \u0027Sabu1\u0027 or . \u003d \u0027Sabu1\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027New Test VRelay\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Sabu1_XPATH.png"
     }
   ]
 }

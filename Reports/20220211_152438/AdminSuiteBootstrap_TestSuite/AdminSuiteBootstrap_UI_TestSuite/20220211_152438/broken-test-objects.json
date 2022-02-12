@@ -1,0 +1,22 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "#userDefined5",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20220211_152438/AdminSuiteBootstrap_TestSuite/AdminSuiteBootstrap_UI_TestSuite/20220211_152438/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined5_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "#userDefined6",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20220211_152438/AdminSuiteBootstrap_TestSuite/AdminSuiteBootstrap_UI_TestSuite/20220211_152438/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined6_CSS.png"
+    }
+  ]
+}
