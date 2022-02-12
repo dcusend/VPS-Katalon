@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AdminSuiteBootstrap_MRF_TestSuite,Chrome 98.0.4758.82,,,2022-02-11 23:01:54,2022-02-11 23:02:38,43.452s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_MRF_TC,Chrome 98.0.4758.82,,,2022-02-11 23:01:55,2022-02-11 23:02:17,21.839s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:01:56,0.002s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:01:56,0.001s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:01:56,0.001s,PASSED
+"appliID = ""238""",Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:01:56,0.001s,PASSED
+"li_1 = ""/admin/imtiaz/bootstrap/vpos/""",Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:01:56,0.001s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:01:56,0.001s,PASSED
+hrefAppID = li_1 + appliID + li_2,Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:01:56,0.001s,PASSED
+"out.println(""hrefID is : "" + hrefAppID)",Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:01:56,0.020s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 98.0.4758.82,,,2022-02-11 23:01:56,2022-02-11 23:02:07,11.384s,PASSED
+"click(findTestObject(path_Dashboard + ""span_Payment""))",Chrome 98.0.4758.82,,,2022-02-11 23:02:07,2022-02-11 23:02:08,0.565s,PASSED
+"click(findTestObject(path_Dashboard + ""a_HelloWorld3""))",Chrome 98.0.4758.82,,,2022-02-11 23:02:08,2022-02-11 23:02:09,1.262s,PASSED
+"click(findTestObject(path_VT + ""button_Authorization  Capture (Sale)""))",Chrome 98.0.4758.82,,,2022-02-11 23:02:09,2022-02-11 23:02:09,0.477s,PASSED
+"saleKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + ""a_KeyboardEntry_Sale""), ""href"", ""equals"", hrefAppID, true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:09,2022-02-11 23:02:09,0.105s,PASSED
+click(saleKeyboardEntryLink),Chrome 98.0.4758.82,,,2022-02-11 23:02:09,2022-02-11 23:02:11,1.357s,PASSED
+"click(findTestObject(path_SaleKB + ""button_Submit""))",Chrome 98.0.4758.82,,,2022-02-11 23:02:11,2022-02-11 23:02:12,1.776s,PASSED
+"verifyTextPresent(""Card Name is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:12,2022-02-11 23:02:13,0.990s,PASSED
+"verifyTextPresent(""Card Number is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:13,2022-02-11 23:02:14,0.403s,PASSED
+"verifyTextPresent(""Card Expiration Month is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:14,2022-02-11 23:02:14,0.420s,PASSED
+"verifyTextPresent(""Card Expiration Year is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:14,2022-02-11 23:02:15,0.383s,PASSED
+"verifyTextPresent(""Address is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:15,2022-02-11 23:02:15,0.393s,PASSED
+"verifyTextPresent(""ZIP Code is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:15,2022-02-11 23:02:16,0.434s,PASSED
+"verifyTextPresent(""Amount is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:16,2022-02-11 23:02:16,0.418s,PASSED
+"verifyTextPresent(""This field is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:16,2022-02-11 23:02:16,0.408s,PASSED
+"verifyTextPresent(""This field is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:16,2022-02-11 23:02:17,0.422s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_MRF_TC,Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:38,21.171s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:17,0.006s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:17,0.001s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:17,0.000s,PASSED
+"appliID = ""238""",Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:17,0.000s,PASSED
+"li_1 = ""/admin/imtiaz/bootstrap/vpos/""",Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:17,0.001s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:17,0.001s,PASSED
+hrefAppID = li_1 + appliID + li_2,Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:17,0.001s,PASSED
+"out.println(""hrefID is : "" + hrefAppID)",Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:17,0.005s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 98.0.4758.82,,,2022-02-11 23:02:17,2022-02-11 23:02:28,10.767s,PASSED
+"click(findTestObject(path_Dashboard + ""span_Payment""))",Chrome 98.0.4758.82,,,2022-02-11 23:02:28,2022-02-11 23:02:29,0.564s,PASSED
+"click(findTestObject(path_Dashboard + ""a_HelloWorld3""))",Chrome 98.0.4758.82,,,2022-02-11 23:02:29,2022-02-11 23:02:30,1.356s,PASSED
+"click(findTestObject(path_VT + ""button_Authorization Only""))",Chrome 98.0.4758.82,,,2022-02-11 23:02:30,2022-02-11 23:02:30,0.489s,PASSED
+"authOnlyKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + ""a_KeyboardEntry_Sale""), ""href"", ""equals"", hrefAppID, true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:30,2022-02-11 23:02:30,0.102s,PASSED
+click(authOnlyKeyboardEntryLink),Chrome 98.0.4758.82,,,2022-02-11 23:02:30,2022-02-11 23:02:32,1.293s,PASSED
+"click(findTestObject(path_SaleKB + ""button_Submit""))",Chrome 98.0.4758.82,,,2022-02-11 23:02:32,2022-02-11 23:02:34,1.795s,PASSED
+"verifyTextPresent(""Card Name is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:34,2022-02-11 23:02:35,0.982s,PASSED
+"verifyTextPresent(""Card Number is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:35,2022-02-11 23:02:35,0.404s,PASSED
+"verifyTextPresent(""Card Expiration Month is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:35,2022-02-11 23:02:35,0.408s,PASSED
+"verifyTextPresent(""Card Expiration Year is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:35,2022-02-11 23:02:36,0.418s,PASSED
+"verifyTextPresent(""Address is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:36,2022-02-11 23:02:36,0.397s,PASSED
+"verifyTextPresent(""ZIP Code is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:36,2022-02-11 23:02:37,0.434s,PASSED
+"verifyTextPresent(""Amount is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:37,2022-02-11 23:02:37,0.431s,PASSED
+"verifyTextPresent(""This field is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:37,2022-02-11 23:02:38,0.446s,PASSED
+"verifyTextPresent(""This field is required"", true)",Chrome 98.0.4758.82,,,2022-02-11 23:02:38,2022-02-11 23:02:38,0.429s,PASSED

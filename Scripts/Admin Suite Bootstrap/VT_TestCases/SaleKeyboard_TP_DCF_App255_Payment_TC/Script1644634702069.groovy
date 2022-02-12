@@ -40,7 +40,7 @@ for (def i = 0; i < listSize; i++)
 	WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
 	WebUI.scrollToElement(findTestObject(path_Dashboard + 'span_Reporting'), 3)
 	
-		WebUI.click(findTestObject(path_Dashboard + 'a_Sabu1'))
+		WebUI.click(findTestObject(path_Dashboard + 'a_Sabu 1'))
 		
 			WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
 			

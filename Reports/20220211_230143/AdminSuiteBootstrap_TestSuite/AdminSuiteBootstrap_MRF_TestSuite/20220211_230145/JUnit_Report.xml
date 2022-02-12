@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminSuiteBootstrap_MRF_TestSuite" time="43.452" tests="2" failures="0" errors="0">
+   <testsuite name="AdminSuiteBootstrap_MRF_TestSuite" tests="2" failures="0" errors="0" time="43.452" skipped="0" timestamp="2022-02-11 23:01:54" hostname="iahmed - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/AdminSuiteBootstrap_TestSuite/AdminSuiteBootstrap_MRF_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_230143\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_MRF_TestSuite\\20220211_230145"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220211_230143\\AdminSuiteBootstrap_TestSuite\\AdminSuiteBootstrap_MRF_TestSuite\\20220211_230145\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iahmed - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="172.31.253.177"/>
+         <property name="sessionId" value="ca975267c67c528569b471433c066bbc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_MRF_TC" time="21.839" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_MRF_TC" status="PASSED">
+         <system-out><![CDATA[2022-02-11 23:01:55 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_MRF_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_MRF_TC
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - appliID = "238": null
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - li_1 = "/admin/imtiaz/bootstrap/vpos/": null
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthCapForm/": null
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appliID + li_2: null
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - out.println("hrefID is : " + hrefAppID): null
+
+2022-02-11 23:01:56 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-02-11 23:01:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 23:01:56 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-02-11 23:01:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 23:02:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2022-02-11 23:02:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-11 23:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2022-02-11 23:02:02 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2022-02-11 23:02:03 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2022-02-11 23:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2022-02-11 23:02:07 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-02-11 23:02:07 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Payment")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2022-02-11 23:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2022-02-11 23:02:08 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "a_HelloWorld3")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2022-02-11 23:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2022-02-11 23:02:09 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization  Capture (Sale)")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2022-02-11 23:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2022-02-11 23:02:09 - [TEST_STEP][PASSED] - saleKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + "a_KeyboardEntry_Sale"), "href", "equals", hrefAppID, true): Modify property of object successfully
+
+2022-02-11 23:02:09 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2022-02-11 23:02:09 - [TEST_STEP][PASSED] - click(saleKeyboardEntryLink): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2022-02-11 23:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2022-02-11 23:02:11 - [TEST_STEP][PASSED] - click(findTestObject(path_SaleKB + "button_Submit")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is clicked on
+
+2022-02-11 23:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is clicked on
+
+2022-02-11 23:02:12 - [TEST_STEP][PASSED] - verifyTextPresent("Card Name is required", true): Text 'Card Name is required' is present on page  using regular expression
+
+2022-02-11 23:02:13 - [MESSAGE][PASSED] - Text 'Card Name is required' is present on page  using regular expression
+
+2022-02-11 23:02:13 - [TEST_STEP][PASSED] - verifyTextPresent("Card Number is required", true): Text 'Card Number is required' is present on page  using regular expression
+
+2022-02-11 23:02:14 - [MESSAGE][PASSED] - Text 'Card Number is required' is present on page  using regular expression
+
+2022-02-11 23:02:14 - [TEST_STEP][PASSED] - verifyTextPresent("Card Expiration Month is required", true): Text 'Card Expiration Month is required' is present on page  using regular expression
+
+2022-02-11 23:02:14 - [MESSAGE][PASSED] - Text 'Card Expiration Month is required' is present on page  using regular expression
+
+2022-02-11 23:02:14 - [TEST_STEP][PASSED] - verifyTextPresent("Card Expiration Year is required", true): Text 'Card Expiration Year is required' is present on page  using regular expression
+
+2022-02-11 23:02:15 - [MESSAGE][PASSED] - Text 'Card Expiration Year is required' is present on page  using regular expression
+
+2022-02-11 23:02:15 - [TEST_STEP][PASSED] - verifyTextPresent("Address is required", true): Text 'Address is required' is present on page  using regular expression
+
+2022-02-11 23:02:15 - [MESSAGE][PASSED] - Text 'Address is required' is present on page  using regular expression
+
+2022-02-11 23:02:15 - [TEST_STEP][PASSED] - verifyTextPresent("ZIP Code is required", true): Text 'ZIP Code is required' is present on page  using regular expression
+
+2022-02-11 23:02:16 - [MESSAGE][PASSED] - Text 'ZIP Code is required' is present on page  using regular expression
+
+2022-02-11 23:02:16 - [TEST_STEP][PASSED] - verifyTextPresent("Amount is required", true): Text 'Amount is required' is present on page  using regular expression
+
+2022-02-11 23:02:16 - [MESSAGE][PASSED] - Text 'Amount is required' is present on page  using regular expression
+
+2022-02-11 23:02:16 - [TEST_STEP][PASSED] - verifyTextPresent("This field is required", true): Text 'This field is required' is present on page  using regular expression
+
+2022-02-11 23:02:16 - [MESSAGE][PASSED] - Text 'This field is required' is present on page  using regular expression
+
+2022-02-11 23:02:16 - [TEST_STEP][PASSED] - verifyTextPresent("This field is required", true): Text 'This field is required' is present on page  using regular expression
+
+2022-02-11 23:02:17 - [MESSAGE][PASSED] - Text 'This field is required' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_MRF_TC" time="21.171" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_MRF_TC" status="PASSED">
+         <system-out><![CDATA[2022-02-11 23:02:17 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_MRF_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_MRF_TC
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - appliID = "238": null
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - li_1 = "/admin/imtiaz/bootstrap/vpos/": null
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthOnlyForm/": null
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appliID + li_2: null
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - out.println("hrefID is : " + hrefAppID): null
+
+2022-02-11 23:02:17 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-02-11 23:02:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-11 23:02:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 23:02:18 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-02-11 23:02:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-11 23:02:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2022-02-11 23:02:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-11 23:02:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2022-02-11 23:02:23 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2022-02-11 23:02:23 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2022-02-11 23:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2022-02-11 23:02:28 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-02-11 23:02:28 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Payment")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2022-02-11 23:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2022-02-11 23:02:29 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "a_HelloWorld3")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2022-02-11 23:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2022-02-11 23:02:30 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization Only")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is clicked on
+
+2022-02-11 23:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is clicked on
+
+2022-02-11 23:02:30 - [TEST_STEP][PASSED] - authOnlyKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + "a_KeyboardEntry_Sale"), "href", "equals", hrefAppID, true): Modify property of object successfully
+
+2022-02-11 23:02:30 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2022-02-11 23:02:30 - [TEST_STEP][PASSED] - click(authOnlyKeyboardEntryLink): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2022-02-11 23:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2022-02-11 23:02:32 - [TEST_STEP][PASSED] - click(findTestObject(path_SaleKB + "button_Submit")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is clicked on
+
+2022-02-11 23:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is clicked on
+
+2022-02-11 23:02:34 - [TEST_STEP][PASSED] - verifyTextPresent("Card Name is required", true): Text 'Card Name is required' is present on page  using regular expression
+
+2022-02-11 23:02:35 - [MESSAGE][PASSED] - Text 'Card Name is required' is present on page  using regular expression
+
+2022-02-11 23:02:35 - [TEST_STEP][PASSED] - verifyTextPresent("Card Number is required", true): Text 'Card Number is required' is present on page  using regular expression
+
+2022-02-11 23:02:35 - [MESSAGE][PASSED] - Text 'Card Number is required' is present on page  using regular expression
+
+2022-02-11 23:02:35 - [TEST_STEP][PASSED] - verifyTextPresent("Card Expiration Month is required", true): Text 'Card Expiration Month is required' is present on page  using regular expression
+
+2022-02-11 23:02:35 - [MESSAGE][PASSED] - Text 'Card Expiration Month is required' is present on page  using regular expression
+
+2022-02-11 23:02:35 - [TEST_STEP][PASSED] - verifyTextPresent("Card Expiration Year is required", true): Text 'Card Expiration Year is required' is present on page  using regular expression
+
+2022-02-11 23:02:36 - [MESSAGE][PASSED] - Text 'Card Expiration Year is required' is present on page  using regular expression
+
+2022-02-11 23:02:36 - [TEST_STEP][PASSED] - verifyTextPresent("Address is required", true): Text 'Address is required' is present on page  using regular expression
+
+2022-02-11 23:02:36 - [MESSAGE][PASSED] - Text 'Address is required' is present on page  using regular expression
+
+2022-02-11 23:02:36 - [TEST_STEP][PASSED] - verifyTextPresent("ZIP Code is required", true): Text 'ZIP Code is required' is present on page  using regular expression
+
+2022-02-11 23:02:37 - [MESSAGE][PASSED] - Text 'ZIP Code is required' is present on page  using regular expression
+
+2022-02-11 23:02:37 - [TEST_STEP][PASSED] - verifyTextPresent("Amount is required", true): Text 'Amount is required' is present on page  using regular expression
+
+2022-02-11 23:02:37 - [MESSAGE][PASSED] - Text 'Amount is required' is present on page  using regular expression
+
+2022-02-11 23:02:37 - [TEST_STEP][PASSED] - verifyTextPresent("This field is required", true): Text 'This field is required' is present on page  using regular expression
+
+2022-02-11 23:02:38 - [MESSAGE][PASSED] - Text 'This field is required' is present on page  using regular expression
+
+2022-02-11 23:02:38 - [TEST_STEP][PASSED] - verifyTextPresent("This field is required", true): Text 'This field is required' is present on page  using regular expression
+
+2022-02-11 23:02:38 - [MESSAGE][PASSED] - Text 'This field is required' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 23:01:54 - [TEST_SUITE][PASSED] - AdminSuiteBootstrap_MRF_TestSuite: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_MRF_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

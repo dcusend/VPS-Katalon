@@ -99,8 +99,12 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined2'), 'Denmark')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined3'), 'Sweden')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined4'), 'Austria')
-		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), 'groupItem231', true)
-		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), 'groupItem232', true)
+		//WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), 'groupItem231', true)
+		//WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), 'groupItem232', true)
+		
+		WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), 'Orange', true)
+		WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), 'Yellow', true)
+		
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined7'), 'Norway')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined8'), 'Netherlands')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined9'), 'Switzerland')
