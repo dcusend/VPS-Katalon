@@ -23,4 +23,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_DCF_App255_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9dd53db1-d9a1-4923-b5ae-d3e68ef98a5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_App742_Payment_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

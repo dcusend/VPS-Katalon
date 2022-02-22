@@ -23,4 +23,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_MRF_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>cf12a40e-c6b1-4741-b108-28a2eb16800b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_Retail_MRF_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>497b196c-b067-4fcb-a516-2ba6c1a007b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_Retail_MRF_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

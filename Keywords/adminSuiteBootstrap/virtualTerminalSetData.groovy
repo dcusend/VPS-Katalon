@@ -24,23 +24,22 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import org.openqa.selenium.WebElement
 
 public class virtualTerminalSetData {
-	
-	
+
+
 	@Keyword
-	def saleKeyboard_HardCoded()
-	{
-		
+	def saleKeyboard_HardCoded() {
+
 		String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/"
-		
+
 		WebUI.setText(findTestObject(path_SaleKB + 'input_cardName'), 'Shiv Hari')
 		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_transactionCategory'), 'MOTO', true)
-		
+
 		WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cardNumber2'),30)
 		WebUI.executeJavaScript("arguments[0].value ='4111111111111111'", Arrays.asList(element))
-		
+
 		WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cvv'),30)
 		WebUI.executeJavaScript("arguments[0].value ='123'", Arrays.asList(element2))
-				
+
 
 		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_MM'), '12', true)
 		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_YYYY'), '2026', true)
@@ -60,32 +59,31 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined8'), 'Netherlands')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined9'), 'Switzerland')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined10'), 'France')
-		
-		
-				
+
+
+
 		WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
-		
-	}	
-	
-//#################################################################	
-	
+	}
+
+	//#################################################################
+
 	@Keyword
 	def saleKeyboard_HardCoded_AllCardTypes(String numCard)
 	{
 		//String enterCardNum = numCard
 		println(numCard)
-		
+
 		String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/"
-		
+
 		WebUI.setText(findTestObject(path_SaleKB + 'input_cardName'), 'Shiv Hari')
 		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_transactionCategory'), 'MOTO', true)
-		
+
 		WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cardNumber2'),30)
 		WebUI.executeJavaScript("arguments[0].value ='"+ numCard+"' "  , Arrays.asList(element))
-		
+
 		WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cvv'),30)
 		WebUI.executeJavaScript("arguments[0].value ='123'", Arrays.asList(element2))
-				
+
 
 		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_MM'), '12', true)
 		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_YYYY'), '2026', true)
@@ -101,29 +99,29 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined4'), 'Austria')
 		//WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), 'groupItem231', true)
 		//WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), 'groupItem232', true)
-		
+
 		WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), 'Orange', true)
 		WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), 'Yellow', true)
-		
+
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined7'), 'Norway')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined8'), 'Netherlands')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined9'), 'Switzerland')
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined10'), 'France')
-		
-		
-				
+
+
+
 		WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
-		
+
 	}
-	
-//##################################################################################################################################
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	//##################################################################################################################################
+
+
+
+
+
+
+
+
+
 }
