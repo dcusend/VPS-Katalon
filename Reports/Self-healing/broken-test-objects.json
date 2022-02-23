@@ -301,6 +301,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Sabu1_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Maryland\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue_neighbor.png"
     }
   ]
 }

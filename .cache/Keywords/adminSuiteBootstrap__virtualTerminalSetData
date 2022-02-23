@@ -1,13 +1,12 @@
 {
-  "keywordFileContentHash": "23C21C8BDFD889D62DCAA4D61338B408",
+  "keywordFileContentHash": "6D4F1AE62281877C27463191BF8A5AF6",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.virtualTerminalSetData",
       "keywordMethods": [
         {
           "name": "saleKeyboard_HardCoded",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "saleKeyboard_HardCoded_AllCardTypes",
@@ -25,11 +24,41 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
+        },
+        {
+          "name": "saleKeyboard_DataDriven",
+          "parameters": [
+            {
+              "name": "rowS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dataFileS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
