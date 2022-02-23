@@ -29,4 +29,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_App742_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>61b7fb0c-c3bd-49a5-a562-1cc394753d3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_NoCF_App742_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>22f60d7d-7500-497b-b507-14f06c8c4a13</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_SCF_App238_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb2ade1e-6683-499a-b545-2b5a9307412a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_DCF_App255_Payment_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

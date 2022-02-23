@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Search Transactions</name>
+   <name>option_TransType</name>
    <tag></tag>
-   <elementGuidId>3460f488-9ebe-4668-93c8-c02ad59e12c1</elementGuidId>
+   <elementGuidId>e59bdbd0-5282-45c5-85c6-165d494c4cca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Search Transactions')]</value>
+         <value>//option[@value='104']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li.nav-item.ml-1 > a.nav-link.bg-primary.text.white</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Search Transactions' or . = 'Search Transactions')]</value>
+         <value>option[value=&quot;104&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,83 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>option</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>value</name>
       <type>Main</type>
-      <value>/admin/imtiaz/bootstrap/vpos/411/reports/</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>nav-link bg-primary text white</value>
+      <value>104</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Search Transactions</value>
+      <value> Authorization &amp; Capture (Sale) </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;app sidebar-mini  pace-done&quot;]/main[@class=&quot;app-content&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-shrink-1 w-100&quot;]/div[@class=&quot;row user&quot;]/div[@class=&quot;container mt-xl-n3&quot;]/ul[@class=&quot;nav nav-tabs nav-justified&quot;]/li[@class=&quot;nav-item ml-1&quot;]/a[@class=&quot;nav-link bg-primary text white&quot;]</value>
+      <value>id(&quot;searchTransactionForm&quot;)/div[@class=&quot;timeline-post&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;form-group&quot;]/select[@class=&quot;form-control&quot;]/option[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Search Transactions')]</value>
+      <value>//option[@value='104']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='searchTransactionForm']/div/div[6]/div/div/select/option</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Issue Transactions'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit Card Transactions'])[1]/following::option[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time Zone : Eastern Standard Time'])[1]/following::option[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit Card'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[2]/preceding::option[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Search Transactions']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[2]/preceding::option[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/411/reports/')]</value>
+      <value>//*/text()[normalize-space(.)='Authorization &amp; Capture (Sale)']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/ul/li[2]/a</value>
+      <value>//div[6]/div/div/select/option</value>
    </webElementXpaths>
 </WebElementEntity>

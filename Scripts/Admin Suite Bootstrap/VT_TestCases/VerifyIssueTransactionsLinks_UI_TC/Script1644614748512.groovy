@@ -43,8 +43,8 @@ String path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Issue
 			WebUI.verifyElementVisible(findTestObject(path_VT + 'button_Authorization Only'))
 			WebUI.verifyElementPresent(findTestObject(path_VT + 'button_Authorization Only'), 30)
 			
-			WebUI.verifyElementVisible(findTestObject(path_VT + 'button_Credit or  Void'))
-			WebUI.verifyElementPresent(findTestObject(path_VT + 'button_Credit or  Void'), 30)
+			WebUI.verifyElementVisible(findTestObject(path_VT + 'button_CCCreditOrVoid'))
+			WebUI.verifyElementPresent(findTestObject(path_VT + 'button_CCCreditOrVoid'), 30)
 			
 			WebUI.verifyElementVisible(findTestObject(path_VT + 'button_Capture an Authorization'))
 			WebUI.verifyElementPresent(findTestObject(path_VT + 'button_Capture an Authorization'), 30)

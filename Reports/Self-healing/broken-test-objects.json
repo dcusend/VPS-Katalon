@@ -310,6 +310,44 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/div_Issue Transactions",
+      "brokenLocator": "//*[(text() \u003d \u0027\n                      Issue Transactions\n                      \n                        \n                          Transaction Successful\n                        \n                      \n                      \n                      \t\tV-POS - Transaction ReceiptRemittance IDSabu1022222210843867AhmReceived:February 22, 2022 09:09PM ESTUDF1sdfsdfsdUDF6Yellow RecordedAmount: $10.00Convenience Fee$5.00Convenience Fee TypeDual TransactionTotal Amount:$15.00Transaction Type:Authorization and CaptureCard Information:VisaVBCBV************1111Address Line 1:dsfsdfsdfCountry:United StatesZIP Code:21054\n\n\n                       \n                       \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tContinue\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tPrint\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n                    \u0027 or . \u003d \u0027\n                      Issue Transactions\n                      \n                        \n                          Transaction Successful\n                        \n                      \n                      \n                      \t\tV-POS - Transaction ReceiptRemittance IDSabu1022222210843867AhmReceived:February 22, 2022 09:09PM ESTUDF1sdfsdfsdUDF6Yellow RecordedAmount: $10.00Convenience Fee$5.00Convenience Fee TypeDual TransactionTotal Amount:$15.00Transaction Type:Authorization and CaptureCard Information:VisaVBCBV************1111Address Line 1:dsfsdfsdfCountry:United StatesZIP Code:21054\n\n\n                       \n                       \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tContinue\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tPrint\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n                    \u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027option1\u0027]/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/div_Issue Transactions_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027\n\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\tCredit or  Void\n\t\t\t\t\t\t\t\t\t \u0027 or . \u003d \u0027\n\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\tCredit or  Void\n\t\t\t\t\t\t\t\t\t \u0027) and @href \u003d \u0027/admin/imtiaz/bootstrap/vpos/255/transactions/CCCreditOrVoidSearch/\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Search Transactions\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/div_Payment ID",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Last\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/div_Payment ID_XPATH.png"
     }
   ]
 }
