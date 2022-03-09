@@ -6,7 +6,8 @@
       "keywordMethods": [
         {
           "name": "saleKeyboard_HardCoded",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "saleKeyboard_HardCoded_AllCardTypes",
@@ -24,7 +25,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "saleKeyboard_DataDriven",
@@ -55,10 +57,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

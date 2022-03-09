@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hello2222%'</initValue>
+      <initValue>'hello!3333'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
