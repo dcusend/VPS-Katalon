@@ -25,27 +25,62 @@ def signsToUse = ["-1","-abc","@123","@abc","!123","!abc","#123","#abc","\$123",
 def listSize = signsToUse.size()
 println listSize
 
-for (def i = 0; i < listSize; i++)
-	{
 
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qa.velocitypayment.com/admin/imtiaz')
+WebUI.navigateToUrl(GlobalVariable.AdminSuiteURL)
 
 
 WebUI.maximizeWindow()
 
 
-WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input_Username_user'), 'iahmed')
+WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input_Username_user'), GlobalVariable.Username)
 
-WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input_Password_password'), 'hello2222')
+WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input_Password_password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input_Password_button2'))
 
-WebUI.click(findTestObject('Object Repository/Page_TestMinusAndAtSigns/a_Access CC Test'))
 
-WebUI.click(findTestObject('Object Repository/Page_TestMinusAndAtSigns/a_Authorization  Capture (Sale) - Keyboard Entry'))
+
+
+if (WebUI.verifyElementPresent(findTestObject('Page_TestMinusAndAtSigns/a_Access CC Test-NonBootstrap'),10,FailureHandling.OPTIONAL))
+	{
+		WebUI.click(findTestObject('Page_TestMinusAndAtSigns/a_Access CC Test-NonBootstrap'))
+	}
+	
+else if (WebUI.verifyElementPresent(findTestObject('Page_TestMinusAndAtSigns/a_Access CC Test-Bootstrap'),10,FailureHandling.OPTIONAL))
+{
+			WebUI.click(findTestObject('Page_TestMinusAndAtSigns/a_Access CC Test-Bootstrap'))
+}
+
+
+
+
+for (def i = 0; i < listSize; i++)
+	{
+
+
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_TestMinusAndAtSigns/button_Authorization  Capture (Sale)'),10,FailureHandling.OPTIONAL))
+			{
+
+				WebUI.click(findTestObject('Object Repository/Page_TestMinusAndAtSigns/button_Authorization  Capture (Sale)'))
+
+			}
+		
+		
+		if (WebUI.verifyElementPresent(findTestObject('Page_TestMinusAndAtSigns/Keyboard Entry-NonBootstrap'),10,FailureHandling.OPTIONAL))	
+				{
+					WebUI.click(findTestObject('Page_TestMinusAndAtSigns/Keyboard Entry-NonBootstrap'))
+				}
+				
+		else if (WebUI.verifyElementPresent(findTestObject('Page_TestMinusAndAtSigns/a_Keyboard Entry-Bootstrap'),10,FailureHandling.OPTIONAL))
+			{
+						WebUI.click(findTestObject('Page_TestMinusAndAtSigns/a_Keyboard Entry-Bootstrap'))
+			}
+				
+
+
 
 WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input__cardName'), 'imtiaz ahmed')
 
@@ -55,13 +90,11 @@ WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input__
 
 WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input__password_cardNumber'), '4111111111111111')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TestMinusAndAtSigns/select_MMyear01year02year03year04year05year_e9f300'), 
-    '4', true)
+WebUI.selectOptionByValue(findTestObject('Page_TestMinusAndAtSigns/select_MM'), '4', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TestMinusAndAtSigns/select_YYYY20222023202420252026202720282029_2f3e62'), 
-    '2024', true)
+WebUI.selectOptionByValue(findTestObject('Page_TestMinusAndAtSigns/select_YYYY'), '2024', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TestMinusAndAtSigns/select_Select One         Retail Transactio_463d5f'), 
+WebUI.selectOptionByValue(findTestObject('Page_TestMinusAndAtSigns/select_TransactionCategory'), 
     'MOTO', true)
 
 WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input__amount'), '10.00')
@@ -74,15 +107,19 @@ WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input_A
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TestMinusAndAtSigns/select_Select One.-10203_1'), 'groupItem224', 
     true)
 
-WebUI.click(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input_State of Regional Hub  Operation_submit'))
+WebUI.click(findTestObject('Page_TestMinusAndAtSigns/input_Submit'))
 
 WebUI.verifyTextPresent('Transaction Successful',true)
+
+WebUI.click(findTestObject('Object Repository/Page_TestMinusAndAtSigns/a_Issue Transactions'))
+
+//WebUI.click(findTestObject('Object Repository/Page_TestMinusAndAtSigns/a_click here'))
 
 
 //WebUI.verifyTextPresent('For security reasons',true)
 //WebUI.verifyTextPresent('cannot exist in your input value. Please click on your browser back button to retry.',true)
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 
 	}
 

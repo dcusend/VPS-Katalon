@@ -24,8 +24,9 @@ String path_Receipt = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/
 String path_CCSearch = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/"
 String path_SearchResults = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/"
 String path_TranxDetails = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/"
+
 //String hrefAppID = "/admin/imtiaz/bootstrap/vpos/238/transactions/AuthCapForm/"
-String appliID = "255"
+String appliID = "238"
 String li_1 = "/admin/imtiaz/bootstrap/vpos/"
 String li_2 = "/transactions/AuthCapForm/"
 String hrefAppID = li_1 + appliID + li_2
@@ -36,15 +37,15 @@ def cardNumbers = ["4012000098765439","5146312200000035","371449635392376","6011
 def listSize = cardNumbers.size()
 println listSize
 
+
 for (def i = 0; i < listSize; i++)
 	{
 
 	CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
 	
 	WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
-	WebUI.scrollToElement(findTestObject(path_Dashboard + 'span_Reporting'), 3)
 	
-		WebUI.click(findTestObject(path_Dashboard + 'a_Sabu 1'))
+		WebUI.click(findTestObject(path_Dashboard + 'a_HelloWorld3'))
 		
 			WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
 			
@@ -55,59 +56,64 @@ for (def i = 0; i < listSize; i++)
 				
 				//CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_HardCoded'()
 				CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_HardCoded_AllCardTypes'(cardNumbers[i])
+
 				
 				if (WebUI.verifyTextPresent('Transaction Successful', true))
-				{
-					def sdf = WebUI.getText(findTestObject(path_Receipt + 'div_Issue Transactions'))
-					
-					//System.out.println('sdf: ' + sdf)
-					
-					def remID = sdf.substring(55, 79).trim()
-					
-					System.out.println('remID: ' + remID)
-					
-					
-					WebUI.click(findTestObject(path_Receipt + 'button_Continue'))
-					
-					//WebUI.click(findTestObject(path_VT + 'button_CCCreditOrVoid'))
-					WebUI.click(findTestObject(path_VT + 'a_Search Transactions'))
-					
-						WebUI.setText(findTestObject(path_CCSearch + 'input_Search By_searchValue'),remID)
-						WebUI.click(findTestObject(path_CCSearch + 'button_Submit'))
-					
+					{
+						def sdf = WebUI.getText(findTestObject(path_Receipt + 'div_Issue Transactions'))
 						
-						//WebUI.delay(10)
-					
-						def fgr = WebUI.getText(findTestObject(path_SearchResults + 'div_Payment ID'))
-						def payID = fgr.substring(89,97).trim()
-						System.out.println('payID: '+payID)
+						//System.out.println('sdf: ' + sdf)
 						
-						def remIDLink = WebUI.modifyObjectProperty(findTestObject(path_SearchResults + 'button_PaymentID'),'text','equals',payID,true)
-						WebUI.click(remIDLink)
+						def remID = sdf.substring(55, 80).trim()
 						
-						//WebUI.delay(20)
-						
-						WebUI.verifyTextPresent('Tender Type', true)
-						WebUI.verifyTextPresent('Credit Card', true)
-						WebUI.verifyTextPresent('Transaction Type', true)
-						WebUI.verifyTextPresent('Authorization and Capture', true)
-						WebUI.verifyTextPresent('Transaction Posted by', true)
-						WebUI.verifyTextPresent('iahmed', true)
-						
-						WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
-						
-						WebUI.verifyTextPresent('The following transaction will be voided', true)
-						WebUI.verifyTextPresent('Please press submit to continue', true)
-						
-						WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
-						
-						WebUI.verifyTextPresent('Transaction Successful', true)
-						WebUI.verifyTextPresent('Transaction Type', true)
-						WebUI.verifyTextPresent('Void', true)
+						System.out.println('remID: ' + remID)
 						
 						
-					
-				}
+						WebUI.click(findTestObject(path_Receipt + 'button_Continue'))
+						
+						//WebUI.click(findTestObject(path_VT + 'button_CCCreditOrVoid'))
+						WebUI.click(findTestObject(path_VT + 'a_Search Transactions'))
+						
+							WebUI.setText(findTestObject(path_CCSearch + 'input_Search By_searchValue'),remID)
+							WebUI.click(findTestObject(path_CCSearch + 'button_Submit'))
+						
+							
+							//WebUI.delay(10)
+						
+							def fgr = WebUI.getText(findTestObject(path_SearchResults + 'div_Payment ID'))
+							def payID = fgr.substring(89,97).trim()
+							System.out.println('payID: '+payID)
+							
+							def remIDLink = WebUI.modifyObjectProperty(findTestObject(path_SearchResults + 'button_PaymentID'),'text','equals',payID,true)
+							WebUI.click(remIDLink)
+							
+							//WebUI.delay(20)
+							
+							WebUI.verifyTextPresent('Tender Type', true)
+							WebUI.verifyTextPresent('Credit Card', true)
+							WebUI.verifyTextPresent('Transaction Type', true)
+							WebUI.verifyTextPresent('Authorization and Capture', true)
+							WebUI.verifyTextPresent('Transaction Posted by', true)
+							WebUI.verifyTextPresent('iahmed', true)
+							
+							WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
+							
+							WebUI.verifyTextPresent('The following transaction will be voided', true)
+							WebUI.verifyTextPresent('Please press submit to continue', true)
+							
+							WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
+							
+							WebUI.verifyTextPresent('Transaction Successful', true)
+							WebUI.verifyTextPresent('Transaction Type', true)
+							WebUI.verifyTextPresent('Void', true)
+							
+							
+						
+					}
+		
+				
+				
+				
 				
 				
 				

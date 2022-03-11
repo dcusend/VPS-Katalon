@@ -348,6 +348,98 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/div_Payment ID_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/a_Access CC Test",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(@href, \u0027/admin/imtiaz/vpos/198/\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/a_Access CC Test_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/a_Access CC Test",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Access CC Test\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/a_Access CC Test_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/a_Authorization  Capture (Sale) - Keyboard Entry",
+      "brokenLocator": "//*[(text() \u003d \u0027Authorization \u0026 Capture (Sale) - Keyboard Entry\u0027 or . \u003d \u0027Authorization \u0026 Capture (Sale) - Keyboard Entry\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Credit Card\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/a_Authorization  Capture (Sale) - Keyboard Entry_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/input__zip",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027zip\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/input__zip_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/select_MMyear01year02year03year04year05year_e9f300",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027cardExpMonth\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/select_MMyear01year02year03year04year05year_e9f300_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/input__amount",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027amount\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/input__amount_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/input_State of Regional Hub  Operation_submit",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "#submit1",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/input_State of Regional Hub  Operation_submit_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale",
+      "brokenLocator": "//*[(text() \u003d \u0027Keyboard Entry\u0027 or . \u003d \u0027Keyboard Entry\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Keyboard Entry\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ProductionVerification/input_Username_user",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027input-username\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_ProductionVerification/input_Username_user_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ProductionVerification/input_Password_password",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027input-password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_ProductionVerification/input_Password_password_XPATH.png"
     }
   ]
 }

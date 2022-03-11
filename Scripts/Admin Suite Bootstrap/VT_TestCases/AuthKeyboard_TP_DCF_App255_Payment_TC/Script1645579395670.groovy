@@ -24,7 +24,9 @@ String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/S
 String appliID = "255"
 String li_1 = "/admin/imtiaz/bootstrap/vpos/"
 String li_2 = "/transactions/AuthOnlyForm/"
+String li_3 = "/admin/imtiaz/vpos/"
 String hrefAppID = li_1 + appliID + li_2
+String hrefAppID2 = li_3 + appliID + li_2
 
 System.out.println('hrefID is : ' + hrefAppID)
 
@@ -37,17 +39,54 @@ for (def i = 0; i < listSize; i++)
 
 	CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
 	
-	WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
-	WebUI.scrollToElement(findTestObject(path_Dashboard + 'span_Reporting'), 3)
 	
-		WebUI.click(findTestObject(path_Dashboard + 'a_Sabu 1'))
+	if (WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Payment'),10,FailureHandling.OPTIONAL))
+		{
+
+			WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
+			WebUI.scrollToElement(findTestObject(path_Dashboard + 'span_Reporting'), 3)
+
+		}
+	
+	
+	
+		if (WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Sabu 1'),10,FailureHandling.OPTIONAL))
+			{
+				WebUI.click(findTestObject(path_Dashboard + 'a_Sabu 1'))
+			}
+			
+		else if (WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access Sabu 1-NonBootstrap'),10,FailureHandling.OPTIONAL))
+		{
+					WebUI.click(findTestObject(path_Dashboard + 'a_Access Sabu 1-NonBootstrap'))
+		}
+	
+	
+	
+		if (WebUI.verifyElementPresent(findTestObject(path_VT + 'button_Authorization Only'),10,FailureHandling.OPTIONAL))
+			{
+
+				WebUI.click(findTestObject(path_VT + 'button_Authorization Only'))
+
+			}
 		
-			WebUI.click(findTestObject(path_VT + 'button_Authorization Only'))
+			def authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
+	
+			if (WebUI.verifyElementPresent(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),10,FailureHandling.OPTIONAL))
+				{
+					WebUI.click(authOnlyKeyboardEntryLink)
+				}
+				
+			else 
+				
+			{
+				authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID2,true)
+				WebUI.click(authOnlyKeyboardEntryLink)
+			}
 			
 				//WebUI.click(findTestObject(path_VT + 'a_KeyboardEntry_Sale'))
 				
-				def authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
-				WebUI.click(authOnlyKeyboardEntryLink)
+//				def authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
+//				WebUI.click(authOnlyKeyboardEntryLink)
 				
 				//CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_HardCoded'()
 				CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_HardCoded_AllCardTypes'(cardNumbers[i])

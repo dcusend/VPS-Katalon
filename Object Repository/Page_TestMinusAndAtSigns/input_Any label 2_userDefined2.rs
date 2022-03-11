@@ -6,6 +6,10 @@
    <elementGuidId>c6be79ba-1d3c-4909-aef3-d1e24f8b5d55</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'userDefined2']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#userDefined2</value>
       </entry>
@@ -31,7 +35,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

@@ -47,4 +47,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_DCF_App255_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>895f886b-e556-4fc0-8283-c943b63e3f6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoid_TP_DCF_App255_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a27b553f-ba69-403a-993a-9eea189691d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoid_TP_NoCF_App742_Payment_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

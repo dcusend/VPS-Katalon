@@ -6,6 +6,10 @@
    <elementGuidId>0195b4d3-9fd7-4d03-b1dc-edf0c74a724e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'btn btn-primary p-0' and (text() = '12112202' or . = '12112202')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@onclick=&quot;javascript:searchDetail('12112202')&quot;]</value>
       </entry>
@@ -17,14 +21,14 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

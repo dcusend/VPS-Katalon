@@ -6,6 +6,10 @@
    <elementGuidId>1cd550fb-434a-4af0-acc9-c5b8d3f71b25</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'zip']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#zip</value>
       </entry>
@@ -24,14 +28,14 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>TEXT</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
