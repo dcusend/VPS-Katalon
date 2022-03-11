@@ -59,4 +59,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoid_TP_NoCF_App742_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ad82c7de-3cc3-4e4d-a748-f690d5dea3be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Initiatives/UDFminusAndAtSigns/TestMinusAndAtSigns_QA_BothBootstrap_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f580cd24-df3c-41ba-aae6-7adbe7b03006</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Initiatives/UDFminusAndAtSigns/TestMinusAndAtSigns_QA_BothBootstrapError_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
