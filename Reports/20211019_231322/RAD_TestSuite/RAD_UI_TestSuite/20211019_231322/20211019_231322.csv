@@ -1,4 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-RAD_UI_TestSuite,,,,2021-10-19 23:13:25,2021-10-19 23:13:26,1.120s,ERROR
-,,,,,,,
-Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC,,,,2021-10-19 23:13:26,2021-10-19 23:13:26,0.673s,ERROR

@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-RAD_UI_TestSuite,Chrome 95.0.4638.69,,,2021-11-05 18:00:24,2021-11-05 18:01:20,55.641s,PASSED
-,,,,,,,
-Test Cases/RAD_TestCases/UI_TestCases/VerifyServiceFeeVerbiage_UI_TC,Chrome 95.0.4638.69,,,2021-11-05 18:00:24,2021-11-05 18:01:20,55.205s,PASSED
-"taxTypeDropList = [""Estimated Tax"", ""Personal Income Tax"", ""Extension Payments"", ""Existing Liability"", ""Sales and Use"", ""Withholding Tax""]",Chrome 95.0.4638.69,,,2021-11-05 18:00:25,2021-11-05 18:00:25,0.002s,PASSED
-listSize = taxTypeDropList.size(),Chrome 95.0.4638.69,,,2021-11-05 18:00:25,2021-11-05 18:00:25,0.002s,PASSED
-println(listSize),Chrome 95.0.4638.69,,,2021-11-05 18:00:25,2021-11-05 18:00:25,0.004s,PASSED
-"for ([i = 0, i < listSize, (i++)])",Chrome 95.0.4638.69,,,2021-11-05 18:00:25,2021-11-05 18:01:20,54.641s,PASSED
