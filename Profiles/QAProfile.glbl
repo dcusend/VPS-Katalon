@@ -64,4 +64,9 @@
       <initValue>'https://qa.velocitypayment.com/client/rad/index.html'</initValue>
       <name>RADurl</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/admin/imtiaz/vpos/'</initValue>
+      <name>vpos_Prefix</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -24,4 +24,9 @@
       <initValue>'https://demo.velocitypayment.com/client/rad/index.html'</initValue>
       <name>RADurl</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/admin/imtiazdemo/vpos/'</initValue>
+      <name>vpos_Prefix</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

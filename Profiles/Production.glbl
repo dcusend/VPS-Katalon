@@ -19,4 +19,9 @@
       <initValue>'hello!3333'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/admin/testcustomer/vpos/'</initValue>
+      <name>vpos_Prefix</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

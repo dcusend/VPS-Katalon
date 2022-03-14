@@ -440,6 +440,25 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_ProductionVerification/input_Password_password_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/a_Access CC Test-Bootstrap",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Access CC Test\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/a_Access CC Test-Bootstrap_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TestMinusAndAtSigns/appNameLink_Generic",
+      "brokenLocator": "//*[@href \u003d \u0027/admin/imtiaz/bootstrap/vpos/198/\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Access CC Test\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/appNameLink_Generic_XPATH.png"
     }
   ]
 }
