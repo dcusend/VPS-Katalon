@@ -66,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/admin/imtiaz/vpos/'</initValue>
+      <initValue>'/admin/imtiaz/bootstrap/vpos/'</initValue>
       <name>vpos_Prefix</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

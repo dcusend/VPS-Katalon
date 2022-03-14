@@ -6,15 +6,15 @@
    <elementGuidId>4471bc01-1197-47b7-a80a-b7ddcc031389</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/imtiaz/bootstrap/vpos/198/']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Access CC Test')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/admin/imtiaz/bootstrap/vpos/198/']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,20 +32,6 @@
       <name>href</name>
       <type>Main</type>
       <value>/admin/imtiaz/bootstrap/vpos/198/</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Access CC Test</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[@class=&quot;app sidebar-mini&quot;]/main[@class=&quot;app-content list_style&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;card mb-3&quot;]/div[@class=&quot;tile p-0 m-0&quot;]/div[@class=&quot;timeline-post p-0&quot;]/div[@class=&quot;post-media&quot;]/div[@class=&quot;content w-100&quot;]/div[@class=&quot;mt-2 py-0 mb-0&quot;]/div[@class=&quot;p-2&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

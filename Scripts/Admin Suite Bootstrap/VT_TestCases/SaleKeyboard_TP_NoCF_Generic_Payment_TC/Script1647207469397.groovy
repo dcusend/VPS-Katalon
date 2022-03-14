@@ -20,51 +20,6 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 
-/*
- * def executionProfile = RC.getExecutionProfile() System.out.println
- * ("executionProfile : " + executionProfile)
- * 
- * String path_TestMinus = "Object Repository/Page_TestMinusAndAtSigns/"
- * 
- * String appHref, appName, appID
- * 
- * //String li_1 = "/admin/imtiazdemo/vpos/"
- * 
- * String li_1 = GlobalVariable.vpos_Prefix String li_2 =
- * "/transactions/AuthCapForm/"
- * 
- * appID = "742" //appName = "Access AutoNoCFtp"
- * 
- * 
- * WebUI.openBrowser('')
- * 
- * WebUI.navigateToUrl(GlobalVariable.AdminSuiteURL)
- * 
- * 
- * WebUI.maximizeWindow()
- * 
- * 
- * WebUI.setText(findTestObject('Object
- * Repository/Page_TestMinusAndAtSigns/input_Username_user'),
- * GlobalVariable.Username)
- * 
- * WebUI.setText(findTestObject('Object
- * Repository/Page_TestMinusAndAtSigns/input_Password_password'),
- * GlobalVariable.Password)
- * 
- * WebUI.click(findTestObject('Object
- * Repository/Page_TestMinusAndAtSigns/input_Password_button2'))
- * 
- * String hrefAppID = li_1 + appID + li_2 String hrefApp = li_1 + appID + "/"
- * println("hrefApp : " + hrefApp) ///admin/imtiaz/bootstrap/vpos/198/
- * 
- * //def appNameLink = WebUI.modifyObjectProperty(findTestObject(path_TestMinus
- * + 'a_Access CC Test-Bootstrap'),'text','equals',appName,true) def appNameLink
- * = WebUI.modifyObjectProperty(findTestObject(path_TestMinus +
- * 'appNameLink_Generic'),'href','equals',hrefApp,true)
- * 
- * WebUI.click(appNameLink)
- */
 
 
 //#################################################
@@ -90,26 +45,11 @@ String fileLoc = "C:\\KatalonData\\Bootstrap\\VT-Data.xlsx"
 def numOfRows, dataFile, nameSheet
 
 
-if (executionProfile.equalsIgnoreCase("QAProfile"))
-{
-	 nameSheet = "VT-Sale-NoCF"
-	 numOfRows = findTestData('QA/Bootstrap/VT-TestData/VT-SaleData-NoCF').getRowNumbers()
 	
-		println("Number of Records: " + numOfRows)
-	
-		 dataFile = "QA/Bootstrap/VT-TestData/VT-SaleData-NoCF"
-}
-else if(executionProfile.equalsIgnoreCase("DemoProfile"))
-	{
-		 nameSheet = "VT-Sale-NoCF-Demo"
-		 numOfRows = findTestData('QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Demo').getRowNumbers()
-		
-			println("Number of Records: " + numOfRows)
-		
-			 dataFile = "QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Demo"
-	}
-
-
+	nameSheet = "VT-Sale-NoCF-Generic"
+	numOfRows = findTestData('QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic').getRowNumbers()
+	println("Number of Records: " + numOfRows)
+	dataFile = "QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic"
 	
 	
 	
@@ -120,12 +60,35 @@ else if(executionProfile.equalsIgnoreCase("DemoProfile"))
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
 			System.out.println('Value of Execute is : ' + ExecuteTC)
 			
-			appName = findTestData(dataFile).getValue('AppName', row)
-			appID = findTestData(dataFile).getValue('AppID', row)
+			
+			switch(executionProfile)
+			{
+				case "QAProfile":
+						 appName = findTestData(dataFile).getValue('AppNameQA', row)
+						 appID = findTestData(dataFile).getValue('AppIDQA', row)
+				break
+				
+				case "DemoProfile":
+						appName = findTestData(dataFile).getValue('AppNameDemo', row)
+						appID = findTestData(dataFile).getValue('AppIDDemo', row)
+				break
+				
+				case "Production":
+						appName = findTestData(dataFile).getValue('AppNameProd', row)
+						appID = findTestData(dataFile).getValue('AppIDProd', row)
+				break
+				
+				case "Upgrade":
+						appName = findTestData(dataFile).getValue('AppNameProd', row)
+						appID = findTestData(dataFile).getValue('AppIDProd', row)
+				break
+			}
+			
+			
 			
 			String hrefAppID = li_1 + appID + li_2
 			String hrefApp = li_1 + appID + "/"
-			
+			println("hrefApp : " + hrefApp)
 			
 			if (ExecuteTC.equalsIgnoreCase("Y"))
 				{
@@ -137,9 +100,93 @@ else if(executionProfile.equalsIgnoreCase("DemoProfile"))
 					
 					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
 					
-					def appNameLink = WebUI.modifyObjectProperty(findTestObject(path_TestMinus + 'appNameLink_Generic'),'href','equals',hrefApp,true)
-					WebUI.click(appNameLink)
+										
+					WebUI.click(findTestObject(path_Dashboard + appName))
 					
+						WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
+						
+						def saleKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
+						WebUI.click(saleKeyboardEntryLink)
+						
+						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven'(row,dataFile)
+						
+						WebUI.verifyTextPresent('Transaction Successful', true)
+						
+						WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue'))
+						WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue'), 20)
+						
+						WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Print'))
+						WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Print'), 20)
+						
+						
+						WebUI.verifyTextPresent('Remittance ID', true)
+						WebUI.verifyTextPresent('Received', true)
+						
+						WebUI.verifyTextPresent('UDF1', true)
+						WebUI.verifyTextPresent('UDF2', true)
+						WebUI.verifyTextPresent('UDF3', true)
+						WebUI.verifyTextPresent('UDF4', true)
+						WebUI.verifyTextPresent('UDF5', true)
+						WebUI.verifyTextPresent('UDF6', true)
+						WebUI.verifyTextPresent('UDF7', true)
+						WebUI.verifyTextPresent('UDF8', true)
+						WebUI.verifyTextPresent('UDF9', true)
+						WebUI.verifyTextPresent('UDF 10', true)
+						
+						WebUI.verifyTextPresent('Australia', true)
+						WebUI.verifyTextPresent('Denmark', true)
+						WebUI.verifyTextPresent('Sweden', true)
+						WebUI.verifyTextPresent('Austria', true)
+						WebUI.verifyTextPresent('Orange Recorded', true)
+						WebUI.verifyTextPresent('Yellow Recorded', true)
+						WebUI.verifyTextPresent('Norway', true)
+						WebUI.verifyTextPresent('Netherlands', true)
+						WebUI.verifyTextPresent('Switzerland', true)
+						WebUI.verifyTextPresent('France', true)
+						
+						
+						WebUI.verifyTextPresent('Amount', true)
+						
+						WebUI.verifyTextPresent('Total Amount', true)
+						WebUI.verifyTextPresent('Transaction Type', true)
+						
+						WebUI.verifyTextPresent('10.50', true)
+						
+						
+						WebUI.verifyTextPresent('Authorization and Capture', true)
+						
+						WebUI.verifyTextPresent('Card Information', true)
+						
+						
+														
+						cardNameV = findTestData(dataFile).getValue('CardNameV', row)
+						al1V = findTestData(dataFile).getValue('AL1', row)
+						al2V = findTestData(dataFile).getValue('AL2', row)
+						zipV = findTestData(dataFile).getValue('ZIP', row)
+						cardTypeV = findTestData(dataFile).getValue('CardType', row)
+						last4V = findTestData(dataFile).getValue('Last4', row)
+						
+						
+						WebUI.verifyTextPresent(cardNameV, true)
+						WebUI.verifyTextPresent('Address Line 1', true)
+						WebUI.verifyTextPresent('Address Line 2', true)
+						WebUI.verifyTextPresent('Country', true)
+						WebUI.verifyTextPresent('City', true)
+						WebUI.verifyTextPresent('State', true)
+						WebUI.verifyTextPresent('ZIP Code', true)
+						
+						
+						WebUI.verifyTextPresent(al1V, true)
+						WebUI.verifyTextPresent(al2V, true)
+						WebUI.verifyTextPresent('United States', true)
+						WebUI.verifyTextPresent('ARLINGTON', true)
+						WebUI.verifyTextPresent('Virginia', true)
+						WebUI.verifyTextPresent(zipV, true)
+						
+						WebUI.verifyTextPresent(cardTypeV, true)
+						WebUI.verifyTextPresent(last4V, true)
+					
+					WebUI.closeBrowser()
 				}
 		}
 

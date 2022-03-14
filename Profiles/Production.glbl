@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/admin/testcustomer/vpos/'</initValue>
+      <initValue>'/admin/testcustomer/bootstrap/vpos/'</initValue>
       <name>vpos_Prefix</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
