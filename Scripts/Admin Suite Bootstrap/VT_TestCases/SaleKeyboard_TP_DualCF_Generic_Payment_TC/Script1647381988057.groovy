@@ -25,7 +25,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RC
 //#################################################
 //
 //This Test Case does a Sale Keyboard Entry
-//using VT-SaleData-NoCF-Generic Data file
+//using VT-SaleData-DualCF-Generic Data file
 //and will execute for QA, Demo, Upgrade and Production
 //bootstrap Virtual Terminal
 //Environment needs to be selected for executing
@@ -54,10 +54,10 @@ def numOfRows, dataFile, nameSheet
 
 
 	
-	nameSheet = "VT-Sale-NoCF-Generic"
-	numOfRows = findTestData('QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic').getRowNumbers()
+	nameSheet = "VT-Sale-DualCF-Generic"
+	numOfRows = findTestData('QA/Bootstrap/VT-TestData/VT-SaleData-DualCF-Generic').getRowNumbers()
 	println("Number of Records: " + numOfRows)
-	dataFile = "QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic"
+	dataFile = "QA/Bootstrap/VT-TestData/VT-SaleData-DualCF-Generic"
 	
 	
 	
@@ -153,17 +153,21 @@ def numOfRows, dataFile, nameSheet
 						WebUI.verifyTextPresent('France', true)
 						
 						
-						WebUI.verifyTextPresent('Amount', true)
 						
+						WebUI.verifyTextPresent('Card Information', true)
+						
+						
+						WebUI.verifyTextPresent('Amount', true)
+						WebUI.verifyTextPresent('Service Fee', true)
+						WebUI.verifyTextPresent('Service Fee Type', true)
 						WebUI.verifyTextPresent('Total Amount', true)
 						WebUI.verifyTextPresent('Transaction Type', true)
 						
 						WebUI.verifyTextPresent('10.50', true)
-						
-						
+						WebUI.verifyTextPresent('5.00', true)
+						WebUI.verifyTextPresent('Dual Transaction', true)
+						WebUI.verifyTextPresent('15.50', true)
 						WebUI.verifyTextPresent('Authorization and Capture', true)
-						
-						WebUI.verifyTextPresent('Card Information', true)
 						
 						
 														
