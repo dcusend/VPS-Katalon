@@ -468,6 +468,25 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TestMinusAndAtSigns/appNameLink_Generic2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/td_AutoNoC031622113752957Ahm",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027option1\u0027]/div/div/div/div[2]/div/table/tbody/tr/td[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/td_AutoNoC031622113752957Ahm_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID",
+      "brokenLocator": "//button[@class \u003d \u0027btn btn-primary p-0\u0027 and (text() \u003d \u002712112202\u0027 or . \u003d \u002712112202\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//table[@id\u003d\u0027vpositem\u0027]/tbody/tr/td/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID_idRelative.png"
     }
   ]
 }

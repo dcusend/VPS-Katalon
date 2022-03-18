@@ -12,24 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>c58a0434-f374-4665-a32b-328b5400635d</testSuiteGuid>
    <testCaseLink>
-      <guid>895f886b-e556-4fc0-8283-c943b63e3f6f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoid_TP_DCF_App255_Payment_TC</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a27b553f-ba69-403a-993a-9eea189691d0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoid_TP_NoCF_App742_Payment_TC</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1fd6cd73-8613-4ba8-be01-0812ffb6d4a3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoid_TP_SCF_App238_Payment_TC</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ad82c7de-3cc3-4e4d-a748-f690d5dea3be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -76,5 +58,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>05cf0370-16fe-4ae8-ac09-daf60e850a78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoidKeyboard_TP_DualCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>82ef8a24-7b29-435b-87be-534a7edd8a2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoidKeyboard_TP_NoCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>36801b70-371a-4845-a397-989f841a34f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoidKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
