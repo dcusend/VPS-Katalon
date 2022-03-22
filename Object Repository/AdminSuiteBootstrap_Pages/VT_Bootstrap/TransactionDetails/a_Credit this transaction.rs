@@ -6,12 +6,16 @@
    <elementGuidId>6516f638-3187-48e9-87ce-854a7b854b1a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.mb-3.ml-1 > a</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Credit this transaction' or . = 'Credit this transaction')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Credit this transaction')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.mb-3.ml-1 > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +28,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

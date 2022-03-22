@@ -77,4 +77,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoidKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a7038679-eed7-4e74-9efd-47a505539a3d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndCreditKeyboard_TP_DualCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>609226a3-cd65-41fd-9a8c-7a70c89f4ab1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndCreditKeyboard_TP_NoCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33b66d3b-0876-4018-a5c6-2b3220ac2ebc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndCreditKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
