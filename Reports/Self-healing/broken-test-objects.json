@@ -496,6 +496,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/a_Credit this transaction_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027amount\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount_XPATH.png"
     }
   ]
 }

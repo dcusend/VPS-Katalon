@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AuthCaptureKeyboard_TP_SingleCF_Generic_Payment_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f18ed6db-4b6a-420c-afe8-c28b49a4bb8f</testCaseGuid>
+</TestCaseEntity>

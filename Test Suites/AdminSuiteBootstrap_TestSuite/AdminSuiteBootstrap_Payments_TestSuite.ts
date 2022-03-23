@@ -95,4 +95,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndCreditKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>140fc87e-96dd-471d-9441-123cfac42d56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_EncryptedUDF_App745_Payment_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
