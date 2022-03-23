@@ -101,4 +101,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_EncryptedUDF_App745_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>63d12c7b-8c3f-457d-8e0e-ea3dc43e7d0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_DualCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e1c2f95-59bd-4f80-bfb6-7ba2e494e0d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a98d2fc5-1120-4a39-8702-e0f6a6243705</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
