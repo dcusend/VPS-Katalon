@@ -189,5 +189,99 @@ public class virtualTerminalSetData {
 
 	}
 	//##################################################################################################################################
+	
+	
+	
+	
+	@Keyword
+	def ManualAuthKeyboard_DataDriven(int rowS, String dataFileS)
+	{
+
+		String cardName,transCat, cardNumber, CSC, expM, expY, al1, al2, zipCode, emailAddress, phoneNumber, amount
+		String UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,UDF7,UDF8,UDF9,UDF10
+
+		// GetData
+		cardName = findTestData(dataFileS).getValue('CardName', rowS)
+		transCat = findTestData(dataFileS).getValue('TranxCategory', rowS)
+		cardNumber = findTestData(dataFileS).getValue('CardNumber', rowS)
+		CSC = findTestData(dataFileS).getValue('CSC', rowS)
+		expM = findTestData(dataFileS).getValue('ExpMM', rowS)
+		expY = findTestData(dataFileS).getValue('ExpYYYY', rowS)
+		al1 = findTestData(dataFileS).getValue('AL1', rowS)
+		al2 = findTestData(dataFileS).getValue('AL2', rowS)
+		zipCode = findTestData(dataFileS).getValue('ZIP', rowS)
+		emailAddress = findTestData(dataFileS).getValue('Email', rowS)
+		phoneNumber = findTestData(dataFileS).getValue('Phone', rowS)
+		amount = findTestData(dataFileS).getValue('Amount', rowS)
+
+		UDF1 = findTestData(dataFileS).getValue('UDF1', rowS)
+		UDF2 = findTestData(dataFileS).getValue('UDF2', rowS)
+		UDF3 = findTestData(dataFileS).getValue('UDF3', rowS)
+		UDF4 = findTestData(dataFileS).getValue('UDF4', rowS)
+		UDF5 = findTestData(dataFileS).getValue('UDF5', rowS)
+		UDF6 = findTestData(dataFileS).getValue('UDF6', rowS)
+		UDF7 = findTestData(dataFileS).getValue('UDF7', rowS)
+		UDF8 = findTestData(dataFileS).getValue('UDF8', rowS)
+		UDF9 = findTestData(dataFileS).getValue('UDF9', rowS)
+		UDF10 = findTestData(dataFileS).getValue('UDF10', rowS)
+
+
+		// SetData
+
+		String path_ManAuth = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ManualAuthKeyboard/"
+
+		
+		
+		def genRemID = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_RemittanceID'), genRemID)
+		
+		WebUI.setText(findTestObject(path_ManAuth + 'input__cardName'), cardName)
+		
+		
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_ManAuth + 'input__cardNumber2'),30)
+		WebUI.executeJavaScript("arguments[0].value ='"+ cardNumber+"' "  , Arrays.asList(element))
+		
+		
+
+		
+		WebUI.selectOptionByValue(findTestObject(path_ManAuth + 'select_MM'), expM, true)
+		WebUI.selectOptionByValue(findTestObject(path_ManAuth + 'select_YYYY'), expY, true)
+		
+		WebUI.selectOptionByValue(findTestObject(path_ManAuth + 'select_TransactionCategory'), transCat, true)
+		
+		WebUI.setText(findTestObject(path_ManAuth + 'input_AuthCode'), '123456')
+		
+
+		WebUI.setText(findTestObject(path_ManAuth + 'input_Authorization Code_address'), al1)
+		WebUI.setText(findTestObject(path_ManAuth + 'input__address2'), al2)
+		WebUI.setText(findTestObject(path_ManAuth + 'input__zip'), zipCode)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_State_emailAddress'), emailAddress)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_smsNumber'), phoneNumber)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_amount'), amount)
+
+		WebUI.setText(findTestObject(path_ManAuth + 'input__userDefined1'), UDF1)
+		WebUI.setText(findTestObject(path_ManAuth + 'input__userDefined2'), UDF2)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_userDefined3'), UDF3)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_userDefined4'), UDF4)
+		WebUI.selectOptionByLabel(findTestObject(path_ManAuth + 'select_UDF5'), UDF5, true)
+		WebUI.selectOptionByLabel(findTestObject(path_ManAuth + 'select_UDF6'), UDF6, true)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_userDefined7'), UDF7)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_userDefined8'), UDF8)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_userDefined9'), UDF9)
+		WebUI.setText(findTestObject(path_ManAuth + 'input_userDefined10'), UDF10)
+
+		WebUI.click(findTestObject(path_ManAuth + 'button_Submit'))
+		
+	}
+	
+//##################################################################################################################################
+	
+	
+	
+	
+	
+	
+	
+	
 
 }

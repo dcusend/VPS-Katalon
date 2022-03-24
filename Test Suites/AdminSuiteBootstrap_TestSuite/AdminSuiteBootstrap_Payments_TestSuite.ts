@@ -119,4 +119,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c8d41fde-87d7-4a62-a920-c35f464e4191</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/ManualAuthCaptureKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

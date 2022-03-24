@@ -35,4 +35,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_Retail_MRF_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0e8b1fb9-d3a2-40e7-912a-38f7eadc0875</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/CaptureMore_TP_AllCF_Generic_Error_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

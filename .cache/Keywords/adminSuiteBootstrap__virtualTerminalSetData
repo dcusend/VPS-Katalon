@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "531676CAA95A3740963E54AC0F71EAE6",
+  "keywordFileContentHash": "754AE32403F1896F6B4D07F2417A2A63",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.virtualTerminalSetData",
@@ -30,6 +30,38 @@
         },
         {
           "name": "saleKeyboard_DataDriven",
+          "parameters": [
+            {
+              "name": "rowS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dataFileS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "ManualAuthKeyboard_DataDriven",
           "parameters": [
             {
               "name": "rowS",
