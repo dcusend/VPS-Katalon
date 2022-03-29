@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>VT-EmailAddressError</name>
+   <name>VT-SearchTransactions</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>408a05a1-c132-41a9-bb2a-873438ed2e3d</dataFileGUID>
+   <dataFileGUID>c1cb2f49-26c0-44a0-835e-f844e1007b34</dataFileGUID>
    <dataSourceUrl>C:\KatalonData\Bootstrap\VT-Misc-Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>EMailAddressError</sheetName>
+   <sheetName>SearchTransactions</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

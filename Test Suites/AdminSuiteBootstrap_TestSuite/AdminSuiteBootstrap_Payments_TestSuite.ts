@@ -125,4 +125,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/ManualAuthCaptureKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>07fb6146-4075-4171-b6d1-4ec5ead96018</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureCreditKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>44ebdfd3-fd4e-4ef9-86e2-7a5ee8bf4cee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureVoidKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

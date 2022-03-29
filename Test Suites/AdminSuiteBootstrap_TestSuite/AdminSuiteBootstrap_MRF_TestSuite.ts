@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/CaptureMore_TP_AllCF_Generic_Error_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5a8aaa4a-4b66-4479-be1c-9f2a1e4b05f4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_AllCF_FieldVal_Generic_Error_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

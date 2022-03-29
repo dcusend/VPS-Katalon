@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Test Case is for UI verification of Search Transaction page.</description>
+   <name>VerifySearchTransactions_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b359b7de-e938-4249-9a87-0e74167d475a</testCaseGuid>
+</TestCaseEntity>

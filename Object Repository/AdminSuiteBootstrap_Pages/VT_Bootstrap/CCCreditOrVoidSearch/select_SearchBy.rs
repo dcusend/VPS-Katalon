@@ -6,12 +6,96 @@
    <elementGuidId>17fbe893-b873-4227-ba0a-d5676f1ac6ef</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;searchField&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@name='searchField']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;searchField&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'searchField' and (text() = '
+																Remittance ID
+																Payment ID
+																CC last 4 digit
+																ACH last 4 digit
+																Email Address
+																Amount
+																Payer Name
+																Client Account Number
+																
+																UDF Label:
+																	UDF1
+																
+																UDF Label:
+																	UDF2
+																
+																UDF Label:
+																	UDF3
+																
+																UDF Label:
+																	UDF4
+																
+																UDF Label:
+																	UDF5
+																
+																UDF Label:
+																	UDF6
+																
+																UDF Label:
+																	UDF7
+																
+																UDF Label:
+																	UDF8
+																
+																UDF Label:
+																	UDF9
+																
+																UDF Label:
+																	UDF 10
+																
+															' or . = '
+																Remittance ID
+																Payment ID
+																CC last 4 digit
+																ACH last 4 digit
+																Email Address
+																Amount
+																Payer Name
+																Client Account Number
+																
+																UDF Label:
+																	UDF1
+																
+																UDF Label:
+																	UDF2
+																
+																UDF Label:
+																	UDF3
+																
+																UDF Label:
+																	UDF4
+																
+																UDF Label:
+																	UDF5
+																
+																UDF Label:
+																	UDF6
+																
+																UDF Label:
+																	UDF7
+																
+																UDF Label:
+																	UDF8
+																
+																UDF Label:
+																	UDF9
+																
+																UDF Label:
+																	UDF 10
+																
+															')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
