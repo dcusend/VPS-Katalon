@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>44c62dc7-fb26-4ae6-9aa8-49d23e104b4c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/VerifySearchTransactions_UI_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -189,10 +189,10 @@ public class virtualTerminalSetData {
 
 	}
 	//##################################################################################################################################
-	
-	
-	
-	
+
+
+
+
 	@Keyword
 	def ManualAuthKeyboard_DataDriven(int rowS, String dataFileS)
 	{
@@ -230,27 +230,27 @@ public class virtualTerminalSetData {
 
 		String path_ManAuth = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ManualAuthKeyboard/"
 
-		
-		
+
+
 		def genRemID = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 		WebUI.setText(findTestObject(path_ManAuth + 'input_RemittanceID'), genRemID)
-		
+
 		WebUI.setText(findTestObject(path_ManAuth + 'input__cardName'), cardName)
-		
-		
+
+
 		WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_ManAuth + 'input__cardNumber2'),30)
 		WebUI.executeJavaScript("arguments[0].value ='"+ cardNumber+"' "  , Arrays.asList(element))
-		
-		
 
-		
+
+
+
 		WebUI.selectOptionByValue(findTestObject(path_ManAuth + 'select_MM'), expM, true)
 		WebUI.selectOptionByValue(findTestObject(path_ManAuth + 'select_YYYY'), expY, true)
-		
+
 		WebUI.selectOptionByValue(findTestObject(path_ManAuth + 'select_TransactionCategory'), transCat, true)
-		
+
 		WebUI.setText(findTestObject(path_ManAuth + 'input_AuthCode'), '123456')
-		
+
 
 		WebUI.setText(findTestObject(path_ManAuth + 'input_Authorization Code_address'), al1)
 		WebUI.setText(findTestObject(path_ManAuth + 'input__address2'), al2)
@@ -271,17 +271,17 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_ManAuth + 'input_userDefined10'), UDF10)
 
 		WebUI.click(findTestObject(path_ManAuth + 'button_Submit'))
-		
+
 	}
-	
-//##################################################################################################################################
-	
-	
-	
-	
-	
-	
-	
-	
+
+	//##################################################################################################################################
+
+
+
+
+
+
+
+
 
 }
