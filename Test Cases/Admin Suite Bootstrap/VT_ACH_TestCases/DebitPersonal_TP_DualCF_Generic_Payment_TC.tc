@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Sale_SearchTransaction_Generic</name>
+   <name>DebitPersonal_TP_DualCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>02402fb5-3715-456d-ae73-cb279c75bc7c</testCaseGuid>
+   <testCaseGuid>ce188f76-6be6-4ed3-ba9f-58d804a72fbe</testCaseGuid>
 </TestCaseEntity>

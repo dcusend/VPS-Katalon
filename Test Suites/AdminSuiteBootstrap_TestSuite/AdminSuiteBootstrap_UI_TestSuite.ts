@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/VerifySearchTransactions_UI_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>72717123-eb66-4103-8340-df841040312c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/Sale_SearchTransaction_Generic_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

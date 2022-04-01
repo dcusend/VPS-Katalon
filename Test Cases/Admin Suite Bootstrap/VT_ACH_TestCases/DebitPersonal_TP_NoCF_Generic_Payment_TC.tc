@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitPersonal_TP_NoCF_Generic_Payment_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a7b1a94-6563-4974-9e67-b262137f0199</testCaseGuid>
+</TestCaseEntity>

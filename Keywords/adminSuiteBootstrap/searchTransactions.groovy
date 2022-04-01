@@ -21,19 +21,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class searchTransactions {
-	
-	
-	
+
+
+
 	@Keyword
-	def searchTransactions_DataDriven(int rowS, String dataFileS, String remmID, String payyID)
-	{
-		
+	def searchTransactions_DataDriven(int rowS, String dataFileS, String remmID, String payyID) {
+
 		String searchBy, searchValue, advancedSearch, startCal, endCal
 		String ccType, achType, pinlessType, showSuccessful, showFailure
-		
+
 		// GetData
 		searchBy = findTestData(dataFileS).getValue('SearchBy', rowS)
-		
+
 		if (searchBy.equalsIgnoreCase('Remittance ID'))
 		{
 			searchValue = remmID
@@ -42,38 +41,36 @@ public class searchTransactions {
 		{
 			searchValue = payyID
 		}
-		else 
+		else
 		{
 			searchValue = findTestData(dataFileS).getValue('SearchValue', rowS)
 		}
-		
-		
+
+
 		// SetData
-		
+
 		String path_CCSearch = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/"
-		
-		
+
+
 		WebUI.selectOptionByLabel(findTestObject(path_CCSearch + 'select_SearchBy'),searchBy , false)
-		
+
 		WebUI.setText(findTestObject(path_CCSearch + 'input_Search By_searchValue'), searchValue)
-		
+
 		/*	WebUI.click(findTestObject(path_CCSearch + 'input_StartCalendar'))
-		WebUI.click(findTestObject(path_CCSearch + 'span_StartCalendar_Today'))
-		WebUI.click(findTestObject(path_CCSearch + 'span_StartCalendar_Close'))
-		
-		WebUI.click(findTestObject(path_CCSearch + 'input_EndCalendar'))
-		WebUI.click(findTestObject(path_CCSearch + 'span_EndCalendar_Today'))
-		WebUI.click(findTestObject(path_CCSearch + 'span_EndCalendar_Close'))
-		
-		WebUI.delay(30)*/
+		 WebUI.click(findTestObject(path_CCSearch + 'span_StartCalendar_Today'))
+		 WebUI.click(findTestObject(path_CCSearch + 'span_StartCalendar_Close'))
+		 WebUI.click(findTestObject(path_CCSearch + 'input_EndCalendar'))
+		 WebUI.click(findTestObject(path_CCSearch + 'span_EndCalendar_Today'))
+		 WebUI.click(findTestObject(path_CCSearch + 'span_EndCalendar_Close'))
+		 WebUI.delay(30)*/
 
 		WebUI.click(findTestObject(path_CCSearch + 'button_Submit'))
-		
-		
-	} 
-	
-	
-	
-	
-	
+
+
+	}
+
+
+
+
+
 }
