@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitCorporateVoid_TP_DualCF_Generic_Payment_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>485de851-7af2-41af-921c-55a66b5e40a7</testCaseGuid>
+</TestCaseEntity>

@@ -21,17 +21,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class debitPersonalsetData {
-	
-	
+
+
 	@Keyword
-	def debitPersonal_DataDriven(int rowS, String dataFileS)
-	{
+	def debitPersonal_DataDriven(int rowS, String dataFileS) {
 
 		String firstName,lastName,al1, al2, zipCode, emailAddress, phoneNumber
 		String acNumber, rtn, acType, sec, amount
 		String UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,UDF7,UDF8,UDF9,UDF10
-		
-		
+
+
 		// GetData
 		firstName = findTestData(dataFileS).getValue('FirstName', rowS)
 		lastName = findTestData(dataFileS).getValue('LastName', rowS)
@@ -55,11 +54,11 @@ public class debitPersonalsetData {
 		UDF8 = findTestData(dataFileS).getValue('UDF8', rowS)
 		UDF9 = findTestData(dataFileS).getValue('UDF9', rowS)
 		UDF10 = findTestData(dataFileS).getValue('UDF10', rowS)
-		
-		
+
+
 		// SetData
 		String path_DebitPersonal = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ACHPersonal/"
-		
+
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_firstName'), firstName)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_lastName'), lastName)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_address'), al1)
@@ -72,9 +71,9 @@ public class debitPersonalsetData {
 		WebUI.selectOptionByLabel(findTestObject(path_DebitPersonal + 'select_AccountType'), acType, true)
 		WebUI.selectOptionByLabel(findTestObject(path_DebitPersonal + 'select_STD'), sec, true)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_amount'), amount)
-		
-		
-		
+
+
+
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined1'), UDF1)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined2'), UDF2)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined3'), UDF3)
@@ -85,23 +84,11 @@ public class debitPersonalsetData {
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined8'), UDF8)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined9'), UDF9)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined10'), UDF10)
-		
+
 		WebUI.click(findTestObject(path_DebitPersonal + 'button_Submit'))
-		
-		
-		
-		
+
+
+
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

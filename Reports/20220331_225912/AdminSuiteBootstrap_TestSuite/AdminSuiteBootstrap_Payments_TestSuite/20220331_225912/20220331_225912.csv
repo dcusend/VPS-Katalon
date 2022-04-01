@@ -1,0 +1,705 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AdminSuiteBootstrap_Payments_TestSuite,Chrome 99.0.4844.84,,,2022-03-31 22:59:17,2022-04-01 00:14:54,1h - 15m - 37.439s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_DualCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 22:59:17,2022-03-31 23:06:22,7m - 5.295s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.002s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.001s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.001s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.001s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.374s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.004s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.033s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.002s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.002s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.002s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.002s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.006s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.003s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.003s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.003s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.001s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.006s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.004s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.006s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.002s,PASSED
+"nameSheet = ""VT-Sale-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:18,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleData-DualCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 22:59:18,2022-03-31 22:59:19,0.977s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 22:59:19,2022-03-31 22:59:19,0.007s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleData-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 22:59:19,2022-03-31 22:59:19,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 22:59:19,2022-03-31 23:06:22,7m - 3.197s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:06:22,2022-03-31 23:13:00,6m - 37.319s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.001s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.001s,PASSED
+"nameSheet = ""VT-Sale-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.099s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:06:23,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:06:23,2022-03-31 23:13:00,6m - 36.709s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_SingleCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:19:55,6m - 54.973s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.001s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.001s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+"nameSheet = ""VT-Sale-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleData-SingleCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.111s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleData-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:13:00,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:13:00,2022-03-31 23:19:55,6m - 54.374s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_DualCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:26:58,7m - 3.238s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.005s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"nameSheet = ""VT-Auth-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthData-DualCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.103s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthData-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:19:55,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:19:55,2022-03-31 23:26:58,7m - 2.660s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_NoCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:33:34,6m - 35.868s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.001s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.001s,PASSED
+"nameSheet = ""VT-Auth-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthData-NoCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.108s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthData-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:26:58,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:26:58,2022-03-31 23:33:34,6m - 35.301s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_SingleCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:40:26,6m - 52.424s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.001s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"nameSheet = ""VT-Auth-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthData-SingleCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.100s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthData-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:33:34,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:33:34,2022-03-31 23:40:26,6m - 51.836s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoidKeyboard_TP_DualCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:40:26,2022-03-31 23:46:42,6m - 16.303s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+"nameSheet = ""VT-SaleVoid-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleVoidData-DualCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.097s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleVoidData-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:40:27,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:40:27,2022-03-31 23:46:42,6m - 15.691s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoidKeyboard_TP_NoCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:52:48,6m - 5.251s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.001s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.001s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.001s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.001s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"nameSheet = ""VT-SaleVoid-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleVoidData-NoCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.099s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleVoidData-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:46:43,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:46:43,2022-03-31 23:52:48,6m - 4.692s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndVoidKeyboard_TP_SingleCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:58:59,6m - 11.209s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.001s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.001s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.001s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.001s,PASSED
+"nameSheet = ""VT-SaleVoid-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleVoidData-SingleCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.108s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleVoidData-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:52:48,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:52:48,2022-03-31 23:58:59,6m - 10.654s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndCreditKeyboard_TP_DualCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-04-01 00:05:31,6m - 31.841s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.000s,PASSED
+"nameSheet = ""VT-SaleCredit-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:58:59,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleCreditData-DualCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-03-31 23:58:59,2022-03-31 23:59:00,0.122s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-03-31 23:59:00,2022-03-31 23:59:00,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleCreditData-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-03-31 23:59:00,2022-03-31 23:59:00,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-03-31 23:59:00,2022-04-01 00:05:31,6m - 31.241s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndCreditKeyboard_TP_NoCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:11:41,6m - 9.740s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.001s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.001s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.001s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"nameSheet = ""VT-SaleCredit-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleCreditData-NoCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.097s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleCreditData-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:05:31,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:05:31,2022-04-01 00:11:41,6m - 9.182s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleAndCreditKeyboard_TP_SingleCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:18:00,6m - 19.836s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.001s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.001s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"nameSheet = ""VT-SaleCredit-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleCreditData-SingleCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.101s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleCreditData-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:11:41,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:11:41,2022-04-01 00:18:00,6m - 19.276s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_EncryptedUDF_App745_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:18:00,2022-04-01 00:19:36,1m - 35.077s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Misc-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"nameSheet = ""Sale-EncryptedUDF""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleEncryptedData"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.043s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleEncryptedData""",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:18:01,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:18:01,2022-04-01 00:19:35,1m - 34.584s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_DualCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:26:30,6m - 54.580s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.001s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.001s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.001s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.001s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"nameSheet = ""VT-AuthCapture-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthCaptureData-DualCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.098s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthCaptureData-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:19:36,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:19:36,2022-04-01 00:26:30,6m - 54.030s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:26:30,2022-04-01 00:32:54,6m - 24.196s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.001s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.001s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.001s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"nameSheet = ""VT-AuthCapture-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthCaptureData-NoCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.094s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthCaptureData-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:26:31,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:26:31,2022-04-01 00:32:54,6m - 23.647s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_SingleCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:32:54,2022-04-01 00:39:42,6m - 47.877s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"nameSheet = ""VT-AuthCapture-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthCaptureData-SingleCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.109s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthCaptureData-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:32:55,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:32:55,2022-04-01 00:39:42,6m - 47.328s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/ManualAuthCaptureKeyboard_TP_AllCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:39:42,2022-04-01 00:44:55,5m - 12.811s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"path_ManAuth = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ManualAuthKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+"nameSheet = ""VT-ManualAuthCapture-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-ManualAuthCaptureData-AllCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.097s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-ManualAuthCaptureData-AllCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:39:43,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:39:43,2022-04-01 00:44:55,5m - 12.259s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureCreditKeyboard_TP_AllCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:48:48,3m - 52.895s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.001s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.001s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.001s,PASSED
+"nameSheet = ""VT-AuthCapCredit-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:55,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthCapCreditData-AllCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:44:55,2022-04-01 00:44:56,0.106s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:44:56,2022-04-01 00:44:56,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthCapCreditData-AllCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:44:56,2022-04-01 00:44:56,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:44:56,2022-04-01 00:48:48,3m - 52.304s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureVoidKeyboard_TP_AllCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:54:58,6m - 10.155s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.001s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.001s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.001s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"nameSheet = ""VT-AuthCapVoid-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthCapVoidData-AllCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.097s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthCapVoidData-AllCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:48:48,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:48:48,2022-04-01 00:54:58,6m - 9.608s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_DualCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:54:58,2022-04-01 00:58:18,3m - 19.463s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.001s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.001s,PASSED
+accType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.001s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-ACH-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+"nameSheet = ""VT-ACHPersonal-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-ACH-TestData/VT-DebitData-DualCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.047s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-ACH-TestData/VT-DebitData-DualCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:54:59,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:54:59,2022-04-01 00:58:18,3m - 18.949s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 01:01:29,3m - 11.083s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+accType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-ACH-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+"nameSheet = ""VT-ACHPersonal-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-ACH-TestData/VT-DebitData-NoCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.041s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-ACH-TestData/VT-DebitData-NoCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 00:58:18,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 00:58:18,2022-04-01 01:01:29,3m - 10.551s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_SingleCF_Generic_Payment_TC,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:05:02,3m - 33.000s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+li_1 = vpos_Prefix,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+accType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"resText = ""Fail""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"resColumn = ""Result""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-ACH-Data.xlsx""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"nameSheet = ""VT-ACHPersonal-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-ACH-TestData/VT-DebitData-SingleCF-Generic"").getRowNumbers()",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.039s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-ACH-TestData/VT-DebitData-SingleCF-Generic""",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:01:29,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 99.0.4844.84,,,2022-04-01 01:01:29,2022-04-01 01:05:02,3m - 32.501s,PASSED

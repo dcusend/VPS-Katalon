@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitCorporate_TP_NoCF_Generic_Payment_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92b3a8cf-e835-4fa9-9382-9f878fbbc56c</testCaseGuid>
+</TestCaseEntity>

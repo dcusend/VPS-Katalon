@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitPersonalCredit_TP_DualCF_Generic_Payment_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abbf1fc4-ebbc-4874-aa61-910872e97df0</testCaseGuid>
+</TestCaseEntity>
