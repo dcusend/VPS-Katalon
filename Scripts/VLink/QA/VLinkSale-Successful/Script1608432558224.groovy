@@ -51,11 +51,23 @@ import com.kms.katalon.core.testdata.reader.ExcelFactory
 		// For each row in the spreadsheet, execute the given steps
 		for (def row = 1; row <= numOfRows; row++) {
 			
+
+			// Check if Execute = Y
+			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
+			System.out.println('Value of Execute is : ' + ExecuteTC)
+			
+			
+		if (ExecuteTC.equalsIgnoreCase("Y"))
+		{
+			
 			System.out.println('Begin Record Number: ' + row)
 			
 			Date today = new Date()
 			println (today)
 			String datText = today
+			
+			
+
 			
 //=======================================
 			
@@ -112,7 +124,7 @@ import com.kms.katalon.core.testdata.reader.ExcelFactory
 		WebUI.closeBrowser()
 			
 	
-			
+		}	
 			
 			
 		}

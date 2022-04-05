@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitPersonal_CAN_SearchVoid_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd43478e-4981-4b1f-a2ef-f2b9efde4eb3</testCaseGuid>
+</TestCaseEntity>

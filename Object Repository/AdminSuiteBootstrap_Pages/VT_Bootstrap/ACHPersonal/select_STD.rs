@@ -15,19 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'standardEntryClass' and (text() = '
-																			
-																			PPD - Prearranged Payment and Deposit Entry
-																		
-																			TEL - Telephone-Initiated Entry
-																		
-																			' or . = '
-																			
-																			PPD - Prearranged Payment and Deposit Entry
-																		
-																			TEL - Telephone-Initiated Entry
-																		
-																			')]</value>
+         <value>//*[@name = 'standardEntryClass']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -68,7 +56,7 @@
       <value>Default select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

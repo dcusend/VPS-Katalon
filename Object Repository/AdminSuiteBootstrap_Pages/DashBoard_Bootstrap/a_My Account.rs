@@ -6,12 +6,12 @@
    <elementGuidId>fb1a2460-295b-4a8b-9971-a9ee061c21cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'My Account')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.text-dark-blue</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'My Account')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

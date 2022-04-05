@@ -6,12 +6,16 @@
    <elementGuidId>4da111b0-0144-4c8c-82cc-8c9fdd8c2e24</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#userDefined5</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='userDefined5']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#userDefined5</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'userDefined5' and @name = 'userDefined5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -52,7 +56,7 @@
       <value>24</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

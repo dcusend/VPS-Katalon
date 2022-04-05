@@ -6,12 +6,12 @@
    <elementGuidId>a23bfdd8-385f-4954-bca1-54d4030f4e1d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='login-options']/li[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.last > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='login-options']/li[2]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>

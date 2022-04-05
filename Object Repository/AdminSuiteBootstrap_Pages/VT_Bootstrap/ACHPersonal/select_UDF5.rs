@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//select[@id='userDefined5']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'userDefined5' and @name = 'userDefined5']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -52,7 +56,7 @@
       <value>24</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

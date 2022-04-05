@@ -6,12 +6,11 @@
    <elementGuidId>193bc771-a7a1-4906-a289-d302a9390893</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Access AutoNoCFtpProd')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Access AutoNoCFtpProd')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

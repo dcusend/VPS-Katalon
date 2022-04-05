@@ -6,15 +6,15 @@
    <elementGuidId>16adf205-b0a1-411c-bd60-ba1578dbf29c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@href = '/admin/imtiaz/bootstrap/vpos/238/' and (text() = 'Hello World3' or . = 'Hello World3')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'New Test VRelay')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

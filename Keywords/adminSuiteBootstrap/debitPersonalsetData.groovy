@@ -67,6 +67,7 @@ public class debitPersonalsetData {
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_emailAddress'), emailAddress)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_smsNumber'), phoneNumber)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_accountNumber'), acNumber)
+		
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_routingNumber'), rtn)
 		WebUI.selectOptionByLabel(findTestObject(path_DebitPersonal + 'select_AccountType'), acType, true)
 		WebUI.selectOptionByLabel(findTestObject(path_DebitPersonal + 'select_STD'), sec, true)

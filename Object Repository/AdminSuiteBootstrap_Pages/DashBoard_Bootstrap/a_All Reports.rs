@@ -6,12 +6,12 @@
    <elementGuidId>5e97e1ce-ab63-4a33-9f5c-54d9fc8b2693</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='allr']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#allr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='allr']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

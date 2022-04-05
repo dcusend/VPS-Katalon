@@ -6,12 +6,11 @@
    <elementGuidId>0d7bccf5-e04d-4a44-ab9c-44189247d600</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Access Change Me')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Access Change Me')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

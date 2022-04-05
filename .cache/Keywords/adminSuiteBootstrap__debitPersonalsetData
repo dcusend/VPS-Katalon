@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A67C833B2AB276D6D41F35B5288A70F7",
+  "keywordFileContentHash": "BBB57149CC4E4A882F00E71EA3809F32",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.debitPersonalsetData",
@@ -33,11 +33,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

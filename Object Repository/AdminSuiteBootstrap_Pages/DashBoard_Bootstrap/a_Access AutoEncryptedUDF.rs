@@ -6,12 +6,11 @@
    <elementGuidId>aa8f000a-8765-4aef-aff5-f57a2a4e3ccc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Access AutoEncryptedUDF')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Access AutoEncryptedUDF')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

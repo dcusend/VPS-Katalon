@@ -6,12 +6,12 @@
    <elementGuidId>0056875e-f20d-44d5-90a3-c1586836edaf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Imtiaz Ahmed [iahmed]'])[1]/following::span[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.select2-selection.select2-selection--single</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Imtiaz Ahmed [iahmed]'])[1]/following::span[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -6,12 +6,12 @@
    <elementGuidId>57610bf8-eda1-4bd3-a6f7-8b0e3e8f65bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='imtiaz'])[2]/following::span[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.align-self-center.text-dark-blue.mr-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='imtiaz'])[2]/following::span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

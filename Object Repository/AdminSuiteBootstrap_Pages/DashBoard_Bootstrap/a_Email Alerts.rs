@@ -6,12 +6,12 @@
    <elementGuidId>597a6b2b-ea30-4fee-abd2-eb1cefc50599</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Email Alerts')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.treeview-item.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Email Alerts')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

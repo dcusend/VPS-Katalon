@@ -6,12 +6,12 @@
    <elementGuidId>0fa70f03-d5da-427f-b938-a7934322d9a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>i.fa.fa-user.fa-lg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

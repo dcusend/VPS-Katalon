@@ -6,11 +6,11 @@
    <elementGuidId>79f17451-75d1-4198-972c-a2dc09052309</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Email Subscription')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Email Subscription')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -6,12 +6,11 @@
    <elementGuidId>a71c1300-570b-4795-b3da-1ce3c8f3de5e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Access BBP Parking Fees GovTest')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Access BBP Parking Fees GovTest')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

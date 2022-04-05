@@ -6,11 +6,11 @@
    <elementGuidId>600fd05a-9441-44a7-90dc-21eec2bf1e8e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Alerts'])[1]/following::span[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Alerts'])[1]/following::span[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

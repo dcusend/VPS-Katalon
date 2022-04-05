@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_AllCF_FieldVal_Generic_Error_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fbf6927d-08c0-41cc-936b-ed9e5816b99b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_ConfirmACNum_Error_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

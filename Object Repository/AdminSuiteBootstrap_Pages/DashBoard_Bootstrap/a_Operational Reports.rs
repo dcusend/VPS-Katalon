@@ -6,11 +6,11 @@
    <elementGuidId>771712db-e114-4b55-ac4c-5fb6fb353894</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Operational Reports')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Operational Reports')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

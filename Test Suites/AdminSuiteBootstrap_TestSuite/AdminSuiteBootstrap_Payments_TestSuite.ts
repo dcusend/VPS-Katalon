@@ -114,16 +114,16 @@
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a98d2fc5-1120-4a39-8702-e0f6a6243705</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c8d41fde-87d7-4a62-a920-c35f464e4191</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/ManualAuthCaptureKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a98d2fc5-1120-4a39-8702-e0f6a6243705</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>07fb6146-4075-4171-b6d1-4ec5ead96018</guid>
@@ -244,5 +244,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_SingleCF_Generic_Payment_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fbab86a3-c490-439e-8839-487bc25d30c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_CAN_SearchVoid_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c4a8fee-470c-494d-b2a2-557c9f1379de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/Sale_CAN_SearchVoid_Payment_TC</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
