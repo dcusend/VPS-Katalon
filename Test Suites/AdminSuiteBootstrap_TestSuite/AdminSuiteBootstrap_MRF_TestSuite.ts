@@ -53,4 +53,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_ConfirmACNum_Error_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4b7b0a22-5dc6-4e26-8899-2e73032007c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_CardNotAccepted_Error_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
