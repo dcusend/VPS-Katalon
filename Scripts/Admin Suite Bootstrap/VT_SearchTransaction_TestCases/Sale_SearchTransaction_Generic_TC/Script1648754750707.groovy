@@ -60,7 +60,7 @@ def numOfRows, dataFile, nameSheet
 
 
 	
-	nameSheet = "VT-Sale-NoCF-Generic"
+	nameSheet = "SaleSearchTransactions"
 	numOfRows = findTestData('QA/Bootstrap/VT-SearchTransactions-TestData/VT-SaleSearchTransactions').getRowNumbers()
 	println("Number of Records: " + numOfRows)
 	dataFile = "QA/Bootstrap/VT-SearchTransactions-TestData/VT-SaleSearchTransactions"

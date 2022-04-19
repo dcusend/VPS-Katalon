@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the Elements and Static text on Create Profile page.</description>
+   <name>CreateProfile_UI_Generic_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a652df1a-0e40-4204-983e-5816c0e09aae</testCaseGuid>
+</TestCaseEntity>
