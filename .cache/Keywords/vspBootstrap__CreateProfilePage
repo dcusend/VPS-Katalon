@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "87A464D8F9D1EC620F48EBD9125DBB0F",
+  "keywordFileContentHash": "B3ADE201C098C5141408C559353926CE",
   "keywordClasses": [
     {
-      "name": "vlinkPages.saleCCPage",
+      "name": "vspBootstrap.CreateProfilePage",
       "keywordMethods": [
         {
-          "name": "getDataSCC",
+          "name": "setDataCreateProfile",
           "parameters": [
             {
-              "name": "rowM",
+              "name": "rowS",
               "initialExpression": "",
               "type": {
                 "fullClassName": "int",
@@ -21,7 +21,7 @@
               }
             },
             {
-              "name": "dataFileM",
+              "name": "dataFileS",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -37,7 +37,7 @@
           "javadoc": ""
         },
         {
-          "name": "setDataSCC",
+          "name": "setDataONLYCreateProfile",
           "parameters": [
             {
               "name": "rowS",

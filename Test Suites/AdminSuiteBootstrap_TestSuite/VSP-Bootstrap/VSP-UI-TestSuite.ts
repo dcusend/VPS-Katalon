@@ -17,4 +17,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/CreateProfile_UI_Generic_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>456c120c-e208-4993-a773-cf1907d59175</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/ViewProfile_UI_Generic_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4e4c1cd8-ed9c-40df-8d70-283c4a24eed5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/AddCreditCard_UI_Generic_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
