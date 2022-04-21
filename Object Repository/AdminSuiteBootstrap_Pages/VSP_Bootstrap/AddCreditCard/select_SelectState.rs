@@ -10,6 +10,10 @@
          <value>#state</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'state' and @id = 'state']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='state']</value>
       </entry>
@@ -52,7 +56,7 @@
       <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
