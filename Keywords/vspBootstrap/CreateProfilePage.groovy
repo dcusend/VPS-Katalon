@@ -106,8 +106,8 @@ public class CreateProfilePage {
 
 
 	}
-	
-	
+
+
 	@Keyword
 	def setDataONLYCreateProfile(int rowS, String dataFileS) {
 
@@ -191,9 +191,4 @@ public class CreateProfilePage {
 
 
 	}
-
-	
-	
-	
-	
 }

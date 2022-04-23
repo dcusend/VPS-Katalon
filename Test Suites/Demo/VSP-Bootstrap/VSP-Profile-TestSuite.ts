@@ -17,4 +17,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/CreateAndDeleteProfile_Generic_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c06fd091-56fc-4669-9285-d6a92fd6b2c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/AddDeleteCCNotPre_Generic_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>960165e3-d761-423d-b3f1-c7c1b212f755</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/AddDeleteCCPre_Generic_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -21,26 +21,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class SearchProfilePage {
-	
+
 	@Keyword
 	def setDataSearchProfile(int rowS, String dataFileS) {
 
 		String criteria, searchBy
-		
+
 		// GetData
-			criteria = findTestData(dataFileS).getValue('Criteria', rowS)
-			searchBy = findTestData(dataFileS).getValue('SearchBy', rowS)
-	
+		criteria = findTestData(dataFileS).getValue('Criteria', rowS)
+		searchBy = findTestData(dataFileS).getValue('SearchBy', rowS)
+
 		// SetData
-			String path_SearchProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/"
-			WebUI.setText(findTestObject(path_SearchProfile + 'input_Criteria'), criteria)
-			WebUI.selectOptionByLabel(findTestObject(path_SearchProfile + 'select_SearchBy'), searchBy, true)
-			
-			WebUI.click(findTestObject(path_SearchProfile + 'button_Search'))
-	
-	
+		String path_SearchProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/"
+		WebUI.setText(findTestObject(path_SearchProfile + 'input_Criteria'), criteria)
+		WebUI.selectOptionByLabel(findTestObject(path_SearchProfile + 'select_SearchBy'), searchBy, true)
+
+		WebUI.click(findTestObject(path_SearchProfile + 'button_Search'))
+
+
 	}
-	
-	
-	
 }
