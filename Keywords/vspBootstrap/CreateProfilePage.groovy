@@ -68,6 +68,7 @@ public class CreateProfilePage {
 
 		def genProfileName = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 		WebUI.setText(findTestObject(path_CreateProfile + 'input_profileName'), genProfileName)
+		GlobalVariable.ProfileName = genProfileName
 
 		WebUI.setText(findTestObject(path_CreateProfile + 'input_CompanyName'), compName)
 		WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_Title'), title, true)

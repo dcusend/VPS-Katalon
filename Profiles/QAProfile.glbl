@@ -69,4 +69,9 @@
       <initValue>'/admin/imtiaz/bootstrap/vpos/'</initValue>
       <name>vpos_Prefix</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>ProfileName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

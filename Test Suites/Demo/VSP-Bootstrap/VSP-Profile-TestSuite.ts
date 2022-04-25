@@ -29,4 +29,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/AddDeleteCCPre_Generic_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>83d6a602-b9cd-4546-bd87-ecac30d6b2b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/AddDeleteCCNotPre2_Generic_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a65ca33a-d444-4c08-bb2d-dcb61875c957</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/AddDeleteCCNotPre3_Generic_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
