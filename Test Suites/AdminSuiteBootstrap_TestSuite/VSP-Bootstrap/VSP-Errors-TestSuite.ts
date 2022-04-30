@@ -23,4 +23,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Error_TestCases/AddCreditCard_MRF_Generic_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>55607708-8e1d-4f1f-9f01-ad37eeb325e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Error_TestCases/AddCorp_MRF_Generic_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6198e5f2-6f77-4a78-948f-32eb824e42ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Error_TestCases/AddPCandPS_MRF_Generic_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

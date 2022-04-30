@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "8F57482B66A57BD292F8F8CB4E79C63D",
+  "keywordClasses": [
+    {
+      "name": "vspBootstrap.AddACHPage",
+      "keywordMethods": [
+        {
+          "name": "setDataAddACH",
+          "parameters": [
+            {
+              "name": "rowS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dataFileS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

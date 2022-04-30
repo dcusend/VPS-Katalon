@@ -53,4 +53,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/AddModifyDeleteCCPre_Generic_TC</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>800c0f8e-a2f8-40c5-a2e6-e7e594679a64</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/AddModifyDeleteACH_Generic_TC</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
