@@ -55,10 +55,10 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 
 
 	
-	nameSheet = "AddModifyDeleteACH"
-	numOfRows = findTestData('QA/Bootstrap/VSP-Profile-TestData/AddModifyDeleteACH').getRowNumbers()
+	nameSheet = "DC-CreateProfACH"
+	numOfRows = findTestData('QA/DataCreation/DC-CreateProfACH').getRowNumbers()
 	println("Number of Records: " + numOfRows)
-	dataFile = "QA/Bootstrap/VSP-Profile-TestData/AddModifyDeleteACH"
+	dataFile = "QA/DataCreation/DC-CreateProfACH"
 
 
 	// For each row in the spreadsheet, execute the given steps
@@ -105,7 +105,8 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 					// Call setDataCreateProfile method
 						CustomKeywords.'vspBootstrap.CreateProfilePage.setDataONLYCreateProfile'(row,dataFile)
 						
-						
+						profName = findTestData(dataFile).getValue('ProfileName', row)
+						WebUI.setText(findTestObject(path_CreateProfile + 'input_profileName'), profName)
 						
 
 					// Select the Save and Add ACH button
@@ -122,48 +123,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 							WebUI.verifyTextPresent(("Payment method creation successful"), true)
 											
 						
-						
-					// Select the Edit button
-						WebUI.click(findTestObject(path_ViewProfile + 'a_Edit_ACH'))
-						
-					// Change Nickname to Modify ACH
-						def nicknameMod = findTestData(dataFile).getValue('NicknameACHMod', row)
-						WebUI.setText(findTestObject(path_ModifyACH + 'input_nickName'), nicknameMod)
-						WebUI.click(findTestObject(path_ModifyACH + 'button_Modify'))
-						
-					// Verify Static text
-						WebUI.verifyTextPresent(("Payment Method Modification"), true)
-						WebUI.verifyTextPresent(("Payment method successfully modified"), true)
-						WebUI.verifyTextPresent((nicknameMod), true)
-						
-						
-						
-					// Select the Delete ACH button
-						WebUI.click(findTestObject(path_ViewProfile + 'a_DeleteACH2'))
-						
-					// Verify the Static text
-						WebUI.verifyTextPresent(("Delete Bank Account Confirmation"), true)
-						WebUI.verifyTextPresent(("This will delete the bank account. Are you sure you want to do this?"), true)
-						
-					// Select the Congirm Delete button
-						WebUI.click(findTestObject(path_ViewProfile + 'button_DeleteACHConfirm'))
-						
-
-					// Verify the Static text
-						WebUI.verifyTextPresent(("Payment Method Deletion"), true)
-						WebUI.verifyTextPresent(("Payment method was successfully deleted."), true)
-
-						
-						
-						
-					// Select the Delete Profile button
-						WebUI.click(findTestObject(path_ViewProfile + 'a_Delete Profile'))
-						WebUI.verifyTextPresent(("This will delete all of the following information. Are you sure you want to do this?"), true)
-						
-					// Select the Delete button
-						WebUI.click(findTestObject(path_DeleteProfileConfirm + 'button_Delete'))
-						WebUI.verifyTextPresent(("No Search String"), true)
-						WebUI.verifyTextPresent(("You must provide a search string of at least 2 characters"), true)
+	
 						
 					
 						WebUI.closeBrowser()

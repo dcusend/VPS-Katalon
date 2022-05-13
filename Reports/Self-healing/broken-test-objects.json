@@ -1,3 +1,40 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/input_smsNumber",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027smsNumber\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/input_smsNumber_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/select_TransactionCategory",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@id\u003d\u0027transactionCategory\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/select_TransactionCategory_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/button_Submit",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button[@id\u003d\u0027submit1\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/button_Submit_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/input_smsNumber",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027smsNumber\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/input_smsNumber_XPATH.png"
+    }
+  ]
 }

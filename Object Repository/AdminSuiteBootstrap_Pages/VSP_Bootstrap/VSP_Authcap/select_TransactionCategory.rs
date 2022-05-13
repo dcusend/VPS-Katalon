@@ -6,12 +6,16 @@
    <elementGuidId>112df8a3-8015-4ebb-8167-ab29b3a46350</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//select[@id='transactionCategory']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#transactionCategory</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='transactionCategory']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'transactionCategory' and @id = 'transactionCategory']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -73,7 +77,7 @@
       <value>Default select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

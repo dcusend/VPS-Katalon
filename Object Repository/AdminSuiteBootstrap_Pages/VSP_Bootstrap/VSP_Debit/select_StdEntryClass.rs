@@ -6,12 +6,16 @@
    <elementGuidId>9b574bad-a39f-4233-b36e-5a6ed138d002</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//select[@name='standardEntryClass']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>select[name=&quot;standardEntryClass&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@name='standardEntryClass']</value>
+         <key>BASIC</key>
+         <value>id(&quot;form1&quot;)/div[@class=&quot;timeline-post&quot;]/div[@class=&quot;row border-bottom&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;post-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;form-floating&quot;]/select[@class=&quot;form-select form-control&quot;][count(. | //*[@name = 'standardEntryClass']) = count(//*[@name = 'standardEntryClass'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -52,7 +56,7 @@
       <value>Default select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -65,7 +69,7 @@
 																			</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

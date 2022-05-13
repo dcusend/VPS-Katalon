@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//div[@id='accordionExample']/table/tbody/tr[3]/td[7]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Auth' or . = 'Auth')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/imtiaz/bootstrap/vpos/742/transactions/AuthOnlyForm/?ProfileID=134379&amp;PaymentMethodID=88649</value>
+      <value>/admin/imtiaz/bootstrap/vpos/742/transactions/AuthOnlyForm/?ProfileID=134490&amp;PaymentMethodID=88723</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='xxx1111'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='xxx5439'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +109,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthOnlyForm/?ProfileID=134379&amp;PaymentMethodID=88649')]</value>
+      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthOnlyForm/?ProfileID=134490&amp;PaymentMethodID=88723')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +123,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthOnlyForm/?ProfileID=134379&amp;PaymentMethodID=88649' and (text() = 'Auth' or . = 'Auth')]</value>
+      <value>//a[@href = '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthOnlyForm/?ProfileID=134490&amp;PaymentMethodID=88723' and (text() = 'Auth' or . = 'Auth')]</value>
    </webElementXpaths>
 </WebElementEntity>

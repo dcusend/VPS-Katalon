@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AuthOnly_TP_AllCF_Generic_Payment_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a66f8cd0-bc64-4b19-accd-4278162a0043</testCaseGuid>
+</TestCaseEntity>

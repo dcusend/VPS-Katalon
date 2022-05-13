@@ -6,12 +6,16 @@
    <elementGuidId>f79cc790-b0cb-43e7-a59b-5e091c7a563e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='smsNumber']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#smsNumber</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='smsNumber']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'smsNumber' and @id = 'smsNumber']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +35,7 @@
       <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -52,7 +56,7 @@
       <value>smsNumber</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_smsNumber</name>
+   <name>input_Username_user</name>
    <tag></tag>
-   <elementGuidId>6efe5e2f-d894-4fad-a5ac-3bf7af7932f9</elementGuidId>
+   <elementGuidId>ae52ce3b-236a-4dbf-b54d-5bc7da107f02</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='smsNumber']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#smsNumber</value>
+         <value>//input[@id='input-username']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'TEXT' and @name = 'smsNumber' and @id = 'smsNumber']</value>
+         <value>//*[@type = 'text' and @name = 'user' and @id = 'input-username' and @placeholder = 'Enter a Username']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#input-username</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,101 +28,80 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>TEXT</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>###-###-####</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>smsNumber</value>
+      <value>user</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>smsNumber</value>
+      <value>input-username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>size</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>20</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>class</name>
       <type>Main</type>
-      <value>12</value>
+      <value>form-control form-control-lg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>11</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>inputmode</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>Enter a Username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;smsNumber&quot;)</value>
+      <value>id(&quot;input-username&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='smsNumber']</value>
+      <value>//input[@id='input-username']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='form1']/div/div[3]/div/div[2]/div[7]/div[2]/div/input</value>
+      <value>//div[@id='divclose']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div[2]/div/input</value>
+      <value>//div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'TEXT' and @placeholder = '###-###-####' and @name = 'smsNumber' and @id = 'smsNumber']</value>
+      <value>//input[@type = 'text' and @name = 'user' and @id = 'input-username' and @placeholder = 'Enter a Username']</value>
    </webElementXpaths>
 </WebElementEntity>

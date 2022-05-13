@@ -3,8 +3,12 @@
    <description></description>
    <name>a_AuthCap</name>
    <tag></tag>
-   <elementGuidId>528b11cb-7343-4055-80d0-bf1931d4626f</elementGuidId>
+   <elementGuidId>b0caa470-fc18-4dd4-a870-6da281e320e9</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;accordionExample&quot;)/table[@class=&quot;table table-hover table-bordered dataTable no-footer&quot;]/tbody[1]/tr[@class=&quot;table_bg&quot;]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-primary p-0&quot;]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>td.text-center > a.btn.btn-primary.p-0</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>XPATH</key>
          <value>//div[@id='accordionExample']/table/tbody/tr[3]/td[6]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'AuthCap' or . = 'AuthCap')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -39,17 +39,17 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134490&amp;PaymentMethodID=88723</value>
+      <value>/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134489&amp;PaymentMethodID=88722</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>AuthCap</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -74,14 +74,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='xxx5439'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='xxx6909'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tandon Ravena'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Benson Carla'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134490&amp;PaymentMethodID=88723')]</value>
+      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134489&amp;PaymentMethodID=88722')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +123,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134490&amp;PaymentMethodID=88723' and (text() = 'AuthCap' or . = 'AuthCap')]</value>
+      <value>//a[@href = '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134489&amp;PaymentMethodID=88722' and (text() = 'AuthCap' or . = 'AuthCap')]</value>
    </webElementXpaths>
 </WebElementEntity>

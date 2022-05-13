@@ -6,12 +6,16 @@
    <elementGuidId>b58ab75b-5a64-41eb-813a-4cab0c82b59b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@id='submit1']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#submit1</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='submit1']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @id = 'submit1' and (text() = 'Submit' or . = 'Submit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +49,7 @@
       <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

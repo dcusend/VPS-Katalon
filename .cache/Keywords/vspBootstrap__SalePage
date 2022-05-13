@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "83EDCD4EC3DC034A268FE53ED647D5DB",
+  "keywordFileContentHash": "6515BC6A51B855D685BC33CC03A1900E",
   "keywordClasses": [
     {
-      "name": "vspBootstrap.ModifyCreditCardPage",
+      "name": "vspBootstrap.SalePage",
       "keywordMethods": [
         {
-          "name": "setDataModifyCreditCard",
+          "name": "setDataSaleAndAuth",
           "parameters": [
             {
               "name": "rowS",

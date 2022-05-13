@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_AuthCap</name>
+   <name>a_PaymentsVisa</name>
    <tag></tag>
-   <elementGuidId>528b11cb-7343-4055-80d0-bf1931d4626f</elementGuidId>
+   <elementGuidId>06da292e-4e10-44f7-b5d4-2dd673cbbb5b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>td.text-center > a.btn.btn-primary.p-0</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='accordionExample']/table/tbody/tr[3]/td[6]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'AuthCap' or . = 'AuthCap')]</value>
+         <value>//a[contains(text(),'PaymentsVisa')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -30,99 +26,84 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary p-0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134490&amp;PaymentMethodID=88723</value>
+      <value>/admin/imtiaz/bootstrap/vsp/742/profile/ViewProfile?ProfileID=134490</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>AuthCap</value>
+      <value>						
+					PaymentsVisa
+				</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;accordionExample&quot;)/table[@class=&quot;table table-hover table-bordered dataTable no-footer&quot;]/tbody[1]/tr[@class=&quot;table_bg&quot;]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-primary p-0&quot;]</value>
+      <value>/html[1]/body[@class=&quot;app sidebar-mini&quot;]/main[@class=&quot;app-content&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;tile w-100&quot;]/div[@class=&quot;tile-body&quot;]/div[1]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover dataTable no-footer table-outside-bordered table-sm&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;table table-hover dataTable no-footer&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='accordionExample']/table/tbody/tr[3]/td[6]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'AuthCap')]</value>
+      <value>//a[contains(text(),'PaymentsVisa')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='xxx5439'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEW SEARCH'])[1]/following::a[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tandon Ravena'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auth'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='AuthCap']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='PaymentsVisa']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134490&amp;PaymentMethodID=88723')]</value>
+      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vsp/742/profile/ViewProfile?ProfileID=134490')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[6]/a</value>
+      <value>//td[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/admin/imtiaz/bootstrap/vpos/742/transactions/AuthCapForm/?ProfileID=134490&amp;PaymentMethodID=88723' and (text() = 'AuthCap' or . = 'AuthCap')]</value>
+      <value>//a[@href = '/admin/imtiaz/bootstrap/vsp/742/profile/ViewProfile?ProfileID=134490' and (text() = '						
+					PaymentsVisa
+				' or . = '						
+					PaymentsVisa
+				')]</value>
    </webElementXpaths>
 </WebElementEntity>

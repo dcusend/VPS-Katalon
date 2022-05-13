@@ -7,11 +7,15 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>td.text-center > a.btn.btn-primary.p-0</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='accordionExample']/table/tbody/tr[8]/td[6]/a</value>
+         <value>//div[@id='accordionExample']/table[2]/tbody/tr[3]/td[6]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Debit' or . = 'Debit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/imtiaz/bootstrap/vpos/742/transactions/ACHDebitForm/?ProfileID=134379&amp;PaymentMethodID=88650</value>
+      <value>/admin/imtiaz/bootstrap/vpos/742/transactions/ACHDebitForm/?ProfileID=134495&amp;PaymentMethodID=88728</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='accordionExample']/table/tbody/tr[8]/td[6]/a</value>
+      <value>//div[@id='accordionExample']/table[2]/tbody/tr[3]/td[6]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,28 +74,28 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='xxx2222'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='xxx3333'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annaka Motasss'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tandon Ravena'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,20 +109,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/742/transactions/ACHDebitForm/?ProfileID=134379&amp;PaymentMethodID=88650')]</value>
+      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/742/transactions/ACHDebitForm/?ProfileID=134495&amp;PaymentMethodID=88728')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[8]/td[6]/a</value>
+      <value>//td[6]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/admin/imtiaz/bootstrap/vpos/742/transactions/ACHDebitForm/?ProfileID=134379&amp;PaymentMethodID=88650' and (text() = 'Debit' or . = 'Debit')]</value>
+      <value>//a[@href = '/admin/imtiaz/bootstrap/vpos/742/transactions/ACHDebitForm/?ProfileID=134495&amp;PaymentMethodID=88728' and (text() = 'Debit' or . = 'Debit')]</value>
    </webElementXpaths>
 </WebElementEntity>

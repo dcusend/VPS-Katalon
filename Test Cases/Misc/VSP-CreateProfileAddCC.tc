@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data Creation</description>
+   <name>VSP-CreateProfileAddCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab54be18-f827-4026-ae80-3e56ead3acb7</testCaseGuid>
+</TestCaseEntity>
