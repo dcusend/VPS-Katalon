@@ -4,8 +4,8 @@
    <name>VSP-Profile-TestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <mailRecipient>iahmed@govolution.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -64,5 +64,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/AddModifyDeleteACH2_Generic_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4ef003c-3af9-4292-b6c9-7f1e6019e823</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VSP_Profile_TestCases/SearchProfile_Generic_TC</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

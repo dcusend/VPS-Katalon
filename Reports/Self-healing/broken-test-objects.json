@@ -35,6 +35,25 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/input_smsNumber_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/select_StdEntryClass",
+      "brokenLocator": "id(\"form1\")/div[@class\u003d\"timeline-post\"]/div[@class\u003d\"row border-bottom\"]/div[@class\u003d\"col-md-6\"]/div[@class\u003d\"post-content\"]/div[@class\u003d\"row\"]/div[@class\u003d\"col-md-6\"]/div[@class\u003d\"form-floating\"]/select[@class\u003d\"form-select form-control\"][count(. | //*[@name \u003d \u0027standardEntryClass\u0027]) \u003d count(//*[@name \u003d \u0027standardEntryClass\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Account Type\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/select_StdEntryClass_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_ProfileToBeSearched",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027ProfileToBeSearched\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_ProfileToBeSearched_XPATH.png"
     }
   ]
 }

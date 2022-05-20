@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/select_StdEntryClass",
+      "brokenLocator": "id(\"form1\")/div[@class\u003d\"timeline-post\"]/div[@class\u003d\"row border-bottom\"]/div[@class\u003d\"col-md-6\"]/div[@class\u003d\"post-content\"]/div[@class\u003d\"row\"]/div[@class\u003d\"col-md-6\"]/div[@class\u003d\"form-floating\"]/select[@class\u003d\"form-select form-control\"][count(. | //*[@name \u003d \u0027standardEntryClass\u0027]) \u003d count(//*[@name \u003d \u0027standardEntryClass\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Account Type\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220516_112345/AdminSuiteBootstrap_TestSuite/VSP-Bootstrap/VPS-Payments-TestSuite/20220516_112347/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/select_StdEntryClass_neighbor.png"
+    }
+  ]
+}
