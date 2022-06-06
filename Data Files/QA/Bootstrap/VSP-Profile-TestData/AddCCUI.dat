@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>7fe73ead-342e-4252-98f7-6adfb6cce856</dataFileGUID>
-   <dataSourceUrl>C:\KatalonData\Bootstrap\VSP-Data.xlsx</dataSourceUrl>
+   <dataSourceUrl>KatalonData/Bootstrap/VSP-Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>AddCCUI</sheetName>

@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>295f1dc5-55b7-47b6-b57c-77af872e9741</dataFileGUID>
-   <dataSourceUrl>C:\KatalonData\DemoEncryptedTrackData.xlsx</dataSourceUrl>
+   <dataSourceUrl>KatalonData/DemoEncryptedTrackData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

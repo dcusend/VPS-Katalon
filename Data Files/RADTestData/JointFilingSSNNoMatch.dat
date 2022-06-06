@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>e095acd7-b065-4d08-bb5e-a194b700328f</dataFileGUID>
-   <dataSourceUrl>C:\KatalonData\RADTestData\JointFilingSSNNoMatch.xlsx</dataSourceUrl>
+   <dataSourceUrl>KatalonData/RADTestData/JointFilingSSNNoMatch.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

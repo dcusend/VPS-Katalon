@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>0d49c98e-1cd9-4ea6-8fec-0a32a7c3cdd7</dataFileGUID>
-   <dataSourceUrl>C:\KatalonData\Bootstrap\VT-ACH-Data.xlsx</dataSourceUrl>
+   <dataSourceUrl>KatalonData/Bootstrap/VT-ACH-Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>VT-ACHPersonal-DualCF-Generic</sheetName>

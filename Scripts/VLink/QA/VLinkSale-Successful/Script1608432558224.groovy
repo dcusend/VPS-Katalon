@@ -35,7 +35,8 @@ import com.kms.katalon.core.testdata.reader.ExcelFactory
 		//String datText = today
 		String resColumn = "Result"
 		String datCloumn = "Date"
-		String fileLoc = "C:\\KatalonData\\VLinkCCTestData.xlsx"
+		//String fileLoc = "C:\\KatalonData\\VLinkCCTestData.xlsx"
+		String fileLoc = "KatalonData/VLinkCCTestData.xlsx"
 		String nameSheet = "CCSaleData"
 
 

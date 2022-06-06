@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>0e991ac3-32bf-4eff-b770-8b5df3f6a615</dataFileGUID>
-   <dataSourceUrl>C:\KatalonData\Bootstrap\VT-ACH-Data.xlsx</dataSourceUrl>
+   <dataSourceUrl>KatalonData/Bootstrap/VT-ACH-Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>VT-P-DebitCredit-SingleCF-Gener</sheetName>
