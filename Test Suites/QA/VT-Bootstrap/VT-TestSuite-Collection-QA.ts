@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>VSP-TestSuite-Collection-Demo</name>
+   <name>VT-TestSuite-Collection-QA</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
@@ -10,42 +10,32 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>DemoProfile</profileName>
+            <profileName>QAProfile</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/QA/VSP-Bootstrap/VPS-Payments-TestSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/QA/VT-Bootstrap/AdminSuiteBootstrap_MRF_TestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>DemoProfile</profileName>
+            <profileName>QAProfile</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/QA/VSP-Bootstrap/VSP-Errors-TestSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>DemoProfile</profileName>
+            <profileName>QAProfile</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/QA/VSP-Bootstrap/VSP-Profile-TestSuite</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>DemoProfile</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/QA/VSP-Bootstrap/VSP-UI-TestSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/QA/VT-Bootstrap/AdminSuiteBootstrap_Payments_TestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
