@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VSP-UI-TestSuite" time="132.812" tests="3" failures="0" errors="0">
+   <testsuite name="VSP-UI-TestSuite" tests="3" failures="0" errors="0" time="132.812" skipped="0" timestamp="2022-07-01 00:49:59" hostname="imtiaz - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/QA/VSP-Bootstrap/VSP-UI-TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220630_220315\\QA\\VSP-Bootstrap\\VSP-UI-TestSuite\\20220630_220323"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20220630_220315\\QA\\VSP-Bootstrap\\VSP-UI-TestSuite\\20220630_220323\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="imtiaz - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.66"/>
+         <property name="hostAddress" value="172.31.253.180"/>
+         <property name="sessionId" value="5c163887a49a764e58503ae5b22172bf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/CreateProfile_UI_Generic_TC" time="36.339" classname="Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/CreateProfile_UI_Generic_TC" status="PASSED">
+         <system-out><![CDATA[2022-07-01 00:49:59 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/CreateProfile_UI_Generic_TC: Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/CreateProfile_UI_Generic_TC
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_CreateProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_AddAccount = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddAccount/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_Add_ACH = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddACH/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_Add_CC = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_App_Plan = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddPaymentPlan/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_DeleteProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfile/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_ModifyProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ModifyProfile/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_ViewProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_VSPAuth = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Auth/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_VSPAuthCap = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - path_Debit = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - appName = "a_Access AutoNoCFtp": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - appID = "742": null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - break: null
+
+2022-07-01 00:50:00 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-07-01 00:50:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 00:50:01 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-07-01 00:50:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 00:50:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2022-07-01 00:50:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-01 00:50:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2022-07-01 00:50:06 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2022-07-01 00:50:06 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2022-07-01 00:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2022-07-01 00:50:10 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-07-01 00:50:10 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + appName)): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2022-07-01 00:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2022-07-01 00:50:11 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "a_Create")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Create' is clicked on
+
+2022-07-01 00:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Create' is clicked on
+
+2022-07-01 00:50:13 - [TEST_STEP][PASSED] - verifyTextPresent("Create Profile", true): Text 'Create Profile' is present on page  using regular expression
+
+2022-07-01 00:50:13 - [MESSAGE][PASSED] - Text 'Create Profile' is present on page  using regular expression
+
+2022-07-01 00:50:13 - [TEST_STEP][PASSED] - verifyTextPresent("Indicates required fields", true): Text 'Indicates required fields' is present on page  using regular expression
+
+2022-07-01 00:50:14 - [MESSAGE][PASSED] - Text 'Indicates required fields' is present on page  using regular expression
+
+2022-07-01 00:50:14 - [TEST_STEP][PASSED] - verifyTextPresent("Enter Customer Name", true): Text 'Enter Customer Name' is present on page  using regular expression
+
+2022-07-01 00:50:14 - [MESSAGE][PASSED] - Text 'Enter Customer Name' is present on page  using regular expression
+
+2022-07-01 00:50:14 - [TEST_STEP][PASSED] - verifyTextPresent("Enter Customer Address", true): Text 'Enter Customer Address' is present on page  using regular expression
+
+2022-07-01 00:50:14 - [MESSAGE][PASSED] - Text 'Enter Customer Address' is present on page  using regular expression
+
+2022-07-01 00:50:14 - [TEST_STEP][PASSED] - verifyTextPresent("Additional Contact Information", true): Text 'Additional Contact Information' is present on page  using regular expression
+
+2022-07-01 00:50:15 - [MESSAGE][PASSED] - Text 'Additional Contact Information' is present on page  using regular expression
+
+2022-07-01 00:50:15 - [TEST_STEP][PASSED] - verifyTextPresent("Notes/Comments", true): Text 'Notes/Comments' is present on page  using regular expression
+
+2022-07-01 00:50:15 - [MESSAGE][PASSED] - Text 'Notes/Comments' is present on page  using regular expression
+
+2022-07-01 00:50:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_profileName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_profileName' is visible
+
+2022-07-01 00:50:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_profileName' is visible
+
+2022-07-01 00:50:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_profileName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_profileName' is present
+
+2022-07-01 00:50:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_profileName' is present
+
+2022-07-01 00:50:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_CompanyName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_CompanyName' is visible
+
+2022-07-01 00:50:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_CompanyName' is visible
+
+2022-07-01 00:50:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_CompanyName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_CompanyName' is present
+
+2022-07-01 00:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_CompanyName' is present
+
+2022-07-01 00:50:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "select_Title")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Title' is visible
+
+2022-07-01 00:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Title' is visible
+
+2022-07-01 00:50:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "select_Title"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Title' is present
+
+2022-07-01 00:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Title' is present
+
+2022-07-01 00:50:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_FirstName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_FirstName' is visible
+
+2022-07-01 00:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_FirstName' is visible
+
+2022-07-01 00:50:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_FirstName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_FirstName' is present
+
+2022-07-01 00:50:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_FirstName' is present
+
+2022-07-01 00:50:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_MiddleName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MiddleName' is visible
+
+2022-07-01 00:50:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MiddleName' is visible
+
+2022-07-01 00:50:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_MiddleName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MiddleName' is present
+
+2022-07-01 00:50:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MiddleName' is present
+
+2022-07-01 00:50:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_LastName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_LastName' is visible
+
+2022-07-01 00:50:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_LastName' is visible
+
+2022-07-01 00:50:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_LastName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_LastName' is present
+
+2022-07-01 00:50:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_LastName' is present
+
+2022-07-01 00:50:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "select_Suffix")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Suffix' is visible
+
+2022-07-01 00:50:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Suffix' is visible
+
+2022-07-01 00:50:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "select_Suffix"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Suffix' is present
+
+2022-07-01 00:50:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Suffix' is present
+
+2022-07-01 00:50:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_address1")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_address1' is visible
+
+2022-07-01 00:50:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_address1' is visible
+
+2022-07-01 00:50:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_address1"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_address1' is present
+
+2022-07-01 00:50:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_address1' is present
+
+2022-07-01 00:50:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_AddressLine2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_AddressLine2' is visible
+
+2022-07-01 00:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_AddressLine2' is visible
+
+2022-07-01 00:50:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_AddressLine2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_AddressLine2' is present
+
+2022-07-01 00:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_AddressLine2' is present
+
+2022-07-01 00:50:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "select_Country")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Country' is visible
+
+2022-07-01 00:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Country' is visible
+
+2022-07-01 00:50:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "select_Country"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Country' is present
+
+2022-07-01 00:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Country' is present
+
+2022-07-01 00:50:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_PostalCode")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCode' is visible
+
+2022-07-01 00:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCode' is visible
+
+2022-07-01 00:50:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_PostalCode"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCode' is present
+
+2022-07-01 00:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCode' is present
+
+2022-07-01 00:50:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_PostalCodeExt")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCodeExt' is visible
+
+2022-07-01 00:50:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCodeExt' is visible
+
+2022-07-01 00:50:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_PostalCodeExt"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCodeExt' is present
+
+2022-07-01 00:50:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCodeExt' is present
+
+2022-07-01 00:50:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_City")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_City' is visible
+
+2022-07-01 00:50:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_City' is visible
+
+2022-07-01 00:50:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_City"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_City' is present
+
+2022-07-01 00:50:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_City' is present
+
+2022-07-01 00:50:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "select_State")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_State' is visible
+
+2022-07-01 00:50:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_State' is visible
+
+2022-07-01 00:50:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "select_State"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_State' is present
+
+2022-07-01 00:50:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_State' is present
+
+2022-07-01 00:50:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_EmaiAddress")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_EmaiAddress' is visible
+
+2022-07-01 00:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_EmaiAddress' is visible
+
+2022-07-01 00:50:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_EmaiAddress"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_EmaiAddress' is present
+
+2022-07-01 00:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_EmaiAddress' is present
+
+2022-07-01 00:50:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_HomePhoneNumber_HomeAreaCode")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_HomePhoneNumber_HomeAreaCode' is visible
+
+2022-07-01 00:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_HomePhoneNumber_HomeAreaCode' is visible
+
+2022-07-01 00:50:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_HomePhoneNumber_HomeAreaCode"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_HomePhoneNumber_HomeAreaCode' is present
+
+2022-07-01 00:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_HomePhoneNumber_HomeAreaCode' is present
+
+2022-07-01 00:50:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_homePrefixNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homePrefixNumber' is visible
+
+2022-07-01 00:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homePrefixNumber' is visible
+
+2022-07-01 00:50:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_homePrefixNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homePrefixNumber' is present
+
+2022-07-01 00:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homePrefixNumber' is present
+
+2022-07-01 00:50:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_homeSuffixNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homeSuffixNumber' is visible
+
+2022-07-01 00:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homeSuffixNumber' is visible
+
+2022-07-01 00:50:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_homeSuffixNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homeSuffixNumber' is present
+
+2022-07-01 00:50:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homeSuffixNumber' is present
+
+2022-07-01 00:50:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_MobilePhoneNumber_mobileAreaCode")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MobilePhoneNumber_mobileAreaCode' is visible
+
+2022-07-01 00:50:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MobilePhoneNumber_mobileAreaCode' is visible
+
+2022-07-01 00:50:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_MobilePhoneNumber_mobileAreaCode"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MobilePhoneNumber_mobileAreaCode' is present
+
+2022-07-01 00:50:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MobilePhoneNumber_mobileAreaCode' is present
+
+2022-07-01 00:50:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_mobilePrefixNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobilePrefixNumber' is visible
+
+2022-07-01 00:50:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobilePrefixNumber' is visible
+
+2022-07-01 00:50:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_mobilePrefixNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobilePrefixNumber' is present
+
+2022-07-01 00:50:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobilePrefixNumber' is present
+
+2022-07-01 00:50:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_mobileSuffixNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobileSuffixNumber' is visible
+
+2022-07-01 00:50:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobileSuffixNumber' is visible
+
+2022-07-01 00:50:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_mobileSuffixNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobileSuffixNumber' is present
+
+2022-07-01 00:50:29 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobileSuffixNumber' is present
+
+2022-07-01 00:50:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_WorkPhoneNumber_workAreaCode")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_WorkPhoneNumber_workAreaCode' is visible
+
+2022-07-01 00:50:29 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_WorkPhoneNumber_workAreaCode' is visible
+
+2022-07-01 00:50:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_WorkPhoneNumber_workAreaCode"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_WorkPhoneNumber_workAreaCode' is present
+
+2022-07-01 00:50:29 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_WorkPhoneNumber_workAreaCode' is present
+
+2022-07-01 00:50:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_workPrefixNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workPrefixNumber' is visible
+
+2022-07-01 00:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workPrefixNumber' is visible
+
+2022-07-01 00:50:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_workPrefixNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workPrefixNumber' is present
+
+2022-07-01 00:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workPrefixNumber' is present
+
+2022-07-01 00:50:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_workSuffixNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workSuffixNumber' is visible
+
+2022-07-01 00:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workSuffixNumber' is visible
+
+2022-07-01 00:50:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_workSuffixNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workSuffixNumber' is present
+
+2022-07-01 00:50:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workSuffixNumber' is present
+
+2022-07-01 00:50:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "input_Ext_workExtension")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_Ext_workExtension' is visible
+
+2022-07-01 00:50:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_Ext_workExtension' is visible
+
+2022-07-01 00:50:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "input_Ext_workExtension"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_Ext_workExtension' is present
+
+2022-07-01 00:50:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_Ext_workExtension' is present
+
+2022-07-01 00:50:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "textarea_NotesComments_note")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/textarea_NotesComments_note' is visible
+
+2022-07-01 00:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/textarea_NotesComments_note' is visible
+
+2022-07-01 00:50:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "textarea_NotesComments_note"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/textarea_NotesComments_note' is present
+
+2022-07-01 00:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/textarea_NotesComments_note' is present
+
+2022-07-01 00:50:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "button_Cancel")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Cancel' is visible
+
+2022-07-01 00:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Cancel' is visible
+
+2022-07-01 00:50:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "button_Cancel"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Cancel' is present
+
+2022-07-01 00:50:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Cancel' is present
+
+2022-07-01 00:50:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "button_Save")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save' is visible
+
+2022-07-01 00:50:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save' is visible
+
+2022-07-01 00:50:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "button_Save"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save' is present
+
+2022-07-01 00:50:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save' is present
+
+2022-07-01 00:50:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "button_Save  Add ACH")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add ACH' is visible
+
+2022-07-01 00:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add ACH' is visible
+
+2022-07-01 00:50:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "button_Save  Add ACH"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add ACH' is present
+
+2022-07-01 00:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add ACH' is present
+
+2022-07-01 00:50:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_CreateProfile + "button_Save  Add Credit Card")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add Credit Card' is visible
+
+2022-07-01 00:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add Credit Card' is visible
+
+2022-07-01 00:50:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CreateProfile + "button_Save  Add Credit Card"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add Credit Card' is present
+
+2022-07-01 00:50:35 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add Credit Card' is present
+
+2022-07-01 00:50:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-01 00:50:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/ViewProfile_UI_Generic_TC" time="45.984" classname="Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/ViewProfile_UI_Generic_TC" status="PASSED">
+         <system-out><![CDATA[2022-07-01 00:50:36 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/ViewProfile_UI_Generic_TC: Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/ViewProfile_UI_Generic_TC
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_CreateProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_AddAccount = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddAccount/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_Add_ACH = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddACH/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_Add_CC = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_App_Plan = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddPaymentPlan/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_DeleteProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfile/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_ModifyProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ModifyProfile/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_ViewProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_VSPAuth = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Auth/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_VSPAuthCap = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_Debit = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_DeleteProfileConfirm = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfileConfirm/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - path_ViewProfilePre = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - nameSheet = "VerifyViewProfile": null
+
+2022-07-01 00:50:36 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/Bootstrap/VSP-Profile-TestData/VerifyViewProfile").getRowNumbers(): null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - dataFile = "QA/Bootstrap/VSP-Profile-TestData/VerifyViewProfile": null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): Browser is closed
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - break: null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): Browser is closed
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2022-07-01 00:50:37 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-07-01 00:50:38 - [TEST_STEP][PASSED] - println(today): null
+
+2022-07-01 00:50:38 - [TEST_STEP][PASSED] - datText = today: null
+
+2022-07-01 00:50:38 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-07-01 00:50:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 00:50:38 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-07-01 00:50:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 00:50:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2022-07-01 00:50:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-01 00:50:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2022-07-01 00:50:41 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2022-07-01 00:50:42 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2022-07-01 00:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2022-07-01 00:50:46 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-07-01 00:50:46 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + appName)): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2022-07-01 00:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2022-07-01 00:50:47 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "a_Find Profile")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Find Profile' is clicked on
+
+2022-07-01 00:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Find Profile' is clicked on
+
+2022-07-01 00:50:48 - [TEST_STEP][PASSED] - vspBootstrap.SearchProfilePage.setDataSearchProfile(row, dataFile): vspBootstrap.SearchProfilePage.setDataSearchProfile is PASSED
+
+2022-07-01 00:50:49 - [MESSAGE][PASSED] - Text 'VerifyViewProfile' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/input_Criteria'
+
+2022-07-01 00:50:50 - [MESSAGE][PASSED] - All options with label 'Name only' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/select_SearchBy'  using regular expression
+
+2022-07-01 00:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/button_Search' is clicked on
+
+2022-07-01 00:50:51 - [MESSAGE][PASSED] - vspBootstrap.SearchProfilePage.setDataSearchProfile is PASSED
+
+2022-07-01 00:50:51 - [TEST_STEP][PASSED] - verifyTextPresent("VerifyViewProfile", true): Text 'VerifyViewProfile' is present on page  using regular expression
+
+2022-07-01 00:50:52 - [MESSAGE][PASSED] - Text 'VerifyViewProfile' is present on page  using regular expression
+
+2022-07-01 00:50:52 - [TEST_STEP][PASSED] - verifyTextPresent("Administrative Profile", true): Text 'Administrative Profile' is present on page  using regular expression
+
+2022-07-01 00:50:52 - [MESSAGE][PASSED] - Text 'Administrative Profile' is present on page  using regular expression
+
+2022-07-01 00:50:52 - [TEST_STEP][PASSED] - verifyTextPresent("Company Name:  VVP Company", true): Text 'Company Name:  VVP Company' is present on page  using regular expression
+
+2022-07-01 00:50:52 - [MESSAGE][PASSED] - Text 'Company Name:  VVP Company' is present on page  using regular expression
+
+2022-07-01 00:50:52 - [TEST_STEP][PASSED] - verifyTextPresent("Title & First Name & Middle Name & Last Name & Suffix:  Mr. Joravar Maush Chaudhary Sr.", true): Text 'Title & First Name & Middle Name & Last Name & Suffix:  Mr. Joravar Maush Chaudhary Sr.' is present on page  using regular expression
+
+2022-07-01 00:50:53 - [MESSAGE][PASSED] - Text 'Title & First Name & Middle Name & Last Name & Suffix:  Mr. Joravar Maush Chaudhary Sr.' is present on page  using regular expression
+
+2022-07-01 00:50:53 - [TEST_STEP][PASSED] - verifyTextPresent("Address Line 1:  596 VVP Avenue", true): Text 'Address Line 1:  596 VVP Avenue' is present on page  using regular expression
+
+2022-07-01 00:50:53 - [MESSAGE][PASSED] - Text 'Address Line 1:  596 VVP Avenue' is present on page  using regular expression
+
+2022-07-01 00:50:53 - [TEST_STEP][PASSED] - verifyTextPresent("Address Line 2:  Suite 6598", true): Text 'Address Line 2:  Suite 6598' is present on page  using regular expression
+
+2022-07-01 00:50:53 - [MESSAGE][PASSED] - Text 'Address Line 2:  Suite 6598' is present on page  using regular expression
+
+2022-07-01 00:50:53 - [TEST_STEP][PASSED] - verifyTextPresent("City & State & Zip Code: ARLINGTON ,  VA    22201 -1234", true): Text 'City & State & Zip Code: ARLINGTON ,  VA    22201 -1234' is present on page  using regular expression
+
+2022-07-01 00:50:54 - [MESSAGE][PASSED] - Text 'City & State & Zip Code: ARLINGTON ,  VA    22201 -1234' is present on page  using regular expression
+
+2022-07-01 00:50:54 - [TEST_STEP][PASSED] - verifyTextPresent("Country:  United States", true): Text 'Country:  United States' is present on page  using regular expression
+
+2022-07-01 00:50:54 - [MESSAGE][PASSED] - Text 'Country:  United States' is present on page  using regular expression
+
+2022-07-01 00:50:54 - [TEST_STEP][PASSED] - verifyTextPresent("VVP Visa", true): Text 'VVP Visa' is present on page  using regular expression
+
+2022-07-01 00:50:54 - [MESSAGE][PASSED] - Text 'VVP Visa' is present on page  using regular expression
+
+2022-07-01 00:50:54 - [TEST_STEP][PASSED] - verifyTextPresent("VVP Corporate", true): Text 'VVP Corporate' is present on page  using regular expression
+
+2022-07-01 00:50:55 - [MESSAGE][PASSED] - Text 'VVP Corporate' is present on page  using regular expression
+
+2022-07-01 00:50:55 - [TEST_STEP][PASSED] - verifyTextPresent("VVP Personal Savings", true): Text 'VVP Personal Savings' is present on page  using regular expression
+
+2022-07-01 00:50:55 - [MESSAGE][PASSED] - Text 'VVP Personal Savings' is present on page  using regular expression
+
+2022-07-01 00:50:55 - [TEST_STEP][PASSED] - verifyTextPresent("VVP Personal Checking", true): Text 'VVP Personal Checking' is present on page  using regular expression
+
+2022-07-01 00:50:55 - [MESSAGE][PASSED] - Text 'VVP Personal Checking' is present on page  using regular expression
+
+2022-07-01 00:50:55 - [TEST_STEP][PASSED] - verifyTextPresent("VVP Client Account", true): Text 'VVP Client Account' is present on page  using regular expression
+
+2022-07-01 00:50:56 - [MESSAGE][PASSED] - Text 'VVP Client Account' is present on page  using regular expression
+
+2022-07-01 00:50:56 - [TEST_STEP][PASSED] - verifyTextPresent("This is a View Profile Account", true): Text 'This is a View Profile Account' is present on page  using regular expression
+
+2022-07-01 00:50:56 - [MESSAGE][PASSED] - Text 'This is a View Profile Account' is present on page  using regular expression
+
+2022-07-01 00:50:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_VerifyViewProfile")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_VerifyViewProfile' is visible
+
+2022-07-01 00:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_VerifyViewProfile' is visible
+
+2022-07-01 00:50:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_VerifyViewProfile"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_VerifyViewProfile' is present
+
+2022-07-01 00:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_VerifyViewProfile' is present
+
+2022-07-01 00:50:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_View")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_View' is visible
+
+2022-07-01 00:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_View' is visible
+
+2022-07-01 00:50:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_View"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_View' is present
+
+2022-07-01 00:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_View' is present
+
+2022-07-01 00:50:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_Edit")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Edit' is visible
+
+2022-07-01 00:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Edit' is visible
+
+2022-07-01 00:50:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_Edit"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Edit' is present
+
+2022-07-01 00:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Edit' is present
+
+2022-07-01 00:50:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_Delete")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Delete' is visible
+
+2022-07-01 00:50:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Delete' is visible
+
+2022-07-01 00:50:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_Delete"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Delete' is present
+
+2022-07-01 00:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Delete' is present
+
+2022-07-01 00:50:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "li_First")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_First' is visible
+
+2022-07-01 00:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_First' is visible
+
+2022-07-01 00:50:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "li_First"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_First' is present
+
+2022-07-01 00:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_First' is present
+
+2022-07-01 00:50:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "li_Previous")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Previous' is visible
+
+2022-07-01 00:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Previous' is visible
+
+2022-07-01 00:51:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "li_Previous"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Previous' is present
+
+2022-07-01 00:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Previous' is present
+
+2022-07-01 00:51:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_1")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_1' is visible
+
+2022-07-01 00:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_1' is visible
+
+2022-07-01 00:51:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_1"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_1' is present
+
+2022-07-01 00:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_1' is present
+
+2022-07-01 00:51:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "li_Next")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Next' is visible
+
+2022-07-01 00:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Next' is visible
+
+2022-07-01 00:51:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "li_Next"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Next' is present
+
+2022-07-01 00:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Next' is present
+
+2022-07-01 00:51:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "li_Last")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Last' is visible
+
+2022-07-01 00:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Last' is visible
+
+2022-07-01 00:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "li_Last"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Last' is present
+
+2022-07-01 00:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/li_Last' is present
+
+2022-07-01 00:51:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_AuthCap")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_AuthCap' is visible
+
+2022-07-01 00:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_AuthCap' is visible
+
+2022-07-01 00:51:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_AuthCap"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_AuthCap' is present
+
+2022-07-01 00:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_AuthCap' is present
+
+2022-07-01 00:51:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_Auth")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Auth' is visible
+
+2022-07-01 00:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Auth' is visible
+
+2022-07-01 00:51:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_Auth"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Auth' is present
+
+2022-07-01 00:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_Auth' is present
+
+2022-07-01 00:51:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_DebitChecking")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitChecking' is visible
+
+2022-07-01 00:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitChecking' is visible
+
+2022-07-01 00:51:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_DebitChecking"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitChecking' is present
+
+2022-07-01 00:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitChecking' is present
+
+2022-07-01 00:51:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_DebitCorporate")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitCorporate' is visible
+
+2022-07-01 00:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitCorporate' is visible
+
+2022-07-01 00:51:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_DebitCorporate"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitCorporate' is present
+
+2022-07-01 00:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitCorporate' is present
+
+2022-07-01 00:51:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfilePre + "a_DebitSavings")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitSavings' is visible
+
+2022-07-01 00:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitSavings' is visible
+
+2022-07-01 00:51:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfilePre + "a_DebitSavings"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitSavings' is present
+
+2022-07-01 00:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_DebitSavings' is present
+
+2022-07-01 00:51:05 - [TEST_STEP][PASSED] - click(findTestObject(path_ViewProfilePre + "a_VerifyViewProfile")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_VerifyViewProfile' is clicked on
+
+2022-07-01 00:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/a_VerifyViewProfile' is clicked on
+
+2022-07-01 00:51:07 - [TEST_STEP][PASSED] - verifyTextPresent("VVP Company", true): Text 'VVP Company' is present on page  using regular expression
+
+2022-07-01 00:51:07 - [MESSAGE][PASSED] - Text 'VVP Company' is present on page  using regular expression
+
+2022-07-01 00:51:07 - [TEST_STEP][PASSED] - verifyTextPresent("Mr. Joravar Maush Chaudhary Sr.", true): Text 'Mr. Joravar Maush Chaudhary Sr.' is present on page  using regular expression
+
+2022-07-01 00:51:08 - [MESSAGE][PASSED] - Text 'Mr. Joravar Maush Chaudhary Sr.' is present on page  using regular expression
+
+2022-07-01 00:51:08 - [TEST_STEP][PASSED] - verifyTextPresent("596 VVP Avenue", true): Text '596 VVP Avenue' is present on page  using regular expression
+
+2022-07-01 00:51:08 - [MESSAGE][PASSED] - Text '596 VVP Avenue' is present on page  using regular expression
+
+2022-07-01 00:51:08 - [TEST_STEP][PASSED] - verifyTextPresent("Suite 6598", true): Text 'Suite 6598' is present on page  using regular expression
+
+2022-07-01 00:51:08 - [MESSAGE][PASSED] - Text 'Suite 6598' is present on page  using regular expression
+
+2022-07-01 00:51:08 - [TEST_STEP][PASSED] - verifyTextPresent("ARLINGTON ,  VA    22201  - 1234", true): Text 'ARLINGTON ,  VA    22201  - 1234' is present on page  using regular expression
+
+2022-07-01 00:51:09 - [MESSAGE][PASSED] - Text 'ARLINGTON ,  VA    22201  - 1234' is present on page  using regular expression
+
+2022-07-01 00:51:09 - [TEST_STEP][PASSED] - verifyTextPresent("United States", true): Text 'United States' is present on page  using regular expression
+
+2022-07-01 00:51:09 - [MESSAGE][PASSED] - Text 'United States' is present on page  using regular expression
+
+2022-07-01 00:51:09 - [TEST_STEP][PASSED] - verifyTextPresent("Email: iahmed55@govolution.com", true): Text 'Email: iahmed55@govolution.com' is present on page  using regular expression
+
+2022-07-01 00:51:09 - [MESSAGE][PASSED] - Text 'Email: iahmed55@govolution.com' is present on page  using regular expression
+
+2022-07-01 00:51:09 - [TEST_STEP][PASSED] - verifyTextPresent("628-0701", true): Text '628-0701' is present on page  using regular expression
+
+2022-07-01 00:51:10 - [MESSAGE][PASSED] - Text '628-0701' is present on page  using regular expression
+
+2022-07-01 00:51:10 - [TEST_STEP][PASSED] - verifyTextPresent("897-3589", true): Text '897-3589' is present on page  using regular expression
+
+2022-07-01 00:51:10 - [MESSAGE][PASSED] - Text '897-3589' is present on page  using regular expression
+
+2022-07-01 00:51:10 - [TEST_STEP][PASSED] - verifyTextPresent("894-7770 Ext:123", true): Text '894-7770 Ext:123' is present on page  using regular expression
+
+2022-07-01 00:51:10 - [MESSAGE][PASSED] - Text '894-7770 Ext:123' is present on page  using regular expression
+
+2022-07-01 00:51:10 - [TEST_STEP][PASSED] - verifyTextPresent("Notes/Comments: This is a Profile to Verify View Profile.", true): Text 'Notes/Comments: This is a Profile to Verify View Profile.' is present on page  using regular expression
+
+2022-07-01 00:51:11 - [MESSAGE][PASSED] - Text 'Notes/Comments: This is a Profile to Verify View Profile.' is present on page  using regular expression
+
+2022-07-01 00:51:11 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Cards", true): Text 'Credit Cards' is present on page  using regular expression
+
+2022-07-01 00:51:11 - [MESSAGE][PASSED] - Text 'Credit Cards' is present on page  using regular expression
+
+2022-07-01 00:51:11 - [TEST_STEP][PASSED] - verifyTextPresent("On-line Checks", true): Text 'On-line Checks' is present on page  using regular expression
+
+2022-07-01 00:51:11 - [MESSAGE][PASSED] - Text 'On-line Checks' is present on page  using regular expression
+
+2022-07-01 00:51:11 - [TEST_STEP][PASSED] - verifyTextPresent("Accounts", true): Text 'Accounts' is present on page  using regular expression
+
+2022-07-01 00:51:12 - [MESSAGE][PASSED] - Text 'Accounts' is present on page  using regular expression
+
+2022-07-01 00:51:12 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Plans", true): Text 'Payment Plans' is present on page  using regular expression
+
+2022-07-01 00:51:12 - [MESSAGE][PASSED] - Text 'Payment Plans' is present on page  using regular expression
+
+2022-07-01 00:51:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_Modify Profile")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Modify Profile' is visible
+
+2022-07-01 00:51:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Modify Profile' is visible
+
+2022-07-01 00:51:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_Modify Profile"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Modify Profile' is present
+
+2022-07-01 00:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Modify Profile' is present
+
+2022-07-01 00:51:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_Delete Profile")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Delete Profile' is visible
+
+2022-07-01 00:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Delete Profile' is visible
+
+2022-07-01 00:51:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_Delete Profile"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Delete Profile' is present
+
+2022-07-01 00:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Delete Profile' is present
+
+2022-07-01 00:51:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_Return to Main Menu")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Return to Main Menu' is visible
+
+2022-07-01 00:51:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Return to Main Menu' is visible
+
+2022-07-01 00:51:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_Return to Main Menu"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Return to Main Menu' is present
+
+2022-07-01 00:51:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Return to Main Menu' is present
+
+2022-07-01 00:51:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_AuthCap")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_AuthCap' is visible
+
+2022-07-01 00:51:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_AuthCap' is visible
+
+2022-07-01 00:51:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_AuthCap"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_AuthCap' is present
+
+2022-07-01 00:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_AuthCap' is present
+
+2022-07-01 00:51:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_Auth")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Auth' is visible
+
+2022-07-01 00:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Auth' is visible
+
+2022-07-01 00:51:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_Auth"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Auth' is present
+
+2022-07-01 00:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Auth' is present
+
+2022-07-01 00:51:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "button_Add Credit Card")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Credit Card' is visible
+
+2022-07-01 00:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Credit Card' is visible
+
+2022-07-01 00:51:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "button_Add Credit Card"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Credit Card' is present
+
+2022-07-01 00:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Credit Card' is present
+
+2022-07-01 00:51:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "button_Add ACH")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add ACH' is visible
+
+2022-07-01 00:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add ACH' is visible
+
+2022-07-01 00:51:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "button_Add ACH"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add ACH' is present
+
+2022-07-01 00:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add ACH' is present
+
+2022-07-01 00:51:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "button_Add Account")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Account' is visible
+
+2022-07-01 00:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Account' is visible
+
+2022-07-01 00:51:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "button_Add Account"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Account' is present
+
+2022-07-01 00:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Account' is present
+
+2022-07-01 00:51:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "button_Add Payment Plan")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Payment Plan' is visible
+
+2022-07-01 00:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Payment Plan' is visible
+
+2022-07-01 00:51:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "button_Add Payment Plan"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Payment Plan' is present
+
+2022-07-01 00:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/button_Add Payment Plan' is present
+
+2022-07-01 00:51:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_VVP Visa")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Visa' is visible
+
+2022-07-01 00:51:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Visa' is visible
+
+2022-07-01 00:51:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_VVP Visa"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Visa' is present
+
+2022-07-01 00:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Visa' is present
+
+2022-07-01 00:51:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_VVP Corporate")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Corporate' is visible
+
+2022-07-01 00:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Corporate' is visible
+
+2022-07-01 00:51:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_VVP Corporate"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Corporate' is present
+
+2022-07-01 00:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Corporate' is present
+
+2022-07-01 00:51:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_VVP Personal Checking")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Personal Checking' is visible
+
+2022-07-01 00:51:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Personal Checking' is visible
+
+2022-07-01 00:51:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_VVP Personal Checking"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Personal Checking' is present
+
+2022-07-01 00:51:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Personal Checking' is present
+
+2022-07-01 00:51:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_ViewProfile + "a_VVP Personal Savings")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Personal Savings' is visible
+
+2022-07-01 00:51:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Personal Savings' is visible
+
+2022-07-01 00:51:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_ViewProfile + "a_VVP Personal Savings"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Personal Savings' is present
+
+2022-07-01 00:51:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_VVP Personal Savings' is present
+
+2022-07-01 00:51:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-01 00:51:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/AddCreditCard_UI_Generic_TC" time="50.055" classname="Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/AddCreditCard_UI_Generic_TC" status="PASSED">
+         <system-out><![CDATA[2022-07-01 00:51:22 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/AddCreditCard_UI_Generic_TC: Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/AddCreditCard_UI_Generic_TC
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_CreateProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_AddAccount = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddAccount/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_Add_ACH = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddACH/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_Add_CC = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_App_Plan = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddPaymentPlan/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_DeleteProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfile/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_ModifyProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ModifyProfile/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_ViewProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_VSPAuth = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Auth/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_VSPAuthCap = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_Debit = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - path_DeleteProfileConfirm = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfileConfirm/": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - nameSheet = "AddCCUI": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/Bootstrap/VSP-Profile-TestData/AddCCUI").getRowNumbers(): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - dataFile = "QA/Bootstrap/VSP-Profile-TestData/AddCCUI": null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): Browser is closed
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - break: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): Browser is closed
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - println(today): null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - datText = today: null
+
+2022-07-01 00:51:22 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-07-01 00:51:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 00:51:22 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-07-01 00:51:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 00:51:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2022-07-01 00:51:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-01 00:51:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2022-07-01 00:51:26 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2022-07-01 00:51:27 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2022-07-01 00:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2022-07-01 00:51:31 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2022-07-01 00:51:31 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + appName)): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2022-07-01 00:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2022-07-01 00:51:32 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "a_Create")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Create' is clicked on
+
+2022-07-01 00:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Create' is clicked on
+
+2022-07-01 00:51:33 - [TEST_STEP][PASSED] - vspBootstrap.CreateProfilePage.setDataONLYCreateProfile(row, dataFile): vspBootstrap.CreateProfilePage.setDataONLYCreateProfile is PASSED
+
+2022-07-01 00:51:36 - [MESSAGE][PASSED] - Text '22201' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCode'
+
+2022-07-01 00:51:36 - [MESSAGE][PASSED] - Text '2nH1Hh24bKkS' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_profileName'
+
+2022-07-01 00:51:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_CompanyName'
+
+2022-07-01 00:51:38 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Title'  using regular expression
+
+2022-07-01 00:51:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_FirstName'
+
+2022-07-01 00:51:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MiddleName'
+
+2022-07-01 00:51:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_LastName'
+
+2022-07-01 00:51:41 - [MESSAGE][PASSED] - All options with label '' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/select_Suffix'  using regular expression
+
+2022-07-01 00:51:41 - [MESSAGE][PASSED] - Text '15 Toledo Road' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_address1'
+
+2022-07-01 00:51:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_AddressLine2'
+
+2022-07-01 00:51:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_PostalCodeExt'
+
+2022-07-01 00:51:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_EmaiAddress'
+
+2022-07-01 00:51:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_HomePhoneNumber_HomeAreaCode'
+
+2022-07-01 00:51:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homePrefixNumber'
+
+2022-07-01 00:51:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_homeSuffixNumber'
+
+2022-07-01 00:51:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_MobilePhoneNumber_mobileAreaCode'
+
+2022-07-01 00:51:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobilePrefixNumber'
+
+2022-07-01 00:51:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_mobileSuffixNumber'
+
+2022-07-01 00:51:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_WorkPhoneNumber_workAreaCode'
+
+2022-07-01 00:51:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workPrefixNumber'
+
+2022-07-01 00:51:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_workSuffixNumber'
+
+2022-07-01 00:51:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/input_Ext_workExtension'
+
+2022-07-01 00:51:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/textarea_NotesComments_note'
+
+2022-07-01 00:51:50 - [MESSAGE][PASSED] - vspBootstrap.CreateProfilePage.setDataONLYCreateProfile is PASSED
+
+2022-07-01 00:51:50 - [TEST_STEP][PASSED] - click(findTestObject(path_CreateProfile + "button_Save  Add Credit Card")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add Credit Card' is clicked on
+
+2022-07-01 00:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/button_Save  Add Credit Card' is clicked on
+
+2022-07-01 00:51:52 - [TEST_STEP][PASSED] - verifyTextPresent("Profile successfully created", true): Text 'Profile successfully created' is present on page  using regular expression
+
+2022-07-01 00:51:52 - [MESSAGE][PASSED] - Text 'Profile successfully created' is present on page  using regular expression
+
+2022-07-01 00:51:52 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Card Information", true): Text 'Credit Card Information' is present on page  using regular expression
+
+2022-07-01 00:51:53 - [MESSAGE][PASSED] - Text 'Credit Card Information' is present on page  using regular expression
+
+2022-07-01 00:51:53 - [TEST_STEP][PASSED] - verifyTextPresent("Indicates required fields", true): Text 'Indicates required fields' is present on page  using regular expression
+
+2022-07-01 00:51:53 - [MESSAGE][PASSED] - Text 'Indicates required fields' is present on page  using regular expression
+
+2022-07-01 00:51:53 - [TEST_STEP][PASSED] - verifyTextPresent("Enter Card Holder Name", true): Text 'Enter Card Holder Name' is present on page  using regular expression
+
+2022-07-01 00:51:53 - [MESSAGE][PASSED] - Text 'Enter Card Holder Name' is present on page  using regular expression
+
+2022-07-01 00:51:53 - [TEST_STEP][PASSED] - verifyTextPresent("Enter Card Holder Billing Address", true): Text 'Enter Card Holder Billing Address' is present on page  using regular expression
+
+2022-07-01 00:51:54 - [MESSAGE][PASSED] - Text 'Enter Card Holder Billing Address' is present on page  using regular expression
+
+2022-07-01 00:51:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "select_Title")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Title' is visible
+
+2022-07-01 00:51:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Title' is visible
+
+2022-07-01 00:51:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "select_Title"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Title' is present
+
+2022-07-01 00:51:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Title' is present
+
+2022-07-01 00:51:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_firstName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_firstName' is visible
+
+2022-07-01 00:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_firstName' is visible
+
+2022-07-01 00:51:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_firstName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_firstName' is present
+
+2022-07-01 00:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_firstName' is present
+
+2022-07-01 00:51:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_MiddleName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_MiddleName' is visible
+
+2022-07-01 00:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_MiddleName' is visible
+
+2022-07-01 00:51:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_MiddleName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_MiddleName' is present
+
+2022-07-01 00:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_MiddleName' is present
+
+2022-07-01 00:51:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_lastName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_lastName' is visible
+
+2022-07-01 00:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_lastName' is visible
+
+2022-07-01 00:51:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_lastName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_lastName' is present
+
+2022-07-01 00:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_lastName' is present
+
+2022-07-01 00:51:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "select_Suffix")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Suffix' is visible
+
+2022-07-01 00:51:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Suffix' is visible
+
+2022-07-01 00:51:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "select_Suffix"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Suffix' is present
+
+2022-07-01 00:51:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Suffix' is present
+
+2022-07-01 00:51:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_nickName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_nickName' is visible
+
+2022-07-01 00:51:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_nickName' is visible
+
+2022-07-01 00:51:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_nickName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_nickName' is present
+
+2022-07-01 00:51:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_nickName' is present
+
+2022-07-01 00:51:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_cardNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_cardNumber' is visible
+
+2022-07-01 00:51:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_cardNumber' is visible
+
+2022-07-01 00:51:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_cardNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_cardNumber' is present
+
+2022-07-01 00:51:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_cardNumber' is present
+
+2022-07-01 00:51:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "select_ExpMonth")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_ExpMonth' is visible
+
+2022-07-01 00:51:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_ExpMonth' is visible
+
+2022-07-01 00:51:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "select_ExpMonth"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_ExpMonth' is present
+
+2022-07-01 00:51:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_ExpMonth' is present
+
+2022-07-01 00:51:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "select_ExpYear")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_ExpYear' is visible
+
+2022-07-01 00:51:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_ExpYear' is visible
+
+2022-07-01 00:51:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "select_ExpYear"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_ExpYear' is present
+
+2022-07-01 00:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_ExpYear' is present
+
+2022-07-01 00:52:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_address1")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_address1' is visible
+
+2022-07-01 00:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_address1' is visible
+
+2022-07-01 00:52:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_address1"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_address1' is present
+
+2022-07-01 00:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_address1' is present
+
+2022-07-01 00:52:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_AddressLine2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_AddressLine2' is visible
+
+2022-07-01 00:52:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_AddressLine2' is visible
+
+2022-07-01 00:52:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_AddressLine2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_AddressLine2' is present
+
+2022-07-01 00:52:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_AddressLine2' is present
+
+2022-07-01 00:52:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "select_Country")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Country' is visible
+
+2022-07-01 00:52:01 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Country' is visible
+
+2022-07-01 00:52:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "select_Country"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Country' is present
+
+2022-07-01 00:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_Country' is present
+
+2022-07-01 00:52:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_postalCode")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_postalCode' is visible
+
+2022-07-01 00:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_postalCode' is visible
+
+2022-07-01 00:52:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_postalCode"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_postalCode' is present
+
+2022-07-01 00:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_postalCode' is present
+
+2022-07-01 00:52:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_postalCodeExtension")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_postalCodeExtension' is visible
+
+2022-07-01 00:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_postalCodeExtension' is visible
+
+2022-07-01 00:52:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_postalCodeExtension"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_postalCodeExtension' is present
+
+2022-07-01 00:52:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_postalCodeExtension' is present
+
+2022-07-01 00:52:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "input_City")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_City' is visible
+
+2022-07-01 00:52:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_City' is visible
+
+2022-07-01 00:52:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "input_City"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_City' is present
+
+2022-07-01 00:52:03 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/input_City' is present
+
+2022-07-01 00:52:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "select_SelectState")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_SelectState' is visible
+
+2022-07-01 00:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_SelectState' is visible
+
+2022-07-01 00:52:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "select_SelectState"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_SelectState' is present
+
+2022-07-01 00:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/select_SelectState' is present
+
+2022-07-01 00:52:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "button_Create")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Create' is visible
+
+2022-07-01 00:52:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Create' is visible
+
+2022-07-01 00:52:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "button_Create"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Create' is present
+
+2022-07-01 00:52:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Create' is present
+
+2022-07-01 00:52:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Add_CC + "button_Cancel")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Cancel' is visible
+
+2022-07-01 00:52:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Cancel' is visible
+
+2022-07-01 00:52:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Add_CC + "button_Cancel"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Cancel' is present
+
+2022-07-01 00:52:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Cancel' is present
+
+2022-07-01 00:52:05 - [TEST_STEP][PASSED] - click(findTestObject(path_Add_CC + "button_Cancel")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Cancel' is clicked on
+
+2022-07-01 00:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/button_Cancel' is clicked on
+
+2022-07-01 00:52:07 - [TEST_STEP][PASSED] - click(findTestObject(path_ViewProfile + "a_Delete Profile")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Delete Profile' is clicked on
+
+2022-07-01 00:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/a_Delete Profile' is clicked on
+
+2022-07-01 00:52:08 - [TEST_STEP][PASSED] - verifyTextPresent("This will delete all of the following information. Are you sure you want to do this?", true): Text 'This will delete all of the following information. Are you sure you want to do this?' is present on page  using regular expression
+
+2022-07-01 00:52:09 - [MESSAGE][PASSED] - Text 'This will delete all of the following information. Are you sure you want to do this?' is present on page  using regular expression
+
+2022-07-01 00:52:09 - [TEST_STEP][PASSED] - click(findTestObject(path_DeleteProfileConfirm + "button_Delete")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfileConfirm/button_Delete' is clicked on
+
+2022-07-01 00:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfileConfirm/button_Delete' is clicked on
+
+2022-07-01 00:52:10 - [TEST_STEP][PASSED] - verifyTextPresent("No Search String", true): Text 'No Search String' is present on page  using regular expression
+
+2022-07-01 00:52:10 - [MESSAGE][PASSED] - Text 'No Search String' is present on page  using regular expression
+
+2022-07-01 00:52:10 - [TEST_STEP][PASSED] - verifyTextPresent("You must provide a search string of at least 2 characters", true): Text 'You must provide a search string of at least 2 characters' is present on page  using regular expression
+
+2022-07-01 00:52:11 - [MESSAGE][PASSED] - Text 'You must provide a search string of at least 2 characters' is present on page  using regular expression
+
+2022-07-01 00:52:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-01 00:52:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-01 00:49:59 - [TEST_SUITE][PASSED] - VSP-UI-TestSuite: Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/AddCreditCard_UI_Generic_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

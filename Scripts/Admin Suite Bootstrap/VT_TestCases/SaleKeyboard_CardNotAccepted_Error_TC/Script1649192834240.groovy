@@ -98,11 +98,12 @@ def numOfRows, dataFile, nameSheet
 						
 						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven'(row,dataFile)
 						
-						WebUI.verifyTextPresent('This Card cannot be accepted', true)
+						WebUI.verifyTextPresent('Transaction Failed', true)
+						WebUI.verifyTextPresent('Reason: The credit card type you submitted is not supported. Please choose a different card type', true)
 						
 						
 					
-					//WebUI.closeBrowser()
+					WebUI.closeBrowser()
 				}
 		}
 
