@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "882A98DC785415A37F2DFE8DFAFDB353",
+  "keywordClasses": [
+    {
+      "name": "pages.GenerateRandom",
+      "keywordMethods": [
+        {
+          "name": "getRandomAlphaNum",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getRandomAlpha",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getRandomNum",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
