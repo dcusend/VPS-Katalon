@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 
+import pages.GenerateRandom
+
 import com.kms.katalon.core.logging.KeywordLogger
 
 // VT Paths
@@ -26,17 +28,18 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 String path_Users = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/"
 String path_UserView = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/"
 String path_DeleteUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/"
+String path_AddUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/"
 
 
 // Get the Execution Profile like QA or Demo
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
-String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
+String appName, appID, spUsername
 
 
-nameSheet = "CreateUser"
-dataFile = "QA/Bootstrap/UM-TestData/CreateUser"
-numOfRows = findTestData('QA/Bootstrap/UM-TestData/CreateUser').getRowNumbers()
+nameSheet = "CreateUserSpChar"
+dataFile = "QA/Bootstrap/UM-TestData/CreateUserSpChar"
+numOfRows = findTestData('QA/Bootstrap/UM-TestData/CreateUserSpChar').getRowNumbers()
 println("Number of Records: " + numOfRows)
 
 
@@ -50,48 +53,63 @@ for (def row = 1; row <= numOfRows; row++)
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{
 				System.out.println('Begin Record Number: ' + row)
-	
-				Date today = new Date()
-				println (today)
-				String datText = today
-
-
+				
 				// Log into Admin Suite
-					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
-					
+				CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+				
 				// Select the User Management button
-					WebUI.click(findTestObject(path_Dashboard + 'a_Access User Management'))
-					
+				WebUI.click(findTestObject(path_Dashboard + 'a_Access User Management'))
+				
 				// Select the Add User button
-					WebUI.click(findTestObject(path_Users + 'a_Add User'))
+				WebUI.click(findTestObject(path_Users + 'a_Add User'))
+				
+				
+				def buildUsername = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
+				
+				def prefixUsername = findTestData(dataFile).getValue('Username', row)
+				
 					
-				// Call setData for AddUser
-					CustomKeywords.'adminSuiteBootstrap.addUser.setDataAddUser'(row,dataFile)
+				spUsername = buildUsername + prefixUsername + buildUsername
+				
+	
+				
+				// Populate Add User page
+				WebUI.setText(findTestObject(path_AddUser + 'input_EmailAddress'), 'iahmed@govolution.com')
+				WebUI.setText(findTestObject(path_AddUser + 'input_Username'), spUsername)
+				WebUI.setText(findTestObject(path_AddUser + 'input_FirstName'), 'Ashley')
+				WebUI.setText(findTestObject(path_AddUser + 'input_LastName'), 'Luka')
+				WebUI.setText(findTestObject(path_AddUser + 'input_Password'), 'hello6666')
+				WebUI.setText(findTestObject(path_AddUser + 'input_ConfirmPassword'), 'hello6666')
+				WebUI.check(findTestObject(path_AddUser + 'input_No_lock'))
+				
+				// Select the Create button
+				WebUI.click(findTestObject(path_AddUser + 'button_Create'))
+				
+				// Verify Static Text
+				if (WebUI.verifyTextPresent('User Account Created A user account for', true))
+				{
 					
-					if (WebUI.verifyTextPresent('User Account Created A user account for', true))
-					{
-						
-						WebUI.verifyTextPresent('was successfully created', true)
+					WebUI.verifyTextPresent('was successfully created', true)
+				
+					// Delete User
+					WebUI.click(findTestObject(path_UserView + 'button_Delete'))
+				
+					// Select Okay on Confirmation
+					WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
 					
-						// Delete User
-						WebUI.click(findTestObject(path_UserView + 'button_Delete'))
-					
-						// Select Okay on Confirmation
-						WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
-						
-									
-						// Select another Okay
-						WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
-					}
-					
-					else 
-					{
-						KeywordLogger log = new KeywordLogger()
-						log.logWarning("User did not got created, can't delete")
-					}
-					
-					WebUI.closeBrowser()
+								
+					// Select another Okay
+					WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
+				}
+				
+				else 
+				{
+					KeywordLogger log = new KeywordLogger()
+					log.logWarning("User did not got created, can't delete")
+				}
+				
+				//WebUI.closeBrowser()
+				
 			}
-		
-		
-	}
+			
+	}			

@@ -23,39 +23,35 @@ import org.apache.commons.lang.RandomStringUtils
 import internal.GlobalVariable
 
 public class GenerateRandom {
-	
+
 	@Keyword
-	def getRandomAlphaNum()
-	{
+	def getRandomAlphaNum() {
 		String charset = (('A'..'Z') + ('a'..'z') + ('0'..'9')).join()
 		Integer length = 9
 		String randomAN = RandomStringUtils.random(length, charset.toCharArray())
-		
+
 		//String randomString = org.apache.commons.lang.RandomStringUtils.random(9, true, true)
-		
+
 		return randomAN
-			
+
 	}
-	
-	
+
+
 	@Keyword
-	def getRandomAlpha()
-	{
+	def getRandomAlpha() {
 		String charset = (('A'..'Z') + ('a'..'z')).join()
 		Integer length = 9
 		String randomA = RandomStringUtils.random(length, charset.toCharArray())
 		return randomA
 	}
-	
-	
-	
+
+
+
 	@Keyword
-	def getRandomNum()
-	{
+	def getRandomNum() {
 		String charset = (('0'..'9')).join()
 		Integer length = 9
 		String randomN = RandomStringUtils.random(length, charset.toCharArray())
 		return randomN
 	}
-	
 }

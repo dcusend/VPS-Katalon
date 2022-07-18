@@ -25,63 +25,62 @@ import internal.GlobalVariable
 import pages.GenerateRandom
 
 public class addUser {
-	
-	 final genRand = new GenerateRandom()
-	
+
+	final genRand = new GenerateRandom()
+
 	String userName, fName, lName, email, pwd, confirPwd, lockAC, randomUserName, randomFirstName, randomLastName
-	
+
 	String path_AddUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/"
-	
+
 	@Keyword
-	def setDataAddUser(int rowS, String dataFileS) 
-	{
+	def setDataAddUser(int rowS, String dataFileS) {
 		// GetData
 		userName = findTestData(dataFileS).getValue('Username', rowS)
 		email = findTestData(dataFileS).getValue('Email', rowS)
 		pwd = findTestData(dataFileS).getValue('Password', rowS)
-		confirPwd = findTestData(dataFileS).getValue('ConfirmPassword', rowS)	
+		confirPwd = findTestData(dataFileS).getValue('ConfirmPassword', rowS)
 		lockAC = findTestData(dataFileS).getValue('Lock', rowS)
-		
-		
+
+
 		// SetData
 		WebUI.setText(findTestObject(path_AddUser + 'input_EmailAddress'), email)
-		
+
 		// Get Random UserName as per test data
 		switch(userName)
 		{
 			case "A":
-					//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
-					randomUserName = genRand.getRandomAlpha()
-			break
-			
+			//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
+				randomUserName = genRand.getRandomAlpha()
+				break
+
 			case "AN":
-					//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomAlphaNum'()
-					randomUserName = genRand.getRandomAlphaNum()
-			break
-			
+			//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomAlphaNum'()
+				randomUserName = genRand.getRandomAlphaNum()
+				break
+
 			case "N":
-					//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomNum'()
-					randomUserName = genRand.getRandomNum()
-			break
-			
+			//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomNum'()
+				randomUserName = genRand.getRandomNum()
+				break
+
 		}
-		
-		
+
+
 		WebUI.setText(findTestObject(path_AddUser + 'input_Username'), randomUserName)
-		
+
 		// Get random First and Last Names
 		randomFirstName = genRand.getRandomAlpha()
 		randomLastName = genRand.getRandomAlpha()
-		
+
 		//randomFirstName = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
 		//randomLastName = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
-		
+
 		WebUI.setText(findTestObject(path_AddUser + 'input_FirstName'), randomFirstName)
 		WebUI.setText(findTestObject(path_AddUser + 'input_LastName'), randomLastName)
-		
+
 		WebUI.setText(findTestObject(path_AddUser + 'input_Password'), pwd)
 		WebUI.setText(findTestObject(path_AddUser + 'input_ConfirmPassword'), confirPwd)
-		
+
 		if (lockAC.equalsIgnoreCase("N"))
 		{
 			// Select No for Lock Account
@@ -97,18 +96,18 @@ public class addUser {
 			// Select No for Lock Account
 			WebUI.check(findTestObject(path_AddUser + 'input_No_lock'))
 		}
-		
-		
+
+
 		// Select the Create button
 		WebUI.click(findTestObject(path_AddUser + 'button_Create'))
 
-		
-		
-		
+
+
+
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 }
