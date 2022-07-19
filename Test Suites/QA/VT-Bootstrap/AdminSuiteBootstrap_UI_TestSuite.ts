@@ -27,7 +27,7 @@
       <guid>863094ad-7c40-4efb-b60c-0428ac94c05e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/VerifyUsersLinks_UI_TC</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/VerifyUsersLinks_UI_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6fc7f33d-f141-40ac-b315-7c4dc03fd2bb</guid>

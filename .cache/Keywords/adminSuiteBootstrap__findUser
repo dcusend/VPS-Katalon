@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "C704F7D2BFD4160FD392569E091CB0EF",
+  "keywordFileContentHash": "B2D0230D8BF46C64DAA32747323D8EB3",
   "keywordClasses": [
     {
-      "name": "adminSuiteBootstrap.addUser",
+      "name": "adminSuiteBootstrap.findUser",
       "keywordMethods": [
         {
-          "name": "setDataAddUser",
+          "name": "findUser_DD",
           "parameters": [
             {
               "name": "rowS",

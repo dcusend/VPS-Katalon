@@ -1,4 +1,4 @@
-package pages
+package adminSuiteBootstrap
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -18,44 +18,41 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
-import com.kms.katalon.core.logging.KeywordLogger
-
 import internal.GlobalVariable
 
-public class CustomLogger {
-
-	KeywordLogger log = new KeywordLogger()
-
-
+public class findUser {
+	
+	String usernameFU, fNameFU, lNameFU, searchTypeFU
+	
+	String path_FindUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/FindUser/"
+	
 	@Keyword
-	def log_Logger(String logMsg, String typeMsg) {
-
-		switch(typeMsg) {
-			case "Pass":
-				log.logPassed(logMsg)
-				break
-
-			case "Fail":
-				log.logFailed(logMsg)
-				break
-
-			case "Warning":
-				log.logWarning(logMsg)
-				break
-		}
+	def findUser_DD(int rowS, String dataFileS)
+	{
+		
+		
+		// GetData
+		usernameFU = findTestData(dataFileS).getValue('Username', rowS)
+		fNameFU = findTestData(dataFileS).getValue('Firstname', rowS)
+		lNameFU = findTestData(dataFileS).getValue('Lastname', rowS)
+		searchTypeFU = findTestData(dataFileS).getValue('SearchType', rowS)
+		
+		
+		// SetData
+		WebUI.setText(findTestObject(path_FindUser + 'input_Username'), usernameFU)
+		WebUI.setText(findTestObject(path_FindUser + 'input_FirstName'), fNameFU)
+		WebUI.setText(findTestObject(path_FindUser + 'input_LastName'), lNameFU)
+		WebUI.selectOptionByLabel(findTestObject(path_FindUser + 'select_SearchType'),searchTypeFU , false)
+		
+		// Select the Submit button
+		WebUI.click(findTestObject(path_FindUser + 'button_Search'))
+		
+				
+		
 	}
-
-
-	/*		@Keyword
-	 def Pass_Logger(String logMsg) {
-	 log.logPassed(logMsg)
-	 }
-	 @Keyword
-	 def Fail_Logger(String logMsg) {
-	 log.logPassed(logMsg)
-	 }
-	 @Keyword
-	 def Warning_Logger(String logMsg) {
-	 log.logPassed(logMsg)
-	 }*/
+	
+	
+	
+	
+	
 }

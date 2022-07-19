@@ -56,16 +56,16 @@ public class loginFunctionality {
 			System.out.println('Not on the Login Page, exiting test')
 		}
 	}
-	
-	
+
+
 	@Keyword
 	def login_AdminSuite_DD(String username, String password) {
 
 		gv_URL = GlobalVariable.AdminSuiteURL
 		username_DD = username
 		password_DD = password
-		
-		
+
+
 		System.out.println('URL : ' + gv_URL)
 		System.out.println('Username : ' + username)
 		System.out.println('Password : ' + password)
@@ -88,9 +88,5 @@ public class loginFunctionality {
 		else {
 			System.out.println('Not on the Login Page, exiting test')
 		}
-	
-	
-	
 	}
-	
 }
