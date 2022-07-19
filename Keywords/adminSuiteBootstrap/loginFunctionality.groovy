@@ -24,7 +24,7 @@ public class loginFunctionality {
 
 
 
-	def gv_URL, gv_username, gv_password
+	def gv_URL, gv_username, gv_password, username_DD, password_DD
 
 	@Keyword
 	def login_AdminSuite() {
@@ -56,4 +56,41 @@ public class loginFunctionality {
 			System.out.println('Not on the Login Page, exiting test')
 		}
 	}
+	
+	
+	@Keyword
+	def login_AdminSuite_DD(String username, String password) {
+
+		gv_URL = GlobalVariable.AdminSuiteURL
+		username_DD = username
+		password_DD = password
+		
+		
+		System.out.println('URL : ' + gv_URL)
+		System.out.println('Username : ' + username)
+		System.out.println('Password : ' + password)
+
+
+		WebUI.openBrowser(gv_URL)
+
+		WebUI.maximizeWindow()
+
+		if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+			System.out.println('We are on Login Page, start populating the fields')
+
+			WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
+
+			WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
+
+			WebUI.click(findTestObject('Login_Page/Login_Submit'))
+		}
+
+		else {
+			System.out.println('Not on the Login Page, exiting test')
+		}
+	
+	
+	
+	}
+	
 }

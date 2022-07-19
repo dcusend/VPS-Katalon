@@ -23,20 +23,16 @@ import com.kms.katalon.core.logging.KeywordLogger
 
 // VT Paths
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
-String path_Users = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/"
-String path_UserView = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/"
-String path_DeleteUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/"
-
 
 // Get the Execution Profile like QA or Demo
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
-String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
+String appName, appID, username_from, password_from
 
 
-nameSheet = "CreateUser"
-dataFile = "QA/Bootstrap/UM-TestData/CreateUser"
-numOfRows = findTestData('QA/Bootstrap/UM-TestData/CreateUser').getRowNumbers()
+nameSheet = "UsernameCase"
+dataFile = "QA/Bootstrap/UM-TestData/UsernameCase"
+numOfRows = findTestData('QA/Bootstrap/UM-TestData/UsernameCase').getRowNumbers()
 println("Number of Records: " + numOfRows)
 
 
@@ -50,49 +46,30 @@ for (def row = 1; row <= numOfRows; row++)
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{
 				System.out.println('Begin Record Number: ' + row)
-	
-				Date today = new Date()
-				println (today)
-				String datText = today
-
-
+				
+				//KeywordLogger log = new KeywordLogger()
+				
+				// Get Username and Password from datafile
+				username_from = findTestData(dataFile).getValue('Username', row)
+				password_from = findTestData(dataFile).getValue('Password', row)
+				
 				// Log into Admin Suite
-					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+				CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_DD'(username_from,password_from)
+				
+				// Verify if User Management Link appears on the page
+				if (WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access User Management'),30))
+				{
+					//log.logPassed("User was able to login, Username is not case sensitive")
+					CustomKeywords.'pages.CustomLogger.log_Logger'("User was able to login, Username is not case sensitive","Pass")
 					
-				// Select the User Management button
-					WebUI.click(findTestObject(path_Dashboard + 'a_Access User Management'))
-					
-				// Select the Add User button
-					WebUI.click(findTestObject(path_Users + 'a_Add User'))
-					
-				// Call setData for AddUser
-					CustomKeywords.'adminSuiteBootstrap.addUser.setDataAddUser'(row,dataFile)
-					
-					if (WebUI.verifyTextPresent('User Account Created A user account for', true))
-					{
-						
-						WebUI.verifyTextPresent('was successfully created', true)
-					
-						// Delete User
-						WebUI.click(findTestObject(path_UserView + 'button_Delete'))
-					
-						// Select Okay on Confirmation
-						WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
-						
-									
-						// Select another Okay
-						WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
-					}
-					
-					else 
-					{
-						//KeywordLogger log = new KeywordLogger()
-						//log.logWarning("User did not got created, can't delete")
-						CustomKeywords.'pages.CustomLogger.log_Logger'("User did not got created, can't delete","Warning")
-					}
-					
-					WebUI.closeBrowser()
+				}
+				else 
+				{
+					//log.logFailed("User was not able to login")
+					CustomKeywords.'pages.CustomLogger.log_Logger'("User was not able to login","Fail")
+				}
+				
+				WebUI.closeBrowser()
 			}
-		
-		
+			
 	}

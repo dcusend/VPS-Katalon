@@ -1,18 +1,14 @@
 {
-  "keywordFileContentHash": "839E7BC6DA6159ED37CE83FEA128FB6A",
+  "keywordFileContentHash": "A7C71B043885FC06A3121B0304DA23BF",
   "keywordClasses": [
     {
-      "name": "adminSuiteBootstrap.loginFunctionality",
+      "name": "pages.CustomLogger",
       "keywordMethods": [
         {
-          "name": "login_AdminSuite",
-          "parameters": []
-        },
-        {
-          "name": "login_AdminSuite_DD",
+          "name": "log_Logger",
           "parameters": [
             {
-              "name": "username",
+              "name": "logMsg",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -25,7 +21,7 @@
               }
             },
             {
-              "name": "password",
+              "name": "typeMsg",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -37,10 +33,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

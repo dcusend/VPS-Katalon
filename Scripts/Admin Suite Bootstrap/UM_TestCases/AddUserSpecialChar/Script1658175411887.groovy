@@ -104,11 +104,12 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				else 
 				{
-					KeywordLogger log = new KeywordLogger()
-					log.logWarning("User did not got created, can't delete")
+					//KeywordLogger log = new KeywordLogger()
+					//log.logWarning("User did not got created, can't delete")
+					CustomKeywords.'pages.CustomLogger.log_Logger'("User did not got created, can't delete","Warning")
 				}
 				
-				//WebUI.closeBrowser()
+				WebUI.closeBrowser()
 				
 			}
 			
