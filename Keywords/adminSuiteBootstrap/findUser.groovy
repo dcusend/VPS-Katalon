@@ -21,38 +21,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class findUser {
-	
+
 	String usernameFU, fNameFU, lNameFU, searchTypeFU
-	
+
 	String path_FindUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/FindUser/"
-	
+
 	@Keyword
-	def findUser_DD(int rowS, String dataFileS)
-	{
-		
-		
+	def findUser_DD(int rowS, String dataFileS) {
+
+
 		// GetData
 		usernameFU = findTestData(dataFileS).getValue('Username', rowS)
 		fNameFU = findTestData(dataFileS).getValue('Firstname', rowS)
 		lNameFU = findTestData(dataFileS).getValue('Lastname', rowS)
 		searchTypeFU = findTestData(dataFileS).getValue('SearchType', rowS)
-		
-		
+
+
 		// SetData
 		WebUI.setText(findTestObject(path_FindUser + 'input_Username'), usernameFU)
 		WebUI.setText(findTestObject(path_FindUser + 'input_FirstName'), fNameFU)
 		WebUI.setText(findTestObject(path_FindUser + 'input_LastName'), lNameFU)
 		WebUI.selectOptionByLabel(findTestObject(path_FindUser + 'select_SearchType'),searchTypeFU , false)
-		
+
 		// Select the Submit button
 		WebUI.click(findTestObject(path_FindUser + 'button_Search'))
-		
-				
-		
+
+
+
 	}
-	
-	
-	
-	
-	
 }
