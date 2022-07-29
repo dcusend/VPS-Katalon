@@ -94,8 +94,13 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				// Verify Static Text
 				WebUI.verifyTextPresent('Error! Please provide the following required information as indicated below', true)
-				WebUI.verifyTextPresent('Username may only be comprised of alphanumeric characters, the underscore "_" character, the at "@" symbol, and the period "."Username may only be comprised of alphanumeric characters, the underscore "_" character, the at "@" symbol, and the period "."', true)
+				//WebUI.verifyTextPresent('Username may only be comprised of alphanumeric characters, the underscore "_" character, the at "@" symbol, and the period "."Username may only be comprised of alphanumeric characters, the underscore "_" character, the at "@" symbol, and the period "."', true)
 		
+				WebUI.verifyTextPresent('Username may only be comprised of alphanumeric characters, the underscore "_" character and period "."', true)
+				
+				
+				
+				
 				WebUI.closeBrowser()
 				
 			}

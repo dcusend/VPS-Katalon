@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access User Management",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220725_182523/QA/UM-Bootstrap/UM-TestSuite-QA/20220725_182523/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access User Management_position.png"
+    }
+  ]
+}
