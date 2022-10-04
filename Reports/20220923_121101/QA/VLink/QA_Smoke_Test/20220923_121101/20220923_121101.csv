@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA_Smoke_Test,Chrome 105.0.0.0,,,2022-09-23 12:11:07,2022-09-23 12:19:47,8m - 40.211s,PASSED
+,,,,,,,
+Test Cases/VLink/QA/VLinkSale-Successful,Chrome 105.0.0.0,,,2022-09-23 12:11:07,2022-09-23 12:19:47,8m - 39.737s,PASSED
+"resText = ""Fail""",Chrome 105.0.0.0,,,2022-09-23 12:11:08,2022-09-23 12:11:08,0.001s,PASSED
+"resColumn = ""Result""",Chrome 105.0.0.0,,,2022-09-23 12:11:08,2022-09-23 12:11:08,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 105.0.0.0,,,2022-09-23 12:11:08,2022-09-23 12:11:08,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkCCTestData.xlsx""",Chrome 105.0.0.0,,,2022-09-23 12:11:08,2022-09-23 12:11:08,0.000s,PASSED
+"nameSheet = ""CCSaleData""",Chrome 105.0.0.0,,,2022-09-23 12:11:08,2022-09-23 12:11:08,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkCCTestData"").getRowNumbers()",Chrome 105.0.0.0,,,2022-09-23 12:11:08,2022-09-23 12:11:09,0.859s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 105.0.0.0,,,2022-09-23 12:11:09,2022-09-23 12:11:09,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkCCTestData""",Chrome 105.0.0.0,,,2022-09-23 12:11:09,2022-09-23 12:11:09,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 105.0.0.0,,,2022-09-23 12:11:09,2022-09-23 12:19:47,8m - 38.331s,PASSED

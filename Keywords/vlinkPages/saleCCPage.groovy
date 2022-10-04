@@ -677,7 +677,7 @@ public class saleCCPage {
 			//if (WebUI.verifyElementPresent(findTestObject('Object Repository/VLink/Page_CCSale/txt_CardOnFileIndicator'),30))
 			//{
 
-			WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_CardOnFileIndicator'),COFIndicator)
+			//WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_CardOnFileIndicator'),COFIndicator)
 
 			//}
 			//else {println("COFIndicator Data field is either missing or not modifiable on Credit Card Payment Entry page")}
@@ -687,7 +687,7 @@ public class saleCCPage {
 			//if (WebUI.verifyElementPresent(findTestObject('Object Repository/VLink/Page_CCSale/txt_StoredCredentialIndicator'),30))
 			//{
 
-			WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_StoredCredentialIndicator'),COFSCI)
+			//WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_StoredCredentialIndicator'),COFSCI)
 
 			//}
 			//else {println("COF Stored Credential Indicator Data field is either missing or not modifiable on Credit Card Payment Entry page")}
@@ -697,7 +697,7 @@ public class saleCCPage {
 			//if (WebUI.verifyElementPresent(findTestObject('Object Repository/VLink/Page_CCSale/txt_COFScheduledIndicator'),30))
 			//{
 
-			WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_COFScheduledIndicator'),COFSI)
+			//WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_COFScheduledIndicator'),COFSI)
 
 			//}
 			//else {println("COF Schedule Indicator field is either missing or not modifiable on Credit Card Payment Entry page")}
@@ -707,7 +707,7 @@ public class saleCCPage {
 			//if (WebUI.verifyElementPresent(findTestObject('Object Repository/VLink/Page_CCSale/txt_COFTransactionInitiatedBy'),30))
 			//{
 
-			WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_COFTransactionInitiatedBy'),COFTIB)
+			//WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_COFTransactionInitiatedBy'),COFTIB)
 
 			//}
 			//else {println("COF Transaction Initiated By field is either missing or not modifiable on Credit Card Payment Entry page")}

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QA_Smoke_Test" time="18.814" tests="1" failures="0" errors="1">
+   <testsuite name="QA_Smoke_Test" tests="1" failures="0" errors="1" time="18.814" skipped="0" timestamp="2022-10-03 21:37:07" hostname="imtiaz - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/QA/VLink/QA_Smoke_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20221003_213701\\QA\\VLink\\QA_Smoke_Test\\20221003_213701"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20221003_213701\\QA\\VLink\\QA_Smoke_Test\\20221003_213701\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="imtiaz - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="172.31.253.54"/>
+         <property name="sessionId" value="a382110f40f41d4a308af1fb9158ccd7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly" time="18.391" classname="Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly" status="ERROR">
+         <error type="ERROR" message="Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fileLoc for class: Script1664500032697
+	at VLink-AuthOnly.run(VLink-AuthOnly:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664847421575.run(TempTestSuite1664847421575.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-03 21:37:08 - [TEST_CASE][ERROR] - Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly: Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fileLoc for class: Script1664500032697
+	at VLink-AuthOnly.run(VLink-AuthOnly:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664847421575.run(TempTestSuite1664847421575.groovy:36)
+
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - nameSheet = "Auth": null
+
+2022-10-03 21:37:08 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/VLinkTestData/VLinkSmokeData").getRowNumbers(): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - dataFile = "QA/VLinkTestData/VLinkSmokeData": null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - username = findTestData(dataFile).getValue("UsernameQA", row): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - password = findTestData(dataFile).getValue("PasswordQA", row): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - break: null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - println(today): null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - datText = today: null
+
+2022-10-03 21:37:09 - [TEST_STEP][PASSED] - category = findTestData(dataFile).getValue("Category", row): null
+
+2022-10-03 21:37:10 - [TEST_STEP][PASSED] - amount = findTestData(dataFile).getValue("Amount", row): null
+
+2022-10-03 21:37:10 - [TEST_STEP][PASSED] - cardNumber = findTestData(dataFile).getValue("CardNumber", row): null
+
+2022-10-03 21:37:10 - [TEST_STEP][PASSED] - exM = findTestData(dataFile).getValue("ExM", row): null
+
+2022-10-03 21:37:10 - [TEST_STEP][PASSED] - exY = findTestData(dataFile).getValue("ExY", row): null
+
+2022-10-03 21:37:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-03 21:37:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-03 21:37:10 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-03 21:37:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-03 21:37:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-03 21:37:13 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/auth.html"): Navigate to 'https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/auth.html' successfully
+
+2022-10-03 21:37:13 - [MESSAGE][PASSED] - Navigate to 'https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/auth.html' successfully
+
+2022-10-03 21:37:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-03 21:37:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-03 21:37:13 - [TEST_STEP][PASSED] - genRemID = RandomStringUtils.random(12, true, true): null
+
+2022-10-03 21:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/VLink/Page_CCSale/txt_RemID"), genRemID): Text 'ishi6BfTMcdF' is set on object 'Object Repository/VLink/Page_CCSale/txt_RemID'
+
+2022-10-03 21:37:14 - [MESSAGE][PASSED] - Text 'ishi6BfTMcdF' is set on object 'Object Repository/VLink/Page_CCSale/txt_RemID'
+
+2022-10-03 21:37:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id"), genRemID): Text 'ishi6BfTMcdF' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-03 21:37:15 - [MESSAGE][PASSED] - Text 'ishi6BfTMcdF' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-03 21:37:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id"), appID): Text '234' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-03 21:37:16 - [MESSAGE][PASSED] - Text '234' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-03 21:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username"), username): Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-03 21:37:16 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-03 21:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password"), password): Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-03 21:37:17 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-03 21:37:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category"), category): Text 'ECOM' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-03 21:37:17 - [MESSAGE][PASSED] - Text 'ECOM' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-03 21:37:17 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-03 21:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-03 21:37:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number"), cardNumber): Text '4111111111111111' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-03 21:37:19 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-03 21:37:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo"), exM): Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-03 21:37:19 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-03 21:37:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr"), exY): Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-03 21:37:20 - [MESSAGE][PASSED] - Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-03 21:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-03 21:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-03 21:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-03 21:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-03 21:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-03 21:37:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-03 21:37:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-03 21:37:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-03 21:37:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-03 21:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-03 21:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card on File Indicator_card_on_file_i_157dae"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card on File Indicator_card_on_file_i_157dae'
+
+2022-10-03 21:37:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card on File Indicator_card_on_file_i_157dae'
+
+2022-10-03 21:37:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Stored Credential Indicator_stored_cr_4ae73c"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Stored Credential Indicator_stored_cr_4ae73c'
+
+2022-10-03 21:37:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Stored Credential Indicator_stored_cr_4ae73c'
+
+2022-10-03 21:37:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_COF Scheduled indicator_cof_scheduled_8df7d8"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_COF Scheduled indicator_cof_scheduled_8df7d8'
+
+2022-10-03 21:37:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_COF Scheduled indicator_cof_scheduled_8df7d8'
+
+2022-10-03 21:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_COF Transaction Initiated by_cof_tran_6cded5"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_COF Transaction Initiated by_cof_tran_6cded5'
+
+2022-10-03 21:37:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_COF Transaction Initiated by_cof_tran_6cded5'
+
+2022-10-03 21:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-03 21:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-03 21:37:26 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-03 21:37:26 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-03 21:37:26 - [TEST_STEP][PASSED] - println("Transaction Approved, no errors text is present on the Confirmation page"): null
+
+2022-10-03 21:37:26 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2022-10-03 21:37:26 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2022-10-03 21:37:26 - [TEST_STEP][ERROR] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fileLoc for class: Script1664500032697
+	at VLink-AuthOnly.run(VLink-AuthOnly:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664847421575.run(TempTestSuite1664847421575.groovy:36)
+
+
+2022-10-03 21:37:26 - [MESSAGE][ERROR] - Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fileLoc for class: Script1664500032697
+	at VLink-AuthOnly.run(VLink-AuthOnly:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664847421575.run(TempTestSuite1664847421575.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-10-03 21:37:08 - [TEST_CASE][ERROR] - Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly: Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fileLoc for class: Script1664500032697
+	at VLink-AuthOnly.run(VLink-AuthOnly:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664847421575.run(TempTestSuite1664847421575.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-03 21:37:07 - [TEST_SUITE][ERROR] - QA_Smoke_Test: Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fileLoc for class: Script1664500032697
+	at VLink-AuthOnly.run(VLink-AuthOnly:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664847421575.run(TempTestSuite1664847421575.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-10-03 21:37:07 - [TEST_SUITE][ERROR] - QA_Smoke_Test: Test Cases/RecAndPlayBk/VLink/VLink-AuthOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: fileLoc for class: Script1664500032697
+	at VLink-AuthOnly.run(VLink-AuthOnly:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664847421575.run(TempTestSuite1664847421575.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

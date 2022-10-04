@@ -34,4 +34,9 @@
       <initValue>''</initValue>
       <name>ProfileName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/'</initValue>
+      <name>VLinkURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

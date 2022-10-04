@@ -4,17 +4,17 @@
    <name>QA_Smoke_Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <mailRecipient>iahmed@govolution.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>3ce0fec1-a797-43f9-bbb3-370e030415d4</testSuiteGuid>
+   <testSuiteGuid>df5fedb1-b7b4-4c38-a917-93fabb8807b3</testSuiteGuid>
    <testCaseLink>
-      <guid>842c21d3-0b64-4cd0-a71b-c8e23f46ae45</guid>
+      <guid>d7d4ea0c-7243-4a8b-9dd7-0f4429caffd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/VLink/QA/VLinkSale-Successful</testCaseId>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/AuthOnly</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
