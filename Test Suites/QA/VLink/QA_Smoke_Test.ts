@@ -14,7 +14,13 @@
    <testCaseLink>
       <guid>d7d4ea0c-7243-4a8b-9dd7-0f4429caffd0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/AuthOnly</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c904a64d-d993-4101-a608-6245e0235e9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Auth-Capture</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

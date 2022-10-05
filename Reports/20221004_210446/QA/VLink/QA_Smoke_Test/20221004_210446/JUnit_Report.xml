@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QA_Smoke_Test" time="118.528" tests="1" failures="0" errors="0">
+   <testsuite name="QA_Smoke_Test" tests="1" failures="0" errors="0" time="118.528" skipped="0" timestamp="2022-10-04 21:04:51" hostname="imtiaz - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/QA/VLink/QA_Smoke_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20221004_210446\\QA\\VLink\\QA_Smoke_Test\\20221004_210446"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20221004_210446\\QA\\VLink\\QA_Smoke_Test\\20221004_210446\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="imtiaz - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="172.31.253.54"/>
+         <property name="sessionId" value="015850d992d62601e397722dc0d838b0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RecAndPlayBk/VLink/Auth-Capture" time="118.113" classname="Test Cases/RecAndPlayBk/VLink/Auth-Capture" status="PASSED">
+         <system-out><![CDATA[2022-10-04 21:04:51 - [TEST_CASE][PASSED] - Test Cases/RecAndPlayBk/VLink/Auth-Capture: Test Cases/RecAndPlayBk/VLink/Auth-Capture
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - fileLoc = "KatalonData/VLinkSmokeData.xlsx": null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - nameSheet = "AuthCapture": null
+
+2022-10-04 21:04:52 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/VLinkTestData/VLinkAuthCaptureData").getRowNumbers(): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - dataFile = "QA/VLinkTestData/VLinkAuthCaptureData": null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - case "DemoProfile":: null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDDemo", row): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - username = findTestData(dataFile).getValue("UsernameDemo", row): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - password = findTestData(dataFile).getValue("PasswordDemo", row): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - break: null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - println(today): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - datText = today: null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - category = findTestData(dataFile).getValue("Category", row): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - amount = findTestData(dataFile).getValue("Amount", row): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - cardNumber = findTestData(dataFile).getValue("CardNumber", row): null
+
+2022-10-04 21:04:53 - [TEST_STEP][PASSED] - exM = findTestData(dataFile).getValue("ExM", row): null
+
+2022-10-04 21:04:54 - [TEST_STEP][PASSED] - exY = findTestData(dataFile).getValue("ExY", row): null
+
+2022-10-04 21:04:54 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "auth.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:04:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:04:54 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:04:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:04:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:04:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:04:57 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:04:57 - [TEST_STEP][PASSED] - genRemID = RandomStringUtils.random(12, true, true): null
+
+2022-10-04 21:04:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id"), genRemID): Text 'fZRzyKe8BrtG' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:04:58 - [MESSAGE][PASSED] - Text 'fZRzyKe8BrtG' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:04:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id"), appID): Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:04:59 - [MESSAGE][PASSED] - Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:04:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username"), username): Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:05:00 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password"), password): Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:05:00 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category"), category): Text 'ECOM' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:05:01 - [MESSAGE][PASSED] - Text 'ECOM' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:05:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:05:02 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:05:02 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:05:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number"), cardNumber): Text '4111111111111111' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:05:03 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:05:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo"), exM): Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:05:03 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:05:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr"), exY): Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:05:04 - [MESSAGE][PASSED] - Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:05:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:05:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:05:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:05:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:05:06 - [TEST_STEP][PASSED] - if (executionProfile.equalsIgnoreCase("QAProfile")): null
+
+2022-10-04 21:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:05:07 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:05:08 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - out.println("Auth was successful, Capture now"): null
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - sdfo = getText(findTestObject("Object Repository/Page_VLinkReceipt/pre_STX")): Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>fZRzyKe8BrtG                  2907503             0  Transaction approved, no errors                   0                                                                                  Y 805561498<ETX>'
+
+2022-10-04 21:05:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>fZRzyKe8BrtG                  2907503             0  Transaction approved, no errors                   0                                                                                  Y 805561498<ETX>'
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - out.println("sdfo: " + sdfo): null
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - remID = substring(5, 35).trim(): null
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - out.println("remID: " + remID): null
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - traxID = substring(35, 55).trim(): null
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - out.println("traxID: " + traxID): null
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - VLinkSaleRemID = remID: null
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - VLinkSaleTranxID = traxID: null
+
+2022-10-04 21:05:08 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "capture.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:05:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:05:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:05:09 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:05:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:05:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:05:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:05:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:05:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id"), VLinkSaleRemID): Text 'fZRzyKe8BrtG' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:12 - [MESSAGE][PASSED] - Text 'fZRzyKe8BrtG' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id"), appID): Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:05:13 - [MESSAGE][PASSED] - Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username"), username): Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:05:13 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password"), password): Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:05:14 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:05:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id"), VLinkSaleTranxID): Text '2907503' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:05:15 - [MESSAGE][PASSED] - Text '2907503' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:05:15 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input")): Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:05:17 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - println("Transaction Approved, no errors text is present on the Confirmation page"): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:05:17 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - case "DemoProfile":: null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDDemo", row): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - username = findTestData(dataFile).getValue("UsernameDemo", row): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - password = findTestData(dataFile).getValue("PasswordDemo", row): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - break: null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - println(today): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - datText = today: null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - category = findTestData(dataFile).getValue("Category", row): null
+
+2022-10-04 21:05:17 - [TEST_STEP][PASSED] - amount = findTestData(dataFile).getValue("Amount", row): null
+
+2022-10-04 21:05:18 - [TEST_STEP][PASSED] - cardNumber = findTestData(dataFile).getValue("CardNumber", row): null
+
+2022-10-04 21:05:18 - [TEST_STEP][PASSED] - exM = findTestData(dataFile).getValue("ExM", row): null
+
+2022-10-04 21:05:18 - [TEST_STEP][PASSED] - exY = findTestData(dataFile).getValue("ExY", row): null
+
+2022-10-04 21:05:18 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "auth.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:05:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:05:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:05:19 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:05:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:05:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:05:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:05:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:05:21 - [TEST_STEP][PASSED] - genRemID = RandomStringUtils.random(12, true, true): null
+
+2022-10-04 21:05:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id"), genRemID): Text 'y176LMefrapp' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:22 - [MESSAGE][PASSED] - Text 'y176LMefrapp' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id"), appID): Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:05:23 - [MESSAGE][PASSED] - Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username"), username): Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:05:23 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password"), password): Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:05:24 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category"), category): Text 'MOTO' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:05:24 - [MESSAGE][PASSED] - Text 'MOTO' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:05:25 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:05:25 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:05:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number"), cardNumber): Text '5424000000000015' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:05:26 - [MESSAGE][PASSED] - Text '5424000000000015' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:05:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo"), exM): Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:05:27 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:05:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr"), exY): Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:05:27 - [MESSAGE][PASSED] - Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:05:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:05:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:05:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:05:29 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:05:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:05:29 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:05:30 - [TEST_STEP][PASSED] - if (executionProfile.equalsIgnoreCase("QAProfile")): null
+
+2022-10-04 21:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:05:31 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - out.println("Auth was successful, Capture now"): null
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - sdfo = getText(findTestObject("Object Repository/Page_VLinkReceipt/pre_STX")): Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>y176LMefrapp                  2907505             0  Transaction approved, no errors                   0                                                                                  Y 655801233<ETX>'
+
+2022-10-04 21:05:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>y176LMefrapp                  2907505             0  Transaction approved, no errors                   0                                                                                  Y 655801233<ETX>'
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - out.println("sdfo: " + sdfo): null
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - remID = substring(5, 35).trim(): null
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - out.println("remID: " + remID): null
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - traxID = substring(35, 55).trim(): null
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - out.println("traxID: " + traxID): null
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - VLinkSaleRemID = remID: null
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - VLinkSaleTranxID = traxID: null
+
+2022-10-04 21:05:31 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "capture.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:05:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:05:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:05:32 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:05:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:05:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:05:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:05:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:05:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id"), VLinkSaleRemID): Text 'y176LMefrapp' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:35 - [MESSAGE][PASSED] - Text 'y176LMefrapp' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id"), appID): Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:05:36 - [MESSAGE][PASSED] - Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:05:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username"), username): Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:05:36 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:05:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password"), password): Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:05:37 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:05:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id"), VLinkSaleTranxID): Text '2907505' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:05:38 - [MESSAGE][PASSED] - Text '2907505' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:05:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:05:38 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input")): Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:05:40 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - println("Transaction Approved, no errors text is present on the Confirmation page"): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:05:40 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - case "DemoProfile":: null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDDemo", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - username = findTestData(dataFile).getValue("UsernameDemo", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - password = findTestData(dataFile).getValue("PasswordDemo", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - break: null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - println(today): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - datText = today: null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - category = findTestData(dataFile).getValue("Category", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - amount = findTestData(dataFile).getValue("Amount", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - cardNumber = findTestData(dataFile).getValue("CardNumber", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - exM = findTestData(dataFile).getValue("ExM", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - exY = findTestData(dataFile).getValue("ExY", row): null
+
+2022-10-04 21:05:40 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "auth.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:05:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:05:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:05:41 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:05:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:05:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:05:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:05:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:05:43 - [TEST_STEP][PASSED] - genRemID = RandomStringUtils.random(12, true, true): null
+
+2022-10-04 21:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id"), genRemID): Text 'PRhnwKVKdXUu' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:44 - [MESSAGE][PASSED] - Text 'PRhnwKVKdXUu' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id"), appID): Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:05:45 - [MESSAGE][PASSED] - Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:05:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username"), username): Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:05:45 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:05:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password"), password): Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:05:46 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:05:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category"), category): Text 'RETL' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:05:47 - [MESSAGE][PASSED] - Text 'RETL' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:05:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:05:47 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:05:47 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number"), cardNumber): Text '370000000000002' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:05:48 - [MESSAGE][PASSED] - Text '370000000000002' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo"), exM): Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:05:49 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:05:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr"), exY): Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:05:50 - [MESSAGE][PASSED] - Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:05:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:05:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:05:52 - [TEST_STEP][PASSED] - if (executionProfile.equalsIgnoreCase("QAProfile")): null
+
+2022-10-04 21:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:05:53 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - out.println("Auth was successful, Capture now"): null
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - sdfo = getText(findTestObject("Object Repository/Page_VLinkReceipt/pre_STX")): Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>PRhnwKVKdXUu                  2907507             0  Transaction approved, no errors                   0                                                                                  Y 874099406<ETX>'
+
+2022-10-04 21:05:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>PRhnwKVKdXUu                  2907507             0  Transaction approved, no errors                   0                                                                                  Y 874099406<ETX>'
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - out.println("sdfo: " + sdfo): null
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - remID = substring(5, 35).trim(): null
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - out.println("remID: " + remID): null
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - traxID = substring(35, 55).trim(): null
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - out.println("traxID: " + traxID): null
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - VLinkSaleRemID = remID: null
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - VLinkSaleTranxID = traxID: null
+
+2022-10-04 21:05:53 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "capture.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:05:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:05:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:05:54 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:05:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:05:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:05:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:05:56 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:05:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id"), VLinkSaleRemID): Text 'PRhnwKVKdXUu' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:57 - [MESSAGE][PASSED] - Text 'PRhnwKVKdXUu' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:05:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id"), appID): Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:05:58 - [MESSAGE][PASSED] - Text '1773' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username"), username): Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:05:58 - [MESSAGE][PASSED] - Text 'username' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password"), password): Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:05:59 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:05:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id"), VLinkSaleTranxID): Text '2907507' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:06:00 - [MESSAGE][PASSED] - Text '2907507' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:06:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:06:00 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:06:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input")): Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:06:02 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - println("Transaction Approved, no errors text is present on the Confirmation page"): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:06:02 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - case "DemoProfile":: null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDDemo", row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - username = findTestData(dataFile).getValue("UsernameDemo", row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - password = findTestData(dataFile).getValue("PasswordDemo", row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - break: null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - println(today): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - datText = today: null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - category = findTestData(dataFile).getValue("Category", row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - amount = findTestData(dataFile).getValue("Amount", row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - cardNumber = findTestData(dataFile).getValue("CardNumber", row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - exM = findTestData(dataFile).getValue("ExM", row): null
+
+2022-10-04 21:06:02 - [TEST_STEP][PASSED] - exY = findTestData(dataFile).getValue("ExY", row): null
+
+2022-10-04 21:06:03 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "auth.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:06:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:06:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:06:03 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:06:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:06:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:06:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:06:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:06:05 - [TEST_STEP][PASSED] - genRemID = RandomStringUtils.random(12, true, true): null
+
+2022-10-04 21:06:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id"), genRemID): Text 'dWusvvsUMFsI' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:06:06 - [MESSAGE][PASSED] - Text 'dWusvvsUMFsI' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:06:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id"), appID): Text '2435' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:06:07 - [MESSAGE][PASSED] - Text '2435' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username"), username): Text 'health' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:06:07 - [MESSAGE][PASSED] - Text 'health' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password"), password): Text '11111111' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:06:08 - [MESSAGE][PASSED] - Text '11111111' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:06:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category"), category): Text 'ECOM' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:06:09 - [MESSAGE][PASSED] - Text 'ECOM' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:06:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:06:09 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:06:09 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number"), cardNumber): Text '4012000098765439' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:06:10 - [MESSAGE][PASSED] - Text '4012000098765439' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo"), exM): Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:06:11 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:06:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr"), exY): Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:06:12 - [MESSAGE][PASSED] - Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:06:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:06:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:06:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:06:14 - [TEST_STEP][PASSED] - if (executionProfile.equalsIgnoreCase("QAProfile")): null
+
+2022-10-04 21:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:06:16 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - out.println("Auth was successful, Capture now"): null
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - sdfo = getText(findTestObject("Object Repository/Page_VLinkReceipt/pre_STX")): Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>dWusvvsUMFsI                  2907509             0  Transaction approved, no errors                   0                                                                                  N 765439   <ETX>'
+
+2022-10-04 21:06:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>dWusvvsUMFsI                  2907509             0  Transaction approved, no errors                   0                                                                                  N 765439   <ETX>'
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - out.println("sdfo: " + sdfo): null
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - remID = substring(5, 35).trim(): null
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - out.println("remID: " + remID): null
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - traxID = substring(35, 55).trim(): null
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - out.println("traxID: " + traxID): null
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - VLinkSaleRemID = remID: null
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - VLinkSaleTranxID = traxID: null
+
+2022-10-04 21:06:16 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "capture.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:06:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:06:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:06:17 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:06:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:06:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:06:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:06:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:06:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id"), VLinkSaleRemID): Text 'dWusvvsUMFsI' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:06:20 - [MESSAGE][PASSED] - Text 'dWusvvsUMFsI' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:06:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id"), appID): Text '2435' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:06:21 - [MESSAGE][PASSED] - Text '2435' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:06:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username"), username): Text 'health' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:06:21 - [MESSAGE][PASSED] - Text 'health' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:06:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password"), password): Text '11111111' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:06:22 - [MESSAGE][PASSED] - Text '11111111' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id"), VLinkSaleTranxID): Text '2907509' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:06:22 - [MESSAGE][PASSED] - Text '2907509' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:06:23 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input")): Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:06:25 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - println("Transaction Approved, no errors text is present on the Confirmation page"): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:06:25 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - case "DemoProfile":: null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDDemo", row): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - username = findTestData(dataFile).getValue("UsernameDemo", row): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - password = findTestData(dataFile).getValue("PasswordDemo", row): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - break: null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - println(today): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - datText = today: null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - category = findTestData(dataFile).getValue("Category", row): null
+
+2022-10-04 21:06:25 - [TEST_STEP][PASSED] - amount = findTestData(dataFile).getValue("Amount", row): null
+
+2022-10-04 21:06:26 - [TEST_STEP][PASSED] - cardNumber = findTestData(dataFile).getValue("CardNumber", row): null
+
+2022-10-04 21:06:26 - [TEST_STEP][PASSED] - exM = findTestData(dataFile).getValue("ExM", row): null
+
+2022-10-04 21:06:26 - [TEST_STEP][PASSED] - exY = findTestData(dataFile).getValue("ExY", row): null
+
+2022-10-04 21:06:26 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "auth.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:06:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:06:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:06:27 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:06:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:06:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/auth.html'
+
+2022-10-04 21:06:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:06:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:06:29 - [TEST_STEP][PASSED] - genRemID = RandomStringUtils.random(12, true, true): null
+
+2022-10-04 21:06:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id"), genRemID): Text 'B4C6S023McpV' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:06:29 - [MESSAGE][PASSED] - Text 'B4C6S023McpV' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'
+
+2022-10-04 21:06:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id"), appID): Text '3136' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:06:30 - [MESSAGE][PASSED] - Text '3136' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Application Id_application_id'
+
+2022-10-04 21:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username"), username): Text 'user3136' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:06:31 - [MESSAGE][PASSED] - Text 'user3136' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Username_username'
+
+2022-10-04 21:06:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password"), password): Text 'pwd3136' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:06:31 - [MESSAGE][PASSED] - Text 'pwd3136' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Password_password'
+
+2022-10-04 21:06:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category"), category): Text 'ECOM' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:06:32 - [MESSAGE][PASSED] - Text 'ECOM' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Category_category'
+
+2022-10-04 21:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:06:32 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Amount_amount'
+
+2022-10-04 21:06:32 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number' is double clicked on
+
+2022-10-04 21:06:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number"), cardNumber): Text '5146312200000035' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:06:34 - [MESSAGE][PASSED] - Text '5146312200000035' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card number_card_number'
+
+2022-10-04 21:06:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo"), exM): Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:06:34 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex month_card_exmo'
+
+2022-10-04 21:06:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr"), exY): Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:06:35 - [MESSAGE][PASSED] - Text '2029' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Card ex year_card_exyr'
+
+2022-10-04 21:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data' is clicked on
+
+2022-10-04 21:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_CVV state_cvv_state' is clicked on
+
+2022-10-04 21:06:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:06:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Track Data_track_data'
+
+2022-10-04 21:06:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email"), ""): Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:06:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_concat(Cardholder, , s email)_email'
+
+2022-10-04 21:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_user_defined10_user_defined10' is clicked on
+
+2022-10-04 21:06:37 - [TEST_STEP][PASSED] - if (executionProfile.equalsIgnoreCase("QAProfile")): null
+
+2022-10-04 21:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input")): Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input' is clicked on
+
+2022-10-04 21:06:39 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:06:40 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - out.println("Auth was successful, Capture now"): null
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - sdfo = getText(findTestObject("Object Repository/Page_VLinkReceipt/pre_STX")): Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>B4C6S023McpV                  2907511             0  Transaction approved, no errors                   0                                                                                    348792   <ETX>'
+
+2022-10-04 21:06:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_VLinkReceipt/pre_STX' is: '<STX>B4C6S023McpV                  2907511             0  Transaction approved, no errors                   0                                                                                    348792   <ETX>'
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - out.println("sdfo: " + sdfo): null
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - remID = substring(5, 35).trim(): null
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - out.println("remID: " + remID): null
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - traxID = substring(35, 55).trim(): null
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - out.println("traxID: " + traxID): null
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - VLinkSaleRemID = remID: null
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - VLinkSaleTranxID = traxID: null
+
+2022-10-04 21:06:40 - [TEST_STEP][PASSED] - openBrowser(VLinkURL + "capture.html"): Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:06:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-04 21:06:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-04 21:06:41 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2022-10-04 21:06:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-04 21:06:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/capture.html'
+
+2022-10-04 21:06:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-04 21:06:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-04 21:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id"), VLinkSaleRemID): Text 'B4C6S023McpV' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:06:44 - [MESSAGE][PASSED] - Text 'B4C6S023McpV' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Remittance Id_remittance_id'
+
+2022-10-04 21:06:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id"), appID): Text '3136' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:06:44 - [MESSAGE][PASSED] - Text '3136' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Application Id_application_id'
+
+2022-10-04 21:06:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username"), username): Text 'user3136' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:06:45 - [MESSAGE][PASSED] - Text 'user3136' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Username_username'
+
+2022-10-04 21:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password"), password): Text 'pwd3136' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:06:45 - [MESSAGE][PASSED] - Text 'pwd3136' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Password_password'
+
+2022-10-04 21:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id"), VLinkSaleTranxID): Text '2907511' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:06:46 - [MESSAGE][PASSED] - Text '2907511' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Transaction ID_transaction_id'
+
+2022-10-04 21:06:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount"), amount): Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:06:47 - [MESSAGE][PASSED] - Text '10.5' is set on object 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'
+
+2022-10-04 21:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecAndPlayBk/Page-VLink-Capture/input")): Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/RecAndPlayBk/Page-VLink-Capture/input' is clicked on
+
+2022-10-04 21:06:49 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction approved, no errors", true)): null
+
+2022-10-04 21:06:49 - [MESSAGE][PASSED] - Text 'Transaction approved, no errors' is present on page  using regular expression
+
+2022-10-04 21:06:49 - [TEST_STEP][PASSED] - println("Transaction Approved, no errors text is present on the Confirmation page"): null
+
+2022-10-04 21:06:49 - [TEST_STEP][PASSED] - out.println("Pass Record Number: " + row): null
+
+2022-10-04 21:06:49 - [TEST_STEP][PASSED] - resText = "Pass": null
+
+2022-10-04 21:06:49 - [TEST_STEP][PASSED] - pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row): pages.WriteExcel.demoKey is PASSED
+
+2022-10-04 21:06:49 - [MESSAGE][PASSED] - pages.WriteExcel.demoKey is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-04 21:04:51 - [TEST_SUITE][PASSED] - QA_Smoke_Test: Test Cases/RecAndPlayBk/VLink/Auth-Capture]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

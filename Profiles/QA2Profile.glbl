@@ -9,4 +9,14 @@
       <initValue>'https://dev-algorithm.govolution.com/vlinktest/QA2/version_2_0/'</initValue>
       <name>VLinkURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'979'</initValue>
+      <name>VLinkSaleTranxID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'979'</initValue>
+      <name>VLinkSaleRemID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
