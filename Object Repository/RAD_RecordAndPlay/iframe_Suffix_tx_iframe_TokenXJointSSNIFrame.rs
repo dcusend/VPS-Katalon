@@ -6,16 +6,16 @@
    <elementGuidId>10ce3157-5d1d-46db-ae0a-67b3f379a47b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#tx_iframe_TokenXJointSSNIFrame</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'tx_iframe_TokenXJointSSNIFrame' and @name = 'tx_iframe_TokenXJointSSNIFrame']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//iframe[@id='tx_iframe_TokenXJointSSNIFrame']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'tx_iframe_TokenXJointSSNIFrame' and @name = 'tx_iframe_TokenXJointSSNIFrame']</value>
+         <key>CSS</key>
+         <value>#tx_iframe_TokenXJointSSNIFrame</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://test-htp.tokenex.com/iframe/v3?AuthenticationKey=6vtCaEcUhtJFL5QdfItn9GMS8+yOUiagz3pLNUn1ipw%3D&amp;Origin=https%3A%2F%2Fqa.velocitypayment.com&amp;TokenExID=3817434419954472&amp;Timestamp=20211026180037&amp;Container=TokenXJointSSNIFrame&amp;Mode=Data&amp;PCI=false&amp;TokenScheme=ASCIITOKENFOUR&amp;ExpiresInSeconds=1200</value>
+      <value>https://test-htp.tokenex.com/iframe/v3?AuthenticationKey=leTp4%2FuissrrrlVx6qFtdRofAuQIFeO7XPLa3gDf3CE%3D&amp;Origin=https%3A%2F%2Fqa.velocitypayment.com&amp;TokenExID=3817434419954472&amp;Timestamp=20221020200902&amp;Container=TokenXJointSSNIFrame&amp;Mode=Data&amp;PCI=false&amp;TokenScheme=nTOKENfour1to1&amp;ExpiresInSeconds=1200</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,5 +96,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/fieldset/div/iframe</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//iframe[@src = 'https://test-htp.tokenex.com/iframe/v3?AuthenticationKey=leTp4%2FuissrrrlVx6qFtdRofAuQIFeO7XPLa3gDf3CE%3D&amp;Origin=https%3A%2F%2Fqa.velocitypayment.com&amp;TokenExID=3817434419954472&amp;Timestamp=20221020200902&amp;Container=TokenXJointSSNIFrame&amp;Mode=Data&amp;PCI=false&amp;TokenScheme=nTOKENfour1to1&amp;ExpiresInSeconds=1200' and @id = 'tx_iframe_TokenXJointSSNIFrame' and @name = 'tx_iframe_TokenXJointSSNIFrame']</value>
    </webElementXpaths>
 </WebElementEntity>

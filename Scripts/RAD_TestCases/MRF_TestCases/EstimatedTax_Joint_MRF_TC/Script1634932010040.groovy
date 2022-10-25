@@ -66,6 +66,15 @@ import org.openqa.selenium.Keys as Keys
 		//WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSSN'),"123456523")
 		//WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reEnterjointSSN'),"123456523")
 		//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_suffix'),"")
+		
+		//WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JP_SSN_Re'),"123443210")
+		
+		WebUI.delay(2)
+		
+		WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
+		
+		WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),'')
+		
 		WebUI.delay(2)
 		
 		WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))

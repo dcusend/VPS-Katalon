@@ -32,19 +32,23 @@ WebUI.openBrowser('')
 	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability", false)
 	
 	
-	WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_ExisitingSSN'),"123451234")
-	WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),"123451234")
+	//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_ExisitingSSN'),"123451234")
+	//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),"123451234")
 	
 
 	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
 	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_middleName'),"")
 	
 	
-	WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-	
-	WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
-	
-	WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+	WebUI.delay(2)
+		
+		WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
+		
+		WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),'')
+		
+		WebUI.delay(2)
+		
+		WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 	
 	
 	

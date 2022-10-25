@@ -56,3 +56,11 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Sales
 		WebUI.verifyTextPresent('Maryland Form 202', true)
 		
 		WebUI.verifyTextPresent('Refer to your Maryland Sales Tax Instructions to complete the following', true)
+		
+		
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/MarylandForm202F_Page/input__Line6a'), 30)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/MarylandForm202F_Page/input__Line4a'), 30)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/MarylandForm202F_Page/input__Line3a'), 30)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/MarylandForm202F_Page/input__Line2a'), 30)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/MarylandForm202F_Page/input__Line1')	, 30)

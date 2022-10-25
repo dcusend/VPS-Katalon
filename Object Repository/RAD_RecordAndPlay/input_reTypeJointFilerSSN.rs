@@ -6,6 +6,10 @@
    <elementGuidId>af2e901f-ff5f-4b58-be58-6bc321277013</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;data&quot;)[count(. | //*[@ref_element = 'Object Repository/RAD_RecordAndPlay/iframe_Please enter a valid SSN with 9 digi_da7997']) = count(//*[@ref_element = 'Object Repository/RAD_RecordAndPlay/iframe_Please enter a valid SSN with 9 digi_da7997'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='data']</value>
       </entry>
@@ -31,35 +35,35 @@
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>data</value>
+      <value>reEnterJointSSN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Data</value>
+      <value>reEnterJointSSN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Re-Type SSN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

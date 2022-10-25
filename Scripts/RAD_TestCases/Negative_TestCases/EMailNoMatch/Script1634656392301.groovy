@@ -21,7 +21,8 @@ String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "C:\\KatalonData\\RADTestData\\EmailNoMatch.xlsx"
+//String fileLoc = "C:\\KatalonData\\RADTestData\\EmailNoMatch.xlsx"
+String fileLoc = "KatalonData/RADTestData/EmailNoMatch.xlsx"
 String nameSheet = "Sheet1"
 String dataFile = "RADTestData/EmailNoMatch"
 

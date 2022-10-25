@@ -61,6 +61,11 @@ String orPath_MDForm202 = "Object Repository/RAD_Pages/MarylandForm202_Page"
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_MDForm202 + '/input__Line13a'), 30)
 		
+		WebUI.verifyElementPresent(findTestObject(orPath_MDForm202 + '/input__Line13'), 30)
+		
+		WebUI.verifyElementPresent(findTestObject(orPath_MDForm202 + '/input__Line14'), 30)
+		
+		
 		WebUI.verifyElementPresent(findTestObject(orPath_MDForm202 + '/input__Line15'), 30)
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_MDForm202 + '/input__Line17a'), 30)
@@ -69,6 +74,6 @@ String orPath_MDForm202 = "Object Repository/RAD_Pages/MarylandForm202_Page"
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_MDForm202 + '/input__Line19a'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_MDForm202 + '/input__Line19b'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_MDForm202 + '/input__Line19b'), 30)
 		
 		

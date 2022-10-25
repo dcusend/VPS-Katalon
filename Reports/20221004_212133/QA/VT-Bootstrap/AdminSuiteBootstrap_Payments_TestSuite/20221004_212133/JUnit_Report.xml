@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminSuiteBootstrap_Payments_TestSuite" time="4.775" tests="3" failures="0" errors="3">
+   <testsuite name="AdminSuiteBootstrap_Payments_TestSuite" tests="3" failures="0" errors="3" time="4.775" skipped="0" timestamp="2022-10-04 21:21:39" hostname="imtiaz - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/QA/VT-Bootstrap/AdminSuiteBootstrap_Payments_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20221004_212133\\QA\\VT-Bootstrap\\AdminSuiteBootstrap_Payments_TestSuite\\20221004_212133"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20221004_212133\\QA\\VT-Bootstrap\\AdminSuiteBootstrap_Payments_TestSuite\\20221004_212133\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="imtiaz - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="hostAddress" value="172.31.253.54"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC" time="2.462" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC" status="ERROR">
+         <error type="ERROR" message="Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at SaleKeyboard_TP_NoCF_Generic_Payment_TC.run(SaleKeyboard_TP_NoCF_Generic_Payment_TC:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-04 21:21:40 - [TEST_CASE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at SaleKeyboard_TP_NoCF_Generic_Payment_TC.run(SaleKeyboard_TP_NoCF_Generic_Payment_TC:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:40 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-10-04 21:21:40 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-10-04 21:21:40 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2022-10-04 21:21:40 - [TEST_STEP][PASSED] - path_TestMinus = "Object Repository/Page_TestMinusAndAtSigns/": null
+
+2022-10-04 21:21:40 - [TEST_STEP][PASSED] - li_1 = vpos_Prefix: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthCapForm/": null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\Bootstrap\VT-Data.xlsx": null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - nameSheet = "VT-Sale-NoCF-Generic": null
+
+2022-10-04 21:21:41 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic").getRowNumbers(): null
+
+2022-10-04 21:21:42 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2022-10-04 21:21:42 - [TEST_STEP][PASSED] - dataFile = "QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic": null
+
+2022-10-04 21:21:42 - [TEST_STEP][ERROR] - for ([row = 1, row <= numOfRows, (row++)]): Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at SaleKeyboard_TP_NoCF_Generic_Payment_TC.run(SaleKeyboard_TP_NoCF_Generic_Payment_TC:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:42 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-04 21:21:42 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-04 21:21:42 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-04 21:21:42 - [TEST_STEP][ERROR] - hrefAppID = li_1 + appID + li_2: Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at SaleKeyboard_TP_NoCF_Generic_Payment_TC.run(SaleKeyboard_TP_NoCF_Generic_Payment_TC:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:42 - [MESSAGE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at SaleKeyboard_TP_NoCF_Generic_Payment_TC.run(SaleKeyboard_TP_NoCF_Generic_Payment_TC:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-10-04 21:21:40 - [TEST_CASE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at SaleKeyboard_TP_NoCF_Generic_Payment_TC.run(SaleKeyboard_TP_NoCF_Generic_Payment_TC:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC" time="0.961" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC" status="ERROR">
+         <error type="ERROR" message="Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC.run(AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-04 21:21:42 - [TEST_CASE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC.run(AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - path_TestMinus = "Object Repository/Page_TestMinusAndAtSigns/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - path_Receipt = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - path_CCSearch = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - path_SearchResults = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - path_TranxDetails = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - li_1 = vpos_Prefix: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthOnlyForm/": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\Bootstrap\VT-Data.xlsx": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - nameSheet = "VT-AuthCapture-NoCF-Generic": null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/Bootstrap/VT-TestData/VT-AuthCaptureData-NoCF-Generic").getRowNumbers(): null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - dataFile = "QA/Bootstrap/VT-TestData/VT-AuthCaptureData-NoCF-Generic": null
+
+2022-10-04 21:21:43 - [TEST_STEP][ERROR] - for ([row = 1, row <= numOfRows, (row++)]): Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC.run(AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-04 21:21:43 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-04 21:21:43 - [TEST_STEP][ERROR] - hrefAppID = li_1 + appID + li_2: Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC.run(AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:43 - [MESSAGE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC.run(AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-10-04 21:21:42 - [TEST_CASE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC.run(AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC" time="0.903" classname="Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC" status="ERROR">
+         <error type="ERROR" message="Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at DebitPersonal_TP_NoCF_Generic_Payment_TC.run(DebitPersonal_TP_NoCF_Generic_Payment_TC:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-04 21:21:43 - [TEST_CASE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC: Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at DebitPersonal_TP_NoCF_Generic_Payment_TC.run(DebitPersonal_TP_NoCF_Generic_Payment_TC:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - li_1 = vpos_Prefix: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthCapForm/": null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - accType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\Bootstrap\VT-ACH-Data.xlsx": null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - nameSheet = "VT-ACHPersonal-NoCF-Generic": null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/Bootstrap/VT-ACH-TestData/VT-DebitData-NoCF-Generic").getRowNumbers(): null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - dataFile = "QA/Bootstrap/VT-ACH-TestData/VT-DebitData-NoCF-Generic": null
+
+2022-10-04 21:21:44 - [TEST_STEP][ERROR] - for ([row = 1, row <= numOfRows, (row++)]): Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at DebitPersonal_TP_NoCF_Generic_Payment_TC.run(DebitPersonal_TP_NoCF_Generic_Payment_TC:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2022-10-04 21:21:44 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2022-10-04 21:21:44 - [TEST_STEP][ERROR] - hrefAppID = li_1 + appID + li_2: Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at DebitPersonal_TP_NoCF_Generic_Payment_TC.run(DebitPersonal_TP_NoCF_Generic_Payment_TC:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)
+
+
+2022-10-04 21:21:44 - [MESSAGE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at DebitPersonal_TP_NoCF_Generic_Payment_TC.run(DebitPersonal_TP_NoCF_Generic_Payment_TC:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-10-04 21:21:43 - [TEST_CASE][ERROR] - Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC: Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at DebitPersonal_TP_NoCF_Generic_Payment_TC.run(DebitPersonal_TP_NoCF_Generic_Payment_TC:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-04 21:21:39 - [TEST_SUITE][ERROR] - AdminSuiteBootstrap_Payments_TestSuite: Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at SaleKeyboard_TP_NoCF_Generic_Payment_TC.run(SaleKeyboard_TP_NoCF_Generic_Payment_TC:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-10-04 21:21:39 - [TEST_SUITE][ERROR] - AdminSuiteBootstrap_Payments_TestSuite: Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC FAILED.
+Reason:
+java.lang.NullPointerException: Cannot execute null+null
+	at SaleKeyboard_TP_NoCF_Generic_Payment_TC.run(SaleKeyboard_TP_NoCF_Generic_Payment_TC:97)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1664932893953.run(TempTestSuite1664932893953.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

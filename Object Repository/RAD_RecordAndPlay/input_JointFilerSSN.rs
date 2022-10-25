@@ -6,6 +6,10 @@
    <elementGuidId>72f8925a-ec90-4bf7-a35f-3c37be355da5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;data&quot;)[count(. | //*[@ref_element = 'Object Repository/RAD_RecordAndPlay/iframe_Suffix_tx_iframe_TokenXJointSSNIFrame']) = count(//*[@ref_element = 'Object Repository/RAD_RecordAndPlay/iframe_Suffix_tx_iframe_TokenXJointSSNIFrame'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='data']</value>
       </entry>
@@ -31,35 +35,35 @@
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>data</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>Data</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Social Security Number</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

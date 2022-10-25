@@ -6,22 +6,22 @@
    <elementGuidId>4f4ccb87-80f8-42a8-b7e9-c83cc44c5590</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#tx_iframe_TokenXPSSNIFrame</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'tx_iframe_TokenXPSSNIFrame' and @name = 'tx_iframe_TokenXPSSNIFrame']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//iframe[@id='tx_iframe_TokenXPSSNIFrame']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//iframe[@id = 'tx_iframe_TokenXPSSNIFrame' and @name = 'tx_iframe_TokenXPSSNIFrame']</value>
+         <key>CSS</key>
+         <value>#tx_iframe_TokenXPSSNIFrame</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

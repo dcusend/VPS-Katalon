@@ -1,0 +1,94 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AdminSuiteBootstrap_Payments_TestSuite,,,,2022-10-04 21:21:39,2022-10-04 21:21:44,4.775s,ERROR
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/SaleKeyboard_TP_NoCF_Generic_Payment_TC,,,,2022-10-04 21:21:40,2022-10-04 21:21:42,2.462s,ERROR
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",,,,2022-10-04 21:21:40,2022-10-04 21:21:40,0.002s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",,,,2022-10-04 21:21:40,2022-10-04 21:21:40,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",,,,2022-10-04 21:21:40,2022-10-04 21:21:40,0.000s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",,,,2022-10-04 21:21:40,2022-10-04 21:21:40,0.000s,PASSED
+li_1 = vpos_Prefix,,,,2022-10-04 21:21:40,2022-10-04 21:21:41,0.252s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.001s,PASSED
+executionProfile = getExecutionProfile(),,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.025s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+"resText = ""Fail""",,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.000s,PASSED
+"resColumn = ""Result""",,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.012s,PASSED
+"datCloumn = ""Date""",,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.001s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.008s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.003s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.005s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.002s,PASSED
+"nameSheet = ""VT-Sale-NoCF-Generic""",,,,2022-10-04 21:21:41,2022-10-04 21:21:41,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic"").getRowNumbers()",,,,2022-10-04 21:21:41,2022-10-04 21:21:42,1.105s,PASSED
+"println(""Number of Records: "" + numOfRows)",,,,2022-10-04 21:21:42,2022-10-04 21:21:42,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-SaleData-NoCF-Generic""",,,,2022-10-04 21:21:42,2022-10-04 21:21:42,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",,,,2022-10-04 21:21:42,2022-10-04 21:21:42,0.391s,ERROR
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC,,,,2022-10-04 21:21:42,2022-10-04 21:21:43,0.961s,ERROR
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"path_SaleKB = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.002s,PASSED
+"path_TestMinus = ""Object Repository/Page_TestMinusAndAtSigns/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.004s,PASSED
+"path_Receipt = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"path_CCSearch = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.003s,PASSED
+"path_SearchResults = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"path_TranxDetails = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+li_1 = vpos_Prefix,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"li_2 = ""/transactions/AuthOnlyForm/""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+executionProfile = getExecutionProfile(),,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.016s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.003s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.005s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.001s,PASSED
+"resText = ""Fail""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.001s,PASSED
+"resColumn = ""Result""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.001s,PASSED
+"datCloumn = ""Date""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-Data.xlsx""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"nameSheet = ""VT-AuthCapture-NoCF-Generic""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-TestData/VT-AuthCaptureData-NoCF-Generic"").getRowNumbers()",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.179s,PASSED
+"println(""Number of Records: "" + numOfRows)",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VT-TestData/VT-AuthCaptureData-NoCF-Generic""",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",,,,2022-10-04 21:21:43,2022-10-04 21:21:43,0.192s,ERROR
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC,,,,2022-10-04 21:21:43,2022-10-04 21:21:44,0.903s,ERROR
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+li_1 = vpos_Prefix,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+"li_2 = ""/transactions/AuthCapForm/""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.012s,PASSED
+executionProfile = getExecutionProfile(),,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+accType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.016s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.001s,PASSED
+"resText = ""Fail""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.001s,PASSED
+"resColumn = ""Result""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+"datCloumn = ""Date""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.001s,PASSED
+"fileLoc = ""C:\KatalonData\Bootstrap\VT-ACH-Data.xlsx""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+"nameSheet = ""VT-ACHPersonal-NoCF-Generic""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VT-ACH-TestData/VT-DebitData-NoCF-Generic"").getRowNumbers()",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.172s,PASSED
+"println(""Number of Records: "" + numOfRows)",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/VT-ACH-TestData/VT-DebitData-NoCF-Generic""",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",,,,2022-10-04 21:21:44,2022-10-04 21:21:44,0.156s,ERROR

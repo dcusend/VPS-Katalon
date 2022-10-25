@@ -25,7 +25,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 String orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page"
 
 
-def taxTypeDropList = ["Estimated Tax","Extension Payments","Existing Liability","Sales and Use","Withholding Tax"]
+def taxTypeDropList = ["Estimated Tax","Extension Payments","Sales and Use","Withholding Tax"]
 def listSize = taxTypeDropList.size()
 println listSize
 

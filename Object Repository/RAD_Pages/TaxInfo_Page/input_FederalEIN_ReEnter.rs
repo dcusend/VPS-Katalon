@@ -6,12 +6,16 @@
    <elementGuidId>4cf9b2b8-bf26-4a14-b802-7e670196b1f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#data</value>
+         <key>BASIC</key>
+         <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Please enter a valid FEIN with 9 digits_tx_iframe_reEnterFEINIFrame']) = count(//*[@id = 'data' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Please enter a valid FEIN with 9 digits_tx_iframe_reEnterFEINIFrame'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='data']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#data</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,21 +42,21 @@
       <value>data</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>Data</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -66,7 +70,7 @@
       <value>error</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

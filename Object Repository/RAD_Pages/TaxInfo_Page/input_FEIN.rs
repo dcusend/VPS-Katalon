@@ -6,12 +6,16 @@
    <elementGuidId>6e8af295-5c88-4712-8e90-ab5d1629dada</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#data</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='data']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#data</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'taxTypeExisitingFEIN' and @name = 'taxTypeExisitingFEIN' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Re-type SSN Validation Error_tx_ifra_01c241']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,24 +39,24 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>data</value>
+      <value>taxTypeExisitingFEIN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Data</value>
+      <value>taxTypeExisitingFEIN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>

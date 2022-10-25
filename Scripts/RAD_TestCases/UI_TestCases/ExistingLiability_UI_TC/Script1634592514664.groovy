@@ -63,25 +63,25 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Withholding Tax','Alcohol Tax'])
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
 		
-		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
+		//def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 		
-	if (WebUI.verifyEqual(totalOptionsFilingYear, 4))
-		
-		{
-			System.out.println('Total Options for Filing Year are correct: ' + totalOptionsFilingYear)
-			KeywordUtil.markPassed("Total Options are correct for Filing Year")
-		}
-	else
-		{
-			System.out.println('Total Options for Filing Year are NOT correct: ' + totalOptionsFilingYear)
-			KeywordUtil.markFailed("Total Options for Filing Year are NOT correct")
-		}
-		
-	
-	
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2021','2020','2019'])
+		/*
+		 * if (WebUI.verifyEqual(totalOptionsFilingYear, 4))
+		 * 
+		 * { System.out.println('Total Options for Filing Year are correct: ' +
+		 * totalOptionsFilingYear)
+		 * KeywordUtil.markPassed("Total Options are correct for Filing Year") } else {
+		 * System.out.println('Total Options for Filing Year are NOT correct: ' +
+		 * totalOptionsFilingYear)
+		 * KeywordUtil.markFailed("Total Options for Filing Year are NOT correct") }
+		 * 
+		 * 
+		 * 
+		 * WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear +
+		 * '/select_FilingYear'),['2021','2020','2019'])
+		 */
 	
 		
 /*
@@ -110,7 +110,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 			 
 		WebUI.verifyTextPresent('Tax Information', true)
 		
-		WebUI.verifyTextPresent('Either provide your Social Security Number OR Federal EIN', true)
+		//WebUI.verifyTextPresent('Either provide your Social Security Number OR Federal EIN', true)
 		
 		WebUI.verifyTextPresent('Payment Amount', true)
 		
@@ -181,13 +181,13 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 */
 				
 				
-			WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_TaxInfo_ExisitingSSN'), 30)
+			//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_TaxInfo_ExisitingSSN'), 30)
 			
-			WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'), 30)
+			//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'), 30)
 						
-			WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FEIN'), 30)
+			//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FEIN'), 30)
 				
-			WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 30)
+			//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 30)
 			
 			WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'), 30)
 			

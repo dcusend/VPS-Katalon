@@ -58,7 +58,7 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Withh
 		
 				
 		
-	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2021','2020','2019'])
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2020','2021','2022'])
 	
 	
 /*
@@ -170,11 +170,10 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Withh
  */
 	
 	
-	WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FEIN'), 30)
+	WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN'))
+	WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'))
 	
-	WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 30)
-	
-	WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'), 30)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_MDCRegistration'), 30)
 	
 	
 	

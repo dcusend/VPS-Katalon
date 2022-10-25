@@ -6,12 +6,16 @@
    <elementGuidId>8c85467e-e0c0-40f6-bcfb-efe9d1a64c03</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.float-end.w-auto</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-primary float-end w-auto disablecontinue' and (text() = 'Continue' or . = 'Continue')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//form[@id='taxForm']/div[12]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.float-end.w-auto</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,11 +28,11 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary float-end w-auto</value>
+      <value>btn btn-primary float-end w-auto disablecontinue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

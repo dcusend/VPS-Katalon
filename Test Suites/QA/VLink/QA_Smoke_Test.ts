@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>d7d4ea0c-7243-4a8b-9dd7-0f4429caffd0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/AuthOnly</testCaseId>
    </testCaseLink>
    <testCaseLink>

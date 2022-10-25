@@ -24,7 +24,8 @@ String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "C:\\KatalonData\\RADTestData\\PaymentsHardCoded.xlsx"
+//String fileLoc = "C:\\KatalonData\\RADTestData\\PaymentsHardCoded.xlsx"
+String fileLoc = "KatalonData/RADTestData/PaymentsHardCoded.xlsx"
 String nameSheet = "Sheet1"
 String dataFile = "RADTestData/PaymentsHardCoded"
 
@@ -125,6 +126,7 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 									{
 										if (FilingType.equalsIgnoreCase("Y"))
 											{
+												WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
 												WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 												WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
 												WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
@@ -132,6 +134,9 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 											}
 										else
 											{
+												WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
+												WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
+												
 												WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 												WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
 												WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
@@ -145,6 +150,8 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 									}
 								else if (PaymentType.equalsIgnoreCase("Corporate"))
 									{
+										WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),PeriodEnding,false)
+										WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),BusName)
 										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), '0fDtEjy4ijeV75Gl5M+mSg==')
 										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '0fDtEjy4ijeV75Gl5M+mSg==')
 									}
@@ -155,6 +162,7 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),SSN)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),SSN)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
 							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
 							WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
@@ -188,6 +196,7 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 								{
 									if (FilingType.equalsIgnoreCase("Y"))
 										{
+											WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
 											WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 											WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
 											WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
@@ -195,6 +204,8 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 										}
 									else
 										{
+											WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), SSN)
+											WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), SSN)
 											WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 											WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
 											WebUI.check(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
@@ -207,8 +218,10 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 								}
 							else if (PaymentType.equalsIgnoreCase("Corporate"))
 								{
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), '0fDtEjy4ijeV75Gl5M+mSg==')
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '0fDtEjy4ijeV75Gl5M+mSg==')
+									WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),PeriodEnding,false)
+									WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),BusName)
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), '0fDtEjy4ijeV75Gl5M+mSg==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '0fDtEjy4ijeV75Gl5M+mSg==')
 								}
 							break
 							
@@ -216,17 +229,34 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),PeriodEnding,false)
 							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),BusName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325696543")
 							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'),"325696543")
 							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), '0fDtEjy4ijeV75Gl5M+mSg==')
 							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '0fDtEjy4ijeV75Gl5M+mSg==')
 							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
 							
+							//WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
+							if (WebUI.verifyElementVisible(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_BeforeJuly2021_Page/input__GrossSales1'),FailureHandling.OPTIONAL))
+									{
+										WebUI.scrollToElement(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_BeforeJuly2021_Page/input__GrossSales1'), 3)
+										WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_BeforeJuly2021_Page/input__GrossSales1'),'100.00')
+									}
+									
+							if (WebUI.verifyElementVisible(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/input__GrossSales2'),FailureHandling.OPTIONAL))
+									{
+										WebUI.scrollToElement(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/input__GrossSales2'), 3)
+										WebUI.setText(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202_Page/input__GrossSales2'),'100.00')
+									}
+							
 							break
 							
 						case "Withholding Tax":
 							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
 							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),BusName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
 							//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
 							//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'),"325695432")
@@ -234,6 +264,7 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'xLVb905G4/sGR8qgNWNzNQ==')
 							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'xLVb905G4/sGR8qgNWNzNQ==')
 							WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
+							
 							
 							if (Withholding.equalsIgnoreCase("Y"))
 								{
@@ -262,10 +293,14 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 					
 										
 //	Populate Taxpayer
-									
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+					if (PaymentType.equalsIgnoreCase("Personal"))
+						{
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
+						}
+					//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
 															
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
+					//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
 					
 					
 					
@@ -312,11 +347,16 @@ def AL1, City, ZIP, FilingType, Withholding, Amount, CCNumber, CVV
 					
 					
 // Populate Payment Entry page
+					if (PaymentType.equalsIgnoreCase("Corporate"))
+						{
+							WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony Gonzalez')
+						}
 					WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__cardNumber'),CCNumber)
 					WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__spc'),CVV)
 					WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry + '/select_MM'),"12",false)
 					WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry + '/select_YYYY'),"2023",false)
 					WebUI.click(findTestObject(orPath_PaymentEntry + '/input_Field_ccSubmit'))
+					
 					
 					
 					

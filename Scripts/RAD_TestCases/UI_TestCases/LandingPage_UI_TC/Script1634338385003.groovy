@@ -90,14 +90,12 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 			 * taxhelp@marylandtaxes.gov Static text was NOT found on the Landing Page') }
 			 */
 					
-	if (WebUI.verifyTextPresent('FOR TAX RELATED QUESTIONS', true))
-			{
-				System.out.println('FOR TAX RELATED QUESTIONS Static text was found on the Landing Page')
-			}
-	else
-			{
-				System.out.println('FOR TAX RELATED QUESTIONS Static text was NOT found on the Landing Page')
-			}
+			/*
+			 * if (WebUI.verifyTextPresent('FOR TAX RELATED QUESTIONS', true)) {
+			 * System.out.println('FOR TAX RELATED QUESTIONS Static text was found on the
+			 * Landing Page') } else { System.out.println('FOR TAX RELATED QUESTIONS Static
+			 * text was NOT found on the Landing Page') }
+			 */
 			
 			
 	if (WebUI.verifyElementPresent(findTestObject(orPath + '/button_Continue'), 30))
@@ -122,14 +120,13 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 		
 
 		
-	if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_For technical questions and support'), 30))
-		{
-			System.out.println('For technical questions and support link was found on the Landing Page')
-		}
-	else
-		{
-			System.out.println('For technical questions and support link was NOT found on the Landing Page')
-		}
+		/*
+		 * if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_For technical
+		 * questions and support'), 30)) { System.out.println('For technical questions
+		 * and support link was found on the Landing Page') } else {
+		 * System.out.println('For technical questions and support link was NOT found on
+		 * the Landing Page') }
+		 */
 		
 		
 		
@@ -143,35 +140,30 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 		}
 		
 		
-	if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_Department of Information Technology (DoIT)'), 30))
-		{
-			System.out.println('Department of Information Technology link was found on the Landing Page')
-		}
-	else
-		{
-			System.out.println('Department of Information Technology link was NOT found on the Landing Page')
-		}
+		/*
+		 * if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_Department of
+		 * Information Technology (DoIT)'), 30)) { System.out.println('Department of
+		 * Information Technology link was found on the Landing Page') } else {
+		 * System.out.println('Department of Information Technology link was NOT found
+		 * on the Landing Page') }
+		 */
 		
 		
-	if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_double_arrow Click for 247 Support'), 30))
-		{
-			System.out.println('Click for 24/7 Support link was found on the Landing Page')
-		}
-	else
-		{
-			System.out.println('Click for 24/7 Support link was NOT found on the Landing Page')
-		}
+		/*
+		 * if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_double_arrow Click
+		 * for 247 Support'), 30)) { System.out.println('Click for 24/7 Support link was
+		 * found on the Landing Page') } else { System.out.println('Click for 24/7
+		 * Support link was NOT found on the Landing Page') }
+		 */
 				
 		
 		
-	if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_Maryland.gov'), 30))
-		{
-			System.out.println('Mayrland.gov link was found on the Landing Page')
-		}
-	else
-		{
-			System.out.println('Mayrland.gov link was NOT found on the Landing Page')
-		}
+		/*
+		 * if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_Maryland.gov'),
+		 * 30)) { System.out.println('Mayrland.gov link was found on the Landing Page')
+		 * } else { System.out.println('Mayrland.gov link was NOT found on the Landing
+		 * Page') }
+		 */
 		
 		def totalOptions = WebUI.getNumberOfTotalOption(findTestObject(orPath + '/dd_TaxType'))
 		

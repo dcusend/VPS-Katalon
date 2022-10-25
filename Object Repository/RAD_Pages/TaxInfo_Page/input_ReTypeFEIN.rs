@@ -6,12 +6,16 @@
    <elementGuidId>4c08c470-6f7f-429b-85cb-51a802062535</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#data</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='data']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#data</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'reTaxTypeExisitingFEIN' and @name = 'reTaxTypeExisitingFEIN' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Please enter a valid FEIN with 9 dig_ffc08e']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,24 +39,24 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>data</value>
+      <value>reTaxTypeExisitingFEIN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Data</value>
+      <value>reTaxTypeExisitingFEIN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>

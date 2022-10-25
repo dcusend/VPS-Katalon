@@ -21,12 +21,13 @@ String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "C:\\KatalonData\\RADTestData\\PaymentsELHardCoded.xlsx"
+//String fileLoc = "C:\\KatalonData\\RADTestData\\PaymentsELHardCoded.xlsx"
+String fileLoc = "KatalonData/RADTestData/PaymentsELHardCoded.xlsx"
 String nameSheet = "Sheet1"
 String dataFile = "RADTestData/PaymentsELHardCoded"
 
 def ExecuteTC, Taxtype, TaxTypeEL, FName, LName
-def AL1, City, ZIP, Amount, CCNumber, CVV, SSN, FilingYear, FEIN
+def AL1, City, ZIP, Amount, CCNumber, CVV, SSN, FilingYear, FEIN, businessName
 
 Random rand = new Random()
 
@@ -47,7 +48,7 @@ Random rand = new Random()
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
 			Taxtype = findTestData(dataFile).getValue('TaxType', row)
 			TaxTypeEL = findTestData(dataFile).getValue('TaxTypeEL', row)
-			FilingYear = findTestData(dataFile).getValue('FilingYear', row)
+			//FilingYear = findTestData(dataFile).getValue('FilingYear', row)
 			FName = findTestData(dataFile).getValue('Fname', row)
 			LName = findTestData(dataFile).getValue('Lname', row)
 			AL1 = findTestData(dataFile).getValue('AL1', row)
@@ -58,6 +59,7 @@ Random rand = new Random()
 			CVV = findTestData(dataFile).getValue('CVV', row)
 			SSN = findTestData(dataFile).getValue('SSN', row)
 			FEIN = findTestData(dataFile).getValue('FEIN', row)
+			businessName = findTestData(dataFile).getValue('BusName', row)
 			
 			
 			
@@ -109,13 +111,22 @@ Random rand = new Random()
 					
 					WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),TaxTypeEL , false)
 					
-					WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), FilingYear, false)
+					//WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), FilingYear, false)
 					
 // Populate Tax Payer
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_middleName'),"Johns")
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_suffix'),"Sr")
+					
+					
+					if (TaxTypeEL.equalsIgnoreCase("Fiduciary Tax") || TaxTypeEL.equalsIgnoreCase("Personal Tax"))
+						{
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),FName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),LName)
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_middleName'),"Johns")
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_suffix'),"Sr")
+						}
+					else
+						{
+							WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),businessName)
+						}
 					
 
 					
@@ -133,19 +144,29 @@ Random rand = new Random()
 					
 					
 // Populate Tax Information
-					if (!SSN.isEmpty())
-					{
-						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_ExisitingSSN'),SSN)
-						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),SSN)
-					}
+					
+					
+					if (TaxTypeEL.equalsIgnoreCase("Personal Tax"))
+							{
+								WebUI.setText(findTestObject(orPath_TaxInfo +'/input_TaxInfo_ExisitingSSN'),SSN)
+								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),SSN)
+							}
 
 					WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 					
-					if (!FEIN.isEmpty())
+					//if (!FEIN.isEmpty())
+					//{
+					//	WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'), FEIN)
+					//	WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), FEIN)
+					//}
+					
+					if (!TaxTypeEL.equalsIgnoreCase("Personal Tax"))
 					{
 						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'), FEIN)
 						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), FEIN)
+						
 					}
+					
 					//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FEIN'), 30)
 					//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 30)
 					//WebUI.waitForElementClickable(findTestObject(orPath_TaxInfo + '/input_FEIN'),5)
@@ -166,7 +187,7 @@ Random rand = new Random()
 					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'),"258147147")
 					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'),"258147147")
 					
-					if (TaxTypeEL.equalsIgnoreCase("Sales & Use Tax"))
+					if (TaxTypeEL.equalsIgnoreCase("Sales & Use Tax") || TaxTypeEL.equalsIgnoreCase("Withholding Tax"))
 					{
 						println("TaxTypeEL : " + TaxTypeEL)
 						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'),'07640126')
