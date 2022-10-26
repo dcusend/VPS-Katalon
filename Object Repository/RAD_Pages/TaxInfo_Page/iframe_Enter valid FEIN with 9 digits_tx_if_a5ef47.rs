@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Please enter a valid SSN with 9 digi_2771b1</name>
+   <name>iframe_Enter valid FEIN with 9 digits_tx_if_a5ef47</name>
    <tag></tag>
-   <elementGuidId>fb619cac-2f72-4aca-90eb-c0d8205d0139</elementGuidId>
+   <elementGuidId>99f0a3e5-db04-4b2f-b883-9034b4f11d7a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='tx_iframe_reTaxTypeExisitingSSNIFrame']</value>
+         <value>//iframe[@id='tx_iframe_reTaxTypeExisitingFEINIFrame']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#tx_iframe_reTaxTypeExisitingSSNIFrame</value>
+         <value>#tx_iframe_reTaxTypeExisitingFEINIFrame</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;tx_iframe_reTaxTypeExisitingSSNIFrame&quot;)[count(. | //*[@id = 'tx_iframe_reTaxTypeExisitingSSNIFrame' and @name = 'tx_iframe_reTaxTypeExisitingSSNIFrame']) = count(//*[@id = 'tx_iframe_reTaxTypeExisitingSSNIFrame' and @name = 'tx_iframe_reTaxTypeExisitingSSNIFrame'])]</value>
+         <value>//*[@id = 'tx_iframe_reTaxTypeExisitingFEINIFrame' and @name = 'tx_iframe_reTaxTypeExisitingFEINIFrame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://test-htp.tokenex.com/iframe/v3?AuthenticationKey=w9RX64HAzEf3chAOKTvrWrNbcQ3TUcIzNyaiDhW8jAM%3D&amp;Origin=https%3A%2F%2Fqa.velocitypayment.com&amp;TokenExID=3817434419954472&amp;Timestamp=20211026182143&amp;Container=reTaxTypeExisitingSSNIFrame&amp;Mode=Data&amp;PCI=false&amp;TokenScheme=ASCIITOKENFOUR&amp;ExpiresInSeconds=1200</value>
+      <value>https://test-htp.tokenex.com/iframe/v3?AuthenticationKey=gNDBI4jwWina+bhBkOO9kud%2FXYrIezkDW2f8Ef11oKE%3D&amp;Origin=https%3A%2F%2Fqa.velocitypayment.com&amp;TokenExID=3817434419954472&amp;Timestamp=20221025230745&amp;Container=reTaxTypeExisitingFEINIFrame&amp;Mode=Data&amp;PCI=false&amp;TokenScheme=nTOKENfour1to1&amp;ExpiresInSeconds=1200</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,41 +60,48 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tx_iframe_reTaxTypeExisitingSSNIFrame</value>
+      <value>tx_iframe_reTaxTypeExisitingFEINIFrame</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>tx_iframe_reTaxTypeExisitingSSNIFrame</value>
+      <value>tx_iframe_reTaxTypeExisitingFEINIFrame</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tx_iframe_reTaxTypeExisitingSSNIFrame&quot;)</value>
+      <value>id(&quot;tx_iframe_reTaxTypeExisitingFEINIFrame&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='tx_iframe_reTaxTypeExisitingSSNIFrame']</value>
+      <value>//iframe[@id='tx_iframe_reTaxTypeExisitingFEINIFrame']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='reTaxTypeExisitingSSNIFrame']/iframe</value>
+      <value>//div[@id='reTaxTypeExisitingFEINIFrame']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/fieldset/div/iframe</value>
+      <value>//div[7]/div[6]/fieldset/div/iframe</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//iframe[@src = 'https://test-htp.tokenex.com/iframe/v3?AuthenticationKey=gNDBI4jwWina+bhBkOO9kud%2FXYrIezkDW2f8Ef11oKE%3D&amp;Origin=https%3A%2F%2Fqa.velocitypayment.com&amp;TokenExID=3817434419954472&amp;Timestamp=20221025230745&amp;Container=reTaxTypeExisitingFEINIFrame&amp;Mode=Data&amp;PCI=false&amp;TokenScheme=nTOKENfour1to1&amp;ExpiresInSeconds=1200' and @id = 'tx_iframe_reTaxTypeExisitingFEINIFrame' and @name = 'tx_iframe_reTaxTypeExisitingFEINIFrame']</value>
    </webElementXpaths>
 </WebElementEntity>

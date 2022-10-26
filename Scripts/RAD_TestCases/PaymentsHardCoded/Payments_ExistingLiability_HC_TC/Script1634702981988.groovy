@@ -58,7 +58,7 @@ Random rand = new Random()
 			CCNumber = findTestData(dataFile).getValue('CCNumber', row)
 			CVV = findTestData(dataFile).getValue('CVV', row)
 			SSN = findTestData(dataFile).getValue('SSN', row)
-			FEIN = findTestData(dataFile).getValue('FEIN', row)
+			//FEIN = findTestData(dataFile).getValue('FEIN', row)
 			businessName = findTestData(dataFile).getValue('BusName', row)
 			
 			
@@ -162,9 +162,15 @@ Random rand = new Random()
 					
 					if (!TaxTypeEL.equalsIgnoreCase("Personal Tax"))
 					{
-						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'), FEIN)
-						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), FEIN)
+						//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_FEIN'), FEIN)
+						//WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), FEIN)
 						
+						//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_ReEnterFEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_ReEnterFEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						
+						WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'RigbBhfdqODKcAsiUrg+1Q==')
+						
+						WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'RigbBhfdqODKcAsiUrg+1Q==')			
 					}
 					
 					//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FEIN'), 30)
@@ -222,6 +228,11 @@ Random rand = new Random()
 					
 					
 // Populate Payment Entry page
+					//if (TaxTypeEL.equalsIgnoreCase("Fiduciary Tax") || TaxTypeEL.equalsIgnoreCase("Personal Tax"))
+						//{
+							WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony Gonzalez')
+						//}
+					
 					WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__cardNumber'),CCNumber)
 					WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__spc'),CVV)
 					WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry + '/select_MM'),"12",false)

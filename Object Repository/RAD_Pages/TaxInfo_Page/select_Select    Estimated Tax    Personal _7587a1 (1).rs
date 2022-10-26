@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Select    Estimated Tax    Personal _7587a1</name>
+   <name>select_Select    Estimated Tax    Personal _7587a1 (1)</name>
    <tag></tag>
-   <elementGuidId>75f714b8-7f23-4f94-9a05-37e986154abd</elementGuidId>
+   <elementGuidId>8cc5679b-4ea8-4fc7-8234-f7bf2d4922bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -12,26 +12,6 @@
       <entry>
          <key>XPATH</key>
          <value>//select[@id='taxType']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'taxType' and @name = 'taxType' and (text() = '
-										    Select
-										    Estimated Tax
-										    Personal Income Tax
-										    Extension Payments
-										    Existing Liability
-										    Sales and Use
-										    Withholding Tax
-										  ' or . = '
-										    Select
-										    Estimated Tax
-										    Personal Income Tax
-										    Extension Payments
-										    Existing Liability
-										    Sales and Use
-										    Withholding Tax
-										  ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

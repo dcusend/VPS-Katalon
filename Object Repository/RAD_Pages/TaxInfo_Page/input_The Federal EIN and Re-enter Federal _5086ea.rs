@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_FederalEIN</name>
+   <name>input_The Federal EIN and Re-enter Federal _5086ea</name>
    <tag></tag>
-   <elementGuidId>cb3243b7-03f1-4a82-aa1d-7a00d6d2d2d5</elementGuidId>
+   <elementGuidId>8b784021-5d32-41d9-b14f-e01b9b6a882f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='data']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#data</value>
+         <value>#noticeNumber</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @name = 'Data' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Tax Information_tx_iframe_FEINIFrame']) = count(//*[@id = 'data' and @name = 'Data' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Tax Information_tx_iframe_FEINIFrame'])]</value>
+         <key>XPATH</key>
+         <value>//input[@id='noticeNumber']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,6 +24,55 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>noticeNumber</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mask</name>
+      <type>Main</type>
+      <value>9999999999999</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>noticeNumber</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>13</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Notice or Invoice Number</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
@@ -35,66 +80,38 @@
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>data</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>Data</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Federal EIN</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>error</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;data&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/RAD_Pages/TaxInfo_Page/iframe_Tax Information_tx_iframe_FEINIFrame</value>
+      <value>id(&quot;noticeNumber&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='data']</value>
+      <value>//input[@id='noticeNumber']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='taxForm']/div[7]/div[7]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[15]</value>
+      <value>//div[7]/div[7]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @name = 'noticeNumber' and @id = 'noticeNumber' and @placeholder = 'Notice or Invoice Number']</value>
    </webElementXpaths>
 </WebElementEntity>

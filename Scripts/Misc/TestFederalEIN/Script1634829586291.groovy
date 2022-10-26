@@ -17,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://qa.velocitypayment.com/client/rad/index.html')
 
-Random rand = new Random()
-def rand_Num = rand.nextInt(1000000000)
-println rand_Num
-println rand_Num
+WebUI.selectOptionByValue(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/select_Select    Estimated Tax    Personal _7587a1'), 
+    '4', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/select_SelectAlcohol TaxBay Restoration Fun_1d1c37'), 
+    '550', true)
+
+WebUI.click(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/div_Tax TypeFiling Year      Select    Esti_e6768c'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_ReEnterFEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+

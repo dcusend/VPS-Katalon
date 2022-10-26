@@ -6,16 +6,16 @@
    <elementGuidId>0789bb62-f280-4d5a-9b4d-37ea434335f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#tx_iframe_taxTypeExisitingSSNIFrame</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//iframe[@id='tx_iframe_taxTypeExisitingSSNIFrame']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#tx_iframe_taxTypeExisitingSSNIFrame</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'tx_iframe_taxTypeExisitingSSNIFrame' and @name = 'tx_iframe_taxTypeExisitingSSNIFrame']</value>
+         <value>id(&quot;tx_iframe_taxTypeExisitingSSNIFrame&quot;)[count(. | //*[@id = 'tx_iframe_taxTypeExisitingSSNIFrame' and @name = 'tx_iframe_taxTypeExisitingSSNIFrame']) = count(//*[@id = 'tx_iframe_taxTypeExisitingSSNIFrame' and @name = 'tx_iframe_taxTypeExisitingSSNIFrame'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -70,7 +70,7 @@
       <value>tx_iframe_taxTypeExisitingSSNIFrame</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

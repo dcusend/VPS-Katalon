@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_FederalEIN</name>
+   <name>input_concat(id(, , data, , ))_Data</name>
    <tag></tag>
-   <elementGuidId>cb3243b7-03f1-4a82-aa1d-7a00d6d2d2d5</elementGuidId>
+   <elementGuidId>c0a1ebfd-cc20-475d-be69-fafb574f5bcd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @name = 'Data' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Tax Information_tx_iframe_FEINIFrame']) = count(//*[@id = 'data' and @name = 'Data' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Tax Information_tx_iframe_FEINIFrame'])]</value>
+         <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN Number *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d']) = count(//*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN Number *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,25 +49,18 @@
       <value>Data</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Federal EIN</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>error</value>
+      <value>FEIN Number *</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,7 +74,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/RAD_Pages/TaxInfo_Page/iframe_Tax Information_tx_iframe_FEINIFrame</value>
+      <value>Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,6 +88,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[15]</value>
+      <value>//input[20]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN Number *']</value>
    </webElementXpaths>
 </WebElementEntity>

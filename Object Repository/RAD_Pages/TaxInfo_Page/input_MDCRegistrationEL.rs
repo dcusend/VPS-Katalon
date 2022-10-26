@@ -6,12 +6,16 @@
    <elementGuidId>cd15d156-4659-4ee8-a5ce-20a21f61377c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='MDCRegistrationEL']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#MDCRegistrationEL</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='MDCRegistrationEL']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'MDCRegistrationEL' and @id = 'MDCRegistrationEL']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -59,7 +63,7 @@
       <value>8</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
