@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Existing Liability Invoice Notice Number Length Validation</description>
+   <name>EL-NumberValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27624115-d981-446a-b54e-aa24468291b6</testCaseGuid>
+</TestCaseEntity>

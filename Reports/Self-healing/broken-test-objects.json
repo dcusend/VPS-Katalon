@@ -295,6 +295,33 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistration_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/SAU_MDForm202_Page/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@id\u003d\u0027salesUseMonth\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/SAU_MDForm202_Page/select_MonthJanuaryFebruaryMarchAprilMayJun_aa9ebb_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/SAU_MDForm202_Page/select_YYYY20212022202320242025202620272028_8c4dd4",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027cardExpYear\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/SAU_MDForm202_Page/select_YYYY20212022202320242025202620272028_8c4dd4_XPATH.png"
     }
   ]
 }

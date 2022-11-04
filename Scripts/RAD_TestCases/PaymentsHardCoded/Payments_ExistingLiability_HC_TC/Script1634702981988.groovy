@@ -27,7 +27,7 @@ String nameSheet = "Sheet1"
 String dataFile = "RADTestData/PaymentsELHardCoded"
 
 def ExecuteTC, Taxtype, TaxTypeEL, FName, LName
-def AL1, City, ZIP, Amount, CCNumber, CVV, SSN, FilingYear, FEIN, businessName
+def AL1, City, ZIP, Amount, CCNumber, CVV, SSN, FilingYear, FEIN, businessName, notInvNumber
 
 Random rand = new Random()
 
@@ -58,6 +58,7 @@ Random rand = new Random()
 			CCNumber = findTestData(dataFile).getValue('CCNumber', row)
 			CVV = findTestData(dataFile).getValue('CVV', row)
 			SSN = findTestData(dataFile).getValue('SSN', row)
+			notInvNumber = findTestData(dataFile).getValue('NotiInvoNumber', row)
 			//FEIN = findTestData(dataFile).getValue('FEIN', row)
 			businessName = findTestData(dataFile).getValue('BusName', row)
 			
@@ -190,8 +191,8 @@ Random rand = new Random()
 					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
 					//def rand_Num = rand.nextInt(1000000000)
 					
-					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'),"258147147")
-					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'),"258147147")
+					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'),notInvNumber)
+					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'),notInvNumber)
 					
 					if (TaxTypeEL.equalsIgnoreCase("Sales & Use Tax") || TaxTypeEL.equalsIgnoreCase("Withholding Tax"))
 					{
