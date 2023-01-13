@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027serviceConvenience\u0027]/div/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230104_135334/RAD_TestSuite/RAD_UI_TestSuite/20230104_135334/Object Repository/RAD_Pages/Landing_Page/div_ServiceFeesVerbiage_XPATH.png"
+    }
+  ]
+}

@@ -17,12 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 
 def taxTypeDropList = ["Estimated Tax","Personal Income Tax","Extension Payments","Existing Liability","Sales and Use","Withholding Tax"]
 def listSize = taxTypeDropList.size()
 println listSize
 
+def executionProfile = RC.getExecutionProfile()
 
 for (def i = 0; i < listSize; i++)
 {
@@ -45,11 +47,41 @@ WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
 
 WebUI.click(findTestObject(orPath_Landing + '/a_Click here for details'))
 
-String cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express."
+//Old CF Verbiage
+//String cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express."
+
+
+// New CF Verbiage
+String cfVerbiageQA = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover."
+
+//WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageQA)
+
+String cfVerbiageDemo = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, MasterCard, and Discover."
+
+
+switch(executionProfile)
+{
+	case "QAProfile":
+			 WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageQA)
+	break
+	
+	case "DemoProfile":
+			WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageDemo)
+	break
+	
+//	case "Production":
+			
+//	break
+	
+//	case "Upgrade":
+//			appName = findTestData(dataFile).getValue('AppNameProd', row)
+//			appID = findTestData(dataFile).getValue('AppIDProd', row)
+//	break
+}
 
 
 
-WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiage)
+
 
 WebUI.verifyElementPresent(findTestObject(orPath_Landing + '/button_Close'), 30)
 

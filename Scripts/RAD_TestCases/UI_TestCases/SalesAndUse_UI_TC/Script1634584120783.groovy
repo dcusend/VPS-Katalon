@@ -57,7 +57,7 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Sales
 	WebUI.verifyEqual(totalOptionsFilingYear, 4)
 		
 			
-	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022','2021','2020'])
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2021','2022','2023'])
 	
 	
 	
@@ -243,7 +243,7 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Sales
 // Select 2 Years in the Past
 // Only last 6 months should be displayed
 	
-	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2020",false)
+	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2021",false)
 	
 	
 	def totalOptionsPeriodEnding2 = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
@@ -263,7 +263,7 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Sales
 // Select 1 Year in the Past
 // All Months should be displayed
 	
-	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2021",false)
+	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2022",false)
 	
 	
 	def totalOptionsPeriodEnding3 = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
@@ -278,7 +278,7 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Sales
 // Select Current Year
 // All Months should be displayed
 	
-	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2022",false)
+	WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),"2023",false)
 	
 	
 	def totalOptionsPeriodEnding4 = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))

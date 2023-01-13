@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify FEIN more than 9 Error</description>
+   <description>Verify FEIN more than 9 Error.  Works in both QA and Demo</description>
    <name>FEINmoreThan9Error</name>
    <tag></tag>
    <comment></comment>

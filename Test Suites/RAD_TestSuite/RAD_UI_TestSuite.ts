@@ -150,6 +150,12 @@
       <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/FEINmoreThan9Error</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>70dd97cb-e845-4603-b6cf-5b0f79d2783f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/EL-NumberValidation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7bdfe500-8821-402c-acf8-e8e2571c90ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -171,7 +177,7 @@
       <guid>d54684cf-fc9d-4efa-806e-a73561adeedf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_BeforeJuly2021_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_BeforeJuly2021_HC_TC_OUTDATED</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>27b5c73f-94eb-441f-9a00-e607b4414799</guid>
@@ -183,13 +189,13 @@
       <guid>c627acce-dc5c-4d5e-af14-93b2a372d461</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_BeforeJuly2021_MarketplaceFacilitator_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_BeforeJuly2021_MarketplaceFacilitator_HC_TC_OUTDATED</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b77acb61-82a8-46c3-afda-01a87376287b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_BeforeJuly2021_OutOfStateVendor_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_BeforeJuly2021_OutOfStateVendor_HC_TC_OUTDATED</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a831393a-22b4-487f-93c1-afd81c75ee8c</guid>
@@ -207,12 +213,6 @@
       <guid>f7b63aca-17c7-41ea-901f-ef0381a5382a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_BeforeJuly2021_BothChkBox_HC_TC</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>70dd97cb-e845-4603-b6cf-5b0f79d2783f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/EL-NumberValidation</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_BeforeJuly2021_BothChkBox_HC_TC_OUTDATED</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

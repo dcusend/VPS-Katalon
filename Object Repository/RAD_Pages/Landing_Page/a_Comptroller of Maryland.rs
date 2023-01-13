@@ -6,12 +6,16 @@
    <elementGuidId>d3e27a39-a7f6-4f09-8651-1510b10ee74a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.span6.footerContactBlk.col-lg-6 > p > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//footer[@id='footer']/div/div[2]/div/p/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://marylandtaxes.gov/']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.span6.footerContactBlk.col-lg-6 > p > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://www.marylandtaxes.com/</value>
+      <value>https://marylandtaxes.gov/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <value>_blank</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

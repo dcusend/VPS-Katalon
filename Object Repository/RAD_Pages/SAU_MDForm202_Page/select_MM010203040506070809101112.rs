@@ -6,12 +6,16 @@
    <elementGuidId>75f925d3-ed0e-450d-82e9-46fec646084b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select[name=&quot;cardExpMonth&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@name='cardExpMonth']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'cardExpMonth' and @alt = 'Expiration Date']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;cardExpMonth&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -52,7 +56,7 @@
       <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

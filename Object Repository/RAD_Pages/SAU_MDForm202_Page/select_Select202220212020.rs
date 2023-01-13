@@ -6,12 +6,16 @@
    <elementGuidId>7de58d92-7bbd-4801-99db-1dc3141c9b4c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#taxYear</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='taxYear']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'taxYear' and @name = 'taxYear']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#taxYear</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -59,7 +63,7 @@
       <value>Floating label select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

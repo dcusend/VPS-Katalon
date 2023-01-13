@@ -39,8 +39,15 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 selenium.open("https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html")
 selenium.type("name=transaction_type", "104")
 selenium.type("name=message_version", ("2.0C").toString())
-String remID = selenium.getEval("  " + "Date.now")
-selenium.type("name=remittance_id", (remID).toString())
+
+//String remID = selenium.getEval("  " + "Date.now")
+//selenium.type("name=remittance_id", (remID).toString())
+
+def genRemID = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+//WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_RemID'),genRemID)
+
+WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id'), genRemID)
+
 selenium.type("name=application_id", "180")
 selenium.type("name=username", "")
 selenium.type("name=password", "")
@@ -84,5 +91,6 @@ selenium.type("name=user_defined10", "")
 selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
 selenium.selectWindow("null")
-softAssertion.assertEquals(Pattern.matches('selenium.getText("css=pre")', ".*Signon authentication error.*"), true)
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("css=pre")', ".*Signon authentication error.*"), true)
+WebUI.verifyTextPresent(("Signon authentication error"), true)
 

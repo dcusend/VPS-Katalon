@@ -10,6 +10,10 @@
          <value>//div[@id='serviceConvenience']/div/div/div[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;serviceConvenience&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.modal-body</value>
       </entry>
@@ -31,16 +35,14 @@
       <value>modal-body</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-	        This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express.
-	      </value>
+      <value>This electronic government service includes a 2.45% service/convenience fee, with a $1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

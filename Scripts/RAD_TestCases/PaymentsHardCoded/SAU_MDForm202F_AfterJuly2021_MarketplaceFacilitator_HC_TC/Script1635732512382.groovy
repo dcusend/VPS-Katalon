@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qa.velocitypayment.com/client/rad/index.html')
 
+WebUI.maximizeWindow()
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/RAD_Pages/SAU_MDForm202F_MF_AfterJuly2021_Page/select_Select    Estimated Tax    Personal _7587a1'), 
     '5', true)
 

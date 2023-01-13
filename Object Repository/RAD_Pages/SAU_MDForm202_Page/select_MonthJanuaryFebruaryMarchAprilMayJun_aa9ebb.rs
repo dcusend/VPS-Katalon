@@ -6,12 +6,16 @@
    <elementGuidId>2f68d4c9-622c-44e4-b3ab-a2e6e5224500</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#salesUseMonth</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='salesUseMonth']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'salesUseMonth' and @name = 'salesUseMonth']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#salesUseMonth</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -59,7 +63,7 @@
       <value>Floating label select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.configuration.RunConfiguration as RC
+
 String orPath_Landing = "Object Repository/RAD_Pages/Landing_Page"
 String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
@@ -26,6 +28,8 @@ String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
 def taxTypeDropList = ["Estimated Tax","Personal Income Tax","Extension Payments"]
 def listSize = taxTypeDropList.size()
 println listSize
+
+def executionProfile = RC.getExecutionProfile()
 
 
 for (def i = 0; i < listSize; i++)
@@ -40,9 +44,28 @@ for (def i = 0; i < listSize; i++)
 	
 	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), taxTypeDropList[i], false)
 	
-	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
-	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123441234")
-	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123441234")
+	
+	switch(executionProfile)
+	{
+		case "QAProfile":
+						WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123441234")
+						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123441234")
+		break
+		
+		case "DemoProfile":
+						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123456725")
+						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123456725")
+						WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"ATES")
+		break
+	}
+	
+	
+	
+	
+	//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+	//WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123441234")
+	//WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123441234")
 
 	
 	
@@ -52,12 +75,30 @@ for (def i = 0; i < listSize; i++)
 	WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
 		
 	WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+	
+	
+	switch(executionProfile)
+	{
+		case "QAProfile":
+						WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
+						WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"111116523")
+						WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"222226523")
+		break
 		
-	WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
+		case "DemoProfile":
+						WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"BTES")
+						WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"111116724")
+						WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"222226724")
+		break
+	}
+	
+	
+		
+	//WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),"Broad")
 //	WebUI.setText(findTestObject(orPath_FilingStatus + '/input_JointFilerSSN'),"111116523")
 //	WebUI.setText(findTestObject(orPath_FilingStatus + '/input_reJointFilerSSN'),"222226523")
-	WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"111116523")
-	WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"222226523")
+	//WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"111116523")
+	//WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"222226523")
 	
 	
 	WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointSuffix'),"")

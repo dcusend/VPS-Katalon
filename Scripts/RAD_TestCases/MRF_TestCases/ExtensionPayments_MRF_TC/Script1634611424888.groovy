@@ -17,11 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.configuration.RunConfiguration as RC
+
 	WebUI.openBrowser('')
 
 	WebUI.maximizeWindow()
 
 	WebUI.navigateToUrl(GlobalVariable.RADurl)
+	
+	def executionProfile = RC.getExecutionProfile()
 	
 	String orPath_Landing = "Object Repository/RAD_Pages/Landing_Page"
 	String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
@@ -31,18 +35,47 @@ import org.openqa.selenium.Keys as Keys
 	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Extension Payments", false)
 	
 	
-	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123451234")
-	WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123451234")
-	WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+	switch(executionProfile)
+	{
+		case "QAProfile":
+						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123451234")
+					    WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123451234")
+						WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+		break
+		
+		case "DemoProfile":
+						WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"ATES")
+						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123456725")
+						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123456725")
+		break
+	}
+	
+	
+	
+	//WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "123451234")
+	//WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "123451234")
+	//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
 	
 	
 	WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
 	
 	WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
 	
-	WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+	//WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 	
-	
+	switch(executionProfile)
+	{
+		case "QAProfile":
+						WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+		break
+		
+		case "DemoProfile":
+						WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),'')
+						WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+						//WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+						//WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+		break
+	}
 	
 /*
  * ######################################################################
@@ -79,7 +112,7 @@ import org.openqa.selenium.Keys as Keys
 	
 	WebUI.verifyTextPresent('Enter ZIP code', true)
 	
-	WebUI.verifyTextPresent('Enter a phone number', true)
+	WebUI.verifyTextPresent('Enter a valid phone number', true)
 	
 	WebUI.verifyTextPresent('Enter Email', true)
 	

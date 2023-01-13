@@ -71,7 +71,7 @@ import org.openqa.selenium.Keys as Keys
 	
 	WebUI.verifyTextPresent('Enter ZIP code', true)
 	
-	WebUI.verifyTextPresent('Enter a phone number', true)
+	WebUI.verifyTextPresent('Enter a valid phone number', true)
 	
 	WebUI.verifyTextPresent('Enter Email', true)
 	

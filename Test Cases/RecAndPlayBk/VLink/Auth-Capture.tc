@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>QA, QA2 and Demo</description>
    <name>Auth-Capture</name>
    <tag></tag>
    <comment></comment>

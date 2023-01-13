@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Works in both QA and Demo</description>
    <name>EstimatedTax_UI_TC</name>
    <tag></tag>
    <comment></comment>

@@ -66,7 +66,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyEqual(totalOptionsFilingYear, 1)
 			
 						
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2021'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022'])
 		
 		
 /*
