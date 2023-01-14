@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA Only</description>
+   <name>Auth-MRF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f511f309-b9b2-41af-b161-cb9a938af42b</testCaseGuid>
+</TestCaseEntity>

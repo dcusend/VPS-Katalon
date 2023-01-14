@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA Only</description>
+   <name>Sale-MRF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0137075-3803-4991-8f7a-2b2432aaebcd</testCaseGuid>
+</TestCaseEntity>
