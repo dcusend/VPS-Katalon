@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA Only</description>
+   <name>Cap-MRF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1acd99d-baf4-4015-8a5d-d4bb59dee73a</testCaseGuid>
+</TestCaseEntity>

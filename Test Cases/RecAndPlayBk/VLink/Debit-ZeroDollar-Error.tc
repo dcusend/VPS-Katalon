@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA, QA2 and Demo</description>
+   <name>Debit-ZeroDollar-Error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb9e39a1-5319-44f2-ba4b-b7119929df89</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA Only</description>
+   <name>Credit-MRF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f55c6747-9aae-4835-9b91-dfe145f5f4ce</testCaseGuid>
+</TestCaseEntity>

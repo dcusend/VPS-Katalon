@@ -149,4 +149,52 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Auth-MRF</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0558e4de-c2b2-4457-8b5a-0858af4dcc1b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Cap-MRF</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4526dc00-02c9-4e71-abcf-f411ac16a11e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Void-MRF</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>98774224-6746-4646-b186-ec43858bd0d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Credit-MRF</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1adfc97d-548d-47a1-8e60-b0d068fca076</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>699ea9ce-a855-41ba-957b-ecbef0f9dfdb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-ZeroDollar-Error</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d407e2fa-3426-441d-b0df-2a961a6d2637</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-Void</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1cb24fd1-9ea4-4344-9a87-87c73b6b2d05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-Credit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33fbdbbb-6db7-438a-8aaf-0bd6878dede8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-Credit-Void</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

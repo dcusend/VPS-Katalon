@@ -1,0 +1,61 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_fa fa-user fa-lg",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230113_190222/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite/20230113_190222/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_fa fa-user fa-lg_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027\n\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\tCredit or  Void\n\t\t\t\t\t\t\t\t\t \u0027 or . \u003d \u0027\n\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\tCredit or  Void\n\t\t\t\t\t\t\t\t\t \u0027) and @href \u003d \u0027/admin/imtiaz/bootstrap/vpos/255/transactions/CCCreditOrVoidSearch/\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230113_190222/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite/20230113_190222/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Sale",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span[@id\u003d\u0027authIngenicoKeypad\u0027]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230113_190222/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite/20230113_190222/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Sale_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip",
+      "brokenLocator": "//*[@type \u003d \u0027text\u0027 and @name \u003d \u0027zip\u0027 and @id \u003d \u0027zip\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027zip\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230113_190222/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite/20230113_190222/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and @value \u003d \u0027Submit\u0027 and @id \u003d \u0027submit1\u0027 and (text() \u003d \u0027Submit\u0027 or . \u003d \u0027Submit\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027UDF9\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230113_190222/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite/20230113_190222/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button[@id\u003d\u0027reset\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230113_190222/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite/20230113_190222/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset_XPATH.png"
+    }
+  ]
+}
