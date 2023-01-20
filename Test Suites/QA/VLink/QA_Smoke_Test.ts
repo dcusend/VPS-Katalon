@@ -140,31 +140,31 @@
    <testCaseLink>
       <guid>945491a8-f768-4562-a71b-edc88c4b2fbb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Sale-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eabe435c-7b70-4e2b-b063-cb684a9739c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Auth-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0558e4de-c2b2-4457-8b5a-0858af4dcc1b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Cap-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4526dc00-02c9-4e71-abcf-f411ac16a11e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Void-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>98774224-6746-4646-b186-ec43858bd0d2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Credit-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -196,5 +196,41 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-Credit-Void</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3360393b-23b7-4e4b-b49c-db19492d8c4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-MRF</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>708ad41c-a588-465c-be1a-3aa9ea53fed9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/ACH-Void-MRF</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8f47f3a4-c7ad-4f29-8cca-9b803d312264</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/ACH-Credit-MRF</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc6a84e2-5641-4a09-ac62-8d8bec793af9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-Credit-RemID-Pipe</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>13a0206a-dfd3-4ed1-bd87-904b635934b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-RemID-Pipe</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d70b88dc-78b7-4979-8e14-0d105f1dbda6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-Void-RemID-Pipe</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
