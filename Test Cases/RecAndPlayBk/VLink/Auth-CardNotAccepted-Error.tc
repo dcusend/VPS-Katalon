@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA Only</description>
+   <name>Auth-CardNotAccepted-Error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>580eb2fd-68b1-4150-86e3-dc9a71e964d3</testCaseGuid>
+</TestCaseEntity>
