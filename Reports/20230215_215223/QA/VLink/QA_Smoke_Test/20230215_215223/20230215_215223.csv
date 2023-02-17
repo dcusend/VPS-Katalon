@@ -1,0 +1,1313 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA_Smoke_Test,Chrome 110.0.0.0,,,2023-02-15 21:52:29,2023-02-15 22:50:03,57m - 34.251s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/AuthOnly,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 21:52:29,2023-02-15 21:54:03,1m - 33.653s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.002s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.027s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.002s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.006s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.002s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.002s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+"nameSheet = ""Auth""",Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:30,0.001s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSmokeData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 21:52:30,2023-02-15 21:52:31,1.155s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 21:52:31,2023-02-15 21:52:31,0.007s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSmokeData""",Chrome 110.0.0.0,,,2023-02-15 21:52:31,2023-02-15 21:52:31,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 21:52:31,2023-02-15 21:54:03,1m - 31.762s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Auth-Capture,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 21:54:03,2023-02-15 21:56:02,1m - 58.811s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.002s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.001s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.001s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.001s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+"nameSheet = ""AuthCapture""",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkAuthCaptureData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.099s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkAuthCaptureData""",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:54:04,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 21:54:04,2023-02-15 21:56:02,1m - 57.834s,FAILED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/AuthCaptureRemIDPipe,Chrome 110.0.0.0,QA only,,2023-02-15 21:56:02,2023-02-15 21:56:14,12.592s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:56:02,2023-02-15 21:56:02,0.015s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:56:02,2023-02-15 21:56:06,3.694s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.014s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.125s,PASSED
+"ran1 = random() * 99999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.013s,PASSED
+println(ran1),Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.000s,PASSED
+"ran2 = random() * 999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.006s,PASSED
+println(ran2),Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.000s,PASSED
+"ran3 = random() * 9999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.006s,PASSED
+println(ran3),Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.000s,PASSED
+"println(ran1 + ""|"" + ran2 + ""|"" + ran3)",Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.000s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/auth.html"")",Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:06,0.421s,PASSED
+"selenium.type(""name=transaction_type"", ""100"")",Chrome 110.0.0.0,,,2023-02-15 21:56:06,2023-02-15 21:56:07,0.091s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.061s,PASSED
+"selenium.type(""name=remittance_id"", ran1 + ""|"" + ran2 + ""|"" + ran3.toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.050s,PASSED
+"selenium.type(""name=application_id"", ""234"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.049s,PASSED
+"selenium.type(""name=username"", ""username"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.046s,PASSED
+"selenium.type(""name=password"", ""password"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.044s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.040s,PASSED
+"selenium.type(""name=category"", ""ECOM"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.045s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.054s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.041s,PASSED
+"selenium.type(""name=card_name"", ""Michael Slater"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.044s,PASSED
+"selenium.type(""name=card_address"", ""2000 14th street"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.045s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.043s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.041s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.040s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.048s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.042s,PASSED
+"selenium.type(""name=amount"", 50"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.043s,PASSED
+"selenium.type(""name=card_number"", ""4111111111111111"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.042s,PASSED
+"selenium.type(""name=card_exmo"", ""06"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.041s,PASSED
+"selenium.type(""name=card_exyr"", ""2025"")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.045s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:07,0.039s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:07,2023-02-15 21:56:08,0.043s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.043s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.043s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=entry_mode"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.043s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.041s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.054s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.041s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.045s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.044s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.046s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.047s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.045s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.040s,PASSED
+"selenium.type(""name=card_on_file_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:08,0.047s,PASSED
+"selenium.type(""name=stored_credential_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:08,2023-02-15 21:56:09,0.038s,PASSED
+"selenium.type(""name=cof_scheduled_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:09,2023-02-15 21:56:09,0.044s,PASSED
+"selenium.type(""name=cof_transaction_init_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:09,2023-02-15 21:56:09,0.046s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:56:09,2023-02-15 21:56:10,1.033s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:56:10,2023-02-15 21:56:10,0.514s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 110.0.0.0,,,2023-02-15 21:56:10,2023-02-15 21:56:10,0.255s,PASSED
+"resText = selenium.getText(""css=pre"")",Chrome 110.0.0.0,,,2023-02-15 21:56:10,2023-02-15 21:56:11,0.285s,PASSED
+println(resText),Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.000s,PASSED
+"tranID = substring(35, 44).trim()",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.000s,PASSED
+println(tranID),Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.000s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/capture.html"")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.206s,PASSED
+"selenium.type(""name=transaction_type"", ""102"")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.085s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.055s,PASSED
+"selenium.type(""name=remittance_id"", ran1 + ""|"" + ran2 + ""|"" + ran3.toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.043s,PASSED
+"selenium.type(""name=application_id"", ""234"")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.048s,PASSED
+"selenium.type(""name=username"", ""username"")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.042s,PASSED
+"selenium.type(""name=password"", ""password"")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.062s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.046s,PASSED
+"selenium.type(""name=transaction_id"", tranID)",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.045s,PASSED
+"selenium.type(""name=amount"", 50"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.053s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.056s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:11,0.053s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:11,2023-02-15 21:56:12,0.064s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.050s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.058s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.042s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.040s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.044s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.041s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.043s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.045s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.040s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.044s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.041s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:12,0.042s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:56:12,2023-02-15 21:56:13,1.034s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:56:13,2023-02-15 21:56:14,0.513s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 110.0.0.0,,,2023-02-15 21:56:14,2023-02-15 21:56:14,0.260s,PASSED
+"resTextCap = selenium.getText(""css=pre"")",Chrome 110.0.0.0,,,2023-02-15 21:56:14,2023-02-15 21:56:14,0.261s,PASSED
+println(resTextCap),Chrome 110.0.0.0,,,2023-02-15 21:56:14,2023-02-15 21:56:14,0.001s,PASSED
+"tranIDCap = selenium.getEval("" var ran1 = """" + ran1 + """";var ran2 = """" + ran2 + """";var ran3 = """" + ran3 + """";var resText = """" + resText + """";var tranID = """" + tranID + """";var resTextCap = """" + resTextCap + """";var storedVars = { 'ran1': ran1,'ran2': ran2,'ran3': ran3,'resText': resText,'tranID': tranID,'resTextCap': resTextCap }; "" + ""storedVars['resTextCap'].substring(19,28).trim()"")",Chrome 110.0.0.0,,,2023-02-15 21:56:14,2023-02-15 21:56:14,0.007s,PASSED
+println(tranIDCap),Chrome 110.0.0.0,,,2023-02-15 21:56:14,2023-02-15 21:56:14,0.001s,PASSED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/EncryptedRemIDPipe,Chrome 110.0.0.0,QA Only,,2023-02-15 21:56:14,2023-02-15 21:56:23,9.265s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:56:15,2023-02-15 21:56:15,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:56:15,2023-02-15 21:56:18,3.751s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:56:18,2023-02-15 21:56:18,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:56:18,2023-02-15 21:56:18,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:56:18,2023-02-15 21:56:18,0.015s,PASSED
+"ran1 = random() * 99999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:56:18,2023-02-15 21:56:18,0.010s,PASSED
+println(ran1),Chrome 110.0.0.0,,,2023-02-15 21:56:18,2023-02-15 21:56:18,0.000s,PASSED
+"ran2 = random() * 999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:56:18,2023-02-15 21:56:18,0.009s,PASSED
+println(ran2),Chrome 110.0.0.0,,,2023-02-15 21:56:18,2023-02-15 21:56:18,0.000s,PASSED
+"ran3 = random() * 9999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:56:18,2023-02-15 21:56:19,0.008s,PASSED
+println(ran3),Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.000s,PASSED
+"println(ran1 + ""|"" + ran2 + ""|"" + ran3)",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.000s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/vlinkEncryptedSwipe.html"")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.465s,PASSED
+"selenium.type(""name=transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.091s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.101s,PASSED
+"selenium.type(""name=remittance_id"", ran1 + ""|"" + ran2 + ""|"" + ran3.toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.049s,PASSED
+"selenium.type(""name=application_id"", ""234"")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.056s,PASSED
+"selenium.type(""name=username"", ""username"")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.045s,PASSED
+"selenium.type(""name=password"", ""password"")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.043s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.044s,PASSED
+"selenium.type(""name=category"", ""RETL"")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.041s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:19,0.043s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:19,2023-02-15 21:56:20,0.040s,PASSED
+"selenium.type(""name=card_name"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.041s,PASSED
+"selenium.type(""name=card_address"", ""2311 york road"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.044s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.040s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.042s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.044s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.043s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.048s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.043s,PASSED
+"selenium.type(""name=card_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.047s,PASSED
+"selenium.type(""name=card_exmo"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.041s,PASSED
+"selenium.type(""name=card_exyr"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.044s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.037s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.041s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.041s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.043s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.042s,PASSED
+"selenium.type(""name=entry_mode"", ""track"")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.041s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.044s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.042s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.041s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.043s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:20,0.041s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:20,2023-02-15 21:56:21,0.044s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.040s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.044s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.044s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.049s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.041s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.052s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.044s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.038s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.045s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.042s,PASSED
+"selenium.type(""name=encrypted_track_1_data"", ""8CC5F2E7D8E5F1B8B3D7E884E119C94C968815CAD2DFD5FC9E6C5A470F98215174A2FC6703FF121CABA8263000A6E77B2C64A319A559F013554E12A5FA8122E7DC5F398937E52B55425F08DCB1C73C9CE2DB0C5F4E322B5B9C7A39E8C6765E96"")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.058s,PASSED
+"selenium.type(""name=encrypted_track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.048s,PASSED
+"selenium.type(""name=slot_number"", ""11"")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.047s,PASSED
+"selenium.type(""name=ksn"", ""FFFF862134D00140005A"")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:21,0.042s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:56:21,2023-02-15 21:56:22,1.248s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:56:22,2023-02-15 21:56:23,0.515s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 110.0.0.0,,,2023-02-15 21:56:23,2023-02-15 21:56:23,0.256s,PASSED
+"resText = selenium.getText(""css=pre"")",Chrome 110.0.0.0,,,2023-02-15 21:56:23,2023-02-15 21:56:23,0.261s,PASSED
+println(resText),Chrome 110.0.0.0,,,2023-02-15 21:56:23,2023-02-15 21:56:23,0.000s,PASSED
+"tranID = selenium.getEval("" var ran1 = """" + ran1 + """";var ran2 = """" + ran2 + """";var ran3 = """" + ran3 + """";var resText = """" + resText + """";var storedVars = { 'ran1': ran1,'ran2': ran2,'ran3': ran3,'resText': resText }; "" + ""storedVars['resText'].substring(19,28).trim()"")",Chrome 110.0.0.0,,,2023-02-15 21:56:23,2023-02-15 21:56:23,0.005s,PASSED
+println(tranID),Chrome 110.0.0.0,,,2023-02-15 21:56:23,2023-02-15 21:56:23,0.000s,PASSED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/IncorrectPassword,Chrome 110.0.0.0,QA Only,,2023-02-15 21:56:23,2023-02-15 21:56:32,8.810s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:56:24,2023-02-15 21:56:24,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:56:24,2023-02-15 21:56:28,3.740s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:56:28,2023-02-15 21:56:28,0.001s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:56:28,2023-02-15 21:56:28,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:56:28,2023-02-15 21:56:28,0.021s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"")",Chrome 110.0.0.0,,,2023-02-15 21:56:28,2023-02-15 21:56:28,0.419s,PASSED
+"selenium.type(""name=transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:56:28,2023-02-15 21:56:28,0.124s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:28,2023-02-15 21:56:28,0.106s,PASSED
+"genRemID = RandomStringUtils.random(12, true, true)",Chrome 110.0.0.0,,,2023-02-15 21:56:28,2023-02-15 21:56:28,0.000s,PASSED
+"setText(findTestObject(""Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id""), genRemID)",Chrome 110.0.0.0,,,2023-02-15 21:56:28,2023-02-15 21:56:29,0.675s,PASSED
+"selenium.type(""name=application_id"", ""180"")",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.050s,PASSED
+"selenium.type(""name=username"", ""junit"")",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.049s,PASSED
+"selenium.type(""name=password"", ""hello"")",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.046s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.046s,PASSED
+"selenium.type(""name=category"", ""ECOM"")",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.042s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.045s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.045s,PASSED
+"selenium.type(""name=card_name"", ""John Smith"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.041s,PASSED
+"selenium.type(""name=card_address"", ""2311 york road"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:29,0.045s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:29,2023-02-15 21:56:30,0.046s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.047s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.047s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.045s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.044s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.050s,PASSED
+"selenium.type(""name=card_number"", ""4111111111111111"")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.045s,PASSED
+"selenium.type(""name=card_exmo"", ""12"")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.044s,PASSED
+"selenium.type(""name=card_exyr"", ""2020"")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.043s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.042s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.041s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.045s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.041s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.043s,PASSED
+"selenium.type(""name=entry_mode"", ""manual"")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.043s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.040s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.043s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.041s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.043s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.045s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.040s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:30,0.045s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:30,2023-02-15 21:56:31,0.043s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.041s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.044s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.056s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.043s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.045s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.050s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.042s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.041s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:31,0.597s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:56:31,2023-02-15 21:56:32,0.512s,PASSED
+"selenium.selectWindow(""null"")",Chrome 110.0.0.0,,,2023-02-15 21:56:32,2023-02-15 21:56:32,0.008s,PASSED
+"verifyTextPresent(""Signon authentication error."", true)",Chrome 110.0.0.0,,,2023-02-15 21:56:32,2023-02-15 21:56:32,0.257s,PASSED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/IncorrectUsername,Chrome 110.0.0.0,QA Only,,2023-02-15 21:56:32,2023-02-15 21:56:41,8.563s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:56:33,2023-02-15 21:56:33,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:56:33,2023-02-15 21:56:36,3.611s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:56:36,2023-02-15 21:56:36,0.001s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:56:36,2023-02-15 21:56:36,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:56:36,2023-02-15 21:56:36,0.031s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"")",Chrome 110.0.0.0,,,2023-02-15 21:56:36,2023-02-15 21:56:37,0.420s,PASSED
+"selenium.type(""name=transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:56:37,2023-02-15 21:56:37,0.092s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:37,2023-02-15 21:56:37,0.064s,PASSED
+"genRemID = RandomStringUtils.random(12, true, true)",Chrome 110.0.0.0,,,2023-02-15 21:56:37,2023-02-15 21:56:37,0.000s,PASSED
+"setText(findTestObject(""Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id""), genRemID)",Chrome 110.0.0.0,,,2023-02-15 21:56:37,2023-02-15 21:56:38,0.667s,PASSED
+"selenium.type(""name=application_id"", ""180"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.053s,PASSED
+"selenium.type(""name=username"", ""hello"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.048s,PASSED
+"selenium.type(""name=password"", ""testing"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.048s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.045s,PASSED
+"selenium.type(""name=category"", ""ECOM"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.042s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.043s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.045s,PASSED
+"selenium.type(""name=card_name"", ""John Smith"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.042s,PASSED
+"selenium.type(""name=card_address"", ""2311 york road"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.042s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.048s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.043s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.048s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.040s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.045s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.045s,PASSED
+"selenium.type(""name=card_number"", ""4111111111111111"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.048s,PASSED
+"selenium.type(""name=card_exmo"", ""12"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.043s,PASSED
+"selenium.type(""name=card_exyr"", ""2020"")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:38,0.040s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:38,2023-02-15 21:56:39,0.046s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.044s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.040s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.041s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.043s,PASSED
+"selenium.type(""name=entry_mode"", ""manual"")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.044s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.042s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.043s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.040s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.043s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.039s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.047s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.045s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.044s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.046s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.049s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.049s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.044s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.044s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.052s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.050s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:39,0.041s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:56:39,2023-02-15 21:56:40,0.582s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:56:40,2023-02-15 21:56:41,0.511s,PASSED
+"selenium.selectWindow(""null"")",Chrome 110.0.0.0,,,2023-02-15 21:56:41,2023-02-15 21:56:41,0.004s,PASSED
+"verifyTextPresent(""Signon authentication error."", true)",Chrome 110.0.0.0,,,2023-02-15 21:56:41,2023-02-15 21:56:41,0.262s,PASSED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/IncorrectUsernameAndPassword,Chrome 110.0.0.0,QA Only,,2023-02-15 21:56:41,2023-02-15 21:56:50,8.786s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:56:41,2023-02-15 21:56:41,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:56:41,2023-02-15 21:56:45,3.680s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:56:45,2023-02-15 21:56:45,0.001s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:56:45,2023-02-15 21:56:45,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:56:45,2023-02-15 21:56:45,0.026s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"")",Chrome 110.0.0.0,,,2023-02-15 21:56:45,2023-02-15 21:56:45,0.411s,PASSED
+"selenium.type(""name=transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:56:45,2023-02-15 21:56:46,0.121s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:46,2023-02-15 21:56:46,0.096s,PASSED
+"genRemID = RandomStringUtils.random(12, true, true)",Chrome 110.0.0.0,,,2023-02-15 21:56:46,2023-02-15 21:56:46,0.000s,PASSED
+"setText(findTestObject(""Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id""), genRemID)",Chrome 110.0.0.0,,,2023-02-15 21:56:46,2023-02-15 21:56:46,0.722s,PASSED
+"selenium.type(""name=application_id"", ""180"")",Chrome 110.0.0.0,,,2023-02-15 21:56:46,2023-02-15 21:56:46,0.049s,PASSED
+"selenium.type(""name=username"", ""hello"")",Chrome 110.0.0.0,,,2023-02-15 21:56:46,2023-02-15 21:56:47,0.050s,PASSED
+"selenium.type(""name=password"", ""world"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.048s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.047s,PASSED
+"selenium.type(""name=category"", ""ECOM"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.048s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.043s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.043s,PASSED
+"selenium.type(""name=card_name"", ""John Smith"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.045s,PASSED
+"selenium.type(""name=card_address"", ""2311 york road"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.047s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.044s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.048s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.050s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.044s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.044s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.043s,PASSED
+"selenium.type(""name=card_number"", ""4111111111111111"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.044s,PASSED
+"selenium.type(""name=card_exmo"", ""12"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.045s,PASSED
+"selenium.type(""name=card_exyr"", ""2020"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.043s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.047s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.043s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.045s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.048s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:47,0.050s,PASSED
+"selenium.type(""name=entry_mode"", ""manual"")",Chrome 110.0.0.0,,,2023-02-15 21:56:47,2023-02-15 21:56:48,0.043s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.042s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.045s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.042s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.040s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.049s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.042s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.044s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.050s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.042s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.046s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.044s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.043s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.041s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.046s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.042s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:48,0.050s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:56:48,2023-02-15 21:56:49,0.581s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:56:49,2023-02-15 21:56:49,0.511s,PASSED
+"selenium.selectWindow(""null"")",Chrome 110.0.0.0,,,2023-02-15 21:56:49,2023-02-15 21:56:49,0.004s,PASSED
+"verifyTextPresent(""Signon authentication error"", true)",Chrome 110.0.0.0,,,2023-02-15 21:56:49,2023-02-15 21:56:50,0.257s,PASSED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/MissingUsernameAndPassword,Chrome 110.0.0.0,QA Only,,2023-02-15 21:56:50,2023-02-15 21:56:58,8.547s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:56:50,2023-02-15 21:56:50,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:56:50,2023-02-15 21:56:54,3.613s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:56:54,2023-02-15 21:56:54,0.001s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:56:54,2023-02-15 21:56:54,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:56:54,2023-02-15 21:56:54,0.015s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"")",Chrome 110.0.0.0,,,2023-02-15 21:56:54,2023-02-15 21:56:54,0.429s,PASSED
+"selenium.type(""name=transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:56:54,2023-02-15 21:56:54,0.090s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:54,2023-02-15 21:56:54,0.065s,PASSED
+"genRemID = RandomStringUtils.random(12, true, true)",Chrome 110.0.0.0,,,2023-02-15 21:56:54,2023-02-15 21:56:54,0.001s,PASSED
+"setText(findTestObject(""Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input_Remittance Id_remittance_id""), genRemID)",Chrome 110.0.0.0,,,2023-02-15 21:56:54,2023-02-15 21:56:55,0.648s,PASSED
+"selenium.type(""name=application_id"", ""180"")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.051s,PASSED
+"selenium.type(""name=username"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.051s,PASSED
+"selenium.type(""name=password"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.045s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.050s,PASSED
+"selenium.type(""name=category"", ""ECOM"")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.042s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.044s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.043s,PASSED
+"selenium.type(""name=card_name"", ""John Smith"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.047s,PASSED
+"selenium.type(""name=card_address"", ""2311 york road"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.046s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.046s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:55,0.048s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:56:55,2023-02-15 21:56:56,0.047s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.053s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.041s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.045s,PASSED
+"selenium.type(""name=card_number"", ""4111111111111111"")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.041s,PASSED
+"selenium.type(""name=card_exmo"", ""12"")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.043s,PASSED
+"selenium.type(""name=card_exyr"", ""2020"")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.042s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.044s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.041s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.047s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.041s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.045s,PASSED
+"selenium.type(""name=entry_mode"", ""manual"")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.044s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.043s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.041s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.045s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.040s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.046s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.040s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.046s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.042s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:56,0.043s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:56,2023-02-15 21:56:57,0.049s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:57,2023-02-15 21:56:57,0.042s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:57,2023-02-15 21:56:57,0.052s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:57,2023-02-15 21:56:57,0.054s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:57,2023-02-15 21:56:57,0.045s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:57,2023-02-15 21:56:57,0.046s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:56:57,2023-02-15 21:56:57,0.045s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:56:57,2023-02-15 21:56:57,0.591s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:56:57,2023-02-15 21:56:58,0.511s,PASSED
+"selenium.selectWindow(""null"")",Chrome 110.0.0.0,,,2023-02-15 21:56:58,2023-02-15 21:56:58,0.004s,PASSED
+"verifyTextPresent(""Signon authentication error"", true)",Chrome 110.0.0.0,,,2023-02-15 21:56:58,2023-02-15 21:56:58,0.255s,PASSED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/SaleCreditRemIDPipe,Chrome 110.0.0.0,QA Only,,2023-02-15 21:56:58,2023-02-15 21:57:10,11.903s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:56:59,2023-02-15 21:56:59,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:56:59,2023-02-15 21:57:02,3.734s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.001s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.012s,PASSED
+"ran1 = random() * 99999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.011s,PASSED
+println(ran1),Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.000s,PASSED
+"ran2 = random() * 999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.010s,PASSED
+println(ran2),Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.000s,PASSED
+"ran3 = random() * 9999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.011s,PASSED
+println(ran3),Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.001s,PASSED
+"println(ran1 + ""|"" + ran2 + ""|"" + ran3)",Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:02,0.000s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"")",Chrome 110.0.0.0,,,2023-02-15 21:57:02,2023-02-15 21:57:03,0.508s,PASSED
+"selenium.type(""name=transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.118s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.076s,PASSED
+"selenium.type(""name=remittance_id"", ran1 + ""|"" + ran2 + ""|"" + ran3.toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.045s,PASSED
+"selenium.type(""name=application_id"", ""234"")",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.047s,PASSED
+"selenium.type(""name=username"", ""username"")",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.046s,PASSED
+"selenium.type(""name=password"", ""password"")",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.041s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.043s,PASSED
+"selenium.type(""name=category"", ""ECOM"")",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.038s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:03,0.039s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:03,2023-02-15 21:57:04,0.045s,PASSED
+"selenium.type(""name=card_name"", ""Jim Corbett"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.044s,PASSED
+"selenium.type(""name=card_address"", ""2311 york road"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.042s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.043s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.040s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.043s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.045s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.041s,PASSED
+"selenium.type(""name=amount"", 50"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.045s,PASSED
+"selenium.type(""name=card_number"", ""4111111111111111"")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.041s,PASSED
+"selenium.type(""name=card_exmo"", ""12"")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.044s,PASSED
+"selenium.type(""name=card_exyr"", ""2025"")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.040s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.042s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.040s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.046s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.045s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.040s,PASSED
+"selenium.type(""name=entry_mode"", ""manual"")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.044s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.046s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.045s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.044s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.046s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:04,0.039s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:04,2023-02-15 21:57:05,0.044s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.043s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.044s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.047s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.042s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.052s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.044s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.042s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.043s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.044s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:05,0.038s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:57:05,2023-02-15 21:57:06,0.889s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:57:06,2023-02-15 21:57:06,0.512s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 110.0.0.0,,,2023-02-15 21:57:06,2023-02-15 21:57:07,0.264s,PASSED
+"resText = selenium.getText(""css=pre"")",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.270s,PASSED
+println(resText),Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.000s,PASSED
+"tranID = substring(35, 44).trim()",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.001s,PASSED
+println(tranID),Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.000s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/CC_credit.html"")",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.198s,PASSED
+"selenium.type(""name=transaction_type"", ""103"")",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.071s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.054s,PASSED
+"selenium.type(""name=remittance_id"", ran1 + ""|"" + ran2 + ""|"" + ran3.toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.041s,PASSED
+"selenium.type(""name=application_id"", ""234"")",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.045s,PASSED
+"selenium.type(""name=username"", ""username"")",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.047s,PASSED
+"selenium.type(""name=password"", ""password"")",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.038s,PASSED
+"selenium.type(""name=transaction_id"", tranID)",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.046s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:07,0.042s,PASSED
+"selenium.type(""name=amount"", 50"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:07,2023-02-15 21:57:08,0.040s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.041s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.044s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.040s,PASSED
+"selenium.type(""name=card_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.042s,PASSED
+"selenium.type(""name=card_exmo"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.041s,PASSED
+"selenium.type(""name=card_exyr"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.050s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.048s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.043s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.041s,PASSED
+"selenium.type(""name=category"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.041s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:08,0.044s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:57:08,2023-02-15 21:57:09,1.025s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:57:09,2023-02-15 21:57:10,0.514s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 110.0.0.0,,,2023-02-15 21:57:10,2023-02-15 21:57:10,0.262s,PASSED
+"resTextVoid = selenium.getText(""css=pre"")",Chrome 110.0.0.0,,,2023-02-15 21:57:10,2023-02-15 21:57:10,0.271s,PASSED
+println(resTextVoid),Chrome 110.0.0.0,,,2023-02-15 21:57:10,2023-02-15 21:57:10,0.000s,PASSED
+"tranIDVoid = selenium.getEval("" var ran1 = """" + ran1 + """";var ran2 = """" + ran2 + """";var ran3 = """" + ran3 + """";var resText = """" + resText + """";var tranID = """" + tranID + """";var resTextVoid = """" + resTextVoid + """";var storedVars = { 'ran1': ran1,'ran2': ran2,'ran3': ran3,'resText': resText,'tranID': tranID,'resTextVoid': resTextVoid }; "" + ""storedVars['resTextVoid'].substring(19,28).trim()"")",Chrome 110.0.0.0,,,2023-02-15 21:57:10,2023-02-15 21:57:10,0.006s,PASSED
+println(tranIDVoid),Chrome 110.0.0.0,,,2023-02-15 21:57:10,2023-02-15 21:57:10,0.001s,PASSED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/UnencryptedRemIDPipe,Chrome 110.0.0.0,QA Only,,2023-02-15 21:57:10,2023-02-15 21:57:19,8.546s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:57:11,2023-02-15 21:57:11,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:57:11,2023-02-15 21:57:14,3.521s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.032s,PASSED
+"ran1 = random() * 99999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.011s,PASSED
+println(ran1),Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.001s,PASSED
+"ran2 = random() * 999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.011s,PASSED
+println(ran2),Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.000s,PASSED
+"ran3 = random() * 9999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.011s,PASSED
+println(ran3),Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.000s,PASSED
+"println(ran1 + ""|"" + ran2 + ""|"" + ran3)",Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:14,0.000s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"")",Chrome 110.0.0.0,,,2023-02-15 21:57:14,2023-02-15 21:57:15,0.411s,PASSED
+"selenium.type(""name=transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.116s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.082s,PASSED
+"selenium.type(""name=remittance_id"", ran1 + ""|"" + ran2 + ""|"" + ran3.toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.045s,PASSED
+"selenium.type(""name=application_id"", ""234"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.053s,PASSED
+"selenium.type(""name=username"", ""username"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.042s,PASSED
+"selenium.type(""name=password"", ""password"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.043s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.045s,PASSED
+"selenium.type(""name=category"", ""RETL"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.044s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.048s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.041s,PASSED
+"selenium.type(""name=card_name"", ""Jon Latham"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.048s,PASSED
+"selenium.type(""name=card_address"", ""2311 york road"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.042s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.041s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.042s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.044s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.046s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.045s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:15,0.044s,PASSED
+"selenium.type(""name=card_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:15,2023-02-15 21:57:16,0.039s,PASSED
+"selenium.type(""name=card_exmo"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.045s,PASSED
+"selenium.type(""name=card_exyr"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.046s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.042s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.040s,PASSED
+"selenium.type(""name=track_data"", ""%B4012000033330026^FDMS TEST CARD&nbsp;&nbsp;&nbsp;/VISA^251210054321000000000000000&nbsp;&nbsp;150&nbsp;&nbsp;A?;4012000033330026=25121011000012345678?"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.047s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.043s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.041s,PASSED
+"selenium.type(""name=entry_mode"", ""track"")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.044s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.044s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.039s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.043s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.041s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.044s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.042s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.043s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.048s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.047s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.045s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.044s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.043s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.047s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:16,0.041s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:16,2023-02-15 21:57:17,0.046s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:17,2023-02-15 21:57:17,0.041s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:57:17,2023-02-15 21:57:18,0.971s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:57:18,2023-02-15 21:57:18,0.513s,PASSED
+"softAssertion.assertEquals(selenium.isTextPresent(""Transaction approved, no errors""), true)",Chrome 110.0.0.0,,,2023-02-15 21:57:18,2023-02-15 21:57:18,0.016s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 110.0.0.0,,,2023-02-15 21:57:18,2023-02-15 21:57:18,0.250s,PASSED
+"resText = selenium.getText(""css=pre"")",Chrome 110.0.0.0,,,2023-02-15 21:57:18,2023-02-15 21:57:19,0.272s,PASSED
+println(resText),Chrome 110.0.0.0,,,2023-02-15 21:57:19,2023-02-15 21:57:19,0.001s,PASSED
+"tranID = selenium.getEval("" var ran1 = """" + ran1 + """";var ran2 = """" + ran2 + """";var ran3 = """" + ran3 + """";var resText = """" + resText + """";var storedVars = { 'ran1': ran1,'ran2': ran2,'ran3': ran3,'resText': resText }; "" + ""storedVars['resText'].substring(19,28).trim()"")",Chrome 110.0.0.0,,,2023-02-15 21:57:19,2023-02-15 21:57:19,0.006s,PASSED
+println(tranID),Chrome 110.0.0.0,,,2023-02-15 21:57:19,2023-02-15 21:57:19,0.000s,PASSED
+,,,,,,,
+Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/SaleVoidRemIDPipe,Chrome 110.0.0.0,QA Only,,2023-02-15 21:57:19,2023-02-15 21:57:30,11.717s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 110.0.0.0,,,2023-02-15 21:57:19,2023-02-15 21:57:19,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 110.0.0.0,,,2023-02-15 21:57:19,2023-02-15 21:57:23,3.675s,PASSED
+driver = getWebDriver(),Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.016s,PASSED
+"ran1 = random() * 99999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.011s,PASSED
+println(ran1),Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.000s,PASSED
+"ran2 = random() * 999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.014s,PASSED
+println(ran2),Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.000s,PASSED
+"ran3 = random() * 9999)"").toInteger()",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.013s,PASSED
+println(ran3),Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.001s,PASSED
+"println(ran1 + ""|"" + ran2 + ""|"" + ran3)",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.001s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/authcap.html"")",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.431s,PASSED
+"selenium.type(""name=transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.122s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:23,0.082s,PASSED
+"selenium.type(""name=remittance_id"", ran1 + ""|"" + ran2 + ""|"" + ran3.toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:23,2023-02-15 21:57:24,0.044s,PASSED
+"selenium.type(""name=application_id"", ""234"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.047s,PASSED
+"selenium.type(""name=username"", ""username"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.046s,PASSED
+"selenium.type(""name=password"", ""password"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.051s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.046s,PASSED
+"selenium.type(""name=category"", ""ECOM"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.040s,PASSED
+"selenium.type(""name=transaction_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.049s,PASSED
+"selenium.type(""name=approval_code"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.042s,PASSED
+"selenium.type(""name=card_name"", ""Jim Corbett"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.042s,PASSED
+"selenium.type(""name=card_address"", ""2311 york road"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.048s,PASSED
+"selenium.type(""name=card_address2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.040s,PASSED
+"selenium.type(""name=card_city"", ""Arlington"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.046s,PASSED
+"selenium.type(""name=card_state"", ""VA"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.041s,PASSED
+"selenium.type(""name=card_zip"", ""22201"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.044s,PASSED
+"selenium.type(""name=country_id"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.044s,PASSED
+"selenium.type(""name=amount"", 50"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.044s,PASSED
+"selenium.type(""name=card_number"", ""4111111111111111"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.043s,PASSED
+"selenium.type(""name=card_exmo"", ""12"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.042s,PASSED
+"selenium.type(""name=card_exyr"", ""2025"")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.045s,PASSED
+"selenium.type(""name=cvv_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.042s,PASSED
+"selenium.type(""name=cvv_state"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.045s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.043s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:24,0.041s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:24,2023-02-15 21:57:25,0.042s,PASSED
+"selenium.type(""name=entry_mode"", ""manual"")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.042s,PASSED
+"selenium.type(""name=email"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.048s,PASSED
+"selenium.type(""name=order_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.042s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.044s,PASSED
+"selenium.type(""name=charge_description"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.041s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.039s,PASSED
+"selenium.type(""name=bill_payment_indicator"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.042s,PASSED
+"selenium.type(""name=user_defined1"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.045s,PASSED
+"selenium.type(""name=user_defined2"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.045s,PASSED
+"selenium.type(""name=user_defined3"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.040s,PASSED
+"selenium.type(""name=user_defined4"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.041s,PASSED
+"selenium.type(""name=user_defined5"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.043s,PASSED
+"selenium.type(""name=user_defined6"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.038s,PASSED
+"selenium.type(""name=user_defined7"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.047s,PASSED
+"selenium.type(""name=user_defined8"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.044s,PASSED
+"selenium.type(""name=user_defined9"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.044s,PASSED
+"selenium.type(""name=user_defined10"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:25,0.044s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:57:25,2023-02-15 21:57:26,0.948s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:57:26,2023-02-15 21:57:27,0.514s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 110.0.0.0,,,2023-02-15 21:57:27,2023-02-15 21:57:27,0.261s,PASSED
+"resText = selenium.getText(""css=pre"")",Chrome 110.0.0.0,,,2023-02-15 21:57:27,2023-02-15 21:57:27,0.265s,PASSED
+println(resText),Chrome 110.0.0.0,,,2023-02-15 21:57:27,2023-02-15 21:57:27,0.000s,PASSED
+"tranID = substring(35, 44).trim()",Chrome 110.0.0.0,,,2023-02-15 21:57:27,2023-02-15 21:57:27,0.001s,PASSED
+println(tranID),Chrome 110.0.0.0,,,2023-02-15 21:57:27,2023-02-15 21:57:27,0.000s,PASSED
+"selenium.open(""https://dev-algorithm.govolution.com/vlinktest/QA/version_2_0/CC_void.html"")",Chrome 110.0.0.0,,,2023-02-15 21:57:27,2023-02-15 21:57:27,0.190s,PASSED
+"selenium.type(""name=transaction_type"", ""106"")",Chrome 110.0.0.0,,,2023-02-15 21:57:27,2023-02-15 21:57:28,0.076s,PASSED
+"selenium.type(""name=message_version"", 0C"".toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.054s,PASSED
+"selenium.type(""name=remittance_id"", ran1 + ""|"" + ran2 + ""|"" + ran3.toString())",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.041s,PASSED
+"selenium.type(""name=application_id"", ""234"")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.043s,PASSED
+"selenium.type(""name=username"", ""username"")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.041s,PASSED
+"selenium.type(""name=password"", ""password"")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.040s,PASSED
+"selenium.type(""name=response_format"", ""fixed_width"")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.039s,PASSED
+"selenium.type(""name=transaction_id"", tranID)",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.045s,PASSED
+"selenium.type(""name=original_transaction_type"", ""104"")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.041s,PASSED
+"selenium.type(""name=track_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.047s,PASSED
+"selenium.type(""name=track_1_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.048s,PASSED
+"selenium.type(""name=track_2_data"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.041s,PASSED
+"selenium.type(""name=tax_amount"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.044s,PASSED
+"selenium.type(""name=client_account_number"", """")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:28,0.043s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 110.0.0.0,,,2023-02-15 21:57:28,2023-02-15 21:57:29,1.199s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 110.0.0.0,,,2023-02-15 21:57:29,2023-02-15 21:57:30,0.514s,PASSED
+"verifyTextPresent(""Transaction approved, no errors"", true)",Chrome 110.0.0.0,,,2023-02-15 21:57:30,2023-02-15 21:57:30,0.262s,PASSED
+"resTextVoid = selenium.getText(""css=pre"")",Chrome 110.0.0.0,,,2023-02-15 21:57:30,2023-02-15 21:57:30,0.267s,PASSED
+println(resTextVoid),Chrome 110.0.0.0,,,2023-02-15 21:57:30,2023-02-15 21:57:30,0.000s,PASSED
+"tranIDVoid = selenium.getEval("" var ran1 = """" + ran1 + """";var ran2 = """" + ran2 + """";var ran3 = """" + ran3 + """";var resText = """" + resText + """";var tranID = """" + tranID + """";var resTextVoid = """" + resTextVoid + """";var storedVars = { 'ran1': ran1,'ran2': ran2,'ran3': ran3,'resText': resText,'tranID': tranID,'resTextVoid': resTextVoid }; "" + ""storedVars['resTextVoid'].substring(19,28).trim()"")",Chrome 110.0.0.0,,,2023-02-15 21:57:30,2023-02-15 21:57:30,0.008s,PASSED
+println(tranIDVoid),Chrome 110.0.0.0,,,2023-02-15 21:57:30,2023-02-15 21:57:30,0.000s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 21:57:30,2023-02-15 21:58:56,1m - 25.511s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.001s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+"nameSheet = ""Sale""",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.103s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleData""",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:57:31,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 21:57:31,2023-02-15 21:58:56,1m - 24.798s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Void,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 21:58:56,2023-02-15 22:00:58,2m - 2.210s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+"nameSheet = ""Sale-Void""",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleVoidData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.113s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleVoidData""",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 21:58:57,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 21:58:57,2023-02-15 22:00:58,2m - 0.937s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Credit,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:00:58,2023-02-15 22:03:10,2m - 12.277s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.001s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.002s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.001s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+"nameSheet = ""Sale-Credit""",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleCreditData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.117s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.001s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleCreditData""",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:00:59,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:00:59,2023-02-15 22:03:10,2m - 11.464s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Unencrypted,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:03:10,2023-02-15 22:03:59,48.819s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+trackData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+"nameSheet = ""Sale-Unencrypted""",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.001s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleUnencryptedData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.095s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleUnencryptedData""",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:11,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:03:11,2023-02-15 22:03:59,48.195s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-ZeroDollar-Error,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:03:59,2023-02-15 22:05:14,1m - 14.981s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.002s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.001s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.001s,PASSED
+"nameSheet = ""Sale-ZeroDollar""",Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:00,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleZeroDollar"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:04:00,2023-02-15 22:04:01,0.098s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:04:01,2023-02-15 22:04:01,0.001s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleZeroDollar""",Chrome 110.0.0.0,,,2023-02-15 22:04:01,2023-02-15 22:04:01,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:04:01,2023-02-15 22:05:14,1m - 13.646s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Void-NoTranxID,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:05:14,2023-02-15 22:07:16,2m - 2.148s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"nameSheet = ""Sale-Void-NoTranxID""",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleVoidNoTranxID"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.088s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleVoidNoTranxID""",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:05:15,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:05:15,2023-02-15 22:07:16,2m - 1.560s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Credit-Void,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:07:16,2023-02-15 22:10:04,2m - 47.435s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+"nameSheet = ""Sale-Credit-Void""",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleCreditVoidData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.098s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleCreditVoidData""",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:07:17,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:07:17,2023-02-15 22:10:04,2m - 46.793s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Auth-Cap-Void,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:10:04,2023-02-15 22:12:40,2m - 35.921s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.001s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.001s,PASSED
+"nameSheet = ""Auth-Cap-Void""",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkAuthCapVoidData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.088s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkAuthCapVoidData""",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:10:04,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:10:04,2023-02-15 22:12:40,2m - 35.253s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Auth-Cap-Credit,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:12:40,2023-02-15 22:15:26,2m - 46.240s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.001s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+"nameSheet = ""Auth-Cap-Credit""",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkAuthCapCreditData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.098s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkAuthCapCreditData""",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:12:40,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:12:40,2023-02-15 22:15:26,2m - 45.526s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Encrypted,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:15:26,2023-02-15 22:16:04,38.497s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+trackData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+slot = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+ksn = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.001s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+"nameSheet = ""Sale-Encrypted""",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleEncryptedData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.083s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.001s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleEncryptedData""",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:15:26,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:15:26,2023-02-15 22:16:04,37.963s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-MRF,Chrome 110.0.0.0,QA Only,,2023-02-15 22:16:04,2023-02-15 22:38:46,22m - 41.607s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.000s,PASSED
+"nameSheet = ""Sale-MRF""",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleMRFData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.083s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.001s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleMRFData""",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:16:05,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:16:05,2023-02-15 22:38:46,22m - 41.022s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Auth-MRF,Chrome 110.0.0.0,QA Only,,2023-02-15 22:38:46,2023-02-15 22:50:03,11m - 16.836s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+"nameSheet = ""Auth-MRF""",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkAuthMRFData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.099s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.001s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkAuthMRFData""",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:38:47,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:38:47,2023-02-15 22:50:03,11m - 16.218s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Cap-MRF,Chrome 110.0.0.0,QA Only,,2023-02-15 22:50:03,2023-02-15 22:51:28,1m - 25.079s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.001s,PASSED
+"nameSheet = ""Cap-MRF""",Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:03,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkCapMRFData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:50:03,2023-02-15 22:50:04,0.084s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:50:04,2023-02-15 22:50:04,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkCapMRFData""",Chrome 110.0.0.0,,,2023-02-15 22:50:04,2023-02-15 22:50:04,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:50:04,2023-02-15 22:51:28,1m - 24.486s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Void-MRF,Chrome 110.0.0.0,QA Only,,2023-02-15 22:51:28,2023-02-15 22:52:45,1m - 17.449s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.001s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+"nameSheet = ""Void-MRF""",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkVoidMRFData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.114s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkVoidMRFData""",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:51:29,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:51:29,2023-02-15 22:52:45,1m - 16.789s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Credit-MRF,Chrome 110.0.0.0,QA Only,,2023-02-15 22:52:45,2023-02-15 22:54:29,1m - 43.655s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.002s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+"nameSheet = ""Credit-MRF""",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkCreditMRFData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.093s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkCreditMRFData""",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:52:46,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:52:46,2023-02-15 22:54:29,1m - 43.037s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:54:29,2023-02-15 22:56:10,1m - 40.780s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.001s,PASSED
+"nameSheet = ""Debit""",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.061s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitData""",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:54:30,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:54:30,2023-02-15 22:56:10,1m - 40.201s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-ZeroDollar-Error,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:56:10,2023-02-15 22:57:49,1m - 39.216s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.001s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.001s,PASSED
+"nameSheet = ""Debit-ZeroDollar""",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitZeroDollar"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.060s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitZeroDollar""",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:56:10,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:56:10,2023-02-15 22:57:49,1m - 38.652s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Void,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 22:57:49,2023-02-15 23:00:36,2m - 46.545s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+"nameSheet = ""Debit-Void""",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitVoidData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.064s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitVoidData""",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 22:57:50,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 22:57:50,2023-02-15 23:00:36,2m - 45.966s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Credit,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 23:00:36,2023-02-15 23:03:31,2m - 54.893s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.001s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+"nameSheet = ""Debit-Credit""",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitCreditData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.066s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitCreditData""",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:00:36,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:00:36,2023-02-15 23:03:31,2m - 54.232s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Credit-Void,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 23:03:31,2023-02-15 23:07:31,4m - 0.341s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+"nameSheet = ""Debit-Credit-Void""",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/DebitCreditVoidData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.061s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.001s,PASSED
+"dataFile = ""QA/VLinkTestData/DebitCreditVoidData""",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:03:31,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:03:31,2023-02-15 23:07:31,3m - 59.743s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-MRF,Chrome 110.0.0.0,QA Only,,2023-02-15 23:07:31,2023-02-15 23:14:09,6m - 38.401s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.001s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+"nameSheet = ""Debit-MRF""",Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:31,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitMRFData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:07:31,2023-02-15 23:07:32,0.074s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:07:32,2023-02-15 23:07:32,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitMRFData""",Chrome 110.0.0.0,,,2023-02-15 23:07:32,2023-02-15 23:07:32,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:07:32,2023-02-15 23:14:09,6m - 37.782s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/ACH-Void-MRF,Chrome 110.0.0.0,QA Only,,2023-02-15 23:14:09,2023-02-15 23:16:05,1m - 55.223s,FAILED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.001s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+"nameSheet = ""Void-MRF""",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkACHVoidMRFData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.060s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkACHVoidMRFData""",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:14:10,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:14:10,2023-02-15 23:16:05,1m - 54.640s,FAILED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/ACH-Credit-MRF,Chrome 110.0.0.0,QA Only,,2023-02-15 23:16:05,2023-02-15 23:18:40,2m - 35.478s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.001s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.000s,PASSED
+"nameSheet = ""Credit-MRF""",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkACHCreditMRFData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.073s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.001s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkACHCreditMRFData""",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:16:05,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:16:05,2023-02-15 23:18:40,2m - 34.877s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Credit-RemID-Pipe,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 23:18:40,2023-02-15 23:21:34,2m - 53.549s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+"nameSheet = ""DebitCredit-RemID-Pipe""",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitCreditRemIDPipeData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.059s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitCreditRemIDPipeData""",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:18:41,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:18:41,2023-02-15 23:21:34,2m - 52.988s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-RemID-Pipe,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 23:21:34,2023-02-15 23:23:14,1m - 40.083s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+"nameSheet = ""Debit-RemID-Pipe""",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.001s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitRemIDPipeData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.069s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitRemIDPipeData""",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:21:34,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:21:34,2023-02-15 23:23:14,1m - 39.487s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Void-RemID-Pipe,Chrome 110.0.0.0,"QA, QA2 and Demo",,2023-02-15 23:23:14,2023-02-15 23:26:01,2m - 46.870s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.001s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+"nameSheet = ""DebitVoid-RemID-Pipe""",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitVoidRemIDPipeData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.062s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitVoidRemIDPipeData""",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:23:14,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:23:14,2023-02-15 23:26:01,2m - 46.311s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Auth-CardNotAccepted-Error,Chrome 110.0.0.0,QA Only,,2023-02-15 23:26:01,2023-02-15 23:26:53,52.474s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"nameSheet = ""Auth-CardNotAccepted""",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkAuthCardNotAcceptedData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.099s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkAuthCardNotAcceptedData""",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:01,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:26:01,2023-02-15 23:26:53,51.761s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-CardNotAccepted-Error,Chrome 110.0.0.0,QA Only,,2023-02-15 23:26:53,2023-02-15 23:27:44,51.302s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+"resColumn = ""Result""",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+"nameSheet = ""Sale-CardNotAccepted""",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleCardNotAcceptedData"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.092s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.001s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleCardNotAcceptedData""",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:26:54,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-15 23:26:54,2023-02-15 23:27:44,50.594s,PASSED
