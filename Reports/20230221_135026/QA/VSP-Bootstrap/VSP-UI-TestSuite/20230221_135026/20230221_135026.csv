@@ -1,0 +1,162 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VSP-UI-TestSuite,Chrome 110.0.0.0,,,2023-02-21 13:50:33,2023-02-21 13:52:38,2m - 4.901s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/CreateProfile_UI_Generic_TC,Chrome 110.0.0.0,Verify the Elements and Static text on Create Profile page.,,2023-02-21 13:50:33,2023-02-21 13:51:07,34.007s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.002s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.002s,PASSED
+"path_CreateProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+"path_AddAccount = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddAccount/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.002s,PASSED
+"path_Add_ACH = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddACH/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.002s,PASSED
+"path_Add_CC = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+"path_App_Plan = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddPaymentPlan/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+"path_DeleteProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+"path_ModifyProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ModifyProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+"path_ViewProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+"path_VSPAuth = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Auth/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+"path_VSPAuthCap = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+"path_Debit = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.003s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.023s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.002s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.002s,PASSED
+"resText = ""Fail""",Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.001s,PASSED
+switch (executionProfile),Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:34,0.007s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 110.0.0.0,,,2023-02-21 13:50:34,2023-02-21 13:50:43,9.787s,PASSED
+click(findTestObject(path_Dashboard + appName)),Chrome 110.0.0.0,,,2023-02-21 13:50:43,2023-02-21 13:50:44,0.923s,PASSED
+"click(findTestObject(path_VT + ""a_Create""))",Chrome 110.0.0.0,,,2023-02-21 13:50:44,2023-02-21 13:50:46,1.112s,PASSED
+"verifyTextPresent(""Create Profile"", true)",Chrome 110.0.0.0,,,2023-02-21 13:50:46,2023-02-21 13:50:46,0.785s,PASSED
+"verifyTextPresent(""Indicates required fields"", true)",Chrome 110.0.0.0,,,2023-02-21 13:50:46,2023-02-21 13:50:47,0.358s,PASSED
+"verifyTextPresent(""Enter Customer Name"", true)",Chrome 110.0.0.0,,,2023-02-21 13:50:47,2023-02-21 13:50:47,0.340s,PASSED
+"verifyTextPresent(""Enter Customer Address"", true)",Chrome 110.0.0.0,,,2023-02-21 13:50:47,2023-02-21 13:50:47,0.335s,PASSED
+"verifyTextPresent(""Additional Contact Information"", true)",Chrome 110.0.0.0,,,2023-02-21 13:50:47,2023-02-21 13:50:48,0.331s,PASSED
+"verifyTextPresent(""Notes/Comments"", true)",Chrome 110.0.0.0,,,2023-02-21 13:50:48,2023-02-21 13:50:48,0.329s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_profileName""))",Chrome 110.0.0.0,,,2023-02-21 13:50:48,2023-02-21 13:50:48,0.336s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_profileName""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:48,2023-02-21 13:50:49,0.300s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_CompanyName""))",Chrome 110.0.0.0,,,2023-02-21 13:50:49,2023-02-21 13:50:49,0.315s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_CompanyName""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:49,2023-02-21 13:50:49,0.285s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""select_Title""))",Chrome 110.0.0.0,,,2023-02-21 13:50:49,2023-02-21 13:50:50,0.308s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""select_Title""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:50,2023-02-21 13:50:50,0.290s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_FirstName""))",Chrome 110.0.0.0,,,2023-02-21 13:50:50,2023-02-21 13:50:50,0.306s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_FirstName""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:50,2023-02-21 13:50:50,0.289s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_MiddleName""))",Chrome 110.0.0.0,,,2023-02-21 13:50:50,2023-02-21 13:50:51,0.312s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_MiddleName""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:51,2023-02-21 13:50:51,0.354s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_LastName""))",Chrome 110.0.0.0,,,2023-02-21 13:50:51,2023-02-21 13:50:51,0.379s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_LastName""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:51,2023-02-21 13:50:52,0.318s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""select_Suffix""))",Chrome 110.0.0.0,,,2023-02-21 13:50:52,2023-02-21 13:50:52,0.314s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""select_Suffix""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:52,2023-02-21 13:50:52,0.316s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_address1""))",Chrome 110.0.0.0,,,2023-02-21 13:50:52,2023-02-21 13:50:53,0.316s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_address1""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:53,2023-02-21 13:50:53,0.294s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_AddressLine2""))",Chrome 110.0.0.0,,,2023-02-21 13:50:53,2023-02-21 13:50:53,0.375s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_AddressLine2""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:53,2023-02-21 13:50:54,0.291s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""select_Country""))",Chrome 110.0.0.0,,,2023-02-21 13:50:54,2023-02-21 13:50:54,0.307s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""select_Country""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:54,2023-02-21 13:50:54,0.290s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_PostalCode""))",Chrome 110.0.0.0,,,2023-02-21 13:50:54,2023-02-21 13:50:55,0.320s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_PostalCode""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:55,2023-02-21 13:50:55,0.291s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_PostalCodeExt""))",Chrome 110.0.0.0,,,2023-02-21 13:50:55,2023-02-21 13:50:55,0.300s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_PostalCodeExt""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:55,2023-02-21 13:50:55,0.286s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_City""))",Chrome 110.0.0.0,,,2023-02-21 13:50:55,2023-02-21 13:50:56,0.310s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_City""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:56,2023-02-21 13:50:56,0.286s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""select_State""))",Chrome 110.0.0.0,,,2023-02-21 13:50:56,2023-02-21 13:50:56,0.304s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""select_State""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:56,2023-02-21 13:50:57,0.282s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_EmaiAddress""))",Chrome 110.0.0.0,,,2023-02-21 13:50:57,2023-02-21 13:50:57,0.300s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_EmaiAddress""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:57,2023-02-21 13:50:57,0.286s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_HomePhoneNumber_HomeAreaCode""))",Chrome 110.0.0.0,,,2023-02-21 13:50:57,2023-02-21 13:50:58,0.309s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_HomePhoneNumber_HomeAreaCode""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:58,2023-02-21 13:50:58,0.282s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_homePrefixNumber""))",Chrome 110.0.0.0,,,2023-02-21 13:50:58,2023-02-21 13:50:58,0.314s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_homePrefixNumber""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:58,2023-02-21 13:50:58,0.286s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_homeSuffixNumber""))",Chrome 110.0.0.0,,,2023-02-21 13:50:58,2023-02-21 13:50:59,0.299s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_homeSuffixNumber""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:59,2023-02-21 13:50:59,0.282s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_MobilePhoneNumber_mobileAreaCode""))",Chrome 110.0.0.0,,,2023-02-21 13:50:59,2023-02-21 13:50:59,0.302s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_MobilePhoneNumber_mobileAreaCode""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:50:59,2023-02-21 13:51:00,0.286s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_mobilePrefixNumber""))",Chrome 110.0.0.0,,,2023-02-21 13:51:00,2023-02-21 13:51:00,0.303s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_mobilePrefixNumber""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:00,2023-02-21 13:51:00,0.284s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_mobileSuffixNumber""))",Chrome 110.0.0.0,,,2023-02-21 13:51:00,2023-02-21 13:51:01,0.308s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_mobileSuffixNumber""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:01,2023-02-21 13:51:01,0.284s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_WorkPhoneNumber_workAreaCode""))",Chrome 110.0.0.0,,,2023-02-21 13:51:01,2023-02-21 13:51:01,0.302s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_WorkPhoneNumber_workAreaCode""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:01,2023-02-21 13:51:01,0.285s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_workPrefixNumber""))",Chrome 110.0.0.0,,,2023-02-21 13:51:01,2023-02-21 13:51:02,0.304s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_workPrefixNumber""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:02,2023-02-21 13:51:02,0.287s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_workSuffixNumber""))",Chrome 110.0.0.0,,,2023-02-21 13:51:02,2023-02-21 13:51:02,0.315s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_workSuffixNumber""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:02,2023-02-21 13:51:03,0.281s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""input_Ext_workExtension""))",Chrome 110.0.0.0,,,2023-02-21 13:51:03,2023-02-21 13:51:03,0.302s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""input_Ext_workExtension""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:03,2023-02-21 13:51:03,0.282s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""textarea_NotesComments_note""))",Chrome 110.0.0.0,,,2023-02-21 13:51:03,2023-02-21 13:51:03,0.307s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""textarea_NotesComments_note""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:03,2023-02-21 13:51:04,0.283s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""button_Cancel""))",Chrome 110.0.0.0,,,2023-02-21 13:51:04,2023-02-21 13:51:04,0.306s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""button_Cancel""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:04,2023-02-21 13:51:04,0.283s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""button_Save""))",Chrome 110.0.0.0,,,2023-02-21 13:51:04,2023-02-21 13:51:05,0.300s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""button_Save""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:05,2023-02-21 13:51:05,0.285s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""button_Save  Add ACH""))",Chrome 110.0.0.0,,,2023-02-21 13:51:05,2023-02-21 13:51:05,0.313s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""button_Save  Add ACH""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:05,2023-02-21 13:51:06,0.283s,PASSED
+"verifyElementVisible(findTestObject(path_CreateProfile + ""button_Save  Add Credit Card""))",Chrome 110.0.0.0,,,2023-02-21 13:51:06,2023-02-21 13:51:06,0.300s,PASSED
+"verifyElementPresent(findTestObject(path_CreateProfile + ""button_Save  Add Credit Card""), 30)",Chrome 110.0.0.0,,,2023-02-21 13:51:06,2023-02-21 13:51:06,0.281s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-21 13:51:06,2023-02-21 13:51:07,0.924s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/ViewProfile_UI_Generic_TC,Chrome 110.0.0.0,,,2023-02-21 13:51:07,2023-02-21 13:51:50,43.095s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+"path_CreateProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+"path_AddAccount = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddAccount/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.003s,PASSED
+"path_Add_ACH = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddACH/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.002s,PASSED
+"path_Add_CC = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.003s,PASSED
+"path_App_Plan = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddPaymentPlan/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.000s,PASSED
+"path_DeleteProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.000s,PASSED
+"path_ModifyProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ModifyProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.005s,PASSED
+"path_ViewProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+"path_VSPAuth = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Auth/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+"path_VSPAuthCap = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.000s,PASSED
+"path_Debit = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+"path_DeleteProfileConfirm = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfileConfirm/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.002s,PASSED
+"path_ViewProfilePre = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ViewProfilePre/""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.000s,PASSED
+"nameSheet = ""VerifyViewProfile""",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:08,0.005s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VSP-Profile-TestData/VerifyViewProfile"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-21 13:51:08,2023-02-21 13:51:09,1.019s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-21 13:51:09,2023-02-21 13:51:09,0.004s,PASSED
+"dataFile = ""QA/Bootstrap/VSP-Profile-TestData/VerifyViewProfile""",Chrome 110.0.0.0,,,2023-02-21 13:51:09,2023-02-21 13:51:09,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-21 13:51:09,2023-02-21 13:51:50,41.461s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/VSP_UI_TestCases/AddCreditCard_UI_Generic_TC,Chrome 110.0.0.0,,,2023-02-21 13:51:50,2023-02-21 13:52:38,47.329s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_CreateProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_AddAccount = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddAccount/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_Add_ACH = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddACH/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_Add_CC = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddCreditCard/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_App_Plan = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddPaymentPlan/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_DeleteProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_ModifyProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ModifyProfile/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_ViewProfile = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/View Profile/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_VSPAuth = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Auth/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_VSPAuthCap = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Authcap/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_Debit = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"path_DeleteProfileConfirm = ""Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/DeleteProfileConfirm/""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"nameSheet = ""AddCCUI""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/VSP-Profile-TestData/AddCCUI"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.101s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/VSP-Profile-TestData/AddCCUI""",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:51:51,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-21 13:51:51,2023-02-21 13:52:38,46.790s,PASSED

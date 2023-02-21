@@ -61,7 +61,7 @@ import org.apache.commons.lang.RandomStringUtils
 	
 //	println randomString}
 
-for (def row = 1; row <= 10; row++) {
+for (def row = 1; row <= 2; row++) {
 	def myRan = CustomKeywords.'pages.GenerateRandom.getRandomAlphaNum'()
 	println myRan
 }

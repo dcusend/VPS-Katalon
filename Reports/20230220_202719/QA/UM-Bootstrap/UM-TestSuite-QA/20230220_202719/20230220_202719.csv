@@ -1,0 +1,240 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UM-TestSuite-QA,Chrome 110.0.0.0,,,2023-02-20 20:27:25,2023-02-20 20:46:25,19m - 0.237s,FAILED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/AddDeleteUser,Chrome 110.0.0.0,,,2023-02-20 20:27:25,2023-02-20 20:31:51,4m - 25.970s,FAILED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.002s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.001s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.001s,PASSED
+"path_DeleteUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/""",Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.018s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.000s,PASSED
+"nameSheet = ""CreateUser""",Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.016s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/CreateUser""",Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:26,0.003s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/CreateUser"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:27:26,2023-02-20 20:27:27,0.842s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:27:27,2023-02-20 20:27:27,0.004s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:27:27,2023-02-20 20:31:51,4m - 24.493s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/AddUserSpecialChar,Chrome 110.0.0.0,,,2023-02-20 20:31:51,2023-02-20 20:34:43,2m - 51.353s,FAILED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"path_DeleteUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/""",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"path_AddUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/""",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+spUsername = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"nameSheet = ""CreateUserSpChar""",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/CreateUserSpChar""",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/CreateUserSpChar"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.074s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:31:52,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:31:52,2023-02-20 20:34:43,2m - 50.823s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/UsersErrors/AddUserSpecialCharError,Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:36:52,2m - 9.875s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.008s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.000s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.000s,PASSED
+"path_DeleteUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/""",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.000s,PASSED
+"path_AddUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/""",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.001s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.001s,PASSED
+spUsername = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.000s,PASSED
+"nameSheet = ""CreateUserSpCharError""",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/CreateUserSpCharError""",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/CreateUserSpCharError"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.061s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:34:43,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:34:43,2023-02-20 20:36:52,2m - 9.343s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/FindUser,Chrome 110.0.0.0,,,2023-02-20 20:36:52,2023-02-20 20:40:32,3m - 40.014s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.001s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.001s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+"nameSheet = ""FindUser""",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/FindUser""",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.001s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/FindUser"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.042s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:36:53,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:36:53,2023-02-20 20:40:32,3m - 39.531s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/PasswordCaseSen,Chrome 110.0.0.0,,,2023-02-20 20:40:32,2023-02-20 20:40:39,6.040s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+username_from = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+password_from = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+"nameSheet = ""PassCase""",Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/PassCase""",Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/PassCase"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.052s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:33,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:40:33,2023-02-20 20:40:39,5.558s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/UsernameNotCaseSen,Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:42:33,1m - 54.051s,FAILED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.001s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.000s,PASSED
+username_from = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.000s,PASSED
+password_from = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.000s,PASSED
+"nameSheet = ""UsernameCase""",Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.001s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/UsernameCase""",Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/UsernameCase"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.054s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:40:39,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:40:39,2023-02-20 20:42:33,1m - 53.530s,FAILED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/VerifyUsersLinks_UI_TC,Chrome 110.0.0.0,,,2023-02-20 20:42:33,2023-02-20 20:42:49,16.728s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:42:33,2023-02-20 20:42:33,0.000s,PASSED
+"path_VT = ""Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:42:33,2023-02-20 20:42:33,0.000s,PASSED
+"path_UM = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:42:33,2023-02-20 20:42:33,0.000s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 110.0.0.0,,,2023-02-20 20:42:33,2023-02-20 20:42:40,7.283s,PASSED
+"click(findTestObject(path_Dashboard + ""span_User Management""))",Chrome 110.0.0.0,,,2023-02-20 20:42:40,2023-02-20 20:42:41,0.445s,PASSED
+"click(findTestObject(path_Dashboard + ""a_Users""))",Chrome 110.0.0.0,,,2023-02-20 20:42:41,2023-02-20 20:42:41,0.717s,PASSED
+"verifyTextPresent(""Users"", true)",Chrome 110.0.0.0,,,2023-02-20 20:42:41,2023-02-20 20:42:42,0.631s,PASSED
+"verifyTextPresent(""Total Users"", true)",Chrome 110.0.0.0,,,2023-02-20 20:42:42,2023-02-20 20:42:42,0.305s,PASSED
+"verifyTextPresent(""User Name"", true)",Chrome 110.0.0.0,,,2023-02-20 20:42:42,2023-02-20 20:42:43,0.295s,PASSED
+"verifyTextPresent(""User ID"", true)",Chrome 110.0.0.0,,,2023-02-20 20:42:43,2023-02-20 20:42:43,0.304s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""button_Export""))",Chrome 110.0.0.0,,,2023-02-20 20:42:43,2023-02-20 20:42:43,0.325s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""button_Export""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:43,2023-02-20 20:42:44,0.292s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""a_Find User""))",Chrome 110.0.0.0,,,2023-02-20 20:42:44,2023-02-20 20:42:44,0.311s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""a_Find User""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:44,2023-02-20 20:42:44,0.286s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""a_Add User""))",Chrome 110.0.0.0,,,2023-02-20 20:42:44,2023-02-20 20:42:44,0.302s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""a_Add User""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:44,2023-02-20 20:42:45,0.290s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""a_charu""))",Chrome 110.0.0.0,,,2023-02-20 20:42:45,2023-02-20 20:42:45,0.334s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""a_charu""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:45,2023-02-20 20:42:45,0.305s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""li_First""))",Chrome 110.0.0.0,,,2023-02-20 20:42:45,2023-02-20 20:42:46,0.325s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""li_First""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:46,2023-02-20 20:42:46,0.317s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""li_Prev""))",Chrome 110.0.0.0,,,2023-02-20 20:42:46,2023-02-20 20:42:46,0.312s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""li_Prev""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:46,2023-02-20 20:42:47,0.324s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""a_1""))",Chrome 110.0.0.0,,,2023-02-20 20:42:47,2023-02-20 20:42:47,0.347s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""a_1""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:47,2023-02-20 20:42:47,0.309s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""a_2""))",Chrome 110.0.0.0,,,2023-02-20 20:42:47,2023-02-20 20:42:48,0.365s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""a_2""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:48,2023-02-20 20:42:48,0.314s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""a_Next""))",Chrome 110.0.0.0,,,2023-02-20 20:42:48,2023-02-20 20:42:48,0.324s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""a_Next""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:48,2023-02-20 20:42:49,0.286s,PASSED
+"verifyElementVisible(findTestObject(path_UM + ""a_Last""))",Chrome 110.0.0.0,,,2023-02-20 20:42:49,2023-02-20 20:42:49,0.342s,PASSED
+"verifyElementPresent(findTestObject(path_UM + ""a_Last""), 30)",Chrome 110.0.0.0,,,2023-02-20 20:42:49,2023-02-20 20:42:49,0.387s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/UsersErrors/AddUserSpCharFirstNameError,Chrome 110.0.0.0,,,2023-02-20 20:42:49,2023-02-20 20:43:53,1m - 3.417s,FAILED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"path_DeleteUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/""",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"path_AddUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/""",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+spUsername = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"nameSheet = ""CreateUserSCFNameErr""",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/CreateUserSCFNameErr""",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/CreateUserSCFNameErr"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.072s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:42:50,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:42:50,2023-02-20 20:43:53,1m - 2.757s,FAILED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/UsersErrors/AddUserSpCharLastNameError,Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:44:56,1m - 3.237s,FAILED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"path_DeleteUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/""",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"path_AddUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/""",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+spUsername = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"nameSheet = ""CreateUserSCLNameErr""",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/CreateUserSCLNameErr""",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/CreateUserSCLNameErr"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.092s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:43:53,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:43:53,2023-02-20 20:44:56,1m - 2.717s,FAILED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/UsersErrors/CreateUserErrors,Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:45:59,1m - 3.070s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"path_DeleteUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/""",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"path_AddUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/""",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"nameSheet = ""CreateUserErrors""",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"dataFile = ""QA/Bootstrap/UM-TestData/CreateUserErrors""",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"numOfRows = findTestData(""QA/Bootstrap/UM-TestData/CreateUserErrors"").getRowNumbers()",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.063s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:44:56,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 110.0.0.0,,,2023-02-20 20:44:56,2023-02-20 20:45:59,1m - 2.570s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/UsersErrors/CreateUserMRFErrors,Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:46:11,12.139s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.014s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.001s,PASSED
+"path_DeleteUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/""",Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+"path_AddUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/""",Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:45:59,0.000s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 110.0.0.0,,,2023-02-20 20:45:59,2023-02-20 20:46:06,7.023s,PASSED
+"click(findTestObject(path_Dashboard + ""a_Access User Management""))",Chrome 110.0.0.0,,,2023-02-20 20:46:06,2023-02-20 20:46:07,0.931s,PASSED
+"click(findTestObject(path_Users + ""a_Add User""))",Chrome 110.0.0.0,,,2023-02-20 20:46:07,2023-02-20 20:46:08,0.570s,PASSED
+"click(findTestObject(path_AddUser + ""button_Create""))",Chrome 110.0.0.0,,,2023-02-20 20:46:08,2023-02-20 20:46:09,0.716s,PASSED
+"verifyTextPresent(""First name must be provided"", true)",Chrome 110.0.0.0,,,2023-02-20 20:46:09,2023-02-20 20:46:09,0.500s,PASSED
+"verifyTextPresent(""Last name must be provided"", true)",Chrome 110.0.0.0,,,2023-02-20 20:46:09,2023-02-20 20:46:09,0.287s,PASSED
+"verifyTextPresent(""Username must be provided"", true)",Chrome 110.0.0.0,,,2023-02-20 20:46:09,2023-02-20 20:46:10,0.286s,PASSED
+"verifyTextPresent(""Email address must be provided"", true)",Chrome 110.0.0.0,,,2023-02-20 20:46:10,2023-02-20 20:46:10,0.288s,PASSED
+"verifyTextPresent(""Password must be provided"", true)",Chrome 110.0.0.0,,,2023-02-20 20:46:10,2023-02-20 20:46:10,0.275s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-20 20:46:10,2023-02-20 20:46:11,0.873s,PASSED
+,,,,,,,
+Test Cases/Admin Suite Bootstrap/UM_TestCases/UsersErrors/FindUserNotFoundError,Chrome 110.0.0.0,,,2023-02-20 20:46:11,2023-02-20 20:46:25,13.822s,PASSED
+"path_Dashboard = ""Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/""",Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+"path_Users = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/""",Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+"path_UserView = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/""",Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.001s,PASSED
+"path_FindUser = ""Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/FindUser/""",Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+executionProfile = getExecutionProfile(),Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:12,0.000s,PASSED
+adminSuiteBootstrap.loginFunctionality.login_AdminSuite(),Chrome 110.0.0.0,,,2023-02-20 20:46:12,2023-02-20 20:46:19,7.083s,PASSED
+"click(findTestObject(path_Dashboard + ""a_Access User Management""))",Chrome 110.0.0.0,,,2023-02-20 20:46:19,2023-02-20 20:46:20,0.921s,PASSED
+"click(findTestObject(path_Users + ""a_Find User""))",Chrome 110.0.0.0,,,2023-02-20 20:46:20,2023-02-20 20:46:20,0.560s,PASSED
+"setText(findTestObject(path_FindUser + ""input_Username""), ""dfer564wdf"")",Chrome 110.0.0.0,,,2023-02-20 20:46:20,2023-02-20 20:46:21,0.624s,PASSED
+"setText(findTestObject(path_FindUser + ""input_FirstName""), """")",Chrome 110.0.0.0,,,2023-02-20 20:46:21,2023-02-20 20:46:21,0.594s,PASSED
+"setText(findTestObject(path_FindUser + ""input_LastName""), """")",Chrome 110.0.0.0,,,2023-02-20 20:46:21,2023-02-20 20:46:22,0.598s,PASSED
+"click(findTestObject(path_FindUser + ""button_Search""))",Chrome 110.0.0.0,,,2023-02-20 20:46:22,2023-02-20 20:46:24,1.587s,PASSED
+"verifyTextPresent(""INFO! No user accounts were found that have a username of"", true)",Chrome 110.0.0.0,,,2023-02-20 20:46:24,2023-02-20 20:46:24,0.540s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-20 20:46:24,2023-02-20 20:46:25,0.903s,PASSED
