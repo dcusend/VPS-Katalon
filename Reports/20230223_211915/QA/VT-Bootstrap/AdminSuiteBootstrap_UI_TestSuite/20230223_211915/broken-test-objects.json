@@ -1,0 +1,23 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_fa fa-user fa-lg",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230223_211915/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite/20230223_211915/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_fa fa-user fa-lg_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset",
+      "brokenLocator": "//*[@type \u003d \u0027reset\u0027 and @name \u003d \u0027reset\u0027 and @id \u003d \u0027reset\u0027 and (text() \u003d \u0027Reset\u0027 or . \u003d \u0027Reset\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button[@id\u003d\u0027reset\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230223_211915/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite/20230223_211915/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset_XPATH.png"
+    }
+  ]
+}

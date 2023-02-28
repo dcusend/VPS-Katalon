@@ -10,12 +10,12 @@
          <value>//button[@id='submit1']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#submit1</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @value = 'Submit' and @id = 'submit1']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @value = 'Submit' and @id = 'submit1' and (text() = 'Submit' or . = 'Submit')]</value>
+         <key>CSS</key>
+         <value>#submit1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -77,7 +77,7 @@
       <value>submitForm()</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

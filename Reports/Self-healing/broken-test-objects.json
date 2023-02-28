@@ -569,6 +569,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid-App411",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027\n\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\tCredit or  Void\n\t\t\t\t\t\t\t\t\t \u0027 or . \u003d \u0027\n\t\t\t\t\t\t\t\t\t \t\n\t\t\t\t\t\t\t\t\t\tCredit or  Void\n\t\t\t\t\t\t\t\t\t \u0027) and @href \u003d \u0027/admin/imtiaz/bootstrap/vpos/411/transactions/CCCreditOrVoidSearch/\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid-App411_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Auth",
+      "brokenLocator": "//*[@href \u003d concat(\"javascript:checkSession(\" , \"\u0027\" , \"sale\" , \"\u0027\" , \",\" , \"\u0027\" , \"/admin/imtiaz/bootstrap/vpos/411/emvtransactions/AuthOnlyForm/\" , \"\u0027\" , \",\" , \"\u0027\" , \"K\" , \"\u0027\" , \")\") and (text() \u003d \u0027Ingenico Keypad Entry\u0027 or . \u003d \u0027Ingenico Keypad Entry\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//a[contains(text(),\u0027Ingenico Keypad Entry\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Auth_link.png"
     }
   ]
 }

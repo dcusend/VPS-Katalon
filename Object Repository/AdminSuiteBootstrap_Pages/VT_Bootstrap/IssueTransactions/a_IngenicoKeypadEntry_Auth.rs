@@ -10,6 +10,10 @@
          <value>(//span[@id='authIngenicoKeypad']/a)[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = concat(&quot;javascript:checkSession(&quot; , &quot;'&quot; , &quot;auth&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/admin/imtiaz/bootstrap/vpos/411/emvtransactions/AuthOnlyForm/&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;K&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Ingenico Keypad Entry' or . = 'Ingenico Keypad Entry')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#collapseTwo > div.card-body.ml-4 > #authIngenicoKeypad > a.ml-2</value>
       </entry>

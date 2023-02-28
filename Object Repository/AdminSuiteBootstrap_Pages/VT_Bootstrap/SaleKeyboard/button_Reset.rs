@@ -10,6 +10,10 @@
          <value>//button[@id='reset']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#reset</value>
       </entry>
@@ -35,14 +39,14 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>reset</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>reset</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

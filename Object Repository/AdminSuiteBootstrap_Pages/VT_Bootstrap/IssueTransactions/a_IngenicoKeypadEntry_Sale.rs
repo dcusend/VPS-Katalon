@@ -10,6 +10,10 @@
          <value>//span[@id='authIngenicoKeypad']/a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = concat(&quot;javascript:checkSession(&quot; , &quot;'&quot; , &quot;sale&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;/admin/imtiaz/bootstrap/vpos/411/emvtransactions/AuthCapForm/&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;K&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Ingenico Keypad Entry' or . = 'Ingenico Keypad Entry')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#authIngenicoKeypad > a.ml-2</value>
       </entry>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:checkSession('auth','/admin/imtiaz/bootstrap/vpos/411/emvtransactions/AuthCapForm/','K')</value>
+      <value>javascript:checkSession('sale','/admin/imtiaz/bootstrap/vpos/411/emvtransactions/AuthCapForm/','K')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

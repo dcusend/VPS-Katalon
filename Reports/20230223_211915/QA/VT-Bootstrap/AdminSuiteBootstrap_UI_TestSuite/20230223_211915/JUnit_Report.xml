@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AdminSuiteBootstrap_UI_TestSuite" time="299.369" tests="7" failures="1" errors="0">
+   <testsuite name="AdminSuiteBootstrap_UI_TestSuite" tests="7" failures="1" errors="0" time="299.369" skipped="0" timestamp="2023-02-23 21:19:21" hostname="imtiaz - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/QA/VT-Bootstrap/AdminSuiteBootstrap_UI_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20230223_211915\\QA\\VT-Bootstrap\\AdminSuiteBootstrap_UI_TestSuite\\20230223_211915"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20230223_211915\\QA\\VT-Bootstrap\\AdminSuiteBootstrap_UI_TestSuite\\20230223_211915\\execution0.log"/>
+         <property name="attachments" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20230223_211915\\QA\\VT-Bootstrap\\AdminSuiteBootstrap_UI_TestSuite\\20230223_211915\\1677205383608.png"/>
+         <property name="hostName" value="imtiaz - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="172.31.253.135"/>
+         <property name="sessionId" value="abfde45bf1176a8a0b0cb795e1bdb8fb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin Suite Bootstrap/Dashboard_TestCases/VerifyDashboardLinks_UI_TC" time="56.594" classname="Test Cases/Admin Suite Bootstrap/Dashboard_TestCases/VerifyDashboardLinks_UI_TC" status="PASSED">
+         <system-out><![CDATA[2023-02-23 21:19:21 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/Dashboard_TestCases/VerifyDashboardLinks_UI_TC: Test Cases/Admin Suite Bootstrap/Dashboard_TestCases/VerifyDashboardLinks_UI_TC
+
+2023-02-23 21:19:22 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2023-02-23 21:19:22 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:19:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-23 21:19:23 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-02-23 21:19:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-23 21:19:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2023-02-23 21:19:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-23 21:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2023-02-23 21:19:27 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2023-02-23 21:19:28 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2023-02-23 21:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2023-02-23 21:19:32 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:19:32 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "i_imtiaz_fa fa-user fa-lg")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_fa fa-user fa-lg' is clicked on
+
+2023-02-23 21:20:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[1]/body[@class="app sidebar-mini"]/header[@class="app-header"]/ul[@class="app-nav"]/li[@class="dropdown"]/a[@class="app-nav__item"]/i[@class="fa fa-user fa-lg"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-23 21:20:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_fa fa-user fa-lg'. Try using Self-healing.
+
+2023-02-23 21:20:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_fa fa-user fa-lg' was broken. Propose an alternative one: '//i'.
+
+2023-02-23 21:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/i_imtiaz_fa fa-user fa-lg' is clicked on
+
+2023-02-23 21:20:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "span_Imtiaz Ahmed iahmed")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Imtiaz Ahmed iahmed' is visible
+
+2023-02-23 21:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Imtiaz Ahmed iahmed' is visible
+
+2023-02-23 21:20:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "span_Imtiaz Ahmed iahmed"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Imtiaz Ahmed iahmed' is present
+
+2023-02-23 21:20:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Imtiaz Ahmed iahmed' is present
+
+2023-02-23 21:20:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "span_Logout")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Logout' is visible
+
+2023-02-23 21:20:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Logout' is visible
+
+2023-02-23 21:20:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "span_Logout"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Logout' is present
+
+2023-02-23 21:20:05 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Logout' is present
+
+2023-02-23 21:20:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "span_My Account")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_My Account' is visible
+
+2023-02-23 21:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_My Account' is visible
+
+2023-02-23 21:20:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "span_My Account"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_My Account' is present
+
+2023-02-23 21:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_My Account' is present
+
+2023-02-23 21:20:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "span_Call Center"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Call Center' is present
+
+2023-02-23 21:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Call Center' is present
+
+2023-02-23 21:20:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "span_Payment"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is present
+
+2023-02-23 21:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is present
+
+2023-02-23 21:20:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "span_Reporting"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Reporting' is present
+
+2023-02-23 21:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Reporting' is present
+
+2023-02-23 21:20:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "span_User Management"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_User Management' is present
+
+2023-02-23 21:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_User Management' is present
+
+2023-02-23 21:20:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "span_Call Center")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Call Center' is visible
+
+2023-02-23 21:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Call Center' is visible
+
+2023-02-23 21:20:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "span_Payment")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is visible
+
+2023-02-23 21:20:08 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is visible
+
+2023-02-23 21:20:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "span_Reporting")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Reporting' is visible
+
+2023-02-23 21:20:08 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Reporting' is visible
+
+2023-02-23 21:20:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "span_User Management")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_User Management' is visible
+
+2023-02-23 21:20:08 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_User Management' is visible
+
+2023-02-23 21:20:08 - [TEST_STEP][PASSED] - verifyTextPresent("Velocity Payment System Version 2022-1 - Copyright © 2023 Govolution", true): Text 'Velocity Payment System Version 2022-1 - Copyright © 2023 Govolution' is present on page  using regular expression
+
+2023-02-23 21:20:09 - [MESSAGE][PASSED] - Text 'Velocity Payment System Version 2022-1 - Copyright © 2023 Govolution' is present on page  using regular expression
+
+2023-02-23 21:20:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "span_CustomerDD"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_CustomerDD' is present
+
+2023-02-23 21:20:09 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_CustomerDD' is present
+
+2023-02-23 21:20:09 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_User Management")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_User Management' is clicked on
+
+2023-02-23 21:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_User Management' is clicked on
+
+2023-02-23 21:20:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_Users"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Users' is present
+
+2023-02-23 21:20:10 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Users' is present
+
+2023-02-23 21:20:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_Users")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Users' is visible
+
+2023-02-23 21:20:10 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Users' is visible
+
+2023-02-23 21:20:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_Roles"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Roles' is present
+
+2023-02-23 21:20:10 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Roles' is present
+
+2023-02-23 21:20:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_Roles")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Roles' is visible
+
+2023-02-23 21:20:11 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Roles' is visible
+
+2023-02-23 21:20:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_Products"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Products' is present
+
+2023-02-23 21:20:11 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Products' is present
+
+2023-02-23 21:20:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_Products")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Products' is visible
+
+2023-02-23 21:20:11 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Products' is visible
+
+2023-02-23 21:20:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_AVS Policy"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_AVS Policy' is present
+
+2023-02-23 21:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_AVS Policy' is present
+
+2023-02-23 21:20:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_AVS Policy")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_AVS Policy' is visible
+
+2023-02-23 21:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_AVS Policy' is visible
+
+2023-02-23 21:20:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_CVV Policy"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_CVV Policy' is present
+
+2023-02-23 21:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_CVV Policy' is present
+
+2023-02-23 21:20:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_CVV Policy")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_CVV Policy' is visible
+
+2023-02-23 21:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_CVV Policy' is visible
+
+2023-02-23 21:20:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_Email Alerts"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Alerts' is present
+
+2023-02-23 21:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Alerts' is present
+
+2023-02-23 21:20:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_Email Alerts")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Alerts' is visible
+
+2023-02-23 21:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Alerts' is visible
+
+2023-02-23 21:20:13 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Payment")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2023-02-23 21:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2023-02-23 21:20:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_New Test VRelay"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_New Test VRelay' is present
+
+2023-02-23 21:20:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_New Test VRelay' is present
+
+2023-02-23 21:20:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_New Test VRelay")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_New Test VRelay' is visible
+
+2023-02-23 21:20:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_New Test VRelay' is visible
+
+2023-02-23 21:20:14 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Reporting")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Reporting' is clicked on
+
+2023-02-23 21:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Reporting' is clicked on
+
+2023-02-23 21:20:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_Operational Reports"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Operational Reports' is present
+
+2023-02-23 21:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Operational Reports' is present
+
+2023-02-23 21:20:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_Operational Reports")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Operational Reports' is visible
+
+2023-02-23 21:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Operational Reports' is visible
+
+2023-02-23 21:20:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_Risk ManagementAudit Reports"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Risk ManagementAudit Reports' is present
+
+2023-02-23 21:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Risk ManagementAudit Reports' is present
+
+2023-02-23 21:20:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_Risk ManagementAudit Reports")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Risk ManagementAudit Reports' is visible
+
+2023-02-23 21:20:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Risk ManagementAudit Reports' is visible
+
+2023-02-23 21:20:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_User Reports"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_User Reports' is present
+
+2023-02-23 21:20:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_User Reports' is present
+
+2023-02-23 21:20:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_User Reports")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_User Reports' is visible
+
+2023-02-23 21:20:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_User Reports' is visible
+
+2023-02-23 21:20:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_All Reports"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_All Reports' is present
+
+2023-02-23 21:20:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_All Reports' is present
+
+2023-02-23 21:20:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_All Reports")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_All Reports' is visible
+
+2023-02-23 21:20:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_All Reports' is visible
+
+2023-02-23 21:20:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_Dashboard + "a_Email Subscription"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Subscription' is present
+
+2023-02-23 21:20:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Subscription' is present
+
+2023-02-23 21:20:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_Dashboard + "a_Email Subscription")): Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Subscription' is visible
+
+2023-02-23 21:20:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Subscription' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyIssueTransactionsLinks_UI_TC" time="22.186" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyIssueTransactionsLinks_UI_TC" status="PASSED">
+         <system-out><![CDATA[2023-02-23 21:20:18 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyIssueTransactionsLinks_UI_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyIssueTransactionsLinks_UI_TC
+
+2023-02-23 21:20:18 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2023-02-23 21:20:18 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2023-02-23 21:20:18 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:20:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-23 21:20:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-23 21:20:19 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-02-23 21:20:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-23 21:20:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2023-02-23 21:20:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-23 21:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2023-02-23 21:20:22 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2023-02-23 21:20:23 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2023-02-23 21:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2023-02-23 21:20:27 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:20:27 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Payment")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2023-02-23 21:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2023-02-23 21:20:27 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "a_New Test VRelay")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_New Test VRelay' is clicked on
+
+2023-02-23 21:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_New Test VRelay' is clicked on
+
+2023-02-23 21:20:28 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Card", true): Text 'Credit Card' is present on page  using regular expression
+
+2023-02-23 21:20:29 - [MESSAGE][PASSED] - Text 'Credit Card' is present on page  using regular expression
+
+2023-02-23 21:20:29 - [TEST_STEP][PASSED] - verifyTextPresent("On-line Check", true): Text 'On-line Check' is present on page  using regular expression
+
+2023-02-23 21:20:29 - [MESSAGE][PASSED] - Text 'On-line Check' is present on page  using regular expression
+
+2023-02-23 21:20:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_Issue Transactions")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Issue Transactions' is visible
+
+2023-02-23 21:20:29 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Issue Transactions' is visible
+
+2023-02-23 21:20:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_Issue Transactions"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Issue Transactions' is present
+
+2023-02-23 21:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Issue Transactions' is present
+
+2023-02-23 21:20:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_Search Transactions")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions' is visible
+
+2023-02-23 21:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions' is visible
+
+2023-02-23 21:20:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_Search Transactions"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions' is present
+
+2023-02-23 21:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions' is present
+
+2023-02-23 21:20:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "button_Authorization  Capture (Sale)")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is visible
+
+2023-02-23 21:20:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is visible
+
+2023-02-23 21:20:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "button_Authorization  Capture (Sale)"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is present
+
+2023-02-23 21:20:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is present
+
+2023-02-23 21:20:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "button_Authorization Only")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is visible
+
+2023-02-23 21:20:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is visible
+
+2023-02-23 21:20:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "button_Authorization Only"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is present
+
+2023-02-23 21:20:31 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is present
+
+2023-02-23 21:20:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "button_CCCreditOrVoid-App411")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid-App411' is visible
+
+2023-02-23 21:20:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid-App411' is visible
+
+2023-02-23 21:20:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "button_CCCreditOrVoid-App411"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid-App411' is present
+
+2023-02-23 21:20:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_CCCreditOrVoid-App411' is present
+
+2023-02-23 21:20:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "button_Capture an Authorization")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Capture an Authorization' is visible
+
+2023-02-23 21:20:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Capture an Authorization' is visible
+
+2023-02-23 21:20:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "button_Capture an Authorization"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Capture an Authorization' is present
+
+2023-02-23 21:20:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Capture an Authorization' is present
+
+2023-02-23 21:20:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "button_Manual Authorization")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Manual Authorization' is visible
+
+2023-02-23 21:20:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Manual Authorization' is visible
+
+2023-02-23 21:20:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "button_Manual Authorization"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Manual Authorization' is present
+
+2023-02-23 21:20:33 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Manual Authorization' is present
+
+2023-02-23 21:20:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "button_Debit")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Debit' is visible
+
+2023-02-23 21:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Debit' is visible
+
+2023-02-23 21:20:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "button_Debit"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Debit' is present
+
+2023-02-23 21:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Debit' is present
+
+2023-02-23 21:20:34 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization Only")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is clicked on
+
+2023-02-23 21:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is clicked on
+
+2023-02-23 21:20:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_KeyboardEntry_Auth")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Auth' is visible
+
+2023-02-23 21:20:35 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Auth' is visible
+
+2023-02-23 21:20:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_KeyboardEntry_Auth"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Auth' is present
+
+2023-02-23 21:20:35 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Auth' is present
+
+2023-02-23 21:20:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_PINPadEntry_Auth")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_PINPadEntry_Auth' is visible
+
+2023-02-23 21:20:35 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_PINPadEntry_Auth' is visible
+
+2023-02-23 21:20:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_PINPadEntry_Auth"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_PINPadEntry_Auth' is present
+
+2023-02-23 21:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_PINPadEntry_Auth' is present
+
+2023-02-23 21:20:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_Swipe_Auth")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Swipe_Auth' is visible
+
+2023-02-23 21:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Swipe_Auth' is visible
+
+2023-02-23 21:20:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_Swipe_Auth"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Swipe_Auth' is present
+
+2023-02-23 21:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Swipe_Auth' is present
+
+2023-02-23 21:20:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_IngenicoKeypadEntry_Auth")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Auth' is visible
+
+2023-02-23 21:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Auth' is visible
+
+2023-02-23 21:20:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_IngenicoKeypadEntry_Auth"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Auth' is present
+
+2023-02-23 21:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Auth' is present
+
+2023-02-23 21:20:37 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization  Capture (Sale)")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2023-02-23 21:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2023-02-23 21:20:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_KeyboardEntry_Sale")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is visible
+
+2023-02-23 21:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is visible
+
+2023-02-23 21:20:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_KeyboardEntry_Sale"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is present
+
+2023-02-23 21:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is present
+
+2023-02-23 21:20:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_PINPadEntry_Sale")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_PINPadEntry_Sale' is visible
+
+2023-02-23 21:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_PINPadEntry_Sale' is visible
+
+2023-02-23 21:20:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_PINPadEntry_Sale"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_PINPadEntry_Sale' is present
+
+2023-02-23 21:20:39 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_PINPadEntry_Sale' is present
+
+2023-02-23 21:20:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_Swipe_Sale")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Swipe_Sale' is visible
+
+2023-02-23 21:20:39 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Swipe_Sale' is visible
+
+2023-02-23 21:20:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_Swipe_Sale"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Swipe_Sale' is present
+
+2023-02-23 21:20:39 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Swipe_Sale' is present
+
+2023-02-23 21:20:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_VT + "a_IngenicoKeypadEntry_Sale")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Sale' is visible
+
+2023-02-23 21:20:39 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Sale' is visible
+
+2023-02-23 21:20:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_VT + "a_IngenicoKeypadEntry_Sale"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Sale' is present
+
+2023-02-23 21:20:40 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_IngenicoKeypadEntry_Sale' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/VerifyUsersLinks_UI_TC" time="17.448" classname="Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/VerifyUsersLinks_UI_TC" status="PASSED">
+         <system-out><![CDATA[2023-02-23 21:20:40 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/VerifyUsersLinks_UI_TC: Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/VerifyUsersLinks_UI_TC
+
+2023-02-23 21:20:40 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2023-02-23 21:20:40 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/": null
+
+2023-02-23 21:20:40 - [TEST_STEP][PASSED] - path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/": null
+
+2023-02-23 21:20:40 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:20:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-23 21:20:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-23 21:20:41 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-02-23 21:20:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-23 21:20:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2023-02-23 21:20:44 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-23 21:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2023-02-23 21:20:45 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2023-02-23 21:20:45 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2023-02-23 21:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2023-02-23 21:20:48 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:20:48 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_User Management")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_User Management' is clicked on
+
+2023-02-23 21:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_User Management' is clicked on
+
+2023-02-23 21:20:49 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "a_Users")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Users' is clicked on
+
+2023-02-23 21:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Users' is clicked on
+
+2023-02-23 21:20:49 - [TEST_STEP][PASSED] - verifyTextPresent("Users", true): Text 'Users' is present on page  using regular expression
+
+2023-02-23 21:20:50 - [MESSAGE][PASSED] - Text 'Users' is present on page  using regular expression
+
+2023-02-23 21:20:50 - [TEST_STEP][PASSED] - verifyTextPresent("Total Users", true): Text 'Total Users' is present on page  using regular expression
+
+2023-02-23 21:20:50 - [MESSAGE][PASSED] - Text 'Total Users' is present on page  using regular expression
+
+2023-02-23 21:20:50 - [TEST_STEP][PASSED] - verifyTextPresent("User Name", true): Text 'User Name' is present on page  using regular expression
+
+2023-02-23 21:20:51 - [MESSAGE][PASSED] - Text 'User Name' is present on page  using regular expression
+
+2023-02-23 21:20:51 - [TEST_STEP][PASSED] - verifyTextPresent("User ID", true): Text 'User ID' is present on page  using regular expression
+
+2023-02-23 21:20:51 - [MESSAGE][PASSED] - Text 'User ID' is present on page  using regular expression
+
+2023-02-23 21:20:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "button_Export")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/button_Export' is visible
+
+2023-02-23 21:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/button_Export' is visible
+
+2023-02-23 21:20:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "button_Export"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/button_Export' is present
+
+2023-02-23 21:20:51 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/button_Export' is present
+
+2023-02-23 21:20:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "a_Find User")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Find User' is visible
+
+2023-02-23 21:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Find User' is visible
+
+2023-02-23 21:20:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "a_Find User"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Find User' is present
+
+2023-02-23 21:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Find User' is present
+
+2023-02-23 21:20:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "a_Add User")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Add User' is visible
+
+2023-02-23 21:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Add User' is visible
+
+2023-02-23 21:20:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "a_Add User"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Add User' is present
+
+2023-02-23 21:20:53 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Add User' is present
+
+2023-02-23 21:20:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "a_charu")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_charu' is visible
+
+2023-02-23 21:20:53 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_charu' is visible
+
+2023-02-23 21:20:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "a_charu"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_charu' is present
+
+2023-02-23 21:20:53 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_charu' is present
+
+2023-02-23 21:20:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "li_First")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/li_First' is visible
+
+2023-02-23 21:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/li_First' is visible
+
+2023-02-23 21:20:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "li_First"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/li_First' is present
+
+2023-02-23 21:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/li_First' is present
+
+2023-02-23 21:20:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "li_Prev")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/li_Prev' is visible
+
+2023-02-23 21:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/li_Prev' is visible
+
+2023-02-23 21:20:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "li_Prev"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/li_Prev' is present
+
+2023-02-23 21:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/li_Prev' is present
+
+2023-02-23 21:20:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "a_1")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_1' is visible
+
+2023-02-23 21:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_1' is visible
+
+2023-02-23 21:20:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "a_1"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_1' is present
+
+2023-02-23 21:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_1' is present
+
+2023-02-23 21:20:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "a_2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_2' is visible
+
+2023-02-23 21:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_2' is visible
+
+2023-02-23 21:20:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "a_2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_2' is present
+
+2023-02-23 21:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_2' is present
+
+2023-02-23 21:20:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "a_Next")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Next' is visible
+
+2023-02-23 21:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Next' is visible
+
+2023-02-23 21:20:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "a_Next"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Next' is present
+
+2023-02-23 21:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Next' is present
+
+2023-02-23 21:20:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_UM + "a_Last")): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Last' is visible
+
+2023-02-23 21:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Last' is visible
+
+2023-02-23 21:20:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_UM + "a_Last"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Last' is present
+
+2023-02-23 21:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_Last' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_UI_1_TC" time="32.107" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_UI_1_TC" status="PASSED">
+         <system-out><![CDATA[2023-02-23 21:20:57 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_UI_1_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifySaleKeyboard_UI_1_TC
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - appliID = "238": null
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - li_1 = "/admin/imtiaz/bootstrap/vpos/": null
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthCapForm/": null
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appliID + li_2: null
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - out.println("hrefID is : " + hrefAppID): null
+
+2023-02-23 21:20:58 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:20:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-23 21:20:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-23 21:20:59 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-02-23 21:20:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-23 21:21:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2023-02-23 21:21:01 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-23 21:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2023-02-23 21:21:02 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2023-02-23 21:21:03 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2023-02-23 21:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2023-02-23 21:21:06 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:21:06 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Payment")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2023-02-23 21:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2023-02-23 21:21:06 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "a_HelloWorld3")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2023-02-23 21:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2023-02-23 21:21:07 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization  Capture (Sale)")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2023-02-23 21:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2023-02-23 21:21:07 - [TEST_STEP][PASSED] - saleKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + "a_KeyboardEntry_Sale"), "href", "equals", hrefAppID, true): Modify property of object successfully
+
+2023-02-23 21:21:08 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2023-02-23 21:21:08 - [TEST_STEP][PASSED] - click(saleKeyboardEntryLink): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2023-02-23 21:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2023-02-23 21:21:09 - [TEST_STEP][PASSED] - verifyTextPresent("Issue Transactions", true): Text 'Issue Transactions' is present on page  using regular expression
+
+2023-02-23 21:21:10 - [MESSAGE][PASSED] - Text 'Issue Transactions' is present on page  using regular expression
+
+2023-02-23 21:21:10 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Card Authorization Capture", true): Text 'Credit Card Authorization Capture' is present on page  using regular expression
+
+2023-02-23 21:21:10 - [MESSAGE][PASSED] - Text 'Credit Card Authorization Capture' is present on page  using regular expression
+
+2023-02-23 21:21:10 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk", true): Text 'Required fields are highlighted with an asterisk' is present on page  using regular expression
+
+2023-02-23 21:21:10 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk' is present on page  using regular expression
+
+2023-02-23 21:21:10 - [TEST_STEP][PASSED] - verifyTextPresent("Remittance ID", true): Text 'Remittance ID' is present on page  using regular expression
+
+2023-02-23 21:21:11 - [MESSAGE][PASSED] - Text 'Remittance ID' is present on page  using regular expression
+
+2023-02-23 21:21:11 - [TEST_STEP][PASSED] - verifyTextPresent("Bill/Invoice Information", true): Text 'Bill/Invoice Information' is present on page  using regular expression
+
+2023-02-23 21:21:11 - [MESSAGE][PASSED] - Text 'Bill/Invoice Information' is present on page  using regular expression
+
+2023-02-23 21:21:11 - [TEST_STEP][PASSED] - verifyTextPresent("Application: Hello World3", true): Text 'Application: Hello World3' is present on page  using regular expression
+
+2023-02-23 21:21:11 - [MESSAGE][PASSED] - Text 'Application: Hello World3' is present on page  using regular expression
+
+2023-02-23 21:21:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_cardName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is visible
+
+2023-02-23 21:21:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is visible
+
+2023-02-23 21:21:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_cardName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is present
+
+2023-02-23 21:21:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is present
+
+2023-02-23 21:21:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_transactionCategory")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is visible
+
+2023-02-23 21:21:12 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is visible
+
+2023-02-23 21:21:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_transactionCategory"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is present
+
+2023-02-23 21:21:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is present
+
+2023-02-23 21:21:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__cardNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cardNumber' is present
+
+2023-02-23 21:21:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cardNumber' is present
+
+2023-02-23 21:21:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__cvv"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cvv' is present
+
+2023-02-23 21:21:13 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cvv' is present
+
+2023-02-23 21:21:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_MM")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is visible
+
+2023-02-23 21:21:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is visible
+
+2023-02-23 21:21:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_MM"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is present
+
+2023-02-23 21:21:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is present
+
+2023-02-23 21:21:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_YYYY")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is visible
+
+2023-02-23 21:21:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is visible
+
+2023-02-23 21:21:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_YYYY"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is present
+
+2023-02-23 21:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is present
+
+2023-02-23 21:21:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__address")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is visible
+
+2023-02-23 21:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is visible
+
+2023-02-23 21:21:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__address"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is present
+
+2023-02-23 21:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is present
+
+2023-02-23 21:21:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__address2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is visible
+
+2023-02-23 21:21:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is visible
+
+2023-02-23 21:21:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__address2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is present
+
+2023-02-23 21:21:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is present
+
+2023-02-23 21:21:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_Country")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is visible
+
+2023-02-23 21:21:16 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is visible
+
+2023-02-23 21:21:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_Country"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is present
+
+2023-02-23 21:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is present
+
+2023-02-23 21:21:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__zip")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is visible
+
+2023-02-23 21:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is visible
+
+2023-02-23 21:21:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__zip"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is present
+
+2023-02-23 21:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is present
+
+2023-02-23 21:21:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__city")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is visible
+
+2023-02-23 21:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is visible
+
+2023-02-23 21:21:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__city"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is present
+
+2023-02-23 21:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is present
+
+2023-02-23 21:21:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_State")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is visible
+
+2023-02-23 21:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is visible
+
+2023-02-23 21:21:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_State"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is present
+
+2023-02-23 21:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is present
+
+2023-02-23 21:21:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_emailAddress")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is visible
+
+2023-02-23 21:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is visible
+
+2023-02-23 21:21:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_emailAddress"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is present
+
+2023-02-23 21:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is present
+
+2023-02-23 21:21:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_smsNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is visible
+
+2023-02-23 21:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is visible
+
+2023-02-23 21:21:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_smsNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is present
+
+2023-02-23 21:21:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is present
+
+2023-02-23 21:21:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_amount")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is visible
+
+2023-02-23 21:21:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is visible
+
+2023-02-23 21:21:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_amount"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is present
+
+2023-02-23 21:21:20 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is present
+
+2023-02-23 21:21:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_convenienceFee")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is visible
+
+2023-02-23 21:21:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is visible
+
+2023-02-23 21:21:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_convenienceFee"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is present
+
+2023-02-23 21:21:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is present
+
+2023-02-23 21:21:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_convenienceFeeType")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is visible
+
+2023-02-23 21:21:21 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is visible
+
+2023-02-23 21:21:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_convenienceFeeType"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is present
+
+2023-02-23 21:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is present
+
+2023-02-23 21:21:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_totalAmount")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is visible
+
+2023-02-23 21:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is visible
+
+2023-02-23 21:21:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_totalAmount"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is present
+
+2023-02-23 21:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is present
+
+2023-02-23 21:21:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined1")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is visible
+
+2023-02-23 21:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is visible
+
+2023-02-23 21:21:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined1"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is present
+
+2023-02-23 21:21:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is present
+
+2023-02-23 21:21:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is visible
+
+2023-02-23 21:21:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is visible
+
+2023-02-23 21:21:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is present
+
+2023-02-23 21:21:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is present
+
+2023-02-23 21:21:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined3")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is visible
+
+2023-02-23 21:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is visible
+
+2023-02-23 21:21:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined3"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is present
+
+2023-02-23 21:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is present
+
+2023-02-23 21:21:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined4")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is visible
+
+2023-02-23 21:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is visible
+
+2023-02-23 21:21:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined4"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is present
+
+2023-02-23 21:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is present
+
+2023-02-23 21:21:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_UDF5_DropDown")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown' is visible
+
+2023-02-23 21:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown' is visible
+
+2023-02-23 21:21:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_UDF5_DropDown"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown' is present
+
+2023-02-23 21:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown' is present
+
+2023-02-23 21:21:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_UDF6_DropDown")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown' is visible
+
+2023-02-23 21:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown' is visible
+
+2023-02-23 21:21:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_UDF6_DropDown"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown' is present
+
+2023-02-23 21:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown' is present
+
+2023-02-23 21:21:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined7")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is visible
+
+2023-02-23 21:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is visible
+
+2023-02-23 21:21:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined7"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is present
+
+2023-02-23 21:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is present
+
+2023-02-23 21:21:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined8")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is visible
+
+2023-02-23 21:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is visible
+
+2023-02-23 21:21:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined8"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is present
+
+2023-02-23 21:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is present
+
+2023-02-23 21:21:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined9")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is visible
+
+2023-02-23 21:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is visible
+
+2023-02-23 21:21:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined9"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is present
+
+2023-02-23 21:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is present
+
+2023-02-23 21:21:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined10")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is visible
+
+2023-02-23 21:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is visible
+
+2023-02-23 21:21:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined10"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is present
+
+2023-02-23 21:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is present
+
+2023-02-23 21:21:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "button_Submit")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is visible
+
+2023-02-23 21:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is visible
+
+2023-02-23 21:21:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "button_Submit"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is present
+
+2023-02-23 21:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is present
+
+2023-02-23 21:21:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "button_Reset")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is visible
+
+2023-02-23 21:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is visible
+
+2023-02-23 21:21:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "button_Reset"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is present
+
+2023-02-23 21:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC" time="94.037" classname="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	... 23 more
+"/>
+         <system-out><![CDATA[2023-02-23 21:21:29 - [TEST_CASE][FAILED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	... 23 more
+
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - appliID = "238": null
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - li_1 = "/admin/imtiaz/bootstrap/vpos/": null
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthOnlyForm/": null
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appliID + li_2: null
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - out.println("hrefID is : " + hrefAppID): null
+
+2023-02-23 21:21:30 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:21:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-23 21:21:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-23 21:21:31 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-02-23 21:21:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-23 21:21:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2023-02-23 21:21:33 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-23 21:21:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2023-02-23 21:21:34 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2023-02-23 21:21:35 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2023-02-23 21:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2023-02-23 21:21:38 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:21:38 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "span_Payment")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2023-02-23 21:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Payment' is clicked on
+
+2023-02-23 21:21:38 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + "a_HelloWorld3")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2023-02-23 21:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_HelloWorld3' is clicked on
+
+2023-02-23 21:21:39 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization Only")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is clicked on
+
+2023-02-23 21:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization Only' is clicked on
+
+2023-02-23 21:21:39 - [TEST_STEP][PASSED] - authOnlyKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + "a_KeyboardEntry_Sale"), "href", "equals", hrefAppID, true): Modify property of object successfully
+
+2023-02-23 21:21:40 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2023-02-23 21:21:40 - [TEST_STEP][PASSED] - click(authOnlyKeyboardEntryLink): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2023-02-23 21:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2023-02-23 21:21:40 - [TEST_STEP][PASSED] - verifyTextPresent("Issue Transactions", true): Text 'Issue Transactions' is present on page  using regular expression
+
+2023-02-23 21:21:41 - [MESSAGE][PASSED] - Text 'Issue Transactions' is present on page  using regular expression
+
+2023-02-23 21:21:41 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Card Authorization", true): Text 'Credit Card Authorization' is present on page  using regular expression
+
+2023-02-23 21:21:42 - [MESSAGE][PASSED] - Text 'Credit Card Authorization' is present on page  using regular expression
+
+2023-02-23 21:21:42 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk", true): Text 'Required fields are highlighted with an asterisk' is present on page  using regular expression
+
+2023-02-23 21:21:42 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk' is present on page  using regular expression
+
+2023-02-23 21:21:42 - [TEST_STEP][PASSED] - verifyTextPresent("Remittance ID", true): Text 'Remittance ID' is present on page  using regular expression
+
+2023-02-23 21:21:42 - [MESSAGE][PASSED] - Text 'Remittance ID' is present on page  using regular expression
+
+2023-02-23 21:21:42 - [TEST_STEP][PASSED] - verifyTextPresent("Bill/Invoice Information", true): Text 'Bill/Invoice Information' is present on page  using regular expression
+
+2023-02-23 21:21:43 - [MESSAGE][PASSED] - Text 'Bill/Invoice Information' is present on page  using regular expression
+
+2023-02-23 21:21:43 - [TEST_STEP][PASSED] - verifyTextPresent("Application: Hello World3", true): Text 'Application: Hello World3' is present on page  using regular expression
+
+2023-02-23 21:21:43 - [MESSAGE][PASSED] - Text 'Application: Hello World3' is present on page  using regular expression
+
+2023-02-23 21:21:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_cardName")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is visible
+
+2023-02-23 21:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is visible
+
+2023-02-23 21:21:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_cardName"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is present
+
+2023-02-23 21:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName' is present
+
+2023-02-23 21:21:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_transactionCategory")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is visible
+
+2023-02-23 21:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is visible
+
+2023-02-23 21:21:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_transactionCategory"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is present
+
+2023-02-23 21:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory' is present
+
+2023-02-23 21:21:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__cardNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cardNumber' is present
+
+2023-02-23 21:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cardNumber' is present
+
+2023-02-23 21:21:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__cvv"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cvv' is present
+
+2023-02-23 21:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__cvv' is present
+
+2023-02-23 21:21:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_MM")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is visible
+
+2023-02-23 21:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is visible
+
+2023-02-23 21:21:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_MM"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is present
+
+2023-02-23 21:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM' is present
+
+2023-02-23 21:21:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_YYYY")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is visible
+
+2023-02-23 21:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is visible
+
+2023-02-23 21:21:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_YYYY"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is present
+
+2023-02-23 21:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY' is present
+
+2023-02-23 21:21:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__address")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is visible
+
+2023-02-23 21:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is visible
+
+2023-02-23 21:21:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__address"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is present
+
+2023-02-23 21:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address' is present
+
+2023-02-23 21:21:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__address2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is visible
+
+2023-02-23 21:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is visible
+
+2023-02-23 21:21:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__address2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is present
+
+2023-02-23 21:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2' is present
+
+2023-02-23 21:21:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_Country")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is visible
+
+2023-02-23 21:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is visible
+
+2023-02-23 21:21:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_Country"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is present
+
+2023-02-23 21:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_Country' is present
+
+2023-02-23 21:21:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__zip")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is visible
+
+2023-02-23 21:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is visible
+
+2023-02-23 21:21:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__zip"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is present
+
+2023-02-23 21:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip' is present
+
+2023-02-23 21:21:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input__city")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is visible
+
+2023-02-23 21:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is visible
+
+2023-02-23 21:21:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input__city"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is present
+
+2023-02-23 21:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__city' is present
+
+2023-02-23 21:21:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_State")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is visible
+
+2023-02-23 21:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is visible
+
+2023-02-23 21:21:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_State"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is present
+
+2023-02-23 21:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_State' is present
+
+2023-02-23 21:21:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_emailAddress")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is visible
+
+2023-02-23 21:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is visible
+
+2023-02-23 21:21:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_emailAddress"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is present
+
+2023-02-23 21:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress' is present
+
+2023-02-23 21:21:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_smsNumber")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is visible
+
+2023-02-23 21:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is visible
+
+2023-02-23 21:21:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_smsNumber"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is present
+
+2023-02-23 21:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber' is present
+
+2023-02-23 21:21:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_amount")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is visible
+
+2023-02-23 21:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is visible
+
+2023-02-23 21:21:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_amount"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is present
+
+2023-02-23 21:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount' is present
+
+2023-02-23 21:21:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_convenienceFee")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is visible
+
+2023-02-23 21:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is visible
+
+2023-02-23 21:21:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_convenienceFee"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is present
+
+2023-02-23 21:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFee' is present
+
+2023-02-23 21:21:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_convenienceFeeType")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is visible
+
+2023-02-23 21:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is visible
+
+2023-02-23 21:21:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_convenienceFeeType"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is present
+
+2023-02-23 21:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_convenienceFeeType' is present
+
+2023-02-23 21:21:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_totalAmount")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is visible
+
+2023-02-23 21:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is visible
+
+2023-02-23 21:21:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_totalAmount"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is present
+
+2023-02-23 21:21:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_totalAmount' is present
+
+2023-02-23 21:21:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined1")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is visible
+
+2023-02-23 21:21:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is visible
+
+2023-02-23 21:21:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined1"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is present
+
+2023-02-23 21:21:54 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1' is present
+
+2023-02-23 21:21:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined2")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is visible
+
+2023-02-23 21:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is visible
+
+2023-02-23 21:21:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined2"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is present
+
+2023-02-23 21:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2' is present
+
+2023-02-23 21:21:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined3")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is visible
+
+2023-02-23 21:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is visible
+
+2023-02-23 21:21:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined3"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is present
+
+2023-02-23 21:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3' is present
+
+2023-02-23 21:21:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined4")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is visible
+
+2023-02-23 21:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is visible
+
+2023-02-23 21:21:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined4"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is present
+
+2023-02-23 21:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4' is present
+
+2023-02-23 21:21:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_UDF5_DropDown")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown' is visible
+
+2023-02-23 21:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown' is visible
+
+2023-02-23 21:21:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_UDF5_DropDown"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown' is present
+
+2023-02-23 21:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown' is present
+
+2023-02-23 21:21:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "select_UDF6_DropDown")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown' is visible
+
+2023-02-23 21:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown' is visible
+
+2023-02-23 21:21:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "select_UDF6_DropDown"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown' is present
+
+2023-02-23 21:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown' is present
+
+2023-02-23 21:21:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined7")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is visible
+
+2023-02-23 21:21:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is visible
+
+2023-02-23 21:21:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined7"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is present
+
+2023-02-23 21:21:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7' is present
+
+2023-02-23 21:21:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined8")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is visible
+
+2023-02-23 21:21:58 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is visible
+
+2023-02-23 21:21:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined8"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is present
+
+2023-02-23 21:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8' is present
+
+2023-02-23 21:21:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined9")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is visible
+
+2023-02-23 21:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is visible
+
+2023-02-23 21:21:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined9"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is present
+
+2023-02-23 21:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9' is present
+
+2023-02-23 21:21:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "input_userDefined10")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is visible
+
+2023-02-23 21:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is visible
+
+2023-02-23 21:21:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "input_userDefined10"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is present
+
+2023-02-23 21:22:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10' is present
+
+2023-02-23 21:22:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "button_Submit")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is visible
+
+2023-02-23 21:22:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is visible
+
+2023-02-23 21:22:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SaleKB + "button_Submit"), 30): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is present
+
+2023-02-23 21:22:00 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is present
+
+2023-02-23 21:22:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject(path_SaleKB + "button_Reset")): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is visible
+
+2023-02-23 21:22:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-23 21:22:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset'. Try using Self-healing.
+
+2023-02-23 21:22:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' was broken. Propose an alternative one: '//button[@id='reset']'.
+
+2023-02-23 21:22:32 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' is visible
+
+2023-02-23 21:22:32 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject(path_SaleKB + "button_Reset"), 30): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+)
+
+2023-02-23 21:23:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-23 21:23:03 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+)
+[[ATTACHMENT|E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20230223_211915\\QA\\VT-Bootstrap\\AdminSuiteBootstrap_UI_TestSuite\\20230223_211915\\1677205383608.png]]]]></system-out>
+         <system-err><![CDATA[2023-02-23 21:21:29 - [TEST_CASE][FAILED] - Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/VerifySearchTransactions_UI_TC" time="24.675" classname="Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/VerifySearchTransactions_UI_TC" status="PASSED">
+         <system-out><![CDATA[2023-02-23 21:23:03 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/VerifySearchTransactions_UI_TC: Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/VerifySearchTransactions_UI_TC
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - path_TestMinus = "Object Repository/Page_TestMinusAndAtSigns/": null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - path_Receipt = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/": null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - path_CCSearch = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/": null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - path_SearchResults = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/": null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - path_TranxDetails = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/": null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:04 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/Bootstrap/VT-SearchTransactions-TestData/VT-SearchTransactions").getRowNumbers(): null
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - dataFile = "QA/Bootstrap/VT-SearchTransactions-TestData/VT-SearchTransactions": null
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/button_Submit' is present
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:05 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:23:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-23 21:23:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-23 21:23:06 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-02-23 21:23:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-23 21:23:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2023-02-23 21:23:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-23 21:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2023-02-23 21:23:10 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2023-02-23 21:23:10 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2023-02-23 21:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2023-02-23 21:23:15 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:23:15 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + appName)): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2023-02-23 21:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2023-02-23 21:23:15 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "a_Search Transactions")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions' is clicked on
+
+2023-02-23 21:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions' is clicked on
+
+2023-02-23 21:23:16 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction Search", true): Text 'Transaction Search' is present on page  using regular expression
+
+2023-02-23 21:23:17 - [MESSAGE][PASSED] - Text 'Transaction Search' is present on page  using regular expression
+
+2023-02-23 21:23:17 - [TEST_STEP][PASSED] - verifyTextPresent("Select the search date range, not to exceed 30 days", true): Text 'Select the search date range, not to exceed 30 days' is present on page  using regular expression
+
+2023-02-23 21:23:17 - [MESSAGE][PASSED] - Text 'Select the search date range, not to exceed 30 days' is present on page  using regular expression
+
+2023-02-23 21:23:17 - [TEST_STEP][PASSED] - verifyTextPresent("Time Zone : Eastern Standard Time", true): Text 'Time Zone : Eastern Standard Time' is present on page  using regular expression
+
+2023-02-23 21:23:18 - [MESSAGE][PASSED] - Text 'Time Zone : Eastern Standard Time' is present on page  using regular expression
+
+2023-02-23 21:23:18 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Card Transactions", true): Text 'Credit Card Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:18 - [MESSAGE][PASSED] - Text 'Credit Card Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:18 - [TEST_STEP][PASSED] - verifyTextPresent("On-Line Check Transactions", true): Text 'On-Line Check Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:18 - [MESSAGE][PASSED] - Text 'On-Line Check Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:18 - [TEST_STEP][PASSED] - verifyTextPresent("Pinless Debit Transactions", true): Text 'Pinless Debit Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:18 - [MESSAGE][PASSED] - Text 'Pinless Debit Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:18 - [TEST_STEP][PASSED] - verifyTextPresent("Show Only Successful Transactions", true): Text 'Show Only Successful Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:19 - [MESSAGE][PASSED] - Text 'Show Only Successful Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:19 - [TEST_STEP][PASSED] - verifyTextPresent("Show Only Failure Transactions", true): Text 'Show Only Failure Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:19 - [MESSAGE][PASSED] - Text 'Show Only Failure Transactions' is present on page  using regular expression
+
+2023-02-23 21:23:19 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(path_CCSearch + "select_SearchBy"), ["Remittance ID", "Payment ID", "CC last 4 digit", "ACH last 4 digit"]): Options [Remittance ID, Payment ID, CC last 4 digit, ACH last 4 digit] present.
+
+2023-02-23 21:23:20 - [MESSAGE][PASSED] - Options [Remittance ID, Payment ID, CC last 4 digit, ACH last 4 digit] present.
+
+2023-02-23 21:23:20 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(path_CCSearch + "select_SearchBy"), ["Email Address", "Amount", "Payer Name", "Client Account Number"]): Options [Email Address, Amount, Payer Name, Client Account Number] present.
+
+2023-02-23 21:23:21 - [MESSAGE][PASSED] - Options [Email Address, Amount, Payer Name, Client Account Number] present.
+
+2023-02-23 21:23:21 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(path_CCSearch + "select_SearchBy"), ["UDF Label: UDF1", "UDF Label: UDF2", "UDF Label: UDF3", "UDF Label: UDF4", "UDF Label: UDF5"]): Options [UDF Label: UDF1, UDF Label: UDF2, UDF Label: UDF3, UDF Label: UDF4, UDF Label: UDF5] present.
+
+2023-02-23 21:23:21 - [MESSAGE][PASSED] - Options [UDF Label: UDF1, UDF Label: UDF2, UDF Label: UDF3, UDF Label: UDF4, UDF Label: UDF5] present.
+
+2023-02-23 21:23:21 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject(path_CCSearch + "select_SearchBy"), ["UDF Label: UDF6", "UDF Label: UDF7", "UDF Label: UDF8", "UDF Label: UDF9", "UDF Label: UDF 10"]): Options [UDF Label: UDF6, UDF Label: UDF7, UDF Label: UDF8, UDF Label: UDF9, UDF Label: UDF 10] present.
+
+2023-02-23 21:23:22 - [MESSAGE][PASSED] - Options [UDF Label: UDF6, UDF Label: UDF7, UDF Label: UDF8, UDF Label: UDF9, UDF Label: UDF 10] present.
+
+2023-02-23 21:23:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "input_Search By_searchValue"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_Search By_searchValue' is present
+
+2023-02-23 21:23:22 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_Search By_searchValue' is present
+
+2023-02-23 21:23:22 - [TEST_STEP][PASSED] - verifyTextPresent("Advanced Search", true): Text 'Advanced Search' is present on page  using regular expression
+
+2023-02-23 21:23:23 - [MESSAGE][PASSED] - Text 'Advanced Search' is present on page  using regular expression
+
+2023-02-23 21:23:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "input_Search Value_wildcard"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_Search Value_wildcard' is present
+
+2023-02-23 21:23:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_Search Value_wildcard' is present
+
+2023-02-23 21:23:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "input_StartCalendar"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_StartCalendar' is present
+
+2023-02-23 21:23:23 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_StartCalendar' is present
+
+2023-02-23 21:23:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "input_EndCalendar"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_EndCalendar' is present
+
+2023-02-23 21:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_EndCalendar' is present
+
+2023-02-23 21:23:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_TransType"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_TransType' is present
+
+2023-02-23 21:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_TransType' is present
+
+2023-02-23 21:23:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Credit_CC"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Credit_CC' is present
+
+2023-02-23 21:23:24 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Credit_CC' is present
+
+2023-02-23 21:23:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Capture (Sale)"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Capture (Sale)' is present
+
+2023-02-23 21:23:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Capture (Sale)' is present
+
+2023-02-23 21:23:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Void_CC"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Void_CC' is present
+
+2023-02-23 21:23:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Void_CC' is present
+
+2023-02-23 21:23:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Authorization"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Authorization' is present
+
+2023-02-23 21:23:25 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Authorization' is present
+
+2023-02-23 21:23:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Manual Authorization"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Manual Authorization' is present
+
+2023-02-23 21:23:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Manual Authorization' is present
+
+2023-02-23 21:23:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Debit"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Debit' is present
+
+2023-02-23 21:23:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Debit' is present
+
+2023-02-23 21:23:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Credit_ACH"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Credit_ACH' is present
+
+2023-02-23 21:23:26 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Credit_ACH' is present
+
+2023-02-23 21:23:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Void_ACH"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Void_ACH' is present
+
+2023-02-23 21:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Void_ACH' is present
+
+2023-02-23 21:23:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Pinless Debit"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Pinless Debit' is present
+
+2023-02-23 21:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Pinless Debit' is present
+
+2023-02-23 21:23:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "option_Pinless Credit"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Pinless Credit' is present
+
+2023-02-23 21:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/option_Pinless Credit' is present
+
+2023-02-23 21:23:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "input_ShowOnlySuccessfulTransactions"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_ShowOnlySuccessfulTransactions' is present
+
+2023-02-23 21:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_ShowOnlySuccessfulTransactions' is present
+
+2023-02-23 21:23:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "input_ShowOnlyFailureTransactions"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_ShowOnlyFailureTransactions' is present
+
+2023-02-23 21:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_ShowOnlyFailureTransactions' is present
+
+2023-02-23 21:23:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_CCSearch + "button_Submit"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/button_Submit' is present
+
+2023-02-23 21:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/button_Submit' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/Sale_SearchTransaction_Generic_TC" time="51.836" classname="Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/Sale_SearchTransaction_Generic_TC" status="PASSED">
+         <system-out><![CDATA[2023-02-23 21:23:28 - [TEST_CASE][PASSED] - Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/Sale_SearchTransaction_Generic_TC: Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/Sale_SearchTransaction_Generic_TC
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - path_TestMinus = "Object Repository/Page_TestMinusAndAtSigns/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - path_Receipt = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - path_CCSearch = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - path_SearchResults = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - path_TranxDetails = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - li_1 = vpos_Prefix: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - li_2 = "/transactions/AuthCapForm/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - executionProfile = getExecutionProfile(): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - out.println("executionProfile : " + executionProfile): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - resText = "Fail": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - resColumn = "Result": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - datCloumn = "Date": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - fileLoc = "C:\KatalonData\Bootstrap\VT-Misc-Data.xlsx": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - nameSheet = "SaleSearchTransactions": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - numOfRows = findTestData("QA/Bootstrap/VT-SearchTransactions-TestData/VT-SaleSearchTransactions").getRowNumbers(): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - println("Number of Records: " + numOfRows): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - dataFile = "QA/Bootstrap/VT-SearchTransactions-TestData/VT-SaleSearchTransactions": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - for ([row = 1, row <= numOfRows, (row++)]): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:29 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:30 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:31 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): Browser is closed
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - out.println("Begin Record Number: " + row): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - println(today): null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - datText = today: null
+
+2023-02-23 21:23:32 - [TEST_STEP][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite(): adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:23:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-23 21:23:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-23 21:23:33 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-02-23 21:23:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-23 21:23:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.velocitypayment.com/admin/imtiaz'
+
+2023-02-23 21:23:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-23 21:23:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Login_Username' is present
+
+2023-02-23 21:23:37 - [MESSAGE][PASSED] - Text 'iahmed' is set on object 'Object Repository/Login_Page/Login_Username'
+
+2023-02-23 21:23:37 - [MESSAGE][PASSED] - Text 'hello2222' is set on object 'Object Repository/Login_Page/Login_Password'
+
+2023-02-23 21:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Login_Submit' is clicked on
+
+2023-02-23 21:23:40 - [MESSAGE][PASSED] - adminSuiteBootstrap.loginFunctionality.login_AdminSuite is PASSED
+
+2023-02-23 21:23:40 - [TEST_STEP][PASSED] - click(findTestObject(path_Dashboard + appName)): Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2023-02-23 21:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp' is clicked on
+
+2023-02-23 21:23:41 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "button_Authorization  Capture (Sale)")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2023-02-23 21:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)' is clicked on
+
+2023-02-23 21:23:42 - [TEST_STEP][PASSED] - saleKeyboardEntryLink = modifyObjectProperty(findTestObject(path_VT + "a_KeyboardEntry_Sale"), "href", "equals", hrefAppID, true): Modify property of object successfully
+
+2023-02-23 21:23:42 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2023-02-23 21:23:42 - [TEST_STEP][PASSED] - click(saleKeyboardEntryLink): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2023-02-23 21:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale' is clicked on
+
+2023-02-23 21:23:43 - [TEST_STEP][PASSED] - adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven(row, dataFile): adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven is PASSED
+
+2023-02-23 21:23:45 - [MESSAGE][PASSED] - Text 'Mithun Chakravarthy' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_cardName'
+
+2023-02-23 21:23:46 - [MESSAGE][PASSED] - All options with value 'MOTO' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_transactionCategory'  using regular expression
+
+2023-02-23 21:23:46 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value ='6011000993026909' ' successfully
+
+2023-02-23 21:23:47 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].value ='123' ' successfully
+
+2023-02-23 21:23:48 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_MM'  using regular expression
+
+2023-02-23 21:23:49 - [MESSAGE][PASSED] - All options with value '2025' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_YYYY'  using regular expression
+
+2023-02-23 21:23:50 - [MESSAGE][PASSED] - Text '6565 Jhilmil Palace' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address'
+
+2023-02-23 21:23:50 - [MESSAGE][PASSED] - Text 'Suite 500' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__address2'
+
+2023-02-23 21:23:51 - [MESSAGE][PASSED] - Text '21093' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input__zip'
+
+2023-02-23 21:23:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_emailAddress'
+
+2023-02-23 21:23:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_smsNumber'
+
+2023-02-23 21:23:53 - [MESSAGE][PASSED] - Text '10.50' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_amount'
+
+2023-02-23 21:23:54 - [MESSAGE][PASSED] - Text 'Yaad aa raha hai' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined1'
+
+2023-02-23 21:23:54 - [MESSAGE][PASSED] - Text 'Tera Pyar' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined2'
+
+2023-02-23 21:23:55 - [MESSAGE][PASSED] - Text 'Yaron Main to' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined3'
+
+2023-02-23 21:23:56 - [MESSAGE][PASSED] - Text 'Yahan Jeeta raha' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined4'
+
+2023-02-23 21:23:57 - [MESSAGE][PASSED] - All options with label 'Orange' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF5_DropDown'  using regular expression
+
+2023-02-23 21:23:57 - [MESSAGE][PASSED] - All options with label 'Yellow' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/select_UDF6_DropDown'  using regular expression
+
+2023-02-23 21:23:58 - [MESSAGE][PASSED] - Text 'Saare Ghum' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined7'
+
+2023-02-23 21:23:59 - [MESSAGE][PASSED] - Text 'Apne Bhula ke' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined8'
+
+2023-02-23 21:23:59 - [MESSAGE][PASSED] - Text 'Yaad aa raha hai' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined9'
+
+2023-02-23 21:24:00 - [MESSAGE][PASSED] - Text 'Tera Pyar' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/input_userDefined10'
+
+2023-02-23 21:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit' is clicked on
+
+2023-02-23 21:24:01 - [MESSAGE][PASSED] - adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven is PASSED
+
+2023-02-23 21:24:01 - [TEST_STEP][PASSED] - if (verifyTextPresent("Transaction Successful", true)): null
+
+2023-02-23 21:24:02 - [MESSAGE][PASSED] - Text 'Transaction Successful' is present on page  using regular expression
+
+2023-02-23 21:24:02 - [TEST_STEP][PASSED] - sdf = getText(findTestObject(path_Receipt + "td_AutoNoC031622113752957Ahm")): Text of object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/td_AutoNoC031622113752957Ahm' is: 'AutoNoC022323211910788Ahm'
+
+2023-02-23 21:24:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/td_AutoNoC031622113752957Ahm' is: 'AutoNoC022323211910788Ahm'
+
+2023-02-23 21:24:02 - [TEST_STEP][PASSED] - out.println("sdf: " + sdf): null
+
+2023-02-23 21:24:02 - [TEST_STEP][PASSED] - remID = sdf: null
+
+2023-02-23 21:24:02 - [TEST_STEP][PASSED] - out.println("remID: " + remID): null
+
+2023-02-23 21:24:02 - [TEST_STEP][PASSED] - click(findTestObject(path_Receipt + "button_Continue")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue' is clicked on
+
+2023-02-23 21:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue' is clicked on
+
+2023-02-23 21:24:03 - [TEST_STEP][PASSED] - click(findTestObject(path_VT + "a_Search Transactions")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions' is clicked on
+
+2023-02-23 21:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_Search Transactions' is clicked on
+
+2023-02-23 21:24:04 - [TEST_STEP][PASSED] - setText(findTestObject(path_CCSearch + "input_Search By_searchValue"), remID): Text 'AutoNoC022323211910788Ahm' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_Search By_searchValue'
+
+2023-02-23 21:24:05 - [MESSAGE][PASSED] - Text 'AutoNoC022323211910788Ahm' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_Search By_searchValue'
+
+2023-02-23 21:24:05 - [TEST_STEP][PASSED] - click(findTestObject(path_CCSearch + "button_Submit")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/button_Submit' is clicked on
+
+2023-02-23 21:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/button_Submit' is clicked on
+
+2023-02-23 21:24:06 - [TEST_STEP][PASSED] - fgr = getText(findTestObject(path_SearchResults + "div_Payment ID")): Text of object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/div_Payment ID' is: 'Payment ID
+Payment Type
+Transaction Type
+Remittance ID
+Name
+Total Amount
+End Date
+Status
+12127481 Credit Card Authorization and Capture AutoNoC022323211910788Ahm Mithun Chakravarthy $10.50 02/23/2023 Success'
+
+2023-02-23 21:24:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/div_Payment ID' is: 'Payment ID
+Payment Type
+Transaction Type
+Remittance ID
+Name
+Total Amount
+End Date
+Status
+12127481 Credit Card Authorization and Capture AutoNoC022323211910788Ahm Mithun Chakravarthy $10.50 02/23/2023 Success'
+
+2023-02-23 21:24:06 - [TEST_STEP][PASSED] - payID = substring(89, 98).trim(): null
+
+2023-02-23 21:24:06 - [TEST_STEP][PASSED] - out.println("payID: " + payID): null
+
+2023-02-23 21:24:06 - [TEST_STEP][PASSED] - click(findTestObject(path_SearchResults + "button_Modify Search Criteria")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_Modify Search Criteria' is clicked on
+
+2023-02-23 21:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_Modify Search Criteria' is clicked on
+
+2023-02-23 21:24:07 - [TEST_STEP][PASSED] - adminSuiteBootstrap.searchTransactions.searchTransactions_DataDriven(row, dataFile, remID, payID): adminSuiteBootstrap.searchTransactions.searchTransactions_DataDriven is PASSED
+
+2023-02-23 21:24:08 - [MESSAGE][PASSED] - All options with label 'UDF Label: UDF5' are selected in object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/select_SearchBy' 
+
+2023-02-23 21:24:08 - [MESSAGE][PASSED] - Text 'Orange Recorded' is set on object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/input_Search By_searchValue'
+
+2023-02-23 21:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/button_Submit' is clicked on
+
+2023-02-23 21:24:09 - [MESSAGE][PASSED] - adminSuiteBootstrap.searchTransactions.searchTransactions_DataDriven is PASSED
+
+2023-02-23 21:24:09 - [TEST_STEP][PASSED] - verifyTextPresent("Transactions Matching Search Criteria", true): Text 'Transactions Matching Search Criteria' is present on page  using regular expression
+
+2023-02-23 21:24:09 - [MESSAGE][PASSED] - Text 'Transactions Matching Search Criteria' is present on page  using regular expression
+
+2023-02-23 21:24:09 - [TEST_STEP][PASSED] - verifyTextPresent("Payment ID", true): Text 'Payment ID' is present on page  using regular expression
+
+2023-02-23 21:24:10 - [MESSAGE][PASSED] - Text 'Payment ID' is present on page  using regular expression
+
+2023-02-23 21:24:10 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Type", true): Text 'Payment Type' is present on page  using regular expression
+
+2023-02-23 21:24:10 - [MESSAGE][PASSED] - Text 'Payment Type' is present on page  using regular expression
+
+2023-02-23 21:24:10 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction Type", true): Text 'Transaction Type' is present on page  using regular expression
+
+2023-02-23 21:24:10 - [MESSAGE][PASSED] - Text 'Transaction Type' is present on page  using regular expression
+
+2023-02-23 21:24:10 - [TEST_STEP][PASSED] - verifyTextPresent("Remittance ID", true): Text 'Remittance ID' is present on page  using regular expression
+
+2023-02-23 21:24:11 - [MESSAGE][PASSED] - Text 'Remittance ID' is present on page  using regular expression
+
+2023-02-23 21:24:11 - [TEST_STEP][PASSED] - verifyTextPresent("Name", true): Text 'Name' is present on page  using regular expression
+
+2023-02-23 21:24:11 - [MESSAGE][PASSED] - Text 'Name' is present on page  using regular expression
+
+2023-02-23 21:24:11 - [TEST_STEP][PASSED] - verifyTextPresent("Total Amount", true): Text 'Total Amount' is present on page  using regular expression
+
+2023-02-23 21:24:11 - [MESSAGE][PASSED] - Text 'Total Amount' is present on page  using regular expression
+
+2023-02-23 21:24:11 - [TEST_STEP][PASSED] - verifyTextPresent("End Date", true): Text 'End Date' is present on page  using regular expression
+
+2023-02-23 21:24:12 - [MESSAGE][PASSED] - Text 'End Date' is present on page  using regular expression
+
+2023-02-23 21:24:12 - [TEST_STEP][PASSED] - verifyTextPresent("Status", true): Text 'Status' is present on page  using regular expression
+
+2023-02-23 21:24:12 - [MESSAGE][PASSED] - Text 'Status' is present on page  using regular expression
+
+2023-02-23 21:24:12 - [TEST_STEP][PASSED] - verifyTextPresent("Credit Card", true): Text 'Credit Card' is present on page  using regular expression
+
+2023-02-23 21:24:12 - [MESSAGE][PASSED] - Text 'Credit Card' is present on page  using regular expression
+
+2023-02-23 21:24:12 - [TEST_STEP][PASSED] - verifyTextPresent("Authorization and Capture", true): Text 'Authorization and Capture' is present on page  using regular expression
+
+2023-02-23 21:24:13 - [MESSAGE][PASSED] - Text 'Authorization and Capture' is present on page  using regular expression
+
+2023-02-23 21:24:13 - [TEST_STEP][PASSED] - verifyTextPresent("Mithun Chakravarthy", true): Text 'Mithun Chakravarthy' is present on page  using regular expression
+
+2023-02-23 21:24:13 - [MESSAGE][PASSED] - Text 'Mithun Chakravarthy' is present on page  using regular expression
+
+2023-02-23 21:24:13 - [TEST_STEP][PASSED] - verifyTextPresent("Success", true): Text 'Success' is present on page  using regular expression
+
+2023-02-23 21:24:13 - [MESSAGE][PASSED] - Text 'Success' is present on page  using regular expression
+
+2023-02-23 21:24:13 - [TEST_STEP][PASSED] - verifyTextPresent(remID, true): Text 'AutoNoC022323211910788Ahm' is present on page  using regular expression
+
+2023-02-23 21:24:14 - [MESSAGE][PASSED] - Text 'AutoNoC022323211910788Ahm' is present on page  using regular expression
+
+2023-02-23 21:24:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(path_SearchResults + "button_PaymentID"), 10): Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID' is present
+
+2023-02-23 21:24:14 - [MESSAGE][PASSED] - Object 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID' is present
+
+2023-02-23 21:24:14 - [TEST_STEP][PASSED] - click(findTestObject(path_SearchResults + "button_PaymentID")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID' is clicked on
+
+2023-02-23 21:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID' is clicked on
+
+2023-02-23 21:24:15 - [TEST_STEP][PASSED] - click(findTestObject(path_TranxDetails + "a_Void this transaction")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/a_Void this transaction' is clicked on
+
+2023-02-23 21:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/a_Void this transaction' is clicked on
+
+2023-02-23 21:24:16 - [TEST_STEP][PASSED] - click(findTestObject(path_TranxDetails + "button_Submit")): Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/button_Submit' is clicked on
+
+2023-02-23 21:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/button_Submit' is clicked on
+
+2023-02-23 21:24:18 - [TEST_STEP][PASSED] - verifyTextPresent("Transaction Successful", true): Text 'Transaction Successful' is present on page  using regular expression
+
+2023-02-23 21:24:18 - [MESSAGE][PASSED] - Text 'Transaction Successful' is present on page  using regular expression
+
+2023-02-23 21:24:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-23 21:24:19 - [MESSAGE][PASSED] - Browser is closed
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:24:19 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - ExecuteTC = findTestData(dataFile).getValue("Execute", row): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - out.println("Value of Execute is : " + ExecuteTC): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - switch (executionProfile): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - case "QAProfile":: null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - appName = findTestData(dataFile).getValue("AppNameQA", row): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - appID = findTestData(dataFile).getValue("AppIDQA", row): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - break: null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - hrefAppID = li_1 + appID + li_2: null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - hrefApp = li_1 + appID + "/": null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - println("hrefApp : " + hrefApp): null
+
+2023-02-23 21:24:20 - [TEST_STEP][PASSED] - if (ExecuteTC.equalsIgnoreCase("Y")): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-23 21:19:21 - [TEST_SUITE][FAILED] - AdminSuiteBootstrap_UI_TestSuite: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2023-02-23 21:19:21 - [TEST_SUITE][FAILED] - AdminSuiteBootstrap_UI_TestSuite: Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyAuthOnlyKeyboard_UI_1_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at VerifyAuthOnlyKeyboard_UI_1_TC.run(VerifyAuthOnlyKeyboard_UI_1_TC:141)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1677205155053.run(TempTestSuite1677205155053.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Reset' located by '//*[@type = 'reset' and @name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]' not found
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>
