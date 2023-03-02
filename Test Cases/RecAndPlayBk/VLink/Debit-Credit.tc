@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>QA, QA2 and Demo</description>
+   <description>QA, QA2 and Demo and Demo2</description>
    <name>Debit-Credit</name>
    <tag></tag>
    <comment></comment>

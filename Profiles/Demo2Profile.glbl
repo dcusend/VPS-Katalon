@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Demo2Profile</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-algorithm.govolution.com/vlinktest/demo2/version_2_0/'</initValue>
+      <name>VLinkURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'979'</initValue>
+      <name>VLinkSaleTranxID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'979'</initValue>
+      <name>VLinkSaleRemID</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

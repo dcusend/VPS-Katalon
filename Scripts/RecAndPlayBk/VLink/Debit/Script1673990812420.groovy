@@ -67,6 +67,12 @@ def numOfRows, dataFile, nameSheet
 						password = findTestData(dataFile).getValue('PasswordDemo', row)
 				break
 				
+				case "Demo2Profile":
+						appID = findTestData(dataFile).getValue('AppIDDemo', row)
+						username = findTestData(dataFile).getValue('UsernameDemo', row)
+						password = findTestData(dataFile).getValue('PasswordDemo', row)
+				break
+				
 				/*
 				 * case "Production": appName = findTestData(dataFile).getValue('AppNameProd',
 				 * row) appID = findTestData(dataFile).getValue('AppIDProd', row) break

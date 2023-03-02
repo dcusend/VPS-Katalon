@@ -26,55 +26,55 @@
    <testCaseLink>
       <guid>a1321e1c-dcb2-4989-a817-bd4d42e4d821</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/AuthCaptureRemIDPipe</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5528ab22-3746-4bda-a363-f54a66dfd52c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/EncryptedRemIDPipe</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>87361c38-ddcc-4068-b21b-02389a94850c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/IncorrectPassword</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6abf2e1b-dd12-497e-b87a-fa2953c7ceab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/IncorrectUsername</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>93b7c659-dd7e-48ca-ac88-be47bb4b7174</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/IncorrectUsernameAndPassword</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5e9afa52-1757-47b2-a853-a9a97931ff27</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/MissingUsernameAndPassword</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>98912e29-1224-406c-9721-db6b261d51c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/SaleCreditRemIDPipe</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>37fa2ca4-a6e0-4fff-9c8c-d2533c2233b8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/UnencryptedRemIDPipe</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>953379ba-64ee-4162-abb4-4db0bb4ff3f4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/VLink/Imported-SelIDE/VLinkXMLTests/SaleVoidRemIDPipe</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -134,37 +134,37 @@
    <testCaseLink>
       <guid>73f502fc-c790-4f57-97df-6466264695ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Sale-Encrypted</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>945491a8-f768-4562-a71b-edc88c4b2fbb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Sale-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eabe435c-7b70-4e2b-b063-cb684a9739c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Auth-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0558e4de-c2b2-4457-8b5a-0858af4dcc1b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Cap-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4526dc00-02c9-4e71-abcf-f411ac16a11e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Void-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>98774224-6746-4646-b186-ec43858bd0d2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Credit-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -200,19 +200,19 @@
    <testCaseLink>
       <guid>3360393b-23b7-4e4b-b49c-db19492d8c4d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Debit-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>708ad41c-a588-465c-be1a-3aa9ea53fed9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/ACH-Void-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8f47f3a4-c7ad-4f29-8cca-9b803d312264</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/ACH-Credit-MRF</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -236,13 +236,13 @@
    <testCaseLink>
       <guid>5ec4a1ac-0c74-48de-91eb-9db90d0dc052</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Auth-CardNotAccepted-Error</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>95479a73-efb7-4053-892a-7a08f4b21c03</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Sale-CardNotAccepted-Error</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
