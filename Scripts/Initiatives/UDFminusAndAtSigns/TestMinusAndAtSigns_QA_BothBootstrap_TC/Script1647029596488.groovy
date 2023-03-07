@@ -97,7 +97,7 @@ WebUI.selectOptionByValue(findTestObject('Page_TestMinusAndAtSigns/select_YYYY')
 WebUI.selectOptionByValue(findTestObject('Page_TestMinusAndAtSigns/select_TransactionCategory'), 
     'MOTO', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input__amount'), '10.00')
+WebUI.setText(findTestObject('Object Repository/Page_TestMinusAndAtSigns/input__amount'), '10.50')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_TestMinusAndAtSigns/select_Select One.-10203'), 'groupItem223', 
     true)
