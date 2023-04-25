@@ -1,0 +1,496 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA_Smoke_Test,Chrome 112.0.0.0,,,2023-04-25 14:00:47,2023-04-25 14:42:36,41m - 48.892s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/AuthOnly,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:00:48,2023-04-25 14:02:06,1m - 18.527s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.018s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.016s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.010s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+"nameSheet = ""Auth""",Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:48,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSmokeData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:00:48,2023-04-25 14:00:49,0.977s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:00:49,2023-04-25 14:00:49,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSmokeData""",Chrome 112.0.0.0,,,2023-04-25 14:00:49,2023-04-25 14:00:49,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:00:49,2023-04-25 14:02:06,1m - 16.835s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Auth-Capture,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:02:06,2023-04-25 14:04:01,1m - 54.689s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+"nameSheet = ""AuthCapture""",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkAuthCaptureData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.076s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkAuthCaptureData""",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:02:07,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:02:07,2023-04-25 14:04:01,1m - 54.060s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:04:01,2023-04-25 14:05:09,1m - 8.592s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.015s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"nameSheet = ""Sale""",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.071s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleData""",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:04:01,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:04:01,2023-04-25 14:05:09,1m - 7.979s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Void,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:05:09,2023-04-25 14:07:06,1m - 56.307s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"nameSheet = ""Sale-Void""",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleVoidData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.088s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleVoidData""",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:05:10,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:05:10,2023-04-25 14:07:06,1m - 55.713s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Credit,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:07:06,2023-04-25 14:09:18,2m - 12.094s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.001s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.001s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.001s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+"nameSheet = ""Sale-Credit""",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleCreditData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.081s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleCreditData""",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:07:06,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:07:06,2023-04-25 14:09:18,2m - 11.498s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Unencrypted,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:09:18,2023-04-25 14:09:59,41.711s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+trackData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"nameSheet = ""Sale-Unencrypted""",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleUnencryptedData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.084s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleUnencryptedData""",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:18,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:09:18,2023-04-25 14:09:59,41.172s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-ZeroDollar-Error,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:09:59,2023-04-25 14:11:01,1m - 1.821s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"nameSheet = ""Sale-ZeroDollar""",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleZeroDollar"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.085s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleZeroDollar""",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:10:00,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:10:00,2023-04-25 14:11:01,1m - 1.223s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Void-NoTranxID,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:11:01,2023-04-25 14:12:58,1m - 56.430s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"nameSheet = ""Sale-Void-NoTranxID""",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleVoidNoTranxID"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.085s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleVoidNoTranxID""",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:11:02,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:11:02,2023-04-25 14:12:58,1m - 55.882s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Credit-Void,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:12:58,2023-04-25 14:16:00,3m - 2.454s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.009s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.001s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.001s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+"nameSheet = ""Sale-Credit-Void""",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleCreditVoidData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.098s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleCreditVoidData""",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:12:58,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:12:58,2023-04-25 14:16:00,3m - 1.738s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Auth-Cap-Void,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:16:00,2023-04-25 14:18:42,2m - 41.729s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.001s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.001s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+"nameSheet = ""Auth-Cap-Void""",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkAuthCapVoidData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.106s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkAuthCapVoidData""",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:16:01,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:16:01,2023-04-25 14:18:42,2m - 40.979s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Auth-Cap-Credit,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:18:42,2023-04-25 14:21:33,2m - 51.433s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"nameSheet = ""Auth-Cap-Credit""",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkAuthCapCreditData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.104s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkAuthCapCreditData""",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:18:43,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:18:43,2023-04-25 14:21:33,2m - 50.726s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Sale-Encrypted,Chrome 112.0.0.0,"QA, QA2 and Demo",,2023-04-25 14:21:33,2023-04-25 14:22:12,38.454s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+trackData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+slot = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+ksn = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeData.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+"nameSheet = ""Sale-Encrypted""",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkSaleEncryptedData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.091s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkSaleEncryptedData""",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:21:34,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:21:34,2023-04-25 14:22:12,37.882s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:22:12,2023-04-25 14:23:53,1m - 40.824s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"nameSheet = ""Debit""",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.069s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitData""",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:22:12,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:22:12,2023-04-25 14:23:53,1m - 40.311s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-ZeroDollar-Error,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:23:53,2023-04-25 14:25:32,1m - 39.171s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"nameSheet = ""Debit-ZeroDollar""",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitZeroDollar"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.064s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitZeroDollar""",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:23:53,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:23:53,2023-04-25 14:25:32,1m - 38.622s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Void,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:25:32,2023-04-25 14:28:18,2m - 45.933s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"nameSheet = ""Debit-Void""",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitVoidData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.063s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitVoidData""",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:25:32,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:25:32,2023-04-25 14:28:18,2m - 45.394s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Credit,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:28:18,2023-04-25 14:31:13,2m - 55.265s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"nameSheet = ""Debit-Credit""",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitCreditData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.062s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitCreditData""",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:28:18,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:28:18,2023-04-25 14:31:13,2m - 54.710s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Credit-Void,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:31:13,2023-04-25 14:35:12,3m - 59.115s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+appName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+appID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+username = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+password = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+cardNameV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+al1V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+al2V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+zipV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+cardTypeV = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+last4V = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"nameSheet = ""Debit-Credit-Void""",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/DebitCreditVoidData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.078s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/DebitCreditVoidData""",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:31:14,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:31:14,2023-04-25 14:35:12,3m - 58.447s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Credit-RemID-Pipe,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:35:12,2023-04-25 14:38:08,2m - 56.230s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"nameSheet = ""DebitCredit-RemID-Pipe""",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitCreditRemIDPipeData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.053s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitCreditRemIDPipeData""",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:35:13,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:35:13,2023-04-25 14:38:08,2m - 55.656s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-RemID-Pipe,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:38:08,2023-04-25 14:39:48,1m - 39.701s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"nameSheet = ""Debit-RemID-Pipe""",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitRemIDPipeData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.053s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitRemIDPipeData""",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:38:09,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:38:09,2023-04-25 14:39:48,1m - 39.186s,PASSED
+,,,,,,,
+Test Cases/RecAndPlayBk/VLink/Debit-Void-RemID-Pipe,Chrome 112.0.0.0,"QA, QA2 and Demo and Demo2",,2023-04-25 14:39:48,2023-04-25 14:42:36,2m - 47.844s,PASSED
+executionProfile = getExecutionProfile(),Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"out.println(""executionProfile : "" + executionProfile)",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"resText = ""Fail""",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"resColumn = ""Result""",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"fileLoc = ""KatalonData/VLinkSmokeDataACH.xlsx""",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"nameSheet = ""DebitVoid-RemID-Pipe""",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"numOfRows = findTestData(""QA/VLinkTestData/VLinkDebitVoidRemIDPipeData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.053s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"dataFile = ""QA/VLinkTestData/VLinkDebitVoidRemIDPipeData""",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:39:49,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 112.0.0.0,,,2023-04-25 14:39:49,2023-04-25 14:42:36,2m - 47.349s,PASSED

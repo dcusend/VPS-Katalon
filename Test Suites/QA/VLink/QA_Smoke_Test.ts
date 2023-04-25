@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>73f502fc-c790-4f57-97df-6466264695ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RecAndPlayBk/VLink/Sale-Encrypted</testCaseId>
    </testCaseLink>
    <testCaseLink>
