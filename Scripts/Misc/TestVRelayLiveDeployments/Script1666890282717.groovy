@@ -25,15 +25,18 @@ String resColumn = 'Result'
 String datCloumn = 'Date'
 
 //String fileLoc = "C:\\KatalonData\\VLinkCCTestData.xlsx"
-String fileLoc = 'KatalonData/vrelay_2022.xlsx'
+//String fileLoc = 'KatalonData/vrelay_2022.xlsx'
+String fileLoc = 'KatalonData/vrelay_2023.xlsx'
 
 String nameSheet = 'Sheet1'
 
-def numOfRows = findTestData('Misc/VRelayLiveAppsData').getRowNumbers()
+//def numOfRows = findTestData('Misc/VRelayLiveAppsData').getRowNumbers()
+def numOfRows = findTestData('Misc/VRelayLiveAppsData2023').getRowNumbers()
 
 println('Number of Records: ' + numOfRows)
 
-def dataFile = 'Misc/VRelayLiveAppsData'
+//def dataFile = 'Misc/VRelayLiveAppsData'
+def dataFile = 'Misc/VRelayLiveAppsData2023'
 
 // For each row in the spreadsheet, execute the given steps
 for (def row = 1; row <= numOfRows; row++) {
@@ -61,15 +64,17 @@ for (def row = 1; row <= numOfRows; row++) {
 
         WebUI.maximizeWindow()
 
-        String numWihoutDecimal = String.valueOf(appID).split('\\.')[0]
+       // String numWihoutDecimal = String.valueOf(appID).split('\\.')[0]
 
-        WebUI.setText(findTestObject('Object Repository/Misc/Page_VRelayLiveApps/input_application_id_application_id'), 
-            numWihoutDecimal)
+        //WebUI.setText(findTestObject('Object Repository/Misc/Page_VRelayLiveApps/input_application_id_application_id'), 
+        //    numWihoutDecimal)
 
-        println(numWihoutDecimal)
+        //println(numWihoutDecimal)
 
-        WebUI.setText(findTestObject('Object Repository/Misc/Page_VRelayLiveApps/input_message_version_message_version'), 
-            messageVersion)
+		WebUI.setText(findTestObject('Object Repository/Misc/Page_VRelayLiveApps/input_application_id_application_id'),appID)
+
+		
+		WebUI.setText(findTestObject('Object Repository/Misc/Page_VRelayLiveApps/input_message_version_message_version'), messageVersion)
 
         def genRemID = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 
