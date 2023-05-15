@@ -75,6 +75,11 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						 appID = findTestData(dataFile).getValue('AppIDQA', row)
 				break
 				
+				case "QA2Profile":
+					appName = findTestData(dataFile).getValue('AppNameQA', row)
+					appID = findTestData(dataFile).getValue('AppIDQA', row)
+				break
+				
 				case "DemoProfile":
 						appName = findTestData(dataFile).getValue('AppNameDemo', row)
 						appID = findTestData(dataFile).getValue('AppIDDemo', row)

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_CustomerDD</name>
+   <name>span_CustomerDD_Okta2</name>
    <tag></tag>
-   <elementGuidId>0056875e-f20d-44d5-90a3-c1586836edaf</elementGuidId>
+   <elementGuidId>e5a74d6a-b19b-4ecc-8afc-4cc753ea32a6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'select2-customer-select-container']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>span.select2-selection.select2-selection--single</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Imtiaz Ahmed [iahmed]'])[1]/following::span[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Imtiaz Ahmed [iahmed]'])[1]/preceding::span[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -53,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-expanded</name>
       <type>Main</type>
-      <value>false</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,6 +68,20 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>aria-owns</name>
+      <type>Main</type>
+      <value>select2-customer-select-results</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-activedescendant</name>
+      <type>Main</type>
+      <value>select2-customer-select-result-vtb9-/admin/imtiaz</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>imtiaz</value>
@@ -81,28 +91,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;app sidebar-mini  pace-done&quot;]/header[@class=&quot;app-header&quot;]/ul[@class=&quot;app-nav&quot;]/li[@class=&quot;app-search&quot;]/form[1]/span[@class=&quot;select2 select2-container select2-container--default&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>select2-customer-select-container</value>
+      <value>/html[1]/body[@class=&quot;app sidebar-mini&quot;]/header[@class=&quot;app-header&quot;]/ul[@class=&quot;app-nav&quot;]/li[1]/a[@class=&quot;app-nav__item&quot;]/form[1]/span[@class=&quot;select2 select2-container select2-container--default select2-container--below select2-container--open select2-container--focus&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Imtiaz Ahmed [iahmed]'])[1]/following::span[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Imtiaz Ahmed [iahmed]'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,5 +106,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'imtiaz' or . = 'imtiaz')]</value>
    </webElementXpaths>
 </WebElementEntity>

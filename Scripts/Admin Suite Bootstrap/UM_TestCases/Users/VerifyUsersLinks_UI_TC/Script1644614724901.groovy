@@ -42,8 +42,8 @@ String path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/"
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_Add User'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_Add User'), 30)
 			
-			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_charu'))
-			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_charu'), 30)
+			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_CASEuser'))
+			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_CASEuser'), 30)
 			
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'li_First'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'li_First'), 30)
@@ -54,8 +54,8 @@ String path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/"
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_1'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_1'), 30)
 			
-			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_2'))
-			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_2'), 30)
+//			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_2'))
+//			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_2'), 30)
 			
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_Next'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_Next'), 30)

@@ -56,7 +56,7 @@ for (def row = 1; row <= numOfRows; row++)
 				// Log into Admin Suite
 				CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_DD'(username_from,password_from)
 				
-				if (WebUI.verifyTextPresent('The information you have entered does not match our records. Please try again', true))
+				if (WebUI.verifyTextPresent('Unable to sign in', true))
 				{
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User was not able to login, Password is case sensitive","Pass")
 				}
