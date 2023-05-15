@@ -66,6 +66,11 @@ switch(executionProfile)
 			 appID = "742"
 	break
 	
+	case "QA2Profile":
+			appName = "a_Access AutoNoCFtp"
+			appID = "742"
+	break
+	
 	case "DemoProfile":
 			appName = "a_Access AutoNoCFtpDemo"
 			appID = "4249"
