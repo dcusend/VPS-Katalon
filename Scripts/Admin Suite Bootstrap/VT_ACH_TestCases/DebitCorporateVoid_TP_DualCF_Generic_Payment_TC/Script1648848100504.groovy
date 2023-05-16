@@ -80,6 +80,11 @@ def numOfRows, dataFile, nameSheet
 						 appID = findTestData(dataFile).getValue('AppIDQA', row)
 				break
 				
+				case "QA2Profile":
+						appName = findTestData(dataFile).getValue('AppNameQA', row)
+						appID = findTestData(dataFile).getValue('AppIDQA', row)
+				break
+				
 				case "DemoProfile":
 						appName = findTestData(dataFile).getValue('AppNameDemo', row)
 						appID = findTestData(dataFile).getValue('AppIDDemo', row)

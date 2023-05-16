@@ -72,12 +72,27 @@ def numOfRows, dataFile, nameSheet
 		
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
 			System.out.println('Value of Execute is : ' + ExecuteTC)
-			
-			
+	
+// Not sure if the Switch statement will work			
+					
+			switch(executionProfile)
+			{
+				case "QAProfile":
+						 appName = findTestData(dataFile).getValue('AppName', row)
+						 appID = findTestData(dataFile).getValue('AppID', row)
+				break
+				
+				case "QA2Profile":
+						appName = findTestData(dataFile).getValue('AppName', row)
+						appID = findTestData(dataFile).getValue('AppID', row)
+				break
+				
+
+			}
 
 			
-			appID = findTestData(dataFile).getValue('AppID', row)
-			appName = findTestData(dataFile).getValue('AppName', row)
+			//appID = findTestData(dataFile).getValue('AppID', row)
+			//appName = findTestData(dataFile).getValue('AppName', row)
 			
 			String hrefAppID = li_1 + appID + li_2
 			String hrefApp = li_1 + appID + "/"
