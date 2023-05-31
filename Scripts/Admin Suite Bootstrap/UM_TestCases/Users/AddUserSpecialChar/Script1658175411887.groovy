@@ -78,8 +78,8 @@ for (def row = 1; row <= numOfRows; row++)
 				WebUI.setText(findTestObject(path_AddUser + 'input_Username'), spUsername)
 				WebUI.setText(findTestObject(path_AddUser + 'input_FirstName'), 'Ashley')
 				WebUI.setText(findTestObject(path_AddUser + 'input_LastName'), 'Luka')
-				WebUI.setText(findTestObject(path_AddUser + 'input_Password'), 'hello6666')
-				WebUI.setText(findTestObject(path_AddUser + 'input_ConfirmPassword'), 'hello6666')
+				WebUI.setText(findTestObject(path_AddUser + 'input_Password'), 'Hello6666')
+				WebUI.setText(findTestObject(path_AddUser + 'input_ConfirmPassword'), 'Hello6666')
 				WebUI.check(findTestObject(path_AddUser + 'input_No_lock'))
 				
 				// Select the Create button
