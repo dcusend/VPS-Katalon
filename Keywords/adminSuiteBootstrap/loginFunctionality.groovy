@@ -83,7 +83,7 @@ public class loginFunctionality {
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
 
-					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta2'))
+					//WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta2'))
 
 					//WebUI.waitForElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -217,7 +217,7 @@ public class loginFunctionality {
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
 
-					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta2'))
+					//WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta2'))
 
 					//WebUI.waitForElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
