@@ -45,119 +45,119 @@ public class loginFunctionality {
 
 		WebUI.maximizeWindow()
 
-//		if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
-//			System.out.println('We are on Login Page, start populating the fields')
+		//		if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+		//			System.out.println('We are on Login Page, start populating the fields')
 
-			
-//			if (executionProfile.equalsIgnoreCase("QAProfile"))
-//			{
-//				WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
-	
-//				WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
-//	
-//				WebUI.click(findTestObject('Login_Page/Login_Submit'))
-//			}
-			
-			switch(executionProfile)
-			{
-				case "QAProfile":
-					if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
-						System.out.println('We are on Login Page, start populating the fields')
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
-						
-						WebUI.click(findTestObject('Login_Page/Login_Submit'))
-						
-					}
-				break
-				
-				case "QA2Profile":
-					if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username_Okta'),30)) {
-						System.out.println('We are on Login Page, start populating the fields')
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), gv_username)
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
-						
-						WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-						
-						WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta2'))
-						
-						//WebUI.waitForElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'), 5, FailureHandling.CONTINUE_ON_FAILURE)
-						
-						//WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'),"imtiaz" , true)
-						
-						
-					}
-				break
-				
-				case "DemoProfile":
-					if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
-						System.out.println('We are on Login Page, start populating the fields')
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
-						
-						WebUI.click(findTestObject('Login_Page/Login_Submit'))
-						
-					}
-				break
-				
-				case "Demo2Profile":
-					if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
-						System.out.println('We are on Login Page, start populating the fields')
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
-						
-						WebUI.click(findTestObject('Login_Page/Login_Submit'))
-						
-					}
-				break
-				
-				case "Upgrade":
-					if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
-						System.out.println('We are on Login Page, start populating the fields')
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
-						
-						WebUI.click(findTestObject('Login_Page/Login_Submit'))
-						
-					}
-				break
-				
-				case "Production":
-					if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
-						System.out.println('We are on Login Page, start populating the fields')
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
-						
-						WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
-						
-						WebUI.click(findTestObject('Login_Page/Login_Submit'))
-						
-					}
-				break
-				
-				
-			}
-			
-	}	
-			
-			
-			
-//		}
 
-//		else {
-//			System.out.println('Not on the Login Page, exiting test')
-//		}
-//	}
+		//			if (executionProfile.equalsIgnoreCase("QAProfile"))
+		//			{
+		//				WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
+
+		//				WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
+		//
+		//				WebUI.click(findTestObject('Login_Page/Login_Submit'))
+		//			}
+
+		switch(executionProfile)
+		{
+			case "QAProfile":
+				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+					System.out.println('We are on Login Page, start populating the fields')
+
+					WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
+
+					WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
+
+					WebUI.click(findTestObject('Login_Page/Login_Submit'))
+
+				}
+				break
+
+			case "QA2Profile":
+				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username_Okta'),30)) {
+					System.out.println('We are on Login Page, start populating the fields')
+
+					WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), gv_username)
+
+					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
+
+					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
+
+					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta2'))
+
+					//WebUI.waitForElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+
+					//WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'),"imtiaz" , true)
+
+
+				}
+				break
+
+			case "DemoProfile":
+				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+					System.out.println('We are on Login Page, start populating the fields')
+
+					WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
+
+					WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
+
+					WebUI.click(findTestObject('Login_Page/Login_Submit'))
+
+				}
+				break
+
+			case "Demo2Profile":
+				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+					System.out.println('We are on Login Page, start populating the fields')
+
+					WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
+
+					WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
+
+					WebUI.click(findTestObject('Login_Page/Login_Submit'))
+
+				}
+				break
+
+			case "Upgrade":
+				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+					System.out.println('We are on Login Page, start populating the fields')
+
+					WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
+
+					WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
+
+					WebUI.click(findTestObject('Login_Page/Login_Submit'))
+
+				}
+				break
+
+			case "Production":
+				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+					System.out.println('We are on Login Page, start populating the fields')
+
+					WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
+
+					WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
+
+					WebUI.click(findTestObject('Login_Page/Login_Submit'))
+
+				}
+				break
+
+
+		}
+
+	}
+
+
+
+	//		}
+
+	//		else {
+	//			System.out.println('Not on the Login Page, exiting test')
+	//		}
+	//	}
 
 
 	@Keyword
@@ -177,112 +177,112 @@ public class loginFunctionality {
 
 		WebUI.maximizeWindow()
 
-//		if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
-//			System.out.println('We are on Login Page, start populating the fields')
+		//		if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+		//			System.out.println('We are on Login Page, start populating the fields')
 
-//			WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
+		//			WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
 
-//			WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
+		//			WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
 
-//			WebUI.click(findTestObject('Login_Page/Login_Submit'))
-//		}
+		//			WebUI.click(findTestObject('Login_Page/Login_Submit'))
+		//		}
 
-//		else {
-//			System.out.println('Not on the Login Page, exiting test')
-//		}
-		
-		
+		//		else {
+		//			System.out.println('Not on the Login Page, exiting test')
+		//		}
+
+
 		switch(executionProfile)
 		{
 			case "QAProfile":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
-					
+
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-					
+
 				}
-			break
-			
+				break
+
 			case "QA2Profile":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username_Okta'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), username_DD)
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), password_DD)
-					
+
 					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-					
+
 					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta2'))
-					
+
 					//WebUI.waitForElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'), 5, FailureHandling.CONTINUE_ON_FAILURE)
-					
+
 					//WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'),"imtiaz" , true)
-					
-					
+
+
 				}
-			break
-			
+				break
+
 			case "DemoProfile":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
-					
+
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-					
+
 				}
-			break
-			
+				break
+
 			case "Demo2Profile":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
-					
+
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-					
+
 				}
-			break
-			
+				break
+
 			case "Upgrade":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
-					
+
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-					
+
 				}
-			break
-			
+				break
+
 			case "Production":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
-					
+
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-					
+
 				}
-			break
-			
-			
+				break
+
+
 		}
-		
-		
-		
+
+
+
 	}
 }

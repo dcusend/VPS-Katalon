@@ -654,6 +654,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/SAU_MDForm202_Page/input_233.40_confirmNotifyAction",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/SAU_MDForm202_Page/input_233.40_confirmNotifyAction_position.png"
     }
   ]
 }

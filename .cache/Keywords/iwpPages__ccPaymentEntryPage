@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "D783F307645850AE7301B3FCEF582CFB",
+  "keywordFileContentHash": "A6C8C83BF4E9B2314924DBA210B1C09C",
   "keywordClasses": [
     {
       "name": "iwpPages.ccPaymentEntryPage",
@@ -38,6 +38,38 @@
         },
         {
           "name": "setDataCCPM",
+          "parameters": [
+            {
+              "name": "rowS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dataFileS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataIWPCreditCard",
           "parameters": [
             {
               "name": "rowS",

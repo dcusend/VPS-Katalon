@@ -18,12 +18,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
-import internal.GlobalVariable
+import internal.GlobalVariable as GlobalVariable
 
 public class ccPaymentEntryPage {
 
 	String CCAmount, CCUDF1, CCUDF2, CCUDF3, CCUDF4, CCUDF5, CCUDF6, CCUDF7, CCUDF8, CCUDF9, CCUDF10
-	String CCName, CCCardNum, CCSPC, CCExpM, CCExpY, CCDate, CCAL1, CCAL2, CCZIP, CCEmail
+	String CCName, CCCardNum, CCSPC, CCExpM, CCExpY, CCDate, CCAL1, CCAL2, CCZIP, CCEmail, EmulatorData
 
 
 
@@ -343,12 +343,265 @@ public class ccPaymentEntryPage {
 
 
 
-
-
-
-
 	}
 
 
+	
+	@Keyword
+	def setDataIWPCreditCard(int rowS, String dataFileS) 
+	{
+		
+		// Get Data
+		EmulatorData = findTestData(dataFileS).getValue('EmulatorData', rowS)
+		CCAmount = findTestData(dataFileS).getValue('CCAmount', rowS)
+		CCUDF1 = findTestData(dataFileS).getValue('CCUDF1', rowS)
+		CCUDF2 = findTestData(dataFileS).getValue('CCUDF2', rowS)
+		CCUDF3 = findTestData(dataFileS).getValue('CCUDF3', rowS)
+		CCUDF4 = findTestData(dataFileS).getValue('CCUDF4', rowS)
+		CCUDF5 = findTestData(dataFileS).getValue('CCUDF5', rowS)
+		CCUDF6 = findTestData(dataFileS).getValue('CCUDF6', rowS)
+		CCUDF7 = findTestData(dataFileS).getValue('CCUDF7', rowS)
+		CCUDF8 = findTestData(dataFileS).getValue('CCUDF8', rowS)
+		CCUDF9 = findTestData(dataFileS).getValue('CCUDF9', rowS)
+		CCUDF10 = findTestData(dataFileS).getValue('CCUDF10', rowS)
+		CCName = findTestData(dataFileS).getValue('CCName', rowS)
+		CCCardNum = findTestData(dataFileS).getValue('CCCardNum', rowS)
+		CCSPC = findTestData(dataFileS).getValue('CCSPC', rowS)
+		CCExpM = findTestData(dataFileS).getValue('CCExpM', rowS)
+		CCExpY = findTestData(dataFileS).getValue('CCExpY', rowS)
+		CCDate = findTestData(dataFileS).getValue('CCDate', rowS)
+		CCAL1 = findTestData(dataFileS).getValue('CCAL1', rowS)
+		CCAL2 = findTestData(dataFileS).getValue('CCAL2', rowS)
+		CCZIP = findTestData(dataFileS).getValue('CCZIP', rowS)
+		CCEmail = findTestData(dataFileS).getValue('CCEmail', rowS)
+		
+			
+		// Set Data
+		
+		// Open TestHarness and populate data
+		
+		//def testHarness_URL = GlobalVariable.urlTestHarness
+		
+		//WebUI.openBrowser(testHarness_URL)
+		//WebUI.maximizeWindow()
+		
+		
+		// Verify if we are on Credit Card Payment Entry page and populate the page
+		
+			
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Name'), 30))
+				{
+		
+					println("We are on Credit Card Payment Entry page, start populating")
+		
+		
+		
+					if ((!CCAmount.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),CCAmount)
+					}
+					else {println("Amount is not present in the Excel Spreadsheet")}
+					
+					
+		
+		
+					if ((!CCUDF1.isEmpty()))
+					{
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined1'),CCUDF1)
+					}
+					else {println("UDF1 data is not present in the Excel Spreadsheet")}
+	
+		
+					
+					if ((!CCUDF2.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined2'),CCUDF2)
+					}
+					else {println("UDF2 data is not present in the Excel Spreadsheet")}
+					
+		
+		
+
+					if ((!CCUDF3.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined3'),CCUDF3)
+					}
+					else {println("UDF3 data is not present in the Excel Spreadsheet")}
+					
+		
+		
+					if ((!CCUDF4.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined4'),CCUDF4)
+					}
+					else {println("UDF4 data is not present in the Excel Spreadsheet")}
+
+						
+					if ((!CCUDF5.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined5'),CCUDF5)
+					}
+					else {println("UDF5 data is not present in the Excel Spreadsheet")}
+	
+							
+					if ((!CCUDF6.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined6'),CCUDF6)
+					}
+					else {println("UDF6 data is not present in the Excel Spreadsheet")}
+			
+								
+		
+		
+					if ((!CCUDF7.isEmpty()))
+					{
+						WebUI.selectOptionByLabel((findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined7')),CCUDF7,false)
+						}
+					else {println("UDF7 data is not present in the Excel Spreadsheet")}
+					
+		
+		
+		
+					if ((!CCUDF8.isEmpty()))
+					{
+						WebUI.selectOptionByLabel((findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined8')),CCUDF8,false)
+					}
+					else {println("UDF8 data is not present in the Excel Spreadsheet")}
+					
+					
+					if ((!CCUDF9.isEmpty()))
+					{
+						WebUI.selectOptionByLabel((findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined9')),CCUDF9,false)
+					}
+					else {println("UDF9 data is not present in the Excel Spreadsheet")}
+						
+						
+					if ((!CCUDF10.isEmpty()))
+					{
+						WebUI.selectOptionByLabel((findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined10')),CCUDF10,false)
+					}
+					else {println("UDF10 data is not present in the Excel Spreadsheet")}
+					
+					
+		
+		
+					if ((!CCName.isEmpty()))
+					{
+						WebUI.setText((findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Name')),CCName)
+					}
+					else {println("CCName data is not present in the Excel Spreadsheet")}
+		
+		
+		
+				
+					if ((!CCCardNum.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),CCCardNum)
+					}
+					else {println("Card Number is not present in the Excel Spreadsheet")}
+					
+		
+		
+					if ((!CCSPC.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/SPC'),CCSPC)
+					}
+					else {println("CCSPC is not present in the Excel Spreadsheet")}
+					
+		
+		
+
+					if ((!CCExpM.isEmpty()))
+					{
+						WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Month'),CCExpM,false)
+					}
+					else {println("CCExpM is not present in the Excel Spreadsheet")}
+					
+		
+		
+					if ((!CCExpY.isEmpty()))
+					{
+						WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),CCExpY,false)
+					}
+					else {println("CCExpY is not present in the Excel Spreadsheet")}
+					
+		
+		
+					if ((!CCDate.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ProcessDate'),CCDate)
+					}
+					else {println("CCDate is not present in the Excel Spreadsheet")}
+					
+		
+		
+					if ((!CCAL1.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL1'),CCAL1)
+					}
+					else {println("CCAL1 is not present in the Excel Spreadsheet")}
+				
+		
+		
+					if ((!CCAL2.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL2'),CCAL2)
+					}
+					else {println("CCAL2 is not present in the Excel Spreadsheet")}
+				
+		
+		
+		
+					if ((!CCZIP.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ZIP'),CCZIP)
+					}
+					else {println("CCZIP is not present in the Excel Spreadsheet")}
+					
+		
+		
+		
+
+					if ((!CCEmail.isEmpty()))
+					{
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/EmailAddress'),CCEmail)
+					}
+					else {println("CCEmail is not present in the Excel Spreadsheet")}
+					
+		
+		
+		
+					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/TermCondCheckBox'),30))
+					{
+						WebUI.check(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/TermCondCheckBox'))
+					}
+					else {println("Terms and Condition checkbox is missing on the CC Payment Entry page")}
+		
+		
+		
+					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ContinueButton'),30))
+					{
+						WebUI.click(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ContinueButton'))
+					}
+					else {println("Continue button is missing on the CC Payment Entry page")}
+		
+					//End Populating the Credit Card Payment Entry page
+		
+		
+		
+				}
+				else
+				{
+					println("Not on Credit Card Payment Entry Page")
+				}
+		
+		
+		
+		
+	}
+
+
+	
+	
 
 }
