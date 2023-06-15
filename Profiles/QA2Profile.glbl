@@ -44,4 +44,14 @@
       <initValue>''</initValue>
       <name>ProfileName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa2.velocitypayment.com/agency/config.do?action=editor'</initValue>
+      <name>urlEmulator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-algorithm.govolution.com/vrelaytest/QA2/version_2_2/vrelaytest.html'</initValue>
+      <name>urlTestHarness</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

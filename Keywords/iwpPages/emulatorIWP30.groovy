@@ -327,102 +327,102 @@ class emulatorIWP30 {
 	{
 
 		// GetData
-		
-		
+
+
 		//nameSheet = "PayNowData"
-		
-			
+
+
 		def dataFileE = "IWPTestData/EmulatorData"
-		
+
 		def numOfRowsE = findTestData('IWPTestData/EmulatorData').getRowNumbers()
 		println("Number of Records: " + numOfRowsE)
-	
-		
-for (def rowE = 1; rowE <= numOfRowsE; rowE++)
-	{
-	
-		
-		ID = findTestData(dataFileE).getValue('ID', rowE)
-				
-		
-		if (ID.equals(emulatorID))
+
+
+		for (def rowE = 1; rowE <= numOfRowsE; rowE++)
 		{
-		
-		
-		MV = findTestData(dataFileE).getValue('MV', rowE)
-		Amount = findTestData(dataFileE).getValue('Amount', rowE)
-		CAN = findTestData(dataFileE).getValue('CAN', rowE)
-		Action = findTestData(dataFileE).getValue('Action', rowE)
-		Lang = findTestData(dataFileE).getValue('Lang', rowE)
-		Fname = findTestData(dataFileE).getValue('Fname', rowE)
-		Lname = findTestData(dataFileE).getValue('Lname', rowE)
-		AL1 = findTestData(dataFileE).getValue('AL1', rowE)
-		AL2 = findTestData(dataFileE).getValue('AL2', rowE)
-		Country = findTestData(dataFileE).getValue('Country', rowE)
-		City = findTestData(dataFileE).getValue('City', rowE)
-		State = findTestData(dataFileE).getValue('State', rowE)
-		ZIP = findTestData(dataFileE).getValue('ZIP', rowE)
-		Order = findTestData(dataFileE).getValue('Order', rowE)
-		CompanyName = findTestData(dataFileE).getValue('CompanyName', rowE)
-		Email = findTestData(dataFileE).getValue('Email', rowE)
-		UDF1 = findTestData(dataFileE).getValue('UDF1', rowE)
-		UDF2 = findTestData(dataFileE).getValue('UDF2', rowE)
-		UDF3 = findTestData(dataFileE).getValue('UDF3', rowE)
-		UDF4 = findTestData(dataFileE).getValue('UDF4', rowE)
-		UDF5 = findTestData(dataFileE).getValue('UDF5', rowE)
-		UDF6 = findTestData(dataFileE).getValue('UDF6', rowE)
-		UDF7 = findTestData(dataFileE).getValue('UDF7', rowE)
-		UDF8 = findTestData(dataFileE).getValue('UDF8', rowE)
-		UDF9 = findTestData(dataFileE).getValue('UDF9', rowE)
-		UDF10 = findTestData(dataFileE).getValue('UDF10', rowE)
-		
-	
-		
-		// SetData
-		
-		def emulator_url = GlobalVariable.urlEmulator
-		
-		WebUI.openBrowser(emulator_url)
-		WebUI.maximizeWindow()
-		
-		
-			WebUI.selectOptionByValue(findTestObject('IWP30/Page_VRelay30Emulator/MV'),MV, true)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Amount'),Amount)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/CAN'),CAN)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Action'),Action)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Lang'),Lang)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Fname'),Fname)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Lname'),Lname)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/AL1'),AL1)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/AL2'),AL2)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Country'),Country)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/City'),City)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/State'),State)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/ZIP'),ZIP)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Order'),Order)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Company'),CompanyName)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Email'),Email)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF1'),UDF1)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF2'),UDF2)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF8'),UDF8)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF9'),UDF9)
-			WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
-			Thread.sleep(2000)
 
-			WebUI.click(findTestObject('IWP30/Page_VRelay30Emulator/Submit'))
-			WebUI.closeBrowser()
 
-			Thread.sleep(1000)
+			ID = findTestData(dataFileE).getValue('ID', rowE)
+
+
+			if (ID.equals(emulatorID))
+			{
+
+
+				MV = findTestData(dataFileE).getValue('MV', rowE)
+				Amount = findTestData(dataFileE).getValue('Amount', rowE)
+				CAN = findTestData(dataFileE).getValue('CAN', rowE)
+				Action = findTestData(dataFileE).getValue('Action', rowE)
+				Lang = findTestData(dataFileE).getValue('Lang', rowE)
+				Fname = findTestData(dataFileE).getValue('Fname', rowE)
+				Lname = findTestData(dataFileE).getValue('Lname', rowE)
+				AL1 = findTestData(dataFileE).getValue('AL1', rowE)
+				AL2 = findTestData(dataFileE).getValue('AL2', rowE)
+				Country = findTestData(dataFileE).getValue('Country', rowE)
+				City = findTestData(dataFileE).getValue('City', rowE)
+				State = findTestData(dataFileE).getValue('State', rowE)
+				ZIP = findTestData(dataFileE).getValue('ZIP', rowE)
+				Order = findTestData(dataFileE).getValue('Order', rowE)
+				CompanyName = findTestData(dataFileE).getValue('CompanyName', rowE)
+				Email = findTestData(dataFileE).getValue('Email', rowE)
+				UDF1 = findTestData(dataFileE).getValue('UDF1', rowE)
+				UDF2 = findTestData(dataFileE).getValue('UDF2', rowE)
+				UDF3 = findTestData(dataFileE).getValue('UDF3', rowE)
+				UDF4 = findTestData(dataFileE).getValue('UDF4', rowE)
+				UDF5 = findTestData(dataFileE).getValue('UDF5', rowE)
+				UDF6 = findTestData(dataFileE).getValue('UDF6', rowE)
+				UDF7 = findTestData(dataFileE).getValue('UDF7', rowE)
+				UDF8 = findTestData(dataFileE).getValue('UDF8', rowE)
+				UDF9 = findTestData(dataFileE).getValue('UDF9', rowE)
+				UDF10 = findTestData(dataFileE).getValue('UDF10', rowE)
+
+
+
+				// SetData
+
+				def emulator_url = GlobalVariable.urlEmulator
+
+				WebUI.openBrowser(emulator_url)
+				WebUI.maximizeWindow()
+
+
+				WebUI.selectOptionByValue(findTestObject('IWP30/Page_VRelay30Emulator/MV'),MV, true)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Amount'),Amount)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/CAN'),CAN)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Action'),Action)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Lang'),Lang)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Fname'),Fname)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Lname'),Lname)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/AL1'),AL1)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/AL2'),AL2)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Country'),Country)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/City'),City)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/State'),State)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/ZIP'),ZIP)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Order'),Order)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Company'),CompanyName)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Email'),Email)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF1'),UDF1)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF2'),UDF2)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF8'),UDF8)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF9'),UDF9)
+				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
+				//Thread.sleep(2000)
+
+				WebUI.click(findTestObject('IWP30/Page_VRelay30Emulator/Submit'))
+				WebUI.closeBrowser()
+
+				Thread.sleep(1000)
+			}
+
 		}
-		
-	}
-		
-		
+
+
 	}
 
 

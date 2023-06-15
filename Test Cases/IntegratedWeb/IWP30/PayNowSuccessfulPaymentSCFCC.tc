@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2</description>
+   <name>PayNowSuccessfulPaymentSCFCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc53db66-d041-4c95-a4b3-e84547496dcf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IWP30 Smoke TestSuite,Chrome 114.0.0.0,,,2023-06-14 19:38:28,2023-06-14 19:50:05,11m - 36.315s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/PayNowSuccessfulPaymentNoCFCC,Chrome 114.0.0.0,Works in QA and QA2,,2023-06-14 19:38:29,2023-06-14 19:41:58,3m - 28.976s,FAILED
+"resText = ""Fail""",Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.002s,PASSED
+"resColumn = ""Result""",Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.002s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.002s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.001s,PASSED
+"nameSheet = ""PayNowCC""",Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.001s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditCard""",Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.002s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:29,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 114.0.0.0,,,2023-06-14 19:38:29,2023-06-14 19:38:30,0.912s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 114.0.0.0,,,2023-06-14 19:38:30,2023-06-14 19:38:30,0.005s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 114.0.0.0,,,2023-06-14 19:38:30,2023-06-14 19:41:58,3m - 27.384s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/PayNowSuccessfulPaymentSCFCC,Chrome 114.0.0.0,Works in QA and QA2,,2023-06-14 19:41:58,2023-06-14 19:46:01,4m - 3.256s,FAILED
+"resText = ""Fail""",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.014s,PASSED
+"resColumn = ""Result""",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+"nameSheet = ""PayNowCCSCF""",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditCardSCF""",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.038s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:41:58,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 114.0.0.0,,,2023-06-14 19:41:58,2023-06-14 19:46:01,4m - 2.717s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/PayNowSuccessfulPaymentDCFCC,Chrome 114.0.0.0,Works in QA and QA2,,2023-06-14 19:46:01,2023-06-14 19:50:05,4m - 3.640s,FAILED
+"resText = ""Fail""",Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.012s,PASSED
+"resColumn = ""Result""",Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+"nameSheet = ""PayNowCCDCF""",Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditCardDCF""",Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:01,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 114.0.0.0,,,2023-06-14 19:46:01,2023-06-14 19:46:02,0.040s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 114.0.0.0,,,2023-06-14 19:46:02,2023-06-14 19:46:02,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 114.0.0.0,,,2023-06-14 19:46:02,2023-06-14 19:50:05,4m - 3.033s,FAILED

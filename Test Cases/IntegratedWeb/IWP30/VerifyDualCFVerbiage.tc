@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in both QA and QA2</description>
+   <name>VerifyDualCFVerbiage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc66256b-6787-4dea-b041-ea8d979aab72</testCaseGuid>
+</TestCaseEntity>

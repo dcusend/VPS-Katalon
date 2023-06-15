@@ -141,7 +141,7 @@ import internal.GlobalVariable as GlobalVariable
 			WebUI.verifyTextPresent(("UDF8 Label is required"), false)
 			WebUI.verifyTextPresent(("Card name is required"), false)
 			WebUI.verifyTextPresent(("Card number is required"), false)
-			WebUI.verifyTextPresent(("Signature panel code is required"), false)
+			WebUI.verifyTextPresent(("Card Security Code"), false)
 			WebUI.verifyTextPresent(("Card expiration date is required"), false)
 			WebUI.verifyTextPresent(("Card address Line 1 is required"), false)
 			WebUI.verifyTextPresent(("Card ZIP Code is required"), false)

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IWP30 Smoke TestSuite,Chrome 114.0.0.0,,,2023-06-14 20:10:24,2023-06-14 20:14:34,4m - 9.579s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/PayNowSuccessfulPaymentDCFCC,Chrome 114.0.0.0,Works in QA and QA2,,2023-06-14 20:10:25,2023-06-14 20:14:34,4m - 9.144s,FAILED
+"resText = ""Fail""",Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.002s,PASSED
+"resColumn = ""Result""",Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.002s,PASSED
+"nameSheet = ""PayNowCCDCF""",Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.003s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditCardDCF""",Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:25,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 114.0.0.0,,,2023-06-14 20:10:25,2023-06-14 20:10:26,0.889s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 114.0.0.0,,,2023-06-14 20:10:26,2023-06-14 20:10:26,0.005s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 114.0.0.0,,,2023-06-14 20:10:26,2023-06-14 20:14:34,4m - 7.579s,FAILED

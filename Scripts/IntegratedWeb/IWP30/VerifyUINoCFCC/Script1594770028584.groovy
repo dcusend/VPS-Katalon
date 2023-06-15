@@ -63,7 +63,7 @@ import internal.GlobalVariable as GlobalVariable
 // Verify static text and Exit button on Select Payment Method page
 						
 			WebUI.verifyTextPresent(("Select Payment Method"), false)
-			WebUI.verifyTextPresent(("Please choose the method of payment"), false)
+			WebUI.verifyTextPresent(("Please Choose the Method of Payment"), false)
 			
 			WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard'), 30)
 			WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCorporateCheck'), 30)
@@ -107,17 +107,17 @@ import internal.GlobalVariable as GlobalVariable
 			WebUI.verifyTextPresent(("Cardholder's Name"), false)
 			WebUI.verifyTextPresent(("Cards Accepted"), false)
 			WebUI.verifyTextPresent(("Card Number"), false)
-			WebUI.verifyTextPresent(("Signature Panel Code"), false)
+			WebUI.verifyTextPresent(("Card Security Code"), false)
 			WebUI.verifyTextPresent(("Expiration Date"), false)
 			WebUI.verifyTextPresent(("Payment Date"), false)
-			WebUI.verifyTextPresent(("Billing information"), false)
+			WebUI.verifyTextPresent(("Billing Information"), false)
 			WebUI.verifyTextPresent(("Address Line 1"), false)
 			WebUI.verifyTextPresent(("Address Line 2"), false)
 			WebUI.verifyTextPresent(("Country"), false)
 			WebUI.verifyTextPresent(("ZIP Code"), false)
 			WebUI.verifyTextPresent(("City"), false)
 			WebUI.verifyTextPresent(("State"), false)
-			WebUI.verifyTextPresent(("Receipt information"), false)
+			WebUI.verifyTextPresent(("Receipt Information"), false)
 			WebUI.verifyTextPresent(("Email Address"), false)
 			WebUI.verifyTextPresent(("Please check here to store the payment method for future use"), false)
 			WebUI.verifyTextPresent(("These are Customer CC Terms"), false)
@@ -222,7 +222,7 @@ import internal.GlobalVariable as GlobalVariable
 		WebUI.verifyTextPresent(("UDF9 Label"), false)
 		WebUI.verifyTextPresent(("data 9"), false)
 		
-		WebUI.verifyTextPresent(("Card information"), false)
+		WebUI.verifyTextPresent(("Card Information"), false)
 		
 		WebUI.verifyTextPresent(("Cardholder's Name"), false)
 		WebUI.verifyTextPresent((CName), false)
@@ -233,14 +233,14 @@ import internal.GlobalVariable as GlobalVariable
 		WebUI.verifyTextPresent(("Card Number"), false)
 		WebUI.verifyTextPresent((Last4), false)
 		
-		WebUI.verifyTextPresent(("Signature Panel Code"), false)
+		WebUI.verifyTextPresent(("Card Security Code"), false)
 		
 		WebUI.verifyTextPresent(("Expiration Date"), false)
 		WebUI.verifyTextPresent((CExp), false)
 		
 		WebUI.verifyTextPresent(("Payment Date"), false)
 		
-		WebUI.verifyTextPresent(("Billing information"), false)
+		WebUI.verifyTextPresent(("Billing Information"), false)
 		
 		WebUI.verifyTextPresent(("Address Line 1"), false)
 		WebUI.verifyTextPresent((AL1), false)
@@ -335,7 +335,7 @@ import internal.GlobalVariable as GlobalVariable
 		WebUI.verifyTextPresent((Last4), false)
 		
 		
-		WebUI.verifyTextPresent(("Billing information"), false)
+		WebUI.verifyTextPresent(("Billing Information"), false)
 		
 		WebUI.verifyTextPresent(("Address Line 1"), false)
 		WebUI.verifyTextPresent((AL1), false)
