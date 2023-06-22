@@ -101,7 +101,7 @@ import internal.GlobalVariable as GlobalVariable
 					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),30))
 						{
 							
-								WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),"200.50")
+								WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),"2000.50")
 							
 						}
 					else {println("Amount field is either missing or not modifiable on CC Payment Entry page")}

@@ -21,7 +21,13 @@ println(numOfRows)
 
 for (def row = 1; row <= numOfRows; row++) {
 	
+	ExecuteTC = findTestData('IWPTestData/IWP30PayNowCC').getValue('Execute', row)
+	System.out.println('Value of Execute is : ' + ExecuteTC)
 	
+	if (ExecuteTC.equalsIgnoreCase("Y"))
+		{
+			System.out.println('Begin Record Number: ' + row)
+
 // Exception Handling	
 	
 	try {
@@ -625,3 +631,4 @@ for (def row = 1; row <= numOfRows; row++) {
 		// Close the browser
 		WebUI.closeBrowser()
 }			
+}

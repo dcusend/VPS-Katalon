@@ -42,6 +42,12 @@
       <testCaseId>Test Cases/IntegratedWeb/IWP30/VerifySingleCFVerbiage</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>32db5941-f01b-4881-8f9e-61e66271831c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP30/Error-OverAndUnderPay</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c6b99788-3f78-4c63-929c-25e7b06bca4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
