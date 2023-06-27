@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/vsecurity/servlet/logout.do?referringURL=/admin/imtiaz/bootstrap' and (text() = 'Logout' or . = 'Logout')]</value>
+         <value>//*[@href = '/vsecurity/servlet/logout.do' and (text() = 'Logout' or . = 'Logout')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/vsecurity/servlet/logout.do?referringURL=/admin/imtiaz/bootstrap</value>
+      <value>/vsecurity/servlet/logout.do</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

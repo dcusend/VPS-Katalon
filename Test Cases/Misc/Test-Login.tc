@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all environments.</description>
+   <name>Test-Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d34caa79-0aca-47c2-98f3-7ceede51669b</testCaseGuid>
+</TestCaseEntity>
