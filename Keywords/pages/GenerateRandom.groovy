@@ -54,4 +54,18 @@ public class GenerateRandom {
 		String randomN = RandomStringUtils.random(length, charset.toCharArray())
 		return randomN
 	}
+	
+	
+	@Keyword
+	def getRandomAlphaNumCustomLength(Integer sLength) {
+		String charset = (('A'..'Z') + ('a'..'z') + ('0'..'9')).join()
+		Integer length = sLength
+		String randomAN = RandomStringUtils.random(length, charset.toCharArray())
+
+		//String randomString = org.apache.commons.lang.RandomStringUtils.random(9, true, true)
+
+		return randomAN
+
+	}
+	
 }

@@ -1,26 +1,41 @@
 {
-  "keywordFileContentHash": "06F8B0C98B306FA5991C3D50A92A98F9",
+  "keywordFileContentHash": "D8CDC954F2C81BD2B667B8C3073E7145",
   "keywordClasses": [
     {
       "name": "pages.GenerateRandom",
       "keywordMethods": [
         {
           "name": "getRandomAlphaNum",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "getRandomAlpha",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "getRandomNum",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "getRandomAlphaNumCustomLength",
+          "parameters": [
+            {
+              "name": "sLength",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Integer",
+                "unresolvedClassName": "Integer",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
