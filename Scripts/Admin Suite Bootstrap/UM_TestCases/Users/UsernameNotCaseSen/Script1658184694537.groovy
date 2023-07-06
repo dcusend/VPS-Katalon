@@ -21,6 +21,9 @@ import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 import com.kms.katalon.core.logging.KeywordLogger
 
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+
 // VT Paths
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 
@@ -28,6 +31,13 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, username_from, password_from
+
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
+def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
 nameSheet = "UsernameCase"
@@ -47,6 +57,11 @@ for (def row = 1; row <= numOfRows; row++)
 			{
 				System.out.println('Begin Record Number: ' + row)
 				
+				Date today = new Date()
+				println (today)
+				String datText = today
+				
+				
 				//KeywordLogger log = new KeywordLogger()
 				
 				// Get Username and Password from datafile
@@ -61,12 +76,20 @@ for (def row = 1; row <= numOfRows; row++)
 				{
 					//log.logPassed("User was able to login, Username is not case sensitive")
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User was able to login, Username is not case sensitive","Pass")
+					KeywordUtil.markPassed("User was able to login, Username is not case sensitive")
+					resText = "Pass"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+
 					
 				}
 				else 
 				{
 					//log.logFailed("User was not able to login")
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User was not able to login","Fail")
+					KeywordUtil.markFailed("User was not able to login")
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					
 				}
 				
 				WebUI.closeBrowser()

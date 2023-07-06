@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 // VT Paths
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
@@ -28,6 +29,13 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, username_from, password_from
+
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
+def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
 nameSheet = "PassCase"
@@ -47,6 +55,11 @@ for (def row = 1; row <= numOfRows; row++)
 			{
 				System.out.println('Begin Record Number: ' + row)
 				
+				Date today = new Date()
+				println (today)
+				String datText = today
+				
+				
 				//KeywordLogger log = new KeywordLogger()
 				
 				// Get Username and Password from datafile
@@ -59,13 +72,21 @@ for (def row = 1; row <= numOfRows; row++)
 				if (WebUI.verifyTextPresent('Unable to sign in', true))
 				{
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User was not able to login, Password is case sensitive","Pass")
+					KeywordUtil.markPassed("Unable to sign in, Password is case sensitive")
+					resText = "Pass"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+
 				}
 				else 
 				{
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User was able to login, Password is not case sensitive","Fail")
+					KeywordUtil.markFailed("User was able to Sign in, Password should be but is not case sensitive")
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					
 				}
 				
-				//WebUI.closeBrowser()
+				WebUI.closeBrowser()
 			}
 			
 	}

@@ -18,6 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
+import com.kms.katalon.core.logging.KeywordLogger
+
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
 
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 String path_Users = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/"
@@ -27,6 +31,13 @@ String path_UserView = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
+
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
+def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
 nameSheet = "FindUser"
@@ -45,6 +56,11 @@ for (def row = 1; row <= numOfRows; row++)
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{
 				System.out.println('Begin Record Number: ' + row)
+				
+				Date today = new Date()
+				println (today)
+				String datText = today
+				
 	
 
 				// Log into Admin Suite
@@ -71,12 +87,20 @@ for (def row = 1; row <= numOfRows; row++)
 							WebUI.verifyTextPresent('Christinado Aguillerezo', true)
 							
 							CustomKeywords.'pages.CustomLogger.log_Logger'("User was found","Pass")
+							KeywordUtil.markPassed("User was found")
+							resText = "Pass"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+		
 							
 						}
 					else
 						{
 							//log.logFailed("User was not able to login")
 							CustomKeywords.'pages.CustomLogger.log_Logger'("User was not found","Fail")
+							KeywordUtil.markFailed("User was not found")
+							resText = "Fail"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							
 						}
 
 						WebUI.closeBrowser()

@@ -23,6 +23,10 @@ import pages.GenerateRandom
 
 import com.kms.katalon.core.logging.KeywordLogger
 
+
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+
 // VT Paths
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 String path_Users = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/"
@@ -35,6 +39,13 @@ String path_AddUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, spUsername
+
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
+def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
 nameSheet = "CreateUserSpChar"
@@ -53,6 +64,11 @@ for (def row = 1; row <= numOfRows; row++)
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{
 				System.out.println('Begin Record Number: ' + row)
+				
+				Date today = new Date()
+				println (today)
+				String datText = today
+				
 				
 				// Log into Admin Suite
 				CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
@@ -78,8 +94,8 @@ for (def row = 1; row <= numOfRows; row++)
 				WebUI.setText(findTestObject(path_AddUser + 'input_Username'), spUsername)
 				WebUI.setText(findTestObject(path_AddUser + 'input_FirstName'), 'Ashley')
 				WebUI.setText(findTestObject(path_AddUser + 'input_LastName'), 'Luka')
-				WebUI.setText(findTestObject(path_AddUser + 'input_Password'), 'Hello6666')
-				WebUI.setText(findTestObject(path_AddUser + 'input_ConfirmPassword'), 'Hello6666')
+				WebUI.setText(findTestObject(path_AddUser + 'input_Password'), 'Hello@6666666')
+				WebUI.setText(findTestObject(path_AddUser + 'input_ConfirmPassword'), 'Hello@6666666')
 				WebUI.check(findTestObject(path_AddUser + 'input_No_lock'))
 				
 				// Select the Create button
@@ -90,6 +106,11 @@ for (def row = 1; row <= numOfRows; row++)
 				{
 					
 					WebUI.verifyTextPresent('was successfully created', true)
+					
+					KeywordUtil.markPassed("User was successfully created")
+					resText = "Pass"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+
 				
 					// Delete User
 					WebUI.click(findTestObject(path_UserView + 'button_Delete'))
@@ -107,6 +128,10 @@ for (def row = 1; row <= numOfRows; row++)
 					//KeywordLogger log = new KeywordLogger()
 					//log.logWarning("User did not got created, can't delete")
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User did not got created, can't delete","Warning")
+					KeywordUtil.markFailed("User was not created")
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					
 				}
 				
 				WebUI.closeBrowser()

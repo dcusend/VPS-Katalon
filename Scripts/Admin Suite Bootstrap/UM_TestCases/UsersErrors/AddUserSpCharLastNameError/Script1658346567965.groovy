@@ -21,6 +21,11 @@ import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 import pages.GenerateRandom
 
+import com.kms.katalon.core.logging.KeywordLogger
+
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+
 // VT Paths
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 String path_Users = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/"
@@ -34,6 +39,12 @@ def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, spUsername
 
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
+def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 nameSheet = "CreateUserSCLNameErr"
 dataFile = "QA/Bootstrap/UM-TestData/CreateUserSCLNameErr"
@@ -51,6 +62,11 @@ for (def row = 1; row <= numOfRows; row++)
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{
 				System.out.println('Begin Record Number: ' + row)
+				
+				Date today = new Date()
+				println (today)
+				String datText = today
+
 				
 				// Log into Admin Suite
 				CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
@@ -83,9 +99,21 @@ for (def row = 1; row <= numOfRows; row++)
 				WebUI.click(findTestObject(path_AddUser + 'button_Create'))
 				
 				// Verify Static Text
-				WebUI.verifyTextPresent('Error! Please provide the following required information as indicated below', true)
-				//WebUI.verifyTextPresent('Username may only be comprised of alphanumeric characters, the underscore "_" character, the at "@" symbol, and the period "."Username may only be comprised of alphanumeric characters, the underscore "_" character, the at "@" symbol, and the period "."', true)
-				WebUI.verifyTextPresent('Last name can not contain "+"," -", "=" or "@"', false)
+				if (WebUI.verifyTextPresent('Error! Please provide the following required information as indicated below', true))
+				{
+					WebUI.verifyTextPresent('Last name can not contain "+"," -", "=" or "@"', false)
+					KeywordUtil.markPassed("Last name can not contain")
+					resText = "Pass"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+
+				}
+				else
+				{
+					KeywordUtil.markFailed("Last name can not contain")
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					
+				}
 				
 				WebUI.closeBrowser()
 				
