@@ -20,6 +20,8 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
 
 // VT Paths
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
@@ -33,6 +35,14 @@ String path_AddUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
+
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
+def numOfRows, dataFile, nameSheet, dataFileEmulator
+
 
 
 nameSheet = "CreateUserErrors"
@@ -51,6 +61,11 @@ for (def row = 1; row <= numOfRows; row++)
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{
 				System.out.println('Begin Record Number: ' + row)
+				
+				Date today = new Date()
+				println (today)
+				String datText = today
+				
 	
 
 				// Log into Admin Suite
@@ -105,10 +120,18 @@ for (def row = 1; row <= numOfRows; row++)
 					if (WebUI.verifyTextPresent(errorMsg, true))
 					{
 						CustomKeywords.'pages.CustomLogger.log_Logger'("User did not got created, received Error","Pass")
+						KeywordUtil.markPassed("User did not got created, received Error")
+						resText = "Pass"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+	
 					}
 					else
 					{
 						CustomKeywords.'pages.CustomLogger.log_Logger'("Error did not match or User got created, check Test Data","Fail")
+						KeywordUtil.markFailed("Error did not match or User got created, check Test Data")
+						resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						
 					}
 				
 					WebUI.closeBrowser()

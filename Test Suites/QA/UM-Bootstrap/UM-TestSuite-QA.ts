@@ -48,10 +48,28 @@
       <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/UsernameNotCaseSen</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>60078b01-8156-4490-b91a-e84edeb37112</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/AddDeleteUserPasswordSpChar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2caaae96-b099-40ba-940e-4584a06613c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/VerifyUsersLinks_UI_TC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8045d425-0287-434a-bcaa-a4441d903df3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/ModifyUserPassword</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1dface7f-090a-4a6a-903f-b62c22d77a0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/Users/ModifyUser</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bee29875-3d33-47db-8850-e5f28244e5ad</guid>

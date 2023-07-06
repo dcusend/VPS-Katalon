@@ -20,14 +20,15 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 import com.kms.katalon.core.logging.KeywordLogger
-
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
 
 // VT Paths
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 String path_Users = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/"
 String path_UserView = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/"
 String path_DeleteUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/"
+String path_ModifyUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/ModifyUser/"
 
 
 // Get the Execution Profile like QA or Demo
@@ -43,9 +44,10 @@ String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
 def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
-nameSheet = "CreateUser"
-dataFile = "QA/Bootstrap/UM-TestData/CreateUser"
-numOfRows = findTestData('QA/Bootstrap/UM-TestData/CreateUser').getRowNumbers()
+
+nameSheet = "ModifyUser"
+dataFile = "QA/Bootstrap/UM-TestData/ModifyUser"
+numOfRows = findTestData('QA/Bootstrap/UM-TestData/ModifyUser').getRowNumbers()
 println("Number of Records: " + numOfRows)
 
 
@@ -82,6 +84,49 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						WebUI.verifyTextPresent('was successfully created', true)
 					
+						
+						// Select Modify User button
+						WebUI.click(findTestObject(path_ModifyUser + 'button_Modify_UserView'))
+						
+						// Populate ModifyUser page
+						WebUI.setText(findTestObject(path_ModifyUser + 'input_First Name_firstName'), 'ModifiedFname')
+						WebUI.setText(findTestObject(path_ModifyUser + 'input_Last Name_lastName'), 'ModifiedLname')
+						WebUI.setText(findTestObject(path_ModifyUser + 'input_Email Address_emailAddress'), 'imtiazster@gmail.com')
+						WebUI.setText(findTestObject(path_ModifyUser + 'input_Cell Phone Number_cellPhoneNumber'), '7038945000')
+						
+						// Select Modify button
+						WebUI.click(findTestObject(path_ModifyUser + 'button_Update'))
+						
+						
+						// Verify the Static text
+						
+						if (WebUI.verifyTextPresent('User Account Modified The user account for', true))
+							{
+								
+								WebUI.verifyTextPresent('was successfully modified', true)
+								
+								
+								
+								WebUI.verifyTextPresent('ModifiedFname', true)
+								WebUI.verifyTextPresent('ModifiedLname', true)
+								WebUI.verifyTextPresent('imtiazster@gmail.com', true)
+								//WebUI.verifyTextPresent('7038945000', true)
+								
+								KeywordUtil.markPassed("User was Modified Successfully")
+								resText = "Pass"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+								
+							}
+						else
+						{
+							KeywordUtil.markPassed("User was NOT Modified")
+							resText = "Fail"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+		
+						}
+						
+						
+						
 						// Delete User
 						WebUI.click(findTestObject(path_UserView + 'button_Delete'))
 					
@@ -91,11 +136,6 @@ for (def row = 1; row <= numOfRows; row++)
 									
 						// Select another Okay
 						WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
-						
-						KeywordUtil.markPassed("User was Created and Deleted Successfully")
-						resText = "Pass"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-						
 					}
 					
 					else 
@@ -103,6 +143,7 @@ for (def row = 1; row <= numOfRows; row++)
 						//KeywordLogger log = new KeywordLogger()
 						//log.logWarning("User did not got created, can't delete")
 						CustomKeywords.'pages.CustomLogger.log_Logger'("User did not got created, can't delete","Warning")
+						CustomKeywords.'pages.CustomLogger.log_Logger'("User did not got created, can't delete","Fail")
 						KeywordUtil.markFailed("User did not got created, can't delete")
 						resText = "Fail"
 						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)

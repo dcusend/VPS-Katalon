@@ -6,15 +6,18 @@
       "keywordMethods": [
         {
           "name": "getRandomAlphaNum",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "getRandomAlpha",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "getRandomNum",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "getRandomAlphaNumCustomLength",
@@ -32,10 +35,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

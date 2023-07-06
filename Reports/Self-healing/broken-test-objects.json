@@ -692,6 +692,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/ModifyUser/input_Cell Phone Number_cellPhoneNumber",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027cellPhoneNumber\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/ModifyUser/input_Cell Phone Number_cellPhoneNumber_XPATH.png"
     }
   ]
 }
