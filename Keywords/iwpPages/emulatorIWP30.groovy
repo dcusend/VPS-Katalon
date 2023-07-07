@@ -379,38 +379,38 @@ class emulatorIWP30 {
 
 
 				// SetData
-				
-				
+
+
 				def emulator_url = GlobalVariable.urlEmulator
 				def useThisURL
-				
+
 				switch (MV)
 				{
 					case "2.3":
-					useThisURL = emulator_url + "&message_version=2_3"
-					break
-					
+						useThisURL = emulator_url + "&message_version=2_3"
+						break
+
 					case "2.5":
-					useThisURL = emulator_url + "&message_version=2_5"
-					break 	
-					
+						useThisURL = emulator_url + "&message_version=2_5"
+						break
+
 					case "2.7":
-					useThisURL = emulator_url + "&message_version=2_7"
-					break
-					
+						useThisURL = emulator_url + "&message_version=2_7"
+						break
+
 					case "3.0":
-					useThisURL = emulator_url + "&message_version=3_0"
-					break
+						useThisURL = emulator_url + "&message_version=3_0"
+						break
 				}
-				
-				
-	
+
+
+
 
 				WebUI.openBrowser(useThisURL)
 				WebUI.maximizeWindow()
 				//Thread.sleep(5000)
-				
-				
+
+
 
 				WebUI.selectOptionByValue(findTestObject('IWP30/Page_VRelay30Emulator/MV'),MV, true)
 				//Thread.sleep(5000)
@@ -429,16 +429,111 @@ class emulatorIWP30 {
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Order'),Order)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Company'),CompanyName)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Email'),Email)
+				
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF1'),UDF1)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF2'),UDF2)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF8'),UDF8)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF9'),UDF9)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
+				
+				if (MV != "2.3")
+				{
+					println "MV is not 2.3"
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF8'),UDF8)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF9'),UDF9)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
+				}
+				
+				
+			/*if ((!UDF1.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF1'),UDF1)
+					}
+				else {println("UDF1 is not present in the Excel Spreadsheet")}
+				
+				
+				if ((!UDF2.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF2'),UDF2)
+					}
+				else {println("UDF2 is not present in the Excel Spreadsheet")}
+				
+				
+				if ((!UDF3.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
+					}
+				else {println("UDF3 is not present in the Excel Spreadsheet")}
+				
+				
+				if ((!UDF4.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
+					}
+				else {println("UDF4 is not present in the Excel Spreadsheet")}
+				
+				
+				if ((!UDF5.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
+					}
+				else {println("UDF5 is not present in the Excel Spreadsheet")}
+				
+				
+				
+				if ((!UDF6.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
+					}
+				else {println("UDF6 is not present in the Excel Spreadsheet")}
+				
+				
+				
+				if ((!UDF7.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
+					}
+				else {println("UDF7 is not present in the Excel Spreadsheet")}
+				
+				
+				
+				if ((!UDF8.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF8'),UDF8)
+					}
+				else {println("UDF8 is not present in the Excel Spreadsheet")}
+				
+				
+				
+				if ((!UDF9.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF9'),UDF9)
+					}
+				else {println("UDF9 is not present in the Excel Spreadsheet")}
+				
+				
+				
+				if ((!UDF10.isEmpty()))
+					{
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
+					}
+				else {println("UDF10 is not present in the Excel Spreadsheet")}
+				*/
+				
+				
+				
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF1'),UDF1)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF2'),UDF2)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF8'),UDF8)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF9'),UDF9)
+				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
 				//Thread.sleep(2000)
 
 				WebUI.click(findTestObject('IWP30/Page_VRelay30Emulator/Submit'))
