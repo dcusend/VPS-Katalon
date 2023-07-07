@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in both QA and QA2</description>
+   <name>NoModifyAmountCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0e77291-3bd0-44b8-8e80-d7933989a6a2</testCaseGuid>
+</TestCaseEntity>

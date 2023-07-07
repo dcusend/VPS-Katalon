@@ -48,6 +48,12 @@
       <testCaseId>Test Cases/IntegratedWeb/IWP30/Error-OverAndUnderPay</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>86e4822c-145a-4a8b-a09b-583de2bc9201</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP30/NoModifyAmountCC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>c6b99788-3f78-4c63-929c-25e7b06bca4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

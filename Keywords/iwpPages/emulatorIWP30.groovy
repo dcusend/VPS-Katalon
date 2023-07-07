@@ -379,14 +379,41 @@ class emulatorIWP30 {
 
 
 				// SetData
-
+				
+				
 				def emulator_url = GlobalVariable.urlEmulator
+				def useThisURL
+				
+				switch (MV)
+				{
+					case "2.3":
+					useThisURL = emulator_url + "&message_version=2_3"
+					break
+					
+					case "2.5":
+					useThisURL = emulator_url + "&message_version=2_5"
+					break 	
+					
+					case "2.7":
+					useThisURL = emulator_url + "&message_version=2_7"
+					break
+					
+					case "3.0":
+					useThisURL = emulator_url + "&message_version=3_0"
+					break
+				}
+				
+				
+	
 
-				WebUI.openBrowser(emulator_url)
+				WebUI.openBrowser(useThisURL)
 				WebUI.maximizeWindow()
-
+				//Thread.sleep(5000)
+				
+				
 
 				WebUI.selectOptionByValue(findTestObject('IWP30/Page_VRelay30Emulator/MV'),MV, true)
+				//Thread.sleep(5000)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Amount'),Amount)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/CAN'),CAN)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Action'),Action)

@@ -84,13 +84,13 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					
-					Thread.sleep(10000)
+					Thread.sleep(5000)
 					//WebUI.waitForPageLoad(10)
 					
 					// Select Submit button on Confirm CF Page
-					WebUI.click(findTestObject('Object Repository/IWP30/Page_AcceptCF/input_convFeeNotifyAction'))
+					//WebUI.click(findTestObject('Object Repository/IWP30/Page_AcceptCF/input_convFeeNotifyAction'))
 					
-					Thread.sleep(10000)
+					//Thread.sleep(10000)
 					
 					
 					WebUI.verifyTextPresent(("This transaction is subject to a Convenience Fees of \$2.00"), false)

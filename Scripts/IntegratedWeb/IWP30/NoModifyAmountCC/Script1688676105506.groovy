@@ -30,8 +30,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
 	
-	nameSheet = "PayNowCC"
-	dataFile = "IWPTestData/PayNowCreditCard"
+	nameSheet = "NoModifyAmount"
+	dataFile = "IWPTestData/NoModifyAmount"
 	dataFileEmulator = "IWPTestData/EmulatorData"
 	
 	
@@ -60,7 +60,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					System.out.println('Value of Emulator Key is : ' + EmulatorDataKey)
 					
 					// Open Emulator URL and populate
-					CustomKeywords.'iwpPages.emulatorIWP30.setDataEmulator_DD'(EmulatorDataKey)		
+					CustomKeywords.'iwpPages.emulatorIWP30.setDataEmulator_DD'(EmulatorDataKey)
 					
 					def testHarnessURL = GlobalVariable.urlTestHarness
 					
@@ -94,7 +94,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 
 						}
-					else 
+					else
 						{
 							println "Successful Payment Receipt text is not present on the Receipt page"
 							KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))

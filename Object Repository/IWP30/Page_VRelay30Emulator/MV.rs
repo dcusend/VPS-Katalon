@@ -4,7 +4,27 @@
    <name>MV</name>
    <tag></tag>
    <elementGuidId>328f0386-c91c-4568-a8d5-ab4e6abc70b1</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='message_version']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name = 'message_version' and (text() = '2.1
+            2.2
+            2.3
+            2.5
+            2.7
+            3.0' or . = '2.1
+            2.2
+            2.3
+            2.5
+            2.7
+            3.0')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
