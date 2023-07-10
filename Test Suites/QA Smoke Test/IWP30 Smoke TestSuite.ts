@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>57737420-2326-4734-8ea5-fd1858e26b1c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP30/Payments/PayNowSuccessfulPaymentNoCFCC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2484e795-31d1-42d9-8f38-9dd4ea839d19</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP30/Payments/PayNowSuccessfulPaymentSCFCC</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -32,19 +32,19 @@
    <testCaseLink>
       <guid>027d9f44-e4a8-415a-b676-572c597e51a4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP30/Payments/VerifyDualCFVerbiage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a40de46b-572d-4d22-a0fb-c1c47c49b4c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP30/Payments/VerifySingleCFVerbiage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>86e4822c-145a-4a8b-a09b-583de2bc9201</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP30/Payments/NoModifyAmountCC</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>32db5941-f01b-4881-8f9e-61e66271831c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP30/Errors/Error-OverAndUnderPay</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>6869e277-da10-459c-9672-fef8bac0d521</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP30/Errors/NoOverPayError</testCaseId>
    </testCaseLink>
    <testCaseLink>
