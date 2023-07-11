@@ -158,19 +158,19 @@
    <testCaseLink>
       <guid>7bdfe500-8821-402c-acf8-e8e2571c90ef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8317c7b7-a43c-4eb9-b3f8-25672813d129</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0606cb29-1498-4fb4-a593-b2a7555a3cac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_AfterJuly2021_HC_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>27b5c73f-94eb-441f-9a00-e607b4414799</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_AfterJuly2021_MarketplaceFacilitator_HC_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -200,13 +200,13 @@
    <testCaseLink>
       <guid>a831393a-22b4-487f-93c1-afd81c75ee8c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_AfterJuly2021_OutOfStateVendor_HC_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2e95f3ca-6153-49f8-a91e-4efbcdb07201</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_AfterJuly2021_BothChkBox_HC_TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
