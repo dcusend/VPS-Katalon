@@ -25,7 +25,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 String orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page"
 
 
-def taxTypeDropList = ["Estimated Tax","Extension Payments","Sales and Use","Withholding Tax"]
+def taxTypeDropList = ["Estimated Tax","Extension Payments","Sales and Use"]
 def listSize = taxTypeDropList.size()
 println listSize
 
@@ -86,13 +86,13 @@ for (def i = 0; i < listSize; i++)
 			
 			
 			
-			case "Withholding Tax":
-				WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqOBDK95asqKeHw==')
-				WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '')
-				WebUI.verifyTextPresent('Please enter a valid FEIN with 9 digits.', true)
-				WebUI.closeBrowser()
-			break
-			
+			/*
+			 * case "Withholding Tax": WebUI.setEncryptedText(findTestObject(orPath_TaxInfo
+			 * + '/input_FederalEIN'), 'RigbBhfdqOBDK95asqKeHw==')
+			 * WebUI.setEncryptedText(findTestObject(orPath_TaxInfo +
+			 * '/input_FederalEIN_ReEnter'), '') WebUI.verifyTextPresent('Please enter a
+			 * valid FEIN with 9 digits.', true) WebUI.closeBrowser() break
+			 */
 			
 			
 			

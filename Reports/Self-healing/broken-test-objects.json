@@ -701,6 +701,42 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/ModifyUser/input_Cell Phone Number_cellPhoneNumber_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/Taxpayer_Page/input_businessName",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/SAU_MDForm202_Page/select_Select    Estimated Tax    Personal _7587a1",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@id\u003d\u0027taxType\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/SAU_MDForm202_Page/select_Select    Estimated Tax    Personal _7587a1_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/SAU_MDForm202F_MF_AfterJuly2021_Page/select_Select    Estimated Tax    Personal _7587a1",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@id\u003d\u0027taxType\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/SAU_MDForm202F_MF_AfterJuly2021_Page/select_Select    Estimated Tax    Personal _7587a1_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@id\u003d\u0027state\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State_XPATH.png"
     }
   ]
 }

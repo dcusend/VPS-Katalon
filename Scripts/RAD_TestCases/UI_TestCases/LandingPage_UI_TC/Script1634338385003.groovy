@@ -166,8 +166,11 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 		 */
 		
 		def totalOptions = WebUI.getNumberOfTotalOption(findTestObject(orPath + '/dd_TaxType'))
+
+//		if (totalOptions == 6)
 		
-		if (totalOptions == 7)
+// Updates for August 2023			
+		if (totalOptions == 5)
 			{
 				System.out.println('Total Options are correct: ' + totalOptions)
 				KeywordUtil.markPassed("Total Options are correct")
@@ -190,16 +193,16 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 			}
 		
 		
-		
-		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Personal Income Tax", false, 60))
-			{
-				System.out.println('Personal Income Tax Option is present in the Tax Type Drop Down')
-			}
-		else
-			{
-				System.out.println('Personal Income Tax Option is NOT present in the Tax Type Drop Down')
-			}
+			// Updates for August 2023
 			
+			
+			/*
+			 * if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'),
+			 * "Personal Income Tax", false, 60)) { System.out.println('Personal Income Tax
+			 * Option is present in the Tax Type Drop Down') } else {
+			 * System.out.println('Personal Income Tax Option is NOT present in the Tax Type
+			 * Drop Down') }
+			 */			
 		
 		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Extension Payments", false, 60))
 			{
@@ -220,27 +223,26 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 				System.out.println('Existing Liability Option is NOT present in the Tax Type Drop Down')
 			}
 		
+			// Updates for August 2023
 		
-		
-		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Sales and Use", false, 60))
+		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "New Liability", false, 60))
 			{
-				System.out.println('Sales and Use Option is present in the Tax Type Drop Down')
+				System.out.println('New Liability Option is present in the Tax Type Drop Down')
 			}
 		else
 			{
-				System.out.println('Sales and Use Option is NOT present in the Tax Type Drop Down')
+				System.out.println('New Liability Option is NOT present in the Tax Type Drop Down')
 			}
 		
 		
 		
-		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Withholding Tax", false, 60))
-			{
-				System.out.println('Withholding Tax Option is present in the Tax Type Drop Down')
-			}
-		else
-			{
-				System.out.println('Withholding Tax Option is NOT present in the Tax Type Drop Down')
-			}
+			/*
+			 * if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'),
+			 * "Withholding Tax", false, 60)) { System.out.println('Withholding Tax Option
+			 * is present in the Tax Type Drop Down') } else {
+			 * System.out.println('Withholding Tax Option is NOT present in the Tax Type
+			 * Drop Down') }
+			 */
 		
 		
 		

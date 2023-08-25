@@ -24,4 +24,9 @@
       <initValue>'/admin/testcustomer/bootstrap/vpos/'</initValue>
       <name>vpos_Prefix</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-algorithm.govolution.com/vlinktest/Production/version_2_0/'</initValue>
+      <name>VLinkURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

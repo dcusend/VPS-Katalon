@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Works in both QA and Demo</description>
-   <name>WithholdingTax_MRF_TC</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1322f8b0-972b-4a71-9b60-d1a9137886dc</testCaseGuid>
-</TestCaseEntity>

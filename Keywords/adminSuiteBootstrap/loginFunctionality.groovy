@@ -155,13 +155,13 @@ public class loginFunctionality {
 					//WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
 
 					//WebUI.click(findTestObject('Login_Page/Login_Submit'))
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), gv_username)
-					
+
 					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
-					
+
 					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-					
+
 
 				}
 				break

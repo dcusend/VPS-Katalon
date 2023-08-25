@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyLinksRiskAuditReportsDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd86fe2b-cbc1-4a1f-ab35-cca4892ffbdb</testCaseGuid>
+</TestCaseEntity>
