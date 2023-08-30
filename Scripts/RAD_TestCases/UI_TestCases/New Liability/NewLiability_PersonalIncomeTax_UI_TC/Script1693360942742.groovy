@@ -57,6 +57,13 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2020','2021','2022'])
 		
 		
+		
+// Verify Period Ending Month dropdown is not visible		
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+		
+		
+		
+		
 /*
  * #############################################
  * Verify Static Text is present on the page
@@ -171,9 +178,9 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 		
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_userType_Individual'), 30)
-		
+		WebUI.verifyElementVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
 		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_userType_Joint'), 30)
-		
+		WebUI.verifyElementVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 		
 		
 /*
@@ -224,6 +231,21 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 				
 				
 		
+// Verify Payment Amount is present and visible
+		WebUI.verifyTextPresent('Payment Amount', true)
+		WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/input__paymentAmount'), 30)
+		WebUI.verifyElementVisible(findTestObject(orPath_Amount + '/input__paymentAmount'))
+		
+		
+// Verify Sevice Fee static text
+		WebUI.verifyTextPresent('Service Fee: This electronic government service includes a service/convenience fee. Click here for details', true)
+		WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/a_Click here for details'), 30)
+
+		
+		
+// Verify Continue button is present
+		WebUI.verifyElementPresent(findTestObject(orPath_Landing + '/button_Continue'), 30)
+
 		
 		
 // ####################################################

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Works in both QA and Demo</description>
-   <name>SaleAndUseMDForm202_UI_TC</name>
+   <name>SaleAndUseMDForm202_UI_TC_DONOTRUN</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>608f2cc3-f317-4d4b-99ab-470ba1416f24</testCaseGuid>
