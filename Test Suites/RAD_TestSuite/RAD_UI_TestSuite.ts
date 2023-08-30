@@ -29,7 +29,7 @@
       <guid>ab09e508-024b-47a0-9429-3d86d3e7ffdb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/PersonalIncomeTax_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_PersonalIncomeTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -43,21 +43,21 @@
       <guid>a7e470c3-c359-4f94-bc7e-778e746c8161</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/SalesAndUse_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/SalesAndUse_UI_TC_DONOTRUN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6fa752cd-82c7-4bf4-ab2e-78d0997b8a10</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMarketplaceFacilitator_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMarketplaceFacilitator_UI_TC_DONOTRUN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1d188679-70f8-47d4-852a-274a01aa253f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/SaleAndUseMDForm202_UI_TC_DONOTRUN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
