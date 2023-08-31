@@ -54,4 +54,9 @@
       <initValue>'https://dev-algorithm.govolution.com/vrelaytest/QA2/version_2_2/vrelaytest.html'</initValue>
       <name>urlTestHarness</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa2.velocitypayment.com/client/rad/index.html'</initValue>
+      <name>RADurl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
