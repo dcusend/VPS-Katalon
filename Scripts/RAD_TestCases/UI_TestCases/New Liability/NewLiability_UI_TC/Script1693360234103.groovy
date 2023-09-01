@@ -35,7 +35,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 
-	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "New Liability", false)
+	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "New Tax Return Amount Due", false)
 
 	
 	
@@ -55,7 +55,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		}
 
 	
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Fiduciary Tax','Personal Income Tax','PTE (510 LLC) Tax','PTE (510 SCorp) Tax','PTEE (511 LLC) Tax','PTEE (511 SCorp) Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Fiduciary Tax','Personal Income Tax','PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp','PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp Tax'])
 		
 	
 	
@@ -84,7 +84,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			
 			
 			
-		WebUI.verifyTextPresent('Tax Type/Filing Year', true)
+		WebUI.verifyTextPresent('Payment Type/Filing Year', true)
 		
 		WebUI.verifyTextPresent('Taxpayer', true)
 		

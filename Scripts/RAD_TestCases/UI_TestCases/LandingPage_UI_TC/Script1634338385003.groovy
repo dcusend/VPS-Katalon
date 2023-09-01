@@ -183,7 +183,7 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 			
 			
 			
-		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Estimated Tax", false, 60))
+		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Quarterly Estimated Tax", false, 60))
 			{
 				System.out.println('Estimated Tax Option is present in the Tax Type Drop Down')
 			}
@@ -214,7 +214,7 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 			}
 		
 		
-		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Existing Liability", false, 60))
+		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Existing Liability w/Notice Number", false, 60))
 			{
 				System.out.println('Existing Liability Option is present in the Tax Type Drop Down')
 			}
@@ -225,7 +225,7 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 		
 			// Updates for August 2023
 		
-		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "New Liability", false, 60))
+		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "New Tax Return Amount Due", false, 60))
 			{
 				System.out.println('New Liability Option is present in the Tax Type Drop Down')
 			}

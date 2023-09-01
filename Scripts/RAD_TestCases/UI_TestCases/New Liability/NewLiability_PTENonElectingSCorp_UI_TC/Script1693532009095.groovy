@@ -34,35 +34,32 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
-// Verify Tax Type/Filing Year static text
-		WebUI.verifyTextPresent('Tax Type/Filing Year', true)
+
 
 // Select Estimated Tax from the Main Index Page
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Estimated Tax", false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "New Tax Return Amount Due", false)
 
 		
-// Select Fiduciary Tax from the Payment Type dropwown
-		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'PTEE (511 LLC) Tax',false)
+// Select Tax from the Tax Type dropwown
+		WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),'PTE Non-Electing S Corp',false)
 		
 
 // Verify that Filing Year dropdown is present and visible
 		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 		
+
 // Verify the contents of Filing Year dropdown
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
-		WebUI.verifyEqual(totalOptionsFilingYear, 1)
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2023'])
+		WebUI.verifyEqual(totalOptionsFilingYear, 3)
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022', '2021', '2020'])
 		
-// Verify the contents of Period Ending Month dropdown
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+				
+				
+// Verify Period Ending Month dropdown is not visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
 		
-		def totalOptionsPeriodEnding = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
-		WebUI.verifyEqual(totalOptionsPeriodEnding, 13)
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['Month','January','February','March','April','May','June'])
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
 		
 // Verify static text in Taxpayer section
 		WebUI.verifyTextPresent('Taxpayer', true)
@@ -103,17 +100,13 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		def totalOptionsState = WebUI.getNumberOfTotalOption(findTestObject(orPath_AddressContact + '/select_State'))
 		WebUI.verifyEqual(totalOptionsState, 52)
-		
-		
+
+
 // Verify FEIN under Tax Information section
 		WebUI.verifyTextPresent('Tax Information', true)
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
 
-		
-// Verify Filing Status section is not present
-		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
-		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 
 		
 		
@@ -132,4 +125,4 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Verify Continue button is present
 		WebUI.verifyElementPresent(findTestObject(orPath_Landing + '/button_Continue'), 30)
 		
-		
+

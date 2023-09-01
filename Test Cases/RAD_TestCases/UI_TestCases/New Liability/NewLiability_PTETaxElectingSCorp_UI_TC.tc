@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>NewLiability_PTEE511LLCTax_UI_TC</name>
+   <name>NewLiability_PTETaxElectingSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e51aca47-19eb-4aa9-a3ea-967b476bc5f2</testCaseGuid>
+   <testCaseGuid>59474a8a-bc4d-4e94-b8c7-e4f854bbc742</testCaseGuid>
 </TestCaseEntity>

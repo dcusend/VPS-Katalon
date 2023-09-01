@@ -32,8 +32,13 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 
 
 
-	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Personal Income Tax", false)
-	
+// Select Estimated Tax from the Main Index Page
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "New Tax Return Amount Due", false)
+
+		
+// Select Fiduciary Tax from the Payment Type dropwown
+		WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),'Personal Income Tax',false)
+		
 	
 	
 	
@@ -51,7 +56,7 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 			
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 			
-		WebUI.verifyEqual(totalOptionsFilingYear, 4)
+		WebUI.verifyEqual(totalOptionsFilingYear, 3)
 			
 						
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2020','2021','2022'])
@@ -72,7 +77,7 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 		
 		
 		
-		WebUI.verifyTextPresent('Tax Type/Filing Year', true)
+		WebUI.verifyTextPresent('Payment Type/Filing Year', true)
 		
 		WebUI.verifyTextPresent('Taxpayer', true)
 		
