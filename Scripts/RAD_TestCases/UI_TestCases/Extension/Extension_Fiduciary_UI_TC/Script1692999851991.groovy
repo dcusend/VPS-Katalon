@@ -35,7 +35,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 // Verify Tax Type/Filing Year static text
-		WebUI.verifyTextPresent('Tax Type/Filing Year', true)
+		WebUI.verifyTextPresent('Payment Type/Filing Year', true)
 
 // Select Estimated Tax from the Main Index Page
 		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Extension Payments", false)

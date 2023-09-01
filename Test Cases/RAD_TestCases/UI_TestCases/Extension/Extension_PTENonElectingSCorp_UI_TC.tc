@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Extension_PTE510LLCTax_UI_TC</name>
+   <name>Extension_PTENonElectingSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>22f10259-55d9-406a-806a-b6160183baa3</testCaseGuid>
+   <testCaseGuid>4d0fb23f-0916-4566-b5ba-a8031050b7af</testCaseGuid>
 </TestCaseEntity>

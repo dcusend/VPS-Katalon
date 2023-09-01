@@ -55,9 +55,9 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Updates for August 2023
 		WebUI.verifyEqual(totalOptionsPaymentType, 8)
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Personal','Corporate'])
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Fiduciary Tax','PTE (510 LLC) Tax','PTE (510 SCorp) Tax'])
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTEE (511 LLC) Tax','PTEE (511 SCorp) Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Personal Income Tax','Corporate Income Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp Tax'])
 			
 			
 		
@@ -83,7 +83,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		
 		
-		WebUI.verifyTextPresent('Tax Type/Filing Year', true)
+		WebUI.verifyTextPresent('Payment Type/Filing Year', true)
 		
 		WebUI.verifyTextPresent('Taxpayer', true)
 		
@@ -250,7 +250,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 */
 				
 				
-			WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Personal',false)
+			WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Personal Income Tax',false)
 			
 			
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
@@ -288,7 +288,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 * ###########################################################
 */
 					
-			WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Corporate',false)
+			WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Corporate Income Tax',false)
 			
 			// Verify Period Ending Dropdown
 			WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)

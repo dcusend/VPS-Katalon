@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Extension_PTE510SCorpTax_UI_TC</name>
+   <name>Extension_PTETaxElectingNonSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4d0fb23f-0916-4566-b5ba-a8031050b7af</testCaseGuid>
+   <testCaseGuid>d4f16481-c805-473c-a74f-f5b4902a3a76</testCaseGuid>
 </TestCaseEntity>

@@ -176,28 +176,28 @@
       <guid>10a98804-0f12-48a5-8390-cf1ca18ff542</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PTE510LLCTax_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PTENonElectingNonSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b1c0a01b-c7e8-45cd-b924-26138262302f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PTE510SCorpTax_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PTENonElectingSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c30ac2d9-6048-4938-8fd9-38f4f3258cc8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PTEE511LLCTax_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PTETaxElectingNonSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fded22d0-815b-4c2c-b5ea-14600e1e7a62</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PTEE511SCorpTax_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PTETaxElectingSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
