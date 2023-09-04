@@ -39,6 +39,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 		{
 		
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
+			Taxtype = findTestData(dataFile).getValue('TaxType', row)
+			Paymenttype = findTestData(dataFile).getValue('PaymentType', row)
 			
 			System.out.println('Value of Execute is : ' + ExecuteTC)
 			
@@ -68,21 +70,96 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					String orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page"
 					String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
 					String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
+					String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 					
 					
 					
-					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'),Taxtype , false)
+					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'),Paymenttype , false)
+					
+					WebUI.delay(1)
+					
+					
+// Tax Type dropdown is different
+					
+					switch (Paymenttype)
+					{
+						
+						case "Existing Liability w/Notice Number":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
+						
+						break
+						
+						
+						case "Quarterly Estimated Tax":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
+						
+						break
+						
+						
+						case "Extension Payment":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
+						
+						break
+						
+						
+						case "New Tax Return Amount Due":
+								WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),Taxtype,false)
+						
+						break
+						
+						
+					}
+					
+
+					WebUI.delay(1)
 					
 					WebUI.scrollToElement(findTestObject(orPath_TaxPayer + '/input_firstName'), 3)
 					
-//					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_PSSN'),"111111111")
+
 					
-//					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'),"222222222")
+// SSN fields are different for Existing Liability
+					switch (Paymenttype)
+					{
+						
+						case "Existing Liability w/Notice Number":
+								
+								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_Existing_SSN'), "111111111")
+								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_Existing_RetypeSSN'), "222222222")
+								WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+												
+						break
+						
+						
+						case "Quarterly Estimated Tax":
+								
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "111111111")
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "222222222")	
+								WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+						break
+						
+						
+						case "Extension Payment":
+								
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "111111111")
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "222222222")	
+								WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+						break
+						
+						
+						case "New Tax Return Amount Due":
+								
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "111111111")
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "222222222")
+								WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+						
+						break
+						
+						
+					}
 					
-					WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "111111111")
-					WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "222222222")
-					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
 					
+					
+												
 					
 					WebUI.delay(2)
 					
@@ -104,14 +181,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 		
 					
 				}
-				/*
-				 * else {
-				 * 
-				 * Date today = new Date() println (today) String datText = today resText =
-				 * "No Run"
-				 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-				 * ,fileLoc,nameSheet,row) }
-				 */
+				
 		
 		
 		}

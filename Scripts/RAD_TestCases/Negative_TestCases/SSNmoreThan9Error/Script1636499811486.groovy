@@ -17,50 +17,171 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String orPath_Landing = "Object Repository/RAD_Pages/Landing_Page"
-String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
-String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
-String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
-String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+//String fileLoc = "C:\\KatalonData\\RADTestData\\TaxPayerSSNNoMatch.xlsx"
+String fileLoc = "KatalonData/RADTestData/SSNmoreThan9Error.xlsx"
+String nameSheet = "Sheet1"
+String dataFile = "RADTestData/SSNmoreThan9Error"
+
+def ExecuteTC, Taxtype
 
 
-def taxTypeDropList = ["Estimated Tax","Personal Income Tax","Extension Payments"]
-def listSize = taxTypeDropList.size()
-println listSize
+def numOfRows = findTestData(dataFile).getRowNumbers()
+
+	println("Number of Records: " + numOfRows)
 
 
-
-
-for (def i = 0; i < listSize; i++)
-	{
-		WebUI.openBrowser('')
+	// For each row in the spreadsheet, execute the given steps
+	for (def row = 1; row <= numOfRows; row++)
+		{
 		
-		WebUI.maximizeWindow()
-		
-		WebUI.navigateToUrl(GlobalVariable.RADurl)
-		
-		System.out.println ("Value of taxTypeDropList : " + taxTypeDropList[i])
-		
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), taxTypeDropList[i], false)
-		
-		if (taxTypeDropList[i].equalsIgnoreCase("Existing Liability"))
-			{
-				WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
-				WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_ExisitingSSN'),"12345123400")
-				WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),"")
-				
+			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
+			Taxtype = findTestData(dataFile).getValue('TaxType', row)
+			Paymenttype = findTestData(dataFile).getValue('PaymentType', row)
 			
-			}
-		else
-			{
-				WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
-				WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "12345123400")
-				WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "")
-			}
+			System.out.println('Value of Execute is : ' + ExecuteTC)
+			
+			
+			if (ExecuteTC.equalsIgnoreCase("Y"))
+				{
+					System.out.println('Begin Record Number: ' + row)
+		
+					Date today = new Date()
+					println (today)
+					String datText = today
+					
+					Taxtype = findTestData(dataFile).getValue('TaxType', row)
+					
+					System.out.println('Taxtype value is : ' + Taxtype)
+					
+					
+					WebUI.openBrowser('')
+					
+					WebUI.maximizeWindow()
+					
+					WebUI.navigateToUrl(GlobalVariable.RADurl)
+					
+					String orPath_Landing = "Object Repository/RAD_Pages/Landing_Page"
+					String orPath_TaxTypeFilingYear = "Object Repository/RAD_Pages/TaxTypeFilingYear_Page"
+					String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
+					String orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page"
+					String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
+					String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
+					String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
+					
+					
+					
+					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'),Paymenttype , false)
+					
+					WebUI.delay(1)
+					
+					
+// Tax Type dropdown is different
+					
+					switch (Paymenttype)
+					{
+						
+						case "Existing Liability w/Notice Number":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
+						
+						break
+						
+						
+						case "Quarterly Estimated Tax":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
+						
+						break
+						
+						
+						case "Extension Payment":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
+						
+						break
+						
+						
+						case "New Tax Return Amount Due":
+								WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),Taxtype,false)
+						
+						break
+						
+						
+					}
+					
+
+					WebUI.delay(1)
+					
+					WebUI.scrollToElement(findTestObject(orPath_TaxPayer + '/input_firstName'), 3)
+					
+
+					
+// SSN fields are different for Existing Liability
+					switch (Paymenttype)
+					{
+						
+						case "Existing Liability w/Notice Number":
+								
+								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_Existing_SSN'), "1111111111")
+								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_Existing_RetypeSSN'), "")
+								
+												
+						break
+						
+						
+						case "Quarterly Estimated Tax":
+								
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "1111111111")
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "")	
+								
+						break
+						
+						
+						case "Extension Payment":
+								
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "1111111111")
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "")	
+								
+						break
+						
+						
+						case "New Tax Return Amount Due":
+								
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "1111111111")
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "")
+								
+						
+						break
+						
+						
+					}
+					
+					
+					
+												
+					
+					WebUI.delay(2)
+					
+					if (WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true))
+						{
+							println "Please enter a valid SSN with 9 digits"
+							System.out.println('Pass Record Number: ' + row)
+							resText = "Pass"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						}
+					else
+						{
+							println "Please enter a valid SSN with 9 digits" + Taxtype + "page"
+							System.out.println('Fail Record Number: ' + row)
+							resText = "Fail"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						}
+					
+		
+					
+				}
+				
 		
 		
-		WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits.', true)
-		
-		WebUI.closeBrowser()
-		
-	}
+		}

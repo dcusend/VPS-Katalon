@@ -41,7 +41,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 		
 // Select Tax from the Tax Type dropwown
-		WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),'PTE Tax Electing S Corp Tax',false)
+		WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),'PTE Tax Electing S Corp',false)
 		
 
 // Verify that Filing Year dropdown is present and visible
@@ -51,7 +51,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 // Verify the contents of Filing Year dropdown
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
-		WebUI.verifyEqual(totalOptionsFilingYear, 3)
+		WebUI.verifyEqual(totalOptionsFilingYear, 4)
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022', '2021', '2020'])
 		
 				

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Joint Filer SSN more than 9 Error.  Works in both QA and Demo</description>
-   <name>SSNjointFilerMoreThan9Error</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ac10df1c-8625-4d6b-b1af-52f1a4f53b98</testCaseGuid>
-</TestCaseEntity>

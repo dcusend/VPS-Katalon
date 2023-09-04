@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>JointFilerSSNmoreThan9Error</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f53d6f32-5934-454b-9fbc-f2d1681c5b0d</testCaseGuid>
+</TestCaseEntity>

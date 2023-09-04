@@ -39,6 +39,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 		{
 		
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
+			Taxtype = findTestData(dataFile).getValue('TaxType', row)
+			Paymenttype = findTestData(dataFile).getValue('PaymentType', row)
 			
 			System.out.println('Value of Execute is : ' + ExecuteTC)
 			
@@ -71,7 +73,48 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 					
-					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'),Taxtype , false)
+					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'),Paymenttype , false)
+					
+					WebUI.delay(1)
+					
+					
+// Tax Type dropdown is different
+					
+					switch (Paymenttype)
+					{
+						
+						case "Existing Liability w/Notice Number":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
+						
+						break
+						
+						
+						case "Quarterly Estimated Tax":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
+						
+						break
+						
+						
+						case "Extension Payment":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
+						
+						break
+						
+						
+						case "New Tax Return Amount Due":
+								WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),Taxtype,false)
+						
+						break
+						
+						
+					}
+					
+
+					WebUI.delay(1)
+					
+					
+	
+					
 					
 					WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 					

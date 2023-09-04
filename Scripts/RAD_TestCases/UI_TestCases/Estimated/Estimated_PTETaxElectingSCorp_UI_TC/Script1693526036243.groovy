@@ -42,7 +42,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
-		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'PTE Tax Electing S Corp Tax',false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'PTE Tax Electing S Corp',false)
 		
 
 // Verify that Filing Year dropdown is present and visible

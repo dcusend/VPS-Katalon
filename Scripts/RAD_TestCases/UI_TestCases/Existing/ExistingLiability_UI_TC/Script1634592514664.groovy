@@ -37,7 +37,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 
 
 
-	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability", false)
+	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
 	
 
 /*	
@@ -56,13 +56,13 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		WebUI.verifyEqual(totalOptionsExistingLiability, 13)
 	
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Bay Restoration Fund Tax','CORP Tax','Fiduciary Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Bay Restoration Fee','Corporate Income Tax','Fiduciary Tax'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Personal Tax','PTE (510 LLC) Tax','Sales & Use Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Personal Income Tax','PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['PTE (510 SCorp) Tax','PTEE (511 LLC) Tax','PTEE (511 SCorp) Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp','Sales & Use Tax'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Withholding Tax','Alcohol Tax','Tire Fee Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Withholding Tax','Alcohol Tax','Tire Recycling Fee'])
 		
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
 		
@@ -93,7 +93,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 			 
 			 
 			 
-		WebUI.verifyTextPresent('Tax Type/Filing Year', true)
+		WebUI.verifyTextPresent('Payment Type/Filing Year', true)
 			 
 		WebUI.verifyTextPresent('Taxpayer', true)
 			 

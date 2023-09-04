@@ -37,7 +37,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 // Select Estimated Tax from the Main Index Page
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability", false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
@@ -93,8 +93,8 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 // Verify FEIN under Tax Information section
 		WebUI.verifyTextPresent('Tax Information', true)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'),30)
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'),30)
 
 
 		

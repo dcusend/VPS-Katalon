@@ -33,7 +33,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 
-	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Extension Payments", false)
+	WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Extension Payment", false)
 	
 	
 	
@@ -55,9 +55,9 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Updates for August 2023
 		WebUI.verifyEqual(totalOptionsPaymentType, 8)
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Personal Income Tax','Corporate Income Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Select','Personal Income Tax','Corporate Income Tax','Fiduciary Tax'])
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp'])
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp'])
 			
 			
 		

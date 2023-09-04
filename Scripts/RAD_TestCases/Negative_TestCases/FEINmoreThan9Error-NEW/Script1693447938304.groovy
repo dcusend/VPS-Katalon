@@ -21,7 +21,7 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/RADTestData/FEINmoreThan9Error.xlsx"
-String nameSheet = "NumberError"
+String nameSheet = "Sheet1"
 String dataFile = "RADTestData/FEINmoreThan9Error"
 
 def ExecuteTC, Taxtype, Paymenttype
@@ -85,12 +85,78 @@ def ExecuteTC, Taxtype, Paymenttype
 					
 					WebUI.delay(1)
 					
-					WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
+					// Tax Type dropdown is different
 					
-					WebUI.delay(5)
+					switch (Paymenttype)
+					{
+						
+						case "Existing Liability w/Notice Number":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
+						
+						break
+						
+						
+						case "Quarterly Estimated Tax":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
+						
+						break
+						
+						
+						case "Extension Payment":
+								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
+						
+						break
+						
+						
+						case "New Tax Return Amount Due":
+								WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),Taxtype,false)
+						
+						break
+						
+						
+					}
 					
-					WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqOBDK95asqKeHw==')
-					WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '')
+					
+					WebUI.delay(1)
+					
+					
+					// FIEN fields are different for each Payment Type
+					switch (Paymenttype)
+					{
+						
+						case "Existing Liability w/Notice Number":
+								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_FEIN'), 'RigbBhfdqOBDK95asqKeHw==')
+								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_RetypeFEIN'), '')
+					
+						
+						break
+						
+						
+						case "Quarterly Estimated Tax":
+								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqOBDK95asqKeHw==')
+								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '')
+						
+						break
+						
+						
+						case "Extension Payment":
+								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqOBDK95asqKeHw==')
+								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '')
+														
+						break
+						
+						
+						case "New Tax Return Amount Due":
+								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'), 'RigbBhfdqOBDK95asqKeHw==')
+								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'), '')
+						
+						break
+						
+						
+					}
+					
+					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqOBDK95asqKeHw==')
+					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '')
 					WebUI.verifyTextPresent('Please enter a valid FEIN with 9 digits.', true)
 					
 					if (WebUI.verifyTextPresent('Please enter a valid FEIN with 9 digits.', true))

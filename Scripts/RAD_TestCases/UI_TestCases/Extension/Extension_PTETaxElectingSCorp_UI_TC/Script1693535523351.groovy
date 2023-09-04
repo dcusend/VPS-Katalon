@@ -38,11 +38,11 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyTextPresent('Payment Type/Filing Year', true)
 
 // Select Estimated Tax from the Main Index Page
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Extension Payments", false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Extension Payment", false)
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
-		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'PTE Tax Electing S Corp Tax',false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'PTE Tax Electing S Corp',false)
 		
 
 // Verify that Filing Year dropdown is present and visible

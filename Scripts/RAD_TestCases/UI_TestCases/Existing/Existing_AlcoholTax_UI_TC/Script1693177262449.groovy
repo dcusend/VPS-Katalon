@@ -18,6 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testobject.SelectorMethod
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.testobject.TestObject as TestObject
 
 WebUI.openBrowser('')
 
@@ -37,7 +40,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 // Select Estimated Tax from the Main Index Page
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability", false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
@@ -90,10 +93,34 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyEqual(totalOptionsState, 52)
 		
 		
+		
+		TestObject existing_FEIN = new TestObject()
+		existing_FEIN.setSelectorMethod(SelectorMethod.BASIC)
+		existing_FEIN.addProperty("name", ConditionType.EQUALS, "taxTypeExisitingFEIN")
+		existing_FEIN.addProperty("id", ConditionType.EQUALS, "taxTypeExisitingFEIN")
+		
+		
+		TestObject existing_FEIN_Retype = new TestObject()
+		existing_FEIN_Retype.setSelectorMethod(SelectorMethod.BASIC)
+		existing_FEIN_Retype.addProperty("name", ConditionType.EQUALS, "reTaxTypeExisitingFEIN")
+		existing_FEIN_Retype.addProperty("id", ConditionType.EQUALS, "reTaxTypeExisitingFEIN")
+		
+		
+		
+// Verify FEIN under Tax Information section
+		//WebUI.verifyTextPresent('Tax Information', true)
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
+		
+		
 // Verify FEIN under Tax Information section
 		WebUI.verifyTextPresent('Tax Information', true)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
+		//WebUI.verifyElementVisible(existing_FEIN)
+		//WebUI.verifyElementVisible(existing_FEIN)
+		WebUI.verifyElementPresent(existing_FEIN, 30)
+		WebUI.verifyElementPresent(existing_FEIN_Retype, 30)
+		
+
 
 
 		

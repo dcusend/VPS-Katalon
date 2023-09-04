@@ -737,6 +737,24 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/AddressAndContactInfo_Page/select_State_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_RecordAndPlay/iframe_TheSocial Security Number and Re-enter SSN do not match_tx_iframe_taxTypeExisitingFEINIFrame",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//iframe[@id\u003d\u0027tx_iframe_taxTypeExisitingFEINIFrame\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_RecordAndPlay/iframe_TheSocial Security Number and Re-enter SSN do not match_tx_iframe_taxTypeExisitingFEINIFrame_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_RecordAndPlay/iframe_Please enter a valid FEIN with 9 digits_tx_iframe_reTaxTypeExisitingFEINIFrame",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//iframe[@id\u003d\u0027tx_iframe_reTaxTypeExisitingFEINIFrame\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_RecordAndPlay/iframe_Please enter a valid FEIN with 9 digits_tx_iframe_reTaxTypeExisitingFEINIFrame_XPATH.png"
     }
   ]
 }
