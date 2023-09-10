@@ -755,6 +755,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_RecordAndPlay/iframe_Please enter a valid FEIN with 9 digits_tx_iframe_reTaxTypeExisitingFEINIFrame_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/PaymentReady_Page/button_ProceedtoPayment",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027info\u0027])[47]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/PaymentReady_Page/button_ProceedtoPayment_neighbor.png"
     }
   ]
 }

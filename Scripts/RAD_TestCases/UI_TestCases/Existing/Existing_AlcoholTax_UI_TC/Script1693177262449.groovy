@@ -65,11 +65,14 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
 		
 		
-// Verify that Name fields are not visible
+// Verify that the following fields are not present under Taxpayer section
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_middleName'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_lastName'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
+		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
+		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatReSSN'))
+		
 		
 		
 // Verify Address and Contact Information static text and fields are present
@@ -132,6 +135,15 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
 		
 
+		
+// Verify Filing Status section is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+
+		
+// Verify that MD Central Registration Number field is NOT visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+		
 	
 		
 // Verify Payment Amount is present and visible

@@ -108,7 +108,7 @@ def ExecuteTC, Taxtype, Paymenttype
 						break
 						
 						
-						case "Extension Payment":
+						case "Extension Payments":
 								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
 						
 						break
@@ -151,7 +151,7 @@ def ExecuteTC, Taxtype, Paymenttype
 						break
 						
 						
-						case "Extension Payment":
+						case "Extension Payments":
 								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
 								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'RigbBhfdqOBBGbZqm4oFJQ==')
 														

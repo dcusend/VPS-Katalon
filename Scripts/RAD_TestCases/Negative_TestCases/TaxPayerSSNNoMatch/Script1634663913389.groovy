@@ -96,7 +96,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						break
 						
 						
-						case "Extension Payment":
+						case "Extension Payments":
 								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),Taxtype,false)
 						
 						break
@@ -138,7 +138,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						break
 						
 						
-						case "Extension Payment":
+						case "Extension Payments":
 								
 								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "111111111")
 								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "222222222")	

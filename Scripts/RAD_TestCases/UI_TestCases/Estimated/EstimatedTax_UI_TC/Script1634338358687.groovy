@@ -103,7 +103,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			
 			
 // Updates for August 2023
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Select', 'Corporate Income Tax',  'Fiduciary Tax', 'Personal Income Tax', 'PTE Non-Electing Non-S Corp', 'PTE Non-Electing S Corp', 'PTE Tax Electing Non-S Corp', 'PTE Tax Electing S Corp Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Select', 'Corporate Income Tax',  'Fiduciary Tax', 'Personal Income Tax', 'PTE Non-Electing Non-S Corp', 'PTE Non-Electing S Corp', 'PTE Tax Electing Non-S Corp', 'PTE Tax Electing S Corp'])
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2023'])
 		
@@ -132,15 +132,15 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.verifyTextPresent('address and contact information', true)
 		
-		WebUI.verifyTextPresent('Filing Status', true)
+		//WebUI.verifyTextPresent('Filing Status', true)
 		
-		WebUI.verifyTextPresent('Is this an Individual or Joint Filing?', true)
+		//WebUI.verifyTextPresent('Is this an Individual or Joint Filing?', true)
 		
-		WebUI.verifyTextPresent('Filing type', true)
+		//WebUI.verifyTextPresent('Filing type', true)
 		
-		WebUI.verifyTextPresent('Individual Filing', true)
+		//WebUI.verifyTextPresent('Individual Filing', true)
 		
-		WebUI.verifyTextPresent('Joint Filing', true)
+		//WebUI.verifyTextPresent('Joint Filing', true)
 		
 		WebUI.verifyTextPresent('Payment Amount', true)
 		
@@ -219,9 +219,9 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
  */
 		
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_userType_Individual'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_userType_Individual'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_userType_Joint'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_userType_Joint'), 30)
 		
 		
 		
@@ -247,19 +247,19 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 		
-		WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
+		//WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
 			
-		WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+		//WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 		
-		WebUI.verifyTextPresent('Provide the following information for the joint filer', true)
+		//WebUI.verifyTextPresent('Provide the following information for the joint filer', true)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointFirstName'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointFirstName'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointMiddleName'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointMiddleName'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointLastName'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointLastName'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSuffix'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSuffix'), 30)
 		
 //		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSSN'), 30)
 		
@@ -267,9 +267,9 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		
 		// Joint Filing SSN
-		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'), 30)
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'), 30)
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'), 30)
 		
 	
 		
@@ -284,7 +284,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
  */
 		
 		
-		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Personal',false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Personal Income Tax',false)
 		
 		
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
@@ -311,6 +311,16 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
 		
+		
+// Verify that Notice or Invoice Number is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
+		
+		
+// Verify that MD Central Registration Number field is NOT visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+		
+		
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
 		
 		
@@ -322,9 +332,9 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 * ###########################################################
 */
 			
-		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Corporate',false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Corporate Income Tax',false)
 		
-		// Verify Period Ending Dropdown
+// Verify Period Ending Dropdown
 		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
 		
 		def totalOptionsPeriodEnding = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
@@ -354,6 +364,13 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
 		
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+		
+// Verify that Notice or Invoice Number is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
+		
+// Verify that MD Central Registration Number field is NOT visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
 		
 		
 		

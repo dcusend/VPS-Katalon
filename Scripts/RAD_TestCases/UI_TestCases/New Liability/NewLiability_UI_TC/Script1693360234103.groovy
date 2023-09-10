@@ -39,10 +39,10 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 	
 	
-	def totalOptionsPaymentType = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'))
+	def totalOptionsPaymentType = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'))
 	
 // Updates for August 2023
-	if (WebUI.verifyEqual(totalOptionsPaymentType, 7))
+	if (WebUI.verifyEqual(totalOptionsPaymentType, 21))
 	
 		{
 			System.out.println('Total Options for Payment Type are correct: ' + totalOptionsPaymentType)
@@ -55,7 +55,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		}
 
 	
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Fiduciary Tax','Personal Income Tax','PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp','PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp Tax'])
+		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Fiduciary Tax','Personal Income Tax','PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp','PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp'])
 		
 	
 	
@@ -67,7 +67,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Verify the contents of Filing Year dropdown
 	def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 	WebUI.verifyEqual(totalOptionsFilingYear, 4)
-	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022,2021,2020'])
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['Select','2023','2022','2021'])
 	
 			
 			
@@ -100,15 +100,15 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.verifyTextPresent('address and contact information', true)
 		
-		WebUI.verifyTextPresent('Filing Status', true)
+		//WebUI.verifyTextPresent('Filing Status', true)
 		
-		WebUI.verifyTextPresent('Is this an Individual or Joint Filing?', true)
+		//WebUI.verifyTextPresent('Is this an Individual or Joint Filing?', true)
 		
-		WebUI.verifyTextPresent('Filing type', true)
+		//WebUI.verifyTextPresent('Filing type', true)
 		
-		WebUI.verifyTextPresent('Individual Filing', true)
+		//WebUI.verifyTextPresent('Individual Filing', true)
 			
-		WebUI.verifyTextPresent('Joint Filing', true)
+		//WebUI.verifyTextPresent('Joint Filing', true)
 		
 		WebUI.verifyTextPresent('Payment Amount', true)
 		
@@ -185,7 +185,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 	
 // Verify that MD Central Registration Number field is visible
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
 		
 		
 		

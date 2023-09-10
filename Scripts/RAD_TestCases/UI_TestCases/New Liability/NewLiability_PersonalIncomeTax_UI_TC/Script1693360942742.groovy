@@ -29,6 +29,7 @@ String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
 String orPath_AddressContact = "Object Repository/RAD_Pages/AddressAndContactInfo_Page"
 String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
 String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
+String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 
@@ -172,6 +173,25 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 		
 		WebUI.verifyEqual(totalOptionsState, 52)
 		
+		
+		
+// Verify that Notice or Invoice Number is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
+		
+		
+// Verify FEIN under Tax Information section is NOT visible
+		WebUI.verifyTextPresent('Tax Information', true)
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
+		
+		
+// Verify that MD Central Registration Number field is NOT visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+		
+		
+// Verify Business Name textbox is NOT present under Taxpayer section
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
 		
 		
 /*

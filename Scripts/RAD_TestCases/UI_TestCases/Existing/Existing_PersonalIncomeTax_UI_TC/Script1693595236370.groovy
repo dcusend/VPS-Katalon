@@ -117,6 +117,19 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatReSSN'),30)
 
 		
+// Verify FEIN under Tax Information section is NOT visible
+		WebUI.verifyTextPresent('Tax Information', true)
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
+		
+		
+// Verify Filing Status section is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+
+		
+// Verify that MD Central Registration Number field is NOT visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
 		
 		
 // Verify Payment Amount is present and visible

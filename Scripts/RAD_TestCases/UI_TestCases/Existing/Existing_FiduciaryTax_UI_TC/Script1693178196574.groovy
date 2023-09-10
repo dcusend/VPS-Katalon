@@ -56,8 +56,8 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 		
 		
-// Verify that Business Name text box is not visible
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
+// Verify that Business Name text box is  visible
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
 		
 		
 		
@@ -68,18 +68,14 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyTextPresent('information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information', true)
 
 		
-// Verify Taxpayer fields
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_firstName'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
+// Verify that the following fields are not present under Taxpayer section
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_middleName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_lastName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
+		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
+		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatReSSN'))
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_middleName'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_middleName'))
-		
-	    WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_lastName'), 30)
-	    WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_lastName'))
-	   
-	    WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_suffix'), 30)
-	    WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
 		
 		
 		
@@ -135,6 +131,16 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
 		
 
+		
+// Verify Filing Status section is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+
+		
+// Verify that MD Central Registration Number field is NOT visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+		
+		
 	
 // Verify Payment Amount is present and visible
 		WebUI.verifyTextPresent('Payment Amount', true)
