@@ -1,0 +1,56 @@
+{
+  "keywordFileContentHash": "9E8ADFF23D7BD271575C064CE5E22BDB",
+  "keywordClasses": [
+    {
+      "name": "rad.getSetDataRAD",
+      "keywordMethods": [
+        {
+          "name": "setDataRADssnAndName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADssnAndNameJointFiler",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADNameOnly",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADNoticeInvoiceTen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADNoticeInvoiceThirteen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADFEIN",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADMDCRN",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADBusinessName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADAddress",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

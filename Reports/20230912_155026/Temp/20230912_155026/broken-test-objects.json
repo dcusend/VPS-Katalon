@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Payment Amount:\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230912_155026/Temp/20230912_155026/Object Repository/RAD_Pages/Summary_Page/button_Proceed to Payment_XPATH.png"
+    }
+  ]
+}

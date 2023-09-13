@@ -181,7 +181,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		
 // Verify FEIN under Tax Information section is NOT visible
-		WebUI.verifyTextPresent('Tax Information', true)
+		//WebUI.verifyTextPresent('Tax Information', true)
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
 		

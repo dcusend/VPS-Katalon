@@ -49,4 +49,24 @@
       <initValue>'979'</initValue>
       <name>VLinkSaleTranxID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456724'</initValue>
+      <name>rad_SSN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'btes'</initValue>
+      <name>rad_SSN_LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456723'</initValue>
+      <name>rad_SSN_Joint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ctes'</initValue>
+      <name>rad_SSN_Joint_LastName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

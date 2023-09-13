@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Temp,Chrome 116.0.0.0,,,2023-09-12 14:02:54,2023-09-12 14:03:19,24.593s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/BeforePayments_TestCases/Existing_BeforePayments_TC,Chrome 116.0.0.0,,,2023-09-12 14:02:55,2023-09-12 14:03:19,24.172s,FAILED
+"resText = ""Fail""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"resColumn = ""Result""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/BeforePayments.xlsx""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"nameSheet = ""Existing""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.002s,PASSED
+"dataFile = ""RADTestData/BeforePayments_Existing""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.000s,PASSED
+"orPath_Landing = ""Object Repository/RAD_Pages/Landing_Page""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"orPath_TaxTypeFilingYear = ""Object Repository/RAD_Pages/TaxTypeFilingYear_Page""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"orPath_Amount = ""Object Repository/RAD_Pages/PaymentAmount_Page""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"orPath_AddressContact = ""Object Repository/RAD_Pages/AddressAndContactInfo_Page""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"orPath_Summary = ""Object Repository/RAD_Pages/Summary_Page""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"orPath_PaymentConfirmation = ""Object Repository/RAD_Pages/PaymentConfirmation_Page""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+"orPath_ServiceFeesAccept = ""Object Repository/RAD_Pages/ServiceFeeAccept_Page""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.002s,PASSED
+"orPath_PaymentEntry = ""Object Repository/RAD_Pages/PaymentEntry_Page""",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.003s,PASSED
+TaxType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+PaymentType = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+FilingYear = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+PeriodEndingMonth = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.942s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:02:56,0.004s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 116.0.0.0,,,2023-09-12 14:02:56,2023-09-12 14:03:19,22.519s,FAILED

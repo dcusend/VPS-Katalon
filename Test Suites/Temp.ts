@@ -12,9 +12,31 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>9dc19b55-e8cf-47b8-a693-7274d295cc13</testSuiteGuid>
    <testCaseLink>
-      <guid>f2d94542-bbcd-4566-984e-3318978fccec</guid>
+      <guid>2bda37ac-75b4-4700-803d-50c96abb9c13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/VT-NotInTestSuite/SaleKeyboard_TP_NoCF_App742_Payment_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Existing_BeforePayments_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>586fe1a8-4fc8-48c6-b038-ab95e3fa5457</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Estimated_BeforePayments_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>585c0a9e-241d-4cde-abd9-2b2bfb133240</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Extension_BeforePayments_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb38909d-d560-43b9-82b9-a2ddeb78bf39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/NewTaxReturn_BeforePayments_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

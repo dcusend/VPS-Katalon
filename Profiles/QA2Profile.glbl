@@ -59,4 +59,24 @@
       <initValue>'https://qa2.velocitypayment.com/client/rad/index.html'</initValue>
       <name>RADurl</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123451234'</initValue>
+      <name>rad_SSN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Anderson'</initValue>
+      <name>rad_SSN_LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123459630'</initValue>
+      <name>rad_SSN_Joint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bell'</initValue>
+      <name>rad_SSN_Joint_LastName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

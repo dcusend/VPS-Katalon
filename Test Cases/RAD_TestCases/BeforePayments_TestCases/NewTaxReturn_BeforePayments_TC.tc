@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NewTaxReturn_BeforePayments_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f4ba889-4b8f-4c2b-85f9-c77f2d1d84ce</testCaseGuid>
+</TestCaseEntity>
