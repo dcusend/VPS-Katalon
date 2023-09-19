@@ -89,6 +89,25 @@ public class getSetDataRAD {
 
 	}
 
+	
+	
+	
+	//-------------------------------------------
+	
+	
+	@Keyword
+	def setDataRADELSSN()
+	{
+
+		// Get Data
+		def rad_ssn_EL = GlobalVariable.rad_SSN
+		
+		// Set Data
+		WebUI.setText(findTestObject(orPath_TaxInfo +'/input_TaxInfo_ExisitingSSN'),rad_ssn_EL)
+		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),rad_ssn_EL)
+
+
+	}
 
 
 
@@ -158,7 +177,7 @@ public class getSetDataRAD {
 	}
 
 	//-----------------------------------------
-	
+
 	@Keyword
 	def setDataExistingRADMDCRN()
 	{
@@ -166,13 +185,13 @@ public class getSetDataRAD {
 
 		// Set Data
 		WebUI.setText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistrationEL'),"07640126")
-		
+
 
 	}
 
 
-	
-	
+
+
 	//--------------------------------------
 
 	@Keyword

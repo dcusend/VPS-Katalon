@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "9E8ADFF23D7BD271575C064CE5E22BDB",
+  "keywordFileContentHash": "D614C13CE2E52C52C9ABA557990557FA",
   "keywordClasses": [
     {
       "name": "rad.getSetDataRAD",
@@ -36,6 +36,11 @@
         },
         {
           "name": "setDataRADMDCRN",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataExistingRADMDCRN",
           "parameters": [],
           "javadoc": ""
         },

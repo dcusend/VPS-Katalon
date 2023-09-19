@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_userType_Joint</name>
+   <name>input_JointFiling_userType_New</name>
    <tag></tag>
-   <elementGuidId>f69ad864-1825-42b5-97af-200e7cfb37ba</elementGuidId>
+   <elementGuidId>d84f3ae0-57da-4041-9b9b-6cd830227576</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'form-check-input' and @value = 'joint' and @name = 'userType' and @type = 'radio' and @id = 'joint']</value>
+         <value>//*[@name = 'userType' and @type = 'radio' and @id = 'joint']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0dc95d56-78e8-4363-9d68-0270c6d38606</webElementGuid>
+      <webElementGuid>81ac2533-4371-441f-a074-86dbea5f84f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>bbb1283c-bbf4-4fbc-8338-3d9a8ca9403b</webElementGuid>
+      <webElementGuid>7157ffae-e490-4c51-8ccb-2f4d60ff2539</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>joint</value>
-      <webElementGuid>7795bcd9-08d9-4471-bf44-e00d5231d67b</webElementGuid>
+      <webElementGuid>81d012a2-08b8-482c-ab0f-d5a536824d0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>userType</value>
-      <webElementGuid>4092fdb0-c908-4396-8525-d8694964affc</webElementGuid>
+      <webElementGuid>2fd32813-043b-4e7b-a9e1-d35719691a2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>83c6a76f-7df2-4e70-b5f8-a93581833149</webElementGuid>
+      <webElementGuid>84970925-9b1d-4d92-91a2-8bc87ecab84b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>joint</value>
-      <webElementGuid>91b83ddb-d747-4d5b-b784-265c2dfd906c</webElementGuid>
+      <webElementGuid>4315ddf1-c2a8-48d1-abad-97c41d42f443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;joint&quot;)</value>
-      <webElementGuid>7424cd1f-b211-4075-a686-ce90353a3651</webElementGuid>
+      <webElementGuid>c561d8b1-722e-4895-a0c2-b6bd6ea6bc6b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,15 +82,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='joint']</value>
-      <webElementGuid>e770a633-8be7-46f9-9598-1c410631a824</webElementGuid>
+      <webElementGuid>6c84d3dc-fe4e-435e-8205-c0ff976b6ac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='taxForm']/div[6]/div[2]/div[2]/div[2]/input</value>
-      <webElementGuid>7f366e18-164c-4665-a68f-27fccb2c8204</webElementGuid>
+      <value>//form[@id='taxForm']/div[7]/div[2]/div[2]/div[2]/input</value>
+      <webElementGuid>fcb71e9d-fe44-4e19-a5e9-654dbac76c90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>08026732-c4a0-4443-935c-5ca0269c0907</webElementGuid>
+      <webElementGuid>93817d1f-de09-4beb-a973-1b51e5959383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'userType' and @type = 'radio' and @id = 'joint']</value>
+      <webElementGuid>2a1361ab-ade6-4bc2-bdfa-84711f3a0514</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
