@@ -6,12 +6,18 @@
    <elementGuidId>0bf7e6d9-ac20-4d7b-9a05-6ec1611e3bf7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.pl-5.pr-5</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[13]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '
+		        Delete' or . = '
+		        Delete') and starts-with(@id, 'deletingUserId')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.pl-5.pr-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,6 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>62f11eec-ee82-4ca9-a0b0-d1edee386126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,20 +36,24 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>755db86e-7e49-4764-b886-e121cc01c9b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary pl-5 pr-5</value>
+      <value>btn btn-primary</value>
+      <webElementGuid>01515928-3dcd-40ee-bd28-c8b313005a9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Okay</value>
+      <value>
+		        Delete</value>
+      <webElementGuid>ffbcb52a-f672-4a61-b5ba-29d89082e1fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +61,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;app sidebar-mini modal-open&quot;]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary pl-5 pr-5&quot;]</value>
+      <webElementGuid>0a50fcad-49c2-4bab-b8f1-b21cd3064bc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>deletingUserId</value>
+      <webElementGuid>897814d9-d18c-4bff-9f13-91ce9cc71ff4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[13]</value>
+      <webElementGuid>aae79cad-5131-4c03-80eb-3de50f5b27d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you wish to delete the user named RLZkKtDfL UOTwSxasI?'])[1]/following::button[1]</value>
+      <webElementGuid>65336b60-9e59-4b60-90fd-65fce3e4fa0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Question'])[1]/following::button[2]</value>
+      <webElementGuid>c3412903-7d17-49c7-9586-ab7338ecc39e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>655e2bf0-1614-4539-bfb9-66d5bb22db54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Okay']/parent::*</value>
+      <webElementGuid>d6e15682-466e-429f-ab84-60558e1c3c25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
+      <webElementGuid>18912ddd-7c73-4848-8b6d-4f447b742671</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Okay' or . = 'Okay')]</value>
+      <webElementGuid>8763722d-1f05-4e1d-97b1-8c1b02caa74e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

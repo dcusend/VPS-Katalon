@@ -116,7 +116,8 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.click(findTestObject(path_UserView + 'button_Delete'))
 				
 					// Select Okay on Confirmation
-					WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
+					//WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
+					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/button_2209_Delete'))
 					
 								
 					// Select another Okay
