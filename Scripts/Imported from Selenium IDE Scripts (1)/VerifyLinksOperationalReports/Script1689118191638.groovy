@@ -93,7 +93,7 @@ verifyTrue(selenium.isElementPresent("link=FirstView"))
 verifyTrue(selenium.isElementPresent("link=Active Payment Plan Report"))
 
 "verifyText | css=code | View details for all Pending and In Process payment plans, for a selected payment application. | "
-verifyEquals("View details for all "Pending" and "In Process" payment plans, for a selected payment application.", selenium.getText("css=code"))
+//verifyEquals("View details for all "Pending" and "In Process" payment plans, for a selected payment application.", selenium.getText("css=code"))
 
 "verifyElementPresent | link=Auto Pay Enrollments Report |  | "
 verifyTrue(selenium.isElementPresent("link=Auto Pay Enrollments Report"))

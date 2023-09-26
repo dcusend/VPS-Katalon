@@ -58,6 +58,11 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 // Verify that Business Name text box is  visible
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepfirstName'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepmiddleName'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
+			
 		
 		
 		

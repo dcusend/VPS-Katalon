@@ -1,0 +1,40 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230920_215923/QA/VSP-Bootstrap/VPS-Payments-TestSuite/20230920_215923/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Print",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/button_Search",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230920_215923/QA/VSP-Bootstrap/VPS-Payments-TestSuite/20230920_215923/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/button_Search_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Print",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230920_215923/QA/VSP-Bootstrap"
+    }
+  ]
+}
