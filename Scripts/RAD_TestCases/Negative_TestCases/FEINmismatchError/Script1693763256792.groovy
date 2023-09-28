@@ -44,6 +44,7 @@ def ExecuteTC, Taxtype, Paymenttype
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
 			Taxtype = findTestData(dataFile).getValue('TaxType', row)
 			Paymenttype = findTestData(dataFile).getValue('PaymentType', row)
+			
 
 			
 						
@@ -137,31 +138,34 @@ def ExecuteTC, Taxtype, Paymenttype
 					{
 						
 						case "Existing Liability w/Notice Number":
-								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_FEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
-								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_RetypeFEIN'), 'RigbBhfdqOBBGbZqm4oFJQ==')
-					
-						
+							
+									WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_FEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+									WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_RetypeFEIN'), 'RigbBhfdqOBBGbZqm4oFJQ==')
+								
 						break
 						
 						
 						case "Quarterly Estimated Tax":
-								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
-								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'RigbBhfdqOBBGbZqm4oFJQ==')
-						
-						break
-						
-						
-						case "Extension Payments":
-								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
-								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'RigbBhfdqOBBGbZqm4oFJQ==')
+							
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'RigbBhfdqOBBGbZqm4oFJQ==')
 														
 						break
 						
 						
-						case "New Tax Return Amount Due":
-								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'), 'RigbBhfdqODKcAsiUrg+1Q==')
-								WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'), 'RigbBhfdqOBBGbZqm4oFJQ==')
+						case "Extension Payments":
+							
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'RigbBhfdqOBBGbZqm4oFJQ==')
+																						
+						break
 						
+						
+						case "New Tax Return Amount Due":
+							
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'), 'RigbBhfdqODKcAsiUrg+1Q==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'), 'RigbBhfdqOBBGbZqm4oFJQ==')
+								
 						break
 						
 						

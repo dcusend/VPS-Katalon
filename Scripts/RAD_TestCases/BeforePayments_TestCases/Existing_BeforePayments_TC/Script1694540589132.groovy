@@ -36,8 +36,9 @@ String orPath_Summary = "Object Repository/RAD_Pages/Summary_Page"
 String orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirmation_Page"
 String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page"
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
+String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn
 
 
 
@@ -53,6 +54,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
 			TaxType = findTestData(dataFile).getValue('TaxType', row)
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
+			feinSsn = findTestData(dataFile).getValue('FEINSSN', row)
 			
 			
 			
@@ -87,14 +89,33 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					CustomKeywords.'rad.getSetDataRAD.setDataRADBusinessName'()
 					
 					
+// Set Data Business Rep Name
+					CustomKeywords.'rad.getSetDataRAD.setDataRADBusinessRep'()
+					
+					
 // Set Data Address and Contact Information
 					CustomKeywords.'rad.getSetDataRAD.setDataRADAddress'()
+	
+					
+
+					
 					
 					
 // Set Data FEIN
-					//CustomKeywords.'rad.getSetDataRAD.setDataRADFEIN'()
-					WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'RigbBhfdqODKcAsiUrg+1Q==')
-					WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'RigbBhfdqODKcAsiUrg+1Q==')
+					
+					if (feinSsn.equalsIgnoreCase("Y"))
+					{
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RefeinSsn_Existing'), 'RigbBhfdqODKcAsiUrg+1Q==')
+					}
+					else
+					{
+						WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'RigbBhfdqODKcAsiUrg+1Q==')
+						WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'RigbBhfdqODKcAsiUrg+1Q==')
+					}
+					
+					
+					
 					
 					
 // Set Data Invoice Number
@@ -171,7 +192,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('My Company', true)
 					}
 					
-			
+					WebUI.verifyTextPresent('Business Rep Name:', true)
+					WebUI.verifyTextPresent('BusRepFname BusRepLname', true)
 					
 					WebUI.verifyTextPresent('Taxpayer Address:', true)
 					WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
@@ -180,7 +202,18 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('Phone:', true)
 					WebUI.verifyTextPresent('(703) 894-5000', false)
 					WebUI.verifyTextPresent('Tax Information', true)
-					WebUI.verifyTextPresent('Federal EIN:', true)
+					
+					if (feinSsn.equalsIgnoreCase("Y"))
+						{
+							WebUI.verifyTextPresent('FEIN/SSN:', true)
+						}
+					else
+						{
+							WebUI.verifyTextPresent('Federal EIN:', true)
+						}
+					
+					
+					
 					WebUI.verifyTextPresent('Notice Number:', true)
 					WebUI.verifyTextPresent('1234567890123', true)
 					WebUI.verifyTextPresent('Tax Type:', true)

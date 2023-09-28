@@ -109,8 +109,10 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 // Verify FEIN under Tax Information section
 		WebUI.verifyTextPresent('Tax Information', true)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'))
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
 
 
 // Verify that Notice or Invoice Number is not present

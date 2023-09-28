@@ -89,19 +89,19 @@ public class getSetDataRAD {
 
 	}
 
-	
-	
-	
+
+
+
 	//-------------------------------------------
-	
-	
+
+
 	@Keyword
 	def setDataRADELSSN()
 	{
 
 		// Get Data
 		def rad_ssn_EL = GlobalVariable.rad_SSN
-		
+
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo +'/input_TaxInfo_ExisitingSSN'),rad_ssn_EL)
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),rad_ssn_EL)
@@ -224,6 +224,41 @@ public class getSetDataRAD {
 		WebUI.setText(findTestObject(orPath_AddressContact + '/input_phoneNumber'),"(703) 894-5000")
 		WebUI.setText(findTestObject(orPath_AddressContact + '/input_eMailAddress'),"iahmed@govolution.com")
 		WebUI.setText(findTestObject(orPath_AddressContact + '/input_reEnterEMailAddress'),"iahmed@govolution.com")
+
+
+	}
+
+
+	//-----------------------------------------
+
+	@Keyword
+	def setDataRADBusinessRep()
+	{
+
+
+		// Set Data
+
+		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessRepfirstName'),"BusRepFname")
+		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessRepmiddleName'),"")
+		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'),"BusRepLname")
+		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'),"")
+
+
+	}
+
+	//-----------------------------------------
+
+
+	@Keyword
+	def setDataRADFEINSSN()
+	{
+
+
+
+		// Set Data
+		WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'), 'RigbBhfdqODKcAsiUrg+1Q==')
+		WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), 'RigbBhfdqODKcAsiUrg+1Q==')
+
 
 
 	}

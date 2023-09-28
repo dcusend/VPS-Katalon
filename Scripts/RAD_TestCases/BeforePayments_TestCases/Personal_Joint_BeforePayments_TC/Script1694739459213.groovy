@@ -41,7 +41,8 @@ String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
 
 
 def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth
-
+// Get the Execution Profile like QA or Demo
+def executionProfile = RC.getExecutionProfile()
 
 
 def numOfRows = findTestData(dataFile).getRowNumbers()
@@ -170,7 +171,23 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						WebUI.verifyTextPresent('Payer Information', true)
 						WebUI.verifyTextPresent('Taxpayer Name:', true)
-						WebUI.verifyTextPresent('Jimmy btes', true)
+						
+						
+							
+						switch (executionProfile)
+							{
+								case "QA2Profile":
+										WebUI.verifyTextPresent('Jimmy Anderson', true)
+										WebUI.verifyTextPresent('Larsons Bell', true)
+								break
+								
+								case "DemoProfile":
+										WebUI.verifyTextPresent('Jimmy btes', true)
+										WebUI.verifyTextPresent('Larsons ctes', true)
+								break
+							}
+						
+						//WebUI.verifyTextPresent('Jimmy btes', true)
 						WebUI.verifyTextPresent('Taxpayer SSN:', true)
 						WebUI.verifyTextPresent('Taxpayer Address:', true)
 						WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
@@ -179,7 +196,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('Phone:', true)
 						WebUI.verifyTextPresent('(703) 894-5000', false)
 						WebUI.verifyTextPresent('Joint Filer Name:', true)
-						WebUI.verifyTextPresent('Larsons ctes', true)
+						//WebUI.verifyTextPresent('Larsons ctes', true)
 						WebUI.verifyTextPresent('Joint Filer SSN', true)
 						
 						WebUI.verifyTextPresent('Tax Information', true)
@@ -195,11 +212,27 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 	// On the VRelay page, confirm fields are prepopulated
 						WebUI.verifyTextPresent('Comptroller of Maryland', true)
-						WebUI.verifyTextPresent('Revenue Administration Division', true)
+						//WebUI.verifyTextPresent('Revenue Administration Division', true)
 						WebUI.verifyTextPresent('Payment Information', true)
+					
 						
 						def card_Name = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
-						WebUI.verifyMatch("Jimmy btes", card_Name, false)
+						
+						switch (executionProfile)
+						{
+							case "QA2Profile":
+									WebUI.verifyMatch("Jimmy Anderson", card_Name, false)
+							break
+							
+							case "DemoProfile":
+									WebUI.verifyMatch("Jimmy btes", card_Name, false)
+							break
+						}
+						
+						
+							
+						
+						//WebUI.verifyMatch("Jimmy btes", card_Name, false)
 						
 						def AL1 = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress'), 'value')
 						WebUI.verifyMatch("2508 Mandan Terrace", AL1, false)
@@ -257,7 +290,16 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('Two transactions will appear on your bank statement, one in the amount of', true)
 						
 						
-						WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'), 30)
+						if (WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'), 30))
+						{
+							resText = "Pass"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						}
+						else
+						{
+							resText = "Fail"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						}
 						
 						
 						

@@ -192,6 +192,10 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 // Verify Business Name textbox is NOT present under Taxpayer section
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepfirstName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepmiddleName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
 		
 		
 /*

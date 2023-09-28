@@ -39,6 +39,7 @@ String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 
 def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth
 
+def executionProfile = RC.getExecutionProfile()
 
 
 def numOfRows = findTestData(dataFile).getRowNumbers()
@@ -135,7 +136,21 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 												
 						WebUI.verifyTextPresent('Payer Information', true)
 						WebUI.verifyTextPresent('Taxpayer Name:', true)
-						WebUI.verifyTextPresent('Jimmy btes', true)
+						
+						switch (executionProfile)
+						{
+							case "QA2Profile":
+									WebUI.verifyTextPresent('Jimmy Anderson', true)
+									//WebUI.verifyTextPresent('Larsons Bell', true)
+							break
+							
+							case "DemoProfile":
+									WebUI.verifyTextPresent('Jimmy btes', true)
+									//WebUI.verifyTextPresent('Larsons ctes', true)
+							break
+						}
+						
+						//WebUI.verifyTextPresent('Jimmy Anderson', true)
 						
 						WebUI.verifyTextPresent('Taxpayer Address:', true)
 						WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
@@ -166,7 +181,17 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('Payment Information', true)
 						
 						def card_Name = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
-						WebUI.verifyMatch("Jimmy btes", card_Name, false)
+						
+						switch (executionProfile)
+						{
+							case "QA2Profile":
+									WebUI.verifyMatch("Jimmy Anderson", card_Name, false)
+							break
+							
+							case "DemoProfile":
+									WebUI.verifyMatch("Jimmy btes", card_Name, false)
+							break
+						}
 						
 						def AL1 = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress'), 'value')
 						WebUI.verifyMatch("2508 Mandan Terrace", AL1, false)

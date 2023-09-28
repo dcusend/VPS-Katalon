@@ -855,6 +855,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/button_Search_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress2",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "#billingAddress2",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress2_CSS.png"
     }
   ]
 }

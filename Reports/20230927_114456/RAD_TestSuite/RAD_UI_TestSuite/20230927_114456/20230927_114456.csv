@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 117.0.0.0,,,2023-09-27 11:45:02,2023-09-27 11:50:49,5m - 47.231s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/FEINmismatchError,Chrome 117.0.0.0,,,2023-09-27 11:45:02,2023-09-27 11:50:49,5m - 46.826s,FAILED
+"resText = ""Fail""",Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.002s,PASSED
+"resColumn = ""Result""",Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.001s,PASSED
+"fileLoc = ""KatalonData/RADTestData/FEINmismatch.xlsx""",Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.001s,PASSED
+"nameSheet = ""FEINmismatch""",Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.001s,PASSED
+"dataFile = ""RADTestData/FEINmismatch""",Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.000s,PASSED
+Paymenttype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.001s,PASSED
+feinSSN = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:03,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 117.0.0.0,,,2023-09-27 11:45:03,2023-09-27 11:45:04,0.731s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 117.0.0.0,,,2023-09-27 11:45:04,2023-09-27 11:45:04,0.007s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 117.0.0.0,,,2023-09-27 11:45:04,2023-09-27 11:50:49,5m - 45.453s,FAILED

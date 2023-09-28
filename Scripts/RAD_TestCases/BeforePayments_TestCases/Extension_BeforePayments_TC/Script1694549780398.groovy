@@ -37,7 +37,7 @@ String orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirma
 String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page"
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN
 
 
 
@@ -55,6 +55,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			FilingYear = findTestData(dataFile).getValue('Year', row)
 			PeriodEndingMonth = findTestData(dataFile).getValue('Month', row)
+			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
 			
 			
 			
@@ -100,12 +101,25 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					CustomKeywords.'rad.getSetDataRAD.setDataRADBusinessName'()
 					
 					
+// Set Data Business Rep Name
+					CustomKeywords.'rad.getSetDataRAD.setDataRADBusinessRep'()
+					
+					
+					
+					
 // Set Data Address and Contact Information
 					CustomKeywords.'rad.getSetDataRAD.setDataRADAddress'()
 					
 					
 // Set Data FEIN
-					CustomKeywords.'rad.getSetDataRAD.setDataRADFEIN'()
+					if (feinSSN.equalsIgnoreCase("Y"))
+					{
+						CustomKeywords.'rad.getSetDataRAD.setDataRADFEINSSN'()
+					}
+					else
+					{
+						CustomKeywords.'rad.getSetDataRAD.setDataRADFEIN'()
+					}	
 					
 					
 // Populate Amount
@@ -169,6 +183,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('Payer Information', true)
 					WebUI.verifyTextPresent('Taxpayer Name:', true)
 					WebUI.verifyTextPresent('My Company', true)
+					WebUI.verifyTextPresent('Business Rep Name:', true)
+					WebUI.verifyTextPresent('BusRepFname BusRepLname', true)
 					WebUI.verifyTextPresent('Taxpayer Address:', true)
 					WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
 					WebUI.verifyTextPresent('Email:', true)
