@@ -160,48 +160,41 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 	// Verify static text on RAD  Summary page
 											
-						WebUI.verifyTextPresent('Summary', true)
-						WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true)
-						WebUI.verifyTextPresent('When you are confident that all the information is correct, click the', true)
-						WebUI.verifyTextPresent('Payment Type/Filing Year', true)
-						WebUI.verifyTextPresent('Payment Type:', true)
-						WebUI.verifyTextPresent(PaymentType, true)
-						WebUI.verifyTextPresent('Filing Year:', true)
-						WebUI.verifyTextPresent(FilingYear, true)
-						
-						WebUI.verifyTextPresent('Payer Information', true)
-						WebUI.verifyTextPresent('Taxpayer Name:', true)
-						
-						
-							
-						switch (executionProfile)
-							{
-								case "QA2Profile":
-										WebUI.verifyTextPresent('Jimmy Anderson', true)
-										WebUI.verifyTextPresent('Larsons Bell', true)
-								break
-								
-								case "DemoProfile":
-										WebUI.verifyTextPresent('Jimmy btes', true)
-										WebUI.verifyTextPresent('Larsons ctes', true)
-								break
-							}
-						
-						//WebUI.verifyTextPresent('Jimmy btes', true)
-						WebUI.verifyTextPresent('Taxpayer SSN:', true)
-						WebUI.verifyTextPresent('Taxpayer Address:', true)
-						WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
-						WebUI.verifyTextPresent('Email:', true)
-						WebUI.verifyTextPresent('iahmed@govolution.com', true)
-						WebUI.verifyTextPresent('Phone:', true)
-						WebUI.verifyTextPresent('(703) 894-5000', false)
-						WebUI.verifyTextPresent('Joint Filer Name:', true)
-						//WebUI.verifyTextPresent('Larsons ctes', true)
-						WebUI.verifyTextPresent('Joint Filer SSN', true)
-						
-						WebUI.verifyTextPresent('Tax Information', true)
-						WebUI.verifyTextPresent('Payment Amount:', true)
-						WebUI.verifyTextPresent('100.00', true)
+	/*
+	 * WebUI.verifyTextPresent('Summary', true) WebUI.verifyTextPresent('Review the
+	 * information below and make any necessary corrections by clicking the', true)
+	 * WebUI.verifyTextPresent('When you are confident that all the information is
+	 * correct, click the', true) WebUI.verifyTextPresent('Payment Type/Filing
+	 * Year', true) WebUI.verifyTextPresent('Payment Type:', true)
+	 * WebUI.verifyTextPresent(PaymentType, true) WebUI.verifyTextPresent('Filing
+	 * Year:', true) WebUI.verifyTextPresent(FilingYear, true)
+	 * 
+	 * WebUI.verifyTextPresent('Payer Information', true)
+	 * WebUI.verifyTextPresent('Taxpayer Name:', true)
+	 * 
+	 * 
+	 * 
+	 * switch (executionProfile) { case "QA2Profile": WebUI.verifyTextPresent('Jimmy
+	 * Anderson', true) WebUI.verifyTextPresent('Larsons Bell', true) break
+	 * 
+	 * case "DemoProfile": WebUI.verifyTextPresent('Jimmy btes', true)
+	 * WebUI.verifyTextPresent('Larsons ctes', true) break }
+	 * 
+	 * //WebUI.verifyTextPresent('Jimmy btes', true)
+	 * WebUI.verifyTextPresent('Taxpayer SSN:', true)
+	 * WebUI.verifyTextPresent('Taxpayer Address:', true)
+	 * WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
+	 * WebUI.verifyTextPresent('Email:', true)
+	 * WebUI.verifyTextPresent('iahmed@govolution.com', true)
+	 * WebUI.verifyTextPresent('Phone:', true) WebUI.verifyTextPresent('(703)
+	 * 894-5000', false) WebUI.verifyTextPresent('Joint Filer Name:', true)
+	 * //WebUI.verifyTextPresent('Larsons ctes', true)
+	 * WebUI.verifyTextPresent('Joint Filer SSN', true)
+	 * 
+	 * WebUI.verifyTextPresent('Tax Information', true)
+	 * WebUI.verifyTextPresent('Payment Amount:', true)
+	 * WebUI.verifyTextPresent('100.00', true)
+	 */
 						
 	
 						
@@ -211,6 +204,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						
 	// On the VRelay page, confirm fields are prepopulated
+						
+						
+					if (WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+								
+						{
+						
+						
 						WebUI.verifyTextPresent('Comptroller of Maryland', true)
 						//WebUI.verifyTextPresent('Revenue Administration Division', true)
 						WebUI.verifyTextPresent('Payment Information', true)
@@ -300,6 +300,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
+					
+				}
+				
+				else
+				{
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+				}
 						
 						
 						

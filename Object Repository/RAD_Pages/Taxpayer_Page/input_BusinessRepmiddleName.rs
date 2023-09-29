@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//input[@id='RepmiddleName']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'repmiddleName']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>310479b5-b126-4d52-b427-02d2342a8165</webElementGuid>
+      <webElementGuid>fa33b14e-4edf-49a3-bcc6-eacc49b8ee5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2780f9e5-bd45-4e8f-b559-915abb8d2f58</webElementGuid>
+      <webElementGuid>04a5fe34-fe2c-48d6-95fe-f35c854650c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>RepmiddleName</value>
-      <webElementGuid>e15ed0de-cfc7-476e-9da1-5b152fd3c571</webElementGuid>
+      <value>middleName</value>
+      <webElementGuid>3cb81daa-b3e8-4ea8-9334-a0879aeace33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +50,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>7a6d0bf2-885f-4ef7-84d0-29374351d443</webElementGuid>
+      <webElementGuid>9878362c-93b0-46b3-9ab6-e083e5c9c609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>RepmiddleName</value>
-      <webElementGuid>b4357d44-c086-4e82-9f54-f74fa362c74c</webElementGuid>
+      <value>repmiddleName</value>
+      <webElementGuid>dfbe0534-c364-4b63-8c30-86e1631142bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +66,15 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>a9a80a22-73f6-4617-8434-931f33d38ad6</webElementGuid>
+      <webElementGuid>d50a6eb1-75cc-4afa-a041-52d0f6410804</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Business Rep Middle Name</value>
-      <webElementGuid>6cff5506-586f-404d-8c38-523337f63ede</webElementGuid>
+      <webElementGuid>93738be2-7175-4f31-bd56-4c7051adbb95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;RepmiddleName&quot;)</value>
-      <webElementGuid>52e938d6-11d9-4691-afe1-31b4005eba05</webElementGuid>
+      <webElementGuid>6bb2af25-4740-4b0b-8a12-6f866d340103</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='RepmiddleName']</value>
-      <webElementGuid>2106b305-8050-4496-9d7a-d352fd728ba9</webElementGuid>
+      <webElementGuid>f42e162c-ef47-40ab-a4a1-3b244c7e741b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='taxForm']/div[3]/div[5]/div/input</value>
-      <webElementGuid>cc76e05c-43ea-4487-b183-96884474a421</webElementGuid>
+      <webElementGuid>a5b1579c-b258-4c2f-a636-887ef099c301</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/input</value>
-      <webElementGuid>0ded63df-d7e0-4b83-90f6-c6428f7812f5</webElementGuid>
+      <webElementGuid>9458653e-91c1-45a2-874b-e6911b6dfe81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'RepmiddleName' and @id = 'RepmiddleName' and @placeholder = 'Business Rep Middle Name']</value>
-      <webElementGuid>4b44b39d-bd6e-42bd-a1f7-18f1b0fbe959</webElementGuid>
+      <webElementGuid>b928ec45-1d1a-41d8-b1af-bd9d65d608b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

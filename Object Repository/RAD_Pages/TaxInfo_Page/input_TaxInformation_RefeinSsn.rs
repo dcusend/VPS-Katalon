@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//input[@id='refeinSsn']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'taxrefeinssn']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d84a8313-6c1e-4c18-8bb5-f8e68d45ca08</webElementGuid>
+      <webElementGuid>cb681fe1-0103-45a6-a2b8-6af5c629f426</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>a6b22b2b-0317-48f3-b9b7-91c0ad79373c</webElementGuid>
+      <webElementGuid>82189ff2-350e-4610-aad7-6da78115f5d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>refeinSsn</value>
-      <webElementGuid>4a4d066a-9a9f-4651-aef5-5426a6fe0a87</webElementGuid>
+      <webElementGuid>95f59b17-8432-4027-8ecb-3440e08180af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>data-mask</name>
       <type>Main</type>
       <value>999999999</value>
-      <webElementGuid>0fbac0d8-9f50-432a-b504-be96b2da1d0c</webElementGuid>
+      <webElementGuid>7959230b-32d9-4bfb-8995-d229b48aa75e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +58,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>fcd3f66e-8851-43bc-bdd5-ceed9ac183cf</webElementGuid>
+      <webElementGuid>943af726-0579-4dce-981e-00c1ce314119</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>refeinSsn</value>
-      <webElementGuid>ad1c4ada-a8e5-4a6e-8aa9-7eb94b5824f6</webElementGuid>
+      <value>taxrefeinssn</value>
+      <webElementGuid>8757667b-b324-4ee8-abc4-d9e313d822eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +74,15 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>9</value>
-      <webElementGuid>e55f2a7b-0969-4e40-a188-2d626f5a80f4</webElementGuid>
+      <webElementGuid>6c24d27c-e3e1-4f84-badf-c4afb71813ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Re-Type FEIN/SSN</value>
-      <webElementGuid>9effea39-f145-4b81-b17e-dd4b474f5d74</webElementGuid>
+      <webElementGuid>90ff8581-0650-489a-999b-d09f2b1a1759</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>2467e9cd-d734-4559-a309-dfc222142455</webElementGuid>
+      <webElementGuid>7e6c7ba7-196d-4fdb-a9de-5b70fc911edf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;taxForm&quot;)/div[@class=&quot;row taxInformationContent&quot;]/div[@class=&quot;col-lg-6 refeinorSsn&quot;]/div[@class=&quot;form-floating mb-3&quot;]/input[@id=&quot;refeinSsn&quot;]</value>
-      <webElementGuid>2b86d5de-5b63-4ddb-a1a1-8c8085427baa</webElementGuid>
+      <webElementGuid>c8e1ff79-a96c-4b90-bd91-b0cc96619351</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='refeinSsn']</value>
-      <webElementGuid>4b859282-3c75-4d88-b806-24bf2cd4d8f4</webElementGuid>
+      <webElementGuid>d215227f-84f2-463d-a2b2-a9ffbda4b00c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='taxForm']/div[8]/div[3]/div/input</value>
-      <webElementGuid>555b05f9-59fb-4ba8-bb7b-7b04c9ddba44</webElementGuid>
+      <webElementGuid>82111176-b06d-4187-877c-156a0e111164</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[3]/div/input</value>
-      <webElementGuid>67030649-3399-4592-ab5a-c4c4fdc6c615</webElementGuid>
+      <webElementGuid>f49b8687-7222-4e6d-a37d-510d4c278d47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @name = 'refeinSsn' and @id = 'refeinSsn' and @placeholder = 'Re-Type FEIN/SSN']</value>
-      <webElementGuid>54639e47-8c0d-43ae-b3ec-5b7d1cc80074</webElementGuid>
+      <webElementGuid>e464ec8f-b74b-4dbf-a7a2-78206d2412ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -171,7 +171,21 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('Phone:', true)
 					WebUI.verifyTextPresent('(703) 894-5000', false)
 					WebUI.verifyTextPresent('Tax Information', true)
-					WebUI.verifyTextPresent('Federal EIN:', true)
+					
+					if (feinSSN.equalsIgnoreCase("Y"))
+						{
+							WebUI.verifyTextPresent('FEIN/SSN:', true)
+							WebUI.verifyTextNotPresent('Federal EIN:', true)
+						}
+						else
+						{
+							WebUI.verifyTextPresent('Federal EIN:', true)
+							WebUI.verifyTextNotPresent('FEIN/SSN:', true)
+						}
+						
+					
+					
+					
 					WebUI.verifyTextPresent('Payment Amount:', true)
 					WebUI.verifyTextPresent('100.00', true)
 					

@@ -864,6 +864,15 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress2_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/Taxpayer_Page/input_BusinessRepfirstName",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//form[@id\u003d\u0027taxForm\u0027]/div[3]/div[4]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/Taxpayer_Page/input_BusinessRepfirstName_idRelative.png"
     }
   ]
 }

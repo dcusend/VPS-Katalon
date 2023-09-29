@@ -127,7 +127,8 @@ def ExecuteTC, Taxtype, Paymenttype
 						case "Existing Liability w/Notice Number":
 								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_FEIN'), 'RigbBhfdqOBDK95asqKeHw==')
 								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_RetypeFEIN'), '')
-					
+								//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing'), 'RigbBhfdqOBDK95asqKeHw==')
+								//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RefeinSsn_Existing'), 'RigbBhfdqOBDK95asqKeHw==')
 						
 						break
 						

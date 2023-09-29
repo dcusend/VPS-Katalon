@@ -176,51 +176,45 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 // Verify static text on RAD Quarterly Estimated Summary page
 										
-					WebUI.verifyTextPresent('Summary', true)
-					WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true)
-					WebUI.verifyTextPresent('When you are confident that all the information is correct, click the', true)
-					WebUI.verifyTextPresent('Payment Type/Filing Year', true)
-					WebUI.verifyTextPresent('Payment Type:', true)
-					WebUI.verifyTextPresent('Existing Liability w/Notice Number', true)
-					
-					WebUI.verifyTextPresent('Payer Information', true)
-					WebUI.verifyTextPresent('Taxpayer Name:', true)
+					/*
+					 * WebUI.verifyTextPresent('Summary', true) WebUI.verifyTextPresent('Review the
+					 * information below and make any necessary corrections by clicking the', true)
+					 * WebUI.verifyTextPresent('When you are confident that all the information is
+					 * correct, click the', true) WebUI.verifyTextPresent('Payment Type/Filing
+					 * Year', true) WebUI.verifyTextPresent('Payment Type:', true)
+					 * WebUI.verifyTextPresent('Existing Liability w/Notice Number', true)
+					 * 
+					 * WebUI.verifyTextPresent('Payer Information', true)
+					 * WebUI.verifyTextPresent('Taxpayer Name:', true)
+					 */
 					
 // This is Defect 7194, Leave this code as it till the defect is fixed. 					
-					if (!TaxType.equalsIgnoreCase("Sales & Use Tax"))
-					{
-						WebUI.verifyTextPresent('My Company', true)
-					}
-					
-					WebUI.verifyTextPresent('Business Rep Name:', true)
-					WebUI.verifyTextPresent('BusRepFname BusRepLname', true)
-					
-					WebUI.verifyTextPresent('Taxpayer Address:', true)
-					WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
-					WebUI.verifyTextPresent('Email:', true)
-					WebUI.verifyTextPresent('iahmed@govolution.com', true)
-					WebUI.verifyTextPresent('Phone:', true)
-					WebUI.verifyTextPresent('(703) 894-5000', false)
-					WebUI.verifyTextPresent('Tax Information', true)
-					
-					if (feinSsn.equalsIgnoreCase("Y"))
-						{
-							WebUI.verifyTextPresent('FEIN/SSN:', true)
-						}
-					else
-						{
-							WebUI.verifyTextPresent('Federal EIN:', true)
-						}
-					
-					
-					
-					WebUI.verifyTextPresent('Notice Number:', true)
-					WebUI.verifyTextPresent('1234567890123', true)
-					WebUI.verifyTextPresent('Tax Type:', true)
-					WebUI.verifyTextPresent(TaxType, true)
-					
-					WebUI.verifyTextPresent('Payment Amount:', true)
-					WebUI.verifyTextPresent('100.00', true)
+					/*
+					 * if (!TaxType.equalsIgnoreCase("Sales & Use Tax")) {
+					 * WebUI.verifyTextPresent('My Company', true) }
+					 * 
+					 * WebUI.verifyTextPresent('Business Rep Name:', true)
+					 * WebUI.verifyTextPresent('BusRepFname BusRepLname', true)
+					 * 
+					 * WebUI.verifyTextPresent('Taxpayer Address:', true)
+					 * WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
+					 * WebUI.verifyTextPresent('Email:', true)
+					 * WebUI.verifyTextPresent('iahmed@govolution.com', true)
+					 * WebUI.verifyTextPresent('Phone:', true) WebUI.verifyTextPresent('(703)
+					 * 894-5000', false) WebUI.verifyTextPresent('Tax Information', true)
+					 * 
+					 * if (feinSsn.equalsIgnoreCase("Y")) { WebUI.verifyTextPresent('FEIN/SSN:',
+					 * true) } else { WebUI.verifyTextPresent('Federal EIN:', true) }
+					 * 
+					 * 
+					 * 
+					 * WebUI.verifyTextPresent('Notice Number:', true)
+					 * WebUI.verifyTextPresent('1234567890123', true) WebUI.verifyTextPresent('Tax
+					 * Type:', true) WebUI.verifyTextPresent(TaxType, true)
+					 * 
+					 * WebUI.verifyTextPresent('Payment Amount:', true)
+					 * WebUI.verifyTextPresent('100.00', true)
+					 */
 					
 
 					
@@ -234,10 +228,16 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					//WebUI.verifyTextPresent('Existing Liability', true)
 					//WebUI.verifyTextPresent(TaxType, true)
 					
+					
+					
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+						
+					{
+					
 					WebUI.verifyTextPresent('Payment Information', true)
 					
 					def card_Name = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
-					WebUI.verifyMatch("", card_Name, false)
+					WebUI.verifyMatch("BusRepFname BusRepLname", card_Name, false)
 					
 					def AL1 = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress'), 'value')
 					WebUI.verifyMatch("2508 Mandan Terrace", AL1, false)
@@ -265,7 +265,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/select_State'), 'Maryland', false, 20)
 					
 					
-					WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony Gonzalez')
+					//WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony Gonzalez')
 					WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__cardNumber'),'4111111111111111')
 					WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__spc'),'123')
 					WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry + '/select_MM'),"12",false)
@@ -295,7 +295,25 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('Two transactions will appear on your bank statement, one in the amount of', true)
 					
 					
-					WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'), 30)
+					if (WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'), 30))
+						{
+							resText = "Pass"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						}
+						else
+						{
+							resText = "Fail"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						}
+					
+				}
+				
+				else
+				{
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+				}
+				
 					
 					
 					

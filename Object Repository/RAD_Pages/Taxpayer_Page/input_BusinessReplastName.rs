@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//input[@id='ReplastName']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'replastName']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,23 +26,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>12add1fe-db7c-4039-a554-0b506d73051a</webElementGuid>
+      <webElementGuid>ee864ce8-83dd-48ae-98f0-8cde0a659950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>618b5283-cfc7-42b3-a518-f2897324ff13</webElementGuid>
+      <webElementGuid>287e2412-b20f-4118-ad2d-b7d6ec3b1263</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ReplastName</value>
-      <webElementGuid>70b74846-5c59-40c7-b176-02eeb37dcc93</webElementGuid>
+      <value>lastName</value>
+      <webElementGuid>df366b4e-cbbb-42f4-8843-c3f1aa26141d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +50,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>78da16e3-42a5-435b-8c71-d4ed40890ba2</webElementGuid>
+      <webElementGuid>240dd48d-a8c6-4445-af06-d3f263db4057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ReplastName</value>
-      <webElementGuid>e5ffcfa8-8003-4e04-8409-c5344fee153a</webElementGuid>
+      <value>replastName</value>
+      <webElementGuid>375534eb-6fe9-4069-9ac7-1dcbca660e72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +66,15 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>35</value>
-      <webElementGuid>6d0684de-0d44-44c4-9734-24d6fa282899</webElementGuid>
+      <webElementGuid>a7b921e1-e427-49de-a4eb-aeffcdc2e15a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Business Rep Last Name</value>
-      <webElementGuid>500e580c-3856-42d2-bb48-fd644107deed</webElementGuid>
+      <webElementGuid>5961f5b1-cc9b-4325-b0a9-9e8a9191dc1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ReplastName&quot;)</value>
-      <webElementGuid>d2779965-8429-46d8-a182-55d4550e33b2</webElementGuid>
+      <webElementGuid>97d7d890-b37c-4f6f-8034-d8d8bce8af34</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='ReplastName']</value>
-      <webElementGuid>ecf21aa2-a434-4e3a-8c00-7819aee8d5be</webElementGuid>
+      <webElementGuid>20a62b49-1caf-46cb-b9dc-eb2537897390</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='taxForm']/div[3]/div[6]/div/input</value>
-      <webElementGuid>8c996a5d-c118-4aa7-b6f9-8ea5ad316edd</webElementGuid>
+      <webElementGuid>dc13b10d-e5ac-4158-9f01-9c8ea4e5aa79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/input</value>
-      <webElementGuid>54d90738-63f9-40a8-9c12-660c423e1692</webElementGuid>
+      <webElementGuid>cfeac9bb-b8b8-4a11-ab10-e492067da28a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'ReplastName' and @id = 'ReplastName' and @placeholder = 'Business Rep Last Name']</value>
-      <webElementGuid>e0832c54-4eab-4033-a465-1ee7566b8728</webElementGuid>
+      <webElementGuid>caa39bd0-e17f-4b6d-bdf1-1e8d85552cb1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
