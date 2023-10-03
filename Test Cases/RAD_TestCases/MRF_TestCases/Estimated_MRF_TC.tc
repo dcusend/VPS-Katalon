@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA2 and Demo only.</description>
+   <name>Estimated_MRF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb6ec5b7-c92d-436f-a56f-f2a3e0e91058</testCaseGuid>
+</TestCaseEntity>

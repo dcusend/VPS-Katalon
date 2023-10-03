@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//input[@id='businessName']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'businessName' and @id = 'businessName' and @placeholder = 'Business Name']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>1b98cb6b-109c-4212-8c21-0e85979f5e17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>e4aefd74-f979-4e24-b0be-6d54d3bff174</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>businessName</value>
+      <webElementGuid>5f416e84-b716-428e-92e3-c28e3289ea76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
+      <webElementGuid>a33d0296-f0a8-4c75-b1df-1c1f69e3e7c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>businessName</value>
+      <webElementGuid>4e1518b5-cea4-4120-a429-e83473d87e88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>70</value>
+      <webElementGuid>ff02b035-858e-4628-89b9-93162f871c4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Business Name</value>
+      <webElementGuid>595f6f40-24ce-435a-be15-7b842c7cd26b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;businessName&quot;)</value>
+      <webElementGuid>06006089-a6d3-46cb-8cdc-36af6f2701a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='businessName']</value>
+      <webElementGuid>d539bbf4-bb88-4a73-9cad-7ecdaed069dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='taxForm']/div[4]/div[3]/div/input</value>
+      <webElementGuid>0b1f2cdc-5b57-4f18-a3f9-ac9a9ab39259</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +106,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>d4f0a97c-8d17-408e-aa2e-75d64c52f64c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Works for both QA and Demo</description>
-   <name>PersonalIncomeTax_MRF_TC</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>cf0ecae1-280a-41bf-896d-7250436e19c3</testCaseGuid>
-</TestCaseEntity>

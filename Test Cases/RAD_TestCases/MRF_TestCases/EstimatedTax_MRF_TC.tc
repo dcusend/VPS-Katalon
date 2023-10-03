@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Works in both QA and Demo</description>
-   <name>EstimatedTax_MRF_TC</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f980448a-d3ec-4ce2-991c-e7564788ebe0</testCaseGuid>
-</TestCaseEntity>
