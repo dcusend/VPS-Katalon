@@ -24,9 +24,9 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/RADTestData/Summary.xlsx"
+String fileLoc = "KatalonData/RADTestData/MRF.xlsx"
 String nameSheet = "NewTaxReturn"
-String dataFile = "RADTestData/Summary_NewTaxReturn"
+String dataFile = "RADTestData/MRF_NewTaxReturn"
 
 
 String orPath_Landing = "Object Repository/RAD_Pages/Landing_Page"
@@ -37,6 +37,8 @@ String orPath_Summary = "Object Repository/RAD_Pages/Summary_Page"
 String orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirmation_Page"
 String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page"
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
+
+String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
 
 def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN
 
@@ -89,208 +91,45 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 // Set Data Business Name
-					CustomKeywords.'rad.getSetDataRAD.setDataRADBusinessName'()
+					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName')," ")
 					
 					
 // Set Data Business Rep Name
-					CustomKeywords.'rad.getSetDataRAD.setDataRADBusinessRep'()
+					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessRepfirstName')," ")
 					
+					WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName')," ")
+					
+
 
 					
 					
 // Set Data Address and Contact Information
-					CustomKeywords.'rad.getSetDataRAD.setDataRADAddress'()
 					
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress1')," ")
 					
-// Set Data FEIN
-					if (feinSSN.equalsIgnoreCase("Y"))
-					{
-						CustomKeywords.'rad.getSetDataRAD.setDataRADFEINSSN'()
-					}
-					else
-					{
-						CustomKeywords.'rad.getSetDataRAD.setDataRADFEIN'()
-					}	
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_city')," ")
 					
-					
-// Populate Amount
-					
-					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
-					
-					
-					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
-		
-		
-// Select Continue Button
-					WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
-					WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
-		
-		
-// Verify Summary on Confirmation page
-					
-					
-					WebUI.delay(2)
-					
-					
-							
-					/*
-					 * if (WebUI.verifyTextPresent('Review the information below and make any
-					 * necessary corrections by clicking the', true)) { println
-					 * "Transaction was Successful" System.out.println('Pass Record Number: ' + row)
-					 * resText = "Pass"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) } else { println "Transaction was NOT Successful"
-					 * System.out.println('Fail Record Number: ' + row) resText = "Fail"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) }
-					 */
-		
-					
-					
-// Verify static text on RAD Quarterly Estimated Summary page
-										
-					WebUI.verifyTextPresent('Summary', true)
-					WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true)
-					WebUI.verifyTextPresent('When you are confident that all the information is correct, click the', true)
-					WebUI.verifyTextPresent('Payment Type/Filing Year', true)
-					WebUI.verifyTextPresent('Payment Type:', true)
-					WebUI.verifyTextPresent('New Tax Return Amount Due', true)
-					WebUI.verifyTextPresent('Filing Year:', true)
-					WebUI.verifyTextPresent(FilingYear, true)
-					
-					WebUI.verifyTextPresent('Payer Information', true)
-					WebUI.verifyTextPresent('Taxpayer Name:', true)
-					WebUI.verifyTextPresent('My Company', true)
-					WebUI.verifyTextPresent('Business Rep Name:', true)
-					WebUI.verifyTextPresent('BusRepFname BusRepLname', true)
-					WebUI.verifyTextPresent('Taxpayer Address:', true)
-					WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
-					WebUI.verifyTextPresent('Email:', true)
-					WebUI.verifyTextPresent('iahmed@govolution.com', true)
-					WebUI.verifyTextPresent('Phone:', true)
-					WebUI.verifyTextPresent('(703) 894-5000', false)
-					WebUI.verifyTextPresent('Tax Information', true)
-					
-					if (feinSSN.equalsIgnoreCase("Y"))
-						{
-							WebUI.verifyTextPresent('FEIN/SSN:', true)
-							WebUI.verifyTextNotPresent('Federal EIN:', true)
-						}
-					else
-						{
-							WebUI.verifyTextPresent('Federal EIN:', true)
-							WebUI.verifyTextNotPresent('FEIN/SSN:', true)
-						}
-					
-					
-					//WebUI.verifyTextPresent('Federal EIN:', true)
-					WebUI.verifyTextPresent('Payment Amount:', true)
-					WebUI.verifyTextPresent('100.00', true)
-					
-					if (WebUI.verifyElementVisible(findTestObject(orPath_Summary + '/button_Proceed to Payment')))
-						{
-							resText = "Pass"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-						}
-					else
-						{
-							resText = "Fail"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-						}
-
-					
-// Select Proceed to Payment button
-					WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
-					
-					
-					
-					/*
-					 * // On the VRelay page, confirm fields are prepopulated
-					 * WebUI.verifyTextPresent('Comptroller of Maryland', true)
-					 * WebUI.verifyTextPresent('Revenue Administration Division', true)
-					 * WebUI.verifyTextPresent('Payment Information', true)
-					 * 
-					 * def card_Name = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
-					 * WebUI.verifyMatch("", card_Name, false)
-					 * 
-					 * def AL1 = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress'), 'value')
-					 * WebUI.verifyMatch("2508 Mandan Terrace", AL1, false)
-					 * 
-					 * def AL2 = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress2'), 'value')
-					 * WebUI.verifyMatch("", AL2, false)
-					 * 
-					 * def zipCode = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingZip'), 'value')
-					 * WebUI.verifyMatch("21054", zipCode, false)
-					 * 
-					 * def city = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingCity'), 'value')
-					 * WebUI.verifyMatch("GAMBRILLS", city, false)
-					 * 
-					 * def email = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_emailAddress'), 'value')
-					 * WebUI.verifyMatch("iahmed@govolution.com", email, false)
-					 * 
-					 * def amount = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'value')
-					 * WebUI.verifyMatch("100.00", amount, false)
-					 * 
-					 * def amountReadOnly = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'readonly')
-					 * WebUI.verifyMatch("true", amountReadOnly, false)
-					 * 
-					 * WebUI.verifyOptionSelectedByLabel(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/select_Country'), 'United States',
-					 * false, 20)
-					 * 
-					 * WebUI.verifyOptionSelectedByLabel(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/select_State'), 'Maryland', false, 20)
-					 * 
-					 * 
-					 * WebUI.setText(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony
-					 * Gonzalez') WebUI.setText(findTestObject(orPath_PaymentEntry +
-					 * '/input__cardNumber'),'4111111111111111')
-					 * WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__spc'),'123')
-					 * WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry +
-					 * '/select_MM'),"12",false)
-					 * WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry +
-					 * '/select_YYYY'),"2028",false)
-					 * 
-					 * 
-					 * // Select Continue on VRelay Payment Entry page
-					 * WebUI.click(findTestObject(orPath_PaymentEntry + '/input_Field_ccSubmit'))
-					 * 
-					 * 
-					 * // Select Confirm on Payment Confirmation Page
-					 * WebUI.click(findTestObject(orPath_PaymentConfirmation +
-					 * '/input_N_confirmNotifyAction'))
-					 * 
-					 * 
-					 * // Verify text on Dual CF Page
-					 * 
-					 * 
-					 * 
-					 * WebUI.verifyTextPresent('Service Fee Acceptance', true)
-					 * WebUI.verifyTextPresent('This transaction is subject to a Service Fee of ',
-					 * true) WebUI.verifyTextPresent('Payment Amount:', true)
-					 * WebUI.verifyTextPresent('100.00', true) WebUI.verifyTextPresent('Service
-					 * Fee:', true) WebUI.verifyTextPresent('2.45', true)
-					 * WebUI.verifyTextPresent('Total Amount:', true)
-					 * WebUI.verifyTextPresent('102.45', true) WebUI.verifyTextPresent('Two
-					 * transactions will appear on your bank statement, one in the amount of', true)
-					 * 
-					 * 
-					 * WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept +
-					 * '/input_convFeeNotifyAction'), 30)
-					 */
-					
-					
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_zipCode')," ")
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_phoneNumber')," ")
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_eMailAddress')," ")
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_reEnterEMailAddress')," ")
 	
+
+// Verify Error Messages
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					
+					WebUI.verifyTextPresent('Enter business name', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Enter business rep first name', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Enter business rep last name', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Enter address', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Enter city', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Enter ZIP code', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Enter a valid phone number', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Enter Email', true,FailureHandling.CONTINUE_ON_FAILURE)
+					
+					resText = "Pass"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 				}
 			
 			
