@@ -378,28 +378,28 @@
    <testCaseLink>
       <guid>712710dd-4773-4dc0-b426-2a332a7e73c3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Existing_BeforePayments_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1d061af1-1358-4318-8a8b-ea85bdc1bcc7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Extension_BeforePayments_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d7dfe099-f82e-4ed6-ae3e-d918a02ad993</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/NewTaxReturn_BeforePayments_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7ef72963-9338-4af7-954b-06f4b86bd116</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Personal_EL_BeforePayments_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -418,45 +418,52 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7bdfe500-8821-402c-acf8-e8e2571c90ef</guid>
+      <guid>de8d111f-a682-43f9-a70a-59a9ef0c0a56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/Estimated_MRF_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8317c7b7-a43c-4eb9-b3f8-25672813d129</guid>
+      <guid>d81d780c-daf0-4a8c-b495-e067d54d235a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/Payments_ExistingLiability_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/Existing_MRF_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0606cb29-1498-4fb4-a593-b2a7555a3cac</guid>
+      <guid>805a6688-ae49-417d-820d-330c8bdf7015</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_AfterJuly2021_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/Extension_MRF_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>27b5c73f-94eb-441f-9a00-e607b4414799</guid>
+      <guid>520f0fe3-1020-450e-a459-cdb3c036b6ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_AfterJuly2021_MarketplaceFacilitator_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/NewTaxReturn_MRF_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a831393a-22b4-487f-93c1-afd81c75ee8c</guid>
+      <guid>9845d057-f0e5-418c-b5e4-a09962fecce3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202_AfterJuly2021_OutOfStateVendor_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/Personal_EL_MRF_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2e95f3ca-6153-49f8-a91e-4efbcdb07201</guid>
+      <guid>c1f77659-44dd-4215-91eb-ee2db32d9629</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/PaymentsHardCoded/SAU_MDForm202F_AfterJuly2021_BothChkBox_HC_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/Personal_Individual_MRF_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21508772-94de-4ea2-946b-56a53fd0825f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/Personal_Joint_MRF_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

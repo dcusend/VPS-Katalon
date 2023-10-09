@@ -122,17 +122,25 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					CustomKeywords.'rad.getSetDataRAD.setDataRADNoticeInvoiceThirteen'()
 					
 
-// Populate MD Central Registration Number for Sales & Use and Withholding Tax only
+// Populate MD Central Registration Number for Sales & Use, Alcohol, Tire Recycling and Withholding Tax only
 					switch (TaxType)
 					{
 						case "Sales & Use Tax":
 								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-								
-								
 						break
 						
 						
 						case "Withholding Tax":
+								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
+						break
+						
+						
+						case "Tire Recycling Fee":
+								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
+						break
+				
+						
+						case "Alcohol Tax":
 								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
 						break
 					

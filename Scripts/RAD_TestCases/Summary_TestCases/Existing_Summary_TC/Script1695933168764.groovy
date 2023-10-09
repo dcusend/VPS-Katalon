@@ -122,17 +122,24 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					CustomKeywords.'rad.getSetDataRAD.setDataRADNoticeInvoiceThirteen'()
 					
 
-// Populate MD Central Registration Number for Sales & Use and Withholding Tax only
+// Populate MD Central Registration Number for Sales & Use, Alcohol Tax, Tire Recycling and Withholding Tax only
 					switch (TaxType)
 					{
 						case "Sales & Use Tax":
 								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-								
-								
 						break
 						
 						
 						case "Withholding Tax":
+								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
+						break
+						
+						
+						case "Tire Recycling Fee":
+								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
+						break
+				
+						case "Alcohol Tax":
 								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
 						break
 					
@@ -220,6 +227,36 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('1234567890123', true)
 					WebUI.verifyTextPresent('Tax Type:', true)
 					WebUI.verifyTextPresent(TaxType, true)
+					
+					
+					switch (TaxType)
+					{
+						case "Sales & Use Tax":
+								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
+								WebUI.verifyTextPresent('07640126', true)
+						break
+						
+						
+						case "Withholding Tax":
+								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
+								WebUI.verifyTextPresent('07640126', true)
+						break
+						
+						
+						case "Tire Recycling Fee":
+								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
+								WebUI.verifyTextPresent('07640126', true)
+						break
+				
+						
+						case "Alcohol Tax":
+								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
+								WebUI.verifyTextPresent('07640126', true)
+						break
+					
+					}
+					
+					
 					
 					WebUI.verifyTextPresent('Payment Amount:', true)
 					WebUI.verifyTextPresent('100.00', true)
