@@ -36,6 +36,7 @@ String orPath_Summary = "Object Repository/RAD_Pages/Summary_Page"
 String orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirmation_Page"
 String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page"
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
+String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN
 
@@ -102,11 +103,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Set Data FEIN
 					if (feinSSN.equalsIgnoreCase("Y"))
 					{
-						CustomKeywords.'rad.getSetDataRAD.setDataRADFEINSSN'()
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'), 'z9YBWxGcVPxtlZ7P2Sn0PQ==')
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), 'z9YBWxGcVPxtlZ7P2Sn0PQ==')
 					}
 					else
 					{
-						CustomKeywords.'rad.getSetDataRAD.setDataRADFEIN'()
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'z9YBWxGcVPxtlZ7P2Sn0PQ==')
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'z9YBWxGcVPxtlZ7P2Sn0PQ==')
 					}	
 					
 
@@ -176,14 +179,17 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							WebUI.verifyTextPresent('FEIN/SSN:', true)
 							WebUI.verifyTextNotPresent('Federal EIN:', true)
+							WebUI.verifyTextPresent('XXXXX2690', true)
 						}
 						else
 						{
 							WebUI.verifyTextPresent('Federal EIN:', true)
 							WebUI.verifyTextNotPresent('FEIN/SSN:', true)
+							WebUI.verifyTextPresent('XXXXXXX90', true)
 						}
 						
-					
+						//WebUI.verifyTextPresent('XXXXX6789', true)
+						
 					
 					
 					WebUI.verifyTextPresent('Payment Amount:', true)

@@ -6,12 +6,16 @@
    <elementGuidId>abfcd986-7d57-4427-9a1d-1c332912fef9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'confirmNotifyAction']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='lock'])[2]</value>
+         <value>//input[@name='confirmNotifyAction']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;confirmNotifyAction&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,41 +26,127 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>96a5d964-639c-4d37-81e0-7ab9a6da0be0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>radio</value>
+      <value>submit</value>
+      <webElementGuid>91e43eed-2a9b-499f-9340-07d3ddf37c67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>lock</value>
+      <value>confirmNotifyAction</value>
+      <webElementGuid>e4e1e6f7-a36e-431f-9186-e4e849f00603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>no</value>
+      <value>Confirm</value>
+      <webElementGuid>3984e9d1-3c1d-4c52-9b7c-e03ba16e8592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;addUser&quot;)/div[@class=&quot;tile&quot;]/div[@class=&quot;border&quot;]/div[@class=&quot;tile-body&quot;]/form[@class=&quot;form-add-user&quot;]/div[@class=&quot;form-group px-3&quot;]/div[@class=&quot;form-inline&quot;]/input[1]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-1 col-md-offset-6 col-sm-2 col-sm-offset-12 col-xs-12 bootstrap-btn-group&quot;]/input[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <webElementGuid>d8caad07-f20e-43ff-94a4-0dae3c39c942</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>21c854e9-c6f9-437f-b378-ca248c9db814</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-block</value>
+      <webElementGuid>5e2587b0-3e11-4bcb-ad5e-1780913fe156</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>setYes();</value>
+      <webElementGuid>2f8e5bd0-4547-406d-bd5f-66eb61d85a49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target</name>
+      <type>Main</type>
+      <value>#waitModal</value>
+      <webElementGuid>a27b4223-c426-46cb-b2be-937d7eca7546</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
+      <value>//input[@name='confirmNotifyAction']</value>
+      <webElementGuid>3f296517-29fe-465c-88a6-9c2bb53b28a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>fe4dcdc2-54a5-42fc-ae92-4a40ebda79dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit' and @name = 'confirmNotifyAction']</value>
+      <webElementGuid>b253e43e-f44e-40a5-9a66-e0d6a85bdfc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='ccSubmit']</value>
+      <webElementGuid>68d96514-3767-46af-bf36-a45e8a326666</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div/input</value>
+      <webElementGuid>92ab8b3f-91d2-4672-a4d8-12009cf2eb8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit' and @name = 'ccSubmit']</value>
+      <webElementGuid>55e68602-4a62-40b7-8cd9-a0a0ac3e2369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
       <value>(//input[@name='lock'])[2]</value>
+      <webElementGuid>026e7a4a-5b40-460d-805d-3c52b7c13605</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +154,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='addUser']/div/div/div/form/div[7]/div[2]/input</value>
+      <webElementGuid>79f07bb2-8f48-4ed3-a45b-f7ab474cf603</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +162,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div[2]/input</value>
+      <webElementGuid>c24f4843-75bc-49bb-a1f1-1801eed55571</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +170,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'lock']</value>
+      <webElementGuid>1f07f3db-543c-4318-801e-4adf63640b67</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

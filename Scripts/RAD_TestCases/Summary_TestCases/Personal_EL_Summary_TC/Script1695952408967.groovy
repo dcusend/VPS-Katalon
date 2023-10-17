@@ -141,12 +141,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							case "QA2Profile":
 									WebUI.verifyTextPresent('Jimmy Anderson', true)
-									//WebUI.verifyTextPresent('Larsons Bell', true)
+									WebUI.verifyTextPresent('XXXXX1234', true)
 							break
 							
 							case "DemoProfile":
 									WebUI.verifyTextPresent('Jimmy btes', true)
-									//WebUI.verifyTextPresent('Larsons ctes', true)
+									WebUI.verifyTextPresent('XXXXX6724', true)
 							break
 						}
 						
@@ -162,6 +162,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						WebUI.verifyTextPresent('Social Security Number:', true)
 						WebUI.verifyTextPresent('Notice Number:', true)
+						WebUI.verifyTextPresent('1234567890123', true)
+						//WebUI.verifyTextPresent('Notice Number:', true)
 						WebUI.verifyTextPresent('Tax Type:', true)
 						WebUI.verifyTextPresent('Personal Income Tax', true)
 						
