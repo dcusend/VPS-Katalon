@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SuccessfulPaymentPSNoCF</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef17a9cc-5db3-4e18-8e45-6fef28f9dcab</testCaseGuid>
+</TestCaseEntity>

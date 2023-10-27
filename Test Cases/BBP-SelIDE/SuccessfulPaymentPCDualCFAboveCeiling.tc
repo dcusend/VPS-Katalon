@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SuccessfulPaymentPCDualCFAboveCeiling</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf3bf513-fa26-47ee-a2e0-9f7a99fe6939</testCaseGuid>
+</TestCaseEntity>

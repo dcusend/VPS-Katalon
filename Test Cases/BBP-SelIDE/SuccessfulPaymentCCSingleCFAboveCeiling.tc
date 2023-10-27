@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SuccessfulPaymentCCSingleCFAboveCeiling</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd897c89-be65-4ebc-bf44-596eaec15b3c</testCaseGuid>
+</TestCaseEntity>
