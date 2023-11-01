@@ -4,11 +4,13 @@
    <name>input_TaxInformation_feinSsn</name>
    <tag></tag>
    <elementGuidId>988fcd59-38f8-4742-9332-bbfcd96f4279</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value>#feinSsn</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -16,11 +18,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'taxfeinssn']</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <value>//*[@type = 'password' and @name = 'Data' and @id = 'data']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,23 +29,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>32548552-60fc-4b31-a08e-c106e758a164</webElementGuid>
+      <webElementGuid>23630b2a-f9d9-44b6-9f40-a5cf079f5b4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>88bcbc09-e9d2-403f-b088-5f5265a3abed</webElementGuid>
+      <webElementGuid>c535a787-9a58-44b9-8ac7-4164574a0796</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>feinSsn</value>
-      <webElementGuid>40c20acd-b3f0-4666-ab85-8217c1dc771f</webElementGuid>
+      <value>Data</value>
+      <webElementGuid>324e07e8-9b23-46e3-adde-73bdae180aef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +53,7 @@
       <name>data-mask</name>
       <type>Main</type>
       <value>999999999</value>
-      <webElementGuid>9e9de6fc-8468-4693-8760-c9528ca7a692</webElementGuid>
+      <webElementGuid>0d5c369b-565d-4163-8a36-990e8f484cca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,15 +61,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>39f46cfe-6402-4017-9264-8297413e555d</webElementGuid>
+      <webElementGuid>433695ff-269d-4e66-ac62-374fedb37402</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>taxfeinssn</value>
-      <webElementGuid>7a2de6ba-974c-44ed-977c-00a98307bb7c</webElementGuid>
+      <value>data</value>
+      <webElementGuid>d0b14736-2c32-43d1-bb90-86cb7b56ca81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +77,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>9</value>
-      <webElementGuid>6853fec1-b3a9-40cf-978c-0848b3a1c80d</webElementGuid>
+      <webElementGuid>6044ae93-1ede-4974-9788-7bcb1e6e2d4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +85,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>FEIN/SSN</value>
-      <webElementGuid>26dc617a-7b5f-499d-b34c-917310abb02e</webElementGuid>
+      <webElementGuid>2f13ed61-aac6-489a-bf59-8482d70be31f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +93,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>70c3a9f9-da61-43fb-9c2f-d1c8a698ccd5</webElementGuid>
+      <webElementGuid>ad9c5f09-0b83-4ffa-9d73-487461411dbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;taxForm&quot;)/div[@class=&quot;row taxInformationContent&quot;]/div[@class=&quot;col-lg-6 feinorSsn&quot;]/div[@class=&quot;form-floating mb-3&quot;]/input[@id=&quot;feinSsn&quot;]</value>
-      <webElementGuid>7c505ef9-4e62-4494-9695-2d98422dc925</webElementGuid>
+      <webElementGuid>030054c3-565b-408e-b863-2ebfad0ace38</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -111,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='feinSsn']</value>
-      <webElementGuid>fa3c2f85-76d9-40db-b62a-66efa63d0665</webElementGuid>
+      <webElementGuid>1463ea1c-7171-4fde-b39a-b5b1ba3c3676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='taxForm']/div[8]/div[2]/div/input</value>
-      <webElementGuid>0fa23032-8514-4de1-9b26-046e931cdcfc</webElementGuid>
+      <webElementGuid>b033a1fd-a473-470d-8fb4-25f8946ee7dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[2]/div/input</value>
-      <webElementGuid>ed5df517-56ec-4c3f-83fe-afb4eb5e10db</webElementGuid>
+      <webElementGuid>70008882-29b6-4bff-9601-703e7ac9adc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @name = 'feinSsn' and @id = 'feinSsn' and @placeholder = 'FEIN/SSN']</value>
-      <webElementGuid>3292e4fa-d2b4-4bd1-a229-1d837f54201f</webElementGuid>
+      <webElementGuid>bd7208fb-5587-4ae7-b224-44417428e93f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

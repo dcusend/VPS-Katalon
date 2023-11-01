@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInformation_RefeinSsn",
+      "brokenLocator": "//*[@id \u003d \u0027taxrefeinssn\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[8]/div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231031_212815/RAD_TestSuite"
+    }
+  ]
+}

@@ -20,6 +20,9 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+import com.kms.katalon.core.configuration.RunConfiguration
+
+
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
@@ -40,6 +43,8 @@ String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth
 
 def executionProfile = RC.getExecutionProfile()
+def execProfile = RunConfiguration.getExecutionProfile()
+
 
 
 def numOfRows = findTestData(dataFile).getRowNumbers()
@@ -250,6 +255,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							resText = "Pass"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							
+							if (execProfile == "QAProfile" || execProfile == "QA2Profile")
+								{
+									WebUI.click(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'))
+									WebUI.delay(10)
+									WebUI.verifyTextPresent('Successful Payment Receipt', true)
+								}
+							
 						}
 						else
 						{

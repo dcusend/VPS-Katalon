@@ -20,6 +20,9 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+import com.kms.katalon.core.configuration.RunConfiguration
+
+
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
@@ -40,7 +43,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn
 
-
+def execProfile = RunConfiguration.getExecutionProfile()
 
 def numOfRows = findTestData(dataFile).getRowNumbers()
 
@@ -105,8 +108,18 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					if (feinSsn.equalsIgnoreCase("Y"))
 					{
-						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing'), 'RigbBhfdqODKcAsiUrg+1Q==')
-						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RefeinSsn_Existing'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing_New'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypefeinSsn_Existing_New'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						
+						
+						//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RefeinSsn_Existing'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						
+						//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_FeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_RetypeFeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
+						
+						
 					}
 					else
 					{
@@ -307,6 +320,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							resText = "Pass"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							
+							if (execProfile == "QAProfile" || execProfile == "QA2Profile")
+								{
+									WebUI.click(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'))
+									WebUI.delay(10)
+									WebUI.verifyTextPresent('Successful Payment Receipt', true)
+								}
 						}
 						else
 						{

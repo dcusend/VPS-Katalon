@@ -106,8 +106,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Set Data FEIN
 					if (feinSSN.equalsIgnoreCase("Y"))
 					{
-						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'), 'yXB7JMCbD3QoFF75EQd3iw==')
-						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), 'yXB7JMCbD3QoFF75EQd3iw==')
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_FeinSsn_New_2'), 'yXB7JMCbD3QoFF75EQd3iw==')
+						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'), 'yXB7JMCbD3QoFF75EQd3iw==')
 					}
 					else
 					{
