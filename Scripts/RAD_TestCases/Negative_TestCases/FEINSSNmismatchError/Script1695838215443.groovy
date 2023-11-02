@@ -139,16 +139,16 @@ def ExecuteTC, Taxtype, Paymenttype
 						
 						case "Existing Liability w/Notice Number":
 							
-									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing'), 'RigbBhfdqODKcAsiUrg+1Q==')
-									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RefeinSsn_Existing'), 'RigbBhfdqOD+04WBHw5iKw==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing_New'), 'RigbBhfdqODKcAsiUrg+1Q==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypefeinSsn_Existing_New'), 'RigbBhfdqOD+04WBHw5iKw==')
 								
 						break
 						
 						
 						case "Quarterly Estimated Tax":
 							
-									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'), 'RigbBhfdqODKcAsiUrg+1Q==')
-									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), 'RigbBhfdqOD+04WBHw5iKw==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_FeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'), 'RigbBhfdqOD+04WBHw5iKw==')
 								
 						
 						break
@@ -156,8 +156,8 @@ def ExecuteTC, Taxtype, Paymenttype
 						
 						case "Extension Payments":
 							
-									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'), 'RigbBhfdqODKcAsiUrg+1Q==')
-									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), 'RigbBhfdqOD+04WBHw5iKw==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_FeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'), 'RigbBhfdqOD+04WBHw5iKw==')
 								
 														
 						break
@@ -165,8 +165,8 @@ def ExecuteTC, Taxtype, Paymenttype
 						
 						case "New Tax Return Amount Due":
 							
-									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'), 'RigbBhfdqODKcAsiUrg+1Q==')
-									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), 'RigbBhfdqOD+04WBHw5iKw==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_FeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
+									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'), 'RigbBhfdqOD+04WBHw5iKw==')
 								
 						
 						break
@@ -183,7 +183,7 @@ def ExecuteTC, Taxtype, Paymenttype
 					
 					
 					
-					if (WebUI.verifyTextPresent('The FEIN/SSN and Re-Type FEIN/SSN do not match', true))
+					if (WebUI.verifyTextPresent('The FEIN/SSN and Re-type FEIN/SSN do not match', true))
 						{
 							println "Error Message is present on the page"
 							System.out.println('Pass Record Number: ' + row)

@@ -261,10 +261,10 @@ public class getSetDataRAD {
 
 		//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_FeinSSN_New'), 'RigbBhfdqODKcAsiUrg+1Q==')
 		//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_RetypeFeinSSN_New'), 'RigbBhfdqODKcAsiUrg+1Q==')
-		
+
 		WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_FeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
 		WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_RetypeFeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
-		
+
 
 	}
 

@@ -18,7 +18,7 @@
          <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @name = 'Data' and @placeholder = 'FEIN/SSN *']) = count(//*[@id = 'data' and @name = 'Data' and @placeholder = 'FEIN/SSN *'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b1e9e9c7-40f1-4257-b544-dc9c57370d7d</webElementGuid>
+      <webElementGuid>d802e456-af88-4760-9738-03ea2b291b4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>996593ab-2c6b-4df0-b54f-ef7ce0e302b1</webElementGuid>
+      <webElementGuid>689fbbdb-e90c-4d11-915e-044f1ffb3715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>data</value>
-      <webElementGuid>c3a4b218-f7a8-4491-b0c5-56959a1fb637</webElementGuid>
+      <webElementGuid>3cb72dc6-c393-4d4c-be38-3d0ea71e05d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Data</value>
-      <webElementGuid>39417c08-4f26-4807-979f-a2a99785df3a</webElementGuid>
+      <webElementGuid>5f9a1146-e454-4f52-9668-a84bde055967</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>5f3b3b40-47ec-479d-9b61-a58e23e1a9b0</webElementGuid>
+      <webElementGuid>18900cc6-7e02-4e45-acef-71fc9161dbb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>FEIN/SSN *</value>
-      <webElementGuid>72afeed7-5c14-44bf-8181-4e1096e9b853</webElementGuid>
+      <webElementGuid>1d75a231-b296-4c4b-8593-d8102f1b37ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>class</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>32aec334-ae23-4eb3-a3a6-5ae25938fce3</webElementGuid>
+      <webElementGuid>ef3c2d99-b215-4b17-9a83-153bcdb5019d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;data&quot;)</value>
-      <webElementGuid>2e59806b-2d40-431a-8989-ac5ba9c98638</webElementGuid>
+      <webElementGuid>c4900b10-79d8-4ddd-966e-78f014a7ef19</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='data']</value>
-      <webElementGuid>6508dcc2-88e5-417f-9df3-b97ec403b145</webElementGuid>
+      <webElementGuid>b40317c3-54c2-44c4-8e6c-30eddda02f26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[29]</value>
-      <webElementGuid>03c3c265-9578-48a9-ad63-51062ef8767e</webElementGuid>
+      <webElementGuid>11eb759a-9b56-438d-8691-bb508849a293</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN/SSN *']</value>
-      <webElementGuid>20adfd03-418e-479e-9a8b-e1b385451509</webElementGuid>
+      <webElementGuid>9e29a348-96b8-4b06-a662-9d9ce444f642</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

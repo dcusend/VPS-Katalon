@@ -103,8 +103,8 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyTextPresent('Tax Information', true)
 		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'))
 		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'))
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'),30)
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'),30)
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing_New'),30)
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypefeinSsn_Existing_New'),30)
 
 
 		

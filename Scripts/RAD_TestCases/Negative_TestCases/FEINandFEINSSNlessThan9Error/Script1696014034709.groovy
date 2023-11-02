@@ -128,8 +128,11 @@ def ExecuteTC, Taxtype, Paymenttype, feinSsn
 						case "Existing Liability w/Notice Number":
 								if (feinSsn.equalsIgnoreCase("Y"))
 									{
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing'), 'iGDxf8hSRT4=')
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RefeinSsn_Existing'), '')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing_New'), 'iGDxf8hSRT4=')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypefeinSsn_Existing_New'), '')
+										
+										//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing'), 'iGDxf8hSRT4=')
+										//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RefeinSsn_Existing'), '')
 									}
 								else
 									{
@@ -143,8 +146,8 @@ def ExecuteTC, Taxtype, Paymenttype, feinSsn
 						case "Quarterly Estimated Tax":
 								if (feinSsn.equalsIgnoreCase("Y"))
 									{
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'), 'iGDxf8hSRT4=')
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), '')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_FeinSsn_New_2'), 'iGDxf8hSRT4=')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'), '')
 									}
 								else
 									{
@@ -158,8 +161,8 @@ def ExecuteTC, Taxtype, Paymenttype, feinSsn
 						case "Extension Payments":
 								if (feinSsn.equalsIgnoreCase("Y"))
 									{
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_feinSsn'), 'iGDxf8hSRT4=')
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), '')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_FeinSsn_New_2'), 'iGDxf8hSRT4=')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'), '')
 									}
 								else
 									{
@@ -173,8 +176,8 @@ def ExecuteTC, Taxtype, Paymenttype, feinSsn
 						case "New Tax Return Amount Due":
 								if (feinSsn.equalsIgnoreCase("Y"))
 									{
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '//input_TaxInformation_feinSsn'), 'iGDxf8hSRT4=')
-										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInformation_RefeinSsn'), '')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '//input_TaxInfo_FeinSsn_New_2'), 'iGDxf8hSRT4=')
+										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'), '')
 									}
 								else
 									{
