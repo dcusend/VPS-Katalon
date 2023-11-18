@@ -37,13 +37,28 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/iahmedvbills")
+
+//bbpURL = GlobalVariable.BBPURL
+selenium.open("https://qa2.velocitypayment.com/vbillslookup/lookup/iahmedvbills")
+
+//selenium.open("/vbillslookup/lookup/iahmedvbills")
 selenium.type("id=field1", "soleja")
 selenium.type("id=field2", "123456")
 selenium.click("name=Test")
-softAssertion.assertEquals(Pattern.matches('selenium.getText("name=paymentform")', "Please Utilize The Section Below to Lookup Your bill. If you have any questions please contact your system administrator.*"), true)
-softAssertion.assertEquals("Bill Number :", selenium.getText("css=nobr"))
-softAssertion.assertEquals("Phone Number :", selenium.getText("//tr[2]/td/nobr"))
-softAssertion.assertEquals("Search For Bill", selenium.getValue("name=Test"))
-softAssertion.assertEquals("Modify Search", selenium.getValue("//input[@value='Modify Search']"))
-softAssertion.assertEquals("Continue", selenium.getValue("name=paysubmit"))
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("name=paymentform")', "Please Utilize The Section Below to Lookup Your bill. If you have any questions please contact your system administrator.*"), true)
+//softAssertion.assertEquals("Bill Number :", selenium.getText("css=nobr"))
+//softAssertion.assertEquals("Phone Number :", selenium.getText("//tr[2]/td/nobr"))
+//softAssertion.assertEquals("Search For Bill", selenium.getValue("name=Test"))
+//softAssertion.assertEquals("Modify Search", selenium.getValue("//input[@value='Modify Search']"))
+//softAssertion.assertEquals("Continue", selenium.getValue("name=paysubmit"))
+
+WebUI.verifyTextPresent(("Please Utilize The Section Below to Lookup Your bill. If you have any questions please contact your system administrator"), true)
+WebUI.verifyTextPresent(("Bill Number :"), true)
+WebUI.verifyTextPresent(("Phone Number :"), true)
+
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/BBP/BillLookup_Page/button_Continue'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/BBP/BillLookup_Page/button_ModifySearch'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/BBP/BillLookup_Page/button_SearchForBill'))
+
+

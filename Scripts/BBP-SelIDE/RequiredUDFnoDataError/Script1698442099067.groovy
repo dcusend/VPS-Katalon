@@ -37,7 +37,12 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+bbpURL = GlobalVariable.BBPURL
+selenium.open(bbpURL)
+
+
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
 selenium.type("id=field1", "Molly")
 selenium.type("id=field2", "654321")
 selenium.click("name=Test")
@@ -45,5 +50,15 @@ Thread.sleep(2000);
 selenium.click("name=paysubmit")
 selenium.waitForPageToLoad("30000")
 Thread.sleep(10000);
-softAssertion.assertEquals("Test vBills Auto - Error The following error occurred: <br> Transaction cannot be processed due to missing input [user_defined9]<br> Please&nbsp;&nbsp;click here to continue.", selenium.getText("//td[2]"))
-selenium.selectWindow("null")
+//softAssertion.assertEquals("Test vBills Auto - Error The following error occurred: <br> Transaction cannot be processed due to missing input [user_defined9]<br> Please&nbsp;&nbsp;click here to continue.", selenium.getText("//td[2]"))
+//selenium.selectWindow("null")
+
+WebUI.verifyTextPresent(("Test vBills Auto - Error"), true)
+
+WebUI.verifyTextPresent(("The following error occurred:"), true)
+
+WebUI.verifyTextPresent(("Transaction cannot be processed due to missing input"), true)
+
+WebUI.verifyTextPresent(("user_defined9"), true)
+
+WebUI.verifyTextPresent(("click here to continue."), true)

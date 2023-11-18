@@ -6,6 +6,10 @@
    <elementGuidId>4e414646-36ba-4ea6-bbe5-cc7284e5e13b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'username' and @id = 'okta-signin-username']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#okta-signin-username</value>
       </entry>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>e367d854-f689-4d75-873b-69ec4e5e231e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>6b79ece1-9e1e-412a-95b5-3e96f427754f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +42,7 @@
       <name>name</name>
       <type>Main</type>
       <value>username</value>
+      <webElementGuid>e19b0aef-3bc3-4e5e-8c0d-7bec849367a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>okta-signin-username</value>
+      <webElementGuid>0a28df9b-83d9-4b1b-bf4e-3365ebf3671d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>username</value>
+      <webElementGuid>3e69a478-4713-473d-83ae-d39b1b178d71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>fedc04e1-1c93-45ad-b747-eb367ae97b0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +74,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>e8fd325f-478a-4e47-990a-62337d68e049</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;okta-signin-username&quot;)</value>
+      <webElementGuid>6b7b7209-f470-4dd7-9675-bdf251b04023</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='okta-signin-username']</value>
+      <webElementGuid>8fad86bb-96b4-4b58-99ab-908326b686f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form19']/div/div[2]/div/div[2]/span/input</value>
+      <webElementGuid>05b2d676-43b3-44e4-a9ec-fecbd1b1ad05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>a787f6da-a8af-4f14-8e30-cc4f7811a9f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'username' and @id = 'okta-signin-username']</value>
+      <webElementGuid>ca1c6b24-72a1-4cd3-a5a7-a668513f411a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

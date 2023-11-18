@@ -37,7 +37,12 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/testvbillsautoscf")
+
+sCFBBPURL = GlobalVariable.SCFBBPURL
+selenium.open(sCFBBPURL)
+
+
+//selenium.open("/vbillslookup/lookup/testvbillsautoscf")
 selenium.type("id=field1", "666160")
 selenium.type("id=field2", "666161")
 selenium.type("id=field3", "666162")
@@ -48,8 +53,13 @@ selenium.waitForPageToLoad("30000")
 selenium.click("name=paymentMethod")
 selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
-softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
+//softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
+
+WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
+WebUI.verifyTextPresent(("Please enter the following information about your payment:"), true)
+
+
 selenium.type("name=amount", ("10.00").toString())
 selenium.type("name=userDefined2", ("UDF2 Data1").toString())
 selenium.type("name=userDefined3", ("UDF3 Data1").toString())
@@ -65,10 +75,20 @@ selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
 selenium.click("id=checkedAcceptCondition")
 selenium.click("name=ccSubmit")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
-softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
+//softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
+
+WebUI.verifyTextPresent(("Please verify the following information:"), true)
+WebUI.verifyTextPresent(("Is this information correct"), true)
+
+
 selenium.click("name=confirmNotifyAction")
 selenium.waitForPageToLoad("30000")
 Thread.sleep(15000);
-softAssertion.assertEquals("Total Amount:", selenium.getText("//tr[7]/td"))
-softAssertion.assertEquals("$10.00", selenium.getText("//tr[7]/td[2]"))
+//softAssertion.assertEquals("Total Amount:", selenium.getText("//tr[7]/td"))
+//softAssertion.assertEquals("$10.00", selenium.getText("//tr[7]/td[2]"))
+
+WebUI.verifyTextPresent(("Total Amount:"), true)
+WebUI.verifyTextPresent(("\$10.00"), false)
+
+

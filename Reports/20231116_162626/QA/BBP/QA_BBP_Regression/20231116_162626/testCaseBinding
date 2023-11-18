@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCNoCF","testCaseId":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCNoCF","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCSingleCF","testCaseId":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCSingleCF","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCSingleCFAboveCeiling","testCaseId":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCSingleCFAboveCeiling","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCSingleCFNotInSchedule","testCaseId":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCSingleCFNotInSchedule","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCSingleCFPercentage","testCaseId":"Test Cases/BBP-SelIDE/SuccessfulPaymentCCSingleCFPercentage","iterationVariableName":""}

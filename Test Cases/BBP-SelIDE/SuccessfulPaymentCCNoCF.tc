@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Works only in QA and QA2 Non-Bootstrap</description>
    <name>SuccessfulPaymentCCNoCF</name>
    <tag></tag>
    <comment></comment>

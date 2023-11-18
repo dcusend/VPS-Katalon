@@ -37,7 +37,13 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+bbpURL = GlobalVariable.BBPURL
+selenium.open(bbpURL)
+
+
+
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
 selenium.type("id=field1", "Mandooza")
 selenium.type("id=field2", "4106280791")
 selenium.click("name=Test")
@@ -45,11 +51,19 @@ Thread.sleep(2000);
 selenium.click("name=paysubmit")
 selenium.waitForPageToLoad("30000")
 softAssertion.assertEquals("Select Payment Method", selenium.getText("css=h1"))
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+WebUI.verifyTextPresent(("Select Payment Method"), true)
+
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+selenium.open(bbpURL)
+
 selenium.type("id=field1", "MANDOOZA")
 selenium.type("id=field2", "4106280791")
 selenium.click("name=Test")
 Thread.sleep(2000);
 selenium.click("name=paysubmit")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Select Payment Method", selenium.getText("css=h1"))
+//softAssertion.assertEquals("Select Payment Method", selenium.getText("css=h1"))
+
+WebUI.verifyTextPresent(("Select Payment Method"), true)

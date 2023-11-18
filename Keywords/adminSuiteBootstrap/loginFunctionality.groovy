@@ -45,6 +45,8 @@ public class loginFunctionality {
 
 		WebUI.maximizeWindow()
 
+		//	WebUI.delay(10)
+
 		//		if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
 		//			System.out.println('We are on Login Page, start populating the fields')
 
@@ -75,8 +77,10 @@ public class loginFunctionality {
 
 			case "QA2Profile":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username_Okta'),30)) {
+					//if (WebUI.verifyElementVisible(findTestObject('Login_Page/Login_Username_Okta'))) {
 					System.out.println('We are on Login Page, start populating the fields')
-
+					
+					//WebUI.setText(findTestObject('Object Repository/Login_Page/input_Username_usernameXXX'), gv_username)
 					WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), gv_username)
 
 					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)

@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/BBP-SelIDE/ACDoesNotMatchCorporateACH","testCaseId":"Test Cases/BBP-SelIDE/ACDoesNotMatchCorporateACH","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/ACHDoesNotMatchPersonalACH-Script","testCaseId":"Test Cases/BBP-SelIDE/ACHDoesNotMatchPersonalACH-Script","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/BillLookupError","testCaseId":"Test Cases/BBP-SelIDE/BillLookupError","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/BillLookupError3Fields","testCaseId":"Test Cases/BBP-SelIDE/BillLookupError3Fields","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/CardExpiredError","testCaseId":"Test Cases/BBP-SelIDE/CardExpiredError","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/CardNotAcceptedError","testCaseId":"Test Cases/BBP-SelIDE/CardNotAcceptedError","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/ChangePaymentMethodCC","testCaseId":"Test Cases/BBP-SelIDE/ChangePaymentMethodCC","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/ChangePaymentMethodCCtoCorp","testCaseId":"Test Cases/BBP-SelIDE/ChangePaymentMethodCCtoCorp","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/ChangePaymentMethodCCtoPC","testCaseId":"Test Cases/BBP-SelIDE/ChangePaymentMethodCCtoPC","iterationVariableName":""}
+{"testCaseName":"Test Cases/BBP-SelIDE/ChangePaymentMethodCorporateACH","testCaseId":"Test Cases/BBP-SelIDE/ChangePaymentMethodCorporateACH","iterationVariableName":""}

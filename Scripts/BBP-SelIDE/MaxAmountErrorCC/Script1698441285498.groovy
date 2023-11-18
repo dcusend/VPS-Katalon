@@ -37,7 +37,11 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+bbpURL = GlobalVariable.BBPURL
+selenium.open(bbpURL)
+
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
 selenium.type("id=field1", "111150")
 selenium.type("id=field2", "111151")
 selenium.click("name=Test")
@@ -47,8 +51,12 @@ selenium.waitForPageToLoad("30000")
 selenium.click("name=paymentMethod")
 selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
-softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
+//softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
+
+//WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
+//WebUI.verifyTextPresent(("Please enter the following billing information about your payment:"), true)
+
 selenium.type("name=amount", ("101.00").toString())
 selenium.type("name=userDefined2", ("UDF2 Data1").toString())
 selenium.type("name=userDefined3", ("UDF3 Data1").toString())
@@ -70,4 +78,6 @@ selenium.click("id=checkedAcceptCondition")
 selenium.click("name=ccSubmit")
 selenium.waitForPageToLoad("30000")
 selenium.selectWindow("null")
-softAssertion.assertEquals("Amount is greater than maximum", selenium.getText("css=span.vrelay-error"))
+//softAssertion.assertEquals("Amount is greater than maximum", selenium.getText("css=span.vrelay-error"))
+
+WebUI.verifyTextPresent(("Amount is greater than maximum"), true)

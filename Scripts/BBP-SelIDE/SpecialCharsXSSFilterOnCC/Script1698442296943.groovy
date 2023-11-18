@@ -37,7 +37,12 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+bbpURL = GlobalVariable.BBPURL
+selenium.open(bbpURL)
+
+
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
 selenium.type("id=field1", "444150")
 selenium.type("id=field2", "444151")
 selenium.click("name=Test")
@@ -47,8 +52,13 @@ selenium.waitForPageToLoad("30000")
 selenium.click("name=paymentMethod")
 selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
-softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
+//softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
+
+WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
+WebUI.verifyTextPresent(("Please enter the following information about your payment:"), true)
+
+
 selenium.type("name=amount", ("12.00").toString())
 selenium.type("name=userDefined2", ("<>").toString())
 selenium.type("name=userDefined3", ("&").toString())
@@ -70,4 +80,8 @@ selenium.click("id=checkedAcceptCondition")
 selenium.click("name=ccSubmit")
 selenium.waitForPageToLoad("30000")
 Thread.sleep(2000);
-softAssertion.assertEquals("Test vBills Auto - Error The following error occurred: <br> Invalid characters<br> Please&nbsp;&nbsp;click here to continue.", selenium.getText("//td[2]"))
+//softAssertion.assertEquals("Test vBills Auto - Error The following error occurred: <br> Invalid characters<br> Please&nbsp;&nbsp;click here to continue.", selenium.getText("//td[2]"))
+
+WebUI.verifyTextPresent(("Test vBills Auto - Error The following error occurred: <br> Invalid characters<br> Please&nbsp;&nbsp;click here to continue."), true)
+
+

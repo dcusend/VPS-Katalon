@@ -37,7 +37,12 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+
+bbpURL = GlobalVariable.BBPURL
+selenium.open(bbpURL)
+
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
 selenium.type("id=field1", "111150")
 selenium.type("id=field2", "111151")
 selenium.click("name=Test")
@@ -49,11 +54,23 @@ selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
 selenium.click("name=changePaymentMethodButton")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Select Payment Method", selenium.getText("css=h1"))
-softAssertion.assertEquals(selenium.isElementPresent("name=paymentMethod"), true)
-softAssertion.assertEquals("Pay by Credit or Debit Card", selenium.getText("css=span.payor_opt"))
-softAssertion.assertEquals(selenium.isElementPresent("xpath=(//input[@name='paymentMethod'])[2]"), true)
-softAssertion.assertEquals("Pay by Personal Check", selenium.getText("//form[@id='selectForm']/table/tbody/tr[2]/td[2]/span[2]"))
-softAssertion.assertEquals(selenium.isElementPresent("xpath=(//input[@name='paymentMethod'])[3]"), true)
-softAssertion.assertEquals("Pay by Corporate Check", selenium.getText("//form[@id='selectForm']/table/tbody/tr[2]/td[2]/span[3]"))
-softAssertion.assertEquals(selenium.isElementPresent("css=input[type=\"submit\"]"), true)
+//softAssertion.assertEquals("Select Payment Method", selenium.getText("css=h1"))
+//softAssertion.assertEquals(selenium.isElementPresent("name=paymentMethod"), true)
+//softAssertion.assertEquals("Pay by Credit or Debit Card", selenium.getText("css=span.payor_opt"))
+//softAssertion.assertEquals(selenium.isElementPresent("xpath=(//input[@name='paymentMethod'])[2]"), true)
+//softAssertion.assertEquals("Pay by Personal Check", selenium.getText("//form[@id='selectForm']/table/tbody/tr[2]/td[2]/span[2]"))
+//softAssertion.assertEquals(selenium.isElementPresent("xpath=(//input[@name='paymentMethod'])[3]"), true)
+//softAssertion.assertEquals("Pay by Corporate Check", selenium.getText("//form[@id='selectForm']/table/tbody/tr[2]/td[2]/span[3]"))
+//softAssertion.assertEquals(selenium.isElementPresent("css=input[type=\"submit\"]"), true)
+
+WebUI.verifyTextPresent(("Select Payment Method"), true)
+WebUI.verifyElementPresent(findTestObject('Object Repository/BBP/SelectPaymentMethod_Page/input_PayByCC'),30)
+WebUI.verifyTextPresent(("Pay by Credit or Debit Card"), true)
+WebUI.verifyElementPresent(findTestObject('Object Repository/BBP/SelectPaymentMethod_Page/input_PayByPC'),30)
+
+
+WebUI.verifyTextPresent(("Pay by Personal Check"), true)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/BBP/SelectPaymentMethod_Page/input_PayByCorp'),30)
+WebUI.verifyTextPresent(("Pay by Corporate Check"), true)
+

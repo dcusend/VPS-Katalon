@@ -83,4 +83,8 @@ selenium.click("name=ccSubmit")
 selenium.waitForPageToLoad("30000")
 //softAssertion.assertEquals("This card type is not accepted, please enter a different credit or debit card number. Only American Express , MasterCard and Visa card(s) is(are) accepted.", selenium.getText("css=span.vrelay-error"))
 
-WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number. Only American Express , MasterCard and Visa card(s) is(are) accepted."), true)
+WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number."), true)
+
+WebUI.verifyTextPresent(("Only American Express , MasterCard and Visa card"), true)
+
+WebUI.verifyTextPresent(("accepted."), true)

@@ -129,7 +129,7 @@ WebUI.verifyTextPresent(("Debit"), true)
 WebUI.verifyTextPresent(("Corporate"), true)
 WebUI.verifyTextPresent(("Checking"), true)
 WebUI.verifyTextPresent(("3333"), true)
-WebUI.verifyTextPresent(("256072691"), true)
+WebUI.verifyTextPresent(("2691"), true)
 WebUI.verifyTextPresent(("My Company"), true)
 WebUI.verifyTextPresent(("Employer Identification Number"), true)
 

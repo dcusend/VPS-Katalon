@@ -81,7 +81,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qa2.velocitypayment.com//vbillslookup/lookup/testvbillsauto'</initValue>
+      <initValue>'https://qa2.velocitypayment.com/vbillslookup/lookup/testvbillsauto'</initValue>
       <name>BBPURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa2.velocitypayment.com/vbillslookup/lookup/testvbillsautoscf'</initValue>
+      <name>SCFBBPURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa2.velocitypayment.com/vbillslookup/lookup/testvbillsautodcf'</initValue>
+      <name>DCFBBPURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

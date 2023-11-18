@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QA_BBP_Regression" time="174.321" tests="5" failures="0" errors="0">
+   <testsuite name="QA_BBP_Regression" tests="5" failures="0" errors="0" time="174.321" skipped="0" timestamp="2023-11-16 16:55:01" hostname="imtiaz - DESKTOP-B2QI6NS.govolution.com" id="Test Suites/QA/BBP/QA_BBP_Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20231116_165455\\QA\\BBP\\QA_BBP_Regression\\20231116_165455"/>
+         <property name="logFiles" value="E:\\Cloned-Project-Katalon\\VPS-Katalon\\Reports\\20231116_165455\\QA\\BBP\\QA_BBP_Regression\\20231116_165455\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="imtiaz - DESKTOP-B2QI6NS.govolution.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="172.31.253.139"/>
+         <property name="sessionId" value="ee11a5113f963211b033b5985b67e01a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BBP-SelIDE/SuccessfulPaymentPCDualCFPercentage" time="36.852" classname="Test Cases/BBP-SelIDE/SuccessfulPaymentPCDualCFPercentage" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:55:02 - [TEST_CASE][PASSED] - Test Cases/BBP-SelIDE/SuccessfulPaymentPCDualCFPercentage: Test Cases/BBP-SelIDE/SuccessfulPaymentPCDualCFPercentage
+
+2023-11-16 16:55:02 - [TEST_STEP][PASSED] - softAssertion = new org.testng.asserts.SoftAssert(): null
+
+2023-11-16 16:55:03 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:55:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-16 16:55:03 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-11-16 16:55:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-16 16:55:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:55:08 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-11-16 16:55:08 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2023-11-16 16:55:08 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2023-11-16 16:55:08 - [TEST_STEP][PASSED] - dCFBBPURL = DCFBBPURL: null
+
+2023-11-16 16:55:09 - [TEST_STEP][PASSED] - selenium.open(dCFBBPURL): null
+
+2023-11-16 16:55:09 - [TEST_STEP][PASSED] - selenium.type("id=field1", "101110"): null
+
+2023-11-16 16:55:09 - [TEST_STEP][PASSED] - selenium.type("id=field2", "101111"): null
+
+2023-11-16 16:55:10 - [TEST_STEP][PASSED] - selenium.click("name=Test"): null
+
+2023-11-16 16:55:10 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2023-11-16 16:55:12 - [TEST_STEP][PASSED] - selenium.click("name=paysubmit"): null
+
+2023-11-16 16:55:12 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:13 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@name='paymentMethod'])[2]"): null
+
+2023-11-16 16:55:13 - [TEST_STEP][PASSED] - selenium.click("css=input[type="submit"]"): null
+
+2023-11-16 16:55:14 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:14 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk.", true): Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:55:15 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter the following billing information about your payment:", true): Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:55:15 - [MESSAGE][PASSED] - Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("name=amount", 00".toString()): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("name=userDefined2", "UDF2 Data1".toString()): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("name=userDefined3", "UDF3 Data1".toString()): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("name=userDefined5", "UDF5 Data1".toString()): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("name=userDefined6", "UDF6 Data1".toString()): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("name=userDefined8", "UDF8 Data1".toString()): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("name=billingFirstname", "Molly"): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("name=billingLastname", "Hunter"): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("id=routingNumber", "256072691"): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("id=accountNumber", "11111111"): null
+
+2023-11-16 16:55:15 - [TEST_STEP][PASSED] - selenium.type("id=confirmAccountNumber", "11111111"): null
+
+2023-11-16 16:55:16 - [TEST_STEP][PASSED] - selenium.click("name=accountType"): null
+
+2023-11-16 16:55:16 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress", "2311 york road".toString()): null
+
+2023-11-16 16:55:16 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress2", "Suite 600".toString()): null
+
+2023-11-16 16:55:16 - [TEST_STEP][PASSED] - selenium.type("id=billing-zip-input", "21054"): null
+
+2023-11-16 16:55:16 - [TEST_STEP][PASSED] - selenium.type("name=emailAddress", com".toString()): null
+
+2023-11-16 16:55:16 - [TEST_STEP][PASSED] - selenium.click("id=checkedAcceptCondition"): null
+
+2023-11-16 16:55:16 - [TEST_STEP][PASSED] - selenium.click("name=achSubmit"): null
+
+2023-11-16 16:55:16 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:17 - [TEST_STEP][PASSED] - verifyTextPresent("Please verify the following information:", true): Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:55:17 - [MESSAGE][PASSED] - Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:55:17 - [TEST_STEP][PASSED] - verifyTextPresent("Is this information correct", true): Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:55:18 - [MESSAGE][PASSED] - Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:55:18 - [TEST_STEP][PASSED] - selenium.click("name=confirmNotifyAction"): null
+
+2023-11-16 16:55:18 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:19 - [TEST_STEP][PASSED] - verifyTextPresent("This transaction is subject to a Convenience Fees of $6.00.", false): Text 'This transaction is subject to a Convenience Fees of $6.00.' is present on page 
+
+2023-11-16 16:55:19 - [MESSAGE][PASSED] - Text 'This transaction is subject to a Convenience Fees of $6.00.' is present on page 
+
+2023-11-16 16:55:19 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Amount:", true): Text 'Payment Amount:' is present on page  using regular expression
+
+2023-11-16 16:55:19 - [MESSAGE][PASSED] - Text 'Payment Amount:' is present on page  using regular expression
+
+2023-11-16 16:55:19 - [TEST_STEP][PASSED] - verifyTextPresent("$60.00", false): Text '$60.00' is present on page 
+
+2023-11-16 16:55:19 - [MESSAGE][PASSED] - Text '$60.00' is present on page 
+
+2023-11-16 16:55:19 - [TEST_STEP][PASSED] - verifyTextPresent("Convenience Fees:", true): Text 'Convenience Fees:' is present on page  using regular expression
+
+2023-11-16 16:55:20 - [MESSAGE][PASSED] - Text 'Convenience Fees:' is present on page  using regular expression
+
+2023-11-16 16:55:20 - [TEST_STEP][PASSED] - verifyTextPresent("$6.00", false): Text '$6.00' is present on page 
+
+2023-11-16 16:55:20 - [MESSAGE][PASSED] - Text '$6.00' is present on page 
+
+2023-11-16 16:55:20 - [TEST_STEP][PASSED] - verifyTextPresent("Total Amount:", true): Text 'Total Amount:' is present on page  using regular expression
+
+2023-11-16 16:55:20 - [MESSAGE][PASSED] - Text 'Total Amount:' is present on page  using regular expression
+
+2023-11-16 16:55:20 - [TEST_STEP][PASSED] - verifyTextPresent("$66.00", false): Text '$66.00' is present on page 
+
+2023-11-16 16:55:20 - [MESSAGE][PASSED] - Text '$66.00' is present on page 
+
+2023-11-16 16:55:20 - [TEST_STEP][PASSED] - verifyTextPresent("Two transactions will appear on your bank statement, one in the amount of $60.00 and one in the amount of $6.00.", false): Text 'Two transactions will appear on your bank statement, one in the amount of $60.00 and one in the amount of $6.00.' is present on page 
+
+2023-11-16 16:55:21 - [MESSAGE][PASSED] - Text 'Two transactions will appear on your bank statement, one in the amount of $60.00 and one in the amount of $6.00.' is present on page 
+
+2023-11-16 16:55:21 - [TEST_STEP][PASSED] - selenium.click("name=convFeeNotifyAction"): null
+
+2023-11-16 16:55:21 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:22 - [TEST_STEP][PASSED] - Thread.sleep(15000): null
+
+2023-11-16 16:55:37 - [TEST_STEP][PASSED] - verifyTextPresent("$60.00", false): Text '$60.00' is present on page 
+
+2023-11-16 16:55:37 - [MESSAGE][PASSED] - Text '$60.00' is present on page 
+
+2023-11-16 16:55:37 - [TEST_STEP][PASSED] - verifyTextPresent("$6.00", false): Text '$6.00' is present on page 
+
+2023-11-16 16:55:37 - [MESSAGE][PASSED] - Text '$6.00' is present on page 
+
+2023-11-16 16:55:37 - [TEST_STEP][PASSED] - verifyTextPresent("Dual Transaction", true): Text 'Dual Transaction' is present on page  using regular expression
+
+2023-11-16 16:55:38 - [MESSAGE][PASSED] - Text 'Dual Transaction' is present on page  using regular expression
+
+2023-11-16 16:55:38 - [TEST_STEP][PASSED] - verifyTextPresent("$66.00", false): Text '$66.00' is present on page 
+
+2023-11-16 16:55:38 - [MESSAGE][PASSED] - Text '$66.00' is present on page 
+
+2023-11-16 16:55:38 - [TEST_STEP][PASSED] - verifyTextPresent("Debit", true): Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:55:38 - [MESSAGE][PASSED] - Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:55:38 - [TEST_STEP][PASSED] - verifyTextPresent("Personal", true): Text 'Personal' is present on page  using regular expression
+
+2023-11-16 16:55:38 - [MESSAGE][PASSED] - Text 'Personal' is present on page  using regular expression
+
+2023-11-16 16:55:38 - [TEST_STEP][PASSED] - verifyTextPresent("Checking", true): Text 'Checking' is present on page  using regular expression
+
+2023-11-16 16:55:39 - [MESSAGE][PASSED] - Text 'Checking' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFAboveCeiling" time="30.749" classname="Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFAboveCeiling" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:55:39 - [TEST_CASE][PASSED] - Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFAboveCeiling: Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFAboveCeiling
+
+2023-11-16 16:55:39 - [TEST_STEP][PASSED] - softAssertion = new org.testng.asserts.SoftAssert(): null
+
+2023-11-16 16:55:39 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:55:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-16 16:55:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-16 16:55:40 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-11-16 16:55:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-16 16:55:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:55:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-11-16 16:55:43 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2023-11-16 16:55:43 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2023-11-16 16:55:43 - [TEST_STEP][PASSED] - sCFBBPURL = SCFBBPURL: null
+
+2023-11-16 16:55:43 - [TEST_STEP][PASSED] - selenium.open(sCFBBPURL): null
+
+2023-11-16 16:55:44 - [TEST_STEP][PASSED] - selenium.type("id=field1", "666160"): null
+
+2023-11-16 16:55:44 - [TEST_STEP][PASSED] - selenium.type("id=field2", "666161"): null
+
+2023-11-16 16:55:44 - [TEST_STEP][PASSED] - selenium.type("id=field3", "666162"): null
+
+2023-11-16 16:55:44 - [TEST_STEP][PASSED] - selenium.click("name=Test"): null
+
+2023-11-16 16:55:44 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2023-11-16 16:55:46 - [TEST_STEP][PASSED] - selenium.click("name=paysubmit"): null
+
+2023-11-16 16:55:47 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:47 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@name='paymentMethod'])[2]"): null
+
+2023-11-16 16:55:47 - [TEST_STEP][PASSED] - selenium.click("css=input[type="submit"]"): null
+
+2023-11-16 16:55:48 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:49 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk.", true): Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:55:49 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:55:49 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter the following billing information about your payment:", true): Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:55:50 - [MESSAGE][PASSED] - Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("name=amount", 00".toString()): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("name=userDefined2", "UDF2 Data2".toString()): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("name=userDefined3", "UDF3 Data2".toString()): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("name=billingFirstname", "Molly"): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("name=billingLastname", "Hunter"): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("id=routingNumber", "256072691"): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("id=accountNumber", "11111111"): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("id=confirmAccountNumber", "11111111"): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.click("name=accountType"): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress", "2311 york road".toString()): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress2", "Suite 600".toString()): null
+
+2023-11-16 16:55:50 - [TEST_STEP][PASSED] - selenium.type("id=billing-zip-input", "21054"): null
+
+2023-11-16 16:55:51 - [TEST_STEP][PASSED] - selenium.type("name=emailAddress", com".toString()): null
+
+2023-11-16 16:55:51 - [TEST_STEP][PASSED] - selenium.click("id=checkedAcceptCondition"): null
+
+2023-11-16 16:55:51 - [TEST_STEP][PASSED] - selenium.click("name=achSubmit"): null
+
+2023-11-16 16:55:51 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:52 - [TEST_STEP][PASSED] - verifyTextPresent("Please verify the following information:", true): Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:55:52 - [MESSAGE][PASSED] - Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:55:52 - [TEST_STEP][PASSED] - verifyTextPresent("Is this information correct", true): Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:55:52 - [MESSAGE][PASSED] - Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:55:52 - [TEST_STEP][PASSED] - selenium.click("name=confirmNotifyAction"): null
+
+2023-11-16 16:55:53 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:55:53 - [TEST_STEP][PASSED] - Thread.sleep(15000): null
+
+2023-11-16 16:56:08 - [TEST_STEP][PASSED] - verifyTextPresent("$101.00", false): Text '$101.00' is present on page 
+
+2023-11-16 16:56:09 - [MESSAGE][PASSED] - Text '$101.00' is present on page 
+
+2023-11-16 16:56:09 - [TEST_STEP][PASSED] - verifyTextPresent("Debit", true): Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:56:09 - [MESSAGE][PASSED] - Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:56:09 - [TEST_STEP][PASSED] - verifyTextPresent("Personal", true): Text 'Personal' is present on page  using regular expression
+
+2023-11-16 16:56:09 - [MESSAGE][PASSED] - Text 'Personal' is present on page  using regular expression
+
+2023-11-16 16:56:09 - [TEST_STEP][PASSED] - verifyTextPresent("Checking", true): Text 'Checking' is present on page  using regular expression
+
+2023-11-16 16:56:09 - [MESSAGE][PASSED] - Text 'Checking' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFFlat" time="36.746" classname="Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFFlat" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:56:09 - [TEST_CASE][PASSED] - Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFFlat: Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFFlat
+
+2023-11-16 16:56:10 - [TEST_STEP][PASSED] - softAssertion = new org.testng.asserts.SoftAssert(): null
+
+2023-11-16 16:56:10 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:56:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-16 16:56:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-16 16:56:11 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-11-16 16:56:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-16 16:56:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:56:16 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-11-16 16:56:16 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2023-11-16 16:56:16 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2023-11-16 16:56:16 - [TEST_STEP][PASSED] - sCFBBPURL = SCFBBPURL: null
+
+2023-11-16 16:56:16 - [TEST_STEP][PASSED] - selenium.open(sCFBBPURL): null
+
+2023-11-16 16:56:17 - [TEST_STEP][PASSED] - selenium.type("id=field1", "666160"): null
+
+2023-11-16 16:56:17 - [TEST_STEP][PASSED] - selenium.type("id=field2", "666161"): null
+
+2023-11-16 16:56:17 - [TEST_STEP][PASSED] - selenium.type("id=field3", "666162"): null
+
+2023-11-16 16:56:17 - [TEST_STEP][PASSED] - selenium.click("name=Test"): null
+
+2023-11-16 16:56:17 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2023-11-16 16:56:19 - [TEST_STEP][PASSED] - selenium.click("name=paysubmit"): null
+
+2023-11-16 16:56:20 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:56:20 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@name='paymentMethod'])[2]"): null
+
+2023-11-16 16:56:21 - [TEST_STEP][PASSED] - selenium.click("css=input[type="submit"]"): null
+
+2023-11-16 16:56:21 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:56:22 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk.", true): Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:56:22 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:56:22 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter the following billing information about your payment:", true): Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:56:23 - [MESSAGE][PASSED] - Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("name=amount", 00".toString()): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("name=userDefined2", "UDF2 Data2".toString()): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("name=userDefined3", "UDF3 Data2".toString()): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("name=billingFirstname", "Molly"): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("name=billingLastname", "Hunter"): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("id=routingNumber", "256072691"): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("id=accountNumber", "11111111"): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("id=confirmAccountNumber", "11111111"): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.click("name=accountType"): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress", "2311 york road".toString()): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress2", "Suite 600".toString()): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("id=billing-zip-input", "21054"): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.type("name=emailAddress", com".toString()): null
+
+2023-11-16 16:56:23 - [TEST_STEP][PASSED] - selenium.click("id=checkedAcceptCondition"): null
+
+2023-11-16 16:56:24 - [TEST_STEP][PASSED] - selenium.click("name=achSubmit"): null
+
+2023-11-16 16:56:24 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:56:24 - [TEST_STEP][PASSED] - verifyTextPresent("Please verify the following information:", true): Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:56:25 - [MESSAGE][PASSED] - Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:56:25 - [TEST_STEP][PASSED] - verifyTextPresent("Is this information correct", true): Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:56:25 - [MESSAGE][PASSED] - Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:56:25 - [TEST_STEP][PASSED] - selenium.click("name=confirmNotifyAction"): null
+
+2023-11-16 16:56:25 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:56:26 - [TEST_STEP][PASSED] - verifyTextPresent("This transaction is subject to a Convenience Fees of $2.00.", false): Text 'This transaction is subject to a Convenience Fees of $2.00.' is present on page 
+
+2023-11-16 16:56:26 - [MESSAGE][PASSED] - Text 'This transaction is subject to a Convenience Fees of $2.00.' is present on page 
+
+2023-11-16 16:56:26 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Amount:", true): Text 'Payment Amount:' is present on page  using regular expression
+
+2023-11-16 16:56:26 - [MESSAGE][PASSED] - Text 'Payment Amount:' is present on page  using regular expression
+
+2023-11-16 16:56:26 - [TEST_STEP][PASSED] - verifyTextPresent("$10.00", false): Text '$10.00' is present on page 
+
+2023-11-16 16:56:27 - [MESSAGE][PASSED] - Text '$10.00' is present on page 
+
+2023-11-16 16:56:27 - [TEST_STEP][PASSED] - verifyTextPresent("Convenience Fees:", true): Text 'Convenience Fees:' is present on page  using regular expression
+
+2023-11-16 16:56:27 - [MESSAGE][PASSED] - Text 'Convenience Fees:' is present on page  using regular expression
+
+2023-11-16 16:56:27 - [TEST_STEP][PASSED] - verifyTextPresent("$2.00", false): Text '$2.00' is present on page 
+
+2023-11-16 16:56:27 - [MESSAGE][PASSED] - Text '$2.00' is present on page 
+
+2023-11-16 16:56:27 - [TEST_STEP][PASSED] - verifyTextPresent("Total Amount:", true): Text 'Total Amount:' is present on page  using regular expression
+
+2023-11-16 16:56:28 - [MESSAGE][PASSED] - Text 'Total Amount:' is present on page  using regular expression
+
+2023-11-16 16:56:28 - [TEST_STEP][PASSED] - verifyTextPresent("$12.00", false): Text '$12.00' is present on page 
+
+2023-11-16 16:56:28 - [MESSAGE][PASSED] - Text '$12.00' is present on page 
+
+2023-11-16 16:56:28 - [TEST_STEP][PASSED] - verifyTextPresent("One transaction in the amount of $12.00 will appear on your bank statement.", false): Text 'One transaction in the amount of $12.00 will appear on your bank statement.' is present on page 
+
+2023-11-16 16:56:28 - [MESSAGE][PASSED] - Text 'One transaction in the amount of $12.00 will appear on your bank statement.' is present on page 
+
+2023-11-16 16:56:28 - [TEST_STEP][PASSED] - selenium.click("name=convFeeNotifyAction"): null
+
+2023-11-16 16:56:29 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:56:29 - [TEST_STEP][PASSED] - Thread.sleep(15000): null
+
+2023-11-16 16:56:44 - [TEST_STEP][PASSED] - verifyTextPresent("$10.00", false): Text '$10.00' is present on page 
+
+2023-11-16 16:56:44 - [MESSAGE][PASSED] - Text '$10.00' is present on page 
+
+2023-11-16 16:56:44 - [TEST_STEP][PASSED] - verifyTextPresent("$2.00", false): Text '$2.00' is present on page 
+
+2023-11-16 16:56:45 - [MESSAGE][PASSED] - Text '$2.00' is present on page 
+
+2023-11-16 16:56:45 - [TEST_STEP][PASSED] - verifyTextPresent("Single Transaction", true): Text 'Single Transaction' is present on page  using regular expression
+
+2023-11-16 16:56:45 - [MESSAGE][PASSED] - Text 'Single Transaction' is present on page  using regular expression
+
+2023-11-16 16:56:45 - [TEST_STEP][PASSED] - verifyTextPresent("$12.00", false): Text '$12.00' is present on page 
+
+2023-11-16 16:56:45 - [MESSAGE][PASSED] - Text '$12.00' is present on page 
+
+2023-11-16 16:56:45 - [TEST_STEP][PASSED] - verifyTextPresent("Debit", true): Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:56:46 - [MESSAGE][PASSED] - Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:56:46 - [TEST_STEP][PASSED] - verifyTextPresent("Personal", true): Text 'Personal' is present on page  using regular expression
+
+2023-11-16 16:56:46 - [MESSAGE][PASSED] - Text 'Personal' is present on page  using regular expression
+
+2023-11-16 16:56:46 - [TEST_STEP][PASSED] - verifyTextPresent("Checking", true): Text 'Checking' is present on page  using regular expression
+
+2023-11-16 16:56:46 - [MESSAGE][PASSED] - Text 'Checking' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFPercentage" time="35.568" classname="Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFPercentage" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:56:46 - [TEST_CASE][PASSED] - Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFPercentage: Test Cases/BBP-SelIDE/SuccessfulPaymentPCSingleCFPercentage
+
+2023-11-16 16:56:47 - [TEST_STEP][PASSED] - softAssertion = new org.testng.asserts.SoftAssert(): null
+
+2023-11-16 16:56:47 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:56:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-16 16:56:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-16 16:56:48 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-11-16 16:56:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-16 16:56:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:56:52 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-11-16 16:56:52 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2023-11-16 16:56:52 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2023-11-16 16:56:52 - [TEST_STEP][PASSED] - sCFBBPURL = SCFBBPURL: null
+
+2023-11-16 16:56:52 - [TEST_STEP][PASSED] - selenium.open(sCFBBPURL): null
+
+2023-11-16 16:56:52 - [TEST_STEP][PASSED] - selenium.type("id=field1", "666160"): null
+
+2023-11-16 16:56:52 - [TEST_STEP][PASSED] - selenium.type("id=field2", "666161"): null
+
+2023-11-16 16:56:52 - [TEST_STEP][PASSED] - selenium.type("id=field3", "666162"): null
+
+2023-11-16 16:56:53 - [TEST_STEP][PASSED] - selenium.click("name=Test"): null
+
+2023-11-16 16:56:53 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2023-11-16 16:56:55 - [TEST_STEP][PASSED] - selenium.click("name=paysubmit"): null
+
+2023-11-16 16:56:55 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:56:56 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@name='paymentMethod'])[2]"): null
+
+2023-11-16 16:56:56 - [TEST_STEP][PASSED] - selenium.click("css=input[type="submit"]"): null
+
+2023-11-16 16:56:57 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:56:57 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk.", true): Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:56:58 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter the following billing information about your payment:", true): Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:56:58 - [MESSAGE][PASSED] - Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.type("name=amount", 00".toString()): null
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.type("name=userDefined2", "UDF2 Data2".toString()): null
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.type("name=userDefined3", "UDF3 Data2".toString()): null
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.type("name=billingFirstname", "Molly"): null
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.type("name=billingLastname", "Hunter"): null
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.type("id=routingNumber", "256072691"): null
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.type("id=accountNumber", "11111111"): null
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.type("id=confirmAccountNumber", "11111111"): null
+
+2023-11-16 16:56:58 - [TEST_STEP][PASSED] - selenium.click("name=accountType"): null
+
+2023-11-16 16:56:59 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress", "2311 york road".toString()): null
+
+2023-11-16 16:56:59 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress2", "Suite 600".toString()): null
+
+2023-11-16 16:56:59 - [TEST_STEP][PASSED] - selenium.type("id=billing-zip-input", "21054"): null
+
+2023-11-16 16:56:59 - [TEST_STEP][PASSED] - selenium.type("name=emailAddress", com".toString()): null
+
+2023-11-16 16:56:59 - [TEST_STEP][PASSED] - selenium.click("id=checkedAcceptCondition"): null
+
+2023-11-16 16:56:59 - [TEST_STEP][PASSED] - selenium.click("name=achSubmit"): null
+
+2023-11-16 16:56:59 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:57:00 - [TEST_STEP][PASSED] - verifyTextPresent("Please verify the following information:", true): Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:57:00 - [MESSAGE][PASSED] - Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:57:00 - [TEST_STEP][PASSED] - verifyTextPresent("Is this information correct", true): Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:57:01 - [MESSAGE][PASSED] - Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:57:01 - [TEST_STEP][PASSED] - selenium.click("name=confirmNotifyAction"): null
+
+2023-11-16 16:57:01 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:57:02 - [TEST_STEP][PASSED] - verifyTextPresent("This transaction is subject to a Convenience Fees of $6.00.", false): Text 'This transaction is subject to a Convenience Fees of $6.00.' is present on page 
+
+2023-11-16 16:57:02 - [MESSAGE][PASSED] - Text 'This transaction is subject to a Convenience Fees of $6.00.' is present on page 
+
+2023-11-16 16:57:02 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Amount:", true): Text 'Payment Amount:' is present on page  using regular expression
+
+2023-11-16 16:57:02 - [MESSAGE][PASSED] - Text 'Payment Amount:' is present on page  using regular expression
+
+2023-11-16 16:57:02 - [TEST_STEP][PASSED] - verifyTextPresent("$60.00", false): Text '$60.00' is present on page 
+
+2023-11-16 16:57:02 - [MESSAGE][PASSED] - Text '$60.00' is present on page 
+
+2023-11-16 16:57:02 - [TEST_STEP][PASSED] - verifyTextPresent("Convenience Fees:", true): Text 'Convenience Fees:' is present on page  using regular expression
+
+2023-11-16 16:57:03 - [MESSAGE][PASSED] - Text 'Convenience Fees:' is present on page  using regular expression
+
+2023-11-16 16:57:03 - [TEST_STEP][PASSED] - verifyTextPresent("$6.00", false): Text '$6.00' is present on page 
+
+2023-11-16 16:57:03 - [MESSAGE][PASSED] - Text '$6.00' is present on page 
+
+2023-11-16 16:57:03 - [TEST_STEP][PASSED] - verifyTextPresent("Total Amount:", true): Text 'Total Amount:' is present on page  using regular expression
+
+2023-11-16 16:57:03 - [MESSAGE][PASSED] - Text 'Total Amount:' is present on page  using regular expression
+
+2023-11-16 16:57:03 - [TEST_STEP][PASSED] - verifyTextPresent("$66.00", false): Text '$66.00' is present on page 
+
+2023-11-16 16:57:04 - [MESSAGE][PASSED] - Text '$66.00' is present on page 
+
+2023-11-16 16:57:04 - [TEST_STEP][PASSED] - verifyTextPresent("One transaction in the amount of $66.00 will appear on your bank statement.", false): Text 'One transaction in the amount of $66.00 will appear on your bank statement.' is present on page 
+
+2023-11-16 16:57:04 - [MESSAGE][PASSED] - Text 'One transaction in the amount of $66.00 will appear on your bank statement.' is present on page 
+
+2023-11-16 16:57:04 - [TEST_STEP][PASSED] - selenium.click("name=convFeeNotifyAction"): null
+
+2023-11-16 16:57:04 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:57:05 - [TEST_STEP][PASSED] - Thread.sleep(15000): null
+
+2023-11-16 16:57:20 - [TEST_STEP][PASSED] - verifyTextPresent("$60.00", false): Text '$60.00' is present on page 
+
+2023-11-16 16:57:20 - [MESSAGE][PASSED] - Text '$60.00' is present on page 
+
+2023-11-16 16:57:20 - [TEST_STEP][PASSED] - verifyTextPresent("$6.00", false): Text '$6.00' is present on page 
+
+2023-11-16 16:57:20 - [MESSAGE][PASSED] - Text '$6.00' is present on page 
+
+2023-11-16 16:57:20 - [TEST_STEP][PASSED] - verifyTextPresent("Single Transaction", true): Text 'Single Transaction' is present on page  using regular expression
+
+2023-11-16 16:57:21 - [MESSAGE][PASSED] - Text 'Single Transaction' is present on page  using regular expression
+
+2023-11-16 16:57:21 - [TEST_STEP][PASSED] - verifyTextPresent("$66.00", false): Text '$66.00' is present on page 
+
+2023-11-16 16:57:21 - [MESSAGE][PASSED] - Text '$66.00' is present on page 
+
+2023-11-16 16:57:21 - [TEST_STEP][PASSED] - verifyTextPresent("Debit", true): Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:57:21 - [MESSAGE][PASSED] - Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:57:21 - [TEST_STEP][PASSED] - verifyTextPresent("Personal", true): Text 'Personal' is present on page  using regular expression
+
+2023-11-16 16:57:21 - [MESSAGE][PASSED] - Text 'Personal' is present on page  using regular expression
+
+2023-11-16 16:57:21 - [TEST_STEP][PASSED] - verifyTextPresent("Checking", true): Text 'Checking' is present on page  using regular expression
+
+2023-11-16 16:57:22 - [MESSAGE][PASSED] - Text 'Checking' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBP-SelIDE/SuccessPaymentCorpSingleCFFlat" time="33.945" classname="Test Cases/BBP-SelIDE/SuccessPaymentCorpSingleCFFlat" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:57:22 - [TEST_CASE][PASSED] - Test Cases/BBP-SelIDE/SuccessPaymentCorpSingleCFFlat: Test Cases/BBP-SelIDE/SuccessPaymentCorpSingleCFFlat
+
+2023-11-16 16:57:22 - [TEST_STEP][PASSED] - softAssertion = new org.testng.asserts.SoftAssert(): null
+
+2023-11-16 16:57:22 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:57:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-16 16:57:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-16 16:57:23 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-11-16 16:57:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-16 16:57:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2023-11-16 16:57:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-11-16 16:57:26 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2023-11-16 16:57:26 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2023-11-16 16:57:26 - [TEST_STEP][PASSED] - sCFBBPURL = SCFBBPURL: null
+
+2023-11-16 16:57:26 - [TEST_STEP][PASSED] - selenium.open(sCFBBPURL): null
+
+2023-11-16 16:57:27 - [TEST_STEP][PASSED] - selenium.type("id=field1", "666160"): null
+
+2023-11-16 16:57:27 - [TEST_STEP][PASSED] - selenium.type("id=field2", "666161"): null
+
+2023-11-16 16:57:27 - [TEST_STEP][PASSED] - selenium.type("id=field3", "666162"): null
+
+2023-11-16 16:57:27 - [TEST_STEP][PASSED] - selenium.click("name=Test"): null
+
+2023-11-16 16:57:27 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2023-11-16 16:57:29 - [TEST_STEP][PASSED] - selenium.click("name=paysubmit"): null
+
+2023-11-16 16:57:30 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:57:30 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@name='paymentMethod'])[3]"): null
+
+2023-11-16 16:57:31 - [TEST_STEP][PASSED] - selenium.click("css=input[type="submit"]"): null
+
+2023-11-16 16:57:31 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:57:32 - [TEST_STEP][PASSED] - verifyTextPresent("Required fields are highlighted with an asterisk.", true): Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:57:32 - [MESSAGE][PASSED] - Text 'Required fields are highlighted with an asterisk.' is present on page  using regular expression
+
+2023-11-16 16:57:32 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter the following billing information about your payment:", true): Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:57:32 - [MESSAGE][PASSED] - Text 'Please enter the following billing information about your payment:' is present on page  using regular expression
+
+2023-11-16 16:57:32 - [TEST_STEP][PASSED] - selenium.type("name=amount", 00".toString()): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("name=userDefined2", "UDF2 Data3".toString()): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("name=userDefined3", "UDF3 Data3".toString()): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("name=billingCompanyname", "My Company".toString()): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("id=routingNumber", "256072691"): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("id=accountNumber", "33333333"): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("id=confirmAccountNumber", "33333333"): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("name=ein", "123456789"): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress", "2311 york road".toString()): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("name=billingAddress2", "suite 600".toString()): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("id=billing-zip-input", "21054"): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.type("name=emailAddress", com".toString()): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.click("id=checkedAcceptCondition"): null
+
+2023-11-16 16:57:33 - [TEST_STEP][PASSED] - selenium.click("name=achSubmit"): null
+
+2023-11-16 16:57:34 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:57:34 - [TEST_STEP][PASSED] - verifyTextPresent("Please verify the following information:", true): Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:57:35 - [MESSAGE][PASSED] - Text 'Please verify the following information:' is present on page  using regular expression
+
+2023-11-16 16:57:35 - [TEST_STEP][PASSED] - verifyTextPresent("Is this information correct", true): Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:57:35 - [MESSAGE][PASSED] - Text 'Is this information correct' is present on page  using regular expression
+
+2023-11-16 16:57:35 - [TEST_STEP][PASSED] - selenium.click("name=confirmNotifyAction"): null
+
+2023-11-16 16:57:35 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:57:36 - [TEST_STEP][PASSED] - verifyTextPresent("This transaction is subject to a Convenience Fees of $2.00.", false): Text 'This transaction is subject to a Convenience Fees of $2.00.' is present on page 
+
+2023-11-16 16:57:36 - [MESSAGE][PASSED] - Text 'This transaction is subject to a Convenience Fees of $2.00.' is present on page 
+
+2023-11-16 16:57:36 - [TEST_STEP][PASSED] - verifyTextPresent("Payment Amount:", true): Text 'Payment Amount:' is present on page  using regular expression
+
+2023-11-16 16:57:36 - [MESSAGE][PASSED] - Text 'Payment Amount:' is present on page  using regular expression
+
+2023-11-16 16:57:36 - [TEST_STEP][PASSED] - verifyTextPresent("$10.00", false): Text '$10.00' is present on page 
+
+2023-11-16 16:57:37 - [MESSAGE][PASSED] - Text '$10.00' is present on page 
+
+2023-11-16 16:57:37 - [TEST_STEP][PASSED] - verifyTextPresent("Convenience Fees:", true): Text 'Convenience Fees:' is present on page  using regular expression
+
+2023-11-16 16:57:37 - [MESSAGE][PASSED] - Text 'Convenience Fees:' is present on page  using regular expression
+
+2023-11-16 16:57:37 - [TEST_STEP][PASSED] - verifyTextPresent("$2.00", false): Text '$2.00' is present on page 
+
+2023-11-16 16:57:37 - [MESSAGE][PASSED] - Text '$2.00' is present on page 
+
+2023-11-16 16:57:37 - [TEST_STEP][PASSED] - verifyTextPresent("Total Amount:", true): Text 'Total Amount:' is present on page  using regular expression
+
+2023-11-16 16:57:38 - [MESSAGE][PASSED] - Text 'Total Amount:' is present on page  using regular expression
+
+2023-11-16 16:57:38 - [TEST_STEP][PASSED] - verifyTextPresent("$12.00", false): Text '$12.00' is present on page 
+
+2023-11-16 16:57:38 - [MESSAGE][PASSED] - Text '$12.00' is present on page 
+
+2023-11-16 16:57:38 - [TEST_STEP][PASSED] - verifyTextPresent("One transaction in the amount of $12.00 will appear on your bank statement.", false): Text 'One transaction in the amount of $12.00 will appear on your bank statement.' is present on page 
+
+2023-11-16 16:57:38 - [MESSAGE][PASSED] - Text 'One transaction in the amount of $12.00 will appear on your bank statement.' is present on page 
+
+2023-11-16 16:57:38 - [TEST_STEP][PASSED] - selenium.click("name=convFeeNotifyAction"): null
+
+2023-11-16 16:57:39 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2023-11-16 16:57:39 - [TEST_STEP][PASSED] - Thread.sleep(15000): null
+
+2023-11-16 16:57:54 - [TEST_STEP][PASSED] - verifyTextPresent("$10.00", false): Text '$10.00' is present on page 
+
+2023-11-16 16:57:54 - [MESSAGE][PASSED] - Text '$10.00' is present on page 
+
+2023-11-16 16:57:54 - [TEST_STEP][PASSED] - verifyTextPresent("$2.00", false): Text '$2.00' is present on page 
+
+2023-11-16 16:57:55 - [MESSAGE][PASSED] - Text '$2.00' is present on page 
+
+2023-11-16 16:57:55 - [TEST_STEP][PASSED] - verifyTextPresent("Single Transaction", true): Text 'Single Transaction' is present on page  using regular expression
+
+2023-11-16 16:57:55 - [MESSAGE][PASSED] - Text 'Single Transaction' is present on page  using regular expression
+
+2023-11-16 16:57:55 - [TEST_STEP][PASSED] - verifyTextPresent("$12.00", false): Text '$12.00' is present on page 
+
+2023-11-16 16:57:55 - [MESSAGE][PASSED] - Text '$12.00' is present on page 
+
+2023-11-16 16:57:55 - [TEST_STEP][PASSED] - verifyTextPresent("Debit", true): Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:57:55 - [MESSAGE][PASSED] - Text 'Debit' is present on page  using regular expression
+
+2023-11-16 16:57:55 - [TEST_STEP][PASSED] - verifyTextPresent("Corporate", true): Text 'Corporate' is present on page  using regular expression
+
+2023-11-16 16:57:56 - [MESSAGE][PASSED] - Text 'Corporate' is present on page  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-16 16:55:01 - [TEST_SUITE][PASSED] - QA_BBP_Regression: Test Cases/BBP-SelIDE/SuccessPaymentCorpSingleCFFlat]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

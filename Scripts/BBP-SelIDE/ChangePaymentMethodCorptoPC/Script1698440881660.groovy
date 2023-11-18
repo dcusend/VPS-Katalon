@@ -37,7 +37,14 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+bbpURL = GlobalVariable.BBPURL
+
+selenium.open(bbpURL)
+
+
+
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
 selenium.type("id=field1", "111150")
 selenium.type("id=field2", "111151")
 selenium.click("name=Test")
@@ -47,8 +54,13 @@ selenium.waitForPageToLoad("30000")
 selenium.click("xpath=(//input[@name='paymentMethod'])[3]")
 selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
-softAssertion.assertEquals("Please enter the following billing information about your payment:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
+//softAssertion.assertEquals("Please enter the following billing information about your payment:", selenium.getText("css=span.vrelay-header"))
+
+WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
+WebUI.verifyTextPresent(("Please enter the following billing information about your payment:"), true)
+
+
 selenium.type("name=amount", ("15.00").toString())
 selenium.type("name=userDefined2", ("UDF2 Data3").toString())
 selenium.type("name=userDefined3", ("UDF3 Data3").toString())
@@ -69,8 +81,13 @@ selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
 selenium.click("id=checkedAcceptCondition")
 selenium.click("name=achSubmit")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
-softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
+//softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
+
+WebUI.verifyTextPresent(("Please verify the following information:"), true)
+WebUI.verifyTextPresent(("Is this information correct"), true)
+
+
 softAssertion.assertEquals("Corporate Checking", selenium.getText("//tr[20]/td[3]"))
 selenium.click("name=changePaymentMethodButton")
 selenium.waitForPageToLoad("30000")
@@ -98,12 +115,25 @@ selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
 selenium.click("id=checkedAcceptCondition")
 selenium.click("name=achSubmit")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
-softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
-softAssertion.assertEquals("Personal Checking", selenium.getText("//tr[20]/td[3]"))
+//softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
+
+WebUI.verifyTextPresent(("Please verify the following information:"), true)
+WebUI.verifyTextPresent(("Is this information correct"), true)
+
+
+//softAssertion.assertEquals("Personal Checking", selenium.getText("//tr[20]/td[3]"))
+
+WebUI.verifyTextPresent(("Personal Checking"), true)
+
 selenium.click("name=confirmNotifyAction")
 selenium.waitForPageToLoad("30000")
 Thread.sleep(15000);
-softAssertion.assertEquals("Debit", selenium.getText("//tr[15]/td[2]"))
-softAssertion.assertEquals(Pattern.matches('selenium.getText("//tr[16]/td[2]")', "Personal.*"), true)
-softAssertion.assertEquals(Pattern.matches('selenium.getText("//tr[16]/td[2]")', "Checking.*"), true)
+//softAssertion.assertEquals("Debit", selenium.getText("//tr[15]/td[2]"))
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("//tr[16]/td[2]")', "Personal.*"), true)
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("//tr[16]/td[2]")', "Checking.*"), true)
+
+
+WebUI.verifyTextPresent(("Debit"), true)
+WebUI.verifyTextPresent(("Personal"), true)
+WebUI.verifyTextPresent(("Checking"), true)

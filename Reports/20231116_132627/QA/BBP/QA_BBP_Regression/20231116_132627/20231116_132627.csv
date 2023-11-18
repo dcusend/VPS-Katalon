@@ -1,0 +1,199 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA_BBP_Regression,Chrome 119.0.0.0,,,2023-11-16 13:26:33,2023-11-16 13:28:27,1m - 53.654s,FAILED
+,,,,,,,
+Test Cases/BBP-SelIDE/LookupCaseInsensitive,Chrome 119.0.0.0,Works only in QA and QA2 Non-Bootstrap,,2023-11-16 13:26:34,2023-11-16 13:26:50,16.224s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 119.0.0.0,,,2023-11-16 13:26:34,2023-11-16 13:26:34,0.027s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 119.0.0.0,,,2023-11-16 13:26:34,2023-11-16 13:26:40,5.603s,PASSED
+driver = getWebDriver(),Chrome 119.0.0.0,,,2023-11-16 13:26:40,2023-11-16 13:26:40,0.023s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 119.0.0.0,,,2023-11-16 13:26:40,2023-11-16 13:26:40,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 119.0.0.0,,,2023-11-16 13:26:40,2023-11-16 13:26:40,0.173s,PASSED
+bbpURL = BBPURL,Chrome 119.0.0.0,,,2023-11-16 13:26:40,2023-11-16 13:26:41,0.579s,PASSED
+selenium.open(bbpURL),Chrome 119.0.0.0,,,2023-11-16 13:26:41,2023-11-16 13:26:41,0.626s,PASSED
+"selenium.type(""id=field1"", ""Mandooza"")",Chrome 119.0.0.0,,,2023-11-16 13:26:41,2023-11-16 13:26:42,0.646s,PASSED
+"selenium.type(""id=field2"", ""4106280791"")",Chrome 119.0.0.0,,,2023-11-16 13:26:42,2023-11-16 13:26:42,0.119s,PASSED
+"selenium.click(""name=Test"")",Chrome 119.0.0.0,,,2023-11-16 13:26:42,2023-11-16 13:26:42,0.140s,PASSED
+Thread.sleep(2000),Chrome 119.0.0.0,,,2023-11-16 13:26:42,2023-11-16 13:26:44,2.011s,PASSED
+"selenium.click(""name=paysubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:26:44,2023-11-16 13:26:45,0.544s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:26:45,2023-11-16 13:26:45,0.522s,PASSED
+"softAssertion.assertEquals(""Select Payment Method"", selenium.getText(""css=h1""))",Chrome 119.0.0.0,,,2023-11-16 13:26:45,2023-11-16 13:26:46,0.362s,PASSED
+"verifyTextPresent(""Select Payment Method"", true)",Chrome 119.0.0.0,,,2023-11-16 13:26:46,2023-11-16 13:26:46,0.318s,PASSED
+selenium.open(bbpURL),Chrome 119.0.0.0,,,2023-11-16 13:26:46,2023-11-16 13:26:46,0.260s,PASSED
+"selenium.type(""id=field1"", ""MANDOOZA"")",Chrome 119.0.0.0,,,2023-11-16 13:26:46,2023-11-16 13:26:46,0.082s,PASSED
+"selenium.type(""id=field2"", ""4106280791"")",Chrome 119.0.0.0,,,2023-11-16 13:26:46,2023-11-16 13:26:46,0.072s,PASSED
+"selenium.click(""name=Test"")",Chrome 119.0.0.0,,,2023-11-16 13:26:46,2023-11-16 13:26:47,0.063s,PASSED
+Thread.sleep(2000),Chrome 119.0.0.0,,,2023-11-16 13:26:47,2023-11-16 13:26:49,2.003s,PASSED
+"selenium.click(""name=paysubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:26:49,2023-11-16 13:26:49,0.454s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:26:49,2023-11-16 13:26:50,0.518s,PASSED
+"verifyTextPresent(""Select Payment Method"", true)",Chrome 119.0.0.0,,,2023-11-16 13:26:50,2023-11-16 13:26:50,0.318s,PASSED
+,,,,,,,
+Test Cases/BBP-SelIDE/MaxAmountErrorCC,Chrome 119.0.0.0,Works only in QA and QA2 Non-Bootstrap,,2023-11-16 13:27:32,2023-11-16 13:27:45,12.899s,FAILED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 119.0.0.0,,,2023-11-16 13:27:32,2023-11-16 13:27:32,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 119.0.0.0,,,2023-11-16 13:27:32,2023-11-16 13:27:36,4.448s,PASSED
+driver = getWebDriver(),Chrome 119.0.0.0,,,2023-11-16 13:27:36,2023-11-16 13:27:36,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 119.0.0.0,,,2023-11-16 13:27:36,2023-11-16 13:27:36,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 119.0.0.0,,,2023-11-16 13:27:36,2023-11-16 13:27:36,0.024s,PASSED
+bbpURL = BBPURL,Chrome 119.0.0.0,,,2023-11-16 13:27:36,2023-11-16 13:27:36,0.000s,PASSED
+selenium.open(bbpURL),Chrome 119.0.0.0,,,2023-11-16 13:27:36,2023-11-16 13:27:37,0.564s,PASSED
+"selenium.type(""id=field1"", ""111150"")",Chrome 119.0.0.0,,,2023-11-16 13:27:37,2023-11-16 13:27:37,0.099s,PASSED
+"selenium.type(""id=field2"", ""111151"")",Chrome 119.0.0.0,,,2023-11-16 13:27:37,2023-11-16 13:27:37,0.080s,PASSED
+"selenium.click(""name=Test"")",Chrome 119.0.0.0,,,2023-11-16 13:27:37,2023-11-16 13:27:37,0.087s,PASSED
+Thread.sleep(2000),Chrome 119.0.0.0,,,2023-11-16 13:27:37,2023-11-16 13:27:39,2.001s,PASSED
+"selenium.click(""name=paysubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:27:39,2023-11-16 13:27:39,0.459s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:27:39,2023-11-16 13:27:40,0.517s,PASSED
+"selenium.click(""name=paymentMethod"")",Chrome 119.0.0.0,,,2023-11-16 13:27:40,2023-11-16 13:27:40,0.069s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 119.0.0.0,,,2023-11-16 13:27:40,2023-11-16 13:27:41,0.592s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:27:41,2023-11-16 13:27:41,0.597s,PASSED
+"verifyTextPresent(""Required fields are highlighted with an asterisk."", true)",Chrome 119.0.0.0,,,2023-11-16 13:27:41,2023-11-16 13:27:42,0.339s,PASSED
+"verifyTextPresent(""Please enter the following billing information about your payment:"", true)",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.318s,FAILED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.060s,PASSED
+"selenium.type(""name=userDefined2"", ""UDF2 Data1"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.054s,PASSED
+"selenium.type(""name=userDefined3"", ""UDF3 Data1"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.051s,PASSED
+"selenium.select(""name=variableField4DropdownGroupItemID"", ""label=Purple"")",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.095s,PASSED
+"selenium.select(""name=variableField5DropdownGroupItemID"", ""label=Orange"")",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.082s,PASSED
+"selenium.type(""name=userDefined6"", ""UDF6 Data1"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.054s,PASSED
+"selenium.type(""name=userDefined7"", ""UDF7 Data1"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.050s,PASSED
+"selenium.type(""name=userDefined8"", ""UDF8 Data1"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.050s,PASSED
+"selenium.type(""name=billingName"", ""Hunter Helms"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.056s,PASSED
+"selenium.type(""id=cardNumber"", ""4111111111111111"")",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:42,0.053s,PASSED
+"selenium.type(""id=spc"", ""123"")",Chrome 119.0.0.0,,,2023-11-16 13:27:42,2023-11-16 13:27:43,0.052s,PASSED
+"selenium.select(""name=cardExpMonth"", ""label=04"")",Chrome 119.0.0.0,,,2023-11-16 13:27:43,2023-11-16 13:27:43,0.082s,PASSED
+"selenium.select(""name=cardExpYear"", ""label=2025"")",Chrome 119.0.0.0,,,2023-11-16 13:27:43,2023-11-16 13:27:43,0.080s,PASSED
+"selenium.type(""name=billingAddress"", ""2311 york road"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:43,2023-11-16 13:27:43,0.056s,PASSED
+"selenium.type(""name=billingAddress2"", ""Suite 600"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:43,2023-11-16 13:27:43,0.055s,PASSED
+"selenium.type(""id=billing-zip-input"", ""21054"")",Chrome 119.0.0.0,,,2023-11-16 13:27:43,2023-11-16 13:27:43,0.127s,PASSED
+"selenium.type(""name=emailAddress"", com"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:43,2023-11-16 13:27:43,0.056s,PASSED
+"selenium.click(""id=checkedAcceptCondition"")",Chrome 119.0.0.0,,,2023-11-16 13:27:43,2023-11-16 13:27:43,0.061s,PASSED
+"selenium.click(""name=ccSubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:27:43,2023-11-16 13:27:44,0.661s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:27:44,2023-11-16 13:27:44,0.512s,PASSED
+"selenium.selectWindow(""null"")",Chrome 119.0.0.0,,,2023-11-16 13:27:44,2023-11-16 13:27:44,0.005s,PASSED
+"verifyTextPresent(""Amount is greater than maximum"", true)",Chrome 119.0.0.0,,,2023-11-16 13:27:44,2023-11-16 13:27:45,0.322s,PASSED
+,,,,,,,
+Test Cases/BBP-SelIDE/MaxAmountErrorCorp,Chrome 119.0.0.0,Works only in QA and QA2 Non-Bootstrap,,2023-11-16 13:27:45,2023-11-16 13:27:58,13.731s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 119.0.0.0,,,2023-11-16 13:27:45,2023-11-16 13:27:45,0.000s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 119.0.0.0,,,2023-11-16 13:27:45,2023-11-16 13:27:49,3.677s,PASSED
+driver = getWebDriver(),Chrome 119.0.0.0,,,2023-11-16 13:27:49,2023-11-16 13:27:49,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 119.0.0.0,,,2023-11-16 13:27:49,2023-11-16 13:27:49,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 119.0.0.0,,,2023-11-16 13:27:49,2023-11-16 13:27:49,0.022s,PASSED
+bbpURL = BBPURL,Chrome 119.0.0.0,,,2023-11-16 13:27:49,2023-11-16 13:27:49,0.000s,PASSED
+selenium.open(bbpURL),Chrome 119.0.0.0,,,2023-11-16 13:27:49,2023-11-16 13:27:49,0.442s,PASSED
+"selenium.type(""id=field1"", ""111150"")",Chrome 119.0.0.0,,,2023-11-16 13:27:49,2023-11-16 13:27:50,0.238s,PASSED
+"selenium.type(""id=field2"", ""111151"")",Chrome 119.0.0.0,,,2023-11-16 13:27:50,2023-11-16 13:27:50,0.109s,PASSED
+"selenium.click(""name=Test"")",Chrome 119.0.0.0,,,2023-11-16 13:27:50,2023-11-16 13:27:50,0.099s,PASSED
+Thread.sleep(2000),Chrome 119.0.0.0,,,2023-11-16 13:27:50,2023-11-16 13:27:52,2.000s,PASSED
+"selenium.click(""name=paysubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:27:52,2023-11-16 13:27:52,0.452s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:27:52,2023-11-16 13:27:53,0.515s,PASSED
+"selenium.click(""xpath=(//input[@name='paymentMethod'])[3]"")",Chrome 119.0.0.0,,,2023-11-16 13:27:53,2023-11-16 13:27:53,0.300s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 119.0.0.0,,,2023-11-16 13:27:53,2023-11-16 13:27:54,0.903s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:27:54,2023-11-16 13:27:54,0.514s,PASSED
+"softAssertion.assertEquals(""Required fields are highlighted with an asterisk."", selenium.getText(""css=span.required""))",Chrome 119.0.0.0,,,2023-11-16 13:27:54,2023-11-16 13:27:55,0.282s,PASSED
+"softAssertion.assertEquals(""Please enter the following billing information about your payment:"", selenium.getText(""css=span.vrelay-header""))",Chrome 119.0.0.0,,,2023-11-16 13:27:55,2023-11-16 13:27:55,0.275s,PASSED
+"verifyTextPresent(""Required fields are highlighted with an asterisk."", true)",Chrome 119.0.0.0,,,2023-11-16 13:27:55,2023-11-16 13:27:55,0.326s,PASSED
+"verifyTextPresent(""Please enter the following billing information about your payment:"", true)",Chrome 119.0.0.0,,,2023-11-16 13:27:55,2023-11-16 13:27:56,0.320s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.054s,PASSED
+"selenium.type(""name=userDefined2"", ""UDF2 Data3"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.064s,PASSED
+"selenium.type(""name=userDefined3"", ""UDF3 Data3"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.052s,PASSED
+"selenium.select(""name=variableField4DropdownGroupItemID"", ""label=Purple"")",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.090s,PASSED
+"selenium.select(""name=variableField5DropdownGroupItemID"", ""label=Orange"")",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.081s,PASSED
+"selenium.type(""name=userDefined6"", ""UDF6 Data3"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.049s,PASSED
+"selenium.type(""name=userDefined7"", ""UDF7 Data3"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.050s,PASSED
+"selenium.type(""name=userDefined8"", ""UDF8 Data3"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.056s,PASSED
+"selenium.type(""name=billingCompanyname"", ""My Company"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.054s,PASSED
+"selenium.type(""id=routingNumber"", ""256072691"")",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.112s,PASSED
+"selenium.type(""id=accountNumber"", ""33333333"")",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.054s,PASSED
+"selenium.type(""id=confirmAccountNumber"", ""33333333"")",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.054s,PASSED
+"selenium.type(""name=ein"", ""123456789"")",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:56,0.052s,PASSED
+"selenium.type(""name=billingAddress"", ""2311 york road"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:56,2023-11-16 13:27:57,0.054s,PASSED
+"selenium.type(""name=billingAddress2"", ""suite 600"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:57,2023-11-16 13:27:57,0.050s,PASSED
+"selenium.type(""id=billing-zip-input"", ""21054"")",Chrome 119.0.0.0,,,2023-11-16 13:27:57,2023-11-16 13:27:57,0.112s,PASSED
+"selenium.type(""name=emailAddress"", com"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:27:57,2023-11-16 13:27:57,0.052s,PASSED
+"selenium.click(""id=checkedAcceptCondition"")",Chrome 119.0.0.0,,,2023-11-16 13:27:57,2023-11-16 13:27:57,0.064s,PASSED
+"selenium.click(""name=achSubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:27:57,2023-11-16 13:27:57,0.674s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:27:57,2023-11-16 13:27:58,0.515s,PASSED
+"verifyTextPresent(""Amount is greater than maximum"", true)",Chrome 119.0.0.0,,,2023-11-16 13:27:58,2023-11-16 13:27:58,0.319s,PASSED
+,,,,,,,
+Test Cases/BBP-SelIDE/MaxAmountErrorPC,Chrome 119.0.0.0,Works only in QA and QA2 Non-Bootstrap,,2023-11-16 13:27:58,2023-11-16 13:28:13,15.085s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 119.0.0.0,,,2023-11-16 13:27:59,2023-11-16 13:27:59,0.001s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 119.0.0.0,,,2023-11-16 13:27:59,2023-11-16 13:28:04,4.695s,PASSED
+driver = getWebDriver(),Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:04,0.001s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:04,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:04,0.025s,PASSED
+bbpURL = BBPURL,Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:04,0.001s,PASSED
+selenium.open(bbpURL),Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:04,0.292s,PASSED
+"selenium.type(""id=field1"", ""111150"")",Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:04,0.329s,PASSED
+"selenium.type(""id=field2"", ""111151"")",Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:04,0.108s,PASSED
+"selenium.click(""name=Test"")",Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:04,0.091s,PASSED
+Thread.sleep(2000),Chrome 119.0.0.0,,,2023-11-16 13:28:04,2023-11-16 13:28:06,2.002s,PASSED
+"selenium.click(""name=paysubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:28:06,2023-11-16 13:28:07,0.440s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:28:07,2023-11-16 13:28:07,0.516s,PASSED
+"selenium.click(""xpath=(//input[@name='paymentMethod'])[2]"")",Chrome 119.0.0.0,,,2023-11-16 13:28:07,2023-11-16 13:28:08,0.304s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 119.0.0.0,,,2023-11-16 13:28:08,2023-11-16 13:28:09,0.877s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:28:09,2023-11-16 13:28:09,0.516s,PASSED
+"softAssertion.assertEquals(""Required fields are highlighted with an asterisk."", selenium.getText(""css=span.required""))",Chrome 119.0.0.0,,,2023-11-16 13:28:09,2023-11-16 13:28:09,0.286s,PASSED
+"softAssertion.assertEquals(""Please enter the following billing information about your payment:"", selenium.getText(""css=span.vrelay-header""))",Chrome 119.0.0.0,,,2023-11-16 13:28:09,2023-11-16 13:28:10,0.281s,PASSED
+"verifyTextPresent(""Required fields are highlighted with an asterisk."", true)",Chrome 119.0.0.0,,,2023-11-16 13:28:10,2023-11-16 13:28:10,0.332s,PASSED
+"verifyTextPresent(""Please enter the following billing information about your payment:"", true)",Chrome 119.0.0.0,,,2023-11-16 13:28:10,2023-11-16 13:28:10,0.321s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:10,2023-11-16 13:28:10,0.055s,PASSED
+"selenium.type(""name=userDefined2"", ""UDF2 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:10,2023-11-16 13:28:10,0.059s,PASSED
+"selenium.type(""name=userDefined3"", ""UDF3 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:10,2023-11-16 13:28:10,0.053s,PASSED
+"selenium.select(""name=variableField4DropdownGroupItemID"", ""label=Purple"")",Chrome 119.0.0.0,,,2023-11-16 13:28:10,2023-11-16 13:28:11,0.097s,PASSED
+"selenium.select(""name=variableField5DropdownGroupItemID"", ""label=Orange"")",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.080s,PASSED
+"selenium.type(""name=userDefined6"", ""UDF6 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.053s,PASSED
+"selenium.type(""name=userDefined7"", ""UDF7 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.059s,PASSED
+"selenium.type(""name=userDefined8"", ""UDF8 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.055s,PASSED
+"selenium.type(""name=billingFirstname"", ""Molly"")",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.055s,PASSED
+"selenium.type(""name=billingLastname"", ""Hunter"")",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.056s,PASSED
+"selenium.type(""id=routingNumber"", ""256072691"")",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.127s,PASSED
+"selenium.type(""id=accountNumber"", ""11111111"")",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.073s,PASSED
+"selenium.type(""id=confirmAccountNumber"", ""11111111"")",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.064s,PASSED
+"selenium.click(""name=accountType"")",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.075s,PASSED
+"selenium.type(""name=billingAddress"", ""2311 york road"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.060s,PASSED
+"selenium.type(""name=billingAddress2"", ""Suite 600"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:11,0.053s,PASSED
+"selenium.type(""id=billing-zip-input"", ""21054"")",Chrome 119.0.0.0,,,2023-11-16 13:28:11,2023-11-16 13:28:12,0.116s,PASSED
+"selenium.type(""name=emailAddress"", com"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:12,2023-11-16 13:28:12,0.055s,PASSED
+"selenium.click(""id=checkedAcceptCondition"")",Chrome 119.0.0.0,,,2023-11-16 13:28:12,2023-11-16 13:28:12,0.075s,PASSED
+"selenium.click(""name=achSubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:28:12,2023-11-16 13:28:12,0.625s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:28:12,2023-11-16 13:28:13,0.516s,PASSED
+"softAssertion.assertEquals(""Amount is greater than maximum"", selenium.getText(""css=span.vrelay-error""))",Chrome 119.0.0.0,,,2023-11-16 13:28:13,2023-11-16 13:28:13,0.270s,PASSED
+"verifyTextPresent(""Amount is greater than maximum"", true)",Chrome 119.0.0.0,,,2023-11-16 13:28:13,2023-11-16 13:28:13,0.325s,PASSED
+,,,,,,,
+Test Cases/BBP-SelIDE/MaxAmountErrorPS,Chrome 119.0.0.0,Works only in QA and QA2 Non-Bootstrap,,2023-11-16 13:28:13,2023-11-16 13:28:27,13.223s,PASSED
+softAssertion = new org.testng.asserts.SoftAssert(),Chrome 119.0.0.0,,,2023-11-16 13:28:14,2023-11-16 13:28:14,0.001s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 119.0.0.0,,,2023-11-16 13:28:14,2023-11-16 13:28:18,3.776s,PASSED
+driver = getWebDriver(),Chrome 119.0.0.0,,,2023-11-16 13:28:18,2023-11-16 13:28:18,0.000s,PASSED
+"baseUrl = ""https://www.google.com/""",Chrome 119.0.0.0,,,2023-11-16 13:28:18,2023-11-16 13:28:18,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 119.0.0.0,,,2023-11-16 13:28:18,2023-11-16 13:28:18,0.017s,PASSED
+bbpURL = BBPURL,Chrome 119.0.0.0,,,2023-11-16 13:28:18,2023-11-16 13:28:18,0.001s,PASSED
+selenium.open(bbpURL),Chrome 119.0.0.0,,,2023-11-16 13:28:18,2023-11-16 13:28:18,0.280s,PASSED
+"selenium.type(""id=field1"", ""111150"")",Chrome 119.0.0.0,,,2023-11-16 13:28:18,2023-11-16 13:28:18,0.379s,PASSED
+"selenium.type(""id=field2"", ""111151"")",Chrome 119.0.0.0,,,2023-11-16 13:28:18,2023-11-16 13:28:19,0.114s,PASSED
+"selenium.click(""name=Test"")",Chrome 119.0.0.0,,,2023-11-16 13:28:19,2023-11-16 13:28:19,0.149s,PASSED
+Thread.sleep(2000),Chrome 119.0.0.0,,,2023-11-16 13:28:19,2023-11-16 13:28:21,2.001s,PASSED
+"selenium.click(""name=paysubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:28:21,2023-11-16 13:28:21,0.488s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:28:21,2023-11-16 13:28:22,0.517s,PASSED
+"selenium.click(""xpath=(//input[@name='paymentMethod'])[2]"")",Chrome 119.0.0.0,,,2023-11-16 13:28:22,2023-11-16 13:28:22,0.304s,PASSED
+"selenium.click(""css=input[type=""submit""]"")",Chrome 119.0.0.0,,,2023-11-16 13:28:22,2023-11-16 13:28:23,0.627s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:28:23,2023-11-16 13:28:23,0.573s,PASSED
+"verifyTextPresent(""Required fields are highlighted with an asterisk."", true)",Chrome 119.0.0.0,,,2023-11-16 13:28:23,2023-11-16 13:28:24,0.342s,PASSED
+"verifyTextPresent(""Please enter the following billing information about your payment:"", true)",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.320s,PASSED
+"selenium.type(""name=amount"", 00"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.056s,PASSED
+"selenium.type(""name=userDefined2"", ""UDF2 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.048s,PASSED
+"selenium.type(""name=userDefined3"", ""UDF3 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.053s,PASSED
+"selenium.select(""name=variableField4DropdownGroupItemID"", ""label=Purple"")",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.095s,PASSED
+"selenium.select(""name=variableField5DropdownGroupItemID"", ""label=Orange"")",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.084s,PASSED
+"selenium.type(""name=userDefined6"", ""UDF6 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.054s,PASSED
+"selenium.type(""name=userDefined7"", ""UDF7 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.053s,PASSED
+"selenium.type(""name=userDefined8"", ""UDF8 Data2"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.052s,PASSED
+"selenium.type(""name=billingFirstname"", ""Molly"")",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:24,0.061s,PASSED
+"selenium.type(""name=billingLastname"", ""Hunter"")",Chrome 119.0.0.0,,,2023-11-16 13:28:24,2023-11-16 13:28:25,0.053s,PASSED
+"selenium.type(""id=routingNumber"", ""256072691"")",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.120s,PASSED
+"selenium.type(""id=accountNumber"", ""11111111"")",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.051s,PASSED
+"selenium.type(""id=confirmAccountNumber"", ""11111111"")",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.053s,PASSED
+"selenium.click(""document.process.accountType[1]"")",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.063s,PASSED
+"selenium.type(""name=billingAddress"", ""2311 york road"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.068s,PASSED
+"selenium.type(""name=billingAddress2"", ""Suite 600"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.053s,PASSED
+"selenium.type(""id=billing-zip-input"", ""21054"")",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.132s,PASSED
+"selenium.type(""name=emailAddress"", com"".toString())",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.056s,PASSED
+"selenium.click(""id=checkedAcceptCondition"")",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:25,0.068s,PASSED
+"selenium.click(""name=achSubmit"")",Chrome 119.0.0.0,,,2023-11-16 13:28:25,2023-11-16 13:28:26,0.616s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Chrome 119.0.0.0,,,2023-11-16 13:28:26,2023-11-16 13:28:26,0.519s,PASSED
+"verifyTextPresent(""Amount is greater than maximum"", true)",Chrome 119.0.0.0,,,2023-11-16 13:28:26,2023-11-16 13:28:27,0.322s,PASSED

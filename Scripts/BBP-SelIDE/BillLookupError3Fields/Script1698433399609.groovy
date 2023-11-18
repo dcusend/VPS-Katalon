@@ -39,10 +39,8 @@ String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 //selenium.open("/vbillslookup/lookup/testvbillsautoscf")
 
-bbpURL = GlobalVariable.BBPURL
-
-selenium.open(bbpURL)
-
+sCFBBPURL = GlobalVariable.SCFBBPURL
+selenium.open(sCFBBPURL)
 
 selenium.type("id=field1", "soleja")
 selenium.type("id=field2", "123456")

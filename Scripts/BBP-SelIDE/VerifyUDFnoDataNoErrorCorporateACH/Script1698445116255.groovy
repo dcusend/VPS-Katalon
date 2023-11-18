@@ -37,7 +37,12 @@ WebUI.openBrowser('https://www.google.com/')
 def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+
+bbpURL = GlobalVariable.BBPURL
+selenium.open(bbpURL)
+
+
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
 selenium.type("id=field1", "444150")
 selenium.type("id=field2", "444151")
 selenium.click("name=Test")
@@ -47,8 +52,13 @@ selenium.waitForPageToLoad("30000")
 selenium.click("xpath=(//input[@name='paymentMethod'])[3]")
 selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
-softAssertion.assertEquals("Please enter the following billing information about your payment:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
+//softAssertion.assertEquals("Please enter the following billing information about your payment:", selenium.getText("css=span.vrelay-header"))
+
+WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
+WebUI.verifyTextPresent(("Please enter the following billing information about your payment:"), true)
+
+
 softAssertion.assertEquals("", selenium.getText("name=userDefined2"))
 softAssertion.assertEquals("", selenium.getText("name=userDefined3"))
 softAssertion.assertEquals("", selenium.getText("name=userDefined6"))
@@ -74,15 +84,29 @@ selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
 selenium.click("id=checkedAcceptCondition")
 selenium.click("name=achSubmit")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
-softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
+//softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
+
+WebUI.verifyTextPresent(("Please verify the following information:"), true)
+WebUI.verifyTextPresent(("Is this information correct"), true)
+
+
 selenium.click("name=confirmNotifyAction")
 selenium.waitForPageToLoad("30000")
 Thread.sleep(15000);
-softAssertion.assertEquals("Successful Payment Receipt", selenium.getText("css=td > h2"))
-softAssertion.assertEquals("Please print this receipt for your records", selenium.getText("css=td > p"))
-softAssertion.assertEquals("UDF2 Data3", selenium.getText("//tr[5]/td[2]"))
-softAssertion.assertEquals("UDF3 Data3", selenium.getText("//tr[6]/td[2]"))
-softAssertion.assertEquals("UDF6 Data3", selenium.getText("//tr[9]/td[2]"))
-softAssertion.assertEquals("UDF7 Data3", selenium.getText("//tr[10]/td[2]"))
-softAssertion.assertEquals("UDF8 Data3", selenium.getText("//tr[11]/td[2]"))
+//softAssertion.assertEquals("Successful Payment Receipt", selenium.getText("css=td > h2"))
+//softAssertion.assertEquals("Please print this receipt for your records", selenium.getText("css=td > p"))
+//softAssertion.assertEquals("UDF2 Data3", selenium.getText("//tr[5]/td[2]"))
+//softAssertion.assertEquals("UDF3 Data3", selenium.getText("//tr[6]/td[2]"))
+//softAssertion.assertEquals("UDF6 Data3", selenium.getText("//tr[9]/td[2]"))
+//softAssertion.assertEquals("UDF7 Data3", selenium.getText("//tr[10]/td[2]"))
+//softAssertion.assertEquals("UDF8 Data3", selenium.getText("//tr[11]/td[2]"))
+
+WebUI.verifyTextPresent(("Successful Payment Receipt"), true)
+WebUI.verifyTextPresent(("Please print this receipt for your records"), true)
+WebUI.verifyTextPresent(("UDF2 Data3"), true)
+WebUI.verifyTextPresent(("UDF3 Data3"), true)
+WebUI.verifyTextPresent(("UDF6 Data3"), true)
+WebUI.verifyTextPresent(("UDF7 Data3"), true)
+WebUI.verifyTextPresent(("UDF8 Data3"), true)
+
