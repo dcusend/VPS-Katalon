@@ -79,7 +79,7 @@ public class loginFunctionality {
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username_Okta'),30)) {
 					//if (WebUI.verifyElementVisible(findTestObject('Login_Page/Login_Username_Okta'))) {
 					System.out.println('We are on Login Page, start populating the fields')
-					
+
 					//WebUI.setText(findTestObject('Object Repository/Login_Page/input_Username_usernameXXX'), gv_username)
 					WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), gv_username)
 
