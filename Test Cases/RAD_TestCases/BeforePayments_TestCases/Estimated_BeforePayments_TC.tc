@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Works in QA2 and Demo only.</description>
+   <description>Works in QA2 only.</description>
    <name>Estimated_BeforePayments_TC</name>
    <tag></tag>
    <comment></comment>

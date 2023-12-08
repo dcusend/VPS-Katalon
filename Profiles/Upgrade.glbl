@@ -24,4 +24,29 @@
       <initValue>'/admin/testcustomer/bootstrap/vpos/'</initValue>
       <name>vpos_Prefix</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://upgrade.velocitypayment.com/client/rad/index.html'</initValue>
+      <name>RADurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rad_SSN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rad_SSN_LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rad_SSN_Joint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rad_SSN_Joint_LastName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

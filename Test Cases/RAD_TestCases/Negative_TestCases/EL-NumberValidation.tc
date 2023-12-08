@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Existing Liability Invoice Notice Number Length Validation.  Works in both QA and Demo</description>
+   <description>Works in all Environments.  Existing Liability Invoice Notice Number Length Validation.</description>
    <name>EL-NumberValidation</name>
    <tag></tag>
    <comment></comment>

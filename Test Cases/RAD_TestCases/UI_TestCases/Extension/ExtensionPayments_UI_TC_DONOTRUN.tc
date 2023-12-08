@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Do Not Run</description>
+   <name>ExtensionPayments_UI_TC_DONOTRUN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d701350-102b-46f2-81af-07ab37cfd873</testCaseGuid>
+</TestCaseEntity>

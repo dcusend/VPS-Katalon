@@ -20,7 +20,10 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 
-def taxTypeDropList = ["Quarterly Estimated Tax","Extension Payments","Existing Liability w/Notice Number","New Tax Return Amount Due"]
+//def taxTypeDropList = ["Quarterly Estimated Tax","Extension Payments","Existing Liability w/Notice Number","New Tax Return Amount Due"]
+
+// Changes for removing Extension payments December 2023
+def taxTypeDropList = ["Quarterly Estimated Tax","Existing Liability w/Notice Number","New Tax Return Amount Due"]
 def listSize = taxTypeDropList.size()
 println listSize
 
@@ -52,17 +55,21 @@ WebUI.click(findTestObject(orPath_Landing + '/a_Click here for details'))
 
 
 // New CF Verbiage
-String cfVerbiageQA = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover."
+String cfVerbiageQA = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, Discover, and American Express."
 
 //WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageQA)
 
-String cfVerbiageDemo = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, MasterCard, and Discover."
+String cfVerbiageDemo = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, MasterCard, Discover, and American Express."
 
 
 switch(executionProfile)
 {
 	case "QAProfile":
 			 WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageQA)
+	break
+	
+	case "QA2Profile":
+			WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageQA)
 	break
 	
 	case "DemoProfile":

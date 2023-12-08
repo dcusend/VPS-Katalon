@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Works in all Environments</description>
    <name>FEINmoreThan9Error-NEW</name>
    <tag></tag>
    <comment></comment>

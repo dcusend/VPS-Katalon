@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Works in both QA and Demo</description>
+   <description>Works in all Environments</description>
    <name>VerifyServiceFeeVerbiage_UI_TC</name>
    <tag></tag>
    <comment></comment>

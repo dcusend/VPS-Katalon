@@ -29,4 +29,29 @@
       <initValue>'https://dev-algorithm.govolution.com/vlinktest/Production/version_2_0/'</initValue>
       <name>VLinkURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.velocitypayment.com/client/rad/index.html'</initValue>
+      <name>RADurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rad_SSN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rad_SSN_LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rad_SSN_Joint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>rad_SSN_Joint_LastName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

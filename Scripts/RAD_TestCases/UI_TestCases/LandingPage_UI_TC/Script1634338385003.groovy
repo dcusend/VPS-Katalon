@@ -169,8 +169,8 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 
 //		if (totalOptions == 6)
 		
-// Updates for August 2023			
-		if (totalOptions == 5)
+// Updates for December 2023			
+		if (totalOptions == 4)
 			{
 				System.out.println('Total Options are correct: ' + totalOptions)
 				KeywordUtil.markPassed("Total Options are correct")
@@ -204,14 +204,14 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 			 * Drop Down') }
 			 */			
 		
-		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Extension Payments", false, 60))
-			{
-				System.out.println('Extension Payments Option is present in the Tax Type Drop Down')
-			}
-		else
-			{
-				System.out.println('Extension Payments Option is NOT present in the Tax Type Drop Down')
-			}
+//		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Extension Payments", false, 60))
+//			{
+//				System.out.println('Extension Payments Option is present in the Tax Type Drop Down')
+//			}
+//		else
+//			{
+//				System.out.println('Extension Payments Option is NOT present in the Tax Type Drop Down')
+//			}
 		
 		
 		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Existing Liability w/Notice Number", false, 60))
