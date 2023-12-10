@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Reset</name>
+   <name>button_Reset_Auth</name>
    <tag></tag>
-   <elementGuidId>2706be3c-2dbd-4617-91aa-8a604000975f</elementGuidId>
+   <elementGuidId>acea31c0-3c70-4ced-aad9-3c3825d2e982</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'reset' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]</value>
+         <value>//*[@type = 'submit' and @name = 'submit' and @id = 'reset' and (text() = 'Reset' or . = 'Reset')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>98235465-1240-49de-a909-292645f2a694</webElementGuid>
+      <webElementGuid>d627f3bc-c339-4cea-abb8-a2aa6b793139</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary mr-3</value>
-      <webElementGuid>22b1013d-4857-4d18-928e-a1b2c5f62258</webElementGuid>
+      <webElementGuid>3c25bea3-5bb6-4fad-8717-6c8e1210c9b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>reset</value>
-      <webElementGuid>4251e129-c363-4e3f-a84f-ff9d2a812db4</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>76e38bc6-f4e9-4449-86e3-548765a266b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>reset</value>
-      <webElementGuid>3dc7f9fa-7add-4cc8-aaf2-d464f1419573</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>576d08d5-6d6f-4bcc-bf29-dbf441537b06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Reset</value>
-      <webElementGuid>8804fd2a-b2a2-4639-9f57-efbde4b09422</webElementGuid>
+      <webElementGuid>edfecd94-ac39-4f7a-95cd-da775289f636</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>id</name>
       <type>Main</type>
       <value>reset</value>
-      <webElementGuid>f0f91b72-2bb6-43e2-8e02-200b62b6b48e</webElementGuid>
+      <webElementGuid>53f65d93-b8bb-4722-9d4d-bcb89ae1ebf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>40</value>
-      <webElementGuid>bc89a7fa-302b-4eae-8b43-75bd8b98b70e</webElementGuid>
+      <webElementGuid>17fcb251-cf46-4dc8-9fbf-f6919a3c9608</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reset</value>
-      <webElementGuid>e1af8dc4-509c-4dd5-9e43-647efa4b295e</webElementGuid>
+      <webElementGuid>98917f1d-3b94-411b-96e5-00cb140ee38b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reset&quot;)</value>
-      <webElementGuid>0bc9a8e1-0b4a-4c82-a9e0-2ce4dc9466e9</webElementGuid>
+      <webElementGuid>b7d22e1f-f900-42a0-9f7d-5432fb1c5ff2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='reset']</value>
-      <webElementGuid>c1f8762d-59d4-4029-82d3-2d300e258e28</webElementGuid>
+      <webElementGuid>75fb3d76-6181-4ebb-a8f4-802efbaa1b6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='option1']/div/div/div/div/div[2]/form/button</value>
-      <webElementGuid>c76f8cf5-7529-4e3e-a4ed-7dec22c1e4c7</webElementGuid>
+      <webElementGuid>c71286c0-d8b0-4fdd-b628-0e5564650aa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]</value>
-      <webElementGuid>190e28c3-22cd-4826-a7d9-531f8e560c61</webElementGuid>
+      <webElementGuid>e10c9466-80a9-4a6c-8dcc-cfc581354db9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UDF10'])[1]/following::button[2]</value>
-      <webElementGuid>52202b3f-82b0-4e13-9842-2bf051e01c68</webElementGuid>
+      <webElementGuid>5750ac78-ad11-4ba2-885e-f057e40ad35c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>e0fe0d47-30fc-45f9-8edb-da8e73bd2aa0</webElementGuid>
+      <webElementGuid>d7675641-3370-44f7-805c-3f16663d6ee3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>9ae49675-7337-465b-8f84-d5d6e37127dc</webElementGuid>
+      <webElementGuid>37ac01fb-121a-46f3-8fb6-e4a08c5010a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,7 +146,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reset']/parent::*</value>
-      <webElementGuid>6a75b523-d44e-4c68-9a5f-8960ac21b40b</webElementGuid>
+      <webElementGuid>f3a313a9-29a8-430c-bc26-f80b85002dd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,6 +154,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
-      <webElementGuid>1d149dd7-50b6-49b1-9709-819726c89efc</webElementGuid>
+      <webElementGuid>854e092f-22b6-49f9-a33d-daa30c6ef7d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -137,5 +137,5 @@ System.out.println('hrefID is : ' + hrefAppID)
 					WebUI.verifyElementVisible(findTestObject(path_SaleKB + 'button_Submit'))
 					WebUI.verifyElementPresent(findTestObject(path_SaleKB + 'button_Submit'), 30)
 					
-					WebUI.verifyElementVisible(findTestObject(path_SaleKB + 'button_Reset'))
-					WebUI.verifyElementPresent(findTestObject(path_SaleKB + 'button_Reset'), 30)
+					WebUI.verifyElementVisible(findTestObject(path_SaleKB + 'button_Reset_Auth'))
+					WebUI.verifyElementPresent(findTestObject(path_SaleKB + 'button_Reset_Auth'), 30)
