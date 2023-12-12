@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testdata.reader.ExcelFactory
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 		
 		String resText = "Fail"
@@ -117,17 +118,18 @@ import com.kms.katalon.core.configuration.RunConfiguration as RC
 			
 			  if (WebUI.verifyTextPresent((errorMsg), true))
 						{
-							println "Transaction Approved, no errors text is present on the Confirmation page"
+							println "Error Message is present on the Confirmation page"
 							System.out.println('Pass Record Number: ' + row)
 							resText = "Pass"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
 			  else
 						{
-							println "Transaction Approved, no errors text is not present on the Confirmation page"
+							println "Error Message is not present on the Confirmation page"
 							System.out.println('Fail Record Number: ' + row)
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/Page_VLinkReceipt/pre_STX')))
 						}
 			 
 			

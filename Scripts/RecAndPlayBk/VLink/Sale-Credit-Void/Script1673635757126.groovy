@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
@@ -264,6 +265,7 @@ def numOfRows, dataFile, nameSheet
 											System.out.println('Fail Record Number: ' + row)
 											resText = "Fail"
 											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+											KeywordUtil.markFailed("Void Failed, Error on Page is : " + WebUI.getText(findTestObject('Object Repository/Page_VLinkReceipt/pre_STX')))
 										}
 								}
 								else
@@ -272,6 +274,7 @@ def numOfRows, dataFile, nameSheet
 									System.out.println('Fail Record Number: ' + row)
 									resText = "Fail"
 									CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+									KeywordUtil.markFailed("Credit Failed, Error on Page is : " + WebUI.getText(findTestObject('Object Repository/Page_VLinkReceipt/pre_STX')))
 								}
 							
 							
@@ -283,6 +286,7 @@ def numOfRows, dataFile, nameSheet
 							System.out.println('Fail Record Number: ' + row)
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							KeywordUtil.markFailed("Sale Failed, Error on Page is : " + WebUI.getText(findTestObject('Object Repository/Page_VLinkReceipt/pre_STX')))
 						}
 
 				}

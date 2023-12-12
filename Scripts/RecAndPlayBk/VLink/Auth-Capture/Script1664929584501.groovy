@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 
 
@@ -225,6 +226,7 @@ def numOfRows, dataFile, nameSheet
 												System.out.println('Fail Record Number: ' + row)
 												resText = "Fail"
 												CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+												KeywordUtil.markFailed("Capture Failed, Error on Page is : " + WebUI.getText(findTestObject('Object Repository/Page_VLinkReceipt/pre_STX')))
 											}
 										
 										//WebUI.closeBrowser()
@@ -236,6 +238,7 @@ def numOfRows, dataFile, nameSheet
 						System.out.println('Fail Record Number: ' + row)
 						resText = "Fail"
 						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						KeywordUtil.markFailed("Auth Failed, Error on Page is : " + WebUI.getText(findTestObject('Object Repository/Page_VLinkReceipt/pre_STX')))
 					}
 
 
