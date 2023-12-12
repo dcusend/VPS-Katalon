@@ -115,11 +115,13 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.click(findTestObject(path_UserView + 'button_Delete'))
 				
 					// Select Okay on Confirmation
-					WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
+					//WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
+					WebUI.click(findTestObject(path_DeleteUser + 'button_DeleteUser_Delete'))
 					
 								
 					// Select another Okay
-					WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
+					//WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
+					WebUI.click(findTestObject(path_DeleteUser + 'button_DeleteUser_Okay'))
 					
 					KeywordUtil.markPassed("User was created and deleted")
 					resText = "Pass"
@@ -133,7 +135,7 @@ for (def row = 1; row <= numOfRows; row++)
 					//KeywordLogger log = new KeywordLogger()
 					//log.logWarning("User did not got created, can't delete")
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User did not got created, can't delete","Warning")
-					KeywordUtil.markFailed("User was not created and Deleted")
+					KeywordUtil.markFailed("User was not created and Deleted, Record Number : " + row)
 					resText = "Fail"
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 					

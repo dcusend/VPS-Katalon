@@ -10,14 +10,14 @@
          <value>(//button[@type='button'])[13]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '
-		        Delete' or . = '
-		        Delete') and starts-with(@id, 'deletingUserId')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.pl-5.pr-5</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (contains(text(), '
+		        Delete') or contains(., '
+		        Delete')) and starts-with(@id, 'deletingUserId')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>62f11eec-ee82-4ca9-a0b0-d1edee386126</webElementGuid>
+      <webElementGuid>8b9502c3-7382-439d-8d65-27fab7e563a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>755db86e-7e49-4764-b886-e121cc01c9b4</webElementGuid>
+      <webElementGuid>998a6cc6-c556-4dae-a561-b1835e0115d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>01515928-3dcd-40ee-bd28-c8b313005a9c</webElementGuid>
+      <webElementGuid>51de2015-6256-4928-af3c-d7ce57a8ff1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <type>Main</type>
       <value>
 		        Delete</value>
-      <webElementGuid>ffbcb52a-f672-4a61-b5ba-29d89082e1fd</webElementGuid>
+      <webElementGuid>f56af9cb-a14e-40b3-a7fd-faa73b60473e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;app sidebar-mini modal-open&quot;]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary pl-5 pr-5&quot;]</value>
-      <webElementGuid>0a50fcad-49c2-4bab-b8f1-b21cd3064bc7</webElementGuid>
+      <webElementGuid>ce2e9ce0-6658-413e-bcdf-ed1ba2e435dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>id</name>
       <type>Main</type>
       <value>deletingUserId</value>
-      <webElementGuid>897814d9-d18c-4bff-9f13-91ce9cc71ff4</webElementGuid>
+      <webElementGuid>73ea2752-953e-4c13-9cdd-9f7723844078</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[13]</value>
-      <webElementGuid>aae79cad-5131-4c03-80eb-3de50f5b27d7</webElementGuid>
+      <webElementGuid>8c0797f2-17c0-4e1e-94da-a6eaab68b4bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you wish to delete the user named RLZkKtDfL UOTwSxasI?'])[1]/following::button[1]</value>
-      <webElementGuid>65336b60-9e59-4b60-90fd-65fce3e4fa0a</webElementGuid>
+      <webElementGuid>4b4a20a2-73bb-45ea-bc69-461342a7101e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Question'])[1]/following::button[2]</value>
-      <webElementGuid>c3412903-7d17-49c7-9586-ab7338ecc39e</webElementGuid>
+      <webElementGuid>0e8c6310-c696-469a-b284-65a44a76ef48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>655e2bf0-1614-4539-bfb9-66d5bb22db54</webElementGuid>
+      <webElementGuid>b1a052f9-434c-427d-a08c-d60954c4d6a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Okay']/parent::*</value>
-      <webElementGuid>d6e15682-466e-429f-ab84-60558e1c3c25</webElementGuid>
+      <webElementGuid>89d35c68-a623-4b1c-a11c-7b1c62a32c57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>18912ddd-7c73-4848-8b6d-4f447b742671</webElementGuid>
+      <webElementGuid>67c03bb2-27d8-46aa-a6aa-eb4621c4be79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Okay' or . = 'Okay')]</value>
-      <webElementGuid>8763722d-1f05-4e1d-97b1-8c1b02caa74e</webElementGuid>
+      <webElementGuid>8fd0744a-89d3-4644-8b7f-71c4ef69e802</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

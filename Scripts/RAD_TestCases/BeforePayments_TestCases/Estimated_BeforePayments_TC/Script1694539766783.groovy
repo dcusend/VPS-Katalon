@@ -279,6 +279,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 				{
 					resText = "Fail"
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					KeywordUtil.markFailed("Vrelay page does not display.  Tax Type is : " + TaxType)
 				}
 				
 				

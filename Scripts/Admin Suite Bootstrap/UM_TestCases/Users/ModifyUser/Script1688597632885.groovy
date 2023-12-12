@@ -131,11 +131,13 @@ for (def row = 1; row <= numOfRows; row++)
 						WebUI.click(findTestObject(path_UserView + 'button_Delete'))
 					
 						// Select Okay on Confirmation
-						WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
+						//WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
+						WebUI.click(findTestObject(path_DeleteUser + 'button_DeleteUser_Delete'))
 						
 									
 						// Select another Okay
-						WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
+						//WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
+						WebUI.click(findTestObject(path_DeleteUser + 'button_DeleteUser_Okay'))
 					}
 					
 					else 

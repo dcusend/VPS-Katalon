@@ -36,22 +36,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'123450001'</initValue>
       <name>rad_SSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'Davi'</initValue>
       <name>rad_SSN_LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'123450001'</initValue>
       <name>rad_SSN_Joint</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'Daug'</initValue>
       <name>rad_SSN_Joint_LastName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

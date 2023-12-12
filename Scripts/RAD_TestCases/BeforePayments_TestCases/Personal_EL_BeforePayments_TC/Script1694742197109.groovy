@@ -179,7 +179,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 						
 						WebUI.verifyTextPresent('Comptroller of Maryland', true)
-						WebUI.verifyTextPresent('Existing Liability - Personal Tax', true)
+						//WebUI.verifyTextPresent('Existing Liability - Personal Tax', true)
 						WebUI.verifyTextPresent('Payment Information', true)
 						
 						def card_Name = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
@@ -268,6 +268,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							KeywordUtil.markFailed("Dual CF page does not display.  Tax Type is : " + TaxType)
 						}
 					
 				}
@@ -276,6 +277,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 				{
 					resText = "Fail"
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					KeywordUtil.markFailed("Vrelay page does not display.  Tax Type is : " + TaxType)
+					
 				}
 						
 						

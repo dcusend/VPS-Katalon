@@ -910,6 +910,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/TaxInfo_Page/iframe_Tax Information_tx_iframe_taxTypePTEIFrame_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/input_No_lock",
+      "brokenLocator": "//*[@type \u003d \u0027submit\u0027 and @name \u003d \u0027confirmNotifyAction\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//input[@name\u003d\u0027lock\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AddUser/input_No_lock_attributes.png"
     }
   ]
 }
