@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>QA and QA2 Only</description>
-   <name>AmountInThousands1PC</name>
+   <name>CardExpirationError</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8e350c96-230f-4928-9a3b-75aedb0177bc</testCaseGuid>
+   <testCaseGuid>120f7c1c-52bb-4206-aa23-c2ad7305ca49</testCaseGuid>
 </TestCaseEntity>

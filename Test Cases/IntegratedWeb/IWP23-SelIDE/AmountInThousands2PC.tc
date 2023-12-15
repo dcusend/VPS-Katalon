@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>QA and QA2 Only</description>
-   <name>AmountInThousands1PC</name>
+   <name>AmountInThousands2PC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8e350c96-230f-4928-9a3b-75aedb0177bc</testCaseGuid>
+   <testCaseGuid>a73c2de5-c533-4d43-ad7a-7de8f4fd36a2</testCaseGuid>
 </TestCaseEntity>

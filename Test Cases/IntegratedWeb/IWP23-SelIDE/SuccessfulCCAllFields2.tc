@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>QA and QA2 Only</description>
-   <name>AmountInThousands1PC</name>
+   <name>SuccessfulCCAllFields2</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8e350c96-230f-4928-9a3b-75aedb0177bc</testCaseGuid>
+   <testCaseGuid>4c38699b-6591-4451-bd2e-5c4e6317ac36</testCaseGuid>
 </TestCaseEntity>

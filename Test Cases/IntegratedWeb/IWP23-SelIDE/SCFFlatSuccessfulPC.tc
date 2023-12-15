@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>QA and QA2 Only</description>
-   <name>AmountInThousands1PC</name>
+   <name>SCFFlatSuccessfulPC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8e350c96-230f-4928-9a3b-75aedb0177bc</testCaseGuid>
+   <testCaseGuid>cc9385ed-e85b-4e6c-b19a-f2a675ffd677</testCaseGuid>
 </TestCaseEntity>

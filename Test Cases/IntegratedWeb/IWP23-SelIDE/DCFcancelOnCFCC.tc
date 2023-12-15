@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>QA and QA2 Only</description>
-   <name>AmountInThousands1PC</name>
+   <name>DCFcancelOnCFCC</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8e350c96-230f-4928-9a3b-75aedb0177bc</testCaseGuid>
+   <testCaseGuid>bf8a3cff-d535-4486-af05-7009ea4c85c7</testCaseGuid>
 </TestCaseEntity>

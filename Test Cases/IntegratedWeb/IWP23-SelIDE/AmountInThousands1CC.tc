@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>QA and QA2 Only</description>
    <name>AmountInThousands1CC</name>
    <tag></tag>
    <comment></comment>
