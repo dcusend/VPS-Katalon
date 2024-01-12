@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>NewLiability_MotorFuelTax_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f843acb0-3543-4b82-8fca-c82d59c99fcf</testCaseGuid>
+</TestCaseEntity>

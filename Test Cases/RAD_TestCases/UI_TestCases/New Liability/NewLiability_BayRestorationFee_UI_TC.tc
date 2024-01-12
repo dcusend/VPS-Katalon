@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>NewLiability_BayRestorationFee_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4053502e-64cc-431e-a198-6dbd2a18a020</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>NewLiability_TireRecyclingFee_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b5ded71-cb4f-461f-8672-54690be02e32</testCaseGuid>
+</TestCaseEntity>

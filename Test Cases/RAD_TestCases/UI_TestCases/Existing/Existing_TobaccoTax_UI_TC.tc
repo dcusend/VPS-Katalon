@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>Existing_TobaccoTax_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b80b1c7c-8ce8-4b25-919c-abbaa2d17fc1</testCaseGuid>
+</TestCaseEntity>

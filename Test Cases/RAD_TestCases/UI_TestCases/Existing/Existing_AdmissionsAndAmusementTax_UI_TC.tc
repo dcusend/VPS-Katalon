@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>Existing_AdmissionsAndAmusementTax_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac326fa9-49f8-4760-a884-91e740c2d00b</testCaseGuid>
+</TestCaseEntity>

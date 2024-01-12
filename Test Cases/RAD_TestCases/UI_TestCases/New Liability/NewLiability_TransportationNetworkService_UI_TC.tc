@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>NewLiability_TransportationNetworkService_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bef87662-8a0d-4bb6-a8c6-5aef8f016e22</testCaseGuid>
+</TestCaseEntity>
