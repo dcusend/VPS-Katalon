@@ -57,8 +57,12 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 	
 		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Fiduciary Tax','Personal Income Tax','PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp','PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp'])
 		
+		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Admissions and Amusement Tax','Alcohol Tax','Bay Restoration Fee','Corporate Income Tax','Estate Tax','Motor Fuel Tax'])
 	
-	
+		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Sales and Use Tax','Slots License Fee','Tire Recycling Fee','Tobacco Tax','Transportation Network Services'])
+		
+		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Unclaimed Property','Withholding Tax'])
+		
 // Verify that Filing Year dropdown is present and visible
 	WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
 	WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))

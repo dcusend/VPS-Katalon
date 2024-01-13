@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>Estimated_CorporateIncomeTax_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7b206de-d706-44f4-9198-65db181a3cf5</testCaseGuid>
+</TestCaseEntity>

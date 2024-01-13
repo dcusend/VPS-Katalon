@@ -34,11 +34,11 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 // Select Estimated Tax from the Main Index Page
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "New Tax Return Amount Due", false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Quarterly Estimated Tax", false)
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
-		WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),'Personal Income Tax',false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Personal Income Tax',false)
 		
 	
 	
@@ -57,10 +57,10 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 			
-		WebUI.verifyEqual(totalOptionsFilingYear, 4)
+		WebUI.verifyEqual(totalOptionsFilingYear, 1)
 			
 						
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2023', '2022', '2021'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2024'])
 		
 		
 		

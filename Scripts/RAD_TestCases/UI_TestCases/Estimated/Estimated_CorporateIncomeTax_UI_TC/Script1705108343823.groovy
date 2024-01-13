@@ -19,12 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-
-import com.kms.katalon.core.testobject.SelectorMethod
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
-import com.kms.katalon.core.testobject.TestObject as TestObject
-
-
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -40,31 +34,35 @@ String orPath_Amount = "Object Repository/RAD_Pages/PaymentAmount_Page"
 String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
-
+// Verify Tax Type/Filing Year static text
+		WebUI.verifyTextPresent('Payment Type/Filing Year', true)
 
 // Select Estimated Tax from the Main Index Page
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Quarterly Estimated Tax", false)
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
-		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),'Estate Tax',false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'Corporate Income Tax',false)
 		
-		
-// Verify that Filing Year and Period Ending dropdowns are not visible
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
 
+// Verify that Filing Year dropdown is present and visible
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 		
+// Verify the contents of Filing Year dropdown
+		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
+		WebUI.verifyEqual(totalOptionsFilingYear, 1)
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2024'])
 		
-// Verify that Business Name text box is  visible
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepfirstName'))
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepmiddleName'))
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
-			
+// Verify the contents of Period Ending Month dropdown
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
 		
+		def totalOptionsPeriodEnding = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+		WebUI.verifyEqual(totalOptionsPeriodEnding, 13)
 		
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['Month','January','February','March','April','May','June'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
 		
 // Verify static text in Taxpayer section
 		WebUI.verifyTextPresent('Taxpayer', true)
@@ -73,6 +71,15 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyTextPresent('information here. If you are making a payment for the Taxpayer, you will be required later to enter your own credit card, billing address and other pertinent information', true)
 
 		
+// Verify Business Name textbox is present under Taxpayer section
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_Note_businessName'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepfirstName'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepmiddleName'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
+			
+		
+		
 // Verify that the following fields are not present under Taxpayer section
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_middleName'))
@@ -80,8 +87,6 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
 		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
 		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatReSSN'))
-		
-		
 		
 		
 // Verify Address and Contact Information static text and fields are present
@@ -105,58 +110,29 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyEqual(totalOptionsState, 52)
 		
 		
-		/*
-		 * TestObject existing_FEIN = new TestObject()
-		 * existing_FEIN.setSelectorMethod(SelectorMethod.BASIC)
-		 * existing_FEIN.addProperty("name", ConditionType.EQUALS,
-		 * "taxTypeExisitingFEIN") existing_FEIN.addProperty("id", ConditionType.EQUALS,
-		 * "taxTypeExisitingFEIN")
-		 * 
-		 * 
-		 * TestObject existing_FEIN_Retype = new TestObject()
-		 * existing_FEIN_Retype.setSelectorMethod(SelectorMethod.BASIC)
-		 * existing_FEIN_Retype.addProperty("name", ConditionType.EQUALS,
-		 * "reTaxTypeExisitingFEIN") existing_FEIN_Retype.addProperty("id",
-		 * ConditionType.EQUALS, "reTaxTypeExisitingFEIN")
-		 * 
-		 * 
-		 * 
-		 * 
-		 * 
-		 * // Verify FEIN under Tax Information section WebUI.verifyTextPresent('Tax
-		 * Information', true) WebUI.verifyElementPresent(existing_FEIN, 30)
-		 * WebUI.verifyElementPresent(existing_FEIN_Retype, 30)
-		 */
-
+// Verify FEIN under Tax Information section
+		WebUI.verifyTextPresent('Tax Information', true)
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
 
 		
-// Verify Notice Number and Re-Type Notice Number
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'))
-		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
+// Verify that Notice or Invoice Number is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
+	
 		
 		
-// Verify Decedent SSN and Re-type Decedent SSN are present and visible
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'))
+// Verify that MD Central Registration Number field is NOT visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'))
 		
-
 		
 // Verify Filing Status section is not present
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 
 		
-// Verify that MD Central Registration Number field is NOT visible
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
 		
-		
-	
 // Verify Payment Amount is present and visible
 		WebUI.verifyTextPresent('Payment Amount', true)
 		WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/input__paymentAmount'), 30)
@@ -171,5 +147,9 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 // Verify Continue button is present
 		WebUI.verifyElementPresent(findTestObject(orPath_Landing + '/button_Continue'), 30)
+		
+		
 
+		
+	
 		
