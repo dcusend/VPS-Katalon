@@ -115,7 +115,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'yXB7JMCbD3QoFF75EQd3iw==')
 					}	
 					
-					
+			
+// Populate Decedent SSN and Retype Decedent SSN for Estate Tax
+					if (TaxType.equalsIgnoreCase("Estate Tax"))
+						{
+							CustomKeywords.'rad.getSetDataRAD.setDataRADDecedentSSN'()
+						}
+							
 					
 // Populate Amount
 					

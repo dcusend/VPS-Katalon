@@ -160,6 +160,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					}					
 					
 					
+// Populate Decedent SSN and Retype Decedent SSN for Estate Tax					
+					if (TaxType.equalsIgnoreCase("Estate Tax"))
+						{
+							CustomKeywords.'rad.getSetDataRAD.setDataRADDecedentSSN'()
+						}
+					
+					
+					
 // Populate Amount
 					
 					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")

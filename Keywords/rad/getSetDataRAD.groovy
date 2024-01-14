@@ -271,5 +271,17 @@ public class getSetDataRAD {
 
 	//-----------------------------------------
 
+	@Keyword
+	def setDataRADDecedentSSN()
+	{
+		// Get Data
+		def rad_ssn_Decedent = GlobalVariable.rad_SSN
+
+		// Set Data
+		WebUI.setText(findTestObject(orPath_TaxInfo +'/input_DecedentSSN'),rad_ssn_Decedent)
+		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'),rad_ssn_Decedent)
+	}
+
+
 
 }

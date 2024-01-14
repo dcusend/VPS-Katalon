@@ -37,6 +37,7 @@ String orPath_Summary = "Object Repository/RAD_Pages/Summary_Page"
 String orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirmation_Page"
 String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page"
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
+String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
 
@@ -113,6 +114,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_phoneNumber')," ")
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_eMailAddress')," ")
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_reEnterEMailAddress')," ")
+					WebUI.setText(findTestObject(orPath_TaxInfo +'/input_DecedentSSN')," ")
+					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN')," ")
 	
 
 // Verify Error Messages
@@ -127,6 +130,9 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('Enter ZIP code', true,FailureHandling.CONTINUE_ON_FAILURE)
 					WebUI.verifyTextPresent('Enter a valid phone number', true,FailureHandling.CONTINUE_ON_FAILURE)
 					WebUI.verifyTextPresent('Enter Email', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Please enter a valid Decedent SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Re-type Decedent SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+
 					
 					resText = "Pass"
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)

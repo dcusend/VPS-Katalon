@@ -105,7 +105,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Updates for August 2023
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Select', 'Corporate Income Tax',  'Fiduciary Tax', 'Personal Income Tax', 'PTE Non-Electing Non-S Corp', 'PTE Non-Electing S Corp', 'PTE Tax Electing Non-S Corp', 'PTE Tax Electing S Corp'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2023'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2024'])
 		
 		
 /*

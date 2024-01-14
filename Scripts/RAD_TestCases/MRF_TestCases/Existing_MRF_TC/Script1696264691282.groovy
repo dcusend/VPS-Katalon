@@ -113,6 +113,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_phoneNumber')," ")
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_eMailAddress')," ")
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_reEnterEMailAddress')," ")
+					WebUI.setText(findTestObject(orPath_TaxInfo +'/input_DecedentSSN')," ")
+					WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN')," ")
 	
 
 // Verify Error Messages
@@ -127,6 +129,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('Enter ZIP code', true,FailureHandling.CONTINUE_ON_FAILURE)
 					WebUI.verifyTextPresent('Enter a valid phone number', true,FailureHandling.CONTINUE_ON_FAILURE)
 					WebUI.verifyTextPresent('Enter Email', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Please enter a valid Decedent SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyTextPresent('Re-type Decedent SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
 					
 					resText = "Pass"
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
