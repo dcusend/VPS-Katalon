@@ -1,0 +1,140 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RAD_UI_TestSuite,Chrome 120.0.0.0,,,2024-01-13 22:29:46,2024-01-13 23:01:47,32m - 0.443s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/FEINmismatchError,Chrome 120.0.0.0,Works in all Environments,,2024-01-13 22:29:47,2024-01-13 22:35:27,5m - 40.259s,FAILED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.001s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/FEINmismatch.xlsx""",Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.001s,PASSED
+"nameSheet = ""FEINmismatch""",Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.001s,PASSED
+"dataFile = ""RADTestData/FEINmismatch""",Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.002s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.001s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.001s,PASSED
+Paymenttype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.823s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:29:48,0.006s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 22:29:48,2024-01-13 22:35:27,5m - 38.797s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/FEINSSNmismatchError,Chrome 120.0.0.0,Works in all Environments,,2024-01-13 22:35:27,2024-01-13 22:37:33,2m - 5.594s,PASSED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.000s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/FEINmismatch.xlsx""",Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.001s,PASSED
+"nameSheet = ""FEINSSNmismatch""",Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.000s,PASSED
+"dataFile = ""RADTestData/FEINSSNmismatch""",Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.000s,PASSED
+Paymenttype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.031s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:35:28,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 22:35:28,2024-01-13 22:37:33,2m - 5.028s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/FEINmoreThan9Error-NEW,Chrome 120.0.0.0,Works in all Environments,,2024-01-13 22:37:33,2024-01-13 22:42:36,5m - 2.898s,FAILED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.001s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/FEINmoreThan9Error.xlsx""",Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.000s,PASSED
+"nameSheet = ""Sheet1""",Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.000s,PASSED
+"dataFile = ""RADTestData/FEINmoreThan9Error""",Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.001s,PASSED
+Paymenttype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.040s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:37:33,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 22:37:33,2024-01-13 22:42:36,5m - 2.352s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/FEINandFEINSSNlessThan9Error,Chrome 120.0.0.0,Works in all Environments,,2024-01-13 22:42:36,2024-01-13 22:49:23,6m - 47.197s,FAILED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.000s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/FEINandFEINSSNlessThan9Error.xlsx""",Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.001s,PASSED
+"nameSheet = ""Sheet1""",Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.000s,PASSED
+"dataFile = ""RADTestData/FEINandFEINSSNlessThan9Error""",Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.004s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.000s,PASSED
+Paymenttype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.000s,PASSED
+feinSsn = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.036s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:42:36,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 22:42:36,2024-01-13 22:49:23,6m - 46.673s,FAILED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/EL-NumberValidation,Chrome 120.0.0.0,Works in all Environments.  Existing Liability Invoice Notice Number Length Validation.,,2024-01-13 22:49:23,2024-01-13 22:56:23,6m - 59.785s,PASSED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/EL-NumberValidation.xlsx""",Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+"nameSheet = ""NumberError""",Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+"dataFile = ""RADTestData/EL-NumberValidation""",Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+TaxTypeEL = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+notInvNumber = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+errorMsg = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.039s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:49:24,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 22:49:24,2024-01-13 22:56:23,6m - 59.239s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/EMailNoMatch,Chrome 120.0.0.0,Works in all Environments,,2024-01-13 22:56:23,2024-01-13 23:05:34,9m - 11.376s,PASSED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.000s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/EmailNoMatch.xlsx""",Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.000s,PASSED
+"nameSheet = ""Sheet1""",Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.000s,PASSED
+"dataFile = ""RADTestData/EmailNoMatch""",Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.033s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 22:56:23,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 22:56:23,2024-01-13 23:05:34,9m - 10.806s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/TaxPayerSSNNoMatch,Chrome 120.0.0.0,Works in all Environments,,2024-01-13 23:05:34,2024-01-13 23:06:12,37.807s,PASSED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.000s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/TaxPayerSSNNoMatch.xlsx""",Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.000s,PASSED
+"nameSheet = ""Sheet1""",Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.001s,PASSED
+"dataFile = ""RADTestData/TaxPayerSSNNoMatch""",Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.038s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:05:35,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 23:05:35,2024-01-13 23:06:12,37.306s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/SSNmoreThan9Error,Chrome 120.0.0.0,Works in all Environments.  Verify the error for SSN more than 9 numbers.,,2024-01-13 23:06:12,2024-01-13 23:06:48,35.416s,PASSED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.000s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/SSNmoreThan9Error.xlsx""",Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.000s,PASSED
+"nameSheet = ""Sheet1""",Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.000s,PASSED
+"dataFile = ""RADTestData/SSNmoreThan9Error""",Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.034s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:13,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 23:06:13,2024-01-13 23:06:48,34.904s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/JointFilerSSNnoMatch-NEW,Chrome 120.0.0.0,Works in all Environments,,2024-01-13 23:06:48,2024-01-13 23:07:15,26.953s,PASSED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.001s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/JointFilerSSNnoMatch.xlsx""",Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.000s,PASSED
+"nameSheet = ""Sheet1""",Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.000s,PASSED
+"dataFile = ""RADTestData/JointFilerSSNnoMatch""",Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.031s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:06:48,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 23:06:48,2024-01-13 23:07:15,26.380s,PASSED
+,,,,,,,
+Test Cases/RAD_TestCases/Negative_TestCases/JointFilerSSNmoreThan9Error,Chrome 120.0.0.0,Works in all Environments,,2024-01-13 23:07:15,2024-01-13 23:07:40,25.395s,PASSED
+"resText = ""Fail""",Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.001s,PASSED
+"resColumn = ""Result""",Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.000s,PASSED
+"fileLoc = ""KatalonData/RADTestData/JointFilerSSNmoreThan9Error.xlsx""",Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.000s,PASSED
+"nameSheet = ""Sheet1""",Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.001s,PASSED
+"dataFile = ""RADTestData/JointFilerSSNmoreThan9Error""",Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.000s,PASSED
+ExecuteTC = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.000s,PASSED
+Taxtype = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.029s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:15,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 120.0.0.0,,,2024-01-13 23:07:15,2024-01-13 23:07:40,24.891s,PASSED

@@ -111,8 +111,11 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					}
 					else
 					{
-						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'yXB7JMCbD3QoFF75EQd3iw==')
-						WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'yXB7JMCbD3QoFF75EQd3iw==')
+						if (!TaxType.equalsIgnoreCase("Estate Tax"))
+						{
+							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'yXB7JMCbD3QoFF75EQd3iw==')
+							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'yXB7JMCbD3QoFF75EQd3iw==')
+						}
 					}	
 					
 			
@@ -168,6 +171,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('New Tax Return Amount Due', true)
 					WebUI.verifyTextPresent('Filing Year:', true)
 					WebUI.verifyTextPresent(FilingYear, true)
+					WebUI.verifyTextNotPresent("Period Ending", true)
 					
 					WebUI.verifyTextPresent('Payer Information', true)
 					WebUI.verifyTextPresent('Taxpayer Name:', true)
@@ -181,6 +185,9 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('Phone:', true)
 					WebUI.verifyTextPresent('(703) 894-5000', false)
 					WebUI.verifyTextPresent('Tax Information', true)
+					WebUI.verifyTextNotPresent('MD Central Registration Number', true)
+					WebUI.verifyTextNotPresent('Notice Number', true)
+					
 					
 					if (feinSSN.equalsIgnoreCase("Y"))
 						{
@@ -190,12 +197,19 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						}
 					else
 						{
-							WebUI.verifyTextPresent('Federal EIN:', true)
-							WebUI.verifyTextNotPresent('FEIN/SSN:', true)
-							WebUI.verifyTextPresent('XXXXXXX87', true)
+							if (!TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.verifyTextPresent('Federal EIN:', true)
+								WebUI.verifyTextNotPresent('FEIN/SSN:', true)
+								WebUI.verifyTextPresent('XXXXXXX87', true)
+							}
 						}
 					
 						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.verifyTextPresent('Placeholder for Decedent SSN', true)
+							}
 						
 					
 					//WebUI.verifyTextPresent('Federal EIN:', true)

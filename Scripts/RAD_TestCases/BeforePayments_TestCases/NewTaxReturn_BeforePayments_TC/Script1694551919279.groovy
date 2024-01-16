@@ -112,7 +112,10 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					}
 					else
 					{
-						CustomKeywords.'rad.getSetDataRAD.setDataRADFEIN'()
+						if (!TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								CustomKeywords.'rad.getSetDataRAD.setDataRADFEIN'()
+							}
 					}	
 					
 					

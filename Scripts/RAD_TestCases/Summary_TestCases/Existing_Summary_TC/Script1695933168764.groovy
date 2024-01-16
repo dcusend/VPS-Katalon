@@ -120,8 +120,11 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'RigbBhfdqODKcAsiUrg+1Q==')
 						//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'RigbBhfdqODKcAsiUrg+1Q==')
 						
-						WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'px0FNUagnh7G/CVR/QiY+A==')
-						WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'px0FNUagnh7G/CVR/QiY+A==')
+						if (!TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'px0FNUagnh7G/CVR/QiY+A==')
+								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'px0FNUagnh7G/CVR/QiY+A==')
+							}
 					}
 					
 					
@@ -237,10 +240,18 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						}
 					else
 						{
-							WebUI.verifyTextPresent('Federal EIN:', true)
-							WebUI.verifyTextNotPresent('FEIN/SSN:', true)
-							//WebUI.verifyTextPresent('XXXXX1525', true)
+							if (!TaxType.equalsIgnoreCase("Estate Tax"))
+								{
+									WebUI.verifyTextPresent('Federal EIN:', true)
+									WebUI.verifyTextNotPresent('FEIN/SSN:', true)
+								//WebUI.verifyTextPresent('XXXXX1525', true)
+								}
 						}
+						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.verifyTextPresent('Placeholder for Decedent SSN', true)
+							}
 					
 					WebUI.verifyTextPresent('XXXXX0532', true)
 					
