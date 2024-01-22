@@ -128,7 +128,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 // Populate Amount
 						
-						WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
+						WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"10.00")
 						
 						
 						WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
@@ -230,7 +230,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyMatch("iahmed@govolution.com", email, false)
 						
 						def amount = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'value')
-						WebUI.verifyMatch("100.00", amount, false)
+						WebUI.verifyMatch("10.00", amount, false)
 						
 						def amountReadOnly = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'readonly')
 						WebUI.verifyMatch("true", amountReadOnly, false)
@@ -262,11 +262,11 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('Service Fee Acceptance', true)
 						WebUI.verifyTextPresent('This transaction is subject to a Service Fee of ', true)
 						WebUI.verifyTextPresent('Payment Amount:', true)
-						WebUI.verifyTextPresent('100.00', true)
+						WebUI.verifyTextPresent('10.00', true)
 						WebUI.verifyTextPresent('Service Fee:', true)
-						WebUI.verifyTextPresent('2.45', true)
+						WebUI.verifyTextPresent('1.00', true)
 						WebUI.verifyTextPresent('Total Amount:', true)
-						WebUI.verifyTextPresent('102.45', true)
+						WebUI.verifyTextPresent('11.00', true)
 						WebUI.verifyTextPresent('Two transactions will appear on your bank statement, one in the amount of', true)
 						
 						
