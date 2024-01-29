@@ -94,8 +94,19 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						CustomKeywords.'rad.getSetDataRAD.setDataRADAddress'()
 						
 						
-// Set Data Tax Information SSN
-						CustomKeywords.'rad.getSetDataRAD.setDataRADELSSN'()
+
+						
+						
+						
+// Populate Decedent SSN and Retype Decedent SSN for Estate Tax
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								CustomKeywords.'rad.getSetDataRAD.setDataRADDecedentSSN'()
+							}
+						else
+							{
+								CustomKeywords.'rad.getSetDataRAD.setDataRADELSSN'()
+							}
 						
 						
 // Set Data Notice Number

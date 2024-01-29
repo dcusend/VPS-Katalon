@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "885D5928585636DAA1AA773E7BF3549F",
+  "keywordFileContentHash": "21B1A62BAA5DA864AA9C67970E604040",
   "keywordClasses": [
     {
       "name": "rad.getSetDataRAD",
@@ -71,6 +71,11 @@
         },
         {
           "name": "setDataRADDecedentSSN",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADDecedentSSNandName",
           "parameters": [],
           "javadoc": ""
         }

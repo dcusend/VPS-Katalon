@@ -283,5 +283,25 @@ public class getSetDataRAD {
 	}
 
 
+	//---------------------------------------
+	
+	
+	@Keyword
+	def setDataRADDecedentSSNandName()
+	{
+		// Get Data
+		def rad_ssn_Decedent = GlobalVariable.rad_SSN
+		def rad_ssn_lastName = GlobalVariable.rad_SSN_LastName
+		
+		// Set Data
+		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),"Jimmy")
+		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),rad_ssn_lastName)
+		WebUI.setText(findTestObject(orPath_TaxInfo +'/input_DecedentSSN'),rad_ssn_Decedent)
+		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'),rad_ssn_Decedent)
+	}
+	
+	
+	
+	
 
 }

@@ -115,7 +115,15 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 				
 						
 // Set Data SSN and Name under Taxpayer
-						CustomKeywords.'rad.getSetDataRAD.setDataRADssnAndName'()
+					
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								CustomKeywords.'rad.getSetDataRAD.setDataRADDecedentSSNandName'()
+							}
+						else
+							{
+								CustomKeywords.'rad.getSetDataRAD.setDataRADssnAndName'()
+							}
 						
 						
 // Set Data Address and Contact Information

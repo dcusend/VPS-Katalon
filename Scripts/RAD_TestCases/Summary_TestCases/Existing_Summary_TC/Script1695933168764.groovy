@@ -120,11 +120,9 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'RigbBhfdqODKcAsiUrg+1Q==')
 						//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'RigbBhfdqODKcAsiUrg+1Q==')
 						
-						if (!TaxType.equalsIgnoreCase("Estate Tax"))
-							{
-								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'px0FNUagnh7G/CVR/QiY+A==')
-								WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'px0FNUagnh7G/CVR/QiY+A==')
-							}
+						WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'px0FNUagnh7G/CVR/QiY+A==')
+						WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'px0FNUagnh7G/CVR/QiY+A==')
+						
 					}
 					
 					
@@ -160,13 +158,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 
 					
 					
-// Populate Decedent SSN and Retype Decedent SSN for Estate Tax
-					if (TaxType.equalsIgnoreCase("Estate Tax"))
-						{
-							CustomKeywords.'rad.getSetDataRAD.setDataRADDecedentSSN'()
-						}
-					
-										
+									
 					
 // Populate Amount
 					
@@ -240,18 +232,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						}
 					else
 						{
-							if (!TaxType.equalsIgnoreCase("Estate Tax"))
-								{
-									WebUI.verifyTextPresent('Federal EIN:', true)
-									WebUI.verifyTextNotPresent('FEIN/SSN:', true)
-								//WebUI.verifyTextPresent('XXXXX1525', true)
-								}
+							WebUI.verifyTextPresent('Federal EIN:', true)
+							WebUI.verifyTextNotPresent('FEIN/SSN:', true)
+								
 						}
 						
-						if (TaxType.equalsIgnoreCase("Estate Tax"))
-							{
-								WebUI.verifyTextPresent('Placeholder for Decedent SSN', true)
-							}
+						
 					
 					WebUI.verifyTextPresent('XXXXX0532', true)
 					
