@@ -261,17 +261,24 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		
 		WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
 		
-		WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+		//WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 				
-		WebUI.verifyTextPresent('Provide the following information for the joint filer', true)
+		//WebUI.verifyTextPresent('Provide the following information for the joint filer', true)
 				
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointFirstName'), 30)
+		
+		// Verify Joint Filing Names are not Visible
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_jointFirstName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_jointMiddleName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_jointLastName'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_jointSuffix'))
+		
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointFirstName'), 30)
 				
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointMiddleName'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointMiddleName'), 30)
 				
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointLastName'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointLastName'), 30)
 				
-		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSuffix'), 30)
+		//WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSuffix'), 30)
 
 		
 // CHanges 01/30/2024 Begin
@@ -284,11 +291,12 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'))
 		
 		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'), 30)
-		WebUI.verifyElementVisible(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'))
+		// Verify Joint Filer SSN are not visible
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'), 30)
+		WebUI.verifyElementNotVisible(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'))
 		
-		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'), 30)
-		WebUI.verifyElementVisible(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'))
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'), 30)
+		WebUI.verifyElementNotVisible(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'))
 		
 						
 // CHanges 01/30/2024 End
