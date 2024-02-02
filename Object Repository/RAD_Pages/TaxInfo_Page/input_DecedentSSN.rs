@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>#data</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'data' and @name = 'Data' and @type = 'password' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_DecedentSSN']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e8adc138-d4b1-4ebe-8480-bf6e445ef678</webElementGuid>
+      <webElementGuid>40018059-fa6c-4445-8ff5-552d8e22fc11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>53fa291a-0dea-4cac-8cf9-d66c0815dbab</webElementGuid>
+      <webElementGuid>3da0a444-39cd-4a5d-9dd8-3729a26e749b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>data</value>
-      <webElementGuid>1d0084f3-c3eb-4b59-9adf-c19537ecbdc0</webElementGuid>
+      <webElementGuid>a20f0b51-5231-4a1b-9c54-aec522f2350a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Data</value>
-      <webElementGuid>948b7bc6-88e9-4a15-8a10-d2a89618f4df</webElementGuid>
+      <webElementGuid>ce75fc36-7aec-4d3a-8095-8a3742d01baf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +58,15 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>74c95c2b-bb21-4e39-ac29-e6f21266bd78</webElementGuid>
+      <webElementGuid>a17bfc91-0f5e-4af3-8aa9-07a6cd4155b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Decedent SSN *</value>
-      <webElementGuid>491fd7f1-a746-4f03-b789-629172659d63</webElementGuid>
+      <webElementGuid>e225fa85-ba3b-4ed0-9c17-5fa74ab54ad8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>class</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>2385f524-2756-47cf-abde-04c249e6474a</webElementGuid>
+      <webElementGuid>471c0d6c-fdb1-4b0f-bde6-863cd53dd0e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;data&quot;)</value>
-      <webElementGuid>07351ea5-fcd8-42fa-8410-25d6ae21c18c</webElementGuid>
+      <webElementGuid>6b742882-adab-4a1b-b3ba-2287af01ed1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/RAD_Pages/TaxInfo_Page/iframe_DecedentSSN</value>
-      <webElementGuid>6babf1e1-ab27-4a88-a55b-24172893915f</webElementGuid>
+      <webElementGuid>a7617c18-f91e-4471-99af-98fd1f6e13e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='data']</value>
-      <webElementGuid>3001c37e-aec5-499c-916c-bc106f6aa428</webElementGuid>
+      <webElementGuid>2232a767-cf6c-4c31-ba3c-eeb122c4a029</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[29]</value>
-      <webElementGuid>b4ad2932-ee4d-41f8-83dd-a70e30a528f4</webElementGuid>
+      <webElementGuid>d1bfd97a-4cd6-410d-b886-b1f9ab721e3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'Decedent SSN *']</value>
-      <webElementGuid>2f8d5e26-8950-4639-b500-c86c9693f9ae</webElementGuid>
+      <webElementGuid>7833a666-610e-453d-aa1b-c8b5c76499ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

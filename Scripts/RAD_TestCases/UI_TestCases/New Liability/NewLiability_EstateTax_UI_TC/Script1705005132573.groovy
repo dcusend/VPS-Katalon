@@ -138,10 +138,29 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		
 //		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatSSN'), 30)
+
+// CHanges 01/30/2024 Begin		
+		// WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatSSN'), 30)
 		
-		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), 30)
+		// WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), 30)
 		
+		// Verify Decedent SSN and Re-type Decedent SSN are present and visible
+		//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'), 30)
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'))
+		
+		//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'), 30)
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'))
+		
+		// Verify Decedent SSN and Re-type Decedent SSN are present and visible
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/Taxpayer_Page/input_NewTax_DecedentSSN'), 30)
+		WebUI.verifyElementVisible(findTestObject('Object Repository/RAD_Pages/Taxpayer_Page/input_NewTax_DecedentSSN'))
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/Taxpayer_Page/input_NewTax_ReTypeDecedentSSN'), 30)
+		WebUI.verifyElementVisible(findTestObject('Object Repository/RAD_Pages/Taxpayer_Page/input_NewTax_ReTypeDecedentSSN'))
+		
+		
+// CHanges 01/30/2024 End
 		
 /*
  * ###############################################
@@ -253,15 +272,26 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointLastName'), 30)
 				
 		WebUI.verifyElementPresent(findTestObject(orPath_FilingStatus + '/input_jointSuffix'), 30)
-						
-// Verify Decedent SSN and Re-type Decedent SSN are present and visible
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'))
+
 		
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'))
+// CHanges 01/30/2024 Begin
+								
+// Verify Decedent SSN and Re-type Decedent SSN are present and visible
+		//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'), 30)
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'))
+		
+		//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'), 30)
+		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'))
+		
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'), 30)
+		WebUI.verifyElementVisible(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'))
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'), 30)
+		WebUI.verifyElementVisible(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'))
+		
 						
-						
+// CHanges 01/30/2024 End
 				
 // Verify Payment Amount is present and visible
 		WebUI.verifyTextPresent('Payment Amount', true)
