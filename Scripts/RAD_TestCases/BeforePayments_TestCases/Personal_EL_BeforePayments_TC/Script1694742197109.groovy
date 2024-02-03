@@ -100,8 +100,17 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						
 // Set Data Tax Information SSN
-						CustomKeywords.'rad.getSetDataRAD.setDataRADELSSN'()
 						
+						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								CustomKeywords.'rad.getSetDataRAD.setDataRADDecedentSSN'()
+							}
+						else
+							{
+								CustomKeywords.'rad.getSetDataRAD.setDataRADELSSN'()
+							}
+							
 						
 // Set Data Notice Number
 						CustomKeywords.'rad.getSetDataRAD.setDataRADNoticeInvoiceThirteen'()

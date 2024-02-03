@@ -118,7 +118,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 						if (TaxType.equalsIgnoreCase("Estate Tax"))
 							{
-								CustomKeywords.'rad.getSetDataRAD.setDataRADDecedentSSNandName'()
+								CustomKeywords.'rad.getSetDataRAD.setDataRADNewTaxDecedentSSNandName'()
 							}
 						else
 							{
@@ -171,18 +171,31 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							case "QA2Profile":
 									WebUI.verifyTextPresent('Jimmy Anderson', true)
-									WebUI.verifyTextPresent('XXXXX1234', true)
+									if (TaxType.equalsIgnoreCase("Estate Tax"))
+										{
+											WebUI.verifyTextPresent('xxxxx1234', true)
+										}
+									else
+										{
+											WebUI.verifyTextPresent('XXXXX1234', true)
+										}
 							break
 							
 							case "DemoProfile":
 									WebUI.verifyTextPresent('Jimmy btes', true)
-									WebUI.verifyTextPresent('XXXXX6724', true)
+									if (TaxType.equalsIgnoreCase("Estate Tax"))
+										{
+											WebUI.verifyTextPresent('xxxxx6724', true)
+										}
+									else
+										{
+											WebUI.verifyTextPresent('XXXXX6724', true)
+										}
 							break
 						}
 						
 						
-						//WebUI.verifyTextPresent('Jimmy Anderson', true)
-						WebUI.verifyTextPresent('Taxpayer SSN:', true)
+						
 						WebUI.verifyTextPresent('Taxpayer Address:', true)
 						WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
 						WebUI.verifyTextPresent('Email:', true)
@@ -196,6 +209,19 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						WebUI.verifyTextNotPresent('Federal EIN:', true)
 						WebUI.verifyTextNotPresent('FEIN/SSN:', true)
+						
+						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.verifyTextPresent('Decedent SSN:', true)
+							}
+						else
+							{
+								WebUI.verifyTextPresent('Taxpayer SSN:', true)
+							}
+						
+						
+						
 						
 	
 						if (WebUI.verifyElementVisible(findTestObject(orPath_Summary + '/button_Proceed to Payment')))

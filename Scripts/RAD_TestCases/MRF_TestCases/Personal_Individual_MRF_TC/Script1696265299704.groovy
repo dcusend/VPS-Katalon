@@ -119,8 +119,19 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Set Data SSN and Name under Taxpayer
 						WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName')," ")
 						WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName')," ")
-						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), " ")
-						WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), " ")
+						
+						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.setText(findTestObject(orPath_TaxPayer + '/input_NewTax_DecedentSSN'), " ")
+								WebUI.setText(findTestObject(orPath_TaxPayer + '/input_NewTax_ReTypeDecedentSSN'), " ")
+							}
+						else
+							{
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), " ")
+								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), " ")
+							}
+						
 						
 						
 // Set Data Address and Contact Information
@@ -139,14 +150,25 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						WebUI.verifyTextPresent('Enter first name', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter last name', true,FailureHandling.CONTINUE_ON_FAILURE)
-						WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
-						WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+						
 						WebUI.verifyTextPresent('Enter address', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter city', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter ZIP code', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter a valid phone number', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter Email', true,FailureHandling.CONTINUE_ON_FAILURE)
 						
+						
+						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.verifyTextPresent('Please enter a valid Decedent SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
+								WebUI.verifyTextPresent('Re-type Decedent SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+							}
+						else
+							{
+								WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
+								WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+							}
 						
 						
 						

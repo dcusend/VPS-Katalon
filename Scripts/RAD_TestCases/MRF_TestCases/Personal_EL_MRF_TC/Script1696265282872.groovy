@@ -107,8 +107,19 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						
 // Set Data Tax Information SSN
-						WebUI.setText(findTestObject(orPath_TaxInfo +'/input_TaxInfo_ExisitingSSN')," ")
-						WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN')," ")
+						
+						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.setText(findTestObject(orPath_TaxInfo +'/input_DecedentSSN')," ")
+								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN')," ")
+							}
+						else
+							{
+								WebUI.setText(findTestObject(orPath_TaxInfo +'/input_TaxInfo_ExisitingSSN')," ")
+								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN')," ")
+							}
+						
 						
 						
 // Set Data Notice Number
@@ -127,9 +138,18 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('Enter ZIP code', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter a valid phone number', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter Email', true,FailureHandling.CONTINUE_ON_FAILURE)
-						WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
-						WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Notice Number must be 13 digits in length, with a value greater than zero', true,FailureHandling.CONTINUE_ON_FAILURE)
+						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.verifyTextPresent('Please enter a valid Decedent SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
+								WebUI.verifyTextPresent('Re-type Decedent SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+							}
+						else
+							{
+								WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
+								WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+							}
 						
 						
 						resText = "Pass"

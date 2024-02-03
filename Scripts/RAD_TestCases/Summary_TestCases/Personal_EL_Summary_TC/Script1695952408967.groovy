@@ -152,14 +152,35 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							case "QA2Profile":
 									WebUI.verifyTextPresent('Jimmy Anderson', true)
-									WebUI.verifyTextPresent('XXXXX1234', true)
+									
+									if (TaxType.equalsIgnoreCase("Estate Tax"))
+										{
+											WebUI.verifyTextPresent('xxxxx1234', true)
+										}
+									else
+										{
+											WebUI.verifyTextPresent('XXXXX1234', true)
+										}
+									
+									
 							break
 							
 							case "DemoProfile":
 									WebUI.verifyTextPresent('Jimmy btes', true)
-									WebUI.verifyTextPresent('XXXXX6724', true)
+									
+									if (TaxType.equalsIgnoreCase("Estate Tax"))
+										{
+											WebUI.verifyTextPresent('xxxxx6724', true)
+										}
+									else
+										{
+											WebUI.verifyTextPresent('XXXXX6724', true)
+										}
+									
+									
 							break
 						}
+						
 						
 						//WebUI.verifyTextPresent('Jimmy Anderson', true)
 						
@@ -171,18 +192,32 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('(703) 894-5000', false)
 						WebUI.verifyTextPresent('Tax Information', true)
 						
-						WebUI.verifyTextPresent('Social Security Number:', true)
+						
 						WebUI.verifyTextPresent('Notice Number:', true)
 						WebUI.verifyTextPresent('1234567890123', true)
 						//WebUI.verifyTextPresent('Notice Number:', true)
 						WebUI.verifyTextPresent('Tax Type:', true)
-						WebUI.verifyTextPresent('Personal Income Tax', true)
+						
 						
 						WebUI.verifyTextPresent('Payment Amount:', true)
 						WebUI.verifyTextPresent('100.00', true)
 						
 						WebUI.verifyTextNotPresent('Federal EIN:', true)
 						WebUI.verifyTextNotPresent('FEIN/SSN:', true)
+						
+						
+						if (TaxType.equalsIgnoreCase("Estate Tax"))
+							{
+								WebUI.verifyTextPresent('Decedent SSN:', true)
+								WebUI.verifyTextPresent('Estate Tax', true)
+							}
+						else
+							{
+								WebUI.verifyTextPresent('Social Security Number:', true)
+								WebUI.verifyTextPresent('Personal Income Tax', true)
+							}
+							
+							
 						
 						if (WebUI.verifyElementVisible(findTestObject(orPath_Summary + '/button_Proceed to Payment')))
 							{

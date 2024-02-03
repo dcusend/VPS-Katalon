@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String resText = "Fail"
 //String datText = today
@@ -123,9 +124,18 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						case "Existing Liability w/Notice Number":
 								
-								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_Existing_SSN'), "111111111")
-								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_Existing_RetypeSSN'), "222222222")
-								WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+								if (Taxtype.equalsIgnoreCase("Estate Tax"))
+									{
+										WebUI.setText(findTestObject(orPath_TaxInfo +'/input_DecedentSSN'), "1111111111")
+										WebUI.setText(findTestObject(orPath_TaxInfo + '/input_ReTypeDecedentSSN'), "222222222")
+										WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+									}
+								else
+									{
+										WebUI.setText(findTestObject(orPath_TaxInfo + '/input_Existing_SSN'), "111111111")
+										WebUI.setText(findTestObject(orPath_TaxInfo + '/input_Existing_RetypeSSN'), "222222222")
+										WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+									}
 												
 						break
 						
@@ -147,10 +157,19 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						
 						case "New Tax Return Amount Due":
-								
-								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "111111111")
-								WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "222222222")
-								WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+						
+								if (Taxtype.equalsIgnoreCase("Estate Tax"))
+									{
+										WebUI.setText(findTestObject(orPath_TaxPayer + '/input_NewTax_DecedentSSN'), "1111111111")
+										WebUI.setText(findTestObject(orPath_TaxPayer + '/input_NewTax_ReTypeDecedentSSN'), "222222222")
+										WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+									}
+								else
+									{
+										WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), "111111111")
+										WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), "222222222")
+										WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),"Anderson")
+									}
 						
 						break
 						
@@ -163,22 +182,57 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					WebUI.delay(2)
 					
-					if (WebUI.verifyTextPresent('The SSN and Re-type SSN do not match', true))
-						{
-							println "Taxpayer SSN Dont match text is present"
-							System.out.println('Pass Record Number: ' + row)
-							resText = "Pass"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-						}
-					else
-						{
-							println "Taxpayer SSN Dont match text is NOT present on " + Taxtype + "page"
-							System.out.println('Fail Record Number: ' + row)
-							resText = "Fail"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-						}
-					
+									
 		
+						switch (Taxtype)
+						{
+							
+							case "Estate Tax":
+							
+								if (WebUI.verifyTextPresent('The Decedent SSN and Re-type Decedent SSN do not match', true))
+									{
+										println "Taxpayer SSN Dont match text is present"
+										System.out.println('Pass Record Number: ' + row)
+										resText = "Pass"
+										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+									}
+								else
+									{
+										println "The Decedent SSN and Re-type Decedent SSN do not match" + Taxtype + "page"
+										System.out.println('Fail Record Number: ' + row)
+										KeywordUtil.markFailed("The Decedent SSN and Re-type Decedent SSN do not match" + Taxtype)
+										resText = "Fail"
+										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+									}
+							
+						break
+						
+						
+						default:
+								if (WebUI.verifyTextPresent('The SSN and Re-type SSN do not match', true))
+									{
+										println "Taxpayer SSN Dont match text is present"
+										System.out.println('Pass Record Number: ' + row)
+										resText = "Pass"
+										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+									}
+								else
+									{
+										println "Taxpayer SSN Dont match text is NOT present on " + Taxtype + "page"
+										System.out.println('Fail Record Number: ' + row)
+										KeywordUtil.markFailed("Taxpayer SSN Dont match text is NOT present on " + Taxtype)
+										resText = "Fail"
+										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+									}
+						
+						break
+						}
+						
+						
+						
+						
+						
+						
 					
 				}
 				
