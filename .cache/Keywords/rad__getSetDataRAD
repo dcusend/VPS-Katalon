@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "21B1A62BAA5DA864AA9C67970E604040",
+  "keywordFileContentHash": "493298C7681E6D14A1A47EF663E3CC05",
   "keywordClasses": [
     {
       "name": "rad.getSetDataRAD",
@@ -76,6 +76,11 @@
         },
         {
           "name": "setDataRADDecedentSSNandName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADNewTaxDecedentSSNandName",
           "parameters": [],
           "javadoc": ""
         }
