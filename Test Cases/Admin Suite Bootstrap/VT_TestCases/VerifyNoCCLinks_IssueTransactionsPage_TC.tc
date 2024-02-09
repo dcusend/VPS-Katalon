@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA, QA2 and Demo</description>
+   <name>VerifyNoCCLinks_IssueTransactionsPage_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>accc5adf-5bf5-4d98-ab97-3bd78db222b9</testCaseGuid>
+</TestCaseEntity>

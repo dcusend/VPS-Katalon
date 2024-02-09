@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA, QA2 and Demo</description>
+   <name>VerifyNoAddACH_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>464a578e-f860-4136-91fa-ea095c1189d5</testCaseGuid>
+</TestCaseEntity>

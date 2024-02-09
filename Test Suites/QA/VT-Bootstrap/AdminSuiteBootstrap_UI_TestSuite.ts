@@ -60,4 +60,18 @@
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/Sale_SearchTransaction_Generic_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>56cc639e-389e-4f99-8591-dd1f2f38ff66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyNoACHLinks_IssueTransactionsPage_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>012b50e7-fbaa-475d-a4c1-805c7d28d8a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/VerifyNoCCLinks_IssueTransactionsPage_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

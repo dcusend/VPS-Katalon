@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA, QA2 and Demo</description>
+   <name>VerifyNoACHLinks_IssueTransactionsPage_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>baf833ce-58b4-45ca-a943-1dab730f9a53</testCaseGuid>
+</TestCaseEntity>
