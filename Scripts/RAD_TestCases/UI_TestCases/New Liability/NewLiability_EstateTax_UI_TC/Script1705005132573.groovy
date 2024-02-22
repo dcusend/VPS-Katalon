@@ -64,7 +64,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		WebUI.verifyEqual(totalOptionsFilingYear, 4)
 			
 						
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2023', '2022', '2021'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2024', '2023', '2022'])
 		
 		
 		
@@ -211,6 +211,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		
 // Verify that MD Central Registration Number field is NOT visible
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'))
 		
 		
 // Verify Business Name textbox is NOT present under Taxpayer section

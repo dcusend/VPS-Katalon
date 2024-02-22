@@ -40,7 +40,7 @@ String orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirma
 String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page"
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN
 
 def execProfile = RunConfiguration.getExecutionProfile()
 
@@ -59,7 +59,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			FilingYear = findTestData(dataFile).getValue('Year', row)
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
-			
+			CRN = findTestData(dataFile).getValue('CRN', row)
 			
 			
 			
@@ -119,6 +119,16 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					}	
 					
 					
+					
+// Populate MD CRN for selected Tax Types
+					if (CRN.equalsIgnoreCase("Y"))
+					{
+						CustomKeywords.'rad.getSetDataRAD.setDataRADMDCRN'()
+						
+					}
+					
+					
+					
 // Populate Decedent SSN and Retype Decedent SSN for Estate Tax
 					if (TaxType.equalsIgnoreCase("Estate Tax"))
 					{
@@ -148,46 +158,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 							
-					/*
-					 * if (WebUI.verifyTextPresent('Review the information below and make any
-					 * necessary corrections by clicking the', true)) { println
-					 * "Transaction was Successful" System.out.println('Pass Record Number: ' + row)
-					 * resText = "Pass"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) } else { println "Transaction was NOT Successful"
-					 * System.out.println('Fail Record Number: ' + row) resText = "Fail"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) }
-					 */
-		
 					
-					
-// Verify static text on RAD Quarterly Estimated Summary page
-										
-					/*
-					 * WebUI.verifyTextPresent('Summary', true) WebUI.verifyTextPresent('Review the
-					 * information below and make any necessary corrections by clicking the', true)
-					 * WebUI.verifyTextPresent('When you are confident that all the information is
-					 * correct, click the', true) WebUI.verifyTextPresent('Payment Type/Filing
-					 * Year', true) WebUI.verifyTextPresent('Payment Type:', true)
-					 * WebUI.verifyTextPresent('New Tax Return Amount Due', true)
-					 * WebUI.verifyTextPresent('Filing Year:', true)
-					 * WebUI.verifyTextPresent(FilingYear, true)
-					 * 
-					 * WebUI.verifyTextPresent('Payer Information', true)
-					 * WebUI.verifyTextPresent('Taxpayer Name:', true) WebUI.verifyTextPresent('My
-					 * Company', true) WebUI.verifyTextPresent('Business Rep Name:', true)
-					 * WebUI.verifyTextPresent('BusRepFname BusRepLname', true)
-					 * WebUI.verifyTextPresent('Taxpayer Address:', true)
-					 * WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
-					 * WebUI.verifyTextPresent('Email:', true)
-					 * WebUI.verifyTextPresent('iahmed@govolution.com', true)
-					 * WebUI.verifyTextPresent('Phone:', true) WebUI.verifyTextPresent('(703)
-					 * 894-5000', false) WebUI.verifyTextPresent('Tax Information', true)
-					 * WebUI.verifyTextPresent('Federal EIN:', true)
-					 * WebUI.verifyTextPresent('Payment Amount:', true)
-					 * WebUI.verifyTextPresent('100.00', true)
-					 */
 
 					
 // Select Proceed to Payment button

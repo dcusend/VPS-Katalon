@@ -192,62 +192,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 							
-					/*
-					 * if (WebUI.verifyTextPresent('Review the information below and make any
-					 * necessary corrections by clicking the', true)) { println
-					 * "Transaction was Successful" System.out.println('Pass Record Number: ' + row)
-					 * resText = "Pass"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) } else { println "Transaction was NOT Successful"
-					 * System.out.println('Fail Record Number: ' + row) resText = "Fail"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) }
-					 */
-		
-					
-					
-// Verify static text on RAD Quarterly Estimated Summary page
-										
-					/*
-					 * WebUI.verifyTextPresent('Summary', true) WebUI.verifyTextPresent('Review the
-					 * information below and make any necessary corrections by clicking the', true)
-					 * WebUI.verifyTextPresent('When you are confident that all the information is
-					 * correct, click the', true) WebUI.verifyTextPresent('Payment Type/Filing
-					 * Year', true) WebUI.verifyTextPresent('Payment Type:', true)
-					 * WebUI.verifyTextPresent('Existing Liability w/Notice Number', true)
-					 * 
-					 * WebUI.verifyTextPresent('Payer Information', true)
-					 * WebUI.verifyTextPresent('Taxpayer Name:', true)
-					 */
-					
-// This is Defect 7194, Leave this code as it till the defect is fixed. 					
-					/*
-					 * if (!TaxType.equalsIgnoreCase("Sales & Use Tax")) {
-					 * WebUI.verifyTextPresent('My Company', true) }
-					 * 
-					 * WebUI.verifyTextPresent('Business Rep Name:', true)
-					 * WebUI.verifyTextPresent('BusRepFname BusRepLname', true)
-					 * 
-					 * WebUI.verifyTextPresent('Taxpayer Address:', true)
-					 * WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
-					 * WebUI.verifyTextPresent('Email:', true)
-					 * WebUI.verifyTextPresent('iahmed@govolution.com', true)
-					 * WebUI.verifyTextPresent('Phone:', true) WebUI.verifyTextPresent('(703)
-					 * 894-5000', false) WebUI.verifyTextPresent('Tax Information', true)
-					 * 
-					 * if (feinSsn.equalsIgnoreCase("Y")) { WebUI.verifyTextPresent('FEIN/SSN:',
-					 * true) } else { WebUI.verifyTextPresent('Federal EIN:', true) }
-					 * 
-					 * 
-					 * 
-					 * WebUI.verifyTextPresent('Notice Number:', true)
-					 * WebUI.verifyTextPresent('1234567890123', true) WebUI.verifyTextPresent('Tax
-					 * Type:', true) WebUI.verifyTextPresent(TaxType, true)
-					 * 
-					 * WebUI.verifyTextPresent('Payment Amount:', true)
-					 * WebUI.verifyTextPresent('100.00', true)
-					 */
-					
+
 
 					
 // Select Proceed to Payment button

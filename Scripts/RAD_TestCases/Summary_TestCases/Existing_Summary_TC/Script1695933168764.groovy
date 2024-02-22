@@ -181,18 +181,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 							
-					/*
-					 * if (WebUI.verifyTextPresent('Review the information below and make any
-					 * necessary corrections by clicking the', true)) { println
-					 * "Transaction was Successful" System.out.println('Pass Record Number: ' + row)
-					 * resText = "Pass"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) } else { println "Transaction was NOT Successful"
-					 * System.out.println('Fail Record Number: ' + row) resText = "Fail"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) }
-					 */
-		
+				
 					
 					
 // Verify static text on RAD Quarterly Estimated Summary page

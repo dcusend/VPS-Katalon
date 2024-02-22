@@ -41,7 +41,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN
 
 
 
@@ -59,6 +59,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			FilingYear = findTestData(dataFile).getValue('Year', row)
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
+			CRN = findTestData(dataFile).getValue('CRN', row)
 			
 			
 			
@@ -144,6 +145,17 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							WebUI.verifyTextPresent('Please enter a valid Decedent SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
 							WebUI.verifyTextPresent('Re-type Decedent SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
 						}
+						
+						
+					if (CRN.equalsIgnoreCase("Y"))
+						{
+							WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MDCRegistration')," ")
+							WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+							WebUI.verifyTextPresent('Enter valid MD Central Registration Number', true,FailureHandling.CONTINUE_ON_FAILURE)
+						}
+						
+						
+					
 						
 					
 					resText = "Pass"

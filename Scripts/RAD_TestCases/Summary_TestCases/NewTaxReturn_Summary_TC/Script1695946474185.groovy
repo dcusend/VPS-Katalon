@@ -39,7 +39,7 @@ String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN
 
 
 
@@ -57,7 +57,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			FilingYear = findTestData(dataFile).getValue('Year', row)
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
-			
+			CRN = findTestData(dataFile).getValue('CRN', row)
 			
 			
 			
@@ -116,7 +116,16 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'yXB7JMCbD3QoFF75EQd3iw==')
 							WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'yXB7JMCbD3QoFF75EQd3iw==')
 						}
-					}	
+					}
+					
+					
+// Populate MD CRN for selected Tax Types
+					if (CRN.equalsIgnoreCase("Y"))
+					{
+						CustomKeywords.'rad.getSetDataRAD.setDataRADMDCRN'()
+						
+					}
+						
 					
 			
 // Populate Decedent SSN and Retype Decedent SSN for Estate Tax
@@ -147,19 +156,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 							
-					/*
-					 * if (WebUI.verifyTextPresent('Review the information below and make any
-					 * necessary corrections by clicking the', true)) { println
-					 * "Transaction was Successful" System.out.println('Pass Record Number: ' + row)
-					 * resText = "Pass"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) } else { println "Transaction was NOT Successful"
-					 * System.out.println('Fail Record Number: ' + row) resText = "Fail"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) }
-					 */
-		
-					
+				
 					
 // Verify static text on RAD Quarterly Estimated Summary page
 										
@@ -210,6 +207,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							{
 								WebUI.verifyTextPresent('Placeholder for Decedent SSN', true)
 							}
+							
+							
+						if (CRN.equalsIgnoreCase("Y"))
+							{
+								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
+								WebUI.verifyTextPresent('07640126', true)
+							}
 						
 					
 					//WebUI.verifyTextPresent('Federal EIN:', true)
@@ -233,89 +237,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 					
-					/*
-					 * // On the VRelay page, confirm fields are prepopulated
-					 * WebUI.verifyTextPresent('Comptroller of Maryland', true)
-					 * WebUI.verifyTextPresent('Revenue Administration Division', true)
-					 * WebUI.verifyTextPresent('Payment Information', true)
-					 * 
-					 * def card_Name = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
-					 * WebUI.verifyMatch("", card_Name, false)
-					 * 
-					 * def AL1 = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress'), 'value')
-					 * WebUI.verifyMatch("2508 Mandan Terrace", AL1, false)
-					 * 
-					 * def AL2 = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress2'), 'value')
-					 * WebUI.verifyMatch("", AL2, false)
-					 * 
-					 * def zipCode = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingZip'), 'value')
-					 * WebUI.verifyMatch("21054", zipCode, false)
-					 * 
-					 * def city = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingCity'), 'value')
-					 * WebUI.verifyMatch("GAMBRILLS", city, false)
-					 * 
-					 * def email = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_emailAddress'), 'value')
-					 * WebUI.verifyMatch("iahmed@govolution.com", email, false)
-					 * 
-					 * def amount = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'value')
-					 * WebUI.verifyMatch("100.00", amount, false)
-					 * 
-					 * def amountReadOnly = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'readonly')
-					 * WebUI.verifyMatch("true", amountReadOnly, false)
-					 * 
-					 * WebUI.verifyOptionSelectedByLabel(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/select_Country'), 'United States',
-					 * false, 20)
-					 * 
-					 * WebUI.verifyOptionSelectedByLabel(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/select_State'), 'Maryland', false, 20)
-					 * 
-					 * 
-					 * WebUI.setText(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony
-					 * Gonzalez') WebUI.setText(findTestObject(orPath_PaymentEntry +
-					 * '/input__cardNumber'),'4111111111111111')
-					 * WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__spc'),'123')
-					 * WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry +
-					 * '/select_MM'),"12",false)
-					 * WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry +
-					 * '/select_YYYY'),"2028",false)
-					 * 
-					 * 
-					 * // Select Continue on VRelay Payment Entry page
-					 * WebUI.click(findTestObject(orPath_PaymentEntry + '/input_Field_ccSubmit'))
-					 * 
-					 * 
-					 * // Select Confirm on Payment Confirmation Page
-					 * WebUI.click(findTestObject(orPath_PaymentConfirmation +
-					 * '/input_N_confirmNotifyAction'))
-					 * 
-					 * 
-					 * // Verify text on Dual CF Page
-					 * 
-					 * 
-					 * 
-					 * WebUI.verifyTextPresent('Service Fee Acceptance', true)
-					 * WebUI.verifyTextPresent('This transaction is subject to a Service Fee of ',
-					 * true) WebUI.verifyTextPresent('Payment Amount:', true)
-					 * WebUI.verifyTextPresent('100.00', true) WebUI.verifyTextPresent('Service
-					 * Fee:', true) WebUI.verifyTextPresent('2.45', true)
-					 * WebUI.verifyTextPresent('Total Amount:', true)
-					 * WebUI.verifyTextPresent('102.45', true) WebUI.verifyTextPresent('Two
-					 * transactions will appear on your bank statement, one in the amount of', true)
-					 * 
-					 * 
-					 * WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept +
-					 * '/input_convFeeNotifyAction'), 30)
-					 */
+				
 					
 					
 	
