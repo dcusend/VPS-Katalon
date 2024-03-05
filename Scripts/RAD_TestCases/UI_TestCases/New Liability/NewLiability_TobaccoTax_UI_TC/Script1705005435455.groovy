@@ -56,8 +56,15 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 				
 				
-// Verify Period Ending Month dropdown is not visible
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+// Verify the contents of Period Ending Month dropdown
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+		
+		def totalOptionsPeriodEnding = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+		WebUI.verifyEqual(totalOptionsPeriodEnding, 13)
+		
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['Month','January','February','March','April','May','June'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
 		
 		
 		
@@ -121,9 +128,12 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 	
 		
 		
-// Verify that MD Central Registration Number field is NOT visible
+// Verify that MD Central Registration Number EL field is NOT visible
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'))
+		
+		
+// Verify that MD CRN is visible
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'))
 		
 		
 		

@@ -119,9 +119,12 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
 		
 		
-// Verify that MD Central Registration Number field is NOT visible
+// Verify that MD Central Registration Number EL field is NOT visible
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'))
+		
+		
+// Verify that MD CRN is visible
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'))
 		
 		
 		

@@ -53,12 +53,19 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Verify the contents of Filing Year dropdown
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 		WebUI.verifyEqual(totalOptionsFilingYear, 4)
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2023', '2022', '2021'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2024', '2023', '2022'])
 		
 				
 				
-// Verify Period Ending Month dropdown is not visible
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+// Verify the contents of Period Ending Month dropdown
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+		
+		def totalOptionsPeriodEnding = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+		WebUI.verifyEqual(totalOptionsPeriodEnding, 13)
+		
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['Month','January','February','March','April','May','June'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
 		
 		
 		
@@ -119,8 +126,12 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
 		
 		
-// Verify that MD Central Registration Number field is NOT visible
+// Verify that MD Central Registration Number EL field is NOT visible
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+		
+		
+// Verify that MD CRN is visible
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'))
 		
 		
 		
