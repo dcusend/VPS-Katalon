@@ -1058,6 +1058,45 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/select_SearchBy",
+      "brokenLocator": "//*[@name \u003d \u0027searchField\u0027 and (text() \u003d \u0027\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRemittance ID\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPayment ID\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCC last 4 digit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tACH last 4 digit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEmail Address\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAmount\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPayer Name\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tClient Account Number\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF1\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF2\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF3\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF4\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF5\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF6\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF7\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF8\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF9\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF 10\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u0027 or . \u003d \u0027\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRemittance ID\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPayment ID\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCC last 4 digit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tACH last 4 digit\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEmail Address\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAmount\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPayer Name\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tClient Account Number\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF1\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF2\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF3\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF4\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF5\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF6\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF7\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF8\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF9\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF Label:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUDF 10\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027searchField\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/CCCreditOrVoidSearch/select_SearchBy_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID",
+      "brokenLocator": "//table[@id\u003d\u0027vpositem\u0027]/tbody/tr/td/button",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Status\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/a_Void this transaction",
+      "brokenLocator": "//*[@onclick \u003d \u0027javascript:voidActionLink()\u0027 and (text() \u003d \u0027Void this transaction\u0027 or . \u003d \u0027Void this transaction\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//a[contains(@href, \u0027#\u0027)])[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/a_Void this transaction_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/button_Submit",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Submit\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/button_Submit_neighbor.png"
     }
   ]
 }

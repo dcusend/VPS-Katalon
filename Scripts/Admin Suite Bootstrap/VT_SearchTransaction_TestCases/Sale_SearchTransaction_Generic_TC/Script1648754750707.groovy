@@ -55,7 +55,7 @@ String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "C:\\KatalonData\\Bootstrap\\VT-Misc-Data.xlsx"
+String fileLoc = "KatalonData/Bootstrap/VT-Misc-Data.xlsx"
 def numOfRows, dataFile, nameSheet
 
 
@@ -167,39 +167,51 @@ def numOfRows, dataFile, nameSheet
 								CustomKeywords.'adminSuiteBootstrap.searchTransactions.searchTransactions_DataDriven'(row,dataFile,remID,payID)					
 							
 								//WebUI.delay(30)
+								
+								if (WebUI.verifyTextPresent(remID, true))
+								{
 							
-								// Verif static text on the page
-								WebUI.verifyTextPresent('Transactions Matching Search Criteria', true)
-								WebUI.verifyTextPresent('Payment ID', true)
-								WebUI.verifyTextPresent('Payment Type', true)
-								WebUI.verifyTextPresent('Transaction Type', true)
-								WebUI.verifyTextPresent('Remittance ID', true)
-								WebUI.verifyTextPresent('Name', true)
-								WebUI.verifyTextPresent('Total Amount', true)
-								WebUI.verifyTextPresent('End Date', true)
-								WebUI.verifyTextPresent('Status', true)
+									resText = "Pass"
+									CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+									
+									// Verif static text on the page
+										WebUI.verifyTextPresent('Transactions Matching Search Criteria', true)
+										WebUI.verifyTextPresent('Payment ID', true)
+										WebUI.verifyTextPresent('Payment Type', true)
+										WebUI.verifyTextPresent('Transaction Type', true)
+										WebUI.verifyTextPresent('Remittance ID', true)
+										WebUI.verifyTextPresent('Name', true)
+										WebUI.verifyTextPresent('Total Amount', true)
+										WebUI.verifyTextPresent('End Date', true)
+										WebUI.verifyTextPresent('Status', true)
+										
+										WebUI.verifyTextPresent('Credit Card', true)
+										WebUI.verifyTextPresent('Authorization and Capture', true)
+										WebUI.verifyTextPresent('Mithun Chakravarthy', true)
+										WebUI.verifyTextPresent('Success', true)
+										
+										
+										
+										// Verify Elements Present on the page
+										WebUI.verifyElementPresent(findTestObject(path_SearchResults + 'button_PaymentID'),10)
+										
+										// Select Payment ID button to void the transaction
+										WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
+										
+										WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
+										
+																		
+										WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
+										
+										WebUI.verifyTextPresent('Transaction Successful', true)
 								
-								WebUI.verifyTextPresent('Credit Card', true)
-								WebUI.verifyTextPresent('Authorization and Capture', true)
-								WebUI.verifyTextPresent('Mithun Chakravarthy', true)
-								WebUI.verifyTextPresent('Success', true)
+								}
 								
-								WebUI.verifyTextPresent(remID, true)
-								
-								// Verify Elements Present on the page
-								WebUI.verifyElementPresent(findTestObject(path_SearchResults + 'button_PaymentID'),10)
-								
-								// Select Payment ID button to void the transaction
-								WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
-								
-								WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
-								
-																
-								WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
-								
-								WebUI.verifyTextPresent('Transaction Successful', true)
-								
-								
+								else
+								{
+									resText = "Fail"
+									CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+								}
 	
 							
 						}

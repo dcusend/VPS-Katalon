@@ -40,7 +40,7 @@ String orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirma
 String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page"
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN, month
 
 def execProfile = RunConfiguration.getExecutionProfile()
 
@@ -60,6 +60,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			FilingYear = findTestData(dataFile).getValue('Year', row)
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
 			CRN = findTestData(dataFile).getValue('CRN', row)
+			month = findTestData(dataFile).getValue('Month', row)
 			
 			
 			
@@ -89,6 +90,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 // Select Filing Year
 					WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
+					
+// Check Test Data if Month needs to be populated
+					if (month?.trim())
+						{
+							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),month,false)
+						}
 					
 					
 // Set Data Business Name

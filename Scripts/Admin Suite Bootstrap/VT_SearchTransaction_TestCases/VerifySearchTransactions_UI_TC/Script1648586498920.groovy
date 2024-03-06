@@ -105,7 +105,8 @@ def numOfRows, dataFile, nameSheet
 				WebUI.verifyOptionsPresent(findTestObject(path_CCSearch + 'select_SearchBy'), ['Email Address', 'Amount','Payer Name','Client Account Number'])
 				WebUI.verifyOptionsPresent(findTestObject(path_CCSearch + 'select_SearchBy'), ['UDF Label: UDF1', 'UDF Label: UDF2','UDF Label: UDF3','UDF Label: UDF4','UDF Label: UDF5'])
 				WebUI.verifyOptionsPresent(findTestObject(path_CCSearch + 'select_SearchBy'), ['UDF Label: UDF6', 'UDF Label: UDF7','UDF Label: UDF8','UDF Label: UDF9','UDF Label: UDF 10'])
-		
+				WebUI.verifyOptionsPresent(findTestObject(path_CCSearch + 'select_SearchBy'), ['Phone Number','Parcels'])
+				
 				
 			// Verify if the Search Value Text Box is present on the page
 				WebUI.verifyElementPresent(findTestObject(path_CCSearch + 'input_Search By_searchValue'),10)

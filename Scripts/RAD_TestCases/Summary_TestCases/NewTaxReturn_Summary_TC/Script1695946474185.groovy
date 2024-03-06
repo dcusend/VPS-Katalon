@@ -39,7 +39,7 @@ String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN, month
 
 
 
@@ -58,6 +58,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			FilingYear = findTestData(dataFile).getValue('Year', row)
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
 			CRN = findTestData(dataFile).getValue('CRN', row)
+			month = findTestData(dataFile).getValue('Month', row)
 			
 			
 			
@@ -87,6 +88,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 // Select Filing Year
 					WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),FilingYear,false)
+					
+
+// Check Test Data if Month needs to be populated									
+					if (month?.trim())
+						{
+							WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),month,false)
+						}
 					
 					
 // Set Data Business Name
@@ -168,7 +176,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('New Tax Return Amount Due', true)
 					WebUI.verifyTextPresent('Filing Year:', true)
 					WebUI.verifyTextPresent(FilingYear, true)
-					WebUI.verifyTextNotPresent("Period Ending", true)
+					
 					
 					WebUI.verifyTextPresent('Payer Information', true)
 					WebUI.verifyTextPresent('Taxpayer Name:', true)
@@ -182,8 +190,21 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('Phone:', true)
 					WebUI.verifyTextPresent('(703) 894-5000', false)
 					WebUI.verifyTextPresent('Tax Information', true)
-					WebUI.verifyTextNotPresent('MD Central Registration Number', true)
+					
 					WebUI.verifyTextNotPresent('Notice Number', true)
+					
+					
+					
+					if (month?.trim())
+					{
+						WebUI.verifyTextPresent("Period Ending", true)
+						WebUI.verifyTextPresent(month, true)
+					}
+					else
+					{
+						WebUI.verifyTextNotPresent("Period Ending", true)
+					}
+					
 					
 					
 					if (feinSSN.equalsIgnoreCase("Y"))
@@ -213,6 +234,10 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							{
 								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
 								WebUI.verifyTextPresent('07640126', true)
+							}
+						else
+							{
+								WebUI.verifyTextNotPresent('MD Central Registration Number', true)
 							}
 						
 					
