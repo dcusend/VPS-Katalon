@@ -57,8 +57,139 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 				
 				
-// Verify Period Ending Month dropdown is not visible
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+// Verify the contents of Period Ending Month dropdown
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+		
+		def totalOptionsPeriodEnding = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+		WebUI.verifyEqual(totalOptionsPeriodEnding, 13)
+		
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['March','June','September','December'])
+		
+		
+		
+// Verify if the Months are visible or not
+		def listOfMonths = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/TaxTypeFilingYear_Page/select_PeriodEnding'), 'outerHTML')
+		
+		if (listOfMonths.contains('<option value="01" class="hideMonth">January</option>'))
+			{
+				println "January is hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("January is not hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="02" class="hideMonth">February</option>'))
+			{
+				println "February is hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("February is not hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="03">March</option>'))
+			{
+				println "March is NOT hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("March is hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="04" class="hideMonth">April</option>'))
+			{
+				println "April is hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("April is not hidden, check if this is a defect")
+			}
+				
+			
+		if (listOfMonths.contains('<option value="05" class="hideMonth">May</option>'))
+			{
+				println "May is hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("May is not hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="06">June</option>'))
+			{
+				println "June is NOT hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("June is hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="07" class="hideMonth">July</option>'))
+			{
+				println "July is hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("July is not hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="08" class="hideMonth">August</option>'))
+			{
+				println "August is hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("August is not hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="09">September</option>'))
+			{
+				println "September is NOT hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("September is hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="10" class="hideMonth">October</option>'))
+			{
+				println "October is hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("October is not hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="11" class="hideMonth">November</option>'))
+			{
+				println "November is hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("November is not hidden, check if this is a defect")
+			}
+			
+			
+		if (listOfMonths.contains('<option value="12">December</option>'))
+			{
+				println "December is NOT hidden"
+			}
+		else
+			{
+				KeywordUtil.markFailed("December is hidden, check if this is a defect")
+			}
+		
 		
 		
 		

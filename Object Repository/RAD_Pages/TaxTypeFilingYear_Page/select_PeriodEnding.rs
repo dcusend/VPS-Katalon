@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//select[@id='salesUseMonth']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'salesUseMonth' and @name = 'salesUseMonth']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,6 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>8ec59b5c-4ec8-4359-88e1-cd0c523a934c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +34,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>onMonthYearChange()</value>
+      <webElementGuid>e0c5e703-dc1a-46e0-8a16-2875a03abf74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-select</value>
+      <webElementGuid>e14201b1-243a-4172-98a2-8c8ef260d0ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>salesUseMonth</value>
+      <webElementGuid>faf013e4-c825-4891-b7af-cfa03dda632a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +58,7 @@
       <name>name</name>
       <type>Main</type>
       <value>salesUseMonth</value>
+      <webElementGuid>ec7542e6-c531-464b-bda0-4241b84bd123</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Floating label select example</value>
+      <webElementGuid>062992ef-2476-4c3d-bfae-fe3c2c99a545</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,6 +88,7 @@
 											November
 											December
 										  </value>
+      <webElementGuid>d68bb225-4c5c-4042-aa2c-66913eab346c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,6 +96,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;salesUseMonth&quot;)</value>
+      <webElementGuid>bc9e2b88-c467-4afd-9147-b6c0a6fa273f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +104,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='salesUseMonth']</value>
+      <webElementGuid>e52fb3a7-5b7f-40df-a1f8-7ee768878595</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +112,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='taxForm']/div[3]/div[3]/div/select</value>
+      <webElementGuid>dd67c395-0b53-4005-be60-0944405c049f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a filing year'])[1]/following::select[1]</value>
+      <webElementGuid>7fdff5db-8bc5-41cf-9a1d-ccc7536c38f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filing Year:'])[1]/following::select[1]</value>
+      <webElementGuid>f067e67c-52a8-4d60-811e-1ad49e5399ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +136,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Period Ending:'])[1]/preceding::select[1]</value>
+      <webElementGuid>32da93d0-34d0-409e-84d7-37395ba8c2d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +144,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select reporting period'])[1]/preceding::select[1]</value>
+      <webElementGuid>99003ed7-b0ba-4e00-a0d4-ae652f3cca1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +152,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/select</value>
+      <webElementGuid>87e1aa08-6310-44b4-8224-59890529dbda</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

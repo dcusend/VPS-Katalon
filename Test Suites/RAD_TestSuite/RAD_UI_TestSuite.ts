@@ -14,217 +14,217 @@
    <testCaseLink>
       <guid>c356db70-d17a-46bd-b756-7828dc2bb82e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/LandingPage_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>379dfbff-676c-440d-9480-01ed1a956b1d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/VerifyServiceFeeVerbiage_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>81afbe20-e6d6-40df-bc29-5b7f75ba370b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Estimated/EstimatedTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>44810f2d-0725-4924-9d63-18b6ccbdd3cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Estimated/Estimated_Fiduciary_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a5c10c9c-d73c-4757-be02-d51d29c5c00d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Estimated/Estimated_PTENonElectingNonSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>34871df0-6558-4d44-ae3a-b2ce2f881ff9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Estimated/Estimated_PTENonElectingSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a5e4a094-1d42-4563-b9a0-8e0130f5668c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Estimated/Estimated_PTETaxElectingNonSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>94073878-39d2-4e25-a42f-ee8615af705a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Estimated/Estimated_PTETaxElectingSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5a7b4ed6-1165-4d77-91ef-2ba73cf6022c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Estimated/Estimated_CorporateIncomeTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f28a5e49-aa20-4c48-beaf-c479a7852ba1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Estimated/Estimated_PersonalIncomeTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6331f1c0-c005-4d42-aa36-56f4fb4b8a37</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/ExistingLiability_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b041e347-f048-4782-b1e0-c5244b0a42a6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_AlcoholTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a6981f1e-3d0e-448a-a16e-1fb1101d40f9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_BayRestorationFee_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>50a6093e-d20c-4edc-9f6e-b65dad754d3d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_CorporateIncomeTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e42611d4-3366-4bdb-af8f-b674d2412038</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_FiduciaryTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5f40f7e8-14ef-4980-b309-e86bf46b35cf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PersonalIncomeTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e100e14f-0263-4e71-814e-f8210907e2c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PTENonElectingNonSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a2dbbb76-9999-40ee-a79a-3d3f98f69967</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PTENonElectingSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b59c75ae-4efe-4b46-8c3f-7d2e8bce50bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PTETaxElectingNonSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>af85b767-d2ee-4c13-896d-c476144b4108</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PTETaxElectingSCorp_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fdd0332f-da7d-48be-b78a-7628cfe6276d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_SalesAndUseTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1444efa9-4c55-4a8c-b207-24502b3be085</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_TireRecyclingFee_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>340f408e-9808-49fc-91e7-336f359ebf35</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_WithholdingTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4e6c1686-f393-4a13-819b-5aa29d847537</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_AdmissionsAndAmusementTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>abe9788e-8688-43b2-919a-42b264bb2b67</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_EstateTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>357ba1ac-dd14-41a6-989e-ca8176cac945</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_IFTATax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c3ee6f7e-f9c2-476c-b726-732a2a50d19c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_MotorFuelTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7b9dfa2e-bbc4-4721-9af9-ae115d6c1406</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_SlotsLicenseFee_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4d259aa2-1cb3-41cb-beed-821cae24017e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_TobaccoTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>53bee8af-dc50-40da-803c-5fbc03af9f2d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_TransportationNetworkServices_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f19d01ca-321d-4fa6-849d-98b622e17861</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_UnclaimedProperty_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -504,7 +504,7 @@
    <testCaseLink>
       <guid>bb546a30-e18e-49f7-8350-2c354e476881</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/Summary_TestCases/NewTaxReturn_Summary_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -553,7 +553,7 @@
    <testCaseLink>
       <guid>d7dfe099-f82e-4ed6-ae3e-d918a02ad993</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/NewTaxReturn_BeforePayments_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -602,7 +602,7 @@
    <testCaseLink>
       <guid>520f0fe3-1020-450e-a459-cdb3c036b6ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/MRF_TestCases/NewTaxReturn_MRF_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
