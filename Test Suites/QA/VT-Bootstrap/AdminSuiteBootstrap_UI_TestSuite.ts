@@ -61,6 +61,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>98f96fa1-d7e9-4065-bedc-068bde868deb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_SearchTransaction_TestCases/Personal_SearchTransaction_Generic_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>56cc639e-389e-4f99-8591-dd1f2f38ff66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

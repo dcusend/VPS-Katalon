@@ -48,7 +48,7 @@ String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "C:\\KatalonData\\Bootstrap\\VT-ACH-Data.xlsx"
+String fileLoc = "KatalonData/Bootstrap/VT-ACH-Data.xlsx"
 def numOfRows, dataFile, nameSheet
 
 
