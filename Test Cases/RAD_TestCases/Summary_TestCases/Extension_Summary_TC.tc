@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Do Not Run</description>
-   <name>Extension_Summary_TC_DONOTRUN</name>
+   <description>Works in all Environments</description>
+   <name>Extension_Summary_TC</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>774ab33f-0063-47c1-afe4-4e5f6cdc641b</testCaseGuid>

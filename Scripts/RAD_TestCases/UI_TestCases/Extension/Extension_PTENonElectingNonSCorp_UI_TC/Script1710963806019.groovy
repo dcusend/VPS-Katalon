@@ -42,7 +42,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
-		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'PTE Non-Electing S Corp',false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),'PTE Non-Electing Non-S Corp',false)
 		
 
 // Verify that Filing Year dropdown is present and visible
@@ -52,7 +52,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Verify the contents of Filing Year dropdown
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 		WebUI.verifyEqual(totalOptionsFilingYear, 1)
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2022'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2023'])
 		
 // Verify the contents of Period Ending Month dropdown
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
@@ -62,7 +62,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		//WebUI.verifyEqual(totalOptionsPeriodEnding, 13)
 		
 		//WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['Month','January','February','March','April','May','June'])
-		//WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
+	//	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
 		
 // Verify static text in Taxpayer section
 		WebUI.verifyTextPresent('Taxpayer', true)
@@ -123,14 +123,22 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 
 		
-		
 // Verify that Notice or Invoice Number is not present
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
-
+	
+		
 		
 // Verify that MD Central Registration Number field is NOT visible
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+		
+		
+		
+// Verify Filing Status section is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+
+		
 		
 		
 // Verify Payment Amount is present and visible

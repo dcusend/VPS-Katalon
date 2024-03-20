@@ -29,7 +29,7 @@
       <guid>585c0a9e-241d-4cde-abd9-2b2bfb133240</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Extension_BeforePayments_TC_DONOTRUN</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Extension_BeforePayments</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
