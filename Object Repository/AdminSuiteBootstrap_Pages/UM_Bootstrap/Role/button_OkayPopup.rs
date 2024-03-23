@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_OkayPopup</name>
+   <tag></tag>
+   <elementGuidId>f927d737-1b15-4ce4-8e6b-ae5f2e775200</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('The role named ', '&quot;', 'JoinedRole', '&quot;', ' was successfully deleted.')])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.alert-button.success-bg.success-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>985ebe3c-d8f9-4c2a-84bf-62479cf7770e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert-button success-bg success-btn</value>
+      <webElementGuid>77c146fd-e9e8-464f-8d30-8a7553b9d95d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Okay</value>
+      <webElementGuid>fde786b6-fd2e-44b0-8fc5-7836602f03ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/div[@class=&quot;alert-wrapper&quot;]/div[@class=&quot;alert-frame&quot;]/div[@class=&quot;alert-body&quot;]/button[@class=&quot;alert-button success-bg success-btn&quot;]</value>
+      <webElementGuid>3fd57db8-2302-4858-ac0e-13db7013b07f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('The role named ', '&quot;', 'JoinedRole', '&quot;', ' was successfully deleted.')])[1]/following::button[1]</value>
+      <webElementGuid>6cdb46fd-fd5c-4a7d-a6d1-5e292378fef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deleted'])[1]/following::button[1]</value>
+      <webElementGuid>d023cdea-209e-4d56-a984-98ab8846a8bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Okay']/parent::*</value>
+      <webElementGuid>8db83508-04c0-4359-80de-5f7ec95643e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>62e8f6b8-bb54-4992-a546-ad6444e50e6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Okay' or . = 'Okay')]</value>
+      <webElementGuid>010563d3-d3a9-4acc-b636-b149fb5cd073</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

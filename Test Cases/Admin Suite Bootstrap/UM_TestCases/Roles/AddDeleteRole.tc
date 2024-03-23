@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments.</description>
+   <name>AddDeleteRole</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e94c676c-be58-491e-84d4-3ffc992d9f5c</testCaseGuid>
+</TestCaseEntity>
