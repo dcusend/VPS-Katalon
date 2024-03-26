@@ -43,7 +43,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
 // Select Estimated Tax from the Main Index Page
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability with Notice/Invoice Number", false)
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
@@ -136,14 +136,24 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
 		
 
+// Verify the new Notice ID static text
+		WebUI.verifyTextPresent('This is NOT the Notice ID', true)
+		
+		WebUI.verifyTextPresent('Notice Number or Invoice Number', true)
+		WebUI.verifyTextPresent('Re-Type Notice Number or Invoice Number', true)
+		
+		
+		//def attribute = WebUI.getAttribute(findTestObject(orPath_TaxInfo + '/Element_1711481469254'), 'id')
+		//println attribute
+		
 		
 // Verify Filing Status section is not present
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 
 		
-// Verify that MD Central Registration Number field is NOT visible
-		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
+// Verify that MD Central Registration Number field is visible
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_MDCRegistrationEL'))
 		
 		
 	

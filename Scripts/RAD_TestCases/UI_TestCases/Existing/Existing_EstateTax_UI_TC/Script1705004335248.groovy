@@ -47,7 +47,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 		
 		
 // Select Estimated Tax from the Main Index Page
-		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
+		WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability with Notice/Invoice Number", false)
 
 		
 // Select Fiduciary Tax from the Payment Type dropwown
@@ -120,7 +120,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'), 30)
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
 		
-
+// Verify the new Notice ID static text
+		WebUI.verifyTextPresent('This is NOT the Notice ID', true)
+		
+		WebUI.verifyTextPresent('Notice Number or Invoice Number', true)
+		WebUI.verifyTextPresent('Re-Type Notice Number or Invoice Number', true)
 				
 // Verify Decedent SSN and Re-type Decedent SSN are present and visible
 		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_DecedentSSN'), 30)

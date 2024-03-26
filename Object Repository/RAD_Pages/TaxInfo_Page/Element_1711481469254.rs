@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Element_1711481469254</name>
+   <tag></tag>
+   <elementGuidId>fc61ef20-8786-4b6f-939e-5de6a72efe31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'lblNoticeNumber' and @for = 'noticeNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lblNoticeNumber</value>
+      <webElementGuid>4b5a5522-94f6-4bd1-a63d-ef70f659bb1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>noticeNumber</value>
+      <webElementGuid>9697d07c-1012-4671-9789-3fb686c22fee</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

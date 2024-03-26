@@ -170,7 +170,7 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 //		if (totalOptions == 6)
 		
 // Updates for December 2023			
-		if (totalOptions == 4)
+		if (totalOptions == 5)
 			{
 				System.out.println('Total Options are correct: ' + totalOptions)
 				KeywordUtil.markPassed("Total Options are correct")
@@ -214,7 +214,7 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 //			}
 		
 		
-		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Existing Liability w/Notice Number", false, 60))
+		if (WebUI.verifyOptionPresentByLabel(findTestObject(orPath + '/dd_TaxType'), "Existing Liability with Notice/Invoice Number", false, 60))
 			{
 				System.out.println('Existing Liability Option is present in the Tax Type Drop Down')
 			}
