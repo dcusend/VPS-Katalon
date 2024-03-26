@@ -98,6 +98,7 @@ selenium.type("name=message_version", ("2.3").toString())
 
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 selenium.type("name=remittance_id", genRemIDVoid)
+println genRemIDVoid
 
 selenium.click("css=input.formSubmit")
 selenium.waitForPageToLoad("30000")
@@ -200,7 +201,7 @@ WebUI.verifyTextPresent(("Visa"), true)
 WebUI.verifyTextPresent(("LESLIE HOWARD"), true)
 WebUI.verifyTextPresent(("1111"), true)
 
-
+println genRemIDVoid
 
 
 println("End Test: SCFSuccessfulCC")

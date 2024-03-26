@@ -123,32 +123,7 @@ selenium.click("name=ccSubmit")
 selenium.waitForPageToLoad("30000")
 
 
-/*
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Required fields are highlighted with an asterisk.*"),
- * true) softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Amount is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "UDF3 Label is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "UDF5 Label is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Card name is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Card number is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Card Security Code is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Card expiration date is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Card address Line 1 is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Card ZIP Code is required.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")',
- * "You must review and accept the Credit Card terms and conditions in order to process a credit transaction.*"
- * ), true)
- */
+
 WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk"), true)
 WebUI.verifyTextPresent(("Amount is required"), true)
 WebUI.verifyTextPresent(("UDF3 Label is required"), true)
@@ -156,7 +131,7 @@ WebUI.verifyTextPresent(("UDF5 Label is required"), true)
 WebUI.verifyTextPresent(("Card name is required"), true)
 WebUI.verifyTextPresent(("Card number is required"), true)
 WebUI.verifyTextPresent(("Card Security Code is required"), true)
-WebUI.verifyTextPresent(("tesCard expiration date is requiredt"), true)
+WebUI.verifyTextPresent(("Card expiration date is required"), true)
 WebUI.verifyTextPresent(("Card address Line 1 is required"), true)
 WebUI.verifyTextPresent(("Card ZIP Code is required"), true)
 WebUI.verifyTextPresent(("You must review and accept the Credit Card terms and conditions in order to process a credit transaction"), true)

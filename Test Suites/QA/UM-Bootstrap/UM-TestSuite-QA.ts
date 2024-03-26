@@ -123,4 +123,18 @@
       <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/UsersErrors/NewPasswordPolicy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7e6bfd68-2165-4936-a1d2-c7837878febb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/Roles/AddDeleteRole</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6c20d02-6c1b-43d4-bac2-fef9a042c2ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/UM_TestCases/Roles/SearchRole</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

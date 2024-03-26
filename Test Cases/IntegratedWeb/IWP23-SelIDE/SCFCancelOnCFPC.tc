@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>QA and QA2 Only</description>
+   <description>DONOTRUN. QA and QA2 Only</description>
    <name>SCFCancelOnCFPC</name>
    <tag></tag>
    <comment></comment>

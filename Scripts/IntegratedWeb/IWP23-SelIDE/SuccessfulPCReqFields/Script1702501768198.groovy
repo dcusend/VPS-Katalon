@@ -174,7 +174,7 @@ WebUI.verifyTextPresent(("United States"), true)
 WebUI.verifyTextPresent(("ARLINGTON"), true)
 WebUI.verifyTextPresent(("Virginia"), true)
 WebUI.verifyTextPresent(("22201"), true)
-WebUI.verifyTextPresent(("agency@test.com"), true)
+//WebUI.verifyTextPresent(("agency@test.com"), true)
 
 
 

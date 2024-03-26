@@ -143,7 +143,10 @@ selenium.waitForPageToLoad("30000")
  * assertEquals("Two transactions will appear on your bank statement, one in the amount of $11.50 and one in the amount of $2.00."
  * , selenium.getText("//td/p[2]"))
  */
-WebUI.verifyTextPresent(("This transaction is subject to a Convenience Fees of \$2.00"), true)
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent(("This transaction is subject to a Convenience Fees of \$2.00"), false)
 WebUI.verifyTextPresent(("Payment Amount:"), true)
 WebUI.verifyTextPresent(("\$11.50"), false)
 WebUI.verifyTextPresent(("Convenience Fees:"), true)

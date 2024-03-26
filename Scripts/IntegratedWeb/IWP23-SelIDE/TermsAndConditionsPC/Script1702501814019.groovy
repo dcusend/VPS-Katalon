@@ -126,8 +126,8 @@ selenium.click("id=checkedAcceptCondition")
 //softAssertion.assertEquals("If my payment is returned unpaid, additional attempts may be made to process the payment, and I will be charged a returned item fee up to the maximum allowed by law. Call the County of Fairfax Department of Tax Administration with any questions regarding this authorization. <br><br> <br>Please select if you do not accept the terms above.", selenium.getText("css=div.main_col > table > tbody > tr > td.payor_opt"))
 
 WebUI.verifyTextPresent(("By clicking on the provided checkbox, I authorize ABC Company to initiate an electronic debit to my bank account in the amount displayed above. This authorization is to remain in full force and effect unless I provide written notification to Fairfax Dept Tax Administration within an appropriate time frame to allow Fairfax Dept Tax Administration to act on it."), true)
-WebUI.verifyTextPresent(("If my payment is returned unpaid, additional attempts may be made to process the payment, and I will be charged a returned item fee up to the maximum allowed by law. Call the County of Fairfax Department of Tax Administration with any questions regarding this authorization. <br><br> <br>Please select if you do not accept the terms above."), true)
-
+WebUI.verifyTextPresent(("If my payment is returned unpaid, additional attempts may be made to process the payment, and I will be charged a returned item fee up to the maximum allowed by law. Call the County of Fairfax Department of Tax Administration with any questions regarding this authorization."), true)
+WebUI.verifyTextPresent(("if you do not accept the terms above"), true)
 selenium.click("name=achSubmit")
 selenium.waitForPageToLoad("30000")
 
@@ -138,8 +138,8 @@ selenium.waitForPageToLoad("30000")
 
 WebUI.verifyTextPresent(("Please verify the following information:"), true)
 WebUI.verifyTextPresent(("Is this information correct"), true)
-WebUI.verifyTextPresent(("If my payment is returned unpaid, additional attempts may be made to process the payment, and I will be charged a returned item fee up to the maximum allowed by law. Call the County of Fairfax Department of Tax Administration with any questions regarding this authorization. <br><br> <br>Please select if you do not accept the terms above."), true)
-
+WebUI.verifyTextPresent(("If my payment is returned unpaid, additional attempts may be made to process the payment, and I will be charged a returned item fee up to the maximum allowed by law. Call the County of Fairfax Department of Tax Administration with any questions regarding this authorization."), true)
+WebUI.verifyTextPresent(("if you do not accept the terms above"), true)
 
 selenium.click("name=confirmNotifyAction")
 selenium.waitForPageToLoad("30000")

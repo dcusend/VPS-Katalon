@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "C23A3C085D2E84E682EA9E5B6C05D355",
+  "keywordFileContentHash": "95A9D261B650868585FC5E0591C7BBAA",
   "keywordClasses": [
     {
-      "name": "adminSuiteBootstrap.findRole",
+      "name": "adminSuiteBootstrap.modifyRole",
       "keywordMethods": [
         {
-          "name": "setDataFindRole",
+          "name": "setDataModifyRole",
           "parameters": [
             {
               "name": "rowS",

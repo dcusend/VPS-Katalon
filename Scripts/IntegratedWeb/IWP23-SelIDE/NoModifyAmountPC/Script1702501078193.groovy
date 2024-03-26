@@ -107,7 +107,10 @@ selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
 //softAssertion.assertEquals("$ 10.00", selenium.getText("css=td.payor_opt"))
 
-WebUI.verifyTextPresent(("\$10.00"), false)
+WebUI.delay(3)
+
+WebUI.verifyTextPresent(("\$ 10.00"), false)
+
 
 selenium.type("name=billingFirstname", "Mike")
 selenium.type("name=billingLastname", "Chingiti")
