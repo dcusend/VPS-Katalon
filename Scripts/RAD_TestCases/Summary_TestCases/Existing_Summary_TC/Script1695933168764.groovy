@@ -55,7 +55,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			TaxType = findTestData(dataFile).getValue('TaxType', row)
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			feinSsn = findTestData(dataFile).getValue('FEINSSN', row)
-			
+			CRN = findTestData(dataFile).getValue('CRN', row)
 			
 			
 			
@@ -133,30 +133,29 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					CustomKeywords.'rad.getSetDataRAD.setDataRADNoticeInvoiceThirteen'()
 					
 
-// Populate MD Central Registration Number for Sales & Use, Alcohol Tax, Tire Recycling and Withholding Tax only
-					switch (TaxType)
-					{
-						case "Sales & Use Tax":
-								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-						break
-						
-						
-						case "Withholding Tax":
-								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-						break
-						
-						
-						case "Tire Recycling Fee":
-								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-						break
-				
-						case "Alcohol Tax":
-								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-						break
-					
-					}					
+// Populate MD Central Registration Number for some Tax Types
+					/*
+					 * switch (TaxType) { case "Sales & Use Tax":
+					 * CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'() break
+					 * 
+					 * 
+					 * case "Withholding Tax":
+					 * CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'() break
+					 * 
+					 * 
+					 * case "Tire Recycling Fee":
+					 * CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'() break
+					 * 
+					 * case "Alcohol Tax":
+					 * CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'() break
+					 * 
+					 * }
+					 */
 
-					
+					if (CRN.equalsIgnoreCase("Y"))
+						{
+							CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
+						}
 					
 									
 					
@@ -236,35 +235,35 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent(TaxType, true)
 					
 					
-					switch (TaxType)
-					{
-						case "Sales & Use Tax":
-								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
-								WebUI.verifyTextPresent('07640126', true)
-						break
-						
-						
-						case "Withholding Tax":
-								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
-								WebUI.verifyTextPresent('07640126', true)
-						break
-						
-						
-						case "Tire Recycling Fee":
-								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
-								WebUI.verifyTextPresent('07640126', true)
-						break
-				
-						
-						case "Alcohol Tax":
-								WebUI.verifyTextPresent('MD Central Registration Number#:', true)
-								WebUI.verifyTextPresent('07640126', true)
-						break
+					/*
+					 * switch (TaxType) { case "Sales & Use Tax": WebUI.verifyTextPresent('MD
+					 * Central Registration Number#:', true) WebUI.verifyTextPresent('07640126',
+					 * true) break
+					 * 
+					 * 
+					 * case "Withholding Tax": WebUI.verifyTextPresent('MD Central Registration
+					 * Number#:', true) WebUI.verifyTextPresent('07640126', true) break
+					 * 
+					 * 
+					 * case "Tire Recycling Fee": WebUI.verifyTextPresent('MD Central Registration
+					 * Number#:', true) WebUI.verifyTextPresent('07640126', true) break
+					 * 
+					 * 
+					 * case "Alcohol Tax": WebUI.verifyTextPresent('MD Central Registration
+					 * Number#:', true) WebUI.verifyTextPresent('07640126', true) break
+					 * 
+					 * }
+					 */
 					
-					}
+					if (CRN.equalsIgnoreCase("Y"))
+						{
+							WebUI.verifyTextPresent('MD Central Registration Number#:', true)
+							WebUI.verifyTextPresent('07640126', true)
+						}
 					
-					
-					
+						
+						
+						
 					WebUI.verifyTextPresent('Payment Amount:', true)
 					WebUI.verifyTextPresent('100.00', true)
 					
@@ -286,91 +285,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 					
-					/*
-					 * // On the VRelay page, confirm fields are prepopulated
-					 * //WebUI.verifyTextPresent('Comptroller of Maryland', true)
-					 * //WebUI.verifyTextPresent('Existing Liability', true)
-					 * //WebUI.verifyTextPresent(TaxType, true)
-					 * 
-					 * WebUI.verifyTextPresent('Payment Information', true)
-					 * 
-					 * def card_Name = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
-					 * WebUI.verifyMatch("", card_Name, false)
-					 * 
-					 * def AL1 = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress'), 'value')
-					 * WebUI.verifyMatch("2508 Mandan Terrace", AL1, false)
-					 * 
-					 * def AL2 = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress2'), 'value')
-					 * WebUI.verifyMatch("", AL2, false)
-					 * 
-					 * def zipCode = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingZip'), 'value')
-					 * WebUI.verifyMatch("21054", zipCode, false)
-					 * 
-					 * def city = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingCity'), 'value')
-					 * WebUI.verifyMatch("GAMBRILLS", city, false)
-					 * 
-					 * def email = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_emailAddress'), 'value')
-					 * WebUI.verifyMatch("iahmed@govolution.com", email, false)
-					 * 
-					 * def amount = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'value')
-					 * WebUI.verifyMatch("100.00", amount, false)
-					 * 
-					 * def amountReadOnly = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'readonly')
-					 * WebUI.verifyMatch("true", amountReadOnly, false)
-					 * 
-					 * WebUI.verifyOptionSelectedByLabel(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/select_Country'), 'United States',
-					 * false, 20)
-					 * 
-					 * WebUI.verifyOptionSelectedByLabel(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/select_State'), 'Maryland', false, 20)
-					 * 
-					 * 
-					 * WebUI.setText(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony
-					 * Gonzalez') WebUI.setText(findTestObject(orPath_PaymentEntry +
-					 * '/input__cardNumber'),'4111111111111111')
-					 * WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__spc'),'123')
-					 * WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry +
-					 * '/select_MM'),"12",false)
-					 * WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry +
-					 * '/select_YYYY'),"2028",false)
-					 * 
-					 * 
-					 * // Select Continue on VRelay Payment Entry page
-					 * WebUI.click(findTestObject(orPath_PaymentEntry + '/input_Field_ccSubmit'))
-					 * 
-					 * 
-					 * // Select Confirm on Payment Confirmation Page
-					 * WebUI.click(findTestObject(orPath_PaymentConfirmation +
-					 * '/input_N_confirmNotifyAction'))
-					 * 
-					 * 
-					 * // Verify text on Dual CF Page
-					 * 
-					 * 
-					 * 
-					 * WebUI.verifyTextPresent('Service Fee Acceptance', true)
-					 * WebUI.verifyTextPresent('This transaction is subject to a Service Fee of ',
-					 * true) WebUI.verifyTextPresent('Payment Amount:', true)
-					 * WebUI.verifyTextPresent('100.00', true) WebUI.verifyTextPresent('Service
-					 * Fee:', true) WebUI.verifyTextPresent('2.45', true)
-					 * WebUI.verifyTextPresent('Total Amount:', true)
-					 * WebUI.verifyTextPresent('102.45', true) WebUI.verifyTextPresent('Two
-					 * transactions will appear on your bank statement, one in the amount of', true)
-					 * 
-					 * 
-					 * WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept +
-					 * '/input_convFeeNotifyAction'), 30)
-					 */
+					
 					
 					
 	

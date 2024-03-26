@@ -23,7 +23,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RC
 //def taxTypeDropList = ["Quarterly Estimated Tax","Extension Payments","Existing Liability w/Notice Number","New Tax Return Amount Due"]
 
 // Changes for removing Extension payments December 2023
-def taxTypeDropList = ["Quarterly Estimated Tax","Existing Liability w/Notice Number","New Tax Return Amount Due"]
+def taxTypeDropList = ["Quarterly Estimated Tax","Existing Liability with Notice/Invoice Number","New Tax Return Amount Due","Extension Payments"]
 def listSize = taxTypeDropList.size()
 println listSize
 

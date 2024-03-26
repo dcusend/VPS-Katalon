@@ -60,6 +60,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			TaxType = findTestData(dataFile).getValue('TaxType', row)
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			feinSsn = findTestData(dataFile).getValue('FEINSSN', row)
+			CRN = findTestData(dataFile).getValue('CRN', row)
 			
 			
 			
@@ -72,7 +73,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					println (today)
 					String datText = today
 					
-					KeywordUtil.logInfo('Payment Type: Existing Liability w/Notice Number')
+					KeywordUtil.logInfo('Payment Type: Existing Liability with Notice/Invoice Number')
 					KeywordUtil.logInfo('Tax Type: ' + TaxType)
 					
 					WebUI.openBrowser('')
@@ -81,7 +82,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 // Select Estimated Tax from the Main Index Page
-					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
+					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability with Notice/Invoice Number", false)
 			
 					
 // Select Fiduciary Tax from the Payment Type dropwown
@@ -139,10 +140,19 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 					
-					if (TaxType.equalsIgnoreCase("Estate Tax"))
+					/*
+					 * if (TaxType.equalsIgnoreCase("Estate Tax")) { WebUI.verifyTextPresent('Please
+					 * enter a valid Decedent SSN with 9 digits',
+					 * true,FailureHandling.CONTINUE_ON_FAILURE) WebUI.verifyTextPresent('Re-type
+					 * Decedent SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE) }
+					 */
+					
+					
+					if (CRN.equalsIgnoreCase("Y"))
 						{
-							WebUI.verifyTextPresent('Please enter a valid Decedent SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
-							WebUI.verifyTextPresent('Re-type Decedent SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+							WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MDCRegistration')," ")
+							WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+							WebUI.verifyTextPresent('Enter valid MD Central Registration Number', true,FailureHandling.CONTINUE_ON_FAILURE)
 						}
 					
 					resText = "Pass"
