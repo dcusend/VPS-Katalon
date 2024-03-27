@@ -38,7 +38,7 @@ String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, CRN
 
 
 
@@ -67,7 +67,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					println (today)
 					String datText = today
 					
-					KeywordUtil.logInfo('Payment Type: Existing Liability w/Notice Number')
+					KeywordUtil.logInfo('Payment Type: Existing Liability with Notice/Invoice Number')
 					KeywordUtil.logInfo('Tax Type: ' + TaxType)
 					
 					WebUI.openBrowser('')
@@ -76,7 +76,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 // Select Estimated Tax from the Main Index Page
-					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
+					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability with Notice/Invoice Number", false)
 			
 					
 // Select Fiduciary Tax from the Payment Type dropwown
@@ -190,7 +190,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyTextPresent('When you are confident that all the information is correct, click the', true)
 					WebUI.verifyTextPresent('Payment Type/Filing Year', true)
 					WebUI.verifyTextPresent('Payment Type:', true)
-					WebUI.verifyTextPresent('Existing Liability w/Notice Number', true)
+					WebUI.verifyTextPresent('Existing Liability with Notice/Invoice Number', true)
 					
 					WebUI.verifyTextPresent('Payer Information', true)
 					WebUI.verifyTextPresent('Taxpayer Name:', true)

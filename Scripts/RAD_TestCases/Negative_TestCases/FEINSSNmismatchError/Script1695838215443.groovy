@@ -97,7 +97,7 @@ def ExecuteTC, Taxtype, Paymenttype
 					switch (Paymenttype)
 					{
 						
-						case "Existing Liability w/Notice Number":
+						case "Existing Liability with Notice/Invoice Number":
 								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
 						
 						break
@@ -137,7 +137,7 @@ def ExecuteTC, Taxtype, Paymenttype
 					switch (Paymenttype)
 					{
 						
-						case "Existing Liability w/Notice Number":
+						case "Existing Liability with Notice/Invoice Number":
 							
 									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing_New'), 'RigbBhfdqODKcAsiUrg+1Q==')
 									WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypefeinSsn_Existing_New'), 'RigbBhfdqOD+04WBHw5iKw==')

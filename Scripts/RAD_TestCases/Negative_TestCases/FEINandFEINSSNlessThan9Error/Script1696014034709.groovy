@@ -91,7 +91,7 @@ def ExecuteTC, Taxtype, Paymenttype, feinSsn
 					switch (Paymenttype)
 					{
 						
-						case "Existing Liability w/Notice Number":
+						case "Existing Liability with Notice/Invoice Number":
 								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
 						
 						break
@@ -125,7 +125,7 @@ def ExecuteTC, Taxtype, Paymenttype, feinSsn
 					switch (Paymenttype)
 					{
 						
-						case "Existing Liability w/Notice Number":
+						case "Existing Liability with Notice/Invoice Number":
 								if (feinSsn.equalsIgnoreCase("Y"))
 									{
 										WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_feinSsn_Existing_New'), 'iGDxf8hSRT4=')

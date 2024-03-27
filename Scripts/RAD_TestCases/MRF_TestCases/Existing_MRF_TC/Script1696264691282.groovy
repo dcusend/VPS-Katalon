@@ -150,7 +150,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					if (CRN.equalsIgnoreCase("Y"))
 						{
-							WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MDCRegistration')," ")
+							WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MDCRegistrationEL')," ")
 							WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
 							WebUI.verifyTextPresent('Enter valid MD Central Registration Number', true,FailureHandling.CONTINUE_ON_FAILURE)
 						}

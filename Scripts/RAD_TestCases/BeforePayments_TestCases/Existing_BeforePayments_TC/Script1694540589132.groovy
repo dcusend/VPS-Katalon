@@ -41,7 +41,7 @@ String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, CRN
 
 def execProfile = RunConfiguration.getExecutionProfile()
 
@@ -58,7 +58,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			TaxType = findTestData(dataFile).getValue('TaxType', row)
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			feinSsn = findTestData(dataFile).getValue('FEINSSN', row)
-			
+			CRN = findTestData(dataFile).getValue('CRN', row)
 			
 			
 			
@@ -70,7 +70,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					println (today)
 					String datText = today
 					
-					KeywordUtil.logInfo('Payment Type: Existing Liability w/Notice Number')
+					KeywordUtil.logInfo('Payment Type: Existing Liability with Notice/Invoice Number')
 					KeywordUtil.logInfo('Tax Type: ' + TaxType)
 					
 					WebUI.openBrowser('')
@@ -79,7 +79,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 // Select Estimated Tax from the Main Index Page
-					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability w/Notice Number", false)
+					WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'), "Existing Liability with Notice/Invoice Number", false)
 			
 					
 // Select Fiduciary Tax from the Payment Type dropwown
@@ -139,29 +139,32 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 
 // Populate MD Central Registration Number for Sales & Use, Alcohol, Tire Recycling and Withholding Tax only
-					switch (TaxType)
-					{
-						case "Sales & Use Tax":
-								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-						break
-						
-						
-						case "Withholding Tax":
-								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-						break
-						
-						
-						case "Tire Recycling Fee":
-								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-						break
-				
-						
-						case "Alcohol Tax":
-								CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
-						break
+					/*
+					 * switch (TaxType) { case "Sales & Use Tax":
+					 * CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'() break
+					 * 
+					 * 
+					 * case "Withholding Tax":
+					 * CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'() break
+					 * 
+					 * 
+					 * case "Tire Recycling Fee":
+					 * CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'() break
+					 * 
+					 * 
+					 * case "Alcohol Tax":
+					 * CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'() break
+					 * 
+					 * }
+					 */
 					
-					}					
 					
+					if (CRN.equalsIgnoreCase("Y"))
+						{
+							CustomKeywords.'rad.getSetDataRAD.setDataExistingRADMDCRN'()
+						}
+						
+						
 					
 // Populate Decedent SSN and Retype Decedent SSN for Estate Tax					
 					if (TaxType.equalsIgnoreCase("Estate Tax"))

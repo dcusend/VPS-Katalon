@@ -138,7 +138,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('Enter ZIP code', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter a valid phone number', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter Email', true,FailureHandling.CONTINUE_ON_FAILURE)
-						WebUI.verifyTextPresent('Notice Number must be 13 digits in length, with a value greater than zero', true,FailureHandling.CONTINUE_ON_FAILURE)
+						WebUI.verifyTextPresent('Notice Number or Invoice Number must be 10, 11, or 13 digits in length, with a value greater than zero', true,FailureHandling.CONTINUE_ON_FAILURE)
 						
 						if (TaxType.equalsIgnoreCase("Estate Tax"))
 							{

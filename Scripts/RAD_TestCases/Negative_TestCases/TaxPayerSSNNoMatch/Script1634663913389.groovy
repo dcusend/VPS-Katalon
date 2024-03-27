@@ -85,7 +85,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					switch (Paymenttype)
 					{
 						
-						case "Existing Liability w/Notice Number":
+						case "Existing Liability with Notice/Invoice Number":
 								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
 						
 						break
@@ -122,7 +122,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					switch (Paymenttype)
 					{
 						
-						case "Existing Liability w/Notice Number":
+						case "Existing Liability with Notice/Invoice Number":
 								
 								if (Taxtype.equalsIgnoreCase("Estate Tax"))
 									{
