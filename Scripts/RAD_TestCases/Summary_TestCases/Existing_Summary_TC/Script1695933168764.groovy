@@ -229,7 +229,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					WebUI.verifyTextPresent('XXXXX0532', true)
 					
-					WebUI.verifyTextPresent('Notice Number:', true)
+					WebUI.verifyTextPresent('Notice Or Invoice Number:', true)
 					WebUI.verifyTextPresent('1234567890123', true)
 					WebUI.verifyTextPresent('Tax Type:', true)
 					WebUI.verifyTextPresent(TaxType, true)
