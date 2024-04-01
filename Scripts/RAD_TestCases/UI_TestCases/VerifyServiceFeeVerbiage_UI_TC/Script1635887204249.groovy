@@ -55,11 +55,11 @@ WebUI.click(findTestObject(orPath_Landing + '/a_Click here for details'))
 
 
 // New CF Verbiage
-String cfVerbiageQA = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, Discover, and American Express."
+String cfVerbiageQA = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover."
 
 //WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageQA)
 
-String cfVerbiageDemo = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, MasterCard, Discover, and American Express."
+String cfVerbiageDemo = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover."
 
 
 switch(executionProfile)
