@@ -61,6 +61,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
 			CRN = findTestData(dataFile).getValue('CRN', row)
 			month = findTestData(dataFile).getValue('Month', row)
+			MFLicNum = findTestData(dataFile).getValue('MFLicNum', row)
 			
 			
 			
@@ -134,6 +135,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 					}
 					
+					
+					
+// Populate Motor Fuel License Number for Motor Fuel Tax Types
+					if (MFLicNum.equalsIgnoreCase("Y"))
+					{
+						CustomKeywords.'rad.getSetDataRAD.setDataRADMFLicNumFive'()
+						
+					}
 					
 					
 // Populate Decedent SSN and Retype Decedent SSN for Estate Tax

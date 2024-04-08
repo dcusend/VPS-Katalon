@@ -59,6 +59,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
 			CRN = findTestData(dataFile).getValue('CRN', row)
 			month = findTestData(dataFile).getValue('Month', row)
+			MFLicNum = findTestData(dataFile).getValue('MFLicNum', row)
 			
 			
 			
@@ -134,6 +135,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 					}
 						
+					
+					
+// Populate Motor Fuel License Number for Motor Fuel Tax Types
+					if (MFLicNum.equalsIgnoreCase("Y"))
+					{
+						CustomKeywords.'rad.getSetDataRAD.setDataRADMFLicNumSix'()
+						
+					}
 					
 			
 // Populate Decedent SSN and Retype Decedent SSN for Estate Tax
@@ -239,6 +248,18 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							{
 								WebUI.verifyTextNotPresent('MD Central Registration Number', true)
 							}
+							
+							
+						if (MFLicNum.equalsIgnoreCase("Y"))
+							{
+								WebUI.verifyTextPresent('Motor Fuel License Number#:', true)
+								WebUI.verifyTextPresent('758142', true)
+							}
+						else
+							{
+								WebUI.verifyTextNotPresent('Motor Fuel License Number#:', true)
+							}
+						
 						
 					
 					//WebUI.verifyTextPresent('Federal EIN:', true)

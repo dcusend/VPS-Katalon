@@ -320,6 +320,33 @@ public class getSetDataRAD {
 
 	//----------------------------------
 
+	
+	@Keyword
+	def setDataRADMFLicNumFive()
+	{
+
+
+		// Set Data
+		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MotorFuelLicNum'),"95632")
+
+
+	}
+
+	//----------------------------------
+	
+	
+	@Keyword
+	def setDataRADMFLicNumSix()
+	{
+
+
+		// Set Data
+		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MotorFuelLicNum'),"758142")
+
+
+	}
+
+	//----------------------------------
 
 
 }

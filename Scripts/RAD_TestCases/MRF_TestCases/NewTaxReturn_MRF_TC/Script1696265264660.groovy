@@ -60,6 +60,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			FilingYear = findTestData(dataFile).getValue('Year', row)
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
 			CRN = findTestData(dataFile).getValue('CRN', row)
+			MFLicNum = findTestData(dataFile).getValue('MFLicNum', row)
 			
 			
 			
@@ -156,6 +157,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						}
 						
 						
+					if (MFLicNum.equalsIgnoreCase("Y"))
+						{
+							WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MotorFuelLicNum')," ")
+							WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+							WebUI.verifyTextPresent('Motor Fuel License Number must be 5 or 6 digits in length, with a value greater than zero', true,FailureHandling.CONTINUE_ON_FAILURE)
+						}
 					
 						
 					
