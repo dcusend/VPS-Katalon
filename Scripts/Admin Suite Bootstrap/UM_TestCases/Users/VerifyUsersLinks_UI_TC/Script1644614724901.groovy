@@ -33,8 +33,8 @@ String path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/"
 			WebUI.verifyTextPresent('User ID', true)
 		
 		
-			WebUI.verifyElementVisible(findTestObject(path_UM + 'button_Export'))
-			WebUI.verifyElementPresent(findTestObject(path_UM + 'button_Export'), 30)
+			WebUI.verifyElementVisible(findTestObject(path_UM + 'button_Export_New'))
+			WebUI.verifyElementPresent(findTestObject(path_UM + 'button_Export_New'), 30)
 			
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_Find User'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_Find User'), 30)
