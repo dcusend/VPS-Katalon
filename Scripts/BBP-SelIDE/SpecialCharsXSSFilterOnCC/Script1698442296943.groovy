@@ -60,6 +60,7 @@ WebUI.verifyTextPresent(("Please enter the following information about your paym
 
 
 selenium.type("name=amount", ("12.00").toString())
+selenium.type("name=userDefined1", ("ab").toString())
 selenium.type("name=userDefined2", ("<>").toString())
 selenium.type("name=userDefined3", ("&").toString())
 selenium.select("name=variableField4DropdownGroupItemID", "label=Purple")
@@ -82,6 +83,9 @@ selenium.waitForPageToLoad("30000")
 Thread.sleep(2000);
 //softAssertion.assertEquals("Test vBills Auto - Error The following error occurred: <br> Invalid characters<br> Please&nbsp;&nbsp;click here to continue.", selenium.getText("//td[2]"))
 
-WebUI.verifyTextPresent(("Test vBills Auto - Error The following error occurred: <br> Invalid characters<br> Please&nbsp;&nbsp;click here to continue."), true)
+WebUI.verifyTextPresent(("Test vBills Auto - Error"), true)
+WebUI.verifyTextPresent(("The following error occurred:"), true)
+WebUI.verifyTextPresent(("The following characters are not allowed"), true)
+WebUI.verifyTextPresent(("[\"`=;?<>]"), false)
 
 

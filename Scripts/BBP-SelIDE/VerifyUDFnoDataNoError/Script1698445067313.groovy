@@ -56,7 +56,7 @@ selenium.waitForPageToLoad("30000")
 //softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
 
 WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
-WebUI.verifyTextPresent(("Please enter the following billing information about your payment:"), true)
+WebUI.verifyTextPresent(("Please enter the following information about your payment:"), true)
 
 
 softAssertion.assertEquals("", selenium.getText("name=userDefined2"))

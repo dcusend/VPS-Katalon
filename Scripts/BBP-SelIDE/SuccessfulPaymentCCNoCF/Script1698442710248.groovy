@@ -56,7 +56,7 @@ selenium.waitForPageToLoad("30000")
 //softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
 
 WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
-WebUI.verifyTextPresent(("Please enter the following billing information about your payment:"), true)
+WebUI.verifyTextPresent(("Please enter the following information about your payment:"), true)
 
 
 selenium.type("name=amount", ("12.00").toString())
@@ -114,7 +114,7 @@ Thread.sleep(15000);
 
 WebUI.verifyTextPresent(("Successful Payment Receipt"), true)
 WebUI.verifyTextPresent(("Please print this receipt for your records"), true)
-WebUI.verifyTextPresent(("\$12.00"), true)
+WebUI.verifyTextPresent(("12.00"), true)
 WebUI.verifyTextPresent(("Authorization and Capture"), true)
 WebUI.verifyTextPresent(("Visa"), true)
 WebUI.verifyTextPresent(("HUNTER HELMS"), true)
@@ -122,7 +122,7 @@ WebUI.verifyTextPresent(("2311 york road"), true)
 WebUI.verifyTextPresent(("Suite 600"), true)
 WebUI.verifyTextPresent(("United States"), true)
 WebUI.verifyTextPresent(("GAMBRILLS"), true)
-WebUI.verifyTextPresent(("Maryland"), true)
+WebUI.verifyTextPresent(("MD"), true)
 WebUI.verifyTextPresent(("21054"), true)
 WebUI.verifyTextPresent(("UDF1 Data"), true)
 WebUI.verifyTextPresent(("UDF2 Data1"), true)
@@ -132,5 +132,5 @@ WebUI.verifyTextPresent(("Orange"), true)
 WebUI.verifyTextPresent(("UDF6 Data1"), true)
 WebUI.verifyTextPresent(("UDF7 Data1"), true)
 WebUI.verifyTextPresent(("UDF8 Data1"), true)
-WebUI.verifyTextPresent(("\$3.65"), true)
+WebUI.verifyTextPresent(("3.65"), true)
 

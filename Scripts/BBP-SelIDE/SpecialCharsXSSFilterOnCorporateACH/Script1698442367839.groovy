@@ -42,7 +42,7 @@ bbpURL = GlobalVariable.BBPURL
 selenium.open(bbpURL)
 
 
-selenium.open("/vbillslookup/lookup/testvbillsauto")
+//selenium.open("/vbillslookup/lookup/testvbillsauto")
 selenium.type("id=field1", "444150")
 selenium.type("id=field2", "444151")
 selenium.click("name=Test")
@@ -82,5 +82,7 @@ selenium.waitForPageToLoad("30000")
 Thread.sleep(2000);
 //softAssertion.assertEquals("Test vBills Auto - Error The following error occurred: <br> Invalid characters<br> Please&nbsp;&nbsp;click here to continue.", selenium.getText("//td[2]"))
 
-WebUI.verifyTextPresent(("Test vBills Auto - Error The following error occurred: <br> Invalid characters<br> Please&nbsp;&nbsp;click here to continue."), true)
-
+WebUI.verifyTextPresent(("Test vBills Auto - Error"), true)
+WebUI.verifyTextPresent(("The following error occurred:"), true)
+WebUI.verifyTextPresent(("The following characters are not allowed"), true)
+WebUI.verifyTextPresent(("[\"`=;?<>]"), false)
