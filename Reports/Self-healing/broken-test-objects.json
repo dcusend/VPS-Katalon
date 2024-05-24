@@ -1106,6 +1106,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/button_Export_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@name\u003d\u0027paymentMethod\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

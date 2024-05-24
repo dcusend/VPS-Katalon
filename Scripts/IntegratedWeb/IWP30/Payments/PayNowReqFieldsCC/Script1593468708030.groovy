@@ -14,6 +14,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 
+String resText = "Fail"
+String resColumn = "Result"
+String datCloumn = "Date"
+String fileLoc = "KatalonData/VRelay30PayNow.xlsx"
+String nameSheet = "PayNowCC"
+String dataFile = "IWPTestData/IWP30PayNowCC"
+
+
 // Emulator URL: https://qa.velocitypayment.com/agency/config.do?action=editor
 def numOfRows = findTestData('IWPTestData/IWP30PayNowCC').getRowNumbers()
 
@@ -27,6 +35,10 @@ for (def row = 1; row <= numOfRows; row++) {
 	if (ExecuteTC.equalsIgnoreCase("Y"))
 		{
 			System.out.println('Begin Record Number: ' + row)
+			
+			Date today = new Date()
+			println (today)
+			String datText = today
 
 // Exception Handling	
 	
@@ -604,22 +616,36 @@ for (def row = 1; row <= numOfRows; row++) {
 			if (WebUI.verifyTextPresent(("Successful Payment Receipt"), false))
 				{
 					println "Successful Payment Receipt text is present on the Receipt page"
+					
+					
+					if (WebUI.verifyTextPresent(("Please print this receipt for your records"), false))
+						{
+							println "Please print this receipt for your records text is present on the Receipt page"
+						}
+					else {"Please print this receipt for your records text is not present on the Receipt page"}
+					
+					
+					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_Receipt/ExitButton'),30))
+						{
+							println "Exit Button is present on the Receipt page"
+						}
+					else {println "Exit button is not present on the Receipt page"}
+					
+					resText = "Pass"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					
 				}
-			else {"Successful Payment Receipt text is not present on the Receipt page"}
-			
-			
-			if (WebUI.verifyTextPresent(("Please print this receipt for your records"), false))
-				{
-					println "Please print this receipt for your records text is present on the Receipt page"
+			else {
+					println "Successful Payment Receipt text is not present on the Receipt page"
+				
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+				
+				
 				}
-			else {"Please print this receipt for your records text is not present on the Receipt page"}
 			
 			
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_Receipt/ExitButton'),30))
-				{
-					println "Exit Button is present on the Receipt page"
-				}	
-			else {println "Exit button is not present on the Receipt page"}				
+					
 			
 			
 	}

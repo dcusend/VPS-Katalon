@@ -176,7 +176,7 @@ WebUI.openBrowser(GlobalVariable.urlEmulator)
 					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),30))
 						{
 							
-								WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),"2020",false)
+								WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),"2024",false)
 							
 						}
 					else {println("Year field is missing on CC Payment Entry page")}
