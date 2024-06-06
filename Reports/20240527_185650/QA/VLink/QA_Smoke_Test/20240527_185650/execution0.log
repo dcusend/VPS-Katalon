@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-27T19:46:36</date>
+  <millis>1716853596808</millis>
+  <sequence>66685</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;256072691&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_Routing Number&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:36</date>
+  <millis>1716853596808</millis>
+  <sequence>66686</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;RecAndPlayBk/Page-Vlink-Debit/input_Routing Number&amp;quot;), rtn)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:36</date>
+  <millis>1716853596808</millis>
+  <sequence>66687</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;RecAndPlayBk/Page-Vlink-Debit/input_Amount&amp;quot;), amount)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">145</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:37</date>
+  <millis>1716853597505</millis>
+  <sequence>66703</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;12.50&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_Amount&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:37</date>
+  <millis>1716853597505</millis>
+  <sequence>66704</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;RecAndPlayBk/Page-Vlink-Debit/input_Amount&amp;quot;), amount)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:37</date>
+  <millis>1716853597505</millis>
+  <sequence>66705</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;RecAndPlayBk/Page-Vlink-Debit/input_Check Email&amp;quot;), &amp;quot;&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">148</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:38</date>
+  <millis>1716853598174</millis>
+  <sequence>66721</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_Check Email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:38</date>
+  <millis>1716853598175</millis>
+  <sequence>66722</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;RecAndPlayBk/Page-Vlink-Debit/input_Check Email&amp;quot;), &amp;quot;&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:38</date>
+  <millis>1716853598175</millis>
+  <sequence>66723</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s SSN)_check_ssn&amp;quot;), &amp;quot;&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">150</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:38</date>
+  <millis>1716853598859</millis>
+  <sequence>66739</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s SSN)_check_ssn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:38</date>
+  <millis>1716853598860</millis>
+  <sequence>66740</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s SSN)_check_ssn&amp;quot;), &amp;quot;&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:38</date>
+  <millis>1716853598860</millis>
+  <sequence>66741</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s License Numbe_020fef&amp;quot;), &amp;quot;&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">152</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:39</date>
+  <millis>1716853599677</millis>
+  <sequence>66757</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s License Numbe_020fef&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:39</date>
+  <millis>1716853599677</millis>
+  <sequence>66758</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s License Numbe_020fef&amp;quot;), &amp;quot;&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:39</date>
+  <millis>1716853599677</millis>
+  <sequence>66759</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s License State_21e3e7&amp;quot;), &amp;quot;&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">154</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:40</date>
+  <millis>1716853600732</millis>
+  <sequence>66775</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s License State_21e3e7&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:40</date>
+  <millis>1716853600732</millis>
+  <sequence>66776</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_concat(CheckWriter, , s License State_21e3e7&amp;quot;), &amp;quot;&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:40</date>
+  <millis>1716853600732</millis>
+  <sequence>66777</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;RecAndPlayBk/Page-Vlink-Debit/input_Standard Entry Class&amp;quot;), sec)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">156</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:41</date>
+  <millis>1716853601456</millis>
+  <sequence>66793</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;CCD&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input_Standard Entry Class&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:41</date>
+  <millis>1716853601456</millis>
+  <sequence>66794</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;RecAndPlayBk/Page-Vlink-Debit/input_Standard Entry Class&amp;quot;), sec)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:41</date>
+  <millis>1716853601456</millis>
+  <sequence>66795</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">158</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:42</date>
+  <millis>1716853602301</millis>
+  <sequence>66805</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:42</date>
+  <millis>1716853602302</millis>
+  <sequence>66806</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-Debit/input&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:42</date>
+  <millis>1716853602302</millis>
+  <sequence>66807</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextPresent(&amp;quot;Transaction approved, no errors&amp;quot;, true))</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">161</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:42</date>
+  <millis>1716853602682</millis>
+  <sequence>66811</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Transaction approved, no errors&amp;apos; is present on page  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:42</date>
+  <millis>1716853602683</millis>
+  <sequence>66812</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;Transaction Approved, no errors text is present on the Confirmation page&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">163</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:42</date>
+  <millis>1716853602684</millis>
+  <sequence>66813</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;Transaction Approved, no errors text is present on the Confirmation page&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:42</date>
+  <millis>1716853602685</millis>
+  <sequence>66814</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sdfo = getText(findTestObject(&amp;quot;Object Repository/Page_VLinkReceipt/pre_STX&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">165</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603089</millis>
+  <sequence>66823</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Page_VLinkReceipt/pre_STX&amp;apos; is: &amp;apos;&amp;lt;STX&amp;gt;12716|70390|32734             2967924             0  Transaction approved, no errors                   0                                                                                                              &amp;lt;ETX&amp;gt;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603089</millis>
+  <sequence>66824</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sdfo = getText(findTestObject(&amp;quot;Object Repository/Page_VLinkReceipt/pre_STX&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603089</millis>
+  <sequence>66825</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(&amp;quot;sdfo: &amp;quot; + sdfo)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">167</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603089</millis>
+  <sequence>66826</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(&amp;quot;sdfo: &amp;quot; + sdfo)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603089</millis>
+  <sequence>66827</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : remID = substring(5, 35).trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">169</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603089</millis>
+  <sequence>66828</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : remID = substring(5, 35).trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603089</millis>
+  <sequence>66829</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(&amp;quot;remID: &amp;quot; + remID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">171</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66830</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(&amp;quot;remID: &amp;quot; + remID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66831</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : traxID = substring(35, 55).trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">173</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66832</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : traxID = substring(35, 55).trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66833</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(&amp;quot;traxID: &amp;quot; + traxID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">175</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66834</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(&amp;quot;traxID: &amp;quot; + traxID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66835</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : VLinkSaleRemID = remID</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">177</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66836</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : VLinkSaleRemID = remID</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66837</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : VLinkSaleTranxID = traxID</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">178</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66838</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : VLinkSaleTranxID = traxID</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603090</millis>
+  <sequence>66839</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(VLinkURL + &amp;quot;ACH_void.html&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">184</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:43</date>
+  <millis>1716853603096</millis>
+  <sequence>66841</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:44</date>
+  <millis>1716853604301</millis>
+  <sequence>66842</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:44</date>
+  <millis>1716853604302</millis>
+  <sequence>66844</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;acceptInsecureCerts&amp;apos;, &amp;apos;true&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:44</date>
+  <millis>1716853604304</millis>
+  <sequence>66845</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:45</date>
+  <millis>1716853605878</millis>
+  <sequence>66847</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 50475f5f8114d24ec70ddf90468b0a73</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">50475f5f8114d24ec70ddf90468b0a73</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:45</date>
+  <millis>1716853605902</millis>
+  <sequence>66848</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 125.0.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 125.0.0.0</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:45</date>
+  <millis>1716853605902</millis>
+  <sequence>66849</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:45</date>
+  <millis>1716853605902</millis>
+  <sequence>66850</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:45</date>
+  <millis>1716853605902</millis>
+  <sequence>66851</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:46</date>
+  <millis>1716853606329</millis>
+  <sequence>66853</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://dev-algorithm.govolution.com/vlinktest/demo/version_2_0/ACH_void.html&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:46</date>
+  <millis>1716853606329</millis>
+  <sequence>66854</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(VLinkURL + &amp;quot;ACH_void.html&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:46</date>
+  <millis>1716853606329</millis>
+  <sequence>66855</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">185</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:46</date>
+  <millis>1716853606565</millis>
+  <sequence>66857</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:46</date>
+  <millis>1716853606565</millis>
+  <sequence>66858</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:46</date>
+  <millis>1716853606566</millis>
+  <sequence>66859</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Remittance Id&amp;quot;), VLinkSaleRemID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">188</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:47</date>
+  <millis>1716853607353</millis>
+  <sequence>66875</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;12716|70390|32734&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Remittance Id&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:47</date>
+  <millis>1716853607353</millis>
+  <sequence>66876</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Remittance Id&amp;quot;), VLinkSaleRemID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:47</date>
+  <millis>1716853607353</millis>
+  <sequence>66877</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Application Id&amp;quot;), appID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">190</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:48</date>
+  <millis>1716853608004</millis>
+  <sequence>66893</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;1773&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Application Id&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:48</date>
+  <millis>1716853608004</millis>
+  <sequence>66894</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Application Id&amp;quot;), appID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:48</date>
+  <millis>1716853608004</millis>
+  <sequence>66895</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Username&amp;quot;), username)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">192</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:48</date>
+  <millis>1716853608660</millis>
+  <sequence>66911</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Qq2BV1qtr&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:48</date>
+  <millis>1716853608661</millis>
+  <sequence>66912</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Username&amp;quot;), username)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:48</date>
+  <millis>1716853608661</millis>
+  <sequence>66913</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Password&amp;quot;), password)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">194</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:49</date>
+  <millis>1716853609316</millis>
+  <sequence>66929</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;tUmWBiLUx&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:49</date>
+  <millis>1716853609316</millis>
+  <sequence>66930</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Password&amp;quot;), password)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:49</date>
+  <millis>1716853609317</millis>
+  <sequence>66931</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Check Type&amp;quot;), checkType)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">196</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:49</date>
+  <millis>1716853609970</millis>
+  <sequence>66947</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;C&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Check Type&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:49</date>
+  <millis>1716853609970</millis>
+  <sequence>66948</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Check Type&amp;quot;), checkType)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:49</date>
+  <millis>1716853609970</millis>
+  <sequence>66949</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Standard Entry Class&amp;quot;), sec)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">198</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:50</date>
+  <millis>1716853610650</millis>
+  <sequence>66965</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;CCD&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Standard Entry Class&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:50</date>
+  <millis>1716853610651</millis>
+  <sequence>66966</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Standard Entry Class&amp;quot;), sec)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:50</date>
+  <millis>1716853610651</millis>
+  <sequence>66967</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Transaction ID&amp;quot;), VLinkSaleTranxID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">200</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:51</date>
+  <millis>1716853611351</millis>
+  <sequence>66983</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2967924&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Transaction ID&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:51</date>
+  <millis>1716853611351</millis>
+  <sequence>66984</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Transaction ID&amp;quot;), VLinkSaleTranxID)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:51</date>
+  <millis>1716853611351</millis>
+  <sequence>66985</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Original Transaction Type&amp;quot;), &amp;quot;200&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">202</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:52</date>
+  <millis>1716853612018</millis>
+  <sequence>67001</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;200&amp;apos; is set on object &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Original Transaction Type&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:52</date>
+  <millis>1716853612019</millis>
+  <sequence>67002</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Original Transaction Type&amp;quot;), &amp;quot;200&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:52</date>
+  <millis>1716853612019</millis>
+  <sequence>67003</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">204</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:52</date>
+  <millis>1716853612838</millis>
+  <sequence>67013</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:52</date>
+  <millis>1716853612839</millis>
+  <sequence>67014</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input&amp;quot;))</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:52</date>
+  <millis>1716853612839</millis>
+  <sequence>67015</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextPresent(&amp;quot;Transaction approved, no errors&amp;quot;, true))</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">208</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613137</millis>
+  <sequence>67019</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Transaction approved, no errors&amp;apos; is present on page  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613138</millis>
+  <sequence>67020</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;Transaction Approved, no errors text is present on the Confirmation page&amp;quot;)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">210</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613138</millis>
+  <sequence>67021</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;Transaction Approved, no errors text is present on the Confirmation page&amp;quot;)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613138</millis>
+  <sequence>67022</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(&amp;quot;Pass Record Number: &amp;quot; + row)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">211</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613138</millis>
+  <sequence>67023</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(&amp;quot;Pass Record Number: &amp;quot; + row)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613138</millis>
+  <sequence>67024</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : resText = &amp;quot;Pass&amp;quot;</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">212</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613138</millis>
+  <sequence>67025</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : resText = &amp;quot;Pass&amp;quot;</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613138</millis>
+  <sequence>67026</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">213</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613266</millis>
+  <sequence>67027</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pages.WriteExcel.demoKey is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613266</millis>
+  <sequence>67028</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pages.WriteExcel.demoKey(resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613266</millis>
+  <sequence>67029</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextPresent(&amp;quot;Transaction approved, no errors&amp;quot;, true))</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613266</millis>
+  <sequence>67030</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextPresent(&amp;quot;Transaction approved, no errors&amp;quot;, true))</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613266</millis>
+  <sequence>67031</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (ExecuteTC.equalsIgnoreCase(&amp;quot;Y&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613266</millis>
+  <sequence>67032</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([row = 1, row &amp;lt;= numOfRows, (row++)])</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613267</millis>
+  <sequence>67033</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RecAndPlayBk/VLink/Debit-Void-RemID-Pipe</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613269</millis>
+  <sequence>67034</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RecAndPlayBk/VLink/Debit-Void-RemID-Pipe</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-05-27T19:46:53</date>
+  <millis>1716853613271</millis>
+  <sequence>67035</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:54</date>
+  <millis>1716853614296</millis>
+  <sequence>87901</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: E:\Cloned-Project-Katalon\VPS-Katalon\Reports\20240527_185650\QA\VLink\QA_Smoke_Test\20240527_185650...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:55</date>
+  <millis>1716853615488</millis>
+  <sequence>87902</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:55</date>
+  <millis>1716853615488</millis>
+  <sequence>87903</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: E:\Cloned-Project-Katalon\VPS-Katalon\Reports\20240527_185650\QA\VLink\QA_Smoke_Test\20240527_185650...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:55</date>
+  <millis>1716853615579</millis>
+  <sequence>87904</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:56</date>
+  <millis>1716853616158</millis>
+  <sequence>87906</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-05-27T19:46:57</date>
+  <millis>1716853617718</millis>
+  <sequence>87907</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/QA/VLink/QA_Smoke_Test</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>
