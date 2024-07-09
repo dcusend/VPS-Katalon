@@ -33,10 +33,16 @@ def numOfRows, dataFile, nameSheet
 
 
 	
-	nameSheet = "CreditThem"
-	numOfRows = findTestData('Misc/CreditThem').getRowNumbers()
+	//nameSheet = "CreditThem"
+	//numOfRows = findTestData('Misc/CreditThem').getRowNumbers()
+	//println("Number of Records: " + numOfRows)
+	//dataFile = "Misc/CreditThem"
+	
+	
+	nameSheet = "CreditFCG"
+	numOfRows = findTestData('Misc/CreditFCG').getRowNumbers()
 	println("Number of Records: " + numOfRows)
-	dataFile = "Misc/CreditThem"
+	dataFile = "Misc/CreditFCG"
 
 
 	// For each row in the spreadsheet, execute the given steps
@@ -47,9 +53,13 @@ def numOfRows, dataFile, nameSheet
 			System.out.println('Value of Execute is : ' + ExecuteTC)
 			
 			
-			appID = "2465"
-			username = "voiduser"
-			password = "HUp7StV9p4w9Bv"
+			//appID = "2465"
+			//username = "voiduser"
+			//password = "HUp7StV9p4w9Bv"
+			
+			appID = "2604"
+			username = "Temp487027"
+			password = "Velocity2028!"
 			
 			
 			
@@ -66,7 +76,7 @@ def numOfRows, dataFile, nameSheet
 
 					
 					//category = findTestData(dataFile).getValue('Category', row)
-					amount = "0.01"
+					amount = "1.00"
 					//cardNumber = findTestData(dataFile).getValue('CardNumber', row)
 					//exM = findTestData(dataFile).getValue('ExM', row)
 					//exY = findTestData(dataFile).getValue('ExY', row)
@@ -105,7 +115,7 @@ def numOfRows, dataFile, nameSheet
 							
 							WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Credit/input_Track Data'), '')
 							
-							WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Credit/input_Category Code'), "RETL")
+							WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Credit/input_Category Code'), "ECOM")
 							
 							WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Credit/input'))
 							

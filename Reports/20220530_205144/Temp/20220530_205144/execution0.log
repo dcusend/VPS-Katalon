@@ -90,3 +90,4 @@
   <property name="isOptional">false</property>
   <property name="currentRetryCount">0</property>
 </record>
+</log>
