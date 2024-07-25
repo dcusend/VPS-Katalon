@@ -25,6 +25,7 @@ import org.openqa.selenium.WebElement
 
 public class virtualTerminalSetData {
 
+	def AppID, AppName, CardName, TranxCategory, CardNumber, CSC, ExpMM, ExpYYYY, AL1, AL2, ZIP, Amount, UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10
 
 	@Keyword
 	def saleKeyboard_HardCoded() {
@@ -278,10 +279,42 @@ public class virtualTerminalSetData {
 
 
 
+	@Keyword
+	def setDataSaleKeyboard(CardName, TranxCategory, CardNumber, CSC, ExpMM, ExpYYYY, AL1, AL2, ZIP, Email, Phone, Amount, UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10)
+	{
 
+		String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/"
+		
+				WebUI.setText(findTestObject(path_SaleKB + 'input_cardName'), CardName)
+				WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_transactionCategory'), TranxCategory, true)
+				WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cardNumber2'),30)
+				WebUI.executeJavaScript("arguments[0].value ='"+ CardNumber+"' "  , Arrays.asList(element))
+				WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cvv'),30)
+				WebUI.executeJavaScript("arguments[0].value ='"+ CSC+"' ", Arrays.asList(element2))
+				WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_MM'), ExpMM, true)
+				WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_YYYY'), ExpYYYY, true)
+				WebUI.setText(findTestObject(path_SaleKB + 'input__address'), AL1)
+				WebUI.setText(findTestObject(path_SaleKB + 'input__address2'), AL2)
+				WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), ZIP)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), Email)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_smsNumber'), Phone)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_amount'), Amount)
+		
+				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined1'), UDF1)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined2'), UDF2)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined3'), UDF3)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined4'), UDF4)
+				WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), UDF5, true)
+				WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), UDF6, true)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined7'), UDF7)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined8'), UDF8)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined9'), UDF9)
+				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined10'), UDF10)
+		
+				WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
+		
 
-
-
+	}
 
 
 }

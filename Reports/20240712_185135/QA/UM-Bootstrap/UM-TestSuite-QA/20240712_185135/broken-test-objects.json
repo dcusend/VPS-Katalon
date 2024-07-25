@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_CASEuser",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//tbody[@id\u003d\u0027loadUser\u0027]/tr/td[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240712_185135/QA/UM-Bootstrap/UM-TestSuite-QA/20240712_185135/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/a_CASEuser_XPATH.png"
+    }
+  ]
+}
