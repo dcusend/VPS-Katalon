@@ -320,7 +320,7 @@ public class getSetDataRAD {
 
 	//----------------------------------
 
-	
+
 	@Keyword
 	def setDataRADMFLicNumFive()
 	{
@@ -333,8 +333,8 @@ public class getSetDataRAD {
 	}
 
 	//----------------------------------
-	
-	
+
+
 	@Keyword
 	def setDataRADMFLicNumSix()
 	{
