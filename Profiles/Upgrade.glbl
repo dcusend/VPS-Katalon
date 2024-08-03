@@ -49,4 +49,9 @@
       <initValue>''</initValue>
       <name>rad_SSN_Joint_LastName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://upgrade.velocitypayment.com/agency/config.do?action=editor'</initValue>
+      <name>urlEmulator</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

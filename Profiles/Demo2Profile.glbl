@@ -34,4 +34,9 @@
       <initValue>'Hello!4444444'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo2.velocitypayment.com/agency/config.do?action=editor'</initValue>
+      <name>urlEmulator</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

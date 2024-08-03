@@ -52,7 +52,7 @@ class emulatorIWP30 {
 	def MV, Amount, CAN, Action, Lang, Fname, Lname, AL1, AL2
 	def Country, City, State, ZIP, Order, CompanyName, Email
 	def UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10
-	def AppID, MessageVersion, RemID, ID
+	def AppID, MessageVersion, RemID, ID, em_Username, em_Password, Parcels
 
 	@Keyword
 	def getSetData(int row, String gsdDataFile) {
@@ -375,6 +375,9 @@ class emulatorIWP30 {
 				UDF8 = findTestData(dataFileE).getValue('UDF8', rowE)
 				UDF9 = findTestData(dataFileE).getValue('UDF9', rowE)
 				UDF10 = findTestData(dataFileE).getValue('UDF10', rowE)
+				em_Username = findTestData(dataFileE).getValue('Username', rowE)
+				em_Password = findTestData(dataFileE).getValue('Password', rowE)
+				Parcels = findTestData(dataFileE).getValue('Parcels', rowE)
 
 
 
@@ -446,6 +449,21 @@ class emulatorIWP30 {
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
 				}
 
+				
+				
+				if (MV == "2.7")
+				{
+					println "MV is 2.7"
+					
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/input_Username'),em_Username)
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/input_Password'),em_Password)
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/textarea_Parcel'),Parcels)
+					
+				}
+
+				
+				
+				
 
 				/*if ((!UDF1.isEmpty()))
 				 {
