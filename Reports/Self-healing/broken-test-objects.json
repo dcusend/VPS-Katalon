@@ -46,6 +46,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/ABP/Misc/div_var XSRF_UUID_PARAMETER_KEY  f4214bec-9_0e4326_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/textarea_Parcel",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//textarea[@name\u003d\u0027parcel\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/textarea_Parcel_XPATH.png"
     }
   ]
 }

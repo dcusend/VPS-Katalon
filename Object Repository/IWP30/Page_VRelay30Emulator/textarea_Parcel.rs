@@ -6,6 +6,10 @@
    <elementGuidId>980edd58-0f8a-4c20-aefe-bd65b448b9af</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'parcel']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//textarea[@name='parcel']</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>694068b6-d83d-48a1-bdac-43e4d0fd9b46</webElementGuid>
+      <webElementGuid>f571168e-037d-432d-88b0-d16e8251d3f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +34,15 @@
       <name>name</name>
       <type>Main</type>
       <value>parcel</value>
-      <webElementGuid>1ff2f2af-08ad-4e35-ba05-aafeef272ffb</webElementGuid>
+      <webElementGuid>32cc9cbe-f826-4862-b700-18ef1af816d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Parcel testing</value>
-      <webElementGuid>d0d0bb7d-545a-4e89-ac34-047bf0399e2c</webElementGuid>
+      <webElementGuid>4ae2fe22-eada-4d56-b096-59cc815b8497</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[32]/td[2]/textarea[1]</value>
-      <webElementGuid>d9edc4aa-b9ec-42c0-bd9f-e7608646fcb9</webElementGuid>
+      <webElementGuid>0c03280d-2f9f-4fcf-976a-19d7717ad6a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@name='parcel']</value>
-      <webElementGuid>fde8981e-88d0-4807-83a3-97c28cd9b800</webElementGuid>
+      <webElementGuid>483d905c-c805-436a-baef-e8ebb1954adf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parcel'])[1]/following::textarea[1]</value>
-      <webElementGuid>b14b0444-da23-4a06-ae5f-7f3211722975</webElementGuid>
+      <webElementGuid>9b01dfc4-76a1-43c7-ac9d-18f18da7ed48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::textarea[1]</value>
-      <webElementGuid>fa2c9b3c-d83f-49d2-abde-1b2a23b9f6fb</webElementGuid>
+      <webElementGuid>8ac370b6-b2ed-4f22-a0a9-2ada081284e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='VPS 4.0 - VRELAY AGENCY EMULATOR Version 1.0'])[1]/preceding::textarea[1]</value>
-      <webElementGuid>442975f0-61a2-4458-a7a0-f4473c0a0122</webElementGuid>
+      <webElementGuid>8f2567f5-968a-4863-9534-fe637920bd5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::textarea[1]</value>
-      <webElementGuid>9a178fc8-24b5-4466-906d-d84448f06e16</webElementGuid>
+      <webElementGuid>53d9281e-8127-4048-b25d-f213a1f5a5f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Parcel testing']/parent::*</value>
-      <webElementGuid>8735785b-345a-4551-b580-7a227f658ce0</webElementGuid>
+      <webElementGuid>5cde0119-8eb4-49f4-bfbf-8ea133d7f2d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>9e94ede2-d921-4cbc-a6cc-6d4798105c5d</webElementGuid>
+      <webElementGuid>0660f81d-1be0-44c6-8318-86c697c5a0b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@name = 'parcel' and (text() = 'Parcel testing' or . = 'Parcel testing')]</value>
-      <webElementGuid>f766f961-64cd-432b-adf6-670e6b7ba75c</webElementGuid>
+      <webElementGuid>4ebab5ed-5200-44ee-bcc3-b0ba19b6d5ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
