@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_Confirmation/ConfirmButton",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_Confirmation/ConfirmButton_position.png"
+    }
+  ]
+}

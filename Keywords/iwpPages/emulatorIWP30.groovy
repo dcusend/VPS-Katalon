@@ -243,12 +243,10 @@ class emulatorIWP30 {
 	// UDFs 3, 4, 5, 6, 7, 8, 9, 10
 
 	@Keyword
-	def setDataEmulatorStandard()
-	{
+	def setDataEmulatorStandard() {
 
 
-		if (WebUI.verifyElementPresent(findTestObject('IWP30/Page_VRelay30Emulator/Amount'), 30))
-		{
+		if (WebUI.verifyElementPresent(findTestObject('IWP30/Page_VRelay30Emulator/Amount'), 30)) {
 
 			println ("We are on the Emulator page, start populating")
 
@@ -313,18 +311,16 @@ class emulatorIWP30 {
 			// End setData
 
 			WebUI.closeBrowser()
-
-
 		}
-		else {println ("We are not on Emulator page")}
-
+		else {
+			println ("We are not on Emulator page")
+		}
 	}
 
 
 
 	@Keyword
-	def setDataEmulator_DD(String emulatorID)
-	{
+	def setDataEmulator_DD(String emulatorID) {
 
 		// GetData
 
@@ -338,15 +334,13 @@ class emulatorIWP30 {
 		println("Number of Records: " + numOfRowsE)
 
 
-		for (def rowE = 1; rowE <= numOfRowsE; rowE++)
-		{
+		for (def rowE = 1; rowE <= numOfRowsE; rowE++) {
 
 
 			ID = findTestData(dataFileE).getValue('ID', rowE)
 
 
-			if (ID.equals(emulatorID))
-			{
+			if (ID.equals(emulatorID)) {
 
 
 				MV = findTestData(dataFileE).getValue('MV', rowE)
@@ -387,8 +381,7 @@ class emulatorIWP30 {
 				def emulator_url = GlobalVariable.urlEmulator
 				def useThisURL
 
-				switch (MV)
-				{
+				switch (MV) {
 					case "2.3":
 						useThisURL = emulator_url + "&message_version=2_3"
 						break
@@ -439,8 +432,7 @@ class emulatorIWP30 {
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
 				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
 
-				if (MV != "2.3")
-				{
+				if (MV != "2.3") {
 					println "MV is not 2.3"
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
@@ -449,21 +441,19 @@ class emulatorIWP30 {
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
 				}
 
-				
-				
-				if (MV == "2.7")
-				{
+
+
+				if (MV == "2.7") {
 					println "MV is 2.7"
-					
+
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/input_Username'),em_Username)
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/input_Password'),em_Password)
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/textarea_Parcel'),Parcels)
-					
 				}
 
-				
-				
-				
+
+
+
 
 				/*if ((!UDF1.isEmpty()))
 				 {
@@ -532,14 +522,13 @@ class emulatorIWP30 {
 				//Thread.sleep(2000)
 
 				WebUI.click(findTestObject('IWP30/Page_VRelay30Emulator/Submit'))
+				Thread.sleep(4000)
+
 				WebUI.closeBrowser()
 
-				Thread.sleep(1000)
+				Thread.sleep(4000)
 			}
-
 		}
-
-
 	}
 
 

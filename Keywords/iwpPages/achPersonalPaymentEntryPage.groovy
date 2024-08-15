@@ -110,137 +110,154 @@ public class achPersonalPaymentEntryPage {
 
 		// Verify if we are on ACH Personal Payment Entry page and populate the page
 
-		if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'), 30))
-		{
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'), 30)) {
 
 			println("We are on ACH Personal Payment Entry page, start populating")
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),30))
-			{
-				if ((!Amount.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),30)) {
+				if ((!Amount.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),Amount)
 				}
-				else {println("Amount is not present in the Excel Spreadsheet")}
+				else {
+					println("Amount is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("Amount field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("Amount field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_UDF2'),30))
-			{
-				if ((!UDF2.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_UDF2'),30)) {
+				if ((!UDF2.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_UDF2'),UDF2)
 				}
-				else {println("UDF2 is not present in the Excel Spreadsheet")}
+				else {
+					println("UDF2 is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("UDF2 field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("UDF2 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_UDF3'),30))
-			{
-				if ((!UDF3.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_UDF3'),30)) {
+				if ((!UDF3.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_UDF3'),UDF3)
 				}
-				else {println("UDF3 is not present in the Excel Spreadsheet")}
+				else {
+					println("UDF3 is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("UDF3 field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("UDF3 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7'),30))
-			{
-				if ((!UDF7.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7'),30)) {
+				if ((!UDF7.isEmpty())) {
 					WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7'),UDF7)
 				}
-				else {println("UDF7 is not present in the Excel Spreadsheet")}
+				else {
+					println("UDF7 is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("UDF7 field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("UDF7 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF8'),30))
-			{
-				if ((!UDF8.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF8'),30)) {
+				if ((!UDF8.isEmpty())) {
 					WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF8'),UDF8)
 				}
-				else {println("UDF8 is not present in the Excel Spreadsheet")}
+				else {
+					println("UDF8 is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("UDF8 field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("UDF8 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Firstname'),30))
-			{
-				if ((!Fname.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Firstname'),30)) {
+				if ((!Fname.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Firstname'),Fname)
 				}
-				else {println("First Name is not present in the Excel Spreadsheet")}
+				else {
+					println("First Name is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("First Name field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("First Name field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Lastname'),30))
-			{
-				if ((!Lname.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Lastname'),30)) {
+				if ((!Lname.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Lastname'),Lname)
 				}
-				else {println("Last Name is not present in the Excel Spreadsheet")}
+				else {
+					println("Last Name is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("Last Name field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("Last Name field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_routingNumber'),30))
-			{
-				if ((!RTN.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_routingNumber'),30)) {
+				if ((!RTN.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_routingNumber'),RTN)
 				}
-				else {println("RTN is not present in the Excel Spreadsheet")}
+				else {
+					println("RTN is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("RTN field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("RTN field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'),30))
-			{
-				if ((!ACNumber.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'),30)) {
+				if ((!ACNumber.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'),ACNumber)
 				}
-				else {println("Account Number is not present in the Excel Spreadsheet")}
+				else {
+					println("Account Number is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("Account Number field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("Account Number field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_confirmAccountNumber'),30))
-			{
-				if ((!CACNumber.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_confirmAccountNumber'),30)) {
+				if ((!CACNumber.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_confirmAccountNumber'),CACNumber)
 				}
-				else {println("Confirm Account Number is not present in the Excel Spreadsheet")}
+				else {
+					println("Confirm Account Number is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("Confirm Account Number field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("Confirm Account Number field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/rd_accountType'),30))
-			{
-				if ((!ACType.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/rd_accountType'),30)) {
+				if ((!ACType.isEmpty())) {
 					if (ACType == 1){
 						// select Checking
 						def accountTypeChecking = WebUI.modifyObjectProperty(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/rd_accountType'),'value','equals',"1",true)
@@ -251,87 +268,98 @@ public class achPersonalPaymentEntryPage {
 						def accountTypeSaving = WebUI.modifyObjectProperty(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/rd_accountType'),'value','equals',"2",true)
 						WebUI.click(accountTypeSaving)
 					}
-					else {println("ACType data must be either 1 or 2")}
+					else {
+						println("ACType data must be either 1 or 2")
+					}
 				}
-				else {println("Account Type is not present in the Excel Spreadsheet")}
+				else {
+					println("Account Type is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("Account Type field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("Account Type field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),30))
-			{
-				if ((!AL1.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),30)) {
+				if ((!AL1.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),AL1)
 				}
-				else {println("AL1 is not present in the Excel Spreadsheet")}
+				else {
+					println("AL1 is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("AL1 field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("AL1 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),30))
-			{
-				if ((!AL2.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),30)) {
+				if ((!AL2.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),AL2)
 				}
-				else {println("AL2 is not present in the Excel Spreadsheet")}
+				else {
+					println("AL2 is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("AL2 field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("AL2 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),30))
-			{
-				if ((!ZIP.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),30)) {
+				if ((!ZIP.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),ZIP)
 				}
-				else {println("ZIP is not present in the Excel Spreadsheet")}
+				else {
+					println("ZIP is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("ZIP field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("ZIP field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Email'),30))
-			{
-				if ((!Email.isEmpty()))
-				{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Email'),30)) {
+				if ((!Email.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Email'),Email)
 				}
-				else {println("Email is not present in the Excel Spreadsheet")}
+				else {
+					println("Email is not present in the Excel Spreadsheet")
+				}
 			}
-			else {println("Email field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("Email field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/cb_TermsAndCond'),30))
-			{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/cb_TermsAndCond'),30)) {
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/cb_TermsAndCond'),Amount)
 			}
-			else {println("Terms and Conditions field is either missing or not modifiable on ACH Personal Payment Entry Page")}
+			else {
+				println("Terms and Conditions field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 
 
 
 			// Select the Continue button
-			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/btn_Continue'),30))
-			{
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/btn_Continue'),30)) {
 				WebUI.click(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/btn_Continue'))
 			}
-			else {println("Continue field is either missing or not modifiable on ACH Personal Payment Entry Page")}
-
-
+			else {
+				println("Continue field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
 		}
 
-		else
-		{
+		else {
 			println("Not on ACH Personal Payment Entry Page")
 		}
 
 		// End of SetData
 	}
-
-
 }
