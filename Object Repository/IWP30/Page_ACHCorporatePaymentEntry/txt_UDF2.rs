@@ -4,6 +4,12 @@
    <name>txt_UDF2</name>
    <tag></tag>
    <elementGuidId>62b10d75-cd76-4783-9f23-1bc5d122869f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'userDefined2Text' and @name = 'userDefined2']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>11ac2cd1-dc29-4204-af43-3fd53061ce22</webElementGuid>
+      <webElementGuid>909948d4-ad3f-4746-bfad-204e85843cc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,7 +27,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>0f6b128a-a20d-475e-b3e7-e945e4e15fac</webElementGuid>
+      <webElementGuid>7f6b6347-c6fe-4da8-9212-7107d3ccb7ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +35,7 @@
       <name>id</name>
       <type>Main</type>
       <value>userDefined2Text</value>
-      <webElementGuid>84402e31-9076-4aa1-8606-618ea6816767</webElementGuid>
+      <webElementGuid>54695f4b-8c65-45c5-9255-692788919c63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +43,15 @@
       <name>name</name>
       <type>Main</type>
       <value>userDefined2</value>
-      <webElementGuid>7f16f96a-f562-446a-90bc-90ed8d070ab0</webElementGuid>
+      <webElementGuid>3d980d70-c297-4bf4-99f6-5ecd957cbc9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>UDF2 Label</value>
-      <webElementGuid>cb94caad-914b-46f6-b368-ae8c4c082957</webElementGuid>
+      <webElementGuid>7022d572-b47d-42bf-8a15-83d0764b409b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +59,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>500</value>
-      <webElementGuid>00b03c79-f5b2-4134-8905-0a8d8081d432</webElementGuid>
+      <webElementGuid>f5550336-2713-4c1e-8ae4-c2817b3d4d87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +67,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>325a5225-59ac-4357-9735-b65b6b5cd518</webElementGuid>
+      <webElementGuid>7a0abc2f-6c29-4cb5-9361-80c9b0beb003</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +75,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>b7d254a8-12d9-4d9a-a873-56fb33567ec7</webElementGuid>
+      <webElementGuid>53f7a172-ba96-45e1-b7ac-edc6ff50b216</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;userDefined2Text&quot;)</value>
-      <webElementGuid>37f37650-a1d4-4abb-9b60-337788a6b034</webElementGuid>
+      <webElementGuid>0c076525-4b8c-4951-b194-3f103cb27912</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='userDefined2Text']</value>
-      <webElementGuid>06a2adaf-5729-4946-ad12-0d1a47e73b7f</webElementGuid>
+      <webElementGuid>7dc45abe-4e9c-4823-a04b-5ff83a0702f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +99,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[3]/input</value>
-      <webElementGuid>e369d8de-b4c8-4f90-a53a-838c48b25390</webElementGuid>
+      <webElementGuid>48d338c5-d419-402c-a24c-1238b45f8894</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

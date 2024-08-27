@@ -4,6 +4,12 @@
    <name>dd_UDF7</name>
    <tag></tag>
    <elementGuidId>89a5231b-fc0c-4ae0-8b15-3ab8ad16e000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'variableField7DropdownGroupItemID']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>2e2a6f24-081e-48e6-9b35-cf9de66553aa</webElementGuid>
+      <webElementGuid>9c127a72-8e28-4def-bef2-563f1bdb85f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,15 +27,15 @@
       <name>name</name>
       <type>Main</type>
       <value>variableField7DropdownGroupItemID</value>
-      <webElementGuid>7befe09e-5785-4adc-ab7f-316cfc17b010</webElementGuid>
+      <webElementGuid>5f0dbf93-5d63-45f2-8e2b-e7752ab01331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>UDF7 Label tabindex=</value>
-      <webElementGuid>eb8d12b8-620d-48c1-8a30-644d0dc55cc0</webElementGuid>
+      <webElementGuid>942912e8-c307-4098-8988-1cf072bf4eef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>--Select One--OrangePurple</value>
-      <webElementGuid>002ea5b1-a481-4ece-9b50-c2472d343d1b</webElementGuid>
+      <webElementGuid>79e69d0d-9de5-4949-93e9-8e37266cc5a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main_col&quot;]/form[1]/table[1]/tbody[1]/tr[11]/td[@class=&quot;payor_opt&quot;]/select[1]</value>
-      <webElementGuid>ccf34530-d8dc-4545-9455-0f44803fba3b</webElementGuid>
+      <webElementGuid>22c0fb45-ca38-478c-ba79-c72a7c7421c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='variableField7DropdownGroupItemID']</value>
-      <webElementGuid>b9a4eb07-18b9-4a47-a0e8-58565ad03dec</webElementGuid>
+      <webElementGuid>eb7c58a9-b169-4f69-bad1-6ffb381761c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/preceding::select[1]</value>
-      <webElementGuid>4fac7225-0076-4185-ba6e-66045e6e4a2e</webElementGuid>
+      <webElementGuid>93e68305-95f4-47b8-982e-59c0092a8326</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +75,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>0aec10f4-4cfd-41b9-a0df-1531337a9172</webElementGuid>
+      <webElementGuid>695e81aa-c3a8-44a4-8aa7-3cee21f456cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
