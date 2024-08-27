@@ -4,7 +4,14 @@
    <name>txt_Amount</name>
    <tag></tag>
    <elementGuidId>40f1e0c2-f546-408e-aaeb-84ca18664abc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'amount']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -12,6 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>d436495c-cdbb-4a19-987e-f8348ddfdf9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -19,6 +27,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>6d8e0422-465b-4d0c-9a3e-cd6a4cda4466</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,13 +35,15 @@
       <name>name</name>
       <type>Main</type>
       <value>amount</value>
+      <webElementGuid>4497446e-74b7-4b01-a160-59620d1bb0b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>Amount</value>
+      <webElementGuid>b6a96212-18d2-47ab-b174-9fb6b16e8ebd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +51,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>30</value>
+      <webElementGuid>7146b8dc-a1c5-451e-bd20-b70bb06c0b4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +59,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
+      <webElementGuid>f4d3b3ac-5aff-43e3-ac78-e069462bfb9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +67,7 @@
       <name>value</name>
       <type>Main</type>
       <value>10.50</value>
+      <webElementGuid>a068d641-c3a2-41a0-8ff5-36a5a84826df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +75,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>46b0631c-59b7-4211-af82-bf948508add8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main_col&quot;]/form[1]/table[1]/tbody[1]/tr[5]/td[@class=&quot;payor_opt&quot;]/input[1]</value>
+      <webElementGuid>1b4617bd-b4ce-4e05-a2f0-48815539ff83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,6 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='amount']</value>
+      <webElementGuid>fe5936db-2acc-4eb2-a8c6-9344f2ed8b5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,5 +99,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[3]/input</value>
+      <webElementGuid>6f137cd6-a62e-48e1-b240-cb830dcb76d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
