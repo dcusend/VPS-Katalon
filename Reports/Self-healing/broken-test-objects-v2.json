@@ -8,6 +8,24 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_Confirmation/ConfirmButton_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_CCPaymentEntry/UserDefined8",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027variableField8DropdownGroupItemID\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_CCPaymentEntry/UserDefined8_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction_position.png"
     }
   ]
 }

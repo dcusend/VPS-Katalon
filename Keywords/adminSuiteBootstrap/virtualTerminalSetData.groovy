@@ -69,8 +69,7 @@ public class virtualTerminalSetData {
 	//#################################################################
 
 	@Keyword
-	def saleKeyboard_HardCoded_AllCardTypes(String numCard)
-	{
+	def saleKeyboard_HardCoded_AllCardTypes(String numCard) {
 		//String enterCardNum = numCard
 		println(numCard)
 
@@ -112,7 +111,6 @@ public class virtualTerminalSetData {
 
 
 		WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
-
 	}
 
 	//##################################################################################################################################
@@ -121,8 +119,7 @@ public class virtualTerminalSetData {
 
 
 	@Keyword
-	def saleKeyboard_DataDriven(int rowS, String dataFileS)
-	{
+	def saleKeyboard_DataDriven(int rowS, String dataFileS) {
 
 		String cardName,transCat, cardNumber, CSC, expM, expY, al1, al2, zipCode, emailAddress, phoneNumber, amount
 		String UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,UDF7,UDF8,UDF9,UDF10
@@ -184,10 +181,6 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined10'), UDF10)
 
 		WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
-
-
-
-
 	}
 	//##################################################################################################################################
 
@@ -195,8 +188,7 @@ public class virtualTerminalSetData {
 
 
 	@Keyword
-	def ManualAuthKeyboard_DataDriven(int rowS, String dataFileS)
-	{
+	def ManualAuthKeyboard_DataDriven(int rowS, String dataFileS) {
 
 		String cardName,transCat, cardNumber, CSC, expM, expY, al1, al2, zipCode, emailAddress, phoneNumber, amount
 		String UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,UDF7,UDF8,UDF9,UDF10
@@ -272,7 +264,6 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_ManAuth + 'input_userDefined10'), UDF10)
 
 		WebUI.click(findTestObject(path_ManAuth + 'button_Submit'))
-
 	}
 
 	//##################################################################################################################################
@@ -280,8 +271,7 @@ public class virtualTerminalSetData {
 
 
 	@Keyword
-	def setDataSaleKeyboard(CardName, TranxCategory, CardNumber, CSC, ExpMM, ExpYYYY, AL1, AL2, ZIP, Email, Phone, Amount, UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10)
-	{
+	def setDataSaleKeyboard(CardName, TranxCategory, CardNumber, CSC, ExpMM, ExpYYYY, AL1, AL2, ZIP, Email, Phone, Amount, UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10) {
 
 		String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/"
 
@@ -312,9 +302,5 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined10'), UDF10)
 
 		WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
-
-
 	}
-
-
 }
