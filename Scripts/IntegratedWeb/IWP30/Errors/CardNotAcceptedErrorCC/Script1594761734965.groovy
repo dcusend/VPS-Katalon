@@ -257,7 +257,7 @@ import internal.GlobalVariable as GlobalVariable
 			
 			
 // Verify the Amount is less than minimum error
-			WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number. Only American Express , Discover , MasterCard , Visa Debit and Visa card(s) is(are) accepted"), false)
+			WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number. Only American Express , Discover , MasterCard and Visa card(s) is(are) accepted"), false)
 			
 			
 // Close the Browser
