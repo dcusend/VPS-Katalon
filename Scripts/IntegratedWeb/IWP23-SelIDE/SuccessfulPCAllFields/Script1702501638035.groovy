@@ -125,43 +125,6 @@ selenium.waitForPageToLoad("30000")
 
 
 
-/*
- * softAssertion.assertEquals("Please verify the following information:",
- * selenium.getText("css=span.vrelay-header"))
- * //softAssertion.assertEquals("$10.50", selenium.getText("css=td.payor_opt"))
- * softAssertion.assertEquals("udf1", selenium.getText("//tr[4]/td[3]"))
- * softAssertion.assertEquals("udf2 data", selenium.getText("//tr[5]/td[3]"))
- * softAssertion.assertEquals("udf3 data", selenium.getText("//tr[6]/td[3]"))
- * softAssertion.assertEquals("Purple", selenium.getText("//tr[7]/td[3]"))
- * softAssertion.assertEquals("Tennis", selenium.getText("//tr[8]/td[3]"))
- * softAssertion.assertEquals("Mike", selenium.getText("//tr[11]/td[3]"))
- * softAssertion.assertEquals("Chingiti", selenium.getText("//tr[12]/td[3]"))
- * softAssertion.assertEquals(Pattern.matches('selenium.getText("//tr[13]/td[3]"
- * )', "2691.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText("//tr[14]/td[3]"
- * )', '^exact:[\\s\\S]*[\\s\\S]*[\\s\\S]*[\\s\\S]*1111$'), true)
- * softAssertion.assertEquals("Personal Checking",
- * selenium.getText("//tr[15]/td[3]"))
- * softAssertion.assertEquals("104 main road",
- * selenium.getText("//tr[16]/td[3]")) softAssertion.assertEquals("Room 1",
- * selenium.getText("//tr[17]/td[3]"))
- * softAssertion.assertEquals("United States",
- * selenium.getText("//tr[18]/td[3]")) softAssertion.assertEquals("ARLINGTON",
- * selenium.getText("//tr[19]/td[3]")) softAssertion.assertEquals("Virginia",
- * selenium.getText("//tr[20]/td[3]")) softAssertion.assertEquals("22201",
- * selenium.getText("//tr[21]/td[3]"))
- * softAssertion.assertEquals("iahmed@govolution.com",
- * selenium.getText("//tr[23]/td[3]"))
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
- * softAssertion.assertEquals(selenium.isElementPresent(
- * "name=confirmNotifyAction"), true)
- * softAssertion.assertEquals(selenium.isElementPresent(
- * "document.process.confirmNotifyAction[1]"), true)
- * softAssertion.assertEquals(selenium.isElementPresent(
- * "name=changePaymentMethodButton"), true)
- */
-
 WebUI.verifyTextPresent(("Please verify the following information:"), true)
 WebUI.verifyTextPresent(("Is this information correct"), true)
 WebUI.verifyTextPresent(("\$10.50"), false)
@@ -190,49 +153,6 @@ selenium.waitForPageToLoad("30000")
 Thread.sleep(8000);
 
 
-
-/*
- * softAssertion.assertEquals("Successful Payment Receipt",
- * selenium.getText("css=td > h2"))
- * softAssertion.assertEquals("Please print this receipt for your records",
- * selenium.getText("css=td > p"))
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "udf1.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "udf2 data.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "udf3 data.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Purple Label.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Tennis Label.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "10.50.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Debit.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Personal.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Checking.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "1111.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "2691.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "MIKE CHINGITI.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "104 main road.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Room 1.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "United States.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "ARLINGTON.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "Virginia.*"), true)
- * softAssertion.assertEquals(Pattern.matches('selenium.getText(
- * "css=div.main_col")', "22201.*"), true)
- */
 
 
 
