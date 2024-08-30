@@ -30,8 +30,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
 	
-	nameSheet = "NoUnderPayErrorPS"
-	dataFile = "IWPTestData/IWP25NoUnderPayErrorPS"
+	nameSheet = "NoModifyAmountPS"
+	dataFile = "IWPTestData/IWP25NoModifyAmountPS"
 	dataFileEmulator = "IWPTestData/EmulatorData"
 	
 	
@@ -77,28 +77,44 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
+//					Thread.sleep(10000)
 					
-					// Set Data on Credit Card Payment Entry page
-					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
+					if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),30) && WebUI.verifyTextPresent( "\$ 10.50", false)) {
+						
+					// Set Data on Payment Entry page
+						CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
+						// Select Continue on Confirm page
+						WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))								
+						
+						// Select Submit button on Receipt Page
+								
+						Thread.sleep(10000)
+						if (WebUI.verifyTextPresent("Successful Payment Receipt", false))
+							{
+								println "Successful Payment Receipt text is present on the Receipt page"
+								KeywordUtil.markPassed("Successful Payment Receipt text is present on the Receipt page")
+								resText = "Pass"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+	
+							}
+						else
+							{
+								println "Successful Payment Receipt text is not present on the Receipt page"
+//								KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
+								resText = "Fail"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//								println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
+							}				
+					}
+					else {
+//						KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
+						resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//						println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
+					}
 					
-					Thread.sleep(10000)
-					if (WebUI.verifyTextPresent("Payment amounts less than 10.50 are not accepted", false))
-						{
-							println "UnderPay Error message shown"
-							KeywordUtil.markPassed("Under Pay Error message shown")
-							resText = "Pass"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 
-						}
-					else
-						{
-							println "Under Pay Error message not shown"
-							KeywordUtil.markFailed("Under Pay Error message not shown")
-							resText = "Fail"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-//							println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
-						}					
-				}	
-				WebUI.closeBrowser()	
+				}		
+				WebUI.closeBrowser()		
 		}

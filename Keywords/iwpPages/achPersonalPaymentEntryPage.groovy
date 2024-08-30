@@ -116,17 +116,17 @@ public class achPersonalPaymentEntryPage {
 
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),30)) {
-				if ((!Amount.isEmpty())) {
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),Amount)
-				}
-				else {
-					println("Amount is not present in the Excel Spreadsheet")
-				}
-//			}
-//			else {
-//				println("Amount field is either missing or not modifiable on ACH Personal Payment Entry Page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),30)) {
+			if ((!Amount.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),Amount)
+			}
+			else {
+				println("Amount is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("Amount field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
 
 
 
@@ -284,45 +284,45 @@ public class achPersonalPaymentEntryPage {
 
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),30)) {
-				if ((!AL1.isEmpty())) {
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),AL1)
-				}
-				else {
-					println("AL1 is not present in the Excel Spreadsheet")
-				}
-//			}
-//			else {
-//				println("AL1 field is either missing or not modifiable on ACH Personal Payment Entry Page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),30)) {
+			if ((!AL1.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),AL1)
+			}
+			else {
+				println("AL1 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("AL1 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
 
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),30)) {
-				if ((!AL2.isEmpty())) {
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),AL2)
-				}
-				else {
-					println("AL2 is not present in the Excel Spreadsheet")
-				}
-//			}
-//			else {
-//				println("AL2 field is either missing or not modifiable on ACH Personal Payment Entry Page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),30)) {
+			if ((!AL2.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),AL2)
+			}
+			else {
+				println("AL2 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("AL2 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
 
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),30)) {
-				if ((!ZIP.isEmpty())) {
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),ZIP)
-				}
-				else {
-					println("ZIP is not present in the Excel Spreadsheet")
-				}
-//			}
-//			else {
-//				println("ZIP field is either missing or not modifiable on ACH Personal Payment Entry Page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),30)) {
+			if ((!ZIP.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),ZIP)
+			}
+			else {
+				println("ZIP is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("ZIP field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
 
 
 

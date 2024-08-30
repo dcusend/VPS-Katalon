@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PayNowPersonalSavingsDCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd453a94-e912-4c59-b148-8d1ab12cedcc</testCaseGuid>
+</TestCaseEntity>

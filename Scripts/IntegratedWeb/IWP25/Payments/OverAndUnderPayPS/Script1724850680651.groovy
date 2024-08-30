@@ -26,12 +26,12 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/IWPTestData/VRelay25Payments.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator
+def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 
 
 	
-	nameSheet = "NoUnderPayErrorPS"
-	dataFile = "IWPTestData/IWP25NoUnderPayErrorPS"
+	nameSheet = "OverAndUnderPayPS"
+	dataFile = "IWPTestData/IWP25OverAndUnderPayPS"
 	dataFileEmulator = "IWPTestData/EmulatorData"
 	
 	
@@ -78,27 +78,32 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
 					
-					// Set Data on Credit Card Payment Entry page
+					// Set Data on Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
+					// Select Continue on Confirm page
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					
+							
 					Thread.sleep(10000)
-					if (WebUI.verifyTextPresent("Payment amounts less than 10.50 are not accepted", false))
+					if (WebUI.verifyTextPresent("Successful Payment Receipt", false))
 						{
-							println "UnderPay Error message shown"
-							KeywordUtil.markPassed("Under Pay Error message shown")
+							println "Successful Payment Receipt text is present on the Receipt page"
+							KeywordUtil.markPassed("Successful Payment Receipt text is present on the Receipt page")
 							resText = "Pass"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 
 						}
 					else
 						{
-							println "Under Pay Error message not shown"
-							KeywordUtil.markFailed("Under Pay Error message not shown")
+							println "Successful Payment Receipt text is not present on the Receipt page"
+							KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-//							println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
-						}					
-				}	
-				WebUI.closeBrowser()	
+							println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
+						}
+
+					//assert WebUI.verifyTextPresent(("Successful Payment Receipt"), false) == true :  "Successful Payment Receipt text is present on the Receipt page thru Assert"			
+				}
+				WebUI.closeBrowser()
 		}

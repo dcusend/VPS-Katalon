@@ -26,12 +26,12 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/IWPTestData/VRelay25Payments.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator
+def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 
 
 	
-	nameSheet = "NoUnderPayErrorPS"
-	dataFile = "IWPTestData/IWP25NoUnderPayErrorPS"
+	nameSheet = "PayNowPersonalCheckDCF"
+	dataFile = "IWPTestData/IWP25PayNowPersonalCheckDCF"
 	dataFileEmulator = "IWPTestData/EmulatorData"
 	
 	
@@ -81,24 +81,93 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					// Set Data on Credit Card Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
+					// Select Continue on Confirm page
 					
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+										
+					
+					Thread.sleep(5000)
+					println('I am on real estate page')
+					// Select Confirm on Convenience fees page
+					
+						if(WebUI.verifyTextPresent("Make a Real Estate Payment", false)) {
+							isRequiredTextPresent = true
+							println(isRequiredTextPresent)
+						}
+						else {
+							isRequiredTextPresent = false
+						}
+						if(isRequiredTextPresent) {
+							if(WebUI.verifyTextPresent("This transaction is subject to a Convenience Fees of \$2.00.", false)) {
+								isRequiredTextPresent = true
+								println(isRequiredTextPresent)
+								
+							}
+							else {
+								isRequiredTextPresent = false
+							}
+						}
+						if(isRequiredTextPresent) {
+							if(WebUI.verifyTextPresent("Payment Amount:  \$10.50", false)) {
+								isRequiredTextPresent = true
+							}
+							else {
+								isRequiredTextPresent = false
+							}
+						}
+					
+						if(isRequiredTextPresent) {
+							if(WebUI.verifyTextPresent("Convenience Fees:  \$2.00", false)) {
+								isRequiredTextPresent = true
+							}
+							else {
+								isRequiredTextPresent = false
+							}
+						}
+						
+						if(isRequiredTextPresent) {
+							if(WebUI.verifyTextPresent("Total Amount:  \$12.50", false)) {
+								isRequiredTextPresent = true
+							}
+							else {
+								isRequiredTextPresent = false
+							}
+						}
+						
+						if(isRequiredTextPresent) {
+							if(WebUI.verifyTextPresent("Two transactions will appear on your bank statement, one in the amount of \$10.50 and one in the amount of \$2.00.", false)) {
+								isRequiredTextPresent = true
+							}
+							else {
+								isRequiredTextPresent = false
+							}
+						}
+					
+						Thread.sleep(10000)
+						
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction'))
 					Thread.sleep(10000)
-					if (WebUI.verifyTextPresent("Payment amounts less than 10.50 are not accepted", false))
+					if (WebUI.verifyTextPresent("Successful Payment Receipt", false))
 						{
-							println "UnderPay Error message shown"
-							KeywordUtil.markPassed("Under Pay Error message shown")
+							println "Successful Payment Receipt text is present on the Receipt page"
+							KeywordUtil.markPassed("Successful Payment Receipt text is present on the Receipt page")
 							resText = "Pass"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 
 						}
 					else
 						{
-							println "Under Pay Error message not shown"
-							KeywordUtil.markFailed("Under Pay Error message not shown")
+							println "Successful Payment Receipt text is not present on the Receipt page"
+							KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-//							println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
-						}					
-				}	
-				WebUI.closeBrowser()	
+							println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
+						}
+						
+					
+					//assert WebUI.verifyTextPresent(("Successful Payment Receipt"), false) == true :  "Successful Payment Receipt text is present on the Receipt page thru Assert"
+					
+
+				}		
+				WebUI.closeBrowser()		
 		}

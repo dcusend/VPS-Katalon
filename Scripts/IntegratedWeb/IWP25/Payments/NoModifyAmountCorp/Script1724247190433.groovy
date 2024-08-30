@@ -26,7 +26,7 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/IWPTestData/VRelay25Payments.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
+def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
 	
