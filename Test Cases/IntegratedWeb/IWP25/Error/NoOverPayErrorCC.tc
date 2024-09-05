@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NoOverPayErrorCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>948a7793-f0bd-49e6-ba07-a6cb73908f8a</testCaseGuid>
+</TestCaseEntity>

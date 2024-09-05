@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1A8B3E0D0F79F6CBE95A7A6DDEDF92CD",
+  "keywordFileContentHash": "5838C800315E66478E1749273F727B74",
   "keywordClasses": [
     {
       "name": "iwpPages.achPersonalPaymentEntryPage",
@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataACHPPM",
@@ -64,10 +65,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
