@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_confirmNotifyAction</name>
+   <name>input_ConfirmCancelPlan</name>
    <tag></tag>
-   <elementGuidId>a7902f71-0749-4e74-805b-0d785b7a7a13</elementGuidId>
+   <elementGuidId>292516ef-63d1-48c2-a4f5-1052eeed5d8c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and @name = 'confirmNotifyAction' and @value = 'Confirm']</value>
+         <key>CSS</key>
+         <value>input[name=&quot;cancelPaymentPlanHistoryBtn&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='confirmNotifyAction']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;confirmNotifyAction&quot;]</value>
+         <value>//input[@name='cancelPaymentPlanHistoryBtn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>09dc74f8-bc9f-4518-9ec6-c80a3f08a5bf</webElementGuid>
+      <webElementGuid>407cbbc0-ff85-41a7-926b-c569ce6a8d89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>b0563ed9-df8d-40e7-b0df-3bc03595e6c3</webElementGuid>
+      <value>button</value>
+      <webElementGuid>6a16dc4d-9419-4afe-aab2-eaa7db97fa64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>confirmNotifyAction</value>
-      <webElementGuid>a998873f-265f-4fe9-916a-d37dd8b0a78c</webElementGuid>
+      <value>cancelPaymentPlanHistoryBtn</value>
+      <webElementGuid>6ff94a73-b81b-41d5-9fac-9cb5c7073c4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,62 +46,62 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block</value>
-      <webElementGuid>f2e31bc7-d477-41b8-83f1-82a16980b2e0</webElementGuid>
+      <webElementGuid>f6a48ad2-3b8f-4564-a7b9-73428e48c644</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-target</name>
-      <type>Main</type>
-      <value>#waitModal</value>
-      <webElementGuid>fd311626-3492-466e-8921-43f02cbdba55</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Confirm</value>
-      <webElementGuid>27481af6-56a7-4260-ac7e-c5503e495e6a</webElementGuid>
+      <value>Cancel Plan</value>
+      <webElementGuid>9b1c86f1-2788-48dc-a590-d5e5912a249e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>setYes();</value>
-      <webElementGuid>1ce6b744-3567-4313-971d-7da8421527e2</webElementGuid>
+      <value>cancelPaymentPlanHistory();</value>
+      <webElementGuid>865d6f4c-c5c3-4db2-ba7e-0cbfe417a52b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-1 col-md-offset-6 col-sm-2 col-sm-offset-12 col-xs-12 bootstrap-btn-group&quot;]/input[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>07cf7558-4f9d-4e01-a46c-72d3a13dc1f8</webElementGuid>
+      <value>id(&quot;backButtonDiv&quot;)/div[@class=&quot;col-md-3  col-sm-3  col-xs-12 bootstrap-btn-group&quot;]/input[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <webElementGuid>c471b768-ffed-4c3f-ab62-aab40b38494d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='confirmNotifyAction']</value>
-      <webElementGuid>86e3ac5f-4240-425d-b337-b7680ba1ee81</webElementGuid>
+      <value>//input[@name='cancelPaymentPlanHistoryBtn']</value>
+      <webElementGuid>814c9262-a759-4086-8fa7-d74f1bfad865</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='backButtonDiv']/div[2]/input</value>
+      <webElementGuid>c3df5edd-9c6a-4013-9be1-d7a4642954a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
-      <webElementGuid>920ad9b4-e2da-411b-b4d5-533df57141e0</webElementGuid>
+      <value>//div[2]/div[2]/input</value>
+      <webElementGuid>c586277d-9943-4508-ae4d-f4d1ea6fcf11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @name = 'confirmNotifyAction']</value>
-      <webElementGuid>30e822ae-e05d-48ba-92d5-3ecadb74296d</webElementGuid>
+      <value>//input[@type = 'button' and @name = 'cancelPaymentPlanHistoryBtn']</value>
+      <webElementGuid>1370160f-d5ff-4d86-9300-c9abec57e1be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

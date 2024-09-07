@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_confirmNotifyAction</name>
+   <name>input_ContinueOnPaymentEntry</name>
    <tag></tag>
-   <elementGuidId>a7902f71-0749-4e74-805b-0d785b7a7a13</elementGuidId>
+   <elementGuidId>177796aa-cf5c-4731-b688-c4688bc4b2f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @name = 'confirmNotifyAction' and @value = 'Confirm']</value>
+         <value>//*[@type = 'submit' and @name = 'ccSubmit']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='confirmNotifyAction']</value>
+         <value>//input[@name='ccSubmit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;confirmNotifyAction&quot;]</value>
+         <value>input[name=&quot;ccSubmit&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>09dc74f8-bc9f-4518-9ec6-c80a3f08a5bf</webElementGuid>
+      <webElementGuid>507b3902-5083-4e61-8549-6b3b04dc655a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,15 +34,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>b0563ed9-df8d-40e7-b0df-3bc03595e6c3</webElementGuid>
+      <webElementGuid>965a37c5-aa2f-4180-9f85-8263e8f7a06c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>confirmNotifyAction</value>
-      <webElementGuid>a998873f-265f-4fe9-916a-d37dd8b0a78c</webElementGuid>
+      <value>ccSubmit</value>
+      <webElementGuid>9d5c08f8-49fd-4ee4-be6e-ca4d80a8873a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,62 +50,70 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block</value>
-      <webElementGuid>f2e31bc7-d477-41b8-83f1-82a16980b2e0</webElementGuid>
+      <webElementGuid>da8a15a9-e537-46b4-ad74-0b772aea8a87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-target</name>
-      <type>Main</type>
-      <value>#waitModal</value>
-      <webElementGuid>fd311626-3492-466e-8921-43f02cbdba55</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Confirm</value>
-      <webElementGuid>27481af6-56a7-4260-ac7e-c5503e495e6a</webElementGuid>
+      <value>Continue</value>
+      <webElementGuid>11f8b1d0-4903-444d-98bf-60f9ad007ee4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>setYes();</value>
-      <webElementGuid>1ce6b744-3567-4313-971d-7da8421527e2</webElementGuid>
+      <value>setNull();</value>
+      <webElementGuid>77f035fb-c6d1-4dee-9a01-519b5d098be5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>fae22057-069f-455d-89d2-f89068c29360</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-1 col-md-offset-6 col-sm-2 col-sm-offset-12 col-xs-12 bootstrap-btn-group&quot;]/input[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>07cf7558-4f9d-4e01-a46c-72d3a13dc1f8</webElementGuid>
+      <value>id(&quot;process&quot;)/table[1]/tbody[1]/tr[3]/td[2]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2 col-md-offset-6 col-sm-3 col-sm-offset-2 col-xs-12 bootstrap-btn-group&quot;]/input[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <webElementGuid>f486927c-dc64-4521-983f-706098febada</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='confirmNotifyAction']</value>
-      <webElementGuid>86e3ac5f-4240-425d-b337-b7680ba1ee81</webElementGuid>
+      <value>//input[@name='ccSubmit']</value>
+      <webElementGuid>d2741d7b-3dac-479d-a944-a16ca13ff319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='process']/table/tbody/tr[3]/td[2]/div/div/input</value>
+      <webElementGuid>8eb9e30b-07eb-4883-85c5-bb2374db4c4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
-      <webElementGuid>920ad9b4-e2da-411b-b4d5-533df57141e0</webElementGuid>
+      <value>//td[2]/div/div/input</value>
+      <webElementGuid>32357479-5543-43fa-a523-d8aa41f94ffc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @name = 'confirmNotifyAction']</value>
-      <webElementGuid>30e822ae-e05d-48ba-92d5-3ecadb74296d</webElementGuid>
+      <value>//input[@type = 'submit' and @name = 'ccSubmit']</value>
+      <webElementGuid>34c48687-5f77-4fe3-a916-dfa723755418</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

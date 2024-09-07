@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_true_formSubmit</name>
+   <name>input_x_mb_btn_ok</name>
    <tag></tag>
-   <elementGuidId>448030db-d267-4d7e-b817-e03bd199f43c</elementGuidId>
+   <elementGuidId>d2919ecd-7fb1-47fa-82de-3aa005305cbf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit']</value>
+         <key>CSS</key>
+         <value>#mb_btn_ok</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='Submit']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input.formSubmit</value>
+         <value>//input[@id='mb_btn_ok']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,62 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7b1f7b79-18eb-4997-9b18-47de0e334703</webElementGuid>
+      <webElementGuid>1d13c6af-c8e5-454b-b111-51ba939d9fa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>formSubmit</value>
-      <webElementGuid>a38f1568-3bb1-40f6-b220-ac590b9a2d1d</webElementGuid>
+      <value>mb_btn_ok</value>
+      <webElementGuid>08f3e73f-feb4-42c9-9302-8e0b9a0deaee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>b905c85a-b71f-45c9-bea2-4d89af832822</webElementGuid>
+      <value>button</value>
+      <webElementGuid>c12bb44e-a2ac-42be-942e-57a04cbdd1aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>9639fd42-9e29-48b7-8b97-90d52db3747d</webElementGuid>
+      <value>OK</value>
+      <webElementGuid>a7efe30c-71d2-409f-a0d1-475fdfd3409f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[4]/td[1]/form[1]/table[1]/tbody[1]/tr[6]/td[1]/input[@class=&quot;formSubmit&quot;]</value>
-      <webElementGuid>323d3766-203c-4870-982a-e436f21a5b03</webElementGuid>
+      <value>id(&quot;mb_btn_ok&quot;)</value>
+      <webElementGuid>6aec95a3-0cf1-4e40-afbd-cae38b56fbc2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='Submit']</value>
-      <webElementGuid>7672d28c-7d73-4169-a0c4-4980bc210dc5</webElementGuid>
+      <value>//input[@id='mb_btn_ok']</value>
+      <webElementGuid>26c90ee0-a084-4d3b-bbf8-80fca104a902</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mb_btnbox']/input</value>
+      <webElementGuid>c267f48b-9280-4e4d-9009-8a8441dff82b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/input</value>
-      <webElementGuid>6b794637-5d57-4b21-9366-aa58129ef052</webElementGuid>
+      <value>//div[7]/div[2]/input</value>
+      <webElementGuid>59af1c7a-5612-46ed-937c-4fc6179655b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit']</value>
-      <webElementGuid>589551bb-cdeb-40f4-89d2-030dc5afce4b</webElementGuid>
+      <value>//input[@id = 'mb_btn_ok' and @type = 'button']</value>
+      <webElementGuid>6c70a3aa-c2b0-4135-ad71-6439a76346c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
