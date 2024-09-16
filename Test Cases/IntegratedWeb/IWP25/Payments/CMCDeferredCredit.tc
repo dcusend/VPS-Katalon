@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMCDeferredCredit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ca230b0-bc65-46d6-90e2-69013705a325</testCaseGuid>
+</TestCaseEntity>

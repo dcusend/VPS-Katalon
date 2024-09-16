@@ -26,6 +26,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_Receipt/payment_plan_id",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Payment Plan Type: Deferred\u0027])[1]/following::td[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_Receipt/payment_plan_id_XPATH.png"
     }
   ]
 }

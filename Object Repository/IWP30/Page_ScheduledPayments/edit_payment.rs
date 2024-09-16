@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>edit_payment</name>
+   <tag></tag>
+   <elementGuidId>f4b39a21-dfc8-4c1c-94ea-b415b4f9c49c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='deferredPaymentHistory']/tbody/tr/td[6]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;| Edit&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e0578f8b-618c-4dd9-bf6d-9b6c35f55a68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:deferredPaymentAction('edit', '107714');</value>
+      <webElementGuid>21b86ad6-bdfc-4f87-8c97-276614d02af7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>| Edit </value>
+      <webElementGuid>ce2f2361-f126-4f4b-b4ff-912b4c0f63fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;deferredPaymentHistory&quot;)/tbody[1]/tr[@class=&quot;results-td-odd&quot;]/td[6]/a[2]</value>
+      <webElementGuid>e63142d9-ecde-46fa-aa48-c928e85aa248</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='deferredPaymentHistory']/tbody/tr/td[6]/a[2]</value>
+      <webElementGuid>95221dbc-e811-4e08-bd06-20471028a79b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'| Edit')]</value>
+      <webElementGuid>7b76d4e1-1bc6-460d-b2dc-49ad06ace37d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/following::a[1]</value>
+      <webElementGuid>9f444d5b-0103-4dbf-a2b4-8b327aa45587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENDING'])[1]/following::a[2]</value>
+      <webElementGuid>5061460a-a67d-453c-bb70-6f9d2e6d9d97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='| Cancel'])[1]/preceding::a[1]</value>
+      <webElementGuid>9b2137c7-65aa-4a05-9e27-d3943ede1c68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='| Edit']/parent::*</value>
+      <webElementGuid>38b4b13e-35a2-4c91-923e-30231866fd4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:deferredPaymentAction('edit', '107714');&quot;)]</value>
+      <webElementGuid>f05bdf7c-5cfc-46ae-90c5-d80db71bf546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>d13b1f1b-1633-4928-a1ad-bd748e0db990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = concat(&quot;javascript:deferredPaymentAction(&quot; , &quot;'&quot; , &quot;edit&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;107714&quot; , &quot;'&quot; , &quot;);&quot;) and (text() = '| Edit ' or . = '| Edit ')]</value>
+      <webElementGuid>2767ddc2-7c01-49d8-8171-9e5069b490d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

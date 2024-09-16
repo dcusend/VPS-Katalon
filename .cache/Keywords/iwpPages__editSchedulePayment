@@ -1,0 +1,42 @@
+{
+  "keywordFileContentHash": "0D039D832E1B6B4BF5DAB6B2CFA0C70E",
+  "keywordClasses": [
+    {
+      "name": "iwpPages.editSchedulePayment",
+      "keywordMethods": [
+        {
+          "name": "setDataSchedPayment",
+          "parameters": [
+            {
+              "name": "rowS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dataFileS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

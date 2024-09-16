@@ -135,17 +135,17 @@ public class ccPaymentEntryPage {
 
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),30)) {
-				if ((!CCAmount.isEmpty())) {
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),CCAmount)
-				}
-				else {
-					println("Amount is not present in the Excel Spreadsheet")
-				}
-//			}
-//			else {
-//				println("Amount field is either missing or not modifiable on CC Payment Entry page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),30)) {
+			if ((!CCAmount.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),CCAmount)
+			}
+			else {
+				println("Amount is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("Amount field is either missing or not modifiable on CC Payment Entry page")
+			//			}
 
 
 
@@ -274,11 +274,14 @@ public class ccPaymentEntryPage {
 				println("Year field is missing on CC Payment Entry page")
 			}
 
-
-
 			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ProcessDate'),30)) {
 			if ((!CCDate.isEmpty())) {
-				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ProcessDate'),CCDate)
+
+				//This js script is written to set the future date
+				String js = '''
+				   document.getElementById('processDate').value = '08/09/2025'
+				  '''
+				WebUI.executeJavaScript(js, null)
 			}
 			else {
 				println("CCDate is not present in the Excel Spreadsheet")
@@ -290,45 +293,45 @@ public class ccPaymentEntryPage {
 
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL1'),30)) {
-				if ((!CCAL1.isEmpty())) {
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL1'),CCAL1)
-				}
-				else {
-					println("CCAL1 is not present in the Excel Spreadsheet")
-				}
-//			}
-//			else {
-//				println("AL1 field is missing on CC Payment Entry page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL1'),30)) {
+			if ((!CCAL1.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL1'),CCAL1)
+			}
+			else {
+				println("CCAL1 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("AL1 field is missing on CC Payment Entry page")
+			//			}
 
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL2'),30)) {
-				if ((!CCAL2.isEmpty())) {
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL2'),CCAL2)
-				}
-				else {
-					println("CCAL2 is not present in the Excel Spreadsheet")
-				}
-//			}
-//			else {
-//				println("AL2 field is missing on CC Payment Entry page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL2'),30)) {
+			if ((!CCAL2.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL2'),CCAL2)
+			}
+			else {
+				println("CCAL2 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("AL2 field is missing on CC Payment Entry page")
+			//			}
 
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ZIP'),30)) {
-				if ((!CCZIP.isEmpty())) {
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ZIP'),CCZIP)
-				}
-				else {
-					println("CCZIP is not present in the Excel Spreadsheet")
-				}
-//			}
-//			else {
-//				println("ZIP field is missing on CC Payment Entry page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ZIP'),30)) {
+			if ((!CCZIP.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ZIP'),CCZIP)
+			}
+			else {
+				println("CCZIP is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("ZIP field is missing on CC Payment Entry page")
+			//			}
 
 
 
@@ -564,9 +567,13 @@ public class ccPaymentEntryPage {
 			}
 
 
-
 			if ((!CCDate.isEmpty())) {
-				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ProcessDate'),CCDate)
+				//This js script is written to set the future date
+				String js = '''
+				   document.getElementById('processDate').value = '08/09/2035'
+				  '''
+				WebUI.executeJavaScript(js, null)
+				//				WebUI.click(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ProcessDate'),CCDate)
 			}
 			else {
 				println("CCDate is not present in the Excel Spreadsheet")

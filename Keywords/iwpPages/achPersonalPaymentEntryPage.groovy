@@ -24,7 +24,7 @@ public class achPersonalPaymentEntryPage {
 
 
 	String Amount, UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10
-	String Fname, Lname, RTN, ACNumber, CACNumber, ACType, Date, AL1, AL2, ZIP, Email
+	String Fname, Lname, RTN, ACNumber, CACNumber, ACType, Date, AL1, AL2, ZIP, Email, CCDate
 
 
 	@Keyword
@@ -96,7 +96,10 @@ public class achPersonalPaymentEntryPage {
 		Email = findTestData(dataFileM).getValue('Email', rowM)
 		println(Email)
 
-
+		CCDate = findTestData(dataFileM).getValue('CCDate', rowM)
+		
+		println(CCDate)
+		
 		// End of getData
 	}
 
@@ -283,6 +286,16 @@ public class achPersonalPaymentEntryPage {
 			}
 
 
+			if ((!CCDate.isEmpty())) {		
+				//This js script is written to set the future date
+				String js = '''
+				   document.getElementById('processDate').value = '08/09/2035'
+				  '''
+				WebUI.executeJavaScript(js, null)
+			}
+			else {
+				println("CCDate is not present in the Excel Spreadsheet")
+			}
 
 			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),30)) {
 			if ((!AL1.isEmpty())) {

@@ -274,7 +274,16 @@ public class achCorporatePaymentEntryPage {
 			//			else {
 			//				println("AL1 field is either missing or not modifiable on ACH Corporate Payment Entry Page")
 			//			}
-
+			if ((!Date.isEmpty())) {
+				//This js script is written to set the future date
+				String js = '''
+				   document.getElementById('processDate').value = '08/09/2025'
+				  '''
+				WebUI.executeJavaScript(js, null)
+			}
+			else {
+				println("Date is not present in the Excel Spreadsheet")
+			}
 
 
 			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHCorporatePaymentEntry/txt_AL2'),30)) {

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CCDeferredCredit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d25e2db2-8da3-4891-8181-d6aa1431d28a</testCaseGuid>
+</TestCaseEntity>
