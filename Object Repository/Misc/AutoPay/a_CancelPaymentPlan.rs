@@ -6,12 +6,16 @@
    <elementGuidId>c98b619e-6c7c-4429-8c52-a28f53d3734f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a:nth-of-type(3)</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Cancel' or . = 'Cancel')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//table[@id='deferredPaymentHistory']/tbody/tr/td[6]/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(3)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0d8ea56c-3cf4-4727-80b8-27537cedc9f6</webElementGuid>
+      <webElementGuid>a9d3caae-da1e-4bf7-83fa-73f0f77a263f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:deferredPaymentAction('cancel', '107589');</value>
-      <webElementGuid>ff583d34-ee78-48e2-8640-4fcc11a86cf4</webElementGuid>
+      <webElementGuid>f66182e3-1b16-4b08-898c-1d8973a96114</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
-      <webElementGuid>7d56cc0f-9810-4b99-be88-d4c870f4b336</webElementGuid>
+      <webElementGuid>4a1f06ad-acdc-4859-8ac4-12bb7553eb25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;deferredPaymentHistory&quot;)/tbody[1]/tr[1]/td[6]/a[3]</value>
-      <webElementGuid>3c365b6a-794d-492c-9592-f792d174f1a8</webElementGuid>
+      <webElementGuid>9c755edc-5a6b-423a-b783-01724ef20394</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='deferredPaymentHistory']/tbody/tr/td[6]/a[3]</value>
-      <webElementGuid>cb23b032-a238-4228-b991-934403c9ec9c</webElementGuid>
+      <webElementGuid>93567e90-1128-4895-b0d6-b8dec2c84508</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Cancel')]</value>
-      <webElementGuid>d8c1ba8e-77d0-4c03-842c-973c167c66fa</webElementGuid>
+      <webElementGuid>040ae242-73d6-426c-b8a6-988807fdbfee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[1]</value>
-      <webElementGuid>6c6e7f53-8cbc-4859-9e60-4ed36d53578e</webElementGuid>
+      <webElementGuid>4f8a818d-81c2-4058-832a-206b1d4f3d48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/following::a[2]</value>
-      <webElementGuid>01db0832-1dfd-4685-89c8-6a17eb11f17a</webElementGuid>
+      <webElementGuid>039e3d26-16a7-4f7e-aa1d-3d902411f6f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::a[1]</value>
-      <webElementGuid>0ea41d75-f58e-461f-b37b-f2823356566d</webElementGuid>
+      <webElementGuid>f51798a3-f41a-4e95-bfb0-b3f8140f6b9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/preceding::a[1]</value>
-      <webElementGuid>09b12ec4-0402-439c-bc7c-bd24c6ee35c4</webElementGuid>
+      <webElementGuid>797da216-938f-46c7-a6c5-ea41a77b45b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cancel']/parent::*</value>
-      <webElementGuid>d0f3502e-b6cb-41b5-a2cf-5098494b26db</webElementGuid>
+      <webElementGuid>fe2776f7-660c-4e39-ae55-04ce461722ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, &quot;javascript:deferredPaymentAction('cancel', '107589');&quot;)]</value>
-      <webElementGuid>fa0d7af9-3810-4fab-9a71-ceca172dc02d</webElementGuid>
+      <webElementGuid>18f815dd-f778-4aee-881c-7917dfd7f8d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]</value>
-      <webElementGuid>efecf96f-7dad-4432-8433-21333b1ba5b3</webElementGuid>
+      <webElementGuid>1e307de9-751f-4c79-a35c-88c6f4812f5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = concat(&quot;javascript:deferredPaymentAction(&quot; , &quot;'&quot; , &quot;cancel&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;107589&quot; , &quot;'&quot; , &quot;);&quot;) and (text() = 'Cancel' or . = 'Cancel')]</value>
-      <webElementGuid>12479eb6-d666-47f3-a785-8682e68ff281</webElementGuid>
+      <webElementGuid>632d20f1-b976-4424-b248-3872b81891c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
