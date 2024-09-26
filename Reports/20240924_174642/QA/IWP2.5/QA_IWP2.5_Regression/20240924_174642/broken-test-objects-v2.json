@@ -1,0 +1,23 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_Confirmation/ConfirmButton",
+      "brokenLocator": "//*[@type \u003d \u0027submit\u0027 and @name \u003d \u0027confirmNotifyAction\u0027 and @id \u003d \u0027submitYes\u0027 and @value \u003d \u0027Confirm\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240924_174642/QA/IWP2.5/QA_IWP2.5_Regression/20240924_174642/Object Repository/IWP30/Page_Confirmation/ConfirmButton_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240924_174642/QA/IWP2.5/QA_IWP2.5_Regression/20240924_174642/Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction_position.png"
+    }
+  ]
+}

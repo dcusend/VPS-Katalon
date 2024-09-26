@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FD3E1DB9F9C8EB4EDD09F04B768C73DE",
+  "keywordFileContentHash": "856A3E68564A7639E458A637756D05D5",
   "keywordClasses": [
     {
       "name": "iwpPages.achCorporatePaymentEntryPage",
@@ -24,11 +24,43 @@
               "name": "dataFileM",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getDataCorporateEF",
+          "parameters": [
+            {
+              "name": "rowM",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dataFileM",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
@@ -56,11 +88,11 @@
               "name": "dataFileS",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
+                "hasImmutableClassName": true,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyCreateReceiptLabelsDeferredPC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74a93af5-e373-4a77-a6e4-c2307f6e9f39</testCaseGuid>
+</TestCaseEntity>

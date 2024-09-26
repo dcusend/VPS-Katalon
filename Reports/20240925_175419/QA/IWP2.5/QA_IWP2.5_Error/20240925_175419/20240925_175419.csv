@@ -1,0 +1,307 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA_IWP2.5_Error,Edge Chromium 128,,,25-09-2024 17:54:38,25-09-2024 18:17:41,23m - 2.688s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/CardExpiredErrorCC,Edge Chromium 128,,,25-09-2024 17:54:39,25-09-2024 17:56:04,1m - 25.514s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.011s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.030s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.009s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.010s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.010s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.003s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.004s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.009s,PASSED
+"nameSheet = ""CardExpiredErrorCC""",Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.006s,PASSED
+"dataFile = ""IWPTestData/IWP25CardExpiredErrorCC""",Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.004s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:40,0.002s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 17:54:40,25-09-2024 17:54:42,1.296s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 17:54:42,25-09-2024 17:54:42,0.021s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 17:54:42,25-09-2024 17:56:04,1m - 22.515s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/CardNotAcceptedErrorCC,Edge Chromium 128,,,25-09-2024 17:56:04,25-09-2024 17:57:16,1m - 11.884s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.002s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.001s,PASSED
+"nameSheet = ""CardNotAcceptedErrorCC""",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.002s,PASSED
+"dataFile = ""IWPTestData/IWP25CardNotAcceptedErrorCC""",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.002s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.003s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.105s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:56:05,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 17:56:05,25-09-2024 17:57:16,1m - 11.287s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorCC,Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:58:28,1m - 11.996s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+"nameSheet = ""MaxAmountErrorCC""",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25MaxAmountErrorCC""",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.082s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:57:16,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 17:57:16,25-09-2024 17:58:28,1m - 11.576s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorCorp,Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:59:42,1m - 14.262s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.002s,PASSED
+"nameSheet = ""MaxAmountErrorCorp""",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25MaxAmountErrorCorp""",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.002s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.074s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:58:28,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 17:58:28,25-09-2024 17:59:42,1m - 13.857s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPC,Edge Chromium 128,,,25-09-2024 17:59:42,25-09-2024 18:00:57,1m - 14.180s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.000s,PASSED
+"nameSheet = ""MaxAmountErrorPC""",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MaxAmountErrorPC""",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.081s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 17:59:43,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 17:59:43,25-09-2024 18:00:57,1m - 13.806s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPS,Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:02:10,1m - 13.856s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.005s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.005s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.003s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.000s,PASSED
+"nameSheet = ""MaxAmountErrorPS""",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25MaxAmountErrorPS""",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.057s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:00:57,0.003s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:00:57,25-09-2024 18:02:10,1m - 13.471s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorCC,Edge Chromium 128,,,25-09-2024 18:02:10,25-09-2024 18:03:22,1m - 11.562s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.003s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.004s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.002s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.001s,PASSED
+"nameSheet = ""MinAmountErrorCC""",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25MinAmountErrorCC""",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.090s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:02:11,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:02:11,25-09-2024 18:03:22,1m - 10.988s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorCorp,Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:04:33,1m - 10.753s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.002s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.000s,PASSED
+"nameSheet = ""MinAmountErrorCorp""",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MinAmountErrorCorp""",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.086s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:03:22,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:03:22,25-09-2024 18:04:33,1m - 10.318s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPC,Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:05:46,1m - 12.852s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.016s,PASSED
+"nameSheet = ""MinAmountErrorPC""",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.002s,PASSED
+"dataFile = ""IWPTestData/IWP25MinAmountErrorPC""",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.002s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.063s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:04:33,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:04:33,25-09-2024 18:05:46,1m - 12.412s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPS,Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:07:03,1m - 17.108s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.003s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+"nameSheet = ""MinAmountErrorPS""",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MinAmountErrorPS""",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.144s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:05:46,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:05:46,25-09-2024 18:07:03,1m - 16.617s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MRFCorporate,Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:59,56.561s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.000s,PASSED
+"nameSheet = ""MRFCorp""",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MRFCorp""",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.071s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:03,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:07:03,25-09-2024 18:07:59,56.052s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorCC,Edge Chromium 128,,,25-09-2024 18:07:59,25-09-2024 18:09:09,1m - 9.466s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.000s,PASSED
+"nameSheet = ""NoOverPayErrorCC""",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.002s,PASSED
+"dataFile = ""IWPTestData/IWP25NoOverPayErrorCC""",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.002s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.067s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:08:00,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:08:00,25-09-2024 18:09:09,1m - 9.128s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorCorp,Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:10:16,1m - 6.798s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.000s,PASSED
+"nameSheet = ""NoOverPayErrorCorp""",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25NoOverPayErrorCorp""",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.058s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:09:09,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:09:09,25-09-2024 18:10:16,1m - 6.472s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPC,Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:11:30,1m - 13.901s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.000s,PASSED
+"nameSheet = ""NoOverPayErrorPC""",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25NoOverPayErrorPC""",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.065s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:10:16,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:10:16,25-09-2024 18:11:30,1m - 13.563s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPS,Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:12:38,1m - 8.601s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.003s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.003s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.001s,PASSED
+"nameSheet = ""NoOverPayErrorPS""",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25NoOverPayErrorPS""",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.089s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:11:30,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:11:30,25-09-2024 18:12:38,1m - 8.192s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorCC,Edge Chromium 128,,,25-09-2024 18:12:38,25-09-2024 18:13:46,1m - 7.692s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.000s,PASSED
+"nameSheet = ""NoUnderPayErrorCC""",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoUnderPayErrorCC""",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.060s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:12:39,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:12:39,25-09-2024 18:13:46,1m - 7.299s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorCorp,Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:14:56,1m - 9.662s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.001s,PASSED
+"nameSheet = ""NoUnderPayErrorCorp""",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoUnderPayErrorCorp""",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.054s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:13:46,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:13:46,25-09-2024 18:14:56,1m - 9.355s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPC,Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:16:32,1m - 36.335s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.001s,PASSED
+"nameSheet = ""NoUnderPayErrorPC""",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25NoUnderPayErrorPC""",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.059s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:14:56,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:14:56,25-09-2024 18:16:32,1m - 35.923s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPS,Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:17:41,1m - 8.934s,PASSED
+"resText = ""Fail""",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.000s,PASSED
+"nameSheet = ""NoUnderPayErrorPS""",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoUnderPayErrorPS""",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.078s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:16:32,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 128,,,25-09-2024 18:16:32,25-09-2024 18:17:41,1m - 8.538s,PASSED

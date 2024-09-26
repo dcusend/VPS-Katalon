@@ -12,623 +12,322 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>194b1741-3e99-472f-b592-fd84448dc092</testSuiteGuid>
    <testCaseLink>
-      <guid>d0409350-2b3a-4a9b-9e05-a9aa4b5eedc5</guid>
+      <guid>f8b871a9-9b0d-4e29-afef-4185b4e7c8fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorCorp</testCaseId>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/CCDeferredCorp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d8b3d91c-239c-4777-9de6-be063e3c4cf4</guid>
+      <guid>f7c9abf9-e439-41d7-af8b-04219bb003b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPC</testCaseId>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/CCDeferredCredit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>28fcf575-f7d3-4b52-aae0-9a0c1f833e24</guid>
+      <guid>b83a6939-287d-4ee5-b23a-b34a5efd3078</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorCorp</testCaseId>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/CCDeferredPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>eb90c4f2-8ca8-487c-9d03-6c3d1813d4c9</guid>
+      <guid>2b82be7b-93b4-419a-9ccc-d4da36c7f50d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPC</testCaseId>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/CCDeferredPS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>40b61ac5-9fee-4782-a5dd-5e2800e8a497</guid>
+      <guid>814e48a0-03c8-4762-8c6c-c61037f6fa5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MRFCorporate</testCaseId>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/CMCDeferredCorp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>90eb0f75-1841-4dda-b0e1-0da6ba65847e</guid>
+      <guid>ba96da88-ccb8-453d-b2e6-cd0b91509f95</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorCorp</testCaseId>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/CMCDeferredCredit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9299dcb9-d370-42b5-ac91-fda7a42706f7</guid>
+      <guid>b206d62e-89d0-4e25-9f36-65bf10e05e96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPC</testCaseId>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/CMCDeferredPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>112a068c-d8b3-41a5-9496-bbdf5f1000ec</guid>
+      <guid>71598912-dc58-4576-9308-8238a00d02c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorCorp</testCaseId>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/CMCDeferredPS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bd47f11e-187a-4fac-a2d3-5a6a2f368f16</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a897bf6a-5c1e-4901-89fe-ad56d6fa0b94</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>040d0075-478a-4fdc-84e9-32c01fbebb37</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>95921ba0-31ca-4b61-8c9f-d79ade46fa3c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>21076efa-f557-42ee-988f-8ec2650e7723</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>379b69fd-e27d-423c-8122-af82bcc58afe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorpDCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2ec4afc6-2130-46c2-a5fa-78ebb1feef30</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorporate</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>830d4e96-8239-45f0-b616-fbac25d26470</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorpSCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8f0d4ce3-083f-4ebe-b2be-34a986ab8016</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalCheckDCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>954eea8b-8ee0-432d-9388-9588de45a89b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalCheckSCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7a24b61d-7f1e-438d-a6f8-b48d565e336c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowSuccesfulPaymentCC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d4140a34-ee69-4662-a01e-3aa32cab10c5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d8e3b284-8f6b-4568-b02f-358d9102009a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>65869651-0fa5-4907-8f3f-9a80999b49f0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ed599118-0301-4c34-8094-dd6005d7e2d0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d069e74e-6975-4fab-ba42-9826c848d45c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>866f5f56-b571-44e8-8a53-a90f10e49a88</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>41d4ac35-05a0-418c-859b-f22d15dfc6a6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MRFCorporate</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b43d42b1-512c-45e9-ad9f-2650a1975f7a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>26613909-3f8c-45e9-b53e-6bb4194a4fcf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0f6da91e-7a70-4b39-97fb-6a339ca12c08</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>756f3cb0-7cd3-4792-9763-850f72bc4d2e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>279969f8-61a9-40d0-bb64-b1c05578d98d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3d666303-c8bb-42c8-9681-18090c304dcd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>230fe045-55a3-4a40-8333-4da92137325d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>01b478c8-3918-42ba-ad71-adf25dece5eb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fee70911-7641-469b-ac12-feb4bb1f9073</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>62efe253-4f6b-408f-89d2-081e6baf5989</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7b4520ed-fe5e-4b58-b7c8-b61d4c9aa8eb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f10b9bac-91ae-4387-860a-db187ca99bf0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>260110c7-08dd-4b77-8abb-617a5cc339a8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorpDCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>926408e0-fafa-4f6d-885e-46dafec23361</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorporate</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>192aaeda-ee7a-43f2-b11e-377f3ef9a7c9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorpSCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>021e0f40-7b98-4e96-ad36-b3ef9a6b5e2d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalCheckDCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>055fb4bf-5f29-4e59-acd1-ffb5d12a9655</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalCheckSCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>af77f045-ff52-4fec-901b-e5392fe5d8df</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalSavingsDCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>76d20359-cbf2-447d-b4bb-c5d054f88faa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalSavingsSCF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2eb2aef3-57c3-4b6f-8d02-6f8215311bbf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowSuccesfulPaymentCC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>541c5478-f431-4083-819d-87fbddcdc524</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorCC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5c957ec4-dd3a-4071-b646-ce54398b5bb4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>30b87a78-9a13-4ae5-993d-8a358c5a2879</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ffbd4982-a079-4d57-bbc6-142bacf1e866</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>db2d690d-5afe-4ce3-b40a-c9bb4b3990a6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorCC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>00b995e7-e377-4b77-ada7-2df029f10d46</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c68610a5-642c-4944-ad6f-1e5f91d005ce</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4ca2ce85-80b5-45ac-94de-401983759b50</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8b3af01b-3324-454c-bdc0-122e13ddd7e1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/MRFCorporate</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>58914e17-1986-43f3-8bca-582bbcf60c2a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorCC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b3ebde88-a564-439a-8604-9e2043fcf1b4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>48aa5d5b-8f95-40c5-9092-17a2bbbbec2a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a1d7b9e5-59a3-4e80-b27c-aab25677346d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a7f4e402-d923-4136-9aae-38155f4154ab</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorCC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2ed79898-e1e1-416e-b40e-d259503c5e76</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e19ec5e1-7acb-4c37-82de-b4fc456ca9cf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>154317e0-8d0e-4bb8-84d3-b49fad01ca9b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f18a7c86-de40-4046-af47-67f6e258388c</guid>
+      <guid>1021a140-113c-4671-8e96-cf11728bb327</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountCC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>29de50fc-d0f4-4c28-8c5f-8747f54fa588</guid>
+      <guid>ed2ae927-30ad-455a-9619-d34d1cd34179</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountCorp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>39e1abc5-3d9a-4216-83d7-ed72b3740b02</guid>
+      <guid>edf16367-0cc7-4d93-aeb1-e7ca676fe5dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7567739-3652-43ad-aca6-7ec93c36c7a4</guid>
+      <guid>f964068a-1c50-4ea4-a53a-59925a80acbe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountPS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>90775a07-5e51-404e-aba4-ff890505d1e6</guid>
+      <guid>e99d2839-af69-48b6-a019-30a38d4588bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayCorp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab09cdaf-dd37-4e2f-8802-b6c933f600c8</guid>
+      <guid>6fa875a9-cedd-4d20-a636-afa0358a3a8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayCredit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>71a2848c-142f-4f8f-8173-dc1bb5c5d4ee</guid>
+      <guid>11c1bdf2-3155-4c38-9e10-afd6e924d383</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4929e9b8-09bd-49ba-a3cf-59574ba42964</guid>
+      <guid>4b7ecb21-831a-4031-a542-406e6bfbf2b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayPS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>add0058c-bc08-4362-a013-197d8387c33d</guid>
+      <guid>e5e2f609-4aef-4813-bebd-edccc0a0088a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorpDCF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fcba39d9-f234-4039-997a-891a64fdf552</guid>
+      <guid>ca724878-a08c-4eea-8963-ca52aeacb109</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorporate</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>de358c25-2ed8-43bd-9bbd-21f75af4c158</guid>
+      <guid>21dd0bc5-cc4a-409c-b9d8-d4841296da89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorpSCF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b8425b5c-1b51-4660-bfa6-79afeb277954</guid>
+      <guid>af60aa32-465a-4cb1-9abd-7257a630bd27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCreditDCF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6702663d-be29-4b7b-a349-27b30eacff20</guid>
+      <guid>9854eb4d-695f-4ebc-abdd-4fd1ac413f09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowCreditSCF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1e003f0-8d5f-4c71-9ec7-0481781175e2</guid>
+      <guid>60df4180-789a-4a85-92e4-54d5210bcea0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalCheckDCF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0bd193b5-a98b-42c8-8cf2-91bac7f10e62</guid>
+      <guid>fd1b35e3-836c-444c-bb06-cb1854530a32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalCheckSCF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c4f996e9-f483-44e6-9704-a85c8c2f66a8</guid>
+      <guid>e9d8b9f9-43b6-4f31-83da-46df90cc747e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalSavingsDCF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63c15f15-aac0-4dd4-ab80-ee8a7aea0bcc</guid>
+      <guid>c9a2f8fe-9a9c-4b01-a888-1d658d73195f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalSavingsSCF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec9602e8-41f0-4c01-a441-8631234afbcb</guid>
+      <guid>83e6ed3f-60b0-4d8b-8194-8854cfe2d64d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/PayNowSuccesfulPaymentCC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3727fc85-ebc6-47cf-abba-92392d8e2035</guid>
+      <guid>efecfa6d-1196-4149-8185-8f81bd5e8b2b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyCancelReceiptLabelsDeferredCC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8599ed38-a00b-4770-9a21-866231290508</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyCancelReceiptLabelsDeferredCorp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8156cd3d-ead4-42a6-b14d-66adbb8ddd96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyCancelReceiptLabelsDeferredPC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ecf417c2-1c53-436b-a774-a44c8b9fc63d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyCancelReceiptLabelsDeferredPS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d8a4690b-f17d-431c-9fd6-5fc7d1db256e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyConfirmPageLabelsCC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c50ec2e-0282-4e0e-9ae4-1aa7ade4698d</guid>
+      <guid>0f696cbe-26dc-4a89-9a30-c73b36fc06ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyConfirmPageLabelsCorp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba4f7dfe-1449-486c-aa8b-b5c1dbde4411</guid>
+      <guid>24d56651-4cac-43bc-bb99-92465a143b9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyConfirmPageLabelsPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>32554f57-a13a-44ea-99c4-284c7e803028</guid>
+      <guid>625bfb4e-2af4-46cb-a09a-d3197cf9ad00</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyConfirmPageLabelsPS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>950bd7c1-76d4-4def-a6c6-f1ca25a20e45</guid>
+      <guid>681a9aa6-f491-4bc3-9b02-038423335c35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyCreateReceiptLabelsDeferredCC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb97aa9b-b5eb-4417-8c54-b1d9df88e790</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyCreateReceiptLabelsDeferredCorp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b30b6b3f-ed2d-4cbf-9f44-d3a79ad0d941</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyCreateReceiptLabelsDeferredPC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5cb92e5-dfe2-4fa3-bad7-5687ab73c94e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyCreateReceiptLabelsDeferredPS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f676991-f999-4550-8cfe-099b6db46f5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyEditReceiptLabelsDeferredCC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bbb83c35-f8a1-4471-b441-f27bf483d9d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyEditReceiptLabelsDeferredCorp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d92e2514-8fa4-4659-af8e-d08b24072a57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyEditReceiptLabelsDeferredPC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>541efe73-4f6e-4165-bc6e-51e860008532</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyEditReceiptLabelsDeferredPS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb669c53-215b-4ab5-80a8-726b64ae41c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyReceiptPageLabelsCC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e12cb220-247b-4170-b813-4299c4db30fd</guid>
+      <guid>47b5ae86-50a7-4d8c-b665-68e3ff2aea41</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyReceiptPageLabelsCorp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c2537f2-f079-4649-9b3f-b9c54eb91ff5</guid>
+      <guid>3e51709d-5475-4ada-a048-c3815744aef4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyReceiptPageLabelsPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9e8114c7-25f3-4706-90a8-0e8e6d90ddf1</guid>
+      <guid>c2f82eb2-9b17-4023-b699-9593a11cd8f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP25/Payments/VerifyReceiptPageLabelsPS</testCaseId>

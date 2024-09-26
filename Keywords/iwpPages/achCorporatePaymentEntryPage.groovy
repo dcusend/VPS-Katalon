@@ -24,12 +24,12 @@ public class achCorporatePaymentEntryPage {
 
 
 	String Amount, UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10
-	String CompanyName, EIN, RTN, ACNumber, CACNumber, Date, AL1, AL2, ZIP, Email
+	String CompanyName, EIN, RTN, ACNumber, CACNumber, CCDate, AL1, AL2, ZIP, Email
 	def MV
 
 
 	@Keyword
-	def getDataCorporate(int rowM, String dataFileM) {
+	def getDataCorporate(int rowM, dataFileM) {
 
 		CompanyName = findTestData(dataFileM).getValue('CompanyName', rowM)
 		println(CompanyName)
@@ -79,8 +79,8 @@ public class achCorporatePaymentEntryPage {
 		CACNumber = findTestData(dataFileM).getValue('CACNumber', rowM)
 		println(CACNumber)
 
-		Date = findTestData(dataFileM).getValue('Date', rowM)
-		println(Date)
+		CCDate = findTestData(dataFileM).getValue('CCDate', rowM)
+		println(CCDate)
 
 		AL1 = findTestData(dataFileM).getValue('AL1', rowM)
 		println(AL1)
@@ -101,9 +101,87 @@ public class achCorporatePaymentEntryPage {
 
 
 	@Keyword
-	def setDataCorporate(int rowS, String dataFileS) {
+	def getDataCorporateEF(int rowM, dataFileM) {
 
-		this.getDataCorporate(rowS, dataFileS)
+		CompanyName = dataFileM.getValue('CompanyName', rowM)
+		println(CompanyName)
+
+		EIN = dataFileM.getValue('EIN', rowM)
+		println(EIN)
+
+		Amount = dataFileM.getValue('Amount', rowM)
+		println(Amount)
+
+		UDF1 = dataFileM.getValue('UDF1', rowM)
+		println(UDF1)
+
+		UDF2 = dataFileM.getValue('UDF2', rowM)
+		println(UDF2)
+
+		UDF3 = dataFileM.getValue('UDF3', rowM)
+		println(UDF3)
+
+		UDF4 = dataFileM.getValue('UDF4', rowM)
+		println(UDF4)
+
+		UDF5 = dataFileM.getValue('UDF5', rowM)
+		println(UDF5)
+
+		UDF6 = dataFileM.getValue('UDF6', rowM)
+		println(UDF6)
+
+		UDF7 = dataFileM.getValue('UDF7', rowM)
+		println(UDF7)
+
+		UDF8 = dataFileM.getValue('UDF8', rowM)
+		println(UDF8)
+
+		UDF9 = dataFileM.getValue('UDF9', rowM)
+		println(UDF9)
+
+		UDF10 = dataFileM.getValue('UDF10', rowM)
+		println(UDF10)
+
+		RTN = dataFileM.getValue('RTN', rowM)
+		println(RTN)
+
+		ACNumber = dataFileM.getValue('ACNumber', rowM)
+		println(ACNumber)
+
+		CACNumber = dataFileM.getValue('CACNumber', rowM)
+		println(CACNumber)
+
+		CCDate = dataFileM.getValue('CCDate', rowM)
+		println(Date)
+
+		AL1 = dataFileM.getValue('AL1', rowM)
+		println(AL1)
+
+		AL2 = dataFileM.getValue('AL2', rowM)
+		println(AL2)
+
+		ZIP = dataFileM.getValue('ZIP', rowM)
+		println(ZIP)
+
+		Email = dataFileM.getValue('Email', rowM)
+		println(Email)
+
+		MV = dataFileM.getValue('MessageVersion', rowM)
+		println(MV)
+		// End of getData
+	}
+
+	@Keyword
+	def setDataCorporate(int rowS, dataFileS) {
+
+		def String datafile_class = dataFileS.getClass()
+		if(datafile_class.contains('com.kms.katalon.core.testdata.reader.SheetPOI')) {
+			this.getDataCorporateEF(rowS, dataFileS)
+		}
+		else {
+			this.getDataCorporate(rowS, dataFileS)
+		}
+
 
 		// Verify if we are on ACH Corporate Payment Entry page and populate the page
 
@@ -261,6 +339,18 @@ public class achCorporatePaymentEntryPage {
 			else {
 				println("Confirm Account Number field is either missing or not modifiable on ACH Corporate Payment Entry Page")
 			}
+			
+			
+			if ((!CCDate.isEmpty())) {
+				//This js script is written to set the future date
+				String js = '''
+				   document.getElementById('processDate').value = '08/09/2025'
+				  '''
+				WebUI.executeJavaScript(js, null)
+			}
+			else {
+				println("CCDate is not present in the Excel Spreadsheet")
+			}
 
 
 			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHCorporatePaymentEntry/txt_AL1'),30)) {
@@ -274,16 +364,6 @@ public class achCorporatePaymentEntryPage {
 			//			else {
 			//				println("AL1 field is either missing or not modifiable on ACH Corporate Payment Entry Page")
 			//			}
-			if ((!Date.isEmpty())) {
-				//This js script is written to set the future date
-				String js = '''
-				   document.getElementById('processDate').value = '08/09/2025'
-				  '''
-				WebUI.executeJavaScript(js, null)
-			}
-			else {
-				println("Date is not present in the Excel Spreadsheet")
-			}
 
 
 			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHCorporatePaymentEntry/txt_AL2'),30)) {

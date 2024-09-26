@@ -30,8 +30,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 
 
 	
-	nameSheet = "CCDeferredPlanCredit"
-	dataFile = "IWPTestData/IWP25CCDeferredCredit"
+	nameSheet = "CMCDeferredPlanCredit"
+	dataFile = "IWPTestData/IWP25CMCDeferredCredit"
 	dataFileEmulator = "IWPTestData/EmulatorData"
 	
 	

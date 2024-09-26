@@ -24,7 +24,7 @@ public class achPersonalPaymentEntryPage {
 
 
 	String Amount, UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10
-	String Fname, Lname, RTN, ACNumber, CACNumber, ACType, Date, AL1, AL2, ZIP, Email, CCDate
+	String Fname, Lname, RTN, ACNumber, CACNumber, ACType, AL1, AL2, ZIP, Email, CCDate
 
 
 	@Keyword
@@ -81,7 +81,7 @@ public class achPersonalPaymentEntryPage {
 		ACType = findTestData(dataFileM).getValue('ACType', rowM)
 		println(ACType)
 
-		Date = findTestData(dataFileM).getValue('Date', rowM)
+		CCDate = findTestData(dataFileM).getValue('CCDate', rowM)
 		println(Date)
 
 		AL1 = findTestData(dataFileM).getValue('AL1', rowM)
@@ -96,20 +96,101 @@ public class achPersonalPaymentEntryPage {
 		Email = findTestData(dataFileM).getValue('Email', rowM)
 		println(Email)
 
-		CCDate = findTestData(dataFileM).getValue('CCDate', rowM)
-		
-		println(CCDate)
-		
+		//		CCDate = findTestData(dataFileM).getValue('CCDate', rowM)
+		//
+		//		println(CCDate)
+
+		// End of getData
+	}
+
+	@Keyword
+	def getDataACHPPMEF(int rowM, dataFileM) {
+
+		Amount = dataFileM.getValue('Amount', rowM)
+		println(Amount)
+
+		UDF1 = dataFileM.getValue('UDF1', rowM)
+		println(UDF1)
+
+		UDF2 = dataFileM.getValue('UDF2', rowM)
+		println(UDF2)
+
+		UDF3 = dataFileM.getValue('UDF3', rowM)
+		println(UDF3)
+
+		UDF4 = dataFileM.getValue('UDF4', rowM)
+		println(UDF4)
+
+		UDF5 = dataFileM.getValue('UDF5', rowM)
+		println(UDF5)
+
+		UDF6 = dataFileM.getValue('UDF6', rowM)
+		println(UDF6)
+
+		UDF7 = dataFileM.getValue('UDF7', rowM)
+		println(UDF7)
+
+		UDF8 = dataFileM.getValue('UDF8', rowM)
+		println(UDF8)
+
+		UDF9 = dataFileM.getValue('UDF9', rowM)
+		println(UDF9)
+
+		UDF10 = dataFileM.getValue('UDF10', rowM)
+		println(UDF10)
+
+		Fname = dataFileM.getValue('Fname', rowM)
+		println(Fname)
+
+		Lname = dataFileM.getValue('Lname', rowM)
+		println(Lname)
+
+		RTN = dataFileM.getValue('RTN', rowM)
+		println(RTN)
+
+		ACNumber = dataFileM.getValue('ACNumber', rowM)
+		println(ACNumber)
+
+		CACNumber = dataFileM.getValue('CACNumber', rowM)
+		println(CACNumber)
+
+		ACType = dataFileM.getValue('ACType', rowM)
+		println(ACType)
+
+		CCDate = dataFileM.getValue('CCDate', rowM)
+		println(Date)
+
+		AL1 = dataFileM.getValue('AL1', rowM)
+		println(AL1)
+
+		AL2 = dataFileM.getValue('AL2', rowM)
+		println(AL2)
+
+		ZIP = dataFileM.getValue('ZIP', rowM)
+		println(ZIP)
+
+		Email = dataFileM.getValue('Email', rowM)
+		println(Email)
+
+		//		CCDate = dataFileM.getValue('CCDate', rowM)
+		//
+		//		println(CCDate)
+
 		// End of getData
 	}
 
 
 	@Keyword
-	def setDataACHPPM(int rowS, String dataFileS) {
+	def setDataACHPPM(int rowS, dataFileS) {
 
 
-		this.getDataACHPPM(rowS, dataFileS)
-
+		def String datafile_class = dataFileS.getClass()
+		if(datafile_class.contains('com.kms.katalon.core.testdata.reader.SheetPOI')) {
+			this.getDataACHPPMEF(rowS, dataFileS)
+		}
+		else {
+			this.getDataACHPPM(rowS, dataFileS)
+		}
 
 		// Verify if we are on ACH Personal Payment Entry page and populate the page
 
@@ -286,10 +367,11 @@ public class achPersonalPaymentEntryPage {
 			}
 
 
-			if ((!CCDate.isEmpty())) {		
+
+			if ((!CCDate.isEmpty())) {
 				//This js script is written to set the future date
 				String js = '''
-				   document.getElementById('processDate').value = '08/09/2035'
+				   document.getElementById('processDate').value = '08/09/2025'
 				  '''
 				WebUI.executeJavaScript(js, null)
 			}
