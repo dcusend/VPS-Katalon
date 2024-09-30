@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyReceiptPageLabelsCorp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97ee7f5c-2c5b-4555-89d6-f46bde26fece</testCaseGuid>
+</TestCaseEntity>

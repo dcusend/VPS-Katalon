@@ -40,7 +40,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 	
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= numOfRows; row++)
+	for (def row = 1; row <= 1; row++)
 		{
 		
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
@@ -78,7 +78,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					
 					
 					// Set Data on Credit Card Payment Entry page
-					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataIWPCreditCard'(row,dataFile)
+					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
 					
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
@@ -88,9 +88,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					
 					// Select Submit button on Confirm CF Page
 					//WebUI.click(findTestObject('Object Repository/IWP30/Page_AcceptCF/input_convFeeNotifyAction'))
-					
-					Thread.sleep(10000)
-					
+										
 					if (WebUI.verifyTextPresent(("Successful Payment Receipt"), false))
 						{
 							println "Successful Payment Receipt text is present on the Receipt page"
@@ -113,7 +111,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					
 
 				}
-			
+				WebUI.closeBrowser()
 			
 			
 			

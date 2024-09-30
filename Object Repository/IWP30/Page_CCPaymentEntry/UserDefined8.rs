@@ -4,7 +4,14 @@
    <name>UserDefined8</name>
    <tag></tag>
    <elementGuidId>bbb825f4-c4e4-4890-9edd-18336a121ef2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'variableField8DropdownGroupItemID' and @alt = 'UDF8 Label tabindex=']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -12,6 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>86644e16-384d-4aeb-83b9-42c48303ebdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -19,6 +27,7 @@
       <name>name</name>
       <type>Main</type>
       <value>variableField8DropdownGroupItemID</value>
+      <webElementGuid>4bdafc34-bc62-4c56-8fa3-bd149964eb9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,13 +35,15 @@
       <name>alt</name>
       <type>Main</type>
       <value>UDF8 Label tabindex=</value>
+      <webElementGuid>da8a5bc7-bae7-44cd-9dcc-812cec229ded</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>--Select One--TennisSoccer</value>
+      <webElementGuid>f85db8e5-6a43-491c-9758-4d6ac8f54ebf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;process&quot;)/table[1]/tbody[1]/tr[11]/td[@class=&quot;payor_opt&quot;]/select[1]</value>
+      <webElementGuid>990bc99d-9947-4146-a825-f6fe05bb0dc2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='variableField8DropdownGroupItemID']</value>
+      <webElementGuid>16d00a1c-a479-43d6-9dce-1d63a858e973</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='process']/table/tbody/tr[11]/td[3]/select</value>
+      <webElementGuid>993a7e80-c90d-4357-a859-9fcc11bf3736</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::select[1]</value>
+      <webElementGuid>2304f842-804d-474a-bd6d-4ace0a8d79fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::select[1]</value>
+      <webElementGuid>9a57d09c-2ca3-4c21-9f24-f47e47c50b15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,5 +91,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[11]/td[3]/select</value>
+      <webElementGuid>97a5d3ec-ef70-442c-87d3-54e0f1bc006b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

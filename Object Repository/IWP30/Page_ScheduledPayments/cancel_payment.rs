@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cancel_payment</name>
+   <tag></tag>
+   <elementGuidId>2d08733b-a4f3-48ae-a1fe-3dc1fb198ee7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = concat(&quot;javascript:deferredPaymentAction(&quot; , &quot;'&quot; , &quot;cancel&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;107714&quot; , &quot;'&quot; , &quot;);&quot;) and (text() = '| Cancel' or . = '| Cancel')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='deferredPaymentHistory']/tbody/tr/td[6]/a[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;| Cancel&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>348bfd04-042b-4743-898d-55f91f317a27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:deferredPaymentAction('cancel', '107714');</value>
+      <webElementGuid>319db5b1-4d9d-4fb1-88b9-f7e350f838a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>| Cancel</value>
+      <webElementGuid>ee24e208-f157-4161-be65-7f5db7de0936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;deferredPaymentHistory&quot;)/tbody[1]/tr[@class=&quot;results-td-odd&quot;]/td[6]/a[3]</value>
+      <webElementGuid>ffaad88d-e979-4a93-ae5f-e2252c8d625c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='deferredPaymentHistory']/tbody/tr/td[6]/a[3]</value>
+      <webElementGuid>fa854bec-cecd-4eda-8308-57ed2316260f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'| Cancel')]</value>
+      <webElementGuid>39ce4a71-d337-4226-ab4a-5bd94f937d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='| Edit'])[1]/following::a[1]</value>
+      <webElementGuid>5412a68e-8017-4936-b380-b7de2a0277de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/following::a[2]</value>
+      <webElementGuid>e43e6d7e-326f-4708-88d9-bcf155249e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='| Cancel']/parent::*</value>
+      <webElementGuid>6478bd9f-fc48-41da-88f7-8cf3075fdc44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:deferredPaymentAction('cancel', '107714');&quot;)]</value>
+      <webElementGuid>d7deb5ae-83d4-49cd-a37b-1ae497f7ab31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>40b82f12-29a1-4791-a22c-121c4e217a82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = concat(&quot;javascript:deferredPaymentAction(&quot; , &quot;'&quot; , &quot;cancel&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;107714&quot; , &quot;'&quot; , &quot;);&quot;) and (text() = '| Cancel' or . = '| Cancel')]</value>
+      <webElementGuid>8031c363-2819-40f9-a5a1-58ed0c4a9ebb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyConfirmPageLabelsPS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26e265bd-f9e2-4631-868c-7e22c922dcd3</testCaseGuid>
+</TestCaseEntity>

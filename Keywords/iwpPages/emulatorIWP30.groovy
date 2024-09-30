@@ -43,6 +43,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
+
 class emulatorIWP30 {
 	/**
 	 * Refresh browser
@@ -345,7 +346,15 @@ class emulatorIWP30 {
 
 				MV = findTestData(dataFileE).getValue('MV', rowE)
 				Amount = findTestData(dataFileE).getValue('Amount', rowE)
-				CAN = findTestData(dataFileE).getValue('CAN', rowE)
+
+				println(CAN)
+				if((CAN == null)) {
+					CAN = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+					
+				}
+				else {
+					CAN = findTestData(dataFileE).getValue('CAN', rowE)
+				}
 				Action = findTestData(dataFileE).getValue('Action', rowE)
 				Lang = findTestData(dataFileE).getValue('Lang', rowE)
 				Fname = findTestData(dataFileE).getValue('Fname', rowE)

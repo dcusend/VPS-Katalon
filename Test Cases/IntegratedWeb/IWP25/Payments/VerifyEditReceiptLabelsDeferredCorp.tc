@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyEditReceiptLabelsDeferredCorp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d121d28-56fc-4039-abdf-619b7493860d</testCaseGuid>
+</TestCaseEntity>

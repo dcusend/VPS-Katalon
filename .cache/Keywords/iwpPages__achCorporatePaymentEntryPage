@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "7C9B80A7EFB921E1693A24EE012AC5B8",
+  "keywordFileContentHash": "856A3E68564A7639E458A637756D05D5",
   "keywordClasses": [
     {
       "name": "iwpPages.achCorporatePaymentEntryPage",
@@ -24,17 +24,52 @@
               "name": "dataFileM",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
+                "hasImmutableClassName": true,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
             }
           ],
           "javadoc": ""
+<<<<<<< HEAD
+=======
+        },
+        {
+          "name": "getDataCorporateEF",
+          "parameters": [
+            {
+              "name": "rowM",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dataFileM",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+>>>>>>> d8d6887e7ffada48147d9a010dd5ffc261148d2f
         },
         {
           "name": "setDataCorporate",
@@ -56,11 +91,11 @@
               "name": "dataFileS",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
+                "hasImmutableClassName": true,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
