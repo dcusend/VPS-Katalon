@@ -332,6 +332,14 @@ public class ccPaymentEntryBootstrapPage {
 	
 	
 	
+//*********************************************************************************************
+	 
+	 /*SetData for UDF 1 to 10
+	  Takes the argument for UDF ID and queries NormalizedSharedData spreadsheet for UDF Data*/
+	 
+	 
+//*********************************************************************************************
+	
 	@Keyword
 	def setDataCardUDF(int rowS, String dataFileS)
 	{
@@ -341,6 +349,12 @@ public class ccPaymentEntryBootstrapPage {
 	}
 	
 	
+	
+//*********************************************************************************************
+	 
+	 /*END*/
+	 
+//*********************************************************************************************
 	
 	
 	// placeholder for PaymentDate for Deferred
