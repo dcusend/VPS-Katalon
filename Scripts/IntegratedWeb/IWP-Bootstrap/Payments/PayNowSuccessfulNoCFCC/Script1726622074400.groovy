@@ -81,9 +81,37 @@ for (def row = 1; row <= numOfRows; row++)
 			// Populate Test Harness
 			CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 	
-	
+			// Select Credit Card Payment Method and Make a Payment button
+			// Add this to it's own reuseable library
+			WebUI.check(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_Pay by Credit or Debit Card'))
+			WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_payNowSubmit'))
 
-
+			
+			// setData for Cardholder Name
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardName'(NameID)
+			
+			// setData for Card Information
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardInfo'(CardID)
+			
+			// setData for Address
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardAddress'(AddressID)
+			
+			// setData for Email and Phone Number
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardEmailAndPhone'(EmailPhoneID)
+				
+			// setData for Amount
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataAmount'(Amount)
+			
+			// setData for UDFs
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		}
 
 
