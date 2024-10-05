@@ -25,6 +25,7 @@ import internal.GlobalVariable
 public class ccPaymentEntryBootstrapPage {
 	
 	def cardholderName, cardNumber, cvv, expMM, expYYYY, AL1, AL2, ZIP, email, phone, amount
+	def udf1, udf2, udf3, udf4, udf5, udf6, udf7, udf8, udf9, udf10 
 	
 	String pathSharedData = "KatalonData/IWPBootstrapData/NormalizedSharedData.xlsx"
 	String pathOR = "Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/"
@@ -340,11 +341,70 @@ public class ccPaymentEntryBootstrapPage {
 	 
 //*********************************************************************************************
 	
+	
 	@Keyword
-	def setDataCardUDF(int rowS, String dataFileS)
+	def getDataCardUDF(String UDFIDG)
 	{
 		
+		def dataFileUDF = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "UDFData", true)
 		
+		def numOfRowsUDF = dataFileUDF.getRowNumbers()
+
+		
+		for (def row = 1; row <= numOfRowsUDF; row++)
+			{
+	
+				def ID = dataFileUDF.getValue("ID", row)
+				
+				if (ID.equals(UDFIDG))
+					{
+					
+					udf1 = dataFileUDF.getValue("UDF1", row)
+					udf2 = dataFileUDF.getValue("UDF2", row)
+					udf3 = dataFileUDF.getValue("UDF3", row)
+					udf4 = dataFileUDF.getValue("UDF4", row)
+					udf5 = dataFileUDF.getValue("UDF5", row)
+					udf6 = dataFileUDF.getValue("UDF6", row)
+					udf7 = dataFileUDF.getValue("UDF7", row)
+					udf8 = dataFileUDF.getValue("UDF8", row)
+					udf9 = dataFileUDF.getValue("UDF9", row)
+					udf10 = dataFileUDF.getValue("UDF10", row)
+					
+					}
+			}
+	}
+	
+	
+	
+	@Keyword
+	def setDataCardUDF(String UDFIDS)
+	{
+		this.getDataCardUDF(UDFIDS)
+		
+		// populate only UDFs 2, 3, 7, 8 since they are the only ones modifiable
+		
+		if ((!udf2.isEmpty())) 
+			{
+				WebUI.setText(findTestObject(pathOR + 'input_userDefined2'),udf2)
+			}
+		
+			
+		if ((!udf3.isEmpty())) 
+			{
+				WebUI.setText(findTestObject(pathOR + 'input_userDefined3'),udf3)
+			}
+		
+			
+		if ((!udf7.isEmpty())) 
+			{
+				WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined7'),udf7,false)
+			}
+		
+			
+		if ((!udf8.isEmpty())) 
+			{
+				WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined8'),udf8,false)
+			}
 		
 	}
 	
@@ -361,14 +421,28 @@ public class ccPaymentEntryBootstrapPage {
 	
 	
 	
-	// placeholder for Store Payment Method checkbox
+	// Select Store Payment Method checkbox
+	@Keyword
+	def selectCheckboxStorePaymentMethod()
+	{
+		WebUI.check(findTestObject(pathOR + 'input_ccSavePaymentMethod'))
+	}
 	
 	
-	// placeholder for Customer CC Terms checkbox
+	// Select Customer CC Terms checkbox
+	@Keyword
+	def selectCheckboxCCTerms()
+	{
+		WebUI.check(findTestObject(pathOR + 'input_checkedAcceptCondition'))
+	}
 	
 	
-	// placeholder for selecting Continue button
-	
+	// Select Continue button
+	@Keyword
+	def selectButtonContinue()
+	{
+		WebUI.click(findTestObject(pathOR + 'input_Continue'))
+	}
 	
 	// placeholder for selecting Change Payment Method button
 	

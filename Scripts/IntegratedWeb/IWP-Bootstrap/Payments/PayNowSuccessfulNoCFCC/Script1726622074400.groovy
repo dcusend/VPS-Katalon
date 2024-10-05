@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testdata.reader.ExcelFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 
 
@@ -81,10 +82,12 @@ for (def row = 1; row <= numOfRows; row++)
 			// Populate Test Harness
 			CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 	
-			// Select Credit Card Payment Method and Make a Payment button
-			// Add this to it's own reuseable library
-			WebUI.check(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_Pay by Credit or Debit Card'))
-			WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_payNowSubmit'))
+			// Select Credit Card Payment Method
+				CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByCreditCard'()
+			
+			
+			// Select Make a Payment Button
+				CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
 
 			
 			// setData for Cardholder Name
@@ -103,9 +106,36 @@ for (def row = 1; row <= numOfRows; row++)
 				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataAmount'(Amount)
 			
 			// setData for UDFs
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardUDF'(UDFID)
 			
-			
-			
+			// Select Customer CC Terms Checkbox
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
+				
+			// Select Continue Button
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectButtonContinue'()
+				
+			// Select Confirm Button on Payment Confirmation Page
+				CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
+				
+				
+				Thread.sleep(10000)
+				
+				if (WebUI.verifyTextPresent(("Successful Payment Receipt"), false))
+					{
+						println "Successful Payment Receipt text is present on the Receipt page"
+						KeywordUtil.markPassed("Successful Payment Receipt text is present on the Receipt page")
+						resText = "Pass"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+
+					}
+				else
+					{
+						println "Successful Payment Receipt text is not present on the Receipt page"
+						KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
+						resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
+					}
 			
 			
 			
