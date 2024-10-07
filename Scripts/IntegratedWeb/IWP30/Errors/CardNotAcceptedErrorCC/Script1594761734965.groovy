@@ -145,7 +145,7 @@ import internal.GlobalVariable as GlobalVariable
 					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),30))
 						{
 							
-								WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),"5844444444444441")
+								WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),"4847184080857023")
 							
 						}
 					else {println("Card Number field is missing on CC Payment Entry page")}
@@ -165,7 +165,7 @@ import internal.GlobalVariable as GlobalVariable
 					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Month'),30))
 						{
 							
-								WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Month'),"07",false)
+								WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Month'),"05",false)
 							
 						}
 					else {println("Month field is missing on CC Payment Entry page")}
@@ -175,7 +175,7 @@ import internal.GlobalVariable as GlobalVariable
 					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),30))
 						{
 							
-								WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),"2025",false)
+								WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),"2026",false)
 							
 						}
 					else {println("Year field is missing on CC Payment Entry page")}
@@ -257,8 +257,8 @@ import internal.GlobalVariable as GlobalVariable
 			
 			
 // Verify the Amount is less than minimum error
-			WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number. Only American Express , Discover , MasterCard , Visa Debit and Visa card(s) is(are) accepted"), false)
+			WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number. Only American Express , Discover , MasterCard and Visa card(s) is(are) accepted"), false)
 			
 			
 // Close the Browser
-			WebUI.closeBrowser()
+			//WebUI.closeBrowser()

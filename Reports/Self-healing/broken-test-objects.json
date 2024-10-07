@@ -64,6 +64,61 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_AcceptCF/input_convFeeNotifyAction",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_AcceptCF/input_convFeeNotifyAction_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Misc/AutoPay/select_YYYY",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027cardExpYear\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Misc/AutoPay/select_YYYY_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Misc/AutoPay/input_confirmNotifyAction",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Misc/AutoPay/input_confirmNotifyAction_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Misc/AutoPay/select_UDFQuarter",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027variableField1DropdownGroupItemID\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Misc/AutoPay/select_UDFQuarter_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Misc/AutoPay/input_true_formSubmit",
+      "brokenLocator": "//*[@type \u003d \u0027submit\u0027 and @value \u003d \u0027Submit\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@type \u003d \u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Misc/AutoPay/input_true_formSubmit_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Misc/AutoPay/div_107568",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027leftColumn\u0027]/div[13]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Misc/AutoPay/div_107568_XPATH.png"
     }
   ]
 }

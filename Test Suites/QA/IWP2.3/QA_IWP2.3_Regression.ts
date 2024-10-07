@@ -4,7 +4,7 @@
    <name>QA_IWP2.3_Regression</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>iahmed@govolution.com;</mailRecipient>
+   <mailRecipient>iahmed@govolution.com;Ayesha.Kowkab@deluxe.com;Haris.Ahmed@deluxe.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -408,6 +408,34 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP23-SelIDE/TermsAndConditionsPC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>950b37c2-8c0a-4681-a2c5-5fbf4b6a8fd8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP23-SelIDE/VerifyConfirmationPageLabelsCC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33279b98-9567-4148-a38c-43c5da158e2e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP23-SelIDE/VerifyConfirmationPageLabelsPC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c4b7b08d-2165-4970-b14e-992e72ab69bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP23-SelIDE/VerifyReceiptPageLabelsCC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a547af13-719e-45b7-b662-02b4fb04213b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IntegratedWeb/IWP23-SelIDE/VerifyReceiptPageLabelsPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

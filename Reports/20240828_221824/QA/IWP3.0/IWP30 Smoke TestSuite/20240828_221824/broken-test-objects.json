@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_AcceptCF/input_convFeeNotifyAction",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240828_221824/QA/IWP3.0/IWP30 Smoke TestSuite/20240828_221824/Object Repository/IWP30/Page_AcceptCF/input_convFeeNotifyAction_position.png"
+    }
+  ]
+}

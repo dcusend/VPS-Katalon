@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA and QA2 Only</description>
+   <name>VerifyReceiptPageLabelsCC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6354477a-13bf-4e1b-9931-a1f9e381bd8d</testCaseGuid>
+</TestCaseEntity>

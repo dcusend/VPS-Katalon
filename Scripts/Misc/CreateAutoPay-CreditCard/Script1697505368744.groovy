@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 
-for (def row = 1; row <= 20; row++)
+for (def row = 1; row <= 1; row++)
 	{
 
 
@@ -66,6 +66,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Misc/AutoPay/select_
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Misc/AutoPay/select_YYYY'),'2029', true)
 
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Misc/AutoPay/select_UDFQuarter'),'Red', true)
+
+
 
 //WebUI.click(findTestObject('Object Repository/Misc/AutoPay/input_endDate'))
 //WebUI.setText(findTestObject('Object Repository/Misc/AutoPay/input_endDate'), '12/16/2023')
@@ -74,10 +77,10 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Misc/AutoPay/select_
 //WebUI.click(findTestObject('Object Repository/Misc/AutoPay/td_16'))
 
 
-WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar1'))
-WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar2'))
-WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar3'))
-WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar4'))
+//WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar1'))
+//WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar2'))
+//WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar3'))
+//WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar4'))
 //WebUI.click(findTestObject('Object Repository/Misc/AutoPay/selectCalendar5'))
 
 

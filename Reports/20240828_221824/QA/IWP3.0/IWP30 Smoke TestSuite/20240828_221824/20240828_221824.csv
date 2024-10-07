@@ -1,0 +1,260 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IWP30 Smoke TestSuite,Chrome 127.0.0.0,,,2024-08-28 22:18:31,2024-08-28 23:14:21,55m - 50.353s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Payments/PayNowSuccessfulPaymentNoCFCC,Chrome 127.0.0.0,Works in QA and QA2,,2024-08-28 22:18:31,2024-08-28 22:22:30,3m - 58.793s,PASSED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.003s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.002s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.002s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.002s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.002s,PASSED
+"nameSheet = ""PayNowCC""",Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.001s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditCard""",Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:32,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 127.0.0.0,,,2024-08-28 22:18:32,2024-08-28 22:18:33,0.923s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 127.0.0.0,,,2024-08-28 22:18:33,2024-08-28 22:18:33,0.012s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:18:33,2024-08-28 22:22:30,3m - 57.123s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Payments/PayNowSuccessfulPaymentSCFCC,Chrome 127.0.0.0,Works in QA and QA2,,2024-08-28 22:22:30,2024-08-28 22:31:13,8m - 42.519s,FAILED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+"nameSheet = ""PayNowCCSCF""",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditCardSCF""",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.065s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:22:31,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:22:31,2024-08-28 22:31:13,8m - 41.893s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Payments/PayNowSuccessfulPaymentDCFCC,Chrome 127.0.0.0,Works in QA and QA2,,2024-08-28 22:31:13,2024-08-28 22:39:54,8m - 41.915s,FAILED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+"nameSheet = ""PayNowCCDCF""",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditCardDCF""",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.065s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:31:13,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:31:13,2024-08-28 22:39:54,8m - 41.258s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Payments/VerifyDualCFVerbiage,Chrome 127.0.0.0,Works in both QA and QA2,,2024-08-28 22:39:54,2024-08-28 22:41:21,1m - 26.263s,FAILED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.001s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+"nameSheet = ""DCFVerbiage""",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+"dataFile = ""IWPTestData/DCFVerbiage""",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.063s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:39:55,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:39:55,2024-08-28 22:41:21,1m - 25.615s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Payments/VerifySingleCFVerbiage,Chrome 127.0.0.0,Works in QA and QA2,,2024-08-28 22:41:21,2024-08-28 22:42:47,1m - 26.077s,FAILED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.000s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.000s,PASSED
+"nameSheet = ""SCFVerbiage""",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.000s,PASSED
+"dataFile = ""IWPTestData/SCFVerbiage""",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.073s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:41:21,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:41:21,2024-08-28 22:42:47,1m - 25.463s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Payments/NoModifyAmountCC,Chrome 127.0.0.0,Works in both QA and QA2.,,2024-08-28 22:42:47,2024-08-28 22:45:26,2m - 39.539s,FAILED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.002s,PASSED
+"nameSheet = ""NoModifyAmount""",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+"dataFile = ""IWPTestData/NoModifyAmount""",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.067s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:42:47,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:42:47,2024-08-28 22:45:26,2m - 38.932s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Payments/PayNowReqFieldsCC,Chrome 127.0.0.0,PayNow with Required Fields Only and for Credit Card,,2024-08-28 22:45:26,2024-08-28 22:47:47,2m - 20.606s,PASSED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:45:27,0.002s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:45:27,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:45:27,0.000s,PASSED
+"fileLoc = ""KatalonData/VRelay30PayNow.xlsx""",Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:45:27,0.000s,PASSED
+"nameSheet = ""PayNowCC""",Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:45:27,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP30PayNowCC""",Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:45:27,0.000s,PASSED
+"numOfRows = findTestData(""IWPTestData/IWP30PayNowCC"").getRowNumbers()",Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:45:27,0.060s,PASSED
+println(numOfRows),Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:45:27,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:45:27,2024-08-28 22:47:47,2m - 19.982s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Payments/VerifyUINoCFCC,Chrome 127.0.0.0,"This Test Case verifies the User Interface for Credit Card like Static text, text boxes, drop downs and buttons.",,2024-08-28 22:47:47,2024-08-28 22:55:42,7m - 54.756s,PASSED
+"numOfRows = findTestData(""IWPTestData/VerifyUINoCFCCTestData"").getRowNumbers()",Chrome 127.0.0.0,,,2024-08-28 22:47:48,2024-08-28 22:47:48,0.045s,PASSED
+println(numOfRows),Chrome 127.0.0.0,,,2024-08-28 22:47:48,2024-08-28 22:47:48,0.001s,PASSED
+"dataFile = ""IWPTestData/VerifyUINoCFCCTestData""",Chrome 127.0.0.0,,,2024-08-28 22:47:48,2024-08-28 22:47:48,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:47:48,2024-08-28 22:55:42,7m - 54.168s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Errors/Error-OverAndUnderPay,Chrome 127.0.0.0,Works in both QA and QA2,,2024-08-28 22:55:42,2024-08-28 22:57:16,1m - 33.934s,PASSED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.001s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+"nameSheet = ""OverUnderPay""",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+"dataFile = ""IWPTestData/OverAndUnderPay""",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.066s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:55:42,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:55:42,2024-08-28 22:57:16,1m - 33.325s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Misc,Chrome 127.0.0.0,,,2024-08-28 22:57:16,2024-08-28 23:08:16,11m - 0.189s,PASSED
+"numOfRows = findTestData(""IWPTestData/IWP30PayNowCC"").getRowNumbers()",Chrome 127.0.0.0,,,2024-08-28 22:57:16,2024-08-28 22:57:16,0.051s,PASSED
+println(numOfRows),Chrome 127.0.0.0,,,2024-08-28 22:57:16,2024-08-28 22:57:16,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP30PayNowCC""",Chrome 127.0.0.0,,,2024-08-28 22:57:16,2024-08-28 22:57:16,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 22:57:16,2024-08-28 23:08:16,10m - 59.663s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Errors/AmountLessThanMinCC,Chrome 127.0.0.0,This test case is to verify the error message when Amount is less than Minimum.,,2024-08-28 23:08:16,2024-08-28 23:09:13,57.127s,PASSED
+openBrowser(urlEmulator),Chrome 127.0.0.0,,,2024-08-28 23:08:16,2024-08-28 23:08:18,2.069s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:08:18,2024-08-28 23:08:18,0.040s,PASSED
+iwpPages.emulatorIWP30.setDataEmulatorStandard(),Chrome 127.0.0.0,,,2024-08-28 23:08:18,2024-08-28 23:08:46,27.105s,PASSED
+openBrowser(urlTestHarness),Chrome 127.0.0.0,,,2024-08-28 23:08:46,2024-08-28 23:08:47,1.905s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:08:47,2024-08-28 23:08:48,0.139s,PASSED
+"genRemIDVoid = RandomStringUtils.random(12, true, true)",Chrome 127.0.0.0,,,2024-08-28 23:08:48,2024-08-28 23:08:48,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_QATestHarness/RemittanceID""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:08:48,2024-08-28 23:08:51,3.834s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:08:51,2024-08-28 23:08:55,3.121s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_CCPaymentEntry/Name""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:08:55,2024-08-28 23:09:11,16.666s,PASSED
+"verifyTextPresent(""Amount is less than minimum"", false)",Chrome 127.0.0.0,,,2024-08-28 23:09:11,2024-08-28 23:09:12,0.554s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,2024-08-28 23:09:12,2024-08-28 23:09:13,1.253s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Errors/AmountMoreThanMaxCC,Chrome 127.0.0.0,This test case verifies the error message for when amount is more than maximum.,,2024-08-28 23:09:13,2024-08-28 23:10:09,56.386s,PASSED
+openBrowser(urlEmulator),Chrome 127.0.0.0,,,2024-08-28 23:09:13,2024-08-28 23:09:15,1.986s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:09:15,2024-08-28 23:09:16,0.052s,PASSED
+iwpPages.emulatorIWP30.setDataEmulatorStandard(),Chrome 127.0.0.0,,,2024-08-28 23:09:16,2024-08-28 23:09:42,26.759s,PASSED
+openBrowser(urlTestHarness),Chrome 127.0.0.0,,,2024-08-28 23:09:42,2024-08-28 23:09:44,1.875s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:09:44,2024-08-28 23:09:44,0.043s,PASSED
+"genRemIDVoid = RandomStringUtils.random(12, true, true)",Chrome 127.0.0.0,,,2024-08-28 23:09:44,2024-08-28 23:09:44,0.000s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_QATestHarness/RemittanceID""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:09:44,2024-08-28 23:09:48,3.873s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:09:48,2024-08-28 23:09:51,3.087s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_CCPaymentEntry/Name""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:09:51,2024-08-28 23:10:08,16.520s,PASSED
+"verifyTextPresent(""Amount is greater than maximum"", false)",Chrome 127.0.0.0,,,2024-08-28 23:10:08,2024-08-28 23:10:08,0.541s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,2024-08-28 23:10:08,2024-08-28 23:10:09,1.231s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Errors/MissingReqFieldsCC,Chrome 127.0.0.0,This test case verifies the error messages for the missing required fields,,2024-08-28 23:10:09,2024-08-28 23:10:57,47.361s,PASSED
+openBrowser(urlEmulator),Chrome 127.0.0.0,,,2024-08-28 23:10:10,2024-08-28 23:10:12,1.938s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:10:12,2024-08-28 23:10:12,0.047s,PASSED
+"selectOptionByValue(findTestObject(""IWP30/Page_VRelay30Emulator/MV""), ""3.0"", true)",Chrome 127.0.0.0,,,2024-08-28 23:10:12,2024-08-28 23:10:13,1.123s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Amount""), ""10.50"")",Chrome 127.0.0.0,,,2024-08-28 23:10:13,2024-08-28 23:10:14,0.767s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/CAN""), ""5465460"")",Chrome 127.0.0.0,,,2024-08-28 23:10:14,2024-08-28 23:10:14,0.676s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Action""), ""PayNow"")",Chrome 127.0.0.0,,,2024-08-28 23:10:14,2024-08-28 23:10:15,0.640s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Lang""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:15,2024-08-28 23:10:16,0.630s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Fname""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:16,2024-08-28 23:10:16,0.660s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Lname""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:16,2024-08-28 23:10:17,0.670s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/AL1""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:17,2024-08-28 23:10:18,0.670s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/AL2""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:18,2024-08-28 23:10:18,0.679s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Country""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:18,2024-08-28 23:10:19,0.657s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/City""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:19,2024-08-28 23:10:20,0.648s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/State""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:20,2024-08-28 23:10:20,0.665s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/ZIP""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:20,2024-08-28 23:10:21,0.633s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Order""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:21,2024-08-28 23:10:22,0.622s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Company""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:22,2024-08-28 23:10:22,0.671s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/Email""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:22,2024-08-28 23:10:23,0.681s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF1""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:23,2024-08-28 23:10:24,0.616s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF2""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:24,2024-08-28 23:10:24,0.662s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF3""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:24,2024-08-28 23:10:25,0.653s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF4""), ""data 4"")",Chrome 127.0.0.0,,,2024-08-28 23:10:25,2024-08-28 23:10:26,0.647s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF5""), ""data 5"")",Chrome 127.0.0.0,,,2024-08-28 23:10:26,2024-08-28 23:10:26,0.640s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF6""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:26,2024-08-28 23:10:27,0.667s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF7""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:27,2024-08-28 23:10:28,0.659s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF8""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:28,2024-08-28 23:10:28,0.649s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF9""), ""data 9"")",Chrome 127.0.0.0,,,2024-08-28 23:10:28,2024-08-28 23:10:29,0.634s,PASSED
+"setText(findTestObject(""IWP30/Page_VRelay30Emulator/UDF10""), ""data 10"")",Chrome 127.0.0.0,,,2024-08-28 23:10:29,2024-08-28 23:10:30,0.726s,PASSED
+Thread.sleep(5000),Chrome 127.0.0.0,,,2024-08-28 23:10:30,2024-08-28 23:10:35,5.002s,PASSED
+"click(findTestObject(""IWP30/Page_VRelay30Emulator/Submit""))",Chrome 127.0.0.0,,,2024-08-28 23:10:35,2024-08-28 23:10:35,0.516s,PASSED
+Thread.sleep(5000),Chrome 127.0.0.0,,,2024-08-28 23:10:35,2024-08-28 23:10:40,5.000s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,2024-08-28 23:10:40,2024-08-28 23:10:41,1.242s,PASSED
+openBrowser(urlTestHarness),Chrome 127.0.0.0,,,2024-08-28 23:10:41,2024-08-28 23:10:43,1.963s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:10:43,2024-08-28 23:10:43,0.045s,PASSED
+"genRemIDVoid = RandomStringUtils.random(12, true, true)",Chrome 127.0.0.0,,,2024-08-28 23:10:43,2024-08-28 23:10:43,0.000s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_QATestHarness/RemittanceID""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:10:43,2024-08-28 23:10:47,3.839s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:10:47,2024-08-28 23:10:50,2.631s,PASSED
+"setText(findTestObject(""Object Repository/IWP30/Page_CCPaymentEntry/Amount""), """")",Chrome 127.0.0.0,,,2024-08-28 23:10:50,2024-08-28 23:10:51,1.180s,PASSED
+"click(findTestObject(""Object Repository/IWP30/Page_CCPaymentEntry/ContinueButton""))",Chrome 127.0.0.0,,,2024-08-28 23:10:51,2024-08-28 23:10:52,0.851s,PASSED
+try,Chrome 127.0.0.0,,,2024-08-28 23:10:52,2024-08-28 23:10:56,3.750s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,2024-08-28 23:10:56,2024-08-28 23:10:57,1.257s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Errors/CardExpiredErrorCC,Chrome 127.0.0.0,This Test Case verifies the error message for when the card is expired.,,2024-08-28 23:10:57,2024-08-28 23:11:54,57.082s,PASSED
+openBrowser(urlEmulator),Chrome 127.0.0.0,,,2024-08-28 23:10:57,2024-08-28 23:10:59,1.841s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:10:59,2024-08-28 23:10:59,0.149s,PASSED
+iwpPages.emulatorIWP30.setDataEmulatorStandard(),Chrome 127.0.0.0,,,2024-08-28 23:10:59,2024-08-28 23:11:26,26.986s,PASSED
+openBrowser(urlTestHarness),Chrome 127.0.0.0,,,2024-08-28 23:11:26,2024-08-28 23:11:28,1.897s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:11:28,2024-08-28 23:11:28,0.045s,PASSED
+"genRemIDVoid = RandomStringUtils.random(12, true, true)",Chrome 127.0.0.0,,,2024-08-28 23:11:28,2024-08-28 23:11:28,0.000s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_QATestHarness/RemittanceID""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:11:28,2024-08-28 23:11:32,3.830s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:11:32,2024-08-28 23:11:35,3.197s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_CCPaymentEntry/Name""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:11:35,2024-08-28 23:11:52,16.865s,PASSED
+"verifyTextPresent(""Invalid card expiration date"", false)",Chrome 127.0.0.0,,,2024-08-28 23:11:52,2024-08-28 23:11:53,0.560s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,2024-08-28 23:11:53,2024-08-28 23:11:54,1.289s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Errors/NoOverPayError,Chrome 127.0.0.0,Works in QA and QA2.,,2024-08-28 23:11:54,2024-08-28 23:12:42,47.623s,PASSED
+"resText = ""Fail""",Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.001s,PASSED
+"resColumn = ""Result""",Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.000s,PASSED
+"datCloumn = ""Date""",Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay30PayNowCC.xlsx""",Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.001s,PASSED
+"nameSheet = ""NoOverPay""",Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.000s,PASSED
+"dataFile = ""IWPTestData/NoOverPay""",Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:54,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Chrome 127.0.0.0,,,2024-08-28 23:11:54,2024-08-28 23:11:55,0.085s,PASSED
+"println(""Number of Records: "" + numOfRows)",Chrome 127.0.0.0,,,2024-08-28 23:11:55,2024-08-28 23:11:55,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Chrome 127.0.0.0,,,2024-08-28 23:11:55,2024-08-28 23:12:42,46.986s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Errors/CardNotAcceptedErrorCC,Chrome 127.0.0.0,This Test Case verifies the error message for when a card is not accepted.,,2024-08-28 23:12:42,2024-08-28 23:13:39,56.997s,FAILED
+openBrowser(urlEmulator),Chrome 127.0.0.0,,,2024-08-28 23:12:42,2024-08-28 23:12:44,2.277s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:12:44,2024-08-28 23:12:44,0.046s,PASSED
+iwpPages.emulatorIWP30.setDataEmulatorStandard(),Chrome 127.0.0.0,,,2024-08-28 23:12:44,2024-08-28 23:13:11,26.542s,PASSED
+openBrowser(urlTestHarness),Chrome 127.0.0.0,,,2024-08-28 23:13:11,2024-08-28 23:13:13,1.973s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:13:13,2024-08-28 23:13:13,0.041s,PASSED
+"genRemIDVoid = RandomStringUtils.random(12, true, true)",Chrome 127.0.0.0,,,2024-08-28 23:13:13,2024-08-28 23:13:13,0.000s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_QATestHarness/RemittanceID""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:13:13,2024-08-28 23:13:17,3.817s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:13:17,2024-08-28 23:13:20,3.255s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_CCPaymentEntry/Name""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:13:20,2024-08-28 23:13:37,16.753s,PASSED
+"verifyTextPresent(""This card type is not accepted, please enter a different credit or debit card number. Only American Express , Discover , MasterCard , Visa Debit and Visa card(s) is(are) accepted"", false)",Chrome 127.0.0.0,,,2024-08-28 23:13:37,2024-08-28 23:13:37,0.544s,FAILED
+closeBrowser(),Chrome 127.0.0.0,,,2024-08-28 23:13:37,2024-08-28 23:13:39,1.317s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP30/Errors/DuplicateTransactionCC,Chrome 127.0.0.0,The Test Case verifies the error message for a duplicate transaction.,,2024-08-28 23:13:39,2024-08-28 23:14:21,42.540s,FAILED
+openBrowser(urlEmulator),Chrome 127.0.0.0,,,2024-08-28 23:13:39,2024-08-28 23:13:41,1.897s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:13:41,2024-08-28 23:13:41,0.043s,PASSED
+iwpPages.emulatorIWP30.setDataEmulatorStandard(),Chrome 127.0.0.0,,,2024-08-28 23:13:41,2024-08-28 23:14:08,27.070s,PASSED
+openBrowser(urlTestHarness),Chrome 127.0.0.0,,,2024-08-28 23:14:08,2024-08-28 23:14:10,1.896s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,2024-08-28 23:14:10,2024-08-28 23:14:10,0.043s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/IWP30/Page_QATestHarness/RemittanceID""), 30))",Chrome 127.0.0.0,,,2024-08-28 23:14:10,2024-08-28 23:14:19,9.196s,PASSED
+"verifyTextPresent(""The following error occurred"", false)",Chrome 127.0.0.0,,,2024-08-28 23:14:19,2024-08-28 23:14:19,0.321s,PASSED
+"verifyTextPresent(""ransaction cannot be processed [duplicate transaction]"", false)",Chrome 127.0.0.0,,,2024-08-28 23:14:19,2024-08-28 23:14:20,0.276s,FAILED
+"verifyTextPresent(""Please  click here to continue"", false)",Chrome 127.0.0.0,,,2024-08-28 23:14:20,2024-08-28 23:14:20,0.274s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,2024-08-28 23:14:20,2024-08-28 23:14:21,1.100s,PASSED

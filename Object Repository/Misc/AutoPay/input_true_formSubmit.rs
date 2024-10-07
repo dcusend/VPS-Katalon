@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b9e9f04a-244d-42d8-a2bb-d72220b798f4</webElementGuid>
+      <webElementGuid>7b1f7b79-18eb-4997-9b18-47de0e334703</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>formSubmit</value>
-      <webElementGuid>26125e9d-c7aa-42d7-82ba-522270783b99</webElementGuid>
+      <webElementGuid>a38f1568-3bb1-40f6-b220-ac590b9a2d1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,15 +42,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>7741341a-164a-42ef-a161-e95997aca6c2</webElementGuid>
+      <webElementGuid>b905c85a-b71f-45c9-bea2-4d89af832822</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Submit</value>
-      <webElementGuid>739a1551-c701-4dc2-9844-57d9873242cc</webElementGuid>
+      <value>Continue</value>
+      <webElementGuid>9639fd42-9e29-48b7-8b97-90d52db3747d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[4]/td[1]/form[1]/table[1]/tbody[1]/tr[6]/td[1]/input[@class=&quot;formSubmit&quot;]</value>
-      <webElementGuid>77f126a3-c8eb-486e-bc84-0c1d30a300ef</webElementGuid>
+      <webElementGuid>323d3766-203c-4870-982a-e436f21a5b03</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Submit']</value>
-      <webElementGuid>790467df-04b3-4dd9-9307-a268fedbe0e4</webElementGuid>
+      <webElementGuid>7672d28c-7d73-4169-a0c4-4980bc210dc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/input</value>
-      <webElementGuid>b0cb034b-81f7-42d6-ad65-5732a8ee877e</webElementGuid>
+      <webElementGuid>6b794637-5d57-4b21-9366-aa58129ef052</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit']</value>
-      <webElementGuid>f3dda6f0-2cb6-4623-8ba0-cabfec72f0a0</webElementGuid>
+      <webElementGuid>589551bb-cdeb-40f4-89d2-030dc5afce4b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

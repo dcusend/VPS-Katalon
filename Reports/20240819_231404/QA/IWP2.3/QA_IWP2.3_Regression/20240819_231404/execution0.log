@@ -1,0 +1,3500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-08-19T23:14:12</date>
+  <millis>1724123652884</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/QA/IWP2.3/QA_IWP2.3_Regression</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">0</property>
+  <property name="name">QA_IWP2.3_Regression</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/QA/IWP2.3/QA_IWP2.3_Regression</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:12</date>
+  <millis>1724123652915</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = imtiaz - DESKTOP-B2QI6NS.govolution.com</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">imtiaz - DESKTOP-B2QI6NS.govolution.com</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:12</date>
+  <millis>1724123652919</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:12</date>
+  <millis>1724123652920</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.31.253.185</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">172.31.253.185</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:12</date>
+  <millis>1724123652921</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.6.9.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.6.9.208</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:13</date>
+  <millis>1724123653494</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1CC</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1CC</property>
+  <property name="description">QA and QA2 Only</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1CC</property>
+  <property name="source">E:\Cloned-Project-Katalon\VPS-Katalon\Test Cases\IntegratedWeb\IWP23-SelIDE\AmountInThousands1CC.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:14</date>
+  <millis>1724123654565</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : softAssertion = new org.testng.asserts.SoftAssert()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">35</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:14</date>
+  <millis>1724123654585</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : softAssertion = new org.testng.asserts.SoftAssert()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:14</date>
+  <millis>1724123654586</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;https://www.google.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">36</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:15</date>
+  <millis>1724123655079</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:15</date>
+  <millis>1724123655119</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;acceptInsecureCerts&amp;apos;, &amp;apos;true&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:15</date>
+  <millis>1724123655153</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:18</date>
+  <millis>1724123658144</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 5cf78b3f37609231e46ef545de3ec547</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">5cf78b3f37609231e46ef545de3ec547</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:18</date>
+  <millis>1724123658173</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 127.0.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 127.0.0.0</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:18</date>
+  <millis>1724123658173</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:18</date>
+  <millis>1724123658174</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:18</date>
+  <millis>1724123658176</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:19</date>
+  <millis>1724123659838</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.google.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-08-19T23:14:19</date>
+  <millis>1724123659839</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;https://www.google.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:19</date>
+  <millis>1724123659840</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">37</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:19</date>
+  <millis>1724123659864</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:19</date>
+  <millis>1724123659864</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = &amp;quot;https://www.google.com/&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:19</date>
+  <millis>1724123659866</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = &amp;quot;https://www.google.com/&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:19</date>
+  <millis>1724123659873</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:20</date>
+  <millis>1724123660124</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:20</date>
+  <millis>1724123660125</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : emulatorURL = urlEmulator</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">42</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:20</date>
+  <millis>1724123660641</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : emulatorURL = urlEmulator</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:20</date>
+  <millis>1724123660642</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(emulatorURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">43</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:20</date>
+  <millis>1724123660901</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(emulatorURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:20</date>
+  <millis>1724123660901</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.select(&amp;quot;name=message_version&amp;quot;, &amp;quot;label=2.3&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">50</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:21</date>
+  <millis>1724123661332</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.select(&amp;quot;name=message_version&amp;quot;, &amp;quot;label=2.3&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:21</date>
+  <millis>1724123661334</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">51</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:21</date>
+  <millis>1724123661853</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:21</date>
+  <millis>1724123661853</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=amount&amp;quot;, 00&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">52</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:21</date>
+  <millis>1724123661934</millis>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=amount&amp;quot;, 00&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:21</date>
+  <millis>1724123661934</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=client_account_number&amp;quot;, &amp;quot;CAN12345&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">53</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662015</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=client_account_number&amp;quot;, &amp;quot;CAN12345&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662016</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=action_type&amp;quot;, &amp;quot;PayNow&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">54</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662083</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=action_type&amp;quot;, &amp;quot;PayNow&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662084</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=language&amp;quot;, &amp;quot;en_US&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">55</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662142</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=language&amp;quot;, &amp;quot;en_US&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662143</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_firstname&amp;quot;, &amp;quot;Mandy&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">56</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662204</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_firstname&amp;quot;, &amp;quot;Mandy&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662205</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_lastname&amp;quot;, &amp;quot;Iguera&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">57</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662269</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_lastname&amp;quot;, &amp;quot;Iguera&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662269</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_address&amp;quot;, &amp;quot;56 World Center Drive&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">58</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662330</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_address&amp;quot;, &amp;quot;56 World Center Drive&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662330</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_address2&amp;quot;, &amp;quot;Suite 600&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">59</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662391</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_address2&amp;quot;, &amp;quot;Suite 600&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662391</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_country_id&amp;quot;, &amp;quot;840&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">60</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662458</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_country_id&amp;quot;, &amp;quot;840&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662459</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_city&amp;quot;, &amp;quot;Orlando&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">61</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662521</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_city&amp;quot;, &amp;quot;Orlando&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662521</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_state&amp;quot;, &amp;quot;NH&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">62</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662585</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_state&amp;quot;, &amp;quot;NH&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662585</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_zip&amp;quot;, &amp;quot;03106&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">63</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662638</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_zip&amp;quot;, &amp;quot;03106&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662638</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=order_number&amp;quot;, &amp;quot;PPPPOOOO&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">64</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662692</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=order_number&amp;quot;, &amp;quot;PPPPOOOO&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662692</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined1&amp;quot;, &amp;quot;udf1&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">65</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662755</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined1&amp;quot;, &amp;quot;udf1&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662755</millis>
+  <sequence>66</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined2&amp;quot;, &amp;quot;udf2&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">66</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662824</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined2&amp;quot;, &amp;quot;udf2&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662824</millis>
+  <sequence>68</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined3&amp;quot;, &amp;quot;udf3&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">67</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662893</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined3&amp;quot;, &amp;quot;udf3&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662893</millis>
+  <sequence>70</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined4&amp;quot;, &amp;quot;Orange Label&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">68</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662966</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined4&amp;quot;, &amp;quot;Orange Label&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:22</date>
+  <millis>1724123662967</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined5&amp;quot;, &amp;quot;Soccer Label&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">69</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:23</date>
+  <millis>1724123663029</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined5&amp;quot;, &amp;quot;Soccer Label&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:23</date>
+  <millis>1724123663030</millis>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(&amp;quot;name=submit&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">70</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:23</date>
+  <millis>1724123663263</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(&amp;quot;name=submit&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:23</date>
+  <millis>1724123663263</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">71</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:23</date>
+  <millis>1724123663777</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:23</date>
+  <millis>1724123663777</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : testHarnessURL = urlTestHarness</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">73</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:23</date>
+  <millis>1724123663778</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : testHarnessURL = urlTestHarness</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:23</date>
+  <millis>1724123663779</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(testHarnessURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">74</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:24</date>
+  <millis>1724123664178</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(testHarnessURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:24</date>
+  <millis>1724123664178</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(2000)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">78</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666194</millis>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(2000)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666194</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=application_id&amp;quot;, &amp;quot;653&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">79</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666271</millis>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=application_id&amp;quot;, &amp;quot;653&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666271</millis>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=message_version&amp;quot;, 3&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">80</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666335</millis>
+  <sequence>87</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=message_version&amp;quot;, 3&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666335</millis>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : genRemID = RandomStringUtils.random(12, true, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">82</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666339</millis>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : genRemID = RandomStringUtils.random(12, true, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666339</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=remittance_id&amp;quot;, genRemID)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">85</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666412</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=remittance_id&amp;quot;, genRemID)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666412</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(&amp;quot;css=input.formSubmit&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">86</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666775</millis>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(&amp;quot;css=input.formSubmit&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:26</date>
+  <millis>1724123666776</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">87</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667292</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667292</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.selectWindow(&amp;quot;null&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">88</property>
+  <property name="stepIndex">39</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667308</millis>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.selectWindow(&amp;quot;null&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667308</millis>
+  <sequence>99</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(&amp;quot;name=paymentMethod&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">89</property>
+  <property name="stepIndex">40</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667493</millis>
+  <sequence>102</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1CC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element name=paymentMethod not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at AmountInThousands1CC.run(AmountInThousands1CC:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1724123644344.run(TempTestSuite1724123644344.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element name=paymentMethod not found
+  (Session info: chrome=127.0.6533.120)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2QI6NS&amp;apos;, ip: &amp;apos;172.31.253.185&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\imtiaz\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cf78b3f37609231e46ef545de3ec547
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at Script1700512748913.run(Script1700512748913.groovy:89)
+	... 13 more
+</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element name=paymentMethod not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$3</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>AmountInThousands1CC</class>
+      <method>run</method>
+      <line>89</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1724123644344</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.JavascriptException: javascript error: Element name=paymentMethod not found
+  (Session info: chrome=127.0.6533.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2QI6NS&apos;, ip: &apos;172.31.253.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\imtiaz\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cf78b3f37609231e46ef545de3ec547
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at AmountInThousands1CC.run(AmountInThousands1CC:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1724123644344.run(TempTestSuite1724123644344.groovy:35)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.JavascriptException</property>
+  <property name="failed.exception.message">javascript error: Element name=paymentMethod not found
+  (Session info: chrome=127.0.6533.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2QI6NS&apos;, ip: &apos;172.31.253.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\imtiaz\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cf78b3f37609231e46ef545de3ec547</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667498</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(&amp;quot;name=paymentMethod&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667505</millis>
+  <sequence>107</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1CC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element name=paymentMethod not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at AmountInThousands1CC.run(AmountInThousands1CC:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1724123644344.run(TempTestSuite1724123644344.groovy:35)
+Caused by: org.openqa.selenium.JavascriptException: javascript error: Element name=paymentMethod not found
+  (Session info: chrome=127.0.6533.120)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2QI6NS&amp;apos;, ip: &amp;apos;172.31.253.185&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\imtiaz\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cf78b3f37609231e46ef545de3ec547
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	... 22 more
+</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element name=paymentMethod not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$3</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>AmountInThousands1CC</class>
+      <method>run</method>
+      <line>89</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1724123644344</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.JavascriptException: javascript error: Element name=paymentMethod not found
+  (Session info: chrome=127.0.6533.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2QI6NS&apos;, ip: &apos;172.31.253.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\imtiaz\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cf78b3f37609231e46ef545de3ec547
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at AmountInThousands1CC.run(AmountInThousands1CC:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1724123644344.run(TempTestSuite1724123644344.groovy:35)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.JavascriptException</property>
+  <property name="failed.exception.message">javascript error: Element name=paymentMethod not found
+  (Session info: chrome=127.0.6533.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2QI6NS&apos;, ip: &apos;172.31.253.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\imtiaz\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cf78b3f37609231e46ef545de3ec547</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667524</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1CC</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:27</date>
+  <millis>1724123667534</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1PC</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1PC</property>
+  <property name="description">QA and QA2 Only</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1PC</property>
+  <property name="source">E:\Cloned-Project-Katalon\VPS-Katalon\Test Cases\IntegratedWeb\IWP23-SelIDE\AmountInThousands1PC.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:28</date>
+  <millis>1724123668254</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : softAssertion = new org.testng.asserts.SoftAssert()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">35</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:28</date>
+  <millis>1724123668255</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : softAssertion = new org.testng.asserts.SoftAssert()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:28</date>
+  <millis>1724123668255</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;https://www.google.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">36</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:28</date>
+  <millis>1724123668282</millis>
+  <sequence>116</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:29</date>
+  <millis>1724123669443</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:29</date>
+  <millis>1724123669444</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;acceptInsecureCerts&amp;apos;, &amp;apos;true&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:29</date>
+  <millis>1724123669446</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:30</date>
+  <millis>1724123670903</millis>
+  <sequence>122</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 5e3a3087649b3aff5e3011bbf667c3a8</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">5e3a3087649b3aff5e3011bbf667c3a8</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:30</date>
+  <millis>1724123670935</millis>
+  <sequence>123</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 127.0.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 127.0.0.0</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:30</date>
+  <millis>1724123670936</millis>
+  <sequence>124</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:30</date>
+  <millis>1724123670936</millis>
+  <sequence>125</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:30</date>
+  <millis>1724123670937</millis>
+  <sequence>126</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672296</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.google.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672297</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;https://www.google.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672298</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">37</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672298</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672298</millis>
+  <sequence>132</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : baseUrl = &amp;quot;https://www.google.com/&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672300</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : baseUrl = &amp;quot;https://www.google.com/&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672301</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672320</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672320</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : emulatorURL = urlEmulator</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">41</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672320</millis>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : emulatorURL = urlEmulator</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672320</millis>
+  <sequence>138</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(emulatorURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">42</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672692</millis>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(emulatorURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672692</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.select(&amp;quot;name=message_version&amp;quot;, &amp;quot;label=2.3&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">47</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672956</millis>
+  <sequence>141</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.select(&amp;quot;name=message_version&amp;quot;, &amp;quot;label=2.3&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:32</date>
+  <millis>1724123672956</millis>
+  <sequence>142</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">48</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673469</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673469</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=amount&amp;quot;, 00&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">49</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673538</millis>
+  <sequence>145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=amount&amp;quot;, 00&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673538</millis>
+  <sequence>146</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=client_account_number&amp;quot;, &amp;quot;58478CAN&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">50</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673603</millis>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=client_account_number&amp;quot;, &amp;quot;58478CAN&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673603</millis>
+  <sequence>148</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=action_type&amp;quot;, &amp;quot;PayNow&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">51</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673662</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=action_type&amp;quot;, &amp;quot;PayNow&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673662</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=language&amp;quot;, &amp;quot;en_US&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">52</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673723</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=language&amp;quot;, &amp;quot;en_US&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673723</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_firstname&amp;quot;, &amp;quot;Ajudo&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">53</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673788</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_firstname&amp;quot;, &amp;quot;Ajudo&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673788</millis>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_lastname&amp;quot;, &amp;quot;Larenca&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">54</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673846</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_lastname&amp;quot;, &amp;quot;Larenca&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673846</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_address&amp;quot;, &amp;quot;125 Main Road&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">55</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673909</millis>
+  <sequence>157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_address&amp;quot;, &amp;quot;125 Main Road&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673909</millis>
+  <sequence>158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_address2&amp;quot;, &amp;quot;Suite 600&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">56</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673971</millis>
+  <sequence>159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_address2&amp;quot;, &amp;quot;Suite 600&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:33</date>
+  <millis>1724123673972</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_country_id&amp;quot;, &amp;quot;840&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">57</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674044</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_country_id&amp;quot;, &amp;quot;840&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674045</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_city&amp;quot;, &amp;quot;Manchester&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">58</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674112</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_city&amp;quot;, &amp;quot;Manchester&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674112</millis>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_state&amp;quot;, &amp;quot;NH&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">59</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674164</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_state&amp;quot;, &amp;quot;NH&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674165</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=billing_zip&amp;quot;, &amp;quot;03106&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">60</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674225</millis>
+  <sequence>167</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=billing_zip&amp;quot;, &amp;quot;03106&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674225</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=order_number&amp;quot;, &amp;quot;258741&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">61</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674286</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=order_number&amp;quot;, &amp;quot;258741&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674287</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined1&amp;quot;, &amp;quot;udf1&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">62</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674342</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined1&amp;quot;, &amp;quot;udf1&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674342</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined2&amp;quot;, &amp;quot;udf2&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">63</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674401</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined2&amp;quot;, &amp;quot;udf2&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674401</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined3&amp;quot;, &amp;quot;udf3&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">64</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674463</millis>
+  <sequence>175</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined3&amp;quot;, &amp;quot;udf3&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674464</millis>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined4&amp;quot;, &amp;quot;Orange Label&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">65</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674529</millis>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined4&amp;quot;, &amp;quot;Orange Label&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674530</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=user_defined5&amp;quot;, &amp;quot;Soccer Label&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">66</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674594</millis>
+  <sequence>179</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=user_defined5&amp;quot;, &amp;quot;Soccer Label&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674595</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(&amp;quot;name=submit&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">67</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674806</millis>
+  <sequence>181</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(&amp;quot;name=submit&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:34</date>
+  <millis>1724123674806</millis>
+  <sequence>182</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">68</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:35</date>
+  <millis>1724123675318</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:35</date>
+  <millis>1724123675318</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Thread.sleep(2000)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">69</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677319</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Thread.sleep(2000)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677319</millis>
+  <sequence>186</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : testHarnessURL = urlTestHarness</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">71</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677319</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : testHarnessURL = urlTestHarness</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677320</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.open(testHarnessURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">72</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677647</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.open(testHarnessURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677648</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=application_id&amp;quot;, &amp;quot;653&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">75</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677734</millis>
+  <sequence>191</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=application_id&amp;quot;, &amp;quot;653&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677735</millis>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=message_version&amp;quot;, 3&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">76</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677801</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=message_version&amp;quot;, 3&amp;quot;.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677801</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : genRemIDVoid = RandomStringUtils.random(12, true, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">79</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677802</millis>
+  <sequence>195</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : genRemIDVoid = RandomStringUtils.random(12, true, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677802</millis>
+  <sequence>196</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.type(&amp;quot;name=remittance_id&amp;quot;, genRemIDVoid)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">81</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677868</millis>
+  <sequence>197</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.type(&amp;quot;name=remittance_id&amp;quot;, genRemIDVoid)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:37</date>
+  <millis>1724123677868</millis>
+  <sequence>198</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(&amp;quot;css=input.formSubmit&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">84</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:38</date>
+  <millis>1724123678235</millis>
+  <sequence>200</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(&amp;quot;css=input.formSubmit&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:38</date>
+  <millis>1724123678235</millis>
+  <sequence>201</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">85</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:38</date>
+  <millis>1724123678749</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.waitForPageToLoad(&amp;quot;30000&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:38</date>
+  <millis>1724123678749</millis>
+  <sequence>203</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selenium.click(&amp;quot;xpath=(//input[@name=&amp;apos;paymentMethod&amp;apos;])[2]&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">86</property>
+  <property name="stepIndex">39</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:38</date>
+  <millis>1724123678998</millis>
+  <sequence>207</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1PC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(//input[@name=&amp;apos;paymentMethod&amp;apos;])[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at AmountInThousands1PC.run(AmountInThousands1PC:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1724123644344.run(TempTestSuite1724123644344.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (//input[@name=&amp;apos;paymentMethod&amp;apos;])[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2QI6NS&amp;apos;, ip: &amp;apos;172.31.253.185&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at Script1700522323178.run(Script1700522323178.groovy:86)
+	... 13 more
+</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element xpath=(//input[@name='paymentMethod'])[2] not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$3</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>AmountInThousands1PC</class>
+      <method>run</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1724123644344</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (//input[@name=&apos;paymentMethod&apos;])[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2QI6NS&apos;, ip: &apos;172.31.253.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at AmountInThousands1PC.run(AmountInThousands1PC:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1724123644344.run(TempTestSuite1724123644344.groovy:35)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchElementException</property>
+  <property name="failed.exception.message">Cannot find an element with the xpath: (//input[@name=&apos;paymentMethod&apos;])[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2QI6NS&apos;, ip: &apos;172.31.253.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:38</date>
+  <millis>1724123678999</millis>
+  <sequence>209</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selenium.click(&amp;quot;xpath=(//input[@name=&amp;apos;paymentMethod&amp;apos;])[2]&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:39</date>
+  <millis>1724123679000</millis>
+  <sequence>212</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1PC FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(//input[@name=&amp;apos;paymentMethod&amp;apos;])[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at AmountInThousands1PC.run(AmountInThousands1PC:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1724123644344.run(TempTestSuite1724123644344.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (//input[@name=&amp;apos;paymentMethod&amp;apos;])[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2QI6NS&amp;apos;, ip: &amp;apos;172.31.253.185&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	... 22 more
+</message>
+  <exception>
+    <message>com.thoughtworks.selenium.SeleniumException: Element xpath=(//input[@name='paymentMethod'])[2] not found</message>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.ElementFinder</class>
+      <method>findElement</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.commands.Click</class>
+      <method>handleSeleneseCommand</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.SeleneseCommand</class>
+      <method>apply</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.Timer</class>
+      <method>run</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>execute</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor</class>
+      <method>doCommand</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.DefaultSelenium</class>
+      <method>click</method>
+      <line>198</line>
+    </frame>
+    <frame>
+      <class>com.thoughtworks.selenium.Selenium$click$3</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>AmountInThousands1PC</class>
+      <method>run</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>148</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1724123644344</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (//input[@name=&apos;paymentMethod&apos;])[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2QI6NS&apos;, ip: &apos;172.31.253.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$3.call(Unknown Source)
+	at AmountInThousands1PC.run(AmountInThousands1PC:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1724123644344.run(TempTestSuite1724123644344.groovy:35)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchElementException</property>
+  <property name="failed.exception.message">Cannot find an element with the xpath: (//input[@name=&apos;paymentMethod&apos;])[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2QI6NS&apos;, ip: &apos;172.31.253.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: unknown</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:39</date>
+  <millis>1724123679000</millis>
+  <sequence>214</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands1PC</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:39</date>
+  <millis>1724123679000</millis>
+  <sequence>215</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands2CC</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands2CC</property>
+  <property name="description">QA and QA2 Only</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/IntegratedWeb/IWP23-SelIDE/AmountInThousands2CC</property>
+  <property name="source">E:\Cloned-Project-Katalon\VPS-Katalon\Test Cases\IntegratedWeb\IWP23-SelIDE\AmountInThousands2CC.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:39</date>
+  <millis>1724123679696</millis>
+  <sequence>217</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : softAssertion = new org.testng.asserts.SoftAssert()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">54</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:39</date>
+  <millis>1724123679697</millis>
+  <sequence>218</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : softAssertion = new org.testng.asserts.SoftAssert()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:39</date>
+  <millis>1724123679697</millis>
+  <sequence>219</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;https://www.google.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">55</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:39</date>
+  <millis>1724123679709</millis>
+  <sequence>221</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:40</date>
+  <millis>1724123680899</millis>
+  <sequence>222</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:40</date>
+  <millis>1724123680899</millis>
+  <sequence>224</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;acceptInsecureCerts&amp;apos;, &amp;apos;true&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:40</date>
+  <millis>1724123680900</millis>
+  <sequence>225</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-08-19T23:14:42</date>
+  <millis>1724123682354</millis>
+  <sequence>227</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 43ed039db065fc5c723e5d3a3099c0f0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">43ed039db065fc5c723e5d3a3099c0f0</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:42</date>
+  <millis>1724123682378</millis>
+  <sequence>228</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 127.0.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 127.0.0.0</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:42</date>
+  <millis>1724123682378</millis>
+  <sequence>229</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:42</date>
+  <millis>1724123682379</millis>
+  <sequence>230</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2024-08-19T23:14:42</date>
+  <millis>1724123682379</millis>
+  <sequence>231</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
