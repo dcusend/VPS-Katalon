@@ -87,9 +87,5 @@ public class debitPersonalsetData {
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined10'), UDF10)
 
 		WebUI.click(findTestObject(path_DebitPersonal + 'button_Submit'))
-
-
-
-
 	}
 }

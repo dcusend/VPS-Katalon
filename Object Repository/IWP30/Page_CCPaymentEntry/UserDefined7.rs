@@ -4,7 +4,14 @@
    <name>UserDefined7</name>
    <tag></tag>
    <elementGuidId>8be45205-8e44-4999-9d98-aa8cc24a839c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'variableField7DropdownGroupItemID']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -12,6 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>41f4aa10-a660-48b4-bf67-f08793436bc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -19,20 +27,23 @@
       <name>name</name>
       <type>Main</type>
       <value>variableField7DropdownGroupItemID</value>
+      <webElementGuid>9e955d3d-b951-47c6-a6d7-3d9678651165</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>UDF7 Label tabindex=</value>
+      <webElementGuid>d61fd983-0695-4289-ae42-98ece5cfd5ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>--Select One--OrangePurple</value>
+      <webElementGuid>f312274e-af15-4e0e-bad4-db1c3ff42e46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;process&quot;)/table[1]/tbody[1]/tr[10]/td[@class=&quot;payor_opt&quot;]/select[1]</value>
+      <webElementGuid>3a5d45e5-56c7-46c1-bd8e-19eabdb48263</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='variableField7DropdownGroupItemID']</value>
+      <webElementGuid>41ea7801-c77d-487e-afe7-0e29526762fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='process']/table/tbody/tr[10]/td[3]/select</value>
+      <webElementGuid>8e408306-8888-4a32-956a-8054a15cdafd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/preceding::select[1]</value>
+      <webElementGuid>f57f5188-0cfd-4fdf-8f38-684eca0d0e97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,5 +83,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
+      <webElementGuid>ad58da90-043b-4fa9-9ee8-71f9094f4b3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -4,7 +4,14 @@
    <name>UserDefined3</name>
    <tag></tag>
    <elementGuidId>6d63dfdd-c216-43e8-8705-475567be8cc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'userDefined3Text']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -12,13 +19,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>ae7e9c2b-1846-413d-9f79-c45dc105a3df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
+      <webElementGuid>41b9e1ac-b2d6-42e2-8b5e-a35e468c402d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,20 +35,23 @@
       <name>id</name>
       <type>Main</type>
       <value>userDefined3Text</value>
+      <webElementGuid>ce65d40f-f2bb-434e-96d4-a9af5dfac1fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>userDefined3</value>
+      <webElementGuid>22e78057-87bf-4a4c-a7e0-082623d8df93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>UDF3 Label</value>
+      <webElementGuid>2d47566a-5c92-4b27-9ea3-61bd80f35cc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +59,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>500</value>
+      <webElementGuid>6d0bd38c-6a83-4fc4-b528-29222fc61a77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +67,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
+      <webElementGuid>0abe2dfd-5cc4-4deb-96ed-63f599e3e606</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +75,7 @@
       <name>value</name>
       <type>Main</type>
       <value>udf data 3</value>
+      <webElementGuid>0ebf4114-4b78-4efe-aa56-9133921e58e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +83,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>3d233406-941d-4291-9cb3-f239012884bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +91,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;userDefined3Text&quot;)</value>
+      <webElementGuid>48a2bacb-bf5a-45ee-8827-940d269d4a5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,6 +99,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='userDefined3Text']</value>
+      <webElementGuid>4ce10a50-420c-4eb2-b405-9ed987fe3e92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +107,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='process']/table/tbody/tr[7]/td[3]/input</value>
+      <webElementGuid>e8d1de95-7dd1-4eea-924a-3d50daf4c207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +115,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[3]/input</value>
+      <webElementGuid>b69a3056-c896-4196-add6-30782f956400</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

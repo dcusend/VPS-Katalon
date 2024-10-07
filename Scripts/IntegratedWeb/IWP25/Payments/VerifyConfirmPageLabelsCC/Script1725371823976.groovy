@@ -342,5 +342,5 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							}
 					}
 		
-//				WebUI.closeBrowser()
+				WebUI.closeBrowser()
 		}

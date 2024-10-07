@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyEditReceiptLabelsAutoPayCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1d9f9e0-4543-4bb9-b33d-07473bdfdf3d</testCaseGuid>
+</TestCaseEntity>
