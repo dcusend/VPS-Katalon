@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'variableField8DropdownGroupItemID' and @alt = 'UDF8 Label tabindex=']</value>
+         <value>//*[@name = 'variableField8DropdownGroupItemID']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>86644e16-384d-4aeb-83b9-42c48303ebdb</webElementGuid>
+      <webElementGuid>50feae39-e487-4c06-a291-c7d0dfa75df5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,15 +27,15 @@
       <name>name</name>
       <type>Main</type>
       <value>variableField8DropdownGroupItemID</value>
-      <webElementGuid>4bdafc34-bc62-4c56-8fa3-bd149964eb9e</webElementGuid>
+      <webElementGuid>0214170b-a28b-4b45-a931-91826a303693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>UDF8 Label tabindex=</value>
-      <webElementGuid>da8a5bc7-bae7-44cd-9dcc-812cec229ded</webElementGuid>
+      <webElementGuid>312817e8-3982-41ff-b5ab-db2a73cefa5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>--Select One--TennisSoccer</value>
-      <webElementGuid>f85db8e5-6a43-491c-9758-4d6ac8f54ebf</webElementGuid>
+      <webElementGuid>7913be13-e6f9-4a31-a6aa-7fe05d1e9e18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;process&quot;)/table[1]/tbody[1]/tr[11]/td[@class=&quot;payor_opt&quot;]/select[1]</value>
-      <webElementGuid>990bc99d-9947-4146-a825-f6fe05bb0dc2</webElementGuid>
+      <webElementGuid>d52bed3c-8649-4d32-b922-bfdecdc00a6e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='variableField8DropdownGroupItemID']</value>
-      <webElementGuid>16d00a1c-a479-43d6-9dce-1d63a858e973</webElementGuid>
+      <webElementGuid>b5bf9f9e-e5a3-478f-8297-909e297f1c6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='process']/table/tbody/tr[11]/td[3]/select</value>
-      <webElementGuid>993a7e80-c90d-4357-a859-9fcc11bf3736</webElementGuid>
+      <webElementGuid>d275143d-0283-46fd-bc4a-59dd71660851</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::select[1]</value>
-      <webElementGuid>2304f842-804d-474a-bd6d-4ace0a8d79fe</webElementGuid>
+      <webElementGuid>5e06cb93-8436-4fa9-8648-7260ab2e7a98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::select[1]</value>
-      <webElementGuid>9a57d09c-2ca3-4c21-9f24-f47e47c50b15</webElementGuid>
+      <webElementGuid>09f23298-8355-4149-8fa4-ec397552d0d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +91,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[11]/td[3]/select</value>
-      <webElementGuid>97a5d3ec-ef70-442c-87d3-54e0f1bc006b</webElementGuid>
+      <webElementGuid>6de58bf0-fd66-432f-83f1-97e633da7232</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

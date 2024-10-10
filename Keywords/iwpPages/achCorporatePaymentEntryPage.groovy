@@ -339,8 +339,8 @@ public class achCorporatePaymentEntryPage {
 			else {
 				println("Confirm Account Number field is either missing or not modifiable on ACH Corporate Payment Entry Page")
 			}
-			
-			
+
+
 			if ((!CCDate.isEmpty())) {
 				//This js script is written to set the future date
 				String js = '''

@@ -35,6 +35,51 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_Receipt/payment_plan_id_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_ACHCorporatePaymentEntry/txt_Amount",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@name\u003d\u0027amount\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_SelectPaymentMethod/PayByCorporateCheck",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_CCPaymentEntry/Amount",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@name\u003d\u0027amount\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_CCPaymentEntry/UserDefined7",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027variableField7DropdownGroupItemID\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_CCPaymentEntry/UserDefined7_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027variableField7DropdownGroupItemID\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7_XPATH.png"
     }
   ]
 }
