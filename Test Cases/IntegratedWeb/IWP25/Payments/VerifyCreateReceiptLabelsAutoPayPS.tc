@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyCreateReceiptLabelsAutoPayPS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af074909-0cf4-40a7-b42c-30d0e5894f73</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyCancelReceiptLabelsAutoPayPC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6da83d44-beb6-4598-9425-bbcc5ac53bb9</testCaseGuid>
+</TestCaseEntity>
