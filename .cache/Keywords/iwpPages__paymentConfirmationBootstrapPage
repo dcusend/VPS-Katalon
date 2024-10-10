@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "44607630E5374EEAB1719BD428BED2C2",
+  "keywordClasses": [
+    {
+      "name": "iwpPages.paymentConfirmationBootstrapPage",
+      "keywordMethods": [
+        {
+          "name": "selectButtonConfirm",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
