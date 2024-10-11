@@ -47,9 +47,9 @@ def numOfRows, dataFile, nameSheet
 			System.out.println('Value of Execute is : ' + ExecuteTC)
 			
 			
-			appID = "2465"
-			username = "voiduser"
-			password = "HUp7StV9p4w9Bv"
+			//appID = "2465"
+			//username = "voiduser"
+			//password = "HUp7StV9p4w9Bv"
 
 			
 			if (ExecuteTC.equalsIgnoreCase("Y"))
@@ -63,8 +63,13 @@ def numOfRows, dataFile, nameSheet
 					
 					
 					def transactionID = findTestData(dataFile).getValue('TransactionID', row)
+					appID = findTestData(dataFile).getValue('AppID', row)
+					username = findTestData(dataFile).getValue('Username', row)
+					password = findTestData(dataFile).getValue('Password', row)
+					def remID = findTestData(dataFile).getValue('RemID', row)
 					
-					def genRemID = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+					
+					//def genRemID = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 					//WebUI.setText(findTestObject('Object Repository/VLink/Page_CCSale/txt_RemID'),genRemID)
 					
 					
@@ -76,7 +81,7 @@ def numOfRows, dataFile, nameSheet
 							WebUI.openBrowser("https://dev-algorithm.govolution.com/vlinktest/Production/version_2_0/CC_void.html")
 							WebUI.maximizeWindow()
 							
-							WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Void/txt_RemID'), genRemID)
+							WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Void/txt_RemID'), remID)
 							
 							WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Void/txt_ApplicationID'), appID)
 							

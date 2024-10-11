@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_payNowSubmit</name>
+   <name>input_userDefined2</name>
    <tag></tag>
-   <elementGuidId>850dcf5f-b2e6-4488-95d4-1cbdf23c84de</elementGuidId>
+   <elementGuidId>e60de8be-95f6-4471-99a4-fcb5f1a19e72</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and @id = 'payNowSubmit' and @value = 'Make a Payment']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@id='payNowSubmit']</value>
+         <value>//input[@id='userDefined2']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#payNowSubmit</value>
+         <value>#userDefined2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,94 +22,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>504320a0-a143-4e9c-907c-73bbe89240dc</webElementGuid>
+      <webElementGuid>d5ceeeb1-3174-49e5-b498-76491d93ec19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>00e42eaf-a7e4-4545-864d-dca97ddf1554</webElementGuid>
+      <value>text</value>
+      <webElementGuid>fce3cb1c-5846-49cf-afb1-b5ed10847756</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
-      <webElementGuid>8b067c0c-1d70-4d35-a6c0-a10b58c79434</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>f9e6e3e8-e7d6-4e60-bdc6-de5d68eb2f26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>userDefined2</value>
+      <webElementGuid>ccdbdfb7-d471-4821-9935-7500e94a6571</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>payNowSubmit</value>
-      <webElementGuid>28f93bee-6e3a-4f92-82e4-01b5ec95f816</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Make a Payment</value>
-      <webElementGuid>2860c603-d5fd-44fc-8f7a-eb7b2ba28f98</webElementGuid>
+      <value>userDefined2</value>
+      <webElementGuid>847baee6-f37c-4137-9a3a-528fab585c70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>setNull();</value>
-      <webElementGuid>9eba72e7-f01a-45d0-aadf-ce6b2ec80029</webElementGuid>
+      <value>UDF2 Label</value>
+      <webElementGuid>35f7bf87-40d1-4762-acae-853f20d21eba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>500</value>
+      <webElementGuid>c16e076a-f4c7-4d52-9cb0-011bc022c965</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>33</value>
+      <webElementGuid>befded44-8938-4392-a6f2-0f9819aecaec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>4</value>
-      <webElementGuid>46cd9b0a-4e74-4617-900e-55f10da1cb72</webElementGuid>
+      <value>1</value>
+      <webElementGuid>22ca6407-55b4-4339-93cb-0fbdde1c2a27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;payNowSubmit&quot;)</value>
-      <webElementGuid>3833dc10-9e1f-45a0-8541-72c089ac0fe5</webElementGuid>
+      <value>id(&quot;userDefined2&quot;)</value>
+      <webElementGuid>81a457c0-1ae6-4fc3-9942-c7aaa8206d62</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='payNowSubmit']</value>
-      <webElementGuid>f8d84991-8621-492d-9a92-26c1c7c7f035</webElementGuid>
+      <value>//input[@id='userDefined2']</value>
+      <webElementGuid>10fef08e-0c01-4ad6-b390-98a26a1311a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='selectForm']/div/div/input</value>
-      <webElementGuid>1edbbbc6-1c66-4f69-981b-2fd8714d93ba</webElementGuid>
+      <value>//div[@id='udfcontent']/div/div[2]/div/input</value>
+      <webElementGuid>3998c628-418b-42f1-8255-52582f0164c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>eb3980aa-6ab9-4155-a53d-13d8776ebbed</webElementGuid>
+      <value>//div[4]/div/div/div/div[2]/div/input</value>
+      <webElementGuid>08dec4e7-61e5-42eb-8e30-fea888b0cf0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'payNowSubmit']</value>
-      <webElementGuid>eb0cc243-2c30-495a-9be6-c89ae96480db</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'userDefined2' and @id = 'userDefined2' and @alt = 'UDF2 Label']</value>
+      <webElementGuid>c039c77c-fcba-4079-b6a8-1ea71f714843</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -350,6 +350,10 @@ class emulatorIWP30 {
 				println(CAN)
 				if((CAN == null)) {
 					CAN = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4d572e3c59bc7280e51b865d10be88bc185f4aa7
 				}
 				else {
 					CAN = findTestData(dataFileE).getValue('CAN', rowE)
