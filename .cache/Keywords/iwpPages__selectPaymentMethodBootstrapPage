@@ -1,36 +1,31 @@
 {
-  "keywordFileContentHash": "6459B6B13FA8DAD2FC0BCFF9434E5AFB",
+  "keywordFileContentHash": "704078CD2973E226F18402C28D9FEB09",
   "keywordClasses": [
     {
       "name": "iwpPages.selectPaymentMethodBootstrapPage",
       "keywordMethods": [
         {
           "name": "selectRadioPayByCreditCard",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "selectRadioPayByPersonal",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "selectRadioPayByCorporate",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "selectButtonMakeAPayment",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "selectButtonEnrollAutopay",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
