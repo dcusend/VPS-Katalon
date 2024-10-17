@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ccSavePaymentMethod</name>
+   <name>input_achSavePaymentMethod</name>
    <tag></tag>
-   <elementGuidId>7b9d5a47-f22b-4f29-a66c-4e89fb335d93</elementGuidId>
+   <elementGuidId>a692d19f-a09c-4b39-b323-433a367b3268</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'checkbox' and @name = 'ccSavePaymentMethod' and @id = 'ccSavePaymentMethod']</value>
+         <value>//*[@type = 'checkbox' and @name = 'achSavePaymentMethod' and @id = 'achSavePaymentMethod']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>468b9e89-dc00-4b6c-949a-ac943f3f684f</webElementGuid>
+      <webElementGuid>977f6844-11f0-45fa-924d-61fa3da3ab3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,23 +35,23 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>7a172387-5d2b-47fd-a525-531b88a74054</webElementGuid>
+      <webElementGuid>b48eb74e-8b82-47ee-9d93-fdc550fe6522</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ccSavePaymentMethod</value>
-      <webElementGuid>6098872f-2f49-48e8-a060-66b26b4b8829</webElementGuid>
+      <value>achSavePaymentMethod</value>
+      <webElementGuid>86ca5122-8207-4087-bffe-26f83b55c04a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ccSavePaymentMethod</value>
-      <webElementGuid>33a6db91-0ff1-414a-b71b-fc25a960b746</webElementGuid>
+      <value>achSavePaymentMethod</value>
+      <webElementGuid>d4bf980f-c4e7-48c3-b0d4-3c2bcae8a8b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,15 +59,15 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>8d21d2b3-cf96-43ad-9be1-5f902b9bd767</webElementGuid>
+      <webElementGuid>5129da58-d98d-45c2-bce3-e47728cd8cdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ccSavePaymentMethod&quot;)</value>
-      <webElementGuid>b0af8d89-4536-4f74-8f8b-913a68322b98</webElementGuid>
+      <value>id(&quot;achSavePaymentMethod&quot;)</value>
+      <webElementGuid>21f2090a-c352-42b0-bdfc-04167f3855cf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='ccSavePaymentMethod']</value>
-      <webElementGuid>35a7121b-b6bd-47ad-beb0-cd77c9fa2130</webElementGuid>
+      <webElementGuid>2a70e39d-f7cf-4462-8e0f-70be64af6921</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//label[@id='ccSavePaymentMethodCheckbox']/input</value>
-      <webElementGuid>40a188ae-3391-4d50-8d62-ddfd7ba740de</webElementGuid>
+      <webElementGuid>ba0500cc-d91b-4eef-bf72-117e27759ed8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/input</value>
-      <webElementGuid>911ed57e-b3f6-4630-9042-e924abb551fc</webElementGuid>
+      <webElementGuid>4fa28912-a02f-47c0-b19c-871a4020b998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @name = 'ccSavePaymentMethod' and @id = 'ccSavePaymentMethod']</value>
-      <webElementGuid>eaf4630c-5f22-42aa-b0ee-4c8cb344eb65</webElementGuid>
+      <webElementGuid>cd9e95d8-bab6-4e32-a921-7b240d946cfb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

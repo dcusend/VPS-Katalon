@@ -80,6 +80,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input_ccSavePaymentMethod",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input_ccSavePaymentMethod_position.png"
     }
   ]
 }

@@ -6,26 +6,31 @@
       "keywordMethods": [
         {
           "name": "selectRadioPayByCreditCard",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectRadioPayByPersonal",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectRadioPayByCorporate",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectButtonMakeAPayment",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectButtonEnrollAutopay",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
