@@ -161,7 +161,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							{
 								WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MFLicenseExtLi')," ")
 								WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
-								WebUI.verifyTextPresent('Enter valid Motor Fuel License Number', true,FailureHandling.CONTINUE_ON_FAILURE)
+								WebUI.verifyTextPresent('Motor Fuel License Number must be 6 digits in length', true,FailureHandling.CONTINUE_ON_FAILURE)
 							}
 					
 					resText = "Pass"
