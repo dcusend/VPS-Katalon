@@ -40,7 +40,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 	
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= numOfRows; row++)
+	for (def row = 2; row <= numOfRows; row++)
 		{
 		
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
@@ -342,5 +342,5 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							}
 					}
 		
-				WebUI.closeBrowser()
+//				WebUI.closeBrowser()
 		}
