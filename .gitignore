@@ -4,6 +4,7 @@
 /.classpath
 .svn/
 /settings/internal/com.kms.katalon.composer.testcase.properties
+/settings/
 /.project
 /.cache/
 /.VPS-Smoke-Version001.prj
