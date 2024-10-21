@@ -347,6 +347,18 @@ public class getSetDataRAD {
 	}
 
 	//----------------------------------
+	
+	
+	@Keyword
+	def setDataRADMFLicNumSixExisting()
+	{
+
+
+		// Set Data
+		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MFLicenseExtLi'),"700142")
+
+
+	}
 
 
 }

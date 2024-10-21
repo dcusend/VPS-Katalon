@@ -141,6 +141,13 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyTextPresent('Notice Number or Invoice Number', true)
 		WebUI.verifyTextPresent('Re-Type Notice Number or Invoice Number', true)
 		
+		
+// Verify the new Motor Fuel License Number
+		WebUI.verifyTextPresent('Motor Fuel License Number', true)
+		WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_MFLicenseExtLi'), 30)
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_MFLicenseExtLi'))
+		
+		
 // Verify Filing Status section is not present
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Individual'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))

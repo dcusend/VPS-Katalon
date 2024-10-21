@@ -43,7 +43,7 @@ String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
 //String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, MFLicNum
 
 
 
@@ -61,6 +61,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			feinSsn = findTestData(dataFile).getValue('FEINSSN', row)
 			CRN = findTestData(dataFile).getValue('CRN', row)
+			MFLicNum = findTestData(dataFile).getValue('MFLicNum', row)
 			
 			
 			
@@ -154,6 +155,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
 							WebUI.verifyTextPresent('Enter valid MD Central Registration Number', true,FailureHandling.CONTINUE_ON_FAILURE)
 						}
+						
+						
+						if (MFLicNum.equalsIgnoreCase("Y"))
+							{
+								WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MFLicenseExtLi')," ")
+								WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+								WebUI.verifyTextPresent('Motor Fuel License Number must be 6 digits in length', true,FailureHandling.CONTINUE_ON_FAILURE)
+							}
 					
 					resText = "Pass"
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
