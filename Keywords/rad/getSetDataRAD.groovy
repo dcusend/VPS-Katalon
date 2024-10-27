@@ -347,8 +347,8 @@ public class getSetDataRAD {
 	}
 
 	//----------------------------------
-	
-	
+
+
 	@Keyword
 	def setDataRADMFLicNumSixExisting()
 	{
