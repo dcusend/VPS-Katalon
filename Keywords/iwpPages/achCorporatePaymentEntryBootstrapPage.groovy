@@ -3,10 +3,8 @@ package iwpPages
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testdata.reader.ExcelFactory.getExcelDataWithDefaultSheet
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import static org.assertj.core.api.Assertions.assertThatIllegalStateException
 
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
@@ -17,45 +15,37 @@ import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testdata.reader.ExcelFactory
 import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
-import bsh.This
 import internal.GlobalVariable
 
-public class achPersonalPaymentEntryBootstrapPage {
+public class achCorporatePaymentEntryBootstrapPage {
 
-	def firstName,lastName,routingTransitNumber,typeOfAccount,accountNumber,confirmAccountNumber, AL1, AL2, ZIP, email, phone, amount
+	def companyName,routingTransitNumber,accountNumber,confirmAccountNumber,EIN, AL1, AL2, ZIP, email, phone, amount
 	def udf1, udf2, udf3, udf4, udf5, udf6, udf7, udf8, udf9, udf10
 
 	String pathSharedData = "KatalonData/IWPBootstrapData/NormalizedSharedData.xlsx"
-	String pathOR = "Object Repository/IWP_Bootstrap/Page_PaymentEntryPersonal_Bootstrap/"
+	String pathOR = "Object Repository/IWP_Bootstrap/Page_PaymentEntryCorporate_Bootstrap/"
 	String nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID
-
 
 
 	@Keyword
 	def setDataACHMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID) {
-		this.setFirstNameLastName(nameID)
-		this.setACHData(ACHID)
-		this.setEmailAndPhoneData(EmailPhoneID)
-		this.setUDFData(UDFID)
+		this.setDataCompanyNameID(nameID)
+		this.setDataACH(ACHID)
+		this.setDataEmailAndPhone(EmailPhoneID)
+		this.setDataUDF(UDFID)
 		this.selectCheckboxStoredPaymentMethod()
 		this.selectCheckboxACHTANDC()
 		this.selectContinueButton()
 	}
 
 
-	//*********************************************************************************************
-
-	/*GetData and SetData for First and Last name
-	 Takes the argument for Name ID and queries NormalizedSharedData spreadsheet for NameData*/
-
-	//*********************************************************************************************
 	@Keyword
-	def getFirstNameLastName(String nameIDG) {
+	def getDataCompanyNameID(String NameIDG) {
+
 		def dataFileCardName = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "NameData", true)
 
 		def numOfRowsCardName = dataFileCardName.getRowNumbers()
@@ -65,32 +55,25 @@ public class achPersonalPaymentEntryBootstrapPage {
 
 			def ID = dataFileCardName.getValue("ID", row)
 
-			if (ID.equals(nameIDG)) {
-				firstName = dataFileCardName.getValue("FirstName", row)
-				lastName = dataFileCardName.getValue("LastName", row)
+			if (ID.equals(NameIDG)) {
+				companyName = dataFileCardName.getValue("CompanyName", row)
 			}
 		}
 	}
+
+
 	@Keyword
-	def setFirstNameLastName(String nameIDS) {
+	def setDataCompanyNameID(String NameIDS) {
 
-		this.getFirstNameLastName(nameIDS)
+		this.getDataCompanyNameID(NameIDS)
 
-		if ((!firstName.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR+'input_billingFirstname'),firstName)
-		}
-		if ((!lastName.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR+'input_billingLastname'),lastName)
+		if(!companyName.isEmpty()) {
+
+			WebUI.setText(findTestObject(pathOR+'input_billingCompanyname'),companyName)
 		}
 	}
-	//*********************************************************************************************
 
-	/*GetData and SetData for Address like AL1, AL2 and ZIP
-	 Takes the argument for Address ID and queries NormalizedSharedData spreadsheet for Address Data*/
-
-
-	//*********************************************************************************************
-	def getACHData(String ACHIDG) {
+	def getDataACH(String ACHIDG) {
 		def dataFileACHData = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "ACHData", true)
 
 		def numOfRowsACHData = dataFileACHData.getRowNumbers()
@@ -103,16 +86,16 @@ public class achPersonalPaymentEntryBootstrapPage {
 
 			if (ID.equals(ACHIDG)) {
 				routingTransitNumber = dataFileACHData.getValue("RoutingNumber", row)
-				typeOfAccount = dataFileACHData.getValue("TypeOfAccount", row)
 				accountNumber = dataFileACHData.getValue("AccountNumber", row)
 				confirmAccountNumber = dataFileACHData.getValue("ConfirmAccountNumber", row)
+				EIN = dataFileACHData.getValue("EIN", row)
 			}
 		}
 	}
 	@Keyword
-	def setACHData(String ACHIDS) {
+	def setDataACH(String ACHIDS) {
 
-		this.getACHData(ACHIDS)
+		this.getDataACH(ACHIDS)
 
 		if ((!routingTransitNumber.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR+'input_routingNumber'),routingTransitNumber)
@@ -120,32 +103,18 @@ public class achPersonalPaymentEntryBootstrapPage {
 		if ((!accountNumber.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR+'input_accountNumber'),accountNumber)
 		}
-
-		if(!typeOfAccount.isEmpty()) {
-
-			if(typeOfAccount.equals("2")) {
-				def typeOfAccountName = "Saving"
-
-				WebUI.click(findTestObject(pathOR+'input_Saving_accountType'))
-			}else if (typeOfAccount.equals("1"))
-				 {
-
-					def typeOfAccountName = "Checking"
-
-					WebUI.click(findTestObject(pathOR+'input_Checking_accountType'))
-				}		
-		}
-		else {
-			System.out.println("Type of account is empty.Please provide the value and try to rerun")
-			KeywordUtil.logInfo("Type of account is empty.Please provide the value and try to rerun")
-	}
-
 		if ((!confirmAccountNumber.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR+'input_confirmAccountNumber'),confirmAccountNumber)
 		}
+
+		if((!EIN.isEmpty())) {
+
+			WebUI.setText(findTestObject(pathOR+'input_EIN'),EIN)
+		}
 	}
+
 	@Keyword
-	def getAddressData(String AddressIDG) {
+	def getDataAddress(String AddressIDG) {
 
 		def dataFileAddress = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "AddressData", true)
 
@@ -167,9 +136,9 @@ public class achPersonalPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def setAddressData(String AddressIDS) {
+	def setDataAddress(String AddressIDS) {
 
-		this.getAddressData(AddressIDS)
+		this.getDataAddress(AddressIDS)
 
 		if ((!AL1.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_billingAddress'),AL1)
@@ -191,7 +160,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 
 	//****************************************************************************************
 	@Keyword
-	def getEmailAndPhoneData(String EmailPhoneIDG) {
+	def getDataEmailAndPhone(String EmailPhoneIDG) {
 
 		def dataFileEmailPhone = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "EmailAndPhoneData", true)
 
@@ -209,9 +178,9 @@ public class achPersonalPaymentEntryBootstrapPage {
 	}
 
 	@Keyword
-	def setEmailAndPhoneData(String EmailPhoneIDS) {
+	def setDataEmailAndPhone(String EmailPhoneIDS) {
 
-		this.getEmailAndPhoneData(EmailPhoneIDS)
+		this.getDataEmailAndPhone(EmailPhoneIDS)
 
 		if(!email.isEmpty()) {
 
@@ -244,7 +213,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 	//*****************************************************************************************
 
 	@Keyword
-	def getUDFData(String UDFG) {
+	def getDataUDF(String UDFG) {
 
 		def dataFileUDF = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "UDFData", true)
 		def numOfRowsUDF = dataFileUDF.getRowNumbers()
@@ -269,9 +238,9 @@ public class achPersonalPaymentEntryBootstrapPage {
 	}
 
 	@Keyword
-	def setUDFData(String UDFS) {
+	def setDataUDF(String UDFS) {
 
-		this.getUDFData(UDFS)
+		this.getDataUDF(UDFS)
 
 		if(!udf2.isEmpty()) {
 
@@ -335,3 +304,5 @@ public class achPersonalPaymentEntryBootstrapPage {
 		WebUI.click(findTestObject(pathOR+'input_changePaymentMethodButton'))
 	}
 }
+
+

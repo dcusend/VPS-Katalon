@@ -19,6 +19,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
@@ -29,7 +30,7 @@ def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
 def ACHID, CalDate, AddressID, EmailPhoneID, Notes
 
 String path = fileLoc
-nameSheet = "PayNowNoCFPC"
+nameSheet = "PayNowNoCFCorp"
 dataFileEmulator = "IWPTestData/EmulatorData"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
 numOfRows = dataFile.getRowNumbers()
@@ -75,68 +76,14 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			// Populate Test Harness
 			
-			CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
+			CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row, dataFile)
 			
-			
-			// Select Pay by Personal Check Payment Method 
-			
-			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByPersonal'()
-			
-			// Select Make a Payment Method
+			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByCorporate'()
 			
 			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
 			
-			// Populate First name Last Name 
+			CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 			
-			CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
-			/*
-			 * CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.
-			 * setFirstNameLastName'(NameID)
-			 * 
-			 * //Set data for Account Details
-			 * 
-			 * CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setACHData'(
-			 * ACHID)
-			 * 
-			 * //Set data for Address
-			 * 
-			 * CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setAddressData'
-			 * (AddressID)
-			 * 
-			 * //Set Data for Email and Phone
-			 * 
-			 * CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.
-			 * setEmailAndPhoneData'(EmailPhoneID)
-			 * 
-			 * //Set data for Amount
-			 * 
-			 * CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataAmount'(
-			 * Amount)
-			 * 
-			 * 
-			 * //Set Data for UDF Fields
-			 * 
-			 * CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setUDFData'(
-			 * UDFID)
-			 * 
-			 * 
-			 * // Select Store Payment Method
-			 * 
-			 * CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.
-			 * selectCheckboxStorePaymentMethod'()
-			 * 
-			 * // Select ACH Terms and Conditions
-			 * 
-			 * CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.
-			 * selectCheckboxACHTANDC'()
-			 * 
-			 * //Click on continue button
-			 * 
-			 * CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.
-			 * selectContinueButton'()
-			 */
-				
-			// Select Confirm Button on Payment Confirmation Page
 			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 			
 			
@@ -158,6 +105,6 @@ for (def row = 1; row <= numOfRows; row++)
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 					println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
 				}
-		
 		}
+		
 }
