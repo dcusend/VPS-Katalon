@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/MV",
+      "brokenLocator": "//select[@name\u003d\u0027message_version\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Message Version\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241024_062001/QA/IWP2.5/QA_IWP2.5_Regression/20241024_062001/Object Repository/IWP30/Page_VRelay30Emulator/MV_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_Confirmation/ConfirmButton",
+      "brokenLocator": "//*[@type \u003d \u0027submit\u0027 and @name \u003d \u0027confirmNotifyAction\u0027 and @id \u003d \u0027submitYes\u0027 and @value \u003d \u0027Confirm\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241024_062001/QA/IWP2.5/QA_IWP2.5_Regression/20241024_062001/Object Repository/IWP30/Page_Confirmation/ConfirmButton_position.png"
+    }
+  ]
+}

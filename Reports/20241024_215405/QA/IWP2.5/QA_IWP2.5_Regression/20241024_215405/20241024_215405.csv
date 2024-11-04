@@ -1,0 +1,1227 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+QA_IWP2.5_Regression,Edge Chromium 130,,,24-10-2024 21:54:23,25-10-2024 03:15:29,5h - 21m - 5.475s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,24-10-2024 21:54:24,24-10-2024 21:58:22,3m - 58.098s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.010s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.007s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.007s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.007s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.035s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.019s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.009s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.002s,PASSED
+"nameSheet = ""NoModifyAmountCC""",Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.003s,PASSED
+"dataFile = ""IWPTestData/IWP25NoModifyAmountCC""",Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.003s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:25,0.006s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 21:54:25,24-10-2024 21:54:26,1.197s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 21:54:26,24-10-2024 21:54:26,0.023s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 21:54:26,24-10-2024 21:58:22,3m - 55.434s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,24-10-2024 21:58:22,24-10-2024 22:02:10,3m - 48.347s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.002s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.001s,PASSED
+"nameSheet = ""NoModifyAmountCorp""",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25NoModifyAmountCorp""",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.070s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 21:58:22,0.003s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 21:58:22,24-10-2024 22:02:10,3m - 47.804s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,24-10-2024 22:02:10,24-10-2024 22:06:02,3m - 51.958s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.002s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.000s,PASSED
+"nameSheet = ""NoModifyAmountPC""",Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25NoModifyAmountPC""",Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:10,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 22:02:10,24-10-2024 22:02:11,0.088s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 22:02:11,24-10-2024 22:02:11,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 22:02:11,24-10-2024 22:06:02,3m - 51.455s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/NoModifyAmountPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,24-10-2024 22:06:02,24-10-2024 22:09:54,3m - 52.117s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+"nameSheet = ""NoModifyAmountPS""",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoModifyAmountPS""",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.062s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:06:02,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 22:06:02,24-10-2024 22:09:54,3m - 51.721s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 22:09:54,24-10-2024 22:17:39,7m - 44.719s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.001s,PASSED
+"nameSheet = ""OverAndUnderPayCorp""",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25OverAndUnderPayCorp""",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.058s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:09:55,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 22:09:55,24-10-2024 22:17:39,7m - 44.179s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayCredit,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 22:17:39,24-10-2024 22:24:22,6m - 43.482s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.002s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.002s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.002s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.001s,PASSED
+"nameSheet = ""OverAndUnderPayCredit""",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25OverAndUnderPayCredit""",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.070s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:17:39,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 22:17:39,24-10-2024 22:24:22,6m - 43.080s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 22:24:22,24-10-2024 22:32:11,7m - 48.261s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+"nameSheet = ""OverAndUnderPayPC""",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.002s,PASSED
+"dataFile = ""IWPTestData/IWP25OverAndUnderPayPC""",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.105s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:24:23,0.011s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 22:24:23,24-10-2024 22:32:11,7m - 47.700s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/OverAndUnderPayPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 22:32:11,24-10-2024 22:40:09,7m - 57.952s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.001s,PASSED
+"nameSheet = ""OverAndUnderPayPS""",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25OverAndUnderPayPS""",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.065s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:32:11,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 22:32:11,24-10-2024 22:40:09,7m - 57.550s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorpDCF,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 22:40:09,24-10-2024 22:49:15,9m - 6.722s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.007s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.001s,PASSED
+"nameSheet = ""PayNowCorpDCF""",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25PayNowCorpDCF""",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.089s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:40:09,0.005s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 22:40:09,24-10-2024 22:49:15,9m - 6.134s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorporate,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 22:49:15,24-10-2024 23:01:06,11m - 50.827s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+"nameSheet = ""PayNowCorp""",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25PayNowCorp""",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.072s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 22:49:16,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 22:49:16,24-10-2024 23:01:06,11m - 50.492s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowCorpSCF,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 23:01:06,24-10-2024 23:10:12,9m - 6.170s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.001s,PASSED
+"nameSheet = ""PayNowCorpSCF""",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25PayNowCorpSCF""",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.068s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:01:07,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 23:01:07,24-10-2024 23:10:12,9m - 5.763s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowCreditDCF,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 23:10:12,24-10-2024 23:18:12,7m - 59.607s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.002s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.001s,PASSED
+"nameSheet = ""PayNowCreditDCF""",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.000s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditDCF""",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.066s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:10:13,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 23:10:13,24-10-2024 23:18:12,7m - 59.156s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowCreditSCF,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 23:18:12,24-10-2024 23:26:15,8m - 2.513s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+"nameSheet = ""PayNowCreditSCF""",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+"dataFile = ""IWPTestData/PayNowCreditSCF""",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.071s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:18:12,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 23:18:12,24-10-2024 23:26:15,8m - 2.173s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalCheckDCF,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 23:26:15,24-10-2024 23:35:25,9m - 9.956s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.000s,PASSED
+"nameSheet = ""PayNowPersonalCheckDCF""",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25PayNowPersonalCheckDCF""",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.064s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:26:15,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 23:26:15,24-10-2024 23:35:25,9m - 9.600s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalCheckSCF,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 23:35:25,24-10-2024 23:44:33,9m - 8.459s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.002s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.001s,PASSED
+"nameSheet = ""PayNowPersonalCheckSCF""",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25PayNowPersonalCheckSCF""",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.122s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:35:25,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 23:35:25,24-10-2024 23:44:33,9m - 8.013s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalSavingsDCF,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 23:44:33,24-10-2024 23:53:42,9m - 9.320s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.001s,PASSED
+"nameSheet = ""PayNowPersonalCheckDCF""",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25PayNowPersonalCheckDCF""",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.059s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:44:33,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 23:44:33,24-10-2024 23:53:42,9m - 9.237s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowPersonalSavingsSCF,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,24-10-2024 23:53:42,25-10-2024 00:02:50,9m - 7.770s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.001s,PASSED
+"nameSheet = ""PayNowPersonalSavingsSCF""",Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25PayNowPersonalSavingsSCF""",Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.059s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,24-10-2024 23:53:43,24-10-2024 23:53:43,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,24-10-2024 23:53:43,25-10-2024 00:02:50,9m - 7.424s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/PayNowSuccesfulPaymentCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 00:02:50,25-10-2024 00:16:38,13m - 47.953s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.000s,PASSED
+"nameSheet = ""PayNowCC""",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25PayNowCC""",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.059s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:02:50,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:02:50,25-10-2024 00:16:38,13m - 47.608s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyCancelReceiptLabelsDeferredCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:16:38,25-10-2024 00:20:25,3m - 46.565s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.002s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.000s,PASSED
+"nameSheet = ""VerifyCancelLabelDeferredCredit""",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.001s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.053s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:16:39,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:16:39,25-10-2024 00:20:25,3m - 45.980s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyCancelReceiptLabelsDeferredCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:20:25,25-10-2024 00:24:43,4m - 18.003s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.009s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+"nameSheet = ""VerifyCancelLabelDeferredCorp""",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.062s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:20:25,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:20:25,25-10-2024 00:24:43,4m - 17.531s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyCancelReceiptLabelsDeferredPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:24:43,25-10-2024 00:29:00,4m - 17.572s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.006s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.002s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.002s,PASSED
+"nameSheet = ""VerifyCancelLabelDeferredPC""",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.061s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:24:43,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:24:43,25-10-2024 00:29:00,4m - 17.060s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyCancelReceiptLabelsDeferredPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:29:00,25-10-2024 00:33:24,4m - 23.516s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.002s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.000s,PASSED
+"nameSheet = ""VerifyCancelLabelDeferredPS""",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.075s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.001s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:29:01,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:29:01,25-10-2024 00:33:24,4m - 22.822s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyConfirmPageLabelsCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:33:24,25-10-2024 00:34:57,1m - 33.355s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.005s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.003s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.001s,PASSED
+"nameSheet = ""VerifyConfirmPageLabelsCredit""",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25VerifyConfirmPageLabelsCC""",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.134s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:33:24,0.001s,PASSED
+"for ([row = 2, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:33:24,25-10-2024 00:34:57,1m - 32.823s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyConfirmPageLabelsCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:34:57,25-10-2024 00:38:16,3m - 18.783s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+"nameSheet = ""VerifyConfirmPageLabelsCorp""",Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25VerifyConfirmPageLabelsCorp""",Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:57,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:34:57,25-10-2024 00:34:58,0.074s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:34:58,25-10-2024 00:34:58,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:34:58,25-10-2024 00:38:16,3m - 18.434s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyConfirmPageLabelsPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:38:16,25-10-2024 00:41:54,3m - 37.616s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.003s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.002s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.001s,PASSED
+"nameSheet = ""VerifyConfirmPageLabelsPC""",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25VerifyConfirmPageLabelsPC""",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.088s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:38:16,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:38:16,25-10-2024 00:41:54,3m - 37.227s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyConfirmPageLabelsPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:41:54,25-10-2024 00:45:24,3m - 30.785s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.001s,PASSED
+"nameSheet = ""VerifyConfirmPageLabelsPS""",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25VerifyConfirmPageLabelsPS""",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.059s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:41:54,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:41:54,25-10-2024 00:45:24,3m - 30.411s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyCreateReceiptLabelsDeferredCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:45:24,25-10-2024 00:48:54,3m - 29.353s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.001s,PASSED
+"nameSheet = ""VerifyCreateLabelDeferredCredit""",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.134s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:45:25,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:45:25,25-10-2024 00:48:54,3m - 28.897s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyCreateReceiptLabelsDeferredCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:48:54,25-10-2024 00:53:01,4m - 6.718s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.013s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.004s,PASSED
+"nameSheet = ""VerifyCreateLabelDeferredCorp""",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.090s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:48:54,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:48:54,25-10-2024 00:53:01,4m - 6.294s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyCreateReceiptLabelsDeferredPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:53:01,25-10-2024 00:57:02,4m - 1.703s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.000s,PASSED
+"nameSheet = ""VerifyCreateLabelDeferredPC""",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.001s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.081s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:53:01,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:53:01,25-10-2024 00:57:02,4m - 1.261s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyCreateReceiptLabelsDeferredPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 00:57:02,25-10-2024 01:01:05,4m - 3.237s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+"nameSheet = ""VerifyCreateLabelDeferredPS""",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.060s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 00:57:03,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 00:57:03,25-10-2024 01:01:05,4m - 2.796s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyEditReceiptLabelsDeferredCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 01:01:05,25-10-2024 01:05:03,3m - 57.539s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.001s,PASSED
+"nameSheet = ""VerifyEditLabelDeferredCredit""",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.074s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.001s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.002s,PASSED
+columnNames = dataFile.getColumnNames(),Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.001s,PASSED
+println(columnNames[0]),Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:01:06,0.009s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:01:06,25-10-2024 01:05:03,3m - 57.086s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyEditReceiptLabelsDeferredCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 01:05:03,25-10-2024 01:09:31,4m - 28.308s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.001s,PASSED
+"nameSheet = ""VerifyEditLabelDeferredCorp""",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.001s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.056s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.001s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.000s,PASSED
+columnNames = dataFile.getColumnNames(),Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.000s,PASSED
+println(columnNames[0]),Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:05:03,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:05:03,25-10-2024 01:09:31,4m - 27.909s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyEditReceiptLabelsDeferredPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 01:09:31,25-10-2024 01:13:56,4m - 24.653s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.001s,PASSED
+"nameSheet = ""VerifyEditLabelDeferredPC""",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.053s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.001s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.000s,PASSED
+columnNames = dataFile.getColumnNames(),Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.001s,PASSED
+println(columnNames[0]),Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:09:32,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:09:32,25-10-2024 01:13:56,4m - 24.341s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyEditReceiptLabelsDeferredPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 01:13:56,25-10-2024 01:18:21,4m - 25.131s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.000s,PASSED
+"nameSheet = ""VerifyEditLabelDeferredPS""",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.001s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.044s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.002s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.000s,PASSED
+columnNames = dataFile.getColumnNames(),Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.000s,PASSED
+println(columnNames[0]),Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:13:56,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:13:56,25-10-2024 01:18:21,4m - 24.812s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyReceiptPageLabelsCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 01:18:21,25-10-2024 01:21:55,3m - 34.095s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.000s,PASSED
+"nameSheet = ""VerifyReceiptPageLabelsCredit""",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25VerifyReceiptPageLabelsCC""",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.055s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:18:21,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:18:21,25-10-2024 01:21:55,3m - 33.781s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyReceiptPageLabelsCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 01:21:55,25-10-2024 01:25:59,4m - 3.991s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.001s,PASSED
+"nameSheet = ""VerifyReceiptPageLabelsCorp""",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25VerifyReceiptPageLabelsCorp""",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.078s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:21:56,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:21:56,25-10-2024 01:25:59,4m - 3.650s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyReceiptPageLabelsPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 01:25:59,25-10-2024 01:30:24,4m - 24.538s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+"nameSheet = ""VerifyReceiptPageLabelsPC""",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.004s,PASSED
+"dataFile = ""IWPTestData/IWP25VerifyReceiptPageLabelsPC""",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.058s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:26:00,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:26:00,25-10-2024 01:30:24,4m - 24.219s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/VerifyReceiptPageLabelsPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 01:30:24,25-10-2024 01:34:51,4m - 27.009s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.001s,PASSED
+"nameSheet = ""VerifyReceiptPageLabelsPS""",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25VerifyReceiptPageLabelsPS""",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.077s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:30:24,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:30:24,25-10-2024 01:34:51,4m - 26.671s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CCAutoPayCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 01:34:51,25-10-2024 01:38:49,3m - 58.353s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+"nameSheet = ""CCAutoPayPlanCorp""",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.001s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.038s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+columnNames = dataFile.getColumnNames(),Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+println(columnNames[0]),Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:34:51,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:34:51,25-10-2024 01:38:49,3m - 58.047s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CCAutoPayCredit,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 01:38:49,25-10-2024 01:42:14,3m - 24.620s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.014s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.001s,PASSED
+"nameSheet = ""CCAutoPayPlanCredit""",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.053s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.001s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.001s,PASSED
+columnNames = dataFile.getColumnNames(),Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.000s,PASSED
+println(columnNames[0]),Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:38:50,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:38:50,25-10-2024 01:42:14,3m - 24.271s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CCAutoPayPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 01:42:14,25-10-2024 01:46:12,3m - 58.087s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.000s,PASSED
+"nameSheet = ""CCAutoPayPlanPC""",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.001s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.049s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:42:14,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:42:14,25-10-2024 01:46:12,3m - 57.793s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CCAutoPayPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 01:46:12,25-10-2024 01:50:09,3m - 56.571s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.001s,PASSED
+"nameSheet = ""CCAutoPayPlanPS""",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.001s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.055s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.001s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:46:12,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:46:12,25-10-2024 01:50:09,3m - 56.181s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CCDeferredCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 01:50:09,25-10-2024 01:54:10,4m - 1.907s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.001s,PASSED
+"nameSheet = ""CCDeferredPlanCorp""",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25CCDeferredCorp""",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.077s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:50:09,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:50:09,25-10-2024 01:54:10,4m - 1.612s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CCDeferredCredit,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 01:54:11,25-10-2024 01:57:42,3m - 31.210s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.000s,PASSED
+"nameSheet = ""CCDeferredPlanCredit""",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25CCDeferredCredit""",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.061s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:54:11,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:54:11,25-10-2024 01:57:42,3m - 30.872s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CCDeferredPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 01:57:42,25-10-2024 02:01:46,4m - 4.046s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.001s,PASSED
+"nameSheet = ""CCDeferredPlanPC""",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25CCDeferredPC""",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.334s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 01:57:42,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 01:57:42,25-10-2024 02:01:46,4m - 3.471s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CCDeferredPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 02:01:46,25-10-2024 02:05:50,4m - 4.334s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.001s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+"nameSheet = ""CCDeferredPlanPS""",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25CCDeferredPS""",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.061s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:01:46,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:01:46,25-10-2024 02:05:50,4m - 4.020s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CMCAutoPayCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:05:50,25-10-2024 02:09:48,3m - 57.900s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.000s,PASSED
+"nameSheet = ""CMCAutoPayPlanCorp""",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.001s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.034s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:05:50,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:05:50,25-10-2024 02:09:48,3m - 57.605s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CMCAutoPayCredit,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:09:48,25-10-2024 02:13:15,3m - 26.998s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.011s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+"nameSheet = ""CMCAutoPayPlanCredit""",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.058s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:09:48,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:09:48,25-10-2024 02:13:15,3m - 26.710s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CMCAutoPayPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:13:15,25-10-2024 02:17:17,4m - 1.453s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.011s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+"nameSheet = ""CMCAutoPayPlanPC""",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.031s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:13:15,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:13:15,25-10-2024 02:17:17,4m - 1.213s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CMCAutoPayPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:17:17,25-10-2024 02:21:15,3m - 58.437s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+"nameSheet = ""CMCAutoPayPlanPS""",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+"dataFile = getExcelDataWithDefaultSheet(""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx"", nameSheet, true)",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.038s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.001s,PASSED
+numOfRows = dataFile.getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:17:17,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:17:17,25-10-2024 02:21:15,3m - 58.168s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CMCDeferredCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:21:15,25-10-2024 02:25:35,4m - 20.393s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+"nameSheet = ""CMCDeferredPlanCorp""",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25CMCDeferredCorp""",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.061s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:21:15,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:21:15,25-10-2024 02:25:35,4m - 20.117s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CMCDeferredCredit,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:25:35,25-10-2024 02:29:23,3m - 47.463s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.006s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+"nameSheet = ""CMCDeferredPlanCredit""",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25CMCDeferredCredit""",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.054s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:25:36,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:25:36,25-10-2024 02:29:23,3m - 47.182s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CMCDeferredPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:29:23,25-10-2024 02:31:46,2m - 23.152s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.008s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+"nameSheet = ""CMCDeferredPlanPC""",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25CMCDeferredPC""",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.041s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:29:23,0.000s,PASSED
+"for ([row = 2, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:29:23,25-10-2024 02:31:46,2m - 22.908s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Payments/CMCDeferredPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:31:46,25-10-2024 02:36:05,4m - 18.825s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx""",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.001s,PASSED
+"nameSheet = ""CMCDeferredPlanPS""",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25CMCDeferredPS""",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.058s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:31:46,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:31:46,25-10-2024 02:36:05,4m - 18.424s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/CardExpiredErrorCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:36:05,25-10-2024 02:39:38,3m - 33.018s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.001s,PASSED
+"nameSheet = ""CardExpiredErrorCC""",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25CardExpiredErrorCC""",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.055s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:36:05,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:36:05,25-10-2024 02:39:38,3m - 32.731s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/CardNotAcceptedErrorCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Smoke and Regression",,25-10-2024 02:39:38,25-10-2024 02:43:07,3m - 28.703s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.001s,PASSED
+"nameSheet = ""CardNotAcceptedErrorCC""",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25CardNotAcceptedErrorCC""",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.092s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:39:38,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:39:38,25-10-2024 02:43:07,3m - 28.261s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:43:07,25-10-2024 02:46:32,3m - 25.573s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.001s,PASSED
+"nameSheet = ""MaxAmountErrorCC""",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MaxAmountErrorCC""",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.105s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:43:07,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:43:07,25-10-2024 02:46:32,3m - 25.152s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:46:32,25-10-2024 02:50:01,3m - 28.407s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.000s,PASSED
+"nameSheet = ""MaxAmountErrorCorp""",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MaxAmountErrorCorp""",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.068s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:46:32,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:46:32,25-10-2024 02:50:01,3m - 28.098s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:50:01,25-10-2024 02:53:42,3m - 41.446s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:50:01,25-10-2024 02:50:01,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:50:01,25-10-2024 02:50:01,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:50:01,25-10-2024 02:50:01,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 02:50:01,25-10-2024 02:50:01,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:50:01,25-10-2024 02:50:01,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:50:04,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:50:04,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:50:04,0.000s,PASSED
+"nameSheet = ""MaxAmountErrorPC""",Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:50:04,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25MaxAmountErrorPC""",Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:50:04,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:50:04,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:50:04,0.087s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:50:04,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:50:04,25-10-2024 02:53:42,3m - 37.840s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MaxAmountErrorPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:53:42,25-10-2024 02:57:08,3m - 25.453s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.000s,PASSED
+"nameSheet = ""MaxAmountErrorPS""",Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25MaxAmountErrorPS""",Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:42,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:53:42,25-10-2024 02:53:43,0.092s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:53:43,25-10-2024 02:53:43,0.006s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:53:43,25-10-2024 02:57:08,3m - 25.017s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 02:57:08,25-10-2024 03:00:33,3m - 25.870s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.000s,PASSED
+"nameSheet = ""MinAmountErrorCC""",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25MinAmountErrorCC""",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.070s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 02:57:08,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 02:57:08,25-10-2024 03:00:33,3m - 25.526s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:00:33,25-10-2024 03:03:59,3m - 25.592s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.001s,PASSED
+"nameSheet = ""MinAmountErrorCorp""",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MinAmountErrorCorp""",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.080s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:00:34,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:00:34,25-10-2024 03:03:59,3m - 25.180s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:03:59,25-10-2024 03:07:24,3m - 24.563s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.014s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.002s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+"nameSheet = ""MinAmountErrorPC""",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MinAmountErrorPC""",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.084s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:03:59,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:03:59,25-10-2024 03:07:24,3m - 24.234s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MinAmountErrorPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:07:24,25-10-2024 03:10:49,3m - 25.114s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.002s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.000s,PASSED
+"nameSheet = ""MinAmountErrorPS""",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25MinAmountErrorPS""",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.062s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:07:24,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:07:24,25-10-2024 03:10:49,3m - 24.795s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/MRFCorporate,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:10:49,25-10-2024 03:13:49,3m - 0.063s,FAILED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.002s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.001s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.001s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.000s,PASSED
+isRequiredTextPresent = false,Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.001s,PASSED
+"nameSheet = ""MRFCorp""",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25MRFCorp""",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.114s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:10:49,0.000s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:10:49,25-10-2024 03:13:49,2m - 59.624s,FAILED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:13:49,25-10-2024 03:17:07,3m - 18.098s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.000s,PASSED
+"nameSheet = ""NoOverPayErrorCC""",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.001s,PASSED
+"dataFile = ""IWPTestData/IWP25NoOverPayErrorCC""",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.001s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.086s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:13:49,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:13:49,25-10-2024 03:17:07,3m - 17.719s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:17:07,25-10-2024 03:20:24,3m - 16.934s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.014s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+"nameSheet = ""NoOverPayErrorCorp""",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.006s,PASSED
+"dataFile = ""IWPTestData/IWP25NoOverPayErrorCorp""",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.067s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:17:07,0.002s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:17:07,25-10-2024 03:20:24,3m - 16.610s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:20:24,25-10-2024 03:23:41,3m - 17.307s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.000s,PASSED
+"nameSheet = ""NoOverPayErrorPC""",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoOverPayErrorPC""",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.062s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:20:24,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:20:24,25-10-2024 03:23:41,3m - 17.018s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoOverPayErrorPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:23:41,25-10-2024 03:26:58,3m - 17.085s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:23:41,25-10-2024 03:23:41,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:23:41,25-10-2024 03:23:41,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:23:41,25-10-2024 03:23:41,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.000s,PASSED
+"nameSheet = ""NoOverPayErrorPS""",Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoOverPayErrorPS""",Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.067s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:23:42,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:23:42,25-10-2024 03:26:58,3m - 16.777s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorCC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:26:58,25-10-2024 03:28:38,1m - 39.921s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+"nameSheet = ""NoUnderPayErrorCC""",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoUnderPayErrorCC""",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.015s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.052s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:26:59,0.003s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:26:59,25-10-2024 03:28:38,1m - 39.604s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorCorp,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:28:38,25-10-2024 03:30:18,1m - 39.303s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.010s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+"nameSheet = ""NoUnderPayErrorCorp""",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoUnderPayErrorCorp""",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.057s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:28:39,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:28:39,25-10-2024 03:30:18,1m - 38.991s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPC,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:30:18,25-10-2024 03:31:57,1m - 39.434s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.001s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.001s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.000s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.001s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.000s,PASSED
+"nameSheet = ""NoUnderPayErrorPC""",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoUnderPayErrorPC""",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.076s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:30:18,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:30:18,25-10-2024 03:31:57,1m - 39.111s,PASSED
+,,,,,,,
+Test Cases/IntegratedWeb/IWP25/Error/NoUnderPayErrorPS,Edge Chromium 130,"Env: QA and QA2 Only, Execution: Regression Only",,25-10-2024 03:31:57,25-10-2024 03:33:36,1m - 39.349s,PASSED
+"resText = ""Fail""",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.001s,PASSED
+"resColumn = ""Result""",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.000s,PASSED
+"datCloumn = ""Date""",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.000s,PASSED
+"fileLoc = ""KatalonData/IWPTestData/VRelay25Payments.xlsx""",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.000s,PASSED
+numOfRows = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.001s,PASSED
+dataFile = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.000s,PASSED
+nameSheet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.000s,PASSED
+dataFileEmulator = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.001s,PASSED
+"nameSheet = ""NoUnderPayErrorPS""",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.000s,PASSED
+"dataFile = ""IWPTestData/IWP25NoUnderPayErrorPS""",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.001s,PASSED
+"dataFileEmulator = ""IWPTestData/EmulatorData""",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.000s,PASSED
+numOfRows = findTestData(dataFile).getRowNumbers(),Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.064s,PASSED
+"println(""Number of Records: "" + numOfRows)",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:31:57,0.001s,PASSED
+"for ([row = 1, row <= numOfRows, (row++)])",Edge Chromium 130,,,25-10-2024 03:31:57,25-10-2024 03:33:36,1m - 39.012s,PASSED
