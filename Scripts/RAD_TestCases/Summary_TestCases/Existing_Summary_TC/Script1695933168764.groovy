@@ -38,7 +38,7 @@ String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, CRN
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, CRN, MFLicNum
 
 
 
@@ -56,6 +56,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			PaymentType = findTestData(dataFile).getValue('PaymentType', row)
 			feinSsn = findTestData(dataFile).getValue('FEINSSN', row)
 			CRN = findTestData(dataFile).getValue('CRN', row)
+			MFLicNum = findTestData(dataFile).getValue('MFLicNum', row)
 			
 			
 			
@@ -131,6 +132,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 // Set Data Invoice Number
 					CustomKeywords.'rad.getSetDataRAD.setDataRADNoticeInvoiceThirteen'()
+					
+					
+// Set Data Motor Fuel License Number
+					if (MFLicNum.equalsIgnoreCase("Y"))
+						{
+							CustomKeywords.'rad.getSetDataRAD.setDataRADMFLicNumSixExisting'()
+						}
 					
 
 // Populate MD Central Registration Number for some Tax Types
@@ -261,6 +269,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							WebUI.verifyTextPresent('07640126', true)
 						}
 					
+						
+						if (MFLicNum.equalsIgnoreCase("Y"))
+							{
+								WebUI.verifyTextPresent('Motor Fuel License Number#:', true)
+								WebUI.verifyTextPresent('700142', true)
+							}
+						
+						
 						
 						
 						

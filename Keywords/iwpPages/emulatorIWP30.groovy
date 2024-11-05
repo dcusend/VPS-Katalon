@@ -350,7 +350,6 @@ class emulatorIWP30 {
 				println(CAN)
 				if((CAN == null)) {
 					CAN = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
-
 				}
 				else {
 					CAN = findTestData(dataFileE).getValue('CAN', rowE)
@@ -419,35 +418,74 @@ class emulatorIWP30 {
 
 				WebUI.selectOptionByValue(findTestObject('IWP30/Page_VRelay30Emulator/MV'),MV, true)
 				//Thread.sleep(5000)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Amount'),Amount)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/CAN'),CAN)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Action'),Action)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Lang'),Lang)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Fname'),Fname)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Lname'),Lname)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/AL1'),AL1)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/AL2'),AL2)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Country'),Country)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/City'),City)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/State'),State)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/ZIP'),ZIP)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Order'),Order)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Company'),CompanyName)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Email'),Email)
 
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF1'),UDF1)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF2'),UDF2)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
-				WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
-
+				println(emulator_url)
+				
+				if(emulator_url.toString().contains('agencyx')) {
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Amount'),Amount)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/CAN'),CAN)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Action'),Action)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Lang'),Lang)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Fname'),Fname)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Lname'),Lname)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/AL1'),AL1)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/AL2'),AL2)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Country'),Country)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/City'),City)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/State'),State)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/ZIP'),ZIP)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Order'),Order)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Company'),CompanyName)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Email'),Email)
+					
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF1'),UDF1)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF2'),UDF2)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF3'),UDF3)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF4'),UDF4)
+					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF5'),UDF5)
+				}
+				else {
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Amount'),Amount)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/CAN'),CAN)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Action'),Action)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Lang'),Lang)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Fname'),Fname)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Lname'),Lname)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/AL1'),AL1)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/AL2'),AL2)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Country'),Country)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/City'),City)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/State'),State)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/ZIP'),ZIP)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Order'),Order)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Company'),CompanyName)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Email'),Email)
+	
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF1'),UDF1)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF2'),UDF2)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
+					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
+	
+				}
+				
 				if (MV != "2.3") {
 					println "MV is not 2.3"
-					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
-					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
-					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF8'),UDF8)
-					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF9'),UDF9)
-					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
+					
+					if(emulator_url.toString().contains('agencyx')) {
+						WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF6'),UDF6)
+						WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF7'),UDF7)
+						WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF8'),UDF8)
+						WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF9'),UDF9)
+						WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF10'),UDF10)
+					}
+					else {
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF6'),UDF6)
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF7'),UDF7)
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF8'),UDF8)
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF9'),UDF9)
+						WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
+					}
 				}
 
 
@@ -455,9 +493,17 @@ class emulatorIWP30 {
 				if (MV == "2.7") {
 					println "MV is 2.7"
 
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/input_Username'),em_Username)
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/input_Password'),em_Password)
-					WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/textarea_Parcel'),Parcels)
+					if(emulator_url.toString().contains('agencyx')) {
+						
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_EmulatorAgencyX/input_Username'),em_Username)
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_EmulatorAgencyX/input_Password'),em_Password)
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_EmulatorAgencyX/textarea_Parcel'),Parcels)
+					}
+					else {
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/input_Username'),em_Username)
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/input_Password'),em_Password)
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_VRelay30Emulator/textarea_Parcel'),Parcels)
+					}
 				}
 
 
@@ -530,7 +576,13 @@ class emulatorIWP30 {
 				//WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF10'),UDF10)
 				//Thread.sleep(2000)
 
-				WebUI.click(findTestObject('IWP30/Page_VRelay30Emulator/Submit'))
+				if(emulator_url.toString().contains('agencyx')) {
+					WebUI.click(findTestObject('IWP30/Page_EmulatorAgencyX/Submit'))
+					
+				}
+				else {
+					WebUI.click(findTestObject('IWP30/Page_VRelay30Emulator/Submit'))
+				}
 				Thread.sleep(4000)
 
 				WebUI.closeBrowser()
