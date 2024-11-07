@@ -1,13 +1,12 @@
 {
-  "keywordFileContentHash": "312D65A87753BD9765BB8CE458A0C297",
+  "keywordFileContentHash": "BDA56D00778AF95798518F1D8CA6E364",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.virtualTerminalSetData",
       "keywordMethods": [
         {
           "name": "saleKeyboard_HardCoded",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "saleKeyboard_HardCoded_AllCardTypes",
@@ -25,8 +24,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "saleKeyboard_DataDriven",
@@ -57,8 +55,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "ManualAuthKeyboard_DataDriven",
@@ -89,8 +86,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setDataSaleKeyboard",
@@ -381,11 +377,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

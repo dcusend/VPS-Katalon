@@ -1,0 +1,52 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/div_Payment ID",
+      "brokenLocator": "/html[1]/body[@class\u003d\"app sidebar-mini\"]/main[@class\u003d\"app-content\"]/div[@class\u003d\"d-flex\"]/div[@class\u003d\"tile w-100\"]/div[@class\u003d\"border\"]/div[@class\u003d\"tile-body\"]/div[@class\u003d\"tile-body\"]/div[@class\u003d\"table-responsive px-3\"]/div[1]/div[@class\u003d\"tile-body\"]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/div/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241031_213928/QA/VT-Bootstrap/AdminSuiteBootstrap_Payments_TestSuite/20241031_213933/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/div_Payment ID_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ManualAuthKeyboard/select_YYYY",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@name\u003d\u0027cardExpYear\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241031_213928/QA/VT-Bootstrap/AdminSuiteBootstrap_Payments_TestSuite/20241031_213933/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ManualAuthKeyboard/select_YYYY_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID",
+      "brokenLocator": "//table[@id\u003d\u0027vpositem\u0027]/tbody/tr/td/button",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241031_213928/QA/VT-Bootstrap/AdminSuiteBootstrap_Payments_TestSuite/20241031_213933/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SearchResults/button_PaymentID_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/button_Submit",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Submit\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241031_213928/QA/VT-Bootstrap/AdminSuiteBootstrap_Payments_TestSuite/20241031_213933/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/button_Submit_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/a_Void this transaction",
+      "brokenLocator": "//*[@onclick \u003d \u0027javascript:voidActionLink()\u0027 and (text() \u003d \u0027Void this transaction\u0027 or . \u003d \u0027Void this transaction\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//a[contains(@href, \u0027#\u0027)])[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241031_213928/QA/VT-Bootstrap/AdminSuiteBootstrap_Payments_TestSuite/20241031_213933/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/a_Void this transaction_href.png"
+    }
+  ]
+}
