@@ -53,7 +53,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		def totalOptionsExistingLiability = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'))
 	
 // Updates for August 2023
-		WebUI.verifyEqual(totalOptionsExistingLiability, 21)
+		WebUI.verifyEqual(totalOptionsExistingLiability, 20)
 	
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Bay Restoration Fee','Corporate Income Tax','Fiduciary Tax'])
@@ -64,7 +64,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Withholding Tax','Alcohol Tax','Tire Recycling Fee'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Admissions and Amusement Tax','Estate Tax','Motor Fuel Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Admissions and Amusement Tax','Motor Fuel Tax'])
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Slots License Fee','Tobacco Tax','Transportation Network Services'])
 		

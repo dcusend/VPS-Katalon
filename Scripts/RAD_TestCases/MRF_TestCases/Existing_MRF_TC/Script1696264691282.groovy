@@ -43,7 +43,7 @@ String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
 //String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, MFLicNum, isRequiredTextPresent = false
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, MFLicNum, isRequiredTextPresent = true
 
 
 
@@ -161,6 +161,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 								else
 									{
 										isRequiredTextPresent = false
+										KeywordUtil.markFailed("MD Central Registration Number error is missing")
+										
 									}
 								
 						}
@@ -178,6 +180,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 									else
 										{
 											isRequiredTextPresent = false
+											KeywordUtil.markFailed("Motor Fuel License Number error is missing")
 										}
 									}
 												
