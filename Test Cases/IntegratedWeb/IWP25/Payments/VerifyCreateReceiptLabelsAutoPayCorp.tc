@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Env: QA and QA2 Only, Execution: Regression Only</description>
    <name>VerifyCreateReceiptLabelsAutoPayCorp</name>
    <tag></tag>
    <comment></comment>

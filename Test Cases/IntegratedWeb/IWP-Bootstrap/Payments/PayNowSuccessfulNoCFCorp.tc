@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PayNowSuccessfulNoCFCorp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc18babb-af74-4904-b066-2e22f29fd996</testCaseGuid>
+</TestCaseEntity>

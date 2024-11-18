@@ -80,6 +80,259 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7_XPATH.png"
+    },
+    {
+      "approved": true,
+<<<<<<< HEAD
+      "testObjectId": "Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input_ccSavePaymentMethod",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input_ccSavePaymentMethod_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP_Bootstrap/Page_Confirmation_Bootstrap/input_Confirm",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP_Bootstrap/Page_Confirmation_Bootstrap/input_Confirm_position.png"
+=======
+      "testObjectId": "Object Repository/Page_EditSchedPayment/btn_update",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/MV",
+      "brokenLocator": "//select[@name\u003d\u0027message_version\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Message Version\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/MV_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/Amount",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Amount\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/Amount_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/CAN",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Client Account Number\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/CAN_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/Action",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Action Type\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/Action_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/Fname",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027First Name\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/Fname_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/Lname",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Last Name\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/Lname_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/AL1",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Address Line 1\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/AL1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/AL2",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Address Line 2\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/AL2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/Country",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Country\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/Country_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/City",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027City\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/City_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/State",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027State\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/State_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/ZIP",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ZIP\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/ZIP_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/Order",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Order Number\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/Order_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/Company",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Company Name\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/Company_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/Email",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Email Address\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/Email_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF1",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 1\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF2",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 2\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF3",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 3\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF4",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 4\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF4_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF5",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 5\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF5_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF6",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 6\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF6_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF7",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 7\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF7_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF8",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 8\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF8_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF9",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 9\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF9_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_VRelay30Emulator/UDF10",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User Defined Field 10\u0027])[1]/following::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF10_neighbor.png"
+>>>>>>> dccd44bbb425740680f82e5e76f53006c67144bd
     }
   ]
 }

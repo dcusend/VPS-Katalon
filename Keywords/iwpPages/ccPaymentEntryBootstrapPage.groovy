@@ -41,41 +41,33 @@ public class ccPaymentEntryBootstrapPage {
 	//*********************************************************************************************
 
 	@Keyword
-	def getDataCardName(String nameIDG)
-	{
+	def getDataCardName(String nameIDG) {
 
 		def dataFileCardName = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "NameData", true)
 
 		def numOfRowsCardName = dataFileCardName.getRowNumbers()
 
-		for (def row = 1; row <= numOfRowsCardName; row++)
-		{
+		for (def row = 1; row <= numOfRowsCardName; row++) {
 
 
 			def ID = dataFileCardName.getValue("ID", row)
 
-			if (ID.equals(nameIDG))
-			{
+			if (ID.equals(nameIDG)) {
 				cardholderName = dataFileCardName.getValue("CardholderName", row)
 			}
 		}
-
 	}
 
 
 
 	@Keyword
-	def setDataCardName(String nameIDS)
-	{
+	def setDataCardName(String nameIDS) {
 
 		this.getDataCardName(nameIDS)
 
-		if ((!cardholderName.isEmpty()))
-		{
+		if ((!cardholderName.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_billingName'),cardholderName)
 		}
-
-
 	}
 
 
@@ -100,26 +92,22 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def getDataCardInfo(String CardIDG)
-	{
+	def getDataCardInfo(String CardIDG) {
 
 		def dataFileCardInfo = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "CardData", true)
 
 		def numOfRowsCardInfo = dataFileCardInfo.getRowNumbers()
 
-		for (def row = 1; row <= numOfRowsCardInfo; row++)
-		{
+		for (def row = 1; row <= numOfRowsCardInfo; row++) {
 
 			def ID = dataFileCardInfo.getValue("ID", row)
 
-			if (ID.equals(CardIDG))
-			{
+			if (ID.equals(CardIDG)) {
 
 				cardNumber = dataFileCardInfo.getValue("CardNumber", row)
 				cvv = dataFileCardInfo.getValue("CVV", row)
 				expMM = dataFileCardInfo.getValue("ExpMM", row)
 				expYYYY = dataFileCardInfo.getValue("ExpYYYY", row)
-
 			}
 		}
 	}
@@ -127,35 +115,29 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def setDataCardInfo(String CardIDS)
-	{
+	def setDataCardInfo(String CardIDS) {
 		this.getDataCardInfo(CardIDS)
 
 
 
-		if ((!cardNumber.isEmpty()))
-		{
+		if ((!cardNumber.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_cardNumber'),cardNumber)
 		}
 
 
-		if ((!cvv.isEmpty()))
-		{
+		if ((!cvv.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_spc'),cvv)
 		}
 
 
-		if ((!expMM.isEmpty()))
-		{
+		if ((!expMM.isEmpty())) {
 			WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_MM'),expMM,false)
 		}
 
 
-		if ((!expYYYY.isEmpty()))
-		{
+		if ((!expYYYY.isEmpty())) {
 			WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_YYYY'),expYYYY,false)
 		}
-
 	}
 
 
@@ -179,56 +161,45 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def getDataCardAddress(String AddressIDG)
-	{
+	def getDataCardAddress(String AddressIDG) {
 
 		def dataFileAddress = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "AddressData", true)
 
 		def numOfRowsAddress = dataFileAddress.getRowNumbers()
 
-		for (def row = 1; row <= numOfRowsAddress; row++)
-		{
+		for (def row = 1; row <= numOfRowsAddress; row++) {
 
 			def ID = dataFileAddress.getValue("ID", row)
 
-			if (ID.equals(AddressIDG))
-			{
+			if (ID.equals(AddressIDG)) {
 
 				AL1 = dataFileAddress.getValue("AL1", row)
 				AL2 = dataFileAddress.getValue("AL2", row)
 				ZIP = dataFileAddress.getValue("ZIP", row)
-
-
 			}
 		}
-
 	}
 
 
 
 	@Keyword
-	def setDataCardAddress(String AddressIDS)
-	{
+	def setDataCardAddress(String AddressIDS) {
 
 		this.getDataCardAddress(AddressIDS)
 
-		if ((!AL1.isEmpty()))
-		{
+		if ((!AL1.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_billingAddress'),AL1)
 		}
 
 
-		if ((!AL2.isEmpty()))
-		{
+		if ((!AL2.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_billingAddress2'),AL2)
 		}
 
 
-		if ((!ZIP.isEmpty()))
-		{
+		if ((!ZIP.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_billingZip'),ZIP)
 		}
-
 	}
 
 
@@ -253,25 +224,20 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def getDataCardEmailAndPhone(String EmailPhoneIDG)
-	{
+	def getDataCardEmailAndPhone(String EmailPhoneIDG) {
 
 		def dataFileEmailPhone = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "EmailAndPhoneData", true)
 
 		def numOfRowsEmailPhone = dataFileEmailPhone.getRowNumbers()
 
-		for (def row = 1; row <= numOfRowsEmailPhone; row++)
-		{
+		for (def row = 1; row <= numOfRowsEmailPhone; row++) {
 
 			def ID = dataFileEmailPhone.getValue("ID", row)
 
-			if (ID.equals(EmailPhoneIDG))
-			{
+			if (ID.equals(EmailPhoneIDG)) {
 
 				email = dataFileEmailPhone.getValue("Email", row)
 				//phone = dataFileEmailPhone.getValue("Phone", row)
-
-
 			}
 		}
 	}
@@ -279,16 +245,13 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def setDataCardEmailAndPhone(String EmailPhoneIDS)
-	{
+	def setDataCardEmailAndPhone(String EmailPhoneIDS) {
 
 		this.getDataCardEmailAndPhone(EmailPhoneIDS)
 
-		if ((!email.isEmpty()))
-		{
+		if ((!email.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_emailAddress'),email)
 		}
-
 	}
 
 
@@ -313,12 +276,10 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def setDataAmount(String AmountS)
-	{
+	def setDataAmount(String AmountS) {
 		amount = AmountS
 
-		if ((!amount.isEmpty()))
-		{
+		if ((!amount.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_amount'),amount)
 		}
 	}
@@ -343,21 +304,18 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def getDataCardUDF(String UDFIDG)
-	{
+	def getDataCardUDF(String UDFIDG) {
 
 		def dataFileUDF = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "UDFData", true)
 
 		def numOfRowsUDF = dataFileUDF.getRowNumbers()
 
 
-		for (def row = 1; row <= numOfRowsUDF; row++)
-		{
+		for (def row = 1; row <= numOfRowsUDF; row++) {
 
 			def ID = dataFileUDF.getValue("ID", row)
 
-			if (ID.equals(UDFIDG))
-			{
+			if (ID.equals(UDFIDG)) {
 
 				udf1 = dataFileUDF.getValue("UDF1", row)
 				udf2 = dataFileUDF.getValue("UDF2", row)
@@ -369,7 +327,6 @@ public class ccPaymentEntryBootstrapPage {
 				udf8 = dataFileUDF.getValue("UDF8", row)
 				udf9 = dataFileUDF.getValue("UDF9", row)
 				udf10 = dataFileUDF.getValue("UDF10", row)
-
 			}
 		}
 	}
@@ -377,35 +334,29 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	@Keyword
-	def setDataCardUDF(String UDFIDS)
-	{
+	def setDataCardUDF(String UDFIDS) {
 		this.getDataCardUDF(UDFIDS)
 
 		// populate only UDFs 2, 3, 7, 8 since they are the only ones modifiable
 
-		if ((!udf2.isEmpty()))
-		{
+		if ((!udf2.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_userDefined2'),udf2)
 		}
 
 
-		if ((!udf3.isEmpty()))
-		{
+		if ((!udf3.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_userDefined3'),udf3)
 		}
 
 
-		if ((!udf7.isEmpty()))
-		{
+		if ((!udf7.isEmpty())) {
 			WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined7'),udf7,false)
 		}
 
 
-		if ((!udf8.isEmpty()))
-		{
+		if ((!udf8.isEmpty())) {
 			WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined8'),udf8,false)
 		}
-
 	}
 
 
@@ -423,24 +374,21 @@ public class ccPaymentEntryBootstrapPage {
 
 	// Select Store Payment Method checkbox
 	@Keyword
-	def selectCheckboxStorePaymentMethod()
-	{
+	def selectCheckboxStorePaymentMethod() {
 		WebUI.check(findTestObject(pathOR + 'input_ccSavePaymentMethod'))
 	}
 
 
 	// Select Customer CC Terms checkbox
 	@Keyword
-	def selectCheckboxCCTerms()
-	{
+	def selectCheckboxCCTerms() {
 		WebUI.check(findTestObject(pathOR + 'input_checkedAcceptCondition'))
 	}
 
 
 	// Select Continue button
 	@Keyword
-	def selectButtonContinue()
-	{
+	def selectButtonContinue() {
 		WebUI.click(findTestObject(pathOR + 'input_Continue'))
 	}
 
@@ -448,8 +396,6 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	// placeholder for selecting Exit button
-
-
 }
 
 
