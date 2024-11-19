@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Prev</name>
+   <tag></tag>
+   <elementGuidId>507e08cf-2aa2-41dc-8a7e-42a32dd4dfd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.page-item.prev.disabled</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='paginationRole']/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=/^Prev$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e633df7a-6bcd-4257-9da6-70b42615cc54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>page-item prev disabled</value>
+      <webElementGuid>70cd1d16-8e65-415d-841c-c1e672adc4dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Prev</value>
+      <webElementGuid>20626dd1-3ff3-4088-b9af-950e126ca72e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;paginationRole&quot;)/li[@class=&quot;page-item prev disabled&quot;]</value>
+      <webElementGuid>d51b150f-3b55-4990-8295-6a24e9bb7fbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='paginationRole']/li[2]</value>
+      <webElementGuid>97f973cf-685e-4e0f-a255-a4933d8e66b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page 1'])[1]/following::li[2]</value>
+      <webElementGuid>bb711bc3-74be-4f7e-9264-760efe3d024c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gambrills Police Admin'])[1]/following::li[2]</value>
+      <webElementGuid>1f91f4f3-0197-40b5-b7fc-8ada152f19a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find Role'])[2]/preceding::li[8]</value>
+      <webElementGuid>60491ef3-18df-4e2e-abd5-31161f986998</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name :'])[1]/preceding::li[8]</value>
+      <webElementGuid>159f91e2-de60-4107-9f03-4550eba8150c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/ul/li[2]</value>
+      <webElementGuid>9cbcb96d-ce66-44ff-9433-0fd363fcbf52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Prev' or . = 'Prev')]</value>
+      <webElementGuid>60312e39-c5a0-4c6c-a292-1b51f9414b0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

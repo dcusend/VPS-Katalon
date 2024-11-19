@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Multiple Bill Payment</name>
+   <tag></tag>
+   <elementGuidId>e1b50a57-c21c-45ae-bc3f-29471a6d84a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Multiple Bill Payment&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4b47aab1-d99b-4e66-b6c0-3787396a3e18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-link btn-block p-0 text-left</value>
+      <webElementGuid>9b073f7f-3f96-485a-a9c7-f12eddc40414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5052f1b4-3627-48c0-834d-e5a0752dd90b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>collapse</value>
+      <webElementGuid>1f1b63e2-c0d0-4bfb-bcfc-74c71cc03dd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-target</name>
+      <type>Main</type>
+      <value>#MultipleBillPayment</value>
+      <webElementGuid>f6fcea18-c93f-4a32-9d5e-1a25e05fb39d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>250d03f8-4e85-47e6-8482-078555dc0b69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>collapseOne</value>
+      <webElementGuid>6cd66197-c203-4e46-bb5b-9afd829d21d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+					      Multiple Bill Payment
+					    </value>
+      <webElementGuid>403b4de7-5961-438a-95c1-0fbb608e8a69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;headingOne&quot;]/h2[@class=&quot;mb-0&quot;]/button[@class=&quot;btn btn-link btn-block p-0 text-left&quot;]</value>
+      <webElementGuid>b48dd98e-362e-4d8f-ae61-a40a0458aa1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[10]</value>
+      <webElementGuid>43388459-08c4-4f83-b4dd-652d7d94ec6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='headingOne']/h2/button)[10]</value>
+      <webElementGuid>184eecc7-ddae-449a-9e9f-c2a23b4c0a24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vericle Test App'])[2]/following::button[1]</value>
+      <webElementGuid>29287a52-9b00-4785-ba67-7bd2791e2ab2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Vericle App'])[2]/following::button[1]</value>
+      <webElementGuid>74231f37-d92e-4405-86f0-eddb1db64ef0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BBP Parking Fees GovTest'])[9]/preceding::button[1]</value>
+      <webElementGuid>3233fc9a-7571-4e5c-9c96-3f6ebf0f1151</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[10]/preceding::button[1]</value>
+      <webElementGuid>0b93a70f-543d-4056-ac7f-b49cb5387583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Multiple Bill Payment']/parent::*</value>
+      <webElementGuid>773f370c-84dd-4c68-8ff8-6de1898ff965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[76]/h2/button</value>
+      <webElementGuid>00d2f504-c0cb-4959-a0f7-30637a5a494e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+					      Multiple Bill Payment
+					    ' or . = '
+					      Multiple Bill Payment
+					    ')]</value>
+      <webElementGuid>e1e89df6-81f3-4eab-b89f-23c487664f3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Integrated Web Payments</name>
+   <tag></tag>
+   <elementGuidId>808697c1-197b-4061-8ca4-ed407e53c5cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[13]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Integrated Web Payments&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dd29c5bb-134c-49b7-967b-8a621dd187e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-link btn-block p-0 text-left</value>
+      <webElementGuid>2c86cac0-8662-4720-8a82-7558efa9394a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>13327070-b16d-4ad5-93f2-c00319b64d7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>collapse</value>
+      <webElementGuid>e50074c8-d1ff-4c6a-86e1-0e4a4bc64dc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-target</name>
+      <type>Main</type>
+      <value>#IntegratedWebPayments</value>
+      <webElementGuid>8d8c8baa-a604-4c57-a577-653e272119b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ee8801cf-524a-429f-a1bb-65adc12df6cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>collapseOne</value>
+      <webElementGuid>f5761d8b-3b22-43e4-a582-986d51f0fe18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								      Integrated Web Payments
+								    </value>
+      <webElementGuid>6e227722-629f-4838-8a3a-284336f72f18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;headingOne&quot;]/h2[@class=&quot;mb-0&quot;]/button[@class=&quot;btn btn-link btn-block p-0 text-left&quot;]</value>
+      <webElementGuid>4ab34d14-eff2-4972-b09f-97b7f04341be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[13]</value>
+      <webElementGuid>40325177-4b56-4d4a-9aee-9bf3a27bb2b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='headingOne']/h2/button)[13]</value>
+      <webElementGuid>c889f5b5-d13a-4f7f-82ed-0de4f81add5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Melanie gateway Test'])[4]/following::button[1]</value>
+      <webElementGuid>6dd21de5-af3e-4463-bc9b-36df8f514227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IL Tollway Test'])[4]/following::button[1]</value>
+      <webElementGuid>dfca6228-0e3a-4398-b4b2-8c86bb9d57c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BBP Parking Fees GovTest'])[12]/preceding::button[1]</value>
+      <webElementGuid>5a5e690d-5d84-4c42-9c98-81c0efddbd80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[12]/preceding::button[1]</value>
+      <webElementGuid>4534561a-4d12-41a4-a87c-d9764ffe6cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Integrated Web Payments']/parent::*</value>
+      <webElementGuid>d9172ff6-f369-467c-9cbd-25ac003a2a5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[107]/h2/button</value>
+      <webElementGuid>e12b00e9-5773-4eb0-b315-7e78b3f8fcba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+								      Integrated Web Payments
+								    ' or . = '
+								      Integrated Web Payments
+								    ')]</value>
+      <webElementGuid>74ffc489-3de3-447f-bba9-bc47a111ef4c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

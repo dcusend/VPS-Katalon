@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Export</name>
+   <tag></tag>
+   <elementGuidId>9ed3df55-d5e1-4b5c-8e3f-888aa6a0c661</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dd-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Users'])[2]/following::div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Export&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7ae783fe-4e7d-44df-8e46-ea11360fcbd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dd-button</value>
+      <webElementGuid>3b40bfb2-0049-4cba-ba35-3b4d0acd9dce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								    Export
+								  </value>
+      <webElementGuid>6f79b229-234c-49e9-898f-c1eb951ceb87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;app sidebar-mini&quot;]/main[@class=&quot;app-content&quot;]/div[@class=&quot;app-title shadow&quot;]/ul[@class=&quot;app-breadcrumb breadcrumb&quot;]/li[2]/div[@class=&quot;mr-3 ml-3&quot;]/label[@class=&quot;dropdown&quot;]/div[@class=&quot;dd-button&quot;]</value>
+      <webElementGuid>d7c23328-53ca-4bae-a1e1-8dbc3fde3bb5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users'])[2]/following::div[2]</value>
+      <webElementGuid>c104299b-4251-4c6c-95f7-dc3c3696b26c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Report'])[1]/preceding::div[1]</value>
+      <webElementGuid>012333a2-ca22-4d4e-a53b-65927fd77804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find User'])[1]/preceding::div[1]</value>
+      <webElementGuid>2baf2933-0e6f-4e14-81ec-26f516811dd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Export']/parent::*</value>
+      <webElementGuid>e124a39f-033b-4fd1-83c1-b64d303a8751</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div</value>
+      <webElementGuid>12167981-f35f-4d3d-b5e7-1a4ee93ea41f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+								    Export
+								  ' or . = '
+								    Export
+								  ')]</value>
+      <webElementGuid>699622e1-8a04-4dd6-b7fa-ddb78603958c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

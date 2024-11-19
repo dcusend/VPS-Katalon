@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Scheduled Payments</name>
+   <tag></tag>
+   <elementGuidId>369abc1b-f853-4724-9481-39601d07e6f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Scheduled Payments&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>925cf625-fd80-4e4f-8316-03b11d05a69a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-link btn-block p-0 text-left</value>
+      <webElementGuid>0182f5ba-7339-4021-a5a6-e6a245fad655</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>45052ded-9dc6-4c4b-a5c4-660c88a109ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>collapse</value>
+      <webElementGuid>5c2a6b58-aaa5-4687-9aff-db1e6f5c47a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-target</name>
+      <type>Main</type>
+      <value>#ScheduledPayments</value>
+      <webElementGuid>a2de00d6-e987-4297-9dbe-e01dda17fb48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>0876459c-460a-4900-8ca2-8e015b000f6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>collapseOne</value>
+      <webElementGuid>6705442b-3423-41f5-994a-0b7368df8a52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								      Scheduled Payments
+								    </value>
+      <webElementGuid>00d82b79-979d-4de1-81d0-38235f8c9c66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;headingOne&quot;]/h2[@class=&quot;mb-0&quot;]/button[@class=&quot;btn btn-link btn-block p-0 text-left&quot;]</value>
+      <webElementGuid>19c05024-63a2-4f38-aa84-818b026c4381</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>a88558cd-a3f9-498f-9dfc-bcf2b84b86ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='headingOne']/h2/button)[2]</value>
+      <webElementGuid>d977a662-597f-414a-b328-13858809a83f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vrelay3.0 test'])[2]/following::button[1]</value>
+      <webElementGuid>9d64bec3-6d74-41db-9b28-279ec440b857</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test/App &amp; UDF'])[2]/following::button[1]</value>
+      <webElementGuid>23e024c4-e1e9-4ba3-bb77-f902c473b943</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BBP Parking Fees GovTest'])[3]/preceding::button[1]</value>
+      <webElementGuid>a3c8dd4e-5325-4b34-9dbf-871a71059ac1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[3]/preceding::button[1]</value>
+      <webElementGuid>cd8a3dd8-bc76-4866-ac1a-6beaeeb4df18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Scheduled Payments']/parent::*</value>
+      <webElementGuid>ab27cc61-e196-49e8-8166-effc0ddcc7d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/h2/button</value>
+      <webElementGuid>716b7596-9b28-4fa0-90fb-df877648147d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+								      Scheduled Payments
+								    ' or . = '
+								      Scheduled Payments
+								    ')]</value>
+      <webElementGuid>8268d89f-bc0f-4ddb-b0c5-0c0d2824eb61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

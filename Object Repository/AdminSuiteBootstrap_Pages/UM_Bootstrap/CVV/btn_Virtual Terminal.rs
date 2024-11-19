@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Virtual Terminal</name>
+   <tag></tag>
+   <elementGuidId>42926689-3b57-433d-80f2-75cb5608c690</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Virtual Terminal&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4da78d50-789c-4aae-805b-904e4fde6388</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-link btn-block p-0 text-left</value>
+      <webElementGuid>ad06e9fd-0171-48eb-801e-dc1df4300169</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f2ae85fe-8d3a-4629-9014-234e49701ce9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>collapse</value>
+      <webElementGuid>deee8930-d1ae-4394-9fb5-cd182a27f698</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-target</name>
+      <type>Main</type>
+      <value>#VirtualTerminal</value>
+      <webElementGuid>573f23f6-837c-47d9-95e6-be5791221a45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>0c091f7f-a7dd-4908-9ac7-6e7fdc71d2a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>collapseOne</value>
+      <webElementGuid>1af72b19-ad18-406f-8580-c618e499620c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								      Virtual Terminal
+								    </value>
+      <webElementGuid>5036c900-9c55-4625-8736-c77ad9a06c61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;headingOne&quot;]/h2[@class=&quot;mb-0&quot;]/button[@class=&quot;btn btn-link btn-block p-0 text-left&quot;]</value>
+      <webElementGuid>2a50e35f-eee8-41ee-94fb-db7ccedcf215</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>24aab875-bbb8-42c1-85a1-61e9f26651f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='headingOne']/h2/button)[5]</value>
+      <webElementGuid>fc6860a4-cb74-466f-a08a-472fffda674c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[5]/following::button[1]</value>
+      <webElementGuid>332c871c-7ed4-4457-9fca-8b61a06a84e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BBP Parking Fees GovTest'])[5]/following::button[1]</value>
+      <webElementGuid>b59caba6-f887-4f60-8805-ae0fe0790391</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AutoDualCFtpProd'])[2]/preceding::button[1]</value>
+      <webElementGuid>77d0b173-1a64-4aab-9d84-7f0820bc3391</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AutoNoCFtpProd'])[2]/preceding::button[1]</value>
+      <webElementGuid>28ed760f-3216-4fa8-9c09-f366f7113dd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Virtual Terminal']/parent::*</value>
+      <webElementGuid>ec905b0c-52a3-4e8a-95e7-351603cf37dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[31]/h2/button</value>
+      <webElementGuid>99f34c0a-306b-4ebd-b5c2-2cd9d7b66c15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+								      Virtual Terminal
+								    ' or . = '
+								      Virtual Terminal
+								    ')]</value>
+      <webElementGuid>9873652d-6b04-4451-b623-9e757eccd64b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

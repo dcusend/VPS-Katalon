@@ -9,18 +9,24 @@
          <key>CSS</key>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Products' or . = 'Products')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Products')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>77a313d5-2566-4d26-b4bd-7715ff412a82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,13 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>treeview-item </value>
+      <webElementGuid>c9afdc5a-e3ac-4945-a0c9-fb70e808d9e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/imtiaz/bootstrap/vadministrator/products/index.do</value>
+      <webElementGuid>f4194656-7e5d-40cc-8dfe-c330006b2e68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Products</value>
+      <webElementGuid>864a7a10-c6e0-441d-b7b3-61da587562b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;app sidebar-mini  pace-done&quot;]/aside[@class=&quot;app-sidebar&quot;]/ul[@class=&quot;app-menu&quot;]/li[@class=&quot;treeview is-expanded&quot;]/ul[@class=&quot;treeview-menu&quot;]/li[3]/a[@class=&quot;treeview-item&quot;]</value>
+      <webElementGuid>64f08da8-c566-4acf-a98e-e8bb5e0016f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,6 +66,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Products')]</value>
+      <webElementGuid>4d263439-953b-4881-8903-354dd9ab129b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Roles'])[1]/following::a[1]</value>
+      <webElementGuid>b7171f3f-cdbf-4dcc-9719-0b6cda07b6ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Users'])[1]/following::a[2]</value>
+      <webElementGuid>a7fa85ac-af83-4ad5-ba48-58995eaefc48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AVS Policy'])[1]/preceding::a[1]</value>
+      <webElementGuid>9fa5fbdf-ebc1-4fa2-847f-5e3cd30be8dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CVV Policy'])[1]/preceding::a[2]</value>
+      <webElementGuid>e2a2cddd-1877-4c7b-b668-0a98771a3fa3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
+      <webElementGuid>002bb03a-5ebe-4847-a2b3-1f6f80a08896</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +114,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vadministrator/products/index.do')]</value>
+      <webElementGuid>dbc8e206-2c78-4573-9d30-e5602d15bf8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,5 +122,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/ul/li[3]/a</value>
+      <webElementGuid>0cc11ccb-ed0b-4b15-9d1e-6aaba5b52b81</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

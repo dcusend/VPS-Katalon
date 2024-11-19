@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDashboardLinks</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06928eb0-4e04-42ae-9af1-50107a52bbf9</testCaseGuid>
+</TestCaseEntity>
