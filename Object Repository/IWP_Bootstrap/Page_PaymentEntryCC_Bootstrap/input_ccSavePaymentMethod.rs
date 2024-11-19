@@ -6,6 +6,10 @@
    <elementGuidId>7b9d5a47-f22b-4f29-a66c-4e89fb335d93</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @name = 'ccSavePaymentMethod' and @id = 'ccSavePaymentMethod']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='ccSavePaymentMethod']</value>
       </entry>
@@ -15,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f7b22d2b-1f7d-40b0-8c0b-f7ab5deb86f3</webElementGuid>
+      <webElementGuid>468b9e89-dc00-4b6c-949a-ac943f3f684f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>0634f431-2eda-489d-89ad-f025b477296d</webElementGuid>
+      <webElementGuid>7a172387-5d2b-47fd-a525-531b88a74054</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>ccSavePaymentMethod</value>
-      <webElementGuid>571fedf5-54da-421b-b9f9-be8375294dbc</webElementGuid>
+      <webElementGuid>6098872f-2f49-48e8-a060-66b26b4b8829</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ccSavePaymentMethod</value>
-      <webElementGuid>9835f830-c1a7-40ea-8207-b8fe68e616ca</webElementGuid>
+      <webElementGuid>33a6db91-0ff1-414a-b71b-fc25a960b746</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>2b563069-714f-4a43-af6c-ad141b4008f1</webElementGuid>
+      <webElementGuid>8d21d2b3-cf96-43ad-9be1-5f902b9bd767</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ccSavePaymentMethod&quot;)</value>
-      <webElementGuid>93ccb122-4156-4025-a16b-8217f0916977</webElementGuid>
+      <webElementGuid>b0af8d89-4536-4f74-8f8b-913a68322b98</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='ccSavePaymentMethod']</value>
-      <webElementGuid>5fbaac9d-1ffc-417f-b6f1-be915e71c849</webElementGuid>
+      <webElementGuid>35a7121b-b6bd-47ad-beb0-cd77c9fa2130</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//label[@id='ccSavePaymentMethodCheckbox']/input</value>
-      <webElementGuid>3506a865-0b95-4df9-989f-4499ae803159</webElementGuid>
+      <webElementGuid>40a188ae-3391-4d50-8d62-ddfd7ba740de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/input</value>
-      <webElementGuid>0435365b-a8ec-4e87-9f8c-46565bb3ef28</webElementGuid>
+      <webElementGuid>911ed57e-b3f6-4630-9042-e924abb551fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @name = 'ccSavePaymentMethod' and @id = 'ccSavePaymentMethod']</value>
-      <webElementGuid>8a5b3f2d-d8f4-4760-8ebe-3324e51e329b</webElementGuid>
+      <webElementGuid>eaf4630c-5f22-42aa-b0ee-4c8cb344eb65</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

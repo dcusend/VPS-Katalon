@@ -7,4 +7,5 @@
 /settings/
 /.project
 /.cache/
-/.VPS-Smoke-Version001.prj
+/VPS-Smoke-Version001.prj
+/Reports/

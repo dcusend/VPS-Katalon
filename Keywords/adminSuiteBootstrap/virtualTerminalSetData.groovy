@@ -166,7 +166,16 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input__address2'), al2)
 		WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), zipCode)
 		WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), emailAddress)
-		WebUI.setText(findTestObject(path_SaleKB + 'input_smsNumber'), phoneNumber)
+		
+		if ((!phoneNumber.isEmpty())) {
+			WebUI.setText(findTestObject(path_SaleKB + 'input_smsNumber'), phoneNumber)
+		}
+		else {
+			println("Phone Number is not present in the Excel Spreadsheet")
+		}
+		
+		
+		
 		WebUI.setText(findTestObject(path_SaleKB + 'input_amount'), amount)
 
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined1'), UDF1)
@@ -249,7 +258,16 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_ManAuth + 'input__address2'), al2)
 		WebUI.setText(findTestObject(path_ManAuth + 'input__zip'), zipCode)
 		WebUI.setText(findTestObject(path_ManAuth + 'input_State_emailAddress'), emailAddress)
-		WebUI.setText(findTestObject(path_ManAuth + 'input_smsNumber'), phoneNumber)
+		
+		if ((!phoneNumber.isEmpty())) {
+			WebUI.setText(findTestObject(path_ManAuth + 'input_smsNumber'), phoneNumber)
+		}
+		else {
+			println("Phone Number is not present in the Excel Spreadsheet")
+		}
+		
+		
+		
 		WebUI.setText(findTestObject(path_ManAuth + 'input_amount'), amount)
 
 		WebUI.setText(findTestObject(path_ManAuth + 'input__userDefined1'), UDF1)
@@ -287,7 +305,16 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input__address2'), AL2)
 		WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), ZIP)
 		WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), Email)
-		WebUI.setText(findTestObject(path_SaleKB + 'input_smsNumber'), Phone)
+		
+		if ((!Phone.isEmpty())) {
+			WebUI.setText(findTestObject(path_SaleKB + 'input_smsNumber'), Phone)
+		}
+		else {
+			println("Phone Number is not present in the Excel Spreadsheet")
+		}
+		
+		
+		
 		WebUI.setText(findTestObject(path_SaleKB + 'input_amount'), Amount)
 
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined1'), UDF1)

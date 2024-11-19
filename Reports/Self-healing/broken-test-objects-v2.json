@@ -83,6 +83,21 @@
     },
     {
       "approved": true,
+      "testObjectId": "Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input_ccSavePaymentMethod",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input_ccSavePaymentMethod_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP_Bootstrap/Page_Confirmation_Bootstrap/input_Confirm",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[3]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP_Bootstrap/Page_Confirmation_Bootstrap/input_Confirm_position.png"
       "testObjectId": "Object Repository/Page_EditSchedPayment/btn_update",
       "brokenLocatorMethod": "BASIC",
       "proposedLocator": "//div/input",

@@ -6,12 +6,15 @@
    <elementGuidId>6c087abd-d14c-42e5-80c8-e713784100d4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = '[CASEuser]' or . = '[CASEuser]')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//tbody[@id='loadUser']/tr/td[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,13 +25,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>dbabd23e-6f7d-43b2-b687-dd525c0e6438</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/imtiaz/bootstrap/vadministrator/users/view.do?uid=1100</value>
+      <webElementGuid>a481b12c-eb59-464d-aa79-7a9862a7af04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>[CASEuser]</value>
+      <webElementGuid>c9a61765-6968-4a10-902c-9c8546df7e54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loadUser&quot;)/tr[@class=&quot;odd&quot;]/td[2]/a[1]</value>
+      <webElementGuid>83863fdb-fedb-4bb0-882f-80921a4715be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='loadUser']/tr/td[2]/a</value>
+      <webElementGuid>5254fa1c-bbde-473f-84b7-395da9043805</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +65,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'[CASEuser]')]</value>
+      <webElementGuid>9237d160-7ee1-40d6-9ca3-283912a5e15e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Case user'])[1]/following::a[1]</value>
+      <webElementGuid>82974f9d-9eac-4092-9f33-a12a1814b319</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/following::a[1]</value>
+      <webElementGuid>979961e0-bed2-4ed7-bd7f-f91c52e89ffc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ashi grey'])[1]/preceding::a[1]</value>
+      <webElementGuid>ec651687-f19f-42e9-94f2-05469c73364e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='[as_hu.]'])[1]/preceding::a[1]</value>
+      <webElementGuid>54b8a5e4-418b-4a23-8c8c-684325aa3a20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='[CASEuser]']/parent::*</value>
+      <webElementGuid>87642d69-e6f7-4e0c-9d43-5f42aad7b12f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vadministrator/users/view.do?uid=1100')]</value>
+      <webElementGuid>b8fc9d82-c7ae-4366-bcd3-94825c4c97a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/a</value>
+      <webElementGuid>517d07e2-7b2a-4d37-82f0-7d5606f56b9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/imtiaz/bootstrap/vadministrator/users/view.do?uid=1100' and (text() = '[CASEuser]' or . = '[CASEuser]')]</value>
+      <webElementGuid>31d8c138-944c-4fe9-ac0d-e14c694cd599</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

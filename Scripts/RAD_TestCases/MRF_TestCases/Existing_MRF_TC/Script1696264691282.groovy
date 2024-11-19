@@ -43,7 +43,7 @@ String orPath_FilingStatus = "Object Repository/RAD_Pages/FilingStatus_Page"
 //String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, MFLicNum
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSsn, MFLicNum, isRequiredTextPresent = true
 
 
 
@@ -153,7 +153,18 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MDCRegistrationEL')," ")
 							WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
-							WebUI.verifyTextPresent('Enter valid MD Central Registration Number', true,FailureHandling.CONTINUE_ON_FAILURE)
+							
+								if (WebUI.verifyTextPresent('Enter valid MD Central Registration Number', false))
+									{
+										isRequiredTextPresent = true
+									}
+								else
+									{
+										isRequiredTextPresent = false
+										KeywordUtil.markFailed("MD Central Registration Number error is missing")
+										
+									}
+								
 						}
 						
 						
@@ -161,14 +172,39 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							{
 								WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MFLicenseExtLi')," ")
 								WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
-								WebUI.verifyTextPresent('Motor Fuel License Number must be 6 digits in length', true,FailureHandling.CONTINUE_ON_FAILURE)
-							}
+								
+									if (WebUI.verifyTextPresent('Motor Fuel License Number must be 5 or 6 digits in length, with a value greater than zero', false))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+											KeywordUtil.markFailed("Motor Fuel License Number error is missing")
+										}
+									}
+												
 					
-					resText = "Pass"
-					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					if (isRequiredTextPresent == true)
+						{
+							println "All the relevant texts are present"
+							KeywordUtil.markPassed("All the relevant texts are present")
+							resText = "Pass"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+
+						}
+					else
+						{
+							println "Some texts are missing"
+							KeywordUtil.markFailed("Some texts are missing")
+							resText = "Fail"
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+
+						}
+				}
 
 			}
 			
 			
-		}
+		
 		

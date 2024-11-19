@@ -216,7 +216,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
 					
 					
-					
+					WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30)
 					
 					/*
 					 * // On the VRelay page, confirm fields are prepopulated
