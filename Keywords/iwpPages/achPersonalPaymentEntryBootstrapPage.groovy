@@ -127,18 +127,17 @@ public class achPersonalPaymentEntryBootstrapPage {
 				def typeOfAccountName = "Saving"
 
 				WebUI.click(findTestObject(pathOR+'input_Saving_accountType'))
-			}else if (typeOfAccount.equals("1"))
-				 {
+			}else if (typeOfAccount.equals("1")) {
 
-					def typeOfAccountName = "Checking"
+				def typeOfAccountName = "Checking"
 
-					WebUI.click(findTestObject(pathOR+'input_Checking_accountType'))
-				}		
+				WebUI.click(findTestObject(pathOR+'input_Checking_accountType'))
+			}
 		}
 		else {
 			System.out.println("Type of account is empty.Please provide the value and try to rerun")
 			KeywordUtil.logInfo("Type of account is empty.Please provide the value and try to rerun")
-	}
+		}
 
 		if ((!confirmAccountNumber.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR+'input_confirmAccountNumber'),confirmAccountNumber)
@@ -219,7 +218,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 		}
 		if(!phone.isEmpty()) {
 
-			WebUI.setText(findTestObject(pathOR + 'input_emailAddress'), phone)
+			/*WebUI.setText(findTestObject(pathOR + 'input_emailAddress'), phone)*/
 		}
 	}
 

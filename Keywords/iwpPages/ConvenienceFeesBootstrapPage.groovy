@@ -20,48 +20,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class selectPaymentMethodBootstrapPage {
-
-	String pathSelectPM = "Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/"
-
-
-
-
-	// Select Pay by Credit or Debit Card
-	@Keyword
-	def selectRadioPayByCreditCard() {
-		WebUI.check(findTestObject(pathSelectPM + 'input_Pay by Credit or Debit Card'))
-	}
-
-
-
-	// Select Pay by Personal Check
-	@Keyword
-	def selectRadioPayByPersonal() {
-		WebUI.check(findTestObject(pathSelectPM + 'input_Pay by Personal Check'))
-	}
-
-
-
-	// Select Pay by Corporate Check
-	@Keyword
-	def selectRadioPayByCorporate() {
-		WebUI.check(findTestObject(pathSelectPM + 'input_Pay by Corporate Check'))
-	}
-
-
-
-	// Select Make a Payment Button
-	@Keyword
-	def selectButtonMakeAPayment() {
-		WebUI.click(findTestObject(pathSelectPM + 'input_payNowSubmit'))
-	}
-
-
-
-	// Select Enroll in Autopay Button
-	@Keyword
-	def selectButtonEnrollAutopay() {
-		WebUI.click(findTestObject(pathSelectPM + 'input_EnrollAutopay'))
-	}
+public class ConvenienceFeesBootstrapPage {
+	
+	String pathSelectPM = "Object Repository/IWP_Bootstrap/Page_ConvenienceFees_Bootstrap/"
+	
+	
+	
+	
+		// Select Accept fee and Process Payment
+		@Keyword
+		def selectAcceptFeeAndProcessPayment() {
+			WebUI.check(findTestObject(pathSelectPM + 'input_AcceptFee'))
+		}
+		
+		@Keyword
+		def selectRejectFeeAndExit() {
+			WebUI.check(findTestObject(pathSelectPM + 'input_RejectFee'))
+		}
+		
+		@Keyword
+		def selectExit() {
+			WebUI.check(findTestObject(pathSelectPM + 'input_Exit'))
+		}
+	
 }
