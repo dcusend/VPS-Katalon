@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Search Merchant</name>
+   <tag></tag>
+   <elementGuidId>a1879214-0a4c-4283-997c-f035545f6f50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Search Merchant' or . = 'Search Merchant')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ngx-select[@id='selectMerchantId']/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#selectMerchantId > div.ngx-select.dropdown > div.ngx-select__selected.ng-star-inserted > div.ngx-select__toggle.btn.form-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>INPUT</value>
+      <webElementGuid>5dc1f5a3-bdb9-4a90-bed2-3932094e0ac7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ngx-select__search form-control ng-star-inserted</value>
+      <webElementGuid>9de17390-2718-47c7-9d91-a0bca195fa30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search Merchant</value>
+      <webElementGuid>dbd8bc1a-a48b-4b08-bb05-8e8f75658634</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;selectMerchantId&quot;)/div[@class=&quot;ngx-select dropdown&quot;]/div[@class=&quot;ngx-select__selected ng-star-inserted&quot;]/div[@class=&quot;ngx-select__toggle btn form-control&quot;]</value>
+      <webElementGuid>e2319f57-b4c4-4571-91b4-5a66ab20064d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-role</name>
+      <type>Main</type>
+      <value>combobox</value>
+      <webElementGuid>aa7f7895-735c-468e-bf44-c4c58c95847a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parentid</name>
+      <type>Main</type>
+      <value>selectMerchantId</value>
+      <webElementGuid>2e8dee65-31d8-444d-b5ab-3f24c37b1e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7ce855f3-fec2-4a34-b9a2-92e298261d56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ngx-select[@id='selectMerchantId']/div/div[2]/div</value>
+      <webElementGuid>863ad3a0-7afa-4084-8431-c8f4a798d326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[1]/following::div[8]</value>
+      <webElementGuid>936e4326-633f-4c14-b0e9-9e31860222b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/following::div[19]</value>
+      <webElementGuid>df626aa1-726f-445d-982e-2e913502d2bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No results found'])[1]/preceding::div[1]</value>
+      <webElementGuid>2b599150-66de-49f4-8a09-4381845eba7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-search-merchant/div/div/div/ngx-select/div/div[2]/div</value>
+      <webElementGuid>64ab50ca-5141-4bc9-b850-59f59d89c006</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Search Merchant' or . = 'Search Merchant')]</value>
+      <webElementGuid>e1f07861-6c3a-4282-a2f9-62ca8888c6bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
