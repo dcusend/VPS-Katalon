@@ -17,56 +17,31 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import cucumber.api.java.en.And
-import cucumber.api.java.en.Given
-import cucumber.api.java.en.Then
-import cucumber.api.java.en.When
+import cucumber.api.java.en.*
+
 import internal.GlobalVariable
 
-public class LoginAdminSuiteSteps {
+public class saleKeyboardTransactionVT {
 	
 	
-//----------------------------------------------------------	
-	@Given("User navigates to Admin Suite Login page")
-	def navigateToAdminSuiteLoginPage()
+	
+	@Given("User Logs into Admin Suite")
+	def loginAdminSuite()
 	{
-		
 		def adminSuiteURL = GlobalVariable.AdminSuiteURL
 		
 		WebUI.openBrowser(adminSuiteURL)
 		
 		WebUI.maximizeWindow()
-	}
-	
-//----------------------------------------------------------
-	
-	@When("User enters username and password")
-	def enterCredentials()
-	{
 		
 		def adminSuite_username = GlobalVariable.Username
 		def adminSuite_password = GlobalVariable.Password
 		
 		WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), adminSuite_username)
 		WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), adminSuite_password)
-				
-	}
-	
-//----------------------------------------------------------
-	
-	@And("User selects the Sign In button")
-	def selectSignInButton()
-	{
+		
 		WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-			
-	}
-	
-	
-//----------------------------------------------------------
-	
-	@Then("User is navigated to Dashboard page")
-	def verifyDashboardPage()
-	{
+		
 		if (WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/a_Access User Management'),30))
 			{
 				println ("Login was successful, User is on Dashboard Page")
@@ -77,13 +52,28 @@ public class LoginAdminSuiteSteps {
 			}
 		
 	}
+	
+	
+	
+	@When("User selects a Payment Application with No CF on Dashboard page")
+	def selectPaymentAppwithNoCF()
+	{
 		
+		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp"))
+		
+	}
 	
 	
-//----------------------------------------------------------
 	
 	
-
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
