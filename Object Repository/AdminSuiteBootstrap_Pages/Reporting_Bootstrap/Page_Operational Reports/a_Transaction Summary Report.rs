@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Transaction Summary Report</name>
+   <tag></tag>
+   <elementGuidId>9d42afc6-6759-4e0f-9514-57bb2c10357f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports16 > div.px-3.py-2 > a.report-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Operational_Reports16']/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Transaction Summary Report&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>da96c927-2ecf-45d3-a777-966cc4ddf3e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>84da19c9-2935-4137-86c4-9dd91399918e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>3e558603-4c39-4bbc-bd8c-3e9d4de5e8aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/testcustomer/bootstrap/vclerk/reports/summaryrpt.do?&amp;reset=true&amp;actionType=operational</value>
+      <webElementGuid>1d03ad58-9aae-4c1a-9eef-4a5d0ddb16d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>report-name</value>
+      <webElementGuid>590c7230-562d-4cb6-9b84-bd1db785871c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-original-title</name>
+      <type>Main</type>
+      <value>View processing totals for a given day, week or month, itemized by payment tender.</value>
+      <webElementGuid>c1bae56e-e4c0-4c93-8ecb-0d702975f857</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip729029</value>
+      <webElementGuid>1f893fcc-9be3-49f6-ac8b-735cc57221b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaction Summary Report</value>
+      <webElementGuid>4ce3f8b4-b3a7-4e4d-8f08-e5ae2e21f598</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Operational_Reports16&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
+      <webElementGuid>10effac1-59fe-4312-8efe-73d738127f6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Operational_Reports16']/div/a</value>
+      <webElementGuid>a8bc7fea-cbc4-4817-93e9-2d8b613ca734</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Transaction Summary Report')])[3]</value>
+      <webElementGuid>2a744565-46cf-4401-b3d0-605f5cb3227d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Activity Report'])[1]/following::a[1]</value>
+      <webElementGuid>a76e70c7-5256-47b8-8a14-f54fef54a64a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settlement Batch Activity Report'])[1]/following::a[2]</value>
+      <webElementGuid>31f82d94-769d-4892-990a-54981f9d3c9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Real Time Monitor Report'])[1]/preceding::a[1]</value>
+      <webElementGuid>f9aa0d3e-2485-48b2-9b20-566b1e547a2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Transaction Summary Report']/parent::*</value>
+      <webElementGuid>ec2c7aa2-68e7-4c46-838a-0e86b9aabb19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/summaryrpt.do?&amp;reset=true&amp;actionType=operational')]</value>
+      <webElementGuid>355b0831-1cbb-4a07-af4c-6f34f4b74f09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[20]/div/a</value>
+      <webElementGuid>824f9f84-f612-4a91-9075-dd102f9a9433</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/summaryrpt.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Transaction Summary Report' or . = 'Transaction Summary Report')]</value>
+      <webElementGuid>2313fd64-4714-461b-988f-1abcef992ad5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

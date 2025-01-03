@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Settlement Batch Activity Report</name>
+   <tag></tag>
+   <elementGuidId>98473ee5-53a2-4eff-a94a-74c0fa9d34f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports14 > div.px-3.py-2 > a.report-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Operational_Reports14']/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Settlement Batch Activity Report&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e690627c-687c-44a6-aa68-622566a19d1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>8e618b64-d3b2-4123-ade8-d9e1b6455856</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>f93663cb-981a-400a-ae83-9dbc0d9363b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/testcustomer/bootstrap/vclerk/reports/settlementrpt.do?&amp;reset=true&amp;actionType=operational</value>
+      <webElementGuid>92383125-216a-47bb-a07f-563ec0ecfea1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>report-name</value>
+      <webElementGuid>8a357cfc-0b58-46a2-a221-1dc47f7ec064</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-original-title</name>
+      <type>Main</type>
+      <value>View settlement batch activity for a given time period.</value>
+      <webElementGuid>52d6375e-daad-485b-b1a8-f8dc348c7dd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip33181</value>
+      <webElementGuid>2b082c30-105c-40ca-94f8-48f8e1bd3612</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Settlement Batch Activity Report</value>
+      <webElementGuid>ded73607-85dd-44c4-8fae-a8180266547d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Operational_Reports14&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
+      <webElementGuid>79e712b2-b373-4009-a31a-d4aa8db416ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Operational_Reports14']/div/a</value>
+      <webElementGuid>c48c5ac8-39af-4619-9410-249f6ac2c718</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Settlement Batch Activity Report')]</value>
+      <webElementGuid>46ad3cf8-0072-4116-b957-fd0bc1cd0fcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scheduled Payments Report'])[1]/following::a[1]</value>
+      <webElementGuid>d15197c9-8ded-473d-9111-f66ff3f8255e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QuickBooks Integration'])[1]/following::a[2]</value>
+      <webElementGuid>7a8967bd-d8ab-49da-b828-66123e727098</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Activity Report'])[1]/preceding::a[1]</value>
+      <webElementGuid>d538b9e7-b1af-4f89-add7-47214d486750</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Summary Report'])[1]/preceding::a[2]</value>
+      <webElementGuid>7a35b512-9ecb-4fbd-869a-86c83a405d52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Settlement Batch Activity Report']/parent::*</value>
+      <webElementGuid>e81ebac0-c2dd-46bc-8791-c3b064a1c6ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/settlementrpt.do?&amp;reset=true&amp;actionType=operational')]</value>
+      <webElementGuid>57e16d98-c9ac-43bf-8c9c-700ec2edc1a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]/div/a</value>
+      <webElementGuid>6cbc4e2a-3588-4fa0-b303-bcff61f12721</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/settlementrpt.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Settlement Batch Activity Report' or . = 'Settlement Batch Activity Report')]</value>
+      <webElementGuid>73742c6f-8d42-4a0a-95e4-0e15fe71f703</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

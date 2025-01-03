@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Exceptions Report</name>
+   <tag></tag>
+   <elementGuidId>2e075755-881c-49ec-8d97-199e10d16a7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports6 > div.px-3.py-2 > a.report-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Operational_Reports6']/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Exceptions Report&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>34a8d56f-5b62-48e7-95bc-87d9ab969a82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>be1bca30-d5da-497a-a192-cc2e7fe5ab16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placement</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>77bda566-60cd-4eb5-b88f-638e2017992b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/testcustomer/bootstrap/vclerk/reports/excereport.do?&amp;reset=true&amp;actionType=operational</value>
+      <webElementGuid>6854fc12-ada2-4520-bf56-dfbef7eb12d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>report-name</value>
+      <webElementGuid>70bfab38-865a-45d8-a933-91a9daf5d5fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-original-title</name>
+      <type>Main</type>
+      <value>View information related to transactions that were not successfully processed for a given time period.</value>
+      <webElementGuid>234b5ecf-6961-4bbc-a594-2ca2a6189a06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip102077</value>
+      <webElementGuid>301f75b4-416a-4abc-ae7f-84b9f9953902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Exceptions Report</value>
+      <webElementGuid>c6c17d2c-504c-4c36-b0d6-47904770025a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Operational_Reports6&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
+      <webElementGuid>18f57c06-3220-4058-ba18-7874f0e484f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Operational_Reports6']/div/a</value>
+      <webElementGuid>67811500-54fd-46c3-98b1-d5b9784b9af9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Exceptions Report')]</value>
+      <webElementGuid>2e1fc8a3-171a-4843-8e89-fb9165198d50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary Report'])[1]/following::a[1]</value>
+      <webElementGuid>fc5e50f8-921a-4ec7-a9b4-07532a44dbb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary By Tender Type Report'])[1]/following::a[2]</value>
+      <webElementGuid>67a1ae30-a349-41a0-99c0-fb851048ae04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Upload Report'])[1]/preceding::a[1]</value>
+      <webElementGuid>b8c8cafd-89a3-4d32-b78d-01b7461087f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Check Returns Report'])[1]/preceding::a[2]</value>
+      <webElementGuid>be2332dd-4118-44ad-b0f9-159a37e8ddcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Exceptions Report']/parent::*</value>
+      <webElementGuid>5448298a-4141-4f75-89b5-57c92eb12266</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/excereport.do?&amp;reset=true&amp;actionType=operational')]</value>
+      <webElementGuid>f1cbd032-1831-47f7-98b7-4656bf5c6c5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/a</value>
+      <webElementGuid>8634aea2-9398-4d08-af23-9c0408f6e22a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/excereport.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Exceptions Report' or . = 'Exceptions Report')]</value>
+      <webElementGuid>fd65731c-7f85-427c-8486-20c6b5377c73</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

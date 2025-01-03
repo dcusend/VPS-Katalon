@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "C704F7D2BFD4160FD392569E091CB0EF",
+  "keywordFileContentHash": "DAC26825176F2F7E4EB409C4A21878FA",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.addUser",
@@ -29,6 +29,38 @@
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataAddUserEF",
+          "parameters": [
+            {
+              "name": "rowS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "dataFileS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
