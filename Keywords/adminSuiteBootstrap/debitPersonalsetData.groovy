@@ -65,7 +65,15 @@ public class debitPersonalsetData {
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_address2'), al2)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_zip'), zipCode)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_emailAddress'), emailAddress)
-		WebUI.setText(findTestObject(path_DebitPersonal + 'input_smsNumber'), phoneNumber)
+		
+		
+		if ((!phoneNumber.isEmpty())) {
+			WebUI.setText(findTestObject(path_DebitPersonal + 'input_smsNumber'), phoneNumber)
+		}
+		else {
+			println("Phone Number is not present in the Excel Spreadsheet")
+		}
+		
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_accountNumber'), acNumber)
 
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_routingNumber'), rtn)

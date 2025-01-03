@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_QA Fee Test (6280888815760052)</name>
+   <tag></tag>
+   <elementGuidId>5c997d9c-a716-4d49-8b71-d96b3bb8a160</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;selectMerchantId&quot;)/div[@class=&quot;ngx-select dropdown open show&quot;]/ngx-select-choices[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;ngx-select__choices dropdown-menu show&quot;]/li[@class=&quot;ngx-select__item-group ng-star-inserted&quot;]/a[@class=&quot;ngx-select__item dropdown-item ng-star-inserted ngx-select__item_active active&quot;]/span[@class=&quot;ng-star-inserted&quot;][count(. | //*[@class = 'ng-star-inserted' and (text() = '*QA Fee Test*' or . = '*QA Fee Test*')]) = count(//*[@class = 'ng-star-inserted' and (text() = '*QA Fee Test*' or . = '*QA Fee Test*')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ngx-select[@id='selectMerchantId']/div/ngx-select-choices/ul/li/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ngx-select__item.dropdown-item.ng-star-inserted.ngx-select__item_active.active > span.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>617bcc00-3350-48b0-8ecb-774e1fbfa2aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>cd3ab733-a8cb-4dab-adb3-de61125af4e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>*QA Fee Test*</value>
+      <webElementGuid>b8e416b1-4d1d-4cc0-b3be-b5c327d9ac96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;selectMerchantId&quot;)/div[@class=&quot;ngx-select dropdown open show&quot;]/ngx-select-choices[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;ngx-select__choices dropdown-menu show&quot;]/li[@class=&quot;ngx-select__item-group ng-star-inserted&quot;]/a[@class=&quot;ngx-select__item dropdown-item ng-star-inserted ngx-select__item_active active&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>c02b3eac-02da-4ace-805a-67f5f63ef18e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ngx-select[@id='selectMerchantId']/div/ngx-select-choices/ul/li/a/span</value>
+      <webElementGuid>45e5be1a-7311-4750-94e0-ae24eb353df5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[1]/following::span[2]</value>
+      <webElementGuid>95698b23-6d7c-431c-8d77-b1b1aa4c2455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/following::span[4]</value>
+      <webElementGuid>0f244107-4f91-4b1c-8ab0-1716d9f76474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Customer'])[1]/preceding::span[1]</value>
+      <webElementGuid>2e46e9f8-5ff4-477d-8046-9e09840a9dce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='(6280888815760052)']/parent::*</value>
+      <webElementGuid>03bd105e-c81c-4997-9112-1062b1292c73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ngx-select-choices/ul/li/a/span</value>
+      <webElementGuid>4b0c0066-3b74-4d31-bb52-b8e548135a84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'QA Fee Test (6280888815760052)' or . = 'QA Fee Test (6280888815760052)')]</value>
+      <webElementGuid>21add4dd-e2fa-4437-9a8b-41ff6cf12c2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

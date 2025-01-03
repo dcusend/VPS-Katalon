@@ -158,6 +158,33 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/TransactionDetails/a_Void this transaction_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoDualCFtpQA",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Access AutoDualCFtpQA\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoDualCFtpQA_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Debit",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Debit\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Debit_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027submitYes\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction_XPATH.png"
     }
   ]
 }
