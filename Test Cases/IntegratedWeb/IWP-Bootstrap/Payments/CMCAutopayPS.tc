@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMCAutopayPS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00bc7d60-ee44-4514-8506-2e1c35b7e9d1</testCaseGuid>
+</TestCaseEntity>

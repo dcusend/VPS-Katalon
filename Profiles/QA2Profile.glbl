@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qa2.velocitypayment.com/agencyx/config.action?action=editor'</initValue>
+      <initValue>'https://qa2.velocitypayment.com/agency/config.do?action=editor'</initValue>
       <name>urlEmulator</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

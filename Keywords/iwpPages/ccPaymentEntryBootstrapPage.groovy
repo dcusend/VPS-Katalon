@@ -25,7 +25,7 @@ import internal.GlobalVariable
 public class ccPaymentEntryBootstrapPage {
 
 	def cardholderName, cardNumber, cvv, expMM, expYYYY, AL1, AL2, ZIP, email, phone, amount
-	def udf1, udf2, udf3, udf4, udf5, udf6, udf7, udf8, udf9, udf10
+	def udf1, udf2, udf3, udf4, udf5, udf6, udf7, udf8, udf9, udf10 ,ccDate
 
 	String pathSharedData = "KatalonData/IWPBootstrapData/NormalizedSharedData.xlsx"
 	String pathOR = "Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/"
@@ -370,6 +370,21 @@ public class ccPaymentEntryBootstrapPage {
 
 	// placeholder for PaymentDate for Deferred
 
+	@Keyword
+
+	def setDataCCDate(String ccDateS) {
+		ccDate = ccDateS
+		if(!ccDate.isEmpty()) {
+			//This js script is written to set the future date
+			String js = '''
+	 document.getElementById('processDate').value = '12/31/2026'
+	 '''
+			WebUI.executeJavaScript(js, null)
+		}
+		else {
+			println("CCDate is not present in the Excel Spreadsheet")
+		}
+	}
 
 
 	// Select Store Payment Method checkbox

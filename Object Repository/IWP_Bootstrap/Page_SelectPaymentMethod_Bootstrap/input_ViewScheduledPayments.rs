@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ViewScheduledPayments</name>
+   <tag></tag>
+   <elementGuidId>d05d5460-4dcf-4769-b268-1eaa541141d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value='View Scheduled Payments'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-3.col-md-offset-8.col-sm-4.col-sm-offset-7.col-xs-12.bootstrap-btn-group.exit-btn-group > input.btn.btn-info.btn-block</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;View Scheduled Payments&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>3483fed5-d3be-4cbf-a749-952468be58a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6e0b7cf4-9ea3-4274-8ce1-64f933656f03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-info btn-block</value>
+      <webElementGuid>a29dcaa7-964c-4f00-8773-ffc79a540e87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>5dab1463-3b8c-4a4d-a0f9-75e94778b846</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>View Scheduled Payments</value>
+      <webElementGuid>eca0761d-fc38-467b-9d45-00f4be268ee9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-target</name>
+      <type>Main</type>
+      <value>#scheduledPaymentModal</value>
+      <webElementGuid>2144b22e-6ffd-438f-9d6d-59be0978fd9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>12</value>
+      <webElementGuid>91befbff-178e-4ff3-bd78-940fbe94a17b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;selectForm&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3 col-md-offset-8 col-sm-4 col-sm-offset-7 col-xs-12 bootstrap-btn-group exit-btn-group&quot;]/input[@class=&quot;btn btn-info btn-block&quot;]</value>
+      <webElementGuid>dfcfc406-e160-40ed-a7ac-db4b0231f325</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value='View Scheduled Payments'])[3]</value>
+      <webElementGuid>4d7ce15e-f01c-48a9-978c-c9a1a8fdbee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='selectForm']/div/div[8]/input</value>
+      <webElementGuid>fb668257-beee-4dba-8209-ec4c85829fd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/input</value>
+      <webElementGuid>56e5a041-dbf9-4d2a-838a-970fbda0a1e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'button']</value>
+      <webElementGuid>86be00aa-4702-4d9f-a60d-4dff626578f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
