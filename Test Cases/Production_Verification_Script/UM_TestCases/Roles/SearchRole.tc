@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 only.</description>
+   <name>SearchRole</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>095c2b03-1002-43e3-afe9-53ca842eee84</testCaseGuid>
+</TestCaseEntity>

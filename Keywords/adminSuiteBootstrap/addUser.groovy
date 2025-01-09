@@ -46,8 +46,7 @@ public class addUser {
 		WebUI.setText(findTestObject(path_AddUser + 'input_EmailAddress'), email)
 
 		// Get Random UserName as per test data
-		switch(userName)
-		{
+		switch(userName) {
 			case "A":
 			//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
 				randomUserName = genRand.getRandomAlpha()
@@ -62,7 +61,6 @@ public class addUser {
 			//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomNum'()
 				randomUserName = genRand.getRandomNum()
 				break
-
 		}
 
 
@@ -81,18 +79,15 @@ public class addUser {
 		WebUI.setText(findTestObject(path_AddUser + 'input_Password'), pwd)
 		WebUI.setText(findTestObject(path_AddUser + 'input_ConfirmPassword'), confirPwd)
 
-		if (lockAC.equalsIgnoreCase("N"))
-		{
+		if (lockAC.equalsIgnoreCase("N")) {
 			// Select No for Lock Account
 			WebUI.check(findTestObject(path_AddUser + 'input_No_lock'))
 		}
-		else if (lockAC.equalsIgnoreCase("Y"))
-		{
+		else if (lockAC.equalsIgnoreCase("Y")) {
 			// Select Yes for Lock Account
 			WebUI.check(findTestObject(path_AddUser + 'input_Yes_lock'))
 		}
-		else
-		{
+		else {
 			// Select No for Lock Account
 			WebUI.check(findTestObject(path_AddUser + 'input_No_lock'))
 		}
@@ -100,14 +95,71 @@ public class addUser {
 
 		// Select the Create button
 		WebUI.click(findTestObject(path_AddUser + 'button_Create'))
-
-
-
-
 	}
 
 
+	@Keyword
+	def setDataAddUserEF(int rowS, dataFileS) {
+		// GetData
+		userName = dataFileS.getValue('Username', rowS)
+		email = dataFileS.getValue('Email', rowS)
+		pwd = dataFileS.getValue('Password', rowS)
+		confirPwd = dataFileS.getValue('ConfirmPassword', rowS)
+		lockAC = dataFileS.getValue('Lock', rowS)
 
 
+		// SetData
+		WebUI.setText(findTestObject(path_AddUser + 'input_EmailAddress'), email)
 
+		// Get Random UserName as per test data
+		switch(userName) {
+			case "A":
+			//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
+				randomUserName = genRand.getRandomAlpha()
+				break
+
+			case "AN":
+			//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomAlphaNum'()
+				randomUserName = genRand.getRandomAlphaNum()
+				break
+
+			case "N":
+			//def randomUserName = CustomKeywords.'pages.GenerateRandom.getRandomNum'()
+				randomUserName = genRand.getRandomNum()
+				break
+		}
+
+
+		WebUI.setText(findTestObject(path_AddUser + 'input_Username'), randomUserName)
+
+		// Get random First and Last Names
+		randomFirstName = genRand.getRandomAlpha()
+		randomLastName = genRand.getRandomAlpha()
+
+		//randomFirstName = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
+		//randomLastName = CustomKeywords.'pages.GenerateRandom.getRandomAlpha'()
+
+		WebUI.setText(findTestObject(path_AddUser + 'input_FirstName'), randomFirstName)
+		WebUI.setText(findTestObject(path_AddUser + 'input_LastName'), randomLastName)
+
+		WebUI.setText(findTestObject(path_AddUser + 'input_Password'), pwd)
+		WebUI.setText(findTestObject(path_AddUser + 'input_ConfirmPassword'), confirPwd)
+
+		if (lockAC.equalsIgnoreCase("N")) {
+			// Select No for Lock Account
+			WebUI.check(findTestObject(path_AddUser + 'input_No_lock'))
+		}
+		else if (lockAC.equalsIgnoreCase("Y")) {
+			// Select Yes for Lock Account
+			WebUI.check(findTestObject(path_AddUser + 'input_Yes_lock'))
+		}
+		else {
+			// Select No for Lock Account
+			WebUI.check(findTestObject(path_AddUser + 'input_No_lock'))
+		}
+
+
+		// Select the Create button
+		WebUI.click(findTestObject(path_AddUser + 'button_Create'))
+	}
 }

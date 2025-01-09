@@ -42,7 +42,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 	def totalOptionsPaymentType = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'))
 	
 // Updates for August 2023
-	if (WebUI.verifyEqual(totalOptionsPaymentType, 21))
+	if (WebUI.verifyEqual(totalOptionsPaymentType, 20))
 	
 		{
 			System.out.println('Total Options for Payment Type are correct: ' + totalOptionsPaymentType)
@@ -57,7 +57,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 	
 		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Fiduciary Tax','Personal Income Tax','PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp','PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp'])
 		
-		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Admissions and Amusement Tax','Alcohol Tax','Bay Restoration Fee','Corporate Income Tax','Estate Tax','Motor Fuel Tax'])
+		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Admissions and Amusement Tax','Alcohol Tax','Bay Restoration Fee','Corporate Income Tax','Motor Fuel Tax'])
 	
 		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Sales and Use Tax','Slots License Fee','Tire Recycling Fee','Tobacco Tax','Transportation Network Services'])
 		

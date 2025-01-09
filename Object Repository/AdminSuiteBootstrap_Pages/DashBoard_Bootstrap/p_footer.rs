@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_footer</name>
+   <tag></tag>
+   <elementGuidId>b7417d39-21b6-4023-bae9-54fa3afd0b1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='footer']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>9a7a367c-79b3-43ad-911c-61b85708f857</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC.</value>
+      <webElementGuid>5b4e23f7-765f-4e3c-8e14-5af2b744cee9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;footer&quot;)/p[1]</value>
+      <webElementGuid>d0856ea2-3d30-4720-8496-ce7fad6016c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='footer']/p</value>
+      <webElementGuid>8eae8e7e-bcb2-4fb1-a43a-c9b1b10c2162</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Access IVR Call Metrics'])[1]/following::p[1]</value>
+      <webElementGuid>f1677f4e-edbb-4ac9-b2f2-2a348c95311a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IVR Call Metrics'])[2]/following::p[1]</value>
+      <webElementGuid>24fbac9d-3a2b-4d18-ab64-ff507e2702fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print'])[1]/preceding::p[1]</value>
+      <webElementGuid>50527330-bb6c-4b6e-b230-bd5f07fd18e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::p[1]</value>
+      <webElementGuid>3f74961a-4c5a-4910-8e34-163d8e00e894</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC.']/parent::*</value>
+      <webElementGuid>20d0ab65-42e9-402b-8c3b-0b45038fe7a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>4c3e284a-60d5-4658-a07b-6af044f21365</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC.' or . = 'Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC.')]</value>
+      <webElementGuid>dc858659-43eb-42f6-bc1a-537e5af63f01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -83,7 +83,6 @@
     },
     {
       "approved": true,
-<<<<<<< HEAD
       "testObjectId": "Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input_ccSavePaymentMethod",
       "brokenLocatorMethod": "BASIC",
       "proposedLocator": "//label/input",
@@ -99,7 +98,6 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP_Bootstrap/Page_Confirmation_Bootstrap/input_Confirm_position.png"
-=======
       "testObjectId": "Object Repository/Page_EditSchedPayment/btn_update",
       "brokenLocatorMethod": "BASIC",
       "proposedLocator": "//div/input",
@@ -332,7 +330,137 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_VRelay30Emulator/UDF10_neighbor.png"
->>>>>>> dccd44bbb425740680f82e5e76f53006c67144bd
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Govolution",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span[@id\u003d\u0027select2-customer-select-container\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/span_Govolution_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Users",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Users\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Users_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Roles",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Roles\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Roles_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Products",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Products\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Products_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_AVS Policy",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027AVS Policy\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_AVS Policy_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_CVV Policy",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027CVV Policy\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_CVV Policy_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Alerts",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Email Alerts\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Email Alerts_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/button_Export",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/button_Export_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Customer Service Representative",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Customer Service Representative_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Scheduled Payments",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027Scheduled Payments\u0027 or . \u003d \u0027Scheduled Payments\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Scheduled Payments_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Integrated Billing",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027Integrated Billing\u0027 or . \u003d \u0027Integrated Billing\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Integrated Billing_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Virtual Terminal",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027Virtual Terminal\u0027 or . \u003d \u0027Virtual Terminal\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Virtual Terminal_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_IVR",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027IVR\u0027 or . \u003d \u0027IVR\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_IVR_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Integrated Billing Customer",
+      "brokenLocator": "//*[@type \u003d \u0027button\u0027 and (text() \u003d \u0027Integrated Billing Customer\u0027 or . \u003d \u0027Integrated Billing Customer\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/btn_Integrated Billing Customer_XPATH.png"
     }
   ]
 }

@@ -45,8 +45,26 @@ public class findUser {
 
 		// Select the Submit button
 		WebUI.click(findTestObject(path_FindUser + 'button_Search'))
+	}
+
+	@Keyword
+	def findUser_DD_EF(int rowS, dataFileS) {
 
 
+		// GetData
+		usernameFU = dataFileS.getValue('Username', rowS)
+		fNameFU = dataFileS.getValue('Firstname', rowS)
+		lNameFU = dataFileS.getValue('Lastname', rowS)
+		searchTypeFU = dataFileS.getValue('SearchType', rowS)
 
+
+		// SetData
+		WebUI.setText(findTestObject(path_FindUser + 'input_Username'), usernameFU)
+		WebUI.setText(findTestObject(path_FindUser + 'input_FirstName'), fNameFU)
+		WebUI.setText(findTestObject(path_FindUser + 'input_LastName'), lNameFU)
+		WebUI.selectOptionByLabel(findTestObject(path_FindUser + 'select_SearchType'),searchTypeFU , false)
+
+		// Select the Submit button
+		WebUI.click(findTestObject(path_FindUser + 'button_Search'))
 	}
 }

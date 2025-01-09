@@ -33,7 +33,6 @@ public class GenerateRandom {
 		//String randomString = org.apache.commons.lang.RandomStringUtils.random(9, true, true)
 
 		return randomAN
-
 	}
 
 
@@ -61,12 +60,11 @@ public class GenerateRandom {
 		String charset = (('A'..'Z') + ('a'..'z') + ('0'..'9')).join()
 		Integer length = sLength
 		String randomAN = RandomStringUtils.random(length, charset.toCharArray())
-		
+
 		System.out.println('Password is : ' + randomAN)
 
 		//String randomString = org.apache.commons.lang.RandomStringUtils.random(9, true, true)
 
 		return randomAN
-
 	}
 }

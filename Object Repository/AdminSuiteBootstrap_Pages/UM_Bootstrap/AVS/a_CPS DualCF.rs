@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_CPS DualCF</name>
+   <tag></tag>
+   <elementGuidId>e3cb4f65-75f2-489e-ab20-02978be80124</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/testcustomer/bootstrap/vadministrator/avs/view.do?pid=22&amp;aid=3576' and (text() = 'CPS DualCF' or . = 'CPS DualCF')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='WebServicesGateway']/div/a)[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#accordionExample >> internal:role=link[name=&quot;CPS DualCF&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>27b0d5f8-e87e-405e-af1c-d423549d0f9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ml-2</value>
+      <webElementGuid>43219729-2f97-4aba-99f5-393375ec0211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/testcustomer/bootstrap/vadministrator/avs/view.do?pid=22&amp;aid=3576</value>
+      <webElementGuid>ba5307b7-ed6f-4bd0-88e9-ad9ab5ee310f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CPS DualCF</value>
+      <webElementGuid>5a001da7-e7e0-4802-94ea-80d27554dbcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;WebServicesGateway&quot;]/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
+      <webElementGuid>7d1e7a94-870c-4769-8959-4041d00dee73</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='WebServicesGateway']/div/a)[3]</value>
+      <webElementGuid>a041c9db-b05d-438a-b6d7-ffe87e17598c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'CPS DualCF')])[3]</value>
+      <webElementGuid>0dd0add9-f075-4e76-a703-c64d2978ff45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[2]/following::a[1]</value>
+      <webElementGuid>d33fc73f-ba02-4cc6-a72d-bfff8bbc3418</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BBP Parking Fees GovTest'])[2]/following::a[2]</value>
+      <webElementGuid>8c7727de-1335-497e-8814-e61194aa23cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Melanie gateway Test'])[2]/preceding::a[1]</value>
+      <webElementGuid>ef02039d-16cf-45f0-9b9e-548c91ae2589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test App TSYS CPS'])[2]/preceding::a[2]</value>
+      <webElementGuid>373ed86d-1c01-4d96-b328-292f991ccd8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vadministrator/avs/view.do?pid=22&amp;aid=3576')]</value>
+      <webElementGuid>3b729517-da82-4715-a27b-50daa2f427b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a</value>
+      <webElementGuid>43e9e759-1f00-4b69-a687-e97c784d6713</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/testcustomer/bootstrap/vadministrator/avs/view.do?pid=22&amp;aid=3576' and (text() = 'CPS DualCF' or . = 'CPS DualCF')]</value>
+      <webElementGuid>e41c7b5f-8951-41c9-8480-bafd21274ab5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

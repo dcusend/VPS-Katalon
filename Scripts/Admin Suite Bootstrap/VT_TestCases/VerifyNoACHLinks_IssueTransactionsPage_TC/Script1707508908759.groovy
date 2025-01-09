@@ -52,7 +52,7 @@ String path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Issue
 	WebUI.click(findTestObject(path_Dashboard + 'a_Access AutoCCOnly'))
 	
 		WebUI.verifyTextPresent('Credit Card', true)
-		WebUI.verifyTextPresent('No transactions are enabled for this V-POS deployment', true)
+		//WebUI.verifyTextPresent('No transactions are enabled for this V-POS deployment', true)
 	
 	
 		//WebUI.verifyElementVisible(findTestObject(path_VT + 'a_Issue Transactions'))

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_BBP Parking Fees GovTest</name>
+   <tag></tag>
+   <elementGuidId>99afc837-c020-469f-8778-ac6c3cc203fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ml-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='WebServicesGateway']/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#accordionExample >> internal:role=link[name=&quot;BBP Parking Fees GovTest&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ba47e2cb-2315-40e2-b02e-a4a2145c7104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ml-2</value>
+      <webElementGuid>d61962bb-5d64-4a56-9edf-089536845a20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/testcustomer/bootstrap/vadministrator/cvv/view.do?pid=22&amp;aid=2326</value>
+      <webElementGuid>078f71f5-cd3b-40d2-a2a4-ec569454d5ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BBP Parking Fees GovTest</value>
+      <webElementGuid>3860ce45-20dd-460b-93fd-c3554cafacae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;WebServicesGateway&quot;]/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
+      <webElementGuid>93a97273-4fba-4a95-9ddd-092d6b8b1929</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='WebServicesGateway']/div/a</value>
+      <webElementGuid>53291aa2-57d1-4ade-bf4a-b82a58cfb03b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'BBP Parking Fees GovTest')])[2]</value>
+      <webElementGuid>d7297fed-66ae-4673-874a-0ce7b2334d0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Services Gateway'])[1]/following::a[1]</value>
+      <webElementGuid>38246e0b-e15c-4396-923f-c0a4495432bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CVV Policy Management'])[1]/following::a[1]</value>
+      <webElementGuid>7af2bc2a-c949-4df2-a9c5-8b9d26bad21a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[2]/preceding::a[1]</value>
+      <webElementGuid>b8da31b8-864c-4998-bbc8-4217cd5f8bf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CPS DualCF'])[2]/preceding::a[2]</value>
+      <webElementGuid>0a542be7-f1b6-48ef-b8b9-545264110e8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vadministrator/cvv/view.do?pid=22&amp;aid=2326')]</value>
+      <webElementGuid>a47e8cb4-72e4-4e52-9e58-bbb40c60250f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a</value>
+      <webElementGuid>0e271ba5-77d3-4308-bc60-3b290ddd0166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/testcustomer/bootstrap/vadministrator/cvv/view.do?pid=22&amp;aid=2326' and (text() = 'BBP Parking Fees GovTest' or . = 'BBP Parking Fees GovTest')]</value>
+      <webElementGuid>c951c100-c45f-4c65-80a0-bbef7f6f82f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
