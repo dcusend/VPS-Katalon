@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_KeyboardEntry_Sale</name>
+   <name>a_PIN Pad Entry</name>
    <tag></tag>
-   <elementGuidId>352fca5e-249f-4c2f-86b5-8b7e71820a46</elementGuidId>
+   <elementGuidId>05504a49-1572-4722-aea3-2e0f07d5a92d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.ml-2</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='collapseOne']/div/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Keyboard Entry' or . = 'Keyboard Entry')]</value>
+         <value>//div[@id='collapseOne']/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;PIN Pad Entry&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0bf77ca3-20a9-4906-9d76-28f49608580c</webElementGuid>
+      <webElementGuid>2f38e5b6-2bad-49b1-aefa-751f3fe19cc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,23 +37,23 @@
       <name>class</name>
       <type>Main</type>
       <value>ml-2</value>
-      <webElementGuid>d8e95859-0918-4ba4-b5c7-0f8cb236ad42</webElementGuid>
+      <webElementGuid>6bc22ff6-ff8e-4c21-b327-120c117b51fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/imtiaz/bootstrap/vpos/411/transactions/AuthCapForm/</value>
-      <webElementGuid>f4467653-5903-4cc7-b38f-1a452ea3a5b3</webElementGuid>
+      <value>/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authcap/?mode=pin</value>
+      <webElementGuid>d64ad345-87f9-4f69-90bd-79a27e2d61f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Keyboard Entry</value>
-      <webElementGuid>ec9dc290-7a9c-4825-bfc9-b65951397eeb</webElementGuid>
+      <value>PIN Pad Entry</value>
+      <webElementGuid>136067e1-a07d-4774-9148-1d403796da1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,70 +61,70 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;collapseOne&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
-      <webElementGuid>9b99ecf0-0635-4fc6-9b03-53039570f8a6</webElementGuid>
+      <webElementGuid>35f5bb49-aeec-4ab6-995a-d488144c21db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='collapseOne']/div/a</value>
-      <webElementGuid>3768b83e-340d-45eb-8e3e-82c62f514f06</webElementGuid>
+      <value>//div[@id='collapseOne']/div[2]/a</value>
+      <webElementGuid>d3772197-bb8e-4465-be19-640a0d07db3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Keyboard Entry')]</value>
-      <webElementGuid>29bc3ee1-9727-447b-a21f-334b6c5e6949</webElementGuid>
+      <value>//a[contains(text(),'PIN Pad Entry')]</value>
+      <webElementGuid>74355133-f54c-4800-98ec-089e034f3e17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit Card'])[1]/following::a[1]</value>
-      <webElementGuid>f82f5c82-7f08-4e7e-aeed-c671f96bfbee</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keyboard Entry'])[1]/following::a[1]</value>
+      <webElementGuid>c863e4a0-b3f8-4216-87ae-77daf8fb97e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN Pad Entry'])[1]/preceding::a[1]</value>
-      <webElementGuid>bba1c1a8-26ad-4597-9839-ddf484135b0b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swipe'])[1]/preceding::a[1]</value>
+      <webElementGuid>2ff3a87c-57cd-49b7-bdbc-815a7a0beaa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swipe'])[1]/preceding::a[2]</value>
-      <webElementGuid>fbc60823-ce41-4c7b-b7ab-c9b4deab73c3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Keyboard Entry']/parent::*</value>
-      <webElementGuid>bcf0e2a9-9848-4fed-9be2-46714a094b4a</webElementGuid>
+      <value>//*/text()[normalize-space(.)='PIN Pad Entry']/parent::*</value>
+      <webElementGuid>b8309094-d1cf-4ac2-9523-b64c033273f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vpos/411/transactions/AuthCapForm/')]</value>
-      <webElementGuid>2c76d1f5-813f-4e5d-ae85-e6273e42f7f6</webElementGuid>
+      <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authcap/?mode=pin')]</value>
+      <webElementGuid>be151350-51e4-4af5-9d8b-1bb15d913bd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a</value>
-      <webElementGuid>fa05695e-57a4-4b06-b755-7a38e8d2bbef</webElementGuid>
+      <value>//div[2]/a</value>
+      <webElementGuid>6d31d7d3-0be0-4984-9693-7f9cc7139a99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authcap/?mode=pin' and (text() = 'PIN Pad Entry' or . = 'PIN Pad Entry')]</value>
+      <webElementGuid>338ccccc-8a84-4999-8b41-897787a802f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
