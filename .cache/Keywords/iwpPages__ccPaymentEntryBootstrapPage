@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "948C040A9297A533572B1A1D85FD1FFD",
+  "keywordFileContentHash": "F4C2EEF53A257ABA750F6B9EC46D0CD1",
   "keywordClasses": [
     {
       "name": "iwpPages.ccPaymentEntryBootstrapPage",
@@ -199,6 +199,25 @@
           "parameters": [
             {
               "name": "UDFIDS",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataCCDate",
+          "parameters": [
+            {
+              "name": "ccDateS",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
