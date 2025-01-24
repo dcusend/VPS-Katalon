@@ -420,7 +420,7 @@ class emulatorIWP30 {
 				//Thread.sleep(5000)
 
 				println(emulator_url)
-				
+
 				if(emulator_url.toString().contains('agencyx')) {
 					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Amount'),Amount)
 					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/CAN'),CAN)
@@ -437,7 +437,7 @@ class emulatorIWP30 {
 					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Order'),Order)
 					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Company'),CompanyName)
 					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/Email'),Email)
-					
+
 					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF1'),UDF1)
 					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF2'),UDF2)
 					WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF3'),UDF3)
@@ -460,18 +460,17 @@ class emulatorIWP30 {
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Order'),Order)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Company'),CompanyName)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/Email'),Email)
-	
+
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF1'),UDF1)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF2'),UDF2)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
-	
 				}
-				
+
 				if (MV != "2.3") {
 					println "MV is not 2.3"
-					
+
 					if(emulator_url.toString().contains('agencyx')) {
 						WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF6'),UDF6)
 						WebUI.setText(findTestObject('IWP30/Page_EmulatorAgencyX/UDF7'),UDF7)
@@ -494,7 +493,7 @@ class emulatorIWP30 {
 					println "MV is 2.7"
 
 					if(emulator_url.toString().contains('agencyx')) {
-						
+
 						WebUI.setText(findTestObject('Object Repository/IWP30/Page_EmulatorAgencyX/input_Username'),em_Username)
 						WebUI.setText(findTestObject('Object Repository/IWP30/Page_EmulatorAgencyX/input_Password'),em_Password)
 						WebUI.setText(findTestObject('Object Repository/IWP30/Page_EmulatorAgencyX/textarea_Parcel'),Parcels)
@@ -578,7 +577,6 @@ class emulatorIWP30 {
 
 				if(emulator_url.toString().contains('agencyx')) {
 					WebUI.click(findTestObject('IWP30/Page_EmulatorAgencyX/Submit'))
-					
 				}
 				else {
 					WebUI.click(findTestObject('IWP30/Page_VRelay30Emulator/Submit'))
