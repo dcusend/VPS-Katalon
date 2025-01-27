@@ -33,6 +33,13 @@ import org.openqa.selenium.Keys as Keys
 // For each row in the spreadsheet, execute the given steps	
 for (def row = 1; row <= numOfRows; row++) {
   
+	
+	ExecuteTC = findTestData('IWPTestData/IWP30PayNowCC').getValue('Execute', row)
+	System.out.println('Value of Execute is : ' + ExecuteTC)
+	
+	if (ExecuteTC.equalsIgnoreCase("Y"))
+		{
+			System.out.println('Begin Record Number: ' + row)
 //=======================================	
 	
 //Step1	Open Browser with Emulator URL
@@ -144,5 +151,6 @@ for (def row = 1; row <= numOfRows; row++) {
 	
 
 		WebUI.closeBrowser()
+		}
 		
 }

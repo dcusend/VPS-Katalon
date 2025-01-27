@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SpecialCharXSSFilterOff</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc8ee642-2584-4126-9e22-743da265f921</testCaseGuid>
+</TestCaseEntity>

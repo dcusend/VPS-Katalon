@@ -40,7 +40,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 	
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 2; row <= numOfRows; row++)
+	for (def row = 1; row <= numOfRows; row++)
 		{
 		
 			ExecuteTC = findTestData(dataFile).getValue('Execute', row)
@@ -93,16 +93,13 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 						else {
 							isRequiredTextPresent = false
 						}
-						if(isRequiredTextPresent) {
-							if(WebUI.verifyTextPresent("Confirm Payment Information", false)) {
-								isRequiredTextPresent = true
-								println(isRequiredTextPresent)
-								
-							}
-							else {
-								isRequiredTextPresent = false
-							}
-						}
+						/*
+						 * if(isRequiredTextPresent) {
+						 * if(WebUI.verifyTextPresent("Confirm Payment Information", false)) {
+						 * isRequiredTextPresent = true println(isRequiredTextPresent)
+						 * 
+						 * } else { isRequiredTextPresent = false } }
+						 */
 						if(isRequiredTextPresent) {
 							if(WebUI.verifyTextPresent("Please verify the following information:", false)) {
 								isRequiredTextPresent = true
@@ -112,14 +109,11 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							}
 						}
 					
-						if(isRequiredTextPresent) {
-							if(WebUI.verifyTextPresent("Payment Information:", false)) {
-								isRequiredTextPresent = true
-							}
-							else {
-								isRequiredTextPresent = false
-							}
-						}
+						/*
+						 * if(isRequiredTextPresent) {
+						 * if(WebUI.verifyTextPresent("Payment Information:", false)) {
+						 * isRequiredTextPresent = true } else { isRequiredTextPresent = false } }
+						 */
 						if(isRequiredTextPresent) {
 							if(WebUI.verifyTextPresent("CAN Label:", false)) {
 								isRequiredTextPresent = true
@@ -168,6 +162,16 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 						
 						if(isRequiredTextPresent) {
 							if(WebUI.verifyTextPresent("UDF4 Label:", false)) {
+								isRequiredTextPresent = true
+							}
+							else {
+								isRequiredTextPresent = false
+							}
+						}
+						
+						
+						if(isRequiredTextPresent) {
+							if(WebUI.verifyTextPresent("UDF7 Label:", false)) {
 								isRequiredTextPresent = true
 							}
 							else {

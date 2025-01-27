@@ -87,7 +87,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 						CustomKeywords.'iwpPages.achCorporatePaymentEntryPage.setDataCorporate'(row,dataFile)
 					
 						// Select Continue on Confirm page
-						WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))								
+						//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))	
+						WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 						
 						// Select Submit button on Receipt Page
 								

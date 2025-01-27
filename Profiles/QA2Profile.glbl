@@ -94,4 +94,9 @@
       <initValue>'https://qa2.velocitypayment.com/vbillslookup/lookup/testvbillsautodcf'</initValue>
       <name>DCFBBPURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-algorithm.govolution.com/vrelaytest/QA2/version_1_0/vrelaytest.html'</initValue>
+      <name>BWPURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
