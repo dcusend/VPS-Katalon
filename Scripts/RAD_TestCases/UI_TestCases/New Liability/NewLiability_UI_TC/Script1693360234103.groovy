@@ -42,7 +42,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 	def totalOptionsPaymentType = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'))
 	
 // Updates for August 2023
-	if (WebUI.verifyEqual(totalOptionsPaymentType, 20))
+	if (WebUI.verifyEqual(totalOptionsPaymentType, 24))
 	
 		{
 			System.out.println('Total Options for Payment Type are correct: ' + totalOptionsPaymentType)
@@ -63,6 +63,8 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Unclaimed Property','Withholding Tax'])
 		
+		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Digital Advertising Gross Revenues','PTE Composite','Estate Tax','IFTA Tax'])
+		
 // Verify that Filing Year dropdown is present and visible
 	WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
 	WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
@@ -71,7 +73,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Verify the contents of Filing Year dropdown
 	def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 	WebUI.verifyEqual(totalOptionsFilingYear, 4)
-	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['Select','2023','2022','2021'])
+	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['Select','2024','2023','2022'])
 	
 			
 			

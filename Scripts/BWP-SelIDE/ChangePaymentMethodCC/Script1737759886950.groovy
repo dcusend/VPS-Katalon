@@ -101,7 +101,11 @@ WebUI.verifyTextPresent(("Pay by Credit or Debit Card"), true)
 
 selenium.click("name=paymentMethod")
 
-softAssertion.assertEquals(selenium.isElementPresent("name=paymentMethod"), true)
+//softAssertion.assertEquals(selenium.isElementPresent("name=paymentMethod"), true)
+WebUI.verifyElementPresent(findTestObject('Object Repository/BWP/SelectPaymentMethod/input_PayByCreditOrDebitCard'), 30)
+//WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
+
+
 
 
 //softAssertion.assertEquals("Pay by Personal Check", selenium.getText("//form[@id='selectForm']/table/tbody/tr[2]/td[2]/span[2]"))
@@ -111,7 +115,8 @@ WebUI.verifyTextPresent(("Pay by Personal Check"), true)
 
 selenium.click("xpath=(//input[@name='paymentMethod'])[2]")
 
-softAssertion.assertEquals(selenium.isElementPresent("xpath=(//input[@name='paymentMethod'])[2]"), true)
+//softAssertion.assertEquals(selenium.isElementPresent("xpath=(//input[@name='paymentMethod'])[2]"), true)
+WebUI.verifyElementPresent(findTestObject('Object Repository/BWP/SelectPaymentMethod/input_PayByPersonalCheck'), 30)
 
 
 //softAssertion.assertEquals("Pay by Corporate Check", selenium.getText("//form[@id='selectForm']/table/tbody/tr[2]/td[2]/span[3]"))
@@ -119,5 +124,8 @@ WebUI.verifyTextPresent(("Pay by Corporate Check"), true)
 
 selenium.click("xpath=(//input[@name='paymentMethod'])[3]")
 
-softAssertion.assertEquals(selenium.isElementPresent("xpath=(//input[@name='paymentMethod'])[3]"), true)
-softAssertion.assertEquals(selenium.isElementPresent("css=input[type=\"submit\"]"), true)
+//softAssertion.assertEquals(selenium.isElementPresent("xpath=(//input[@name='paymentMethod'])[3]"), true)
+WebUI.verifyElementPresent(findTestObject('Object Repository/BWP/SelectPaymentMethod/input_PayByCorporateCheck'), 30)
+
+//softAssertion.assertEquals(selenium.isElementPresent("css=input[type=\"submit\"]"), true)
+WebUI.verifyElementPresent(findTestObject('Object Repository/BWP/SelectPaymentMethod/input_MakeAPayment'), 30)

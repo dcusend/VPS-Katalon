@@ -204,6 +204,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/Taxpayer_Page/input_BusinessRepfirstName",
+      "brokenLocator": "//*[@id \u003d \u0027RepfirstName\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//form[@id\u003d\u0027taxForm\u0027]/div[3]/div[4]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/Taxpayer_Page/input_BusinessRepmiddleName",
+      "brokenLocator": "//*[@id \u003d \u0027repmiddleName\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//form[@id\u003d\u0027taxForm\u0027]/div[3]/div[5]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/Taxpayer_Page/input_BusinessReplastName",
+      "brokenLocator": "//*[@id \u003d \u0027replastName\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//form[@id\u003d\u0027taxForm\u0027]/div[3]/div[6]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/Taxpayer_Page/input_BusinessRepsuffix",
+      "brokenLocator": "//*[@id \u003d \u0027repsuffix\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//form[@id\u003d\u0027taxForm\u0027]/div[3]/div[7]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

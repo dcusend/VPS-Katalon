@@ -53,7 +53,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Verify the contents of Filing Year dropdown
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 		WebUI.verifyEqual(totalOptionsFilingYear, 4)
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2023', '2022', '2021'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2024', '2023', '2022'])
 		
 				
 				
