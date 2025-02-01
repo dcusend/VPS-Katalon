@@ -22,52 +22,45 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import internal.GlobalVariable
 
 public class addRole {
-	
-	
-		String roleName
-	
-		String path_Role = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Role/"
-	
-		@Keyword
-		def setDataAddRole(int rowS, String dataFileS) 
-		{
-			// GetData
-			roleName = findTestData(dataFileS).getValue('RoleName', rowS)
-			
-			// SetData
-			
-			if (WebUI.verifyElementPresent(findTestObject(path_Role + 'input_roleName'), 30))
-					
-				{ 
-					WebUI.setText(findTestObject(path_Role + 'input_roleName'), roleName)
-					
-					WebUI.click(findTestObject(path_Role + 'button_CreateRole'))
-				}
-			else
-				{
-					KeywordUtil.markFailed("Not on the Add Role page")
-				}
-					
-	
-			
+
+
+	String roleName
+
+	String path_Role = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Role/"
+
+	@Keyword
+	def setDataAddRole(int rowS, String dataFileS) {
+		// GetData
+		roleName = findTestData(dataFileS).getValue('RoleName', rowS)
+
+		// SetData
+
+		if (WebUI.verifyElementPresent(findTestObject(path_Role + 'input_roleName'), 30)) {
+			WebUI.setText(findTestObject(path_Role + 'input_roleName'), roleName)
+
+			WebUI.click(findTestObject(path_Role + 'button_CreateRole'))
 		}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		else {
+			KeywordUtil.markFailed("Not on the Add Role page")
+		}
+	}
+
+	@Keyword
+	def setDataAddRoleEF(int rowS, dataFileS) {
+		// GetData
+		roleName = dataFileS.getValue('RoleName', rowS)
+
+		// SetData
+
+		if (WebUI.verifyElementPresent(findTestObject(path_Role + 'input_roleName'), 30)) {
+			WebUI.setText(findTestObject(path_Role + 'input_roleName'), roleName)
+
+			WebUI.click(findTestObject(path_Role + 'button_CreateRole'))
+		}
+		else {
+			KeywordUtil.markFailed("Not on the Add Role page")
+		}
+	}
 }
 
 

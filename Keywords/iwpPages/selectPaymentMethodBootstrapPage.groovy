@@ -29,8 +29,7 @@ public class selectPaymentMethodBootstrapPage {
 
 	// Select Pay by Credit or Debit Card
 	@Keyword
-	def selectRadioPayByCreditCard()
-	{
+	def selectRadioPayByCreditCard() {
 		WebUI.check(findTestObject(pathSelectPM + 'input_Pay by Credit or Debit Card'))
 	}
 
@@ -38,8 +37,7 @@ public class selectPaymentMethodBootstrapPage {
 
 	// Select Pay by Personal Check
 	@Keyword
-	def selectRadioPayByPersonal()
-	{
+	def selectRadioPayByPersonal() {
 		WebUI.check(findTestObject(pathSelectPM + 'input_Pay by Personal Check'))
 	}
 
@@ -47,8 +45,7 @@ public class selectPaymentMethodBootstrapPage {
 
 	// Select Pay by Corporate Check
 	@Keyword
-	def selectRadioPayByCorporate()
-	{
+	def selectRadioPayByCorporate() {
 		WebUI.check(findTestObject(pathSelectPM + 'input_Pay by Corporate Check'))
 	}
 
@@ -56,8 +53,7 @@ public class selectPaymentMethodBootstrapPage {
 
 	// Select Make a Payment Button
 	@Keyword
-	def selectButtonMakeAPayment()
-	{
+	def selectButtonMakeAPayment() {
 		WebUI.click(findTestObject(pathSelectPM + 'input_payNowSubmit'))
 	}
 
@@ -65,10 +61,7 @@ public class selectPaymentMethodBootstrapPage {
 
 	// Select Enroll in Autopay Button
 	@Keyword
-	def selectButtonEnrollAutopay()
-	{
+	def selectButtonEnrollAutopay() {
 		WebUI.click(findTestObject(pathSelectPM + 'input_EnrollAutopay'))
 	}
-
-
 }

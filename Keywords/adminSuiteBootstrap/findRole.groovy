@@ -22,35 +22,47 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import internal.GlobalVariable
 
 public class findRole {
-	
-	
+
+
 	String roleName, searchType
-	
-		String path_Role = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Role/"
-	
-		@Keyword
-		def setDataFindRole(int rowS, String dataFileS)
-		{
-			// GetData
-			roleName = findTestData(dataFileS).getValue('RoleName', rowS)
-			searchType = findTestData(dataFileS).getValue('SearchType', rowS)
-			
-			// SetData
-			
-			if (WebUI.verifyElementPresent(findTestObject(path_Role + 'input_roleName_Find'), 30))
-					
-				{
-					WebUI.setText(findTestObject(path_Role + 'input_roleName_Find'), roleName)
-					WebUI.selectOptionByLabel(findTestObject(path_Role + 'select_SearchType'),searchType , false)
-									
-					WebUI.click(findTestObject(path_Role + 'button_FindRole'))
-				}
-			else
-				{
-					KeywordUtil.markFailed("Not on the Find Role page")
-				}
-					
-	
+
+	String path_Role = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Role/"
+
+	@Keyword
+	def setDataFindRole(int rowS, String dataFileS) {
+		// GetData
+		roleName = findTestData(dataFileS).getValue('RoleName', rowS)
+		searchType = findTestData(dataFileS).getValue('SearchType', rowS)
+
+		// SetData
+
+		if (WebUI.verifyElementPresent(findTestObject(path_Role + 'input_roleName_Find'), 30)) {
+			WebUI.setText(findTestObject(path_Role + 'input_roleName_Find'), roleName)
+			WebUI.selectOptionByLabel(findTestObject(path_Role + 'select_SearchType'),searchType , false)
+
+			WebUI.click(findTestObject(path_Role + 'button_FindRole'))
 		}
-	
+		else {
+			KeywordUtil.markFailed("Not on the Find Role page")
+		}
+	}
+
+	@Keyword
+	def setDataFindRoleEF(int rowS, dataFileS) {
+		// GetData
+		roleName = dataFileS.getValue('RoleName', rowS)
+		searchType = dataFileS.getValue('SearchType', rowS)
+
+		// SetData
+
+		if (WebUI.verifyElementPresent(findTestObject(path_Role + 'input_roleName_Find'), 30)) {
+			WebUI.setText(findTestObject(path_Role + 'input_roleName_Find'), roleName)
+			WebUI.selectOptionByLabel(findTestObject(path_Role + 'select_SearchType'),searchType , false)
+
+			WebUI.click(findTestObject(path_Role + 'button_FindRole'))
+		}
+		else {
+			KeywordUtil.markFailed("Not on the Find Role page")
+		}
+	}
 }

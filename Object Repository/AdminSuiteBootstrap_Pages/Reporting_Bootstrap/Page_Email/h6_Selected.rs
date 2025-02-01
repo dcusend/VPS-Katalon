@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Selected</name>
+   <tag></tag>
+   <elementGuidId>4ab4be0a-5eb9-4cf7-a558-402e4181948a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='ReportSubscriptionActionForm']/div/div/div/div/div/div[5]/div[2]/div/div/div/div[2]/div[3]/h6</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Selected :' or . = 'Selected :')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Selected :&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>3c8c8f75-e143-4dc8-98b9-32181bffb755</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Selected :</value>
+      <webElementGuid>54724ef2-fe10-4e4c-916d-53d4f96b72a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ReportSubscriptionActionForm&quot;)/div[@class=&quot;tile-body&quot;]/div[@class=&quot;px-3&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;row m-0 mt-3&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12  col-ms-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;tile w-100 p-0&quot;]/div[@class=&quot;tile-body p-3&quot;]/div[@class=&quot;subject-info-box-2&quot;]/h6[1]</value>
+      <webElementGuid>7199c2a8-13c7-4d14-8099-e7ebabeb5582</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='ReportSubscriptionActionForm']/div/div/div/div/div/div[5]/div[2]/div/div/div/div[2]/div[3]/h6</value>
+      <webElementGuid>e004dfec-d9c8-4f7e-a7df-2ef025f27546</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Available :'])[3]/following::h6[1]</value>
+      <webElementGuid>3afa1d61-1b65-4acf-bad2-78404d4a980e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Email Address List'])[1]/following::h6[2]</value>
+      <webElementGuid>7864191d-94e8-4128-bdb8-38695e0a2b2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/preceding::h6[1]</value>
+      <webElementGuid>0eb90542-0fb5-4971-93bf-1237659269e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div/div/div[2]/div[3]/h6</value>
+      <webElementGuid>6f00550a-78f2-4565-ade2-2f2bfc0ad2d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Selected :' or . = 'Selected :')]</value>
+      <webElementGuid>df8992ca-320b-4fab-99bf-82e6d2d9bb6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
