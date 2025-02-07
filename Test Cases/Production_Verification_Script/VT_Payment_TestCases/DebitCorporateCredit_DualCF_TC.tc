@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitCorporateCredit_DualCF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d142a897-19ed-47f7-a4f6-d0354250dee9</testCaseGuid>
+</TestCaseEntity>

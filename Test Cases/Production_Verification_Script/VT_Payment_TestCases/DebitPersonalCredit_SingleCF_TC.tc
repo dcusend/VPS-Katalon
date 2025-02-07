@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitPersonalCredit_SingleCF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4f145f47-fb91-4c58-ba99-30b8c5a27386</testCaseGuid>
+</TestCaseEntity>
