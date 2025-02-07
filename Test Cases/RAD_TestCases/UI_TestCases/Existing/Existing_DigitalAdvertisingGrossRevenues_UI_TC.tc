@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>Existing_DigitalAdvertisingGrossRevenues_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2a9ae2f-9971-48a6-b32d-dcbb6ba9a3f0</testCaseGuid>
+</TestCaseEntity>

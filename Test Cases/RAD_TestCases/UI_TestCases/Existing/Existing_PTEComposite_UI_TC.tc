@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>Existing_PTEComposite_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd140f74-59df-4994-ae6b-8a621ea033f3</testCaseGuid>
+</TestCaseEntity>

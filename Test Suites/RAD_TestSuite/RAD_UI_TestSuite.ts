@@ -229,6 +229,20 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>e732b251-20b2-4be0-bf01-684b36fc3241</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_DigitalAdvertisingGrossRevenues_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3679a024-b4f8-4a14-9f64-38a88d135f3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PTEComposite_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>34090a82-b93c-492c-a5c3-3744f3a23922</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -408,6 +422,27 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37c337bd-f44a-45ce-af74-0729c0d9d564</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_DigitalAdvertisingGrossRevenues_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bfbced0c-ce8a-4989-a2c5-3bca08bb6cdf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_IFTATax_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>00fc2dee-d9bd-4e71-b89e-feb870637f58</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_PTEComposite_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
