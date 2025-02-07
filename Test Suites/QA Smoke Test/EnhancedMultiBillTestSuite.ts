@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/QA/EnhancedMultiBillTestData/SingleBillCCTestData</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>73a0f813-723c-4fc4-908e-b8f155621323</testDataLinkId>
          <type>DATA_COLUMN</type>

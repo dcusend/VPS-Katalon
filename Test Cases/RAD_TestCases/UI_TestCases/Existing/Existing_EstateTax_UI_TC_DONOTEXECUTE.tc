@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Works in all Environments.  Do not Execute.</description>
-   <name>Existing_EstateTax_UI_TC_DONOTEXECUTE</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d8990e6c-32a7-4bb7-88e8-248a3d67c8cc</testCaseGuid>
-</TestCaseEntity>

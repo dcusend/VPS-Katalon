@@ -24,67 +24,67 @@ import cucumber.api.java.en.When
 import internal.GlobalVariable
 
 public class LoginAdminSuiteSteps {
-	
-	
-//----------------------------------------------------------	
+
+
+	//----------------------------------------------------------
 	@Given("User navigates to Admin Suite Login page")
 	def navigateToAdminSuiteLoginPage()
 	{
-		
+
 		def adminSuiteURL = GlobalVariable.AdminSuiteURL
-		
+
 		WebUI.openBrowser(adminSuiteURL)
-		
+
 		WebUI.maximizeWindow()
 	}
-	
-//----------------------------------------------------------
-	
+
+	//----------------------------------------------------------
+
 	@When("User enters username and password")
 	def enterCredentials()
 	{
-		
+
 		def adminSuite_username = GlobalVariable.Username
 		def adminSuite_password = GlobalVariable.Password
-		
+
 		WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), adminSuite_username)
 		WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), adminSuite_password)
-				
+
 	}
-	
-//----------------------------------------------------------
-	
+
+	//----------------------------------------------------------
+
 	@And("User selects the Sign In button")
 	def selectSignInButton()
 	{
 		WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-			
+
 	}
-	
-	
-//----------------------------------------------------------
-	
+
+
+	//----------------------------------------------------------
+
 	@Then("User is navigated to Dashboard page")
 	def verifyDashboardPage()
 	{
 		if (WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/a_Access User Management'),30))
-			{
-				println ("Login was successful, User is on Dashboard Page")
-			}
+		{
+			println ("Login was successful, User is on Dashboard Page")
+		}
 		else
-			{
-				println ("Login was NOT successful, User is NOT on Dashboard Page")
-			}
-		
-	}
-		
-	
-	
-//----------------------------------------------------------
-	
-	
+		{
+			println ("Login was NOT successful, User is NOT on Dashboard Page")
+		}
 
-	
-	
-	
+	}
+
+
+
+	//----------------------------------------------------------
+
+
+
+
+
+
 }

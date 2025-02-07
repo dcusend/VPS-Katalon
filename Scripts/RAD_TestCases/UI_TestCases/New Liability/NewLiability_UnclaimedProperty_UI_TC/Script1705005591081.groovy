@@ -53,19 +53,19 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 // Verify the contents of Filing Year dropdown
 		def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'))
 		WebUI.verifyEqual(totalOptionsFilingYear, 4)
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2024', '2023', '2022'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2025', '2024', '2023'])
 		
 				
 				
-// Verify the contents of Period Ending Month dropdown
-		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+// Verify Period Ending Month dropdown is not visible
+		//WebUI.verifyElementNotPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'), 30)
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
 		
-		def totalOptionsPeriodEnding = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
-		WebUI.verifyEqual(totalOptionsPeriodEnding, 13)
+	//	def totalOptionsPeriodEnding = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'))
+	//	WebUI.verifyEqual(totalOptionsPeriodEnding, 13)
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['Month','January','February','March','April','May','June'])
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
+	//	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['Month','January','February','March','April','May','June'])
+	//	WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PeriodEnding'),['July','August','September','October','November','December'])
 		
 		
 		
@@ -114,11 +114,18 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		def totalOptionsState = WebUI.getNumberOfTotalOption(findTestObject(orPath_AddressContact + '/select_State'))
 		WebUI.verifyEqual(totalOptionsState, 52)
 
-	
-// Verify FEIN under Tax Information section
+
+// Verify FEIN/SSN under Tax Information is present
 		WebUI.verifyTextPresent('Tax Information', true)
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
-		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_TaxInfo_FeinSsn_New_2'))
+		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'))
+
+		
+		
+			
+// Verify FEIN under Tax Information section is not present
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
+		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
 
 
 // Verify that Notice or Invoice Number is not present

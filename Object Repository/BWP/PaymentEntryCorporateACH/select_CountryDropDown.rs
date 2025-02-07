@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_CountryDropDown</name>
+   <tag></tag>
+   <elementGuidId>c64ce439-cc0b-47df-ad06-329794e5b67c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#billing-country-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='billing-country-input']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>a2f682a6-62ba-471c-805e-238f78b35279</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billing-country-input</value>
+      <webElementGuid>37bce83f-f6a2-4540-ba7f-c172fb239884</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billingCountry</value>
+      <webElementGuid>66eff5ec-dcc9-49fd-9eb3-4b173bf4ea44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Country</value>
+      <webElementGuid>0c97f492-e8fa-4316-9ab1-97cc2a2c8d73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>changeState(this);</value>
+      <webElementGuid>46645977-db18-4fd4-97e9-ad8f141ffe4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>e8c8d154-52a0-4175-819e-4968977c0495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+		United States
+
+						</value>
+      <webElementGuid>fa2795d6-76c3-414f-8c62-77ef32a27646</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;billing-country-input&quot;)</value>
+      <webElementGuid>348c3db6-371f-412f-b466-0b36a1fdcd48</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='billing-country-input']</value>
+      <webElementGuid>9d4841eb-e813-4029-83d9-f6ae2296d104</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-focus']/div/center/form/table/tbody/tr[25]/td[3]/nobr/select</value>
+      <webElementGuid>23858754-6f94-4d92-89f5-9a3283d37a23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[11]/following::select[1]</value>
+      <webElementGuid>e1bade7c-bac5-4ae8-a02e-f3a4edc3be9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ZIP Code'])[1]/preceding::select[1]</value>
+      <webElementGuid>9318913f-dfb4-408b-9178-65f7b4cd3b7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nobr/select</value>
+      <webElementGuid>65ffda6d-decf-46f2-90d8-7d3766cb4f4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'billing-country-input' and @name = 'billingCountry' and @alt = 'Country' and (text() = '
+		United States
+
+						' or . = '
+		United States
+
+						')]</value>
+      <webElementGuid>5e08b680-ad23-4bec-b16c-39280278487b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

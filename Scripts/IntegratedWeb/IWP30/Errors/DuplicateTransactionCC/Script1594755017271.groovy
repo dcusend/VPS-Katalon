@@ -37,7 +37,7 @@ import internal.GlobalVariable as GlobalVariable
 				println("We are on Test Harness page, start populating")
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/ApplicationID'),"649")
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/MessageVersion'),"3.0")
-				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),"test05152024102")
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),"test05152024103")
 				WebUI.click(findTestObject('Object Repository/IWP30/Page_QATestHarness/SubmitButton'))
 				Thread.sleep(10000)
 				WebUI.closeBrowser()
@@ -48,7 +48,7 @@ import internal.GlobalVariable as GlobalVariable
 				WebUI.maximizeWindow()
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/ApplicationID'),"649")
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/MessageVersion'),"3.0")
-				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),"test05152024102")
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),"test05152024103")
 				WebUI.click(findTestObject('Object Repository/IWP30/Page_QATestHarness/SubmitButton'))
 				
 			}
