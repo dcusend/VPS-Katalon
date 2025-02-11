@@ -25,7 +25,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/IWPBootstrapData/VRelayPaymentsCC_27.xlsx"
+String fileLoc = "KatalonData/IWPBootstrapData/VRelayPaymentsACH_27.xlsx"
 
 def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
@@ -33,7 +33,7 @@ def CardID, CalDate, AddressID, EmailPhoneID, Notes
 def stringArray=["Item No","Description","Amount","1234","Whole Wheat","\$5"]
 
 String path = fileLoc
-nameSheet = "CMCAutopayCC_27"
+nameSheet = "CMCAutopayPS_27"
 dataFileEmulator = "IWPTestData/EmulatorData"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
 
@@ -66,7 +66,7 @@ for (def row = 1; row <= numOfRows; row++)
 			Amount = dataFile.getValue("Amount", row)
 			UDFID = dataFile.getValue("UDFID", row)
 			NameID = dataFile.getValue("NameID", row)
-			CardID = dataFile.getValue("CardID", row)
+			ACHID = dataFile.getValue("ACHID", row)
 			CalDate = dataFile.getValue("CalDate", row)
 			AddressID = dataFile.getValue("AddressID", row)
 			EmailPhoneID = dataFile.getValue("EmailPhoneID", row)
@@ -83,8 +83,9 @@ for (def row = 1; row <= numOfRows; row++)
 			// Populate Test Harness
 			CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 	
-			// Select Credit Card Payment Method
-				CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByCreditCard'()
+			// Select Pay by Personal Check Payment Method
+			
+			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByPersonal'()
 			
 			
 			// Select Make a Payment Button
@@ -97,30 +98,13 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						println("isRequired Text value :" + isRequiredTextPresent)
 						
-						// setData for Cardholder Name
-						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardName'(NameID)
-					
-					// setData for Card Information
-						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardInfo'(CardID)
-					
-					// setData for Address
-						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardAddress'(AddressID)
-					
-					// setData for Email and Phone Number
-						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardEmailAndPhone'(EmailPhoneID)
-						
-					// setData for Amount
-						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataAmount'(Amount)
-					
-					// setData for UDFs
-						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardUDF'(UDFID)	
-		
-						
-						KeywordUtil.logInfo("View Parcel button Exists")
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
 					
-						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
+						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)													
+						
+						KeywordUtil.logInfo("View Parcel button Exists")
+											
 						
 							if (isRequiredTextPresent == true)
 								{
@@ -129,25 +113,21 @@ for (def row = 1; row <= numOfRows; row++)
 									
 									WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ViewParcel/button_close'))
 									
-									// Select Customer CC Terms Checkbox
-									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
+									CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHDefferedMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID,CalDate)
 									
 									
-									// Select Continue Button
-									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectButtonContinue'()
-									
+									Thread.sleep(1000)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
 										if(isRequiredTextPresent == true) {
-											// Select Confirm Button on Payment Confirmation Page
-											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 											
-											Thread.sleep(2000)
+											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
+											Thread.sleep(10000)
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
-											
-											}
+					
+										}
 											
 											else {
 											
@@ -164,6 +144,8 @@ for (def row = 1; row <= numOfRows; row++)
 													
 													// Populate Test Harness
 													CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
+													
+													//Blocked with issue : https://deluxe.atlassian.net/browse/GOV-1145
 													
 													//Click on Modify Payment Button
 												/*WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_modify'))

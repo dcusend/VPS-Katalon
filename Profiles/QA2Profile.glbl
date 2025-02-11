@@ -94,4 +94,9 @@
       <initValue>'https://qa2.velocitypayment.com/vbillslookup/lookup/testvbillsautodcf'</initValue>
       <name>DCFBBPURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/deep'</initValue>
+      <name>MultiBillNoCFURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

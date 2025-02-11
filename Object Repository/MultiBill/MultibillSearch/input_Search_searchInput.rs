@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>de796076-aeb7-48cf-bcba-385ba5095521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,6 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>searchInput</value>
+      <webElementGuid>644e0ece-aa58-4cca-ae82-295ef9802e74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
+      <webElementGuid>c33ffb2b-13f0-4c44-b772-d264fe1a3158</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>billSearchValue</value>
+      <webElementGuid>bf9c82dc-3b6c-4945-b7f7-db47e896d25a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control col-sm mr-2 ng-valid ng-touched ng-not-empty ng-dirty ng-valid-parse</value>
+      <webElementGuid>4940117f-a2b6-4c90-9aa3-9836f095b57e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +63,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search Value...</value>
+      <webElementGuid>80d398ab-df33-4fa5-9f69-a65d9fab0baf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;searchInput&quot;)</value>
+      <webElementGuid>3a296f73-2978-44f6-83cd-9eb925f6fd88</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='searchInput']</value>
+      <webElementGuid>2fa38ec3-785d-4d33-bd21-1942b15ed33f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='bills-tabs-form']/div/div/div[2]/div/input</value>
+      <webElementGuid>23bd06a8-b69e-4544-b928-fb95b32e0ce2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +95,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+      <webElementGuid>d6fa062c-44b0-495e-afa5-6aa8bff75d22</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
