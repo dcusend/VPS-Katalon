@@ -52,7 +52,7 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Reporting'))
 	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_User Management'))
 	
-	WebUI.verifyTextPresent('Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC', true)
+	WebUI.verifyTextPresent('Velocity Payment System Version 2024-1 - Copyright © 2025 Govolution, LLC', true)
 	
 	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_CustomerDD'), 30)
 	

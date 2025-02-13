@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AuthCaptureCreditKeyboard_AllCF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f305dc5-1e58-4760-9d65-c6b6ff2d08c6</testCaseGuid>
+</TestCaseEntity>

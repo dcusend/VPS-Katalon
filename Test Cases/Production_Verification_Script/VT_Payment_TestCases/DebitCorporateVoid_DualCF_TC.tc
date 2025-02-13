@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitCorporateVoid_DualCF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c5dc35e-0be9-473f-a1e1-2bb58b3d8999</testCaseGuid>
+</TestCaseEntity>

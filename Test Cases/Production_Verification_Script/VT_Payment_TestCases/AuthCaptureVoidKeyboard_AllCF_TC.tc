@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AuthCaptureVoidKeyboard_AllCF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b2f548f-02e5-47e5-8fd8-6e084dfb0fe5</testCaseGuid>
+</TestCaseEntity>

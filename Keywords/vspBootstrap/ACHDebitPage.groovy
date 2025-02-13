@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class ACHDebitPage {
-	
+
 	String sec, sms, amount, ein, profName
 	String UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,UDF7,UDF8,UDF9,UDF10
 	String path_DebitVSP = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/VSP_Debit/"
@@ -30,61 +30,72 @@ public class ACHDebitPage {
 	def setDataACHDebit(int rowS, String dataFileS) {
 
 		// GetData
-			sec = findTestData(dataFileS).getValue('SEC', rowS)
-			sms = findTestData(dataFileS).getValue('SMSnumber', rowS)
-			amount = findTestData(dataFileS).getValue('Amount', rowS)
-			
-			profName = findTestData(dataFileS).getValue('ProfileName', rowS)
-			ein = findTestData(dataFileS).getValue('EIN', rowS)
-		
-			UDF1 = findTestData(dataFileS).getValue('UDF1', rowS)
-			UDF2 = findTestData(dataFileS).getValue('UDF2', rowS)
-			UDF3 = findTestData(dataFileS).getValue('UDF3', rowS)
-			UDF4 = findTestData(dataFileS).getValue('UDF4', rowS)
-			UDF5 = findTestData(dataFileS).getValue('UDF5', rowS)
-			UDF6 = findTestData(dataFileS).getValue('UDF6', rowS)
-			UDF7 = findTestData(dataFileS).getValue('UDF7', rowS)
-			UDF8 = findTestData(dataFileS).getValue('UDF8', rowS)
-			UDF9 = findTestData(dataFileS).getValue('UDF9', rowS)
-			UDF10 = findTestData(dataFileS).getValue('UDF10', rowS)
+		sec = findTestData(dataFileS).getValue('SEC', rowS)
+		sms = findTestData(dataFileS).getValue('SMSnumber', rowS)
+		amount = findTestData(dataFileS).getValue('Amount', rowS)
+
+		profName = findTestData(dataFileS).getValue('ProfileName', rowS)
+		ein = findTestData(dataFileS).getValue('EIN', rowS)
+
+		UDF1 = findTestData(dataFileS).getValue('UDF1', rowS)
+		UDF2 = findTestData(dataFileS).getValue('UDF2', rowS)
+		UDF3 = findTestData(dataFileS).getValue('UDF3', rowS)
+		UDF4 = findTestData(dataFileS).getValue('UDF4', rowS)
+		UDF5 = findTestData(dataFileS).getValue('UDF5', rowS)
+		UDF6 = findTestData(dataFileS).getValue('UDF6', rowS)
+		UDF7 = findTestData(dataFileS).getValue('UDF7', rowS)
+		UDF8 = findTestData(dataFileS).getValue('UDF8', rowS)
+		UDF9 = findTestData(dataFileS).getValue('UDF9', rowS)
+		UDF10 = findTestData(dataFileS).getValue('UDF10', rowS)
 
 		// SetData
-			WebUI.selectOptionByValue(findTestObject(path_DebitVSP + 'select_StdEntryClass'), sec, true)
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_amount'), amount)
-			
-			if (profName.equalsIgnoreCase("PaymentsCorp"))
-				{
-					WebUI.setText(findTestObject(path_DebitVSP + 'input_ein'), ein)
-				}
-			
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined1'), UDF1)
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined2'), UDF2)
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined3'), UDF3)
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined4'), UDF4)
-	
-			WebUI.selectOptionByLabel(findTestObject(path_DebitVSP + 'select_UDF5'), UDF5, true)
-			WebUI.selectOptionByLabel(findTestObject(path_DebitVSP + 'select_UDF6'), UDF6, true)
-	
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined7'), UDF7)
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined8'), UDF8)
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined9'), UDF9)
-			WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined10'), UDF10)
-	
-			WebUI.click(findTestObject(path_DebitVSP + 'button_Submit'))
-	
+		WebUI.selectOptionByValue(findTestObject(path_DebitVSP + 'select_StdEntryClass'), sec, true)
 		
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
+		if ((!sms.isEmpty())) {
+			WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
+		}
+		else {
+			println("Phone Number is not present in the Excel Spreadsheet")
+		}
+
+		
+		
+//		WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_amount'), amount)
+
+		if (profName.equalsIgnoreCase("PaymentsCorp"))
+		{
+			WebUI.setText(findTestObject(path_DebitVSP + 'input_ein'), ein)
+		}
+
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined1'), UDF1)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined2'), UDF2)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined3'), UDF3)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined4'), UDF4)
+
+		WebUI.selectOptionByLabel(findTestObject(path_DebitVSP + 'select_UDF5'), UDF5, true)
+		WebUI.selectOptionByLabel(findTestObject(path_DebitVSP + 'select_UDF6'), UDF6, true)
+
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined7'), UDF7)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined8'), UDF8)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined9'), UDF9)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined10'), UDF10)
+
+		WebUI.click(findTestObject(path_DebitVSP + 'button_Submit'))
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
-	
+
 }

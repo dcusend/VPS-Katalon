@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SaleAndCreditKeyboard_NoCF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92ea7fbf-d4ad-4cea-919f-a73f79e0aea5</testCaseGuid>
+</TestCaseEntity>

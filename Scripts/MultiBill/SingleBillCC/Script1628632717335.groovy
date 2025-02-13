@@ -17,34 +17,57 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.MultiBillNoCFURL)
 
-WebUI.maximizeWindow()
 
-		def numOfRows = findTestData('QA/EnhancedMultiBillTestData/SingleBillCCTestData').getRowNumbers()
+
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+String fileLoc = "KatalonData/SingleBillCCTestData.xlsx"
+String nameSheet = "Sheet1"
+
+
+
+String dataFile = "QA/EnhancedMultiBillTestData/SingleBillCCTestData"
+
+		def numOfRows = findTestData(dataFile).getRowNumbers()
+
+		//def numOfRows = findTestData('QA/EnhancedMultiBillTestData/SingleBillCCTestData').getRowNumbers()
 		println("Number of Rows : " + numOfRows)
 		
 		
-		def rowNumber = 1
-		println("First row number is " + rowNumber)
+		//def rowNumber = 1
+		//println("First row number is " + rowNumber)
 		
-		String resText = "Fail"
-		//String datText = today
-		String resColumn = "Result"
-		String datCloumn = "Date"
-		String fileLoc = "C:\\KatalonData\\SingleBillCCTestData.xlsx"
-		String nameSheet = "Sheet1"
+		
 		
 		Date today = new Date()
 		println (today)
 		String datText = today
 		
 		
-String DoExecute = Execute
-if (DoExecute.toUpperCase() == "Y")
+		
+		// For each row in the spreadsheet, execute the given steps
+		for (def row = 1; row <= numOfRows; row++)
+			{
+			
+				ExecuteTC = findTestData(dataFile).getValue('Execute', row)
+				SearchString = findTestData(dataFile).getValue('SearchString', row)
+				
+				System.out.println('Value of Execute is : ' + ExecuteTC)
+		
+		
+		
+//String DoExecute = Execute
+if (ExecuteTC.toUpperCase() == "Y")
 	{
 		println("Value of Execute is Y")
 
+		
+		WebUI.openBrowser(GlobalVariable.MultiBillNoCFURL)
+		
+		WebUI.maximizeWindow()
 
 		println("SearchString is : " + SearchString)
 		
@@ -112,7 +135,6 @@ else
 		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,rowNumber)
 	}
 	
-	rowNumber++
-	println("Last row number is " + rowNumber)
+			}
 	
 // Hello World	

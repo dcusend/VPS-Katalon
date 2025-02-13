@@ -4,7 +4,7 @@
    <name>Temp</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>iahmed@govolution.com;</mailRecipient>
+   <mailRecipient>t465179@deluxe.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -12,38 +12,17 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>9dc19b55-e8cf-47b8-a693-7274d295cc13</testSuiteGuid>
    <testCaseLink>
-      <guid>2bda37ac-75b4-4700-803d-50c96abb9c13</guid>
+      <guid>c55f971a-cef6-47bc-ba5b-739e8f804bed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Existing_BeforePayments_TC</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureCreditKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>586fe1a8-4fc8-48c6-b038-ab95e3fa5457</guid>
+      <guid>b921bc80-5a65-4b88-8be5-b6b5836398f9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Estimated_BeforePayments_TC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>585c0a9e-241d-4cde-abd9-2b2bfb133240</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Extension_BeforePayments</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eb38909d-d560-43b9-82b9-a2ddeb78bf39</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/NewTaxReturn_BeforePayments_TC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ba42b6fb-c6c1-4bd5-8fbd-4510b531366e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/BeforePayments_TestCases/Personal_Individual_BeforePayments_TC</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

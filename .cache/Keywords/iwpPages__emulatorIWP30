@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "ABE677F061D79619DECD7B1411A2CE56",
+=======
+  "keywordFileContentHash": "4B5800A327AA88F565D78E8CB04BD2DE",
+>>>>>>> eab7c19f521dfd11404722b666479e223a95a4c8
   "keywordClasses": [
     {
       "name": "iwpPages.emulatorIWP30",

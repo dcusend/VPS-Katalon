@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitPersonalVoid_SingleCF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a3f3d69b-98df-45ba-9f77-d8561e0b784a</testCaseGuid>
+</TestCaseEntity>

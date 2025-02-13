@@ -466,6 +466,10 @@ class emulatorIWP30 {
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF3'),UDF3)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF4'),UDF4)
 					WebUI.setText(findTestObject('IWP30/Page_VRelay30Emulator/UDF5'),UDF5)
+<<<<<<< HEAD
+=======
+
+>>>>>>> eab7c19f521dfd11404722b666479e223a95a4c8
 				}
 
 				if (MV != "2.3") {
@@ -577,6 +581,10 @@ class emulatorIWP30 {
 
 				if(emulator_url.toString().contains('agencyx')) {
 					WebUI.click(findTestObject('IWP30/Page_EmulatorAgencyX/Submit'))
+<<<<<<< HEAD
+=======
+
+>>>>>>> eab7c19f521dfd11404722b666479e223a95a4c8
 				}
 				else {
 					WebUI.click(findTestObject('IWP30/Page_VRelay30Emulator/Submit'))

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SaleAndVoidKeyboard_SingleCF_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d9189a1-229a-4b05-a40f-0553a8b45231</testCaseGuid>
+</TestCaseEntity>
