@@ -48,15 +48,15 @@ public class SalePage {
 		// SetData
 		WebUI.selectOptionByValue(findTestObject(path_SaleVSP + 'select_TransactionCategory'), transCat, true)
 		WebUI.setText(findTestObject(path_SaleVSP + 'input_cvv'), cvv)
-		
+
 		if ((!sms.isEmpty())) {
 			WebUI.setText(findTestObject(path_SaleVSP + 'input_smsNumber'), sms)
 		}
 		else {
 			println("Phone Number is not present in the Excel Spreadsheet")
 		}
-		
-		
+
+
 		//WebUI.setText(findTestObject(path_SaleVSP + 'input_smsNumber'), sms)
 		WebUI.setText(findTestObject(path_SaleVSP + 'input_amount'), amount)
 		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined1'), UDF1)

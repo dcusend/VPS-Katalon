@@ -66,7 +66,7 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
 //def executionProfile = RC.getExecutionProfile()
 //System.out.println ("executionProfile : " + executionProfile)
-String appName, appID, username, password, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
+//String appName, appID, username, password, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 
 String resText = "Fail"
 //String datText = today
@@ -101,9 +101,9 @@ def numOfRows, dataFile, nameSheet
 			//username = "voiduser"
 			//password = "HUp7StV9p4w9Bv"
 			
-			appID = "3573"
-			username = "username"
-			password = "password"
+			//appID = "3573"
+			//username = "username"
+			//password = "password"
 			
 			
 			
@@ -119,7 +119,9 @@ def numOfRows, dataFile, nameSheet
 					String datText = today
 
 					
-					
+					def appID = findTestData(dataFile).getValue('AppID', row)
+					def username = findTestData(dataFile).getValue('Username', row)
+					def password = findTestData(dataFile).getValue('Password', row)
 					
 					def transactionID = findTestData(dataFile).getValue('ParentTranxID', row)
 					def genRemID = findTestData(dataFile).getValue('RemID', row)
