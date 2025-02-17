@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_ClearSearch</name>
+   <tag></tag>
+   <elementGuidId>e0ef8afa-ab73-4777-bab8-77e8ce375037</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.col-md-2.mb-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='bills-tabs-form']/div/div[2]/div[6]/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Clear Search&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e68a03b6-6fe0-4b96-8505-7320e462f373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary col-md-2 mb-3</value>
+      <webElementGuid>30975fe5-7669-4c7f-8b6b-2b30f2d36016</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>IsBillSearchResult</value>
+      <webElementGuid>88d51e81-fc02-4514-8b09-f5221aae8e89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>clearSearch()</value>
+      <webElementGuid>83c81eea-50e5-4389-b57c-e0bd05262f5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Clear Search </value>
+      <webElementGuid>5dbac31a-e84e-458b-9001-6c81c23404b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bills-tabs-form&quot;)/div[1]/div[@class=&quot;form-group col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 text-right&quot;]/button[@class=&quot;btn btn-primary col-md-2 mb-3&quot;]</value>
+      <webElementGuid>136bf0ab-e225-4c0c-98d6-8401b0114a9d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='bills-tabs-form']/div/div[2]/div[6]/div[3]/button</value>
+      <webElementGuid>4c4caf76-5acb-4132-b998-f5783e8851bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last'])[2]/following::button[1]</value>
+      <webElementGuid>3290d989-14ba-42ca-9a51-49a0f178b0d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[2]/following::button[1]</value>
+      <webElementGuid>3a19a152-313a-4bbe-8fb5-ae9971411a92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Cart'])[1]/preceding::button[1]</value>
+      <webElementGuid>b110c8b6-42ad-4efd-a7b1-efbbe42f92c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hicksville Water District'])[1]/preceding::button[2]</value>
+      <webElementGuid>900feca4-3020-4e3b-92b5-7bc9661b2dda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Clear Search']/parent::*</value>
+      <webElementGuid>158cff07-e4c4-47ce-93bd-879feb89fe4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>80376a87-8b35-48ec-9144-ab73c679c2b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Clear Search ' or . = 'Clear Search ')]</value>
+      <webElementGuid>c79cf441-a6da-4053-82d6-48b3b4a697a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

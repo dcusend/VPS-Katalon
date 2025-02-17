@@ -9,8 +9,13 @@
          <key>BASIC</key>
          <value>//*[@href = '/admin/imtiaz/vpos/180/transactions/AuthCapForm/' and (text() = 'Authorization &amp; Capture (Sale) - Keyboard Entry' or . = 'Authorization &amp; Capture (Sale) - Keyboard Entry')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='maincontent-3col']/a</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -18,6 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>105e0ab3-d8c8-4c60-957b-0eaadf31cbb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,6 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/admin/imtiaz/vpos/180/transactions/AuthCapForm/</value>
+      <webElementGuid>f18030fb-c9e7-477a-851f-f2c8e7afc2bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,6 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Authorization &amp; Capture (Sale) - Keyboard Entry</value>
+      <webElementGuid>d6017912-fee4-47a7-bd47-f2bf5ca30f94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,53 +47,70 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;maincontent-3col&quot;)/a[1]</value>
+      <webElementGuid>722cec7e-0edc-48c2-848d-fc49fd083bd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='maincontent-3col']/a</value>
+      <webElementGuid>b292c592-8829-447f-9792-1405693e35f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
+      <type>Main</type>
       <value>//a[contains(text(),'Authorization &amp; Capture (Sale) - Keyboard Entry')]</value>
+      <webElementGuid>40861937-2739-44a3-a445-07756db81a06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit Card'])[1]/following::a[1]</value>
+      <webElementGuid>50d73843-67a8-45c7-8af1-986ef5cc9bd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Issue Transactions'])[2]/following::a[1]</value>
+      <webElementGuid>4f6080c7-701f-4bab-847c-c0429d49a556</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN Pad Entry'])[1]/preceding::a[1]</value>
+      <webElementGuid>207bb493-00c9-4aa1-b1b0-e47625d5d776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swipe'])[1]/preceding::a[2]</value>
+      <webElementGuid>129e2c5b-c6a2-4284-8d35-065976a1dc00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
+      <type>Main</type>
       <value>//a[contains(@href, '/admin/imtiaz/vpos/180/transactions/AuthCapForm/')]</value>
+      <webElementGuid>37935c9c-0f07-4c68-acdd-5efd4d73f586</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[5]/a</value>
+      <webElementGuid>c68862e5-5fed-49da-865b-2360484d4a9d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

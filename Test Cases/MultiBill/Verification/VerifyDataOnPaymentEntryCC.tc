@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDataOnPaymentEntryCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ded69ee-e5a0-480e-a703-90d0f5df7c4b</testCaseGuid>
+</TestCaseEntity>

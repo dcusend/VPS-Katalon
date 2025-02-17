@@ -71,9 +71,9 @@ if (ExecuteTC.toUpperCase() == "Y")
 
 		println("SearchString is : " + SearchString)
 		
-		WebUI.setText(findTestObject('Object Repository/MultiBill/input_Search_searchInput'), SearchString)
+		WebUI.setText(findTestObject('Object Repository/MultiBill/MultibillSearch/input_Search_searchInput'), SearchString)
 		
-		WebUI.click(findTestObject('Object Repository/MultiBill/button_Search'))
+		WebUI.click(findTestObject('Object Repository/MultiBill/MultibillSearch/btn_Search'))
 
 		if (findTestObject('Object Repository/MultiBill/AddtoCart')) {
 		    println('Add to Cart button found')
@@ -88,9 +88,9 @@ if (ExecuteTC.toUpperCase() == "Y")
 			if (WebUI.verifyTextPresent('1 Item(s) Added to Cart', false)) {
 			    println('Bill added to cart, continue executing test case')
 			
-			    WebUI.click(findTestObject('Object Repository/MultiBill/button_View Cart'))
+			    WebUI.click(findTestObject('Object Repository/MultiBill/MultibillSearch/btn_ViewCart'))
 			
-			    WebUI.click(findTestObject('Object Repository/MultiBill/button_Checkout'))
+			    WebUI.click(findTestObject('Object Repository/MultiBill/CartContents/btn_Checkout'))
 			
 			    WebUI.click(findTestObject('Object Repository/MultiBill/input_Pay by Credit or Branded Debit_paymentMethod'))
 			

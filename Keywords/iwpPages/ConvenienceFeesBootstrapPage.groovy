@@ -21,26 +21,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class ConvenienceFeesBootstrapPage {
-	
+
 	String pathSelectPM = "Object Repository/IWP_Bootstrap/Page_ConvenienceFees_Bootstrap/"
-	
-	
-	
-	
-		// Select Accept fee and Process Payment
-		@Keyword
-		def selectAcceptFeeAndProcessPayment() {
-			WebUI.check(findTestObject(pathSelectPM + 'input_AcceptFee'))
-		}
-		
-		@Keyword
-		def selectRejectFeeAndExit() {
-			WebUI.check(findTestObject(pathSelectPM + 'input_RejectFee'))
-		}
-		
-		@Keyword
-		def selectExit() {
-			WebUI.check(findTestObject(pathSelectPM + 'input_Exit'))
-		}
-	
+
+
+
+
+	// Select Accept fee and Process Payment
+	@Keyword
+	def selectAcceptFeeAndProcessPayment() {
+		WebUI.check(findTestObject(pathSelectPM + 'input_AcceptFee'))
+	}
+
+	@Keyword
+	def selectRejectFeeAndExit() {
+		WebUI.check(findTestObject(pathSelectPM + 'input_RejectFee'))
+	}
+
+	@Keyword
+	def selectExit() {
+		WebUI.check(findTestObject(pathSelectPM + 'input_Exit'))
+	}
 }
