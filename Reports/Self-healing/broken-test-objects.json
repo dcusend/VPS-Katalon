@@ -244,6 +244,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data",
+      "brokenLocator": "id(\"data\")[count(. | //*[@id \u003d \u0027data\u0027 and @name \u003d \u0027Data\u0027 and @type \u003d \u0027password\u0027 and @placeholder \u003d \u0027FEIN Number *\u0027 and @ref_element \u003d \u0027Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d\u0027]) \u003d count(//*[@id \u003d \u0027data\u0027 and @name \u003d \u0027Data\u0027 and @type \u003d \u0027password\u0027 and @placeholder \u003d \u0027FEIN Number *\u0027 and @ref_element \u003d \u0027Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027data\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)",
+      "brokenLocator": "id(\"data\")[count(. | //*[@id \u003d \u0027data\u0027 and @name \u003d \u0027Data\u0027 and @type \u003d \u0027password\u0027 and @placeholder \u003d \u0027Re-Type FEIN Number *\u0027 and @ref_element \u003d \u0027Object Repository/RAD_Pages/TaxInfo_Page/iframe_Enter valid FEIN with 9 digits_tx_if_a5ef47\u0027]) \u003d count(//*[@id \u003d \u0027data\u0027 and @name \u003d \u0027Data\u0027 and @type \u003d \u0027password\u0027 and @placeholder \u003d \u0027Re-Type FEIN Number *\u0027 and @ref_element \u003d \u0027Object Repository/RAD_Pages/TaxInfo_Page/iframe_Enter valid FEIN with 9 digits_tx_if_a5ef47\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027data\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)_XPATH.png"
     }
   ]
 }
