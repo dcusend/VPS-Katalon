@@ -647,11 +647,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 				}
 
-			
-		
-					
-					
-								
+						
 	
 				}
 			
