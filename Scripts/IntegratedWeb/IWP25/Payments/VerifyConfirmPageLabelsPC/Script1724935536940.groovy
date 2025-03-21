@@ -81,9 +81,6 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					// Set Data on Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
-					// Select Continue on Confirm page
-//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
-					
 					
 					Thread.sleep(5000)
 						if(WebUI.verifyTextPresent("Make a Real Estate Payment", false)) {
@@ -316,6 +313,28 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								isRequiredTextPresent = false
 							}
 						}
+						
+						
+						if (isRequiredTextPresent == true)
+							{
+								println "All the relevant texts are present on Confirm Page"
+								KeywordUtil.markPassed("All the relevant texts are present on Confirm Page")
+								resText = "Pass"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+	
+							}
+						else
+							{
+								println "Some texts are missing on the Confirm page"
+//								KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
+								resText = "Fail"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//								println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
+							}
+						
+						
+						// Select Continue on Confirm page
+						   WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 						
 				}
 				WebUI.closeBrowser()

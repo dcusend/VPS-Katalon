@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 
-CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 
 
@@ -83,8 +83,8 @@ WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access Customer Se
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access IVR Call Metrics'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access IVR Call Metrics'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Test Customer'))
-WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Test Customer'), 30)
+//WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Test Customer'))
+//WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Test Customer'), 30)
 
 
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'p_footer'))

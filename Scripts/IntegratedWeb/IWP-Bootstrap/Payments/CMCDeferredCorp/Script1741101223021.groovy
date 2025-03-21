@@ -93,19 +93,20 @@ for (def row = 1; row <= numOfRows; row++)
 					println "Deferred is present on page. Deferred Pay is created"
 				
 					WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_ViewScheduledPayments'))
-					
-					/*WebUI.switchToWindowTitle('View Scheduled Payments')*/
-					Thread.sleep(100)
-					
-//							def payment_id_obj = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/payment_plan_id')).toString()
-//							def payment_id = payment_id_obj.substring(17,23)
-//							def new_href = 'javascript:deferredPaymentAction(\'cancel\', \'' + payment_id + '\');'
-//							def paymentplan_cancelLink = WebUI.modifyObjectProperty(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'),'href','equals',new_href,true)
-//
+				
 					
 					if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
-						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ScheduledPayments_Bootstrap/a_Cancel'))
-//								WebUI.click(paymentplan_cancelLink)
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/edit_payment'))	
+								
+								// Set Data on Edit page
+								CustomKeywords.'iwpPages.editSchedulePayment.setDataSchedPayment'(row,dataFile)
+								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/chkbox_acceptterms'))
+								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
+								
+								if (WebUI.verifyTextPresent("Successful Payment Plan Update", false)) {						
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
+								}
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))
 						
 					}
 					

@@ -25,7 +25,7 @@ String path_RM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Role/
 
 String path_CVV = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/CVV/"
 
-CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
 

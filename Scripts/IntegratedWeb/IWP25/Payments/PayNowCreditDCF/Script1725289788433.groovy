@@ -83,8 +83,9 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Select Continue on Confirm page
 					
-					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
-										
+//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
+					
 					
 					Thread.sleep(5000)
 					println('I am on real estate page')

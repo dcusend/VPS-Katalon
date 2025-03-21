@@ -23,7 +23,7 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 
 String path_Email = "Object Repository/AdminSuiteBootstrap_Pages/Reporting_Bootstrap/Page_Email/"
 
-CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_Reporting'))
 WebUI.click(findTestObject(path_Dashboard + 'a_Email Subscription'))
@@ -103,20 +103,18 @@ WebUI.verifyElementPresent(findTestObject(path_Email + 'button_Reset'), 30)
 WebUI.verifyElementVisible(findTestObject(path_Email + 'button_Submit'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'button_Submit'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'a_Modify'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'a_Modify'), 30)
+WebUI.verifyElementVisible(findTestObject(path_Email + 'a_Modify_Prod'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'a_Modify_Prod'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'a_Remove'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'a_Remove'), 30)
+WebUI.verifyElementVisible(findTestObject(path_Email + 'a_Remove_Prod'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'a_Remove_Prod'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'a_Remove'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'a_Remove'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'td_ESR_txt'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'td_ESR_txt'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'select_namelist'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'select_namelist'), 30)
+WebUI.verifyElementVisible(findTestObject(path_Email + 'select_namelist_Prod'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'select_namelist_Prod'), 30)
 
 WebUI.closeBrowser()
 

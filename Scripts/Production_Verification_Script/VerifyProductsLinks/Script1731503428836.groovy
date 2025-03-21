@@ -23,7 +23,7 @@ String path_RM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Role/
 
 String path_Product = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Product/"
 
-CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
 
@@ -44,8 +44,8 @@ WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_Customer Service R
 WebUI.verifyElementVisible(findTestObject(path_Product + 'btn_Scheduled Payments'))
 WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_Scheduled Payments'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Product + 'btn_CSR'))
-WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_CSR'), 30)
+WebUI.verifyElementVisible(findTestObject(path_Product + 'btn_CSR_Prod'))
+WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_CSR_Prod'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Product + 'btn_Integrated Billing'))
 WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_Integrated Billing'), 30)

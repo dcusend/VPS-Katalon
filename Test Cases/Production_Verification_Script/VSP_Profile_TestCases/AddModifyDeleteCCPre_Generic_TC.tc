@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CCDeferredCorp</name>
+   <name>AddModifyDeleteCCPre_Generic_TC</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0a9ce5ee-e3cf-4813-bc0a-9fcf9c210fed</testCaseGuid>
+   <testCaseGuid>24b91d23-b9e0-4e67-9320-d232536894fc</testCaseGuid>
 </TestCaseEntity>

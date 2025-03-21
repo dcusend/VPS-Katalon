@@ -48,15 +48,15 @@ public class SalePage {
 		// SetData
 		WebUI.selectOptionByValue(findTestObject(path_SaleVSP + 'select_TransactionCategory'), transCat, true)
 		WebUI.setText(findTestObject(path_SaleVSP + 'input_cvv'), cvv)
-		
+
 		if ((!sms.isEmpty())) {
 			WebUI.setText(findTestObject(path_SaleVSP + 'input_smsNumber'), sms)
 		}
 		else {
 			println("Phone Number is not present in the Excel Spreadsheet")
 		}
-		
-		
+
+
 		//WebUI.setText(findTestObject(path_SaleVSP + 'input_smsNumber'), sms)
 		WebUI.setText(findTestObject(path_SaleVSP + 'input_amount'), amount)
 		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined1'), UDF1)
@@ -73,8 +73,55 @@ public class SalePage {
 		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined10'), UDF10)
 
 		WebUI.click(findTestObject(path_SaleVSP + 'button_Submit'))
+	}
 
 
+	@Keyword
+	def setDataSaleAndAuth_EF(int rowS, dataFileS) {
 
+		// GetData
+		transCat = dataFileS.getValue('TranCat', rowS)
+		cvv = dataFileS.getValue('CVV', rowS)
+		sms = dataFileS.getValue('SMSnumber', rowS)
+		amount = dataFileS.getValue('Amount', rowS)
+		UDF1 = dataFileS.getValue('UDF1', rowS)
+		UDF2 = dataFileS.getValue('UDF2', rowS)
+		UDF3 = dataFileS.getValue('UDF3', rowS)
+		UDF4 = dataFileS.getValue('UDF4', rowS)
+		UDF5 = dataFileS.getValue('UDF5', rowS)
+		UDF6 = dataFileS.getValue('UDF6', rowS)
+		UDF7 = dataFileS.getValue('UDF7', rowS)
+		UDF8 = dataFileS.getValue('UDF8', rowS)
+		UDF9 = dataFileS.getValue('UDF9', rowS)
+		UDF10 = dataFileS.getValue('UDF10', rowS)
+
+		// SetData
+		WebUI.selectOptionByValue(findTestObject(path_SaleVSP + 'select_TransactionCategory'), transCat, true)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_cvv'), cvv)
+
+		if ((!sms.isEmpty())) {
+			WebUI.setText(findTestObject(path_SaleVSP + 'input_smsNumber'), sms)
+		}
+		else {
+			println("Phone Number is not present in the Excel Spreadsheet")
+		}
+
+
+		//WebUI.setText(findTestObject(path_SaleVSP + 'input_smsNumber'), sms)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_amount'), amount)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined1'), UDF1)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined2'), UDF2)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined3'), UDF3)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined4'), UDF4)
+
+		WebUI.selectOptionByLabel(findTestObject(path_SaleVSP + 'select_UDF5'), UDF5, true)
+		WebUI.selectOptionByLabel(findTestObject(path_SaleVSP + 'select_UDF6'), UDF6, true)
+
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined7'), UDF7)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined8'), UDF8)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined9'), UDF9)
+		WebUI.setText(findTestObject(path_SaleVSP + 'input_userDefined10'), UDF10)
+
+		WebUI.click(findTestObject(path_SaleVSP + 'button_Submit'))
 	}
 }

@@ -70,9 +70,6 @@ public class AddCreditCardPage {
 
 		// Select the Create button
 		WebUI.click(findTestObject(path_Add_CC + 'button_Create'))
-
-
-
 	}
 
 
@@ -95,9 +92,26 @@ public class AddCreditCardPage {
 
 		// Select the Create button
 		WebUI.click(findTestObject(path_Add_CC + 'button_Create'))
+	}
+	
+	
+	@Keyword
+	def setDataCreditCardPre_EF(int rowS, dataFileS) {
+
+		// GetData
+		nickName = dataFileS.getValue('NickNameCC', rowS)
+		cardNumber = dataFileS.getValue('CardNumberCC', rowS)
+		expM = dataFileS.getValue('ExpMonthCC', rowS)
+		expY = dataFileS.getValue('ExpYearCC', rowS)
 
 
+		// SetData
+		WebUI.setText(findTestObject(path_Add_CC + 'input_nickName'), nickName)
+		WebUI.setText(findTestObject(path_Add_CC + 'input_cardNumber'), cardNumber)
+		WebUI.selectOptionByLabel(findTestObject(path_Add_CC + 'select_ExpMonth'), expM, true)
+		WebUI.selectOptionByLabel(findTestObject(path_Add_CC + 'select_ExpYear'), expY, true)
 
-
+		// Select the Create button
+		WebUI.click(findTestObject(path_Add_CC + 'button_Create'))
 	}
 }
