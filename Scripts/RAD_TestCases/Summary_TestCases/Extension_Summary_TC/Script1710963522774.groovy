@@ -144,182 +144,522 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					WebUI.delay(2)
 					
-					
-							
-					/*
-					 * if (WebUI.verifyTextPresent('Review the information below and make any
-					 * necessary corrections by clicking the', true)) { println
-					 * "Transaction was Successful" System.out.println('Pass Record Number: ' + row)
-					 * resText = "Pass"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) } else { println "Transaction was NOT Successful"
-					 * System.out.println('Fail Record Number: ' + row) resText = "Fail"
-					 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
-					 * ,fileLoc,nameSheet,row) }
-					 */
-		
-					
+					def isRequiredTextPresent = false
 					
 // Verify static text on RAD Quarterly Estimated Summary page
 										
-					WebUI.verifyTextPresent('Summary', true)
-					WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true)
-					WebUI.verifyTextPresent('When you are confident that all the information is correct, click the', true)
-					WebUI.verifyTextPresent('Payment Type/Filing Year', true)
-					WebUI.verifyTextPresent('Payment Type:', true)
-					WebUI.verifyTextPresent('Extension Payments', true)
-					WebUI.verifyTextPresent('Filing Year:', true)
-					WebUI.verifyTextPresent(FilingYear, true)
+				
 					
+					if(WebUI.verifyTextPresent('Summary', true))
+						{
+							isRequiredTextPresent = true
+						}
+					else
+						{
+							isRequiredTextPresent = false
+						}
+						
+						
+						
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+						
+					
+					
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('When you are confident that all the information is correct, click the', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+					
+					
+					
+							
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Payment Type/Filing Year', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+								
+						
+							
+								
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Payment Type:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+							
+							
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Extension Payments', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+					
+						
+					
+							
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Filing Year:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+								
+							
+								
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent(FilingYear, true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+							
+							
+					
+					
+								
 					
 					switch (TaxType)
 					{
 						case "Corporate Income Tax":
-								WebUI.verifyTextPresent('Period Ending:', true)
-								WebUI.verifyTextPresent(PeriodEndingMonth, true)
+								
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('Period Ending:', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+						
+						
+									
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent(PeriodEndingMonth, true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+							
+					
 						break
 					
 					}
 					
 					
 					
-					WebUI.verifyTextPresent('Payer Information', true)
-					WebUI.verifyTextPresent('Taxpayer Name:', true)
-					WebUI.verifyTextPresent('My Company', true)
-					WebUI.verifyTextPresent('Business Rep Name:', true)
-					WebUI.verifyTextPresent('BusRepFname BusRepLname', true)
-					WebUI.verifyTextPresent('Taxpayer Address:', true)
-					WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
-					WebUI.verifyTextPresent('Email:', true)
-					WebUI.verifyTextPresent('iahmed@govolution.com', true)
-					WebUI.verifyTextPresent('Phone:', true)
-					WebUI.verifyTextPresent('(703) 894-5000', false)
-					WebUI.verifyTextPresent('Tax Information', true)
+					if(isRequiredTextPresent)
+						{
+								if(WebUI.verifyTextPresent('Payer Information', true))
+									{
+										isRequiredTextPresent = true
+									}
+								else
+									{
+										isRequiredTextPresent = false
+									}
+						}
+						
+						
+			
+						
+					if(isRequiredTextPresent)
+						{
+								if(WebUI.verifyTextPresent('Taxpayer Name:', true))
+									{
+										isRequiredTextPresent = true
+									}
+								else
+									{
+										isRequiredTextPresent = false
+									}
+						}
+						
 					
+					
+				
+					if(isRequiredTextPresent)
+						{
+								if(WebUI.verifyTextPresent('My Company', true))
+									{
+										isRequiredTextPresent = true
+									}
+								else
+									{
+										isRequiredTextPresent = false
+									}
+						}
+						
+						
+						
+					if(isRequiredTextPresent)
+						{
+								if(WebUI.verifyTextPresent('Business Rep Name:', true))
+									{
+										isRequiredTextPresent = true
+									}
+								else
+									{
+										isRequiredTextPresent = false
+									}
+						}
+							
+							
+							
+						
+					if(isRequiredTextPresent)
+						{
+								if(WebUI.verifyTextPresent('BusRepFname BusRepLname', true))
+									{
+										isRequiredTextPresent = true
+									}
+								else
+									{
+										isRequiredTextPresent = false
+									}
+						}
+						
+						
+						
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Taxpayer Address:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+								
+								
+								
+								
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+								
+								
+							
+								
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextPresent('Email:', true))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+							
+						
+						
+						
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextPresent('iahmed@govolution.com', true))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+									
+									
+									
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextPresent('Phone:', true))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+									
+									
+								
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextPresent('(703) 894-5000', false))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+									
+								
+								
+								
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextPresent('Tax Information', true))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+								
+								
+								
+// Verify the FEIN/SSN or Federal EIN
 					
 					if (feinSSN.equalsIgnoreCase("Y"))
 						{
-							WebUI.verifyTextPresent('FEIN/SSN:', true)
-							WebUI.verifyTextNotPresent('Federal EIN:', true)
-							WebUI.verifyTextPresent('XXXXX5293', true)
+							
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('FEIN/SSN:', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+							
+							
+							
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextNotPresent('Federal EIN:', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+									
+									
+									
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('XXXXX5293', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+						
 						}
 					else
 						{
-							WebUI.verifyTextPresent('Federal EIN:', true)
-							WebUI.verifyTextNotPresent('FEIN/SSN:', true)
-							WebUI.verifyTextPresent('XXXXXXX93', true)
+							
+							
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('Federal EIN:', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+							
+							
+							
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextNotPresent('FEIN/SSN:', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+							
+									
+									
+									
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('XXXXXXX93', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
 						}
 					
 						
-						//WebUI.verifyTextPresent('XXXXX6789', true)
 						
-					//WebUI.verifyTextPresent('Federal EIN:', true)
-					WebUI.verifyTextPresent('Payment Amount:', true)
-					WebUI.verifyTextPresent('100.00', true)
-					
-					
-					if (WebUI.verifyElementVisible(findTestObject(orPath_Summary + '/button_Proceed to Payment')))
-						{
-							resText = "Pass"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-						}
-					else
-						{
-							resText = "Fail"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-						}
-
-					
+						
+						
+// Verify the Payment Amount
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Payment Amount:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+						
+						
+						
+							
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('100.00', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+						
+						
+						
+						
+// Verify the Proceed to Payment button
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyElementVisible(findTestObject(orPath_Summary + '/button_Proceed to Payment')))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+							
+							
+							
+							
+								
+								
 // Select Proceed to Payment button
-					WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
+								WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
+								
+											
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+							
+							
 					
-					WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30)
-					
-					/*
-					 * // On the VRelay page, confirm fields are prepopulated
-					 * WebUI.verifyTextPresent('Comptroller of Maryland', true)
-					 * WebUI.verifyTextPresent('Revenue Administration Division', true)
-					 * WebUI.verifyTextPresent('Payment Information', true)
-					 * 
-					 * def card_Name = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
-					 * WebUI.verifyMatch("", card_Name, false)
-					 * 
-					 * def AL1 = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress'), 'value')
-					 * WebUI.verifyMatch("2508 Mandan Terrace", AL1, false)
-					 * 
-					 * def AL2 = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingAddress2'), 'value')
-					 * WebUI.verifyMatch("", AL2, false)
-					 * 
-					 * def zipCode = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingZip'), 'value')
-					 * WebUI.verifyMatch("21054", zipCode, false)
-					 * 
-					 * def city = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_billingCity'), 'value')
-					 * WebUI.verifyMatch("GAMBRILLS", city, false)
-					 * 
-					 * def email = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_emailAddress'), 'value')
-					 * WebUI.verifyMatch("iahmed@govolution.com", email, false)
-					 * 
-					 * def amount = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'value')
-					 * WebUI.verifyMatch("100.00", amount, false)
-					 * 
-					 * def amountReadOnly = WebUI.getAttribute(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'readonly')
-					 * WebUI.verifyMatch("true", amountReadOnly, false)
-					 * 
-					 * WebUI.verifyOptionSelectedByLabel(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/select_Country'), 'United States',
-					 * false, 20)
-					 * 
-					 * WebUI.verifyOptionSelectedByLabel(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/select_State'), 'Maryland', false, 20)
-					 * 
-					 * 
-					 * WebUI.setText(findTestObject('Object
-					 * Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony
-					 * Gonzalez') WebUI.setText(findTestObject(orPath_PaymentEntry +
-					 * '/input__cardNumber'),'4111111111111111')
-					 * WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__spc'),'123')
-					 * WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry +
-					 * '/select_MM'),"12",false)
-					 * WebUI.selectOptionByLabel(findTestObject(orPath_PaymentEntry +
-					 * '/select_YYYY'),"2028",false)
-					 * 
-					 * 
-					 * // Select Continue on VRelay Payment Entry page
-					 * WebUI.click(findTestObject(orPath_PaymentEntry + '/input_Field_ccSubmit'))
-					 * 
-					 * 
-					 * // Select Confirm on Payment Confirmation Page
-					 * WebUI.click(findTestObject(orPath_PaymentConfirmation +
-					 * '/input_N_confirmNotifyAction'))
-					 * 
-					 * 
-					 * // Verify text on Dual CF Page
-					 * 
-					 * 
-					 * 
-					 * WebUI.verifyTextPresent('Service Fee Acceptance', true)
-					 * WebUI.verifyTextPresent('This transaction is subject to a Service Fee of ',
-					 * true) WebUI.verifyTextPresent('Payment Amount:', true)
-					 * WebUI.verifyTextPresent('100.00', true) WebUI.verifyTextPresent('Service
-					 * Fee:', true) WebUI.verifyTextPresent('2.45', true)
-					 * WebUI.verifyTextPresent('Total Amount:', true)
-					 * WebUI.verifyTextPresent('102.45', true) WebUI.verifyTextPresent('Two
-					 * transactions will appear on your bank statement, one in the amount of', true)
-					 * 
-					 * 
-					 * WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept +
-					 * '/input_convFeeNotifyAction'), 30)
-					 * 
-					 */
-					
+									
+									if (isRequiredTextPresent)
+										{
+											println "All the static text is present"
+											KeywordUtil.markPassed("All the static text is present")
+											resText = "Pass"
+											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						
+										}
+									else
+										{
+											println "One or more static text is missing for Tax Type " + TaxType
+											KeywordUtil.markFailed("One or more static text is missing for Tax Type " + TaxType)
+											resText = "Fail"
+											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+										}
+						
+									
+			
 	
 				}
 			

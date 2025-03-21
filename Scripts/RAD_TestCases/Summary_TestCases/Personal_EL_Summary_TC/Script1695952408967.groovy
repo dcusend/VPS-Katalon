@@ -133,108 +133,602 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						WebUI.delay(2)
 						
+						def isRequiredTextPresent = false
 					
 						
 						
 	// Verify static text on RAD  Summary page
-											
-						WebUI.verifyTextPresent('Summary', true)
-						WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true)
-						WebUI.verifyTextPresent('When you are confident that all the information is correct, click the', true)
-						WebUI.verifyTextPresent('Payment Type/Filing Year', true)
-						WebUI.verifyTextPresent('Payment Type:', true)
-						WebUI.verifyTextPresent(PaymentType, true)
-												
-						WebUI.verifyTextPresent('Payer Information', true)
-						WebUI.verifyTextPresent('Taxpayer Name:', true)
+							
 						
-						switch (executionProfile)
-						{
-							case "QA2Profile":
-									WebUI.verifyTextPresent('Jimmy Anderson', true)
-									
-									if (TaxType.equalsIgnoreCase("Estate Tax"))
+						if(WebUI.verifyTextPresent('Summary', true))
+							{
+								isRequiredTextPresent = true
+							}
+						else
+							{
+								isRequiredTextPresent = false
+							}
+					
+								
+						
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Review the information below and make any necessary corrections by clicking the', true))
 										{
-											WebUI.verifyTextPresent('xxxxx1234', true)
+											isRequiredTextPresent = true
 										}
 									else
 										{
-											WebUI.verifyTextPresent('XXXXX1234', true)
+											isRequiredTextPresent = false
+										}
+							}
+						
+						
+						
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('When you are confident that all the information is correct, click the', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+						
+						
+						
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Payment Type/Filing Year', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+												
+										
+											
+												
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Payment Type:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+						
+							
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent(PaymentType, true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+							
+							
+						
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Payer Information', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+										
+										
+							
+										
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Taxpayer Name:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+							
+							
+							
+												
+												
+						switch (executionProfile)
+						{
+							case "QA2Profile":
+											if(isRequiredTextPresent)
+												{
+														if(WebUI.verifyTextPresent('Jimmy Anderson', true))
+															{
+																isRequiredTextPresent = true
+															}
+														else
+															{
+																isRequiredTextPresent = false
+															}
+												}
+							
+							
+							
+									
+									if (TaxType.equalsIgnoreCase("Estate Tax"))
+										{
+											if(isRequiredTextPresent)
+												{
+														if(WebUI.verifyTextPresent('xxxxx1234', true))
+															{
+																isRequiredTextPresent = true
+															}
+														else
+															{
+																isRequiredTextPresent = false
+															}
+												}
+											
+										}
+									else
+										{
+											if(isRequiredTextPresent)
+												{
+														if(WebUI.verifyTextPresent('XXXXX1234', true))
+															{
+																isRequiredTextPresent = true
+															}
+														else
+															{
+																isRequiredTextPresent = false
+															}
+												}
+											
 										}
 									
 									
 							break
 							
+							
+							case "QAProfile":
+											if(isRequiredTextPresent)
+														{
+																if(WebUI.verifyTextPresent('Jimmy Anderson', true))
+																	{
+																		isRequiredTextPresent = true
+																	}
+																else
+																	{
+																		isRequiredTextPresent = false
+																	}
+														}
+									
+									
+									
+											
+											if (TaxType.equalsIgnoreCase("Estate Tax"))
+												{
+													if(isRequiredTextPresent)
+														{
+																if(WebUI.verifyTextPresent('xxxxx1234', true))
+																	{
+																		isRequiredTextPresent = true
+																	}
+																else
+																	{
+																		isRequiredTextPresent = false
+																	}
+														}
+													
+												}
+											else
+												{
+													if(isRequiredTextPresent)
+														{
+																if(WebUI.verifyTextPresent('XXXXX1234', true))
+																	{
+																		isRequiredTextPresent = true
+																	}
+																else
+																	{
+																		isRequiredTextPresent = false
+																	}
+														}
+													
+												}
+									
+							break
+							
+							
 							case "DemoProfile":
-									WebUI.verifyTextPresent('Jimmy btes', true)
-									
-									if (TaxType.equalsIgnoreCase("Estate Tax"))
-										{
-											WebUI.verifyTextPresent('xxxxx6724', true)
-										}
-									else
-										{
-											WebUI.verifyTextPresent('XXXXX6724', true)
-										}
-									
+											if(isRequiredTextPresent)
+												{
+														if(WebUI.verifyTextPresent('Jimmy btes', true))
+															{
+																isRequiredTextPresent = true
+															}
+														else
+															{
+																isRequiredTextPresent = false
+															}
+												}
+							
+							
+											
+											if (TaxType.equalsIgnoreCase("Estate Tax"))
+												{
+													if(isRequiredTextPresent)
+														{
+																if(WebUI.verifyTextPresent('xxxxx6724', true))
+																	{
+																		isRequiredTextPresent = true
+																	}
+																else
+																	{
+																		isRequiredTextPresent = false
+																	}
+														}
+													
+												}
+											else
+												{
+													if(isRequiredTextPresent)
+														{
+																if(WebUI.verifyTextPresent('XXXXX6724', true))
+																	{
+																		isRequiredTextPresent = true
+																	}
+																else
+																	{
+																		isRequiredTextPresent = false
+																	}
+														}
+													
+												}
 									
 							break
 						}
 						
 						
-						//WebUI.verifyTextPresent('Jimmy Anderson', true)
 						
-						WebUI.verifyTextPresent('Taxpayer Address:', true)
-						WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
-						WebUI.verifyTextPresent('Email:', true)
-						WebUI.verifyTextPresent('iahmed@govolution.com', true)
-						WebUI.verifyTextPresent('Phone:', true)
-						WebUI.verifyTextPresent('(703) 894-5000', false)
-						WebUI.verifyTextPresent('Tax Information', true)
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Taxpayer Address:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+									
+									
+									
+									
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+							
+							
+							
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Email:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+								
+								
+									
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('iahmed@govolution.com', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+							
+						
+					
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Phone:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+									
+									
+								
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('(703) 894-5000', false))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
 						
 						
-						WebUI.verifyTextPresent('Notice Or Invoice Number:', true)
-						WebUI.verifyTextPresent('1234567890123', true)
-						//WebUI.verifyTextPresent('Notice Number:', true)
-						WebUI.verifyTextPresent('Tax Type:', true)
 						
 						
-						WebUI.verifyTextPresent('Payment Amount:', true)
-						WebUI.verifyTextPresent('100.00', true)
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Tax Information', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+							
+							
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Notice Or Invoice Number:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+							
+							
+							
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('1234567890123', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
 						
-						WebUI.verifyTextNotPresent('Federal EIN:', true)
-						WebUI.verifyTextNotPresent('FEIN/SSN:', true)
+						
+						
+						if(isRequiredTextPresent)
+							{
+									if(WebUI.verifyTextPresent('Tax Type:', true))
+										{
+											isRequiredTextPresent = true
+										}
+									else
+										{
+											isRequiredTextPresent = false
+										}
+							}
+						
+						
+// Verify the Payment Amount
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextPresent('Payment Amount:', true))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+							
+							
+							
+								
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextPresent('100.00', true))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+						
+						
+					
+								
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextNotPresent('Federal EIN:', true))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+									
+										
+										
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyTextNotPresent('FEIN/SSN:', true))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+								
+								
+								
+						
+						
 						
 						
 						if (TaxType.equalsIgnoreCase("Estate Tax"))
 							{
-								WebUI.verifyTextPresent('Decedent SSN:', true)
-								WebUI.verifyTextPresent('Estate Tax', true)
+								
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('Decedent SSN:', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+									
+									
+									
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('Estate Tax', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+								
+								
 							}
 						else
 							{
-								WebUI.verifyTextPresent('Social Security Number:', true)
-								WebUI.verifyTextPresent('Personal Income Tax', true)
+								
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('Social Security Number:', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+									
+									
+									
+								if(isRequiredTextPresent)
+									{
+											if(WebUI.verifyTextPresent('Personal Income Tax', true))
+												{
+													isRequiredTextPresent = true
+												}
+											else
+												{
+													isRequiredTextPresent = false
+												}
+									}
+								
+								
 							}
 							
 							
 						
-						if (WebUI.verifyElementVisible(findTestObject(orPath_Summary + '/button_Proceed to Payment')))
+// Verify the Proceed to Payment button
+							if(isRequiredTextPresent)
+								{
+										if(WebUI.verifyElementVisible(findTestObject(orPath_Summary + '/button_Proceed to Payment')))
+											{
+												isRequiredTextPresent = true
+											}
+										else
+											{
+												isRequiredTextPresent = false
+											}
+								}
+								
+								
+								
+// Select Proceed to Payment button
+			WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
+			
+						
+			if(isRequiredTextPresent)
+				{
+						if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
 							{
-								resText = "Pass"
-								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+								isRequiredTextPresent = true
 							}
 						else
 							{
-								resText = "Fail"
-								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+								isRequiredTextPresent = false
 							}
+				}
+		
 						
-						
-	// Select Proceed to Payment button
-						WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
-						
-						WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30)
+				
+				
+				if (isRequiredTextPresent)
+					{
+						println "All the static text is present"
+						KeywordUtil.markPassed("All the static text is present")
+						resText = "Pass"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+	
+					}
+				else
+					{
+						println "One or more static text is missing for Tax Type " + TaxType
+						KeywordUtil.markFailed("One or more static text is missing for Tax Type " + TaxType)
+						resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					}
 						
 						
 						
