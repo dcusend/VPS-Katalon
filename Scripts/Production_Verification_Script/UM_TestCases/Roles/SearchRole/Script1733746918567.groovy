@@ -67,7 +67,7 @@ for (def row = 1; row <= numOfRows; row++)
 
 
 				// Log into Admin Suite
-					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 					
 				// Select the User Management button
 					WebUI.click(findTestObject(path_Dashboard + 'a_Access User Management'))

@@ -1,11 +1,16 @@
 {
-  "keywordFileContentHash": "7B281AC7F9D7614221D2FE8317D462AD",
+  "keywordFileContentHash": "153DE904A1E62C836CD81020E43DC960",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.loginFunctionality",
       "keywordMethods": [
         {
           "name": "login_AdminSuite",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "login_AdminSuite_AdminUser",
           "parameters": [],
           "javadoc": ""
         },

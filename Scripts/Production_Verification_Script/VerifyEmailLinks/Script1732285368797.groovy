@@ -27,7 +27,7 @@ String path_RM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Role/
 
 String path_Email = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Email/"
 
-CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
 

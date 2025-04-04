@@ -23,7 +23,7 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 
 String path_User = "Object Repository/AdminSuiteBootstrap_Pages/Reporting_Bootstrap/Page_User Reports/"
 
-CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_Reporting'))
 WebUI.click(findTestObject(path_Dashboard + 'a_User Reports'))

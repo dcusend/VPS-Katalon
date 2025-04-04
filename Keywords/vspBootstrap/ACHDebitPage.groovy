@@ -50,8 +50,8 @@ public class ACHDebitPage {
 
 		// SetData
 		WebUI.selectOptionByValue(findTestObject(path_DebitVSP + 'select_StdEntryClass'), sec, true)
-		
-		
+
+
 		if ((!sms.isEmpty())) {
 			WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
 		}
@@ -59,13 +59,12 @@ public class ACHDebitPage {
 			println("Phone Number is not present in the Excel Spreadsheet")
 		}
 
-		
-		
-//		WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
+
+
+		//		WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
 		WebUI.setText(findTestObject(path_DebitVSP + 'input_amount'), amount)
 
-		if (profName.equalsIgnoreCase("PaymentsCorp"))
-		{
+		if (profName.equalsIgnoreCase("PaymentsCorp")) {
 			WebUI.setText(findTestObject(path_DebitVSP + 'input_ein'), ein)
 		}
 
@@ -83,19 +82,70 @@ public class ACHDebitPage {
 		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined10'), UDF10)
 
 		WebUI.click(findTestObject(path_DebitVSP + 'button_Submit'))
-
-
-
-
-
-
-
-
-
-
-
-
-
 	}
 
+
+
+	@Keyword
+	def setDataACHDebit_EF(int rowS, dataFileS) {
+
+		// GetData
+		sec = dataFileS.getValue('SEC', rowS)
+		sms = dataFileS.getValue('SMSnumber', rowS)
+		amount = dataFileS.getValue('Amount', rowS)
+
+		profName = dataFileS.getValue('ProfileName', rowS)
+		ein = dataFileS.getValue('EIN', rowS)
+
+		UDF1 = dataFileS.getValue('UDF1', rowS)
+		UDF2 = dataFileS.getValue('UDF2', rowS)
+		UDF3 = dataFileS.getValue('UDF3', rowS)
+		UDF4 = dataFileS.getValue('UDF4', rowS)
+		UDF5 = dataFileS.getValue('UDF5', rowS)
+		UDF6 = dataFileS.getValue('UDF6', rowS)
+		UDF7 = dataFileS.getValue('UDF7', rowS)
+		UDF8 = dataFileS.getValue('UDF8', rowS)
+		UDF9 = dataFileS.getValue('UDF9', rowS)
+		UDF10 = dataFileS.getValue('UDF10', rowS)
+
+		// SetData
+		if ((!sec.isEmpty())) {
+		WebUI.selectOptionByValue(findTestObject(path_DebitVSP + 'select_StdEntryClass'), sec, true)
+		}
+		else{
+			println("Sec is not present in the Excel Spreadsheet")
+		}
+
+
+		if ((!sms.isEmpty())) {
+			WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
+		}
+		else {
+			println("Phone Number is not present in the Excel Spreadsheet")
+		}
+
+
+
+		//		WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_amount'), amount)
+
+		if (profName.equalsIgnoreCase("PaymentsCorp")) {
+			WebUI.setText(findTestObject(path_DebitVSP + 'input_ein'), ein)
+		}
+
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined1'), UDF1)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined2'), UDF2)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined3'), UDF3)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined4'), UDF4)
+
+		WebUI.selectOptionByLabel(findTestObject(path_DebitVSP + 'select_UDF5'), UDF5, true)
+		WebUI.selectOptionByLabel(findTestObject(path_DebitVSP + 'select_UDF6'), UDF6, true)
+
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined7'), UDF7)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined8'), UDF8)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined9'), UDF9)
+		WebUI.setText(findTestObject(path_DebitVSP + 'input_userDefined10'), UDF10)
+
+		WebUI.click(findTestObject(path_DebitVSP + 'button_Submit'))
+	}
 }

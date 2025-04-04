@@ -61,8 +61,7 @@ public class loginFunctionality {
 		//				WebUI.click(findTestObject('Login_Page/Login_Submit'))
 		//			}
 
-		switch(executionProfile)
-		{
+		switch(executionProfile) {
 			case "QAProfile":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
@@ -72,7 +71,6 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-
 				}
 				break
 
@@ -93,8 +91,6 @@ public class loginFunctionality {
 					//WebUI.waitForElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
 					//WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'),"imtiaz" , true)
-
-
 				}
 				break
 
@@ -107,7 +103,6 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-
 				}
 				break
 
@@ -126,8 +121,6 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-
-
 				}
 				break
 
@@ -146,8 +139,6 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-
-
 				}
 				break
 
@@ -166,14 +157,9 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-
-
 				}
 				break
-
-
 		}
-
 	}
 
 
@@ -184,6 +170,35 @@ public class loginFunctionality {
 	//			System.out.println('Not on the Login Page, exiting test')
 	//		}
 	//	}
+
+
+
+	@Keyword
+	def login_AdminSuite_AdminUser() {
+		gv_URL = GlobalVariable.AdminSuiteURL
+		gv_username = GlobalVariable.AutoUserAdminSuite
+		gv_password = GlobalVariable.AutoPasswordAdminSuite
+
+		System.out.println('URL : ' + gv_URL)
+		System.out.println('Username : ' + gv_username)
+		System.out.println('Password : ' + gv_password)
+
+
+		WebUI.openBrowser(gv_URL)
+
+		WebUI.maximizeWindow()
+
+
+		if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username_Okta'),30)) {
+			System.out.println('We are on Login Page, start populating the fields')
+
+			WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), gv_username)
+
+			WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
+
+			WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
+		}
+	}
 
 
 	@Keyword
@@ -218,8 +233,7 @@ public class loginFunctionality {
 		//		}
 
 
-		switch(executionProfile)
-		{
+		switch(executionProfile) {
 			case "QAProfile":
 				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
@@ -229,7 +243,6 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-
 				}
 				break
 
@@ -248,8 +261,6 @@ public class loginFunctionality {
 					//WebUI.waitForElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
 					//WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/span_CustomerDD_Okta'),"imtiaz" , true)
-
-
 				}
 				break
 
@@ -262,7 +273,6 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-
 				}
 				break
 
@@ -275,7 +285,6 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-
 				}
 				break
 
@@ -288,7 +297,6 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-
 				}
 				break
 
@@ -301,15 +309,9 @@ public class loginFunctionality {
 					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
 
 					WebUI.click(findTestObject('Login_Page/Login_Submit'))
-
 				}
 				break
-
-
 		}
-
-
-
 	}
 
 
@@ -330,12 +332,6 @@ public class loginFunctionality {
 			WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), in_Username)
 			WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), in_Password)
 			WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
-
 		}
-
 	}
-
-
-
-
 }

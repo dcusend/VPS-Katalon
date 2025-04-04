@@ -21,7 +21,7 @@ import org.openqa.selenium.Keys as Keys
 
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 
-CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_User Management'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_User Management'), 30)

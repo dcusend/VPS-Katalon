@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>NewLiability_DigitalAdvertisingGrossRevenues_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1ab3bc1-93e0-482b-890f-8041263f7847</testCaseGuid>
+</TestCaseEntity>

@@ -21,31 +21,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class AddACHPage {
-	
-	
+
+
 	String path_Add_ACH = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddACH/"
 	String payType, rtn, nickNameACH, acNumber
-	
-		@Keyword
-		def setDataAddACH(int rowS, String dataFileS) {
-	
-	
-			// GetData
-				payType = findTestData(dataFileS).getValue('PaymentType', rowS)
-				rtn = findTestData(dataFileS).getValue('RTN', rowS)
-				nickNameACH = findTestData(dataFileS).getValue('NicknameACH', rowS)
-				acNumber = findTestData(dataFileS).getValue('ACNumber', rowS)
-		
-			// SetData
-				WebUI.setText(findTestObject(path_Add_ACH + 'input_routingTransitNumber'), rtn)
-				WebUI.selectOptionByLabel(findTestObject(path_Add_ACH + 'select_PaymentType'), payType, true)
-				WebUI.setText(findTestObject(path_Add_ACH + 'input_nickName'), nickNameACH)
-				WebUI.setText(findTestObject(path_Add_ACH + 'input_accountNumber'), acNumber)
-	
-			// Select Create button
-				WebUI.click(findTestObject(path_Add_ACH + 'button_Create'))
-	
-	
+
+	@Keyword
+	def setDataAddACH(int rowS, String dataFileS) {
+
+
+		// GetData
+		payType = findTestData(dataFileS).getValue('PaymentType', rowS)
+		rtn = findTestData(dataFileS).getValue('RTN', rowS)
+		nickNameACH = findTestData(dataFileS).getValue('NicknameACH', rowS)
+		acNumber = findTestData(dataFileS).getValue('ACNumber', rowS)
+
+		// SetData
+		WebUI.setText(findTestObject(path_Add_ACH + 'input_routingTransitNumber'), rtn)
+		WebUI.selectOptionByLabel(findTestObject(path_Add_ACH + 'select_PaymentType'), payType, true)
+		WebUI.setText(findTestObject(path_Add_ACH + 'input_nickName'), nickNameACH)
+		WebUI.setText(findTestObject(path_Add_ACH + 'input_accountNumber'), acNumber)
+
+		// Select Create button
+		WebUI.click(findTestObject(path_Add_ACH + 'button_Create'))
 	}
 	
+	
+	@Keyword
+	def setDataAddACH_EF(int rowS, dataFileS) {
+
+
+		// GetData
+		payType = dataFileS.getValue('PaymentType', rowS)
+		rtn = dataFileS.getValue('RTN', rowS)
+		nickNameACH = dataFileS.getValue('NicknameACH', rowS)
+		acNumber = dataFileS.getValue('ACNumber', rowS)
+
+		// SetData
+		WebUI.setText(findTestObject(path_Add_ACH + 'input_routingTransitNumber'), rtn)
+		WebUI.selectOptionByLabel(findTestObject(path_Add_ACH + 'select_PaymentType'), payType, true)
+		WebUI.setText(findTestObject(path_Add_ACH + 'input_nickName'), nickNameACH)
+		WebUI.setText(findTestObject(path_Add_ACH + 'input_accountNumber'), acNumber)
+
+		// Select Create button
+		WebUI.click(findTestObject(path_Add_ACH + 'button_Create'))
+	}
 }
