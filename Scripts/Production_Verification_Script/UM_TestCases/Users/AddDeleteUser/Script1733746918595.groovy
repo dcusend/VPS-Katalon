@@ -47,7 +47,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 nameSheet = "CreateUser"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/Bootstrap/UM-Data-Prod.xlsx", nameSheet, true)
-numOfRows = findTestData('QA/Bootstrap/UM-TestData/CreateUser').getRowNumbers()
+numOfRows = dataFile.getRowNumbers()
 println("Number of Records: " + numOfRows)
 
 

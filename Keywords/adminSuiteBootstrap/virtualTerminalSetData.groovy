@@ -240,9 +240,9 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input__address'), al1)
 		WebUI.setText(findTestObject(path_SaleKB + 'input__address2'), al2)
 		WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), zipCode)
-//		WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), emailAddress)
-		
-		
+		//		WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), emailAddress)
+
+
 		if ((!emailAddress.isEmpty())) {
 			WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), emailAddress)
 		}
@@ -433,14 +433,15 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_ManAuth + 'input_Authorization Code_address'), al1)
 		WebUI.setText(findTestObject(path_ManAuth + 'input__address2'), al2)
 		WebUI.setText(findTestObject(path_ManAuth + 'input__zip'), zipCode)
-//		WebUI.setText(findTestObject(path_ManAuth + 'input_State_emailAddress'), emailAddress)
-		
+		//		WebUI.setText(findTestObject(path_ManAuth + 'input_State_emailAddress'), emailAddress)
+
 		if ((!emailAddress.isEmpty())) {
-			WebUI.setText(findTestObject(path_ManAuth + 'input_State_emailAddress'), emailAddress)		}
+			WebUI.setText(findTestObject(path_ManAuth + 'input_State_emailAddress'), emailAddress)
+		}
 		else {
 			println("Phone Number is not present in the Excel Spreadsheet")
 		}
-		
+
 
 		if ((!phoneNumber.isEmpty())) {
 			WebUI.setText(findTestObject(path_ManAuth + 'input_smsNumber'), phoneNumber)

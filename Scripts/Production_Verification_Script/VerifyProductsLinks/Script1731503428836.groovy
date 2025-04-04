@@ -72,7 +72,7 @@ WebUI.verifyElementPresent(findTestObject(path_Product + 'a_BBP Parking Fees Gov
 WebUI.verifyElementPresent(findTestObject(path_Product + 'a_CPS DualCF'), 30)
 
 
-WebUI.click(findTestObject(path_Product + 'btn_CSR'))
+WebUI.click(findTestObject(path_Product + 'btn_CSR_Prod'))
 
 WebUI.verifyElementPresent(findTestObject(path_Product + 'a_BBP Parking Fees GovTest'), 30)
 

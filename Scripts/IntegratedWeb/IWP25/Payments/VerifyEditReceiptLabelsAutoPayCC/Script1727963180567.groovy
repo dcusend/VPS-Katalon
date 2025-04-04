@@ -183,16 +183,16 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 									isRequiredTextPresent = false
 								}
 							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Account Information:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
+//							if(isRequiredTextPresent) {
+//								if(WebUI.verifyTextPresent("Account Information:", false)) {
+//									isRequiredTextPresent = true
+//									println(isRequiredTextPresent)
+//									
+//								}
+//								else {
+//									isRequiredTextPresent = false
+//								}
+//							}
 							if(isRequiredTextPresent) {
 								if(WebUI.verifyTextPresent("Company Name:", false)) {
 									isRequiredTextPresent = true
@@ -354,16 +354,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 									isRequiredTextPresent = false
 								}
 							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Payment Plan End Date:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
+					
 							
 							
 							if (isRequiredTextPresent == true)

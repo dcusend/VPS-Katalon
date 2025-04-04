@@ -13,8 +13,13 @@
          <key>XPATH</key>
          <value>//select[@name='cardExpYear']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'cardExpYear']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>ab37aa2f-c14a-45d8-8127-c8def154905a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-select  form-control</value>
+      <webElementGuid>464b1c1c-5355-4bef-9d9e-48d81da168f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,6 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>cardExpYear</value>
+      <webElementGuid>900dc936-88b6-490b-88a2-4900874eef02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +51,7 @@
       <name>size</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>9c4a412e-86ee-4aa1-aaab-05e168ff7a30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,48 +59,50 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>5</value>
+      <webElementGuid>74d4df4e-b5e9-49f3-908f-963fbb96a1ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-	                                                                    YYYY
-	                                                                    
-																		          2022
-																		       
-																		          2023
-																		       
-																		          2024
-																		       
-																		          2025
-																		       
-																		          2026
-																		       
-																		          2027
-																		       
-																		          2028
-																		       
-																		          2029
-																		       
-																		          2030
-																		       
-																		          2031
-																		       
-																		          2032
-																		       
-																		          2033
-																		       
-																		          2034
-																		       
-																		          2035
-																		       
-																		          2036
-																		       
-																		          2037
-																		       
+      <value>&#xd;
+	                                                                    YYYY&#xd;
+	                                                                    &#xd;
+																		          2022&#xd;
+																		       &#xd;
+																		          2023&#xd;
+																		       &#xd;
+																		          2024&#xd;
+																		       &#xd;
+																		          2025&#xd;
+																		       &#xd;
+																		          2026&#xd;
+																		       &#xd;
+																		          2027&#xd;
+																		       &#xd;
+																		          2028&#xd;
+																		       &#xd;
+																		          2029&#xd;
+																		       &#xd;
+																		          2030&#xd;
+																		       &#xd;
+																		          2031&#xd;
+																		       &#xd;
+																		          2032&#xd;
+																		       &#xd;
+																		          2033&#xd;
+																		       &#xd;
+																		          2034&#xd;
+																		       &#xd;
+																		          2035&#xd;
+																		       &#xd;
+																		          2036&#xd;
+																		       &#xd;
+																		          2037&#xd;
+																		       &#xd;
 	                                                                </value>
+      <webElementGuid>41ddcee0-68e4-40b2-86ed-e2384e98ca80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;form1&quot;)/div[@class=&quot;row border-bottom&quot;]/div[@class=&quot;col-md-6 border-right&quot;]/div[@class=&quot;post-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;form-floating&quot;]/select[@class=&quot;form-select  form-control&quot;]</value>
+      <webElementGuid>780c5a7a-3d31-4614-9099-0a7cc427658a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -106,6 +118,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@name='cardExpYear']</value>
+      <webElementGuid>d5694925-e25f-4b4e-98c9-dc873d47c703</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +126,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form1']/div/div/div[3]/div[3]/div[2]/div/select</value>
+      <webElementGuid>a95851cb-c965-4f9a-8800-f18c31617ee6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::select[1]</value>
+      <webElementGuid>ca07cc4c-8f54-4629-84c6-b75e74bcb294</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::select[1]</value>
+      <webElementGuid>799142e4-4c47-4ce6-8f72-57bd10a6d1b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,5 +150,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/select</value>
+      <webElementGuid>2f69dccb-4a03-4457-83af-0b0d20591a8f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

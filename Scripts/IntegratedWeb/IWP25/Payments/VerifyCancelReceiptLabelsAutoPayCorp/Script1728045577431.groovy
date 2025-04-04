@@ -344,16 +344,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 									isRequiredTextPresent = false
 								}
 							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Payment Plan End Date:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
+						
 							
 							if (isRequiredTextPresent == true)
 								{

@@ -32,7 +32,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 
 
 	
-	nameSheet = "VerifyCancelLabelAutopayCC"
+	nameSheet = "VerifyReceiptPageDataCorp"
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/IWPTestData/VRelay25PaymentsExtension.xlsx", nameSheet, true)
 	dataFileEmulator = "IWPTestData/EmulatorData"
 	
@@ -74,45 +74,27 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					
 					// Select Credit Card Payment Method
-					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard'))
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCorporateCheck'))
 					
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
 					
-					// Set Data on Corporate Payment Entry page
-					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
+					// Set Data on Payment Entry page
+					CustomKeywords.'iwpPages.achCorporatePaymentEntryPage.setDataCorporate'(row,dataFile)
 					
 					// Select Continue on Confirm page
 //					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
+					
 					Thread.sleep(2000)
-					if (WebUI.verifyTextPresent("AutoPay", false))
+					if (WebUI.verifyTextPresent("Your payment plan has been successfully created", false))
 						{
 								
-							
-							WebUI.openBrowser(testHarnessURL)
-							WebUI.maximizeWindow()
-							
-							// Populate Test Harness
-							CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
-							
-							WebUI.click(findTestObject('Object Repository/IWP30/Page_ManagePlan_Autopay/btn_cancel'))	
-							WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))	
-							
-							if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
-								isRequiredTextPresent = true
-								println(isRequiredTextPresent)
-							}
-							else {
-								isRequiredTextPresent = false
-							}
-														
-
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("CAN Label:", false)) {
+								if(WebUI.verifyTextPresent("Jasmine", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -122,7 +104,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("UDF2 Label:", false)) {
+								if(WebUI.verifyTextPresent("Patrinol", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -132,7 +114,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("UDF3 Label:", false)) {
+								if(WebUI.verifyTextPresent("258 Underwood rd", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -142,7 +124,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("UDF4 Label:", false)) {
+								if(WebUI.verifyTextPresent("Suite 600", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -152,110 +134,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("UDF7 Label:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("UDF8 Label:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("UDF9 Label:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Card Information:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Cardholder's Name:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Card Type:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-				
-					
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Card Number:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-				
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Card Security Code:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Expiration Date:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Address Line 1:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Address Line 2:", false)) {
+								if(WebUI.verifyTextPresent("840", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -266,7 +145,18 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							}
 							
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Country:", false)) {
+								if(WebUI.verifyTextPresent("Arlington", false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}
+							
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent("VA", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -276,7 +166,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("City:", false)) {
+								if(WebUI.verifyTextPresent("22201", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -286,7 +176,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("State:", false)) {
+								if(WebUI.verifyTextPresent("Some Company", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -296,7 +186,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("ZIP Code:", false)) {
+								if(WebUI.verifyTextPresent("udf data 1", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -306,7 +196,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Payment Plan Information:", false)) {
+								if(WebUI.verifyTextPresent("udf data 2", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -316,7 +206,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Payment Plan Type:", false)) {
+								if(WebUI.verifyTextPresent("udf data 3", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -326,7 +216,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Payment Plan ID:", false)) {
+								if(WebUI.verifyTextPresent("udf data 4", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -336,7 +226,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Payment Plan Start Date:", false)) {
+								if(WebUI.verifyTextPresent("udf data 5", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -345,7 +235,56 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 									isRequiredTextPresent = false
 								}
 							}
-					
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent("udf data 6", false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent("Orange", false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent("Soccer", false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent("udf data 9", false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent("udf data 10", false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}
 							
 							if (isRequiredTextPresent == true)
 								{
@@ -366,11 +305,10 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 						}
 					else
 						{
-							KeywordUtil.markFailed("Autopay is not present on page")
+							KeywordUtil.markFailed("Some texts are missing on the Receipt page")
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
 				}		
 				WebUI.closeBrowser()		
 	}
-	
