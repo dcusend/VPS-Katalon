@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyRmovefromCartOnCartContent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df0b1d81-30c1-4614-9152-3b52d8fc0b92</testCaseGuid>
+</TestCaseEntity>

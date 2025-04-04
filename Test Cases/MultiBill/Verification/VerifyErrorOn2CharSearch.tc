@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyErrorOn2CharSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac5d98a6-8c10-435d-b20e-d3f5a20b208b</testCaseGuid>
+</TestCaseEntity>
