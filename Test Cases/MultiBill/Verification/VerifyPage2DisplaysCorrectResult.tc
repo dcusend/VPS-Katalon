@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyPage2DisplaysCorrectResult</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60e62018-4b69-436e-8c0d-06094f3deda7</testCaseGuid>
+</TestCaseEntity>

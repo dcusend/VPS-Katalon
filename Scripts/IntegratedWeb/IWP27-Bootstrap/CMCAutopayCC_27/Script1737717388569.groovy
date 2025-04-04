@@ -109,8 +109,8 @@ for (def row = 1; row <= numOfRows; row++)
 					// setData for Email and Phone Number
 						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardEmailAndPhone'(EmailPhoneID)
 						
-					// setData for Amount
-						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataAmount'(Amount)
+					/*// setData for Amount
+						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataAmount'(Amount)*/
 					
 					// setData for UDFs
 						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardUDF'(UDFID)	
@@ -166,12 +166,13 @@ for (def row = 1; row <= numOfRows; row++)
 													CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 													
 													//Click on Modify Payment Button
-												/*WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_modify'))
+												WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_modify'))
 												WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_EditPaymentPlan_Autopay/btn_savechanges'))
 												
 												if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
+													Thread.sleep(1000)
 													WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))
-													WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))
+													WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))
 													
 													if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
 														KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
@@ -185,7 +186,7 @@ for (def row = 1; row <= numOfRows; row++)
 														CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 													}
 												
-												}*/
+												}
 												
 												}
 												else

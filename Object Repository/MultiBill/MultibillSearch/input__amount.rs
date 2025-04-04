@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//input[@id='modifyAmount_68815457840000805']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'amount']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>15f5eea7-a735-4c25-b16f-a4f328d04bc9</webElementGuid>
+      <webElementGuid>8e94023d-5858-42ff-ba90-ae93f23ff148</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5bfdc184-90c0-48b6-b044-6788333b3ec4</webElementGuid>
+      <webElementGuid>de32668b-9d3f-4956-927e-3fa83c34d285</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>modifyAmount_68815457840000805</value>
-      <webElementGuid>1d090c6d-84c7-434c-ab7f-2bf0625f137b</webElementGuid>
+      <webElementGuid>590fb3ba-6afc-4e82-ab4a-384c071327d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>amount</value>
-      <webElementGuid>ff0578fe-715f-4048-b042-fc065d5d2f2c</webElementGuid>
+      <webElementGuid>0832d45d-c6d7-4094-8b6c-6bccbf2e5e59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +65,15 @@
       <name>value</name>
       <type>Main</type>
       <value>173.69</value>
-      <webElementGuid>66a7089e-078e-405e-a4c4-9368607ba616</webElementGuid>
+      <webElementGuid>f67fdb4a-2754-4dee-8103-3c4c1b048eb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
       <value>bill.displayAmount</value>
-      <webElementGuid>2dc86005-2f0c-4a98-b087-5c6a57928e14</webElementGuid>
+      <webElementGuid>4e329669-fcfa-485e-858f-a1fed2dacfbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>ng-change</name>
       <type>Main</type>
       <value>amountChanged(bill)</value>
-      <webElementGuid>8bc61e9d-1fc9-4cee-8421-536e92854528</webElementGuid>
+      <webElementGuid>6fb6cbad-1e3b-4f80-a961-358a3ee41c7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched ng-valid ng-not-empty</value>
-      <webElementGuid>ba0cb209-001d-4c6c-a003-d9464efe94fb</webElementGuid>
+      <webElementGuid>075cb05c-696e-48a0-9b55-3829ab25e077</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modifyAmount_68815457840000805&quot;)</value>
-      <webElementGuid>58b73247-5e86-4cd0-8be6-76ca304e0479</webElementGuid>
+      <webElementGuid>45d54bcb-d41d-4349-a81b-2673ed526b34</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='modifyAmount_68815457840000805']</value>
-      <webElementGuid>9298735f-b733-451e-b28f-7ab8d17a5033</webElementGuid>
+      <webElementGuid>94c520bb-fe2e-4664-b5b4-2e9fc3376514</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='billSearchTableBody']/tr[5]/td[6]/input</value>
-      <webElementGuid>2fac4e68-a621-4e94-9aaf-e5d36346b132</webElementGuid>
+      <webElementGuid>5866395a-0f06-4c8a-a8b0-4e96babc590e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[6]/input</value>
-      <webElementGuid>33e08d35-a0d3-47ae-a189-e0196b197c6b</webElementGuid>
+      <webElementGuid>e52adea6-752d-4888-91f2-e693f20b420f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'modifyAmount_68815457840000805' and @name = 'amount']</value>
-      <webElementGuid>c2e23a92-0bb3-49eb-9e9e-06bf24a0de35</webElementGuid>
+      <webElementGuid>6ab6292e-22c1-4b68-aae3-2b1728c60c8c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

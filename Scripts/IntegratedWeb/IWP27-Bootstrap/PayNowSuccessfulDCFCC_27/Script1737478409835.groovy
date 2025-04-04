@@ -74,7 +74,7 @@ for (def row = 1; row <= numOfRows; row++)
 			
 	
 			// Open Emulator URL and populate
-			//CustomKeywords.'iwpPages.emulatorIWP30.setDataEmulator_DD'(EmulatorDataKey)
+			CustomKeywords.'iwpPages.emulatorIWP30.setDataEmulator_DD'(EmulatorDataKey)
 			
 			def testHarnessURL = GlobalVariable.urlTestHarness
 			
@@ -90,10 +90,7 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			// Select Make a Payment Button
 				CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
-
-			
-			
-				
+	
 				
 				Thread.sleep(10000)
 				

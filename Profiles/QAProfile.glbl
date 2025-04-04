@@ -46,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/deep'</initValue>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/AutoMultiBillNoCF'</initValue>
       <name>MultiBillNoCFURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/deepscf'</initValue>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/AutoMultiBillSingleCF'</initValue>
       <name>MultiBillSingleCFURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/deepdcf'</initValue>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/AutoMultiBillDualCF'</initValue>
       <name>MultiBillDualCFURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

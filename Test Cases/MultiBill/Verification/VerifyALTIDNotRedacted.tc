@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyALTIDNotRedacted</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>627e5dce-8884-4e3f-8161-da42e67b64d3</testCaseGuid>
+</TestCaseEntity>

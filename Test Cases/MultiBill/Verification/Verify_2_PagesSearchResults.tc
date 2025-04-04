@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_2_PagesSearchResults</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c03af1c-4c0f-46c1-bfbf-1c2aca23c5e2</testCaseGuid>
+</TestCaseEntity>

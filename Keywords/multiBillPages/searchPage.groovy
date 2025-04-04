@@ -39,20 +39,14 @@ public class searchPage {
 	@Keyword
 	def setDataSearchString(String searchStringS) {
 
-		def multibillURL=GlobalVariable.MultiBillNoCFURL
-		WebUI.openBrowser(multibillURL)
-		WebUI.maximizeWindow()
-
-		if(WebUI.verifyElementVisible(findTestObject(pathOR + 'input_Search_searchInput')))
-		{
-			if(searchStringS!=IsEmpty) 
-				{
-					WebUI.setText(findTestObject(pathOR + 'input_Search_searchInput'),searchStringS)
-					WebUI.click(findTestObject(pathOR +'btn_Search'))
-				}
-				else {
-					KeywordUtil.logInfo("Search String is not provided in test data sheet")
-				}
+		if(WebUI.verifyElementVisible(findTestObject(pathOR + 'input_Search_searchInput'))) {
+			if(searchStringS!=IsEmpty) {
+				WebUI.setText(findTestObject(pathOR + 'input_Search_searchInput'),searchStringS)
+				WebUI.click(findTestObject(pathOR +'btn_Search'))
+			}
+			else {
+				KeywordUtil.logInfo("Search String is not provided in test data sheet")
+			}
 		}
 		else {
 			KeywordUtil.logInfo("Search input text box not present.Please check the env")
