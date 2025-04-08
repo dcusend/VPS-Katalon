@@ -129,7 +129,7 @@ public class addUser {
 				break
 		}
 
-
+		println(randomUserName)
 		WebUI.setText(findTestObject(path_AddUser + 'input_Username'), randomUserName)
 
 		// Get random First and Last Names

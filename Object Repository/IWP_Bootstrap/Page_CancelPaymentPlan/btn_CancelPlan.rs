@@ -6,6 +6,10 @@
    <elementGuidId>6f1ac33c-789e-48e6-9238-1b176ca39cbf</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @value = 'Cancel Plan']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='cancelPaymentPlanHistoryBtn']</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c778a627-d897-46da-95b3-baf01e402361</webElementGuid>
+      <webElementGuid>416a077c-2f9d-4f6f-a1ef-9625614d0409</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>23568f99-46c6-488a-8baf-18d06acafdd1</webElementGuid>
+      <webElementGuid>258e5050-5035-43ac-bf8f-dc0ea4ef601c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>cancelPaymentPlanHistoryBtn</value>
-      <webElementGuid>30308faa-298e-431a-a851-06d0238f61ba</webElementGuid>
+      <webElementGuid>576ad636-44b1-47e0-acfa-baa6c44d54f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block</value>
-      <webElementGuid>964b746b-dcbe-4acd-bc79-7c93280c19a9</webElementGuid>
+      <webElementGuid>ba922789-f4da-4732-956f-da25e2e0a7a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Cancel Plan</value>
-      <webElementGuid>d6f030bf-0aa7-4cda-b8c0-81499fe32794</webElementGuid>
+      <webElementGuid>68624def-50c3-4989-ac53-00351e8e09f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>cancelPaymentPlanHistory();</value>
-      <webElementGuid>9aff19dd-e9e7-48f4-805b-b491329e3b41</webElementGuid>
+      <webElementGuid>d11ad29f-9252-4ef8-9ae0-98f381106120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;backButtonDiv&quot;)/div[@class=&quot;col-md-3  col-sm-3  col-xs-12 bootstrap-btn-group&quot;]/input[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>595d3fb0-e537-454f-aaa4-5b4c5c60905f</webElementGuid>
+      <webElementGuid>f9acd91d-d9be-4b3b-8353-5e442906bdce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='cancelPaymentPlanHistoryBtn']</value>
-      <webElementGuid>758bf049-c2ec-435e-ab01-5b0605bd5cea</webElementGuid>
+      <webElementGuid>2078d4ef-6ecf-4430-8d40-2e1b557a5b2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='backButtonDiv']/div[2]/input</value>
-      <webElementGuid>e845bcb2-41b0-44f9-95f5-dad82cd10777</webElementGuid>
+      <webElementGuid>9d6165e7-ac2a-4094-a374-98f7b1d493aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/input</value>
-      <webElementGuid>e87cc936-4718-4a39-9d6d-0ff60957f6ea</webElementGuid>
+      <webElementGuid>84e371c0-c870-4897-8f97-102cf7a24bfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button' and @name = 'cancelPaymentPlanHistoryBtn']</value>
-      <webElementGuid>fb5c35a4-ccfc-473a-a0f0-7a5d3813ed62</webElementGuid>
+      <webElementGuid>5af2f995-f840-48a2-898c-f61f7bbfdebd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Debit_TP_AllCF_Generic_Payment_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c2811f6-5669-4050-ad63-534da837d7b1</testCaseGuid>
+</TestCaseEntity>

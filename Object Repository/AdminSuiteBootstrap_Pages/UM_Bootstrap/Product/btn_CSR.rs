@@ -6,12 +6,195 @@
    <elementGuidId>c2615218-2563-4251-896e-585f80944055</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '&#xd;
+						                    &#xd;
+						                    &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+											        	&#xd;
+											          		&#xd;
+						                    CSR&#xd;
+						                  ' or . = '&#xd;
+						                    &#xd;
+						                    &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+											        	&#xd;
+											          		&#xd;
+						                    CSR&#xd;
+						                  ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +212,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>aec3c5c8-eede-413c-93f5-eb55481673f0</webElementGuid>
+      <webElementGuid>3eb1d0bc-4448-4898-859f-fbf3debf80f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +220,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-link btn-block p-0 text-left collapsed</value>
-      <webElementGuid>64d469d2-ed90-4ecb-8117-f006f1c65058</webElementGuid>
+      <webElementGuid>0c39840c-0e82-4221-bbfb-1e01097d0939</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +228,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8d4c2a60-2e89-49e4-8465-24389254fb72</webElementGuid>
+      <webElementGuid>e0d5a28a-e763-428a-a3bc-b274c7ca21b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +236,7 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>b92ca74a-c4ba-47ca-ba51-ee536258f6b8</webElementGuid>
+      <webElementGuid>f743b9b7-89d8-4e18-89b6-0849991f5b77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +244,7 @@
       <name>data-bs-target</name>
       <type>Main</type>
       <value>#CSR</value>
-      <webElementGuid>4d5973f9-286a-4f02-8064-4dbe8ad3df99</webElementGuid>
+      <webElementGuid>899824bb-1d72-4de5-936d-4a41e9679e60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +252,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4ac73ab3-d570-4184-9b89-d81d5e2315b2</webElementGuid>
+      <webElementGuid>6eebe1ac-345a-4c34-bef6-f1928b111449</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,105 +260,105 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>collapseOne</value>
-      <webElementGuid>439d1883-1053-45a4-af3a-ede8bfe27d64</webElementGuid>
+      <webElementGuid>a69a3cfc-7c4a-43e0-9d73-43ce11a3bcca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-						                    
-						                    
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-										        
-											        	
-											          		
-						                    CSR
+      <value>&#xd;
+						                    &#xd;
+						                    &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+										        &#xd;
+											        	&#xd;
+											          		&#xd;
+						                    CSR&#xd;
 						                  </value>
-      <webElementGuid>4b34a21c-df46-4bb5-932c-d695675964bd</webElementGuid>
+      <webElementGuid>ec4da222-1e17-4fa0-abcf-a00e45bc6bf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -183,7 +366,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;headingOne&quot;]/h2[@class=&quot;mb-0&quot;]/button[@class=&quot;btn btn-link btn-block p-0 text-left collapsed&quot;]</value>
-      <webElementGuid>24193ed7-eedd-4ab8-b07b-eb7b2b38108a</webElementGuid>
+      <webElementGuid>54f64102-7184-4109-999a-072e9a7f33d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -191,7 +374,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>060c3158-0124-449f-8714-e8775504f6dc</webElementGuid>
+      <webElementGuid>d51bf46d-7e6c-4536-abfa-c9abda14e1cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -199,7 +382,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//div[@id='headingOne']/h2/button)[3]</value>
-      <webElementGuid>7204140c-87c5-49c6-88fb-cac1e880abf7</webElementGuid>
+      <webElementGuid>a69ce8fb-408a-4578-83ae-b57dbd1f315e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -207,7 +390,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='V-TPS test'])[1]/following::button[1]</value>
-      <webElementGuid>f4512202-d48d-437c-9417-b9928ac44a30</webElementGuid>
+      <webElementGuid>f8f9d1ef-f975-46b3-abc6-c0339938fba7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -215,7 +398,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TestVRelaySingleCF'])[2]/following::button[1]</value>
-      <webElementGuid>7d5e91fc-b2cc-49d1-9388-325849d4b0c3</webElementGuid>
+      <webElementGuid>3f06f878-c736-400c-9f90-77bfbac39a75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -223,7 +406,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BBP Parking Fees GovTest'])[3]/preceding::button[1]</value>
-      <webElementGuid>60ce2e82-46b1-4513-a62e-1ec16d8e1353</webElementGuid>
+      <webElementGuid>cfae0c9a-4016-4f63-b2fe-84526cf6a79b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -231,7 +414,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[3]/preceding::button[1]</value>
-      <webElementGuid>edbfa43c-08f6-4d49-8d3f-bf40ca76a818</webElementGuid>
+      <webElementGuid>0cf32978-4fd5-4f27-a78a-102babf42dac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -239,7 +422,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CSR']/parent::*</value>
-      <webElementGuid>4e0be748-1d59-49af-acb0-aec2bd3a08b2</webElementGuid>
+      <webElementGuid>1bfe5ad5-7c34-4a07-ae87-0db5ad7b569d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -247,7 +430,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/h2/button</value>
-      <webElementGuid>df0fa388-a228-44b8-9d0c-c850c9dbc631</webElementGuid>
+      <webElementGuid>408b693f-4634-4ade-84bb-fa66aca1af73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -435,6 +618,6 @@
 											          		
 						                    CSR
 						                  ')]</value>
-      <webElementGuid>ec7c9d34-34c9-4257-84bc-8a0015efef07</webElementGuid>
+      <webElementGuid>443d4acf-a48f-4bea-baa7-a2cda46bf6a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

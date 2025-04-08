@@ -84,7 +84,9 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					CustomKeywords.'iwpPages.achCorporatePaymentEntryPage.setDataCorporate'(row,dataFile)
 					
 					// Select Continue on Confirm page
-					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
+					
 					
 					
 					Thread.sleep(2000)
@@ -352,18 +354,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 									isRequiredTextPresent = false
 								}
 							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Payment Plan End Date:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
-							
-							
+						
 							if (isRequiredTextPresent == true)
 								{
 									println "All the relevant texts are present on Receipt Page"

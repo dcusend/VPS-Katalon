@@ -88,7 +88,7 @@ def numOfRows, dataFile, nameSheet
 					println (today)
 					String datText = today
 					
-					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 					
 										
 					WebUI.click(findTestObject(path_Dashboard + appName))
@@ -101,7 +101,7 @@ def numOfRows, dataFile, nameSheet
 					CustomKeywords.'adminSuiteBootstrap.debitPersonalsetData.debitPersonal_DataDriven_EF'(row,dataFile)
 					
 						
-						if (WebUI.verifyTextPresent('Transaction Successful', true) && WebUI.verifyTextPresent('Credit', true))
+						if (WebUI.verifyTextPresent('Transaction Successful', true) && WebUI.verifyTextPresent('Debit', true))
 						{
 							def sdf = WebUI.getText(findTestObject(path_Receipt + 'td_AutoNoC031622113752957Ahm'))
 							
@@ -139,7 +139,7 @@ def numOfRows, dataFile, nameSheet
 							WebUI.verifyTextPresent('Transaction Type', true)
 							
 							WebUI.verifyTextPresent('Transaction Posted by', true)
-							WebUI.verifyTextPresent('iahmed', true)
+							WebUI.verifyTextPresent('AutoUserProd', true)
 							WebUI.verifyTextPresent('Debit', true)
 							
 					

@@ -90,7 +90,7 @@ def numOfRows, dataFile, nameSheet
 					println (today)
 					String datText = today
 			
-					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 					
 										
 					WebUI.click(findTestObject(path_Dashboard + appName))
@@ -100,10 +100,10 @@ def numOfRows, dataFile, nameSheet
 						WebUI.click(findTestObject(path_VT + 'button_Authorization Only'))
 						
 																
-//						def authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
-						WebUI.click(findTestObject(path_VT + 'a_Keyboard Entry_authonly_Prod'))
+						def authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_Keyboard Entry_authonly_Prod'),'href','equals',hrefAppID,true)
+//						WebUI.click(findTestObject(path_VT + 'a_Keyboard Entry_authonly_Prod'))
 						
-						
+						WebUI.click(authOnlyKeyboardEntryLink)
 						
 						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven_EF'(row,dataFile)
 						
@@ -145,7 +145,7 @@ def numOfRows, dataFile, nameSheet
 							WebUI.verifyTextPresent('Transaction Type', true)
 							WebUI.verifyTextPresent('Authorization', true)
 							WebUI.verifyTextPresent('Transaction Posted by', true)
-							WebUI.verifyTextPresent('iahmed', true)
+							WebUI.verifyTextPresent('AutoUserProd', true)
 					
 							WebUI.click(findTestObject(path_TranxDetails + 'a_Capture this transaction'))
 					

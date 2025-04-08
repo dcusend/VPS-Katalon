@@ -47,7 +47,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 nameSheet = "CreateUser"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/Bootstrap/UM-Data-Prod.xlsx", nameSheet, true)
-numOfRows = findTestData('QA/Bootstrap/UM-TestData/CreateUser').getRowNumbers()
+numOfRows = dataFile.getRowNumbers()
 println("Number of Records: " + numOfRows)
 
 
@@ -68,7 +68,7 @@ for (def row = 1; row <= numOfRows; row++)
 
 
 				// Log into Admin Suite
-					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
+					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 					
 				// Select the User Management button
 					WebUI.click(findTestObject(path_Dashboard + 'a_Access User Management'))

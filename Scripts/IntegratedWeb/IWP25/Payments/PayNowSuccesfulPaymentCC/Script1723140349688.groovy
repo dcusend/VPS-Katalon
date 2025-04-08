@@ -81,7 +81,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
 					
 					// Select Continue on Confirm page
-					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					Thread.sleep(10000)
 					//WebUI.waitForPageLoad(10)

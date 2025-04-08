@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testdata.reader.ExcelFactory as ExcelFactory
+
 
 
 String resText = "Fail"

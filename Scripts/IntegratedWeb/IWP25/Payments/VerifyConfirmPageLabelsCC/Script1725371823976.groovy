@@ -82,7 +82,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
 					
 					// Select Continue on Confirm page
-//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+
 					
 					
 //					Thread.sleep(5000)
@@ -344,7 +344,11 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 //								println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
 							}
+							
+							
+							//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+							WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					}
 		
-//				WebUI.closeBrowser()
+				WebUI.closeBrowser()
 		}

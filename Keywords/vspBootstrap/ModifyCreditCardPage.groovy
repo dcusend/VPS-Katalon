@@ -41,10 +41,26 @@ public class ModifyCreditCardPage {
 
 		// Select the Modify button
 		WebUI.click(findTestObject(path_ModifyCreditCard + 'button_Modify'))
+	}
+	
+	
+	@Keyword
+	def setDataModifyCreditCard_EF(int rowS, dataFileS) {
+
+		String expMonth, expYear
+
+		// GetData
+		expMonth = dataFileS.getValue('ExpMonthCCMod', rowS)
+		expYear = dataFileS.getValue('ExpYearCCMod', rowS)
 
 
+		// SetData
 
+		String path_ModifyCreditCard = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ModifyCreditCard/"
+		WebUI.selectOptionByLabel(findTestObject(path_ModifyCreditCard + 'select_ExpMonth'), expMonth, true)
+		WebUI.selectOptionByLabel(findTestObject(path_ModifyCreditCard + 'select_ExpYear'), expYear, true)
 
-
+		// Select the Modify button
+		WebUI.click(findTestObject(path_ModifyCreditCard + 'button_Modify'))
 	}
 }

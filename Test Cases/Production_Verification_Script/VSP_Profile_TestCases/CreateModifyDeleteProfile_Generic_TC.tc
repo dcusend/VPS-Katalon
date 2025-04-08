@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateModifyDeleteProfile_Generic_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d797d82e-c102-4443-992d-714b73eb5872</testCaseGuid>
+</TestCaseEntity>

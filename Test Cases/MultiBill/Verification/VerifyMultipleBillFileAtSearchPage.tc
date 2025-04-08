@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyMultipleBillFileAtSearchPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd327923-1ee6-4dbe-b4b2-b8224f6f876a</testCaseGuid>
+</TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>VerifyConfirmPageLabelsCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>941e488e-8e03-487d-8402-5b611c1cef92</testCaseGuid>
 </TestCaseEntity>

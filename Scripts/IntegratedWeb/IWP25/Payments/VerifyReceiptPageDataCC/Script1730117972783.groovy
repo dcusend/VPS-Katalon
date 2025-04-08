@@ -84,16 +84,15 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
 					
 					// Select Continue on Confirm page
-					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
+					
 					
 					
 					Thread.sleep(2000)
 					if (WebUI.verifyTextPresent("Your payment plan has been successfully created", false))
-						{
-								
-							
+						{		
 											
-
 							if(isRequiredTextPresent) {
 								if(WebUI.verifyTextPresent("Jasmine", false)) {
 									isRequiredTextPresent = true
@@ -306,7 +305,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 						}
 					else
 						{
-							KeywordUtil.markFailed("Deferred is not present on page")
+							KeywordUtil.markFailed("Some texts are missing on the Receipt page")
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}

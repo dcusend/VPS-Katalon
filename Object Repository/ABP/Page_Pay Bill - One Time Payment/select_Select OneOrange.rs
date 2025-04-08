@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select OneOrange</name>
+   <tag></tag>
+   <elementGuidId>8d489973-d95f-4dd0-a508-cbe0bde6a250</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='billerDefinedField4']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#billerDefinedField4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#billerDefinedField4</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>29dc39bc-1028-4f9f-b3b2-af579ace8129</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billDetailForms[0].billerDefinedField4</value>
+      <webElementGuid>53315317-d457-4c0f-b244-926bee07a744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>customOnChangeUdf4(this, 485)</value>
+      <webElementGuid>2f51e71c-13e2-4083-8fcd-79d3d7dc6407</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billerDefinedField4</value>
+      <webElementGuid>0a3b3ddf-1c5b-4277-b159-cd48c2ad0e78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select One					
+								
+										Orange</value>
+      <webElementGuid>19376e81-4bc7-41c0-9863-b543ea0fc78f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;billerDefinedField4&quot;)</value>
+      <webElementGuid>6ed0e132-a37c-43db-9e18-2662f3167a7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='billerDefinedField4']</value>
+      <webElementGuid>0ae9976f-60ab-4e84-b4d4-af4d8cb305bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='udf1']/table/tbody/tr[2]/td[2]/select</value>
+      <webElementGuid>94032537-ec72-4c49-b5b6-177957505dd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[1]/following::select[1]</value>
+      <webElementGuid>49283eb0-9687-424f-8083-f27ed1973916</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='udf3 data'])[1]/following::select[1]</value>
+      <webElementGuid>0e011f8c-a29b-47db-b434-0b1ce984c3ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/select</value>
+      <webElementGuid>45be186b-0c79-455b-ba2d-2af105128cd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'billDetailForms[0].billerDefinedField4' and @id = 'billerDefinedField4' and (text() = 'Select One					
+								
+										Orange' or . = 'Select One					
+								
+										Orange')]</value>
+      <webElementGuid>ff64d676-6123-4805-b141-8e4c9f8799c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

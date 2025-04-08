@@ -103,10 +103,93 @@ public class CreateProfilePage {
 
 		// Select Save button
 		WebUI.click(findTestObject(path_CreateProfile + 'button_Save'))
-
-
-
 	}
+
+
+	@Keyword
+	def setDataCreateProfile_EF(int rowS, dataFileS) {
+
+		String profileName, compName, title,firstName, middleName, lastName, suffix, al1, al2, country, zipCode, zipCodeExt, city, State, emailAddress
+		String homePhone1, homePhone2, homePhone3, mobilePhone1, mobilePhone2, mobilePhone3, workPhone1, workPhone2, workPhone3
+		String workPhoneExt, Comments
+
+
+		// GetData
+		compName = dataFileS.getValue('CompanyName', rowS)
+		title =    dataFileS.getValue('Title', rowS)
+		firstName = dataFileS.getValue('FirstName', rowS)
+		middleName = dataFileS.getValue('MiddleName', rowS)
+		lastName = dataFileS.getValue('LastName', rowS)
+		suffix = dataFileS.getValue('Suffix', rowS)
+		al1 = dataFileS.getValue('AL1', rowS)
+		al2 = dataFileS.getValue('AL2', rowS)
+		country = dataFileS.getValue('Country', rowS)
+		zipCode = dataFileS.getValue('ZIP', rowS)
+		zipCodeExt = dataFileS.getValue('ZipExt', rowS)
+		city = dataFileS.getValue('City', rowS)
+		State = dataFileS.getValue('State', rowS)
+		emailAddress = dataFileS.getValue('Email', rowS)
+
+		homePhone1 = dataFileS.getValue('HomePhone1', rowS)
+		homePhone2 = dataFileS.getValue('HomePhone2', rowS)
+		homePhone3 = dataFileS.getValue('HomePhone3', rowS)
+		mobilePhone1 = dataFileS.getValue('MobilePhone1', rowS)
+		mobilePhone2 = dataFileS.getValue('MobilePhone2', rowS)
+		mobilePhone3 = dataFileS.getValue('MobilePhone3', rowS)
+		workPhone1 = dataFileS.getValue('WorkPhone1', rowS)
+		workPhone2 = dataFileS.getValue('WorkPhone2', rowS)
+		workPhone3 = dataFileS.getValue('WorkPhone3', rowS)
+		workPhoneExt = dataFileS.getValue('WorkPhoneExt', rowS)
+		Comments = dataFileS.getValue('Comments', rowS)
+
+
+		// SetData
+
+		String path_CreateProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/"
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCode'), zipCode)
+
+		def genProfileName = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_profileName'), genProfileName)
+		GlobalVariable.ProfileName = genProfileName
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_CompanyName'), compName)
+		WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_Title'), title, true)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_FirstName'), firstName)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_MiddleName'), middleName)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_LastName'), lastName)
+		WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_Suffix'), suffix, true)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_address1'), al1)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_AddressLine2'), al2)
+		//WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_Country'), country, true)
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCodeExt'), zipCodeExt)
+		//WebUI.setText(findTestObject(path_CreateProfile + 'input_City'), city)
+		//WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_State'), State, true)
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_EmaiAddress'), emailAddress)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_HomePhoneNumber_HomeAreaCode'), homePhone1)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_homePrefixNumber'), homePhone2)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_homeSuffixNumber'), homePhone3)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_MobilePhoneNumber_mobileAreaCode'), mobilePhone1)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_mobilePrefixNumber'), mobilePhone2)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_mobileSuffixNumber'), mobilePhone3)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_WorkPhoneNumber_workAreaCode'), workPhone1)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_workPrefixNumber'), workPhone2)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_workSuffixNumber'), workPhone3)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_Ext_workExtension'), workPhoneExt)
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'textarea_NotesComments_note'), Comments)
+
+
+
+
+		// Select Save button
+		WebUI.click(findTestObject(path_CreateProfile + 'button_Save'))
+	}
+
+
+
 
 
 	@Keyword
@@ -188,8 +271,89 @@ public class CreateProfilePage {
 
 		// Select Save button
 		//WebUI.click(findTestObject(path_CreateProfile + 'button_Save'))
-
-
-
 	}
-}
+
+	@Keyword
+	def setDataONLYCreateProfile_EF(int rowS, dataFileS) {
+
+		String profileName, compName, title,firstName, middleName, lastName, suffix, al1, al2, country, zipCode, zipCodeExt, city, State, emailAddress
+		String homePhone1, homePhone2, homePhone3, mobilePhone1, mobilePhone2, mobilePhone3, workPhone1, workPhone2, workPhone3
+		String workPhoneExt, Comments
+
+
+		// GetData
+		compName = dataFileS.getValue('CompanyName', rowS)
+		title = dataFileS.getValue('Title', rowS)
+		firstName = dataFileS.getValue('FirstName', rowS)
+		middleName = dataFileS.getValue('MiddleName', rowS)
+		lastName = dataFileS.getValue('LastName', rowS)
+		suffix = dataFileS.getValue('Suffix', rowS)
+		al1 = dataFileS.getValue('AL1', rowS)
+		al2 = dataFileS.getValue('AL2', rowS)
+		country = dataFileS.getValue('Country', rowS)
+		zipCode = dataFileS.getValue('ZIP', rowS)
+		zipCodeExt = dataFileS.getValue('ZipExt', rowS)
+		city = dataFileS.getValue('City', rowS)
+		State = dataFileS.getValue('State', rowS)
+		emailAddress = dataFileS.getValue('Email', rowS)
+
+		homePhone1 = dataFileS.getValue('HomePhone1', rowS)
+		homePhone2 = dataFileS.getValue('HomePhone2', rowS)
+		homePhone3 = dataFileS.getValue('HomePhone3', rowS)
+		mobilePhone1 = dataFileS.getValue('MobilePhone1', rowS)
+		mobilePhone2 = dataFileS.getValue('MobilePhone2', rowS)
+		mobilePhone3 = dataFileS.getValue('MobilePhone3', rowS)
+		workPhone1 = dataFileS.getValue('WorkPhone1', rowS)
+		workPhone2 = dataFileS.getValue('WorkPhone2', rowS)
+		workPhone3 = dataFileS.getValue('WorkPhone3', rowS)
+		workPhoneExt = dataFileS.getValue('WorkPhoneExt', rowS)
+		Comments = dataFileS.getValue('Comments', rowS)
+
+
+		// SetData
+
+		String path_CreateProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/"
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCode'), zipCode)
+
+		def genProfileName = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_profileName'), genProfileName)
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_CompanyName'), compName)
+		WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_Title'), title, true)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_FirstName'), firstName)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_MiddleName'), middleName)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_LastName'), lastName)
+		WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_Suffix'), suffix, true)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_address1'), al1)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_AddressLine2'), al2)
+		//WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_Country'), country, true)
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCodeExt'), zipCodeExt)
+		//WebUI.setText(findTestObject(path_CreateProfile + 'input_City'), city)
+		//WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_State'), State, true)
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_EmaiAddress'), emailAddress)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_HomePhoneNumber_HomeAreaCode'), homePhone1)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_homePrefixNumber'), homePhone2)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_homeSuffixNumber'), homePhone3)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_MobilePhoneNumber_mobileAreaCode'), mobilePhone1)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_mobilePrefixNumber'), mobilePhone2)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_mobileSuffixNumber'), mobilePhone3)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_WorkPhoneNumber_workAreaCode'), workPhone1)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_workPrefixNumber'), workPhone2)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_workSuffixNumber'), workPhone3)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_Ext_workExtension'), workPhoneExt)
+
+		WebUI.setText(findTestObject(path_CreateProfile + 'textarea_NotesComments_note'), Comments)
+
+
+
+
+		// Select Save button
+		//WebUI.click(findTestObject(path_CreateProfile + 'button_Save'))
+	}
+
+	
+	
+	}

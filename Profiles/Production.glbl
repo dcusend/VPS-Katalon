@@ -59,4 +59,14 @@
       <initValue>'https://www.velocitypayment.com/agency/config.do?action=editor'</initValue>
       <name>urlEmulator</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'AutoUserProd'</initValue>
+      <name>AutoUserAdminSuite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hello!1111111'</initValue>
+      <name>AutoPasswordAdminSuite</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

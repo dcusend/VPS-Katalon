@@ -22,29 +22,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class VerifyParcelTextUsingArray {
-	
+
 	def stringParcelArray ,isRequiredTextPresent = false
-	
+
 	@Keyword
 	def getSetDataArrayParcel(stringParcelArray) {
-		
+
 		for(def item in stringParcelArray) {
-							println(item)
-						
-							if(WebUI.verifyTextPresent(item, false))
-								 {
-									 isRequiredTextPresent = true
-								 }
-								 else {
-								
-									 KeywordUtil.logInfo("Text missing from Parcel" + item)
-									 
-									 isRequiredTextPresent = false
-							}
-							}
-							return isRequiredTextPresent
-							
-							KeywordUtil.logInfo("Return Value :" + isRequiredTextPresent)
-		
+			println(item)
+
+			if(WebUI.verifyTextPresent(item, false)) {
+				isRequiredTextPresent = true
+			}
+			else {
+
+				KeywordUtil.logInfo("Text missing from Parcel" + item)
+
+				isRequiredTextPresent = false
+			}
+		}
+		return isRequiredTextPresent
+
+		KeywordUtil.logInfo("Return Value :" + isRequiredTextPresent)
 	}
 }

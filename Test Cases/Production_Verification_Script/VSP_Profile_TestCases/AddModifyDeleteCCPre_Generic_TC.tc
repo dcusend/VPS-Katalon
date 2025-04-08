@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddModifyDeleteCCPre_Generic_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24b91d23-b9e0-4e67-9320-d232536894fc</testCaseGuid>
+</TestCaseEntity>

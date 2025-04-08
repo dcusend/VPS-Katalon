@@ -85,9 +85,67 @@ public class ModifyProfilePage {
 
 		// Select Modify button
 		WebUI.click(findTestObject(path_ModifyProfile + 'button_Modify'))
+	}
+	
+	
+	
+	@Keyword
+	def setDataModifyProfile_EF(int rowS, dataFileS) {
+
+		// GetData
+		profileName = dataFileS.getValue('ProfileNameMod', rowS)
+		compName = dataFileS.getValue('CompNameMod', rowS)
+		title = dataFileS.getValue('TitleMod', rowS)
+		firstName = dataFileS.getValue('FNameMod', rowS)
+		middleName = dataFileS.getValue('MNameMod', rowS)
+		lastName = dataFileS.getValue('LNameMod', rowS)
+		suffix = dataFileS.getValue('SuffixMod', rowS)
+		al1 = dataFileS.getValue('AL1Mod', rowS)
+		al2 = dataFileS.getValue('AL2Mod', rowS)
+		zipCode = dataFileS.getValue('ZIPMod', rowS)
+		zipCodeExt = dataFileS.getValue('ZIPExtMod', rowS)
+		emailAddress = dataFileS.getValue('EmailMod', rowS)
+
+		homePhone1 = dataFileS.getValue('HomePhone1Mod', rowS)
+		homePhone2 = dataFileS.getValue('HomePhone2Mod', rowS)
+		homePhone3 = dataFileS.getValue('HomePhone3Mod', rowS)
+		Comments = dataFileS.getValue('CommentsMod', rowS)
 
 
 
 
+
+		// SetData
+
+		String path_ModifyProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/ModifyProfile/"
+
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_postalCode'), zipCode)
+
+
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_profileName'), profileName)
+
+
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_CompanyName'), compName)
+		WebUI.selectOptionByLabel(findTestObject(path_ModifyProfile + 'select_Title'), title, true)
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_FirstName'), firstName)
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_MiddleName'), middleName)
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_LastName'), lastName)
+		WebUI.selectOptionByLabel(findTestObject(path_ModifyProfile + 'select_Suffix'), suffix, true)
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_address1'), al1)
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_AddressLine2'), al2)
+
+
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_postalCodeExtension'), zipCodeExt)
+
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_EmailAddress'), emailAddress)
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_Home Phone Number_homeAreaCode'), homePhone1)
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_homePrefixNumber'), homePhone2)
+		WebUI.setText(findTestObject(path_ModifyProfile + 'input_homeSuffixNumber'), homePhone3)
+
+		WebUI.setText(findTestObject(path_ModifyProfile + 'textarea_NotesComments_note'), Comments)
+
+
+		// Select Modify button
+		WebUI.click(findTestObject(path_ModifyProfile + 'button_Modify'))
 	}
 }

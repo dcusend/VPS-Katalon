@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAmountTextBoxEditable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02cd39cb-7e68-462c-bfa6-9411e39c0524</testCaseGuid>
+</TestCaseEntity>

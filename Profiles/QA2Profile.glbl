@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!7777777'</initValue>
+      <initValue>'Hello!8888888'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -95,13 +95,23 @@
       <name>DCFBBPURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/deep'</initValue>
+      <description>905</description>
+      <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/AutoMultiBillNoCF'</initValue>
       <name>MultiBillNoCFURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://dev-algorithm.govolution.com/vrelaytest/QA2/version_1_0/vrelaytest.html'</initValue>
       <name>BWPURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>906</description>
+      <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/AutoMultiBillSingleCF'</initValue>
+      <name>MultiBillSingleCFURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>907</description>
+      <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/AutoMultiBillDualCF'</initValue>
+      <name>MultiBillDualCFURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
