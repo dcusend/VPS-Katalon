@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDataWithLookUpSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>18bd61fe-b689-42c5-9cd5-cd5e528fcce9</testCaseGuid>
+</TestCaseEntity>

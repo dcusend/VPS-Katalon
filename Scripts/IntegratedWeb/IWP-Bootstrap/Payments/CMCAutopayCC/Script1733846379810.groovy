@@ -102,8 +102,8 @@ for (def row = 1; row <= numOfRows; row++)
 			// setData for Email and Phone Number
 				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardEmailAndPhone'(EmailPhoneID)
 				
-			// setData for Amount
-				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataAmount'(Amount)
+			/*// setData for Amount
+				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataAmount'(Amount)*/
 			
 			// setData for UDFs
 				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardUDF'(UDFID)
@@ -133,7 +133,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 					if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 						WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))
-						WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))
+						WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))
 						
 						if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
 							KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")

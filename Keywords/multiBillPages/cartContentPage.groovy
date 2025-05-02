@@ -40,7 +40,7 @@ public class cartContentPage {
 
 	@Keyword
 	def selectRemovefromCart() {
-		WebUI.click(findTestObject(pathOR+'btn_removeFromCartIcon'))
+		WebUI.click(findTestObject(pathOR+'btn_removefromCartIcon'))
 	}
 }
 

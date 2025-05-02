@@ -6,15 +6,18 @@
    <elementGuidId>ac1c63d8-dec8-49be-8ba8-52896e5f0dd4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//svg[@id = 'removeFromCartIcon']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[8]/following::*[name()='svg'][5]</value>
+         <value>//*[@class='cartIcon' and @id = 'removeFromCartIcon']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>c4171c04-f3ef-445e-bd47-923456c2da86</webElementGuid>
+      <webElementGuid>69d76e7d-0877-4830-8e8f-5f2a439608f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cartIcon</value>
-      <webElementGuid>e75bf721-452d-4111-9900-2a4a51591489</webElementGuid>
+      <webElementGuid>882b871e-8d04-4abe-a67f-48cec3094637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +48,23 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 550 550</value>
-      <webElementGuid>b2fd8a95-7d5e-449f-aaff-49ffffef3aee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>removeFromCartIcon</value>
-      <webElementGuid>4368933b-5616-4f09-a2e5-a796b2f70d98</webElementGuid>
+      <webElementGuid>14f654f3-187c-455a-8918-5c3243ed562a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>removeFromCartIcon</value>
+      <webElementGuid>e5460478-6e06-4ee5-9a10-e5a680ca81ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;billSearchTableBody&quot;)/tr[@class=&quot;ng-scope&quot;]/td[10]/a[@class=&quot;removeFrom align-items-center btn d-flex justify-content-center py-1 rounded-pill resetStyle&quot;]/svg[@id=&quot;removeFromCartIcon&quot;]</value>
-      <webElementGuid>1f9a35e0-f6b0-46b7-aec1-6cde222aa992</webElementGuid>
+      <value>//svg[@id = 'removeFromCartIcon']</value>
+      <webElementGuid>bda92c0e-5c6e-491b-b2cf-1d41d4854a4a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[8]/following::*[name()='svg'][5]</value>
-      <webElementGuid>3c3c7e7e-110f-447a-9845-c22565c69476</webElementGuid>
+      <webElementGuid>a1d14dc5-641d-4f6d-9105-826d1e73e9cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[7]/following::*[name()='svg'][5]</value>
-      <webElementGuid>dde1ae0e-ee03-4ec1-8cce-b726f34b927c</webElementGuid>
+      <webElementGuid>bae0e019-cbe7-4c23-b81b-510811956a6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SMITH, JENNA'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>aef43fc6-8ae3-4099-9fac-609f0160d2ed</webElementGuid>
+      <webElementGuid>78c9ba87-7698-4934-9021-e7e516f568fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,14 +96,14 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dec 31, 2021'])[5]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>093b2f83-971b-4479-8839-e7a742cd4645</webElementGuid>
+      <webElementGuid>80d0bd1c-8a09-4ab1-af84-ff9c696523e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//svg[@id = 'removeFromCartIcon']</value>
-      <webElementGuid>bf684834-b7f2-489b-8da8-f6b5f905d1ac</webElementGuid>
+      <value>//*[@id = 'removeFromCartIcon']</value>
+      <webElementGuid>2cccb6d3-f441-4a55-9353-d97e0bc068cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
