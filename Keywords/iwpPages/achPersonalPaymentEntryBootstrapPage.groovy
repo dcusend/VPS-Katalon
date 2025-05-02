@@ -27,7 +27,7 @@ import internal.GlobalVariable
 
 public class achPersonalPaymentEntryBootstrapPage {
 
-	def firstName,lastName,routingTransitNumber,typeOfAccount,accountNumber,confirmAccountNumber, AL1, AL2, ZIP, email, phone, amount
+	def firstName,lastName,routingTransitNumber,typeOfAccount,accountNumber,confirmAccountNumber, AL1, AL2, ZIP, email, phone, amount, appID
 	def udf1, udf2, udf3, udf4, udf5, udf6, udf7, udf8, udf9, udf10,ccDate
 
 	String pathSharedData = "KatalonData/IWPBootstrapData/NormalizedSharedData.xlsx"
@@ -47,7 +47,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.selectCheckboxACHTANDC()
 		this.selectContinueButton()
 	}
-	
+
 	@Keyword
 	def setDataACHDefferedMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID,ccDate) {
 		this.setFirstNameLastName(nameID)
@@ -361,5 +361,406 @@ public class achPersonalPaymentEntryBootstrapPage {
 	def selectChangePaymentMethodButton() {
 
 		WebUI.click(findTestObject(pathOR+'input_changePaymentMethodButton'))
+	}
+
+
+	//*********************************************************************************************
+
+	//*********************************************************************************************
+
+
+	@Keyword
+	def getDataACHPPMEF(int rowM, dataFileM) {
+
+		amount = dataFileM.getValue('Amount', rowM)
+		println(amount)
+
+		udf1 = dataFileM.getValue('UDF1', rowM)
+		println(udf1)
+
+		udf2 = dataFileM.getValue('UDF2', rowM)
+		println(udf2)
+
+		udf3 = dataFileM.getValue('UDF3', rowM)
+		println(udf3)
+
+		udf4 = dataFileM.getValue('UDF4', rowM)
+		println(udf4)
+
+		udf5 = dataFileM.getValue('UDF5', rowM)
+		println(udf5)
+
+		udf6 = dataFileM.getValue('UDF6', rowM)
+		println(udf6)
+
+		udf7 = dataFileM.getValue('UDF7', rowM)
+		println(udf7)
+
+		udf8 = dataFileM.getValue('UDF8', rowM)
+		println(udf8)
+
+		udf9 = dataFileM.getValue('UDF9', rowM)
+		println(udf9)
+
+		udf10 = dataFileM.getValue('UDF10', rowM)
+		println(udf10)
+
+		firstName = dataFileM.getValue('Fname', rowM)
+		println(firstName)
+
+		lastName = dataFileM.getValue('Lname', rowM)
+		println(lastName)
+
+		routingTransitNumber = dataFileM.getValue('RTN', rowM)
+		println(routingTransitNumber)
+
+		accountNumber = dataFileM.getValue('ACNumber', rowM)
+		println(accountNumber)
+
+		confirmAccountNumber = dataFileM.getValue('CACNumber', rowM)
+		println(confirmAccountNumber)
+
+		typeOfAccount = dataFileM.getValue('ACType', rowM)
+		println(typeOfAccount)
+
+		ccDate = dataFileM.getValue('CCDate', rowM)
+		println(Date)
+
+		AL1 = dataFileM.getValue('AL1', rowM)
+		println(AL1)
+
+		AL2 = dataFileM.getValue('AL2', rowM)
+		println(AL2)
+
+		ZIP = dataFileM.getValue('ZIP', rowM)
+		println(ZIP)
+
+		email = dataFileM.getValue('Email', rowM)
+		println(email)
+		
+		appID = dataFileM.getValue('AppID', rowM)
+		
+		println(appID)
+
+		//		CCDate = dataFileM.getValue('CCDate', rowM)
+		//
+		//		println(CCDate)
+
+		// End of getData
+	}
+
+
+	@Keyword
+	def setDataACHPPM(int rowS, dataFileS) {
+
+
+		def String datafile_class = dataFileS.getClass()
+		if(datafile_class.contains('com.kms.katalon.core.testdata.reader.SheetPOI')) {
+			this.getDataACHPPMEF(rowS, dataFileS)
+		}
+
+
+		// Verify if we are on ACH Personal Payment Entry page and populate the page
+
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'), 30)) {
+
+			println("We are on ACH Personal Payment Entry page, start populating")
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),30)) {
+			if ((!amount.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),amount)
+			}
+			else {
+				println("Amount is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("Amount field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input_UDF2_userDefined2'),30)) {
+				if ((!udf2.isEmpty())) {
+					WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input_UDF2_userDefined2'),udf2)
+				}
+				else {
+					println("UDF2 is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("UDF2 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_UDF3'),30)) {
+			if ((!udf3.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_UDF3'),udf3)
+			}
+			else {
+				println("UDF3 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("UDF3 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7'),30)) {
+			if ((!udf7.isEmpty())) {
+				WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF7'),udf7, false)
+			}
+			else {
+				println("UDF7 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("UDF7 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF8'),30)) {
+			if ((!udf8.isEmpty())) {
+				WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF8'),udf8, false)
+			}
+			else {
+				println("UDF8 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("UDF8 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Firstname'),30)) {
+				if ((!firstName.isEmpty())) {
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Firstname'),firstName)
+				}
+				else {
+					println("First Name is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("First Name field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
+
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Lastname'),30)) {
+				if ((!lastName.isEmpty())) {
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Lastname'),lastName)
+				}
+				else {
+					println("Last Name is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("Last Name field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
+
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_routingNumber'),30)) {
+				if ((!routingTransitNumber.isEmpty())) {
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_routingNumber'),routingTransitNumber)
+				}
+				else {
+					println("RTN is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("RTN field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
+
+
+			if(appID == '914' || appID == '915') {
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input__accountNumber'),30)) {
+					println(accountNumber)
+					if ((!accountNumber.isEmpty())) {
+						println(accountNumber)
+						WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input__accountNumber'),accountNumber)
+						Thread.sleep(2000)
+					}
+					else {
+						println("Account Number is not present in the Excel Spreadsheet")
+					}
+				}
+				else {
+					println("Account Number field is either missing or not modifiable on ACH Corporate Payment Entry Page")
+				}
+
+
+
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input__confirmAccountNumber'),30)) {
+					println(accountNumber)
+					if ((!confirmAccountNumber.isEmpty())) {
+						println(accountNumber)
+						WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input__confirmAccountNumber'),confirmAccountNumber)
+						Thread.sleep(2000)
+					}
+					else {
+						println("Confirm Account Number is not present in the Excel Spreadsheet")
+					}
+				}
+				else {
+					println("Confirm Account Number field is either missing or not modifiable on ACH Corporate Payment Entry Page")
+				}
+			}
+			else if(appID == '920' || appID == '921') {
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'),30)) {
+					if ((!accountNumber.isEmpty())) {
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'),accountNumber)
+					}
+					else {
+						println("Account Number is not present in the Excel Spreadsheet")
+					}
+				}
+				else {
+					println("Account Number field is either missing or not modifiable on ACH Personal Payment Entry Page")
+				}
+	
+	
+	
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_confirmAccountNumber'),30)) {
+					if ((!confirmAccountNumber.isEmpty())) {
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_confirmAccountNumber'),confirmAccountNumber)
+					}
+					else {
+						println("Confirm Account Number is not present in the Excel Spreadsheet")
+					}
+				}
+				else {
+					println("Confirm Account Number field is either missing or not modifiable on ACH Personal Payment Entry Page")
+				}
+	
+	
+			}
+		
+
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/rd_accountType'),30)) {
+				if ((!typeOfAccount.isEmpty())) {
+					println(typeOfAccount)
+					if (typeOfAccount == '1'){
+						// select Checking
+						println(typeOfAccount)
+
+						def accountTypeChecking = WebUI.modifyObjectProperty(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/rd_accountType'),'value','equals',"1",true)
+						println(accountTypeChecking)
+						WebUI.click(accountTypeChecking)
+					}
+					else if (typeOfAccount == '2'){
+						// Select Savings
+						def accountTypeSaving = WebUI.modifyObjectProperty(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/rd_accountType'),'value','equals',"2",true)
+						WebUI.click(accountTypeSaving)
+					}
+					else {
+						println("ACType data must be either 1 or 2")
+					}
+				}
+				else {
+					println("Account Type is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("Account Type field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
+
+
+
+			if ((!ccDate.isEmpty())) {
+				//This js script is written to set the future date
+				String js = '''
+				   document.getElementById('processDate').value = '08/09/2025'
+				  '''
+				WebUI.executeJavaScript(js, null)
+			}
+			else {
+				println("CCDate is not present in the Excel Spreadsheet")
+			}
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),30)) {
+			if ((!AL1.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL1'),AL1)
+			}
+			else {
+				println("AL1 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("AL1 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),30)) {
+			if ((!AL2.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_AL2'),AL2)
+			}
+			else {
+				println("AL2 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("AL2 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),30)) {
+			if ((!ZIP.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_ZIP'),ZIP)
+			}
+			else {
+				println("ZIP is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("ZIP field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
+
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Email'),30)) {
+				if ((!email.isEmpty())) {
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Email'),email)
+				}
+				else {
+					println("Email is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("Email field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
+
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/cb_TermsAndCond'),30)) {
+				WebUI.click(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/cb_TermsAndCond'))
+			}
+			else {
+				println("Terms and Conditions field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
+
+
+
+			// Select the Continue button
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/btn_Continue'),30)) {
+				WebUI.click(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/btn_Continue'))
+			}
+			else {
+				println("Continue field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			}
+		}
+
+		else {
+			println("Not on ACH Personal Payment Entry Page")
+		}
+
+		// End of SetData
 	}
 }

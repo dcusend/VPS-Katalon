@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VRelayPayByPC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8c7185e2-37a4-4cc9-a4bd-b29e8ade910e</testCaseGuid>
+</TestCaseEntity>

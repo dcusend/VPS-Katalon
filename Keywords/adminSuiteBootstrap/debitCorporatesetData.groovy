@@ -133,12 +133,13 @@ public class debitCorporatesetData {
 
 		// SetData
 		String path_DebitCorporate = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ACHCorporate/"
+		WebUI.setText(findTestObject(path_DebitCorporate + 'input_zip'), zipCode)
 
-
+		Thread.sleep(5000)
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_companyName'), compName)
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_address'), al1)
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_address2'), al2)
-		WebUI.setText(findTestObject(path_DebitCorporate + 'input_zip'), zipCode)
+		Thread.sleep(5000)
 		//		WebUI.setText(findTestObject(path_DebitCorporate + 'input_emailAddress'), emailAddress)
 
 
@@ -176,6 +177,8 @@ public class debitCorporatesetData {
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_userDefined8'), UDF8)
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_userDefined9'), UDF9)
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_userDefined10'), UDF10)
+
+		Thread.sleep(2000)
 
 		WebUI.click(findTestObject(path_DebitCorporate + 'button_Submit'))
 	}

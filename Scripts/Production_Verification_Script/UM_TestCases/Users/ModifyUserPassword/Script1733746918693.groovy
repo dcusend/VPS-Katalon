@@ -43,7 +43,7 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator
+def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
 
 
 nameSheet = "ModifyUserPwd"
@@ -56,8 +56,20 @@ println("Number of Records: " + numOfRows)
 for (def row = 1; row <= numOfRows; row++)
 	{
 	
-		ExecuteTC = dataFile.getValue('Execute', row)
-		System.out.println('Value of Execute is : ' + ExecuteTC)
+			if(executionProfile == 'Production') {				
+				ExecuteTC = dataFile.getValue('ExecuteProd', row)
+				resColumn = 'ResultProd'
+				datColumn = 'DateProd'
+				
+				System.out.println('Value of Execute is : ' + ExecuteTC)
+			}
+			else if(executionProfile == 'DemoProfile' || executionProfile == 'Upgrade') {
+					ExecuteTC = dataFile.getValue('ExecuteDemo', row)
+					resColumn = 'ResultDemo'
+					datColumn = 'DateDemo'
+					
+					System.out.println('Value of Execute is : ' + ExecuteTC)
+			}
 		
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{

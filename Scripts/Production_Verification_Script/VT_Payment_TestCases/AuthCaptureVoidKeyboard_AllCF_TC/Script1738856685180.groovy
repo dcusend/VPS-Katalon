@@ -54,10 +54,10 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 
 String resText = "Fail"
 //String datText = today
-String resColumn = "Result"
-String datCloumn = "Date"
+//String resColumn = "Result"
+//String datCloumn = "Date"
 String fileLoc = "KatalonData\\Bootstrap\\VT-Data-Prod.xlsx"
-def numOfRows, dataFile, nameSheet
+def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 
 
 	
@@ -73,11 +73,26 @@ def numOfRows, dataFile, nameSheet
 	for (def row = 1; row <= numOfRows; row++)
 		{
 		
-			ExecuteTC = dataFile.getValue('Execute', row)
-			System.out.println('Value of Execute is : ' + ExecuteTC)
-			
-			appName = dataFile.getValue('AppNameProd', row)
-			appID   = dataFile.getValue('AppIDProd', row)
+				if(executionProfile == 'Production' || executionProfile == 'Upgrade') {		
+					appName = dataFile.getValue('AppNameProd', row)
+					appID   = dataFile.getValue('AppIDProd', row)
+					
+					ExecuteTC = dataFile.getValue('ExecuteProd', row)
+					resColumn = 'ResultProd'
+					datColumn = 'DateProd'
+					
+					System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
+				else if(executionProfile == 'DemoProfile') {
+					appName = dataFile.getValue('AppNameDemo', row)
+					appID   = dataFile.getValue('AppIDDemo', row)
+					
+					ExecuteTC = dataFile.getValue('ExecuteDemo', row)
+					resColumn = 'ResultDemo'
+					datColumn = 'DateDemo'
+					
+					System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
 			
 			String hrefAppID = li_1 + appID + li_2
 			String hrefApp = li_1 + appID + "/"
@@ -146,7 +161,15 @@ def numOfRows, dataFile, nameSheet
 							WebUI.verifyTextPresent('Transaction Type', true)
 							WebUI.verifyTextPresent('Authorization', true)
 							WebUI.verifyTextPresent('Transaction Posted by', true)
-							WebUI.verifyTextPresent('AutoUserProd', true)
+							
+							if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+								
+								WebUI.verifyTextPresent('AutoUserProd', true)
+							}
+							else if(executionProfile == 'DemoProfile') {
+								WebUI.verifyTextPresent('AutoUserDemo', true)
+								
+							}
 					
 							WebUI.click(findTestObject(path_TranxDetails + 'a_Capture this transaction'))
 					
@@ -216,7 +239,7 @@ def numOfRows, dataFile, nameSheet
 										println "Transaction Successful text is present on the Receipt page"
 										KeywordUtil.markPassed("Transaction Successful text is present on the Receipt page")
 										resText = "Pass"
-										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 			
 									}
 								else
@@ -224,7 +247,7 @@ def numOfRows, dataFile, nameSheet
 										println "Transaction Successful text is not present on the Receipt page"
 //										KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
 										resText = "Fail"
-										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 									}
 								
 								

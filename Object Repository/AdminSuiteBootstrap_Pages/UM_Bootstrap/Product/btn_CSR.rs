@@ -6,195 +6,15 @@
    <elementGuidId>c2615218-2563-4251-896e-585f80944055</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '&#xd;
-						                    &#xd;
-						                    &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-											        	&#xd;
-											          		&#xd;
-						                    CSR&#xd;
-						                  ' or . = '&#xd;
-						                    &#xd;
-						                    &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-										        &#xd;
-											        	&#xd;
-											          		&#xd;
-						                    CSR&#xd;
-						                  ')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;headingOne&quot;]/h2[@class=&quot;mb-0&quot;]/button[@class=&quot;btn btn-link btn-block p-0 text-left collapsed&quot;][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -212,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3eb1d0bc-4448-4898-859f-fbf3debf80f7</webElementGuid>
+      <webElementGuid>f86c4d0f-89c5-4241-9a87-686dc6a59150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -220,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-link btn-block p-0 text-left collapsed</value>
-      <webElementGuid>0c39840c-0e82-4221-bbfb-1e01097d0939</webElementGuid>
+      <webElementGuid>79b7aef2-32ec-4362-bd8e-3e763518dba1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -228,7 +48,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e0d5a28a-e763-428a-a3bc-b274c7ca21b5</webElementGuid>
+      <webElementGuid>ee4e90de-6599-400d-aefe-ea7d481bc4e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -236,7 +56,7 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>f743b9b7-89d8-4e18-89b6-0849991f5b77</webElementGuid>
+      <webElementGuid>46cc5de0-7964-45d2-8408-87123487749e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -244,7 +64,7 @@
       <name>data-bs-target</name>
       <type>Main</type>
       <value>#CSR</value>
-      <webElementGuid>899824bb-1d72-4de5-936d-4a41e9679e60</webElementGuid>
+      <webElementGuid>ecb9c3b4-a13f-41e7-840a-2127c2820a97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -252,7 +72,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6eebe1ac-345a-4c34-bef6-f1928b111449</webElementGuid>
+      <webElementGuid>b4211ddf-fe88-4128-b1cb-726e972016cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -260,10 +80,10 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>collapseOne</value>
-      <webElementGuid>a69a3cfc-7c4a-43e0-9d73-43ce11a3bcca</webElementGuid>
+      <webElementGuid>14f9c40f-6524-4878-ada1-22cfe318db5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -358,15 +178,15 @@
 											          		&#xd;
 						                    CSR&#xd;
 						                  </value>
-      <webElementGuid>ec4da222-1e17-4fa0-abcf-a00e45bc6bf5</webElementGuid>
+      <webElementGuid>c4219cc8-b9fb-48e0-bd66-47b210b687ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;headingOne&quot;]/h2[@class=&quot;mb-0&quot;]/button[@class=&quot;btn btn-link btn-block p-0 text-left collapsed&quot;]</value>
-      <webElementGuid>54f64102-7184-4109-999a-072e9a7f33d0</webElementGuid>
+      <webElementGuid>b495ea90-3f7f-46a6-8018-775e2c564ebc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -374,7 +194,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>d51bf46d-7e6c-4536-abfa-c9abda14e1cd</webElementGuid>
+      <webElementGuid>15929c29-d601-49e9-89a3-3f03787cd564</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -382,7 +202,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//div[@id='headingOne']/h2/button)[3]</value>
-      <webElementGuid>a69ce8fb-408a-4578-83ae-b57dbd1f315e</webElementGuid>
+      <webElementGuid>c2bb340a-87cd-4e80-a9e7-6e12d375deaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -390,7 +210,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='V-TPS test'])[1]/following::button[1]</value>
-      <webElementGuid>f8f9d1ef-f975-46b3-abc6-c0339938fba7</webElementGuid>
+      <webElementGuid>3ad9f9e7-881d-48cd-8d22-2066e8cca269</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -398,7 +218,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TestVRelaySingleCF'])[2]/following::button[1]</value>
-      <webElementGuid>3f06f878-c736-400c-9f90-77bfbac39a75</webElementGuid>
+      <webElementGuid>415469c8-a38f-43d4-aa6f-fb5a0868e908</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -406,7 +226,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BBP Parking Fees GovTest'])[3]/preceding::button[1]</value>
-      <webElementGuid>cfae0c9a-4016-4f63-b2fe-84526cf6a79b</webElementGuid>
+      <webElementGuid>84742a14-dc41-4e7f-9a89-e93f11fe8b89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -414,7 +234,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[3]/preceding::button[1]</value>
-      <webElementGuid>0cf32978-4fd5-4f27-a78a-102babf42dac</webElementGuid>
+      <webElementGuid>738690c7-5f57-45af-9ac8-2cb149c34139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -422,7 +242,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CSR']/parent::*</value>
-      <webElementGuid>1bfe5ad5-7c34-4a07-ae87-0db5ad7b569d</webElementGuid>
+      <webElementGuid>1eb5bbab-8417-4fd8-9767-f70768906a31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -430,7 +250,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/h2/button</value>
-      <webElementGuid>408b693f-4634-4ade-84bb-fa66aca1af73</webElementGuid>
+      <webElementGuid>246384a7-0fcf-43da-b102-a0a0826451a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -618,6 +438,6 @@
 											          		
 						                    CSR
 						                  ')]</value>
-      <webElementGuid>443d4acf-a48f-4bea-baa7-a2cda46bf6a0</webElementGuid>
+      <webElementGuid>3b94dae1-c89e-4b86-a292-56ff0325e7d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

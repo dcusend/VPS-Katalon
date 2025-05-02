@@ -13,8 +13,13 @@
          <key>XPATH</key>
          <value>//a[@id='Audit_Reports']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'Risk Management/Audit Reports' and @id = 'Audit_Reports' and (text() = 'Risk Management/Audit Reports' or . = 'Risk Management/Audit Reports')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>491501f2-2732-4c9d-b9b2-4b0ccdd65029</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,13 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>treeview-item </value>
+      <webElementGuid>f9d64372-224d-4066-b8ae-17e07fd684ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/imtiaz/bootstrap/vclerk/index.do?actionType=audit</value>
+      <webElementGuid>4428ae57-0df6-477e-bbb0-e45ce9969f46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +51,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Risk Management/Audit Reports</value>
+      <webElementGuid>9849f1a5-2766-481c-8de1-bcdbcd9b596b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +59,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Audit_Reports</value>
+      <webElementGuid>577e2ac1-5d69-4e93-8e54-1ce618b1ce74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +67,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Risk Management/Audit Reports</value>
+      <webElementGuid>92e8f1ff-c6a3-4aa1-9fbb-7a832a6a600e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Audit_Reports&quot;)</value>
+      <webElementGuid>94f83d70-7d46-43ae-9e1b-ede06d68308a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='Audit_Reports']</value>
+      <webElementGuid>d4251553-c11a-4d4c-850d-fe157fc30db1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +91,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Risk Management/Audit Reports')]</value>
+      <webElementGuid>1c8ea404-b2a9-4d4e-a292-8ae33595559d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Operational Reports'])[1]/following::a[1]</value>
+      <webElementGuid>fb8536a8-d220-468d-821c-c81320898cc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reporting'])[1]/following::a[2]</value>
+      <webElementGuid>b33a4707-f50e-413f-ad12-0db0209f98f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Reports'])[1]/preceding::a[1]</value>
+      <webElementGuid>813c5e2f-442a-4cef-9023-6d6987a06d84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Reports'])[1]/preceding::a[2]</value>
+      <webElementGuid>5396560c-110a-4a9d-800c-62981b0cf2cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Risk Management/Audit Reports']/parent::*</value>
+      <webElementGuid>b1304490-69f3-463a-9f67-4c8c65b9cc21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +139,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vclerk/index.do?actionType=audit')]</value>
+      <webElementGuid>7f3fc958-e65c-4ad3-abe7-d232d7821bee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +147,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/ul/li[2]/a</value>
+      <webElementGuid>c46cf6a4-3915-407a-9778-cc2ca4c5b6a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
