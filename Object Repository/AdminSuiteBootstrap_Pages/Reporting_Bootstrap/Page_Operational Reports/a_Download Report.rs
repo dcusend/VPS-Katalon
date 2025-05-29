@@ -6,12 +6,16 @@
    <elementGuidId>2299ff46-6544-4c19-a1f2-84310132c858</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports3 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports3']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Download Report' or . = 'Download Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports3 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a7954fa0-51a2-4751-8c4a-2af3dce30a54</webElementGuid>
+      <webElementGuid>1b3cccc5-60a0-4c06-a745-7dccbcea413c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>303045ee-4faa-45b3-808e-26f979b9871d</webElementGuid>
+      <webElementGuid>619ed3e3-cfd7-4b50-ab4b-3f025eca2997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>ce04ecb3-1ad0-47da-8d61-618d38362d40</webElementGuid>
+      <webElementGuid>f8f0020e-7b7b-42c3-9f9f-e50bda81d6f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/qbis.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>7053b251-32c8-41c8-a129-94af8f129ac0</webElementGuid>
+      <webElementGuid>60043f2b-b013-4470-a68c-effb4524b6c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>6c4b87b0-8de3-4991-b561-ff39e6d335cd</webElementGuid>
+      <webElementGuid>dc1c1895-70f9-4689-9e6e-f815202a0f76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>Download information related to transactions for a given time period.</value>
-      <webElementGuid>a26dea70-6ba6-468b-9eb8-0989b43a9792</webElementGuid>
+      <webElementGuid>67d2bd0f-916c-4d33-9850-4d0b0d6a46b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip468562</value>
-      <webElementGuid>cd1d277c-b1ee-4f2b-97f6-0b847a2c5b50</webElementGuid>
+      <webElementGuid>1de5aa5e-bfa7-4f20-b870-bd33f1d8a2be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Download Report</value>
-      <webElementGuid>a77052aa-2551-474e-87ae-fcdbb734e89e</webElementGuid>
+      <webElementGuid>028d4c1c-4ec8-48e1-913f-2679aa4b3a56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports3&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>a0a55246-efc2-4094-892d-c3859aca3bb1</webElementGuid>
+      <webElementGuid>cf8b4b5b-7bfd-4ef8-ad22-3f235850e8ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports3']/div/a</value>
-      <webElementGuid>ca13f68b-762d-4fd4-b6f0-6114a6b67727</webElementGuid>
+      <webElementGuid>a56b2a39-74eb-48c8-b94b-cbf0b151f448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Download Report')]</value>
-      <webElementGuid>761105f7-e39c-41ae-a5d9-89b39ef8fada</webElementGuid>
+      <webElementGuid>a0f88c57-a680-497f-bd77-f53829a37b75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Profiles Report'])[1]/following::a[1]</value>
-      <webElementGuid>3117bef1-cfe2-4841-9969-b166b391abeb</webElementGuid>
+      <webElementGuid>cd0fe4f0-eff6-4579-a703-a27c97f083e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bill Statistics Report'])[1]/following::a[2]</value>
-      <webElementGuid>40cae1f5-61f6-4dd2-9452-d6e74594ea25</webElementGuid>
+      <webElementGuid>4d705a93-29a6-4f8d-b9ca-70a8fbdac09b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary Report by Payment Channel'])[1]/preceding::a[1]</value>
-      <webElementGuid>3ea4bac4-3ab0-4426-80b5-16691fd6ee35</webElementGuid>
+      <webElementGuid>0605c7c4-12d1-443d-8550-4f0c3d6d8637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary By Tender Type Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>c7827c04-6cd6-4cbf-bb5a-60ebee683ee8</webElementGuid>
+      <webElementGuid>92945284-b469-4585-9a76-dfb90a015863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Download Report']/parent::*</value>
-      <webElementGuid>e21ebc68-7bc2-4aae-83fa-d769c08af3c3</webElementGuid>
+      <webElementGuid>999efa38-9b46-4416-ad6a-4c759c60382a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/qbis.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>b3e87b18-229f-4956-9b26-3e3322d76b76</webElementGuid>
+      <webElementGuid>5e119da9-3a26-43a6-a095-11ce0741e0ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/a</value>
-      <webElementGuid>5f332386-a2e1-4c42-bf96-4a91babe2bed</webElementGuid>
+      <webElementGuid>5344ea01-1068-402b-a5be-e0b4e7e3962d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/qbis.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Download Report' or . = 'Download Report')]</value>
-      <webElementGuid>0566215a-a735-4f38-9963-04dc8f10f74c</webElementGuid>
+      <webElementGuid>e3cd3404-dff4-4bb1-8230-9b8fd875084c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

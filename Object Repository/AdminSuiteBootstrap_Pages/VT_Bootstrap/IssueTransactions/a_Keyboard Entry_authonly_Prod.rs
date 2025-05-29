@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;collapseTwo&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
+         <value>id(&quot;collapseTwo&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;][count(. | //*[(text() = 'Keyboard Entry' or . = 'Keyboard Entry')]) = count(//*[(text() = 'Keyboard Entry' or . = 'Keyboard Entry')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>904055aa-ddba-4816-bce4-981fa04b9fb3</webElementGuid>
+      <webElementGuid>fe2ec55d-d88e-4965-a9e4-26180caa6d24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ml-2</value>
-      <webElementGuid>8f895a91-32f0-4da6-ab5b-74fc932a27c3</webElementGuid>
+      <webElementGuid>f9394f8f-c646-43fb-8ba7-9f7f10cb8b0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,15 +49,15 @@
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vpos/4585/transactions/AuthOnlyForm/</value>
-      <webElementGuid>db555017-25ab-4538-b8e8-c5bc24de9218</webElementGuid>
+      <webElementGuid>fcb2bb62-7e59-4163-bb74-d20dd2f3bbbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Keyboard Entry</value>
-      <webElementGuid>a160dfb4-80b5-4650-9207-5a9c81f5e592</webElementGuid>
+      <webElementGuid>b87f44e2-3cb0-4143-84f9-c3c2dc88647f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;collapseTwo&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
-      <webElementGuid>7fc7b2be-3d56-41b3-832e-08a188d6cc57</webElementGuid>
+      <webElementGuid>59833da8-2d24-4197-8512-3c2b9e2ae920</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='collapseTwo']/div/a</value>
-      <webElementGuid>1c428d80-0e06-46bc-ab0c-c6aa2da7f79f</webElementGuid>
+      <webElementGuid>a9ef68ac-22bb-4345-b1dc-26ed373de933</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Keyboard Entry')])[2]</value>
-      <webElementGuid>8c50b7d1-37bc-4195-aac7-43499383d4ac</webElementGuid>
+      <webElementGuid>31ec2f80-682e-440d-af9f-12ed9d457bbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swipe'])[1]/following::a[1]</value>
-      <webElementGuid>ffbb03f9-07a4-474f-825e-443dbca3d3ae</webElementGuid>
+      <webElementGuid>1680b107-1732-4d23-a5bd-00ea74cfbd31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN Pad Entry'])[2]/preceding::a[1]</value>
-      <webElementGuid>19d458db-581b-4743-a92a-ed5e2c6aba45</webElementGuid>
+      <webElementGuid>e373799b-3106-41a5-b2e4-9af6d27471fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swipe'])[2]/preceding::a[2]</value>
-      <webElementGuid>809ba3e7-6ae4-4ff6-a8c2-a8a09b97e037</webElementGuid>
+      <webElementGuid>bf2a5ed9-1cb6-4384-b5b0-085c0f98685a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vpos/4585/transactions/AuthOnlyForm/')]</value>
-      <webElementGuid>75f520e8-71c4-45d7-a3f6-d942685a8482</webElementGuid>
+      <webElementGuid>fd876925-6640-4136-babb-43ef9a48e318</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/a</value>
-      <webElementGuid>ae40c538-16ab-4e37-8771-faa91ead79c3</webElementGuid>
+      <webElementGuid>21e19900-bcc2-41e4-bc57-8e21e5f20abc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vpos/4585/transactions/AuthOnlyForm/' and (text() = 'Keyboard Entry' or . = 'Keyboard Entry')]</value>
-      <webElementGuid>58d95646-29e8-4e71-adc9-68e7e92a4cbc</webElementGuid>
+      <webElementGuid>c84f0dfe-53af-4674-9943-3ba4be57d603</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

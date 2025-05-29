@@ -6,12 +6,16 @@
    <elementGuidId>09473ba0-a7cb-44fe-b9a5-b490de51db47</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.nav-item.ml-1 > a.nav-link.text.white</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Search Transactions')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Search Transactions' or . = 'Search Transactions')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.ml-1 > a.nav-link.text.white</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>590bd75c-efdc-4efc-bf9f-97de050312db</webElementGuid>
+      <webElementGuid>f2e7b343-25dc-4070-872b-b5c3a3203145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vpos/4585/reports/</value>
-      <webElementGuid>49b6e86d-aa8b-43fd-8b8f-abfe71937846</webElementGuid>
+      <webElementGuid>04da4fd1-5e29-46d0-ad60-3a73f35e07ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link text white</value>
-      <webElementGuid>826ee94b-d8dc-4943-8ba8-2489fe71431e</webElementGuid>
+      <webElementGuid>2219d6b1-6210-4ba5-b9b6-a1f5cb50a4e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Search Transactions</value>
-      <webElementGuid>3cdd36c1-b490-472c-8d85-abae9a3486b1</webElementGuid>
+      <webElementGuid>f0764ae0-8e4f-4bbc-b3a5-80b6dd59108a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;app sidebar-mini&quot;]/main[@class=&quot;app-content&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-shrink-1 w-100&quot;]/div[@class=&quot;row user&quot;]/div[@class=&quot;container mt-xl-n3&quot;]/ul[@class=&quot;nav nav-tabs nav-justified&quot;]/li[@class=&quot;nav-item ml-1&quot;]/a[@class=&quot;nav-link text white&quot;]</value>
-      <webElementGuid>d4875343-afdd-458c-bdb2-e295ad79d299</webElementGuid>
+      <webElementGuid>71f9cc39-69a2-4ddf-99bd-cc50e05a542e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Search Transactions')]</value>
-      <webElementGuid>c35335e6-f3ab-4f97-b15a-bd9364a451ae</webElementGuid>
+      <webElementGuid>d2c7b83e-c89d-454c-9a94-9f7b6d782e3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Issue Transactions'])[1]/following::a[1]</value>
-      <webElementGuid>c06aed4d-c1fb-4adc-99ae-c7286f10bc55</webElementGuid>
+      <webElementGuid>eb6d5b95-eab4-46a2-991a-bed0237c8412</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Application: AutoDualCFtpProd'])[1]/following::a[2]</value>
-      <webElementGuid>a53c321d-6099-4f94-8a2a-6d11d3ca1af4</webElementGuid>
+      <webElementGuid>f2e6dfc4-3019-43d7-98bd-c222c2a00587</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit Card'])[1]/preceding::a[2]</value>
-      <webElementGuid>d8740a63-8b0a-4436-998c-e0fc0d5c52b0</webElementGuid>
+      <webElementGuid>e03c42f7-0dc3-4c82-8989-f3bb435b6ba2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Search Transactions']/parent::*</value>
-      <webElementGuid>928ab5a9-164f-45b3-b477-69d7a3cf1c43</webElementGuid>
+      <webElementGuid>c7b51a47-4b85-4c46-bff2-cdc14ee6ff35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vpos/4585/reports/')]</value>
-      <webElementGuid>6dce22c4-fb39-48f7-8242-dd12b9d2071a</webElementGuid>
+      <webElementGuid>f310a7de-d043-46de-afb4-84e65981bac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/ul/li[2]/a</value>
-      <webElementGuid>f43477e5-0086-404b-92d1-6317d75a2f86</webElementGuid>
+      <webElementGuid>40f40ba2-b7b5-4f99-83fb-892b48d6d2e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vpos/4585/reports/' and (text() = 'Search Transactions' or . = 'Search Transactions')]</value>
-      <webElementGuid>62af60b4-f0f0-4be6-88ff-a7585b9d2152</webElementGuid>
+      <webElementGuid>95da1495-1b23-44e8-9c6a-9d0804a9a2c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

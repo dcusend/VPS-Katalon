@@ -437,9 +437,9 @@ public class achPersonalPaymentEntryBootstrapPage {
 
 		email = dataFileM.getValue('Email', rowM)
 		println(email)
-		
+
 		appID = dataFileM.getValue('AppID', rowM)
-		
+
 		println(appID)
 
 		//		CCDate = dataFileM.getValue('CCDate', rowM)
@@ -576,7 +576,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 			}
 
 
-			if(appID == '914' || appID == '915') {
+			if(appID == '914' || appID == '915' || appID == '937' || appID == '939' ) {
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input__accountNumber'),30)) {
 					println(accountNumber)
 					if ((!accountNumber.isEmpty())) {
@@ -609,7 +609,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 					println("Confirm Account Number field is either missing or not modifiable on ACH Corporate Payment Entry Page")
 				}
 			}
-			else if(appID == '920' || appID == '921') {
+			else if(appID == '920' || appID == '921' || appID == '936' || appID == '938') {
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'),30)) {
 					if ((!accountNumber.isEmpty())) {
 						WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_accountNumber'),accountNumber)
@@ -621,9 +621,9 @@ public class achPersonalPaymentEntryBootstrapPage {
 				else {
 					println("Account Number field is either missing or not modifiable on ACH Personal Payment Entry Page")
 				}
-	
-	
-	
+
+
+
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_confirmAccountNumber'),30)) {
 					if ((!confirmAccountNumber.isEmpty())) {
 						WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_confirmAccountNumber'),confirmAccountNumber)
@@ -635,10 +635,8 @@ public class achPersonalPaymentEntryBootstrapPage {
 				else {
 					println("Confirm Account Number field is either missing or not modifiable on ACH Personal Payment Entry Page")
 				}
-	
-	
 			}
-		
+
 
 
 

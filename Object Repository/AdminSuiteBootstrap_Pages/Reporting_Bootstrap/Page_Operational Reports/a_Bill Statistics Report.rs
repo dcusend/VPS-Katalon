@@ -6,12 +6,16 @@
    <elementGuidId>ebee715e-e7c0-4c33-8481-dcebada3eb0d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports2 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports2']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Bill Statistics Report' or . = 'Bill Statistics Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports2 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>703e0b01-2354-4d1a-819b-52210620d9c7</webElementGuid>
+      <webElementGuid>4e6249d3-6246-4c6d-94ad-7d29667cf5a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>3985a9aa-827e-4cf3-89d9-edf05130ba04</webElementGuid>
+      <webElementGuid>f854f0f6-1779-4ffc-a20a-840fcf784363</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>43f2404d-4357-4f31-ab37-6f04aff71c18</webElementGuid>
+      <webElementGuid>de73394d-6e75-4b1b-9589-fb9311716126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/billStatistics.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>fba3d50a-77f4-41bc-8f14-d972a21bdd29</webElementGuid>
+      <webElementGuid>09927284-4bf5-4200-9e0a-ffe5cd2e4033</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>5645c36b-dd0d-43f8-b09f-c1e5c5ba77e2</webElementGuid>
+      <webElementGuid>bbfa9dd1-3947-4732-8b81-eb454a3e6169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View customer profile creation and bill opt out statistics for your Enrolled v+Bills customers.</value>
-      <webElementGuid>97768300-cdae-4e14-82ce-4d78e7041454</webElementGuid>
+      <webElementGuid>5bf3781c-0e8c-4fcc-8a25-dffb1f7edf13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip219396</value>
-      <webElementGuid>3a78222e-9151-4360-b50f-8f182199d138</webElementGuid>
+      <webElementGuid>293b499b-3a34-416d-bf11-92c6d82fa125</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Bill Statistics Report</value>
-      <webElementGuid>f4856046-fa39-411e-8a8f-d1da85e3ed62</webElementGuid>
+      <webElementGuid>a7748056-6db1-4acb-bf79-02cd7a5ae0d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports2&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>aeb46247-c368-43f5-993a-7ddd4ceb63fc</webElementGuid>
+      <webElementGuid>32f6e253-4571-48c8-a0d7-b792fbefa3b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports2']/div/a</value>
-      <webElementGuid>68e9ba35-143e-4e49-ac34-44d6ce075de5</webElementGuid>
+      <webElementGuid>62244992-d654-4eab-9294-870a5964d761</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Bill Statistics Report')]</value>
-      <webElementGuid>57a5a86a-d370-41ef-bd2b-a21d85d43ee1</webElementGuid>
+      <webElementGuid>dea5b7cf-3bd1-4514-a91a-3f8f7079bb4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Pay Enrollments Report'])[1]/following::a[1]</value>
-      <webElementGuid>1c3ae3ee-3e20-4039-9775-0068710291c7</webElementGuid>
+      <webElementGuid>56b10405-1c98-4b4e-95b3-7c78768d272e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active Payment Plan Report'])[1]/following::a[2]</value>
-      <webElementGuid>3658d69c-a022-46cf-ab6e-851b0dc18a80</webElementGuid>
+      <webElementGuid>53bff615-c3e9-42f6-90ea-c08bb63a0b85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Profiles Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>137163a4-58db-4a0d-b4a3-bc97c5a35406</webElementGuid>
+      <webElementGuid>a9bf0c14-9b8d-44a8-b5d2-936f1f8e0c26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>a439735f-9e66-4d3d-9c5b-d8e4a40530e6</webElementGuid>
+      <webElementGuid>af688e78-8de3-4d9d-9e55-4276b974ee7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Bill Statistics Report']/parent::*</value>
-      <webElementGuid>0257c2ba-2e49-44fc-9de8-aee5596f86c1</webElementGuid>
+      <webElementGuid>9f09285a-5b6d-4d2e-ac0a-710c6934af82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/billStatistics.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>877aabd6-26ef-4c75-b227-df82aa9d4003</webElementGuid>
+      <webElementGuid>f0ee11f0-1b96-4319-99bc-d233b5f20713</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/a</value>
-      <webElementGuid>49a80985-5780-4a45-a874-f1a7e3f37949</webElementGuid>
+      <webElementGuid>61e4363f-623a-4d86-ba15-925474dd2213</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/billStatistics.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Bill Statistics Report' or . = 'Bill Statistics Report')]</value>
-      <webElementGuid>2491e90e-dd2d-4ebd-bf83-c0be16711fb2</webElementGuid>
+      <webElementGuid>47d80a67-8b2b-4308-bc2f-d6b9db128286</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

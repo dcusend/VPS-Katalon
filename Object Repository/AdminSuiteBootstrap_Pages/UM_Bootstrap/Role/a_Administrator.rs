@@ -6,11 +6,11 @@
    <elementGuidId>71333855-3fc0-42cd-b433-f655a1e6a386</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/admin/testcustomer/bootstrap/vadministrator/groups/view.do?rid=Administrator']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Administrator' or . = 'Administrator')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -32,23 +32,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8019ba6b-8ba0-4d3d-8809-b9b60e40d4a7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/admin/testcustomer/bootstrap/vadministrator/groups/view.do?rid=Administrator</value>
-      <webElementGuid>a5bb3384-4e12-4c41-ae9a-393f45ccb8d0</webElementGuid>
+      <webElementGuid>9439b2db-a01b-44a5-ab3e-cebd7f3b01c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/testcustomer/bootstrap/vadministrator/groups/view.do?rid=Administrator</value>
+      <webElementGuid>3334e97c-475f-442e-bdde-909fe30ad74c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Administrator</value>
-      <webElementGuid>e775cb84-e462-42eb-8f21-f8186f5d7624</webElementGuid>
+      <webElementGuid>b87b92d7-bc3b-4660-aa04-5377ca373854</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loadRoles&quot;)/tr[@class=&quot;odd&quot;]/td[1]/a[1]</value>
-      <webElementGuid>d52b042f-60f2-42e1-b553-d9c36c70892b</webElementGuid>
+      <webElementGuid>a1cc9032-2a6f-475c-a690-b4fb7c1a3b55</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='loadRoles']/tr[3]/td/a</value>
-      <webElementGuid>5da65ea8-f298-416c-b571-45bdf923e7f4</webElementGuid>
+      <webElementGuid>3be00cee-972d-45ba-8198-c76c1babefc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Administrator')]</value>
-      <webElementGuid>346ecaa7-e31e-4217-bf93-55c3b55fe9a4</webElementGuid>
+      <webElementGuid>8c5d5621-e975-4aa7-9ad5-7a4a1f30ca13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='abc4'])[1]/following::a[1]</value>
-      <webElementGuid>6a8d9130-07fb-46ff-8d21-2d647635fddb</webElementGuid>
+      <webElementGuid>f0ff6efc-63a6-4aa7-a61c-5f98cce9cf61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='abc'])[1]/following::a[2]</value>
-      <webElementGuid>361969bf-f747-4196-a1f8-f3df108c7f2b</webElementGuid>
+      <webElementGuid>274b7711-05c7-4cb1-8e98-16f1ad1c1af1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrators'])[1]/preceding::a[1]</value>
-      <webElementGuid>371976d1-4b87-4c5d-9387-c88a6bdd933c</webElementGuid>
+      <webElementGuid>f253cc1b-11a6-4d2f-8d84-20eb62a80e61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aurora W'])[1]/preceding::a[2]</value>
-      <webElementGuid>2fed4eaf-a4b6-4340-9627-e08911c1a915</webElementGuid>
+      <webElementGuid>3bfb5ca3-0bf6-4a88-9d7a-ecc39edfd6c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Administrator']/parent::*</value>
-      <webElementGuid>9a85559b-9881-4007-8568-2afa4e500dce</webElementGuid>
+      <webElementGuid>55b8f2d6-4b34-4cbf-9e78-b19440d2b129</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vadministrator/groups/view.do?rid=Administrator')]</value>
-      <webElementGuid>ca5b03d0-3d22-4551-ad9c-d426a593530b</webElementGuid>
+      <webElementGuid>d17c746d-29f2-4d1d-9621-f82ef5f2f49e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td/a</value>
-      <webElementGuid>9a73aa81-cbc6-46e8-b9c3-2fadc3f4ac2a</webElementGuid>
+      <webElementGuid>4e849618-c5ed-42e6-be22-f52b3b13dac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,6 +136,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vadministrator/groups/view.do?rid=Administrator' and (text() = 'Administrator' or . = 'Administrator')]</value>
-      <webElementGuid>25f26c86-e3e2-48f8-bfd8-a9e14943508b</webElementGuid>
+      <webElementGuid>f4f82258-2250-45db-aabc-3b85e77697c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

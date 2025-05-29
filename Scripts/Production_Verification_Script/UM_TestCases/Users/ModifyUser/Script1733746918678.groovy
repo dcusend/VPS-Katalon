@@ -112,15 +112,11 @@ for (def row = 1; row <= numOfRows; row++)
 						WebUI.click(findTestObject(path_ModifyUser + 'button_Update'))
 						
 						
-						// Verify the Static text
-						
+						// Verify the Static text					
 						if (WebUI.verifyTextPresent('User Account Modified The user account for', true))
 							{
 								
-								WebUI.verifyTextPresent('was successfully modified', true)
-								
-								
-								
+								WebUI.verifyTextPresent('was successfully modified', true)												
 								WebUI.verifyTextPresent('ModifiedFname', true)
 								WebUI.verifyTextPresent('ModifiedLname', true)
 								WebUI.verifyTextPresent('imtiazster@gmail.com', true)
@@ -128,8 +124,7 @@ for (def row = 1; row <= numOfRows; row++)
 								
 								KeywordUtil.markPassed("User was Modified Successfully")
 								resText = "Pass"
-								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-								
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)								
 							}
 						else
 						{

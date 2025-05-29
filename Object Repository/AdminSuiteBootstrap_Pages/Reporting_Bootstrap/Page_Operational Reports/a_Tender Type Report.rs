@@ -6,12 +6,16 @@
    <elementGuidId>c9843ea1-6099-4761-80a4-46a501ff750f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports4 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports4']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Enterprise Transaction Summary By Tender Type Report' or . = 'Enterprise Transaction Summary By Tender Type Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports4 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>27d93cc4-559a-4151-ad5e-aa3d788f9461</webElementGuid>
+      <webElementGuid>0f5ae541-6410-4fa0-8545-01841703bb0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>43b87497-990f-4711-9b91-75f539866291</webElementGuid>
+      <webElementGuid>e326e0cb-9e23-413e-a2ab-21d492538ea6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>229dc72d-3664-44df-b91a-ee9c1350f58e</webElementGuid>
+      <webElementGuid>c09fc59e-8771-471d-945e-6217b514e043</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/vtreasurerbytendertype.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>8b1040be-8107-4c3f-a9e6-57958fbd26c6</webElementGuid>
+      <webElementGuid>3204da5a-f815-43e6-9fcc-3aa5010bbdf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>34ef604b-aef1-4e60-afe9-5de656b470bd</webElementGuid>
+      <webElementGuid>41733de7-7365-4924-a769-1747ba670eb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View enterprise-wide processing totals for a given day, week or month, itemized by payment tender.</value>
-      <webElementGuid>e5761f2f-1df0-43e7-b8bb-ace385b49b6e</webElementGuid>
+      <webElementGuid>f4c68516-08ef-4f31-bee3-eb7afef573fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip14407</value>
-      <webElementGuid>853fa6e6-442b-4b4a-8dc6-e4d997e4ff87</webElementGuid>
+      <webElementGuid>8a7ab5a8-8f50-4271-9db8-278a1b1cb505</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enterprise Transaction Summary By Tender Type Report</value>
-      <webElementGuid>a3fe8811-6432-49bb-abc3-778f34016e1d</webElementGuid>
+      <webElementGuid>0af1d243-42d2-4091-a15b-e89d01721730</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports4&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>ddd68221-c38c-4048-aa28-1fc24744c171</webElementGuid>
+      <webElementGuid>7251d9b6-d55e-4d03-b29c-439ed037b2fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports4']/div/a</value>
-      <webElementGuid>4ebf5128-2827-44cc-853b-bfd953ec2c74</webElementGuid>
+      <webElementGuid>f0c6337d-944a-40b0-9fdd-60dd4af08b3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Enterprise Transaction Summary By Tender Type Report')]</value>
-      <webElementGuid>a884cf30-2203-4b16-a29b-40105f45f51b</webElementGuid>
+      <webElementGuid>730ca626-4660-4560-9c44-5118bc1a82ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary Report by Payment Channel'])[1]/following::a[1]</value>
-      <webElementGuid>4df289c7-3979-456d-835f-bb019742fb05</webElementGuid>
+      <webElementGuid>0030772b-3af4-4165-b5d1-b125e4f1384f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Report'])[1]/following::a[2]</value>
-      <webElementGuid>5ad57699-18af-4c54-8e12-069dccf489cc</webElementGuid>
+      <webElementGuid>0867a063-be6c-4a47-942f-d0b16bae0501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>d7658883-1120-47de-8739-70e291b4a85f</webElementGuid>
+      <webElementGuid>d4c97b58-659f-4e92-88b8-c056a30bf763</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exceptions Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>24319e75-9b93-4dc1-9b15-4e236757ad53</webElementGuid>
+      <webElementGuid>eaa7b6e6-e938-4438-8f9e-b05dfdbe9ca2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Enterprise Transaction Summary By Tender Type Report']/parent::*</value>
-      <webElementGuid>e4922e01-e801-423a-964a-4b62a7238170</webElementGuid>
+      <webElementGuid>461083c4-072d-4488-a043-ecb44fb0e411</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/vtreasurerbytendertype.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>fa7fddff-75fd-445d-ad8a-1f2542efaa43</webElementGuid>
+      <webElementGuid>88046351-a6eb-4f99-8413-a1b714a22ebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/a</value>
-      <webElementGuid>181954cc-b62b-4254-93bd-17d162d69053</webElementGuid>
+      <webElementGuid>df564fdb-0562-4124-b1e3-5374b7b4e323</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/vtreasurerbytendertype.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Enterprise Transaction Summary By Tender Type Report' or . = 'Enterprise Transaction Summary By Tender Type Report')]</value>
-      <webElementGuid>518c6904-2d97-491f-afaf-d8105b93186b</webElementGuid>
+      <webElementGuid>6ad76781-80cb-4973-852a-022bf55da89b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

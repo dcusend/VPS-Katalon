@@ -143,6 +143,8 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 							WebUI.click(findTestObject(path_VT + 'a_Search Transactions'))
 				
 							WebUI.setText(findTestObject(path_CCSearch + 'input_Search By_searchValue'),remID)
+							
+							Thread.sleep(20000)
 							WebUI.click(findTestObject(path_CCSearch + 'option_Authorization'))
 							WebUI.click(findTestObject(path_CCSearch + 'button_Submit'))
 				
@@ -249,7 +251,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 									}
 								
-									WebUI.closeBrowser()
+//									WebUI.closeBrowser()
 									
 							}
 								

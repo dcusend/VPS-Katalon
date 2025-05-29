@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VRelayPayByPS</name>
+   <name>VRelayPayByPS-2.7</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a461d00a-33a2-458d-bdb1-1d8756ff2da0</testCaseGuid>
+   <testCaseGuid>36271c21-b312-42ab-918f-9ab52008daf4</testCaseGuid>
 </TestCaseEntity>

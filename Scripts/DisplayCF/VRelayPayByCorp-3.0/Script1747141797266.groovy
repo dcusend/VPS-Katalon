@@ -33,7 +33,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 
 	
 	
-	nameSheet = "PayByCC"
+	nameSheet = "PayByCorp-3.0"
 	println("Number of Records: " + numOfRows)
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/IWPTestData/DisplayCFData.xlsx", nameSheet, true)
 	
@@ -74,203 +74,68 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 					
-					//Confirm Amount on Confirm Page
+						//Emulator Amount on Confirm Page
 					
-						Amount = dataFile.getValue('ConfirmAmount', row)
+						Amount = dataFile.getValue('EmulatorAmount', row)
 						println(Amount)
-//						WebUI.verifyTextPresent(Amount, false)
+						WebUI.verifyTextPresent(Amount, false)
 					
-				
+					
+					def stringArray, VerificationText
 					if(Amount == '$5') {
-							if(WebUI.verifyTextPresent('American Express', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Service Fee = $1.00', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Discover', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Service Fee = $2.00', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('MasterCard', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Service Fee = $3.00', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('MasterCard Debit', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Service Fee = $4.00', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Visa', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Service Fee = $5.00', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Visa Debit', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Service Fee = $6.00', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Corporate Check', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Service Fee = $7.00', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Personal Check', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
-							if(WebUI.verifyTextPresent('Service Fee = $8.00', false)){
-								isRequiredTextPresent = true
-							}else {
-								isRequiredTextPresent = false
-							}
+						VerificationText =  "American Express, Service Fee = \$1.00, Discover, Service Fee = \$2.00, MasterCard, Service Fee = \$3.00, MasterCard Debit, Service Fee = \$4.00, Visa, Service Fee = \$5.00, Visa Debit, Service Fee = \$6.00, Personal Check, Service Fee = \$7.00, Corporate Check, Service Fee = \$8.00"						
+						stringArray = VerificationText.split(",")
+						System.out.println('string array ' +  stringArray)						
 					}
 					else if(Amount == '$200') {
-						if(WebUI.verifyTextPresent('American Express', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Service Fee = $10.00', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Discover', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Service Fee = $10.00', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('MasterCard', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Service Fee = $10.00', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('MasterCard Debit', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Service Fee = $10.00', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Visa', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Service Fee = $10.00', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Visa Debit', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Service Fee = $10.00', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Corporate Check', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Service Fee = $10.00', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Personal Check', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
-						if(WebUI.verifyTextPresent('Service Fee = $10.00', false)){
-							isRequiredTextPresent = true
-						}else {
-							isRequiredTextPresent = false
-						}
+						VerificationText =  "American Express, Service Fee = \$10.00, Discover, Service Fee = \$10.00, MasterCard, Service Fee = \$10.00, MasterCard Debit, Service Fee = \$10.00, Visa, Service Fee = \$10.00, Visa Debit, Service Fee = \$10.00, Personal Check, Service Fee = \$10.00, Corporate Check, Service Fee = \$10.00"
+						stringArray = VerificationText.split(",")
+						System.out.println('string array ' +  stringArray)
 					}
+					else if(Amount == '$10.50') {
+						VerificationText =  "American Express, Service Fee = \$10.00, Discover, Service Fee = \$10.00, MasterCard, Service Fee = \$10.00, MasterCard Debit, Service Fee = \$10.00, Visa, Service Fee = \$10.00, Visa Debit, Service Fee = \$10.00, Personal Check, Service Fee = \$10.00, Corporate Check, Service Fee = \$10.00"
+						stringArray = VerificationText.split(",")
+						System.out.println('string array ' +  stringArray)
+					}
+
 				
+					for(def item in stringArray)
+					{
+					   println(item.trim())
+					   if(WebUI.verifyTextPresent(item.trim(),false)) {
+						  isRequiredTextPresent = true
+					   }
+					   else {
+						   isRequiredTextPresent = false
+					   }
+					
+					}
+						System.out.println(isRequiredTextPresent)		
 					
 					// Select Corporate Payment Method
-						WebUI.click(findTestObject('Object Repository/DisplayConvFees/Page_Choose_PaymentMethod/select_btn_CC'))
+						WebUI.click(findTestObject('Object Repository/DisplayConvFees/Page_Choose_PaymentMethod/select_btn_Corp'))
 					// Select Continue on Confirm page
-						WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
 					
-					// Set Data on Credit Card Payment Entry page
-						CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCCPM'(row,dataFile)
+					 //Set Data on Credit Card Payment Entry page
+						CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataCorporate'(row,dataFile)
 
+					
 					Thread.sleep(1000)
 					
 					//Confirm Fees Accept Page
 						feesAccept = dataFile.getValue('FeesAcceptance', row)
 						totalAmount = dataFile.getValue('TotalAmount', row)
 						feeType = dataFile.getValue('FeesType', row)
-					
-					
+						confirmAmount = dataFile.getValue('ConfirmAmount', row)
+						
+				
 					// Select Continue on Confirm page
 						WebUI.click(findTestObject('Object Repository/DisplayConvFees/Page_Confirmation/btn_confirm'))
 					
-					
-					
-					
-						if(WebUI.verifyTextPresent('Fees Acceptance', false)) {
+		
+						if(WebUI.verifyTextPresent('CF label', false)) {
 							isRequiredTextPresent = true
 							println(isRequiredTextPresent)
 							
@@ -279,17 +144,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 							isRequiredTextPresent = false
 						}
 						if(isRequiredTextPresent) {
-							if(WebUI.verifyTextPresent('This transaction is subject to a of ' +  feesAccept, false)) {
-								isRequiredTextPresent = true
-								println(isRequiredTextPresent)
-								
-							}
-							else {
-								isRequiredTextPresent = false
-							}
-						}
-						if(isRequiredTextPresent) {
-							if(WebUI.verifyTextPresent('This transaction is subject to a of ' +  feesAccept, false)) {
+							if(WebUI.verifyTextPresent('This transaction is subject to a CF Label of ' +  feesAccept, false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)
 								
@@ -309,7 +164,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 							}
 						}
 						if(isRequiredTextPresent) {
-							if(WebUI.verifyTextPresent(Amount, false)) {
+							if(WebUI.verifyTextPresent(confirmAmount, false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)
 								
@@ -373,7 +228,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 					}
 					else if(AppID == '914' || AppID == '915') {					
 						if(isRequiredTextPresent) {
-							if(WebUI.verifyTextPresent('Two transactions will appear on your bank statement, one in the amount of ' + Amount + ' and one in the amount of ' + feesAccept, false)) {
+							if(WebUI.verifyTextPresent('Two transactions will appear on your bank statement, one in the amount of ' + confirmAmount + ' and one in the amount of ' + feesAccept, false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)
 								
@@ -399,7 +254,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 							}
 						}
 						if(isRequiredTextPresent) {
-							if(WebUI.verifyTextPresent(Amount, false)) {
+							if(WebUI.verifyTextPresent(confirmAmount, false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)
 								

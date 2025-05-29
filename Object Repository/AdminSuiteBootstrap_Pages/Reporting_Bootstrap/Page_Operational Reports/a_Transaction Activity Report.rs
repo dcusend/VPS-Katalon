@@ -6,12 +6,16 @@
    <elementGuidId>852e3df2-ad54-4a91-84dc-e342692026ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports15 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports15']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Transaction Activity Report' or . = 'Transaction Activity Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports15 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2a5aff11-978e-4cad-9d97-db8ae1760043</webElementGuid>
+      <webElementGuid>55ec4856-c029-4928-a8fb-79f56a841244</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>c0fca94c-b42d-405c-ba56-2077a98bfceb</webElementGuid>
+      <webElementGuid>bc62f1e5-f4ec-44e9-abec-668455d0e557</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>c202cbf3-17db-4e6c-9f88-0c55a9bec678</webElementGuid>
+      <webElementGuid>0909d415-45eb-43d8-839a-18312f6f6b0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/dailyact.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>9bcbb6b9-7834-425b-9a56-c04c3977802e</webElementGuid>
+      <webElementGuid>73a1bb18-73f6-4721-baed-93e9cfea8f0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>3d19cb32-c828-4fef-86d8-1f0465a1ed6d</webElementGuid>
+      <webElementGuid>b30caba4-6643-4b9a-a03a-4c69266dcdb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View daily activity report for a given time period.</value>
-      <webElementGuid>6ddaa539-8e05-4fe7-855e-481335187a30</webElementGuid>
+      <webElementGuid>8776c7f5-8ae7-4c9e-9a7b-11a419354057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip133556</value>
-      <webElementGuid>7e7be70b-49e0-4c48-8fc8-ebdec66857b2</webElementGuid>
+      <webElementGuid>c15709a5-e198-4381-bb49-4aed91253f86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transaction Activity Report</value>
-      <webElementGuid>eca06f9b-d3aa-47d7-80ec-f87f9f6eb03c</webElementGuid>
+      <webElementGuid>4fff8ef8-51cd-49fa-802e-b937f8d25e8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports15&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>e7931b34-b880-423f-b94e-874477dfb9cd</webElementGuid>
+      <webElementGuid>4d526aaf-a362-47b4-87ef-32616db8de8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports15']/div/a</value>
-      <webElementGuid>07bd1f9a-b1f0-49ef-b867-fe3883da9194</webElementGuid>
+      <webElementGuid>128ba4c6-6738-4bf3-bc67-4138a3bfdf2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Transaction Activity Report')]</value>
-      <webElementGuid>f60b7399-e9ac-4e82-8950-f7ba9184678f</webElementGuid>
+      <webElementGuid>f7f8cafe-d965-41bd-90cb-dd51ffe614af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settlement Batch Activity Report'])[1]/following::a[1]</value>
-      <webElementGuid>98e219a5-78e2-4ef4-8416-230ec3e6c31a</webElementGuid>
+      <webElementGuid>dda06438-be6d-4923-bbd5-79058dbc3a11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Scheduled Payments Report'])[1]/following::a[2]</value>
-      <webElementGuid>f4e43783-ce74-4319-a944-aeed43b4422d</webElementGuid>
+      <webElementGuid>6a839ca1-6ca3-4faa-9224-12a6796f7d98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Summary Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>eef4fd30-6222-4834-a9e3-e794af0d0e37</webElementGuid>
+      <webElementGuid>0d2180aa-01c0-47a6-99b0-654b3d034c0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Real Time Monitor Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>181dad9d-fa18-4a08-b118-f802a923f9ab</webElementGuid>
+      <webElementGuid>7e28cb49-3cdd-4cf8-a206-4a7d3825db9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Transaction Activity Report']/parent::*</value>
-      <webElementGuid>847af222-2e52-457b-a1dd-9ef87407e692</webElementGuid>
+      <webElementGuid>0bd7cd7c-147c-4677-bbac-e69c22e74913</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/dailyact.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>536cc424-494e-4a82-bfaf-6a5110d8f921</webElementGuid>
+      <webElementGuid>250af3af-6202-417a-8f39-349effa4cc2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[19]/div/a</value>
-      <webElementGuid>ca76acef-114d-4efc-929c-572359b32037</webElementGuid>
+      <webElementGuid>93849bdb-91ac-417d-b820-a3d39f8cd344</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/dailyact.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Transaction Activity Report' or . = 'Transaction Activity Report')]</value>
-      <webElementGuid>f0a2c0a9-e3e0-4a50-b1cd-8b9d6fd2a80e</webElementGuid>
+      <webElementGuid>fea96853-90df-43c0-957a-9fca76d83096</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

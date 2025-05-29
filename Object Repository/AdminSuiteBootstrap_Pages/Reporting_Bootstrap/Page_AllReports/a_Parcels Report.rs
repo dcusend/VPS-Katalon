@@ -6,12 +6,16 @@
    <elementGuidId>d6d92d54-d7bf-4dbd-9776-df2fa9812528</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports17 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports17']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Parcels Report' or . = 'Parcels Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports17 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>657da694-f848-43f6-b262-c4bf42ce4122</webElementGuid>
+      <webElementGuid>cac6db90-392c-4e89-b39b-08bc7b15f0b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>d41a1a22-df21-4a83-960f-63d894a854cf</webElementGuid>
+      <webElementGuid>f7cca1d0-6e52-410d-bb00-463599b9a43a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>bae669d6-893e-4a3f-95f1-b3da512fddb0</webElementGuid>
+      <webElementGuid>280a0ba8-f411-4b46-b5ac-208b2e2ff67a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/parcels.do?&amp;reset=true&amp;actionType=all</value>
-      <webElementGuid>8d8fcd68-3493-43fa-bf2b-2b99016c64fc</webElementGuid>
+      <webElementGuid>7effa29c-d8b8-41f0-b121-7f47907468e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>52220d50-abc2-4f74-a97a-0662002aa0d2</webElementGuid>
+      <webElementGuid>69833be0-8d5f-4fdb-85a4-c2661f2ffec6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View parcels information related to transactions that were processed for a given time period.</value>
-      <webElementGuid>31a59dd2-b774-47d9-9ef0-45ea93169c43</webElementGuid>
+      <webElementGuid>6b09d347-97a9-4236-ae5c-aaab2a78c0fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip863122</value>
-      <webElementGuid>4df360e4-b6ca-4d6f-b7c6-135951b11b57</webElementGuid>
+      <webElementGuid>d0cc734e-1ae0-4f61-85e2-7448bf987cb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Parcels Report</value>
-      <webElementGuid>6875b482-ed9e-47db-bbf2-76e232aeca50</webElementGuid>
+      <webElementGuid>6f25b134-8237-4af1-b8cf-7fb9bae9a953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports17&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>55cfdad7-0fcb-403b-a850-d0f06f263b91</webElementGuid>
+      <webElementGuid>53929c87-1887-4309-bd3c-87227e7ea4e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports17']/div/a</value>
-      <webElementGuid>c68cdf9b-f8b3-4f04-8237-c19dd7abbd66</webElementGuid>
+      <webElementGuid>b4d55e1b-80d8-4f8a-ab7e-e44cf46371a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Parcels Report')]</value>
-      <webElementGuid>e72fa95e-51f0-42d9-b9b1-e834116e94fd</webElementGuid>
+      <webElementGuid>ce032952-4838-4c33-9329-2a00727b83dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Check Returns Report'])[1]/following::a[1]</value>
-      <webElementGuid>991a6775-fe96-4503-9c07-27bdc5aff9a8</webElementGuid>
+      <webElementGuid>7c071f7c-1f7c-470a-b399-19b16f0215c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='File Upload Report'])[1]/following::a[2]</value>
-      <webElementGuid>39db01d6-5dc8-4dfa-8db4-b1ae587ae8ca</webElementGuid>
+      <webElementGuid>8d552970-801a-4c23-be88-549b49b86913</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Account Activity Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>4c91a03e-489c-4123-a9d7-a6f88127be4b</webElementGuid>
+      <webElementGuid>85757846-ab2f-4aaa-8ebd-8ff397a01827</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Tender Activity Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>9351302c-a438-4ae8-95fe-60f447b36e60</webElementGuid>
+      <webElementGuid>8994c7e1-a8a9-4ffe-9c33-e4805b9a9935</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Parcels Report']/parent::*</value>
-      <webElementGuid>f2360da6-bad8-47e6-9a33-c7f928866516</webElementGuid>
+      <webElementGuid>c6ea35a1-91af-42a9-9a2c-6103620404e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/parcels.do?&amp;reset=true&amp;actionType=all')]</value>
-      <webElementGuid>960d1268-28ec-450f-916d-b8fadd006f07</webElementGuid>
+      <webElementGuid>66bc56f1-6147-4139-a29d-1726c7ec7be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[12]/div/a</value>
-      <webElementGuid>5f3e865f-251e-4f7a-8584-d6d5b0d71873</webElementGuid>
+      <webElementGuid>f441a06e-84fb-4f21-808f-1d4eea2e0a67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/parcels.do?&amp;reset=true&amp;actionType=all' and (text() = 'Parcels Report' or . = 'Parcels Report')]</value>
-      <webElementGuid>939c6309-4539-476e-b616-741d14745a10</webElementGuid>
+      <webElementGuid>aa923a86-ceff-4036-a683-94df56779fd9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

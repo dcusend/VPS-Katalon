@@ -6,12 +6,15 @@
    <elementGuidId>03f7e2fd-7ca5-48c0-a057-38581288a033</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//tbody[@id='loadUser']/tr[4]/td[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '[aindurkar]' or . = '[aindurkar]')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,15 +32,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6d26b873-3c27-4fec-8e36-01e374b4fb90</webElementGuid>
+      <webElementGuid>6a9e2c75-ed22-460f-8105-498b16582871</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vadministrator/users/view.do?uid=55271</value>
-      <webElementGuid>8afb6484-3c89-477f-9667-a6eca452da01</webElementGuid>
+      <webElementGuid>cf40e99f-1f8f-407e-9912-b4513c173399</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>[aindurkar]</value>
-      <webElementGuid>8be73112-1c1b-4628-af83-f964a6820653</webElementGuid>
+      <webElementGuid>72e0b07d-08c7-47f1-8f24-038a49dc6ea0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loadUser&quot;)/tr[@class=&quot;even table_bg&quot;]/td[2]/a[1]</value>
-      <webElementGuid>93c3e98a-0475-493c-a272-8f3da6bbc55e</webElementGuid>
+      <webElementGuid>1358de9a-29b9-42a8-9676-9b29eaad39fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tbody[@id='loadUser']/tr[4]/td[2]/a</value>
-      <webElementGuid>00a61961-b1e9-4eea-93b9-84c85153a3a5</webElementGuid>
+      <webElementGuid>675f658e-0e43-4e98-9059-a6fd8cfc63e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'[aindurkar]')]</value>
-      <webElementGuid>a042f189-7b6b-49fd-84e8-0bbeb07b79c3</webElementGuid>
+      <webElementGuid>e25a330d-9b67-468c-9c78-e8adca640d57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ashwity Indurkar'])[1]/following::a[1]</value>
-      <webElementGuid>009713c7-6324-4330-8380-504e49459493</webElementGuid>
+      <webElementGuid>2d53298e-46ea-4263-ab90-99ae831ec67c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='[Aashu]'])[1]/following::a[1]</value>
-      <webElementGuid>623dd238-9291-41e7-b934-9197ebc296e8</webElementGuid>
+      <webElementGuid>6b8c8b6f-8c0a-4191-9f74-a89a08497e86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aurora W'])[1]/preceding::a[1]</value>
-      <webElementGuid>e42ee4b0-4997-4fe0-b2be-855992356147</webElementGuid>
+      <webElementGuid>2acd5699-ba18-40d1-a04a-65c405f98c53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='[Runaway]'])[1]/preceding::a[1]</value>
-      <webElementGuid>6b51a99d-d38e-41ce-800d-9e4330f3cf4d</webElementGuid>
+      <webElementGuid>80248963-0b8d-48fb-90ae-a4daa1e909cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='[aindurkar]']/parent::*</value>
-      <webElementGuid>f7d32b8e-8bf6-46b1-866f-dc2a379ed150</webElementGuid>
+      <webElementGuid>c68cc1d3-b5f3-47a6-a1f3-fe8092cda26c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +120,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vadministrator/users/view.do?uid=55271')]</value>
-      <webElementGuid>6202c2ec-f1f7-4586-872a-4b48bd34787c</webElementGuid>
+      <webElementGuid>bdc515b0-97af-4185-b1ac-f42f8bbc92cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +128,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[2]/a</value>
-      <webElementGuid>adb5aef5-0147-4dfd-8f14-90111e6d7fcf</webElementGuid>
+      <webElementGuid>6abc4f30-2ec3-4407-a187-18e984abb361</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +136,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vadministrator/users/view.do?uid=55271' and (text() = '[aindurkar]' or . = '[aindurkar]')]</value>
-      <webElementGuid>8150ccf3-3a7c-4f50-8a2a-d9add442e97f</webElementGuid>
+      <webElementGuid>1f0c5ba6-e040-492f-b76d-01cdcf88c32d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

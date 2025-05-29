@@ -121,10 +121,7 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						// Verify Role was not found
 						WebUI.verifyTextPresent('No roles with the name', true)
-						
-						
-						
-						
+											
 					}
 					else
 					{

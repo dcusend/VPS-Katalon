@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VRelayPayByCorp</name>
+   <name>VRelayPayByCC-3.0</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>569e3249-5f1b-486a-8896-ba1913a072b5</testCaseGuid>
+   <testCaseGuid>54fd0f10-c71c-41f8-93d9-e509da971bf5</testCaseGuid>
 </TestCaseEntity>

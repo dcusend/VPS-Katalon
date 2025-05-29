@@ -6,12 +6,16 @@
    <elementGuidId>25221371-c624-43e5-a480-a7d28ef84bcf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports12 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports12']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'QuickBooks Integration' or . = 'QuickBooks Integration')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports12 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>53389e05-c7f6-4bbe-be27-82c6757fbe45</webElementGuid>
+      <webElementGuid>8c80ddc7-33b9-4d4e-8d1d-09e640a702d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>525e6a27-9acf-4127-b66f-4abfeb172aea</webElementGuid>
+      <webElementGuid>e864c219-c943-45ff-acba-47de91addeb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>f17ab58b-6b24-4397-b8b6-47f5117a2a4e</webElementGuid>
+      <webElementGuid>388c30bb-4941-4379-bda4-a114011d313a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk&amp;reset=true&amp;actionType=all</value>
-      <webElementGuid>c5c7c82a-382e-4613-aa85-3150c997fe11</webElementGuid>
+      <webElementGuid>39d47242-e8e8-4b0c-8975-47687bd83dae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>bea9c0d7-c148-449f-b0dd-d9f17b52a26f</webElementGuid>
+      <webElementGuid>7690f91a-8570-475f-90b4-c9e6580e4568</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>Import Velocity transactions into your QuickBooks software.</value>
-      <webElementGuid>858f5f52-22ed-48d0-8519-f3aa5e6aad1d</webElementGuid>
+      <webElementGuid>740749b2-70eb-409d-8a4b-ecacba9007b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip866764</value>
-      <webElementGuid>a53f7135-f972-4cf9-893c-3ac6d9d15b4b</webElementGuid>
+      <webElementGuid>ef27fcff-0920-4597-9957-b4a7686cdf37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>QuickBooks Integration</value>
-      <webElementGuid>669d01f7-da22-4bb5-88c8-533e01b5dbac</webElementGuid>
+      <webElementGuid>8ecccc63-c21e-4397-a56d-6f86926fec2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports12&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>058bf160-dbf7-4634-a263-4e1bfd94a3b4</webElementGuid>
+      <webElementGuid>9014f519-0bdd-42f7-9fc3-ab0ed33e267f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports12']/div/a</value>
-      <webElementGuid>6dbbf93b-bb3e-43a3-8ed6-e07508574c6d</webElementGuid>
+      <webElementGuid>3b9841ab-b0f6-47a7-a6ef-39b5b183e4e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'QuickBooks Integration')]</value>
-      <webElementGuid>156d6430-4c7f-4705-a439-76251dcdf492</webElementGuid>
+      <webElementGuid>9ad20417-2c31-44bb-b2f3-755e0b4fdebb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Posting File Report'])[1]/following::a[1]</value>
-      <webElementGuid>eb349463-a934-447e-8eed-aefe0e865655</webElementGuid>
+      <webElementGuid>c4da9f8d-5ff5-445f-8013-6fabe257c5b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Tender Activity Report'])[1]/following::a[2]</value>
-      <webElementGuid>5a965112-0d15-4867-94a6-45513197ef2f</webElementGuid>
+      <webElementGuid>8b632181-585f-4fd1-a1dd-9cc81b6680d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role History Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>84585b86-e655-431c-adfe-6455aaa0b95b</webElementGuid>
+      <webElementGuid>95fb2584-11c6-420d-8ec2-d8a14f6fd870</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Scheduled Payments Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>537d53fe-e778-45ef-84f2-6abca8a44179</webElementGuid>
+      <webElementGuid>95d7aed0-7af6-4c39-b193-07e73974007d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='QuickBooks Integration']/parent::*</value>
-      <webElementGuid>aee9558f-5bc0-4dce-9a09-4b4c77919fd2</webElementGuid>
+      <webElementGuid>b21f7e56-e10e-4646-8697-0cf44c6dcb6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk&amp;reset=true&amp;actionType=all')]</value>
-      <webElementGuid>4c1b9368-7679-4b72-96c6-7580b78e068b</webElementGuid>
+      <webElementGuid>2223371b-c69c-4748-a1dc-b7b5f59d598c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[16]/div/a</value>
-      <webElementGuid>8ac298a9-a595-4401-8676-3914d3972860</webElementGuid>
+      <webElementGuid>7a8977f7-0751-4220-b378-28998b508b32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk&amp;reset=true&amp;actionType=all' and (text() = 'QuickBooks Integration' or . = 'QuickBooks Integration')]</value>
-      <webElementGuid>f6f00014-43e5-42aa-a6de-e1169fd5d33e</webElementGuid>
+      <webElementGuid>e403715a-0835-4358-b0fa-14bc0867f89b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

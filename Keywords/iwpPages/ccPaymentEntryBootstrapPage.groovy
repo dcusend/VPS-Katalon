@@ -411,9 +411,9 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	// placeholder for selecting Exit button
-	
-	
-	
+
+
+
 	@Keyword
 	def getDataCCPMEF(int rowM, dataFileM) {
 
@@ -501,9 +501,9 @@ public class ccPaymentEntryBootstrapPage {
 		email = dataFileM.getValue('Email', rowM)
 
 		println(email)
-		
+
 		appID = dataFileM.getValue('AppID', rowM)
-		
+
 		println(appID)
 	}
 
@@ -516,7 +516,7 @@ public class ccPaymentEntryBootstrapPage {
 		if(datafile_class.contains('com.kms.katalon.core.testdata.reader.SheetPOI')) {
 			this.getDataCCPMEF(rowS, dataFileS)
 		}
-		
+
 		// Verify if we are on Credit Card Payment Entry page and populate the page
 
 		if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Name'), 30)) {
@@ -607,8 +607,8 @@ public class ccPaymentEntryBootstrapPage {
 
 
 
-			if( appID == '920' || appID == '921') {
-	
+			if( appID == '920' || appID == '921' || appID == '936' || appID == '938'  || appID == '941' || appID == '942' || appID == '943' || appID == '944') {
+
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),30)) {
 					if ((!cardNumber.isEmpty())) {
 						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),cardNumber)
@@ -620,17 +620,16 @@ public class ccPaymentEntryBootstrapPage {
 				else {
 					println("Card Number field is missing on CC Payment Entry page")
 				}
-				
+
 				if ((!cvv.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/SPC'),cvv)
 				}
 				else {
 					println("CCSPC is not present in the Excel Spreadsheet")
 				}
-			
 			}
-			else if(appID == '914' || appID == '915') {
-			
+			else if(appID == '914' || appID == '915' || appID == '937' || appID == '939' || appID == '940') {
+
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input__password_cardNumber'),30)) {
 					if ((!cardNumber.isEmpty())) {
 						WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input__password_cardNumber'),cardNumber)
@@ -642,22 +641,22 @@ public class ccPaymentEntryBootstrapPage {
 				else {
 					println("Card Number field is missing on CC Payment Entry page")
 				}
-				
+
 				Thread.sleep(1000)
-				
+
 				if ((!cvv.isEmpty())) {
 					WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input__password_spc'),cvv)
 				}
 				else {
 					println("CCSPC is not present in the Excel Spreadsheet")
 				}
-				
+
 				Thread.sleep(2000)
 			}
-			
+
 
 			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/SPC'),30)) {
-		
+
 			//			}
 			//			else {
 			//				println("SPC field is missing on CC Payment Entry page")
@@ -765,8 +764,8 @@ public class ccPaymentEntryBootstrapPage {
 			}
 
 
-			if( appID == '914' || appID == '915') {
-				
+			if( appID == '914' || appID == '915' ||  appID == '937' || appID == '939' ||  appID == '941') {
+
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/TermCondCheckBox'),30)) {
 					WebUI.check(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/TermCondCheckBox'))
 				}
@@ -790,7 +789,6 @@ public class ccPaymentEntryBootstrapPage {
 			println("Not on Credit Card Payment Entry Page")
 		}
 	}
-
 }
 
 
