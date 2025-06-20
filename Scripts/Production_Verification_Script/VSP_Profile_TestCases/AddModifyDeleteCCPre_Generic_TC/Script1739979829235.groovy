@@ -51,7 +51,7 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData\\Bootstrap\\VSP-Data-Prod.xlsx"
-def numOfRows, dataFile, nameSheet
+def numOfRows, dataFile, nameSheet, ExecuteTC
 
 
 	
@@ -67,11 +67,27 @@ def numOfRows, dataFile, nameSheet
 	for (def row = 1; row <= numOfRows; row++)
 		{
 		
-			ExecuteTC = dataFile.getValue('Execute', row)
-			System.out.println('Value of Execute is : ' + ExecuteTC)
+			if(executionProfile == 'Production' || executionProfile == 'Upgrade') {		
+				appName = dataFile.getValue('AppNameProd', row)
+				appID   = dataFile.getValue('AppIDProd', row)
+				
+				ExecuteTC = dataFile.getValue('ExecuteProd', row)
+				resColumn = 'ResultProd'
+				datColumn = 'DateProd'
+				
+				System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
+				else if(executionProfile == 'DemoProfile') {
+					appName = dataFile.getValue('AppNameDemo', row)
+					appID   = dataFile.getValue('AppIDDemo', row)
+					
+					ExecuteTC = dataFile.getValue('ExecuteDemo', row)
+					resColumn = 'ResultDemo'
+					datColumn = 'DateDemo'
+					
+					System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
 			
-			appName = dataFile.getValue('AppNameProd', row)
-			appID   = dataFile.getValue('AppIDProd', row)
 			
 						
 			if (ExecuteTC.equalsIgnoreCase("Y"))

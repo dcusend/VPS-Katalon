@@ -4,7 +4,14 @@
    <name>PayByPersonalCheck</name>
    <tag></tag>
    <elementGuidId>619c61bb-a4da-42d0-b98d-f134c0761c52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @name = 'paymentMethod' and @alt = 'Pay by Personal Check']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -12,6 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>2d2991bf-ab63-4dde-869a-9d09b3e647b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -19,6 +27,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
+      <webElementGuid>65546405-e499-4c01-b783-e6b7cfd2f4e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +35,7 @@
       <name>name</name>
       <type>Main</type>
       <value>paymentMethod</value>
+      <webElementGuid>af3c01ac-de2a-4532-a346-a1c37d54caeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +43,7 @@
       <name>value</name>
       <type>Main</type>
       <value>P</value>
+      <webElementGuid>b9f8f89f-dca8-46fb-a292-988c2d3c653f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +51,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Pay by Personal Check</value>
+      <webElementGuid>f22b88f2-fc67-47bb-99b3-c22d0686a1f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>payor_opt</value>
+      <webElementGuid>9f2a03eb-4924-4566-a3a0-ab63c537f5d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +67,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>selectPayMethod(this.value)</value>
+      <webElementGuid>0b95f856-b18b-4394-aa4f-fb608cc1fd26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;selectForm&quot;)/table[1]/tbody[1]/tr[2]/td[2]/input[@class=&quot;payor_opt&quot;]</value>
+      <webElementGuid>000be43f-e4f9-460b-b26a-67cdaeee15bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,6 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='paymentMethod'])[2]</value>
+      <webElementGuid>6651169e-c14e-4386-aff7-aa01c7732627</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='selectForm']/table/tbody/tr[2]/td[2]/input[2]</value>
+      <webElementGuid>0c8ce09f-39d0-4278-ac97-22e1e0310d08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,5 +99,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[2]</value>
+      <webElementGuid>729e916e-134a-4a46-a975-d685b4e3df49</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

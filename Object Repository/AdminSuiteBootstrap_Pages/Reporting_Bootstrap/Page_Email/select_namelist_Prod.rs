@@ -6,16 +6,15 @@
    <elementGuidId>a3dff507-91c4-46e4-8cbe-cbbd1e4a6796</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'availableEmailTos' and @id = 'lstBox1']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//select[@id='lstBox1'])[3]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'availableEmailTos']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>336a66f5-aaf9-4467-bd2e-693dd68600d8</webElementGuid>
+      <webElementGuid>b6a57710-5fb6-40c6-83e7-1046fc1361a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +40,7 @@
       <name>name</name>
       <type>Main</type>
       <value>availableEmailTos</value>
-      <webElementGuid>2314d21d-ccf7-44ea-874a-68f67e23993f</webElementGuid>
+      <webElementGuid>e7554184-7310-4349-9e46-51f6cdec68cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,15 +48,15 @@
       <name>multiple</name>
       <type>Main</type>
       <value>multiple</value>
-      <webElementGuid>b29a9345-3635-47cf-bc21-f586ab9ee8e3</webElementGuid>
+      <webElementGuid>df5811f3-e09f-4137-9f9f-ad2a8d2ed2a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>lstBox1</value>
-      <webElementGuid>0465960a-efcd-4906-825b-8a5d2e219fb6</webElementGuid>
+      <webElementGuid>ed99b9f4-fcd8-4847-81a6-38cc7520dc98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +64,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>bc55484a-10c1-4f77-9dbd-dc4ce0f742e8</webElementGuid>
+      <webElementGuid>269aa789-4e66-49b4-bfd9-e1e3ed4891ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +72,7 @@
       <name>ondblclick</name>
       <type>Main</type>
       <value>moveSelectedOptions(this.form['availableEmailTos'],this.form['emailTos']);</value>
-      <webElementGuid>63e0aeb0-9fbe-4d0d-bba6-f73cc0c24df5</webElementGuid>
+      <webElementGuid>113f0df1-1c0e-476c-bf19-11203300bef0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +80,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ALICE Wonderland(Aice)Apple IOS(Apple16)Ashu I(Aashu)Ashwity Indurkar(aindurkar)Aurora W(Runaway)AutoUser UserProd(AutoUserProd)Ayesha Kowkab(akowkab2)Case user(CASEuser)FairyQueen Mother(Queen)Jason Bergeron(jasonb)Lance Klusener(Lance60)ModFName ModLName(ToBeModUser)Moh Asif(Asif1)Rahul Dravid(Wall)Roger Federer(federer)Sesame Chawal(Seasame5321)Shane Warne(Warne1000)Susmitha Anganagari(Susmitha1)Viru Sehwag(Sehwag300)change password(changepassword)hack jack(hak20)haris ahmed(hahmed)hi wi(huy12)isat faction(isat)jake blak(jake80)pavneet kaur(pkaur)test dummy(test_dummy)zing 2(Zing)</value>
-      <webElementGuid>7b30ed8c-e21b-4852-b5b0-bd3378179624</webElementGuid>
+      <webElementGuid>8a7447ad-323d-4c70-81b0-88a6422cacd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +88,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ReportSubscriptionActionForm&quot;)/div[@class=&quot;tile-body&quot;]/div[@class=&quot;px-3&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;row m-0 mt-3&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12  col-ms-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;tile w-100 p-0&quot;]/div[@class=&quot;tile-body p-3&quot;]/div[@class=&quot;subject-info-box-1&quot;]/select[@id=&quot;lstBox1&quot;]</value>
-      <webElementGuid>ceab4055-7e3a-4d9a-a774-01f816c490e5</webElementGuid>
+      <webElementGuid>42c6fb12-ab5a-4923-a89f-ec70e0ca81bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -97,7 +96,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//select[@id='lstBox1'])[3]</value>
-      <webElementGuid>ffa8f93d-7871-4417-af92-327f7575b716</webElementGuid>
+      <webElementGuid>16d76e38-7535-4184-bfef-2e14501651a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +104,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='ReportSubscriptionActionForm']/div/div/div/div/div/div[5]/div[2]/div/div/div/div[2]/div/select</value>
-      <webElementGuid>d6d9ef45-9f18-4f56-936e-3518f0bacd0d</webElementGuid>
+      <webElementGuid>1c797c0e-01de-45fe-a654-0ba16cb3c59e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Available :'])[3]/following::select[1]</value>
-      <webElementGuid>54bb1656-e847-4507-8227-26a87623b7ef</webElementGuid>
+      <webElementGuid>08f9387e-1b16-41ed-901f-320989ce2c6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Email Address List'])[1]/following::select[1]</value>
-      <webElementGuid>de495f94-1e14-4b08-b0b2-5af9555de8cc</webElementGuid>
+      <webElementGuid>9fdb7edd-c5e4-48b5-a403-7426f0307da0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Selected :'])[3]/preceding::select[1]</value>
-      <webElementGuid>f8f9cab9-6ff6-46ef-9551-bdc5f6d855f1</webElementGuid>
+      <webElementGuid>bb416959-5a97-4517-b2fe-eca551c9eddb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +136,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div/div/div[2]/div/select</value>
-      <webElementGuid>33debc68-3191-4c4f-bb1b-5fd4c75ec513</webElementGuid>
+      <webElementGuid>c76319a7-4552-48d9-b844-1b4b151a75f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,6 +144,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'availableEmailTos' and @id = 'lstBox1' and (text() = 'ALICE Wonderland(Aice)Apple IOS(Apple16)Ashu I(Aashu)Ashwity Indurkar(aindurkar)Aurora W(Runaway)AutoUser UserProd(AutoUserProd)Ayesha Kowkab(akowkab2)Case user(CASEuser)FairyQueen Mother(Queen)Jason Bergeron(jasonb)Lance Klusener(Lance60)ModFName ModLName(ToBeModUser)Moh Asif(Asif1)Rahul Dravid(Wall)Roger Federer(federer)Sesame Chawal(Seasame5321)Shane Warne(Warne1000)Susmitha Anganagari(Susmitha1)Viru Sehwag(Sehwag300)change password(changepassword)hack jack(hak20)haris ahmed(hahmed)hi wi(huy12)isat faction(isat)jake blak(jake80)pavneet kaur(pkaur)test dummy(test_dummy)zing 2(Zing)' or . = 'ALICE Wonderland(Aice)Apple IOS(Apple16)Ashu I(Aashu)Ashwity Indurkar(aindurkar)Aurora W(Runaway)AutoUser UserProd(AutoUserProd)Ayesha Kowkab(akowkab2)Case user(CASEuser)FairyQueen Mother(Queen)Jason Bergeron(jasonb)Lance Klusener(Lance60)ModFName ModLName(ToBeModUser)Moh Asif(Asif1)Rahul Dravid(Wall)Roger Federer(federer)Sesame Chawal(Seasame5321)Shane Warne(Warne1000)Susmitha Anganagari(Susmitha1)Viru Sehwag(Sehwag300)change password(changepassword)hack jack(hak20)haris ahmed(hahmed)hi wi(huy12)isat faction(isat)jake blak(jake80)pavneet kaur(pkaur)test dummy(test_dummy)zing 2(Zing)')]</value>
-      <webElementGuid>1d013964-9599-430b-9a2f-a41d921d0db4</webElementGuid>
+      <webElementGuid>3308f2fb-38b8-4280-9e47-0eb81f638100</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

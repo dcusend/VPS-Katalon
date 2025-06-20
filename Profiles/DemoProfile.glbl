@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!7777777'</initValue>
+      <initValue>'Hello!8888888'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -73,5 +73,15 @@
       <description></description>
       <initValue>'https://demo.velocitypayment.com/agency/config.do?action=editor'</initValue>
       <name>urlEmulator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'AutoUserDemo'</initValue>
+      <name>AutoUserAdminSuite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hello!88888888'</initValue>
+      <name>AutoPasswordAdminSuite</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

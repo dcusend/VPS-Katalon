@@ -6,12 +6,16 @@
    <elementGuidId>f0d1250d-a83c-4246-82f6-b068760c1131</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports10 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports10']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Payment Tender Activity Report' or . = 'Payment Tender Activity Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports10 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2adeb28f-c995-42ee-89b4-04623888a15c</webElementGuid>
+      <webElementGuid>c6225575-a79e-452e-a348-0261f9e3fe9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>948c1362-0358-46bb-8e4d-f1977b3a94d7</webElementGuid>
+      <webElementGuid>48988bd9-9d6d-432b-a7c6-e74b2e48e648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>e68d9f19-3274-48e2-91f4-a9af554c5287</webElementGuid>
+      <webElementGuid>80ab9dc6-eb1e-4fb0-aa40-88a89dd426b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/pymttender.do?&amp;reset=true&amp;actionType=all</value>
-      <webElementGuid>674ba52e-c5ee-4c53-8b98-56c70e78f770</webElementGuid>
+      <webElementGuid>82a90c69-0ba8-4c60-ac91-d7071d14e990</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>721292e6-16a6-4498-b5e4-2237f85a0913</webElementGuid>
+      <webElementGuid>42f2a9e5-7cc7-4e4f-abf5-86d890f26174</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View and examine the activity for a given payment tender (e.g. credit card number or checking/savings account) to determine what payments have been issued using the given tender.</value>
-      <webElementGuid>a0d6d607-15b4-4489-ab26-6442cb2464fc</webElementGuid>
+      <webElementGuid>ff8b61aa-c32a-4c46-aab7-6deaccb8a07b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip448042</value>
-      <webElementGuid>7384bb72-1d2a-463a-a6f8-ac7f16434047</webElementGuid>
+      <webElementGuid>64c09e75-1233-4acd-a076-60467bf0e128</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Payment Tender Activity Report</value>
-      <webElementGuid>470764e7-d808-4981-acc8-c15a019e5a7e</webElementGuid>
+      <webElementGuid>582ff46f-7d94-4c01-a269-9ba8361daa5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports10&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>42a3aecb-53eb-441b-8bf6-433c485f63ab</webElementGuid>
+      <webElementGuid>2b1d64f6-6cae-4746-a245-513bb20e94fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports10']/div/a</value>
-      <webElementGuid>0addcf0f-45b3-4a3f-b170-265ee6b38d35</webElementGuid>
+      <webElementGuid>35052a43-4802-4979-bd4f-8f9961aaef51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Payment Tender Activity Report')]</value>
-      <webElementGuid>a34c9173-6a6f-4f67-932f-7ab22049da7c</webElementGuid>
+      <webElementGuid>4ff609d4-efe3-49bc-9769-0ba60d8bd2ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Account Activity Report'])[1]/following::a[1]</value>
-      <webElementGuid>5214ee9b-9b11-4ad5-a308-2834f7b53ebe</webElementGuid>
+      <webElementGuid>9b21e1ef-8e16-42d6-b478-4106f9cedac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parcels Report'])[1]/following::a[2]</value>
-      <webElementGuid>f58bf8fa-d64d-40d9-9edb-45a54b91eaf9</webElementGuid>
+      <webElementGuid>184f0e2a-e906-46ec-be6a-249f06cfb4e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Posting File Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>d2f8e90f-c5f6-42ea-943d-3d99d36e3cbe</webElementGuid>
+      <webElementGuid>ddc2a942-37f0-433c-a32b-547a9370a705</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='QuickBooks Integration'])[1]/preceding::a[2]</value>
-      <webElementGuid>e9f6118c-f9a2-4d06-8172-fd79601487c7</webElementGuid>
+      <webElementGuid>816a555f-ee39-4f62-a646-988b97f4aced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Payment Tender Activity Report']/parent::*</value>
-      <webElementGuid>693e4995-eb42-4915-839d-b8588bb60be7</webElementGuid>
+      <webElementGuid>6991d4af-2944-4a4b-a298-3ed00c589104</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/pymttender.do?&amp;reset=true&amp;actionType=all')]</value>
-      <webElementGuid>d0aadd0f-7752-4928-8110-ccda2339596a</webElementGuid>
+      <webElementGuid>6a79c712-b46c-40ea-aa91-c405a5b348c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[14]/div/a</value>
-      <webElementGuid>2dedb0b8-5bf9-451a-a31c-bec289481367</webElementGuid>
+      <webElementGuid>6e68ac7c-deae-46a0-a305-9e0d4d6dad8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/pymttender.do?&amp;reset=true&amp;actionType=all' and (text() = 'Payment Tender Activity Report' or . = 'Payment Tender Activity Report')]</value>
-      <webElementGuid>f84b5cf6-41d9-4136-adcb-11a7607efcff</webElementGuid>
+      <webElementGuid>3ef7edca-80cc-4888-9184-54847649833a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -52,7 +52,7 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData\\Bootstrap\\VSP-Data-Prod.xlsx"
-def numOfRows, dataFile, nameSheet
+def numOfRows, dataFile, nameSheet, ExecuteTC
 
 
 	
@@ -69,11 +69,26 @@ def numOfRows, dataFile, nameSheet
 	for (def row = 1; row <= numOfRows; row++)
 		{
 		
-			ExecuteTC = dataFile.getValue('Execute', row)
-			System.out.println('Value of Execute is : ' + ExecuteTC)
-			
-			appName = dataFile.getValue('AppNameProd', row)
-			appID   = dataFile.getValue('AppIDProd', row)
+			if(executionProfile == 'Production' || executionProfile == 'Upgrade') {		
+				appName = dataFile.getValue('AppNameProd', row)
+				appID   = dataFile.getValue('AppIDProd', row)
+				
+				ExecuteTC = dataFile.getValue('ExecuteProd', row)
+				resColumn = 'ResultProd'
+				datColumn = 'DateProd'
+				
+				System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
+				else if(executionProfile == 'DemoProfile') {
+					appName = dataFile.getValue('AppNameDemo', row)
+					appID   = dataFile.getValue('AppIDDemo', row)
+					
+					ExecuteTC = dataFile.getValue('ExecuteDemo', row)
+					resColumn = 'ResultDemo'
+					datColumn = 'DateDemo'
+					
+					System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
 			
 			if (ExecuteTC.equalsIgnoreCase("Y"))
 				{
@@ -105,6 +120,7 @@ def numOfRows, dataFile, nameSheet
 						
 					// Call the setDataAddACH method to Add an ACH
 						CustomKeywords.'vspBootstrap.AddACHPage.setDataAddACH_EF'(row,dataFile)
+						Thread.sleep(2000)
 						
 			
 					// Verify the Static text and Fields
@@ -117,8 +133,11 @@ def numOfRows, dataFile, nameSheet
 						WebUI.click(findTestObject(path_ViewProfile + 'a_Edit_ACH'))
 						
 					// Change Nickname to Modify ACH
+						Thread.sleep(2000)
 						def nicknameMod = dataFile.getValue('NicknameACHMod', row)
 						WebUI.setText(findTestObject(path_ModifyACH + 'input_nickName'), nicknameMod)
+						Thread.sleep(2000)
+						
 						WebUI.click(findTestObject(path_ModifyACH + 'button_Modify'))
 						
 					// Verify Static text

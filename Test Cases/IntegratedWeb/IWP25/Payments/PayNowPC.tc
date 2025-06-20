@@ -4,5 +4,6 @@
    <name>PayNowPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7ff74ca0-2c64-4346-ad55-d096774d588b</testCaseGuid>
 </TestCaseEntity>

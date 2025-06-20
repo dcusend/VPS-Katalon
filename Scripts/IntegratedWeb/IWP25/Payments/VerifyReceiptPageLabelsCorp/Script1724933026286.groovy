@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testdata.reader.ExcelFactory as ExcelFactory
+
 
 
 String resText = "Fail"
@@ -86,7 +88,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
-					Thread.sleep(5000)
+					Thread.sleep(6000)
 						if(WebUI.verifyTextPresent("Make a Real Estate Payment", false)) {
 							isRequiredTextPresent = true
 							println(isRequiredTextPresent)

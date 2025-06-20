@@ -10,6 +10,10 @@
          <value>//form[@id='ReportSubscriptionActionForm']/div/div/div/div/div[2]/table/tbody/tr[2]/td[2]/a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ReportSubscriptionActionForm&quot;)/div[@class=&quot;tile-body&quot;]/div[@class=&quot;px-3&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/table[@class=&quot;table table-hover table-bordered dataTable no-footer&quot;]/tbody[1]/tr[@class=&quot;results-td-even&quot;]/td[2]/a[@class=&quot;btn btn-primary&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.btn.btn-primary</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2b9033dc-85b8-48c4-903f-ad401f8010fe</webElementGuid>
+      <webElementGuid>97a1067c-ef44-422b-b8fa-30bf1cd0466a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,31 +41,31 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>ec972fd4-d045-4e60-b01c-57c2817d314f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>javascript: getReportSubscription(1739);</value>
-      <webElementGuid>ebc26ec5-8e9e-4572-aa4d-cd62d9fb755f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Modify</value>
-      <webElementGuid>b24e8c40-e493-4765-88ea-9fd6b0b6ebdd</webElementGuid>
+      <webElementGuid>4445ab8c-92de-4503-96f7-a1400aa625b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript: getReportSubscription(1739);</value>
+      <webElementGuid>3059c4d2-73b4-46be-a768-cf846b36217e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Modify</value>
+      <webElementGuid>3d899836-6a8d-4a4e-8eb7-bb287ac0041b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ReportSubscriptionActionForm&quot;)/div[@class=&quot;tile-body&quot;]/div[@class=&quot;px-3&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/table[@class=&quot;table table-hover table-bordered dataTable no-footer&quot;]/tbody[1]/tr[@class=&quot;results-td-even&quot;]/td[2]/a[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>cc44a8bf-c5eb-4f8e-97dc-0e164ce7955d</webElementGuid>
+      <webElementGuid>6f15ef28-a78f-4286-8497-7ed45b0a7f21</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='ReportSubscriptionActionForm']/div/div/div/div/div[2]/table/tbody/tr[2]/td[2]/a</value>
-      <webElementGuid>e9714606-eb5a-42fd-9a76-a183447eb779</webElementGuid>
+      <webElementGuid>c780af5f-3e94-4120-94cf-80d8f620f35e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Modify')]</value>
-      <webElementGuid>32ff17f5-5038-46c9-b31e-7a74f451fe6f</webElementGuid>
+      <webElementGuid>c60750ed-49dc-46b7-86e1-d33ec8da1602</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ESR by TT Modified again'])[1]/following::a[1]</value>
-      <webElementGuid>07b61457-d8ae-4026-a7ad-d62783d01849</webElementGuid>
+      <webElementGuid>eaa3d3ea-ec17-4a5d-8e10-8e5ea0101df2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Subscription'])[1]/following::a[1]</value>
-      <webElementGuid>0abc0464-5824-4cce-8251-07d8300caf5d</webElementGuid>
+      <webElementGuid>a7ddf2ef-4253-4f87-bc3c-b410b651de97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::a[1]</value>
-      <webElementGuid>22899874-6489-4b4c-ab3c-f352156f4fa2</webElementGuid>
+      <webElementGuid>22f78aae-1493-468f-b11b-493eddd5f238</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::a[2]</value>
-      <webElementGuid>1c159a09-a30a-4a8d-91f9-0efea032fb8b</webElementGuid>
+      <webElementGuid>eac776a8-6436-4a03-969c-6266d26192c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Modify']/parent::*</value>
-      <webElementGuid>c369e209-05d2-42cb-8425-d5f245bdee3d</webElementGuid>
+      <webElementGuid>9ddab773-33f1-4f5a-a846-8b217db7c5a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript: getReportSubscription(1739);')]</value>
-      <webElementGuid>fa5acd26-0de0-465a-bc0d-a431ae311391</webElementGuid>
+      <webElementGuid>d4e64e48-73d8-49c3-9736-448583f784bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/a</value>
-      <webElementGuid>eaafd855-b9ad-4a8e-9781-5a27c287a871</webElementGuid>
+      <webElementGuid>2d655e79-90af-46ba-aa3d-e54abc741d97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript: getReportSubscription(1739);' and (text() = 'Modify' or . = 'Modify')]</value>
-      <webElementGuid>c7fd85fc-fd7e-4dee-89e7-66f14b6d1c27</webElementGuid>
+      <webElementGuid>e4a4ba1f-39ea-4c85-aba6-edde76ae372c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

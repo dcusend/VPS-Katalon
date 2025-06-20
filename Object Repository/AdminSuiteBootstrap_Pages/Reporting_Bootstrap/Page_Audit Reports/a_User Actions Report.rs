@@ -6,12 +6,16 @@
    <elementGuidId>2e4e22bd-d797-4bff-bb4d-2a8f62dbeda0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Audit_Reports2 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Audit_Reports2']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'User Actions Report' or . = 'User Actions Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Audit_Reports2 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2894bed6-16df-438c-97ab-c213cffe677d</webElementGuid>
+      <webElementGuid>d517f211-0ade-40a6-a1cd-ab32b7715eea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>ce5c5ce7-f1b3-4f55-bf1f-2e8385e9b62d</webElementGuid>
+      <webElementGuid>833f980e-40bd-4cc4-ae72-1780df026ad2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>dad2c739-1600-4d5d-b13b-7225a415e014</webElementGuid>
+      <webElementGuid>9eb4cfa8-aca8-4c41-8f9d-f54b8b2e00a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/userAuditReports.do?report=useractions&amp;actionType=audit</value>
-      <webElementGuid>56b83cc0-cf5e-4681-b020-4d5cbbff7758</webElementGuid>
+      <webElementGuid>c1a1d869-6c73-4016-8fbb-bf96a1be1946</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>d19e4126-aa7e-4d39-9c5d-a35f50134137</webElementGuid>
+      <webElementGuid>363760e0-4950-493c-86bb-4b77484c0641</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View details of all actions performed within the User Management module by a user, over a given time period.</value>
-      <webElementGuid>05a285b7-4d98-40a2-973b-3142cbd5732f</webElementGuid>
+      <webElementGuid>0f68ce7b-f7a3-4b19-8a7a-a9f64e39e39a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip579744</value>
-      <webElementGuid>947caf5b-ba09-423e-8b32-21f77ee874ce</webElementGuid>
+      <webElementGuid>55515c02-1f08-42a7-87ee-dfec6d41d908</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>User Actions Report</value>
-      <webElementGuid>d47bc3bc-b414-4498-8087-b752ad59e929</webElementGuid>
+      <webElementGuid>237ed0e6-18cc-4f9c-ab7d-494cfba1ec62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Audit_Reports2&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>c56839a8-cf1e-4c12-805b-ccd9642813a7</webElementGuid>
+      <webElementGuid>8ca8d88e-aca2-446d-a962-7c51ef5f15fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Audit_Reports2']/div/a</value>
-      <webElementGuid>2878bcd7-3f46-4fde-84c8-a184bae94c5a</webElementGuid>
+      <webElementGuid>ee5bc711-4bf5-48fc-9d30-6309f3ec4bbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'User Actions Report')]</value>
-      <webElementGuid>7bb94db2-99fc-4687-ae82-7f40fff33334</webElementGuid>
+      <webElementGuid>087cf313-c72d-4336-b2ff-d76facb4e765</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role History Report'])[1]/following::a[1]</value>
-      <webElementGuid>360ab3b6-5a9d-48b9-a980-40cee250efa4</webElementGuid>
+      <webElementGuid>26d42d65-7781-4d51-b8d2-f53547bb5ce1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Risk Management/Audit Reports'])[2]/following::a[2]</value>
-      <webElementGuid>3669c80a-4fa4-4b13-abd3-940edcb7d613</webElementGuid>
+      <webElementGuid>e9ad70f3-31af-49bf-85a5-249119db7f9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User History Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>06fc7afd-d872-478d-a13b-3a4d86930bd8</webElementGuid>
+      <webElementGuid>bb5c8326-3166-45e9-a382-4b54a069782b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='User Actions Report']/parent::*</value>
-      <webElementGuid>d09a14f7-0b51-4144-8369-aef0bd1d68ba</webElementGuid>
+      <webElementGuid>65ab63ae-4be1-45b9-9bdd-6b6a4c2c5b10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/userAuditReports.do?report=useractions&amp;actionType=audit')]</value>
-      <webElementGuid>fce6d620-904d-449d-9ebf-d67b0a678791</webElementGuid>
+      <webElementGuid>37095c5f-aa9c-4329-bccd-029829ebfcc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a</value>
-      <webElementGuid>15780580-6fa0-438b-9533-05f11bb92990</webElementGuid>
+      <webElementGuid>453236f9-56f8-4a33-9d5d-a5d1f6ad601b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +169,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/userAuditReports.do?report=useractions&amp;actionType=audit' and (text() = 'User Actions Report' or . = 'User Actions Report')]</value>
-      <webElementGuid>a9a2a120-a4a6-4dfb-a463-15ce23f87250</webElementGuid>
+      <webElementGuid>9c111e9e-21ac-4bd2-a22a-c4819bff1a4c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

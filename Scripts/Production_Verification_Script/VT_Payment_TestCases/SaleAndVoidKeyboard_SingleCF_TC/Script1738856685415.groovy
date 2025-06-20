@@ -59,7 +59,7 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData\\Bootstrap\\VT-Data-Prod.xlsx"
-def numOfRows, dataFile, nameSheet
+def numOfRows, dataFile, nameSheet, ExecuteTC
 
 	
 	nameSheet = "VT-SaleVoid-SingleCF-Generic"
@@ -74,11 +74,25 @@ def numOfRows, dataFile, nameSheet
 	for (def row = 1; row <= numOfRows; row++)
 		{
 		
-			ExecuteTC = dataFile.getValue('Execute', row)
-			System.out.println('Value of Execute is : ' + ExecuteTC)		
-			
-			appName = dataFile.getValue('AppNameProd', row)
-			appID   = dataFile.getValue('AppIDProd', row)
+			if(executionProfile == 'Production' || executionProfile == 'Upgrade') {		
+				appName = dataFile.getValue('AppNameProd', row)
+				appID   = dataFile.getValue('AppIDProd', row)
+				
+				ExecuteTC = dataFile.getValue('ExecuteProd', row)
+				System.out.println('Value of Execute is : ' + ExecuteTC)				
+				resColumn = 'ResultProd'
+				datColumn = 'DateProd'
+			}
+			else if(executionProfile == 'DemoProfile') {
+				appName = dataFile.getValue('AppNameDemo', row)
+				appID   = dataFile.getValue('AppIDDemo', row)
+				
+				ExecuteTC = dataFile.getValue('ExecuteDemo', row)
+				System.out.println('Value of Execute is : ' + ExecuteTC)
+				
+				resColumn = 'ResultDemo'
+				datColumn = 'DateDemo'
+			}
 			
 			String hrefAppID = li_1 + appID + li_2
 			String hrefApp = li_1 + appID + "/"
@@ -143,8 +157,14 @@ def numOfRows, dataFile, nameSheet
 								WebUI.verifyTextPresent('Transaction Type', true)
 								WebUI.verifyTextPresent('Authorization and Capture', true)
 								WebUI.verifyTextPresent('Transaction Posted by', true)
-								WebUI.verifyTextPresent('AutoUserProd', true)
-						
+														
+								if(executionProfile == 'Production' || executionProfile == 'Upgrade') {								
+									WebUI.verifyTextPresent('AutoUserProd', true)
+								}
+								else if(executionProfile == 'DemoProfile') {
+									WebUI.verifyTextPresent('AutoUserDemo', true)							
+								}
+														
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
 								
 								WebUI.verifyTextPresent('The following transaction will be voided', true)

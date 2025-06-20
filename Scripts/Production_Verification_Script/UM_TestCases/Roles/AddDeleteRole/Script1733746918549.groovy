@@ -38,7 +38,7 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator
+def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
 
 
 nameSheet = "AddDeleteRole"
@@ -53,8 +53,20 @@ println("Number of Records: " + numOfRows)
 for (def row = 1; row <= numOfRows; row++)
 	{
 	
-		ExecuteTC = dataFile.getValue('Execute', row)
-		System.out.println('Value of Execute is : ' + ExecuteTC)
+			if(executionProfile == 'Production' || executionProfile == 'Upgrade') {				
+				ExecuteTC = dataFile.getValue('ExecuteProd', row)
+				resColumn = 'ResultProd'
+				datColumn = 'DateProd'
+				
+				System.out.println('Value of Execute is : ' + ExecuteTC)
+			}
+			else if(executionProfile == 'DemoProfile') {
+					ExecuteTC = dataFile.getValue('ExecuteDemo', row)
+					resColumn = 'ResultDemo'
+					datColumn = 'DateDemo'
+					
+					System.out.println('Value of Execute is : ' + ExecuteTC)
+			}
 		
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{
@@ -109,10 +121,7 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						// Verify Role was not found
 						WebUI.verifyTextPresent('No roles with the name', true)
-						
-						
-						
-						
+											
 					}
 					else
 					{
@@ -124,6 +133,7 @@ for (def row = 1; row <= numOfRows; row++)
 					}
 					
 					
+					WebUI.closeBrowser()
 			}
 			
 			

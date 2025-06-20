@@ -6,12 +6,16 @@
    <elementGuidId>53ca99d5-a823-4f08-bbda-af1d741f6c2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports7 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports7']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'File Upload Report' or . = 'File Upload Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports7 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>07d51a50-6e0a-480c-95a3-1f77965b1cfa</webElementGuid>
+      <webElementGuid>cbd1d03a-c8fd-46b4-8cd1-6c78d1cb5f36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>251ab882-2632-4983-9aea-e93655431203</webElementGuid>
+      <webElementGuid>2709f099-b40d-4fde-a75e-9d439e0b228f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>a3004c4d-23e6-493d-9428-cec2b16544b0</webElementGuid>
+      <webElementGuid>1e0a40b4-5277-446f-a625-601c96e13f85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/quickBooks.do?&amp;reset=true&amp;actionType=all</value>
-      <webElementGuid>3637fe8b-1430-4ba2-89f3-7dfc8520706e</webElementGuid>
+      <webElementGuid>d0e7ae02-043c-4da0-9562-a5d0e8f41145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>b9962806-ae7c-4785-83ee-55f78bf96459</webElementGuid>
+      <webElementGuid>302cd73a-cb38-44ae-b0c7-ccd469c15d78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View bill file upload activity and status for a given time period.</value>
-      <webElementGuid>27060baf-9719-48e2-a99c-d4f3e7253b48</webElementGuid>
+      <webElementGuid>ff669ee8-0c2d-4220-9f43-ff4196ed5d1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip521355</value>
-      <webElementGuid>5b2869e0-431f-477d-84c1-99c064783576</webElementGuid>
+      <webElementGuid>92b5cbae-4d6c-4a2b-aba5-1aad71a014fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>File Upload Report</value>
-      <webElementGuid>d699cb2f-ea37-4622-98a3-64ec8056ac92</webElementGuid>
+      <webElementGuid>51a4f2f2-7f83-4587-b372-67c91f6089ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports7&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>a9b90882-ee2e-459e-b5f8-9bd9215cea94</webElementGuid>
+      <webElementGuid>eee1a9c9-8bfc-4fa5-87f0-f51e9030d43b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports7']/div/a</value>
-      <webElementGuid>b05c4604-3d55-4c4a-bb7e-1ae7bd168910</webElementGuid>
+      <webElementGuid>4320a81c-e132-4de2-97fc-cfc72198db68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'File Upload Report')]</value>
-      <webElementGuid>98becfe1-824c-42cc-929d-601b1e57f7b4</webElementGuid>
+      <webElementGuid>f0fd9a8b-6ac4-4d2b-8a69-2d60cb5c93fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exceptions Report'])[1]/following::a[1]</value>
-      <webElementGuid>1a4453f3-2351-4f69-93ec-f019da15d65d</webElementGuid>
+      <webElementGuid>80529130-a4d8-44b9-a6dc-084133524579</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary Report'])[1]/following::a[2]</value>
-      <webElementGuid>ae92cd23-2c85-4186-9018-0746f720cc4b</webElementGuid>
+      <webElementGuid>43e73d90-a142-4cb4-b8fa-c7c1bf05bf87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Check Returns Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>927ddb60-24bc-4262-9452-320af4e2bb1e</webElementGuid>
+      <webElementGuid>be8cad35-5bc5-4a8a-8201-a7ef929bb4e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parcels Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>dc8bcf10-c615-4725-af0c-b7d8b0f960e8</webElementGuid>
+      <webElementGuid>3b96de00-0e83-4154-a3db-04cdf675c79c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='File Upload Report']/parent::*</value>
-      <webElementGuid>211985b9-4e9c-435a-ac40-52760e9f81ca</webElementGuid>
+      <webElementGuid>b3005736-cbe8-4746-b4f2-8adb5a5a95e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/quickBooks.do?&amp;reset=true&amp;actionType=all')]</value>
-      <webElementGuid>5d479978-022e-4a8e-a2b6-f93900723683</webElementGuid>
+      <webElementGuid>ee723d4b-b5e8-4a11-b638-b29daf8a6934</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/a</value>
-      <webElementGuid>23d89caf-0631-40e5-a94b-23573cbe152f</webElementGuid>
+      <webElementGuid>cf7a3483-95c6-4c75-bead-43ed13a6d48f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/quickBooks.do?&amp;reset=true&amp;actionType=all' and (text() = 'File Upload Report' or . = 'File Upload Report')]</value>
-      <webElementGuid>f2becf04-a3a7-41fa-ab05-45bb867461cf</webElementGuid>
+      <webElementGuid>1c4fac88-de9c-4c57-b031-d99af17cc405</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -24,7 +24,7 @@ import internal.GlobalVariable
 
 public class ccPaymentEntryBootstrapPage {
 
-	def cardholderName, cardNumber, cvv, expMM, expYYYY, AL1, AL2, ZIP, email, phone, amount
+	def cardholderName, cardNumber, cvv, expMM, expYYYY, AL1, AL2, ZIP, email, phone, amount, appID
 	def udf1, udf2, udf3, udf4, udf5, udf6, udf7, udf8, udf9, udf10 ,ccDate
 
 	String pathSharedData = "KatalonData/IWPBootstrapData/NormalizedSharedData.xlsx"
@@ -411,6 +411,384 @@ public class ccPaymentEntryBootstrapPage {
 
 
 	// placeholder for selecting Exit button
+
+
+
+	@Keyword
+	def getDataCCPMEF(int rowM, dataFileM) {
+
+		amount = dataFileM.getValue('Amount', rowM)
+
+		println(amount)
+
+
+		udf1 = dataFileM.getValue('UDF1', rowM)
+
+		println(udf1)
+
+		udf2 = dataFileM.getValue('UDF2', rowM)
+
+		println(udf2)
+
+		udf3 = dataFileM.getValue('UDF3', rowM)
+
+		println(udf3)
+
+		udf4 = dataFileM.getValue('UDF4', rowM)
+
+		println(udf4)
+
+		udf5 = dataFileM.getValue('UDF5', rowM)
+
+		println(udf5)
+
+		udf6 = dataFileM.getValue('UDF6', rowM)
+
+		println(udf6)
+
+		udf7 = dataFileM.getValue('UDF7', rowM)
+
+		println(udf7)
+
+		udf8 = dataFileM.getValue('UDF8', rowM)
+
+		println(udf8)
+
+		udf9 = dataFileM.getValue('UDF9', rowM)
+
+		println(udf9)
+
+		udf10 = dataFileM.getValue('UDF10', rowM)
+
+		println(udf10)
+
+		cardholderName = dataFileM.getValue('Name', rowM)
+
+		println(cardholderName)
+
+		cardNumber = dataFileM.getValue('CardNum', rowM)
+
+		println(cardNumber)
+
+		cvv = dataFileM.getValue('SPC', rowM)
+
+		println(cvv)
+
+		expMM = dataFileM.getValue('ExpM', rowM)
+
+		println(expMM)
+
+		expYYYY = dataFileM.getValue('ExpY', rowM)
+
+		println(expYYYY)
+
+		ccDate = dataFileM.getValue('CCDate', rowM)
+
+		println(ccDate)
+
+		AL1 = dataFileM.getValue('AL1', rowM)
+
+		println(AL1)
+
+		AL2 = dataFileM.getValue('AL2', rowM)
+
+		println(AL2)
+
+		ZIP = dataFileM.getValue('ZIP', rowM)
+
+		println(ZIP)
+
+		email = dataFileM.getValue('Email', rowM)
+
+		println(email)
+
+		appID = dataFileM.getValue('AppID', rowM)
+
+		println(appID)
+	}
+
+
+	@Keyword
+	def setDataCCPM(int rowS, dataFileS) {
+
+
+		def String datafile_class = dataFileS.getClass()
+		if(datafile_class.contains('com.kms.katalon.core.testdata.reader.SheetPOI')) {
+			this.getDataCCPMEF(rowS, dataFileS)
+		}
+
+		// Verify if we are on Credit Card Payment Entry page and populate the page
+
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Name'), 30)) {
+
+			println("We are on Credit Card Payment Entry page, start populating")
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),30)) {
+			if ((!amount.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Amount'),amount)
+			}
+			else {
+				println("Amount is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("Amount field is either missing or not modifiable on CC Payment Entry page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined2'),30)) {
+			if ((!udf2.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined2'),udf2)
+			}
+			else {
+				println("UDF2 data is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("UDF2 field is either missing or not modifiable on CC Payment Entry page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined3'),30)) {
+			if ((!udf3.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined3'),udf3)
+			}
+			else {
+				println("UDF3 data is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("UDF3 field is either missing or not modifiable on CC Payment Entry page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined7'),30)) {
+			if ((!udf7.isEmpty())) {
+				WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined7'),udf7,false)
+			}
+			else {
+				println("UDF7 data is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("UDF7 field is either missing or not modifiable on CC Payment Entry page")
+			//			}
+
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined8'),30)) {
+			if ((!udf8.isEmpty())) {
+				WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/UserDefined8'),udf8,false)
+			}
+			else {
+				println("UDF8 data is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("UDF8 field is either missing or not modifiable on CC Payment Entry page")
+			//			}
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Name'),30)) {
+				if ((!cardholderName.isEmpty())) {
+					WebUI.setText((findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Name')),cardholderName)
+				}
+				else {
+					println("CCName data is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("Name field is either missing or not modifiable on CC Payment Entry page")
+			}
+
+
+
+			if( appID == '920' || appID == '921' || appID == '936' || appID == '938'  || appID == '941' || appID == '942' || appID == '943' || appID == '944') {
+
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),30)) {
+					if ((!cardNumber.isEmpty())) {
+						WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),cardNumber)
+					}
+					else {
+						println("Card Number is not present in the Excel Spreadsheet")
+					}
+				}
+				else {
+					println("Card Number field is missing on CC Payment Entry page")
+				}
+
+				if ((!cvv.isEmpty())) {
+					WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/SPC'),cvv)
+				}
+				else {
+					println("CCSPC is not present in the Excel Spreadsheet")
+				}
+			}
+			else if(appID == '914' || appID == '915' || appID == '937' || appID == '939' || appID == '940') {
+
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input__password_cardNumber'),30)) {
+					if ((!cardNumber.isEmpty())) {
+						WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input__password_cardNumber'),cardNumber)
+					}
+					else {
+						println("Card Number is not present in the Excel Spreadsheet")
+					}
+				}
+				else {
+					println("Card Number field is missing on CC Payment Entry page")
+				}
+
+				Thread.sleep(1000)
+
+				if ((!cvv.isEmpty())) {
+					WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input__password_spc'),cvv)
+				}
+				else {
+					println("CCSPC is not present in the Excel Spreadsheet")
+				}
+
+				Thread.sleep(2000)
+			}
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/SPC'),30)) {
+
+			//			}
+			//			else {
+			//				println("SPC field is missing on CC Payment Entry page")
+			//			}
+
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Month'),30)) {
+				if ((!expMM.isEmpty())) {
+					WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Month'),expMM,false)
+				}
+				else {
+					println("CCExpM is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("Month field is missing on CC Payment Entry page")
+			}
+
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),30)) {
+				if ((!expYYYY.isEmpty())) {
+					WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),expYYYY,false)
+				}
+				else {
+					println("CCExpY is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("Year field is missing on CC Payment Entry page")
+			}
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ProcessDate'),30)) {
+			if ((!ccDate.isEmpty())) {
+
+				//This js script is written to set the future date
+				String js = '''
+				   document.getElementById('processDate').value = '08/09/2025'
+				  '''
+				WebUI.executeJavaScript(js, null)
+			}
+			else {
+				println("CCDate is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("ProcessDate field is missing on CC Payment Entry page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL1'),30)) {
+			if ((!AL1.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL1'),AL1)
+			}
+			else {
+				println("CCAL1 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("AL1 field is missing on CC Payment Entry page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL2'),30)) {
+			if ((!AL2.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/AL2'),AL2)
+			}
+			else {
+				println("CCAL2 is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("AL2 field is missing on CC Payment Entry page")
+			//			}
+
+
+
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ZIP'),30)) {
+			if ((!ZIP.isEmpty())) {
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ZIP'),ZIP)
+			}
+			else {
+				println("CCZIP is not present in the Excel Spreadsheet")
+			}
+			//			}
+			//			else {
+			//				println("ZIP field is missing on CC Payment Entry page")
+			//			}
+
+			findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input_Receipt_emailAddress')
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input_Receipt_emailAddress'),30)) {
+				if ((!email.isEmpty())) {
+					WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input_Receipt_emailAddress'),email)
+				}
+				else {
+					println("CCEmail is not present in the Excel Spreadsheet")
+				}
+			}
+			else {
+				println("Email field is missing on CC Payment Entry page")
+			}
+
+
+			if( appID == '914' || appID == '915' ||  appID == '937' || appID == '939' ||  appID == '941') {
+
+				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/TermCondCheckBox'),30)) {
+					WebUI.check(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/TermCondCheckBox'))
+				}
+				else {
+					println("Terms and Condition checkbox is missing on the CC Payment Entry page")
+				}
+			}
+
+
+
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ContinueButton'),30)) {
+				WebUI.click(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ContinueButton'))
+			}
+			else {
+				println("Continue button is missing on the CC Payment Entry page")
+			}
+
+			//End Populating the Credit Card Payment Entry page
+		}
+		else {
+			println("Not on Credit Card Payment Entry Page")
+		}
+	}
 }
 
 

@@ -65,5 +65,7 @@ WebUI.verifyElementPresent(findTestObject(path_RM + 'a_Last'), 30)
 WebUI.verifyElementVisible(findTestObject(path_RM + 'a_Next'))
 WebUI.verifyElementPresent(findTestObject(path_RM + 'a_Next'), 30)
 
+WebUI.closeBrowser()
+
 
 

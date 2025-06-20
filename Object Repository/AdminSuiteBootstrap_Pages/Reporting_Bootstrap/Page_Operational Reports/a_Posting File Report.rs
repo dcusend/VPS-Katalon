@@ -6,12 +6,16 @@
    <elementGuidId>49c6b38c-b096-434b-b2c3-502ae78ccbf6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports11 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports11']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Posting File Report' or . = 'Posting File Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports11 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>93300659-2244-400e-9ac4-9c8469c252e9</webElementGuid>
+      <webElementGuid>40ef0bb4-0878-4798-aa59-04d41783c10d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>fd5da4c3-bac2-4ab2-96c1-b3aeef10ad21</webElementGuid>
+      <webElementGuid>8b155e66-b931-4290-9555-da8085bfa724</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>52c55e61-9377-41c7-bf93-dff04dd831a6</webElementGuid>
+      <webElementGuid>72533abb-3cc4-4556-80a2-a2a5b6177717</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/postingfile.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>34e012d6-2444-4b0a-965a-f14e60748936</webElementGuid>
+      <webElementGuid>df01d256-e798-432d-a835-92df2e541d07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>8c554078-e525-45c3-bd9e-46b2b5498d24</webElementGuid>
+      <webElementGuid>80049297-04fb-45c8-a4e4-710083d63f3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>Posting information related to transactions for a given time period.</value>
-      <webElementGuid>5c0ac280-8ea0-452b-bc3b-93751e6462fe</webElementGuid>
+      <webElementGuid>97072262-70e0-4079-8963-919f66da6885</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip966395</value>
-      <webElementGuid>c2328574-9e41-4219-9959-c7b191f95abc</webElementGuid>
+      <webElementGuid>8e1f7e13-57d7-423c-8cdd-eef6ef6f5d79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Posting File Report</value>
-      <webElementGuid>b517beab-83ac-4533-ae07-0dfc50ef0671</webElementGuid>
+      <webElementGuid>88cd46be-bbec-42a1-8360-5b3667871403</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports11&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>6ffee96b-3d58-42b3-ac99-e42e822a01c5</webElementGuid>
+      <webElementGuid>840db587-ce24-4bc8-93a3-ed54998d992a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports11']/div/a</value>
-      <webElementGuid>86693436-349c-43e6-aa96-259221e720eb</webElementGuid>
+      <webElementGuid>c9b166f3-74b0-43f6-b87f-770f1201d0c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Posting File Report')]</value>
-      <webElementGuid>7f3efc9d-cad0-4c32-babb-8d93012b6280</webElementGuid>
+      <webElementGuid>54aee0bc-64c7-476b-ad79-90d309b44c4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Tender Activity Report'])[1]/following::a[1]</value>
-      <webElementGuid>19925a85-5f11-4796-b91b-dde8f54d58e7</webElementGuid>
+      <webElementGuid>5e7efce2-8aa8-4f1e-a788-6b40e8dbd17d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Account Activity Report'])[1]/following::a[2]</value>
-      <webElementGuid>110ea156-3272-47ca-b3be-24d0c3ef9bcd</webElementGuid>
+      <webElementGuid>7a3a6470-f01b-4af3-8a44-aeac1cbc704c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='QuickBooks Integration'])[1]/preceding::a[1]</value>
-      <webElementGuid>a6d339b0-bed4-433b-b363-de41fca4643f</webElementGuid>
+      <webElementGuid>09b8ff2b-e805-4075-a98b-287f09f16e48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Scheduled Payments Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>b6329788-400d-47aa-bc62-a02a8f1254c1</webElementGuid>
+      <webElementGuid>1823f036-28c5-4ded-b99f-e976d71c8bd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Posting File Report']/parent::*</value>
-      <webElementGuid>ef2c7b13-d5a2-45eb-9b92-92e7803635a1</webElementGuid>
+      <webElementGuid>2053a7ab-2643-436c-8d40-946777798dbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/postingfile.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>821fb0b9-ec72-4f43-9e06-47a8afca8e5f</webElementGuid>
+      <webElementGuid>a7c89d82-5c08-4ca7-8ebc-f33e3ddc195f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[15]/div/a</value>
-      <webElementGuid>7bb76bf8-92d3-453b-b254-45ca434478e5</webElementGuid>
+      <webElementGuid>73ff3930-55b3-444c-8fcf-504d5b5f9f59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/postingfile.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Posting File Report' or . = 'Posting File Report')]</value>
-      <webElementGuid>0383944c-8014-4de2-9496-d441ab0c0e2b</webElementGuid>
+      <webElementGuid>87ae3f1a-1be4-48a5-88c1-3410355cbae4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

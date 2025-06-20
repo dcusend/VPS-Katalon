@@ -6,12 +6,16 @@
    <elementGuidId>d3ff844a-c26a-4b88-a2db-0adfb9fb375c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Real_Time_Monitor > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Real_Time_Monitor']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Real Time Monitor Report' or . = 'Real Time Monitor Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Real_Time_Monitor > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5bfa3d26-42df-4ff8-bedc-1f805c39d8c8</webElementGuid>
+      <webElementGuid>05d7a018-0c84-47c2-93b9-50b26e725d87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>d128cc30-374a-4f06-ade1-669dda02241d</webElementGuid>
+      <webElementGuid>ac65cdca-cc61-4bf2-9a5e-00b5919d3d91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>b545b651-777c-41e4-a4e6-cde868ffd530</webElementGuid>
+      <webElementGuid>7ed0daeb-cbd9-49e2-bc8e-225dbb3f3049</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/realtimemonitor.do?&amp;reset=true&amp;actionType=all</value>
-      <webElementGuid>949a70dc-434e-46e6-af95-7c3ce756235d</webElementGuid>
+      <webElementGuid>63932eb7-cdc1-4f52-975c-6de789e48963</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>9fa093ea-6d91-4b91-a980-70c5fd383944</webElementGuid>
+      <webElementGuid>a0abf292-91bc-447c-acfd-cfc5c92a1d51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>Real Time Monitor Displays 25 Most Recent Transactions</value>
-      <webElementGuid>586764f6-49fb-4561-9342-6e09dcdfd548</webElementGuid>
+      <webElementGuid>ec5f3b37-1bd4-4ef0-a9ce-85dd724d7272</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip661893</value>
-      <webElementGuid>59302c5a-e0d9-4c72-ab0f-39142c7e8dad</webElementGuid>
+      <webElementGuid>dcaa70f0-e62b-45e4-a783-3c1daf2c240b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Real Time Monitor Report</value>
-      <webElementGuid>df750053-cdae-48b0-832f-d2d70331e27d</webElementGuid>
+      <webElementGuid>355496ca-36b3-4e3d-8160-01b7bc27adfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Real_Time_Monitor&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>87377aa2-ccbb-4447-9857-c5edf6ed3528</webElementGuid>
+      <webElementGuid>679dea97-39da-4ca6-b448-185572585b24</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Real_Time_Monitor']/div/a</value>
-      <webElementGuid>8ab0c803-c464-4818-85e8-52696e96cfc5</webElementGuid>
+      <webElementGuid>24c65dba-a92c-47fe-9b70-9d490dac2bd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Real Time Monitor Report')]</value>
-      <webElementGuid>506c55da-26e0-48aa-9302-9e32f632d998</webElementGuid>
+      <webElementGuid>ebe3e376-0c6b-46b8-b7a8-2732d12f81a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Transaction Summary By Tender Type Report'])[1]/following::a[1]</value>
-      <webElementGuid>ea0e0ce9-77cd-4f99-a313-355d5fced1a3</webElementGuid>
+      <webElementGuid>f02ea943-da2f-4856-aeaa-a67c4720be5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Transaction Summary By Application Report'])[1]/following::a[2]</value>
-      <webElementGuid>f6c614c4-d8ce-423b-85ec-1a19911e5c0e</webElementGuid>
+      <webElementGuid>057b562f-0a23-48b9-869b-0222da9c87e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Real Time Monitor Report']/parent::*</value>
-      <webElementGuid>3a5433f8-8bc7-477c-8bb5-6c3534d0f150</webElementGuid>
+      <webElementGuid>733e7b1f-74ce-47cd-9e39-02d31ecc8068</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/realtimemonitor.do?&amp;reset=true&amp;actionType=all')]</value>
-      <webElementGuid>708be91e-efcb-4a14-8591-a3c0f98fffff</webElementGuid>
+      <webElementGuid>7e768d2b-7421-4203-9588-b01fb54a8d66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[28]/div/a</value>
-      <webElementGuid>deaa10ce-417f-4546-a65e-d4ce86151dcb</webElementGuid>
+      <webElementGuid>6da88d1a-2968-4cea-89e7-baa955be264f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +161,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/realtimemonitor.do?&amp;reset=true&amp;actionType=all' and (text() = 'Real Time Monitor Report' or . = 'Real Time Monitor Report')]</value>
-      <webElementGuid>11a7c98e-f586-4ce1-8111-610821cd312d</webElementGuid>
+      <webElementGuid>388eb73f-afba-4341-a867-1c217f48af4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>0401c54b-54e5-4d1c-9f23-7a386cd4cee8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/admin/testcustomer/bootstrap/vpos/4585/transactions/AuthOnlyForm/']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='collapseTwo']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;collapseTwo&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;][count(. | //*[(text() = 'Keyboard Entry' or . = 'Keyboard Entry')]) = count(//*[(text() = 'Keyboard Entry' or . = 'Keyboard Entry')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3218d1fc-bb2b-4a36-94ef-7e67d734486a</webElementGuid>
+      <webElementGuid>fe2ec55d-d88e-4965-a9e4-26180caa6d24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,31 +41,31 @@
       <name>class</name>
       <type>Main</type>
       <value>ml-2</value>
-      <webElementGuid>c71bd19e-ce4e-4156-beb3-49587e4cbd31</webElementGuid>
+      <webElementGuid>f9394f8f-c646-43fb-8ba7-9f7f10cb8b0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vpos/4585/transactions/AuthOnlyForm/</value>
-      <webElementGuid>d2ea4f8a-b1b0-4aaf-be64-c8203949f2d7</webElementGuid>
+      <webElementGuid>fcb2bb62-7e59-4163-bb74-d20dd2f3bbbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Keyboard Entry</value>
-      <webElementGuid>a92b485b-90a0-4ada-8609-46b2fe8ad893</webElementGuid>
+      <webElementGuid>b87f44e2-3cb0-4143-84f9-c3c2dc88647f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;collapseTwo&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
-      <webElementGuid>b0d1176c-e0d1-439a-91d0-ca6fdbda050d</webElementGuid>
+      <webElementGuid>59833da8-2d24-4197-8512-3c2b9e2ae920</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='collapseTwo']/div/a</value>
-      <webElementGuid>385b4eff-0654-4fb0-a8d5-21a8ddcb6fb2</webElementGuid>
+      <webElementGuid>a9ef68ac-22bb-4345-b1dc-26ed373de933</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Keyboard Entry')])[2]</value>
-      <webElementGuid>eb39a840-9061-485f-808a-b4533783fb8d</webElementGuid>
+      <webElementGuid>31ec2f80-682e-440d-af9f-12ed9d457bbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swipe'])[1]/following::a[1]</value>
-      <webElementGuid>6853a1bf-65bf-466c-a062-5213992da7a0</webElementGuid>
+      <webElementGuid>1680b107-1732-4d23-a5bd-00ea74cfbd31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN Pad Entry'])[2]/preceding::a[1]</value>
-      <webElementGuid>1f6f729b-0934-4968-8354-c96bbc27a80f</webElementGuid>
+      <webElementGuid>e373799b-3106-41a5-b2e4-9af6d27471fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swipe'])[2]/preceding::a[2]</value>
-      <webElementGuid>2a3c0c54-40d1-47c0-8c8a-3c7f41679472</webElementGuid>
+      <webElementGuid>bf2a5ed9-1cb6-4384-b5b0-085c0f98685a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vpos/4585/transactions/AuthOnlyForm/')]</value>
-      <webElementGuid>f17ed22a-a35e-4d2e-94b8-1a980b8abce9</webElementGuid>
+      <webElementGuid>fd876925-6640-4136-babb-43ef9a48e318</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/a</value>
-      <webElementGuid>356452c8-4a99-4335-a4ca-4b5e63549821</webElementGuid>
+      <webElementGuid>21e19900-bcc2-41e4-bc57-8e21e5f20abc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vpos/4585/transactions/AuthOnlyForm/' and (text() = 'Keyboard Entry' or . = 'Keyboard Entry')]</value>
-      <webElementGuid>0bc722cc-e75b-40a6-bf14-a0424e0da3ac</webElementGuid>
+      <webElementGuid>c84f0dfe-53af-4674-9943-3ba4be57d603</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
