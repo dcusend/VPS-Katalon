@@ -29,6 +29,7 @@ String fileLoc = "KatalonData/MultibillTestData/MultibillCCData.xlsx"
 
 def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 def ExecuteTC, searchString
+def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc
 nameSheet = "CCData"
@@ -57,10 +58,12 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
+		Thread.sleep(shortDelay)
+		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
-		Thread.sleep(1000)
+		Thread.sleep(shortDelay)
 		
 		//select add to cart icon
 		CustomKeywords.'multiBillPages.searchPage.selectAddtoCart'()

@@ -47,7 +47,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.selectCheckboxACHTANDC()
 		this.selectContinueButton()
 	}
-	
+
 	@Keyword
 	def setDataACHDefferedMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID,ccDate) {
 		this.setFirstNameLastName(nameID)

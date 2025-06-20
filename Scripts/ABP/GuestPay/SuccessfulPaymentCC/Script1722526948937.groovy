@@ -21,78 +21,54 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser("https://qa.velocitypayment.com/vbills/mbills/login.go")
+WebUI.openBrowser('https://qa.velocitypayment.com/vbills/mbills/login.go')
+
 WebUI.maximizeWindow()
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ABP/LoginABP/select_BillType'), "485", false)
+WebUI.selectOptionByValue(findTestObject('Object Repository/ABP/LoginABP/select_BillType'), '485', false)
+
 //WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/LoginABP/select_BillType'), "485bills", false)
+WebUI.setText(findTestObject('Object Repository/ABP/LoginABP/input__billLookupForm.lookupValue1'), '1409092')
 
+WebUI.setText(findTestObject('Object Repository/ABP/LoginABP/input__billLookupForm.lookupValue2'), '1409093')
 
+WebUI.setText(findTestObject('Object Repository/ABP/LoginABP/input__billLookupForm.lookupValue3'), '1409094')
 
-WebUI.setText(findTestObject('Object Repository/ABP/LoginABP/input__billLookupForm.lookupValue1'),"1409092")
-WebUI.setText(findTestObject('Object Repository/ABP/LoginABP/input__billLookupForm.lookupValue2'),"1409093")
-WebUI.setText(findTestObject('Object Repository/ABP/LoginABP/input__billLookupForm.lookupValue3'),"1409094")
 WebUI.click(findTestObject('Object Repository/ABP/LoginABP/input__guestBillSubmitBtn'))
 
+WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/img_Amount to Pay_arrow1'))
 
-WebUI.click(findTestObject('Object Repository/ABP/PaymentEntryCC/img_Amount to Pay_arrow1'))
-//WebUI.check(findTestObject('Object Repository/ABP/PaymentEntryCC/img_Amount to Pay_arrow1'))
-
-//WebUI.click(findTestObject('Object Repository/ABP/PaymentEntryCC/CustomCheckToPay'))
-
-
-
+//WebUI.check(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/img_Amount to Pay_arrow1'))
+//WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/CustomCheckToPay'))
 //WebDriver driver = DriverFactory.getWebDriver()
-
 //WebElement element = driver.findElement(By.xpath("//img[@id = 'arrow1' and @src = '/vbills/_assets/img/a.gif' and @alt = 'Check to Pay']")).click();
 //WebElement element = driver.findElement(By.xpath("//img[@id = 'arrow1' and @src = '/vbills/_assets/img/a.gif']")).click();
-
 //WebElement element = driver.findElement(By.name('billDetailForms[0].payCheckbox')).click();
-
 //WebElement element = driver.findElement(By.xpath("//img[@id='arrow1' and src='/vbills/_assets/img/a.gif' and align='abstop' and width='25' and height='25' and alt='Check to Pay']")).click();
+//WebUI.clearText(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input__billDetailForms0.payAmount'))
+//WebUI.sendKeys(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input__billDetailForms0.payAmount'), Keys.chord(Keys.CONTROL, 'a'));
+//WebUI.sendKeys(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input__billDetailForms0.payAmount'), "");
+WebUI.sendKeys(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input__billDetailForms0.payAmount'), '10.50')
 
+//WebUI.setText(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input__billDetailForms0.payAmount'),"10.50")
+WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/BillsLabelPage/select_PaymentMethod'), 'Credit Card', false)
 
+WebUI.setText(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input_accountHolderName'), 'Tinu Jakia')
 
+WebUI.setText(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input_cardAccountNumber'), '4111111111111111')
 
-//WebUI.clearText(findTestObject('Object Repository/ABP/PaymentEntryCC/input__billDetailForms0.payAmount'))
+WebUI.setText(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input_cvv'), '123')
 
-//WebUI.sendKeys(findTestObject('Object Repository/ABP/PaymentEntryCC/input__billDetailForms0.payAmount'), Keys.chord(Keys.CONTROL, 'a'));
+WebUI.selectOptionByValue(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/select_Month'), '10', false)
 
-//WebUI.sendKeys(findTestObject('Object Repository/ABP/PaymentEntryCC/input__billDetailForms0.payAmount'), "");
-WebUI.sendKeys(findTestObject('Object Repository/ABP/PaymentEntryCC/input__billDetailForms0.payAmount'), "10.50");
-
-
-//WebUI.setText(findTestObject('Object Repository/ABP/PaymentEntryCC/input__billDetailForms0.payAmount'),"10.50")
-
-
-WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/PaymentEntryCC/select_PaymentMethod'), "Credit Card", false)
-
-WebUI.setText(findTestObject('Object Repository/ABP/PaymentEntryCC/input_accountHolderName'),"Tinu Jakia")
-
-
-WebUI.setText(findTestObject('Object Repository/ABP/PaymentEntryCC/input_cardAccountNumber'),"4111111111111111")
-
-
-WebUI.setText(findTestObject('Object Repository/ABP/PaymentEntryCC/input_cvv'),"123")
-
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/ABP/PaymentEntryCC/select_Month'), "10", false)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/ABP/PaymentEntryCC/select_Year'), "2025", false)
+WebUI.selectOptionByValue(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/select_Year'), '2025', false)
 
 //element = driver.findElement(By.xpath("//img[@id = 'arrow1' and @src = '/vbills/_assets/img/a.gif']")).click();
-
-//WebUI.click(findTestObject('Object Repository/ABP/PaymentEntryCC/img_Amount to Pay_arrow1'))
-//WebUI.click(findTestObject('Object Repository/ABP/PaymentEntryCC/img_Amount to Pay_arrow1'))
-
-//WebUI.clearText(findTestObject('Object Repository/ABP/PaymentEntryCC/input__billDetailForms0.payAmount'))
-
-//WebUI.sendKeys(findTestObject('Object Repository/ABP/PaymentEntryCC/input__billDetailForms0.payAmount'), Keys.chord(Keys.CONTROL, 'a'));
-//WebUI.sendKeys(findTestObject('Object Repository/ABP/PaymentEntryCC/input__billDetailForms0.payAmount'), "10.50");
-
-
-//println WebUI.verifyElementChecked(findTestObject('Object Repository/ABP/PaymentEntryCC/img_Amount to Pay_arrow1'), 30)
-
-
-WebUI.click(findTestObject('Object Repository/ABP/PaymentEntryCC/input_Submit'))
+//WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/img_Amount to Pay_arrow1'))
+//WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/img_Amount to Pay_arrow1'))
+//WebUI.clearText(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input__billDetailForms0.payAmount'))
+//WebUI.sendKeys(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input__billDetailForms0.payAmount'), Keys.chord(Keys.CONTROL, 'a'));
+//WebUI.sendKeys(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input__billDetailForms0.payAmount'), "10.50");
+//println WebUI.verifyElementChecked(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/img_Amount to Pay_arrow1'), 30)
+WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input_Submit'))
 

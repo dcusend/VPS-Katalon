@@ -72,6 +72,8 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
+		Thread.sleep(20000)
+		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
@@ -84,6 +86,8 @@ for (def row = 1; row <= numOfRows; row++)
 		//if(WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/MultibillSearch/btn_removeFromCartIcon'), 10)) {
 			
 			CustomKeywords.'multiBillPages.searchPage.selectAddtoCart'()
+			Thread.sleep(10000)
+			
 			if(WebUI.verifyTextPresent("1 Item(s) Added to Cart",false)) {
 				KeywordUtil.logInfo("Static Text Present")
 				KeywordUtil.markPassed()

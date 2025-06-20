@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if transaction is successful with saved payment method</description>
+   <name>VerifySuccessfulPaymentSPMCCDCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>907cdd23-bd94-4e5b-8236-e896f609cd66</testCaseGuid>
+</TestCaseEntity>

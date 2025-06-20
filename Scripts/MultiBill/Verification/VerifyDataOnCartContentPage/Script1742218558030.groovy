@@ -37,6 +37,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillNoCFURL
+def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc
 nameSheet = "VerifyDataOnCartContent"
@@ -68,6 +69,8 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
+		Thread.sleep(shortDelay)
+		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
@@ -87,6 +90,8 @@ for (def row = 1; row <= numOfRows; row++)
 				CustomKeywords.'multiBillPages.searchPage.selectAddtoCart'()
 		
 				CustomKeywords.'multiBillPages.searchPage.selectViewCart'()
+				
+				Thread.sleep(shortDelay)
 		
 				if(WebUI.verifyTextPresent("Cart Contents", false)) {
 					WebUI.verifyTextPresent(dataFile.getValue("PayerName", row), false)

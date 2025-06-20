@@ -37,6 +37,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillNoCFURL
+def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc
 nameSheet = "VerifyAmountTextBoxEditable"
@@ -67,6 +68,8 @@ for (def row = 1; row <= numOfRows; row++)
 			//Assign search String
 			
 		searchString = dataFile.getValue("SearchString", row)
+		
+		Thread.sleep(shortDelay)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)

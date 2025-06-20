@@ -13,8 +13,13 @@
          <key>CSS</key>
          <value>#lookupValue1</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'billLookupForm.lookupValue1' and @id = 'lookupValue1']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7b95e081-12cc-4649-8a61-eb7e853bb1a5</webElementGuid>
+      <webElementGuid>d2baf5e2-4a43-48ea-8ee6-95cc010b5185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>670f0bd2-972b-42f5-8301-66ff90fa7a93</webElementGuid>
+      <webElementGuid>7f5f5064-594e-4898-b43a-757563660edd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>billLookupForm.lookupValue1</value>
-      <webElementGuid>f69fb2d1-c3aa-4507-9da9-f4df6b9d37fa</webElementGuid>
+      <webElementGuid>3e41f64b-9b4f-4136-ae05-388f3f973980</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>30</value>
-      <webElementGuid>2bcee8c4-ecd7-498a-847f-8a957e7edee3</webElementGuid>
+      <webElementGuid>d256e483-6597-4d81-9ae8-94d6be25f8b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>e2b8c444-4725-4941-a303-821d15a7e5aa</webElementGuid>
+      <webElementGuid>ab1ce19c-7398-41b7-9e59-9d8e77d13fa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +67,15 @@
       <name>id</name>
       <type>Main</type>
       <value>lookupValue1</value>
-      <webElementGuid>cfc1e277-e1e8-469e-9782-78121533b105</webElementGuid>
+      <webElementGuid>169ea855-7191-4ee3-8d29-5340c4be208b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>485lookup1</value>
-      <webElementGuid>2491237d-ef59-4685-ba10-d943d2859920</webElementGuid>
+      <webElementGuid>7f6943c2-83bf-41cd-9338-d04bf3760f4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lookupValue1&quot;)</value>
-      <webElementGuid>3eb607a0-60cc-44f2-9bdb-989c980af3bd</webElementGuid>
+      <webElementGuid>6ee5cb8b-452b-4cec-b3f9-87d92356a891</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='lookupValue1']</value>
-      <webElementGuid>72b0d635-0297-4d5e-ae18-b1adce097650</webElementGuid>
+      <webElementGuid>6f3a7698-8a84-4d97-b98a-45bd5a9630e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='lookupTr1']/td[2]/input</value>
-      <webElementGuid>d1fc92be-5f72-41ed-91c7-529fb25fc432</webElementGuid>
+      <webElementGuid>161d147d-febf-4f82-982f-58e3f699ebf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/table/tbody/tr/td[2]/input</value>
-      <webElementGuid>1ef9bfa1-fbc6-4016-bedc-ece8bd578318</webElementGuid>
+      <webElementGuid>070ab9f3-5ad8-4706-851f-f57b5a218b16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'billLookupForm.lookupValue1' and @id = 'lookupValue1' and @alt = '485lookup1']</value>
-      <webElementGuid>0b2c3add-0c53-4450-a009-8869c8684b19</webElementGuid>
+      <webElementGuid>d6fe6cb4-6b35-4986-adf7-b7045ad3a6f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
