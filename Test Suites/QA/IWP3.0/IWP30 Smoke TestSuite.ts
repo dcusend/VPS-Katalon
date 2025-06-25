@@ -75,13 +75,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9ccd3820-d9a3-4f5d-819c-01b4f676bef1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP30/Misc</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>7ee1241a-6d8a-4c86-8a3f-2716ac41504b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

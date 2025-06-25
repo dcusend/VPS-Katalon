@@ -59,114 +59,98 @@ public class saleKeyboardTransactionVT {
 
 		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoNoCFtp"))
 	}
-	
-	
-	@When("User selects a Payment Application with Single CF on Dashboard page")
-	def selectPaymentAppWithSingleCF()
-	{
-		
-		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoSingleCFtpQA"))
-		
-	}
-	
-	
-	
-	@When("User selects a Payment Application with Dual CF on Dashboard page")
-	def selectPaymentAppWithDualCF()
-	{
-		
-		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoDualCFtpQA"))
-		
-	}
-	
-	
-	
-	@And("User selects Sale link on Issue Transactions page")
-	def selectSaleLink()
-	{
-		
-		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)"))
-		
-	}
-	
-	
-	
-	@And("User selects Keyboard Entry link on Issue Transactions page")
-	def selectKeyboardEntryLink()
-	{
-		
-		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale"))
-		
-	}
-	
-	
-	//
-	
-	
-	@And("User populates the Sale Keyboard Entry page")
-	def setDataKeyboardEntrySale()
-	{
-		
-		
-		String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/"
-		
-				WebUI.setText(findTestObject(path_SaleKB + 'input_cardName'), "Cameron White")
-				WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_transactionCategory'), "RETL", true)
-				WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cardNumber2'),30)
-				WebUI.executeJavaScript("arguments[0].value ='"+ "4111111111111111" +"' "  , Arrays.asList(element))
-				WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cvv'),30)
-				WebUI.executeJavaScript("arguments[0].value ='"+ "125" +"' ", Arrays.asList(element2))
-				WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_MM'), "12", true)
-				WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_YYYY'), "2028", true)
-				WebUI.setText(findTestObject(path_SaleKB + 'input__address'), "2311 York road")
-				WebUI.setText(findTestObject(path_SaleKB + 'input__address2'), "Suite 500")
-				WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), "21054")
-				WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), "")
-		
-				//WebUI.setText(findTestObject(path_SaleKB + 'input_smsNumber'), "2408939844")
-				
-		
-				WebUI.setText(findTestObject(path_SaleKB + 'input_amount'), "10.50")
-		
-				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined1'), "Test UDF1")
-				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined2'), "")
-				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined3'), "")
-				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined4'), "")
-				WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), "Orange", true)
-				WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), "Yellow", true)
-				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined7'), "")
-				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined8'), "")
-				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined9'), "")
-				WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined10'), "")
-		
 
+
+	@When("User selects a Payment Application with Single CF on Dashboard page")
+	def selectPaymentAppWithSingleCF() {
+
+		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoSingleCFtpQA"))
 	}
-	
-	
+
+
+
+	@When("User selects a Payment Application with Dual CF on Dashboard page")
+	def selectPaymentAppWithDualCF() {
+
+		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/a_Access AutoDualCFtpQA"))
+	}
+
+
+
+	@And("User selects Sale link on Issue Transactions page")
+	def selectSaleLink() {
+
+		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/button_Authorization  Capture (Sale)"))
+	}
+
+
+
+	@And("User selects Keyboard Entry link on Issue Transactions page")
+	def selectKeyboardEntryLink() {
+
+		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/IssueTransactions/a_KeyboardEntry_Sale"))
+	}
+
+
+	//
+
+
+	@And("User populates the Sale Keyboard Entry page")
+	def setDataKeyboardEntrySale() {
+
+
+		String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/"
+
+		WebUI.setText(findTestObject(path_SaleKB + 'input_cardName'), "Cameron White")
+		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_transactionCategory'), "RETL", true)
+		WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cardNumber2'),30)
+		WebUI.executeJavaScript("arguments[0].value ='"+ "4111111111111111" +"' "  , Arrays.asList(element))
+		WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cvv'),30)
+		WebUI.executeJavaScript("arguments[0].value ='"+ "125" +"' ", Arrays.asList(element2))
+		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_MM'), "12", true)
+		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_YYYY'), "2028", true)
+		WebUI.setText(findTestObject(path_SaleKB + 'input__address'), "2311 York road")
+		WebUI.setText(findTestObject(path_SaleKB + 'input__address2'), "Suite 500")
+		WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), "21054")
+		WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), "")
+
+		//WebUI.setText(findTestObject(path_SaleKB + 'input_smsNumber'), "2408939844")
+
+
+		WebUI.setText(findTestObject(path_SaleKB + 'input_amount'), "10.50")
+
+		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined1'), "Test UDF1")
+		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined2'), "")
+		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined3'), "")
+		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined4'), "")
+		WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), "Orange", true)
+		WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), "Yellow", true)
+		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined7'), "")
+		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined8'), "")
+		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined9'), "")
+		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined10'), "")
+	}
+
+
 	@And("User selects the Submit button on Sale Keyboard Entry page")
-	def selectSubmitSaleKeyboardEntry()
-	{
-		
+	def selectSubmitSaleKeyboardEntry() {
+
 		WebUI.click(findTestObject("Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/button_Submit"))
-		
 	}
-	
-	
-	
+
+
+
 	@Then("User is presented with Sale Payment Receipt page")
-	def verifySaleReceiptPage()
-	{
-		
+	def verifySaleReceiptPage() {
+
 		WebUI.verifyTextPresent('Transaction Successful', true)
-		
 	}
-	
-	
-	
+
+
+
 	@And("User verifies all the information is correct on Sale Payment Receipt page")
-	def verifyReceiptContents()
-	{
-		
+	def verifyReceiptContents() {
+
 		WebUI.verifyTextPresent('Remittance ID', true)
 		WebUI.verifyTextPresent('Received', true)
 		WebUI.verifyTextPresent('Amount', true)
@@ -175,50 +159,34 @@ public class saleKeyboardTransactionVT {
 		WebUI.verifyTextPresent('10.50', true)
 		WebUI.verifyTextPresent('Authorization and Capture', true)
 		WebUI.verifyTextPresent('Card Information', true)
-		
-		
 	}
-	
-	
-	
+
+
+
 	@And("User verifies CF is not charged on Sale Payment Receipt page")
-	def verifyCFnotCharged()
-	{
-		
+	def verifyCFnotCharged() {
+
 		WebUI.verifyTextNotPresent('Single Transaction', true)
 		WebUI.verifyTextNotPresent('Dual Transaction', true)
-		
 	}
-	
-	
-	
+
+
+
 	@And("User verifies Single CF is charged on Sale Payment Receipt page")
-	def verifySingleCFCharged()
-	{
-		
+	def verifySingleCFCharged() {
+
 		WebUI.verifyTextPresent('Single Transaction', true)
 		WebUI.verifyTextNotPresent('Dual Transaction', true)
 		WebUI.verifyTextPresent('15.50', true)
-		
-		
 	}
-	
-	
-	
+
+
+
 	@And("User verifies Dual CF is charged on Sale Payment Receipt page")
-	def verifyDualCFCharged()
-	{
-		
+	def verifyDualCFCharged() {
+
 		WebUI.verifyTextNotPresent('Single Transaction', true)
 		WebUI.verifyTextPresent('Dual Transaction', true)
 		WebUI.verifyTextPresent('15.50', true)
-		
 	}
-	
-	
-	
-	
-	
-	
-	
 }

@@ -26,7 +26,7 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 	
 	WebUI.click(findTestObject(path_Dashboard + 'i_imtiaz_fa fa-user fa-lg'))
 	
-
+	Thread.sleep(10000)
 	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Imtiaz Ahmed iahmed'))
 	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Imtiaz Ahmed iahmed'), 30)
 	
@@ -52,7 +52,7 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Reporting'))
 	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_User Management'))
 	
-	WebUI.verifyTextPresent('Velocity Payment System Version 2024-1 - Copyright © 2025 Govolution, LLC', true)
+	WebUI.verifyTextPresent('Velocity Payment System Version 2025-1 - Copyright © 2025 Govolution, LLC', true)
 	
 	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_CustomerDD'), 30)
 	
