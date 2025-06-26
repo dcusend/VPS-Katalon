@@ -56,14 +56,14 @@ println("Number of Records: " + numOfRows)
 for (def row = 1; row <= numOfRows; row++)
 	{
 	
-			if(executionProfile == 'Production') {				
+			if(executionProfile == 'Production'  || executionProfile == 'Upgrade') {				
 				ExecuteTC = dataFile.getValue('ExecuteProd', row)
 				resColumn = 'ResultProd'
 				datColumn = 'DateProd'
 				
 				System.out.println('Value of Execute is : ' + ExecuteTC)
 			}
-			else if(executionProfile == 'DemoProfile' || executionProfile == 'Upgrade') {
+			else if(executionProfile == 'DemoProfile') {
 					ExecuteTC = dataFile.getValue('ExecuteDemo', row)
 					resColumn = 'ResultDemo'
 					datColumn = 'DateDemo'
@@ -91,15 +91,18 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.click(findTestObject(path_Users + 'a_Find User'))
 					
 				// Call setData for FindUser
-					CustomKeywords.'adminSuiteBootstrap.findUser.findUser_DD_EF'(row,dataFile)
+					CustomKeywords.'adminSuiteBootstrap.findUser.findUser_DD_EF_Profile'(row,dataFile, executionProfile)
 					
 					if (WebUI.verifyElementPresent(findTestObject(path_UserView + 'button_Modify'),30))
 						{
+							if(executionProfile == 'Production'  || executionProfile == 'Upgrade') {	
+								WebUI.verifyTextPresent('ToBeModUser', true)
+							}
+							else if(executionProfile == 'DemoProfile') {
+								WebUI.verifyTextPresent('ToBeModUserDemo', true)							
+							}
 							
-							WebUI.verifyTextPresent('ToBeModUser', true)
-							
-							
-							
+						
 							// Select Modify User button
 							WebUI.click(findTestObject(path_ModifyUser + 'button_Modify_UserView'))
 							

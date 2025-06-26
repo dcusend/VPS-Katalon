@@ -57,14 +57,14 @@ println("Number of Records: " + numOfRows)
 for (def row = 1; row <= numOfRows; row++)
 	{
 	
-			if(executionProfile == 'Production') {				
+			if(executionProfile == 'Production'  || executionProfile == 'Upgrade') {				
 				ExecuteTC = dataFile.getValue('ExecuteProd', row)
 				resColumn = 'ResultProd'
 				datColumn = 'DateProd'
 				
 				System.out.println('Value of Execute is : ' + ExecuteTC)
 			}
-			else if(executionProfile == 'DemoProfile' || executionProfile == 'Upgrade') {
+			else if(executionProfile == 'DemoProfile') {
 					ExecuteTC = dataFile.getValue('ExecuteDemo', row)
 					resColumn = 'ResultDemo'
 					datColumn = 'DateDemo'

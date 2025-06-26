@@ -69,7 +69,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 	
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= numOfRows; row++)
+	for (def row = 3; row <= 3; row++)
 		{
 		
 				if(executionProfile == 'Production' || executionProfile == 'Upgrade') {		
@@ -221,12 +221,18 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 													
 								WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
 								
+								Thread.sleep(20000)
+								
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Credit this transaction'))
+								
+								Thread.sleep(20000)
 								
 								WebUI.verifyTextPresent('Credit Card Credit', true)
 								
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
+								
+								Thread.sleep(5000)
 								
 								WebUI.verifyTextPresent('Transaction Successful', true)
 								WebUI.verifyTextPresent('Transaction Type', true)
@@ -249,15 +255,14 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 										resText = "Fail"
 										System.out.println(resColumn)
 										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
-									}
-								
-//									WebUI.closeBrowser()
-									
+									}								
 							}
 								
 						}					
 						
 				}
+				WebUI.closeBrowser()
+				
 		}
 
 

@@ -561,7 +561,7 @@ public class achCorporatePaymentEntryBootstrapPage {
 			}
 
 
-			if(appID == '914' || appID == '915' || appID == '937' || appID == '939' ) {
+			if(appID == '914' || appID == '915' || appID == '937' || appID == '939' || appID == '5102' || appID == '6114' || appID == '6115' || appID == '6117') {
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input__accountNumber'),30)) {
 					println(accountNumber)
 					if ((!accountNumber.isEmpty())) {
@@ -594,7 +594,7 @@ public class achCorporatePaymentEntryBootstrapPage {
 					println("Confirm Account Number field is either missing or not modifiable on ACH Corporate Payment Entry Page")
 				}
 			}
-			else if(appID == '920' || appID == '921' || appID == '936' || appID == '938' || appID == '944') {
+			else if(appID == '920' || appID == '921' || appID == '936' || appID == '938' || appID == '941' || appID == '942' || appID == '943' || appID == '944' || appID == '5100' || appID == '5101'  || appID == '5103' || appID == '6116' ) {
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHCorporatePaymentEntry/txt_accountNumber'),30)) {
 					if ((!accountNumber.isEmpty())) {
 						WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHCorporatePaymentEntry/txt_accountNumber'),accountNumber)

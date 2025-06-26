@@ -249,17 +249,11 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 										resText = "Fail"
 										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 									}
-								
-								
-								
+									
 							}
-							
-
-							
-							
+											
 						}
-						
-						
+		
 				}
 				WebUI.closeBrowser()
 		}

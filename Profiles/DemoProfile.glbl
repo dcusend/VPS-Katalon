@@ -84,4 +84,9 @@
       <initValue>'Hello!88888888'</initValue>
       <name>AutoPasswordAdminSuite</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dev-algorithm.govolution.com/vrelaytest/Demo/version_2_2/vrelaytest.html'</initValue>
+      <name>urlTestHarness</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
