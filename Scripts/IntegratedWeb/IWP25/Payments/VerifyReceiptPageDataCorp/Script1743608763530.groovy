@@ -89,8 +89,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					
 					
-					Thread.sleep(2000)
-					if (WebUI.verifyTextPresent("Your payment plan has been successfully created", false))
+					Thread.sleep(6000)
+					if (WebUI.verifyTextPresent("Successful Payment Receipt", false))
 						{
 								
 							if(isRequiredTextPresent) {

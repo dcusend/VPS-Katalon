@@ -6,12 +6,16 @@
    <elementGuidId>da1b7923-9a5b-4a3f-b04e-494a9a401457</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports19 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports19']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Customer Profiles Report' or . = 'Customer Profiles Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports19 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>51712f2b-9c11-4582-89fa-7c10d40a0de5</webElementGuid>
+      <webElementGuid>d153751a-4b90-4aac-96b2-4b328afb5546</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>0b293dd2-08c5-4594-ac1d-942a40d34565</webElementGuid>
+      <webElementGuid>0df2be2f-87e0-47f7-bafd-d598b5258f64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>d4897070-78db-4f5c-84bd-d99f04022e69</webElementGuid>
+      <webElementGuid>14c31a64-c277-4362-a4c6-ef6d4bb89dc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/customerpror.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>1636126d-81d2-4aa3-8966-0ed91a73e347</webElementGuid>
+      <webElementGuid>c188f9ef-8b73-4e76-869e-c0937401a258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>de6fc7a4-db91-4a97-b80d-1025ac3e2986</webElementGuid>
+      <webElementGuid>3779bde0-2052-4fa5-9779-3978f73cf820</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View details for all customer profiles for a selected Velocity customer.</value>
-      <webElementGuid>925c8cb3-bb94-4b75-9a15-ae5ca8ef38ed</webElementGuid>
+      <webElementGuid>0bfa4444-009d-43c2-afe9-43270c2bf800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip761630</value>
-      <webElementGuid>4a093c85-a073-4715-96d7-bd8eb9d0dea3</webElementGuid>
+      <webElementGuid>ea121926-af73-490c-947b-8169240f68b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Customer Profiles Report</value>
-      <webElementGuid>9b62b3d3-5e93-4111-ab5b-031f0e2ee982</webElementGuid>
+      <webElementGuid>73a21ce2-e468-4ef0-ad23-9531632c978f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports19&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>0ecb582a-3862-4c36-b625-ace3fc6dce2a</webElementGuid>
+      <webElementGuid>9ad28ef1-d844-4edc-9576-89b34f86892f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports19']/div/a</value>
-      <webElementGuid>7a504c14-2148-4d52-a223-57eb9ddf7a55</webElementGuid>
+      <webElementGuid>4b7d8d15-c141-4c5e-897c-350a8c41f122</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Customer Profiles Report')]</value>
-      <webElementGuid>614fbb30-17e4-4b01-b1f4-4c102e282abb</webElementGuid>
+      <webElementGuid>6f5b4ae3-3641-447b-a167-1a4ddd7177ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bill Statistics Report'])[1]/following::a[1]</value>
-      <webElementGuid>183718c3-a8f6-416c-9f0b-ad92750db255</webElementGuid>
+      <webElementGuid>f744d332-5356-42a7-af7c-200e34a9a68d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Pay Enrollments Report'])[1]/following::a[2]</value>
-      <webElementGuid>e65ad04e-c291-4797-af67-d0a507592622</webElementGuid>
+      <webElementGuid>833898f5-2b7c-4812-b429-c3da4c2446fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>4cc07673-7c9c-4d99-bfd5-4af2bde9c68c</webElementGuid>
+      <webElementGuid>4cbafb1f-1dd2-49f8-92ae-fdab576c585b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary Report by Payment Channel'])[1]/preceding::a[2]</value>
-      <webElementGuid>bf2cc073-b512-46e0-973e-af5adff496d9</webElementGuid>
+      <webElementGuid>bf90f69d-7278-4a87-b245-442c71116ead</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Customer Profiles Report']/parent::*</value>
-      <webElementGuid>7c605588-d180-4bd5-bdd6-1904e6542cc3</webElementGuid>
+      <webElementGuid>1241859b-7593-42a6-9e22-0c074db0b486</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/customerpror.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>5656a8f2-8519-4912-a769-7e8d57ca58fd</webElementGuid>
+      <webElementGuid>9b6d11e1-b58f-4dd4-a5c4-00f520e3da68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/a</value>
-      <webElementGuid>bea5489b-7ccf-472e-b3ff-9d09c4a12722</webElementGuid>
+      <webElementGuid>fe469bca-3cbd-4778-b1ca-232efb715a64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/customerpror.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Customer Profiles Report' or . = 'Customer Profiles Report')]</value>
-      <webElementGuid>5f22f32a-1028-4eaf-a5eb-6cc0ae3dd0d6</webElementGuid>
+      <webElementGuid>78eca49f-8218-4b1c-9af5-8ad9ca3eef94</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateVerifyDeleteCCPM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d676d1f-6bf6-4fdf-82dd-1678766969fa</testCaseGuid>
+</TestCaseEntity>

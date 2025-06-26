@@ -68,8 +68,12 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
+		Thread.sleep(10000)
+		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
+		
+		Thread.sleep(10000)
 		
 		if(WebUI.verifyTextPresent(dataFile.getValue("VT1", row), false)) {
 			isRequiredTextPresent = true

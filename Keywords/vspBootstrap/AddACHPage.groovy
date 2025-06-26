@@ -24,7 +24,7 @@ public class AddACHPage {
 
 
 	String path_Add_ACH = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/AddACH/"
-	String payType, rtn, nickNameACH, acNumber
+	String payType, rtn, nickNameACH, acNumber, zipCode, zipCodeExt
 
 	@Keyword
 	def setDataAddACH(int rowS, String dataFileS) {
@@ -45,8 +45,8 @@ public class AddACHPage {
 		// Select Create button
 		WebUI.click(findTestObject(path_Add_ACH + 'button_Create'))
 	}
-	
-	
+
+
 	@Keyword
 	def setDataAddACH_EF(int rowS, dataFileS) {
 
@@ -56,12 +56,16 @@ public class AddACHPage {
 		rtn = dataFileS.getValue('RTN', rowS)
 		nickNameACH = dataFileS.getValue('NicknameACH', rowS)
 		acNumber = dataFileS.getValue('ACNumber', rowS)
+//		zipCode = dataFileS.getValue('ZIP', rowS)
+
 
 		// SetData
 		WebUI.setText(findTestObject(path_Add_ACH + 'input_routingTransitNumber'), rtn)
 		WebUI.selectOptionByLabel(findTestObject(path_Add_ACH + 'select_PaymentType'), payType, true)
 		WebUI.setText(findTestObject(path_Add_ACH + 'input_nickName'), nickNameACH)
 		WebUI.setText(findTestObject(path_Add_ACH + 'input_accountNumber'), acNumber)
+		Thread.sleep(10000)
+		
 
 		// Select Create button
 		WebUI.click(findTestObject(path_Add_ACH + 'button_Create'))

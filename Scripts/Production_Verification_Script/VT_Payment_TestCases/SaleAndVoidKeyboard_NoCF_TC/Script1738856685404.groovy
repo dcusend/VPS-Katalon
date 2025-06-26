@@ -57,44 +57,31 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 
 String resText = "Fail"
 //String datText = today
-String resColumn = "Result"
-String datCloumn = "Date"
-def numOfRows, dataFile, nameSheet, ExecuteTC
+//String resColumn = "Result"
+//String datCloumn = "Date"
+def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 
 
-	println(executionProfile)
-//	if(executionProfile == 'Production') {
 		String fileLoc = "KatalonData\\Bootstrap\\VT-Data-Prod.xlsx"
 		nameSheet = "VT-SaleVoid-NoCF-Generic"
 		println("Number of Records: " + numOfRows)	
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData\\Bootstrap\\VT-Data-Prod.xlsx", nameSheet, true)
 		numOfRows = dataFile.getRowNumbers()
 		
-//	}
-//	else if(executionProfile == 'DemoProfile') {
-//		String fileLoc = "KatalonData\\Bootstrap\\VT-Data-Demo.xlsx"
-//		nameSheet = "VT-SaleVoid-NoCF-Generic"
-//		println("Number of Records: " + numOfRows)
-//		dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData\\Bootstrap\\VT-Data-Prod.xlsx", nameSheet, true)
-//		numOfRows = dataFile.getRowNumbers()
-//		
-//	}
-	
 	
 	
 	// For each row in the spreadsheet, execute the given steps
 	for (def row = 1; row <= numOfRows; row++)
 		{
-		
-	
-			
-			
-			if(executionProfile == 'Production') {		
+
+			if(executionProfile == 'Production' || executionProfile == 'Upgrade') {		
 				appName = dataFile.getValue('AppNameProd', row)
 				appID   = dataFile.getValue('AppIDProd', row)
 				
 				ExecuteTC = dataFile.getValue('ExecuteProd', row)
-				System.out.println('Value of Execute is : ' + ExecuteTC)
+				System.out.println('Value of Execute is : ' + ExecuteTC)				
+				resColumn = 'ResultProd'
+				datColumn = 'DateProd'
 			}
 			else if(executionProfile == 'DemoProfile') {
 				appName = dataFile.getValue('AppNameDemo', row)
@@ -102,6 +89,9 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 				
 				ExecuteTC = dataFile.getValue('ExecuteDemo', row)
 				System.out.println('Value of Execute is : ' + ExecuteTC)
+				
+				resColumn = 'ResultDemo'
+				datColumn = 'DateDemo'
 			}
 			
 			String hrefAppID = li_1 + appID + li_2
@@ -117,14 +107,9 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					String datText = today
 					
 					
-					if(executionProfile == 'Production') {
 					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
-					}
-					else if(executionProfile == 'DemoProfile') {
-						CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
-						
-					}
 					
+				
 										
 					WebUI.click(findTestObject(path_Dashboard + appName))
 					
@@ -177,11 +162,11 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 								WebUI.verifyTextPresent('Authorization and Capture', true)
 								WebUI.verifyTextPresent('Transaction Posted by', true)
 								
-								if(executionProfile == 'Production') {							
+								if(executionProfile == 'Production' || executionProfile == 'Upgrade') {						
 									WebUI.verifyTextPresent('AutoUserProd', true)
 								}
 								else if(executionProfile == 'DemoProfile') {
-									WebUI.verifyTextPresent('iahmed1', true)											
+									WebUI.verifyTextPresent('AutoUserDemo', true)											
 								}
 						
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
@@ -201,7 +186,10 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 										println "Transaction Successful text is present on the Receipt page"
 										KeywordUtil.markPassed("Transaction Successful text is present on the Receipt page")
 										resText = "Pass"
-										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+										
+										println resColumn
+										println datColumn
+										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 			
 									}
 								else
@@ -209,7 +197,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 										println "Transaction Successful text is not present on the Receipt page"
 //										KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
 										resText = "Fail"
-										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 									}
 								
 								WebUI.closeBrowser()

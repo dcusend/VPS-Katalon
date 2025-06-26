@@ -148,6 +148,10 @@ public class CreateProfilePage {
 		String path_CreateProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/CreateProfile/"
 
 		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCode'), zipCode)
+		Thread.sleep(5000)
+		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCodeExt'), zipCodeExt)
+		
+
 
 		def genProfileName = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 		WebUI.setText(findTestObject(path_CreateProfile + 'input_profileName'), genProfileName)
@@ -163,7 +167,6 @@ public class CreateProfilePage {
 		WebUI.setText(findTestObject(path_CreateProfile + 'input_AddressLine2'), al2)
 		//WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_Country'), country, true)
 
-		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCodeExt'), zipCodeExt)
 		//WebUI.setText(findTestObject(path_CreateProfile + 'input_City'), city)
 		//WebUI.selectOptionByLabel(findTestObject(path_CreateProfile + 'select_State'), State, true)
 
@@ -353,7 +356,4 @@ public class CreateProfilePage {
 		// Select Save button
 		//WebUI.click(findTestObject(path_CreateProfile + 'button_Save'))
 	}
-
-	
-	
-	}
+}

@@ -114,4 +114,49 @@
       <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/AutoMultiBillDualCF'</initValue>
       <name>MultiBillDualCFURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Lookup used 40190709	300003	300004</description>
+      <initValue>'AutoABPUser916'</initValue>
+      <name>abpNoCFUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hello!5555555'</initValue>
+      <name>abpNoCFPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa2.velocitypayment.com/vbills/imtiazcustomer/login.go'</initValue>
+      <name>abpURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1000</initValue>
+      <name>shortDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>20000</initValue>
+      <name>longDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Lookup used 20190509,800003,800004</description>
+      <initValue>'AutoABPUser917'</initValue>
+      <name>abpSCFUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hello!5555555'</initValue>
+      <name>abpSCFPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Lookup used 20190709,100001,100002</description>
+      <initValue>'AutoABPUser918'</initValue>
+      <name>abpDCFUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hello!5555555'</initValue>
+      <name>abpDCFPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

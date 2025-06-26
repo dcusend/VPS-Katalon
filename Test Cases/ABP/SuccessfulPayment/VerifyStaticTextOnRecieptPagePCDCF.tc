@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyStaticTextOnRecieptPagePCDCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f6d287b-5039-4607-9726-4c4b7e1447d8</testCaseGuid>
+</TestCaseEntity>

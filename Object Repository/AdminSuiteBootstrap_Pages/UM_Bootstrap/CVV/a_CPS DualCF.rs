@@ -6,12 +6,15 @@
    <elementGuidId>d1d19833-1d56-4862-9e3e-704af70cbf0d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//div[@id='WebServicesGateway']/div/a)[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'CPS DualCF' or . = 'CPS DualCF')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1f597a89-bcca-4c8f-8c4d-bd309df651ef</webElementGuid>
+      <webElementGuid>77bce576-0071-4f03-90d3-4d64fc038dc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ml-2</value>
-      <webElementGuid>38827d60-aedf-411d-9852-083b20896949</webElementGuid>
+      <webElementGuid>858765d5-b543-4f09-8d00-8548930efb06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vadministrator/cvv/view.do?pid=22&amp;aid=3576</value>
-      <webElementGuid>f0f67f1c-55fa-47c4-8195-b4eed40fc184</webElementGuid>
+      <webElementGuid>071ca6f5-6ca0-48ad-aec1-ecf5cda373d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CPS DualCF</value>
-      <webElementGuid>3b34b3e9-f4d2-40e6-b36d-e98a363492f8</webElementGuid>
+      <webElementGuid>2896c17e-e8f9-4dbf-b346-ce29a8354f15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;accordionExample&quot;)/div[@class=&quot;border-0 card bg_light&quot;]/div[@id=&quot;WebServicesGateway&quot;]/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
-      <webElementGuid>f6225f32-d07c-48a8-93ba-44d6b3b37690</webElementGuid>
+      <webElementGuid>992e3ddf-23b9-475c-8414-3ad5c81a4931</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>(//div[@id='WebServicesGateway']/div/a)[3]</value>
-      <webElementGuid>47eb17e6-ee8d-4d7d-b63a-cc467f35e725</webElementGuid>
+      <webElementGuid>08e3ebe2-4672-449d-87d7-c2c2bb52e979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'CPS DualCF')])[3]</value>
-      <webElementGuid>fd3dd297-57e1-47a2-9a17-3f070910ae42</webElementGuid>
+      <webElementGuid>5026ff44-bb51-4809-a9d3-48b128901211</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BWP License Fees GovTest'])[2]/following::a[1]</value>
-      <webElementGuid>ad905129-17d2-4e1d-8d96-4eb2dd0ee1f5</webElementGuid>
+      <webElementGuid>81ce6ae7-30e9-49b7-8cb2-4bcecb6e506f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BBP Parking Fees GovTest'])[2]/following::a[2]</value>
-      <webElementGuid>4054a4f3-73e4-4e54-a58d-55a5b50c6b31</webElementGuid>
+      <webElementGuid>069ff1ad-9e0a-4aec-ae92-bd8c8383973b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Melanie gateway Test'])[2]/preceding::a[1]</value>
-      <webElementGuid>4c6e6a60-0c31-4a06-a4a0-f183cdd8ae02</webElementGuid>
+      <webElementGuid>2558e922-cd08-4d17-bf36-5b522576633c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test App TSYS CPS'])[2]/preceding::a[2]</value>
-      <webElementGuid>f85cfdfa-39af-47fb-9a02-c34cb5f5c1f6</webElementGuid>
+      <webElementGuid>6af09b96-7761-4b51-8088-654a2834493d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +120,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vadministrator/cvv/view.do?pid=22&amp;aid=3576')]</value>
-      <webElementGuid>f8804035-98b5-42ae-8b00-e4b757500e8d</webElementGuid>
+      <webElementGuid>f0a7ff6c-7c83-4826-ad6d-680b7d175d69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +128,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/a</value>
-      <webElementGuid>3ed8d6c6-c619-46e7-b862-9ae47763d18e</webElementGuid>
+      <webElementGuid>fa5ec7a8-03e7-415f-84bd-f84a45d661fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +136,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vadministrator/cvv/view.do?pid=22&amp;aid=3576' and (text() = 'CPS DualCF' or . = 'CPS DualCF')]</value>
-      <webElementGuid>1354fcbf-0c0d-41ab-aa5d-62ed4bd00e47</webElementGuid>
+      <webElementGuid>26a038ec-8727-43e8-805c-94619ed1ab5c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

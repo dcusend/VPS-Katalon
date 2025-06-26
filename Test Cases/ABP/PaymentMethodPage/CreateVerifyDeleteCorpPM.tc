@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateVerifyDeleteCorpPM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e43438ab-ad4b-468c-b071-829def54e826</testCaseGuid>
+</TestCaseEntity>

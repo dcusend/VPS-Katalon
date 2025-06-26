@@ -68,12 +68,16 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
+		Thread.sleep(20000)
+		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
 		CustomKeywords.'multiBillPages.searchPage.selectAddtoCart'()
 		
 		CustomKeywords.'multiBillPages.searchPage.selectViewCart'()
+		
+		Thread.sleep(10000)
 		
 		if(WebUI.verifyTextPresent("Cart Contents", false)) {
 			

@@ -10,8 +10,11 @@
          <value>//form[@id='ReportSubscriptionActionForm']/div/div/div/div/div[2]/table/tbody/tr[2]/td[2]/a[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Remove' or . = 'Remove')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ae2acb02-e0de-4a3c-9a97-b227f46d92b0</webElementGuid>
+      <webElementGuid>aa4cde60-3417-4a26-8ea4-6f2e28969357</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>fd41fb7d-e2de-49db-b218-160286b5a850</webElementGuid>
+      <webElementGuid>7a96a7dc-8b62-4d0c-8204-bff06ba649b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>javascript: removeReportSubscription(1739);</value>
-      <webElementGuid>d54ae640-d823-4f65-af41-a7b8b343d5d7</webElementGuid>
+      <webElementGuid>21a5831a-7bc6-450e-a928-b97ed7dd536b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Remove</value>
-      <webElementGuid>44de030a-93fb-48a3-a801-53e3e371d81e</webElementGuid>
+      <webElementGuid>323c0d54-a846-4290-aa7a-e16d7438bd53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ReportSubscriptionActionForm&quot;)/div[@class=&quot;tile-body&quot;]/div[@class=&quot;px-3&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/table[@class=&quot;table table-hover table-bordered dataTable no-footer&quot;]/tbody[1]/tr[@class=&quot;results-td-even&quot;]/td[2]/a[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>4a18a9b8-eabc-4ef3-95ae-b7abc5dae99e</webElementGuid>
+      <webElementGuid>b4287a92-8f3f-4a54-aff7-49966471c9a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='ReportSubscriptionActionForm']/div/div/div/div/div[2]/table/tbody/tr[2]/td[2]/a[2]</value>
-      <webElementGuid>80fa771c-a6da-4878-9c3e-aa035c43105d</webElementGuid>
+      <webElementGuid>b93d6975-e590-4e76-b416-611848835195</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Remove')]</value>
-      <webElementGuid>7e63393d-496c-4c27-8f09-811f7d407d20</webElementGuid>
+      <webElementGuid>0ebc694d-3aac-49d9-a4d6-b344badfebca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Modify'])[1]/following::a[1]</value>
-      <webElementGuid>bb38733d-e3f6-4c78-93a7-f3cde3ae55be</webElementGuid>
+      <webElementGuid>598d6a14-18f5-4ff3-8a8c-683e6b147ae8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ESR by TT Modified again'])[1]/following::a[2]</value>
-      <webElementGuid>31da610d-e7e7-48b2-b181-4ff3241ec3de</webElementGuid>
+      <webElementGuid>28f5c732-92c9-4547-a183-b1a5f3b7fe77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::a[1]</value>
-      <webElementGuid>ac86e8f3-0b3b-4323-af9a-fc7245348d77</webElementGuid>
+      <webElementGuid>b910f8b4-10de-4602-8b80-536919782302</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::a[1]</value>
-      <webElementGuid>60a4967e-5590-4b86-bce7-59c7fce84248</webElementGuid>
+      <webElementGuid>037c0af7-6046-491c-89d5-af353ea92018</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Remove']/parent::*</value>
-      <webElementGuid>e20d919d-dde4-49ed-bdf4-aeaa4534a14b</webElementGuid>
+      <webElementGuid>342b054c-e2ab-4e7c-84f6-83e1711df7a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +128,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript: removeReportSubscription(1739);')]</value>
-      <webElementGuid>8ca97b23-30c5-44a5-857e-27a805d4be6a</webElementGuid>
+      <webElementGuid>b641eac6-e031-40f2-912a-e6f40da530bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +136,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/a[2]</value>
-      <webElementGuid>7ffcff2d-ffc9-4360-a7da-b048950c803d</webElementGuid>
+      <webElementGuid>46138755-b548-4109-b0fc-abe80630c394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +144,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript: removeReportSubscription(1739);' and (text() = 'Remove' or . = 'Remove')]</value>
-      <webElementGuid>12a0f924-0bb6-4710-91a3-8767f38d8258</webElementGuid>
+      <webElementGuid>3f955491-ac0e-41a3-8ee4-19944dddb635</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

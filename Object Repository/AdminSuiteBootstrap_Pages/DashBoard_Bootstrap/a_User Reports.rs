@@ -13,8 +13,13 @@
          <key>XPATH</key>
          <value>//a[@id='User_Reports']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'User Reports' and @id = 'User_Reports' and (text() = 'User Reports' or . = 'User Reports')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>5e2b7aeb-e877-4fd9-838f-a674a0c06fa5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,13 +35,15 @@
       <name>class</name>
       <type>Main</type>
       <value>treeview-item active</value>
+      <webElementGuid>a210b6f2-b29d-4214-8041-cc2739e0fa67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/imtiaz/bootstrap/vclerk/index.do?actionType=user</value>
+      <webElementGuid>7ae7fe88-00ab-4717-b80e-991f32fc0375</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +51,7 @@
       <name>title</name>
       <type>Main</type>
       <value>User Reports</value>
+      <webElementGuid>a8df46d1-adfa-44f9-8b1c-9497a333e0bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +59,7 @@
       <name>id</name>
       <type>Main</type>
       <value>User_Reports</value>
+      <webElementGuid>178dfc93-e9ec-453b-80d3-712d61e7a812</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +67,7 @@
       <name>text</name>
       <type>Main</type>
       <value>User Reports</value>
+      <webElementGuid>88aa1227-6879-44ce-a87b-001525cd79bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,6 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;User_Reports&quot;)</value>
+      <webElementGuid>1aea1822-31ec-4481-bbbe-7d921820f05a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='User_Reports']</value>
+      <webElementGuid>b8e91bd0-3e7b-4703-82e6-eef495b25399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +91,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'User Reports')]</value>
+      <webElementGuid>732f3f8f-7b5a-458c-a5f9-c3082d51f90b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Risk Management/Audit Reports'])[1]/following::a[1]</value>
+      <webElementGuid>180f5b68-f0ca-415a-b62a-4978c9a3b526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Operational Reports'])[1]/following::a[2]</value>
+      <webElementGuid>9969707a-4a63-4938-bdd9-c591a0c13359</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Reports'])[1]/preceding::a[1]</value>
+      <webElementGuid>0279ef09-bf33-45e0-9fbe-778e72e0edc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Subscription'])[1]/preceding::a[2]</value>
+      <webElementGuid>b4c2291e-917c-4016-b1c0-9ae86df0e54e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='User Reports']/parent::*</value>
+      <webElementGuid>133a2249-c6ac-4340-90c1-646a714655af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +139,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/imtiaz/bootstrap/vclerk/index.do?actionType=user')]</value>
+      <webElementGuid>b55d42be-c232-49e4-b094-614f5da9984f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,5 +147,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/ul/li[3]/a</value>
+      <webElementGuid>ba63a4ba-7f1d-4a07-9d0c-68a69aede4b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

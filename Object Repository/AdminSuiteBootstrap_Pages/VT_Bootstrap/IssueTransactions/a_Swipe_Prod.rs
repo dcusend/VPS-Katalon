@@ -6,12 +6,15 @@
    <elementGuidId>1764bb15-1274-4f0b-8c0e-e3d237e03ca6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='collapseOne']/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;collapseOne&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;][count(. | //*[(text() = 'Swipe' or . = 'Swipe')]) = count(//*[(text() = 'Swipe' or . = 'Swipe')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bc49c5d0-e3c0-4e1e-ab27-79066457f29d</webElementGuid>
+      <webElementGuid>83e6607b-4ced-483c-ae55-825125db5577</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ml-2</value>
-      <webElementGuid>cda569e0-9db6-4fae-ba25-eed6e6d67c48</webElementGuid>
+      <webElementGuid>7122f85d-3baf-4226-97d0-1888798f6b5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authcap/?mode=swipe</value>
-      <webElementGuid>f917ccd7-1247-47ab-baf4-15e1ecf0e4f4</webElementGuid>
+      <webElementGuid>ac2275d8-e97b-4a2a-a8d4-bee6ea15421d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,15 +56,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Swipe</value>
-      <webElementGuid>ef3a92b2-3007-4397-8066-28fcd4dd5a58</webElementGuid>
+      <webElementGuid>6393b2ef-6e7b-4240-ad5e-d07878ef9c0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;collapseOne&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
-      <webElementGuid>b3a629e1-18b5-4045-8e6f-9ca81edc95a2</webElementGuid>
+      <webElementGuid>05787ccc-0f52-4e17-a6b6-1f238c18537a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='collapseOne']/div[3]/a</value>
-      <webElementGuid>daf18002-319c-4a66-8357-f4f8032b6e4b</webElementGuid>
+      <webElementGuid>463da3d7-7e66-4e33-ac2b-82a373f5899f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Swipe')]</value>
-      <webElementGuid>155df4b8-30de-4c54-8452-9cc37868a53e</webElementGuid>
+      <webElementGuid>057de243-c55a-41e9-be55-3ca484648909</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN Pad Entry'])[1]/following::a[1]</value>
-      <webElementGuid>11d5be4f-48d4-4a66-839c-7f412fba8364</webElementGuid>
+      <webElementGuid>b6871ed2-d47a-40c6-9200-e825beb7fe66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keyboard Entry'])[1]/following::a[2]</value>
-      <webElementGuid>24393254-9a5a-44a4-a492-a9f33676f4d9</webElementGuid>
+      <webElementGuid>e9746dc9-7d70-48c4-85ce-e66f43fba500</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keyboard Entry'])[2]/preceding::a[1]</value>
-      <webElementGuid>078693c8-0ee7-4040-acda-6ed3c44e6332</webElementGuid>
+      <webElementGuid>2f4f4122-d78f-4a49-a317-26639f2f7c57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Swipe']/parent::*</value>
-      <webElementGuid>4d76043d-9782-4c1f-b35e-310fda6423ee</webElementGuid>
+      <webElementGuid>e340d78e-4196-4cd8-b749-9fcff66ff9ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +120,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authcap/?mode=swipe')]</value>
-      <webElementGuid>d358ac3f-d611-4d3e-90b8-77c8857176e5</webElementGuid>
+      <webElementGuid>16018924-4b6f-4a76-bcf2-7f4faf155f00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +128,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>df493179-4b76-4af9-9ec0-1cbf20d8ce0d</webElementGuid>
+      <webElementGuid>49779614-7cd5-41d1-852a-7608a04a02a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +136,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authcap/?mode=swipe' and (text() = 'Swipe' or . = 'Swipe')]</value>
-      <webElementGuid>4499fb69-1f63-487b-b036-da3bde1c3967</webElementGuid>
+      <webElementGuid>b49de4d8-59c0-4417-b05c-b1b54bebdd1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

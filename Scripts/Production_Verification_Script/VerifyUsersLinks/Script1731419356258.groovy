@@ -72,7 +72,7 @@ WebUI.verifyElementPresent(findTestObject(path_UM + 'th_User Name'), 30)
 WebUI.verifyElementVisible(findTestObject(path_UM + 'th_User ID'))
 WebUI.verifyElementPresent(findTestObject(path_UM + 'th_User ID'), 30)
 
-
+WebUI.closeBrowser()
 
 
 

@@ -16,9 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 
 
+// Get the Execution Profile like QA or Demo
+def executionProfile = RC.getExecutionProfile()
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
@@ -37,12 +40,13 @@ WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Payment'), 30)
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Reporting'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Reporting'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_IVR Call Metrics'))
-WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_IVR Call Metrics'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_IVR Call Metrics'))
+	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_IVR Call Metrics'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Call Center'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Call Center'), 30)
-
 
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'h5_User Management'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'h5_User Management'), 30)
@@ -56,36 +60,37 @@ WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'h5_Call Center'), 30
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'h5_Online Reporting'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'h5_Online Reporting'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'h5_IVR Call Metrics'))
-WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'h5_IVR Call Metrics'), 30)
-
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access User Management'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access User Management'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access Email Subscription'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access Email Subscription'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access FirstView'))
-WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access FirstView'), 30)
-
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access View All Reports'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access View All Reports'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access CPS DualCF'))
-WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access CPS DualCF'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'h5_IVR Call Metrics'))
+	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'h5_IVR Call Metrics'), 30)
+	
+	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access FirstView'))
+	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access FirstView'), 30)
+	
+	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access CPS DualCF'))
+	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access CPS DualCF'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access Test App TSYS CPS'))
-WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access Test App TSYS CPS'), 30)
+	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access Test App TSYS CPS'))
+	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access Test App TSYS CPS'), 30)
+	
+	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access IVR Call Metrics'))
+	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access IVR Call Metrics'), 30)
+	
+//	WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Test Customer'))
+//	WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Test Customer'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access Customer Service Representative'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access Customer Service Representative'), 30)
-
-WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Access IVR Call Metrics'))
-WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Access IVR Call Metrics'), 30)
-
-//WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_Test Customer'))
-//WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_Test Customer'), 30)
-
 
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'p_footer'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'p_footer'), 30)

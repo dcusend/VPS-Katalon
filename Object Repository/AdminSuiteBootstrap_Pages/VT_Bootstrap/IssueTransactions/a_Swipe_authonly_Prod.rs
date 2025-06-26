@@ -6,12 +6,15 @@
    <elementGuidId>591512e2-a769-45f9-9e1a-70926bc159da</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='collapseTwo']/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;collapseTwo&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;][count(. | //*[(text() = 'Swipe' or . = 'Swipe')]) = count(//*[(text() = 'Swipe' or . = 'Swipe')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a42fcf6a-4478-4342-b01b-0e08464c3fd3</webElementGuid>
+      <webElementGuid>a2c2d0a2-7194-4199-ab69-692233f498e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ml-2</value>
-      <webElementGuid>5bf78ac7-8ca4-4f5b-93ad-2bd89b8c9b96</webElementGuid>
+      <webElementGuid>e577d69e-dbc6-41f9-8a8d-50d5657a655a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authonly/?mode=swipe</value>
-      <webElementGuid>4eb28685-39b1-4720-93c1-e63e42c08af5</webElementGuid>
+      <webElementGuid>369332e2-9daf-4083-8135-e4c7d6372526</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,15 +56,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Swipe</value>
-      <webElementGuid>750f5d86-ca8f-447f-9c57-86cc1367b163</webElementGuid>
+      <webElementGuid>a5946c76-7bf3-486e-a290-965083809c6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;collapseTwo&quot;)/div[@class=&quot;card-body ml-4&quot;]/a[@class=&quot;ml-2&quot;]</value>
-      <webElementGuid>056ebacc-b778-4305-b9a0-d606e88a56d4</webElementGuid>
+      <webElementGuid>ff733fbe-6aae-4816-a5f4-cd96b0fd6aff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='collapseTwo']/div[3]/a</value>
-      <webElementGuid>1b5a9bf8-7f6f-499a-b432-804d41d5154b</webElementGuid>
+      <webElementGuid>00cefb89-c1bb-4a5b-b4d6-d51116666590</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Swipe')])[2]</value>
-      <webElementGuid>71fa4605-9b3e-45ab-ab35-a85b333a944f</webElementGuid>
+      <webElementGuid>e4dd452b-50f4-4b24-8483-e8f1e9ba1e7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN Pad Entry'])[2]/following::a[1]</value>
-      <webElementGuid>bc2f12e3-e8bc-43f2-bb18-cc45d531db3e</webElementGuid>
+      <webElementGuid>7a9c9311-0882-4a92-9614-d1e04b2d508f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keyboard Entry'])[2]/following::a[2]</value>
-      <webElementGuid>a65b45b8-9980-4dcd-b04e-b31983cb2c10</webElementGuid>
+      <webElementGuid>99d56461-f508-47de-b229-4e08fb1e7463</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authonly/?mode=swipe')]</value>
-      <webElementGuid>2d85425c-780e-4eed-bd4f-9094f0ca6ab8</webElementGuid>
+      <webElementGuid>bf9cc2d5-9c6e-488c-8987-f3b725ef7db2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div[3]/a</value>
-      <webElementGuid>13a67a50-b678-4a0d-ad0a-5d48e2bedb01</webElementGuid>
+      <webElementGuid>48d7be56-ad5f-487a-86c9-1914796c3355</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vpos/4585/transactions/swipe/authonly/?mode=swipe' and (text() = 'Swipe' or . = 'Swipe')]</value>
-      <webElementGuid>d0dddab9-4754-435c-bc39-7873df1b62b1</webElementGuid>
+      <webElementGuid>b41e0fe8-387b-4a5f-b6c1-d50180df690a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

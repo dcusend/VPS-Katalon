@@ -93,8 +93,8 @@ public class AddCreditCardPage {
 		// Select the Create button
 		WebUI.click(findTestObject(path_Add_CC + 'button_Create'))
 	}
-	
-	
+
+
 	@Keyword
 	def setDataCreditCardPre_EF(int rowS, dataFileS) {
 
@@ -110,7 +110,7 @@ public class AddCreditCardPage {
 		WebUI.setText(findTestObject(path_Add_CC + 'input_cardNumber'), cardNumber)
 		WebUI.selectOptionByLabel(findTestObject(path_Add_CC + 'select_ExpMonth'), expM, true)
 		WebUI.selectOptionByLabel(findTestObject(path_Add_CC + 'select_ExpYear'), expY, true)
-
+		Thread.sleep(10000)
 		// Select the Create button
 		WebUI.click(findTestObject(path_Add_CC + 'button_Create'))
 	}

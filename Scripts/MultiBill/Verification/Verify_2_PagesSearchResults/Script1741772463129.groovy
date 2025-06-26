@@ -4,7 +4,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-//import com.github.fge.jsonschema.library.Keyword
+import com.github.fge.jsonschema.library.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword
@@ -37,6 +37,9 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillSingleCFURL
+def shortDelay = GlobalVariable.shortDelay
+
+println(shortDelay)
 
 String path = fileLoc
 nameSheet = "Verify2Pages"
@@ -67,6 +70,8 @@ for (def row = 1; row <= numOfRows; row++)
 			//Assign search String
 			
 		searchString = dataFile.getValue("SearchString", row)
+		
+		Thread.sleep(shortDelay)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)

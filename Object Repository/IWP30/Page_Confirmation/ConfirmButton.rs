@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a45a4841-ac46-49f7-8e7b-cfd685dedc83</webElementGuid>
+      <webElementGuid>53624d0e-8c7d-4839-a5cc-eeedae1632b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +27,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>350b8f28-40f0-47d1-af81-079a8cc273ab</webElementGuid>
+      <webElementGuid>144d49d6-09bb-4f25-b65d-db645f39196d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>name</name>
       <type>Main</type>
       <value>confirmNotifyAction</value>
-      <webElementGuid>f3265436-c1ed-44f9-a218-22028debac51</webElementGuid>
+      <webElementGuid>f78af9b8-5596-4cb6-a0e6-0eb76bbdb67c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>submitYes</value>
-      <webElementGuid>d0a287e9-7174-4e8f-8845-a8297e6ba974</webElementGuid>
+      <webElementGuid>704ace85-99a3-45b1-be10-0eb6a9915ec2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>0cec343e-22bf-4b5c-b0ea-e1636f64d6ce</webElementGuid>
+      <webElementGuid>874bd8be-8f5b-43df-ad14-8bab065163b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>payor_opt</value>
-      <webElementGuid>2d797d96-e85f-4a16-9b77-5d88df7dbc18</webElementGuid>
+      <webElementGuid>280c76d3-60f5-44da-b853-444e0e6cc4ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>setYes();</value>
-      <webElementGuid>f9bed436-8be3-423a-bfa4-2a75cc384fd2</webElementGuid>
+      <webElementGuid>6f22b3dc-b8aa-4119-b68a-002c42ac3f9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;submitYes&quot;)</value>
-      <webElementGuid>41f87b1b-0745-4eee-861e-01b934b168b8</webElementGuid>
+      <webElementGuid>1960de1c-5a0f-4489-8234-5bc52cd19a22</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='submitYes']</value>
-      <webElementGuid>fad20d53-9b4a-4865-86de-6db338b23f55</webElementGuid>
+      <webElementGuid>b5c184ad-576b-4c7b-ac34-cfe532c20df1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +91,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>80f909ef-d73b-4502-a5a3-cadab848748d</webElementGuid>
+      <webElementGuid>c8bbac57-fdd2-4db1-8dfb-fe98a45ecdb7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

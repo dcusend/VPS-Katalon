@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RC
+
+
+
+def executionProfile = RC.getExecutionProfile()
 
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 
@@ -25,7 +30,14 @@ CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUse
 
 
 WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
-WebUI.click(findTestObject(path_Dashboard + 'a_Access AutoDualCFtpProd'))
+
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.click(findTestObject(path_Dashboard + 'a_Access AutoDualCFtpProd'))
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.click(findTestObject(path_Dashboard + 'a_Access AutoDualCFtpDemo'))
+}
+
 
 WebUI.verifyElementVisible(findTestObject(path_Payment + 'a_Issue Transactions_Prod'))
 WebUI.verifyElementPresent(findTestObject(path_Payment + 'a_Issue Transactions_Prod'), 30)

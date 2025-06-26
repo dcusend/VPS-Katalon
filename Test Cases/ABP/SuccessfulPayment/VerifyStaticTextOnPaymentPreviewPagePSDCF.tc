@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyStaticTextOnPaymentPreviewPagePSDCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b53c258b-9dd6-4f00-8d47-3a73dab16f5e</testCaseGuid>
+</TestCaseEntity>

@@ -183,18 +183,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 									isRequiredTextPresent = false
 								}
 							}
-//							if(isRequiredTextPresent) {
-//								if(WebUI.verifyTextPresent("Account Information:", false)) {
-//									isRequiredTextPresent = true
-//									println(isRequiredTextPresent)
-//									
-//								}
-//								else {
-//									isRequiredTextPresent = false
-//								}
-//							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Company Name:", false)) {
+								if(WebUI.verifyTextPresent("Card Information:", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -204,7 +194,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Routing Transit Number:", false)) {
+								if(WebUI.verifyTextPresent("Cardholder's Name:", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -214,7 +204,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Account Number:", false)) {
+								if(WebUI.verifyTextPresent("Card Type:", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -224,7 +214,17 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								}
 							}
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Employer Identification Number (EIN):", false)) {
+								if(WebUI.verifyTextPresent("Card Number:", false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent("Card Security Code:", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -235,7 +235,18 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							}
 							
 							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("Type of Account:", false)) {
+								if(WebUI.verifyTextPresent("Expiration Date: ", false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}
+							
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent("Billing Information:", false)) {
 									isRequiredTextPresent = true
 									println(isRequiredTextPresent)
 									
@@ -274,16 +285,16 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 									isRequiredTextPresent = false
 								}
 							}
-							if(isRequiredTextPresent) {
-								if(WebUI.verifyTextPresent("City:", false)) {
-									isRequiredTextPresent = true
-									println(isRequiredTextPresent)
-									
-								}
-								else {
-									isRequiredTextPresent = false
-								}
-							}
+//							if(isRequiredTextPresent) {
+//								if(WebUI.verifyTextPresent("City:", false)) {
+//									isRequiredTextPresent = true
+//									println(isRequiredTextPresent)
+//									
+//								}
+//								else {
+//									isRequiredTextPresent = false
+//								}
+//							}
 							if(isRequiredTextPresent) {
 								if(WebUI.verifyTextPresent("State:", false)) {
 									isRequiredTextPresent = true

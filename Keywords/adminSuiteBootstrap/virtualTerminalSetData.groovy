@@ -229,6 +229,7 @@ public class virtualTerminalSetData {
 
 		String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/"
 
+		WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), zipCode)
 		WebUI.setText(findTestObject(path_SaleKB + 'input_cardName'), cardName)
 		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_transactionCategory'), transCat, true)
 		WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cardNumber2'),30)
@@ -239,7 +240,6 @@ public class virtualTerminalSetData {
 		WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_YYYY'), expY, true)
 		WebUI.setText(findTestObject(path_SaleKB + 'input__address'), al1)
 		WebUI.setText(findTestObject(path_SaleKB + 'input__address2'), al2)
-		WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), zipCode)
 		//		WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), emailAddress)
 
 

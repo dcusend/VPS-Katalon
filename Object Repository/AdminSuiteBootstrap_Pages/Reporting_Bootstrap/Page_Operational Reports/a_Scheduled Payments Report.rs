@@ -6,12 +6,16 @@
    <elementGuidId>2f3b4e79-6f51-4bb4-9351-ed705cf734ff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports13 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports13']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Scheduled Payments Report' or . = 'Scheduled Payments Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports13 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>325e37f0-3f77-4969-9098-8e4bccd7dc04</webElementGuid>
+      <webElementGuid>1c37525e-a2a7-4d09-92c5-1c33061c8e24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>00f7c197-1542-4c0e-b7af-689f32ef7d20</webElementGuid>
+      <webElementGuid>711c9036-87c0-40ee-89fe-5694898bc460</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>d7d7c723-7b08-40dd-8aaf-f7d0d484bab6</webElementGuid>
+      <webElementGuid>58cf94f4-1759-4451-bbc6-1cc4642fbcdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/schedpymtsrpt.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>293062f1-0948-4ed8-a8e1-9679acf6d57b</webElementGuid>
+      <webElementGuid>13d72df0-f9c9-4413-9141-ff240968df4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>5a2d0249-9130-467c-8673-46948c8b2868</webElementGuid>
+      <webElementGuid>47adac56-6eb3-4d4b-aa76-4444d99a7d33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View your anticipated cash flow information, by process date, for one-time, future-dated transactions and recurring payment plans.</value>
-      <webElementGuid>bcf0896d-b42d-44dc-a739-4a080da29102</webElementGuid>
+      <webElementGuid>e085d6ea-598d-4b14-9085-26b85105d032</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip10886</value>
-      <webElementGuid>74c35ba1-0f59-4b86-9d7c-ac2c8dae3b97</webElementGuid>
+      <webElementGuid>f164b276-7dad-4726-84a7-927d8be29501</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Scheduled Payments Report</value>
-      <webElementGuid>3b205d94-8486-4b87-ada6-3b3994f27382</webElementGuid>
+      <webElementGuid>e5bce099-fbd9-4836-b88d-3e6c94bbb655</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports13&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>4f410780-3439-4da4-aa11-5ef47cfe0f72</webElementGuid>
+      <webElementGuid>88a3e123-bfa2-4856-b68b-b21525819b85</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports13']/div/a</value>
-      <webElementGuid>d53a8e81-e462-4a43-818a-e4e9cf36bd5a</webElementGuid>
+      <webElementGuid>31945b3f-2b31-4489-b66b-b461e3b56661</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Scheduled Payments Report')]</value>
-      <webElementGuid>e63365b2-4349-4609-8e6c-e1e8895d73a0</webElementGuid>
+      <webElementGuid>0ac10ead-7cfa-48ab-b387-941e9be72b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='QuickBooks Integration'])[1]/following::a[1]</value>
-      <webElementGuid>40ff7ddf-0f4a-4876-8be4-8b680648ec86</webElementGuid>
+      <webElementGuid>af13297d-829e-48e6-a57e-9d71ce859bde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Posting File Report'])[1]/following::a[2]</value>
-      <webElementGuid>f1b5ac2b-dd90-4bcb-b9b5-bbc8f0ce39bf</webElementGuid>
+      <webElementGuid>70878156-2d45-4c3f-b755-894361f3b4b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settlement Batch Activity Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>b57db918-364c-4548-bfb0-99f80b84604f</webElementGuid>
+      <webElementGuid>360737f8-250a-4c6c-a971-8d0ede448531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Activity Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>9e23b1cf-182d-4262-8d83-c730de9f9c53</webElementGuid>
+      <webElementGuid>3b870fe4-2b0c-4109-81d8-a7160c1a30a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Scheduled Payments Report']/parent::*</value>
-      <webElementGuid>97f6a11c-7032-42f6-9a5e-68b8222bf333</webElementGuid>
+      <webElementGuid>14c06076-57ec-477b-8ddc-1e4a343bd9be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/schedpymtsrpt.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>a5731e16-64bd-477f-ac14-7c98c4668970</webElementGuid>
+      <webElementGuid>85d5fc3f-56ca-4a74-83ed-c962f76a3e6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[17]/div/a</value>
-      <webElementGuid>d6436436-e8cd-48b8-a5fb-2a2e14f572bc</webElementGuid>
+      <webElementGuid>c0c8a777-8ae6-4c6d-baee-b453cc5f7203</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/schedpymtsrpt.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Scheduled Payments Report' or . = 'Scheduled Payments Report')]</value>
-      <webElementGuid>1fd8da80-a68e-49b6-8bbb-abec240c26db</webElementGuid>
+      <webElementGuid>6affb926-ed7d-4f04-b188-02c2eb76e1b3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

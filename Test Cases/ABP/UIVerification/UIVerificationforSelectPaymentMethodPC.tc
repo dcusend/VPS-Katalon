@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UIVerificationforSelectPaymentMethodPC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6f2c384-2a7d-4576-9304-d579c32f1ab0</testCaseGuid>
+</TestCaseEntity>

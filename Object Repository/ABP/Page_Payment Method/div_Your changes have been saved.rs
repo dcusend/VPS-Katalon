@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Your changes have been saved</name>
+   <tag></tag>
+   <elementGuidId>2cf362b1-eb17-4f84-a936-a80aa914474b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='userMessageTag']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#userMessageTag</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your changes have been saved&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>540a13f7-bc8e-474b-af42-9ebf9095b954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>userMessageTag</value>
+      <webElementGuid>2ed97680-6500-4f92-a024-e2be133135f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>actionMessage</value>
+      <webElementGuid>a91638d8-c515-4706-bc75-18a3bd989156</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your changes have been saved</value>
+      <webElementGuid>b0722eb6-77dd-4b7b-8f2d-586ae562ab10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;userMessageTag&quot;)</value>
+      <webElementGuid>e441a879-2e14-4d81-89d1-490b2b9703da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='userMessageTag']</value>
+      <webElementGuid>5e3adc2a-4d20-4223-bda3-89e5c4ef53cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CAROLYN LINEBERGER'])[1]/following::div[2]</value>
+      <webElementGuid>b4e538d3-c767-45e7-9ca0-f9acaafc02e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::div[5]</value>
+      <webElementGuid>f26b6a5c-95ce-4d0b-b19b-b9f51fdfdb86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Payment Methods'])[1]/preceding::div[2]</value>
+      <webElementGuid>6f8dabe8-686f-4aaf-98ce-d47f6319fb32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nickname'])[1]/preceding::div[2]</value>
+      <webElementGuid>6b8b1129-3cb5-4c56-9cfc-7d8af6b6dfb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your changes have been saved']/parent::*</value>
+      <webElementGuid>08023d36-3cf6-4efa-a920-c5ce42441471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[3]</value>
+      <webElementGuid>f69692d9-e8ae-4ffe-8caf-2350036c6043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'userMessageTag' and (text() = 'Your changes have been saved' or . = 'Your changes have been saved')]</value>
+      <webElementGuid>afb303ae-d167-4c39-9d43-11600e6d186d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

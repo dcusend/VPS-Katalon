@@ -6,12 +6,16 @@
    <elementGuidId>a517bb43-07bb-4526-91df-f86b0d3e51e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports8 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports8']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Online Check Returns Report' or . = 'Online Check Returns Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports8 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>95d82c6c-1bfc-4d7f-9920-a8fde47874b6</webElementGuid>
+      <webElementGuid>4352c654-fc99-4c67-bb71-7bcff2f8f748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>ac226b5b-64b8-4a26-9265-8bd8a8813e0f</webElementGuid>
+      <webElementGuid>267f69e9-fa79-432b-9e73-5284e0bbf310</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>589f4b87-1f31-48aa-9a5a-8351a5c7b973</webElementGuid>
+      <webElementGuid>64a64bd9-43a7-4d74-8ae3-c952ad9a8173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/achreturns.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>e2d5730a-d949-4bbf-8665-60d23fb9711e</webElementGuid>
+      <webElementGuid>48856d03-ee2f-47d7-99b9-8898f8c559a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>1241e224-a141-4f5d-8605-c8587a421fe1</webElementGuid>
+      <webElementGuid>83dd6664-2034-4f91-bb2c-a56fdadf9375</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View returned online check payments.</value>
-      <webElementGuid>c6a22487-833e-43d2-893e-080540afd036</webElementGuid>
+      <webElementGuid>8ed3ebe8-9463-4766-910c-fcb1ae3352e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip126260</value>
-      <webElementGuid>831e2d4a-a91c-4b47-8ffb-d6314d3afd39</webElementGuid>
+      <webElementGuid>ce38a7ea-b8e7-4a4a-b70a-3c3ea4438eaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Online Check Returns Report</value>
-      <webElementGuid>9571e92a-1e57-4fd0-b9b7-b7603173abb4</webElementGuid>
+      <webElementGuid>fa0f6a22-2290-454b-8596-83acad2a6dc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports8&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>0e513cf8-737d-466e-9b49-18f43a00eed7</webElementGuid>
+      <webElementGuid>042d22e8-492e-4ff1-b421-9a1419bf4f8d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports8']/div/a</value>
-      <webElementGuid>af84d6fc-2e85-4867-9ceb-fe85a7741208</webElementGuid>
+      <webElementGuid>5f056901-c9a7-43d5-b0d7-65775a904924</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Online Check Returns Report')]</value>
-      <webElementGuid>bba0dc31-a82d-4741-b425-783360a5b600</webElementGuid>
+      <webElementGuid>3943cf16-9bdf-4dac-bf12-7896844db5ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='File Upload Report'])[1]/following::a[1]</value>
-      <webElementGuid>b1a2f1e6-0d82-4245-ba2b-e3f8ee2c020f</webElementGuid>
+      <webElementGuid>30a9ebc1-d94c-4bed-a474-e00490e0217d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exceptions Report'])[1]/following::a[2]</value>
-      <webElementGuid>5d989248-1d9a-4dcd-9dec-9c9a20e43bbd</webElementGuid>
+      <webElementGuid>e5d3ecd8-5a8b-405f-9419-b33c1ee3a94e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Parcels Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>a3b29987-67fa-407d-9498-19aafc7baa78</webElementGuid>
+      <webElementGuid>21e8cf4c-b019-4a4c-9be0-15595d61f935</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Account Activity Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>69d51e94-cfd1-4e21-a775-6a6bf3e0c61d</webElementGuid>
+      <webElementGuid>72acf0c0-2dbf-45cc-b2b5-2ab6b6932bd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Online Check Returns Report']/parent::*</value>
-      <webElementGuid>c94f6486-80c1-4fb5-8024-74d090747a0c</webElementGuid>
+      <webElementGuid>84c4760d-ccf6-4a80-b564-9cc0fef8b8e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/achreturns.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>7d944585-7753-4060-866b-082f48686701</webElementGuid>
+      <webElementGuid>d2986208-b446-4e35-b746-7d056e8a1670</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/a</value>
-      <webElementGuid>ffdd6d09-a99d-450b-b368-edc21fa90302</webElementGuid>
+      <webElementGuid>f8a22f91-8b8a-4441-934a-677062c5a684</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/achreturns.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Online Check Returns Report' or . = 'Online Check Returns Report')]</value>
-      <webElementGuid>da602c14-d785-493f-aaf6-959f3102d871</webElementGuid>
+      <webElementGuid>7b7e731c-2f47-4b42-b1d3-dd2ccfe19af3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

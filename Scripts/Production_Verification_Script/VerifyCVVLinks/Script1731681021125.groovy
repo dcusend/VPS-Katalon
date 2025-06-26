@@ -16,8 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RC
 
 
+
+
+
+// Get the Execution Profile like QA or Demo
+def executionProfile = RC.getExecutionProfile()
 
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 
@@ -40,35 +46,66 @@ WebUI.verifyElementPresent(findTestObject(path_CVV + 'p_text'), 30)
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Web Services Gateway'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Web Services Gateway'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Web Services Gateway'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_CPS DualCF'), 30)
 
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_CPS DualCF'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Scheduled Payments'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Scheduled Payments'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Scheduled Payments'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_CPS DualCF'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_CPS DualCF'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_CSR'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_CSR'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_CSR'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Integrated Billing'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Integrated Billing'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Integrated Billing'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
 
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Virtual Terminal'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Virtual Terminal'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Virtual Terminal'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_IVR'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_IVR'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_IVR'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_SERVICES'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_SERVICES'), 30)
@@ -83,31 +120,65 @@ WebUI.click(findTestObject(path_CVV + 'btn_Basic Web Payments'))
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_PRESTO'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_PRESTO'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_PRESTO'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
+
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Multiple Bill Payment'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Multiple Bill Payment'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Multiple Bill Payment'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Gateway'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Gateway'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Gateway'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Basic Bill Presentment'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Basic Bill Presentment'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Basic Bill Presentment'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
+
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Integrated Web Payments'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Integrated Web Payments'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Integrated Web Payments'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'btn_Advanced Bill Presentment'))
 WebUI.verifyElementPresent(findTestObject(path_CVV + 'btn_Advanced Bill Presentment'), 30)
 WebUI.click(findTestObject(path_CVV + 'btn_Advanced Bill Presentment'))
-WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_BBP Parking Fees GovTest'), 30)
+}
+else if(executionProfile == 'DemoProfile') {
+	WebUI.verifyElementPresent(findTestObject(path_CVV + 'a_Change Me'), 30)
+}
 
 WebUI.closeBrowser()

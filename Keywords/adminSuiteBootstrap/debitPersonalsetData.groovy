@@ -134,16 +134,20 @@ public class debitPersonalsetData {
 		// SetData
 		String path_DebitPersonal = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ACHPersonal/"
 
+		WebUI.setText(findTestObject(path_DebitPersonal + 'input_zip'), zipCode)
+		Thread.sleep(5000)
+
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_firstName'), firstName)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_lastName'), lastName)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_address'), al1)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_address2'), al2)
-		WebUI.setText(findTestObject(path_DebitPersonal + 'input_zip'), zipCode)
-//		WebUI.setText(findTestObject(path_DebitPersonal + 'input_emailAddress'), emailAddress)
+		Thread.sleep(5000)
+		//		WebUI.setText(findTestObject(path_DebitPersonal + 'input_emailAddress'), emailAddress)
 
-		
+
 		if ((!emailAddress.isEmpty())) {
-			WebUI.setText(findTestObject(path_DebitPersonal + 'input_emailAddress'), emailAddress)		}
+			WebUI.setText(findTestObject(path_DebitPersonal + 'input_emailAddress'), emailAddress)
+		}
 		else {
 			println("Email Address is not present in the Excel Spreadsheet")
 		}
@@ -180,6 +184,8 @@ public class debitPersonalsetData {
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined8'), UDF8)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined9'), UDF9)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined10'), UDF10)
+		
+		Thread.sleep(6000)
 
 		WebUI.click(findTestObject(path_DebitPersonal + 'button_Submit'))
 	}

@@ -6,12 +6,16 @@
    <elementGuidId>61d3c7a0-c900-4dea-8c60-9ad617910607</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports14 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports14']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Settlement Batch Activity Report' or . = 'Settlement Batch Activity Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports14 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9b2e4d32-e8b6-4408-a337-80d52a21f49c</webElementGuid>
+      <webElementGuid>13b883c6-a69c-4981-8f70-1285cc620348</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>af980832-46f9-473f-8a49-b7d96043e48a</webElementGuid>
+      <webElementGuid>399226a4-ef6c-4034-b586-cbf0560c69c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>10ff5d86-a5e4-4b3f-82fb-6c4dc2945539</webElementGuid>
+      <webElementGuid>db83a75f-525a-419b-a028-8e345a764e00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/settlementrpt.do?&amp;reset=true&amp;actionType=all</value>
-      <webElementGuid>50adc366-92d0-4077-9d32-87a92d0bf526</webElementGuid>
+      <webElementGuid>01ac3e48-557b-4955-9ede-33fb04d76bc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>243b67dd-2062-4a53-82d3-729c54ee00c7</webElementGuid>
+      <webElementGuid>d73bfbc9-e761-4539-b24c-a05c4a56b517</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View settlement batch activity for a given time period.</value>
-      <webElementGuid>20e811a3-c79a-4a43-be08-c705a332d3f6</webElementGuid>
+      <webElementGuid>f01a2894-50b9-47cc-b53e-4d26a9957aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip269410</value>
-      <webElementGuid>7fb27e0f-69a3-4fb3-add0-d049150971c7</webElementGuid>
+      <webElementGuid>85afd866-441e-48b9-8975-6f8bebd9ceb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Settlement Batch Activity Report</value>
-      <webElementGuid>04a16472-4959-4c23-8031-bd636647ba00</webElementGuid>
+      <webElementGuid>ea6d12ee-bd8f-420d-b251-c7c3025070c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports14&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>e2b8efbe-cba9-47aa-9ce6-9564e6b8ea38</webElementGuid>
+      <webElementGuid>55b3c7d6-e709-4c58-860e-d7e7e420dc7a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports14']/div/a</value>
-      <webElementGuid>e80be5ad-928e-45be-9d03-9b3b96fbb888</webElementGuid>
+      <webElementGuid>2f6354f7-121b-4ff1-8ec8-e50b9467b051</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Settlement Batch Activity Report')]</value>
-      <webElementGuid>d8c0e7e0-011a-4f0c-af77-a1666b50fe0e</webElementGuid>
+      <webElementGuid>bf10b231-9386-48f0-90e6-2e2e5e25da46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Scheduled Payments Report'])[1]/following::a[1]</value>
-      <webElementGuid>472001da-89b9-42ed-ba34-1ad9f2678615</webElementGuid>
+      <webElementGuid>cdafc541-113c-4689-8781-c7bc4f170664</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Role History Report'])[1]/following::a[2]</value>
-      <webElementGuid>46ad87bb-2e90-48bf-a574-c14ad495edd0</webElementGuid>
+      <webElementGuid>0f927d09-4050-49df-9eb1-a1ccd66e016c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Activity Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>9a3e2e44-cda4-4781-a5ec-cee69b514575</webElementGuid>
+      <webElementGuid>8b1d0642-32f0-4c92-8dd0-db9ce9e7bf22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Summary Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>0930a5ad-2417-434a-9508-5e6f30f4a000</webElementGuid>
+      <webElementGuid>1a3a613b-98b3-4174-a85b-4143703b73c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Settlement Batch Activity Report']/parent::*</value>
-      <webElementGuid>04698892-2ca4-4efe-a875-932a0a3628db</webElementGuid>
+      <webElementGuid>acdcce15-5388-4dbd-a49d-311208659d17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/settlementrpt.do?&amp;reset=true&amp;actionType=all')]</value>
-      <webElementGuid>d5dde481-d5bd-45b9-ba93-4a2209f1f9c7</webElementGuid>
+      <webElementGuid>d882fdc9-2fab-4c5d-884f-6fabf1eba11b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[19]/div/a</value>
-      <webElementGuid>befa43b9-b1e5-40b7-ad82-9985b398a19b</webElementGuid>
+      <webElementGuid>92d401d1-ecdc-43fb-8f0f-4df4b0189b4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/settlementrpt.do?&amp;reset=true&amp;actionType=all' and (text() = 'Settlement Batch Activity Report' or . = 'Settlement Batch Activity Report')]</value>
-      <webElementGuid>e0ea018a-5890-4ace-a901-1c8c505c1209</webElementGuid>
+      <webElementGuid>33f47a70-860d-40b2-8b8c-19c2d59bbe54</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

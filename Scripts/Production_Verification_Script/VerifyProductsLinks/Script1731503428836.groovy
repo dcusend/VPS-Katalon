@@ -44,8 +44,8 @@ WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_Customer Service R
 WebUI.verifyElementVisible(findTestObject(path_Product + 'btn_Scheduled Payments'))
 WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_Scheduled Payments'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Product + 'btn_CSR_Prod'))
-WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_CSR_Prod'), 30)
+WebUI.verifyElementVisible(findTestObject(path_Product + 'btn_CSR'))
+WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_CSR'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Product + 'btn_Integrated Billing'))
 WebUI.verifyElementPresent(findTestObject(path_Product + 'btn_Integrated Billing'), 30)
@@ -72,7 +72,7 @@ WebUI.verifyElementPresent(findTestObject(path_Product + 'a_BBP Parking Fees Gov
 WebUI.verifyElementPresent(findTestObject(path_Product + 'a_CPS DualCF'), 30)
 
 
-WebUI.click(findTestObject(path_Product + 'btn_CSR_Prod'))
+WebUI.click(findTestObject(path_Product + 'btn_CSR'))
 
 WebUI.verifyElementPresent(findTestObject(path_Product + 'a_BBP Parking Fees GovTest'), 30)
 

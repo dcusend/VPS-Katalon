@@ -74,14 +74,14 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					
 					// Select Credit Card Payment Method
-					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCorporateCheck'))
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByPersonalCheck'))
 					
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
 					
 					// Set Data on Payment Entry page
-					CustomKeywords.'iwpPages.achCorporatePaymentEntryPage.setDataCorporate'(row,dataFile)
+					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
 					// Select Continue on Confirm page
 //					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
@@ -89,8 +89,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					
 					
-					Thread.sleep(2000)
-					if (WebUI.verifyTextPresent("Your payment plan has been successfully created", false))
+					Thread.sleep(6000)
+					if (WebUI.verifyTextPresent("Successful Payment Receipt", false))
 						{
 								
 							if(isRequiredTextPresent) {

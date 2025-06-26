@@ -6,12 +6,16 @@
    <elementGuidId>9a081d05-cf9c-459f-b498-8624ca02263b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports1 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports1']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Auto Pay Enrollments Report' or . = 'Auto Pay Enrollments Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports1 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5154f05b-4b03-4bc4-982d-6590698f5398</webElementGuid>
+      <webElementGuid>eafaba9a-706a-42bb-9fce-d27050acef87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>f4a4a8db-55e3-4ff6-ba12-624c486f3741</webElementGuid>
+      <webElementGuid>a529fa24-baa2-4978-8676-5b37d8df0622</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>a6f9b084-99c3-440d-b03f-a2ca7a96fb3b</webElementGuid>
+      <webElementGuid>c97e324c-bb2d-47c1-a294-f29b71147c0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/autopay.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>7da376bd-1580-47eb-901c-0cb9121b52f8</webElementGuid>
+      <webElementGuid>5b1315c1-c1ca-4557-a9a9-f68e1bae9183</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>f37b6015-47e9-4288-ad19-6851101c2a39</webElementGuid>
+      <webElementGuid>60d6ae84-b65e-4fcd-b090-c3ccfeb727fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View all active Bill File-based (Bill Pay) and Non-Bill File-based (Auto Pay) Auto Pay plan enrollments for a selected payment application.</value>
-      <webElementGuid>2d751085-e1d6-4801-adba-25809729bbc0</webElementGuid>
+      <webElementGuid>3b25239a-b98c-4882-ad26-b394749f70de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip865231</value>
-      <webElementGuid>bb4daa02-c8b1-478d-950b-b85ce1540236</webElementGuid>
+      <webElementGuid>d4a4e690-c7f8-43a9-895b-75d7abd544a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Auto Pay Enrollments Report</value>
-      <webElementGuid>caf9dc6a-09d1-42d8-820a-eb6988c8e563</webElementGuid>
+      <webElementGuid>066aab37-1f1b-40e1-898a-0fcd1e1e2045</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports1&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>4d4ca368-0e4c-49e2-b9a7-76687fac5d8b</webElementGuid>
+      <webElementGuid>87d5b6fd-a098-43e6-b0fc-602b3ed9a7cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports1']/div/a</value>
-      <webElementGuid>77a080d7-f636-44b7-afc0-d8627817a8a1</webElementGuid>
+      <webElementGuid>7ed844c0-17c9-4af2-83ed-eb9cd1807829</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Auto Pay Enrollments Report')]</value>
-      <webElementGuid>096d6031-34d2-4412-b456-64d8e76981a4</webElementGuid>
+      <webElementGuid>a505da89-bdba-4929-b72f-7cfeb2471942</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active Payment Plan Report'])[1]/following::a[1]</value>
-      <webElementGuid>907e30ee-1d28-4dde-839f-6d86903b679f</webElementGuid>
+      <webElementGuid>d4a8b8fc-333e-4412-a114-fed2e4d5f228</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Operational Reports'])[2]/following::a[2]</value>
-      <webElementGuid>2b3feb9f-fc59-48d6-8207-5839a7c7fdb6</webElementGuid>
+      <webElementGuid>deadb8d6-a9c6-4f10-9257-96dd1285ca3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bill Statistics Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>b7d74e42-9faf-4ed9-ac15-f69a917c50df</webElementGuid>
+      <webElementGuid>9ac6def0-0d40-4b1c-a0b0-4a7d9408e1dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Profiles Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>6d075d64-3f1e-4f99-a752-99154a4681c7</webElementGuid>
+      <webElementGuid>302a7f7c-8103-4c73-bf6b-215b74b32994</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Auto Pay Enrollments Report']/parent::*</value>
-      <webElementGuid>d6d43542-bc74-4d50-a1e3-dff1b588e256</webElementGuid>
+      <webElementGuid>39a91723-4c56-4226-8a7e-485f37ff9b61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/autopay.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>514b61c8-41ac-4a8e-a0b3-a8fbcbe32752</webElementGuid>
+      <webElementGuid>0f305713-9dfa-4859-adf4-c4a5d5e392f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a</value>
-      <webElementGuid>d9a61f9e-83aa-4c16-beb7-7d1b45d474ba</webElementGuid>
+      <webElementGuid>612690cf-b00f-40be-bd50-bf9a305c7260</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/autopay.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Auto Pay Enrollments Report' or . = 'Auto Pay Enrollments Report')]</value>
-      <webElementGuid>02ded525-2ae9-4b99-a163-ffd04dd76488</webElementGuid>
+      <webElementGuid>8e3b2d5e-078d-46c3-99ab-4e118de5ad88</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

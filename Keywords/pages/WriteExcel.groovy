@@ -70,8 +70,9 @@ public class WriteExcel {
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		//XSSFSheet sheet = workbook.getSheet("Sheet1");
 		XSSFSheet sheet = workbook.getSheet(sheetName);
+		System.out.println(resultText)
 		int rowCount = rowNumber;
-		if (resultColumn =='Result'){
+		if (resultColumn =='Result' || resultColumn =='ResultProd'){
 			Row row = sheet.getRow(rowCount);
 			Cell cell = row.createCell(0,0);
 			cell.setCellType(cell.CELL_TYPE_STRING);
@@ -80,9 +81,27 @@ public class WriteExcel {
 			i = 0;
 		}
 
-		if (dateColumn =='Date'){
+		if (dateColumn =='Date' || dateColumn =='DateProd'){
 			Row row2 = sheet.getRow(rowCount);
 			Cell cell2 = row2.createCell(1,0);
+			cell2.setCellType(cell2.CELL_TYPE_STRING);
+			cell2.setCellValue(dateText);
+			System.out.println("dateText: " + dateText)
+			//i = rowCount+1;
+		}
+		
+		if (resultColumn =='ResultDemo'){
+			Row row = sheet.getRow(rowCount);
+			Cell cell = row.createCell(2,0);
+			cell.setCellType(cell.CELL_TYPE_STRING);
+			cell.setCellValue(resultText);
+			System.out.println("resultText: " + resultText)
+			i = 0;
+		}
+
+		if (dateColumn =='DateDemo'){
+			Row row2 = sheet.getRow(rowCount);
+			Cell cell2 = row2.createCell(3,0);
 			cell2.setCellType(cell2.CELL_TYPE_STRING);
 			cell2.setCellValue(dateText);
 			System.out.println("dateText: " + dateText)

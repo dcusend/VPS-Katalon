@@ -6,12 +6,16 @@
    <elementGuidId>a426ac47-facd-4d0f-800a-e0ce8ee876e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Operational_Reports20 > div.px-3.py-2 > a.report-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='Operational_Reports20']/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Enterprise Transaction Summary Report by Payment Channel' or . = 'Enterprise Transaction Summary Report by Payment Channel')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Operational_Reports20 > div.px-3.py-2 > a.report-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>518e352e-5aea-47f9-82d4-f1bd1e84274b</webElementGuid>
+      <webElementGuid>201c6359-664f-4347-b35e-9e771a15489c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>tooltip</value>
-      <webElementGuid>88ca50f4-4353-4613-854a-112c11b04656</webElementGuid>
+      <webElementGuid>b2ea8198-aa2d-492a-8289-d26ed5aac279</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>data-placement</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>5e3b78e1-4582-4f14-8370-e7a5f68079c3</webElementGuid>
+      <webElementGuid>dbf1b871-0035-4b53-b835-7858e2198e7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/testcustomer/bootstrap/vclerk/reports/vtreasurerbychannel.do?&amp;reset=true&amp;actionType=operational</value>
-      <webElementGuid>ce400d6f-82f0-4e08-89f5-4f964c13cdce</webElementGuid>
+      <webElementGuid>3266f5f4-d971-4c2d-8ad6-cda3c9b930d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>report-name</value>
-      <webElementGuid>38c24705-9080-4f9f-bc8c-63e1653d19c4</webElementGuid>
+      <webElementGuid>dd6d80ee-ea62-448d-806e-91d45d799f52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-bs-original-title</name>
       <type>Main</type>
       <value>View enterprise-wide processing totals for a given day, week or month, itemized by payment channel.</value>
-      <webElementGuid>fc84f21d-539c-42ac-931c-01832650d5c3</webElementGuid>
+      <webElementGuid>3ad862b9-d6ac-4616-b4f5-0d45a8d4cdfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>tooltip82402</value>
-      <webElementGuid>5ebe4352-b39a-4c7c-8dc2-f8675610428c</webElementGuid>
+      <webElementGuid>981f7724-b343-434e-9182-940312cc1189</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Enterprise Transaction Summary Report by Payment Channel</value>
-      <webElementGuid>8292f07f-3217-4c0a-a174-2433eba72d32</webElementGuid>
+      <webElementGuid>4c457c82-0fba-41dc-84a6-0b8df34550f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Operational_Reports20&quot;)/div[@class=&quot;px-3 py-2&quot;]/a[@class=&quot;report-name&quot;]</value>
-      <webElementGuid>a78825b9-988c-43a3-96da-26f9d5a4ab33</webElementGuid>
+      <webElementGuid>c46e353a-f78e-484c-9b31-df6ee6cb1164</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Operational_Reports20']/div/a</value>
-      <webElementGuid>0a0807b1-5ca9-4ff1-a5d8-11a2b2ebc27a</webElementGuid>
+      <webElementGuid>5e7fdae6-7b96-441a-b307-324b208710ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Enterprise Transaction Summary Report by Payment Channel')]</value>
-      <webElementGuid>84c95388-e8fc-40bb-b8f9-f2d92809fc02</webElementGuid>
+      <webElementGuid>065e5b41-09f7-4a99-b16b-36ee8b1a974c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Report'])[1]/following::a[1]</value>
-      <webElementGuid>05ecbbf4-75cb-4579-b22c-b78c4e396ec4</webElementGuid>
+      <webElementGuid>ed421b19-7ab7-49ba-8bfe-8b41196dd9e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Profiles Report'])[1]/following::a[2]</value>
-      <webElementGuid>9ec9bd8a-b65d-4fd2-a474-e6b18fa24fc6</webElementGuid>
+      <webElementGuid>e16ba39f-7c7f-4c1a-b65a-0b73bcdb0db8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary By Tender Type Report'])[1]/preceding::a[1]</value>
-      <webElementGuid>3e21a4c3-f16e-43fc-8ea8-7c7aca50885d</webElementGuid>
+      <webElementGuid>1095ac98-0caa-44ee-afc4-c254b92b1232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enterprise Transaction Summary Report'])[1]/preceding::a[2]</value>
-      <webElementGuid>1508101c-01bc-458b-bffc-c83280915ad6</webElementGuid>
+      <webElementGuid>fe8e3b43-e867-43d8-9680-21a042adfc04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Enterprise Transaction Summary Report by Payment Channel']/parent::*</value>
-      <webElementGuid>dfbef6af-f69c-40a9-b693-cfdec7d14fdc</webElementGuid>
+      <webElementGuid>d9aadc79-f75c-48c3-b7aa-6d248c2fcac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/testcustomer/bootstrap/vclerk/reports/vtreasurerbychannel.do?&amp;reset=true&amp;actionType=operational')]</value>
-      <webElementGuid>93ec7f93-5b52-4802-add4-399a552132ca</webElementGuid>
+      <webElementGuid>189588ac-e8f4-4888-8942-cb61804e7acf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/a</value>
-      <webElementGuid>00fb6af9-411c-4f2b-9ad8-6a42900d01bd</webElementGuid>
+      <webElementGuid>92f2c301-23fc-44c0-8a43-13e862d80aee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +177,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/testcustomer/bootstrap/vclerk/reports/vtreasurerbychannel.do?&amp;reset=true&amp;actionType=operational' and (text() = 'Enterprise Transaction Summary Report by Payment Channel' or . = 'Enterprise Transaction Summary Report by Payment Channel')]</value>
-      <webElementGuid>31f9e715-533f-4cbd-9481-25e941314c85</webElementGuid>
+      <webElementGuid>df86728a-a385-47b1-a11a-75d744c66282</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

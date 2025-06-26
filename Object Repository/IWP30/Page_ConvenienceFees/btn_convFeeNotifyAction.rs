@@ -6,6 +6,10 @@
    <elementGuidId>1e830093-55cd-4f2c-9126-c5b4657448b1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'convFeeNotifyAction' and @id = 'submitYes']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#submitYes</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e60c087c-e8e8-4385-9b83-8254b6446eaf</webElementGuid>
+      <webElementGuid>85382088-7ea6-44fe-a11c-1ea784daa32f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>9141afc8-e27b-472e-8200-c15e6f96de61</webElementGuid>
+      <webElementGuid>caafaaa1-9741-4a76-bf7f-896bcd4ecd49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>convFeeNotifyAction</value>
-      <webElementGuid>70a4e55f-b3a1-4ca8-9d64-64cc50f917c1</webElementGuid>
+      <webElementGuid>519d37fe-88bb-4046-9f72-6fd0eba23490</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>submitYes</value>
-      <webElementGuid>b8ebef63-69a7-4b27-ad10-4583cd5f1d5f</webElementGuid>
+      <webElementGuid>f9a89ea5-4fe9-4ba4-9dd2-b17d1e21fbd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Submit</value>
-      <webElementGuid>a0441d8f-be53-4b96-b9cb-081f45a4aa41</webElementGuid>
+      <webElementGuid>0db49376-3abe-4408-99b9-28656976be56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>setYes();</value>
-      <webElementGuid>54f58f63-23a8-4287-84e7-e2be96e5f1dd</webElementGuid>
+      <webElementGuid>39719e56-6de4-4e0a-a878-11de0820f101</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;submitYes&quot;)</value>
-      <webElementGuid>a6f10401-c8bf-4a48-946f-a429b48d6fd3</webElementGuid>
+      <webElementGuid>17546750-3732-4e84-8c40-ed5e0956bfc7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='submitYes']</value>
-      <webElementGuid>af158ca6-fca7-46ad-994a-7098b1dba46d</webElementGuid>
+      <webElementGuid>288b8d7f-fda6-4a99-9180-52304dd89eb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>8c3691e5-989e-4077-9beb-23e160b23033</webElementGuid>
+      <webElementGuid>2ae2c96a-31f3-4e9c-8bb8-0846614e4f9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @name = 'convFeeNotifyAction' and @id = 'submitYes']</value>
-      <webElementGuid>20de44f0-3980-462a-84e8-df758bcaf819</webElementGuid>
+      <webElementGuid>e19436cd-c296-43db-901c-c680f99b748b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
