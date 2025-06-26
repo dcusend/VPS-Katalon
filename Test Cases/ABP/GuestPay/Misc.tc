@@ -4,5 +4,6 @@
    <name>Misc</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4ee9495d-6def-4dd5-bdeb-14fc94d9377e</testCaseGuid>
 </TestCaseEntity>

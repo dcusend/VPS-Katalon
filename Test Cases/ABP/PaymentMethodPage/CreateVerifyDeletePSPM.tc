@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateVerifyDeletePSPM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d735f7a1-5429-47cc-8f5a-09c4782adefd</testCaseGuid>
+</TestCaseEntity>

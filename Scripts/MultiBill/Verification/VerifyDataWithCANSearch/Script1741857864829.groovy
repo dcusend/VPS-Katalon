@@ -37,6 +37,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillNoCFURL
+def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc
 nameSheet = "VerifyCANSearch"
@@ -68,8 +69,12 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
+		Thread.sleep(shortDelay)
+		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
+		
+		Thread.sleep(shortDelay)
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Table = driver.findElement(By.xpath("//table/tbody"))
 		

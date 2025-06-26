@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Your payment plan has been successfully modified</name>
+   <tag></tag>
+   <elementGuidId>57ef111d-9d24-4d3a-a244-25a68e28eaa1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cancelSuccessAlert</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cancelSuccessAlert']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;× Your payment plan has been successfully modified&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>72d1d352-00e6-442c-99d0-c2d5a81b8d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cancelSuccessAlert</value>
+      <webElementGuid>64bc83fd-e67e-493c-b801-1542b5c19ba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-success</value>
+      <webElementGuid>97330657-5a95-4e41-9963-ce87765b5bdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+			    ×
+			    Your payment plan has been successfully modified
+			</value>
+      <webElementGuid>babebf50-87ee-4b51-8810-83e76f181c19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cancelSuccessAlert&quot;)</value>
+      <webElementGuid>7b0a0777-27bf-4bcc-b9f3-82c0573a667a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='cancelSuccessAlert']</value>
+      <webElementGuid>84531541-4c82-4b9a-a6d7-95b0505153f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='editSuccessHead']/div</value>
+      <webElementGuid>8ae273d3-ded9-4b35-9ac5-09a1b923592d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Scheduled Payments'])[1]/following::div[5]</value>
+      <webElementGuid>a4ce0726-d49b-49cb-9252-d8df38993f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Information'])[1]/preceding::div[1]</value>
+      <webElementGuid>0767596c-3c10-48f3-b63d-7532c4196297</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/div/div/form/div/div</value>
+      <webElementGuid>2832c076-c82f-47bc-88b1-8d7ef58b13cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'cancelSuccessAlert' and (text() = '
+			    ×
+			    Your payment plan has been successfully modified
+			' or . = '
+			    ×
+			    Your payment plan has been successfully modified
+			')]</value>
+      <webElementGuid>9f7d80aa-7361-4797-97d1-3724a1676d1c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

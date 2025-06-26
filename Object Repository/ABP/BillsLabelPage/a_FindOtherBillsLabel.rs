@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_FindOtherBillsLabel</name>
+   <tag></tag>
+   <elementGuidId>d1ce6ecf-a2fd-4569-9bf2-e8ad735a1d89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='billListForm']/div/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Find Other Bills Label&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f8037d9c-7d52-4e13-be17-e456087bc374</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:toURL('/vbills/imtiazcustomer/billLookup.go?action=navigateBillLookup&amp;forgotType=null')</value>
+      <webElementGuid>79ce0f12-5a64-4ec6-b132-6bf978a07458</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find Other Bills Label</value>
+      <webElementGuid>bbc3fd17-dca6-4adb-b5d9-867d18c7ad08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;billListForm&quot;)/div[1]/a[3]</value>
+      <webElementGuid>5477cf16-26e8-4dd8-8b52-739554327b3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='billListForm']/div/a[3]</value>
+      <webElementGuid>5445f84d-531f-40a7-b9f3-2b23e95e38d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Find Other Bills Label')]</value>
+      <webElementGuid>dca8fa9f-f908-4806-bff7-7f0f513f6090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check to Pay'])[1]/preceding::a[1]</value>
+      <webElementGuid>9091ac17-538b-4b40-82d5-32d0bc0dde57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bills Label'])[2]/preceding::a[1]</value>
+      <webElementGuid>eb20d20b-c08d-4a63-a2a6-9be978eee61c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Find Other Bills Label']/parent::*</value>
+      <webElementGuid>91d0d574-8129-4d88-b6c3-42305c09cc1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:toURL('/vbills/imtiazcustomer/billLookup.go?action=navigateBillLookup&amp;forgotType=null')&quot;)]</value>
+      <webElementGuid>25af7e5f-7c12-4d8d-8a75-eb271d949c70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>23ce667f-94fb-4571-8507-51769edc9add</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = concat(&quot;javascript:toURL(&quot; , &quot;'&quot; , &quot;/vbills/imtiazcustomer/billLookup.go?action=navigateBillLookup&amp;forgotType=null&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Find Other Bills Label' or . = 'Find Other Bills Label')]</value>
+      <webElementGuid>cffaf3c5-9538-4f25-8b5e-ed719ea29a20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

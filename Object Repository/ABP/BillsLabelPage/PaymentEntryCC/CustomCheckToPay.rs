@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CustomCheckToPay</name>
+   <tag></tag>
+   <elementGuidId>833d20db-61cd-4e8f-b7cb-83ddae76ee0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @alt = 'Check to Pay']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>4b18f416-4f09-4cfe-ab89-b998b7b6ed9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billDetailForms[0].payCheckbox</value>
+      <webElementGuid>80e28700-29b5-4b9f-a200-b54311720da3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>49f971ed-4602-4b75-a20d-3b13519ca708</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>customCheckBox(this, checkboxArray, 'udf1')</value>
+      <webElementGuid>339f2c9e-d3bc-4d81-a08b-fb041d2cfb18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>payCheckbox1</value>
+      <webElementGuid>f1b04ab9-890e-47d1-bc1b-ac0c0cb99415</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Check to Pay</value>
+      <webElementGuid>b53fd2bc-2413-497a-b7ea-fd2ce1832e0c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

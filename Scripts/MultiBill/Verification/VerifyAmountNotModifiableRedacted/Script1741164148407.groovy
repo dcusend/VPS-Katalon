@@ -37,6 +37,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillSingleCFURL
+def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc
 nameSheet = "VerifyNoModifyAmountandRedacted"
@@ -68,6 +69,8 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
+		Thread.sleep(shortDelay)
+		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
@@ -79,6 +82,8 @@ for (def row = 1; row <= numOfRows; row++)
 		
 		//Assign boolean value if input_amount element is present
 		def isAmountElementNotPresent = WebUI.verifyElementNotPresent(findTestObject('Object Repository/MultiBill/MultibillSearch/input__amount'),30)
+		
+		Thread.sleep(shortDelay)
 		
 		//Checks if Amount is modifiable it is pass else fail
 		if(isAmountElementNotPresent) {
