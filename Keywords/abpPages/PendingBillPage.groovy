@@ -46,6 +46,11 @@ public class PendingBillPage {
 	}
 
 	@Keyword
+	def clickUserList() {
+		WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/a_UserList'))
+	}
+
+	@Keyword
 	def selectPaymentMethodCC() {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/BillsLabelPage/select_PaymentMethod'), "Credit Card", false)
 	}
@@ -67,7 +72,16 @@ public class PendingBillPage {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/BillsLabelPage/select_PaymentMethod'), "Check", false)
 	}
 
+	@Keyword
+	def clickAccountProfile() {
+		WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/a_AccountProfile'))
+	}
 
+	@Keyword
+	def clickSchedulePaymentIcon() {
+		WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/img_SchedulePaymentIcon'))
+	}
+	
 	//*********************************************************************************************
 
 	/*GetData and SetData for UDF like udf1, udf2 and udf4

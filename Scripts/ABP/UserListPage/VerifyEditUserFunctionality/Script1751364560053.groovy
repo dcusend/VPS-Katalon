@@ -27,15 +27,15 @@ import internal.GlobalVariable
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/ABPTestData/PaymentsCC.xlsx"
+String fileLoc = "KatalonData/ABPTestData/ABPTestData.xlsx"
 String path = fileLoc
-nameSheet = "CreateVerifyDeleteCCPM"
+nameSheet = "CreateDeleteProfileOwner"
 def shortDelay = GlobalVariable.shortDelay
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
-def username,password,isRequiredTextPresent = false
+def username,password,email,isRequiredTextPresent = false
 
-username = GlobalVariable.abpSCFUsername
-password = GlobalVariable.abpSCFPassword
+username = GlobalVariable.abpDCFUsername
+password = GlobalVariable.abpDCFPassword
 
 numOfRows = dataFile.getRowNumbers()
 for (def row = 1; row <= numOfRows; row++)
@@ -50,9 +50,7 @@ for (def row = 1; row <= numOfRows; row++)
 				Date today = new Date()
 				println (today)
 				String datText = today
-				def udfID = dataFile.getValue("UDFID", row)
-				def AddressID = dataFile.getValue("AddressID", row)
-				def CardID = dataFile.getValue("CardID", row)
+				email = dataFile.getValue("Email", row)
 				String nickNameID = CustomKeywords.'abpPages.PaymentsMethodPage.generateNickName'()
 				println(nickNameID)
 				
@@ -62,79 +60,43 @@ for (def row = 1; row <= numOfRows; row++)
 				//Login to ABP Application 
 				CustomKeywords.'abpPages.LoginPage.setLoginDataMethod'(username,password)
 				
-				//to navigate to Payments Method Page
-				CustomKeywords.'abpPages.PendingBillPage.clickPaymentsMethod'()
+				CustomKeywords.'abpPages.PendingBillPage.clickUserList'()
 				
-				//Clicks on Add button
-				CustomKeywords.'abpPages.PaymentsMethodPage.clickAddButton'()
+				CustomKeywords.'abpPages.UserListPage.clickAddButton'()
 				
-				//Generates nick name and pass data to set nickname
-				CustomKeywords.'abpPages.PaymentsMethodPage.setDataNickNameID'(nickNameID)
+				CustomKeywords.'abpPages.UserListPage.selectRoleProfileOwner'()
 				
-				//select credit card payment method from drop down
-				CustomKeywords.'abpPages.PaymentsMethodPage.selectPaymentMethodCC'()
+				CustomKeywords.'abpPages.UserListPage.setDataFirstNameLastName'()
 				
-				//this method populates credit card data 
-				CustomKeywords.'abpPages.PaymentsMethodPage.setDataCardInfo'(CardID)
+				CustomKeywords.'abpPages.UserListPage.setDataPasswordConfirmPassword'()
 				
+				CustomKeywords.'abpPages.UserListPage.setDataUserName'()
 				
-				//this method populates address data
-				CustomKeywords.'abpPages.PaymentsMethodPage.setDataAddress'(AddressID)
+				CustomKeywords.'abpPages.UserListPage.setDataEmailConfirmEmail'(email)
 				
-				CustomKeywords.'abpPages.PaymentsMethodPage.clickSave'()
+				CustomKeywords.'abpPages.UserListPage.clickSaveButton'()
+				
+				CustomKeywords.'abpPages.UserListPage.clickEdit'()
 				
 				
-				Thread.sleep(shortDelay)
+				/*Thread.sleep(shortDelay)
 				if (WebUI.verifyTextPresent("Your changes have been saved", false))
 					{
-						
-						CustomKeywords.'abpPages.PendingBillPage.clickBillsLabel'()
-						String optionValue = nickNameID 
-						isPresent = WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/ABP/BillsLabelPage/select_PaymentMethod'), optionValue, false, 10)
-						println(isPresent)
-							if(isPresent) {
-								
-								CustomKeywords.'abpPages.PendingBillPage.clickPaymentsMethod'()
-								def VerificationText = dataFile.getValue("VTList", row)
-								def stringArray = VerificationText.split(",")
-								print(stringArray)
-								for(def item in stringArray)
-									{
-								   
-								   //println(item.trim())
-								   
-								   if(WebUI.verifyTextPresent(item.trim(),false)) {
-									   isRequiredTextPresent = true
-									   
-										}
-										else {
-											println(item + " text is missing")
-											isRequiredTextPresent = false
-										}
-									}
-										if(isRequiredTextPresent) {
-											KeywordUtil.logInfo("Pass")
-											KeywordUtil.markPassed("Saved Payment Method stored under Select or Create Payment Method dropdown and all details available under Payment Method Tab")
-											resText = "Pass"
-											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 											Thread.sleep(GlobalVariable.shortDelay)
 											println("Deleting Saved Payment Method")
 											CustomKeywords.'abpPages.PaymentsMethodPage.clickDelete'()
 											WebUI.acceptAlert()
-								}
-							}						
-				else {
-					KeywordUtil.logInfo("Fail")
-					KeywordUtil.markFailed("Saved Payment Not present under Select or Create Payment Method dropdown")
-					resText = "Fail"
-					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-				}
-			}
+											KeywordUtil.logInfo("Pass")
+											KeywordUtil.markPassed("Saved Payment Method stored under Select or Create Payment Method dropdown and all details available under Payment Method Tab")
+											resText = "Pass"
+											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+								}				
+
 			else {
 				KeywordUtil.logInfo("Fail")
 				KeywordUtil.markFailed("Your changes have been saved text not present")
 				resText = "Fail"
 				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-			}
+			}*/
 			}
 	}

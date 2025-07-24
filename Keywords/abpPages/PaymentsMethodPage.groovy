@@ -37,37 +37,37 @@ public class PaymentsMethodPage {
 	def clickAddButton() {
 		WebUI.click(findTestObject('Object Repository/ABP/Page_Payment Method/input_Details_Add Payment Method'))
 	}
-	
+
 	@Keyword
 	def selectPaymentMethodCC() {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/Page_Payment Method/select_SelectPaymentType'), "Credit Card", false)
 	}
-	
+
 	@Keyword
 	def selectPaymentMethodPersonalSaving() {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/Page_Payment Method/select_SelectPaymentType'), "Personal Savings", false)
 	}
-	
+
 	@Keyword
 	def selectPaymentMethodPersonalChecking() {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/Page_Payment Method/select_SelectPaymentType'), "Personal Checking", false)
 	}
-	
+
 	@Keyword
 	def selectPaymentMethodBusinessChecking() {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/Page_Payment Method/select_SelectPaymentType'), "Business Checking", false)
 	}
-	
+
 	@Keyword
 	def clickSave() {
 		WebUI.click(findTestObject('Object Repository/ABP/Page_Payment Method/input__Submit'))
 	}
-	
+
 	@Keyword
 	def clickDelete() {
 		WebUI.click(findTestObject('Object Repository/ABP/Page_Payment Method/a_delete'))
 	}
-	
+
 	//*********************************************************************************************
 
 	/*GetData and SetData for Address like AL1, AL2 and ZIP
@@ -146,7 +146,7 @@ public class PaymentsMethodPage {
 			}
 		}
 	}
-	
+
 	@Keyword
 	def setDataCardInfo(String CardIDS) {
 		this.getDataCardInfo(CardIDS)
@@ -157,8 +157,8 @@ public class PaymentsMethodPage {
 
 
 		/*if ((!cvv.isEmpty())) {
-			WebUI.setText(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input_cvv'),cvv)
-		}*/
+		 WebUI.setText(findTestObject('Object Repository/ABP/BillsLabelPage/PaymentEntryCC/input_cvv'),cvv)
+		 }*/
 
 
 		if ((!expMM.isEmpty())) {
@@ -172,28 +172,22 @@ public class PaymentsMethodPage {
 	}
 
 	/*@Keyword
-	def getDataNickNameID(String NameIDG) {
+	 def getDataNickNameID(String NameIDG) {
+	 def dataFileCardName = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "NameData", true)
+	 def numOfRowsCardName = dataFileCardName.getRowNumbers()
+	 for (def row = 1; row <= numOfRowsCardName; row++) {
+	 def ID = dataFileCardName.getValue("ID", row)
+	 if (ID.equals(NameIDG)) {
+	 nickName = dataFileCardName.getValue("NickName", row)
+	 }
+	 }
+	 }*/
 
-		def dataFileCardName = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "NameData", true)
-
-		def numOfRowsCardName = dataFileCardName.getRowNumbers()
-
-		for (def row = 1; row <= numOfRowsCardName; row++) {
-
-
-			def ID = dataFileCardName.getValue("ID", row)
-
-			if (ID.equals(NameIDG)) {
-				nickName = dataFileCardName.getValue("NickName", row)
-			}
-		}
-	}*/
-	
 
 
 	@Keyword
 	def setDataNickNameID(String nickName) {
-		
+
 		/*this.getDataNickNameID(NameIDS)*/
 
 		if(!nickName.isEmpty()) {
@@ -201,15 +195,15 @@ public class PaymentsMethodPage {
 			WebUI.setText(findTestObject('Object Repository/ABP/Page_Payment Method/input__nickName'),nickName)
 		}
 	}
-	
+
 	//Generate random text for nickname
 	@Keyword
 	def generateNickName() {
 		nickName = org.apache.commons.lang.RandomStringUtils.random(8, true, false)
-		
+
 		return  nickName
 	}
-	
+
 	def getPersonalACHData(String ACHIDG) {
 		def dataFileACHData = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "ACHData", true)
 
@@ -230,7 +224,7 @@ public class PaymentsMethodPage {
 	}
 	@Keyword
 	def setPersonalACHData(String ACHIDS) {
-		
+
 		this.getPersonalACHData(ACHIDS)
 
 		if ((!routingTransitNumber.isEmpty())) {
@@ -244,5 +238,4 @@ public class PaymentsMethodPage {
 			WebUI.setText(findTestObject('Object Repository/ABP/Page_Payment Method/input_ConfirmAccountNumber'),confirmAccountNumber)
 		}
 	}
-	
 }
