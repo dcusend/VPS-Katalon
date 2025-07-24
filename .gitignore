@@ -10,3 +10,9 @@
 /VPS-Smoke-Version001.prj
 /Reports/
 /settings/internal/com.kms.katalon.integration.analytics.properties
+/settings/internal/com.kms.katalon.core.webservice.properties
+/settings/internal/com.kms.katalon.core.webui.chrome.properties
+/settings/internal/com.kms.katalon.execution.properties
+/settings/internal/com.kms.katalon.execution.webui.properties
+
+

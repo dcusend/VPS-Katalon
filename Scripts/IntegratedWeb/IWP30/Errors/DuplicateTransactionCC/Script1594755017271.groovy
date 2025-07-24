@@ -28,7 +28,7 @@ import internal.GlobalVariable as GlobalVariable
 			WebUI.openBrowser(GlobalVariable.urlTestHarness)
 			WebUI.maximizeWindow()
 			
-			
+			def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 			
 //Verify if we are on the TestHarness page and Populate the TestHarness
 						
@@ -37,7 +37,7 @@ import internal.GlobalVariable as GlobalVariable
 				println("We are on Test Harness page, start populating")
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/ApplicationID'),"649")
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/MessageVersion'),"3.0")
-				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),"test05152024103")
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),genRemIDVoid)
 				WebUI.click(findTestObject('Object Repository/IWP30/Page_QATestHarness/SubmitButton'))
 				Thread.sleep(10000)
 				WebUI.closeBrowser()
@@ -48,7 +48,7 @@ import internal.GlobalVariable as GlobalVariable
 				WebUI.maximizeWindow()
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/ApplicationID'),"649")
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/MessageVersion'),"3.0")
-				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),"test05152024103")
+				WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),genRemIDVoid)
 				WebUI.click(findTestObject('Object Repository/IWP30/Page_QATestHarness/SubmitButton'))
 				
 			}
@@ -59,9 +59,9 @@ import internal.GlobalVariable as GlobalVariable
 			
 			
 // Verify the Error message
-			
+			Thread.sleep(5000)
 			WebUI.verifyTextPresent(("The following error occurred"), false)
-			WebUI.verifyTextPresent(("ransaction cannot be processed [duplicate transaction]"), false)
+			WebUI.verifyTextPresent(("Transaction cannot be processed [duplicate transaction]"), false)
 			WebUI.verifyTextPresent(("Please  click here to continue"), false)
 			
 		//WebUI.closeBrowser()	
