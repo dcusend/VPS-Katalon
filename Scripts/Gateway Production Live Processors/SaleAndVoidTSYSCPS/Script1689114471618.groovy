@@ -111,7 +111,7 @@ selenium.type("name=country_id", "840")
 selenium.type("name=amount", "0.11")
 
 "type | name=card_number | 5567080011582646 | "
-selenium.type("name=card_number", "5567080011582646")
+selenium.type("name=card_number", "5567080011582687")
 
 "type | name=card_exmo | 03 | "
 selenium.type("name=card_exmo", "03")

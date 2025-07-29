@@ -4,5 +4,6 @@
    <name>SaleAndVoidTSYSCPS</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>edea2f90-98bd-41ee-83bb-bf71f0a1e7a7</testCaseGuid>
 </TestCaseEntity>
