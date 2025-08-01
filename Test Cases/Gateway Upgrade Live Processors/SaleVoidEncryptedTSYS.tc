@@ -4,5 +4,6 @@
    <name>SaleVoidEncryptedTSYS</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>77d011bd-13c2-45b4-b571-c99741ba8d28</testCaseGuid>
 </TestCaseEntity>

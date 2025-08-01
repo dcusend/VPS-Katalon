@@ -45,7 +45,7 @@ WebUI.openBrowser('')
 selenium = new KatalonWebDriverBackedSelenium(baseUrl)
 
 "open | Upgrade/version_2_0/SaleWWWEncrypted.htm |  | "
-selenium.open("Upgrade/version_2_0/SaleWWWEncrypted.htm")
+selenium.open("Upgrade/version_2_0/SaleUpgradeEncrypted.htm")
 
 "type | name=transaction_type | 104 | "
 selenium.type("name=transaction_type", "104")
@@ -167,8 +167,10 @@ selenium.type("name=user_defined9", "")
 "type | name=user_defined10 |  | "
 selenium.type("name=user_defined10", "")
 
-"type | name=encrypted_track_1_data | 8BF482856A5A01C17C69392DCE283CDC0D64733AEBE806151EA697F4091A17B82A0D851B67CF345D | "
-selenium.type("name=encrypted_track_1_data", "8BF482856A5A01C17C69392DCE283CDC0D64733AEBE806151EA697F4091A17B82A0D851B67CF345D")
+//"type | name=encrypted_track_1_data | 8BF482856A5A01C17C69392DCE283CDC0D64733AEBE806151EA697F4091A17B82A0D851B67CF345D | "
+//selenium.type("name=encrypted_track_1_data", "8BF482856A5A01C17C69392DCE283CDC0D64733AEBE806151EA697F4091A17B82A0D851B67CF345D")
+
+selenium.type("name=encrypted_track_1_data", "9F0E5C22626EF58E84E10569242FBF040E94A6E2A3F4AC8D27603841C5C37524C328095CCF2B67090DC7E00FA3EDD07BE1848EE7DF71C631")
 
 "type | name=encrypted_track_2_data |  | "
 selenium.type("name=encrypted_track_2_data", "")
@@ -176,8 +178,10 @@ selenium.type("name=encrypted_track_2_data", "")
 "type | name=slot_number | 1 | "
 selenium.type("name=slot_number", "1")
 
-"type | name=ksn | FFFF7381390003600107 | "
-selenium.type("name=ksn", "FFFF7381390003600107")
+//"type | name=ksn | FFFF7381390003600107 | "
+//selenium.type("name=ksn", "FFFF7381390003600107")
+
+selenium.type("name=ksn", "FF375B37B07851BE")
 
 "click | css=input[type=button] |  | "
 selenium.click("css=input[type='button']")

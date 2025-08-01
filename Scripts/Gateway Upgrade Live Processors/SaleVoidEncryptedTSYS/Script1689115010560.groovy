@@ -45,7 +45,7 @@ WebUI.openBrowser('')
 selenium = new KatalonWebDriverBackedSelenium(baseUrl)
 
 "open | Upgrade/version_2_0/SaleWWWEncrypted.htm |  | "
-selenium.open("Upgrade/version_2_0/SaleWWWEncrypted.htm")
+selenium.open("Upgrade/version_2_0/SaleUpgradeEncrypted.htm")
 
 "type | name=transaction_type | 104 | "
 selenium.type("name=transaction_type", "104")

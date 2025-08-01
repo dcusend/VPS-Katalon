@@ -106,14 +106,20 @@ selenium.type("name=country_id", "840")
 "type | name=amount | 0.11 | "
 selenium.type("name=amount", "0.11")
 
-"type | name=card_number | 5567080011582646 | "
-selenium.type("name=card_number", "5567080011582646")
+//"type | name=card_number | 5567080011582646 | "
+//selenium.type("name=card_number", "5567080011582646")
 
-"type | name=card_exmo | 03 | "
-selenium.type("name=card_exmo", "03")
+//"type | name=card_exmo | 03 | "
+//selenium.type("name=card_exmo", "03")
 
-"type | name=card_exyr | 2026 | "
-selenium.type("name=card_exyr", "2026")
+//"type | name=card_exyr | 2026 | "
+//selenium.type("name=card_exyr", "2026")
+
+
+selenium.type("name=card_number", "4358808486916303")
+selenium.type("name=card_exmo", "12")
+selenium.type("name=card_exyr", "2031")
+
 
 "type | name=cvv_data |  | "
 selenium.type("name=cvv_data", "")
