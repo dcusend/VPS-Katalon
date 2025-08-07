@@ -41,7 +41,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
 String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
-String datCloumn = "Date"
+String datColumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
 def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
 
@@ -57,14 +57,14 @@ println("Number of Records: " + numOfRows)
 for (def row = 1; row <= numOfRows; row++)
 	{
 	
-			if(executionProfile == 'Production') {				
+			if(executionProfile == 'Production'  || executionProfile == 'Upgrade') {				
 				ExecuteTC = dataFile.getValue('ExecuteProd', row)
 				resColumn = 'ResultProd'
 				datColumn = 'DateProd'
 				
 				System.out.println('Value of Execute is : ' + ExecuteTC)
 			}
-			else if(executionProfile == 'DemoProfile' || executionProfile == 'Upgrade') {
+			else if(executionProfile == 'DemoProfile') {
 					ExecuteTC = dataFile.getValue('ExecuteDemo', row)
 					resColumn = 'ResultDemo'
 					datColumn = 'DateDemo'
@@ -124,13 +124,13 @@ for (def row = 1; row <= numOfRows; row++)
 								
 								KeywordUtil.markPassed("User was Modified Successfully")
 								resText = "Pass"
-								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)								
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)								
 							}
 						else
 						{
 							KeywordUtil.markPassed("User was NOT Modified")
 							resText = "Fail"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 		
 						}
 						
@@ -157,7 +157,7 @@ for (def row = 1; row <= numOfRows; row++)
 						CustomKeywords.'pages.CustomLogger.log_Logger'("User did not got created, can't delete","Fail")
 						KeywordUtil.markFailed("User did not got created, can't delete")
 						resText = "Fail"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 						
 					}
 					

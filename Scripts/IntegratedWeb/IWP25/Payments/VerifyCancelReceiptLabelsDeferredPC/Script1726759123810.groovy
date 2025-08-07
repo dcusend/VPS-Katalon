@@ -42,7 +42,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 	
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= numOfRows; row++)
+	for (def row = 2; row <= numOfRows; row++)
 		{
 		
 			ExecuteTC = dataFile.getValue('Execute', row)
@@ -94,13 +94,11 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Receipt/ViewScheduledPaymentsButton'))
 							
-							WebUI.switchToWindowTitle('View Scheduled Payments')
-							Thread.sleep(4000)
+							WebUI.switchToWindowTitle('TestvRelay30NoCFAuto - View Scheduled Payments')
+							Thread.sleep(5000)
 							
 							if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
-								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))
-//								WebUI.click(paymentplan_cancelLink)
-								
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))								
 							}
 							
 							if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) {
@@ -108,6 +106,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.acceptAlert()
 							}
 							
+							Thread.sleep(2000)
 							
 							if(WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {
 							isRequiredTextPresent = true

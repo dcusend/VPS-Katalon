@@ -5,122 +5,122 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>7de170da-9f48-4a15-aa41-5a77f58361ec</testSuiteGuid>
+   <testSuiteGuid>96ecd515-befd-4a6e-86ad-40b5e332be5e</testSuiteGuid>
    <testCaseLink>
-      <guid>9e7041cd-659d-4c73-b9fb-9c7bccbf2399</guid>
+      <guid>9024f23c-9c61-4c90-9cfb-50e02aa2c81f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByCC-2.3</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByCC-2.3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2fea4099-efed-45a9-a5f5-b5b8f96e442b</guid>
+      <guid>8fe1d1d9-7d9d-4b85-9491-dcf9da136115</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByCC-2.5</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByCC-2.5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d893f6f0-5dba-4e66-819c-10ffc22ece15</guid>
+      <guid>b3f53abf-4a7e-4ab4-b858-2f6f07ef8a1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByCC-2.7</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByCC-2.7</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2775ee02-1c54-4e9b-8ab5-2ef0a4dcfa77</guid>
+      <guid>258886d6-9e28-4582-ba2b-beeb00895ce6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByCC-3.0</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByCC-3.0</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4fa8439a-03ad-4f0b-acb5-21bf8637aa24</guid>
+      <guid>db9a1db7-2e86-4dfc-ba3e-bda824801117</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByCorp-2.3</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByCorp-2.3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e00b0024-a617-422a-8106-1aef23a12cf5</guid>
+      <guid>d0c0740e-64d6-4f00-947f-8358015b7968</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByCorp-2.5</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByCorp-2.5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b5cf13c5-2faa-4b0c-8331-31122838cd02</guid>
+      <guid>6ddcbc97-d47d-461c-aab2-bd06fb8f48d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByCorp-2.7</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByCorp-2.7</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>15c79260-e341-47d5-aa97-6d5321dc4b29</guid>
+      <guid>2afbed5a-8a5b-496d-9c2e-1e18be3b9c22</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByCorp-3.0</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByCorp-3.0</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>913c7843-5b2f-4969-88ab-720a893ae421</guid>
+      <guid>2657f07d-ab68-4926-980e-8c358087bb3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByPC-2.3</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByPC-2.3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e8c69b54-8626-42b8-97d2-2ba32ec35f68</guid>
+      <guid>1938481a-661a-439d-b40d-5948fd524661</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByPC-2.5</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByPC-2.5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b1847508-36d8-4c32-b87d-45d851fbeb27</guid>
+      <guid>3e704238-87ad-405d-8abd-1159a0d413f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByPC-2.7</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByPC-2.7</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6a103275-96fd-4a6f-ad4e-147b79f6768e</guid>
+      <guid>06cfaae7-e5b3-477a-a6a4-fdc1a74107ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByPC-3.0</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByPC-3.0</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>deff4a08-07f3-4033-b39b-db641d4bad10</guid>
+      <guid>622f9aa4-1928-4ba9-bd21-2afed355647b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByPS-2.3</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByPS-2.3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>86c5b34b-3b24-4da9-80f4-d8b0ec560fab</guid>
+      <guid>e79edd9d-b3f1-4bd5-985d-337a292b453a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByPS-2.5</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByPS-2.5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8c074dc2-3ddf-4c31-864a-03cac1536c78</guid>
+      <guid>390592cb-bdb5-49ab-a641-c33695809dfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByPS-2.7</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByPS-2.7</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3bec91fa-057b-4d10-8654-d57a4506e17e</guid>
+      <guid>3cf38866-6bab-42f1-98e8-4a1c5d56733b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DisplayCF/VRelayPayByPS-3.0</testCaseId>
+      <testCaseId>Test Cases/DisplayCFDemo/VRelayPayByPS-3.0</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

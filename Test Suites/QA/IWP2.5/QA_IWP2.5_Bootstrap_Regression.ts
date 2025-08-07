@@ -12,34 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>4d1b3cb8-7155-4438-b3a8-2e783a3c901f</testSuiteGuid>
    <testCaseLink>
-      <guid>7561f439-10f3-4e8e-8f1d-c52b2019fa91</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP-Bootstrap/Payments/CCDeferredCC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dfaae529-8e27-485c-a175-5c4c4fa0b9ce</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP-Bootstrap/Payments/CCDeferredCorp</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>db6ef920-a717-41fc-acd6-cc9a1c831008</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP-Bootstrap/Payments/CCDeferredPC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>11160b47-b4d2-4f48-83e2-28af9ca13a46</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/IntegratedWeb/IWP-Bootstrap/Payments/CCDeferredPS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ca7c612e-41a0-4cdf-9f90-077d604e4c9e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -8,155 +8,217 @@
       <description></description>
       <initValue>'https://dev-algorithm.govolution.com/vlinktest/QA2/version_2_0/'</initValue>
       <name>VLinkURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'979'</initValue>
       <name>VLinkSaleTranxID</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'979'</initValue>
       <name>VLinkSaleRemID</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://qa2.velocitypayment.com/admin/imtiaz'</initValue>
       <name>AdminSuiteURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'iahmed'</initValue>
       <name>Username</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Hello!8888888'</initValue>
       <name>Password</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'/admin/imtiaz/bootstrap/vpos/'</initValue>
       <name>vpos_Prefix</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
       <name>ProfileName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://qa2.velocitypayment.com/agency/config.do?action=editor'</initValue>
       <name>urlEmulator</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://dev-algorithm.govolution.com/vrelaytest/QA2/version_2_2/vrelaytest.html'</initValue>
       <name>urlTestHarness</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://qa2.velocitypayment.com/client/rad/index.html'</initValue>
       <name>RADurl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'123451234'</initValue>
       <name>rad_SSN</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Anderson'</initValue>
       <name>rad_SSN_LastName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'123459630'</initValue>
       <name>rad_SSN_Joint</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Bell'</initValue>
       <name>rad_SSN_Joint_LastName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://qa2.velocitypayment.com/vbillslookup/lookup/testvbillsauto'</initValue>
       <name>BBPURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://qa2.velocitypayment.com/vbillslookup/lookup/testvbillsautoscf'</initValue>
       <name>SCFBBPURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://qa2.velocitypayment.com/vbillslookup/lookup/testvbillsautodcf'</initValue>
       <name>DCFBBPURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>905</description>
       <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/AutoMultiBillNoCF'</initValue>
       <name>MultiBillNoCFURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://dev-algorithm.govolution.com/vrelaytest/QA2/version_1_0/vrelaytest.html'</initValue>
       <name>BWPURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>906</description>
       <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/AutoMultiBillSingleCF'</initValue>
       <name>MultiBillSingleCFURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>907</description>
       <initValue>'https://qa2.velocitypayment.com/ebills/billLookup/AutoMultiBillDualCF'</initValue>
       <name>MultiBillDualCFURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Lookup used 40190709	300003	300004</description>
       <initValue>'AutoABPUser916'</initValue>
       <name>abpNoCFUsername</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Hello!5555555'</initValue>
       <name>abpNoCFPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://qa2.velocitypayment.com/vbills/imtiazcustomer/login.go'</initValue>
       <name>abpURL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>1000</initValue>
       <name>shortDelay</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>20000</initValue>
       <name>longDelay</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Lookup used 20190509,800003,800004</description>
       <initValue>'AutoABPUser917'</initValue>
       <name>abpSCFUsername</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Hello!5555555'</initValue>
       <name>abpSCFPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Lookup used 20190709,100001,100002</description>
       <initValue>'AutoABPUser918'</initValue>
       <name>abpDCFUsername</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Hello!5555555'</initValue>
       <name>abpDCFPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
