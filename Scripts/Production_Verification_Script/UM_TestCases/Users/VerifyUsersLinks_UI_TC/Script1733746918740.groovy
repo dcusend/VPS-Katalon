@@ -32,7 +32,7 @@ String path_UserView = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap
 String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
-String datCloumn = "Date"
+String datColumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
 def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
 
@@ -49,6 +49,7 @@ println("Number of Records: " + numOfRows)
 	
 	WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
 	
+	Thread.sleep(4000)
 		WebUI.click(findTestObject(path_Dashboard + 'a_Users'))
 		
 			WebUI.verifyTextPresent('Users', true)
@@ -94,11 +95,30 @@ println("Number of Records: " + numOfRows)
 			for (def row = 1; row <= numOfRows; row++)
 			{
 				
-				Date today = new Date()
-				println (today)
-				String datText = today
-			// Call setData for FindUser
-			CustomKeywords.'adminSuiteBootstrap.findUser.findUser_DD_EF_Profile'(row,dataFile, executionProfile)
+				if(executionProfile == 'Production'  || executionProfile == 'Upgrade') {
+					ExecuteTC = dataFile.getValue('ExecuteProd', row)
+					resColumn = 'ResultProd'
+					datColumn = 'DateProd'
+					
+					System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
+				else if(executionProfile == 'DemoProfile') {
+						ExecuteTC = dataFile.getValue('ExecuteDemo', row)
+						resColumn = 'ResultDemo'
+						datColumn = 'DateDemo'
+						
+						System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
+				
+				if (ExecuteTC.equalsIgnoreCase("Y"))
+					{
+						System.out.println('Begin Record Number: ' + row)
+						Date today = new Date()
+						println (today)
+						String datText = today
+						
+						// Call setData for FindUser
+						CustomKeywords.'adminSuiteBootstrap.findUser.findUser_DD_EF_Profile'(row,dataFile, executionProfile)
 			
 			if (WebUI.verifyElementPresent(findTestObject(path_UserView + 'button_Modify'),30))
 				{
@@ -113,7 +133,7 @@ println("Number of Records: " + numOfRows)
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User was found","Pass")
 					KeywordUtil.markPassed("User was found")
 					resText = "Pass"
-					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 			
 				}
 			else
@@ -122,10 +142,11 @@ println("Number of Records: " + numOfRows)
 					CustomKeywords.'pages.CustomLogger.log_Logger'("User was not found","Fail")
 					KeywordUtil.markFailed("User was not found")
 					resText = "Fail"
-					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 					
 				}
 				
 				WebUI.closeBrowser()
 				
 				}
+			}

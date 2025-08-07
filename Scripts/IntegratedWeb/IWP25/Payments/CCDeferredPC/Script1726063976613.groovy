@@ -113,7 +113,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.acceptAlert()				
 							}
 							
-								
+							Thread.sleep(2000)
+							
 							if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {								
 								KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
 								resText = "Pass"

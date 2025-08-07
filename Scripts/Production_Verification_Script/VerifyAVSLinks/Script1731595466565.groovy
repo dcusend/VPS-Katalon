@@ -26,7 +26,7 @@ String path_AVS = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/AVS/
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
-
+Thread.sleep(4000)
 WebUI.click(findTestObject(path_Dashboard + 'a_AVS Policy'))
 
 WebUI.verifyElementVisible(findTestObject(path_AVS + 'h1_AVS Policy Management'))

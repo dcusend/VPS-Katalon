@@ -95,39 +95,20 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							
 							WebUI.switchToWindowTitle('View Scheduled Payments')
 							Thread.sleep(5000)
-							
-//							def payment_id_obj = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/payment_plan_id')).toString()
-//							def payment_id = payment_id_obj.substring(17,23)
-//							def new_href = 'javascript:deferredPaymentAction(\'cancel\', \'' + payment_id + '\');'
-//							def paymentplan_cancelLink = WebUI.modifyObjectProperty(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'),'href','equals',new_href,true)
-//							
+						
 							
 							if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
-//								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))	
-//								WebUI.click(paymentplan_cancelLink)
-								
-								
-								
-								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/edit_payment'))
-																
-								// Set Data on Edit page
-								CustomKeywords.'iwpPages.editSchedulePayment.setDataSchedPayment'(row,dataFile)
-								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/chkbox_acceptterms'))
-								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
-																
-								if (WebUI.verifyTextPresent("Successful Payment Plan Update", false)) {
-									WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
-								}
-								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))
-								
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))	
 							}
+							
 							
 							if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) {
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_PaymentPlan/btn_cancel'))
 								WebUI.acceptAlert()				
 							}
 							
-								
+							Thread.sleep(2000)
+							
 							if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {								
 								KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
 								resText = "Pass"

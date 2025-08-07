@@ -41,7 +41,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
 String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
-String datCloumn = "Date"
+String datColumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
 def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
 
@@ -138,7 +138,7 @@ for (def row = 1; row <= numOfRows; row++)
 									
 									KeywordUtil.markPassed("User Password was Modified Successfully")
 									resText = "Pass"
-									CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+									CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 									
 									
 								}
@@ -146,7 +146,7 @@ for (def row = 1; row <= numOfRows; row++)
 								{
 								KeywordUtil.markPassed("User Password was NOT Modified")
 								resText = "Fail"
-								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 			
 								}
 							

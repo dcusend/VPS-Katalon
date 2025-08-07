@@ -26,7 +26,7 @@ String path_Product = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
-
+Thread.sleep(4000)
 WebUI.click(findTestObject(path_Dashboard + 'a_Products'))
 
 WebUI.verifyElementVisible(findTestObject(path_Product + 'h1_Products'))

@@ -122,8 +122,9 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_PaymentPlan/btn_cancel'))
 								WebUI.acceptAlert()				
 							}
+											
+							Thread.sleep(2000)
 							
-								
 							if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {								
 								KeywordUtil.markPassed("Your payment plan has been successfully created, modified and canceled")
 								resText = "Pass"
