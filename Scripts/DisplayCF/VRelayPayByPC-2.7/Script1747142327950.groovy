@@ -27,7 +27,7 @@ String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/IWPTestData/DisplayCFData.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,feeType, totalAmount, isRequiredTextPresent = false
+def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,feeType, totalAmount, isRequiredTextPresent = true
 
 
 	
@@ -43,6 +43,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 	// For each row in the spreadsheet, execute the given steps
 	for (def row = 1; row <= numOfRows; row++)
 		{
+			
+			isRequiredTextPresent = true
 		
 			AppID = dataFile.getValue('AppID', row)
 			
@@ -92,20 +94,22 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 						System.out.println('string array ' +  stringArray)
 					}
 					else if(Amount == '$10.50') {
-						VerificationText =  "American Express, Service Fee = \$10.00, Discover, Service Fee = \$10.00, MasterCard, Service Fee = \$10.00, MasterCard Debit, Service Fee = \$10.00, Visa, Service Fee = \$10.00, Visa Debit, Service Fee = \$10.00, Personal Check, Service Fee = \$10.00, Corporate Check, Service Fee = \$10.00"
+						VerificationText =  "American Express, Service Fee = \$1.00, Discover, Service Fee = \$2.00, MasterCard, Service Fee = \$3.00, MasterCard Debit, Service Fee = \$4.00, Visa, Service Fee = \$5.00, Visa Debit, Service Fee = \$6.00, Personal Check, Service Fee = \$7.00, Corporate Check, Service Fee = \$8.00"						
 						stringArray = VerificationText.split(",")
 						System.out.println('string array ' +  stringArray)
 					}
 
 				
 					for(def item in stringArray)
-					{
-					   println(item.trim())
-					   if(WebUI.verifyTextPresent(item.trim(),false)) {
-						  isRequiredTextPresent = true
-					   }
-					   else {
-						   isRequiredTextPresent = false
+					{					 
+					   if(isRequiredTextPresent == true) {
+						   println(item.trim())
+						   if(WebUI.verifyTextPresent(item.trim(),false)) {
+							  isRequiredTextPresent = true
+						   }
+						   else {
+							   isRequiredTextPresent = false
+						   }
 					   }
 					
 					}
@@ -132,13 +136,15 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 					// Select Continue on Confirm page
 						WebUI.click(findTestObject('Object Repository/DisplayConvFees/Page_Confirmation/btn_confirm'))
 					
-						if(WebUI.verifyTextPresent('CF Label', false)) {
-							isRequiredTextPresent = true
-							println(isRequiredTextPresent)
-							
-						}
-						else {
-							isRequiredTextPresent = false
+						if(isRequiredTextPresent) {							
+							if(WebUI.verifyTextPresent('CF Label', false)) {
+								isRequiredTextPresent = true
+								println(isRequiredTextPresent)
+								
+							}
+							else {
+								isRequiredTextPresent = false
+							}
 						}
 						if(isRequiredTextPresent) {
 							if(WebUI.verifyTextPresent('This transaction is subject to a CF Label of ' +  feesAccept, false)) {
@@ -172,7 +178,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 							}
 						}
 						if(isRequiredTextPresent) {
-							if(WebUI.verifyTextPresent('Fees:', false)) {
+							if(WebUI.verifyTextPresent('CF Label:', false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)
 								
@@ -212,7 +218,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 							}
 						}
 													
-					if(AppID == '920' || AppID == '921') {
+					if(AppID == '936' || AppID == '937') {
 						if(isRequiredTextPresent) {					
 							if(WebUI.verifyTextPresent('One transaction in the amount of ' + totalAmount + ' will appear on your bank statement.', false)) {
 								isRequiredTextPresent = true
@@ -224,7 +230,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 							}
 						}
 					}
-					else if(AppID == '914' || AppID == '915') {					
+					else if(AppID == '938' || AppID == '939') {					
 						if(isRequiredTextPresent) {
 							if(WebUI.verifyTextPresent('Two transactions will appear on your bank statement, one in the amount of ' + confirmAmount + ' and one in the amount of ' + feesAccept, false)) {
 								isRequiredTextPresent = true
@@ -262,7 +268,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 						}
 					}
 					if(isRequiredTextPresent) {
-						if(WebUI.verifyTextPresent('Fees:', false)) {
+						if(WebUI.verifyTextPresent('CF Label:', false)) {
 							isRequiredTextPresent = true
 							println(isRequiredTextPresent)
 							
@@ -282,7 +288,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 						}
 					}
 					if(isRequiredTextPresent) {
-						if(WebUI.verifyTextPresent('Fees Type:', false)) {
+						if(WebUI.verifyTextPresent('CF Label Type:', false)) {
 							isRequiredTextPresent = true
 							println(isRequiredTextPresent)
 							

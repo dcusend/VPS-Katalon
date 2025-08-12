@@ -25,6 +25,8 @@ String path_AllReports = "Object Repository/AdminSuiteBootstrap_Pages/Reporting_
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_Reporting'))
+
+Thread.sleep(4000)
 WebUI.click(findTestObject(path_Dashboard + 'a_All Reports'))
 
 WebUI.verifyElementVisible(findTestObject(path_AllReports + 'h1_Online Reporting'))

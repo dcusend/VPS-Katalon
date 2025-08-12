@@ -26,6 +26,7 @@ String path_Email = "Object Repository/AdminSuiteBootstrap_Pages/Reporting_Boots
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_Reporting'))
+Thread.sleep(4000)
 WebUI.click(findTestObject(path_Dashboard + 'a_Email Subscription'))
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'h1_Email Subscription'))

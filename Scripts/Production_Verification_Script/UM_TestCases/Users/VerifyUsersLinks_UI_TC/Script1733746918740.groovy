@@ -17,14 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.configuration.RunConfiguration as RC
+
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testdata.reader.ExcelFactory as ExcelFactory
+
+
 String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_Bootstrap/"
 String path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/"
 String path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/"
+String path_Users = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Users/"
+String path_UserView = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/UserView/"
+
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datColumn = "Date"
+String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
+def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
+
+
+// Get the Execution Profile like QA or Demo
+def executionProfile = RC.getExecutionProfile()
+nameSheet = "FindCaseUser"
+dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/Bootstrap/UM-Data-Prod.xlsx", nameSheet, true)
+numOfRows = dataFile.getRowNumbers()
+println("Number of Records: " + numOfRows)
+
 
 	CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 	
 	WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
 	
+	Thread.sleep(4000)
 		WebUI.click(findTestObject(path_Dashboard + 'a_Users'))
 		
 			WebUI.verifyTextPresent('Users', true)
@@ -42,8 +67,8 @@ String path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/"
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_Add User'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_Add User'), 30)
 			
-			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_CASEuser'))
-			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_CASEuser'), 30)
+//			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_CASEuser'))
+//			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_CASEuser'), 30)		
 			
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'li_First'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'li_First'), 30)
@@ -63,4 +88,65 @@ String path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/"
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_Last'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_Last'), 30)
 			
+			// Select the Find User button
+			WebUI.click(findTestObject(path_Users + 'a_Find User'))
 			
+			// For each row in the spreadsheet, execute the given steps
+			for (def row = 1; row <= numOfRows; row++)
+			{
+				
+				if(executionProfile == 'Production'  || executionProfile == 'Upgrade') {
+					ExecuteTC = dataFile.getValue('ExecuteProd', row)
+					resColumn = 'ResultProd'
+					datColumn = 'DateProd'
+					
+					System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
+				else if(executionProfile == 'DemoProfile') {
+						ExecuteTC = dataFile.getValue('ExecuteDemo', row)
+						resColumn = 'ResultDemo'
+						datColumn = 'DateDemo'
+						
+						System.out.println('Value of Execute is : ' + ExecuteTC)
+				}
+				
+				if (ExecuteTC.equalsIgnoreCase("Y"))
+					{
+						System.out.println('Begin Record Number: ' + row)
+						Date today = new Date()
+						println (today)
+						String datText = today
+						
+						// Call setData for FindUser
+						CustomKeywords.'adminSuiteBootstrap.findUser.findUser_DD_EF_Profile'(row,dataFile, executionProfile)
+			
+			if (WebUI.verifyElementPresent(findTestObject(path_UserView + 'button_Modify'),30))
+				{
+			
+					if(executionProfile == 'Production' || executionProfile == 'Upgrade') {
+						WebUI.verifyTextPresent('CASEuser', true)
+					}
+					else if(executionProfile == 'DemoProfile' ) {
+						WebUI.verifyTextPresent('CASEuserDemo', true)
+					}
+									
+					CustomKeywords.'pages.CustomLogger.log_Logger'("User was found","Pass")
+					KeywordUtil.markPassed("User was found")
+					resText = "Pass"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
+			
+				}
+			else
+				{
+					//log.logFailed("User was not able to login")
+					CustomKeywords.'pages.CustomLogger.log_Logger'("User was not found","Fail")
+					KeywordUtil.markFailed("User was not found")
+					resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
+					
+				}
+				
+				WebUI.closeBrowser()
+				
+				}
+			}

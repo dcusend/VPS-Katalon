@@ -38,7 +38,7 @@ System.out.println ("executionProfile : " + executionProfile)
 
 String resText = "Fail"
 String resColumn = "Result"
-String datCloumn = "Date"
+String datColumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
 def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
 
@@ -100,7 +100,7 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						KeywordUtil.markPassed("Role was searched Successfully")
 						resText = "Pass"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 						CustomKeywords.'pages.CustomLogger.log_Logger'("Role got searched successfully","Pass")
 						
 					}
@@ -109,7 +109,7 @@ for (def row = 1; row <= numOfRows; row++)
 						CustomKeywords.'pages.CustomLogger.log_Logger'("Role was not found","Fail")
 						KeywordUtil.markFailed("Role did not searched")
 						resText = "Fail"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 
 					}
 						
