@@ -4,5 +4,6 @@
    <name>VerifyCountryDropDownCorporateACH</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>83107708-1e50-46b7-82d3-2b0fcd809a2d</testCaseGuid>
 </TestCaseEntity>

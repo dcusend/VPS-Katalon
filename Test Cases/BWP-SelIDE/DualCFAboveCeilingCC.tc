@@ -4,5 +4,6 @@
    <name>DualCFAboveCeilingCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a966122d-b1dd-41e7-80ad-886b20452da7</testCaseGuid>
 </TestCaseEntity>

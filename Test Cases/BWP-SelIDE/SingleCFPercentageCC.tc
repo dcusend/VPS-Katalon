@@ -4,5 +4,6 @@
    <name>SingleCFPercentageCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c36c1ee5-68cf-4a06-a02b-a02e03d7e850</testCaseGuid>
 </TestCaseEntity>

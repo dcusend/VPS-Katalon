@@ -111,16 +111,23 @@ selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
 
 
 
-softAssertion.assertEquals("33333333", selenium.getValue("id=accountNumber"))
-softAssertion.assertEquals("33333333", selenium.getValue("id=confirmAccountNumber"))
+//softAssertion.assertEquals("3330033333", selenium.getValue("id=accountNumber"))
+//softAssertion.assertEquals("33333333", selenium.getValue("id=confirmAccountNumber"))
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/accountNumber'), 1000)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 1000)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/accountNumber'), 'value', '33333333', 1000)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 'value', '33333333', 1000)
 
 
 
 selenium.click("name=achSubmit")
 selenium.waitForPageToLoad("30000")
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/accountNumber'), 1000)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 1000)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/accountNumber'), 'value', '', 1000)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 'value', '', 1000)
 
-
-softAssertion.assertEquals("", selenium.getValue("id=accountNumber"))
-softAssertion.assertEquals("", selenium.getValue("id=confirmAccountNumber"))
+//softAssertion.assertEquals("1", selenium.getValue("id=accountNumber"))
+//softAssertion.assertEquals("1", selenium.getValue("id=confirmAccountNumber"))

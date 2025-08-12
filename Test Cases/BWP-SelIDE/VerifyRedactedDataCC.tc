@@ -4,5 +4,6 @@
    <name>VerifyRedactedDataCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7e1e12d1-0dba-4510-b5c8-cb8d67f556b7</testCaseGuid>
 </TestCaseEntity>

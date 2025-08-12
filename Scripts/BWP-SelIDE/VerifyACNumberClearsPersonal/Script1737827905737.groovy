@@ -112,8 +112,10 @@ selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
 
 
 
-softAssertion.assertEquals("11111111", selenium.getValue("id=accountNumber"))
-softAssertion.assertEquals("11111111", selenium.getValue("id=confirmAccountNumber"))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/accountNumber'), 1000)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 1000)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/accountNumber'), 'value', '11111111', 1000)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 'value', '11111111', 1000)
 
 
 
@@ -123,5 +125,7 @@ selenium.waitForPageToLoad("30000")
 
 
 
-softAssertion.assertEquals("", selenium.getValue("id=accountNumber"))
-softAssertion.assertEquals("", selenium.getValue("id=confirmAccountNumber"))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/accountNumber'), 1000)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 1000)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/accountNumber'), 'value', '', 1000)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 'value', '', 1000)

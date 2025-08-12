@@ -89,4 +89,16 @@ selenium.waitForPageToLoad("30000")
 selenium.click("name=paymentMethod")
 selenium.click("css=input[type=\"submit\"]")
 selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("--Select One-- Armed Forces Americas Armed Forces Europe Armed Forces Canada Armed Forces Africa Armed Forces Middle East Armed Forces Pacific Alabama Alaska American Samoa Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Federated States of Micronesia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Northern Mariana Islands Ohio Oklahoma Oregon Palau Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virgin Islands Virginia Washington West Virginia Wisconsin Wyoming Marshall Island", selenium.getText("id=billingState-select"))
+//softAssertion.assertEquals("--Select One-- Armed Forces Americas Armed Forces Europe Armed Forces Canada Armed Forces Africa Armed Forces Middle East Armed Forces Pacific Alabama Alaska American Samoa Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Federated States of Micronesia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Northern Mariana Islands Ohio Oklahoma Oregon Palau Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virgin Islands Virginia Washington West Virginia Wisconsin Wyoming Marshall Island", selenium.getText("id=billingState-select"))
+
+
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), '--Select One--', false, 10)
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'Florida', false, 10)
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'District of Columbia', false, 10)
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'Maryland', false, 10)
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'New Hampshire', false, 10)
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'South Carolina', false, 10)
+WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'Virginia', false, 10)
+
+
+

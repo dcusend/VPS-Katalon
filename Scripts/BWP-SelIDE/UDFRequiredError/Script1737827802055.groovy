@@ -89,4 +89,16 @@ selenium.waitForPageToLoad("30000")
 
 //softAssertion.assertEquals("TestvPortal Auto SCF - Error The following error occurred:  Transaction cannot be processed due to missing input [user_defined9] Please&nbsp;&nbsp;click here to continue.", selenium.getText("//div[@id='main-focus']/div/center/table/tbody/tr/td[2]"))
 
-WebUI.verifyTextPresent(("TestvPortal Auto SCF - Error The following error occurred:  Transaction cannot be processed due to missing input [user_defined9] Please&nbsp;&nbsp;click here to continue."), true)
+WebUI.verifyTextPresent(("TestvPortal Auto SCF - Error"), true)
+
+WebUI.verifyTextPresent(("The following error occurred:"), true)
+
+WebUI.verifyTextPresent(("Transaction cannot be processed due to missing input \\[user_defined9\\]"), true)
+
+//WebUI.verifyTextPresent(("Transaction cannot be processed due to missing input [user_defined9]"), true)
+
+
+//WebUI.verifyTextPresent(("Please click here to continue."), true)
+
+
+

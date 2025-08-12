@@ -4,5 +4,6 @@
    <name>VerifyCountryDropDownCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e6566f55-a51a-471c-8d73-dfed330edadf</testCaseGuid>
 </TestCaseEntity>

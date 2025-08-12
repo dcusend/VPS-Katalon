@@ -4,5 +4,6 @@
    <name>UDFRequiredError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ad3df867-bf30-4f5b-a518-81a2e22394ea</testCaseGuid>
 </TestCaseEntity>
