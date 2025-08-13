@@ -42,7 +42,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 	
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 2; row <= numOfRows; row++)
+	for (def row = 1; row <= numOfRows; row++)
 		{
 		
 			ExecuteTC = dataFile.getValue('Execute', row)
@@ -94,7 +94,9 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Receipt/ViewScheduledPaymentsButton'))
 							
-							WebUI.switchToWindowTitle('TestvRelay30NoCFAuto - View Scheduled Payments')
+							def title = findTestData(dataFile).getValue('Title', row)
+							
+							WebUI.switchToWindowTitle(title + 'View Scheduled Payments')
 							Thread.sleep(5000)
 							
 							if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {

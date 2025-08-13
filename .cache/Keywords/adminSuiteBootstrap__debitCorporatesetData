@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "16F4AE9BBFCFA98A64CA39C42154469B",
+  "keywordFileContentHash": "5C7E2C60998240FAEC458B95A4535A5F",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.debitCorporatesetData",
@@ -33,8 +33,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "debitCorporate_DataDriven_EF",
@@ -65,11 +64,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

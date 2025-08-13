@@ -103,7 +103,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_ManagePlan_Autopay/btn_modify'))
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Modify/btn_savechanges'))
 							
-							
+							Thread.sleep(2000)
 							if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)
@@ -392,5 +392,5 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
 				}		
-				WebUI.closeBrowser()		
+//				WebUI.closeBrowser()		
 	}

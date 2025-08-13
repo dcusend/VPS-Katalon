@@ -4,5 +4,6 @@
    <name>VerifyEditReceiptLabelsDeferredPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c3a75329-85bd-4c2e-98ab-67e45d69b52f</testCaseGuid>
 </TestCaseEntity>
