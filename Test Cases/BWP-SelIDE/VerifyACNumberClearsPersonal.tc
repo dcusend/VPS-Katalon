@@ -4,5 +4,6 @@
    <name>VerifyACNumberClearsPersonal</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c05ec723-6366-4cff-9404-05d1ffc2f173</testCaseGuid>
 </TestCaseEntity>

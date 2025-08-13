@@ -4,5 +4,6 @@
    <name>SingleCFFlatCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>55f9185c-bb75-4295-b80b-848a47beb6f8</testCaseGuid>
 </TestCaseEntity>

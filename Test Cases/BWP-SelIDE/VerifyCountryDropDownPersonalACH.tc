@@ -4,5 +4,6 @@
    <name>VerifyCountryDropDownPersonalACH</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0935e933-2718-4018-8b62-5ddf581057a2</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>SuccessfulCCPaymentReqFieldsOnly</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4b8c0040-577f-4c3d-94e2-df5e7dc0b614</testCaseGuid>
 </TestCaseEntity>

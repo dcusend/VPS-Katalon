@@ -112,8 +112,8 @@ selenium.waitForPageToLoad("30000")
 
 
 
-softAssertion.assertEquals(Pattern.matches('selenium.getText("id=main-focus")', "Expiration Date.*"), true)
-softAssertion.assertEquals(Pattern.matches('selenium.getText("id=main-focus")', "4/2028.*"), true)
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("id=main-focus")', "Expiration Date.*"), true)
+//softAssertion.assertEquals(Pattern.matches('selenium.getText("id=main-focus")', "4/2029.*"), true)
 
 WebUI.verifyTextPresent(("Expiration Date.*"), true)
 WebUI.verifyTextPresent(("4/2028.*"), true)

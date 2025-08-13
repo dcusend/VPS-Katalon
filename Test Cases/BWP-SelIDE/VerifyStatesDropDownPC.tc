@@ -4,5 +4,6 @@
    <name>VerifyStatesDropDownPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d0e15c2a-2f1f-482f-96e3-b632fc4ffb3e</testCaseGuid>
 </TestCaseEntity>

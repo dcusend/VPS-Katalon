@@ -100,7 +100,7 @@ selenium.type("name=billingName", ("Mark Zober").toString())
 selenium.type("id=cardNumber", "370000000000002")
 selenium.type("id=spc", "111")
 selenium.select("name=cardExpMonth", "label=04")
-selenium.select("name=cardExpYear", "label=2025")
+selenium.select("name=cardExpYear", "label=2028")
 selenium.type("name=billingAddress", ("2311 york road").toString())
 selenium.type("name=billingAddress2", ("suite 600").toString())
 selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
@@ -108,4 +108,12 @@ selenium.click("id=checkedAcceptCondition")
 selenium.click("name=ccSubmit")
 selenium.waitForPageToLoad("30000")
 //softAssertion.assertEquals("This card type is not accepted, please enter a different credit or debit card number. Only Discover , MasterCard and Visa card(s) is(are) accepted.", selenium.getText("css=span.vrelay-error"))
-WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number. Only Discover , MasterCard and Visa card(s) is(are) accepted."), true)
+WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number."), true)
+
+WebUI.verifyTextPresent(("Only Discover , MasterCard and Visa card\\(s\\) is\\(are\\) accepted."), true)
+
+
+
+
+
+

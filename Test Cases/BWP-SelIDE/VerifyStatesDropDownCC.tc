@@ -4,5 +4,6 @@
    <name>VerifyStatesDropDownCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f3917b9e-bb67-4f5f-b476-3ba8dba5a211</testCaseGuid>
 </TestCaseEntity>

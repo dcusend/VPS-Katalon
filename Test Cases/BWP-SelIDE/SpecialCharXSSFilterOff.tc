@@ -4,5 +4,6 @@
    <name>SpecialCharXSSFilterOff</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>fc8ee642-2584-4126-9e22-743da265f921</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>DualCFPercentageCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2169bcec-4bbb-44bf-a523-eb02c692bf90</testCaseGuid>
 </TestCaseEntity>

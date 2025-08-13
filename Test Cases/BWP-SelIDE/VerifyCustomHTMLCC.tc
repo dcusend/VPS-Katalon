@@ -4,5 +4,6 @@
    <name>VerifyCustomHTMLCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>edb5cfcf-a662-4ccf-873d-36e858f1eeb8</testCaseGuid>
 </TestCaseEntity>

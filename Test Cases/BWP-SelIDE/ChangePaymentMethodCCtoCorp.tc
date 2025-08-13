@@ -4,5 +4,6 @@
    <name>ChangePaymentMethodCCtoCorp</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e7a3324d-e464-4b37-9dc0-0e382e4c23ae</testCaseGuid>
 </TestCaseEntity>
