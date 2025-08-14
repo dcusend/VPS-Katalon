@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "E9D3E97ED84D7BFE33FE1B4AC8DDCE88",
+  "keywordFileContentHash": "C3DE91B59A7C5842A37E89B7D10FBED7",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.modifyRole",
@@ -33,11 +33,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

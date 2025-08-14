@@ -4,5 +4,6 @@
    <name>AuthAndCaptureAndVoidTSYS</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8c52aeba-2f1c-45f5-b414-c14286d175f1</testCaseGuid>
 </TestCaseEntity>
