@@ -4,5 +4,6 @@
    <name>VerifyUDFnoDataNoError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5f967d06-8d06-4c4f-be4b-11863efa6514</testCaseGuid>
 </TestCaseEntity>

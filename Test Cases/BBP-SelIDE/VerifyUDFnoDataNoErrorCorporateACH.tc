@@ -4,5 +4,6 @@
    <name>VerifyUDFnoDataNoErrorCorporateACH</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>afe2154e-a582-4f80-86d0-658ffe82c3d1</testCaseGuid>
 </TestCaseEntity>

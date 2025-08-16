@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCardName",
@@ -38,7 +39,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getDataCardInfo",
@@ -56,7 +58,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCardInfo",
@@ -74,7 +77,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getDataCardAddress",
@@ -92,7 +96,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCardAddress",
@@ -110,7 +115,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getDataCardEmailAndPhone",
@@ -128,7 +134,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCardEmailAndPhone",
@@ -146,7 +153,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataAmount",
@@ -164,7 +172,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getDataCardUDF",
@@ -182,7 +191,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCardUDF",
@@ -200,7 +210,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCCDate",
@@ -218,19 +229,23 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "selectCheckboxStorePaymentMethod",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectCheckboxCCTerms",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "selectButtonContinue",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "getDataCCPMEF",
@@ -261,7 +276,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCCPM",
@@ -292,10 +308,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

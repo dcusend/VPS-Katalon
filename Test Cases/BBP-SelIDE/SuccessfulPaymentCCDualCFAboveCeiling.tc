@@ -4,5 +4,6 @@
    <name>SuccessfulPaymentCCDualCFAboveCeiling</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b911b462-538c-4797-ace8-4ac0527477fb</testCaseGuid>
 </TestCaseEntity>

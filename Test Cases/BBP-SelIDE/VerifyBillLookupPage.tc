@@ -4,5 +4,6 @@
    <name>VerifyBillLookupPage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3a96a3cc-d704-4755-91ee-20f8a19c1e63</testCaseGuid>
 </TestCaseEntity>
