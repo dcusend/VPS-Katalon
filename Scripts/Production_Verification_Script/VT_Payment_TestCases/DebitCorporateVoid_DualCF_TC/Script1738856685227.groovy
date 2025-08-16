@@ -117,7 +117,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					CustomKeywords.'adminSuiteBootstrap.debitCorporatesetData.debitCorporate_DataDriven_EF'(row,dataFile)
 					
-						
+					Thread.sleep(2000)
 						if (WebUI.verifyTextPresent('Transaction Successful', true))
 						{
 							
@@ -152,6 +152,8 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					
 							WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
 					
+							Thread.sleep(2000)
+							
 							WebUI.verifyTextPresent('Tender Type', true)
 							
 							WebUI.verifyTextPresent('Transaction Type', true)
@@ -170,10 +172,14 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					
 							WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
 							
+							Thread.sleep(2000)
+							
 							WebUI.verifyTextPresent('The following transaction will be voided', true)
 							WebUI.verifyTextPresent('Please press submit to continue', true)
 							
 							WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
+							
+							Thread.sleep(2000)
 							
 							WebUI.verifyTextPresent('Transaction Successful', true)
 							WebUI.verifyTextPresent('Transaction Type', true)

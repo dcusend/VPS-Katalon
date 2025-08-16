@@ -111,6 +111,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					// Call setDataCreateProfile method
 						CustomKeywords.'vspBootstrap.CreateProfilePage.setDataCreateProfile_EF'(row,dataFile)
 												
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("Profile successfully created"), true)
 						
 					
@@ -139,7 +140,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						Thread.sleep(2000)
 						
 						WebUI.click(findTestObject(path_ModifyACH + 'button_Modify'))
-						
+						Thread.sleep(2000)
 					// Verify Static text
 						WebUI.verifyTextPresent(("Payment Method Modification"), true)
 						WebUI.verifyTextPresent(("Payment method successfully modified"), true)
@@ -150,6 +151,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					// Select the Delete ACH button
 						WebUI.click(findTestObject(path_ViewProfile + 'a_DeleteACH2'))
 						
+						
 					// Verify the Static text
 						WebUI.verifyTextPresent(("Delete Bank Account Confirmation"), true)
 						WebUI.verifyTextPresent(("This will delete the bank account. Are you sure you want to do this?"), true)
@@ -157,7 +159,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					// Select the Congirm Delete button
 						WebUI.click(findTestObject(path_ViewProfile + 'button_DeleteACHConfirm'))
 						
-
+						Thread.sleep(2000)
 					// Verify the Static text
 						WebUI.verifyTextPresent(("Payment Method Deletion"), true)
 						WebUI.verifyTextPresent(("Payment method was successfully deleted."), true)
@@ -171,6 +173,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					// Select the Delete button
 						WebUI.click(findTestObject(path_DeleteProfileConfirm + 'button_Delete'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("No Search String"), true)
 						WebUI.verifyTextPresent(("You must provide a search string of at least 2 characters"), true)
 						

@@ -94,6 +94,7 @@ for (def row = 1; row <= numOfRows; row++)
 				// Set Data on Find Role page
 					CustomKeywords.'adminSuiteBootstrap.findRole.setDataFindRoleEF'(row,dataFile)
 					
+					Thread.sleep(2000)
 					if (WebUI.verifyElementPresent(findTestObject(path_Role + 'button_DeleteRole'), 30))
 					{
 						WebUI.verifyTextPresent('This role does not have any members', true)

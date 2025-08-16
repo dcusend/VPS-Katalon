@@ -123,6 +123,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 						
 						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven_EF'(row,dataFile)
 						
+						Thread.sleep(2000)
 						if (WebUI.verifyTextPresent('Transaction Successful', true))
 						{
 							
@@ -156,6 +157,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 												
 							WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
 					
+							Thread.sleep(2000)
 							WebUI.verifyTextPresent('Tender Type', true)
 							WebUI.verifyTextPresent('Credit Card', true)
 							WebUI.verifyTextPresent('Transaction Type', true)
@@ -182,6 +184,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 							
 							WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
 							
+							Thread.sleep(5000)
 							if (WebUI.verifyTextPresent('Transaction Successful', true))
 							{
 								WebUI.verifyTextPresent('Transaction Type', true)
@@ -219,8 +222,10 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 								payID = fgr.substring(89,98).trim()
 								System.out.println('payID: '+payID)
 						
-													
+								
 								WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
+								
+								Thread.sleep(5000)
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
 								
@@ -228,6 +233,8 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 								WebUI.verifyTextPresent('Please press submit to continue', true)
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
+								
+								Thread.sleep(5000)
 								
 								WebUI.verifyTextPresent('Transaction Successful', true)
 								WebUI.verifyTextPresent('Transaction Type', true)

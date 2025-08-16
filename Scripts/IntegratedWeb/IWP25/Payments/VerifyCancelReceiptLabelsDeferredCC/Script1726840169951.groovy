@@ -94,8 +94,10 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Receipt/ViewScheduledPaymentsButton'))
 							
-							WebUI.switchToWindowTitle('View Scheduled Payments')
-							Thread.sleep(4000)
+							def title = findTestData(dataFile).getValue('Title', row)
+							
+							WebUI.switchToWindowTitle(title + 'View Scheduled Payments')
+							Thread.sleep(5000)
 							
 							if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))
@@ -439,5 +441,5 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
 				}		
-				WebUI.closeBrowser()		
+//				WebUI.closeBrowser()		
 	}

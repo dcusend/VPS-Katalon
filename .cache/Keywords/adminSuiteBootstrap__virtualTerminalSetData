@@ -6,8 +6,7 @@
       "keywordMethods": [
         {
           "name": "saleKeyboard_HardCoded",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "saleKeyboard_HardCoded_AllCardTypes",
@@ -25,8 +24,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "saleKeyboard_DataDriven",
@@ -57,8 +55,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "saleKeyboard_DataDriven_EF",
@@ -89,8 +86,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "ManualAuthKeyboard_DataDriven",
@@ -121,8 +117,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "ManualAuthKeyboard_DataDriven_EF",
@@ -153,8 +148,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setDataSaleKeyboard",
@@ -445,11 +439,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

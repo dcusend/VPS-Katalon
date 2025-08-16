@@ -135,6 +135,7 @@ String fileLoc = "KatalonData\\Bootstrap\\VSP-Payments-Data-Prod.xlsx"
 					// Set Data on Debit page
 						CustomKeywords.'vspBootstrap.ACHDebitPage.setDataACHDebit_EF'(row,dataFile)
 						
+						Thread.sleep(2000)
 					// Verify Static text
 						WebUI.verifyTextPresent('Transaction Successful', true)
 						
