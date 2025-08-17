@@ -64,6 +64,7 @@ def executionProfile = RC.getExecutionProfile()
 					
 				// Select the Create button
 					WebUI.click(findTestObject(path_AddUser + 'button_Create'))
+					Thread.sleep(5000)
 				
 					
 				// Verify the Error Messages

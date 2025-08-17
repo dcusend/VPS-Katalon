@@ -68,6 +68,7 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				// Log into Admin Suite
 				CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_DD'(username_from,password_from)
+				Thread.sleep(10000)
 				
 				if (WebUI.verifyTextPresent('Unable to sign in', true))
 				{

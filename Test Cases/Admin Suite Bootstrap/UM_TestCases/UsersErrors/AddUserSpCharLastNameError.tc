@@ -4,5 +4,6 @@
    <name>AddUserSpCharLastNameError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4014b4cc-47fe-4303-82d0-86f8ce0ec99b</testCaseGuid>
 </TestCaseEntity>

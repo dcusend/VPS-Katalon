@@ -100,7 +100,7 @@ for (def row = 1; row <= numOfRows; row++)
 							
 							// Build Password as per Specification from Excel
 							def buildPassword = CustomKeywords.'pages.GenerateRandom.getRandomAlphaNumCustomLength'(lenPassword)
-							def FinalPassword = buildPassword + PasswordSpChar
+							def FinalPassword = buildPassword + PasswordSpChar + "Velo"
 							println "Final Password is : " + FinalPassword
 							
 							
@@ -110,6 +110,7 @@ for (def row = 1; row <= numOfRows; row++)
 							
 							// Select Modify button
 							WebUI.click(findTestObject(path_ModifyUser + 'button_Update'))
+							Thread.sleep(10000)
 							
 							if (WebUI.verifyTextPresent('User Account Modified The user account for', true))
 								{

@@ -74,6 +74,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 				// Call setData for FindUser
 					CustomKeywords.'adminSuiteBootstrap.findUser.findUser_DD'(row,dataFile)
+					Thread.sleep(5000)
 					
 					if (WebUI.verifyElementPresent(findTestObject(path_UserView + 'button_Modify'),30))
 						{

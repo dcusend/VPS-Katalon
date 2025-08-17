@@ -4,5 +4,6 @@
    <name>FindUserNotFoundError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f8e1eafb-89d7-484a-848a-e0feebfa1dcb</testCaseGuid>
 </TestCaseEntity>

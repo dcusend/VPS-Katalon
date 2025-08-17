@@ -4,5 +4,6 @@
    <name>CreateUserErrors</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9f0818c8-bafe-409b-8fff-5d74566abb29</testCaseGuid>
 </TestCaseEntity>
