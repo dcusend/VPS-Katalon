@@ -33,19 +33,24 @@ System.out.println('hrefID is : ' + hrefAppID)
 	CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
 	
 	WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
+	Thread.sleep(2000)
 	
 		WebUI.click(findTestObject(path_Dashboard + 'a_Access AutoNoCFtp'))
+		Thread.sleep(2000)
 		
 			WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
+			Thread.sleep(2000)
 			
 				//WebUI.click(findTestObject(path_VT + 'a_KeyboardEntry_Sale'))
 				
 				def saleKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
 				WebUI.click(saleKeyboardEntryLink)
+				Thread.sleep(2000)
 				
 				WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_transactionCategory'), 'RETL', true)
 				
 				WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
+				Thread.sleep(2000)
 				
 						WebUI.verifyTextPresent('Card Name is required', true)
 						WebUI.verifyTextPresent('Card Number is required', true)

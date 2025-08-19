@@ -115,19 +115,24 @@ def numOfRows, dataFile, nameSheet
 					
 										
 					WebUI.click(findTestObject(path_Dashboard + appName))
+					Thread.sleep(2000)
 					
 						//WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
 						
 						WebUI.click(findTestObject(path_VT + 'button_Authorization Only'))
+						Thread.sleep(2000)
 						
 																
-						def authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
+						//def authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
+						def authOnlyKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Auth'),'href','equals',hrefAppID,true)
 						WebUI.click(authOnlyKeyboardEntryLink)
+						Thread.sleep(2000)
 						
 						//def saleKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
 						//WebUI.click(saleKeyboardEntryLink)
 						
 						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven'(row,dataFile)
+						Thread.sleep(2000)
 						
 						WebUI.verifyTextPresent('Transaction Successful', true)
 						

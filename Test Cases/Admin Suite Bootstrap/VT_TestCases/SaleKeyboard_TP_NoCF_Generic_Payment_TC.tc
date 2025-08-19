@@ -4,5 +4,6 @@
    <name>SaleKeyboard_TP_NoCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7670bd26-0b59-47cd-b853-c32aa845e127</testCaseGuid>
 </TestCaseEntity>

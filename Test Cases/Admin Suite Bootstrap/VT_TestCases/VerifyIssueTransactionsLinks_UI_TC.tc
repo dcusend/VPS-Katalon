@@ -4,5 +4,6 @@
    <name>VerifyIssueTransactionsLinks_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0a63763b-b682-4335-8ecc-a5aacf8af3b9</testCaseGuid>
 </TestCaseEntity>

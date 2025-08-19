@@ -4,5 +4,6 @@
    <name>VerifySaleKeyboard_UI_1_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8f9939cd-73b3-4f6c-8cee-ef8976511761</testCaseGuid>
 </TestCaseEntity>

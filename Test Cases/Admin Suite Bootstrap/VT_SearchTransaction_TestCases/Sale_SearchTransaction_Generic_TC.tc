@@ -4,5 +4,6 @@
    <name>Sale_SearchTransaction_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>02402fb5-3715-456d-ae73-cb279c75bc7c</testCaseGuid>
 </TestCaseEntity>

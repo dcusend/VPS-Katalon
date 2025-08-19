@@ -4,5 +4,6 @@
    <name>ManualAuthCaptureKeyboard_TP_AllCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9de0884b-6da0-484b-aa84-31d343dc4689</testCaseGuid>
 </TestCaseEntity>

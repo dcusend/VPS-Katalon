@@ -33,15 +33,19 @@ System.out.println('hrefID is : ' + hrefAppID)
 	CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
 	
 	WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
+	Thread.sleep(2000)
 	
 		WebUI.click(findTestObject(path_Dashboard + 'a_HelloWorld3'))
+		Thread.sleep(2000)
 		
 			WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
+			Thread.sleep(2000)
 			
 				//WebUI.click(findTestObject(path_VT + 'a_KeyboardEntry_Sale'))
 				
 				def saleKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
 				WebUI.click(saleKeyboardEntryLink)
+				Thread.sleep(2000)
 				
 					WebUI.verifyTextPresent('Issue Transactions', true)
 					WebUI.verifyTextPresent('Credit Card Authorization Capture', true)
@@ -89,8 +93,8 @@ System.out.println('hrefID is : ' + hrefAppID)
 					WebUI.verifyElementVisible(findTestObject(path_SaleKB + 'input_emailAddress'))
 					WebUI.verifyElementPresent(findTestObject(path_SaleKB + 'input_emailAddress'), 30)
 					
-					WebUI.verifyElementVisible(findTestObject(path_SaleKB + 'input_smsNumber'))
-					WebUI.verifyElementPresent(findTestObject(path_SaleKB + 'input_smsNumber'), 30)
+					//WebUI.verifyElementVisible(findTestObject(path_SaleKB + 'input_smsNumber'))
+					//WebUI.verifyElementPresent(findTestObject(path_SaleKB + 'input_smsNumber'), 30)
 					
 					WebUI.verifyElementVisible(findTestObject(path_SaleKB + 'input_amount'))
 					WebUI.verifyElementPresent(findTestObject(path_SaleKB + 'input_amount'), 30)

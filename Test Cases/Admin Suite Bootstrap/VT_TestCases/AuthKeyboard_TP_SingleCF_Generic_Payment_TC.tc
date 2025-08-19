@@ -4,5 +4,6 @@
    <name>AuthKeyboard_TP_SingleCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>41545a19-d49c-4508-a960-6a11a05efd36</testCaseGuid>
 </TestCaseEntity>

@@ -23,8 +23,10 @@ String path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Issue
 	CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
 	
 	WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
+	Thread.sleep(2000)
 	
 		WebUI.click(findTestObject(path_Dashboard + 'a_New Test VRelay'))
+		Thread.sleep(2000)
 		
 			WebUI.verifyTextPresent('Credit Card', true)
 			WebUI.verifyTextPresent('On-line Check', true)
@@ -60,6 +62,7 @@ String path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Issue
 			
 			
 			WebUI.click(findTestObject(path_VT + 'button_Authorization Only'))
+			Thread.sleep(2000)
 			
 				WebUI.verifyElementVisible(findTestObject(path_VT + 'a_KeyboardEntry_Auth'))
 				WebUI.verifyElementPresent(findTestObject(path_VT + 'a_KeyboardEntry_Auth'), 30)
@@ -78,6 +81,7 @@ String path_VT = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Issue
 				
 			
 			WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
+			Thread.sleep(2000)
 			
 				WebUI.verifyElementVisible(findTestObject(path_VT + 'a_KeyboardEntry_Sale'))
 				WebUI.verifyElementPresent(findTestObject(path_VT + 'a_KeyboardEntry_Sale'), 30)
