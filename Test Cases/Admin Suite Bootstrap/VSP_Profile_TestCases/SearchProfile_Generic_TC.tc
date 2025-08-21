@@ -4,5 +4,6 @@
    <name>SearchProfile_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6bb1b563-3b38-4056-bc6f-5e5a74e049b9</testCaseGuid>
 </TestCaseEntity>

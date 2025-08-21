@@ -102,12 +102,15 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 					
 					// Select the Payment Application Name
 						WebUI.click(findTestObject(path_Dashboard + appName))
+						Thread.sleep(2000)
 						
 					// Select Create button
 						WebUI.click(findTestObject(path_VT + 'a_Create'))
+						Thread.sleep(2000)
 						
 					// Call setDataCreateProfile method
 						CustomKeywords.'vspBootstrap.CreateProfilePage.setDataCreateProfile'(row,dataFile)
+						Thread.sleep(2000)
 						
 						WebUI.verifyTextPresent(("Profile successfully created"), true)
 						WebUI.verifyElementVisible(findTestObject(path_ViewProfile + 'a_Modify Profile'))
@@ -115,10 +118,12 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Delete Profile button
 						WebUI.click(findTestObject(path_ViewProfile + 'a_Delete Profile'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("This will delete all of the following information. Are you sure you want to do this?"), true)
 						
 					// Select the Delete button
 						WebUI.click(findTestObject(path_DeleteProfileConfirm + 'button_Delete'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("No Search String"), true)
 						WebUI.verifyTextPresent(("You must provide a search string of at least 2 characters"), true)
 						
