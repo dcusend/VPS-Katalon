@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "BB9FCB3806F6CFD32E6F2D4A13D955B7",
+  "keywordFileContentHash": "C01A865ED85E690602182DA6AB6E496E",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.findUser",
@@ -33,8 +33,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "findUser_DD_EF",
@@ -65,8 +64,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "findUser_DD_EF_Profile",
@@ -110,11 +108,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -4,5 +4,6 @@
    <name>PayNowPersonalSavingsSCF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>455c85d7-5316-4d56-a2a8-3cc7def72074</testCaseGuid>
 </TestCaseEntity>

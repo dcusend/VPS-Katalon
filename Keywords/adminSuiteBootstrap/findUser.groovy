@@ -71,10 +71,10 @@ public class findUser {
 
 
 		// GetData
-		if(execProfile == 'Production') {
+		if(execProfile == 'Production' || execProfile == 'Upgrade') {
 			usernameFU = dataFileS.getValue('UsernameProd', rowS)
 		}
-		else if(execProfile == 'DemoProfile' || execProfile == 'Upgrade') {
+		else if(execProfile == 'DemoProfile') {
 			usernameFU = dataFileS.getValue('UsernameDemo', rowS)
 		}
 
