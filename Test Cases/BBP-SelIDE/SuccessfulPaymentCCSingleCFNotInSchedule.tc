@@ -4,5 +4,6 @@
    <name>SuccessfulPaymentCCSingleCFNotInSchedule</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>31d649d4-cf00-479e-8603-31b935a252f1</testCaseGuid>
 </TestCaseEntity>

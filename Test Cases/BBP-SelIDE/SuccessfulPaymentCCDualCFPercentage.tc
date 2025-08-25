@@ -4,5 +4,6 @@
    <name>SuccessfulPaymentCCDualCFPercentage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>536e4107-1676-4c0d-b631-b5f28eb5dc73</testCaseGuid>
 </TestCaseEntity>

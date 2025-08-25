@@ -52,9 +52,12 @@ selenium.click("name=Test")
 //softAssertion.assertEquals("Modify Search", selenium.getValue("//input[@value='Modify Search']"))
 //softAssertion.assertEquals("Continue", selenium.getValue("name=paysubmit"))
 
-WebUI.verifyTextPresent(("Please Utilize The Section Below to Lookup Your bill. If you have any questions please contact your system administrator"), true)
-WebUI.verifyTextPresent(("Bill Number :"), true)
-WebUI.verifyTextPresent(("Phone Number :"), true)
+WebUI.verifyTextPresent(("This portal is for full Reston assessment payments only"), true)
+WebUI.verifyTextPresent(("To make an installment or tax relief payment by credit card"), true)
+WebUI.verifyTextPresent(("Please lookup your bill by entering your Account Number"), true)
+WebUI.verifyTextPresent(("The information is highlighted on the sample invoice"), true)
+WebUI.verifyTextPresent(("Bill Number:"), true)
+WebUI.verifyTextPresent(("Phone Number:"), true)
 
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/BBP/BillLookup_Page/button_Continue'))

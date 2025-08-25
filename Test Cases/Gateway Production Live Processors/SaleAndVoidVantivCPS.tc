@@ -4,5 +4,6 @@
    <name>SaleAndVoidVantivCPS</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7f0697ce-c948-4a84-bf93-db8f6d4ff700</testCaseGuid>
 </TestCaseEntity>

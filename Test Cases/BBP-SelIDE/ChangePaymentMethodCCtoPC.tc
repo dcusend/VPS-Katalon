@@ -4,5 +4,6 @@
    <name>ChangePaymentMethodCCtoPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f711be0c-f491-47b8-9a46-9f24086e8e35</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>VerifyUDFnoDataNoErrorPersonalACH</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0ec65c25-5cc1-468a-8192-7153fc6dbfa7</testCaseGuid>
 </TestCaseEntity>

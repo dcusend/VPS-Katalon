@@ -4,5 +4,6 @@
    <name>SaleAndVoidVital315</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6b314abf-f3bf-4525-95d5-a28d6907857e</testCaseGuid>
 </TestCaseEntity>
