@@ -4,5 +4,6 @@
    <name>EncryptedRemIDPipe</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2a537e11-d028-4405-b13d-c2636e93d048</testCaseGuid>
 </TestCaseEntity>

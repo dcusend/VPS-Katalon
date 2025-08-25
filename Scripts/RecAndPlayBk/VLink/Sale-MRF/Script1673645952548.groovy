@@ -102,6 +102,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 //Step2 Verify if we are on Credit Card Payment Entry page and populate the page
 			
 			CustomKeywords.'vlinkPages.saleCCPage.setDataSCC'(row,dataFile)
+			Thread.sleep(2000)
 			
 //=======================================
 			

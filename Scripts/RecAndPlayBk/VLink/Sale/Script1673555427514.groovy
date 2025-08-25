@@ -142,6 +142,7 @@ def numOfRows, dataFile, nameSheet
 					WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-Sale/input_concat(Cardholder, , s email)_email'), '')
 					
 					WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-Sale/input_user_defined10_user_defined10'))
+					Thread.sleep(2000)
 					
 					
 					if (executionProfile.equalsIgnoreCase("QAProfile") || executionProfile.equalsIgnoreCase("DemoProfile"))
@@ -157,6 +158,7 @@ def numOfRows, dataFile, nameSheet
 						}
 						
 					WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-Sale/input'))
+					Thread.sleep(2000)
 					
 					
 					

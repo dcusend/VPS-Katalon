@@ -147,6 +147,7 @@ def numOfRows, dataFile, nameSheet
 				WebUI.setText(findTestObject('RecAndPlayBk/Page-Vlink-Debit/input_Standard Entry Class'),sec)
 				
 				WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-Debit/input'))
+				Thread.sleep(2000)
 				
 				
 				if (WebUI.verifyTextPresent(("Transaction approved, no errors"), true))
@@ -193,6 +194,7 @@ def numOfRows, dataFile, nameSheet
 						WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Original Transaction Type'), '200')
 						
 						WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input'))
+						Thread.sleep(2000)
 						
 	
 				

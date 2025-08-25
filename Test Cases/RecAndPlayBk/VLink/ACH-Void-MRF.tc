@@ -4,5 +4,6 @@
    <name>ACH-Void-MRF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dc3efd51-8d1c-41ad-86de-2f077f316e81</testCaseGuid>
 </TestCaseEntity>

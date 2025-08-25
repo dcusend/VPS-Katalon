@@ -4,5 +4,6 @@
    <name>Debit-MRF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f5b71a87-a5b2-4db0-864e-25a2def06c01</testCaseGuid>
 </TestCaseEntity>

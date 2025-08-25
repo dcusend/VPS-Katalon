@@ -114,6 +114,9 @@
  selenium.type("name=cof_scheduled_indicator", "")
  selenium.type("name=cof_transaction_init_indicator", "")
  selenium.click("css=input[type=\"submit\"]")
+ 
+ Thread.sleep(2000)
+ 
  selenium.waitForPageToLoad("30000")
  //softAssertion.assertEquals(selenium.isTextPresent("Transaction approved, no errors"), true)
  WebUI.verifyTextPresent(("Transaction approved, no errors"), true)
@@ -151,6 +154,9 @@
  selenium.type("name=user_defined9", "")
  selenium.type("name=user_defined10", "")
  selenium.click("css=input[type=\"submit\"]")
+ 
+ Thread.sleep(2000)
+ 
  selenium.waitForPageToLoad("30000")
  //softAssertion.assertEquals(selenium.isTextPresent("Transaction approved, no errors2"), true)
  WebUI.verifyTextPresent(("Transaction approved, no errors"), true)

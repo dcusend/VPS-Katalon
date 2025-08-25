@@ -119,6 +119,7 @@ def numOfRows, dataFile, nameSheet
 					WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-Encrypted/txt_KSN'), ksn)
 					
 					WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-Encrypted/btn_ProcessVLinkTran'))
+					Thread.sleep(2000)
 					
 					
 					

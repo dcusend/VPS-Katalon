@@ -147,6 +147,7 @@ def numOfRows, dataFile, nameSheet
 				WebUI.setText(findTestObject('RecAndPlayBk/Page-Vlink-Debit/input_Standard Entry Class'),sec)
 				
 				WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-Debit/input'))
+				Thread.sleep(2000)
 				
 				
 				if (WebUI.verifyTextPresent(("invalid: amount"), true))

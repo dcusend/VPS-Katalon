@@ -4,5 +4,6 @@
    <name>Sale-ZeroDollar-Error</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2c9ef5b6-7129-4ad7-9e2c-bfcc936d2b61</testCaseGuid>
 </TestCaseEntity>

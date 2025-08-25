@@ -104,6 +104,7 @@ def numOfRows, dataFile, nameSheet
 						WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-ACH-Credit/input_Routing Number'), rtn)
 						
 						WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-ACH-Credit/input'))
+						Thread.sleep(2000)
 				
 				
 					if (WebUI.verifyTextPresent((errorMsg), true))

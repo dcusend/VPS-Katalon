@@ -107,6 +107,7 @@ def numOfRows, dataFile, nameSheet
 					//WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Credit/input_Category Code'), category)
 					
 					WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Credit/input'))
+					Thread.sleep(2000)
 					
 					
 					

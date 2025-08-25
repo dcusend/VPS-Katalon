@@ -4,5 +4,6 @@
    <name>Credit-MRF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f55c6747-9aae-4835-9b91-dfe145f5f4ce</testCaseGuid>
 </TestCaseEntity>

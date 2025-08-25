@@ -4,5 +4,6 @@
    <name>Sale-Void</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>be734131-378e-4d6e-98ef-dc693fbd42f0</testCaseGuid>
 </TestCaseEntity>

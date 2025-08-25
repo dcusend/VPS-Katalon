@@ -4,5 +4,6 @@
    <name>Debit-Void-RemID-Pipe</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5ee32d9c-992e-424a-bd9b-60e02d8ab448</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>Debit</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>41064385-ffd8-4b98-b398-9aa80cb4edd5</testCaseGuid>
 </TestCaseEntity>
