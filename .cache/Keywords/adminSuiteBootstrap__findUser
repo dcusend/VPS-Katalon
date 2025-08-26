@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "findUser_DD_EF",
@@ -64,7 +65,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "findUser_DD_EF_Profile",
@@ -108,10 +110,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
