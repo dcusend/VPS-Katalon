@@ -19,4 +19,4 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://dev-algorithm.govolution.com/vrelaytest/QA/version_1_0/vrelaytest.html')
 
-WebUI.setText(findTestObject('Object Repository/Misc/Staffing/input_Username_P101_USERNAME'), 'nudrat.bushra')
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Emulator/ApplicationID'), '920')
