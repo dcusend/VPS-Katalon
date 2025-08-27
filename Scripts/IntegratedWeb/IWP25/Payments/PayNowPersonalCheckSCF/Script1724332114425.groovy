@@ -81,12 +81,13 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					// Set Data on Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
+					Thread.sleep(5000)
 					// Select Continue on Confirm page
 					//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
-					Thread.sleep(5000)
+					Thread.sleep(7000)
 					// Select Confirm on Convenience fees page
 						if(WebUI.verifyTextPresent("Make a Real Estate Payment", false)) {
 							isRequiredTextPresent = true

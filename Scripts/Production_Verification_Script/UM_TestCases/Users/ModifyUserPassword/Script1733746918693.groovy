@@ -158,7 +158,7 @@ for (def row = 1; row <= numOfRows; row++)
 							CustomKeywords.'pages.CustomLogger.log_Logger'("User was not found","Fail")
 							KeywordUtil.markPassed("User was not found")
 							resText = "Fail"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 		
 						}
 
