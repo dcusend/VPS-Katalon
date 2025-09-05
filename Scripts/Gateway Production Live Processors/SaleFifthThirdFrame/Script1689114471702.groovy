@@ -187,7 +187,7 @@ selenium.type("name=user_defined10", "udf10")
 
 "click | css=input[type=submit] |  | "
 selenium.click("css=input[type='submit']")
-
+Thread.sleep(2000)
 "pause | 2000 |  | "
 
 
