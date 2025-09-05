@@ -71,7 +71,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
-					
+					Thread.sleep(2000)
 					
 					// Select Personal Check Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByPersonalCheck'))
@@ -82,6 +82,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Set Data on Credit Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
+					Thread.sleep(2000)
 					
 					// Select Continue on Confirm page
 //					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
@@ -99,6 +100,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							
 							//Click on Cancel Payment Button
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_ManagePlan_Autopay/btn_modify'))	
+							Thread.sleep(2000)
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Modify/btn_savechanges'))
 							
 							if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
