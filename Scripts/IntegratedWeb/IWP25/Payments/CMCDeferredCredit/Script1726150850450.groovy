@@ -113,6 +113,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/chkbox_acceptterms'))
 								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
 								
+								WebUI.delay(2)
+								
 								if (WebUI.verifyTextPresent("Successful Payment Plan Update", false)) {						
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
 								}

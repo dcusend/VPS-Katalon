@@ -104,6 +104,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							Thread.sleep(2000)
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Modify/btn_savechanges'))
 							
+							Thread.sleep(2000)
 							if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_ManagePlan_Autopay/btn_cancel'))
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))

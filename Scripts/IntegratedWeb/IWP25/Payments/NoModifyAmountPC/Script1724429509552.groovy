@@ -77,7 +77,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
-//					Thread.sleep(10000)
+					Thread.sleep(2000)
 					
 					if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/txt_Amount'),30) && WebUI.verifyTextPresent( "\$ 10.50", false)) {
 						

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PayByCreditCard</name>
+   <tag></tag>
+   <elementGuidId>f46d7ba1-484b-48d7-8fee-0b7c8c819438</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'paymentMethod' and @alt = 'Pay by Credit or Debit Card' and @type = 'radio']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentMethod</value>
+      <webElementGuid>c5ba949b-f785-4718-83a7-f85d8a05f59c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Pay by Credit or Debit Card</value>
+      <webElementGuid>a038aee1-2e39-4884-85d4-d09c916adde5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>3196ab3c-09a1-411e-994e-7e2af6c9ff5b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -19,4 +19,36 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://dev-algorithm.govolution.com/vrelaytest/QA/version_1_0/vrelaytest.html')
 
-WebUI.setText(findTestObject('Object Repository/BWP_Automation/Emulator/ApplicationID'), '920')
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/ApplicationID'), '951')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/MessageVersion'), '1.0')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/RemittanceID'), 'abcd')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/Amount'), '200')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/TaxAmount'), '2')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/CAN'), '12345')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/Parcels'), '920')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF1'), 'udf1')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF2'), 'udf2')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF3'), 'udf3')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF4'), 'udf4')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF5'), 'udf5')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF6'), 'udf6')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF7'), 'udf7')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF8'), 'udf8')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF9'), 'udf9')
+
+WebUI.setText(findTestObject('Object Repository/BWP_Automation/Page_Emulator/UDF10'), 'udf10')
