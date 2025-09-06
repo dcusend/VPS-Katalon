@@ -113,6 +113,9 @@
  selenium.type("name=slot_number", "11")
  selenium.type("name=ksn", "FFFF862134D00140005A")
  selenium.click("css=input[type=\"submit\"]")
+ 
+ Thread.sleep(2000)
+ 
  selenium.waitForPageToLoad("30000")
  //softAssertion.assertEquals(selenium.isTextPresent("Transaction approved, no errors"), true)
  WebUI.verifyTextPresent(("Transaction approved, no errors"), true)

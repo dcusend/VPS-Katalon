@@ -4,5 +4,6 @@
    <name>SaleAndCreditKeyboard_TP_DualCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7daaf11b-0253-4072-909c-bcc53ddc3dc1</testCaseGuid>
 </TestCaseEntity>

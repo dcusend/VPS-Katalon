@@ -4,5 +4,6 @@
    <name>SaleVoidRemIDPipe</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f05ffca1-f6fa-4122-a7dd-b5f271988f9c</testCaseGuid>
 </TestCaseEntity>

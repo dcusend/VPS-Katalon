@@ -4,5 +4,6 @@
    <name>SaleVoidEncryptedVantiv</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c09ed33c-0944-42c1-9447-24baafdfef42</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>AddUserSpecialCharError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>50e95b2a-ca31-4ccd-b3b2-32c531a1aac0</testCaseGuid>
 </TestCaseEntity>

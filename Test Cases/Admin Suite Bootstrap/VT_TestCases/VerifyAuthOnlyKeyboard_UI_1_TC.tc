@@ -4,5 +4,6 @@
    <name>VerifyAuthOnlyKeyboard_UI_1_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3f3ccc9f-3007-433e-9887-e1a219bd9c8d</testCaseGuid>
 </TestCaseEntity>

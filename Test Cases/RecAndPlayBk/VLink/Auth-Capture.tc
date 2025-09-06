@@ -4,5 +4,6 @@
    <name>Auth-Capture</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9d8c3fb9-3dc8-4b9b-9f80-ece1c53121da</testCaseGuid>
 </TestCaseEntity>

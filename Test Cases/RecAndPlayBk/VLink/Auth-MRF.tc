@@ -4,5 +4,6 @@
    <name>Auth-MRF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f511f309-b9b2-41af-b161-cb9a938af42b</testCaseGuid>
 </TestCaseEntity>

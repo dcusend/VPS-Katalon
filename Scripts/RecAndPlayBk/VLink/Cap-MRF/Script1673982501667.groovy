@@ -101,6 +101,7 @@ def numOfRows, dataFile, nameSheet
 					WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-VLink-Capture/input_Amount_amount'), amount)
 					
 					WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-VLink-Capture/input'))
+					Thread.sleep(2000)
 					
 					
 					

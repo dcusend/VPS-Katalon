@@ -4,5 +4,6 @@
    <name>CreateProfile_UI_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a652df1a-0e40-4204-983e-5816c0e09aae</testCaseGuid>
 </TestCaseEntity>

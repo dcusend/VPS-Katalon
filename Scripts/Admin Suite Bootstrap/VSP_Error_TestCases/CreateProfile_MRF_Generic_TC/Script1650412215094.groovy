@@ -84,12 +84,16 @@ switch(executionProfile)
 
 // Select the Payment Application Name
 	WebUI.click(findTestObject(path_Dashboard + appName))
+	Thread.sleep(2000)
 	
 // Select Create button
 	WebUI.click(findTestObject(path_VT + 'a_Create'))
+	Thread.sleep(2000)
 	
 // Select Save button without populating any fields
 	WebUI.click(findTestObject(path_CreateProfile + 'button_Save'))
+	Thread.sleep(2000)
+	
 	
 // Verify the Error Messages
 	WebUI.verifyTextPresent('Please correct the error', true)

@@ -4,5 +4,6 @@
    <name>AuthKeyboard_TP_DualCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9a55ffbb-d6ed-4cd6-b89b-90e8b6eb0a81</testCaseGuid>
 </TestCaseEntity>

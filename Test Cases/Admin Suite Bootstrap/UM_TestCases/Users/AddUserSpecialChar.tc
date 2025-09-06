@@ -4,5 +4,6 @@
    <name>AddUserSpecialChar</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>27c05552-989d-418c-86a6-682ad2812956</testCaseGuid>
 </TestCaseEntity>

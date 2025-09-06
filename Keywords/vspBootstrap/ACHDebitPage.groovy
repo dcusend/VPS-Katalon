@@ -110,7 +110,7 @@ public class ACHDebitPage {
 
 		// SetData
 		if ((!sec.isEmpty())) {
-		WebUI.selectOptionByValue(findTestObject(path_DebitVSP + 'select_StdEntryClass'), sec, true)
+			WebUI.selectOptionByValue(findTestObject(path_DebitVSP + 'select_StdEntryClass'), sec, true)
 		}
 		else{
 			println("Sec is not present in the Excel Spreadsheet")

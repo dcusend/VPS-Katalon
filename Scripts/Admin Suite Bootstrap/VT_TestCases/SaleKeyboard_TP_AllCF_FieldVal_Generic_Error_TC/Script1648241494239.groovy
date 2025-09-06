@@ -115,11 +115,14 @@ def numOfRows, dataFile, nameSheet
 					
 										
 					WebUI.click(findTestObject(path_Dashboard + appName))
+					Thread.sleep(2000)
 					
 						WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
+						Thread.sleep(2000)
 						
 						def saleKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
 						WebUI.click(saleKeyboardEntryLink)
+						Thread.sleep(2000)
 						
 						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven'(row,dataFile)
 						

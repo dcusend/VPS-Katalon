@@ -4,5 +4,6 @@
    <name>Sale-Encrypted</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>78d48176-0f38-4aa6-9e27-df3f01eaa889</testCaseGuid>
 </TestCaseEntity>

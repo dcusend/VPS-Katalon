@@ -4,5 +4,6 @@
    <name>AuthCaptureRemIDPipe</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>046cdf45-4bc1-4005-b8aa-2e6626ed28a2</testCaseGuid>
 </TestCaseEntity>

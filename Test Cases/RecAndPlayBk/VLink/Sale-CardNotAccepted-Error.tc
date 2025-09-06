@@ -4,5 +4,6 @@
    <name>Sale-CardNotAccepted-Error</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4c03a347-690b-4ac8-be05-7f088b58a503</testCaseGuid>
 </TestCaseEntity>

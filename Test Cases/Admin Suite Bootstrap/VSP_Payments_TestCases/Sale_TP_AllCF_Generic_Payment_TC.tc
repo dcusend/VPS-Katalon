@@ -4,5 +4,6 @@
    <name>Sale_TP_AllCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2980c868-a37f-45c3-9aa6-e2310685d5d3</testCaseGuid>
 </TestCaseEntity>

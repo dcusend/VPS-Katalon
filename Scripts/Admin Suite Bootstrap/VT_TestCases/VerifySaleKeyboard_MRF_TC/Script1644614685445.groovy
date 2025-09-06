@@ -35,15 +35,19 @@ System.out.println('hrefID is : ' + hrefAppID)
 	WebUI.click(findTestObject(path_Dashboard + 'span_Payment'))
 	
 		WebUI.click(findTestObject(path_Dashboard + 'a_HelloWorld3'))
+		Thread.sleep(2000)
 		
 			WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
+			Thread.sleep(2000)
 			
 				//WebUI.click(findTestObject(path_VT + 'a_KeyboardEntry_Sale'))
 				
 				def saleKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
 				WebUI.click(saleKeyboardEntryLink)
+				Thread.sleep(2000)
 				
 					WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
+					Thread.sleep(2000)
 				
 						WebUI.verifyTextPresent('Card Name is required', true)
 						WebUI.verifyTextPresent('Card Number is required', true)

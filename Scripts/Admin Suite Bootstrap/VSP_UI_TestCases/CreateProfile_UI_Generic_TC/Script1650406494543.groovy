@@ -84,9 +84,11 @@ switch(executionProfile)
 
 // Select the Payment Application Name			
 	WebUI.click(findTestObject(path_Dashboard + appName))
+	Thread.sleep(2000)
 	
 // Select Create button
 	WebUI.click(findTestObject(path_VT + 'a_Create'))
+	Thread.sleep(2000)
 	
 // Verify Elements and Static Text
 	

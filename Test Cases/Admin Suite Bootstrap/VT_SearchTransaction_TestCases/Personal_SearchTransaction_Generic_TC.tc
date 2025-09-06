@@ -4,5 +4,6 @@
    <name>Personal_SearchTransaction_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d7546967-d0d9-4750-ac0f-503cfb2e582b</testCaseGuid>
 </TestCaseEntity>

@@ -79,6 +79,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 				// Set Data on Add Role page
 					CustomKeywords.'adminSuiteBootstrap.addRole.setDataAddRole'(row,dataFile)
+					Thread.sleep(10000)
 					
 					
 					if (WebUI.verifyTextPresent('Role Created', true))
@@ -90,20 +91,25 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						// Select the Delete button
 						WebUI.click(findTestObject(path_Role + 'button_DeleteRole'))
+						Thread.sleep(5000)
 						
 						// Select Delete on Delete Role popup
 						WebUI.click(findTestObject(path_Role + 'button_DeletePopup'))
+						Thread.sleep(5000)
 						
 						// Select okay on the popup
 						//WebUI.delay(5)
 					    //WebUI.verifyTextPresent('was successfully deleted', true)
 						WebUI.click(findTestObject(path_Role + 'button_OkayPopup'))
+						Thread.sleep(5000)
 						
 						// Search if the Role got deleted
 						WebUI.click(findTestObject(path_Role + 'a_FindRole'))
+						Thread.sleep(5000)
 						
 						// Set Data on Find Role page
 						CustomKeywords.'adminSuiteBootstrap.findRole.setDataFindRole'(row,dataFile)
+						Thread.sleep(5000)
 						
 						// Verify Role was not found
 						WebUI.verifyTextPresent('No roles with the name', true)

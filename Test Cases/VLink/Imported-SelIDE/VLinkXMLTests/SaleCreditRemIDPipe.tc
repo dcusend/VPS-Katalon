@@ -4,5 +4,6 @@
    <name>SaleCreditRemIDPipe</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dcde4dd2-0a9b-4189-a7d9-2ff775a7f8f6</testCaseGuid>
 </TestCaseEntity>

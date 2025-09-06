@@ -4,5 +4,6 @@
    <name>Cap-MRF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b1acd99d-baf4-4015-8a5d-d4bb59dee73a</testCaseGuid>
 </TestCaseEntity>

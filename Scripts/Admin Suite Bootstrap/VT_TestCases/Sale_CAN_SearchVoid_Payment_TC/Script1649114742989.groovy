@@ -112,30 +112,37 @@ def numOfRows, dataFile, nameSheet
 					WebUI.click(findTestObject(path_Dashboard + appName))
 					
 						WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
+						Thread.sleep(2000)
 						
 						def saleKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
 						WebUI.click(saleKeyboardEntryLink)
+						Thread.sleep(2000)
 						
 						WebUI.setText(findTestObject(path_SaleKB + 'input_CC_clientAccountNumber'), 'CAN666ab')
 												
 						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven'(row,dataFile)
+						Thread.sleep(2000)
 						
 						if (WebUI.verifyTextPresent('Transaction Successful', true))
 							{
 													
 					
 								WebUI.click(findTestObject(path_Receipt + 'button_Continue'))
+								Thread.sleep(2000)
 					
 								//WebUI.click(findTestObject(path_VT + 'button_CCCreditOrVoid'))
 								WebUI.click(findTestObject(path_VT + 'a_Search Transactions'))
+								Thread.sleep(2000)
 					
 								WebUI.selectOptionByLabel(findTestObject(path_CCSearch + 'select_SearchBy'),'Client Account Number' , false)
 								WebUI.setText(findTestObject(path_CCSearch + 'input_Search By_searchValue'),'CAN666ab')
 								WebUI.click(findTestObject(path_CCSearch + 'button_Submit'))
+								Thread.sleep(2000)
 							
 										
 					
 								WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
+								Thread.sleep(2000)
 						
 								WebUI.verifyTextPresent('Tender Type', true)
 								WebUI.verifyTextPresent('Credit Card', true)
@@ -145,11 +152,13 @@ def numOfRows, dataFile, nameSheet
 								WebUI.verifyTextPresent('iahmed', true)
 						
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
+								Thread.sleep(2000)
 								
 								WebUI.verifyTextPresent('The following transaction will be voided', true)
 								WebUI.verifyTextPresent('Please press submit to continue', true)
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
+								Thread.sleep(2000)
 								
 								WebUI.verifyTextPresent('Transaction Successful', true)
 								WebUI.verifyTextPresent('Transaction Type', true)

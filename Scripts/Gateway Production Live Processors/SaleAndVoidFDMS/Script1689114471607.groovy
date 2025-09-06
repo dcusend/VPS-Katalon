@@ -187,8 +187,9 @@ selenium.type("name=user_defined10", "udf10")
 
 "click | css=input[type=submit] |  | "
 selenium.click("css=input[type='submit']")
+Thread.sleep(2000)
 
-"pause | 2000 |  | "
+//"pause | 2000 |  | "
 
 
 if (WebUI.verifyTextPresent(("Transaction approved, no errors"), true))
@@ -258,6 +259,7 @@ if (WebUI.verifyTextPresent(("Transaction approved, no errors"), true))
 			
 			"click | css=input[type=submit] |  | "
 			selenium.click("css=input[type='submit']")
+			Thread.sleep(2000)
 			
 			"verifyTextPresent | Transaction approved, no errors |  | "
 			verifyTrue(selenium.isTextPresent("Transaction approved, no errors"))

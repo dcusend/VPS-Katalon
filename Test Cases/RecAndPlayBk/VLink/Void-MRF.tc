@@ -4,5 +4,6 @@
    <name>Void-MRF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5fef78b3-721e-4c94-ac98-c1ca52528523</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>AddDeleteRole</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e94c676c-be58-491e-84d4-3ffc992d9f5c</testCaseGuid>
 </TestCaseEntity>

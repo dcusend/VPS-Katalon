@@ -4,5 +4,6 @@
    <name>AddDeleteCCPre_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>43a58b80-4b0e-41c8-89b2-c058b27a6e86</testCaseGuid>
 </TestCaseEntity>

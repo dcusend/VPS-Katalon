@@ -4,5 +4,6 @@
    <name>DebitPersonalVoid_TP_DualCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>811f7b9f-698f-4216-b204-5247d58af2d1</testCaseGuid>
 </TestCaseEntity>

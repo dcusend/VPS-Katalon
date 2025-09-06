@@ -49,21 +49,21 @@
    <testCaseLink>
       <guid>ddef5da3-4daf-4b3b-9bda-5bbf06831876</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f6af3d30-73a7-4553-b9f1-4dc8a34e30b9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_NoCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e68f462e-99f2-4b49-a4b7-e4214c2c686c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -119,175 +119,175 @@
    <testCaseLink>
       <guid>63d12c7b-8c3f-457d-8e0e-ea3dc43e7d0c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7e1c2f95-59bd-4f80-bfb6-7ba2e494e0d8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_NoCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c8d41fde-87d7-4a62-a920-c35f464e4191</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/ManualAuthCaptureKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a98d2fc5-1120-4a39-8702-e0f6a6243705</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureKeyboard_TP_SingleCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>07fb6146-4075-4171-b6d1-4ec5ead96018</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureCreditKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>44ebdfd3-fd4e-4ef9-86e2-7a5ee8bf4cee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_TestCases/AuthCaptureVoidKeyboard_TP_AllCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e722deab-3bab-4841-a560-6a69c97ab429</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporateCredit_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e3c59ed1-aca8-4cdf-b801-5e1f7610abac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporateCredit_TP_NoCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>24a69d8a-cd2c-4e18-88de-f9d587fce781</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporateCredit_TP_SingleCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>968cd4a0-d47f-4d87-95e1-63040db69b36</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporateVoid_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c0239518-d7af-4b52-8644-ccd062c6d8aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporateVoid_TP_NoCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>731076b3-06d5-488c-8c8a-b34b70f034c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporateVoid_TP_SingleCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c821d161-71cc-476e-9f95-f09ba6e63708</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporate_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3dac5d03-e271-4572-97e0-fff538f9c058</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporate_TP_NoCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>42a34e1a-da6f-4724-8550-f8ab2635dedb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitCorporate_TP_SingleCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>13fb2b02-2fa3-49ef-90a4-626dfb7f3ab7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonalCredit_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0af948c6-a442-4d8d-a037-d82e1e5320a1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonalCredit_TP_NoCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>21570ae1-0493-47a7-8e7c-9dd873aca09a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonalCredit_TP_SingleCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f687947d-a15d-47e1-9704-6570aee9fca1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonalVoid_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d98058fb-1e1d-432c-8679-d839f1971bc5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonalVoid_TP_NoCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4de85b61-fedf-400b-867a-023e2cd6b52b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonalVoid_TP_SingleCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>785b7090-8060-4e8f-a40d-5381a97732e4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_DualCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6dba03b0-f864-483a-8ff8-4278e46bd5ee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_NoCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>aa0d8a71-2d3f-4ad0-9d3a-35f506ea23e3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_TP_SingleCF_Generic_Payment_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fbab86a3-c490-439e-8839-487bc25d30c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/VT_ACH_TestCases/DebitPersonal_CAN_SearchVoid_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

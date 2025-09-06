@@ -4,5 +4,6 @@
    <name>AddPCandPS_MRF_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0aa4f47b-4f36-47e0-a4d0-1a550db4ab63</testCaseGuid>
 </TestCaseEntity>

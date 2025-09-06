@@ -105,6 +105,9 @@
  selenium.type("name=user_defined9", ("${udf9}").toString())
  selenium.type("name=user_defined10", ("${udf10}").toString())
  selenium.click("css=input[type=\"submit\"]")
+ 
+ Thread.sleep(2000)
+ 
  selenium.waitForPageToLoad("30000")
  softAssertion.assertEquals(selenium.isTextPresent("${expText}"), true)
  String resText = selenium.getText("css=pre")
@@ -128,6 +131,9 @@
  selenium.type("name=tax_amount", ("${taxVoid}").toString())
  selenium.type("name=client_account_number", ("${CANVoid}").toString())
  selenium.click("css=input[type=\"submit\"]")
+ 
+ Thread.sleep(2000)
+ 
  selenium.waitForPageToLoad("30000")
  softAssertion.assertEquals(selenium.isTextPresent("Transaction approved, no errors"), true)
  String resTextVoid = selenium.getText("css=pre")

@@ -4,5 +4,6 @@
    <name>SaleKeyboard_CardNotAccepted_Error_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ab2f2657-52f3-48ab-934a-1331e2c5cf84</testCaseGuid>
 </TestCaseEntity>

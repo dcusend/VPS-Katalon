@@ -102,12 +102,15 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 					
 					// Select the Payment Application Name
 						WebUI.click(findTestObject(path_Dashboard + appName))
+						Thread.sleep(2000)
 						
 					// Select the Find Profile button
 						WebUI.click(findTestObject(path_VT + 'a_Find Profile'))
+						Thread.sleep(2000)
 						
 					// Call setDataSearchProfile Method
 						CustomKeywords.'vspBootstrap.SearchProfilePage.setDataSearchProfile'(row,dataFile)
+						Thread.sleep(2000)
 						
 					// Verify ProfileToBeSearched link is present on the page
 						WebUI.verifyElementVisible(findTestObject(path_ViewProfile + 'a_ProfileToBeSearched'))

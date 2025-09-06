@@ -4,5 +4,6 @@
    <name>Sale-Void-NoTranxID</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5edc0e84-70f4-4729-9222-f0c931f0f197</testCaseGuid>
 </TestCaseEntity>

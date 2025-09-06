@@ -4,5 +4,6 @@
    <name>DebitCorporate_TP_SingleCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5fcaa46b-181a-4438-b6f6-1fb786533927</testCaseGuid>
 </TestCaseEntity>

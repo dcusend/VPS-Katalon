@@ -4,5 +4,6 @@
    <name>Auth-Cap-Void</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f5f6b77c-2ccf-449a-9efd-24c8a6a9c48c</testCaseGuid>
 </TestCaseEntity>

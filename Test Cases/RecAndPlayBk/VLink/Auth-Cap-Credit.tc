@@ -4,5 +4,6 @@
    <name>Auth-Cap-Credit</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>267ea32f-d87e-497f-94c5-9d366d96bc8a</testCaseGuid>
 </TestCaseEntity>

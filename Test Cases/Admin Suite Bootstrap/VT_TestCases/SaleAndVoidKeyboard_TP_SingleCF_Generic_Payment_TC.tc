@@ -4,5 +4,6 @@
    <name>SaleAndVoidKeyboard_TP_SingleCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8a5563a3-de47-4841-83a3-8ce1394a2a22</testCaseGuid>
 </TestCaseEntity>

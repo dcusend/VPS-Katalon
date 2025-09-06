@@ -114,6 +114,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 				// Select the Create button
 					WebUI.click(findTestObject(path_AddUser + 'button_Create'))
+					Thread.sleep(10000)
 				
 					
 				// Verify the Error Messages
