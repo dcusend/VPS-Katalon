@@ -46,9 +46,17 @@ WebUI.selectOptionByLabel(findTestObject(orPath_Landing + '/dd_TaxType'),taxType
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+//WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
+
+WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"1.00")
+
+//WebUI.scrollToElement(findTestObject(orPath_Landing + '/a_Click here for details'), 3)
+
+//WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight);', null)
 
 WebUI.click(findTestObject(orPath_Landing + '/a_Click here for details'))
+
+WebUI.delay(2)
 
 //Old CF Verbiage
 //String cfVerbiage = "This electronic government service includes a 2.45% service/convenience fee for payments processed through this application. This fee is assessed by Govolution LLC, Maryland's eGovernment service provider, a third party working under a contract administered by the Maryland Department of Information Technology (DoIT). The service fee is used to develop, maintain, and expand the online service offerings of the state and is non-refundable. Accepted credit cards include Visa, MasterCard, Discover and American Express."

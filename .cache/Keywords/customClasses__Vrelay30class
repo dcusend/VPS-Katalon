@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "65DE1D1931C2E3C253F20FD05A36356D",
+  "keywordFileContentHash": "3687D66331BE3B18BA3F2B977048041D",
   "keywordClasses": [
     {
       "name": "customClasses.Vrelay30class",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
