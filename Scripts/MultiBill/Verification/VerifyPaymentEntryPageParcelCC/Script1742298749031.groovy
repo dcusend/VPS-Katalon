@@ -79,6 +79,8 @@ for (def row = 1; row <= numOfRows; row++)
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
+		Thread.sleep(GlobalVariable.shortDelay)
+		
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Table = driver.findElement(By.xpath("//table/tbody"))
 		
@@ -115,6 +117,7 @@ for (def row = 1; row <= numOfRows; row++)
 							 KeywordUtil.logInfo("View Parcel button Exists")
 							 //Click on View Parcel
 							 WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
+							 Thread.sleep(GlobalVariable.shortDelay)
 							 isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 				
 							 if (isRequiredTextPresent == true)

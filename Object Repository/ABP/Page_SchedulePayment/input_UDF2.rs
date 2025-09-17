@@ -6,12 +6,16 @@
    <elementGuidId>f02062dd-0b28-48d7-8204-29206585a228</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@name='billDetailForm.billerDefinedField2']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>input[name=&quot;billDetailForm.billerDefinedField2&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='billDetailForm.billerDefinedField2']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'billDetailForm.billerDefinedField2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>050b8077-2e21-4384-97b3-e8a3798db891</webElementGuid>
+      <webElementGuid>97a0cbc0-588f-47ef-8ce1-3a2b53ba61fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>8562aa59-8005-4067-bbef-c8c908b720bd</webElementGuid>
+      <webElementGuid>bf78d858-b288-4a5e-9951-6af0f5e39808</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>billDetailForm.billerDefinedField2</value>
-      <webElementGuid>73b7a561-be36-4276-ae8f-573b13db13d3</webElementGuid>
+      <webElementGuid>2ff42454-048c-4722-b789-81a2f9d0062c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>2cc7593c-55b2-4ef7-8b9e-6d3add4f634a</webElementGuid>
+      <webElementGuid>11c06759-df25-4463-96a1-eabb4c2161ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>size</name>
       <type>Main</type>
       <value>60</value>
-      <webElementGuid>8fcef444-db83-4d9a-ab44-b382aca01634</webElementGuid>
+      <webElementGuid>14656608-fb67-4256-8573-e2aa425c000e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>value</name>
       <type>Main</type>
       <value>udf2</value>
-      <webElementGuid>7e8d0c12-f8df-4fd1-976e-b6e8163201f4</webElementGuid>
+      <webElementGuid>6e0ccd7b-ad32-421c-8620-f514e9d1610b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +81,15 @@
       <name>onchange</name>
       <type>Main</type>
       <value>customOnChangeUdf2(this, 917)</value>
-      <webElementGuid>bb4b92aa-c2cd-4333-affe-413bf341a537</webElementGuid>
+      <webElementGuid>9050b579-c21e-4a89-bf1b-6d7f1e34991c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>variable_field_2_label_917</value>
-      <webElementGuid>1cf48af3-7f72-4fe4-9e83-bb5fd1981273</webElementGuid>
+      <webElementGuid>58742180-89ee-447c-acd7-cc2085be1f56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;udf&quot;)/table[1]/tbody[1]/tr[2]/td[2]/input[1]</value>
-      <webElementGuid>79f6d2da-337d-47ba-8e5b-889d1d7d0586</webElementGuid>
+      <webElementGuid>104fbe5b-5786-43ed-8ded-d2d5b208358f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='billDetailForm.billerDefinedField2']</value>
-      <webElementGuid>1a277f3f-c86e-4049-8835-9f13a5bba9a1</webElementGuid>
+      <webElementGuid>c78fb30b-7e27-4461-b3c5-ace3807a1f05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='udf']/table/tbody/tr[2]/td[2]/input</value>
-      <webElementGuid>88c64c23-9025-47dd-9a8f-38afe6ff8f76</webElementGuid>
+      <webElementGuid>4d07e204-5b17-430f-b4b8-90d30f5a7393</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/input</value>
-      <webElementGuid>0c766c98-72af-49ea-bf4e-8a395e9675b8</webElementGuid>
+      <webElementGuid>73eccbc2-06fb-47ae-89d3-641b02959b89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'billDetailForm.billerDefinedField2' and @alt = 'variable_field_2_label_917']</value>
-      <webElementGuid>3cd45dcb-572d-4708-8104-e1bed201784e</webElementGuid>
+      <webElementGuid>70f45cd5-986b-4640-b3bb-d1fcb87adf04</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

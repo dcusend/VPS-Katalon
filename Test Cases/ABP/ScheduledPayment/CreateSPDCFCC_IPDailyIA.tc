@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Schedule Payment for InstallmentPlan Daily and Individual Amount</description>
+   <name>CreateSPDCFCC_IPDailyIA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aa984362-d0f0-4974-bfd0-1fd82356057e</testCaseGuid>
+</TestCaseEntity>

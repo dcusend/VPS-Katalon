@@ -6,18 +6,18 @@
    <elementGuidId>0c625aa2-0cc5-4560-af87-01a425a2b809</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//svg[@class = 'cartIcon' and @id = 'removeBillFromCart(bill)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[8]/following::*[name()='svg'][5]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>07aa474a-29f9-44fa-b6a7-c2547d35cd19</webElementGuid>
+      <webElementGuid>946483af-5c47-46d4-99be-5f7766f17cf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cartIcon</value>
-      <webElementGuid>7f7d0cc4-70ad-4c20-b631-eb236d0a2e8f</webElementGuid>
+      <webElementGuid>643a1c6b-06e5-45ad-a6a9-6dc4a88c642d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 550 550</value>
-      <webElementGuid>ac4ed152-2b00-45ca-9609-419d8feda23f</webElementGuid>
+      <webElementGuid>db53fd2e-f590-438a-ad5a-b355144643c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>id</name>
       <type>Main</type>
       <value>removeBillFromCart(bill)</value>
-      <webElementGuid>64e1d828-96ca-4414-892d-91293d923610</webElementGuid>
+      <webElementGuid>91342a01-6d9b-40be-b512-9592fde60a21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;billSearchTableBody&quot;)/tr[@class=&quot;ng-scope&quot;]/td[10]/a[@class=&quot;removeFrom align-items-center btn d-flex justify-content-center py-1 rounded-pill resetStyle&quot;]/svg[@id=&quot;removeFromCartIcon&quot;]</value>
-      <webElementGuid>6d3ebc0e-4134-4f6f-bfc9-9203610d8b36</webElementGuid>
+      <webElementGuid>4c03b978-aaaf-4a9b-9c8e-b0780c9c9fd9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[8]/following::*[name()='svg'][5]</value>
-      <webElementGuid>585e551d-5987-4f49-851c-fd39680d3211</webElementGuid>
+      <webElementGuid>554e655e-d3ca-44b8-8823-d21abc3d4baa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[7]/following::*[name()='svg'][5]</value>
-      <webElementGuid>53c7de89-3f43-4728-9700-df876645b4c7</webElementGuid>
+      <webElementGuid>1ea792af-e1f8-4fd5-84b7-e49748a3d8a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SMITH, JENNA'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>2420179a-227d-4218-b0c8-073d576860fd</webElementGuid>
+      <webElementGuid>488acf7d-235e-439f-ba4c-dd04b9e7eb05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dec 31, 2021'])[5]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>62f8c5f3-da90-4de4-bbf1-4447d6826e19</webElementGuid>
+      <webElementGuid>c27ffd8f-56be-437c-8f99-771ae7673018</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,6 +104,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//svg[@id = 'removeFromCartIcon']</value>
-      <webElementGuid>1181271e-e337-4ae9-9eea-8d10e6d749a2</webElementGuid>
+      <webElementGuid>e1dfaa06-d3af-42c5-a8e1-ab08efa48c3b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

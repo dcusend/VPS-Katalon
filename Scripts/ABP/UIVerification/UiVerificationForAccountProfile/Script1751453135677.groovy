@@ -84,14 +84,14 @@ String fileLoc = "KatalonData/ABPTestData/ABPTestData.xlsx"
 								
 								if (isRequiredTextPresent) {
 									
-									println "All the relevant texts are present on Receipt Page"
-									KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
+									println "All the relevant texts are present on Account Profile Page"
+									KeywordUtil.markPassed("All the relevant texts are present on Account Profile Page")
 									resText = "Pass"
 									CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 									}
 									  else
 									{
-										println "Some texts are missing on the Receipt page"
+										println "Some texts are missing on the Account Profile Page"
 										resText = "Fail"
 										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 										

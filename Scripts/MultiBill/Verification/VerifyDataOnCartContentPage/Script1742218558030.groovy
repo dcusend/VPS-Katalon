@@ -74,6 +74,8 @@ for (def row = 1; row <= numOfRows; row++)
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
+		Thread.sleep(shortDelay)
+		
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Table = driver.findElement(By.xpath("//table/tbody"))
 		
