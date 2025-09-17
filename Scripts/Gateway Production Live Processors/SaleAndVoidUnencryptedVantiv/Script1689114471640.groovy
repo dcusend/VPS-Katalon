@@ -121,8 +121,10 @@ selenium.type("name=cvv_data", "")
 "type | name=cvv_state |  | "
 selenium.type("name=cvv_state", "")
 
-"type | name=track_data | %B5567080011582687^AHMED/IMTIAZ              ^2603201090300000000000528000015?;5567080011582687=26032010903052800015? | "
-selenium.type("name=track_data", "%B5567080011582687^AHMED/IMTIAZ              ^2603201090300000000000528000015?;5567080011582687=26032010903052800015?")
+//"type | name=track_data | %B5567080011582687^AHMED/IMTIAZ              ^2603201090300000000000528000015?;5567080011582687=26032010903052800015? | "
+//selenium.type("name=track_data", "%B5567080011582687^AHMED/IMTIAZ              ^2603201090300000000000528000015?;5567080011582687=26032010903052800015?")
+
+selenium.type("name=track_data", "%B4118104632541729^A GIFT FOR YOU^34045211000000491000000?;4118104632541729=340452110000491?")
 
 "type | name=track_1_data |  | "
 selenium.type("name=track_1_data", "")
@@ -183,6 +185,7 @@ selenium.type("name=user_defined10", "udf10")
 
 "click | css=input[type=submit] |  | "
 selenium.click("css=input[type='submit']")
+Thread.sleep(2000)
 
 "pause | 2000 |  | "
 
@@ -256,6 +259,7 @@ selenium.click("css=input[type='submit']")
 					
 					"click | css=input[type=submit] |  | "
 					selenium.click("css=input[type='submit']")
+					Thread.sleep(2000)
 					
 					"pause | 2000 |  | "
 					

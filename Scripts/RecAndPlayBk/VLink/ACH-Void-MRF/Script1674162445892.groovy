@@ -101,6 +101,7 @@ def numOfRows, dataFile, nameSheet
 							WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input_Original Transaction Type'), origTranType)
 							
 							WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-ACH-Void/input'))
+							Thread.sleep(2000)
 				
 				
 					if (WebUI.verifyTextPresent((errorMsg), true))

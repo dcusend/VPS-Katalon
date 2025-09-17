@@ -4,5 +4,6 @@
    <name>SaleKeyboard_TP_AllCF_FieldVal_Generic_Error_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1f9796a4-6f40-442a-8993-6cc58c22e125</testCaseGuid>
 </TestCaseEntity>

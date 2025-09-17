@@ -94,13 +94,13 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Receipt/ViewScheduledPaymentsButton'))
 							
-							WebUI.switchToWindowTitle('View Scheduled Payments')
-							Thread.sleep(4000)
+							def title = findTestData(dataFile).getValue('Title', row)
+							
+							WebUI.switchToWindowTitle(title + 'View Scheduled Payments')
+							Thread.sleep(5000)
 							
 							if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))
-//								WebUI.click(paymentplan_cancelLink)
-								
 							}
 							
 							if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) {
@@ -108,6 +108,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.acceptAlert()
 							}
 							
+							Thread.sleep(2000)
 							
 							if(WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {
 							isRequiredTextPresent = true

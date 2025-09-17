@@ -4,5 +4,6 @@
    <name>VerifySaleKeyboard_MRF_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>83c9e34f-2cc2-4073-8a85-a323357816ba</testCaseGuid>
 </TestCaseEntity>

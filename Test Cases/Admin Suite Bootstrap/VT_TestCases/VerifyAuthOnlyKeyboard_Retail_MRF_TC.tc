@@ -4,5 +4,6 @@
    <name>VerifyAuthOnlyKeyboard_Retail_MRF_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>31045652-1daa-4967-bcdf-1993eaa673ff</testCaseGuid>
 </TestCaseEntity>

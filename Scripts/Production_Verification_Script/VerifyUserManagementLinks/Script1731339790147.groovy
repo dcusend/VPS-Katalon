@@ -27,7 +27,7 @@ WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'span_User Management
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'span_User Management'), 30)
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
-
+Thread.sleep(4000)
 WebUI.verifyElementVisible(findTestObject(path_Dashboard + 'a_Users'))
 WebUI.verifyElementPresent(findTestObject(path_Dashboard + 'a_Users'), 30)
 

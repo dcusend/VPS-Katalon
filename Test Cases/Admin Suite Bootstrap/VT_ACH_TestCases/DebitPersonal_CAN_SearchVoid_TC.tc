@@ -4,5 +4,6 @@
    <name>DebitPersonal_CAN_SearchVoid_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>cd43478e-4981-4b1f-a2ef-f2b9efde4eb3</testCaseGuid>
 </TestCaseEntity>

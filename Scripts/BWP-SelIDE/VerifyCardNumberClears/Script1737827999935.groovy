@@ -107,11 +107,12 @@ selenium.type("name=billingAddress2", ("suite 600").toString())
 selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
 
 
-softAssertion.assertEquals("4111111111111111", selenium.getValue("id=cardNumber"))
+//softAssertion.assertEquals("4111111111111111", selenium.getValue("id=cardNumber"))
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/creditCardNumber'), 'value', '4111111111111111', 1000)
 
 
 selenium.click("name=ccSubmit")
 selenium.waitForPageToLoad("30000")
 
 
-softAssertion.assertEquals("", selenium.getValue("id=cardNumber"))
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/creditCardNumber'), 'value', '', 1000)

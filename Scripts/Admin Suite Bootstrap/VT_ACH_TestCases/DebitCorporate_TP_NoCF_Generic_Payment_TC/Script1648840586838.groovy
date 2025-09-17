@@ -114,13 +114,17 @@ def numOfRows, dataFile, nameSheet
 					
 										
 					WebUI.click(findTestObject(path_Dashboard + appName))
+					Thread.sleep(2000)
 					
 					WebUI.click(findTestObject(path_VT + 'button_Debit'))
+					Thread.sleep(2000)
 					
 					WebUI.click(findTestObject(path_VT + 'a_Corporate'))
+					Thread.sleep(2000)
 						
 						
 					CustomKeywords.'adminSuiteBootstrap.debitCorporatesetData.debitCorporate_DataDriven'(row,dataFile)
+					Thread.sleep(2000)
 					
 						
 						WebUI.verifyTextPresent('Transaction Successful', true)

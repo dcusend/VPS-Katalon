@@ -4,5 +4,6 @@
    <name>IncorrectUsername</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>681460bb-d935-41b5-8c04-94a82f533b4c</testCaseGuid>
 </TestCaseEntity>

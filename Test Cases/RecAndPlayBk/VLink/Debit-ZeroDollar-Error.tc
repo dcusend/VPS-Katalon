@@ -4,5 +4,6 @@
    <name>Debit-ZeroDollar-Error</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>eb9e39a1-5319-44f2-ba4b-b7119929df89</testCaseGuid>
 </TestCaseEntity>

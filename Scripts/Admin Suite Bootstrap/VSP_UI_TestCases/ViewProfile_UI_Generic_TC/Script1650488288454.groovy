@@ -103,13 +103,16 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 					
 					// Select the Payment Application Name
 						WebUI.click(findTestObject(path_Dashboard + appName))
+						Thread.sleep(2000)
 						
 						
 					// Select the Find Profile button
 						WebUI.click(findTestObject(path_VT + 'a_Find Profile'))
+						Thread.sleep(2000)
 						
 					// Call setDataSearchProfile method
 						CustomKeywords.'vspBootstrap.SearchProfilePage.setDataSearchProfile'(row,dataFile)
+						Thread.sleep(2000)
 
 					// Verify Static text and Fields on View Profile Pre page
 						WebUI.verifyTextPresent(("VerifyViewProfile"), true)
@@ -172,6 +175,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 
 					// Select View Profile link
 						WebUI.click(findTestObject(path_ViewProfilePre + 'a_VerifyViewProfile'))
+						Thread.sleep(2000)
 						
 					// Verify Static text and Fields on View Profile page
 						WebUI.verifyTextPresent(("VVP Company"), true)

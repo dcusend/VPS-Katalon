@@ -4,5 +4,6 @@
    <name>Sale-MRF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f0137075-3803-4991-8f7a-2b2432aaebcd</testCaseGuid>
 </TestCaseEntity>

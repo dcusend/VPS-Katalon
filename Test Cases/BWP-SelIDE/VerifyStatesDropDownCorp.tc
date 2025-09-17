@@ -4,5 +4,6 @@
    <name>VerifyStatesDropDownCorp</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5b7d2592-7050-4ce4-8f4a-b2c643cfc8bb</testCaseGuid>
 </TestCaseEntity>

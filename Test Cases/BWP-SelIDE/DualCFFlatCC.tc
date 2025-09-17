@@ -4,5 +4,6 @@
    <name>DualCFFlatCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>37f8a296-6f3e-4725-ada7-247947e5b2c9</testCaseGuid>
 </TestCaseEntity>

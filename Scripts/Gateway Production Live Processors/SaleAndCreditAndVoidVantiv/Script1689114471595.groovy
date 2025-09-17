@@ -106,14 +106,18 @@ selenium.type("name=country_id", "840")
 "type | name=amount | 0.14 | "
 selenium.type("name=amount", "0.14")
 
-"type | name=card_number | 5567080011582646 | "
-selenium.type("name=card_number", "5567080011582646")
+//"type | name=card_number | 5567080011582646 | "
+//selenium.type("name=card_number", "5567080011582646")
+selenium.type("name=card_number", "4118104632541729")
 
-"type | name=card_exmo | 03 | "
-selenium.type("name=card_exmo", "03")
 
-"type | name=card_exyr | 2026 | "
-selenium.type("name=card_exyr", "2026")
+//"type | name=card_exmo | 03 | "
+//selenium.type("name=card_exmo", "03")
+selenium.type("name=card_exmo", "04")
+
+//"type | name=card_exyr | 2026 | "
+//selenium.type("name=card_exyr", "2026")
+selenium.type("name=card_exyr", "2034")
 
 "type | name=cvv_data |  | "
 selenium.type("name=cvv_data", "")
@@ -184,7 +188,8 @@ selenium.type("name=user_defined10", "udf10")
 "click | css=input[type=submit] |  | "
 selenium.click("css=input[type='submit']")
 
-"pause | 2000 |  | "
+//"pause | 2000 |  | "
+Thread.sleep(2000)
 
 
 		if (WebUI.verifyTextPresent(("Transaction approved, no errors"), true))
@@ -272,7 +277,7 @@ selenium.click("css=input[type='submit']")
 				
 				"click | css=input[type=submit] |  | "
 				selenium.click("css=input[type='submit']")
-				
+				Thread.sleep(2000)
 
 				
 				if (WebUI.verifyTextPresent(("Transaction approved, no errors"), true))
@@ -343,6 +348,7 @@ selenium.click("css=input[type='submit']")
 							
 							"click | css=input[type=submit] |  | "
 							selenium.click("css=input[type='submit']")
+							Thread.sleep(2000)
 							
 							"verifyTextPresent | Transaction approved, no errors |  | "
 							verifyTrue(selenium.isTextPresent("Transaction approved, no errors"))

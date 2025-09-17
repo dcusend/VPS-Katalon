@@ -4,5 +4,6 @@
    <name>SaleAndCreditAndVoidVantiv</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>32022e82-22ea-4702-9e22-9447330c3d12</testCaseGuid>
 </TestCaseEntity>

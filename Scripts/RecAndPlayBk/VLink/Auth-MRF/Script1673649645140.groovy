@@ -149,6 +149,7 @@ def numOfRows, dataFile, nameSheet
 					
 						
 					WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-AuthOnly/input'))
+					Thread.sleep(2000)
 					
 					
 					

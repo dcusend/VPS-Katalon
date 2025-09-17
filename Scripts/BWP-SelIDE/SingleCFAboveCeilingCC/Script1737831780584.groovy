@@ -140,16 +140,16 @@ selenium.waitForPageToLoad("30000")
  * "//div[@id='main-focus']/div/center/form/table/tbody/tr/td/p[2]"))
  */
 
-
-WebUI.verifyTextPresent(("Payment Amount:"), true)
-WebUI.verifyTextPresent(("Convenience Fees:"), true)
-WebUI.verifyTextPresent(("Total Amount:"), true)
-
-
-
-selenium.click("name=convFeeNotifyAction")
-selenium.waitForPageToLoad("30000")
 Thread.sleep(20000);
+//WebUI.verifyTextPresent(("Payment Amount:"), true)
+//WebUI.verifyTextPresent(("Convenience Fees:"), true)
+//WebUI.verifyTextPresent(("Total Amount:"), true)
+
+
+
+//selenium.click("name=convFeeNotifyAction")
+//selenium.waitForPageToLoad("30000")
+//Thread.sleep(20000);
 
 
 

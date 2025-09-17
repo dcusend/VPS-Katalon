@@ -4,5 +4,6 @@
    <name>ACH-Credit-MRF</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8dfcf195-34da-46ff-ac31-3f132e598c2c</testCaseGuid>
 </TestCaseEntity>

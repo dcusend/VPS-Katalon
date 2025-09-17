@@ -4,5 +4,6 @@
    <name>CreateModifyDeleteProfile_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5b4b8215-4204-40cc-978d-4528e3998480</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>SingleCFPercentagePersonalACH</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>089afbdd-582a-4635-8abe-fd158bebe1e3</testCaseGuid>
 </TestCaseEntity>

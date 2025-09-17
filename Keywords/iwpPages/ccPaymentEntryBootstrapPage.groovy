@@ -607,7 +607,7 @@ public class ccPaymentEntryBootstrapPage {
 
 
 
-			if( appID == '920' || appID == '921' || appID == '936' || appID == '938'  || appID == '941' || appID == '942' || appID == '943' || appID == '944') {
+			if( appID == '920' || appID == '921' || appID == '936' || appID == '938'  || appID == '941' || appID == '942' || appID == '943' || appID == '944' || appID == '5100' || appID == '5101'  || appID == '5103' || appID == '6116') {
 
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/CardNumber'),30)) {
 					if ((!cardNumber.isEmpty())) {
@@ -628,7 +628,7 @@ public class ccPaymentEntryBootstrapPage {
 					println("CCSPC is not present in the Excel Spreadsheet")
 				}
 			}
-			else if(appID == '914' || appID == '915' || appID == '937' || appID == '939' || appID == '940') {
+			else if(appID == '914' || appID == '915' || appID == '937' || appID == '939' || appID == '940' || appID == '5102' || appID == '6114' || appID == '6115' || appID == '6117') {
 
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_CC_DataEntry/input__password_cardNumber'),30)) {
 					if ((!cardNumber.isEmpty())) {
@@ -764,7 +764,7 @@ public class ccPaymentEntryBootstrapPage {
 			}
 
 
-			if( appID == '914' || appID == '915' ||  appID == '937' || appID == '939' ||  appID == '941') {
+			if( appID == '914' || appID == '915' ||  appID == '937' || appID == '939' ||  appID == '941' || appID == '942' || appID == '943' || appID == '944' ) {
 
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/TermCondCheckBox'),30)) {
 					WebUI.check(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/TermCondCheckBox'))

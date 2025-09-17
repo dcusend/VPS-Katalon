@@ -4,5 +4,6 @@
    <name>ModifyUser</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0703add3-2d0b-4434-8eff-2b26270fb483</testCaseGuid>
 </TestCaseEntity>

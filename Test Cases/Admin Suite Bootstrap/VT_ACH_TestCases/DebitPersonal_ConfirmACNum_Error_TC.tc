@@ -4,5 +4,6 @@
    <name>DebitPersonal_ConfirmACNum_Error_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dd202e76-4368-495f-b29d-55e24a6a8289</testCaseGuid>
 </TestCaseEntity>

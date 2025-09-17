@@ -4,5 +4,6 @@
    <name>SaleFifthThirdFrame</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c344c058-abc1-4783-ba0b-10265e979271</testCaseGuid>
 </TestCaseEntity>

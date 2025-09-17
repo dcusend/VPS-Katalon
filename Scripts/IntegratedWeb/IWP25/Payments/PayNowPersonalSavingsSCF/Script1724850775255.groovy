@@ -69,7 +69,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethod'(row,dataFile)
-					
+					Thread.sleep(2000)
 					
 					// Select PersonalCheck Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByPersonalCheck'))
@@ -80,6 +80,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Set Data on Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
+					Thread.sleep(5000)
 					
 					// Select Continue on Confirm page
 					//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))

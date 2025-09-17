@@ -4,5 +4,6 @@
    <name>SaleAndCreditAndVoidTSYS</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>eabae4d6-a20d-4653-a191-d074eef0eb81</testCaseGuid>
 </TestCaseEntity>

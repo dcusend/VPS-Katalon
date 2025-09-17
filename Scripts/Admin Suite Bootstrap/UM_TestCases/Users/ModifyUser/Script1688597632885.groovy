@@ -78,6 +78,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 				// Call setData for AddUser
 					CustomKeywords.'adminSuiteBootstrap.addUser.setDataAddUser'(row,dataFile)
+					Thread.sleep(10000)
 					
 					if (WebUI.verifyTextPresent('User Account Created A user account for', true))
 					{
@@ -96,7 +97,7 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						// Select Modify button
 						WebUI.click(findTestObject(path_ModifyUser + 'button_Update'))
-						
+						Thread.sleep(5000)
 						
 						// Verify the Static text
 						
@@ -129,15 +130,18 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						// Delete User
 						WebUI.click(findTestObject(path_UserView + 'button_Delete'))
+						Thread.sleep(5000)
 					
 						// Select Okay on Confirmation
 						//WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
 						WebUI.click(findTestObject(path_DeleteUser + 'button_DeleteUser_Delete'))
+						Thread.sleep(5000)
 						
 									
 						// Select another Okay
 						//WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
 						WebUI.click(findTestObject(path_DeleteUser + 'button_DeleteUser_Okay'))
+						Thread.sleep(5000)
 					}
 					
 					else 

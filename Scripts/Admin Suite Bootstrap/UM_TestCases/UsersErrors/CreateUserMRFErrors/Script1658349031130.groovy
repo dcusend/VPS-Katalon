@@ -49,6 +49,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
 					
 				// Select the Create button
 					WebUI.click(findTestObject(path_AddUser + 'button_Create'))
+					Thread.sleep(10000)
 				
 					
 				// Verify the Error Messages

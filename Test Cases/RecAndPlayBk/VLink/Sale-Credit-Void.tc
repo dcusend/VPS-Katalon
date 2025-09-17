@@ -4,5 +4,6 @@
    <name>Sale-Credit-Void</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6c11d8c1-1ff4-4391-a2c3-75a1685ed10e</testCaseGuid>
 </TestCaseEntity>

@@ -147,6 +147,9 @@ selenium.waitForPageToLoad("30000")
 WebUI.verifyTextPresent(("Payment Amount:"), true)
 WebUI.verifyTextPresent(("Convenience Fees:"), true)
 WebUI.verifyTextPresent(("Total Amount:"), true)
+WebUI.verifyTextPresent(("This transaction is subject to a Convenience Fees of"), true)
+WebUI.verifyTextPresent(("One transaction in the amount of"), true)
+WebUI.verifyTextPresent(("will appear on your bank statement"), true)
 
 
 

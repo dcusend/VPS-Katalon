@@ -4,5 +4,6 @@
    <name>CreateUserMRFErrors</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>425e4771-f1cf-4f74-8b84-fed0329b8a6d</testCaseGuid>
 </TestCaseEntity>

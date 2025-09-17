@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -17,10 +16,8 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-
 import internal.GlobalVariable
 
 public class loginFunctionality {
@@ -63,14 +60,24 @@ public class loginFunctionality {
 
 		switch(executionProfile) {
 			case "QAProfile":
-				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+				//if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username_Okta'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
 
-					WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
+					
+					WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), gv_username)
+					
+					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), gv_password)
+					
+					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
+					
+					//WebUI.setText(findTestObject('Login_Page/Login_Username'), gv_username)
 
-					WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
+					//WebUI.setText(findTestObject('Login_Page/Login_Password'), gv_password)
 
-					WebUI.click(findTestObject('Login_Page/Login_Submit'))
+					//WebUI.click(findTestObject('Login_Page/Login_Submit'))
+					
+					
 				}
 				break
 

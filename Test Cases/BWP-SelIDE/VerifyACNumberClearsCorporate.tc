@@ -4,5 +4,6 @@
    <name>VerifyACNumberClearsCorporate</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3a20e133-bc85-445f-838b-f7ac12e97282</testCaseGuid>
 </TestCaseEntity>

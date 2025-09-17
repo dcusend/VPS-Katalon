@@ -4,5 +4,6 @@
    <name>SuccessfulPaymentCCDualCFFlat</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>df728a0f-064d-4065-8e61-f8b4fb06ca74</testCaseGuid>
 </TestCaseEntity>

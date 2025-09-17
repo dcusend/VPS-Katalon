@@ -4,5 +4,6 @@
    <name>Sale_CAN_SearchVoid_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9691fa97-eb0a-400e-870e-656577060433</testCaseGuid>
 </TestCaseEntity>

@@ -69,7 +69,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethod'(row,dataFile)
-					
+					Thread.sleep(2000)
 					
 					// Select Credit Card Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard'))
@@ -80,6 +80,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Set Data on Credit Card Payment Entry page
 					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
+					Thread.sleep(2000)
 					
 					// Select Continue on Confirm page
 //					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))

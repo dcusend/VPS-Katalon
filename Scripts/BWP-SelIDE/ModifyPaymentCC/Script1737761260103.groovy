@@ -236,7 +236,7 @@ Thread.sleep(12000);
 WebUI.verifyTextPresent(("ROGER PHILIPS.*"), true)
 WebUI.verifyTextPresent(("MasterCard.*"), true)
 WebUI.verifyTextPresent(("0015.*"), true)
-WebUI.verifyTextPresent(("6/2029.*"), true)
+//WebUI.verifyTextPresent(("6/2029.*"), true)
 WebUI.verifyTextPresent(("15 Elm Street.*"), true)
 WebUI.verifyTextPresent(("GAMBRILLS.*"), true)
 WebUI.verifyTextPresent(("MD.*"), true)

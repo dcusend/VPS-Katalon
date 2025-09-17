@@ -38,7 +38,7 @@ System.out.println ("executionProfile : " + executionProfile)
 
 String resText = "Fail"
 String resColumn = "Result"
-String datCloumn = "Date"
+String datColumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
 def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
 
@@ -94,13 +94,14 @@ for (def row = 1; row <= numOfRows; row++)
 				// Set Data on Find Role page
 					CustomKeywords.'adminSuiteBootstrap.findRole.setDataFindRoleEF'(row,dataFile)
 					
+					Thread.sleep(2000)
 					if (WebUI.verifyElementPresent(findTestObject(path_Role + 'button_DeleteRole'), 30))
 					{
 						WebUI.verifyTextPresent('This role does not have any members', true)
 						
 						KeywordUtil.markPassed("Role was searched Successfully")
 						resText = "Pass"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 						CustomKeywords.'pages.CustomLogger.log_Logger'("Role got searched successfully","Pass")
 						
 					}
@@ -109,7 +110,7 @@ for (def row = 1; row <= numOfRows; row++)
 						CustomKeywords.'pages.CustomLogger.log_Logger'("Role was not found","Fail")
 						KeywordUtil.markFailed("Role did not searched")
 						resText = "Fail"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 
 					}
 						

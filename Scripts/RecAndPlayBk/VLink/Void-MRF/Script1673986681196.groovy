@@ -99,6 +99,7 @@ def numOfRows, dataFile, nameSheet
 					WebUI.setText(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Void/txt_TrackData'), '')
 					
 					WebUI.click(findTestObject('Object Repository/RecAndPlayBk/Page-Vlink-CC-Void/btn_ProcessVLinkTransaction'))
+					Thread.sleep(2000)
 					
 					
 					

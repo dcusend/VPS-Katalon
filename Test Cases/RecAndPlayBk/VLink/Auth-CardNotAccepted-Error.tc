@@ -4,5 +4,6 @@
    <name>Auth-CardNotAccepted-Error</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>580eb2fd-68b1-4150-86e3-dc9a71e964d3</testCaseGuid>
 </TestCaseEntity>

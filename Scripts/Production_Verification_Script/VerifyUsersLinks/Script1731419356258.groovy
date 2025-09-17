@@ -26,7 +26,7 @@ String path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/"
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
-
+Thread.sleep(4000)
 WebUI.click(findTestObject(path_Dashboard + 'a_Users'))
 
 WebUI.verifyElementVisible(findTestObject(path_UM + 'h1_Users'))

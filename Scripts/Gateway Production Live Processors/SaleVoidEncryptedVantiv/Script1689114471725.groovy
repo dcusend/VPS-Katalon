@@ -184,7 +184,7 @@ selenium.click("css=input[type='button']")
 
 "click | css=input[type=submit] |  | "
 selenium.click("css=input[type='submit']")
-
+Thread.sleep(2000)
 "pause | 2000 |  | "
 
 
@@ -258,6 +258,7 @@ selenium.click("css=input[type='submit']")
 						
 						"click | css=input[type=submit] |  | "
 						selenium.click("css=input[type='submit']")
+						Thread.sleep(2000)
 						
 						"verifyTextPresent | Transaction approved, no errors |  | "
 						verifyTrue(selenium.isTextPresent("Transaction approved, no errors"))

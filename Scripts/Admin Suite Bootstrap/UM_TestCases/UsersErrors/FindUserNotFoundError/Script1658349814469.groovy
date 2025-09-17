@@ -49,6 +49,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
 			
 				// Select the Submit button
 					WebUI.click(findTestObject(path_FindUser + 'button_Search'))
+					Thread.sleep(10000)
 					
 				// Verify the Error Message
 					WebUI.verifyTextPresent("INFO! No user accounts were found that have a username of", true)

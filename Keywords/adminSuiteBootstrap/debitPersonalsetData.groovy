@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -17,7 +16,6 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
 import internal.GlobalVariable
 
 public class debitPersonalsetData {
@@ -59,13 +57,15 @@ public class debitPersonalsetData {
 		// SetData
 		String path_DebitPersonal = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/ACHPersonal/"
 
+		WebUI.setText(findTestObject(path_DebitPersonal + 'input_zip'), zipCode)
+		
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_firstName'), firstName)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_lastName'), lastName)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_address'), al1)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_address2'), al2)
-		WebUI.setText(findTestObject(path_DebitPersonal + 'input_zip'), zipCode)
+		
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_emailAddress'), emailAddress)
-
+		Thread.sleep(5000)
 
 		if ((!phoneNumber.isEmpty())) {
 			WebUI.setText(findTestObject(path_DebitPersonal + 'input_smsNumber'), phoneNumber)
@@ -93,7 +93,7 @@ public class debitPersonalsetData {
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined8'), UDF8)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined9'), UDF9)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined10'), UDF10)
-
+		Thread.sleep(5000)
 		WebUI.click(findTestObject(path_DebitPersonal + 'button_Submit'))
 	}
 
@@ -184,7 +184,7 @@ public class debitPersonalsetData {
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined8'), UDF8)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined9'), UDF9)
 		WebUI.setText(findTestObject(path_DebitPersonal + 'input_userDefined10'), UDF10)
-		
+
 		Thread.sleep(6000)
 
 		WebUI.click(findTestObject(path_DebitPersonal + 'button_Submit'))

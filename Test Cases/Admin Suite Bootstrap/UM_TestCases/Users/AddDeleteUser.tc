@@ -4,5 +4,6 @@
    <name>AddDeleteUser</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>838e3562-7799-4aad-ac1c-3cf6c071049e</testCaseGuid>
 </TestCaseEntity>

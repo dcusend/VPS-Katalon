@@ -4,5 +4,6 @@
    <name>AddDeleteCCNotPre3_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2e8d4135-5106-4a86-a367-43124f85ad95</testCaseGuid>
 </TestCaseEntity>

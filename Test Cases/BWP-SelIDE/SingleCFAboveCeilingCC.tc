@@ -4,5 +4,6 @@
    <name>SingleCFAboveCeilingCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b7eecfad-e08a-4334-bdeb-3c8a2e20f3b7</testCaseGuid>
 </TestCaseEntity>

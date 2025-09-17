@@ -4,5 +4,6 @@
    <name>ChangePaymentMethodCorptoCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b162c572-ca2e-4162-b85a-3b3cccf33412</testCaseGuid>
 </TestCaseEntity>

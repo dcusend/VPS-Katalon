@@ -101,6 +101,8 @@ for (def row = 1; row <= numOfRows; row++)
 				// Select the Create button
 				WebUI.click(findTestObject(path_AddUser + 'button_Create'))
 				
+				Thread.sleep(10000)
+				
 				// Verify Static Text
 				if (WebUI.verifyTextPresent('User Account Created A user account for', true))
 				{
@@ -114,14 +116,17 @@ for (def row = 1; row <= numOfRows; row++)
 				
 					// Delete User
 					WebUI.click(findTestObject(path_UserView + 'button_Delete'))
+					Thread.sleep(5000)
 				
 					// Select Okay on Confirmation
 					//WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_First'))
 					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/DeleteUser/button_2209_Delete'))
+					Thread.sleep(5000)
 					
 								
 					// Select another Okay
 					WebUI.click(findTestObject(path_DeleteUser + 'button_Okay_Last'))
+					Thread.sleep(2000)
 				}
 				
 				else 

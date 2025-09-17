@@ -30,7 +30,7 @@ String path_Email = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/Em
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
-
+Thread.sleep(4000)
 WebUI.click(findTestObject(path_Dashboard + 'a_Email Alerts'))
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'h1_Email Alerts'))

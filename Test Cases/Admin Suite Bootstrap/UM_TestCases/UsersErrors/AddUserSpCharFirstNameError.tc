@@ -4,5 +4,6 @@
    <name>AddUserSpCharFirstNameError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a7a61b1d-3885-4898-b196-f082a5218899</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>Debit-Credit-Void</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b82ebe10-8c61-4c4f-8298-a41acba737e5</testCaseGuid>
 </TestCaseEntity>

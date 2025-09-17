@@ -4,5 +4,6 @@
    <name>SaleKeyboard_TP_EncryptedUDF_App745_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>37e80771-d19f-4afd-a203-d25eba945106</testCaseGuid>
 </TestCaseEntity>

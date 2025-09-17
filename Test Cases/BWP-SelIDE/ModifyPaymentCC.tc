@@ -4,5 +4,6 @@
    <name>ModifyPaymentCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>21380f9d-6f99-4379-a013-31dd85c1425a</testCaseGuid>
 </TestCaseEntity>

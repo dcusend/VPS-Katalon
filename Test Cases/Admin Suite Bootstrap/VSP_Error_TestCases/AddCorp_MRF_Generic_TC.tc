@@ -4,5 +4,6 @@
    <name>AddCorp_MRF_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8ca8c8ed-2190-47d9-9b1f-19b3350b608a</testCaseGuid>
 </TestCaseEntity>

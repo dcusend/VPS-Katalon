@@ -4,5 +4,6 @@
    <name>DebitPersonalCredit_TP_SingleCF_Generic_Payment_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>75a4978d-ffa0-451f-82dc-5c1e9c75ddf6</testCaseGuid>
 </TestCaseEntity>

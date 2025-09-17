@@ -102,21 +102,26 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 					
 					// Select the Payment Application Name
 						WebUI.click(findTestObject(path_Dashboard + appName))
+						Thread.sleep(2000)
 						
 					// Select Create button
 						WebUI.click(findTestObject(path_VT + 'a_Create'))
+						Thread.sleep(2000)
 						
 					// Call setDataCreateProfile method
 						CustomKeywords.'vspBootstrap.CreateProfilePage.setDataONLYCreateProfile'(row,dataFile)
+						Thread.sleep(2000)
 						
 
 					// Select the Save and Add Credit Card button
 						WebUI.click(findTestObject(path_CreateProfile + 'button_Save  Add Credit Card'))
+						Thread.sleep(2000)
 						
 						WebUI.verifyTextPresent(("Profile successfully created"), true)
 						
 					// Call the setDataCreditCardNotPre method to Add a Credit Card
 						CustomKeywords.'vspBootstrap.AddCreditCardPage.setDataCreditCardNotPre'(row,dataFile)
+						Thread.sleep(2000)
 						
 			
 					// Verify the Static text and Fields
@@ -128,6 +133,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Credit Card Nickname button 
 						WebUI.click(findTestObject(path_ViewProfile + 'a_nickNameCC'))
+						Thread.sleep(2000)
 						
 					// VErify the Static and Dynamic text
 						WebUI.verifyTextPresent(("Credit Card Billing Information"), true)
@@ -137,6 +143,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Delete Credit Card button
 						WebUI.click(findTestObject(path_ViewProfile + 'a_Delete Credit Card'))
+						Thread.sleep(2000)
 						
 					// Verify the Static text
 						WebUI.verifyTextPresent(("Delete Credit Card Confirmation"), true)
@@ -144,6 +151,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Congirm Delete button
 						WebUI.click(findTestObject(path_ViewProfile + 'button_DeleteCCConfirm'))
+						Thread.sleep(2000)
 						
 
 					// Verify the Static text
@@ -153,10 +161,12 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Delete Profile button
 						WebUI.click(findTestObject(path_ViewProfile + 'a_Delete Profile'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("This will delete all of the following information. Are you sure you want to do this?"), true)
 						
 					// Select the Delete button
 						WebUI.click(findTestObject(path_DeleteProfileConfirm + 'button_Delete'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("No Search String"), true)
 						WebUI.verifyTextPresent(("You must provide a search string of at least 2 characters"), true)
 						

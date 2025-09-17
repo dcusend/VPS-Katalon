@@ -118,6 +118,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven_EF'(row,dataFile)
 						
+						Thread.sleep(2000)
 						if (WebUI.verifyTextPresent('Transaction Successful', true))
 							{
 								//def sdf = WebUI.getText(findTestObject(path_Receipt + 'div_Issue Transactions'))
@@ -151,7 +152,9 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 								//WebUI.click(remIDLink)
 						
 								WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
-						
+													
+								Thread.sleep(2000)
+								
 								WebUI.verifyTextPresent('Tender Type', true)
 								WebUI.verifyTextPresent('Credit Card', true)
 								WebUI.verifyTextPresent('Transaction Type', true)
@@ -167,10 +170,13 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 														
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
 								
+								Thread.sleep(2000)
 								WebUI.verifyTextPresent('The following transaction will be voided', true)
 								WebUI.verifyTextPresent('Please press submit to continue', true)
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
+								
+								Thread.sleep(2000)
 								
 								WebUI.verifyTextPresent('Transaction Successful', true)
 								WebUI.verifyTextPresent('Transaction Type', true)

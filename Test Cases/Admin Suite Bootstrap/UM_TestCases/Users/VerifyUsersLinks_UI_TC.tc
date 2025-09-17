@@ -4,5 +4,6 @@
    <name>VerifyUsersLinks_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>78c513c4-a2b0-40ef-afeb-6366a5212ce0</testCaseGuid>
 </TestCaseEntity>

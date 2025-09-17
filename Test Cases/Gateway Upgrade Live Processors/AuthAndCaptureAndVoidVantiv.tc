@@ -4,5 +4,6 @@
    <name>AuthAndCaptureAndVoidVantiv</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4d7aeb28-654d-49eb-846e-b4e0efb6b182</testCaseGuid>
 </TestCaseEntity>

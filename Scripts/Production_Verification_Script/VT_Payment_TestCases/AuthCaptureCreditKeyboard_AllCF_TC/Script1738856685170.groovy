@@ -122,6 +122,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 						
 						CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven_EF'(row,dataFile)
 						
+						Thread.sleep(2000)
 						if (WebUI.verifyTextPresent('Transaction Successful', true))
 						{
 							
@@ -144,7 +145,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 				
 							WebUI.setText(findTestObject(path_CCSearch + 'input_Search By_searchValue'),remID)
 							
-							Thread.sleep(20000)
+							
 							WebUI.click(findTestObject(path_CCSearch + 'option_Authorization'))
 							WebUI.click(findTestObject(path_CCSearch + 'button_Submit'))
 				
@@ -157,6 +158,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 												
 							WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
 					
+							Thread.sleep(2000)
 							WebUI.verifyTextPresent('Tender Type', true)
 							WebUI.verifyTextPresent('Credit Card', true)
 							WebUI.verifyTextPresent('Transaction Type', true)
@@ -181,6 +183,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 							
 							WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
 							
+							Thread.sleep(2000)
 							if (WebUI.verifyTextPresent('Transaction Successful', true))
 							{
 								WebUI.verifyTextPresent('Transaction Type', true)
@@ -221,12 +224,18 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 													
 								WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
 								
+								Thread.sleep(5000)
+								
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Credit this transaction'))
+								
+								Thread.sleep(5000)
 								
 								WebUI.verifyTextPresent('Credit Card Credit', true)
 								
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
+								
+								Thread.sleep(5000)
 								
 								WebUI.verifyTextPresent('Transaction Successful', true)
 								WebUI.verifyTextPresent('Transaction Type', true)
@@ -249,15 +258,14 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 										resText = "Fail"
 										System.out.println(resColumn)
 										CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
-									}
-								
-//									WebUI.closeBrowser()
-									
+									}								
 							}
 								
 						}					
 						
 				}
+				WebUI.closeBrowser()
+				
 		}
 
 

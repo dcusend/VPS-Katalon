@@ -137,6 +137,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					// Set Data on Sale page
 						CustomKeywords.'vspBootstrap.SalePage.setDataSaleAndAuth_EF'(row,dataFile)
 						
+						Thread.sleep(2000)
 					// Verify Static text
 						WebUI.verifyTextPresent('Transaction Successful', true)
 						

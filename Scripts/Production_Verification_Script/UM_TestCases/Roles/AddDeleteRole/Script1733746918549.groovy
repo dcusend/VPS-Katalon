@@ -36,7 +36,7 @@ System.out.println ("executionProfile : " + executionProfile)
 
 String resText = "Fail"
 String resColumn = "Result"
-String datCloumn = "Date"
+String datColumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data-Prod.xlsx"
 def numOfRows, dataFile, nameSheet, dataFileEmulator, ExecuteTC
 
@@ -99,7 +99,7 @@ for (def row = 1; row <= numOfRows; row++)
 					{
 						KeywordUtil.markPassed("Role was Created Successfully")
 						resText = "Pass"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 						CustomKeywords.'pages.CustomLogger.log_Logger'("Role got created successfully","Pass")
 						
 						// Select the Delete button
@@ -119,6 +119,7 @@ for (def row = 1; row <= numOfRows; row++)
 						// Set Data on Find Role page
 						CustomKeywords.'adminSuiteBootstrap.findRole.setDataFindRoleEF'(row,dataFile)
 						
+						Thread.sleep(2000)
 						// Verify Role was not found
 						WebUI.verifyTextPresent('No roles with the name', true)
 											
@@ -128,7 +129,7 @@ for (def row = 1; row <= numOfRows; row++)
 						CustomKeywords.'pages.CustomLogger.log_Logger'("Role did not got created, can't delete","Fail")
 						KeywordUtil.markFailed("Role did not got created, can't delete")
 						resText = "Fail"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datColumn,fileLoc,nameSheet,row)
 
 					}
 					

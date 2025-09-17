@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'View' or . = 'View')]</value>
+         <value>//*[@class = 'btn btn-primary ' and (text() = 'View' or . = 'View')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -19,6 +18,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,13 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>079a0e0c-6c01-44db-bb74-7e8cfad3f02b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary </value>
+      <webElementGuid>c536be8d-3a0d-4570-b07c-319cdbe00186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +42,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/admin/imtiaz/bootstrap/vsp/742/profile/ViewProfile?ProfileID=134400</value>
+      <webElementGuid>ae98814b-00ac-4d1b-9a97-c6efaf06527b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>View</value>
+      <webElementGuid>cc9df32f-9de1-469d-9246-8b0014c76df8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;app sidebar-mini&quot;]/main[@class=&quot;app-content&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;tile w-100&quot;]/div[@class=&quot;tile-body&quot;]/div[1]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover dataTable no-footer table-outside-bordered table-sm&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;table table-hover dataTable no-footer&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/a[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>31382540-8ca8-4862-9d75-08bb35e0cd3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +66,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'View')])[2]</value>
+      <webElementGuid>946a9263-9d2a-4691-80d1-ca7d2ae1e998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='VerifyViewProfile'])[1]/following::a[1]</value>
+      <webElementGuid>6d2e60f4-8d4f-466d-a316-d1241d095e48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::a[1]</value>
+      <webElementGuid>c44d357d-f370-49e7-bf4c-175072742951</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::a[2]</value>
+      <webElementGuid>2c5a8711-2883-4170-9229-073d32f82409</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='View']/parent::*</value>
+      <webElementGuid>a08e03f2-1840-42bc-a431-1cc8309193bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +106,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/admin/imtiaz/bootstrap/vsp/742/profile/ViewProfile?ProfileID=134400')])[2]</value>
+      <webElementGuid>45224339-5aeb-44d8-a980-0634340eae11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/a</value>
+      <webElementGuid>a56884c0-3b57-4bc1-94d0-fcd79f403221</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,5 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/imtiaz/bootstrap/vsp/742/profile/ViewProfile?ProfileID=134400' and (text() = 'View' or . = 'View')]</value>
+      <webElementGuid>a8a4ae3f-f479-4028-ae67-5365b93f7956</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

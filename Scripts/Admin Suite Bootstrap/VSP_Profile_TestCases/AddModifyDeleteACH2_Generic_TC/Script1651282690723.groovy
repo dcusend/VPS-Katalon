@@ -103,22 +103,27 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 					
 					// Select the Payment Application Name
 						WebUI.click(findTestObject(path_Dashboard + appName))
+						Thread.sleep(2000)
 						
 					// Select Create button
 						WebUI.click(findTestObject(path_VT + 'a_Create'))
+						Thread.sleep(2000)
 						
 					// Call setDataCreateProfile method
 						CustomKeywords.'vspBootstrap.CreateProfilePage.setDataCreateProfile'(row,dataFile)
+						Thread.sleep(2000)
 												
 						WebUI.verifyTextPresent(("Profile successfully created"), true)
 						
 					
 					// Select Add ACH button
 						WebUI.click(findTestObject(path_ViewProfile + 'button_Add ACH'))
+						Thread.sleep(2000)
 						
 						
 					// Call the setDataAddACH method to Add an ACH
 						CustomKeywords.'vspBootstrap.AddACHPage.setDataAddACH'(row,dataFile)
+						Thread.sleep(2000)
 						
 			
 					// Verify the Static text and Fields
@@ -129,11 +134,13 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Edit button
 						WebUI.click(findTestObject(path_ViewProfile + 'a_Edit_ACH'))
+						Thread.sleep(2000)
 						
 					// Change Nickname to Modify ACH
 						def nicknameMod = findTestData(dataFile).getValue('NicknameACHMod', row)
 						WebUI.setText(findTestObject(path_ModifyACH + 'input_nickName'), nicknameMod)
 						WebUI.click(findTestObject(path_ModifyACH + 'button_Modify'))
+						Thread.sleep(2000)
 						
 					// Verify Static text
 						WebUI.verifyTextPresent(("Payment Method Modification"), true)
@@ -144,6 +151,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Delete ACH button
 						WebUI.click(findTestObject(path_ViewProfile + 'a_DeleteACH2'))
+						Thread.sleep(2000)
 						
 					// Verify the Static text
 						WebUI.verifyTextPresent(("Delete Bank Account Confirmation"), true)
@@ -151,6 +159,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Congirm Delete button
 						WebUI.click(findTestObject(path_ViewProfile + 'button_DeleteACHConfirm'))
+						Thread.sleep(2000)
 						
 
 					// Verify the Static text
@@ -162,10 +171,12 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Select the Delete Profile button
 						WebUI.click(findTestObject(path_ViewProfile + 'a_Delete Profile'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("This will delete all of the following information. Are you sure you want to do this?"), true)
 						
 					// Select the Delete button
 						WebUI.click(findTestObject(path_DeleteProfileConfirm + 'button_Delete'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("No Search String"), true)
 						WebUI.verifyTextPresent(("You must provide a search string of at least 2 characters"), true)
 						

@@ -115,11 +115,12 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					// Select the Save and Add Credit Card button
 						WebUI.click(findTestObject(path_CreateProfile + 'button_Save  Add Credit Card'))
 						
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("Profile successfully created"), true)
 						
 					// Call the setDataCreditCardNotPre method to Add a Credit Card
 						CustomKeywords.'vspBootstrap.AddCreditCardPage.setDataCreditCardPre_EF'(row,dataFile)
-						
+						Thread.sleep(2000)
 			
 					// Verify the Static text and Fields
 							WebUI.verifyTextPresent(("Payment Method Created"), true)
@@ -132,7 +133,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					// Call setDataModifyCreditCard method to populate Modify Credit Card page
 						CustomKeywords.'vspBootstrap.ModifyCreditCardPage.setDataModifyCreditCard_EF'(row,dataFile)
-						
+						Thread.sleep(4000)
 					// Verify Static text
 						WebUI.verifyTextPresent(("Payment Method Modification"), true)
 						WebUI.verifyTextPresent(("Payment method successfully modified"), true)
@@ -149,7 +150,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					// Select the Congirm Delete button
 						WebUI.click(findTestObject(path_ViewProfile + 'button_DeleteCCConfirm'))
 						
-
+						Thread.sleep(2000)
 					// Verify the Static text
 						WebUI.verifyTextPresent(("Payment Method Deletion"), true)
 						WebUI.verifyTextPresent(("Payment method was successfully deleted."), true)
@@ -163,6 +164,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					// Select the Delete button
 						WebUI.click(findTestObject(path_DeleteProfileConfirm + 'button_Delete'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("No Search String"), true)
 						WebUI.verifyTextPresent(("You must provide a search string of at least 2 characters"), true)
 						

@@ -4,5 +4,6 @@
    <name>AddModifyDeleteACH2_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dedb1bf9-4648-4c0b-a938-1c84043ec207</testCaseGuid>
 </TestCaseEntity>

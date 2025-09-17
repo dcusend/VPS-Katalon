@@ -30,8 +30,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 
 
 	
-	nameSheet = "CCDeferredPlanPC"
-	dataFile = "IWPTestData/IWP25CCDeferredPC"
+	nameSheet = "CMCDeferredPlanPC"
+	dataFile = "IWPTestData/IWP25CMCDeferredPC"
 	dataFileEmulator = "IWPTestData/EmulatorData"
 	
 	
@@ -71,7 +71,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethod'(row,dataFile)
 					
 					
-					// Select Credit Card Payment Method
+					// Select Personal Check Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByPersonalCheck'))
 					
 					// Select Continue on Confirm page
@@ -82,7 +82,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
 					// Select Continue on Confirm page
-					//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
@@ -93,7 +93,9 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 						
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Receipt/ViewScheduledPaymentsButton'))							
 							
-							WebUI.switchToWindowTitle('View Scheduled Payments')
+							def title = findTestData(dataFile).getValue('Title', row)
+							
+							WebUI.switchToWindowTitle(title + 'View Scheduled Payments')
 							Thread.sleep(5000)
 							
 //							def payment_id_obj = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/payment_plan_id')).toString()
@@ -103,8 +105,19 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 //							
 							
 							if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
-								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))	
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/edit_payment'))	
 //								WebUI.click(paymentplan_cancelLink)
+								
+								// Set Data on Edit page
+								CustomKeywords.'iwpPages.editSchedulePayment.setDataSchedPayment'(row,dataFile)
+								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/chkbox_acceptterms'))
+								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
+								
+								
+								if (WebUI.verifyTextPresent("Successful Payment Plan Update", false)) {						
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
+								}
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))
 								
 							}
 							
@@ -113,15 +126,16 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.acceptAlert()				
 							}
 							
-								
+							Thread.sleep(2000)
+							
 							if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {								
-								KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
+								KeywordUtil.markPassed("Your payment plan has been successfully created, modified and canceled")
 								resText = "Pass"
 								println row 
 								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)																	
 							}
 							else {
-								KeywordUtil.markFailed("Your payment plan is not created and cancelled")
+								KeywordUtil.markFailed("Your payment plan is not created, modified and cancelled")
 								resText = "Fail"
 								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 							}

@@ -69,7 +69,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethod'(row,dataFile)
-					
+					Thread.sleep(2000)
 					
 					// Select Credit Card Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCorporateCheck'))
@@ -80,6 +80,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Set Data on Corporate Payment Entry page
 					CustomKeywords.'iwpPages.achCorporatePaymentEntryPage.setDataCorporate'(row,dataFile)
+					Thread.sleep(2000)
 					
 					// Select Continue on Confirm page
 					//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
@@ -93,19 +94,13 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 						
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Receipt/ViewScheduledPaymentsButton'))							
 							
-							WebUI.switchToWindowTitle('View Scheduled Payments')
+							def title = findTestData(dataFile).getValue('Title', row)
+							
+							WebUI.switchToWindowTitle(title + 'View Scheduled Payments')
 							Thread.sleep(5000)
-							
-//							def payment_id_obj = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/payment_plan_id')).toString()
-//							def payment_id = payment_id_obj.substring(17,23)
-//							def new_href = 'javascript:deferredPaymentAction(\'cancel\', \'' + payment_id + '\');'
-//							def paymentplan_cancelLink = WebUI.modifyObjectProperty(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'),'href','equals',new_href,true)
-//							
-							
+										
 							if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))	
-//								WebUI.click(paymentplan_cancelLink)
-								
 							}
 							
 							if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) {
@@ -113,7 +108,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.acceptAlert()				
 							}
 							
-								
+							Thread.sleep(2000)
+							
 							if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {								
 								KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
 								resText = "Pass"

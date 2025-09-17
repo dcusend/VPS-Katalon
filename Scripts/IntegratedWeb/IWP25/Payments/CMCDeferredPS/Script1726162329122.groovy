@@ -93,7 +93,9 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 						
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Receipt/ViewScheduledPaymentsButton'))							
 							
-							WebUI.switchToWindowTitle('View Scheduled Payments')
+							def title = findTestData(dataFile).getValue('Title', row)
+							
+							WebUI.switchToWindowTitle(title + 'View Scheduled Payments')
 							Thread.sleep(5000)
 							
 //							def payment_id_obj = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/payment_plan_id')).toString()
@@ -111,6 +113,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/chkbox_acceptterms'))
 								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
 								
+								
 								if (WebUI.verifyTextPresent("Successful Payment Plan Update", false)) {						
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
 								}
@@ -123,7 +126,8 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.acceptAlert()				
 							}
 							
-								
+							Thread.sleep(2000)
+							
 							if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {								
 								KeywordUtil.markPassed("Your payment plan has been successfully created, modified and canceled")
 								resText = "Pass"

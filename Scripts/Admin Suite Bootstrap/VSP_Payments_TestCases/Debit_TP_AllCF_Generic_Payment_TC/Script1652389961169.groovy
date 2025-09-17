@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 
@@ -91,6 +92,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, tranType, last4V
 			if (ExecuteTC.equalsIgnoreCase("Y"))
 				{
 					System.out.println('Begin Record Number: ' + row)
+					KeywordUtil.logInfo("Record Number: " + row)
 		
 					Date today = new Date()
 					println (today)
@@ -102,9 +104,11 @@ String appName, appID, cardNameV, al1V, al2V, zipV, tranType, last4V
 					
 					// Select the Payment Application Name
 						WebUI.click(findTestObject(path_Dashboard + appName))
+						Thread.sleep(2000)
 						
 					// Select the Find Profile button
 						WebUI.click(findTestObject(path_VT + 'a_Find Profile'))
+						Thread.sleep(2000)
 
 					// SetData to Find Profile
 						String criteria, searchBy
@@ -118,13 +122,16 @@ String appName, appID, cardNameV, al1V, al2V, zipV, tranType, last4V
 						WebUI.setText(findTestObject(path_SearchProfile + 'input_Criteria'), criteria)
 												
 						WebUI.click(findTestObject(path_SearchProfile + 'button_Search'))
+						Thread.sleep(2000)
 						
 					// Select the Profile Name
 						profNameLink = findTestData(dataFile).getValue('ProfileNameLink', row)
 						WebUI.click(findTestObject(path_ViewProfile + profNameLink))
+						Thread.sleep(2000)
 						
 					// Select the Debit link
 						WebUI.click(findTestObject(path_ViewProfile + 'a_Debit'))
+						Thread.sleep(2000)
 						
 					// Verify Static text
 						
@@ -132,9 +139,12 @@ String appName, appID, cardNameV, al1V, al2V, zipV, tranType, last4V
 						
 					// Set Data on Debit page
 						CustomKeywords.'vspBootstrap.ACHDebitPage.setDataACHDebit'(row,dataFile)
+						Thread.sleep(2000)
 						
 					// Verify Static text
-						WebUI.verifyTextPresent('Transaction Successful', true)
+						if (WebUI.verifyTextPresent('Transaction Successful', true))
+							
+						{
 						
 						WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue'))
 						WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/Receipt/button_Continue'), 20)
@@ -271,7 +281,12 @@ String appName, appID, cardNameV, al1V, al2V, zipV, tranType, last4V
 
 							} 
 						
-					
+						}
+						
+						else
+						{
+							KeywordUtil.markFailed("Transaction was not successful, marking the test case as failed")
+						}
 						
 				}			
 				WebUI.closeBrowser()

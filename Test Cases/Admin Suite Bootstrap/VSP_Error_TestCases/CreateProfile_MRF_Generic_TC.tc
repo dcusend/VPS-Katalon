@@ -4,5 +4,6 @@
    <name>CreateProfile_MRF_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>59a33da4-1bc8-4372-b763-6abe92b8b9c0</testCaseGuid>
 </TestCaseEntity>

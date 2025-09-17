@@ -4,5 +4,6 @@
    <name>SuccessfulCCPayment</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4c453114-8744-4bad-9a83-2c1cde3fe55b</testCaseGuid>
 </TestCaseEntity>

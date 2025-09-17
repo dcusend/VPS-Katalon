@@ -4,5 +4,6 @@
    <name>AddCreditCard_MRF_Generic_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9c8a9c93-5fd6-4131-b926-5573b3b37bf8</testCaseGuid>
 </TestCaseEntity>

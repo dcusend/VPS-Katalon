@@ -112,6 +112,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					// Call setDataCreateProfile method
 						CustomKeywords.'vspBootstrap.CreateProfilePage.setDataCreateProfile_EF'(row,dataFile)
 						
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("Profile successfully created"), true)
 						
 						
@@ -121,7 +122,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					// Call setDataModifyProfile to Modify Profile
 						CustomKeywords.'vspBootstrap.ModifyProfilePage.setDataModifyProfile_EF'(row,dataFile)
-						
+						Thread.sleep(2000)
 						
 					// Verify Static Text and Fields
 						WebUI.verifyTextPresent(("Profile Modification"), true)
@@ -141,6 +142,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					// Select the Delete button
 						WebUI.click(findTestObject(path_DeleteProfileConfirm + 'button_Delete'))
+						Thread.sleep(2000)
 						WebUI.verifyTextPresent(("No Search String"), true)
 						WebUI.verifyTextPresent(("You must provide a search string of at least 2 characters"), true)
 						

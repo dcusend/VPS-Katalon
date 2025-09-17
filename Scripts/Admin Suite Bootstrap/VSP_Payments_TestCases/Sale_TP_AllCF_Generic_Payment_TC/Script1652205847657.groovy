@@ -102,9 +102,11 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 					
 					// Select the Payment Application Name
 						WebUI.click(findTestObject(path_Dashboard + appName))
+						Thread.sleep(2000)
 						
 					// Select the Find Profile button
 						WebUI.click(findTestObject(path_VT + 'a_Find Profile'))
+						Thread.sleep(2000)
 
 					// SetData to Find Profile
 						String criteria, searchBy
@@ -118,13 +120,16 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						WebUI.setText(findTestObject(path_SearchProfile + 'input_Criteria'), criteria)
 												
 						WebUI.click(findTestObject(path_SearchProfile + 'button_Search'))
+						Thread.sleep(2000)
 						
 					// Select the Profile Name
 						profNameLink = findTestData(dataFile).getValue('ProfileNameLink', row)
 						WebUI.click(findTestObject(path_ViewProfile + profNameLink))
+						Thread.sleep(2000)
 						
 					// Select the Authcap link
 						WebUI.click(findTestObject(path_ViewProfile + 'a_AuthCap'))
+						Thread.sleep(2000)
 						
 					// Verify Static text
 						WebUI.verifyTextPresent(("Credit Card Authorization Capture"), true)
@@ -134,6 +139,7 @@ String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV, last4V
 						
 					// Set Data on Sale page
 						CustomKeywords.'vspBootstrap.SalePage.setDataSaleAndAuth'(row,dataFile)
+						Thread.sleep(2000)
 						
 					// Verify Static text
 						WebUI.verifyTextPresent('Transaction Successful', true)
