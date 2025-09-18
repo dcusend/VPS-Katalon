@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -46,6 +45,11 @@ public class PendingBillPage {
 	}
 
 	@Keyword
+	def clickUserList() {
+		WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/a_UserList'))
+	}
+
+	@Keyword
 	def selectPaymentMethodCC() {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/BillsLabelPage/select_PaymentMethod'), "Credit Card", false)
 	}
@@ -67,6 +71,15 @@ public class PendingBillPage {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/BillsLabelPage/select_PaymentMethod'), "Check", false)
 	}
 
+	@Keyword
+	def clickAccountProfile() {
+		WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/a_AccountProfile'))
+	}
+
+	@Keyword
+	def clickSchedulePaymentIcon() {
+		WebUI.click(findTestObject('Object Repository/ABP/BillsLabelPage/img_SchedulePaymentIcon'))
+	}
 
 	//*********************************************************************************************
 

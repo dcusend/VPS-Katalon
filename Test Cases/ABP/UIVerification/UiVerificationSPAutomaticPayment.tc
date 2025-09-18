@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UiVerificationSPAutomaticPayment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3727e0e3-b466-4db9-9242-7d38ffb83d81</testCaseGuid>
+</TestCaseEntity>

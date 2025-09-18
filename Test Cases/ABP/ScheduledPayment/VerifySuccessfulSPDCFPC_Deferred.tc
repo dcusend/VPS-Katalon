@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifySuccessfulSPDCFPC_Deferred</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1298ad89-8227-41eb-b2b6-f28e6cec4061</testCaseGuid>
+</TestCaseEntity>

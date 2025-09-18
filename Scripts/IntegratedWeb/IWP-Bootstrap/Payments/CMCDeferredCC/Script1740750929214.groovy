@@ -127,28 +127,41 @@ for (def row = 1; row <= numOfRows; row++)
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_ViewScheduledPayments'))
 						
 						if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
-							WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/edit_payment'))	
+							WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ScheduledPayments_Bootstrap/a_Edit'))	
 								
 								// Set Data on Edit page
-								CustomKeywords.'iwpPages.editSchedulePayment.setDataSchedPayment'(row,dataFile)
+								CustomKeywords.'iwpPages.editSchedulePaymentBootstrap.setDataSchedPayment'(CardID,UDFID,CalDate)
 								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/chkbox_acceptterms'))
 								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
+								Thread.sleep(GlobalVariable.shortDelay)
 								
-								if (WebUI.verifyTextPresent("Successful Payment Plan Update", false)) {						
+								def editmsgText = WebUI.getText(findTestObject('Object Repository/IWP_Bootstrap/Page_EditScheduledPayment/div_Your payment plan has been successfully modified'))
+								println(editmsgText)
+								if (editmsgText.contains("Your payment plan has been successfully modified")) {
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
 								}
-								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))
+								Thread.sleep(GlobalVariable.shortDelay)
+								WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ScheduledPayments_Bootstrap/a_Cancel'))
+								
+								/*if (WebUI.verifyTextPresent("Your payment plan has been successfully modified", false)) {						
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
+								}
+								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))*/
 				
 						}
-						
+						Thread.sleep(GlobalVariable.shortDelay)
 						if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) {
 							WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_CancelPaymentPlan/btn_CancelPlan'))
 							/*WebUI.acceptAlert()*/
 							WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ImportantOperation/input_OK'))
 						}
 						
-							
-						if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {
+						def cancelmsgText = WebUI.getText(findTestObject('Object Repository/IWP_Bootstrap/Page_EditScheduledPayment/div_Your payment plan has been successfully modified'))
+						println(cancelmsgText)
+
+
+						if (cancelmsgText.contains("Your payment plan has been successfully canceled"))
+							{
 							KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
 							resText = "Pass"
 							println row
@@ -168,7 +181,7 @@ for (def row = 1; row <= numOfRows; row++)
 						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 					}
 			
-			WebUI.closeBrowser()
+			//WebUI.closeBrowser()
 			
 }
 			}

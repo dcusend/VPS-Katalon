@@ -73,6 +73,7 @@ for (def row = 1; row <= numOfRows; row++)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
+		Thread.sleep(shortDelay)
 		
 		//Assign boolean value if input_amount element is clickable
 		def isClickable = WebUI.verifyElementClickable(findTestObject('Object Repository/MultiBill/MultibillSearch/input__amount'))

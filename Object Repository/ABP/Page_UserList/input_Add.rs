@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Add</name>
+   <tag></tag>
+   <elementGuidId>881796f0-c54e-44f1-926d-c4ebf1762b29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;Add Payment Method&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='Add Payment Method']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=columnheader[name=&quot;Add&quot;i] >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>14297cae-8985-4370-b6e8-aeee11f268cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f081a175-69a6-4471-8b3c-d67e84c8b30b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Add Payment Method</value>
+      <webElementGuid>99246bcb-3396-496b-a31a-209f47eb406e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Add</value>
+      <webElementGuid>388decb5-ff07-4853-be3f-81db58cd6a84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>javascript:toURL('/vbills/imtiazcustomer/navigateCreateUserProfile.go?action=createUserProfile&amp;forgotType=null')</value>
+      <webElementGuid>e2b3e395-38e2-4627-9df4-0a37a036f6a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;userListForm&quot;)/table[@class=&quot;billTable&quot;]/tbody[1]/tr[1]/th[@class=&quot;buttons textRight&quot;]/input[1]</value>
+      <webElementGuid>da7fe5cb-22de-4dd2-a5fd-b679536e7516</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='Add Payment Method']</value>
+      <webElementGuid>3bf334bf-27e2-49c4-95f1-75bef19157f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='userListForm']/table/tbody/tr/th[4]/input</value>
+      <webElementGuid>59051796-95c8-4602-bf4e-94cc51eb749d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[4]/input</value>
+      <webElementGuid>1059e959-8a2b-4220-9d39-7aefa900fef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'button' and @name = 'Add Payment Method']</value>
+      <webElementGuid>99d8f79d-c25a-4ee5-b9d2-59e0ec7d195b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

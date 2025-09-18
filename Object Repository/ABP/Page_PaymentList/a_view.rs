@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_view</name>
+   <tag></tag>
+   <elementGuidId>5e6b00db-e114-4503-8f2f-831b2e9f70f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(9) > a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = concat(&quot;javascript:toURL(&quot; , &quot;'&quot; , &quot;/vbills/imtiazcustomer/schedulePayment.go?action=viewPendingPayment&amp;forgotType=null&amp;id=119732&amp;fullRemitId=918-152028-0910202511-119732-0&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'view' or . = 'view')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;paymentPlan&quot;]/tbody/tr[1]/td[9]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;PENDING 1 ImtiazABPdoubleCF Web 918-152028- 0910202511-119732-0 09/11/2025 09/10/2025 11:07 AM
+EST $15.00 view |edit | cancel&quot;i] >> internal:role=link >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2c93ad70-a6c0-4d4a-8d90-f3e6b0a3d670</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:toURL('/vbills/imtiazcustomer/schedulePayment.go?action=viewPendingPayment&amp;forgotType=null&amp;id=119732&amp;fullRemitId=918-152028-0910202511-119732-0')</value>
+      <webElementGuid>c5e2ce3a-f318-4916-ac4d-0551a745cfb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>view</value>
+      <webElementGuid>c111099c-4d18-4df6-a8d9-4b4ec453f789</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;paymentPlan&quot;]/tbody/tr[1]/td[9]/a[1]</value>
+      <webElementGuid>f4d9a8b3-a4af-47c2-b58b-3a07e249df2a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='paymentPlan']/tbody/tr/td[9]/a</value>
+      <webElementGuid>730a4fed-cd76-4ed0-8f9e-74e1f08b70d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'view')]</value>
+      <webElementGuid>81bccc85-681e-464a-897b-7f889ba7df1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$15.00'])[1]/following::a[1]</value>
+      <webElementGuid>7d2ef22a-ab11-4282-b365-dd1a99ae7e3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='edit'])[1]/preceding::a[1]</value>
+      <webElementGuid>c02968d1-4c7c-48e2-a6ca-f4bf7f4bd112</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENDING'])[2]/preceding::a[3]</value>
+      <webElementGuid>d2eefae3-f96a-4b9a-bbfe-28ebfdc82a51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='view']/parent::*</value>
+      <webElementGuid>bd00f79d-1cab-4d07-b995-64a2f9983f1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:toURL('/vbills/imtiazcustomer/schedulePayment.go?action=viewPendingPayment&amp;forgotType=null&amp;id=119732&amp;fullRemitId=918-152028-0910202511-119732-0')&quot;)]</value>
+      <webElementGuid>26ecf187-32af-4620-a187-a08d03871b79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/a</value>
+      <webElementGuid>43b7cdc8-4746-4ba1-b295-b047c0278bb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = concat(&quot;javascript:toURL(&quot; , &quot;'&quot; , &quot;/vbills/imtiazcustomer/schedulePayment.go?action=viewPendingPayment&amp;forgotType=null&amp;id=119732&amp;fullRemitId=918-152028-0910202511-119732-0&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'view' or . = 'view')]</value>
+      <webElementGuid>da8cc638-9b1d-4f53-aab4-26d794919cbd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

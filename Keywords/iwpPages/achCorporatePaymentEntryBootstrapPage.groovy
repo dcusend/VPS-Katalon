@@ -255,16 +255,16 @@ public class achCorporatePaymentEntryBootstrapPage {
 			def ID = dataFileudf.getValue("ID", row)
 
 			if(ID.equals(udfG)) {
-				udf1 =dataFileudf.getValue("udf1", row)
-				udf2 =dataFileudf.getValue("udf2", row)
-				udf3 =dataFileudf.getValue("udf3", row)
-				udf4 =dataFileudf.getValue("udf4", row)
-				udf5 =dataFileudf.getValue("udf5", row)
-				udf6 =dataFileudf.getValue("udf6", row)
-				udf7 =dataFileudf.getValue("udf7", row)
-				udf8 =dataFileudf.getValue("udf8", row)
-				udf9 =dataFileudf.getValue("udf9", row)
-				udf10 =dataFileudf.getValue("udf10",row)
+				udf1 =dataFileudf.getValue("UDF1", row)
+				udf2 =dataFileudf.getValue("UDF2", row)
+				udf3 =dataFileudf.getValue("UDF3", row)
+				udf4 =dataFileudf.getValue("UDF4", row)
+				udf5 =dataFileudf.getValue("UDF5", row)
+				udf6 =dataFileudf.getValue("UDF6", row)
+				udf7 =dataFileudf.getValue("UDF7", row)
+				udf8 =dataFileudf.getValue("UDF8", row)
+				udf9 =dataFileudf.getValue("UDF9", row)
+				udf10 =dataFileudf.getValue("UDF10",row)
 			}
 		}
 	}

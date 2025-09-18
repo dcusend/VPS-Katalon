@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UiVerificationSPPaymentMethodPS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42eb941f-0665-4ef7-b265-856fd52cc7cd</testCaseGuid>
+</TestCaseEntity>
