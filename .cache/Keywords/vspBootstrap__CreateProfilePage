@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "7A791382E03D02DB15947010B9F29EA3",
+  "keywordFileContentHash": "60633CA0DBC440035A167643C6680685",
   "keywordClasses": [
     {
       "name": "vspBootstrap.CreateProfilePage",
@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCreateProfile_EF",
@@ -64,7 +65,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataONLYCreateProfile",
@@ -95,7 +97,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataONLYCreateProfile_EF",
@@ -126,10 +129,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "689C83C49B2AF64C44A72C82CABA7675",
+  "keywordFileContentHash": "84A79DD802B8DD208D3ABD8B2EBF0C58",
   "keywordClasses": [
     {
       "name": "vspBootstrap.SearchProfilePage",
@@ -33,11 +33,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

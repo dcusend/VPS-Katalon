@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0FFC19A6D1B4AF437C742347E36F5246",
+  "keywordFileContentHash": "A01DFFE2911E38593FDD756B4648B314",
   "keywordClasses": [
     {
       "name": "vspBootstrap.AddACHPage",
@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataAddACH_EF",
@@ -64,10 +65,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

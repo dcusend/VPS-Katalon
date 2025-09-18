@@ -45,6 +45,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 		{
 		
 			isRequiredTextPresent = true
+			
 			AppID = dataFile.getValue('AppID', row)
 					
 			ExecuteTC = dataFile.getValue('Execute', row)
@@ -73,36 +74,37 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 					
+					WebUI.delay(5)
 					//Emulator Amount on Confirm Page
 					
-						Amount = dataFile.getValue('EmulatorAmount', row)
+						Amount = dataFile.getValue('ConfirmAmount', row)
 						println(Amount)
 						WebUI.verifyTextPresent(Amount, false)
 					
 					
 					def stringArray, VerificationText
-					if(Amount == '$5') {
-						VerificationText =  "American Express, Service Fee = \$1.00, Discover, Service Fee = \$2.00, MasterCard, Service Fee = \$3.00, MasterCard Debit, Service Fee = \$4.00, Visa, Service Fee = \$5.00, Visa Debit, Service Fee = \$6.00, Personal Check, Service Fee = \$7.00, Corporate Check, Service Fee = \$8.00"						
+					if(Amount == '$5.00') {
+						VerificationText =  "American Express, CF Label = \$1.00, Diners Club, CF Label = \$0.00,  Discover, CF Label = \$2.00, MasterCard, CF Label = \$3.00, MasterCard Debit, CF Label = \$4.00, Unbranded Debit Card, CF Label = \$0.00,  Visa, CF Label = \$5.00, Visa Debit, CF Label = \$6.00, Personal Check, CF Label = \$7.00, Corporate Check, CF Label = \$8.00"						
 						stringArray = VerificationText.split(",")
 						System.out.println('string array ' +  stringArray)						
 					}
-					else if(Amount == '$200') {
-						VerificationText =  "American Express, Service Fee = \$10.00, Discover, Service Fee = \$10.00, MasterCard, Service Fee = \$10.00, MasterCard Debit, Service Fee = \$10.00, Visa, Service Fee = \$10.00, Visa Debit, Service Fee = \$10.00, Personal Check, Service Fee = \$10.00, Corporate Check, Service Fee = \$10.00"
+					else if(Amount == '$200.00') {
+						VerificationText =  "American Express, CF Label = \$10.00, Diners Club, CF Label = \$0.00, Discover, CF Label = \$10.00, MasterCard, CF Label = \$10.00, MasterCard Debit, CF Label = \$10.00, Unbranded Debit Card, CF Label = \$0.00, Visa, CF Label = \$10.00, Visa Debit, CF Label = \$10.00, Personal Check, CF Label = \$10.00, Corporate Check, CF Label = \$10.00"
 						stringArray = VerificationText.split(",")
 						System.out.println('string array ' +  stringArray)
 					}
 					else if(Amount == '$10.50') {
-						VerificationText =  "American Express, Service Fee = \$1.00, Discover, Service Fee = \$2.00, MasterCard, Service Fee = \$3.00, MasterCard Debit, Service Fee = \$4.00, Visa, Service Fee = \$5.00, Visa Debit, Service Fee = \$6.00, Personal Check, Service Fee = \$7.00, Corporate Check, Service Fee = \$8.00"						
+						VerificationText =  "American Express, CF Label = \$1.00, Diners Club, CF Label = \$0.00,  Discover, CF Label = \$2.00, MasterCard, CF Label = \$3.00, MasterCard Debit, CF Label = \$4.00, Unbranded Debit Card, CF Label = \$0.00,  Visa, CF Label = \$5.00, Visa Debit, CF Label = \$6.00, Personal Check, CF Label = \$7.00, Corporate Check, CF Label = \$8.00"						
 						stringArray = VerificationText.split(",")
 						System.out.println('string array ' +  stringArray)
 					}
 					else if(Amount == '$10.899') {
-						VerificationText =  "American Express, Service Fee = \$1.00, Discover, Service Fee = \$2.00, MasterCard, Service Fee = \$3.00, MasterCard Debit, Service Fee = \$4.00, Visa, Service Fee = \$5.00, Visa Debit, Service Fee = \$6.00, Personal Check, Service Fee = \$7.00, Corporate Check, Service Fee = \$8.00"	
+						VerificationText =  "American Express, CF Label = \$1.00, Diners Club, CF Label = \$0.00,  Discover, CF Label = \$2.00, MasterCard, CF Label = \$3.00, MasterCard Debit, CF Label = \$4.00, Unbranded Debit Card, CF Label = \$0.00,  Visa, CF Label = \$5.00, Visa Debit, CF Label = \$6.00, Personal Check, CF Label = \$7.00, Corporate Check, CF Label = \$8.00"						
 						stringArray = VerificationText.split(",")
 						System.out.println('string array ' +  stringArray)
 					}
 					else if(Amount == '$20.8899') {
-						VerificationText =  "American Express, Service Fee = \$1.00, Discover, Service Fee = \$2.00, MasterCard, Service Fee = \$3.00, MasterCard Debit, Service Fee = \$4.00, Visa, Service Fee = \$5.00, Visa Debit, Service Fee = \$6.00, Personal Check, Service Fee = \$7.00, Corporate Check, Service Fee = \$8.00"	
+						VerificationText =  "American Express, CF Label = \$1.00, Diners Club, CF Label = \$0.00,  Discover, CF Label = \$2.00, MasterCard, CF Label = \$3.00, MasterCard Debit, CF Label = \$4.00, Unbranded Debit Card, CF Label = \$0.00,  Visa, CF Label = \$5.00, Visa Debit, CF Label = \$6.00, Personal Check, CF Label = \$7.00, Corporate Check, CF Label = \$8.00"						
 						stringArray = VerificationText.split(",")
 						System.out.println('string array ' +  stringArray)
 					}
@@ -141,8 +143,10 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 					
 					// Select Continue on Confirm page
 						WebUI.click(findTestObject('Object Repository/DisplayConvFees/Page_Confirmation/btn_confirm'))
-					
-						if(isRequiredTextPresent) {						
+						
+						WebUI.delay(5)
+						
+						if(isRequiredTextPresent) {					
 							if(WebUI.verifyTextPresent('CF Label', false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)
@@ -223,7 +227,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 							}
 						}
 													
-					if(AppID == '5100' || AppID == '5102') {
+					if(AppID == '920' || AppID == '921') {
 						if(isRequiredTextPresent) {					
 							if(WebUI.verifyTextPresent('One transaction in the amount of ' + totalAmount + ' will appear on your bank statement.', false)) {
 								isRequiredTextPresent = true
@@ -235,7 +239,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 							}
 						}
 					}
-					else if(AppID == '5101' || AppID == '5103') {					
+					else if(AppID == '914' || AppID == '915') {					
 						if(isRequiredTextPresent) {
 							if(WebUI.verifyTextPresent('Two transactions will appear on your bank statement, one in the amount of ' + confirmAmount + ' and one in the amount of ' + feesAccept, false)) {
 								isRequiredTextPresent = true

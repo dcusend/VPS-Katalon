@@ -1,23 +1,20 @@
 {
-  "keywordFileContentHash": "584FF67EDA3C0C9EA02FDD856D05DA8D",
+  "keywordFileContentHash": "98803953905A5F54A7DFE52B4F6C73A5",
   "keywordClasses": [
     {
       "name": "pages.GenerateRandom",
       "keywordMethods": [
         {
           "name": "getRandomAlphaNum",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "getRandomAlpha",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "getRandomNum",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "getRandomAlphaNumCustomLength",
@@ -35,11 +32,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

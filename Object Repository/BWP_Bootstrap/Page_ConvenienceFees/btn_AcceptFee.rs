@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_AcceptFee</name>
+   <tag></tag>
+   <elementGuidId>eb67178e-cee4-48c1-b1ca-a89672067e52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'convFeeNotifyAction' and @type = 'submit' and @value = 'Accept Fee and Process Payment']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>convFeeNotifyAction</value>
+      <webElementGuid>35af00ac-f58d-441e-b68b-d88548951594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>b4ff65a3-6e5a-4bbe-bf5f-2294ff1e4c64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Accept Fee and Process Payment</value>
+      <webElementGuid>94114662-3970-4661-b95b-93968a33d75b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
