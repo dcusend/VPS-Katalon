@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify Ui text on scheduled payment page bills label section</description>
+   <name>UiVerificationSPBillsLabel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d61c759e-ef2e-429a-a6e5-20dcb2b49ecf</testCaseGuid>
+</TestCaseEntity>

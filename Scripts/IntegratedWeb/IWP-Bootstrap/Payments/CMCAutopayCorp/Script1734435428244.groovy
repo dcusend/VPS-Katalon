@@ -124,7 +124,7 @@ for (def row = 1; row <= numOfRows; row++)
 					//Click on Cancel Payment Button
 				WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_modify'))
 				WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_EditPaymentPlan_Autopay/btn_savechanges'))
-				
+				Thread.sleep(GlobalVariable.shortDelay)
 				if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 					WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))
@@ -151,5 +151,5 @@ for (def row = 1; row <= numOfRows; row++)
 						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 					}
 			}
-			WebUI.closeBrowser()
+			//WebUI.closeBrowser()
 }

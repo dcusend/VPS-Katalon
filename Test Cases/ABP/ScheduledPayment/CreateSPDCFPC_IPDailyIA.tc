@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateSPDCFPC_IPDailyIA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3aa916a6-cbb6-4881-abc2-5a3dda66382f</testCaseGuid>
+</TestCaseEntity>

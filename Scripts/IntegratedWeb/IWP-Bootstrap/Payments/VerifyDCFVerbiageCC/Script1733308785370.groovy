@@ -214,5 +214,7 @@ for (def row = 1; row <= numOfRows; row++)
 											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 										}
 								}
-					}
+					WebUI.closeBrowser()
+								}
+					
 				

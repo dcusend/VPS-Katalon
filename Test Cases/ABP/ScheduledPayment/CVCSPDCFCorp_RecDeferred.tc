@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CVCSPDCFCorp_RecDeferred</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a2c70c48-8c96-4529-8e51-7d0942893284</testCaseGuid>
+</TestCaseEntity>

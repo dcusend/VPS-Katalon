@@ -152,10 +152,10 @@ for (def row = 1; row <= numOfRows; row++)
 					}
 					else
 						{
-							KeywordUtil.markFailed("Deferred is not present on page")
+							KeywordUtil.markFailed("Autopay is not present on page")
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
 				}
-				WebUI.closeBrowser()
+				//WebUI.closeBrowser()
 	}

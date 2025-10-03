@@ -75,11 +75,15 @@ for (def row = 1; row <= numOfRows; row++)
 		
 		CustomKeywords.'multiBillPages.searchPage.selectAddtoCart'()
 		
+		Thread.sleep(GlobalVariable.shortDelay)
+		
 		CustomKeywords.'multiBillPages.searchPage.selectViewCart'()
 		
 		Thread.sleep(10000)
 		
 		if(WebUI.verifyTextPresent("Cart Contents", false)) {
+			
+			Thread.sleep(10000)
 			
 			def isRemoveFromCartExist = WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/CartContents/btn_removefromCartIcon'),10)
 			

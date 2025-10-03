@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_PaymentPlanFrequency</name>
+   <tag></tag>
+   <elementGuidId>6ba1b6bd-2e74-4050-8162-dcc75c190745</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#paymentPlanType</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'paymentPlanType' and @id = 'paymentPlanType']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='paymentPlanType']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#paymentPlanType</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>942b4325-9a33-4768-8961-8cc80ca1332a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentPlanType</value>
+      <webElementGuid>f490048a-af91-4176-8416-eddce015d019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>paymentPlanChanged()</value>
+      <webElementGuid>93611354-1ced-4c08-9ff5-0f5724b6cbc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>paymentPlanType</value>
+      <webElementGuid>379e1d50-e6ba-4540-acc3-48201ebe6d51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select One
+                        Deferred
+Daily
+Weekly
+Monthly
+Quarterly
+Annual</value>
+      <webElementGuid>b2e6d070-bec9-4350-9509-cf8a83572396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;paymentPlanType&quot;)</value>
+      <webElementGuid>ece29979-1d13-460d-a562-de32a825983b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='paymentPlanType']</value>
+      <webElementGuid>b263b3f3-6031-4433-9604-48b03c2b75f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divFrequencyOfPayments']/table/tbody/tr/td/select</value>
+      <webElementGuid>c4e66d2c-1fdf-4451-9c6e-efebe4fecaf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Payment Plan Frequency'])[1]/following::select[1]</value>
+      <webElementGuid>5a6e51c8-2732-4e63-970b-592334a32406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automatic Payment - Bills are automatically paid 3 calendar days before the Due Date.'])[1]/following::select[1]</value>
+      <webElementGuid>d940dd24-f656-40ee-beaf-52043b32c4ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select the date you wish to submit your payment'])[1]/preceding::select[1]</value>
+      <webElementGuid>b016de80-69a2-461b-9d2a-699730934004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select the date you wish to submit your first payment and it will recur every day after'])[1]/preceding::select[1]</value>
+      <webElementGuid>137d4604-9083-461a-8c21-ee6d056871c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr/td/select</value>
+      <webElementGuid>469ef242-b97e-4a5d-aa83-affdf0ce5e08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'paymentPlanType' and @id = 'paymentPlanType' and (text() = 'Select One
+                        Deferred
+Daily
+Weekly
+Monthly
+Quarterly
+Annual' or . = 'Select One
+                        Deferred
+Daily
+Weekly
+Monthly
+Quarterly
+Annual')]</value>
+      <webElementGuid>7b539d81-6b82-416d-b4ca-d2d521543ba1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Role</name>
+   <tag></tag>
+   <elementGuidId>ac22beb9-761a-48ca-b23b-d226af3e77c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#accountType</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='accountType']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#accountType</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>67727575-19b3-4fcd-82a2-063691d54cc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>userForm.userRole</value>
+      <webElementGuid>b82fe9c8-40e8-4374-b562-9d8331dd1b48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>accountType</value>
+      <webElementGuid>67a43263-fe84-4301-aaf9-edc2bb7b7ee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select One
+                                    Profile Owner
+Payer</value>
+      <webElementGuid>fc586152-4c7b-40e8-b5be-65cfa79d4072</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accountType&quot;)</value>
+      <webElementGuid>558c3d6f-e5c8-4df1-a416-6a32ebd8cac7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='accountType']</value>
+      <webElementGuid>608d6561-07e0-4f35-8a1e-3ec037a854d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
+      <webElementGuid>fe3597c3-ad62-4432-996c-76e6d5546102</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role:'])[1]/following::select[1]</value>
+      <webElementGuid>376732b1-c7af-4da1-a65b-d0c4a5ca54ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name:'])[1]/preceding::select[1]</value>
+      <webElementGuid>51e32def-ec81-45c3-8851-47a3b73bb0c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>83bee5ab-9f25-4d4f-8957-ef463acdc0cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'userForm.userRole' and @id = 'accountType' and (text() = 'Select One
+                                    Profile Owner
+Payer' or . = 'Select One
+                                    Profile Owner
+Payer')]</value>
+      <webElementGuid>7366e6a3-3613-4f1f-8789-2a449afa647e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

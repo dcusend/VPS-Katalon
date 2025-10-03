@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CVCSPDCFPS_AutomaticPayment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b8620c8-8f5d-4eaa-833c-353c1b0a2a14</testCaseGuid>
+</TestCaseEntity>

@@ -62,10 +62,13 @@ for (def row = 1; row <= numOfRows; row++)
 				//Login to ABP Application 
 				CustomKeywords.'abpPages.LoginPage.setLoginDataMethod'(username,password)
 				
+				//to navigate to Payments Method Page
 				CustomKeywords.'abpPages.PendingBillPage.clickPaymentsMethod'()
 				
+				//Clicks on Add button
 				CustomKeywords.'abpPages.PaymentsMethodPage.clickAddButton'()
 				
+				//Generates nick name and pass data to set nickname
 				CustomKeywords.'abpPages.PaymentsMethodPage.setDataNickNameID'(nickNameID)
 				
 				//select credit card payment method from drop down
