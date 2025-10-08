@@ -4,5 +4,6 @@
    <name>LandingPage_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>53b4af77-0954-4781-b268-a0a2e344b59b</testCaseGuid>
 </TestCaseEntity>

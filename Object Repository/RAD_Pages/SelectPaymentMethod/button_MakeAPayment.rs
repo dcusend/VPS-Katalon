@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Continue</name>
+   <name>button_MakeAPayment</name>
    <tag></tag>
-   <elementGuidId>227e7974-ae0f-40bd-adb3-b3d3cf0a8593</elementGuidId>
+   <elementGuidId>67f71c57-6da0-4d62-8d16-72ac85c8b9fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'btn float-end w-auto btnContinue' and @id = '#btnContinue' and (text() = 'Continue' or . = 'Continue')]</value>
+         <value>//*[@type = 'submit' and @class = 'btn btn-primary btn-block' and @value = 'Make a Payment']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,25 +16,25 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>4e47d552-1efe-4c06-b56d-0989a241cd95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn float-end w-auto btnContinue</value>
-      <webElementGuid>ae545480-5a9f-4d97-b28e-43b26c125ee0</webElementGuid>
+      <value>btn btn-primary btn-block</value>
+      <webElementGuid>25450c75-912a-4f61-bc52-2f9034b5aada</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>value</name>
       <type>Main</type>
-      <value>#btnContinue</value>
-      <webElementGuid>a7ac1732-4686-4951-854e-88085c217b08</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Continue</value>
-      <webElementGuid>04575f0a-9ea9-462c-a608-368eb0dfe1c7</webElementGuid>
+      <value>Make a Payment</value>
+      <webElementGuid>2e4c6b76-6efd-4bbb-87eb-6097e2930885</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

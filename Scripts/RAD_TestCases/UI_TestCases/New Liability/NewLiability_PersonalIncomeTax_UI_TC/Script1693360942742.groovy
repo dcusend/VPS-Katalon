@@ -230,13 +230,15 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 * ###########################################################
 */
 		
-		WebUI.delay(10)
+		WebUI.delay(5)
 				
 		//WebUI.scrollToElement(findTestObject(orPath_FilingStatus + '/input_userType_Joint'), 3)
 		
 		WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 		
 		WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
+		
+		WebUI.delay(5)
 		
 		WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 				

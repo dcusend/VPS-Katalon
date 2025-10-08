@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
-
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 //def taxTypeDropList = ["Quarterly Estimated Tax","Extension Payments","Existing Liability w/Notice Number","New Tax Return Amount Due"]
 
@@ -48,13 +48,40 @@ WebUI.delay(1)
 
 //WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 3)
 
-WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"1.00")
+//WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight);', null)
+
+
+if (WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/input__paymentAmount'), 30))
+	{
+		WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"1.00")
+		System.out.println('Amount textbox found on the page the page')
+	}
+else
+	{
+		System.out.println('Unable to Scroll to the bottom of the page')
+		KeywordUtil.markWarning("Unable to Scroll to the bottom of the page")
+	}
+
+	WebUI.delay(5)
+
+	if (WebUI.verifyElementPresent(findTestObject(orPath_Landing + '/a_Click here for details'), 30))
+		{
+			WebUI.click(findTestObject(orPath_Landing + '/a_Click here for details'))
+			System.out.println('Click Here for Details link was found on the page the page')
+		}
+	else
+		{
+			System.out.println('Click Here for Details link was NOT found on the page the page')
+			KeywordUtil.markWarning("Click Here for Details link was NOT found on the page the page")
+		}
+
+
 
 //WebUI.scrollToElement(findTestObject(orPath_Landing + '/a_Click here for details'), 3)
 
 //WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight);', null)
 
-WebUI.click(findTestObject(orPath_Landing + '/a_Click here for details'))
+//WebUI.click(findTestObject(orPath_Landing + '/a_Click here for details'))
 
 WebUI.delay(2)
 
@@ -63,11 +90,21 @@ WebUI.delay(2)
 
 
 // New CF Verbiage
-String cfVerbiageQA = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover."
+//String cfVerbiageQA = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover."
 
 //WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageQA)
 
-String cfVerbiageDemo = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover."
+//String cfVerbiageDemo = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed through this application. This fee is assessed by Govolution, LLC and will post as a separate transaction. Accepted credit cards include Visa, Mastercard, and Discover."
+
+
+// Added 10/03/2025 as part of new changes
+
+String cfVerbiageQA = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed with a credit card through this application. Accepted credit cards include Visa, Mastercard, and Discover. Payments processed with an electronic check will not be assessed a service/convenience fee. Any fee is assessed by Govolution, LLC and will post as a separate transaction."
+String cfVerbiageDemo = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed with a credit card through this application. Accepted credit cards include Visa, Mastercard, and Discover. Payments processed with an electronic check will not be assessed a service/convenience fee. Any fee is assessed by Govolution, LLC and will post as a separate transaction."
+String cfVerbiageUpgrade = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed with a credit card through this application. Accepted credit cards include Visa, Mastercard, and Discover. Payments processed with an electronic check will not be assessed a service/convenience fee. Any fee is assessed by Govolution, LLC and will post as a separate transaction."
+String cfVerbiageProd = "This electronic government service includes a 2.45% service/convenience fee, with a \$1.00 minimum, for payments processed with a credit card through this application. Accepted credit cards include Visa, Mastercard, and Discover. Payments processed with an electronic check will not be assessed a service/convenience fee. Any fee is assessed by Govolution, LLC and will post as a separate transaction."
+
+
 
 
 switch(executionProfile)
@@ -84,14 +121,13 @@ switch(executionProfile)
 			WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageDemo)
 	break
 	
-//	case "Production":
-			
-//	break
+	case "Production":
+			WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageProd)
+	break
 	
-//	case "Upgrade":
-//			appName = findTestData(dataFile).getValue('AppNameProd', row)
-//			appID = findTestData(dataFile).getValue('AppIDProd', row)
-//	break
+	case "Upgrade":
+			WebUI.verifyElementText(findTestObject(orPath_Landing + '/div_ServiceFeesVerbiage'), cfVerbiageUpgrade)
+	break
 }
 
 

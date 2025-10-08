@@ -6,19 +6,20 @@
    <elementGuidId>28eb45fe-3085-4628-b2dd-813d00c529ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='data']</value>
+         <key>BASIC</key>
+         <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'Re-Type FEIN *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Enter valid FEIN with 9 digits_tx_if_a5ef47']) = count(//*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'Re-Type FEIN *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Enter valid FEIN with 9 digits_tx_if_a5ef47'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#data</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'Re-Type FEIN Number *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Enter valid FEIN with 9 digits_tx_if_a5ef47']) = count(//*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'Re-Type FEIN Number *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_Enter valid FEIN with 9 digits_tx_if_a5ef47'])]</value>
+         <key>XPATH</key>
+         <value>//input[@id='data']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>d393e28f-6c44-46d0-8079-1fe0164c1cd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +35,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>b7b1d1ea-bd00-4671-a81c-1460d9f266ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>data</value>
+      <webElementGuid>ea1a2267-4794-4a00-88fc-d347bab90d20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +51,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Data</value>
+      <webElementGuid>40ddf0d8-4b15-4a6f-903a-a7fe250d5157</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,13 +59,15 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>e5faf00e-c772-404d-ad0e-1ad6ce992b1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Re-Type FEIN Number *</value>
+      <value>Re-Type FEIN *</value>
+      <webElementGuid>76804ff4-988d-4ef7-bc2a-433a472bb861</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,6 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;data&quot;)</value>
+      <webElementGuid>a3c3e71e-d864-4bbe-83d7-0d09f58d4b9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,6 +83,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/RAD_Pages/TaxInfo_Page/iframe_Enter valid FEIN with 9 digits_tx_if_a5ef47</value>
+      <webElementGuid>3fc9b78c-aad1-4af0-83c6-00e7546a811a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,6 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='data']</value>
+      <webElementGuid>d80254b7-bf77-45bf-afa8-ea55f2d5cbe4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[20]</value>
+      <webElementGuid>d9740146-cc85-4944-99d1-d39929f8c28f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'Re-Type FEIN Number *']</value>
+      <webElementGuid>1f8b60c2-514b-48bf-ad5e-47de2a18f946</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

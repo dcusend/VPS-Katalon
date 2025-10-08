@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PayByPersonalCheck</name>
+   <tag></tag>
+   <elementGuidId>579cf707-feb3-4754-bbd1-f46c108fe3e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'PC' and @value = 'P']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>PC</value>
+      <webElementGuid>5e8ae049-dcba-497c-abd6-56eccf97828e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>P</value>
+      <webElementGuid>08a9803f-3043-4f73-93a1-87c372e40c1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentMethodSelect</value>
+      <webElementGuid>e06d6882-8ab9-48f5-8f69-3ef36a5ca202</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay by Personal Check</value>
+      <webElementGuid>0a7d1041-da0b-45d1-912f-3e6b034fc191</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

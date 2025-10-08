@@ -4,5 +4,6 @@
    <name>Estimated_BeforePayments_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4a8a62cb-226d-4c46-93ae-272d7f313a74</testCaseGuid>
 </TestCaseEntity>

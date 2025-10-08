@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Continue_OLD</name>
+   <tag></tag>
+   <elementGuidId>8c85467e-e0c0-40f6-bcfb-efe9d1a64c03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.float-end.w-auto</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='taxForm']/div[12]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn btn-primary float-end w-auto disablecontinue' and (text() = 'Continue' or . = 'Continue')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f709eaf1-89d5-40b8-be84-ad6de909e16c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary float-end w-auto disablecontinue</value>
+      <webElementGuid>41b16cec-775f-4459-8dd6-a91a6be5b976</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>57e1af1e-9828-4a2e-b299-a7dc3f9fe7d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;taxForm&quot;)/div[@class=&quot;w-100 mt-auto pt-3&quot;]/button[@class=&quot;btn btn-primary float-end w-auto&quot;]</value>
+      <webElementGuid>6b3e7615-bab9-45bf-99d2-9fc405f594d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='taxForm']/div[12]/button</value>
+      <webElementGuid>58af0f1e-7082-42bd-a761-0041b2747676</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='service/convenience fee'])[1]/following::button[1]</value>
+      <webElementGuid>0b061a6c-7f0f-4196-8619-109530647254</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Service Fee:'])[1]/following::button[1]</value>
+      <webElementGuid>792d68d0-5aa9-4e04-96c3-336a56697e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Progress'])[1]/preceding::button[1]</value>
+      <webElementGuid>7a2caf35-e69a-4ede-bfac-439e52083a04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
+      <webElementGuid>84a4fe93-9f78-45b4-bf2a-33108c531a5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/button</value>
+      <webElementGuid>fea78d3b-3119-4923-a2e7-25b657734c62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

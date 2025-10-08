@@ -141,6 +141,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Select Joint Filer and populated SSN and Names
 						WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
 						WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'),5)
+						WebUI.delay(5)
 						WebUI.check(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'))
 						WebUI.delay(2)
 						
