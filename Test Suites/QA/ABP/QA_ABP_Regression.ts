@@ -410,4 +410,11 @@
       <testCaseId>Test Cases/ABP/UserListPage/VerifyUsernameLength</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a53d119b-6d52-4b7a-b889-5586bcfcf6e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ABP/GuestPay/VerifySuccessfullPaymentNoCFCC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
