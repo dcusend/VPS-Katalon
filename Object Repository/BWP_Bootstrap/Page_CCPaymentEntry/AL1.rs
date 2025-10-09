@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'billingAddress']</value>
+         <value>//*[@name = 'billingAddress' and @id = 'billingAddress']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,6 +19,14 @@
       <name>name</name>
       <type>Main</type>
       <value>billingAddress</value>
-      <webElementGuid>b39e09a8-6344-4d48-b8da-83451ccacac9</webElementGuid>
+      <webElementGuid>67d9a3b5-cc59-4a3e-a9bb-cae7afb8f2cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billingAddress</value>
+      <webElementGuid>10bbc83b-b7b0-48ad-b182-e830beb848db</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

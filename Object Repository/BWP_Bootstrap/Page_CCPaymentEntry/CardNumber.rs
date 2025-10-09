@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'password_cardNumber']</value>
+         <value>//*[@name = 'password_cardNumber' and @type = 'text' and @id = 'cardNumber']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,23 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password_cardNumber</value>
-      <webElementGuid>2823ca87-0793-4113-bbbb-22b4e3f3ba8b</webElementGuid>
+      <value>cardNumber</value>
+      <webElementGuid>fe1d0643-48ba-4768-a290-d80b036548a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>1fe2e063-e917-4325-a782-5f5ad8383b17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cardNumber</value>
+      <webElementGuid>a844d968-3bd6-46d1-ac8d-e77d8e9f1335</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -21,13 +21,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class paymentConfirmationBootstrapPage {
-	
-	String pathConfirmation = "Object Repository/BWP_Automation/Page_Confirmation/"
-	
-	
-		// Select Confirm Button
-		@Keyword
-		def selectButtonConfirm() {
-			WebUI.click(findTestObject(pathConfirmation + 'input_Confirm'))
-		}
+
+	String pathConfirmation = "Object Repository/BWP_Bootstrap/Page_Confirmation/"
+
+
+	// Select Confirm Button
+	@Keyword
+	def selectButtonConfirm() {
+		WebUI.click(findTestObject(pathConfirmation + 'ConfirmButton'))
+	}
 }

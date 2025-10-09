@@ -29,10 +29,13 @@ public class ccPaymentEntryBootstrapPage {
 
 	String pathSharedData = "KatalonData/BWPBootstrapData/NormalizedSharedData.xlsx"
 	String pathOR = "Object Repository/BWP_Bootstrap/Page_CCPaymentEntry/"
+	String nameID,CardID,EmailPhoneID,AddressID,AmountS, UDFID
 
 
 	@Keyword
-	def setDataCCMain(nameID,CardID,EmailPhoneID,AddressID,AmountS, UDFID) {
+	def setDataCCMain(nameID, CardID, EmailPhoneID, AddressID, AmountS, UDFID, AppID) {
+		println(AmountS)
+		appID = AppID
 		this.setDataCardName(nameID)
 		this.setDataCardInfo(CardID)
 		this.setDataCardAddress(AddressID)
@@ -73,8 +76,10 @@ public class ccPaymentEntryBootstrapPage {
 
 	@Keyword
 	def setDataCardName(String nameIDS) {
-
+		println(nameIDS)
 		this.getDataCardName(nameIDS)
+
+		println(cardholderName)
 
 		if ((!cardholderName.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'Card_Name'),cardholderName)
@@ -132,12 +137,24 @@ public class ccPaymentEntryBootstrapPage {
 
 
 		if ((!cardNumber.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR + 'CardNumber'),cardNumber)
+			if(appID == '951') {
+				WebUI.setText(findTestObject(pathOR + 'CardNumber_password'),cardNumber)
+				WebUI.delay(2)
+			}
+			else {
+				WebUI.setText(findTestObject(pathOR + 'CardNumber'),cardNumber)
+			}
 		}
 
 
 		if ((!cvv.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR + 'SPC'),cvv)
+			if(appID == '951') {
+				WebUI.setText(findTestObject(pathOR + 'SPC_password'),cvv)
+				WebUI.delay(2)
+			}
+			else {
+				WebUI.setText(findTestObject(pathOR + 'SPC'),cvv)
+			}
 		}
 
 
@@ -261,7 +278,11 @@ public class ccPaymentEntryBootstrapPage {
 		this.getDataCardEmailAndPhone(EmailPhoneIDS)
 
 		if ((!email.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR + 'input_emailAddress'),email)
+			if(appID == '951' || appID == '952') {
+			}
+			else {
+				WebUI.setText(findTestObject(pathOR + 'input_emailAddress'),email)
+			}
 		}
 	}
 
@@ -348,24 +369,24 @@ public class ccPaymentEntryBootstrapPage {
 	def setDataCardUDF(String UDFIDS) {
 		this.getDataCardUDF(UDFIDS)
 
-			if(!udf3.isEmpty()) {
+		if(!udf3.isEmpty()) {
 
-				WebUI.setText(findTestObject(pathOR + 'txt_UDF3'), udf3)
-			}
+			WebUI.setText(findTestObject(pathOR + 'txt_UDF3'), udf3)
+		}
 
-			if(!udf5.isEmpty()) {
+		if(!udf5.isEmpty()) {
 
-				WebUI.setText(findTestObject(pathOR + 'txt_UDF5'), udf5)
-			}
+			WebUI.setText(findTestObject(pathOR + 'txt_UDF5'), udf5)
+		}
 
-			if(!udf8.isEmpty()) {
+		if(!udf8.isEmpty()) {
 
-				WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF8'), udf8, false)
-			}
-			if(!udf9.isEmpty()) {
+			WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF8'), udf8, false)
+		}
+		if(!udf9.isEmpty()) {
 
-				WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF9 '), udf9, false)
-			}
+			WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF9 '), udf9, false)
+		}
 	}
 
 	//*********************************************************************************************
@@ -404,16 +425,16 @@ public class ccPaymentEntryBootstrapPage {
 	// Select Customer CC Terms checkbox
 	@Keyword
 	def selectCheckboxCCTerms() {
-		WebUI.check(findTestObject(pathOR + 'input_checkedAcceptCondition'))
+		WebUI.check(findTestObject(pathOR + 'TermConditionCheckbox'))
 	}
 
 
 	// Select Continue button
-		@Keyword
-		def selectContinueButton() {
+	@Keyword
+	def selectContinueButton() {
 
-			WebUI.click(findTestObject(pathOR + 'input_Continue'))
-		}
+		WebUI.click(findTestObject(pathOR + 'ContinueButton'))
+	}
 
 	// placeholder for selecting Change Payment Method button
 

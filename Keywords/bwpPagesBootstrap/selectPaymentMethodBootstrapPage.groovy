@@ -21,41 +21,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class selectPaymentMethodBootstrapPage {
-	
-	
-	String pathSelectPM = "Object Repository/BWP_Automation/Page_SelectPaymentMethod/"
-	
-	
-	
-		// Select Pay by Credit or Debit Card
-		@Keyword
-		def selectRadioPayByCreditCard() {
+
+
+	String pathSelectPM = "Object Repository/BWP_Bootstrap/Page_SelectPaymentMethod/"
+
+
+
+	// Select Pay by Credit or Debit Card
+	@Keyword
+	def selectRadioPayByCreditCard() {
+		if(findTestObject(pathSelectPM + 'PayByCreditCard')) {
 			WebUI.check(findTestObject(pathSelectPM + 'PayByCreditCard'))
 		}
-	
-	
-	
-		// Select Pay by Personal Check
-		@Keyword
-		def selectRadioPayByPersonal() {
-			WebUI.check(findTestObject(pathSelectPM + 'PayByPersonalCheck'))
-		}
-	
-	
-	
-		// Select Pay by Corporate Check
-		@Keyword
-		def selectRadioPayByCorporate() {
-			WebUI.check(findTestObject(pathSelectPM + 'PayByCorporateCheck'))
-		}
-	
-	
-	
-		// Select Make a Payment Button
-		@Keyword
-		def selectButtonMakeAPayment() {
-			WebUI.click(findTestObject(pathSelectPM + 'MakePaymentButton'))
-		}
-	
+	}
 
+
+
+	// Select Pay by Personal Check
+	@Keyword
+	def selectRadioPayByPersonal() {
+		WebUI.check(findTestObject(pathSelectPM + 'PayByPersonalCheck'))
+	}
+
+
+
+	// Select Pay by Corporate Check
+	@Keyword
+	def selectRadioPayByCorporate() {
+		WebUI.check(findTestObject(pathSelectPM + 'PayByCorporateCheck'))
+	}
+
+
+
+	// Select Make a Payment Button
+	@Keyword
+	def selectButtonMakeAPayment() {
+		WebUI.click(findTestObject(pathSelectPM + 'MakePaymentButton'))
+	}
 }

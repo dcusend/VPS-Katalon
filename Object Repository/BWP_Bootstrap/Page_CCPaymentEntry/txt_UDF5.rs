@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'userDefined5']</value>
+         <value>//*[@name = 'userDefined5' and @id = 'userDefined5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,6 +19,14 @@
       <name>name</name>
       <type>Main</type>
       <value>userDefined5</value>
-      <webElementGuid>eb40e8bc-8af1-4b64-b8a3-ca92bc1ef2de</webElementGuid>
+      <webElementGuid>946445e4-c335-42fd-945f-043c415a1e7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>userDefined5</value>
+      <webElementGuid>5f2643c0-88d1-449d-9693-cc322d583313</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

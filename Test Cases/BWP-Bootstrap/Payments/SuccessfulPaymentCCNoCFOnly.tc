@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SuccessfulPaymentCCNoCFOnly</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>765a7b0e-b8c5-4a66-a396-8fdb623ed4eb</testCaseGuid>
+</TestCaseEntity>

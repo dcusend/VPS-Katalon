@@ -30,8 +30,8 @@ public class emulatorBootstrapPage {
 	def UDF1, UDF2, UDF3, UDF4, UDF5, UDF6, UDF7, UDF8, UDF9, UDF10
 	def AppID, MessageVersion, RemID, ID, em_Username, em_Password, Parcels
 
-	String pathEmulatorData = "KatalonData/BWPBootstrapData/NormalizedSharedData.xlsx"
-	String pathOR = "Object Repository/BWP_Automation/Page_Emulator/"
+	String pathEmulatorData = "KatalonData/BWPBootstrapData/EmulatorNormalizedData.xlsx"
+	String pathOR = "Object Repository/BWP_Bootstrap/Page_Emulator/"
 
 	@Keyword
 	def setDataEmulator_DD(String emulatorID) {
@@ -45,9 +45,12 @@ public class emulatorBootstrapPage {
 		for (def rowE = 1; rowE <= numOfRowsE; rowE++) {
 			ID = dataFileE.getValue('ID', rowE)
 
+			println(ID)
+			println(dataFileE.getValue('Amount', rowE))
 			if (ID.equals(emulatorID)) {
 				CAN = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 				MV = dataFileE.getValue('MV', rowE)
+				AppID = dataFileE.getValue('AppID', rowE)
 				Amount = dataFileE.getValue('Amount', rowE)
 				TaxAmount = dataFileE.getValue('TaxAmount', rowE)
 				UDF1 = dataFileE.getValue('UDF1', rowE)
@@ -63,33 +66,33 @@ public class emulatorBootstrapPage {
 
 				// SetData
 
-				def emulator_url = GlobalVariable.urlEmulator
-				def useThisURL = emulator_url + "&message_version=1_5"
+				def emulator_url = GlobalVariable.BWPURL
 
 
-				WebUI.openBrowser(useThisURL)
+				WebUI.openBrowser(emulator_url)
 				WebUI.maximizeWindow()
 
-//	Verify if u r on correct page (Verify App id text box)
-				WebUI.selectOptionByValue(findTestObject(pathOR + 'MessageVersion'),MV, true)
+				if(findTestObject(pathOR +  'ApplicationID')) {
+					//	Verify if u r on correct page (Verify App id text box)
+					WebUI.setText(findTestObject(pathOR + 'MessageVersion'),MV)
 
-				WebUI.setText(findTestObject(pathOR +  'Amount'),Amount)
-				WebUI.setText(findTestObject(pathOR +  'CAN'),CAN)
+					WebUI.setText(findTestObject(pathOR +  'ApplicationID'), AppID)
+					WebUI.setText(findTestObject(pathOR +  'TaxAmount'), TaxAmount)
+					WebUI.setText(findTestObject(pathOR +  'Amount'), Amount)
+					WebUI.setText(findTestObject(pathOR +  'CAN'), CAN)
+					WebUI.setText(findTestObject(pathOR + 'UDF1'), UDF1)
+					WebUI.setText(findTestObject(pathOR + 'UDF2'), UDF2)
+					WebUI.setText(findTestObject(pathOR + 'UDF3'), UDF3)
+					WebUI.setText(findTestObject(pathOR + 'UDF4'), UDF4)
+					WebUI.setText(findTestObject(pathOR + 'UDF5'), UDF5)
+					WebUI.setText(findTestObject(pathOR + 'UDF6'), UDF6)
+					WebUI.setText(findTestObject(pathOR + 'UDF7'), UDF7)
+					WebUI.setText(findTestObject(pathOR + 'UDF8'), UDF8)
+					WebUI.setText(findTestObject(pathOR + 'UDF9'), UDF9)
+					WebUI.setText(findTestObject(pathOR + 'UDF10'), UDF10)
 
-				WebUI.setText(findTestObject(pathOR + 'UDF1'),UDF1)
-				WebUI.setText(findTestObject(pathOR + 'UDF2'),UDF2)
-				WebUI.setText(findTestObject(pathOR + 'UDF3'),UDF3)
-				WebUI.setText(findTestObject(pathOR + 'UDF4'),UDF4)
-				WebUI.setText(findTestObject(pathOR + 'UDF5'),UDF5)
-				WebUI.setText(findTestObject(pathOR + 'UDF6'),UDF6)
-				WebUI.setText(findTestObject(pathOR + 'UDF7'),UDF7)
-				WebUI.setText(findTestObject(pathOR + 'UDF8'),UDF8)
-				WebUI.setText(findTestObject(pathOR + 'UDF9'),UDF9)
-				WebUI.setText(findTestObject(pathOR + 'UDF10'),UDF10)
-
-				WebUI.click(findTestObject(pathOR + 'Submit_btn'))
-
-				WebUI.closeBrowser()
+					WebUI.click(findTestObject(pathOR + 'Submit_btn'))
+				}
 			}
 		}
 	}

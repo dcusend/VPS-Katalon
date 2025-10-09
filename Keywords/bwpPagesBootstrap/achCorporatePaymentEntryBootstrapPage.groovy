@@ -18,6 +18,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
+import com.kms.katalon.core.testdata.reader.ExcelFactory
+
 import internal.GlobalVariable
 
 public class achCorporatePaymentEntryBootstrapPage {
@@ -30,296 +32,313 @@ public class achCorporatePaymentEntryBootstrapPage {
 	String nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID
 
 
+
 	@Keyword
-	def setDataACHMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID) {
+	def setDataACHMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID, AppID) {
+
+		appID = AppID
 		this.setDataCompanyNameID(nameID)
 		this.setDataACH(ACHID)
 		this.setDataAddress(AddressID)
 		this.setDataEmailAndPhone(EmailPhoneID)
 		this.setDataudf(udfID)
-		this.selectCheckboxStoredPaymentMethod()
+		//		this.selectCheckboxStoredPaymentMethod()
 		this.selectCheckboxACHTANDC()
 		this.selectContinueButton()
+	}
 
-		@Keyword
-		def getDataCompanyNameID(String NameIDG) {
+	@Keyword
+	def getDataCompanyNameID(String NameIDG) {
 
-			def dataFileCardName = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "NameData", true)
+		def dataFileCardName = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "NameData", true)
 
-			def numOfRowsCardName = dataFileCardName.getRowNumbers()
+		def numOfRowsCardName = dataFileCardName.getRowNumbers()
 
-			for (def row = 1; row <= numOfRowsCardName; row++) {
+		for (def row = 1; row <= numOfRowsCardName; row++) {
 
 
-				def ID = dataFileCardName.getValue("ID", row)
+			def ID = dataFileCardName.getValue("ID", row)
 
-				if (ID.equals(NameIDG)) {
-					companyName = dataFileCardName.getValue("CompanyName", row)
-				}
+			if (ID.equals(NameIDG)) {
+				companyName = dataFileCardName.getValue("CompanyName", row)
 			}
 		}
+	}
 
 
-		@Keyword
-		def setDataCompanyNameID(String NameIDS) {
+	@Keyword
+	def setDataCompanyNameID(String NameIDS) {
 
-			this.getDataCompanyNameID(NameIDS)
+		this.getDataCompanyNameID(NameIDS)
 
-			if(!companyName.isEmpty()) {
+		if(!companyName.isEmpty()) {
 
-				WebUI.setText(findTestObject(pathOR+'input_billingCompanyName'),companyName)
+			WebUI.setText(findTestObject(pathOR+'input_billingCompanyName'),companyName)
+		}
+	}
+
+	@Keyword
+	def getDataACH(String ACHIDG) {
+		def dataFileACHData = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "ACHData", true)
+
+		def numOfRowsACHData = dataFileACHData.getRowNumbers()
+
+		for (def row = 1; row <= numOfRowsACHData; row++) {
+
+
+			def ID = dataFileACHData.getValue("ID", row)
+			println(ID+ACHIDG)
+
+			if (ID.equals(ACHIDG)) {
+				routingTransitNumber = dataFileACHData.getValue("RoutingNumber", row)
+				accountNumber = dataFileACHData.getValue("AccountNumber", row)
+				confirmAccountNumber = dataFileACHData.getValue("ConfirmAccountNumber", row)
+				EIN = dataFileACHData.getValue("EIN", row)
 			}
 		}
+	}
+	@Keyword
+	def setDataACH(String ACHIDS) {
 
-		def getDataACH(String ACHIDG) {
-			def dataFileACHData = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "ACHData", true)
+		this.getDataACH(ACHIDS)
 
-			def numOfRowsACHData = dataFileACHData.getRowNumbers()
-
-			for (def row = 1; row <= numOfRowsACHData; row++) {
-
-
-				def ID = dataFileACHData.getValue("ID", row)
-				println(ID+ACHIDG)
-
-				if (ID.equals(ACHIDG)) {
-					routingTransitNumber = dataFileACHData.getValue("RoutingNumber", row)
-					accountNumber = dataFileACHData.getValue("AccountNumber", row)
-					confirmAccountNumber = dataFileACHData.getValue("ConfirmAccountNumber", row)
-					EIN = dataFileACHData.getValue("EIN", row)
-				}
-			}
+		if ((!routingTransitNumber.isEmpty())) {
+			WebUI.setText(findTestObject(pathOR+ 'txt_routingNumber'),routingTransitNumber)
 		}
-		@Keyword
-		def setDataACH(String ACHIDS) {
-
-			this.getDataACH(ACHIDS)
-
-			if ((!routingTransitNumber.isEmpty())) {
-				WebUI.setText(findTestObject(pathOR+ 'txt_routingNumber'),routingTransitNumber)
-			}
-			if ((!accountNumber.isEmpty())) {
-				WebUI.setText(findTestObject(pathOR+ 'txt_accountNumber'),accountNumber)
-			}
-			if ((!confirmAccountNumber.isEmpty())) {
-				WebUI.setText(findTestObject(pathOR+ 'txt_confirmAccountNumber'),confirmAccountNumber)
-			}
-
-			if((!EIN.isEmpty())) {
-
-				WebUI.setText(findTestObject(pathOR+'input_EIN'),EIN)
-			}
-		}
-
-		@Keyword
-		def getDataAddress(String AddressIDG) {
-
-			def dataFileAddress = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "AddressData", true)
-
-			def numOfRowsAddress = dataFileAddress.getRowNumbers()
-
-			for (def row = 1; row <= numOfRowsAddress; row++) {
-
-				def ID = dataFileAddress.getValue("ID", row)
-
-				if (ID.equals(AddressIDG)) {
-
-					AL1 = dataFileAddress.getValue("AL1", row)
-					AL2 = dataFileAddress.getValue("AL2", row)
-					ZIP = dataFileAddress.getValue("ZIP", row)
-				}
-			}
-		}
-
-
-
-		@Keyword
-		def setDataAddress(String AddressIDS) {
-
-			this.getDataAddress(AddressIDS)
-
-			if ((!AL1.isEmpty())) {
-				WebUI.setText(findTestObject(pathOR + 'txt_AL1'),AL1)
-			}
-
-
-			if ((!AL2.isEmpty())) {
-				WebUI.setText(findTestObject(pathOR + 'txt_AL2'),AL2)
-			}
-
-
-			if ((!ZIP.isEmpty())) {
-				WebUI.setText(findTestObject(pathOR + 'txt_ZIP'),ZIP)
-			}
-		}
-
-		//****************************************************************************************
-
-
-		//****************************************************************************************
-		@Keyword
-		def getDataEmailAndPhone(String EmailPhoneIDG) {
-
-			def dataFileEmailPhone = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "EmailAndPhoneData", true)
-
-			def numOfRowsEmailPhone = dataFileEmailPhone.getRowNumbers()
-
-			for (def row = 1;row<=numOfRowsEmailPhone;row++) {
-
-				def ID = dataFileEmailPhone.getValue("ID", row)
-
-				if (ID.equals(EmailPhoneIDG)) {
-					email = dataFileEmailPhone.getValue("Email", row)
-					phone = dataFileEmailPhone.getValue("Phone", row)
-				}
-			}
-		}
-
-		@Keyword
-		def setDataEmailAndPhone(String EmailPhoneIDS) {
-
-			this.getDataEmailAndPhone(EmailPhoneIDS)
-
-			if(!email.isEmpty()) {
-
-				WebUI.setText(findTestObject(pathOR + 'input_emailAddress'), email)
-			}
-			if(!phone.isEmpty()) {
-
-				//				WebUI.setText(findTestObject(pathOR + 'input_emailAddress'), phone)
-			}
-		}
-
-		//**************************************************************************************
-
-
-
-		//**************************************************************************************
-
-		@Keyword
-		def setDataAmount(String AmountS) {
-			amount = AmountS
-
-			if ((!amount.isEmpty())) {
-				WebUI.setText(findTestObject(pathOR + 'input_amount'),amount)
-			}
-		}
-
-		//****************************************************************************************
-
-		@Keyword
-
-		def setDataCCDate(String ccDateS) {
-			ccDate = ccDateS
-			if(!ccDate.isEmpty()) {
-				//This js script is written to set the future date
-				String js = '''
-		 document.getElementById('processDate').value = '12/31/2026'
-		 '''
-				WebUI.executeJavaScript(js, null)
+		if ((!accountNumber.isEmpty())) {
+			if(appID == '951') {
+				WebUI.setText(findTestObject(pathOR+ 'txt_accountNumber_password'),accountNumber)
+				WebUI.delay(2)
 			}
 			else {
-				println("CCDate is not present in the Excel Spreadsheet")
+				WebUI.setText(findTestObject(pathOR + 'txt_accountNumber'),accountNumber)
 			}
 		}
 
-		//*****************************************************************************************
-
-		@Keyword
-		def getDataudf(String udfG) {
-
-			def dataFileudf = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "udfData", true)
-			def numOfRowsudf = dataFileudf.getRowNumbers()
-
-			for (def row = 1 ; row<=numOfRowsudf ;row++) {
-
-				def ID = dataFileudf.getValue("ID", row)
-
-				if(ID.equals(udfG)) {
-					udf1 =dataFileudf.getValue("udf1", row)
-					udf2 =dataFileudf.getValue("udf2", row)
-					udf3 =dataFileudf.getValue("udf3", row)
-					udf4 =dataFileudf.getValue("udf4", row)
-					udf5 =dataFileudf.getValue("udf5", row)
-					udf6 =dataFileudf.getValue("udf6", row)
-					udf7 =dataFileudf.getValue("udf7", row)
-					udf8 =dataFileudf.getValue("udf8", row)
-					udf9 =dataFileudf.getValue("udf9", row)
-					udf10 =dataFileudf.getValue("udf10",row)
-				}
+		if ((!confirmAccountNumber.isEmpty())) {
+			if(appID == '951') {
+				WebUI.setText(findTestObject(pathOR+ 'txt_confirmAccountNumber_password'),confirmAccountNumber)
+				WebUI.delay(2)
+			}
+			else {
+				WebUI.setText(findTestObject(pathOR+ 'txt_confirmAccountNumber'),confirmAccountNumber)
 			}
 		}
 
-		@Keyword
-		def setDataudf(String udfS) {
+		if((!EIN.isEmpty())) {
 
-			this.getDataudf(udfS)
-
-			if(!udf3.isEmpty()) {
-
-				WebUI.setText(findTestObject(pathOR + 'txt_UDF3'), udf3)
-			}
-
-			if(!udf5.isEmpty()) {
-
-				WebUI.setText(findTestObject(pathOR + 'txt_UDF5'), udf5)
-			}
-
-			if(!udf8.isEmpty()) {
-
-				WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF8'), udf8, false)
-			}
-			if(!udf9.isEmpty()) {
-
-				WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF9 '), udf9, false)
-			}
+			WebUI.setText(findTestObject(pathOR+'input_EIN'),EIN)
 		}
-
-		//***********************************************************************************************
-
-
-		//***********************************************************************************************
-
-		@Keyword
-		def selectCheckboxStoredPaymentMethod() {
-
-			WebUI.check(findTestObject(pathOR+'input_achSavePaymentMethod'))
-		}
-
-		//**********************************************************************************************
-
-		//**********************************************************************************************
-
-		@Keyword
-		def selectCheckboxACHTANDC() {
-
-			WebUI.check(findTestObject(pathOR+'input_checkedAcceptCondition'))
-		}
-
-		//**********************************************************************************************
-
-
-		//**********************************************************************************************
-
-		@Keyword
-		def selectContinueButton() {
-
-			WebUI.click(findTestObject(pathOR+'input_Continue'))
-		}
-
-		//*********************************************************************************************
-
-		//*********************************************************************************************
-
-		@Keyword
-		def selectChangePaymentMethodButton() {
-
-			WebUI.click(findTestObject(pathOR+'input_changePaymentMethodButton'))
-		}
-
-
-		//*********************************************************************************************
-
-		//*********************************************************************************************
 	}
+
+	@Keyword
+	def getDataAddress(String AddressIDG) {
+
+		def dataFileAddress = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "AddressData", true)
+
+		def numOfRowsAddress = dataFileAddress.getRowNumbers()
+
+		for (def row = 1; row <= numOfRowsAddress; row++) {
+
+			def ID = dataFileAddress.getValue("ID", row)
+
+			if (ID.equals(AddressIDG)) {
+
+				AL1 = dataFileAddress.getValue("AL1", row)
+				AL2 = dataFileAddress.getValue("AL2", row)
+				ZIP = dataFileAddress.getValue("ZIP", row)
+			}
+		}
+	}
+
+
+
+	@Keyword
+	def setDataAddress(String AddressIDS) {
+
+		this.getDataAddress(AddressIDS)
+
+		if ((!AL1.isEmpty())) {
+			WebUI.setText(findTestObject(pathOR + 'txt_AL1'),AL1)
+		}
+
+
+		if ((!AL2.isEmpty())) {
+			WebUI.setText(findTestObject(pathOR + 'txt_AL2'),AL2)
+		}
+
+		if ((!ZIP.isEmpty())) {
+			WebUI.setText(findTestObject(pathOR + 'ZIP'),ZIP)
+		}
+	}
+
+	//****************************************************************************************
+
+
+	//****************************************************************************************
+	@Keyword
+	def getDataEmailAndPhone(String EmailPhoneIDG) {
+
+		def dataFileEmailPhone = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "EmailAndPhoneData", true)
+
+		def numOfRowsEmailPhone = dataFileEmailPhone.getRowNumbers()
+
+		for (def row = 1;row<=numOfRowsEmailPhone;row++) {
+
+			def ID = dataFileEmailPhone.getValue("ID", row)
+
+			if (ID.equals(EmailPhoneIDG)) {
+				email = dataFileEmailPhone.getValue("Email", row)
+				phone = dataFileEmailPhone.getValue("Phone", row)
+			}
+		}
+	}
+
+	@Keyword
+	def setDataEmailAndPhone(String EmailPhoneIDS) {
+
+		this.getDataEmailAndPhone(EmailPhoneIDS)
+
+		if(!email.isEmpty()) {
+
+			if(appID == '951' || appID == '952') {
+			}
+			else {
+				WebUI.setText(findTestObject(pathOR + 'input_emailAddress'), email)
+			}
+		}
+	}
+
+	//**************************************************************************************
+
+
+
+	//**************************************************************************************
+
+	@Keyword
+	def setDataAmount(String AmountS) {
+		amount = AmountS
+
+		if ((!amount.isEmpty())) {
+			WebUI.setText(findTestObject(pathOR + 'input_amount'),amount)
+		}
+	}
+
+	//****************************************************************************************
+
+	@Keyword
+
+	def setDataCCDate(String ccDateS) {
+		ccDate = ccDateS
+		if(!ccDate.isEmpty()) {
+			//This js script is written to set the future date
+			String js = '''
+		 document.getElementById('processDate').value = '12/31/2026'
+		 '''
+			WebUI.executeJavaScript(js, null)
+		}
+		else {
+			println("CCDate is not present in the Excel Spreadsheet")
+		}
+	}
+
+	//*****************************************************************************************
+
+	@Keyword
+	def getDataudf(String udfG) {
+
+		def dataFileudf = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "udfData", true)
+		def numOfRowsudf = dataFileudf.getRowNumbers()
+
+		for (def row = 1 ; row<=numOfRowsudf ;row++) {
+
+			def ID = dataFileudf.getValue("ID", row)
+
+			if(ID.equals(udfG)) {
+				udf1 = dataFileudf.getValue("UDF1", row)
+				udf2 = dataFileudf.getValue("UDF2", row)
+				udf3 = dataFileudf.getValue("UDF3", row)
+				udf4 = dataFileudf.getValue("UDF4", row)
+				udf5 = dataFileudf.getValue("UDF5", row)
+				udf6 = dataFileudf.getValue("UDF6", row)
+				udf7 = dataFileudf.getValue("UDF7", row)
+				udf8 = dataFileudf.getValue("UDF8", row)
+				udf9 = dataFileudf.getValue("UDF9", row)
+				udf10 = dataFileudf.getValue("UDF10",row)
+			}
+		}
+	}
+
+	@Keyword
+	def setDataudf(String udfS) {
+
+		this.getDataudf(udfS)
+
+		if(!udf3.isEmpty()) {
+
+			WebUI.setText(findTestObject(pathOR + 'txt_UDF3'), udf3)
+		}
+
+		if(!udf5.isEmpty()) {
+
+			WebUI.setText(findTestObject(pathOR + 'txt_UDF5'), udf5)
+		}
+
+		if(!udf8.isEmpty()) {
+
+			WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF8'), udf8, false)
+		}
+		if(!udf9.isEmpty()) {
+
+			WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF9 '), udf9, false)
+		}
+	}
+
+	//***********************************************************************************************
+
+
+	//***********************************************************************************************
+
+	@Keyword
+	def selectCheckboxStoredPaymentMethod() {
+
+		WebUI.check(findTestObject(pathOR+'input_achSavePaymentMethod'))
+	}
+
+	//**********************************************************************************************
+
+	//**********************************************************************************************
+
+	@Keyword
+	def selectCheckboxACHTANDC() {
+
+		WebUI.check(findTestObject(pathOR + 'TermConditionCheckbox'))
+	}
+
+	//**********************************************************************************************
+
+
+	//**********************************************************************************************
+
+	@Keyword
+	def selectContinueButton() {
+
+		WebUI.click(findTestObject(pathOR + 'btn_Continue'))
+	}
+
+	//*********************************************************************************************
+
+	//*********************************************************************************************
+
+	@Keyword
+	def selectChangePaymentMethodButton() {
+
+		WebUI.click(findTestObject(pathOR+'input_changePaymentMethodButton'))
+	}
+
+
+	//*********************************************************************************************
+
+	//*********************************************************************************************
 }
+

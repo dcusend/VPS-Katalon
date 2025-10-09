@@ -33,13 +33,14 @@ public class achPersonalPaymentEntryBootstrapPage {
 	String nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID
 
 	@Keyword
-	def setDataACHMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID) {
+	def setDataACHMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID, AppID) {
+		appID = AppID
 		this.setFirstNameLastName(nameID)
 		this.setACHData(ACHID)
 		this.setAddressData(AddressID)
 		this.setEmailAndPhoneData(EmailPhoneID)
 		this.setUDFData(UDFID)
-		this.selectCheckboxStoredPaymentMethod()
+		//		this.selectCheckboxStoredPaymentMethod()
 		this.selectCheckboxACHTANDC()
 		this.selectContinueButton()
 	}
@@ -114,8 +115,15 @@ public class achPersonalPaymentEntryBootstrapPage {
 		if ((!routingTransitNumber.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR+ 'txt_routingNumber'),routingTransitNumber)
 		}
+
 		if ((!accountNumber.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR+ 'txt_accountNumber'),accountNumber)
+			if(appID == '951') {
+				WebUI.setText(findTestObject(pathOR + 'txt_accountNumber_password'),accountNumber)
+				WebUI.delay(2)
+			}
+			else {
+				WebUI.setText(findTestObject(pathOR + 'txt_accountNumber'),accountNumber)
+			}
 		}
 
 		if(!typeOfAccount.isEmpty()) {
@@ -137,7 +145,13 @@ public class achPersonalPaymentEntryBootstrapPage {
 		}
 
 		if ((!confirmAccountNumber.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR+ 'txt_confirmAccountNumber'),confirmAccountNumber)
+			if(appID == '951') {
+				WebUI.setText(findTestObject(pathOR+ 'txt_confirmAccountNumber_password'),confirmAccountNumber)
+				WebUI.delay(2)
+			}
+			else {
+				WebUI.setText(findTestObject(pathOR+ 'txt_confirmAccountNumber'),confirmAccountNumber)
+			}
 		}
 	}
 	@Keyword
@@ -178,7 +192,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 
 
 		if ((!ZIP.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR + 'txt_ZIP'),ZIP)
+			WebUI.setText(findTestObject(pathOR + 'ZIP'),ZIP)
 		}
 	}
 
@@ -210,12 +224,11 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.getEmailAndPhoneData(EmailPhoneIDS)
 
 		if(!email.isEmpty()) {
-
-			WebUI.setText(findTestObject(pathOR + 'input_emailAddress'), email)
-		}
-		if(!phone.isEmpty()) {
-
-			/*WebUI.setText(findTestObject(pathOR + 'input_emailAddress'), phone)*/
+			if(appID == '951' || appID == '952') {
+			}
+			else {
+				WebUI.setText(findTestObject(pathOR + 'input_emailAddress'), email)
+			}
 		}
 	}
 
@@ -269,24 +282,24 @@ public class achPersonalPaymentEntryBootstrapPage {
 
 		this.getUDFData(UDFS)
 
-			if(!udf3.isEmpty()) {
+		if(!udf3.isEmpty()) {
 
-				WebUI.setText(findTestObject(pathOR + 'txt_UDF3'), udf3)
-			}
+			WebUI.setText(findTestObject(pathOR + 'txt_UDF3'), udf3)
+		}
 
-			if(!udf5.isEmpty()) {
+		if(!udf5.isEmpty()) {
 
-				WebUI.setText(findTestObject(pathOR + 'txt_UDF5'), udf5)
-			}
+			WebUI.setText(findTestObject(pathOR + 'txt_UDF5'), udf5)
+		}
 
-			if(!udf8.isEmpty()) {
+		if(!udf8.isEmpty()) {
 
-				WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF8'), udf8, false)
-			}
-			if(!udf9.isEmpty()) {
+			WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF8'), udf8, false)
+		}
+		if(!udf9.isEmpty()) {
 
-				WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF9 '), udf9, false)
-			}
+			WebUI.selectOptionByLabel(findTestObject(pathOR + 'txt_UDF9 '), udf9, false)
+		}
 	}
 
 	//***********************************************************************************************
@@ -321,7 +334,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 	@Keyword
 	def selectCheckboxACHTANDC() {
 
-		WebUI.check(findTestObject(pathOR+'input_checkedAcceptCondition'))
+		WebUI.check(findTestObject(pathOR + 'TermConditionCheckbox'))
 	}
 
 	//**********************************************************************************************
@@ -332,7 +345,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 	@Keyword
 	def selectContinueButton() {
 
-		WebUI.click(findTestObject(pathOR+'input_Continue'))
+		WebUI.click(findTestObject(pathOR + 'btn_Continue'))
 	}
 
 	//*********************************************************************************************

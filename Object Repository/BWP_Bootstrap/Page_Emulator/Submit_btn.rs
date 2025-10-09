@@ -4,7 +4,29 @@
    <name>Submit_btn</name>
    <tag></tag>
    <elementGuidId>9ab1bf63-7ffa-4893-9998-34f0bd12e379</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@value = 'Submit' and @type = 'submit']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Submit</value>
+      <webElementGuid>c802eec2-5db0-4c57-80c2-8be2cee09fb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>9d723117-fcb2-4a26-b472-58bb4c84e990</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

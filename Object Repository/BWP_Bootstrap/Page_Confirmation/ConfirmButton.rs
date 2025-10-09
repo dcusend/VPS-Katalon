@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'confirmNotifyAction' and @value = 'Confirm']</value>
+         <value>//*[@name = 'confirmNotifyAction' and @value = 'Confirm' and @type = 'submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,7 +19,7 @@
       <name>name</name>
       <type>Main</type>
       <value>confirmNotifyAction</value>
-      <webElementGuid>06432276-004e-4704-b1e5-33ee0b63e691</webElementGuid>
+      <webElementGuid>311a9ab5-b59d-45b5-b464-ae7ecf333c38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,14 @@
       <name>value</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>70d848ad-7b74-4593-9149-1d17930b0072</webElementGuid>
+      <webElementGuid>03dbd52d-d798-4536-a4cd-d5037a8edff2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>ea914c9a-af08-404b-8156-15a255325820</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

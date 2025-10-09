@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'checkedAcceptCondition']</value>
+         <value>//*[@name = 'checkedAcceptCondition' and @id = 'checkedAcceptCondition' and @type = 'checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,6 +19,22 @@
       <name>name</name>
       <type>Main</type>
       <value>checkedAcceptCondition</value>
-      <webElementGuid>ff99f597-9806-4474-bbc2-4ef95a90cc42</webElementGuid>
+      <webElementGuid>0c55787c-b021-4bab-bf95-59b6deb8f0dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>checkedAcceptCondition</value>
+      <webElementGuid>5c4a8962-4327-403e-8fc9-b62c732f9c73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>f2ef408e-2133-4f85-8785-78fae9d15e20</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

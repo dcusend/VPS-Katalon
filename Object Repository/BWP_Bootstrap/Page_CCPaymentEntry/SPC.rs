@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'spc']</value>
+         <value>//*[@name = 'spc' and @id = 'spc']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,6 +19,14 @@
       <name>name</name>
       <type>Main</type>
       <value>spc</value>
-      <webElementGuid>dea2b899-b2b6-46c4-97e9-ac0558e3f78b</webElementGuid>
+      <webElementGuid>6488845a-f1b0-4eef-97f7-5c7a22e17f2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>spc</value>
+      <webElementGuid>957c3e26-ca1d-4ea5-a285-bba18fbd0672</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
