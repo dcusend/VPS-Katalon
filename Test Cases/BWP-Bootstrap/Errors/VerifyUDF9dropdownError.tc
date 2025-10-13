@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUDF9dropdownError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a001b20b-b581-42b0-a26c-207fcbfc9fda</testCaseGuid>
+</TestCaseEntity>
