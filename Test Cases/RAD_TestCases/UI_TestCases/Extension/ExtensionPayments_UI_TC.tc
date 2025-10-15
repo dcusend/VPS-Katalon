@@ -4,5 +4,6 @@
    <name>ExtensionPayments_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8d701350-102b-46f2-81af-07ab37cfd873</testCaseGuid>
 </TestCaseEntity>

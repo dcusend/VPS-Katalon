@@ -4,5 +4,6 @@
    <name>Extension_Fiduciary_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ea0afae5-1f36-47dd-9630-473bc572c02a</testCaseGuid>
 </TestCaseEntity>

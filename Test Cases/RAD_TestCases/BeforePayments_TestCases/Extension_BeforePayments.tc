@@ -4,5 +4,6 @@
    <name>Extension_BeforePayments</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e13f1710-9f28-4e1d-9313-895cc4b96d75</testCaseGuid>
 </TestCaseEntity>

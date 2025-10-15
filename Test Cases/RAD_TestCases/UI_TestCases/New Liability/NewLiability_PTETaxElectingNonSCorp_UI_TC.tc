@@ -4,5 +4,6 @@
    <name>NewLiability_PTETaxElectingNonSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e51aca47-19eb-4aa9-a3ea-967b476bc5f2</testCaseGuid>
 </TestCaseEntity>

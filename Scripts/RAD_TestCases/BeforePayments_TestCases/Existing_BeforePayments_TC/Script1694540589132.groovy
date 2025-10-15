@@ -103,7 +103,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 
 					
-					
+					WebUI.delay(10)
 					
 // Set Data FEIN
 					
@@ -192,6 +192,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Select Continue Button
 					WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
 					WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+					WebUI.delay(2)
 					WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 		
 		
@@ -207,7 +208,17 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 // Select Proceed to Payment button
 					WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
+					WebUI.delay(2)
 					
+					// Select Pay by Credit or Debit Card
+					
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/PayByCreditCard'), 30))
+		{
+			
+			WebUI.click(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/PayByCreditCard'))
+		
+			WebUI.click(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/button_MakeAPayment'))
+			WebUI.delay(2)
 					
 					
 // On the VRelay page, confirm fields are prepopulated
@@ -269,7 +280,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 										
 // Verify text on Dual CF Page
 					
-					
+					WebUI.delay(2)
 					
 					WebUI.verifyTextPresent('Service Fee Acceptance', true)
 					WebUI.verifyTextPresent('This transaction is subject to a Service Fee of ', true)
@@ -310,7 +321,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 				}
 				
 					
-					
+		}
+		else
+			{
+				resText = "Fail"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					KeywordUtil.markFailed("Select Payment Method page does not display.  Tax Type is : " + TaxType)
+			}
 					
 	
 				}

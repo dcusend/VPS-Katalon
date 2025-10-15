@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Works in all Environments</description>
-   <name>NewLiability_IFTATax_UI_TC</name>
+   <description>Do Not Execute. Works in all Environments</description>
+   <name>NewLiability_IFTATax_UI_TC_DONOTRUN</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>030be1bb-408b-4622-9945-64f132fac542</testCaseGuid>
 </TestCaseEntity>

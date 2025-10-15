@@ -121,7 +121,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						}
 						else {println("Year is not present in the Excel Spreadsheet")}
 					
-				
+				WebUI.delay(10)
 						
 // Set Data SSN and Name under Taxpayer
 						CustomKeywords.'rad.getSetDataRAD.setDataRADssnAndName'()
@@ -134,6 +134,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Select Joint Filer and populated SSN and Names
 						WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
 						WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'),5)
+						WebUI.delay(2)
 						WebUI.check(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'))
 						WebUI.delay(2)
 						
@@ -152,6 +153,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Select Continue Button
 						WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
 						WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+						WebUI.delay(2)
 						WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 			
 			
@@ -163,49 +165,24 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 						
 						
-	// Verify static text on RAD  Summary page
-											
-	/*
-	 * WebUI.verifyTextPresent('Summary', true) WebUI.verifyTextPresent('Review the
-	 * information below and make any necessary corrections by clicking the', true)
-	 * WebUI.verifyTextPresent('When you are confident that all the information is
-	 * correct, click the', true) WebUI.verifyTextPresent('Payment Type/Filing
-	 * Year', true) WebUI.verifyTextPresent('Payment Type:', true)
-	 * WebUI.verifyTextPresent(PaymentType, true) WebUI.verifyTextPresent('Filing
-	 * Year:', true) WebUI.verifyTextPresent(FilingYear, true)
-	 * 
-	 * WebUI.verifyTextPresent('Payer Information', true)
-	 * WebUI.verifyTextPresent('Taxpayer Name:', true)
-	 * 
-	 * 
-	 * 
-	 * switch (executionProfile) { case "QA2Profile": WebUI.verifyTextPresent('Jimmy
-	 * Anderson', true) WebUI.verifyTextPresent('Larsons Bell', true) break
-	 * 
-	 * case "DemoProfile": WebUI.verifyTextPresent('Jimmy btes', true)
-	 * WebUI.verifyTextPresent('Larsons ctes', true) break }
-	 * 
-	 * //WebUI.verifyTextPresent('Jimmy btes', true)
-	 * WebUI.verifyTextPresent('Taxpayer SSN:', true)
-	 * WebUI.verifyTextPresent('Taxpayer Address:', true)
-	 * WebUI.verifyTextPresent('2508 Mandan Terrace Gambrills Maryland 21054', true)
-	 * WebUI.verifyTextPresent('Email:', true)
-	 * WebUI.verifyTextPresent('iahmed@govolution.com', true)
-	 * WebUI.verifyTextPresent('Phone:', true) WebUI.verifyTextPresent('(703)
-	 * 894-5000', false) WebUI.verifyTextPresent('Joint Filer Name:', true)
-	 * //WebUI.verifyTextPresent('Larsons ctes', true)
-	 * WebUI.verifyTextPresent('Joint Filer SSN', true)
-	 * 
-	 * WebUI.verifyTextPresent('Tax Information', true)
-	 * WebUI.verifyTextPresent('Payment Amount:', true)
-	 * WebUI.verifyTextPresent('100.00', true)
-	 */
-						
+
 	
 						
 	// Select Proceed to Payment button
 						WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
+						WebUI.delay(2)
 						
+						
+						
+// Select Pay by Credit or Debit Card
+						
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/PayByCreditCard'), 30))
+			{
+					
+			WebUI.click(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/PayByCreditCard'))
+			
+			WebUI.click(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/button_MakeAPayment'))
+			WebUI.delay(2)
 						
 						
 	// On the VRelay page, confirm fields are prepopulated
@@ -283,7 +260,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 	// Verify text on Dual CF Page
 						
 						
-						
+						WebUI.delay(2)
 						WebUI.verifyTextPresent('Service Fee Acceptance', true)
 						WebUI.verifyTextPresent('This transaction is subject to a Service Fee of ', true)
 						WebUI.verifyTextPresent('Payment Amount:', true)
@@ -323,7 +300,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					KeywordUtil.markFailed("Vrelay page does not display.  Tax Type is : " + TaxType)
 				}
 						
-						
+				
+			}
+			else
+				{
+					resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+						KeywordUtil.markFailed("Select Payment Method page does not display.  Tax Type is : " + TaxType)
+				}
 						
 		
 					}

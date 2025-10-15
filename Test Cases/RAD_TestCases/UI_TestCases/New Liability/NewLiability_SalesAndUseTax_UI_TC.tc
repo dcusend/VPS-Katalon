@@ -4,5 +4,6 @@
    <name>NewLiability_SalesAndUseTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5191e9cf-2742-4d5a-9209-6aa39e1103d6</testCaseGuid>
 </TestCaseEntity>

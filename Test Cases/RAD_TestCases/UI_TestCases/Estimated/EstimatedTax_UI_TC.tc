@@ -4,5 +4,6 @@
    <name>EstimatedTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d1293f59-a051-4189-b724-6fe41feaca30</testCaseGuid>
 </TestCaseEntity>

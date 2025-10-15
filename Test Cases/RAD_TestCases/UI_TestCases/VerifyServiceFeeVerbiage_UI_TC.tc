@@ -4,5 +4,6 @@
    <name>VerifyServiceFeeVerbiage_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>66587611-33d1-41eb-9b9a-eabb2d1fa9e8</testCaseGuid>
 </TestCaseEntity>

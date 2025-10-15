@@ -82,6 +82,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_middleName'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_lastName'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
+		WebUI.delay(10)
 		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
 		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatReSSN'))
 		
@@ -109,6 +110,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 // Verify FEIN/SSN under Tax Information section
 		WebUI.verifyTextPresent('Tax Information', true)
+		WebUI.delay(10)
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_TaxInfo_FeinSsn_New_2'))
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_TaxInfo_RetypeFeinSsn_New_2'))
 		//WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))

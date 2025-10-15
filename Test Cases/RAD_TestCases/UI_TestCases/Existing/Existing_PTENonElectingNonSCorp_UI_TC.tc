@@ -4,5 +4,6 @@
    <name>Existing_PTENonElectingNonSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>bcb67408-73ee-407e-a17d-3d93d6a531f9</testCaseGuid>
 </TestCaseEntity>

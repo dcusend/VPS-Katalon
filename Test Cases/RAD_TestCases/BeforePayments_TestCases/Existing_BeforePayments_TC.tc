@@ -4,5 +4,6 @@
    <name>Existing_BeforePayments_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>605b81d4-76fb-4eb1-ae9d-247ed1f1e185</testCaseGuid>
 </TestCaseEntity>

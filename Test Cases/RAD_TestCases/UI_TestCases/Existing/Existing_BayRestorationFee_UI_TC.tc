@@ -4,5 +4,6 @@
    <name>Existing_BayRestorationFee_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>00b2daf6-ad2d-4eb3-b295-4f1fcff97e6f</testCaseGuid>
 </TestCaseEntity>

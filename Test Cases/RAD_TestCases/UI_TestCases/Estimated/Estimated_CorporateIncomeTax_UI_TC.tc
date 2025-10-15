@@ -4,5 +4,6 @@
    <name>Estimated_CorporateIncomeTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c7b206de-d706-44f4-9198-65db181a3cf5</testCaseGuid>
 </TestCaseEntity>

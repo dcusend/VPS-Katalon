@@ -4,5 +4,6 @@
    <name>NewLiability_SlotsLicenseFee_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a8574c36-829e-4de0-b618-9f6e26548154</testCaseGuid>
 </TestCaseEntity>

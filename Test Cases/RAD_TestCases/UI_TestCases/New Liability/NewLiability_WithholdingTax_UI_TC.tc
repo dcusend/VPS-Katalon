@@ -4,5 +4,6 @@
    <name>NewLiability_WithholdingTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7677f57a-cdc0-4c08-9115-3f9ac08b5734</testCaseGuid>
 </TestCaseEntity>

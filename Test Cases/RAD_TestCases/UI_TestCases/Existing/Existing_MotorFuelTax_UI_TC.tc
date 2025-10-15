@@ -4,5 +4,6 @@
    <name>Existing_MotorFuelTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>34aca6ea-5805-4e83-b68c-aaad3fbec2c2</testCaseGuid>
 </TestCaseEntity>

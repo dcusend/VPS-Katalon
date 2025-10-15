@@ -4,5 +4,6 @@
    <name>Estimated_PTETaxElectingSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a6570ce9-ced8-43f8-93c1-a972e7fc8e20</testCaseGuid>
 </TestCaseEntity>

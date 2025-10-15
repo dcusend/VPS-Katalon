@@ -4,5 +4,6 @@
    <name>NewLiability_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dfd84417-8743-4acc-a910-6b164ec384e1</testCaseGuid>
 </TestCaseEntity>

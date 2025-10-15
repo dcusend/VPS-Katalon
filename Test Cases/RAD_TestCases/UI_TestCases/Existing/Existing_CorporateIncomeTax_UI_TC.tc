@@ -4,5 +4,6 @@
    <name>Existing_CorporateIncomeTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>fb01ae77-58c6-447c-bf60-77925ab0c01e</testCaseGuid>
 </TestCaseEntity>

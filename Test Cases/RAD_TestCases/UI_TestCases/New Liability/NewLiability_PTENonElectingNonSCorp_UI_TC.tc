@@ -4,5 +4,6 @@
    <name>NewLiability_PTENonElectingNonSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>77c87c44-768b-4a82-b2f8-34f484cf4632</testCaseGuid>
 </TestCaseEntity>
