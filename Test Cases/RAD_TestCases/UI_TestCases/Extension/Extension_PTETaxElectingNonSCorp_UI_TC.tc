@@ -4,5 +4,6 @@
    <name>Extension_PTETaxElectingNonSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d4f16481-c805-473c-a74f-f5b4902a3a76</testCaseGuid>
 </TestCaseEntity>

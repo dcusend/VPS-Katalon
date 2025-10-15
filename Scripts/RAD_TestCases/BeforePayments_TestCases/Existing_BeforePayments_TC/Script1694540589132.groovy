@@ -103,7 +103,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 
 					
-					
+					WebUI.delay(10)
 					
 // Set Data FEIN
 					

@@ -4,5 +4,6 @@
    <name>NewLiability_DigitalAdvertisingGrossRevenues_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a1ab3bc1-93e0-482b-890f-8041263f7847</testCaseGuid>
 </TestCaseEntity>

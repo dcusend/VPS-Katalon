@@ -4,5 +4,6 @@
    <name>Existing_AlcoholTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>834b1e2b-c83f-4e60-88f3-edff7b1ed2db</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>NewLiability_MotorFuelTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f843acb0-3543-4b82-8fca-c82d59c99fcf</testCaseGuid>
 </TestCaseEntity>

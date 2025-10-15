@@ -4,5 +4,6 @@
    <name>Existing_SlotsLicenseFee_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>496b1f1a-5902-44f3-93eb-b330ce0c7ecd</testCaseGuid>
 </TestCaseEntity>

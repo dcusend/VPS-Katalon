@@ -4,5 +4,6 @@
    <name>Estimated_PTENonElectingSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d0c8d7a1-c4e4-46cc-9122-0f1e233c8064</testCaseGuid>
 </TestCaseEntity>

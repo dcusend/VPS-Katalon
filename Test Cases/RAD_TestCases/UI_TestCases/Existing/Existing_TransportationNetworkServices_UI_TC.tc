@@ -4,5 +4,6 @@
    <name>Existing_TransportationNetworkServices_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>72010500-50b8-45bc-9d71-4f02553b808e</testCaseGuid>
 </TestCaseEntity>

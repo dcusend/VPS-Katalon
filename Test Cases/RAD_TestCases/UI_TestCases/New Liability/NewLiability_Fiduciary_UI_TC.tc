@@ -4,5 +4,6 @@
    <name>NewLiability_Fiduciary_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e68d8907-db0d-4973-9e93-0485df345c8a</testCaseGuid>
 </TestCaseEntity>

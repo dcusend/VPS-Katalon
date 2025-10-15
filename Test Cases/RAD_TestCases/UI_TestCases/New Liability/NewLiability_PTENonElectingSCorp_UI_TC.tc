@@ -4,5 +4,6 @@
    <name>NewLiability_PTENonElectingSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>064b349f-bc74-4654-8e62-294b6d39ace5</testCaseGuid>
 </TestCaseEntity>
