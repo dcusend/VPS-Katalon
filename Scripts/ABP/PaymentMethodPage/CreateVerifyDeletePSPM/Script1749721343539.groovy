@@ -115,6 +115,7 @@ for (def row = 1; row <= numOfRows; row++)
 											resText = "Pass"
 											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 											Thread.sleep(GlobalVariable.shortDelay)
+											KeywordUtil.logInfo("Deleting Saved Payment Method")
 											println("Deleting Saved Payment Method")
 											CustomKeywords.'abpPages.PaymentsMethodPage.clickDelete'()
 											WebUI.acceptAlert()

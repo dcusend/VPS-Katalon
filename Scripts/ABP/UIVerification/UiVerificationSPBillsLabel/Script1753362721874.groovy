@@ -78,6 +78,7 @@ String fileLoc = "KatalonData/ABPTestData/ABPTestData.xlsx"
 								  else {
 									  println(item + " text is missing")
 									  isRequiredTextPresent = false
+									  break;
 								  }
 								}
 								if (isRequiredTextPresent) {
