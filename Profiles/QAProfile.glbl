@@ -126,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!55555'</initValue>
+      <initValue>'Hello!66666'</initValue>
       <name>abpNoCFPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
