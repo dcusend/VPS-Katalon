@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangePaymentMethodCorptoCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05c00a1a-38f0-4e89-9e43-0bc05785328f</testCaseGuid>
+</TestCaseEntity>

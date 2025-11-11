@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SingleCFAboveCeilingPC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7ab4664-df76-436d-819f-3ecac5b189b3</testCaseGuid>
+</TestCaseEntity>

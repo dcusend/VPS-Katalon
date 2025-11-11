@@ -166,6 +166,13 @@ public class ccPaymentEntryBootstrapPage {
 		if ((!expYYYY.isEmpty())) {
 			WebUI.selectOptionByLabel(findTestObject(pathOR + 'Year'),expYYYY,false)
 		}
+		else {
+			Calendar now = Calendar.getInstance()
+			String currentYear = now.get(Calendar.YEAR)
+			println "Current Year: " + currentYear
+			WebUI.selectOptionByLabel(findTestObject(pathOR + 'Year'),currentYear,false)
+			
+		}
 	}
 
 

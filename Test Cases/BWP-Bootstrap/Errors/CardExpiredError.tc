@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CardExpiredError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>452798af-8a11-4db1-9ef2-25b1ee29a332</testCaseGuid>
+</TestCaseEntity>
