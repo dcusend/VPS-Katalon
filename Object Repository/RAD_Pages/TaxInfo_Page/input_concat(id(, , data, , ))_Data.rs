@@ -6,19 +6,20 @@
    <elementGuidId>c0a1ebfd-cc20-475d-be69-fafb574f5bcd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='data']</value>
+         <key>BASIC</key>
+         <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d']) = count(//*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#data</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;data&quot;)[count(. | //*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN Number *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d']) = count(//*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN Number *' and @ref_element = 'Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d'])]</value>
+         <key>XPATH</key>
+         <value>//input[@id='data']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,6 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>abaa7c74-ad18-4a64-806d-ecc3d28dd898</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +35,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
+      <webElementGuid>40535bae-d56c-4225-81ca-8e508f6aadb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>data</value>
+      <webElementGuid>01eff04b-016c-4066-8b3b-be703de0f786</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +51,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Data</value>
+      <webElementGuid>35f25e38-6fa9-4453-ba2c-92d5aebdf919</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,13 +59,15 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
+      <webElementGuid>b2c2b1ae-9725-44f4-a223-f0f125dfdf3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>FEIN Number *</value>
+      <value>FEIN *</value>
+      <webElementGuid>c959219a-3333-4612-bab2-ca34f8a549c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,6 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;data&quot;)</value>
+      <webElementGuid>e26e0fc1-7a67-45e0-bee5-66065de1ecd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,6 +83,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/RAD_Pages/TaxInfo_Page/iframe_The Social Security Number and Re-en_2a143d</value>
+      <webElementGuid>ba2ec809-f727-486f-b9df-4bb6d3286790</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,6 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='data']</value>
+      <webElementGuid>7f6d67d8-672b-486f-b43d-3e15eaeb1898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[20]</value>
+      <webElementGuid>77b8b2ee-e83a-4530-92ee-72d36df59038</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN Number *']</value>
+      <webElementGuid>6ab4c811-7582-4e0a-8876-9d8d44adb53c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

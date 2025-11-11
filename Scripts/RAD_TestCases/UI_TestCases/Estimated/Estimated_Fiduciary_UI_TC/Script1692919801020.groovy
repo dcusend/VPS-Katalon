@@ -78,7 +78,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
 			
-		
+		WebUI.delay(10)
 		
 // Verify that the following fields are not present under Taxpayer section
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_firstName'))
@@ -111,6 +111,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		
 // Verify FEIN under Tax Information section
+		WebUI.delay(10)
 		WebUI.verifyTextPresent('Tax Information', true)
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))

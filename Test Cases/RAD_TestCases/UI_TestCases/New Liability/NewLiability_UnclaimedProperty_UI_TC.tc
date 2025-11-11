@@ -4,5 +4,6 @@
    <name>NewLiability_UnclaimedProperty_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3be0d6fa-9155-42b9-be3b-f1b72a8a57e5</testCaseGuid>
 </TestCaseEntity>

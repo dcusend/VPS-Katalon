@@ -4,5 +4,6 @@
    <name>Existing_TobaccoTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b80b1c7c-8ce8-4b25-919c-abbaa2d17fc1</testCaseGuid>
 </TestCaseEntity>

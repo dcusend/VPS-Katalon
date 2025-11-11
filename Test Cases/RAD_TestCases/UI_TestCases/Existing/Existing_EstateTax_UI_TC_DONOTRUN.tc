@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Works in all Environments.</description>
-   <name>Existing_EstateTax_UI_TC</name>
+   <description>Do Not Execute. Works in all Environments.</description>
+   <name>Existing_EstateTax_UI_TC_DONOTRUN</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d8990e6c-32a7-4bb7-88e8-248a3d67c8cc</testCaseGuid>
 </TestCaseEntity>

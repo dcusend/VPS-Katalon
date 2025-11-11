@@ -4,5 +4,6 @@
    <name>NewLiability_BayRestorationFee_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4053502e-64cc-431e-a198-6dbd2a18a020</testCaseGuid>
 </TestCaseEntity>

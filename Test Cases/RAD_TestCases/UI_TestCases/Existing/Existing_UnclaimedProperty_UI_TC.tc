@@ -4,5 +4,6 @@
    <name>Existing_UnclaimedProperty_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>cb44417c-cb6f-421c-bc5c-2443c88d5048</testCaseGuid>
 </TestCaseEntity>

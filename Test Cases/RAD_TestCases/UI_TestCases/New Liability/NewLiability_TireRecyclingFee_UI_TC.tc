@@ -4,5 +4,6 @@
    <name>NewLiability_TireRecyclingFee_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2b5ded71-cb4f-461f-8672-54690be02e32</testCaseGuid>
 </TestCaseEntity>

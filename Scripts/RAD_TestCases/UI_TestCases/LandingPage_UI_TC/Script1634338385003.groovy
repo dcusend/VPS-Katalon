@@ -96,27 +96,65 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 			 * Landing Page') } else { System.out.println('FOR TAX RELATED QUESTIONS Static
 			 * text was NOT found on the Landing Page') }
 			 */
-			
-			
-	if (WebUI.verifyElementPresent(findTestObject(orPath + '/button_Continue'), 30))
-		{
-			System.out.println('Continue Button was found on the Landing Page')
-		}
-	else
-		{
-			System.out.println('Continue Button was NOT found on the Landing Page')
-		}
 
+			
+			if (WebUI.verifyTextPresent('Official Maryland Gov. Website', true))
+				{
+				System.out.println('Official Maryland Gov. Website was found on the Landing Page')
+				}
+			else
+				{
+					System.out.println('Official Maryland Gov. Website was NOT found on the Landing Page')
+					KeywordUtil.markWarning("Official Maryland Gov. Website was NOT found on the Landing Page")
+				}
+			
+			
+			
+// Added 10/03/2025 as part of new changes
+			if (WebUI.verifyElementPresent(findTestObject(orPath + '/button_Continue'), 30))
+				{
+					System.out.println('Continue Button was found on the Landing Page')
+				}
+			else
+				{
+					System.out.println('Continue Button was NOT found on the Landing Page')
+					KeywordUtil.markWarning("Continue Button was NOT found on the Landing Page")
+				}
+			
+				/*
+				 * if (WebUI.verifyElementPresent(findTestObject(orPath + '/button_Continue'),
+				 * 30)) { System.out.println('Continue Button was found on the Landing Page') }
+				 * else { System.out.println('Continue Button was NOT found on the Landing
+				 * Page') }
+				 */
+
+				
+				
+				
+		
+// Added 10/03/2025 as part of new changes		
+		if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_NewHelpLink'), 30))
+			{
+				System.out.println('New help link was found on the Landing Page')
+			}
+		else
+			{
+				System.out.println('New help link was NOT found on the Landing Page')
+				KeywordUtil.markWarning("New help link was NOT found on the Landing Page")
+			}
 		
 		
-	if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_taxhelpmarylandtaxes.gov'), 30))
-		{
-			System.out.println('Tax Help Maryland.gov link was found on the Landing Page')
-		}
-	else
-		{
-			System.out.println('Tax Help Maryland.gov link was NOT found on the Landing Page')
-		}
+		
+		
+		
+			/*
+			 * if (WebUI.verifyElementPresent(findTestObject(orPath +
+			 * '/a_taxhelpmarylandtaxes.gov'), 30)) { System.out.println('Tax Help
+			 * Maryland.gov link was found on the Landing Page') } else {
+			 * System.out.println('Tax Help Maryland.gov link was NOT found on the Landing
+			 * Page') KeywordUtil.
+			 * markWarning("Tax Help Maryland.gov link was NOT found on the Landing Page") }
+			 */
 		
 
 		
@@ -246,8 +284,26 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 		
 		
 		
+// Added 10/03/2025 as part of new changes
+			if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_PrivacyAndSecurityPolicy'), 30))
+				{
+					System.out.println('Privacy and Security Policy link was found on the Landing Page')
+				}
+			else
+				{
+					System.out.println('Privacy and Security Policy link was NOT found on the Landing Page')
+					KeywordUtil.markWarning("Privacy and Security Policy link was NOT found on the Landing Page")
+				}
 		
 		
 		
-		
-		
+// Added 10/03/2025 as part of new changes
+			if (WebUI.verifyElementPresent(findTestObject(orPath + '/a_AccessibilityPolicy'), 30))
+				{
+					System.out.println('Accessibility Policy link was found on the Landing Page')
+				}
+			else
+				{
+					System.out.println('Accessibility Policy link was NOT found on the Landing Page')
+					KeywordUtil.markWarning("Accessibility Policy link was NOT found on the Landing Page")
+				}

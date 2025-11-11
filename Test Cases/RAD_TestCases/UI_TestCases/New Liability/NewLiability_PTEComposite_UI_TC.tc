@@ -4,5 +4,6 @@
    <name>NewLiability_PTEComposite_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5bda01ac-57a2-4348-b797-dcd7abf93887</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>NewLiability_TobaccoTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>659e0741-7162-411b-bf82-6c88431793a2</testCaseGuid>
 </TestCaseEntity>

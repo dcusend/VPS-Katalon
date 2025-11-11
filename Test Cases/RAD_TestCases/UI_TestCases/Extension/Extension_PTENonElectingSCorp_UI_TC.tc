@@ -4,5 +4,6 @@
    <name>Extension_PTENonElectingSCorp_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4d0fb23f-0916-4566-b5ba-a8031050b7af</testCaseGuid>
 </TestCaseEntity>

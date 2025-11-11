@@ -4,5 +4,6 @@
    <name>Existing_PersonalIncomeTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e70dabc6-462f-4746-9011-98bf4c3b4ff0</testCaseGuid>
 </TestCaseEntity>

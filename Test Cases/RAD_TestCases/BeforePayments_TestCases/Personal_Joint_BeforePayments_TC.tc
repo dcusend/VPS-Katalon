@@ -4,5 +4,6 @@
    <name>Personal_Joint_BeforePayments_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e6a08151-c5ec-4d80-8f57-87cfb86807a3</testCaseGuid>
 </TestCaseEntity>

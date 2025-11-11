@@ -77,6 +77,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_middleName'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_lastName'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
+		WebUI.delay(10)
 		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
 		WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatReSSN'))
 
@@ -102,6 +103,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		def totalOptionsState = WebUI.getNumberOfTotalOption(findTestObject(orPath_AddressContact + '/select_State'))
 		WebUI.verifyEqual(totalOptionsState, 52)
 		
+		WebUI.delay(10)
 		
 		TestObject existing_FEIN = new TestObject()
 		existing_FEIN.setSelectorMethod(SelectorMethod.BASIC)
@@ -120,6 +122,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 // Verify FEIN under Tax Information section
 		WebUI.verifyTextPresent('Tax Information', true)
+		WebUI.delay(10)
 		WebUI.verifyElementPresent(existing_FEIN, 30)
 		WebUI.verifyElementPresent(existing_FEIN_Retype, 30)
 

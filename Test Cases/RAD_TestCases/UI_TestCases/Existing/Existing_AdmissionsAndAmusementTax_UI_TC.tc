@@ -4,5 +4,6 @@
    <name>Existing_AdmissionsAndAmusementTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ac326fa9-49f8-4760-a884-91e740c2d00b</testCaseGuid>
 </TestCaseEntity>

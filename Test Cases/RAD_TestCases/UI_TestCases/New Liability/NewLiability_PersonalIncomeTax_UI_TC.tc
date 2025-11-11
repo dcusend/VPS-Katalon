@@ -4,5 +4,6 @@
    <name>NewLiability_PersonalIncomeTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>295e36d9-b0f2-4543-ac7a-3221581dc84b</testCaseGuid>
 </TestCaseEntity>

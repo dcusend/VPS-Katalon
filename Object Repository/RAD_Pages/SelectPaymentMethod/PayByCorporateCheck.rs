@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PayByCorporateCheck</name>
+   <tag></tag>
+   <elementGuidId>bcd0b924-fd37-40b5-8021-0e62d6ed1322</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'BC' and @value = 'C']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>BC</value>
+      <webElementGuid>b7fc6c0b-8cec-4a8a-91f9-73113d35be29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>C</value>
+      <webElementGuid>96283421-5d53-426c-816d-a2fb89e8fb6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentMethodSelect</value>
+      <webElementGuid>f553faed-f70c-4430-88e3-b65966f71927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay by Corporate Check</value>
+      <webElementGuid>a05683f4-6de3-46d5-aa2d-0e6af77abbd2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

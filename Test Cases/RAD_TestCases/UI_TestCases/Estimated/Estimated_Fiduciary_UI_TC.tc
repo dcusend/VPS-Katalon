@@ -4,5 +4,6 @@
    <name>Estimated_Fiduciary_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>780b1cc6-2853-4dfc-9c33-bcc918b43abb</testCaseGuid>
 </TestCaseEntity>

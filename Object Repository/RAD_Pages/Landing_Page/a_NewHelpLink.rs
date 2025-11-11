@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_NewHelpLink</name>
+   <tag></tag>
+   <elementGuidId>6674b1c9-d220-4463-a182-d4385b9e04e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://marylandcomptroller.gov/help' and (text() = 'https://marylandcomptroller.gov/help' or . = 'https://marylandcomptroller.gov/help')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://marylandcomptroller.gov/help</value>
+      <webElementGuid>e5dd4e05-a1f7-4393-9258-674b793f5c13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>https://marylandcomptroller.gov/help</value>
+      <webElementGuid>64227ce8-3324-4224-8d7f-bb813025f305</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

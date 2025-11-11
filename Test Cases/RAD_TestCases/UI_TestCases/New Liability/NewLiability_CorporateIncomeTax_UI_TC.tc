@@ -4,5 +4,6 @@
    <name>NewLiability_CorporateIncomeTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5eea30f1-22cb-4464-a2bb-3ca7c3de8729</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>Existing_PTEComposite_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>fd140f74-59df-4994-ae6b-8a621ea033f3</testCaseGuid>
 </TestCaseEntity>

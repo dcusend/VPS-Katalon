@@ -4,5 +4,6 @@
    <name>ExistingLiability_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1fafdbc6-02a9-4bab-b54e-cf30f6edf3a4</testCaseGuid>
 </TestCaseEntity>

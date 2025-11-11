@@ -4,5 +4,6 @@
    <name>Existing_TireRecyclingFee_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1de7f3e4-fd75-4db7-9e34-85829bb66780</testCaseGuid>
 </TestCaseEntity>

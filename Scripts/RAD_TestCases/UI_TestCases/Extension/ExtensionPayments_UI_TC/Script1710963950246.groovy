@@ -138,6 +138,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_PSSN'), 30)
 		
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'), 30)
+		WebUI.delay(10)
 		
 		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatSSN'), 30)
 		
@@ -261,6 +262,8 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
 			
+			WebUI.delay(10)
+			
 			WebUI.verifyElementVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
 			
 			WebUI.verifyElementVisible(findTestObject('RAD_RecordAndPlay/input_concatReSSN'))
@@ -277,6 +280,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
 						
+			WebUI.delay(10)
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN'))
 				
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'))
@@ -320,7 +324,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
 				
-			
+			WebUI.delay(10)
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN'))
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'))
 			
@@ -331,6 +335,8 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_lastName'))
 			
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
+			
+			WebUI.delay(10)
 			
 			WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
 			

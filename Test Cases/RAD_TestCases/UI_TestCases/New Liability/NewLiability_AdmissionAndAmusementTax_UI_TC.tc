@@ -4,5 +4,6 @@
    <name>NewLiability_AdmissionAndAmusementTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>592b0620-05a4-48eb-9eae-22dcdc05be33</testCaseGuid>
 </TestCaseEntity>

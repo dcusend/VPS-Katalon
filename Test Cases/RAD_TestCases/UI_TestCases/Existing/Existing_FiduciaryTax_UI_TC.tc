@@ -4,5 +4,6 @@
    <name>Existing_FiduciaryTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>54ed68b2-eed6-4520-982a-5f8f098dc6c3</testCaseGuid>
 </TestCaseEntity>

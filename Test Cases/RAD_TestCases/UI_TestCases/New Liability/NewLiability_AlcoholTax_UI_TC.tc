@@ -4,5 +4,6 @@
    <name>NewLiability_AlcoholTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0fb0b450-fc52-4949-8902-83c30b8cc2a9</testCaseGuid>
 </TestCaseEntity>

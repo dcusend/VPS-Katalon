@@ -123,12 +123,14 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 		
 // Verify SSN and Re-Type SSN
+		WebUI.delay(10)
 		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatSSN'),30)
 		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatReSSN'),30)
 
 		
 // Verify FEIN under Tax Information section is NOT visible
 		WebUI.verifyTextPresent('Tax Information', true)
+		WebUI.delay(10)
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN-2'))
 		WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter-2'))
 		

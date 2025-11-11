@@ -4,5 +4,6 @@
    <name>Personal_Joint_MRF_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f9cb00c2-d374-4a54-b5d4-6fcdf0621e97</testCaseGuid>
 </TestCaseEntity>

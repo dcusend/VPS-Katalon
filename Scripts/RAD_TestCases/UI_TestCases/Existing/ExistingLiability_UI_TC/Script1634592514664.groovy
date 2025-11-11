@@ -52,8 +52,8 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 	
 		def totalOptionsExistingLiability = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'))
 	
-// Updates for August 2023
-		WebUI.verifyEqual(totalOptionsExistingLiability, 23)
+// Added 10/03/2025 as part of new changes
+		WebUI.verifyEqual(totalOptionsExistingLiability, 21)
 	
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Bay Restoration Fee','Corporate Income Tax','Fiduciary Tax'])
@@ -68,9 +68,9 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Slots License Fee','Tobacco Tax','Transportation Network Services'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Unclaimed Property','IFTA Tax'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Unclaimed Property'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Estate Tax','Digital Advertising Gross Revenues','PTE Composite'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Digital Advertising Gross Revenues','PTE Composite'])
 		
 		
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
@@ -198,6 +198,8 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 			//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_FEIN'), 30)
 				
 			//WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_ReTypeFEIN'), 30)
+			
+			
 			
 			WebUI.verifyElementPresent(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'), 30)
 			
