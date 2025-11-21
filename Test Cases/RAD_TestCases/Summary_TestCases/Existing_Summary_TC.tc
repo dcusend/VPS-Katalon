@@ -4,5 +4,6 @@
    <name>Existing_Summary_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7ca9c4d4-8e07-42a0-bc0b-cb3bab60185e</testCaseGuid>
 </TestCaseEntity>

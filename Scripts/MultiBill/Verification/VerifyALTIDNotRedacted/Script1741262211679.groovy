@@ -37,6 +37,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillNoCFURL
+
 def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc
@@ -73,37 +74,54 @@ for (def row = 1; row <= numOfRows; row++)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
-		
+		WebUI.delay(2)
 		
 		//Assign boolean value if input_amount element is present
-		def in_altID = WebUI.getText(findTestObject('Object Repository/MultiBill/MultibillSearch/td_AltID'))
+		//def in_altID = WebUI.getText(findTestObject('Object Repository/MultiBill/MultibillSearch/td_AltID'))
 		def accountNumber = dataFile.getValue("AccountNumber", row)
 		
-		println(in_altID)
-		println(in_altID.substring(in_altID.length()-3))
+		//println(in_altID)
+		//println(in_altID.substring(in_altID.length()-3))
 		println(accountNumber.substring(accountNumber.length()-3))
+		def redactedACNumber = "****" + accountNumber.substring(accountNumber.length()-3)
+		println ("redactedACNumber is " + redactedACNumber)
 		
 		//Checks if Amount is modifiable it is pass else fail
-		if (in_altID.contains("****")&& in_altID.equals(accountNumber)) {
+//		if (in_altID.contains("****") && in_altID.equals(accountNumber)) {
 			
-			KeywordUtil.logInfo("ALT ID is redacted")
-			KeywordUtil.markPassed("ALT ID is redacted and matching with data sheet")
+//			KeywordUtil.logInfo("ALT ID is redacted")
+//			KeywordUtil.markPassed("ALT ID is redacted and matching with data sheet")
+//			resText = "Fail"
+//			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//			}
+
+//		else {
+			
+//			if (in_altID.equals(accountNumber)) {
+				
+//				KeywordUtil.logInfo("ALT ID is not redacted")
+				
+//				KeywordUtil.markPassed("ALT ID is not redacted and matching with data sheet")
+//				resText = "Pass"
+//				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//				}
+			
+		
+		if (WebUI.verifyTextPresent(accountNumber, false))
+		{
+			
+			KeywordUtil.markPassed("Account Number is not redacted and matching with data sheet")
+			resText = "Pass"
+			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+		
+		
+		}
+		else if (WebUI.verifyTextPresent(redactedACNumber, false))
+		{
+			KeywordUtil.markFailed("Account Number is redacted and not matching with data sheet")
 			resText = "Fail"
 			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-			}
-
-		else {
-			
-			if (in_altID.equals(accountNumber)) {
-				
-				KeywordUtil.logInfo("ALT ID is not redacted")
-				
-				KeywordUtil.markPassed("ALT ID is not redacted and matching with data sheet")
-				resText = "Pass"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-				}
-			
-			}
 		
+		}
 		}
 }

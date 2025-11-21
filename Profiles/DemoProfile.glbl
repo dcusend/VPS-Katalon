@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!8888888'</initValue>
+      <initValue>'Hello!0000000'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -81,7 +81,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!7777777'</initValue>
+      <initValue>'Velocity@10001'</initValue>
       <name>AutoPasswordAdminSuite</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

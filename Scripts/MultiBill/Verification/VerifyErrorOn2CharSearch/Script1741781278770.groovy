@@ -68,15 +68,21 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
-		Thread.sleep(20000)
+		WebUI.delay(2)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
+		WebUI.delay(2)
 		
-		def getErrorText = WebUI.getText(findTestObject('Object Repository/MultiBill/MultibillSearch/Page_Bill Lookup/div_2charError'))
-		println(getErrorText)
+//		WebUI.verifyTextPresent('Error', true)
+//		WebUI.verifyTextPresent('Please enter a minimum of 3 characters', true)
+		WebUI.verifyTextPresent('Error\nPlease enter a minimum of 3 characters', true)
 		
-		if(getErrorText.contains("Error\nPlease enter a minimum of 3 characters.")) {
-			println("Text matching")
-			}
+		
+//		def getErrorText = WebUI.getText(findTestObject('Object Repository/MultiBill/MultibillSearch/Page_Bill Lookup/div_2charError'))
+//		println(getErrorText)
+		
+//		if(getErrorText.contains("Error\nPlease enter a minimum of 3 characters.")) {
+//			println("Text matching")
+//			}
 		}}

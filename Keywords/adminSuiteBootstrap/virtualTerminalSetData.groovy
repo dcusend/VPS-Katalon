@@ -186,6 +186,8 @@ public class virtualTerminalSetData {
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined9'), UDF9)
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined10'), UDF10)
 
+		WebUI.delay(5)
+
 		WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
 	}
 	//##################################################################################################################################

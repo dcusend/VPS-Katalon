@@ -1,18 +1,16 @@
 {
-  "keywordFileContentHash": "B13B6D8197F180406F7A78393AB6295B",
+  "keywordFileContentHash": "9F3FE7BF966769B7209CDFE428854C50",
   "keywordClasses": [
     {
       "name": "adminSuiteBootstrap.loginFunctionality",
       "keywordMethods": [
         {
           "name": "login_AdminSuite",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "login_AdminSuite_AdminUser",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "login_AdminSuite_DD",
@@ -43,8 +41,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setDataAdminSuiteLogin",
@@ -88,11 +85,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

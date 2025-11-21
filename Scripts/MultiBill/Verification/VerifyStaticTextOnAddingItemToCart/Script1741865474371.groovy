@@ -90,7 +90,7 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			if(WebUI.verifyTextPresent("1 Item(s) Added to Cart",false)) {
 				KeywordUtil.logInfo("Static Text Present")
-				KeywordUtil.markPassed()
+				KeywordUtil.markPassed("Static Text Present")
 				resText = "Pass"
 				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 				//CustomKeywords.'multiBillPages.searchPage.selectRemoveFromCart'()

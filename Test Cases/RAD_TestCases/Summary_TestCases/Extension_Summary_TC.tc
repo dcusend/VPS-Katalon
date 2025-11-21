@@ -4,5 +4,6 @@
    <name>Extension_Summary_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>774ab33f-0063-47c1-afe4-4e5f6cdc641b</testCaseGuid>
 </TestCaseEntity>

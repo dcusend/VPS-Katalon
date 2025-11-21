@@ -136,8 +136,12 @@ def ExecuteTC, Taxtype, Paymenttype, feinSsn
 									}
 								else
 									{
-										WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_FEIN'), 'iGDxf8hSRT4=')
-										WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_RetypeFEIN'), '')
+										//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_FEIN'), 'iGDxf8hSRT4=')
+										//WebUI.setEncryptedText(findTestObject('Object Repository/RAD_RecordAndPlay/input_Existing_RetypeFEIN'), '')
+										
+										WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data'),'iGDxf8hSRT4=')
+										WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_concat(id(, , data, , ))_Data (1)'),'')
+										
 									}
 														
 						break

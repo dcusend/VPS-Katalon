@@ -69,4 +69,19 @@
       <initValue>'Hello!8888888'</initValue>
       <name>AutoPasswordAdminSuite</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5291158864584555'</initValue>
+      <name>cc_Number</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'03'</initValue>
+      <name>expMo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2028'</initValue>
+      <name>expYear</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

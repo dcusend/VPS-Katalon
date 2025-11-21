@@ -522,7 +522,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							
 							if(isRequiredTextPresent)
 								{
-										if(WebUI.verifyTextPresent('Federal EIN:', true))
+										//if(WebUI.verifyTextPresent('Federal EIN:', true))
+										if(WebUI.verifyTextPresent('FEIN:', true))
 											{
 												isRequiredTextPresent = true
 											}
@@ -614,11 +615,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							
 // Select Proceed to Payment button
 		WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
-		
+		WebUI.delay(2)
 					
 		if(isRequiredTextPresent)
 			{
-					if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+					//if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+					if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/PayByCreditCard'), 30))
 						{
 							isRequiredTextPresent = true
 						}
