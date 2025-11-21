@@ -183,7 +183,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 							
 							WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
 							
-							Thread.sleep(2000)
+							
 							if (WebUI.verifyTextPresent('Transaction Successful', true))
 							{
 								WebUI.verifyTextPresent('Transaction Type', true)

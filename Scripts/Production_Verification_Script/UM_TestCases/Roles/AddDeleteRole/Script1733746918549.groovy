@@ -94,6 +94,7 @@ for (def row = 1; row <= numOfRows; row++)
 				// Set Data on Add Role page
 					CustomKeywords.'adminSuiteBootstrap.addRole.setDataAddRoleEF'(row,dataFile)
 					
+					WebUI.delay(10)
 					
 					if (WebUI.verifyTextPresent('Role Created', true))
 					{

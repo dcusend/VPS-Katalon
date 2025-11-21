@@ -124,6 +124,8 @@ for (def row = 1; row <= numOfRows; row++)
 						KeywordUtil.logInfo("View Parcel button Exists")
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
+						
+						WebUI.delay(5)
 					
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 						
@@ -134,6 +136,7 @@ for (def row = 1; row <= numOfRows; row++)
 									
 									WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ViewParcel/button_close'))
 									
+									WebUI.delay(5)
 									// Select Customer CC Terms Checkbox
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
 									
