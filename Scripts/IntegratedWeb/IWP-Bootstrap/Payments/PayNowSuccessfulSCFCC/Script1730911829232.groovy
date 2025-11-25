@@ -115,6 +115,7 @@ for (def row = 1; row <= numOfRows; row++)
 			// Select Confirm Button on Payment Confirmation Page
 				CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 			
+				WebUI.delay(5)
 			//Select Accept Fee and Confirm Payment
 				CustomKeywords.'iwpPages.ConvenienceFeesBootstrapPage.selectAcceptFeeAndProcessPayment'()
 				

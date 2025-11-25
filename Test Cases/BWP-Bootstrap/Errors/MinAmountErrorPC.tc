@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MinAmountErrorPC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af664d90-b547-48ff-8abd-0d7462b1fdd1</testCaseGuid>
+</TestCaseEntity>

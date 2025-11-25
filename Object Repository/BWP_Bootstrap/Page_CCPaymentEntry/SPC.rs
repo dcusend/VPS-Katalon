@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SPC</name>
+   <tag></tag>
+   <elementGuidId>873c9c52-3ad4-4f95-a931-b7c5580d3818</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'spc' and @id = 'spc']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>spc</value>
+      <webElementGuid>6488845a-f1b0-4eef-97f7-5c7a22e17f2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>spc</value>
+      <webElementGuid>957c3e26-ca1d-4ea5-a285-bba18fbd0672</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

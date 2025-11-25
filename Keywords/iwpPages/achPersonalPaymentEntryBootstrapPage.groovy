@@ -45,7 +45,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.setUDFData(UDFID)
 		this.selectCheckboxStoredPaymentMethod()
 		this.selectCheckboxACHTANDC()
-		this.selectContinueButton()
+		this.ntinueButton()
 	}
 
 	@Keyword
@@ -58,7 +58,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.setDataCCDate(ccDate)
 		this.selectCheckboxStoredPaymentMethod()
 		this.selectCheckboxACHTANDC()
-		this.selectContinueButton()
+		this.ntinueButton()
 	}
 
 
@@ -348,7 +348,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 	//**********************************************************************************************
 
 	@Keyword
-	def selectContinueButton() {
+	def ntinueButton() {
 
 		WebUI.click(findTestObject(pathOR+'input_Continue'))
 	}
@@ -481,17 +481,17 @@ public class achPersonalPaymentEntryBootstrapPage {
 			//			}
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input_UDF2_userDefined2'),30)) {
-//				if ((!udf2.isEmpty())) {
-//					WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input_UDF2_userDefined2'),udf2)
-//				}
-//				else {
-//					println("UDF2 is not present in the Excel Spreadsheet")
-//				}
-//			}
-//			else {
-//				println("UDF2 field is either missing or not modifiable on ACH Personal Payment Entry Page")
-//			}
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input_UDF2_userDefined2'),30)) {
+			//				if ((!udf2.isEmpty())) {
+			//					WebUI.setText(findTestObject('Object Repository/DisplayConvFees/Page_DataEntryPage/input_UDF2_userDefined2'),udf2)
+			//				}
+			//				else {
+			//					println("UDF2 is not present in the Excel Spreadsheet")
+			//				}
+			//			}
+			//			else {
+			//				println("UDF2 field is either missing or not modifiable on ACH Personal Payment Entry Page")
+			//			}
 
 
 
@@ -522,7 +522,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 			//			}
 
 
-//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF8'),30)) {
+			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF8'),30)) {
 			if ((!udf8.isEmpty())) {
 				WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/dd_UDF8'),udf8, false)
 			}

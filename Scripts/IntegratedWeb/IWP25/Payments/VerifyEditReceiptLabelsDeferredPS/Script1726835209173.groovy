@@ -96,7 +96,7 @@ def numOfRows,  nameSheet, dataFileEmulator, isRequiredTextPresent = false
 							
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Receipt/ViewScheduledPaymentsButton'))
 							
-							def title = findTestData(dataFile).getValue('Title', row)
+							def title = dataFile.getValue('Title', row)
 							
 							WebUI.switchToWindowTitle(title + 'View Scheduled Payments')
 							Thread.sleep(5000)
@@ -111,6 +111,7 @@ def numOfRows,  nameSheet, dataFileEmulator, isRequiredTextPresent = false
 								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
 							}	
 							
+							Thread.sleep(2000)
 							if(WebUI.verifyTextPresent("Successful Payment Plan Update", false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)

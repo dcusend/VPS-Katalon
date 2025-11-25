@@ -93,6 +93,7 @@ for (def row = 1; row <= numOfRows; row++)
 				// Call setData for AddUser
 					CustomKeywords.'adminSuiteBootstrap.addUser.setDataAddUserEF'(row,dataFile)
 					
+					WebUI.delay(5)
 					if (WebUI.verifyTextPresent('User Account Created A user account for', true))
 					{
 						
@@ -111,6 +112,7 @@ for (def row = 1; row <= numOfRows; row++)
 						// Select Modify button
 						WebUI.click(findTestObject(path_ModifyUser + 'button_Update'))
 						
+						WebUI.delay(5)
 						
 						// Verify the Static text					
 						if (WebUI.verifyTextPresent('User Account Modified The user account for', true))

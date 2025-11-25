@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CardNotAcceptedError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd388d60-d3ce-4a45-8d6f-20715eeaaa9e</testCaseGuid>
+</TestCaseEntity>

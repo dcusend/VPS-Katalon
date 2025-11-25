@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DualCFAboveCeilingPSACH</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a126474e-8778-4b8a-85f4-06ffb5894f8b</testCaseGuid>
+</TestCaseEntity>

@@ -373,8 +373,23 @@ public class ccPaymentEntryPage {
 
 				//This js script is written to set the future date
 				String js = '''
-				   document.getElementById('processDate').value = '08/09/2025'
-				  '''
+				let date = new Date(); // Now
+				date.setDate(date.getDate() + 30); // Set now + 30 days as the new date
+				console.log(date);
+
+				
+				let dateString = date;
+				let new_date = new Date(dateString);
+				
+				let month = (new_date.getMonth() + 1).toString().padStart(2, '0');
+				let day = new_date.getDate().toString().padStart(2, '0');
+				let year = new_date.getFullYear();
+				
+				let formattedDate = `${month}/${day}/${year}`;
+
+				console.log(formattedDate)
+				   document.getElementById('processDate').value = formattedDate
+				'''
 				WebUI.executeJavaScript(js, null)
 			}
 			else {

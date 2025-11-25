@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_exit</name>
+   <tag></tag>
+   <elementGuidId>38e411b7-6fa9-4bba-91c5-0bf06bd4d472</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'exit' and @value = 'Exit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>exit</value>
+      <webElementGuid>6d0dd804-67c8-4a66-8742-8c6b0c09d033</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Exit</value>
+      <webElementGuid>c4ca2566-e5e2-4c6d-92e9-3e998c98965b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

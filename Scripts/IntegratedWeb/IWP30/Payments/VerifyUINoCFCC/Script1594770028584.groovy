@@ -61,7 +61,7 @@ import internal.GlobalVariable as GlobalVariable
 			
 			
 // Verify static text and Exit button on Select Payment Method page
-						
+			WebUI.delay(5)
 			WebUI.verifyTextPresent(("Select Payment Method"), false)
 			WebUI.verifyTextPresent(("Please Choose the Method of Payment"), false)
 			
@@ -89,7 +89,7 @@ import internal.GlobalVariable as GlobalVariable
 			
 			
 // Verify Static text on Credit Card Payment Entry page
-			
+			WebUI.delay(5)
 			WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk"), false)
 			WebUI.verifyTextPresent(("Please enter the following information about your payment"), false)
 			WebUI.verifyTextPresent(("CAN Label"), false)

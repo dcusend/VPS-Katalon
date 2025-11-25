@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_confirmAccountNumber_password</name>
+   <tag></tag>
+   <elementGuidId>8508c554-05b1-402f-a20c-16b822044372</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'password_confirmAccountNumber' and @id = 'password_confirmAccountNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password_confirmAccountNumber</value>
+      <webElementGuid>10292995-727e-48e7-8954-4d8516d93dc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password_confirmAccountNumber</value>
+      <webElementGuid>94bff7d1-ce3a-4cce-af9e-07ed7e2669db</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

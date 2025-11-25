@@ -4,5 +4,6 @@
    <name>PayNowSuccessfulNoCFCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e9d964f6-b3f1-4945-b628-db0d7320a67a</testCaseGuid>
 </TestCaseEntity>

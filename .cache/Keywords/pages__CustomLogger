@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "BCF50E2EA35C0E83C98EDBB17CF973CF",
+  "keywordFileContentHash": "FBF9F016EE764CEA0C478E47B2FED74D",
   "keywordClasses": [
     {
       "name": "pages.CustomLogger",
@@ -33,11 +33,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

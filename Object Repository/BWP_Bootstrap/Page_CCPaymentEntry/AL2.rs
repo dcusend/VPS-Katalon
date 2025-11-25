@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AL2</name>
+   <tag></tag>
+   <elementGuidId>3e531a83-7884-4c36-9151-d5bace23515c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'billingAddress2' and @id = 'billingAddress2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billingAddress2</value>
+      <webElementGuid>dd99a9bd-37aa-45e4-8ca9-d0fd18283b9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billingAddress2</value>
+      <webElementGuid>038275e7-7bda-4e6e-8b59-984d1c258f60</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

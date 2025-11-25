@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TermConditionCheckbox</name>
+   <tag></tag>
+   <elementGuidId>27472091-56be-4b1c-b6e1-32053b52b398</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'checkedAcceptCondition' and @id = 'checkedAcceptCondition' and @type = 'checkbox']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>checkedAcceptCondition</value>
+      <webElementGuid>a8aea3b1-6f29-4d7e-994c-1e5e185193f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>checkedAcceptCondition</value>
+      <webElementGuid>9fcbe973-8487-4232-8564-a2d1a4bae06e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>84f48580-1a4d-47da-8613-4fe30c5a727c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

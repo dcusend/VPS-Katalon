@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MinAmountErrorPS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9daa40d-3226-4baa-bdd0-94e0d13f06b4</testCaseGuid>
+</TestCaseEntity>

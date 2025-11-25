@@ -55,6 +55,8 @@ public class editSchedulePayment {
 
 		def String datafile_class = dataFileS.getClass()
 
+
+		println  dataFileS
 		if(datafile_class.contains('com.kms.katalon.core.testdata.reader.SheetPOI')) {
 			this.getDataSchedPaymentEF(rowS, dataFileS)
 		}
