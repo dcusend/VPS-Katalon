@@ -85,27 +85,58 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			Thread.sleep(10000)
 			
-			def isRemoveFromCartExist = WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/CartContents/btn_removefromCartIcon'),10)
 			
-			if(isRemoveFromCartExist) {
+			
+			if (WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/CartContents/btn_removefromCartIcon'),10))
+			{
+				WebUI.verifyTextPresent("VIRGINIA", false)
 				CustomKeywords.'multiBillPages.cartContentPage.selectRemovefromCart'()
-				KeywordUtil.logInfo("No Matching Items Found")
-				KeywordUtil.markPassed("Data found and Payer Name Address and Account Number are matching")
-				resText = "Pass"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+				WebUI.delay(5)
+				
+				if (WebUI.verifyTextNotPresent("VIRGINIA", false))
+				{
+					KeywordUtil.markPassed("Bill was removed from the Cart")
+					resText = "Pass"
+					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 				}
-				else {
-					KeywordUtil.logInfo("Remove from Cart Icon not present")
-					KeywordUtil.markFailed("Remove from Cart Icon not present")
+				else
+				{
+					KeywordUtil.markFailed("Bill was not removed from the Cart")
 					resText = "Fail"
 					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 				}
-			}else {
-				KeywordUtil.logInfo("User is not on Cart Contents Page")
-				KeywordUtil.markFailed("User is not on Cart Contents Page")
-				resText = "Fail"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 			}
+			
+			
+			
+			
+//			def isRemoveFromCartExist = WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/CartContents/btn_removefromCartIcon'),10)
+			
+//			if(isRemoveFromCartExist) {
+//				CustomKeywords.'multiBillPages.cartContentPage.selectRemovefromCart'()
+//				KeywordUtil.logInfo("No Matching Items Found")
+//				KeywordUtil.markPassed("Data found and Payer Name Address and Account Number are matching")
+//				resText = "Pass"
+//				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//				}
+//				else {
+//					KeywordUtil.logInfo("Remove from Cart Icon not present")
+//					KeywordUtil.markFailed("Remove from Cart Icon not present")
+//					resText = "Fail"
+//					CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//				}
+//			}
+			
+//		else {
+//				KeywordUtil.logInfo("User is not on Cart Contents Page")
+//				KeywordUtil.markFailed("User is not on Cart Contents Page")
+//				resText = "Fail"
+//				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//			}
+			
+			
+			
+		}
 		
 			
 		}}

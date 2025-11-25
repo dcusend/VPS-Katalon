@@ -37,6 +37,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillSingleCFURL
+//def multibillURL=GlobalVariable.MultiBillNoCFURL
 def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc
@@ -73,44 +74,51 @@ for (def row = 1; row <= numOfRows; row++)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
+		WebUI.delay(2)
 		
-		WebDriver driver = DriverFactory.getWebDriver()
-		WebElement Table = driver.findElement(By.xpath("//table/tbody"))
+		WebUI.verifyTextPresent('*.51', false)
 		
-		//To locate rows of table it will Capture all the rows available in the table
-		List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
-		
-		//Assign boolean value if input_amount element is present
-		def isAmountElementNotPresent = WebUI.verifyElementNotPresent(findTestObject('Object Repository/MultiBill/MultibillSearch/input__amount'),30)
-		
-		Thread.sleep(shortDelay)
-		
-		//Checks if Amount is modifiable it is pass else fail
-		if(isAmountElementNotPresent) {
-			KeywordUtil.logInfo("Amount Text box is not present")
-			
-			//To calculate no of rows In table
-			rows_count = rows_table.size()
-		   println(rows_count)
-			   
-			   //If We have more than 1 row in table match the value on page with datasheet
-			   if(rows_count>0) {
-				   WebUI.verifyTextPresent(dataFile.getValue("Amount", row), false)
-				   
-				   println(dataFile.getValue("Amount", row))
-			
-				   KeywordUtil.markPassed("Amount text box at search page is not editable and redacted")
-				   resText = "Pass"
-				   CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-			}}
-		else {
-			
-			KeywordUtil.logInfo("Amount Text box is editable")
-			KeywordUtil.markPassed("Amount text box at search page is editable")
-			resText = "Fail"
-			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-			
-			}
+		/*
+		 * WebDriver driver = DriverFactory.getWebDriver() WebElement Table =
+		 * driver.findElement(By.xpath("//table/tbody"))
+		 * 
+		 * //To locate rows of table it will Capture all the rows available in the table
+		 * List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+		 * 
+		 * //Assign boolean value if input_amount element is present def
+		 * isAmountElementNotPresent =
+		 * WebUI.verifyElementNotPresent(findTestObject('Object
+		 * Repository/MultiBill/MultibillSearch/input__amount'),30)
+		 * 
+		 * Thread.sleep(shortDelay)
+		 * 
+		 * //Checks if Amount is modifiable it is pass else fail
+		 * if(isAmountElementNotPresent) {
+		 * KeywordUtil.logInfo("Amount Text box is not present")
+		 * 
+		 * //To calculate no of rows In table rows_count = rows_table.size()
+		 * println(rows_count)
+		 * 
+		 * //If We have more than 1 row in table match the value on page with datasheet
+		 * if(rows_count>0) { WebUI.verifyTextPresent(dataFile.getValue("Amount", row),
+		 * false)
+		 * 
+		 * println(dataFile.getValue("Amount", row))
+		 * 
+		 * KeywordUtil.
+		 * markPassed("Amount text box at search page is not editable and redacted")
+		 * resText = "Pass"
+		 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
+		 * ,fileLoc,nameSheet,row) }} else {
+		 * 
+		 * KeywordUtil.logInfo("Amount Text box is editable")
+		 * KeywordUtil.markPassed("Amount text box at search page is editable") resText
+		 * = "Fail"
+		 * CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn
+		 * ,fileLoc,nameSheet,row)
+		 * 
+		 * }
+		 */
 		
 		}
 }

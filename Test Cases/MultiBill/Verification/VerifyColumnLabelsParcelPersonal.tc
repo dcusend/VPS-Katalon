@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyColumnLabelsParcelPersonal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d180b0a-4fbb-4233-8372-f827be5d66d8</testCaseGuid>
+</TestCaseEntity>

@@ -37,6 +37,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillNoCFURL
+//def multibillURL=GlobalVariable.MultiBillSingleCFURL
 def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc
@@ -121,6 +122,22 @@ for (def row = 1; row <= numOfRows; row++)
 				else {
 					isRequiredTextPresent = false
 				}
+				
+				
+				def amount_Verify = WebUI.getAttribute(findTestObject('Object Repository/MultiBill/MultibillSearch/input_Amount_1303'), 'value')
+				//WebUI.verifyMatch(dataFile.getValue("Amount", row), amount_Verify, false)
+				println(amount_Verify)
+				
+				
+				if(WebUI.verifyMatch(dataFile.getValue("Amount", row), amount_Verify, false)) {
+					
+				KeywordUtil.logInfo("Amount present")
+				isRequiredTextPresent = true
+				}
+				else {
+					isRequiredTextPresent = false
+				}
+				
 				
 				if(isRequiredTextPresent)
 				{
