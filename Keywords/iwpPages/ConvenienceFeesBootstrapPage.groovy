@@ -30,7 +30,7 @@ public class ConvenienceFeesBootstrapPage {
 	// Select Accept fee and Process Payment
 	@Keyword
 	def selectAcceptFeeAndProcessPayment() {
-		WebUI.check(findTestObject(pathSelectPM + 'btn_convFeeNotifyAction'))
+		WebUI.check(findTestObject(pathSelectPM + 'input_AcceptFee'))
 	}
 
 	@Keyword

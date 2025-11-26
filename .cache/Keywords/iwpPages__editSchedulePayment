@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "BE87557C06E8B7B49B36FDF4F5FA4A21",
+  "keywordFileContentHash": "E45811F40DCA87BE0DE68DBF4F05B786",
   "keywordClasses": [
     {
       "name": "iwpPages.editSchedulePayment",
@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "getDataSchedPaymentEF",
@@ -64,7 +65,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataSchedPayment",
@@ -95,7 +97,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataSchedPaymentEF",
@@ -126,10 +129,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

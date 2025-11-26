@@ -40,10 +40,28 @@ public class ccPaymentEntryBootstrapPage {
 		this.setDataCardInfo(CardID)
 		this.setDataCardAddress(AddressID)
 		this.setDataCardEmailAndPhone(EmailPhoneID)
-		this.setDataAmount(AmountS)
+		//		this.setDataAmount(AmountS)
 		this.setDataCardUDF(UDFID)
-		this.selectCheckboxCCTerms()
+
+		//		if(CardID == '8') {
+		//			this.setDataAmount(' ')
+		//		}
+		if(CardID != '8') {
+			this.selectCheckboxCCTerms()
+		}
 		this.selectContinueButton()
+	}
+	
+	@Keyword
+	def setDataCCMainWithoutCheckboxAndSubmit(nameID, CardID, EmailPhoneID, AddressID, AmountS, UDFID, AppID) {
+		println(AmountS)
+		appID = AppID
+		this.setDataCardName(nameID)
+		this.setDataCardInfo(CardID)
+		this.setDataCardAddress(AddressID)
+		this.setDataCardEmailAndPhone(EmailPhoneID)
+		//		this.setDataAmount(AmountS)
+		this.setDataCardUDF(UDFID)
 	}
 
 	//*********************************************************************************************
@@ -171,7 +189,6 @@ public class ccPaymentEntryBootstrapPage {
 			String currentYear = now.get(Calendar.YEAR)
 			println "Current Year: " + currentYear
 			WebUI.selectOptionByLabel(findTestObject(pathOR + 'Year'),currentYear,false)
-			
 		}
 	}
 

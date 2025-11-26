@@ -32,10 +32,12 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
 def CardID, CalDate, AddressID, EmailPhoneID, Notes
 
+
 String path = fileLoc
-nameSheet = "CardNotAcceptedError"
+nameSheet = "CardNotAcceptError"
 dataFileEmulator = "BWPTestData/EmulatorData"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
+
 
 numOfRows = dataFile.getRowNumbers()
 

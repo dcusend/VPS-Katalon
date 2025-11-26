@@ -43,8 +43,24 @@ public class achCorporatePaymentEntryBootstrapPage {
 		this.setDataEmailAndPhone(EmailPhoneID)
 		this.setDataudf(udfID)
 		//		this.selectCheckboxStoredPaymentMethod()
-		this.selectCheckboxACHTANDC()
+
+		//Dont check the checkbox on MissingReqFields testcase
+		if(ACHID != '7') {
+			this.selectCheckboxACHTANDC()
+		}
 		this.selectContinueButton()
+	}
+	
+	@Keyword
+	def setDataACHMainWithoutCheckboxAndSubmit(nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID, AppID) {
+
+		appID = AppID
+		this.setDataCompanyNameID(nameID)
+		this.setDataACH(ACHID)
+		this.setDataAddress(AddressID)
+		this.setDataEmailAndPhone(EmailPhoneID)
+		this.setDataudf(udfID)
+		//		this.selectCheckboxStoredPaymentMethod()
 	}
 
 	@Keyword
@@ -87,7 +103,6 @@ public class achCorporatePaymentEntryBootstrapPage {
 
 
 			def ID = dataFileACHData.getValue("ID", row)
-			println(ID+ACHIDG)
 
 			if (ID.equals(ACHIDG)) {
 				routingTransitNumber = dataFileACHData.getValue("RoutingNumber", row)
