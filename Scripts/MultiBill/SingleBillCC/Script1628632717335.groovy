@@ -71,6 +71,8 @@ if (ExecuteTC.toUpperCase() == "Y")
 
 		println("SearchString is : " + SearchString)
 		
+		WebUI.delay(2)
+		
 		WebUI.setText(findTestObject('Object Repository/MultiBill/MultibillSearch/input_Search_searchInput'), SearchString)
 		
 		WebUI.click(findTestObject('Object Repository/MultiBill/MultibillSearch/btn_Search'))
@@ -89,8 +91,9 @@ if (ExecuteTC.toUpperCase() == "Y")
 			    println('Bill added to cart, continue executing test case')
 			
 			    WebUI.click(findTestObject('Object Repository/MultiBill/MultibillSearch/btn_ViewCart'))
-			
+				WebUI.delay(2)
 			    WebUI.click(findTestObject('Object Repository/MultiBill/CartContents/btn_Checkout'))
+				WebUI.delay(2)
 			
 			    WebUI.click(findTestObject('Object Repository/MultiBill/input_Pay by Credit or Branded Debit_paymentMethod'))
 			

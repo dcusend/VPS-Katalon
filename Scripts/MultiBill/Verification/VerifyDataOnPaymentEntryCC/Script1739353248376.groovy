@@ -30,6 +30,7 @@ String fileLoc = "KatalonData/MultibillTestData/MultibillCCData.xlsx"
 def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 def ExecuteTC, searchString
 def shortDelay = GlobalVariable.shortDelay
+def multibillURL=GlobalVariable.MultiBillNoCFURL
 
 String path = fileLoc
 nameSheet = "CCData"
@@ -58,25 +59,48 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
-		Thread.sleep(shortDelay)
+		WebUI.openBrowser(multibillURL)
+		WebUI.maximizeWindow()
+		
+		WebUI.delay(2)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
-		Thread.sleep(shortDelay)
+		WebUI.delay(2)
 		
 		//select add to cart icon
 		CustomKeywords.'multiBillPages.searchPage.selectAddtoCart'()
+		WebUI.delay(2)
 		
 		//click on ViewCart icon
 		CustomKeywords.'multiBillPages.searchPage.selectViewCart'()
+		WebUI.delay(2)
 		
 		//select check out on cart content page 
 		CustomKeywords.'multiBillPages.cartContentPage.selectCheckout'()
+		WebUI.delay(2)
 		
 		//SelectPayment Method Radio button
 		CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByCreditCard'()
+		WebUI.delay(2)
 		
 		//Select Make a Payment button 
 		CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
+		WebUI.delay(2)
+		
+		def cardholder_Name = WebUI.getAttribute(findTestObject('Object Repository/MultiBill/Page_PaymentEntry_CC/CardholderName'), 'value')
+		WebUI.verifyMatch("PAMELA SMITH", cardholder_Name, false)
+		
+		def al1 = WebUI.getAttribute(findTestObject('Object Repository/MultiBill/Page_PaymentEntry_CC/AL1'), 'value')
+		WebUI.verifyMatch("3940 GRANGE RD", al1, false)
+		
+		def zip_Code = WebUI.getAttribute(findTestObject('Object Repository/MultiBill/Page_PaymentEntry_CC/ZipCode'), 'value')
+		WebUI.verifyMatch("28650", zip_Code, false)
+		
+		WebUI.verifyTextPresent('By checking this box I am giving Hicksville Water District permission to process this payment on my behalf', true)
+		
+		WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/Page_PaymentEntry_CC/TandC_Checkbox'), 30)
+		
+		
 		}}

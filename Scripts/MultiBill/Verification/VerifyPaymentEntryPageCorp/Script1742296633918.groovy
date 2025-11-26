@@ -126,6 +126,7 @@ for (def row = 1; row <= numOfRows; row++)
 				}
 				else{
 					isRequiredTextPresent = false
+					println ("Address is not pre-populated")
 				}
 			
 				if(isRequiredTextPresent) {
@@ -135,6 +136,7 @@ for (def row = 1; row <= numOfRows; row++)
 					}
 					else{
 						isRequiredTextPresent = false
+						println ("Address is not pre-populated")
 					}
 		}
 		}

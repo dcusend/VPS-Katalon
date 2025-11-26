@@ -153,16 +153,18 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							
 					
 // Populate Amount
-					
+					WebUI.delay(2)
 					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
+					WebUI.delay(2)
 					
-					
-					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
+					//WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
 		
 		
 // Select Continue Button
 					WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+					WebUI.delay(2)
 					WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+					WebUI.delay(2)
 					WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 		
 		
@@ -807,7 +809,9 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							
 				if(isRequiredTextPresent)
 					{
-							if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+							//if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+							if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/PayByCreditCard'), 30))
+								
 								{
 									isRequiredTextPresent = true
 								}

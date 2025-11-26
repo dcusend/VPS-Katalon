@@ -4,5 +4,6 @@
    <name>Personal_Individual_Summary_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e0df079a-0898-4bdf-8df8-24e579c09aa4</testCaseGuid>
 </TestCaseEntity>

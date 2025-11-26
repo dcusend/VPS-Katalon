@@ -116,7 +116,8 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'))
 		
 // Verify the new Notice ID static text
-		WebUI.verifyTextPresent('This is NOT the Notice ID', true)
+		//WebUI.verifyTextPresent('This is NOT the Notice ID', true)
+		WebUI.verifyTextPresent('NOTE: Some invoices display both a Notice Number and Notice ID. Please populate the field above with the Notice Number.', true)
 		
 		WebUI.verifyTextPresent('Notice Number or Invoice Number', true)
 		WebUI.verifyTextPresent('Re-Type Notice Number or Invoice Number', true)

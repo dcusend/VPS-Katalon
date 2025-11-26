@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Amount_1651</name>
+   <tag></tag>
+   <elementGuidId>58062060-a3b4-4aef-9223-189c50a5ce96</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'modifyAmount_90552168880000088' and @value = '16.51']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>a369d889-f70a-4879-9fd2-86a071b308d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>modifyAmount_90552168880000088</value>
+      <webElementGuid>bbbf7d3b-f4ce-4d86-aa55-21f6eba92fcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>16.51</value>
+      <webElementGuid>7cba4f11-9f2f-41e5-a09d-b1485367a9e2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

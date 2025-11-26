@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyColumnLabels</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42806aa2-a13c-4cc3-9d83-8e2b01a8b6a2</testCaseGuid>
+</TestCaseEntity>

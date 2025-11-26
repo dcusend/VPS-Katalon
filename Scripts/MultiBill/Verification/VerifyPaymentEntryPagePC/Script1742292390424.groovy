@@ -135,6 +135,7 @@ for (def row = 1; row <= numOfRows; row++)
 			}
 			else{
 				isRequiredTextPresent = false
+				println ("Payer Name is not pre-populated")
 			}
 			if(isRequiredTextPresent) {
 			if(addressLine1.equalsIgnoreCase(dataFile.getValue("PayerAddress", row))) {
@@ -143,6 +144,7 @@ for (def row = 1; row <= numOfRows; row++)
 				}
 				else{
 					isRequiredTextPresent = false
+					println ("Payer Address is not pre-populated")
 				}
 			}
 			
@@ -153,6 +155,7 @@ for (def row = 1; row <= numOfRows; row++)
 					}
 					else{
 						isRequiredTextPresent = false
+						println ("Amount is not pre-populated")
 					}
 		}
 		}

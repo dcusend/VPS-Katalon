@@ -4,6 +4,7 @@
    <name>SingleBillCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>933482f3-2960-4f93-9efc-e607db102d9c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

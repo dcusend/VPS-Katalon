@@ -68,15 +68,18 @@ for (def row = 1; row <= numOfRows; row++)
 			//Assign search String
 			
 		searchString = dataFile.getValue("SearchString", row)
-		
-		Thread.sleep(shortDelay)
+		WebUI.delay(2)
+		//Thread.sleep(shortDelay)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
-		Thread.sleep(shortDelay)
+		
+		WebUI.delay(2)
+		//Thread.sleep(shortDelay)
 		
 		//Assign boolean value if input_amount element is clickable
-		def isClickable = WebUI.verifyElementClickable(findTestObject('Object Repository/MultiBill/MultibillSearch/input__amount'))
+		//def isClickable = WebUI.verifyElementClickable(findTestObject('Object Repository/MultiBill/MultibillSearch/input__amount'))
+		def isClickable = WebUI.verifyElementClickable(findTestObject('Object Repository/MultiBill/MultibillSearch/input_Amount_1651'))
 		
 		//Checks if Amount is modifiable it is pass else fail
 		if(isClickable) {

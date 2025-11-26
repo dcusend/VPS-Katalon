@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 only.</description>
+   <name>Estimated_ChangePaymentMethod_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae20c025-cb58-47ce-88b6-d9fe4f843e83</testCaseGuid>
+</TestCaseEntity>
