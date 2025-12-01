@@ -40,8 +40,9 @@ public class ScheduledPaymentPage {
 	@Keyword
 	def selectPaymentPlanFrequency(paymentPlanFrequency) {
 		println(paymentPlanFrequency)
+		if(!paymentPlanFrequency.isEmpty()) {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/Page_SchedulePayment/select_PaymentPlanFrequency'), paymentPlanFrequency, false)
-	}
+	}} 
 
 	@Keyword
 	def checkRadioDivideYourPaymentPlan(dividePaymentPlanBy) {

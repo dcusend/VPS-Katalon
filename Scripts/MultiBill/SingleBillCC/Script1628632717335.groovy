@@ -28,7 +28,6 @@ String fileLoc = "KatalonData/SingleBillCCTestData.xlsx"
 String nameSheet = "Sheet1"
 
 
-
 String dataFile = "QA/EnhancedMultiBillTestData/SingleBillCCTestData"
 
 		def numOfRows = findTestData(dataFile).getRowNumbers()
@@ -89,9 +88,9 @@ if (ExecuteTC.toUpperCase() == "Y")
 			    println('Bill added to cart, continue executing test case')
 			
 			    WebUI.click(findTestObject('Object Repository/MultiBill/MultibillSearch/btn_ViewCart'))
-			
+			WebUI.delay(2)
 			    WebUI.click(findTestObject('Object Repository/MultiBill/CartContents/btn_Checkout'))
-			
+			WebUI.delay(2)
 			    WebUI.click(findTestObject('Object Repository/MultiBill/input_Pay by Credit or Branded Debit_paymentMethod'))
 			
 			    WebUI.click(findTestObject('Object Repository/MultiBill/input_Pay by Corporate Check_payNowSubmit'))

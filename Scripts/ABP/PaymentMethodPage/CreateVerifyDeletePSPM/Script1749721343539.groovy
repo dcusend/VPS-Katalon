@@ -118,6 +118,7 @@ for (def row = 1; row <= numOfRows; row++)
 											KeywordUtil.logInfo("Deleting Saved Payment Method")
 											println("Deleting Saved Payment Method")
 											CustomKeywords.'abpPages.PaymentsMethodPage.clickDelete'()
+											Thread.sleep(GlobalVariable.shortDelay)
 											WebUI.acceptAlert()
 								}
 							}						

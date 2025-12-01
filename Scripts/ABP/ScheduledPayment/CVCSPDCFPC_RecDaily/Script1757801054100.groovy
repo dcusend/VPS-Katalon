@@ -96,10 +96,14 @@ String fileLoc = "KatalonData/ABPTestData/PaymentsACH.xlsx"
 				 
 				 CustomKeywords.'abpPages.ScheduledPaymentPage.clickSaveButton'()
 				 
+				 WebUI.delay(2)
+				 
 				 if (WebUI.verifyTextPresent("Your changes have been saved", false)) {
 					 
 											
 					 CustomKeywords.'abpPages.PaymentsListPage.clickViewButton'()
+					 
+					 WebUI.delay(2)
 					 
 					 for(def item in stringArray)
 						 {

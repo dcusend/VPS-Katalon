@@ -29,6 +29,7 @@ String fileLoc = "KatalonData/MultibillTestData/MultibillCCData.xlsx"
 
 def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 def ExecuteTC, searchString
+
 def shortDelay = GlobalVariable.shortDelay
 
 String path = fileLoc

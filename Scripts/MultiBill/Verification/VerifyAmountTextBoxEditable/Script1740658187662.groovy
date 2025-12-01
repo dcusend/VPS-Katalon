@@ -76,7 +76,8 @@ for (def row = 1; row <= numOfRows; row++)
 		Thread.sleep(shortDelay)
 		
 		//Assign boolean value if input_amount element is clickable
-		def isClickable = WebUI.verifyElementClickable(findTestObject('Object Repository/MultiBill/MultibillSearch/input__amount'))
+		
+	def isClickable = WebUI.verifyElementClickable(findTestObject('Object Repository/MultiBill/MultibillSearch/input__amount'))
 		
 		//Checks if Amount is modifiable it is pass else fail
 		if(isClickable) {
