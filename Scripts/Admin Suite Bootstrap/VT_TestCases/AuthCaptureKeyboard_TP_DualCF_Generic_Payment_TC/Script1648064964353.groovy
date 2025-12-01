@@ -196,7 +196,8 @@ def numOfRows, dataFile, nameSheet
 							
 							
 							WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
-							Thread.sleep(2000)
+							//Thread.sleep(2000)
+							WebUI.delay(5)
 							
 							WebUI.verifyTextPresent('Transaction Successful', true)
 							WebUI.verifyTextPresent('Transaction Type', true)

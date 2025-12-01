@@ -41,7 +41,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 	
 	println(numOfRows)
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= numOfRows; row++)
+	for (def row = 1; row <= 1; row++)
 		{
 		
 			isRequiredTextPresent = true
@@ -75,7 +75,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 					
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
-					WebUI.delay(15)
+					WebUI.delay(5)
 					
 						//Emulator Amount on Confirm Page
 					

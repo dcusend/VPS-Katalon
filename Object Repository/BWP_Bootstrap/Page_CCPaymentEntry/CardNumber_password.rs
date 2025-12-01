@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CardNumber_password</name>
+   <tag></tag>
+   <elementGuidId>78e06efc-6754-4921-aa90-01367eeb64c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'password_cardNumber' and @id = 'password_cardNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password_cardNumber</value>
+      <webElementGuid>6d19f2da-94e9-418f-b093-7ae5218539d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password_cardNumber</value>
+      <webElementGuid>8adbe59a-824d-4eca-a451-0ee7eac5f62b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

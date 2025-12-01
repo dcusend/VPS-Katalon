@@ -4,5 +4,6 @@
    <name>Estimated_Summary_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>36ddd9a3-8a44-49bb-b775-6a81ffd89e2c</testCaseGuid>
 </TestCaseEntity>

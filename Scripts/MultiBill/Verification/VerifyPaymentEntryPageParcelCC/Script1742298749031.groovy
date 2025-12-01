@@ -74,12 +74,12 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
-		Thread.sleep(10000)
+		WebUI.delay(2)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
-		Thread.sleep(GlobalVariable.shortDelay)
+		WebUI.delay(2)
 		
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Table = driver.findElement(By.xpath("//table/tbody"))
@@ -94,23 +94,26 @@ for (def row = 1; row <= numOfRows; row++)
 			//If We have more than 1 row in table match the value on page with datasheet
 			if(rows_count>0)
 				 {
-					 Thread.sleep(10000)
+					 WebUI.delay(2)
 					 //Add item to Cart
 					 CustomKeywords.'multiBillPages.searchPage.selectAddtoCart'()
 		
-					 Thread.sleep(10000)
+					 WebUI.delay(2)
 					 //Click on View Cart
 					 CustomKeywords.'multiBillPages.searchPage.selectViewCart'()
 		
-					 Thread.sleep(10000)
+					 WebUI.delay(2)
 					 //Select Checkout option
 					 CustomKeywords.'multiBillPages.cartContentPage.selectCheckout'()
+					 WebUI.delay(2)
 		
 					 // Select Credit Card Payment Method
 					 CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByCreditCard'()
+					 WebUI.delay(2)
 		
 					 // Select Make a Payment Button
 					 CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
+					 WebUI.delay(2)
 		
 					 if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'), 0))
 						 {

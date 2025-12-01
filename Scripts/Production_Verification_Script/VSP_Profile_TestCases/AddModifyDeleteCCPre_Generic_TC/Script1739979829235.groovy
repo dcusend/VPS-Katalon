@@ -133,7 +133,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					// Call setDataModifyCreditCard method to populate Modify Credit Card page
 						CustomKeywords.'vspBootstrap.ModifyCreditCardPage.setDataModifyCreditCard_EF'(row,dataFile)
-						Thread.sleep(4000)
+						Thread.sleep(6000)
 					// Verify Static text
 						WebUI.verifyTextPresent(("Payment Method Modification"), true)
 						WebUI.verifyTextPresent(("Payment method successfully modified"), true)

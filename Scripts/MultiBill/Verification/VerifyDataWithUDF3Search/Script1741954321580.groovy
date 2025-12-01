@@ -68,12 +68,12 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
-		Thread.sleep(20000)
+		WebUI.delay(5)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
-		Thread.sleep(10000)
+		WebUI.delay(5)
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebElement Table = driver.findElement(By.xpath("//table/tbody"))
 		
@@ -120,6 +120,24 @@ for (def row = 1; row <= numOfRows; row++)
 				else {
 					isRequiredTextPresent = false
 				}
+				
+				
+				
+				def amount_Verify = WebUI.getAttribute(findTestObject('Object Repository/MultiBill/MultibillSearch/input_Amount_1303'), 'value')
+				//WebUI.verifyMatch(dataFile.getValue("Amount", row), amount_Verify, false)
+				println(amount_Verify)
+				
+				
+				if(WebUI.verifyMatch(dataFile.getValue("Amount", row), amount_Verify, false)) {
+					
+				KeywordUtil.logInfo("Amount present")
+				isRequiredTextPresent = true
+				}
+				else {
+					isRequiredTextPresent = false
+				}
+				
+				
 				
 				if(isRequiredTextPresent)
 				{

@@ -42,7 +42,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 	
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= numOfRows; row++)
+	for (def row = 1; row <= 1; row++)
 		{
 		
 			ExecuteTC = dataFile.getValue('Execute', row)

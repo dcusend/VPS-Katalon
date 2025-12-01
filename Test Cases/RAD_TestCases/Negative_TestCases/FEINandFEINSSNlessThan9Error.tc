@@ -4,5 +4,6 @@
    <name>FEINandFEINSSNlessThan9Error</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>19be59ce-aa08-4b82-b5cc-76777db173fd</testCaseGuid>
 </TestCaseEntity>

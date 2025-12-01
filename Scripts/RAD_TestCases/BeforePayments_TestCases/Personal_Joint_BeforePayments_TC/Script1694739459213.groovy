@@ -242,6 +242,10 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/select_State'), 'Maryland', false, 20)
 						
 						
+					if (execProfile == "QAProfile" || execProfile == "QA2Profile")
+					{
+						
+						
 						//WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'Anthony Gonzalez')
 						WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__cardNumber'),'4111111111111111')
 						WebUI.setText(findTestObject(orPath_PaymentEntry + '/input__spc'),'123')
@@ -277,12 +281,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							resText = "Pass"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 							
-							if (execProfile == "QAProfile" || execProfile == "QA2Profile")
-								{
+							//if (execProfile == "QAProfile" || execProfile == "QA2Profile")
+							//	{
 									WebUI.click(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'))
 									WebUI.delay(10)
 									WebUI.verifyTextPresent('Successful Payment Receipt', true)
-								}
+							//	}
 							
 						}
 						else
@@ -290,7 +294,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
-					
+					}
 				}
 				
 				else

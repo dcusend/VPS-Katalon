@@ -107,6 +107,9 @@ for (def row = 1; row <= numOfRows; row++)
 					//KeywordUtil.logInfo("Amount present")
 					WebUI.verifyTextPresent(dataFile.getValue("AccountNumber", row), false)
 					KeywordUtil.logInfo("AccountNumber present")
+					
+					WebUI.verifyTextPresent(dataFile.getValue("Amount", row), false)
+					KeywordUtil.logInfo("Amount is present")
 			
 					KeywordUtil.logInfo("No Matching Items Found")
 					KeywordUtil.markPassed("Data found and Payer Name Address and Account Number are matching")

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SuccessfulPaymentPCNoCFReqFieldsOnly</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8faad1d8-f8ad-4a73-a2bc-824da7b01efb</testCaseGuid>
+</TestCaseEntity>

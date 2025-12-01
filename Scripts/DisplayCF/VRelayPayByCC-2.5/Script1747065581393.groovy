@@ -74,7 +74,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 					
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
-					WebUI.delay(15)
+					WebUI.delay(5)
 					
 						//Emulator Amount on Confirm Page
 					

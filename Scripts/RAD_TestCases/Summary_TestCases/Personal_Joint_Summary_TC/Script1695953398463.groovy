@@ -131,11 +131,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 // Set Data Address and Contact Information
 						CustomKeywords.'rad.getSetDataRAD.setDataRADAddress'()
-						
+						WebUI.delay(2)
 						
 // Select Joint Filer and populated SSN and Names
 						WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+						WebUI.delay(2)
 						WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'),5)
+						WebUI.delay(2)
 						WebUI.check(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'))
 						WebUI.delay(2)
 						
@@ -146,14 +148,16 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Populate Amount
 						
 						WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
+						WebUI.delay(2)
 						
-						
-						WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
+						//WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
 			
 			
 // Select Continue Button
 						WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+						WebUI.delay(2)
 						WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+						WebUI.delay(2)
 						WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 			
 			
@@ -706,7 +710,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 									
 						if(isRequiredTextPresent)
 							{
-									if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+									//if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
+									if(WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/PayByCreditCard'), 30))
 										{
 											isRequiredTextPresent = true
 										}

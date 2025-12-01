@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "2BCD515A5009B0D8DC127DCE2E012040",
+  "keywordFileContentHash": "8B9EC2570CD8C2E0E72A99DDFE1B5C26",
   "keywordClasses": [
     {
       "name": "vspBootstrap.ModifyCreditCardPage",
@@ -33,8 +33,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "setDataModifyCreditCard_EF",
@@ -65,11 +64,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -4,5 +4,6 @@
    <name>VerifyUINoCFCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ea151f20-9842-475d-bd15-97a701b94384</testCaseGuid>
 </TestCaseEntity>

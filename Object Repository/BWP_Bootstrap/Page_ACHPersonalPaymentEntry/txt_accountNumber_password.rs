@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_accountNumber_password</name>
+   <tag></tag>
+   <elementGuidId>b4adbc89-4c3d-4fec-9fe7-0c0d57d98e14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'password_accountNumber' and @type = 'text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password_accountNumber&#xd;
+</value>
+      <webElementGuid>4967a694-caeb-439a-b9b7-c74a54e7b681</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password_accountNumber</value>
+      <webElementGuid>2932e76d-1b48-4ec2-a959-a66a2aaf279c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>26df2fc1-f937-41a7-8dae-0d0f8e6382ec</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

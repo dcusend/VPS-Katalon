@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MissingReqFieldsPersonalACH</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c32bc0f-7cb5-4c30-a5f1-3de4b23970a9</testCaseGuid>
+</TestCaseEntity>
