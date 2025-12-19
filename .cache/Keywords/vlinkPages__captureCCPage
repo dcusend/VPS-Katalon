@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "5687E756D9182AF575F4D965A65BC460",
+  "keywordFileContentHash": "880C8F0EA015D4F384682767AA2F69F8",
   "keywordClasses": [
     {
       "name": "vlinkPages.captureCCPage",
@@ -33,7 +33,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "setDataCCC",
@@ -64,10 +65,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -235,7 +235,7 @@ public class PaymentsMethodPage {
 		}
 
 		if ((!confirmAccountNumber.isEmpty())) {
-			WebUI.setText(findTestObject('Object Repository/ABP/Page_Payment Method/input_ConfirmAccountNumber'),confirmAccountNumber)
+			WebUI.setText(findTestObject('Object Repository/ABP/Page_Payment Method/input_ConfirmAccountNumber_Demo'),confirmAccountNumber)
 		}
 	}
 }
