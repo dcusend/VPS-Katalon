@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CVCSPSCFCC_RecDeferred_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6079fe69-4cde-47ac-8a43-e0e8e3a6a78b</testCaseGuid>
+</TestCaseEntity>

@@ -74,14 +74,14 @@ for (def row = 1; row <= numOfRows; row++)
 				//this method populates account data
 				CustomKeywords.'abpPages.PaymentsMethodPage.setPersonalACHData'(ACHID)
 				
-				
+				WebUI.delay(2)
 				//this method populates address data
 				CustomKeywords.'abpPages.PaymentsMethodPage.setDataAddress'(AddressID)
 				
 				CustomKeywords.'abpPages.PaymentsMethodPage.clickSave'()
 				
 				
-				Thread.sleep(shortDelay)
+				WebUI.delay(2)
 				if (WebUI.verifyTextPresent("Your changes have been saved", false))
 					{
 						

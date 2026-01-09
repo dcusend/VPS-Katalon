@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testdata.reader.ExcelFactory
 import internal.GlobalVariable
 
-//*******************Created by @Komal Mishra***************************************************
+//*******************Created by @Bharat Bhushan***************************************************
 
 String resText = "Fail"
 String resColumn = "Result"

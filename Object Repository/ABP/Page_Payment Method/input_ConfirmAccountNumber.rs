@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'paymentMethod.confirmBankAccountNumber']</value>
+         <value>//*[@name = 'confirmBankAccountNumber' and @id = 'confirmBankAccountNumber']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -19,9 +19,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>confirmBankAccountNumber</value>
+      <webElementGuid>5448fc01-f08e-4106-855f-cde7a09e8245</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>paymentMethod.confirmBankAccountNumber</value>
-      <webElementGuid>8b4f6734-17eb-40ab-a38a-82dfde2263ef</webElementGuid>
+      <value>confirmBankAccountNumber</value>
+      <webElementGuid>d23c0c30-0936-4584-80fc-7e82f3d7d2f2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
