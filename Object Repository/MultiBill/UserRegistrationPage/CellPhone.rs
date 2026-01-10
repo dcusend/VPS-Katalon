@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CellPhone</name>
+   <tag></tag>
+   <elementGuidId>240ed08c-0d50-4ac2-9572-3ef0bec7e6ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'tel' and @id = 'cellphone' and @name = 'cellphone']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>53202ea2-e126-4da2-9ed6-8283d6a8e937</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cellphone</value>
+      <webElementGuid>b036e936-a648-42f3-8598-bdf59b98042d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cellphone</value>
+      <webElementGuid>9bb760d7-0bae-4821-a15e-db58787f084f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

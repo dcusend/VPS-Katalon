@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all environments</description>
+   <name>Personal_Joint_ChangePaymentMethod_Corp_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ba8b5178-13e7-4ccc-a306-2f1de7af7014</testCaseGuid>
+</TestCaseEntity>

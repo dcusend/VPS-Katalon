@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2</description>
+   <name>RegisteredUserLogsIn_UI_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fa99b0dc-7d0b-42af-a492-96b375da0bcf</testCaseGuid>
+</TestCaseEntity>

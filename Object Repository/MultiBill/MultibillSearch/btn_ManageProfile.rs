@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_ManageProfile</name>
+   <tag></tag>
+   <elementGuidId>559b0f12-09ab-4f78-9a9a-9449d460f7dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'accessUserProfileID' and @type = 'button' and (text() = 'Manage Profile' or . = 'Manage Profile')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>accessUserProfileID</value>
+      <webElementGuid>41b5bbe1-30ff-418b-8f64-d5d8c3be36b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>99686f68-fb5b-4307-a666-c65e4a242b06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage Profile</value>
+      <webElementGuid>4f363746-71fe-4bc9-87f8-8cea6c7f4085</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

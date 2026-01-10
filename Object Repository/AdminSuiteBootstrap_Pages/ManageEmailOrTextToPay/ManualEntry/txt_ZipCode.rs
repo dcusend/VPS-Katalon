@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_ZipCode</name>
+   <tag></tag>
+   <elementGuidId>1948ebe2-1f7b-41b4-9282-dc50c84d805e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'zipCode' and @id = 'zipCode']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>zipCode</value>
+      <webElementGuid>03b575bd-12ed-4444-ba33-1989f6a75b68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>zipCode</value>
+      <webElementGuid>bcdac61a-129d-48ce-800d-ab8edd56d86d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

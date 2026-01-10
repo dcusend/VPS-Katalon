@@ -159,4 +159,29 @@
       <initValue>'Hello!66666'</initValue>
       <name>abpDCFPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/deep'</initValue>
+      <name>MultiBillRegisterURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lenna Paprocki'</initValue>
+      <name>RegisterSearchString</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/MultiBillHarrisCAN'</initValue>
+      <name>MultiBillHarrisCANURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/MultiBillHarrisPayer'</initValue>
+      <name>MultiBillHarrisPayerURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/MultiBillHarrisAddress'</initValue>
+      <name>MultiBillHarrisAddressURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

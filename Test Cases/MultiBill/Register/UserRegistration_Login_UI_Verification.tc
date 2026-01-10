@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UserRegistration_Login_UI_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eca09d0d-d8de-4ebb-a1a4-2e27b6d43afa</testCaseGuid>
+</TestCaseEntity>

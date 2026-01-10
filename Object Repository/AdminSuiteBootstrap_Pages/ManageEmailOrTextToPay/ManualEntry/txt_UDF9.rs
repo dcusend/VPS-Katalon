@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_UDF9</name>
+   <tag></tag>
+   <elementGuidId>be67a77b-f45c-4650-a7fe-49242c1b5d4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'udf9' and @id = 'udf9']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>udf9</value>
+      <webElementGuid>26953b0b-a471-4e91-905a-872ec2f33e59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>udf9</value>
+      <webElementGuid>91ce5bd5-ba10-4e31-8d23-436895f74af4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

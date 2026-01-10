@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Harris_SearchValue</name>
+   <tag></tag>
+   <elementGuidId>c7448ab2-47b1-483c-b643-1c47565e3a09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'separateSearchInput' and @type = 'search']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>separateSearchInput</value>
+      <webElementGuid>26d55724-cac4-4cf5-b0f7-bbb43b2f868b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>search</value>
+      <webElementGuid>2bb106ab-c3a7-4be7-9b49-3e788c686bae</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -171,7 +171,6 @@ public class ccPaymentEntryBootstrapPage {
 			String currentYear = now.get(Calendar.YEAR)
 			println "Current Year: " + currentYear
 			WebUI.selectOptionByLabel(findTestObject(pathOR + 'Year'),currentYear,false)
-			
 		}
 	}
 

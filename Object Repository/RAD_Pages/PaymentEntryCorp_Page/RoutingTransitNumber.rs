@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RoutingTransitNumber</name>
+   <tag></tag>
+   <elementGuidId>8f15efec-e49e-4ee5-898d-9d770fea2d11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'routingNumber' and @name = 'routingNumber' and @type = 'text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>routingNumber</value>
+      <webElementGuid>195d77ce-01d2-496d-9217-c19ca3d400d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>routingNumber</value>
+      <webElementGuid>ad369cc0-91f7-43bb-a2e2-708df127373e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>b9671e3a-6f69-4bc2-bbcb-a8475d15002a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cal_EndDate</name>
+   <tag></tag>
+   <elementGuidId>198ac2cd-640f-406a-8697-28f3c8cb79a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'endDate' and @id = 'endDate']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>endDate</value>
+      <webElementGuid>36eb6ec5-5b93-4d9e-91a5-a6e9144a0d7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>endDate</value>
+      <webElementGuid>9d396758-a890-4592-ac1e-98b22beaff44</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

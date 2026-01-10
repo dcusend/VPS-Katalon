@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Login</name>
+   <tag></tag>
+   <elementGuidId>d3024387-9589-4041-bd3a-3ac88f1c02f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Login' or . = 'Login') and @href = '/vrelay/bootstrap/vrelay-login.html']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login</value>
+      <webElementGuid>034ebd5f-b50a-496a-bdc4-3aa4496dcaef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/vrelay/bootstrap/vrelay-login.html</value>
+      <webElementGuid>adf939b5-49b6-4470-b008-60c5f3950cd9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

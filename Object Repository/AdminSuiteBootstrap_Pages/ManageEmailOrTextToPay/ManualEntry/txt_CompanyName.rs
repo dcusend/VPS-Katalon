@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_CompanyName</name>
+   <tag></tag>
+   <elementGuidId>e81f8c3f-89eb-4560-aa90-3b28f8b8337f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'companyName' and @id = 'companyName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>companyName</value>
+      <webElementGuid>087d1bae-7c08-499d-b9b1-8626fdab5761</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>companyName</value>
+      <webElementGuid>706b8902-cea9-49c4-86cb-38e65a85c997</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
