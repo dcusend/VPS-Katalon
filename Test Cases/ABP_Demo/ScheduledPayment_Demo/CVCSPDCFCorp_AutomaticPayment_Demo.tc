@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CVCSPDCFCorp_AutomaticPayment_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f06ee808-7e84-451b-9904-5e5d71d28c7c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CVCSPSCFCorp_RecMonthly_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b06cf32a-c95b-4c18-8004-4d80f130c6d1</testCaseGuid>
+</TestCaseEntity>

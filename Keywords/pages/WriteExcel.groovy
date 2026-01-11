@@ -89,7 +89,7 @@ public class WriteExcel {
 			System.out.println("dateText: " + dateText)
 			//i = rowCount+1;
 		}
-		
+
 		if (resultColumn =='ResultDemo'){
 			Row row = sheet.getRow(rowCount);
 			Cell cell = row.createCell(2,0);

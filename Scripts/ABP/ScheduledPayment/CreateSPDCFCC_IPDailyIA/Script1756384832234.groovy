@@ -57,9 +57,9 @@ String fileLoc = "KatalonData/ABPTestData/PaymentsCC.xlsx"
 				 paymentPlanType = dataFile.getValue("PaymentPlanType", row)
 				 paymentPlanFrequency = dataFile.getValue("PaymentPlanFrequency", row)
 				 dividePaymentPlanBy = dataFile.getValue("DivideYourPaymentPlan", row)
-				 def VerificationText = dataFile.getValue("VTList", row)
-				 def stringArray = VerificationText.split(",")
-				 print(stringArray)
+//				 def VerificationText = dataFile.getValue("VTList", row)
+//				 def stringArray = VerificationText.split(",")
+//				 print(stringArray)
 				 
 				 WebUI.openBrowser(GlobalVariable.abpURL)
 				 WebUI.maximizeWindow()

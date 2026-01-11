@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateSPDCFCC_RecDaily_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6537db41-3cbc-4c3a-bae3-40411840d9cd</testCaseGuid>
+</TestCaseEntity>

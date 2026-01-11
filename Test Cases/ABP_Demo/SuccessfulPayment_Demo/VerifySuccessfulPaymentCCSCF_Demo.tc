@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifySuccessfulPaymentCCSCF_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e7f1e24-bcd9-4a9f-9993-8a2232d8b59f</testCaseGuid>
+</TestCaseEntity>

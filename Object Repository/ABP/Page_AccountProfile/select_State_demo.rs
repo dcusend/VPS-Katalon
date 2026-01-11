@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_State_demo</name>
+   <tag></tag>
+   <elementGuidId>1238b8d1-88e5-4c1c-a96d-9e9630f10df1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'addressForm.state' and @id = 'addressForm.state']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>addressForm.state</value>
+      <webElementGuid>341cde8d-4722-4e76-a8eb-c438e1f40ce1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>addressForm.state</value>
+      <webElementGuid>706c63cb-3d0d-486a-8ad2-eacb9f0f24cc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

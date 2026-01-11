@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifySuccessfulPaymentPSDCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8713b9a-8b70-41ae-aa31-143b47a7162a</testCaseGuid>
+</TestCaseEntity>

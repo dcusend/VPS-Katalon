@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyStatesDropdownPersonalACH</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21fae7bc-49b4-4b8a-b077-931d9443d04d</testCaseGuid>
+</TestCaseEntity>

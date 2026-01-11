@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UIVerification_RegisterPage_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>497e60dd-8e50-47ca-9dba-180d5e813ca4</testCaseGuid>
+</TestCaseEntity>

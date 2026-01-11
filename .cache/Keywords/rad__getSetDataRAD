@@ -1,87 +1,106 @@
 {
-  "keywordFileContentHash": "DD470BC1D3128E520299A2CE05BCF688",
+  "keywordFileContentHash": "036DB3D5D929C1FCCE258C6D735B2994",
   "keywordClasses": [
     {
       "name": "rad.getSetDataRAD",
       "keywordMethods": [
         {
           "name": "setDataRADssnAndName",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADssnAndNameJointFiler",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADNameOnly",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADELSSN",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADNoticeInvoiceTen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADNoticeInvoiceThirteen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADFEIN",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADMDCRN",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataExistingRADMDCRN",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADBusinessName",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADAddress",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADBusinessRep",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADFEINSSN",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADDecedentSSN",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADDecedentSSNandName",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADNewTaxDecedentSSNandName",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADMFLicNumFive",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADMFLicNumSix",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "setDataRADMFLicNumSixExisting",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

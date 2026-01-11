@@ -120,8 +120,8 @@ for (def row = 1; row <= numOfRows; row++)
 				CustomKeywords.'iwpPages.ConvenienceFeesBootstrapPage.selectAcceptFeeAndProcessPayment'()
 				
 				
-				Thread.sleep(10000)
 				
+				WebUI.delay(5)
 				if (WebUI.verifyTextPresent(("Successful Payment Receipt"), false))
 					{
 						println "Successful Payment Receipt text is present on the Receipt page"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MissingReqFieldsCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7146853-e0fe-4ef0-af7a-28bc96ea6f3e</testCaseGuid>
+</TestCaseEntity>

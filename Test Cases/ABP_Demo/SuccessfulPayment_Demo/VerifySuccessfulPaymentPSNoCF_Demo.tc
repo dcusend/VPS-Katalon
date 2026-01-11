@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifySuccessfulPaymentPSNoCF_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e0dd670-a40e-4616-bf32-461d8137fc3b</testCaseGuid>
+</TestCaseEntity>

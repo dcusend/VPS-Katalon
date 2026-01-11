@@ -41,8 +41,24 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.setEmailAndPhoneData(EmailPhoneID)
 		this.setUDFData(UDFID)
 		//		this.selectCheckboxStoredPaymentMethod()
-		this.selectCheckboxACHTANDC()
+
+		//Dont check the checkbox on MissingReqFields testcase
+		if(ACHID != '7') {
+			this.selectCheckboxACHTANDC()
+		}
 		this.selectContinueButton()
+	}
+	
+	
+	@Keyword
+	def setDataACHMainWithoutCheckboxAndSubmit(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID, AppID) {
+		appID = AppID
+		this.setFirstNameLastName(nameID)
+		this.setACHData(ACHID)
+		this.setAddressData(AddressID)
+		this.setEmailAndPhoneData(EmailPhoneID)
+		this.setUDFData(UDFID)
+
 	}
 
 

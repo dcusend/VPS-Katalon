@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verify successful payment using stored payment method for personal checking</description>
+   <name>VerifySuccessfulPaymentSPMPCDCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98ecf3a0-8c79-47aa-a9b6-6a236086a11d</testCaseGuid>
+</TestCaseEntity>

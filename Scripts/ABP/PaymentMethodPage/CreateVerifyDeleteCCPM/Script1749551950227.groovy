@@ -120,6 +120,7 @@ for (def row = 1; row <= numOfRows; row++)
 											Thread.sleep(GlobalVariable.shortDelay)
 											println("Deleting Saved Payment Method")
 											CustomKeywords.'abpPages.PaymentsMethodPage.clickDelete'()
+											Thread.sleep(GlobalVariable.shortDelay)
 											WebUI.acceptAlert()
 								}
 							}						
