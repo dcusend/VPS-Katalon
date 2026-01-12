@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Address1</name>
+   <tag></tag>
+   <elementGuidId>eea3f8b6-fe03-45ab-8a91-7e339c416988</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'address1' and @id = 'address1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>address1</value>
+      <webElementGuid>f2fd210f-c764-44be-83bb-496554291185</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>address1</value>
+      <webElementGuid>2d16e09b-9bc2-43c5-9c20-fd92cf904fb1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

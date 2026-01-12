@@ -51,7 +51,7 @@ public class ccPaymentEntryBootstrapPage {
 		}
 		this.selectContinueButton()
 	}
-	
+
 	@Keyword
 	def setDataCCMainWithoutCheckboxAndSubmit(nameID, CardID, EmailPhoneID, AddressID, AmountS, UDFID, AppID) {
 		println(AmountS)

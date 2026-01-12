@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_UDF6</name>
+   <tag></tag>
+   <elementGuidId>87116f33-7754-46c3-9c23-540b3b4eed68</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'udf6' and @id = 'udf6']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>udf6</value>
+      <webElementGuid>2cc2e0ed-70a6-4449-906a-03bdf1e0bb31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>udf6</value>
+      <webElementGuid>8a14edb7-7776-4bfe-ba01-14d13dc23471</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

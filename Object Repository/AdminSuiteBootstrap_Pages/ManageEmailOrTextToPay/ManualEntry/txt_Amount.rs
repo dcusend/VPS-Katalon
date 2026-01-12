@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Amount</name>
+   <tag></tag>
+   <elementGuidId>cb623d91-2a84-4bb4-b666-5cc2d6ea238b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'amount' and @id = 'amount']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>amount</value>
+      <webElementGuid>3e742316-9702-4826-a52a-c1418a0b1fda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>amount</value>
+      <webElementGuid>e3be8617-5f96-48ba-b464-9b7ad543e2be</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

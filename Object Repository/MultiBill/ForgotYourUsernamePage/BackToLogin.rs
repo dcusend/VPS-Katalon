@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BackToLogin</name>
+   <tag></tag>
+   <elementGuidId>f4c7a322-495a-4593-bf89-5872aa94d2bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'back-link' and @href = 'vrelay-login.html']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>back-link</value>
+      <webElementGuid>64a0bf31-68f5-45c9-baed-766c8c7daf7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>vrelay-login.html</value>
+      <webElementGuid>fa080ccf-507e-4ca9-b8af-625b53850737</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

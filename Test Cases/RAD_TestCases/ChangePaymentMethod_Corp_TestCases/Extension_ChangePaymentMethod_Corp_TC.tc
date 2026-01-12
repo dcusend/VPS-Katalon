@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all environments</description>
+   <name>Extension_ChangePaymentMethod_Corp_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5422915e-403b-4914-a278-1cc5d0e5610e</testCaseGuid>
+</TestCaseEntity>

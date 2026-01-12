@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 only.</description>
+   <name>NewTaxReturn_ChangePaymentMethod_Corp_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9fcc059f-bea8-4928-9e56-54d1b227e3ff</testCaseGuid>
+</TestCaseEntity>

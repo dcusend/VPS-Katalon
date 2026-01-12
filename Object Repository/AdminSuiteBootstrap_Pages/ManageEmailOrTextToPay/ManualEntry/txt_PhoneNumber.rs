@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_PhoneNumber</name>
+   <tag></tag>
+   <elementGuidId>7fc42646-f7c2-46be-acb0-629d4a9f9a73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'phoneNumber' and @id = 'phoneNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>phoneNumber</value>
+      <webElementGuid>89b9ca36-a41e-47e6-9f71-c347c7a24114</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>phoneNumber</value>
+      <webElementGuid>7a8f1dfa-c77a-4b2f-a8bd-2982b5a06af0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

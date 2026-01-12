@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all environments</description>
+   <name>Existing_ChangePaymentMethod_CC_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>159a25cd-46f7-4dd7-8c86-140686352373</testCaseGuid>
+</TestCaseEntity>

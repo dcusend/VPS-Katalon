@@ -4,5 +4,6 @@
    <name>CardExpirationError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>120f7c1c-52bb-4206-aa23-c2ad7305ca49</testCaseGuid>
 </TestCaseEntity>

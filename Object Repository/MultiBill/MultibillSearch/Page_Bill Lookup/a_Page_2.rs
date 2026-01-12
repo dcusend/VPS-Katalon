@@ -7,7 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = '2' or . = '2')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -29,15 +32,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>20961022-9f63-4d8f-baa2-63d0ed9b25bd</webElementGuid>
+      <webElementGuid>aee23c42-b74a-471c-91cb-79a0fe049210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
       <value>selectPage(page.number)</value>
-      <webElementGuid>6c239fec-67c4-47f2-b8a1-51abce49e3c6</webElementGuid>
+      <webElementGuid>4413d294-6b6c-495e-8658-8232f520f520</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +48,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-binding</value>
-      <webElementGuid>e9c49214-4d54-4b24-92e3-80a3afebdd9f</webElementGuid>
+      <webElementGuid>3e79e295-2c28-4afd-9245-da1030c29df7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>efecadf7-c9c0-4f13-9bae-208ab7213324</webElementGuid>
+      <webElementGuid>40b99932-4f23-4187-b628-ae16a849adf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bills-tabs-form&quot;)/div[1]/div[@class=&quot;form-group col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 w-100 float-left&quot;]/ul[@class=&quot;float-right flex-wrap pagination ng-isolate-scope ng-not-empty ng-valid&quot;]/li[@class=&quot;ng-scope&quot;]/a[@class=&quot;ng-binding&quot;]</value>
-      <webElementGuid>32f3e73c-be51-451f-a268-1f14bb179d36</webElementGuid>
+      <webElementGuid>23ac608a-a2fb-4794-8014-3f884b108077</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='bills-tabs-form']/div/div[2]/div[6]/div/ul/li[4]/a</value>
-      <webElementGuid>2e5381b9-9b98-4242-9f50-947c1b85c7a1</webElementGuid>
+      <webElementGuid>e04a9755-83c4-4371-92e4-47e888012cc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'2')])[2]</value>
-      <webElementGuid>66a73a2a-30b6-49cb-ad5a-d6aa56cfa5cc</webElementGuid>
+      <webElementGuid>d4516b5f-897b-44ec-84d5-efd6b198d158</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[2]/following::a[2]</value>
-      <webElementGuid>48f1b6f8-8830-4f59-9c20-27b39ca83fb6</webElementGuid>
+      <webElementGuid>65dcc020-5e9f-472f-96bb-fd9980921701</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='First'])[2]/following::a[3]</value>
-      <webElementGuid>05bb80c8-64a7-4419-8f59-ae745b1c2a35</webElementGuid>
+      <webElementGuid>5f4b2202-7526-4a62-8f16-2220e90f5366</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[2]/preceding::a[1]</value>
-      <webElementGuid>1df3fb81-593f-44b0-a779-c02f365c37ce</webElementGuid>
+      <webElementGuid>796a0fdf-4f39-4538-8657-ed53912e0462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last'])[2]/preceding::a[2]</value>
-      <webElementGuid>6846bd5b-c63f-4981-9092-745e7e644216</webElementGuid>
+      <webElementGuid>f6ebcf00-18e6-426b-b8b6-17ed9036c363</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +120,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[30]</value>
-      <webElementGuid>54e4c9a3-80ac-4827-968c-61bf47653a9e</webElementGuid>
+      <webElementGuid>c93c50c7-01cc-4104-88dc-5e1286652213</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +128,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/ul/li[4]/a</value>
-      <webElementGuid>7eac17a2-353a-4204-af10-040de94cd690</webElementGuid>
+      <webElementGuid>731b1555-5d87-4b8a-9cf8-77d162a83fbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +136,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = '2' or . = '2')]</value>
-      <webElementGuid>5aa68d59-5d7a-493e-b5ed-0da1ba281b59</webElementGuid>
+      <webElementGuid>e81d380a-50a6-46dd-9d19-cbee17aa8374</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_ChangePaymentMethod</name>
+   <tag></tag>
+   <elementGuidId>74a0ada0-2964-49c2-a69b-6981e23b2ee6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @name = 'changePaymentMethodButton' and @value = 'Change Payment Method']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ca9a7240-7a24-4b1c-a3d5-c5e8616b74e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>changePaymentMethodButton</value>
+      <webElementGuid>654268af-17fa-4e99-b80e-83e043b2a5e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Change Payment Method</value>
+      <webElementGuid>2e30ab65-5e72-4571-9636-f85326d1efe2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

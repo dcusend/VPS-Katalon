@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2</description>
+   <name>Login_ReturnToPortal_UI_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76359eb2-1860-43b8-ae7b-b52954d171ce</testCaseGuid>
+</TestCaseEntity>
