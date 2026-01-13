@@ -8,7 +8,7 @@
       <entry>
          <key>BASIC</key>
          <value>//*[@name = 'amount&#xd;
-' and @id = 'amount' and @alt = 'Amount' and @type = 'text']</value>
+' and @id = 'amount' and @type = 'text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <type>Main</type>
       <value>amount&#xd;
 </value>
-      <webElementGuid>1e1937bf-e8f9-41c6-9fe9-1e62231a79aa</webElementGuid>
+      <webElementGuid>7aacb7b9-553a-4909-ac2b-e2f7e7812bcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,15 +29,15 @@
       <name>id</name>
       <type>Main</type>
       <value>amount</value>
-      <webElementGuid>93ed13cb-4706-4a7a-b37e-876c7b8476c5</webElementGuid>
+      <webElementGuid>a54d3b21-6061-425c-ae42-01d6830dfa9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>Amount</value>
-      <webElementGuid>1edebe1b-7c84-4645-b6e0-99fc80904a9a</webElementGuid>
+      <webElementGuid>f55eb0ae-e80a-432f-92ac-e3cdb7a352c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f3f35ce3-ae08-4867-8f83-b4b817677fcf</webElementGuid>
+      <webElementGuid>96851b8d-b289-4812-96e8-256998f7970b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,6 +53,6 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>d2b2e5ea-5a14-439e-8b56-023b06370dbf</webElementGuid>
+      <webElementGuid>cd0c691d-a14f-4303-84b6-cbc9a2e5b359</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -91,7 +91,7 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.verifyTextPresent(("Card ZIP Code is required"), true)
 					WebUI.verifyTextPresent(("You must review and accept the Credit Card terms and conditions in order to process a credit transaction."), true)
 
-//					WebUI.closeBrowser()
+					WebUI.closeBrowser()
 					
 			}
 			

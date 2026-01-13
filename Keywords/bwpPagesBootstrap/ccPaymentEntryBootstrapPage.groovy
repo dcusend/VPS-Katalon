@@ -43,15 +43,15 @@ public class ccPaymentEntryBootstrapPage {
 		//		this.setDataAmount(AmountS)
 		this.setDataCardUDF(UDFID)
 
-		//		if(CardID == '8') {
-		//			this.setDataAmount(' ')
-		//		}
+		if(AmountS == '11.5') {
+			this.setDataAmount(AmountS)
+		}
 		if(CardID != '8') {
 			this.selectCheckboxCCTerms()
 		}
 		this.selectContinueButton()
 	}
-	
+
 	@Keyword
 	def setDataCCMainWithoutCheckboxAndSubmit(nameID, CardID, EmailPhoneID, AddressID, AmountS, UDFID, AppID) {
 		println(AmountS)
@@ -335,8 +335,9 @@ public class ccPaymentEntryBootstrapPage {
 	def setDataAmount(String AmountS) {
 		amount = AmountS
 
+		println(amount)
 		if ((!amount.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR + 'Amount'),amount)
+			WebUI.setText(findTestObject(pathOR + 'Amount_modify'),amount)
 		}
 	}
 

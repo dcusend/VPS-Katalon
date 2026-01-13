@@ -50,7 +50,7 @@ public class achCorporatePaymentEntryBootstrapPage {
 		}
 		this.selectContinueButton()
 	}
-	
+
 	@Keyword
 	def setDataACHMainWithoutCheckboxAndSubmit(nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID, AppID) {
 

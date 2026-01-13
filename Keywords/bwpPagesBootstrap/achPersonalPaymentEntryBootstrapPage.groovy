@@ -48,8 +48,8 @@ public class achPersonalPaymentEntryBootstrapPage {
 		}
 		this.selectContinueButton()
 	}
-	
-	
+
+
 	@Keyword
 	def setDataACHMainWithoutCheckboxAndSubmit(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID, AppID) {
 		appID = AppID
@@ -58,7 +58,6 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.setAddressData(AddressID)
 		this.setEmailAndPhoneData(EmailPhoneID)
 		this.setUDFData(UDFID)
-
 	}
 
 
