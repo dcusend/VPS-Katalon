@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_AccountNumber_Demo</name>
+   <tag></tag>
+   <elementGuidId>dee285c5-4ed9-4e30-9b0c-9c8df9900339</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'password_paymentMethodForm.bankAccountNumber' and @id = 'password_bankAccountNumber']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password_paymentMethodForm.bankAccountNumber</value>
+      <webElementGuid>6140e8b2-6a5e-490e-8bb3-db1a593be354</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password_bankAccountNumber</value>
+      <webElementGuid>af600d01-cfb6-4251-bd99-1b6a62f63ab5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

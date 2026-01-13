@@ -3,11 +3,11 @@
    <description></description>
    <name>input_ConfirmAccountNumber</name>
    <tag></tag>
-   <elementGuidId>68ec2ed2-3038-45e3-b066-ab230a518eea</elementGuidId>
+   <elementGuidId>5f7936cf-9559-4602-a317-9ae363885ea4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'confirmBankAccountNumber' and @type = 'text']</value>
+         <value>//*[@name = 'confirmBankAccountNumber' and @id = 'confirmBankAccountNumber']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,28 +17,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>DIV</value>
-      <webElementGuid>c5b4f861-6ffe-4655-aa73-345d09c1d0c9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>xpath1744292874298</value>
-      <webElementGuid>28c50fbf-0615-41d0-97b6-c6f7e03e68fa</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>paymentMethodForm.confirmBankAccountNumber</value>
-      <webElementGuid>0b119284-81d0-4f5d-86cd-c381becca90e</webElementGuid>
+      <value>confirmBankAccountNumber</value>
+      <webElementGuid>5448fc01-f08e-4106-855f-cde7a09e8245</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,14 +30,6 @@
       <name>id</name>
       <type>Main</type>
       <value>confirmBankAccountNumber</value>
-      <webElementGuid>55969724-3b7f-4ec5-9dbc-e787f52666d0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>8713b014-baf3-4402-9dbb-4bb0b3308f2e</webElementGuid>
+      <webElementGuid>d23c0c30-0936-4584-80fc-7e82f3d7d2f2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

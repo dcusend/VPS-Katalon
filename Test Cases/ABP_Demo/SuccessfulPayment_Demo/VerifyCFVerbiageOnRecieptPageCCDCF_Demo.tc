@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyCFVerbiageOnRecieptPageCCDCF_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0a8a775-9e4e-48e5-a3a5-303566c7860a</testCaseGuid>
+</TestCaseEntity>

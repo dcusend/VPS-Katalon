@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cal_StartDate</name>
+   <tag></tag>
+   <elementGuidId>b9feea58-b467-4ba2-aa7d-3d12d2811d45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'startDate' and @id = 'startDate']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>startDate</value>
+      <webElementGuid>19fcc45a-4bc3-42f0-b4f7-f0a1180208fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>startDate</value>
+      <webElementGuid>a307a03a-175c-4404-8d0e-7041e47998d5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all environments</description>
+   <name>Extension_ChangePaymentMethod_Personal_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6915c356-a28c-45f6-a1e3-6081edda9d0c</testCaseGuid>
+</TestCaseEntity>

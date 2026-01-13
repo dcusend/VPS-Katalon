@@ -83,15 +83,16 @@ for (def row = 1; row <= numOfRows; row++)
 		
 		if(WebUI.verifyTextPresent("Cart Contents", false)) {
 			
-			Thread.sleep(10000)
+			WebUI.delay(5)
 			
-			
+			WebUI.verifyTextPresent("1 Item(s) in the cart", false)
 			
 			if (WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/CartContents/btn_removefromCartIcon'),10))
 			{
 				WebUI.verifyTextPresent("VIRGINIA", false)
 				CustomKeywords.'multiBillPages.cartContentPage.selectRemovefromCart'()
 				WebUI.delay(5)
+				WebUI.verifyTextPresent("0 Item(s) in the cart", false)
 				
 				if (WebUI.verifyTextNotPresent("VIRGINIA", false))
 				{

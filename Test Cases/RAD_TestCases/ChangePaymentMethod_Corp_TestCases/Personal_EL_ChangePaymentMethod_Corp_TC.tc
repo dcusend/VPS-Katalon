@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all environments</description>
+   <name>Personal_EL_ChangePaymentMethod_Corp_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c271539a-d279-46be-ad80-b1d6fa625ffd</testCaseGuid>
+</TestCaseEntity>

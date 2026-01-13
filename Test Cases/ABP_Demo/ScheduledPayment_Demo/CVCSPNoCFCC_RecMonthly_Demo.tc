@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CVCSPNoCFCC_RecMonthly_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ed9950aa-ec2d-488c-b842-a2287f35cd84</testCaseGuid>
+</TestCaseEntity>

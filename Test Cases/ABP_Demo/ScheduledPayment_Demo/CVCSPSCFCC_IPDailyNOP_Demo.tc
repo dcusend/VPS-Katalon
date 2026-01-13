@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CVCSPSCFCC_IPDailyNOP_Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc9a1352-a6a3-45f8-8dad-c6322d7af69c</testCaseGuid>
+</TestCaseEntity>

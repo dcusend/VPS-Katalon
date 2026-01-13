@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radioButton_Visa4111</name>
+   <tag></tag>
+   <elementGuidId>568928be-c1f9-45b5-a643-fd3329d7ec0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @id = 'S_107910' and @name = 'paymentMethodSelect']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>230e1ae6-9966-4614-90e6-23773f1a3736</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>S_107910</value>
+      <webElementGuid>15b54598-9f80-4800-a6f1-aec580f8de8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentMethodSelect</value>
+      <webElementGuid>084480ae-84a7-47d5-aa6d-065f9eb7dd14</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

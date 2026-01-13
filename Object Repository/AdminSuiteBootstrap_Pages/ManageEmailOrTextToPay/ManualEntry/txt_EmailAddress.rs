@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_EmailAddress</name>
+   <tag></tag>
+   <elementGuidId>f80caed7-4206-4ff6-ad83-bdef3d0d28d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'emailAddress' and @id = 'emailAddress']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>emailAddress</value>
+      <webElementGuid>bd93c02b-5178-4aa9-87b5-f7823824755c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>emailAddress</value>
+      <webElementGuid>1c12afb3-5494-49b6-8e05-ef621fc75066</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

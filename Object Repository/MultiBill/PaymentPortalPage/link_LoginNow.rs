@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_LoginNow</name>
+   <tag></tag>
+   <elementGuidId>a698cb04-c62c-43d7-aaa3-0e9e69adda47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn' and (text() = 'Login Now' or . = 'Login Now') and @href = '/vrelay/bootstrap/vrelay-login.html']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+      <webElementGuid>f06c1983-28a9-47d3-9ea1-0687462fb42e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login Now</value>
+      <webElementGuid>212705ce-6ba9-4cc0-8ff0-9212e995a851</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/vrelay/bootstrap/vrelay-login.html</value>
+      <webElementGuid>c5dbbe6a-fc46-4839-9837-b70c0a038e26</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

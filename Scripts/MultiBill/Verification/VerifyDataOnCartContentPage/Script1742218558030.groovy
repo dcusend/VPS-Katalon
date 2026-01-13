@@ -111,6 +111,8 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.verifyTextPresent(dataFile.getValue("Amount", row), false)
 					KeywordUtil.logInfo("Amount is present")
 			
+					WebUI.verifyTextPresent("1 Item(s) in the cart", false)
+					
 					KeywordUtil.logInfo("No Matching Items Found")
 					KeywordUtil.markPassed("Data found and Payer Name Address and Account Number are matching")
 					resText = "Pass"
@@ -118,7 +120,9 @@ for (def row = 1; row <= numOfRows; row++)
 				}
 				if(WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/CartContents/btn_removefromCartIcon'),10)) {
 					CustomKeywords.'multiBillPages.cartContentPage.selectRemovefromCart'()
-					KeywordUtil.logInfo("No Matching Items Found")
+					WebUI.delay(2)
+					WebUI.verifyTextPresent("0 Item(s) in the cart", false)
+					KeywordUtil.logInfo("Item was removed from Cart")
 				}
 			}
 				else {

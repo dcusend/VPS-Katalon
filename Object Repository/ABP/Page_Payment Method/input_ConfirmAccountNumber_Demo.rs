@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ConfirmAccountNumber_Demo</name>
+   <tag></tag>
+   <elementGuidId>68ec2ed2-3038-45e3-b066-ab230a518eea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'password_confirmBankAccountNumber']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password_confirmBankAccountNumber</value>
+      <webElementGuid>7c5f7a64-96a3-4ca8-97cd-f962614581a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password_confirmBankAccountNumber</value>
+      <webElementGuid>9c39ad9b-7fec-442b-9f83-72c07eab2e93</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

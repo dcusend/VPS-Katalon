@@ -40,7 +40,9 @@ public class ScheduledPaymentPage {
 	@Keyword
 	def selectPaymentPlanFrequency(paymentPlanFrequency) {
 		println(paymentPlanFrequency)
-		WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/Page_SchedulePayment/select_PaymentPlanFrequency'), paymentPlanFrequency, false)
+		if(!paymentPlanFrequency.isEmpty()) {
+			WebUI.selectOptionByLabel(findTestObject('Object Repository/ABP/Page_SchedulePayment/select_PaymentPlanFrequency'), paymentPlanFrequency, false)
+		}
 	}
 
 	@Keyword

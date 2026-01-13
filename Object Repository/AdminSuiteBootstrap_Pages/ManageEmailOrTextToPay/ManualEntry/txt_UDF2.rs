@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_UDF2</name>
+   <tag></tag>
+   <elementGuidId>a19fac1a-8f4e-4206-9e0d-6b146365c65a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'udf2' and @id = 'udf2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>udf2</value>
+      <webElementGuid>27f3dcb6-cf1c-468f-8630-20b9e3290e2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>udf2</value>
+      <webElementGuid>c0fd47b2-58d4-4a7d-9f8b-082a6f1f7e06</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

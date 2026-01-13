@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 Only</description>
+   <name>VerifyEmailTextToPayLinksOnDashboardPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24d71e72-358e-4f0f-a67d-ed0f833ed4ac</testCaseGuid>
+</TestCaseEntity>

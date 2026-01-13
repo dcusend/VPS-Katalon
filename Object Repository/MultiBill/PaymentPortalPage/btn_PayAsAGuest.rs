@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_PayAsAGuest</name>
+   <tag></tag>
+   <elementGuidId>355cb6e6-0c2e-48d0-bcf5-c5ff78f6c206</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn' and @type = 'submit' and (text() = 'Pay as a Guest' or . = 'Pay as a Guest')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+      <webElementGuid>7f0d4417-d61f-4ab4-ac37-0da13a331668</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>0fed8897-0a99-4391-97d7-3f9ad1bb4256</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay as a Guest</value>
+      <webElementGuid>10ee0751-5bf5-45f8-a156-a2b3442022f7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

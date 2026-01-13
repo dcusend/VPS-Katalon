@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_CAN</name>
+   <tag></tag>
+   <elementGuidId>31b340d8-c739-41ea-9878-6441b8e28032</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'searchClientAccountNumber' and @id = 'searchClientAccountNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>searchClientAccountNumber</value>
+      <webElementGuid>800f0f68-dea2-46d7-a3da-0561f2d294a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>searchClientAccountNumber</value>
+      <webElementGuid>68c86ee6-137c-4dd3-ad7f-ed5a759c0123</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

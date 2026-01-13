@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PasswordPolicy</name>
+   <tag></tag>
+   <elementGuidId>43274ffb-a259-417b-b231-9ce8d79f93eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'password-policy' and @id = 'passwordPolicy']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>password-policy</value>
+      <webElementGuid>799a6780-2575-4021-ab0c-4888101b8f9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>passwordPolicy</value>
+      <webElementGuid>70ef7288-db2f-408c-8411-aaf0b7b1ca79</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

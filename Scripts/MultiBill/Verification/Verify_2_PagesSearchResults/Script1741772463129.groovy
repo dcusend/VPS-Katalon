@@ -71,11 +71,14 @@ for (def row = 1; row <= numOfRows; row++)
 			
 		searchString = dataFile.getValue("SearchString", row)
 		
+		
 		Thread.sleep(shortDelay)
 		
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
-		
+
+	WebUI.delay(2)
+
 		if(WebUI.verifyElementPresent((findTestObject('Object Repository/MultiBill/MultibillSearch/Page_Bill Lookup/a_Page_2')),10)) {
 			
 			WebUI.click(findTestObject('Object Repository/MultiBill/MultibillSearch/Page_Bill Lookup/a_Page_2'))

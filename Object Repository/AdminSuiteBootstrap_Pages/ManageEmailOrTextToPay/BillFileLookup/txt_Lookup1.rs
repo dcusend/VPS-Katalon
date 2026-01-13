@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Lookup1</name>
+   <tag></tag>
+   <elementGuidId>a0d8ce5a-d4aa-4376-b81e-5ef78e048d5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'searchLookup1' and @id = 'searchLookup1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>searchLookup1</value>
+      <webElementGuid>bec38391-cf65-468c-b72a-8a3567e9ea95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>searchLookup1</value>
+      <webElementGuid>50ee2472-0556-4485-abfb-d52f6f44bc6f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dd_PaymentApplication</name>
+   <tag></tag>
+   <elementGuidId>3b02c467-07f5-4159-9bf2-353326769173</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'searchPaymentApplicationId' and @id = 'searchPaymentApplicationId']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>searchPaymentApplicationId</value>
+      <webElementGuid>3db4d647-f869-4214-b177-5165bdb5614f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>searchPaymentApplicationId</value>
+      <webElementGuid>04042129-ea10-4cf2-9a6e-a5035de0e461</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

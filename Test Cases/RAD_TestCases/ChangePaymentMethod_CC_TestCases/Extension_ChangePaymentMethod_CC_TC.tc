@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 Only.</description>
+   <name>Extension_ChangePaymentMethod_CC_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>212822f2-d51c-4afc-8f46-ef3923f1a952</testCaseGuid>
+</TestCaseEntity>

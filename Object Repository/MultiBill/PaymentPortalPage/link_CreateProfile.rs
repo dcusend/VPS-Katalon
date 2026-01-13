@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_CreateProfile</name>
+   <tag></tag>
+   <elementGuidId>e2e68847-dd5b-49b6-a21f-fa9c3a84c636</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'btn' and (text() = 'Create Profile' or . = 'Create Profile') and @href = '/vrelay/bootstrap/vrelay-user-register.html']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn</value>
+      <webElementGuid>e4bfbf75-511f-4b6f-89d3-1632693361ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Profile</value>
+      <webElementGuid>81626159-a936-47c3-9f8a-5592d4563800</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/vrelay/bootstrap/vrelay-user-register.html</value>
+      <webElementGuid>5013e435-2229-4159-a0e3-f781994b23aa</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

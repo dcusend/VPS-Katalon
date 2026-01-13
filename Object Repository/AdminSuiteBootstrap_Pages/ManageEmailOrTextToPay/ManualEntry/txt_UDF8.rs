@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_UDF8</name>
+   <tag></tag>
+   <elementGuidId>b4b2a929-aedb-48cd-b1a2-299d3a14438a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'udf8' and @id = 'udf8']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>udf8</value>
+      <webElementGuid>cc98589b-6e47-42e1-b605-eabf1743bed0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>udf8</value>
+      <webElementGuid>176ba7b6-be1e-4a37-8e52-a7f0f2b9251d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
