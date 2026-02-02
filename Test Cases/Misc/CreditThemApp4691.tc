@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyDashboardLinks_UI_TC</name>
+   <name>CreditThemApp4691</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>53a7d643-1fe3-47e0-990d-7fa1b83df094</testCaseGuid>
+   <testCaseGuid>0634de26-b3ce-4675-ba83-b448999088fd</testCaseGuid>
 </TestCaseEntity>
