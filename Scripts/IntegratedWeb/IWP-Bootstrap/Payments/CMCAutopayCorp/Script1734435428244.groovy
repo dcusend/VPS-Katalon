@@ -111,7 +111,7 @@ for (def row = 1; row <= numOfRows; row++)
 			// Select Confirm Button on Payment Confirmation Page
 			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 			
-			Thread.sleep(2000)
+			WebUI.delay(5)
 			
 			if (WebUI.verifyTextPresent("AutoPay", false))
 				{

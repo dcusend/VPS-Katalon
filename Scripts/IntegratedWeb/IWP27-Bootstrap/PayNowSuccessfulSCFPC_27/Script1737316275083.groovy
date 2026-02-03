@@ -94,13 +94,16 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
 			
-				
+			WebUI.delay(3)
+			
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'), 0))
 					{
 						
 						KeywordUtil.logInfo("View Parcel button Exists")
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
+						
+						WebUI.delay(5)
 						
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 						
@@ -127,6 +130,7 @@ for (def row = 1; row <= numOfRows; row++)
 									
 									CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 									
+									WebUI.delay(5)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray) 
 									
@@ -149,7 +153,7 @@ for (def row = 1; row <= numOfRows; row++)
 											//Select Accept Fee and Confirm Payment
 											CustomKeywords.'iwpPages.ConvenienceFeesBootstrapPage.selectAcceptFeeAndProcessPayment'()
 											
-											Thread.sleep(10000)
+									WebUI.delay(7)
 											
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
@@ -221,7 +225,7 @@ for (def row = 1; row <= numOfRows; row++)
 								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 							}
 							
-							WebUI.closeBrowser()	 
+//							WebUI.closeBrowser()	 
 						
 					}}
 		

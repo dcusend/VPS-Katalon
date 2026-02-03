@@ -91,7 +91,7 @@ for (def row = 1; row <= numOfRows; row++)
 			// Select Make a Payment Button
 				CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonEnrollAutopay'()
 
-				Thread.sleep(10000)
+				WebUI.delay(3)
 				
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'), 0))
 					{
@@ -116,14 +116,14 @@ for (def row = 1; row <= numOfRows; row++)
 									CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHDefferedMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID,CalDate)
 									
 									
-									Thread.sleep(1000)
+									WebUI.delay(3)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
 										if(isRequiredTextPresent == true) {
 											
 											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
-											Thread.sleep(10000)
+											WebUI.delay(3)
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					
@@ -150,6 +150,8 @@ for (def row = 1; row <= numOfRows; row++)
 													//Click on Modify Payment Button
 												WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_modify'))
 												WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_EditPaymentPlan_Autopay/btn_savechanges'))
+												
+												WebUI.delay(5)
 												
 												if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 													WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))

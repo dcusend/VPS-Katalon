@@ -144,14 +144,14 @@ for (def row = 1; row <= numOfRows; row++)
 									// Select Continue Button
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectButtonContinue'()
 									
-									Thread.sleep(10000)
+									WebUI.delay(3)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
 										if(isRequiredTextPresent == true) {
 											
 											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
-											Thread.sleep(10000)
+											WebUI.delay(3)
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					
@@ -164,7 +164,7 @@ for (def row = 1; row <= numOfRows; row++)
 										
 									if(isRequiredTextPresent == true) 
 										{
-												
+											WebUI.delay(5)
 												if (WebUI.verifyTextPresent("Deferred", false))
 													{
 						
@@ -173,7 +173,7 @@ for (def row = 1; row <= numOfRows; row++)
 														WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_ViewScheduledPayments'))
 						
 														/*WebUI.switchToWindowTitle('View Scheduled Payments')*/
-														Thread.sleep(100)
+														WebUI.delay(2)
 						
 //														def payment_id_obj = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/payment_plan_id')).toString()
 //														def payment_id = payment_id_obj.substring(17,23)
