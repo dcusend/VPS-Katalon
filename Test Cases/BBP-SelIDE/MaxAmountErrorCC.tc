@@ -4,5 +4,6 @@
    <name>MaxAmountErrorCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>cd0dc9bc-4e4c-46f8-9ae8-bd0827a52713</testCaseGuid>
 </TestCaseEntity>
