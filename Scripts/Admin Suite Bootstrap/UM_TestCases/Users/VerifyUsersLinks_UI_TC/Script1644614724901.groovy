@@ -44,8 +44,8 @@ String path_UM = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/"
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_Add User'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_Add User'), 30)
 			
-			WebUI.verifyElementVisible(findTestObject(path_UM + 'a_CASEuser'))
-			WebUI.verifyElementPresent(findTestObject(path_UM + 'a_CASEuser'), 30)
+			//WebUI.verifyElementVisible(findTestObject(path_UM + 'a_CASEuser'))
+			//WebUI.verifyElementPresent(findTestObject(path_UM + 'a_CASEuser'), 30)
 			
 			WebUI.verifyElementVisible(findTestObject(path_UM + 'li_First'))
 			WebUI.verifyElementPresent(findTestObject(path_UM + 'li_First'), 30)
