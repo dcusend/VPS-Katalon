@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Send_payment_link</name>
+   <tag></tag>
+   <elementGuidId>7f48c789-de05-4b32-9baa-e993f36b3f6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;sendBillPaymentLinkForm&quot;]/div[2]/button[count(. | //*[@class = 'btn btn-custom' and @type = 'button']) = count(//*[@class = 'btn btn-custom' and @type = 'button'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-custom</value>
+      <webElementGuid>932b1157-5136-4ff6-9031-1a88325bc926</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ea77a7ba-8a21-45b4-a6e5-015f89b747c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;sendBillPaymentLinkForm&quot;]/div[2]/button</value>
+      <webElementGuid>7b1e2614-ea19-418f-b58e-68d55618e580</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
