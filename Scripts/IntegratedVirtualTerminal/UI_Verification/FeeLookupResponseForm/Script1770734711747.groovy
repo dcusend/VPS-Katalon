@@ -31,3 +31,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/FeeLoo
 WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/FeeLookupResponseForm/Submit'), 10)
 println("'Submit' button is present on 'Fee Lookup Response Form' Page")
 
+WebUI.verifyTextPresent('Agency ID', true)
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/FeeLookupResponseForm/AgencyId'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/FeeLookupResponseForm/AgencyId'), 10)
+println("'Agency ID' box is present on 'Fee Lookup Response Form' Page")

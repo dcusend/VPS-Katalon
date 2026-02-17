@@ -45,6 +45,7 @@ IntegratedVTurl = GlobalVariable.IntegratedVT
 WebUI.openBrowser(IntegratedVTurl)
 WebUI.maximizeWindow()
 
+WebUI.setText(findTestObject('Object Repository/IntegratedVT/FeeLookupResponseForm/AgencyId'), '1')
 WebUI.click(findTestObject('Object Repository/IntegratedVT/FeeLookupResponseForm/Submit'))
 
 WebUI.verifyTextPresent('Show', true)
