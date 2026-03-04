@@ -6,19 +6,20 @@
    <elementGuidId>4f5775d5-4ed4-4a2c-ab79-b76a487d5f76</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'checkbox' and @name = 'checkedAcceptCondition' and @id = 'checkedAcceptCondition']</value>
+         <key>CSS</key>
+         <value>#checkedAcceptCondition</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='checkedAcceptCondition']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#checkedAcceptCondition</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @id = 'checkedAcceptCondition' and @tabindex = '1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>52823703-3201-4767-949d-164b9d2c0bce</webElementGuid>
+      <webElementGuid>82e4c9e1-b061-43ed-8b70-a614b9ab5060</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,15 +35,15 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>cadf33d7-ab91-45ab-86a8-f0af21a66b1b</webElementGuid>
+      <webElementGuid>29278ca5-882d-4e88-824e-68da3fcf1489</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>checkedAcceptCondition</value>
-      <webElementGuid>6a5b60e8-cf11-4635-aae3-4c06ecedd428</webElementGuid>
+      <webElementGuid>92643298-e0bf-498c-9c1d-a899d6b07936</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,23 +51,23 @@
       <name>id</name>
       <type>Main</type>
       <value>checkedAcceptCondition</value>
-      <webElementGuid>76fa0355-f78f-4e14-bced-53381f3bd3b0</webElementGuid>
+      <webElementGuid>cbe4cfd4-e2ce-4b5a-806c-17f07e7ae8b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>053d20e7-3315-42d1-b1d8-b680985beb2b</webElementGuid>
+      <webElementGuid>70d20160-bfc9-4605-8b03-7c397159b8bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;checkedAcceptCondition&quot;)</value>
-      <webElementGuid>2cbbba91-b77c-408f-9d86-7b5784a5b5f3</webElementGuid>
+      <value>//*[@id=&quot;checkedAcceptCondition&quot;]</value>
+      <webElementGuid>3e124cd4-4502-4c53-b79d-cf49c6c55d03</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='checkedAcceptCondition']</value>
-      <webElementGuid>8c1b5032-c42d-47ae-978b-762558ad68e8</webElementGuid>
+      <webElementGuid>12e58f06-bd21-4019-8a5d-59b049f9891c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/input</value>
-      <webElementGuid>75cd72f8-338b-4d29-8202-aa4a9c7359a2</webElementGuid>
+      <webElementGuid>d7162400-8c78-48c2-8ddf-fa9049744677</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @name = 'checkedAcceptCondition' and @id = 'checkedAcceptCondition']</value>
-      <webElementGuid>9231eb82-53ad-4307-8d14-3de212110e8f</webElementGuid>
+      <webElementGuid>1355b0e0-c1b7-425e-b63f-a4476ea97843</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +99,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/input</value>
-      <webElementGuid>420d34da-4788-4425-8e88-a38401fb75ab</webElementGuid>
+      <webElementGuid>cd18b5c9-b97a-455e-a728-9674558d0854</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

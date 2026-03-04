@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>QA and QA2 Only</description>
-   <name>AmountInThousands1CC</name>
+   <name>AmpersandCorp</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0630ab5a-5133-4d5a-9730-a2a5c56c1cac</testCaseGuid>
+   <testCaseGuid>1e9a68d7-c472-44e0-96f4-4f79174a4f71</testCaseGuid>
 </TestCaseEntity>

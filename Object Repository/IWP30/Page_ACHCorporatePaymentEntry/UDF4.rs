@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UDF4</name>
+   <tag></tag>
+   <elementGuidId>4513dd08-734b-411d-a6d4-14e51ab4e628</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[3]/form[1]/table/tbody/tr[7]/td[3]/select[count(. | //*[@name = 'variableField4DropdownGroupItemID']) = count(//*[@name = 'variableField4DropdownGroupItemID'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/form[1]/table/tbody/tr[7]/td[3]/select</value>
+      <webElementGuid>38b08977-1432-44c4-ad5b-cfffc05e7722</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>variableField4DropdownGroupItemID</value>
+      <webElementGuid>457d18bc-08c6-45f1-9821-c02c242a5a15</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

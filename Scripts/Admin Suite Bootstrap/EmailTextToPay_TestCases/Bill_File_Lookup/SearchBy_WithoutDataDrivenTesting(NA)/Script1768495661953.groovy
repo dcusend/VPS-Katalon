@@ -54,15 +54,15 @@ WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoar
 
 def PaymentAppName = "DeepWebPay485" 
 
-def CAN = ""
+def CAN = "12345"
 
-def Name = ""
+def Name = "abcd"
 
-def Look1 =""
+def Look1 ="A1"
 
-def Look2 =""
+def Look2 ="B1"
 
-def Look3 =""
+def Look3 ="C1"
 
 CustomKeywords.'issueEmailTextToPay.BillFileLookupPage.setDataBillFileLookup'(PaymentAppName, CAN, Name, Look1, Look2, Look3)
 

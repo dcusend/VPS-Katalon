@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Confirm</name>
+   <tag></tag>
+   <elementGuidId>db8a40a3-df90-4256-b97b-0df278fb14d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;submitYes&quot;][count(. | //*[@id = 'submitYes']) = count(//*[@id = 'submitYes'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submitYes</value>
+      <webElementGuid>437d43f8-7337-4d73-a372-bff03c9f154b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;submitYes&quot;]</value>
+      <webElementGuid>9db34c64-d2e3-42fe-a11f-942a7d461261</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

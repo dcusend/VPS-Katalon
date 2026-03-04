@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Back</name>
+   <tag></tag>
+   <elementGuidId>e0f4e4b9-3a20-4f22-b175-d4d5dfefead7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[3]/table/tbody/tr/td[2]/strong/em/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/table/tbody/tr/td[2]/strong/em/input</value>
+      <webElementGuid>62b4109e-8b36-4149-bdc5-d14443dce0ff</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

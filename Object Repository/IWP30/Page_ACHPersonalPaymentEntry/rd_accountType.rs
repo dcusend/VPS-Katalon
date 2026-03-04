@@ -4,7 +4,14 @@
    <name>rd_accountType</name>
    <tag></tag>
    <elementGuidId>346f4334-d42c-48e2-b2f7-20909095a516</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[3]/form[1]/table/tbody/tr[15]/td[3]/input[1][count(. | //*[@type = 'radio' and @value = '1' and @tabindex = '1']) = count(//*[@type = 'radio' and @value = '1' and @tabindex = '1'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -12,6 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+      <webElementGuid>2c84809e-eec2-4398-a2fe-74101076f64a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -19,41 +27,47 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
+      <webElementGuid>2370144b-fc9c-48ff-970a-23683af052f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>accountType</value>
+      <webElementGuid>aac8eade-3d1f-4b97-b5ef-3756798f0429</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>Type of Account</value>
+      <webElementGuid>747dddb2-e278-4c61-9923-e3902b90cda8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>581ad994-3a73-43d1-ba12-771186790303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>54d7172c-8176-4525-9284-1f5651e26a62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main_col&quot;]/form[1]/table[1]/tbody[1]/tr[20]/td[@class=&quot;payor_opt&quot;]/input[1]</value>
+      <value>/html/body/div[2]/div[3]/form[1]/table/tbody/tr[15]/td[3]/input[1]</value>
+      <webElementGuid>8c93a7db-b496-40d3-996e-85c1fdc8227b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='accountType']</value>
+      <webElementGuid>59acffa5-6f86-4441-a2bc-2a2e53be0c42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,5 +83,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[20]/td[3]/input</value>
+      <webElementGuid>ff5963df-0767-4cec-a1e3-fbd20c16fd77</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

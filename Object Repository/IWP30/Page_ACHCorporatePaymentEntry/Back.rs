@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Back</name>
+   <tag></tag>
+   <elementGuidId>554cc1e2-0894-4d1b-b0eb-3a7589e6a6da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[3]/table/tbody/tr/td[2]/strong/em/input[count(. | //*[@value = 'Back']) = count(//*[@value = 'Back'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Back</value>
+      <webElementGuid>35ac0f92-da6a-4ff0-bb5b-f4fe831a5ceb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/table/tbody/tr/td[2]/strong/em/input</value>
+      <webElementGuid>560fee0a-9254-4fda-aa7b-ad252cb55958</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

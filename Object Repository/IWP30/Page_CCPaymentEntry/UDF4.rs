@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UDF4</name>
+   <tag></tag>
+   <elementGuidId>e2574b0e-05f8-4c1a-849b-3cba836d7452</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'userDefined4' and @id = 'userDefined4Text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>userDefined4</value>
+      <webElementGuid>5fb73e8e-8b3e-4a25-8f63-d5476a6b43ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>userDefined4Text</value>
+      <webElementGuid>d7a1ccfd-b0d8-4514-9ec5-a5d4e536ca17</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
