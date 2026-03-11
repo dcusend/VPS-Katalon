@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SearchBy_BilFileLookup_Error - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee3be555-3861-439a-ad4e-6edfd2df83c3</testCaseGuid>
+</TestCaseEntity>

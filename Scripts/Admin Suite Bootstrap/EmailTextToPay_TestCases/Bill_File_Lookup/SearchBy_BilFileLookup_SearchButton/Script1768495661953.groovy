@@ -27,35 +27,47 @@ def deepAdminSuiteURL, deepUsername, deepPassword
 
 def PaymentAppName, CAN, FirstName, LastORcompanyName, Look1, Look2, Look3
 
-def numOfRows, dataFile, nameSheet, isRequiredTextPresent = false
+def fileLoc, numOfRows, dataFile, nameSheet, isRequiredTextPresent = false
 
 String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/EmailTextToPay/BillFileLookUp_SearchButton.xlsx"
-nameSheet = "SearchButton"
 
 
-  dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/BillFileLookUp_SearchButton.xlsx", nameSheet, true)
-	
-	
 switch(executionProfile)
 {
 	case "QAProfile":
 			 deepAdminSuiteURL = "https://qa.velocitypayment.com/admin/deep"
+			 deepUsername = GlobalVariable.Username
+			 deepPassword = GlobalVariable.Password
+			 
+		fileLoc = 'KatalonData/EmailTextToPay/BillFileLookUp_SearchButton.xlsx'
+		nameSheet = 'SearchButton'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_SearchButton.xlsx', nameSheet, true)		 		 
 		
 		break
-
+		
 	case "QA2Profile":
-			deepAdminSuiteURL = "https://qa2.velocitypayment.com/admin/deep"
+			deepAdminSuiteURL = "https://qa2.velocitypayment.com/admin/deep"	
+			deepUsername = GlobalVariable.Username
+			deepPassword = GlobalVariable.Password
+			
+		fileLoc = 'KatalonData/EmailTextToPay/BillFileLookUp_SearchButton.xlsx'
+		nameSheet = 'SearchButton'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_SearchButton.xlsx', nameSheet, true)
 	
 		break
+				
+	case "DemoProfile":
+			deepAdminSuiteURL = "https://demo.velocitypayment.com/admin/imtiazdemo"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+	fileLoc = 'KatalonData/EmailTextToPay/BillFileLookUp_SearchButton_Demo.xlsx'
+	nameSheet = 'SearchButton'
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_SearchButton_Demo.xlsx', nameSheet, true)
+		break		
 }
-
-//Retreive  Username and Password from Profile
-deepUsername = GlobalVariable.Username
-deepPassword = GlobalVariable.Password
 
 
 numOfRows = dataFile.getRowNumbers()
@@ -82,10 +94,31 @@ for (def row = 1; row <= numOfRows; row++)
 				 CAN = dataFile.getValue("CAN", row)
 				 FirstName = dataFile.getValue("FirstName", row)
 				 LastORcompanyName = dataFile.getValue("LastORcompanyName", row)
+				 				 
+switch(executionProfile)
+{
+	case "QAProfile":
 				 Look1 = dataFile.getValue("Look1", row)
 				 Look2 = dataFile.getValue("Look2", row)
 				 Look3 = dataFile.getValue("Look3", row)						
 
+			break
+						
+	case "QA2Profile":
+				Look1 = dataFile.getValue("Look1", row)
+				Look2 = dataFile.getValue("Look2", row)
+				Look3 = dataFile.getValue("Look3", row)
+
+			break			
+		
+	case "DemoProfile":
+				Look1 = dataFile.getValue("AccountNumber", row)
+				Look2 = dataFile.getValue("PhoneNumber", row)
+				Look3 = dataFile.getValue("Lookup3Label", row)
+
+			break				 
+}				 
+							
 				 
 // Log into Admin Suite
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)
