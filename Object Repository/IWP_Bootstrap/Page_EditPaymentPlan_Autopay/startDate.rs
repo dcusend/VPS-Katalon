@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>startDate</name>
+   <tag></tag>
+   <elementGuidId>487ae3ab-c069-4940-8e09-6d128ba26b5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'startD' and @value = '02/13/2026']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>startD</value>
+      <webElementGuid>7db9983f-76dd-4dc1-b353-bf58ede984cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>02/13/2026</value>
+      <webElementGuid>75b15f79-f585-4284-8850-5130501c72d5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

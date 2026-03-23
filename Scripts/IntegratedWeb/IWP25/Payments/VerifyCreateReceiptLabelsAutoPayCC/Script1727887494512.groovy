@@ -90,7 +90,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					
 					Thread.sleep(2000)
-					if (WebUI.verifyTextPresent("AutoPay", false))
+					if (WebUI.verifyTextPresent("Auto Pay", false))
 						{
 								
 							

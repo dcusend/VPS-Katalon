@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>billingZip</name>
+   <tag></tag>
+   <elementGuidId>eb481572-161e-4e7c-9b08-cd0e20c40370</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'billingZip' and @value = '03106']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billingZip</value>
+      <webElementGuid>92dcf26d-24d5-49f2-aa7c-217b308dbbe1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>03106</value>
+      <webElementGuid>9234477b-d1ba-4a00-b113-1e9e0609502b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

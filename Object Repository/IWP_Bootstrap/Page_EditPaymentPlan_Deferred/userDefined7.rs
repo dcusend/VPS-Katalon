@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>userDefined7</name>
+   <tag></tag>
+   <elementGuidId>2d497181-eae8-4856-9348-9087e1bc8f21</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'userDefined7' and @value = 'Orange']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>userDefined7</value>
+      <webElementGuid>9adb8b6e-2501-4fd1-92d1-c3d5fe4e6267</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Orange</value>
+      <webElementGuid>72b82612-1794-44b4-922e-0d0aa3a2d2f7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

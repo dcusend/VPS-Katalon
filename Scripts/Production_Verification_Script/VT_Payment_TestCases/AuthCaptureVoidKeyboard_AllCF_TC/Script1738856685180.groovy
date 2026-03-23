@@ -229,6 +229,8 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Void this transaction'))
 								
+								Thread.sleep(2000)
+								
 								WebUI.verifyTextPresent('The following transaction will be voided', true)
 								WebUI.verifyTextPresent('Please press submit to continue', true)
 								

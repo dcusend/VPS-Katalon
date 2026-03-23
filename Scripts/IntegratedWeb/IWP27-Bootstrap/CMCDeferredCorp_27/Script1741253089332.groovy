@@ -181,7 +181,7 @@ for (def row = 1; row <= numOfRows; row++)
 							//															WebUI.click(paymentplan_cancelLink)
 							
 															}
-															Thread.sleep(GlobalVariable.shortDelay)
+															WebUI.delay(5)
 														if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) 
 															{
 																WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_CancelPaymentPlan/btn_CancelPlan'))

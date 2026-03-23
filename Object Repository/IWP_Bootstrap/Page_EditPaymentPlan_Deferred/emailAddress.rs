@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>emailAddress</name>
+   <tag></tag>
+   <elementGuidId>797631cc-7b66-4cd8-8d26-0b4b70d742ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'emailAddress']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>emailAddress</value>
+      <webElementGuid>09f10782-524e-46da-b9a2-61d8f14730ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>iahmed1@govolution.com</value>
+      <webElementGuid>146d43d2-b2c3-45a0-81e1-5591a9e8622c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

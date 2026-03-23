@@ -91,6 +91,7 @@ for (def row = 1; row <= numOfRows; row++)
 				// Call setData for AddUser
 					CustomKeywords.'adminSuiteBootstrap.addUser.setDataAddUserEF'(row,dataFile)
 					
+					WebUI.delay(5)
 					if (WebUI.verifyTextPresent('User Account Created A user account for', true))
 					{
 						

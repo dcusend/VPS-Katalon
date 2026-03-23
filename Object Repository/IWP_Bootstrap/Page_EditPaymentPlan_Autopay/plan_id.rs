@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plan_id</name>
+   <tag></tag>
+   <elementGuidId>33059acb-0594-4e2d-a1b5-20ffbd26e1c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'plan_id_fn_mr' and @value = '126244']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>plan_id_fn_mr</value>
+      <webElementGuid>73e05df3-574b-4696-87e9-d3673d500e5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>126244</value>
+      <webElementGuid>7320b826-7c1a-407c-9bac-5741ca4d84a6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

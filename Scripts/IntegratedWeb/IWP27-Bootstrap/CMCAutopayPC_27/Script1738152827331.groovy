@@ -83,6 +83,7 @@ for (def row = 1; row <= numOfRows; row++)
 			// Populate Test Harness
 			CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 	
+			WebUI.delay(3)
 			// Select Pay by Personal Check Payment Method
 			
 			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByPersonal'()
@@ -146,7 +147,7 @@ for (def row = 1; row <= numOfRows; row++)
 													
 													// Populate Test Harness
 													CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
-													
+													WebUI.delay(3)
 													//Blocked with issue : https://deluxe.atlassian.net/browse/GOV-1145
 													
 													//Click on Modify Payment Button

@@ -187,11 +187,14 @@ for (def row = 1; row <= numOfRows; row++)
 									//								WebUI.click(paymentplan_cancelLink)
 																	
 																	// Set Data on Edit page
-																	CustomKeywords.'iwpPages.editSchedulePayment.setDataSchedPayment'(row,dataFile)
+//																	CustomKeywords.'iwpPages.editSchedulePayment.setDataSchedPayment'(row,dataFile)
+																	CustomKeywords.'iwpPages.editSchedulePaymentBootstrap.setDataSchedPayment'(CardID,UDFID,CalDate)
+																	
 																	WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/chkbox_acceptterms'))
 																	WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
 																	
-																	if (WebUI.verifyTextPresent("Successful Payment Plan Update", false)) {
+																	WebUI.delay(5)
+																	if (WebUI.verifyTextPresent("Your payment plan has been successfully modified", false)) {
 																	WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
 																	}
 																	WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))
@@ -201,12 +204,15 @@ for (def row = 1; row <= numOfRows; row++)
 							
 															}
 						
+															WebUI.delay(5)
 														if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) 
 															{
 																WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_CancelPaymentPlan/btn_CancelPlan'))
 																/*WebUI.acceptAlert()*/
 																WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ImportantOperation/input_OK'))
 															}
+															
+															WebUI.delay(5)
 						
 															if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) 
 																{

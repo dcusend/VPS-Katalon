@@ -101,6 +101,7 @@ for (def row = 1; row <= numOfRows; row++)
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
 					
+						WebUI.delay(3)
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)													
 						
 						KeywordUtil.logInfo("View Parcel button Exists")
@@ -145,6 +146,7 @@ for (def row = 1; row <= numOfRows; row++)
 													// Populate Test Harness
 													CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 													
+													WebUI.delay(3)
 													//Blocked with issue : https://deluxe.atlassian.net/browse/GOV-1145
 													
 													//Click on Modify Payment Button
@@ -157,6 +159,7 @@ for (def row = 1; row <= numOfRows; row++)
 													WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))
 													WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))
 													
+													WebUI.delay(5)
 													if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
 														KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
 														resText = "Pass"

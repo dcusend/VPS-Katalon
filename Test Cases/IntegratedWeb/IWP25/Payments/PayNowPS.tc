@@ -4,5 +4,6 @@
    <name>PayNowPS</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>09bd7660-1baa-4cce-b193-558ecee454a7</testCaseGuid>
 </TestCaseEntity>
