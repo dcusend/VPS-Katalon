@@ -68,7 +68,19 @@ switch(executionProfile)
 		nameSheet = 'BFLUError'
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_Demo.xlsx', nameSheet, true)		
 
-		break		
+		break	
+		
+	case "Production":
+			deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+		fileLoc = 'KatalonData/EmailTextToPay/BillFileLookUp_Prod.xlsx'
+		nameSheet = 'BFLUError'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_Prod.xlsx', nameSheet, true)
+
+		break	
+					
 }
 
 
@@ -118,7 +130,15 @@ switch(executionProfile)
 				Look2 = dataFile.getValue("PhoneNumber", row)
 				Look3 = dataFile.getValue("Lookup3Label", row)
 
-			break				 
+			break	
+			
+	case "Production":
+			Look1 = dataFile.getValue("AccountNumber", row)
+			Look2 = dataFile.getValue("PhoneNumber", row)
+			Look3 = dataFile.getValue("Lookup3Label", row)
+
+		break
+					 
 }			
 				 		 
 				 						

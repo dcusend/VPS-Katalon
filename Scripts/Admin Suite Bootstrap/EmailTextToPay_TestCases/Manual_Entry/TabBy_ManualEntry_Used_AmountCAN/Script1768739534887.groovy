@@ -30,35 +30,62 @@ def deepAdminSuiteURL, deepUsername, deepPassword
 def M_PaymentApp, M_CAN, M_Amount, M_FirstName, M_LastName, M_Email, M_Phone, M_CompanyName, M_AddressLine1, M_AddressLine2, 
 	 	M_City, M_State, M_ZipCode, M_UDF1,M_UDF2,M_UDF3,M_UDF4,M_UDF5,M_UDF6,M_UDF7,M_UDF8,M_UDF9,M_UDF10
 
-def numOfRows, dataFile, nameSheet, isRequiredTextPresent = false
+def fileLoc, numOfRows, dataFile, nameSheet, isRequiredTextPresent = false
 
 String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/EmailTextToPay/ManualEntry_CAN_Amount.xlsx"
-nameSheet = "ManualEntry_CAN_Amount"
 
 
-  dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/ManualEntry_CAN_Amount.xlsx", nameSheet, true)
-	
-	
 switch(executionProfile)
 {
+	
 	case "QAProfile":
-			 deepAdminSuiteURL = "https://qa.velocitypayment.com/admin/deep"
-		
-		break
-
-	case "QA2Profile":
-			deepAdminSuiteURL = "https://qa2.velocitypayment.com/admin/deep"
+		deepAdminSuiteURL = "https://qa.velocitypayment.com/admin/deep"
+		deepUsername = GlobalVariable.Username
+		deepPassword = GlobalVariable.Password
+	
+	fileLoc = "KatalonData/EmailTextToPay/ManualEntry_CAN_Amount.xlsx"
+	nameSheet = "ManualEntry_CAN_Amount"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/ManualEntry_CAN_Amount.xlsx", nameSheet, true)
 	
 		break
-}
+		
+	case "QA2Profile":	
+		deepAdminSuiteURL = "https://qa2.velocitypayment.com/admin/deep"
+		deepUsername = GlobalVariable.Username
+		deepPassword = GlobalVariable.Password
+		
+	fileLoc = 'KatalonData/EmailTextToPay/ManualEntry_CAN_Amount.xlsx'
+	nameSheet = 'ManualEntry_CAN_Amount'
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/ManualEntry_CAN_Amount.xlsx', nameSheet, true)
+		
+		break
+			
+	case "DemoProfile":
+			deepAdminSuiteURL = "https://demo.velocitypayment.com/admin/imtiazdemo"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+		
+	fileLoc = 'KatalonData/EmailTextToPay/ManualEntry_CAN_Amount_Demo.xlsx'
+	nameSheet = 'ManualEntry_CAN_Amount'
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/ManualEntry_CAN_Amount_Demo.xlsx', nameSheet, true)
+	
+		break
+				
+	case "Production":
+		deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
+		deepUsername = GlobalVariable.AutoUserAdminSuite
+		deepPassword = GlobalVariable.AutoPasswordAdminSuite
+		
+	fileLoc = 'KatalonData/EmailTextToPay/ManualEntry_CAN_Amount_Prod.xlsx'
+	nameSheet = 'ManualEntry_CAN_Amount'
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/ManualEntry_CAN_Amount_Prod.xlsx', nameSheet, true)
 
-//Retreive  Username and Password from Profile
-deepUsername = GlobalVariable.Username
-deepPassword = GlobalVariable.Password
+		break	
+		
+}
 
 
 numOfRows = dataFile.getRowNumbers()
@@ -80,8 +107,7 @@ for (def row = 1; row <= numOfRows; row++)
 				Date today = new Date()
 				println (today)
 				String datText = today
-				
-				
+								
 				 M_PaymentApp = dataFile.getValue("PaymentApp", row)				 
 				 M_CAN = dataFile.getValue("CAN", row)
 				 M_Amount = dataFile.getValue("Amount", row)
@@ -96,6 +122,7 @@ for (def row = 1; row <= numOfRows; row++)
 				 M_ZipCode = dataFile.getValue("ZipCode", row)
 				 WebUI.delay(2)
 				 M_State = dataFile.getValue("State", row)
+				 				 				 
 				 M_UDF1 = dataFile.getValue("UDF1", row)
 				 M_UDF2 = dataFile.getValue("UDF2", row)
 				 M_UDF3 = dataFile.getValue("UDF3", row)
@@ -106,7 +133,7 @@ for (def row = 1; row <= numOfRows; row++)
 				 M_UDF8 = dataFile.getValue("UDF8", row)
 				 M_UDF9 = dataFile.getValue("UDF9", row)
 				 M_UDF10 = dataFile.getValue("UDF10", row)
-				 
+									 
 
 // Log into Admin Suite
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)

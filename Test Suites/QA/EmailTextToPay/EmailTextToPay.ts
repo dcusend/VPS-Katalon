@@ -35,28 +35,28 @@
    <testCaseLink>
       <guid>adccbb85-be33-4cee-b2a1-cda38b5cfda5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f104b858-e83f-4c26-9b19-36dafe06ac8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_Error</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f1907ee3-0ea3-4c39-94ee-83dec7fcaed0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_Used_AmountCAN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5e6fea6a-b4bf-4607-98a0-a0f85ff9e2a1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_Used_AmountCAN_Error</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

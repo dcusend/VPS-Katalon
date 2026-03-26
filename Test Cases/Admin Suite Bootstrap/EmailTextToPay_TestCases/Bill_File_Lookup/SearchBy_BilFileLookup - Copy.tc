@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SearchBy_BilFileLookup - Copy</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8be143e5-e65e-4245-9a45-df2e132873ff</testCaseGuid>
-</TestCaseEntity>

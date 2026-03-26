@@ -7,26 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/aside/ul/li[7]/ul/li[1]/a[count(. | //*[@class = 'treeview-item ']) = count(//*[@class = 'treeview-item '])]</value>
+         <value>//*[(text() = 'Issue Email/Text to Pay' or . = 'Issue Email/Text to Pay')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>treeview-item </value>
-      <webElementGuid>ee78ed2b-710d-4335-8823-9860a2a835ae</webElementGuid>
+      <webElementGuid>27db2270-aa0f-4c4c-9dfb-d53d62f61a59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/aside/ul/li[7]/ul/li[1]/a</value>
-      <webElementGuid>d5bfc291-3078-4ab6-bc2b-c3e55760ff42</webElementGuid>
+      <webElementGuid>5d0264c4-be4a-4ecd-9a59-26bd8dfa1638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Issue Email/Text to Pay</value>
+      <webElementGuid>0ca19f39-71e0-44d0-8b2c-718481fbce2e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

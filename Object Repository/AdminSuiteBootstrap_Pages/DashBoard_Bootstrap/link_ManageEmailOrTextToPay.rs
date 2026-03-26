@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' Manage Email or Text to Pay' or . = ' Manage Email or Text to Pay') and @href = '/admin/deep/bootstrap/vadministrator/notifications/managePayNotification/index.do']</value>
+         <value>//*[(text() = ' Manage Email or Text to Pay' or . = ' Manage Email or Text to Pay')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,14 +19,14 @@
       <name>text</name>
       <type>Main</type>
       <value> Manage Email or Text to Pay</value>
-      <webElementGuid>cca13310-76b0-4039-85e4-77da5109fe7f</webElementGuid>
+      <webElementGuid>48a12775-1637-47e4-8d43-febe3b770b48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/deep/bootstrap/vadministrator/notifications/managePayNotification/index.do</value>
-      <webElementGuid>a5859ef0-8d14-4e40-8d53-83063591555b</webElementGuid>
+      <webElementGuid>0e30114d-0a8e-4261-8b89-e357d68d1199</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

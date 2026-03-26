@@ -7,34 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/aside/ul/li[7]/a/span[count(. | //*[@class = 'app-menu__label']) = count(//*[@class = 'app-menu__label'])]</value>
+         <value>//*[(text() = 'Email &amp;amp; Text to Pay Management' or . = 'Email &amp;amp; Text to Pay Management')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Email &amp;amp; Text to Pay Management</value>
-      <webElementGuid>ea7fc6ea-3763-43e7-9af6-5d3bc3c8376b</webElementGuid>
+      <webElementGuid>6513e3f4-86d2-471d-ad83-122391cc017b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>app-menu__label</value>
-      <webElementGuid>97b46f74-ac43-4566-8d01-c257b5521069</webElementGuid>
+      <webElementGuid>89fec319-90ad-4705-9e08-6bba20327b0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/aside/ul/li[7]/a/span</value>
-      <webElementGuid>0f01944c-2c5b-4fc5-a0e4-cdd9d48bc055</webElementGuid>
+      <webElementGuid>373f45d3-c625-43cf-a355-8d3541af2bb6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

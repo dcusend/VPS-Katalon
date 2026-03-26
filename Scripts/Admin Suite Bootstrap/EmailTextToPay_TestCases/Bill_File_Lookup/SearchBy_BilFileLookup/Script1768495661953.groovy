@@ -68,7 +68,19 @@ switch(executionProfile)
 		nameSheet = 'BFLU'
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_Demo.xlsx', nameSheet, true)		
 
-		break		
+		break	
+		
+	case "Production":
+			deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+		fileLoc = 'KatalonData/EmailTextToPay/BillFileLookUp_Prod.xlsx'
+		nameSheet = 'BFLU'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_Prod.xlsx', nameSheet, true)
+
+	break	
+			
 }
 
 
@@ -118,7 +130,15 @@ switch(executionProfile)
 				Look2 = dataFile.getValue("PhoneNumber", row)
 				Look3 = dataFile.getValue("Lookup3Label", row)
 
-			break				 
+			break		
+			
+	case "Production":
+			Look1 = dataFile.getValue("AccountNumber", row)
+			Look2 = dataFile.getValue("PhoneNumber", row)
+			Look3 = dataFile.getValue("Lookup3Label", row)
+
+		break
+				 
 }				 
 				 			 
 				 
@@ -227,6 +247,7 @@ if (isRequiredTextPresent) {
 	}
 }
 
+
 //Name
 switch(executionProfile)
 {
@@ -269,6 +290,20 @@ switch(executionProfile)
 			}
 		
 			break
+			
+			
+	case "Production":
+			
+				if (isRequiredTextPresent) {
+					if (WebUI.verifyTextPresent('Sandesh Patel', false)) {
+						isRequiredTextPresent = true
+						println(isRequiredTextPresent)
+					} else {
+						isRequiredTextPresent = false
+					}
+				}
+			
+				break
 		
 //CAN		
 
@@ -310,17 +345,76 @@ switch(executionProfile)
 			}
 			
 			break
-}	
+			
+	case "Production":
+	
+			if (isRequiredTextPresent) {
+			    if (WebUI.verifyTextPresent('4533213903', false)) {
+			        isRequiredTextPresent = true
+			
+			        println(isRequiredTextPresent)
+			    } else {
+			        isRequiredTextPresent = false
+			    }
+			}	
+						
+			break
 		
+//Amount Due
+			
+case "QAProfile":
 
-if (isRequiredTextPresent) {
-	if (WebUI.verifyTextPresent('$85.50', false)) {
-		isRequiredTextPresent = true
-		println(isRequiredTextPresent)
-	} else {
-		isRequiredTextPresent = false
-	}
+		if (isRequiredTextPresent) {
+			if (WebUI.verifyTextPresent('$85.50', false)) {
+				isRequiredTextPresent = true
+				println(isRequiredTextPresent)
+			} else {
+				isRequiredTextPresent = false
+			}
+		}
+		
+		break
+		
+case "QA2Profile":
+
+		if (isRequiredTextPresent) {
+			if (WebUI.verifyTextPresent('$85.50', false)) {
+				isRequiredTextPresent = true
+				println(isRequiredTextPresent)
+			} else {
+				isRequiredTextPresent = false
+			}
+		}
+		
+		break
+		
+case "Demo":
+		
+		if (isRequiredTextPresent) {
+			if (WebUI.verifyTextPresent('$85.50', false)) {
+				isRequiredTextPresent = true
+				println(isRequiredTextPresent)
+			} else {
+				isRequiredTextPresent = false
+			}
+		}
+		
+		break
+		
+case "Prouction":
+
+		if (isRequiredTextPresent) {
+			if (WebUI.verifyTextPresent('$37.00', false)) {
+				isRequiredTextPresent = true
+				println(isRequiredTextPresent)
+			} else {
+				isRequiredTextPresent = false
+			}
+		}
+
+		break
 }
+
 		
 if (isRequiredTextPresent) {
 	if (WebUI.verifyTextPresent('Send Payment Link', false)) {
