@@ -88,7 +88,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
-					Thread.sleep(2000)
+					WebUI.delay(10)
 					if (WebUI.verifyTextPresent("AutoPay", false))
 						{
 								

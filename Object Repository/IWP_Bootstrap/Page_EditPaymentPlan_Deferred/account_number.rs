@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>account_number</name>
+   <tag></tag>
+   <elementGuidId>608b9e05-ebbd-48bf-9ade-82c2a0f3df8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'accountNumberShow' and @value = '****5489']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>accountNumberShow</value>
+      <webElementGuid>bf4ec98a-e877-43d7-8cb2-c62e79d6a663</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>****5489</value>
+      <webElementGuid>3e81b4da-6499-4c3c-98bb-a38959c81c95</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -122,6 +122,8 @@ for (def row = 1; row <= numOfRows; row++)
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
 					
+						WebUI.delay(3)
+						
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 						
 							if (isRequiredTextPresent == true)
@@ -131,12 +133,15 @@ for (def row = 1; row <= numOfRows; row++)
 									
 									WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ViewParcel/button_close'))
 									
+									WebUI.delay(2)
 									// Select Customer CC Terms Checkbox
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
 									
-									
+									WebUI.delay(5)
 									// Select Continue Button
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectButtonContinue'()
+									
+									WebUI.delay(3)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
@@ -147,7 +152,7 @@ for (def row = 1; row <= numOfRows; row++)
 											//Select Accept Fee and Confirm Payment
 											CustomKeywords.'iwpPages.ConvenienceFeesBootstrapPage.selectAcceptFeeAndProcessPayment'()
 											
-											Thread.sleep(10000)
+									WebUI.delay(5)
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					

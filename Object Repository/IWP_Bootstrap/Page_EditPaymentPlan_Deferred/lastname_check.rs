@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lastname_check</name>
+   <tag></tag>
+   <elementGuidId>2e9fb10e-8049-438b-9129-8a1b24517ea9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'billingLastname' and @value = 'Jacinta']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billingLastname</value>
+      <webElementGuid>ff4383f5-ffbc-439b-b5fa-9f275b3a84df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Jacinta</value>
+      <webElementGuid>39aa7d01-453c-42c4-bb8a-b5837072e610</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

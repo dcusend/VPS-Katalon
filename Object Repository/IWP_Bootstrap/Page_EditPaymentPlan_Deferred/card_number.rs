@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_number</name>
+   <tag></tag>
+   <elementGuidId>deb7a800-9e61-4843-b540-7e4e43260830</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'cardNumberShow' and @value = '37************1003']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cardNumberShow</value>
+      <webElementGuid>545ad89b-edc1-4228-be99-1cff360194ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>37************1003</value>
+      <webElementGuid>b912afb9-110c-4efa-a675-f7eebd36e6d3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

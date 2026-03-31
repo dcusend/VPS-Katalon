@@ -228,7 +228,6 @@ public class achCorporatePaymentEntryPage {
 			//			}
 
 
-
 			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHCorporatePaymentEntry/txt_Amount'),30)) {
 			if ((!Amount.isEmpty())) {
 				WebUI.setText(findTestObject('Object Repository/IWP30/Page_ACHCorporatePaymentEntry/txt_Amount'),Amount)
@@ -431,6 +430,7 @@ public class achCorporatePaymentEntryPage {
 			}
 
 
+			WebUI.delay(5)
 
 			// Select the Continue button
 			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHCorporatePaymentEntry/btn_Continue'),30)) {

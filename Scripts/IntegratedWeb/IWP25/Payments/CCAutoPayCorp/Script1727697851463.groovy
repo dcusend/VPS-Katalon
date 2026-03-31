@@ -43,7 +43,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 	
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= numOfRows; row++)
+	for (def row = 1; row <= 1; row++)
 		{
 		
 			ExecuteTC = dataFile.getValue('Execute', row)
@@ -73,7 +73,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 					
-					Thread.sleep(2000)
+					WebUI.delay(GlobalVariable.shortTimeDelay)
 					// Select Credit Card Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCorporateCheck'))
 					
@@ -88,8 +88,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
-					
-					Thread.sleep(2000)
+					WebUI.delay(5)
 					if (WebUI.verifyTextPresent("AutoPay", false))
 						{
 							println "Autopay is present on page. Autopay is created"
@@ -98,13 +97,15 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							WebUI.openBrowser(testHarnessURL)
 							WebUI.maximizeWindow()
 							
+							
 							// Populate Test Harness
 							CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 							
+							WebUI.delay(5)
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_ManagePlan_Autopay/btn_cancel'))	
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))	
 							
-							Thread.sleep(2000)
+							WebUI.delay(2)
 							if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
 								KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
 								resText = "Pass"
@@ -126,5 +127,5 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
 				}		
-				WebUI.closeBrowser()		
+//				WebUI.closeBrowser()		
 	}

@@ -120,6 +120,7 @@ for (def row = 1; row <= numOfRows; row++)
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
 					
+						WebUI.delay(3)
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 						
 							if (isRequiredTextPresent == true)
@@ -130,20 +131,21 @@ for (def row = 1; row <= numOfRows; row++)
 									WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ViewParcel/button_close'))
 									
 									// Select Customer CC Terms Checkbox
+									WebUI.delay(2)
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
 									
-									
+									WebUI.delay(3)
 									// Select Continue Button
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectButtonContinue'()
 									
-									
+									WebUI.delay(3)
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
 										if(isRequiredTextPresent == true) {
 											// Select Confirm Button on Payment Confirmation Page
 											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 											
-											Thread.sleep(2000)
+											WebUI.delay(3)
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 											
@@ -157,7 +159,7 @@ for (def row = 1; row <= numOfRows; row++)
 										
 									if(isRequiredTextPresent == true) 
 										{
-											if (WebUI.verifyTextPresent("AutoPay", false))
+											if (WebUI.verifyTextPresent("Auto Pay", false))
 												{
 													WebUI.openBrowser(testHarnessURL)
 													WebUI.maximizeWindow()
@@ -169,6 +171,7 @@ for (def row = 1; row <= numOfRows; row++)
 												WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_modify'))
 												WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_EditPaymentPlan_Autopay/btn_savechanges'))
 												
+												WebUI.delay(5)
 												if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 													Thread.sleep(1000)
 													WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))

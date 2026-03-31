@@ -71,7 +71,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
-					Thread.sleep(2000)
+					WebUI.delay(2)
 					
 					// Select Personal Check Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard'))
@@ -82,14 +82,14 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					// Set Data on Credit Payment Entry page
 					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
-					Thread.sleep(2000)
+					WebUI.delay(2)
 					// Select Continue on Confirm page
 //					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
-					Thread.sleep(2000)
-					if (WebUI.verifyTextPresent("AutoPay", false))
+					WebUI.delay(10)
+					if (WebUI.verifyTextPresent("Auto Pay", false))
 						{
 							WebUI.openBrowser(testHarnessURL)
 							WebUI.maximizeWindow()
@@ -97,16 +97,17 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							// Populate Test Harness
 							CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 							
+							WebUI.delay(5)
 							//Click on Cancel Payment Button
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_ManagePlan_Autopay/btn_modify'))	
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_Modify/btn_savechanges'))
 							
-							Thread.sleep(2000)
+							WebUI.delay(2)
 							if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_ManagePlan_Autopay/btn_cancel'))
 								WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))
 								
-								Thread.sleep(2000)
+								WebUI.delay(2)
 								
 								if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
 									KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
@@ -126,7 +127,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 						}
 					else
 						{
-							KeywordUtil.markFailed("Deferred is not present on page")
+							KeywordUtil.markFailed("Autopay is not present on page")
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}

@@ -58,6 +58,7 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.setDataCCDate(ccDate)
 		this.selectCheckboxStoredPaymentMethod()
 		this.selectCheckboxACHTANDC()
+		WebUI.delay(5)
 		this.ntinueButton()
 	}
 

@@ -6,16 +6,16 @@
    <elementGuidId>b7417d39-21b6-4023-bae9-54fa3afd0b1c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Velocity Payment System Version 2025-1 - Copyright © 2025 Govolution, LLC.' or . = 'Velocity Payment System Version 2025-1 - Copyright © 2025 Govolution, LLC.')]</value>
+         <value>//*[(text() = 'Velocity Payment System Version 2026-1 - Copyright © 2026 Govolution, LLC.' or . = 'Velocity Payment System Version 2026-1 - Copyright © 2026 Govolution, LLC.')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='footer']/p</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>59b37ded-774f-437e-a17e-e170d93ad5a1</webElementGuid>
+      <webElementGuid>095703b7-0fe5-4812-a0fe-cf70e68cc0f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Velocity Payment System Version 2025-1 - Copyright © 2025 Govolution, LLC.</value>
-      <webElementGuid>a29c8d5c-e4f7-4c5f-86d0-f1ac452490be</webElementGuid>
+      <value>Velocity Payment System Version 2026-1 - Copyright © 2026 Govolution, LLC.</value>
+      <webElementGuid>b800befd-01a0-4cf1-bf06-868597815d58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;footer&quot;)/p[1]</value>
-      <webElementGuid>3921f6b4-06e8-4e5c-9683-639fd672dd88</webElementGuid>
+      <webElementGuid>5a4245e0-41fc-4fe8-b500-cbfc4a5fd3e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='footer']/p</value>
-      <webElementGuid>0ca3d153-81c7-48c1-b018-afb10b0be6ab</webElementGuid>
+      <webElementGuid>a03dac98-31e6-4772-a7b1-c7ba8f2706ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Access IVR Call Metrics'])[1]/following::p[1]</value>
-      <webElementGuid>ba0b24a2-a8fb-4787-8dc4-1c68add1e161</webElementGuid>
+      <webElementGuid>dff17bbb-5608-4d3d-a4cd-41f11ca60dc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IVR Call Metrics'])[2]/following::p[1]</value>
-      <webElementGuid>15e28829-43f3-4146-a248-dda008453b6c</webElementGuid>
+      <webElementGuid>658c8fa8-2f2a-4b31-b59b-087916849eb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Print'])[1]/preceding::p[1]</value>
-      <webElementGuid>14e96832-32bb-44e9-b6b7-3dfc3f12dcc8</webElementGuid>
+      <webElementGuid>c5764b74-1272-43f4-968e-660495f73c16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::p[1]</value>
-      <webElementGuid>5162c14b-05e6-4ccb-9c50-61425bfb6d4f</webElementGuid>
+      <webElementGuid>9aedeec1-8c79-4b5a-94d7-d321ef8827b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC.']/parent::*</value>
-      <webElementGuid>7249c99e-87e3-433e-b2f9-28fe64822a33</webElementGuid>
+      <webElementGuid>c7f5a2cf-c465-4dc9-bd81-6e4b7822b9f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>649415b0-70f2-4f5e-b5c7-967b98eb56a7</webElementGuid>
+      <webElementGuid>ca1c9743-c91f-41f2-a621-fd7f1cad1d18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC.' or . = 'Velocity Payment System Version 2024-1 - Copyright © 2024 Govolution, LLC.')]</value>
-      <webElementGuid>b75bfd80-803d-41a1-b7e2-da63947cc631</webElementGuid>
+      <webElementGuid>7c23052c-d260-4481-8db8-468997425810</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

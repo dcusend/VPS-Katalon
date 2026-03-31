@@ -70,21 +70,21 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethod'(row,dataFile)
 					
-					
+					WebUI.delay(5)
 					// Select Credit Card Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByCreditCard'))
 					
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
-					
+					WebUI.delay(5)
 					// Set Data on Credit Card Payment Entry page
 					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
 					
 					// Select Continue on Confirm page
 
 					
-					
+					WebUI.delay(5)
 //					Thread.sleep(5000)
 						if(WebUI.verifyTextPresent("Make a Real Estate Payment", false)) {
 							isRequiredTextPresent = true

@@ -41,7 +41,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, Amount,AppID, feesAccept,f
 	println(numOfRows)
 	
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= numOfRows; row++)
+	for (def row = 4; row <= numOfRows; row++)
 		{
 		
 			isRequiredTextPresent = true

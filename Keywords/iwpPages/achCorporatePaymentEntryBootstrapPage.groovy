@@ -57,6 +57,8 @@ public class achCorporatePaymentEntryBootstrapPage {
 		this.selectCheckboxStoredPaymentMethod()
 		this.selectCheckboxACHTANDC()
 		this.selectContinueButton()
+		WebUI.delay(GlobalVariable.shortTimeDelay)
+		
 	}
 
 

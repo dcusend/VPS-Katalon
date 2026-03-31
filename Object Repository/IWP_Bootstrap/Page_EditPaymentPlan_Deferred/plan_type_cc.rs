@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plan_type_cc</name>
+   <tag></tag>
+   <elementGuidId>79d6d809-c769-4eab-9e96-6114157d1904</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'plantype' and @value = 'Deferred']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>planTypeShow</value>
+      <webElementGuid>a841d982-4ed2-4663-9ee1-6390aa8bc4f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Deferred</value>
+      <webElementGuid>ef6e9b6d-d380-4455-a6ff-721c6db9a2d2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

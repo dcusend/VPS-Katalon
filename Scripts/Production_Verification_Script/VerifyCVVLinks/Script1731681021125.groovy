@@ -33,7 +33,7 @@ String path_CVV = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap/CVV/
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_User Management'))
-Thread.sleep(4000)
+WebUI.delay(5)
 WebUI.click(findTestObject(path_Dashboard + 'a_CVV Policy'))
 
 WebUI.verifyElementVisible(findTestObject(path_CVV + 'h1_CVV Policy Management'))

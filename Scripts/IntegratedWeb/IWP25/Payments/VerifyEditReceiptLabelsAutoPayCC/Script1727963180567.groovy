@@ -90,7 +90,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					
 					
 					Thread.sleep(4000)
-					if (WebUI.verifyTextPresent("AutoPay", false))
+					if (WebUI.verifyTextPresent("Auto Pay", false))
 						{
 								
 							WebUI.openBrowser(testHarnessURL)

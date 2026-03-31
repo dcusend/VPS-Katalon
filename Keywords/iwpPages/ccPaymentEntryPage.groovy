@@ -753,6 +753,7 @@ public class ccPaymentEntryPage {
 			}
 
 
+			WebUI.delay(5)
 
 			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ContinueButton'),30)) {
 				WebUI.click(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ContinueButton'))

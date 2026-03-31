@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ModifyPaymentsCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6425faf-c5ed-4a36-9f25-edf2b5ceea4d</testCaseGuid>
+</TestCaseEntity>

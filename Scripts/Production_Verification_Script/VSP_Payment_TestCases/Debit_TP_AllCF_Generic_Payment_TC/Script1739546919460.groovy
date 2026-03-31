@@ -64,7 +64,7 @@ String fileLoc = "KatalonData\\Bootstrap\\VSP-Payments-Data-Prod.xlsx"
 
 
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= 9; row++)
+	for (def row = 1; row <= numOfRows; row++)
 		{
 		
 			if(executionProfile == 'Production' || executionProfile == 'Upgrade') {		

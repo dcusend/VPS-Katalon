@@ -81,7 +81,6 @@ println ("Number of Rows : " + numOfRows)
 				// setData for CC Payment Entry Page
 					CustomKeywords.'bwpPagesBootstrap.ccPaymentEntryBootstrapPage.setDataCCMain'(NameID, CardID, EmailPhoneID, AddressID, Amount, UDFID, AppID)
 				
-							
 					if (WebUI.verifyTextPresent("Invalid card expiration date", false))
 						{
 							println "Card Expiration Error message shown"

@@ -48,6 +48,7 @@ public class editSchedulePayment {
 		SPC = dataFileM.getValue('SPC', rowM)
 
 		CCDate = dataFileM.getValue('CCDate', rowM)
+		
 	}
 
 	@Keyword

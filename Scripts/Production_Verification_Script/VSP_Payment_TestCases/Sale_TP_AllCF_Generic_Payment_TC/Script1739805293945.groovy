@@ -68,7 +68,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 
 
 	// For each row in the spreadsheet, execute the given steps
-	for (def row = 1; row <= 1; row++)
+	for (def row = 1; row <= numOfRows; row++)
 		{
 		
 			if(executionProfile == 'Production' || executionProfile == 'Upgrade') {		
