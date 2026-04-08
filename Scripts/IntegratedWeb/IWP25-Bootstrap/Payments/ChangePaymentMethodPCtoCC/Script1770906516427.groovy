@@ -159,6 +159,17 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.delay(GlobalVariable.shortTimeDelay)
 					WebUI.verifyTextPresent(("Successful Payment Receipt"), true)
 
+					if (WebUI.verifyTextPresent("Successful Payment Receipt", false)) {
+						KeywordUtil.markPassed("Your payment plan has been successfully changed from PC to CC")
+						resText = "Pass"
+						println row
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					}
+					else {
+						KeywordUtil.markFailed("Your payment plan has not been changed from PC to CC")
+						resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					}
 					WebUI.closeBrowser()
 					
 			}

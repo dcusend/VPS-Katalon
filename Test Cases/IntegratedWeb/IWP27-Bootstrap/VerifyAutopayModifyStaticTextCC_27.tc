@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAutopayModifyStaticTextCC_27</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50e6aadd-9e5a-4a35-b581-6d89bc1719d9</testCaseGuid>
+</TestCaseEntity>

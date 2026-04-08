@@ -158,6 +158,18 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.verifyTextPresent(("Debit"), true)
 					WebUI.verifyTextPresent(("Corporate Checking"), true)
 					
+					
+					if (WebUI.verifyTextPresent("Corporate Checking", false)) {
+						KeywordUtil.markPassed("Your payment plan has been successfully changed from CC to Corp")
+						resText = "Pass"
+						println row
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					}
+					else {
+						KeywordUtil.markFailed("Your payment plan has not been changed from CC to Corp")
+						resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					}
 					WebUI.closeBrowser()
 					
 			}

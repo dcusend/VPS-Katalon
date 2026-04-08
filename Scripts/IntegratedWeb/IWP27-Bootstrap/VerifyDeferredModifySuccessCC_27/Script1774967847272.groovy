@@ -24,14 +24,14 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/IWPBootstrapData/VRelayPaymentsCC.xlsx"
+String fileLoc = "KatalonData/IWPBootstrapData/VRelayPaymentsCC_27.xlsx"
 
 def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
 def CardID, CalDate, AddressID, EmailPhoneID, Notes
 
 String path = fileLoc
-nameSheet = "CCDeferredCC"
+nameSheet = "ModifySuccessDeferredCC"
 dataFileEmulator = "IWPTestData/EmulatorData"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
 

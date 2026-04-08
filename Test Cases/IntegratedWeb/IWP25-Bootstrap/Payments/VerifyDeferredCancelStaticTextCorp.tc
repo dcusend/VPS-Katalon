@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDeferredCancelStaticTextCorp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3f54793-09c2-499c-98f0-29d7cef3d05d</testCaseGuid>
+</TestCaseEntity>

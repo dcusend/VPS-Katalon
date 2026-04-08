@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VerifyDeferredEditSuccessCC</name>
+   <name>VerifyDeferredCancelSuccessPC</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>45ca132d-40e7-4b07-8ef3-2685e52e13c0</testCaseGuid>
+   <testCaseGuid>daf99975-398a-414e-83b3-1d30e99f78c3</testCaseGuid>
 </TestCaseEntity>

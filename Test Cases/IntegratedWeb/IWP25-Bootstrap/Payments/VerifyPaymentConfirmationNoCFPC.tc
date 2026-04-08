@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyPaymentConfirmationNoCFPC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a21bd425-1696-40f3-9177-42a89d4ace1b</testCaseGuid>
+</TestCaseEntity>

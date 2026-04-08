@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangePaymentMethodCCtoPC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bde0530e-d557-4d38-8c4b-fa8009671896</testCaseGuid>
+</TestCaseEntity>

@@ -58,7 +58,6 @@ public class achCorporatePaymentEntryBootstrapPage {
 		this.selectCheckboxACHTANDC()
 		this.selectContinueButton()
 		WebUI.delay(GlobalVariable.shortTimeDelay)
-		
 	}
 
 
@@ -130,6 +129,7 @@ public class achCorporatePaymentEntryBootstrapPage {
 
 			WebUI.setText(findTestObject(pathOR+'input_EIN'),EIN)
 		}
+		WebUI.delay(GlobalVariable.shortTimeDelay)
 	}
 
 	@Keyword
