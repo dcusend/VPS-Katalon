@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Filter</name>
+   <name>Resend</name>
    <tag></tag>
-   <elementGuidId>2ff7a428-1046-4bdf-b626-d85014299418</elementGuidId>
+   <elementGuidId>ea03e546-4752-46a6-94a3-8bdf5e16d35d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @class = 'btn btn-custom']</value>
+         <value>//*[@class = 'btn btn-info btn-sm action-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,25 +16,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>4771abf1-7370-40cc-bc6c-3687b515a73f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-custom</value>
-      <webElementGuid>64d3bfd2-5d9d-490b-8073-2990afcadf75</webElementGuid>
+      <value>btn btn-info btn-sm action-btn</value>
+      <webElementGuid>cf46e9d8-265d-43b5-abd6-78c340749b6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;filterForm&quot;]/div/div[2]/button</value>
-      <webElementGuid>a142cd5b-8ced-42fc-bb5f-61c27f5b5cb4</webElementGuid>
+      <value>//*[@id=&quot;resultsTable&quot;]/tbody/tr[3]/td[8]/button[2]</value>
+      <webElementGuid>1b455408-1c44-416a-a4ed-02cc0077418b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -19,7 +19,7 @@
       <name>name</name>
       <type>Main</type>
       <value>startDate</value>
-      <webElementGuid>19fcc45a-4bc3-42f0-b4f7-f0a1180208fb</webElementGuid>
+      <webElementGuid>9699873f-b055-477f-8e45-31c39787b16d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,14 @@
       <name>id</name>
       <type>Main</type>
       <value>startDate</value>
-      <webElementGuid>a307a03a-175c-4404-8d0e-7041e47998d5</webElementGuid>
+      <webElementGuid>8ba39733-68f5-43fe-866f-0116691c942f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>3279e0ca-963b-4fc4-9061-0e2d9f99449b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

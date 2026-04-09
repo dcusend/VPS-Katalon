@@ -7,19 +7,19 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' Manage Email or Text to Pay' or . = ' Manage Email or Text to Pay')]</value>
+         <value>/html/body/aside/ul/li[8]/ul/li[2]/a[count(. | //*[@class = 'treeview-item ']) = count(//*[@class = 'treeview-item '])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Manage Email or Text to Pay</value>
-      <webElementGuid>48a12775-1637-47e4-8d43-febe3b770b48</webElementGuid>
+      <webElementGuid>bb4dff3b-6dd7-42a3-8970-42d212cf99a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,6 +27,22 @@
       <name>href</name>
       <type>Main</type>
       <value>/admin/deep/bootstrap/vadministrator/notifications/managePayNotification/index.do</value>
-      <webElementGuid>0e30114d-0a8e-4261-8b89-e357d68d1199</webElementGuid>
+      <webElementGuid>54a7b570-9d87-4685-a44f-8d0e48f8a454</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>treeview-item </value>
+      <webElementGuid>2a3ee542-08dd-462a-ae04-8a979c12985b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/aside/ul/li[8]/ul/li[2]/a</value>
+      <webElementGuid>b08fcc30-21e6-4bfc-a79f-c4eb2e13b8e1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
