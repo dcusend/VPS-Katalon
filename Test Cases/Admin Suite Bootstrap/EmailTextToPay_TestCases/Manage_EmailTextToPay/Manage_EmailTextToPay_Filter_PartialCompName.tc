@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Manage_EmailTextToPay_Resend</name>
+   <name>Manage_EmailTextToPay_Filter_PartialCompName</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>625fcc59-3720-446d-ba2e-239c86e6cf17</testCaseGuid>
+   <testCaseGuid>40a017b0-9346-4fa6-8e86-1b0e84e27803</testCaseGuid>
 </TestCaseEntity>

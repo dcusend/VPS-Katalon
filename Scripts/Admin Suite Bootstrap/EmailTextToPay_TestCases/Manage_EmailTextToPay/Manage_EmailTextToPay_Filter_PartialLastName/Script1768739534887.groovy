@@ -32,7 +32,7 @@ def deepAdminSuiteURL, deepUsername, deepPassword
 
 def M_PaymentApp, M_CAN, M_Amount, M_FirstName, M_LastName, M_Email, M_Phone, M_CompanyName, M_AddressLine1, M_AddressLine2, 
 	 	M_City, M_State, M_ZipCode, M_UDF1,M_UDF2,M_UDF3,M_UDF4,M_UDF5,M_UDF6,M_UDF7,M_UDF8,M_UDF9,M_UDF10,
-		 M_PaymentId, M_FilterText
+		 M_PaymentId, M_FilterText, partialFirstName, partialLastName, partialCompName
 
 def fileLoc, numOfRows, dataFile, nameSheet, isRequiredTextPresent = false
 
@@ -128,16 +128,19 @@ for (def row = 1; row <= numOfRows; row++)
 				M_Amount = df.format(amount)
 				println(M_Amount)
 				
-				 M_FirstName = RandomStringUtils.randomAlphabetic(10)
-				 println(M_FirstName)
-				 
-				 M_LastName = RandomStringUtils.randomAlphabetic(10)
-				 println(M_LastName)
+				M_FirstName = RandomStringUtils.randomAlphabetic(10)
+				println(M_FirstName)
+		
+				M_LastName = RandomStringUtils.randomAlphabetic(10)	
+				println(M_LastName)
+				// Get first 5 characters
+				partialLastName = M_LastName.substring(0, 5)
+				println(partialLastName)
 				 
 				 M_Email = dataFile.getValue("Email", row)	
 				 M_Phone = dataFile.getValue("Phone", row)
 				 
-				 M_CompanyName = RandomStringUtils.randomAlphabetic(10)
+				 M_CompanyName = RandomStringUtils.randomAlphabetic(10)		
 				 println(M_CompanyName)
 				 
 				 M_AddressLine1 = dataFile.getValue("AddressLine1", row)
@@ -216,7 +219,7 @@ switch(executionProfile)
 	case "QAProfile":
 		
 	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx"
-	nameSheet = "ManageEmailTextFilter_FirstName"
+	nameSheet = "ManageEmailTxtFilter_ParLastNam"
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx", nameSheet, true)
 	
 	break
@@ -224,7 +227,7 @@ switch(executionProfile)
 	case "QA2Profile":
 		
 	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx'
-	nameSheet = 'ManageEmailTextFilter_FirstName'
+	nameSheet = 'ManageEmailTxtFilter_ParLastNam'
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx', nameSheet, true)
 		
 	break
@@ -232,7 +235,7 @@ switch(executionProfile)
 	case "DemoProfile":
 		
 	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Demo_2.xlsx'
-	nameSheet = 'ManageEmailTextFilter_FirstName'
+	nameSheet = 'ManageEmailTxtFilter_ParLastNam'
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Demo_2.xlsx', nameSheet, true)
 	
 	break
@@ -240,7 +243,7 @@ switch(executionProfile)
 	case "Production":
 		
 	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Prod_2.xlsx'
-	nameSheet = 'ManageEmailTextFilter_FirstName'
+	nameSheet = 'ManageEmailTxtFilter_ParLastNam'
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Prod_2.xlsx', nameSheet, true)
 
 	break
@@ -278,8 +281,8 @@ WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoar
 //Search Results
 CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.SearchResults'(M_PaymentId)
 
-//Filter (First Name)
-CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(M_FirstName)  //T_Filtertext is M_FirstName here
+//Filter (partialLastName)
+CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(partialLastName)  //T_Filtertext is partialLastName here
 		
 	
 //verifying dates
@@ -291,7 +294,7 @@ CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.DatesVerification'()
 if (
     WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false) &&
 	
-	WebUI.verifyTextPresent(M_FirstName, false) &&
+	WebUI.verifyTextPresent(partialLastName, false) &&
     WebUI.verifyTextPresent(M_LastName, false) 	&&
     WebUI.verifyTextPresent(M_CompanyName, false) && 
 	
@@ -309,7 +312,7 @@ if (
 	
     isRequiredTextPresent = true
     println(isRequiredTextPresent)
-	println("First Name: ${M_FirstName}, Last Name: ${M_LastName}, Company Name: ${M_CompanyName}, Account Number: ${M_CAN}, Bill Amount: ${"\$${M_Amount}"}")  }
+	println("First Name: ${partialLastName}, Last Name: ${M_LastName}, Company Name: ${M_CompanyName}, Account Number: ${M_CAN}, Bill Amount: ${"\$${M_Amount}"}")  }
 
 else {
     isRequiredTextPresent = false

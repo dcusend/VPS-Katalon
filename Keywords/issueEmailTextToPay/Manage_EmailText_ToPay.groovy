@@ -5,7 +5,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
+import java.text.SimpleDateFormat
+import java.util.Calendar
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -26,7 +27,9 @@ public class Manage_EmailText_ToPay {
 
 	String T_PaymentApp, T_CAN, T_Amount, T_FirstName, T_LastName, T_Email, T_Phone, T_CompanyName, T_AddressLine1, T_AddressLine2,
 	T_City, T_State, T_ZipCode, T_UDF1,T_UDF2,T_UDF3,T_UDF4,T_UDF5,T_UDF6,T_UDF7,T_UDF8,T_UDF9,T_UDF10,
-	T_PaymentId, T_FilterText
+	T_PaymentId, T_FilterText 
+	
+	def partialFirstName, partialLastName, partialCompName
 
 //Part 1 Manual Entry page
 	
@@ -154,7 +157,7 @@ public class Manage_EmailText_ToPay {
 		
 		 WebUI.delay(1)
 		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/btn_Search'))
-}	
+	}	
 		
 
 	@Keyword
@@ -178,9 +181,41 @@ public class Manage_EmailText_ToPay {
 		WebUI.delay(1)
 		}
 	}
+
 	
-}	
-
-
-
-
+	
+	@Keyword
+  	def DatesVerification() {
+	  
+	  // Get current date and format it as MM/dd/yyyy (adjust the format if needed)
+	  SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy")
+	  Date currentDate = new Date()
+	  String currentDateStr = dateFormat.format(currentDate)
+	  
+	  // Get the date 3 days from now
+	  Calendar calendar = Calendar.getInstance()
+	  calendar.add(Calendar.DAY_OF_YEAR, 3)
+	  Date expiryDate = calendar.getTime()
+	  String expiryDateStr = dateFormat.format(expiryDate)
+	  
+	  // Get the Link Create Date and Link Expiry Date from the web page
+	  String linkCreateDate = WebUI.getText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/LinkCreateDate'))
+	  String linkExpiryDate = WebUI.getText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/LinkExpireDate'))
+	  
+	  // Validate Link Create Date is current date
+	  if (linkCreateDate == currentDateStr) {
+		  println("Link Create Date is correct: " + linkCreateDate)
+	  } else {
+		  println("Link Create Date is incorrect. Expected: " + currentDateStr + ", but got: " + linkCreateDate)
+	  }
+	  
+	  // Validate Link Expiry Date is current date + 3 days
+	  if (linkExpiryDate == expiryDateStr) {
+		  println("Link Expiry Date is correct: " + linkExpiryDate)
+	  } else {
+		  println("Link Expiry Date is incorrect. Expected: " + expiryDateStr + ", but got: " + linkExpiryDate)
+	  }
+	     
+	}
+  
+}

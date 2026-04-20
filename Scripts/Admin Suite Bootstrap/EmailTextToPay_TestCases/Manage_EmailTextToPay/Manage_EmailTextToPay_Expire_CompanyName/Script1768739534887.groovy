@@ -214,7 +214,7 @@ switch(executionProfile)
 	case "QAProfile":
 		
 	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx"
-	nameSheet = "ManageEmailTextResend"
+	nameSheet = "ManageEmailTextExpire_CompName"
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx", nameSheet, true)
 	
 	break
@@ -222,7 +222,7 @@ switch(executionProfile)
 	case "QA2Profile":
 		
 	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx'
-	nameSheet = 'ManageEmailTextResend'
+	nameSheet = 'ManageEmailTextExpire_CompName'
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx', nameSheet, true)
 		
 	break
@@ -230,7 +230,7 @@ switch(executionProfile)
 	case "DemoProfile":
 		
 	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Demo_2.xlsx'
-	nameSheet = 'ManageEmailTextResend'
+	nameSheet = 'ManageEmailTextExpire_CompName'
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Demo_2.xlsx', nameSheet, true)
 	
 	break
@@ -238,7 +238,7 @@ switch(executionProfile)
 	case "Production":
 		
 	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Prod_2.xlsx'
-	nameSheet = 'ManageEmailTextResend'
+	nameSheet = 'ManageEmailTextExpire_CompName'
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Prod_2.xlsx', nameSheet, true)
 
 	break
@@ -276,21 +276,21 @@ WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoar
 //Search Results
 CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.SearchResults'(M_PaymentId)
 
-//Filter (First Name)
-CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(M_FirstName)  //T_Filtertext is M_FirstName here
+//Filter (Company Name)
+CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(M_CompanyName)  
 			
 //verifying Filter results
 WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false)
 
-//click on 'Resend'
-WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Resend'))
+//click on 'Expire'
+WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Expire'))
 
 //Verify Pop up
-WebUI.waitForAlert(7)
+WebUI.waitForAlert(9)
 
 String popupText = WebUI.getAlertText()
 
-assert popupText.contains('Are you sure you want to resend the payment link')
+assert popupText.contains('Are you sure you want to expire the payment link for')
 
 WebUI.acceptAlert() 		//OK
 
@@ -299,35 +299,32 @@ WebUI.acceptAlert() 		//OK
 //Verify success message
 WebUI.delay(2)
 
-if (WebUI.verifyTextPresent("Payment link for", false) && WebUI.verifyTextPresent("has been resent successfully", false)) {
-println "Resend button worked"
+if (WebUI.verifyTextPresent("Payment link for", false) && WebUI.verifyTextPresent("has been expired successfully.", false)) {
+println "Expire button worked"
 }
 else {
-println "Resend button didn't work"
+println "Expire button didn't work"
 }
 
-//again applying Filter (First Name)
-CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(M_FirstName)  //T_Filtertext is M_FirstName here
+//again applying Filter (Company Name)
+CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(M_CompanyName)  
 
-//verify 'Status' as Active & 'Action' as Resend and Expire (enabled).
+//verify 'Status' as Expired & 'Action' as Copy(enabled).
 WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false)
 
 WebUI.verifyElementText(
-	findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Active'),'Active')
+	findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Expired'),'Expired')
 
-WebUI.verifyTextPresent('Resend', false)
-WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Resend'))
-
-WebUI.verifyTextPresent('Expire', false)
-WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Expire'))
+WebUI.verifyTextPresent('Copy', false)
+WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Copy'))
 
 
 //reporting in excel
 if (
     WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false) && 
-    WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Active'),'Active') &&
-    WebUI.verifyTextPresent('Resend', false) &&
-    WebUI.verifyTextPresent('Expire', false)) {
+    WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Expired'),'Expired') &&
+    WebUI.verifyTextPresent('Copy', false) &&
+	WebUI.verifyTextNotPresent('Active', false)){
 	
     isRequiredTextPresent = true
     println(isRequiredTextPresent) }

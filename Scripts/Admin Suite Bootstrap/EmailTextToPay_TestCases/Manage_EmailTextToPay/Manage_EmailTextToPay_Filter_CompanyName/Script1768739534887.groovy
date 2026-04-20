@@ -279,34 +279,41 @@ CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.SearchResults'(M_Paym
 //Filter (Company Name)
 CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(M_CompanyName)  //T_Filtertext is M_CompanyName here
 			
-//verifying Filter results
-WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false)
 
-//verifying 'Status' as Active & 'Action' as Resend and Expire (enabled).
-WebUI.verifyElementText(
-	findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Active'),'Active')
-
-WebUI.verifyTextPresent('Resend', false)
-WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Resend'))
-
-WebUI.verifyTextPresent('Expire', false)
-WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Expire'))
+//verifying dates
+CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.DatesVerification'()
 
 
-//reporting in excel
+//verifying Search Results and message (reporting in excel)
+
 if (
-    WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false) &&
-    WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Active'),'Active') &&
-    WebUI.verifyTextPresent('Resend', false) &&
-    WebUI.verifyTextPresent('Expire', false)) {
+	WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false) &&
 	
-    isRequiredTextPresent = true
-    println(isRequiredTextPresent) }
+	WebUI.verifyTextPresent(M_FirstName, false) &&
+	WebUI.verifyTextPresent(M_LastName, false) 	&&
+	WebUI.verifyTextPresent(M_CompanyName, false) &&
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/AccountNumber'), M_CAN) &&
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/User'), 'iahmed') &&
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillAmount'), "\$${M_Amount}") &&
+
+	WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Active'), 'Active') &&
+	WebUI.verifyTextPresent('Resend', false) &&
+	WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Resend')) &&
+	WebUI.verifyTextPresent('Expire', false) &&
+	WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Expire'))) {
+	
+	isRequiredTextPresent = true
+	println(isRequiredTextPresent)
+	println("First Name: ${M_FirstName}, Last Name: ${M_LastName}, Company Name: ${M_CompanyName}, Account Number: ${M_CAN}, Bill Amount: ${"\$${M_Amount}"}")  }
 
 else {
-    isRequiredTextPresent = false
+	isRequiredTextPresent = false
 	}
 
+	
 	
 	if (isRequiredTextPresent == true)
 			{
@@ -326,4 +333,3 @@ else {
 	
 	}
 }
-
