@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SearchBy_BilFileLookup_1Result</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>88c2393e-8c12-4adf-85a7-8145aff4b5cd</testCaseGuid>
+</TestCaseEntity>

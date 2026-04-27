@@ -5,7 +5,10 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
+import java.time.LocalDate
+import java.time.format.TextStyle
+import java.util.Locale
+import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -25,7 +28,7 @@ public class ManualEntry_Page {
 
 
 	String T_PaymentApp, T_CAN, T_Amount, T_FirstName, T_LastName, T_Email, T_Phone, T_CompanyName, T_AddressLine1, T_AddressLine2,
-	T_City, T_State, T_ZipCode, T_UDF1,T_UDF2,T_UDF3,T_UDF4,T_UDF5,T_UDF6,T_UDF7,T_UDF8,T_UDF9,T_UDF10
+	T_City, T_State, T_ZipCode, T_UDF1,T_UDF2,T_UDF3,T_UDF4,T_UDF5,T_UDF6,T_UDF7,T_UDF8,T_UDF9,T_UDF10,T_DueDate
 
 
 	@Keyword
@@ -68,7 +71,23 @@ public class ManualEntry_Page {
 		if (T_CompanyName != "") {
 			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_CompanyName'), T_CompanyName)
 		}
-
+			
+	//Due Date		
+		// Get current day
+		String day = LocalDate.now().getDayOfMonth().toString()
+		
+		// Open date picker
+		WebUI.waitForElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/DueDate'), 10)
+		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/DueDate'))
+		
+		// Create dynamic object for the day
+		TestObject dayObj = new TestObject().addProperty("xpath",ConditionType.EQUALS,
+			"//div[contains(@class,'datepicker')]//td[not(contains(@class,'old')) and not(contains(@class,'new')) and text()='" + day + "']" )	
+		
+		// Click the current date
+		WebUI.click(dayObj)
+		
+		
 		if (T_AddressLine1 != "") {
 			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_Address1'), T_AddressLine1)
 		}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DueDate</name>
+   <tag></tag>
+   <elementGuidId>eb054e05-de06-4a09-b7da-a2b9dc1a7a3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;dueDate&quot;][count(. | //*[@class = 'form-control' and @id = 'dueDate']) = count(//*[@class = 'form-control' and @id = 'dueDate'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>a62cfce9-97c4-4425-965a-5a97913a33e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;dueDate&quot;]</value>
+      <webElementGuid>e54846b9-a235-4b9a-a1dd-f4ffa72cdcb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dueDate</value>
+      <webElementGuid>540b8bd0-ad56-4399-80bc-cecdd3b104b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dueDate</value>
+      <webElementGuid>51010f4e-fbf7-472b-b97b-40cc63cc3828</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
