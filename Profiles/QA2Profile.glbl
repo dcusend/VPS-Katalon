@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!1111111'</initValue>
+      <initValue>'Hello!3333333'</initValue>
       <name>Password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -218,6 +218,34 @@
       <description></description>
       <initValue>'Hello!55555'</initValue>
       <name>abpDCFPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://qa.velocitypayment.com/VVTAPI/bootstrap/test-vvtapi-request.html'</initValue>
+      <name>IVTUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'561BF40199044AB078F5B243C5CE490D'</initValue>
+      <name>IVTUserName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Vampire'</initValue>
+      <name>IVTPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ashi'</initValue>
+      <name>IVTPartnerToken</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

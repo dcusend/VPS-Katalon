@@ -32,7 +32,7 @@ public class ManualEntry_Page {
 
 
 	@Keyword
-	def setDataManualEntry(T_PaymentApp, T_CAN, T_Amount, T_FirstName, T_LastName, T_Email, T_Phone, T_CompanyName, T_AddressLine1, T_AddressLine2,
+	def setDataManualEntry(T_PaymentApp, T_CAN, T_Amount, T_FirstName, T_LastName, T_Email, T_Phone, T_CompanyName, T_DueDate, T_AddressLine1, T_AddressLine2,
 			T_City, T_State, T_ZipCode, T_UDF1,T_UDF2,T_UDF3,T_UDF4,T_UDF5,T_UDF6,T_UDF7,T_UDF8,T_UDF9,T_UDF10) {
 
 
@@ -72,22 +72,29 @@ public class ManualEntry_Page {
 			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_CompanyName'), T_CompanyName)
 		}
 			
-	//Due Date		
-		// Get current day
-		String day = LocalDate.now().getDayOfMonth().toString()
 		
-		// Open date picker
-		WebUI.waitForElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/DueDate'), 10)
-		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/DueDate'))
+	//Due Date				
+		if (T_DueDate.equalsIgnoreCase("Y")) {      		//from excel sheet
+			
+			// Get current day
+			String day = LocalDate.now().getDayOfMonth().toString()
 		
-		// Create dynamic object for the day
-		TestObject dayObj = new TestObject().addProperty("xpath",ConditionType.EQUALS,
-			"//div[contains(@class,'datepicker')]//td[not(contains(@class,'old')) and not(contains(@class,'new')) and text()='" + day + "']" )	
+			// Open date picker
+			WebUI.waitForElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/DueDate'),10)
+			WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/DueDate'))
 		
-		// Click the current date
-		WebUI.click(dayObj)
+			// Create dynamic object for the day	
+			TestObject dayObj = new TestObject('currentDay')
+			dayObj.addProperty("xpath",ConditionType.EQUALS,"//div[contains(@class,'datepicker')]//td[not(contains(@class,'old')) and not(contains(@class,'new')) and text()='" + day + "']")
+							
+			// Click the current date
+			WebUI.click(dayObj)
 		
+		} else if (T_DueDate.equalsIgnoreCase("N")) {      //from excel sheet
+			WebUI.comment("DueDate flag is N – skipping date selection.")		
+		}
 		
+							
 		if (T_AddressLine1 != "") {
 			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_Address1'), T_AddressLine1)
 		}
@@ -111,17 +118,32 @@ public class ManualEntry_Page {
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/select_State'), T_State, false)
 		}
 
+	//this logic is made to work scorlling smoother on page
+	if (T_PaymentApp != "") {
 		if (T_UDF1 != "") {
 			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF1'), T_UDF1)
 		}
-
+		else
+		{
+			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF1'), '')
+		}
+			
 		if (T_UDF2 != "") {
 			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF2'), T_UDF2)
+		}
+		else
+		{
+			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF2'), '')
 		}
 
 		if (T_UDF3 != "") {
 			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF3'), T_UDF3)
 		}
+		else
+		{
+			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF3'), '')
+		}
+	}
 
 		//		if (T_UDF4 != "") {
 		//			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF4'), T_UDF4)

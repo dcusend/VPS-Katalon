@@ -148,7 +148,7 @@ CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(d
 // Select Issue Email or Text to Pay Link
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/Link_leftNav_IssueEmail_TaxtoPay'))
 
 //Validating all scnearios

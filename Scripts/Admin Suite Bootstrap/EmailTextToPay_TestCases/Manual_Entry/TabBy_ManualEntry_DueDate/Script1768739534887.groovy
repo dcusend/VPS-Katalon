@@ -189,7 +189,7 @@ if (WebUI.verifyTextPresent(expectedMsg, false)) {
 	
 	if (isRequiredTextPresent == true)
 		{
-			println "All the relevant texts are present on Receipt Page"
+			println "Payment Link Sent Successfully for Manual Entry with Client Account Number"
 			KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
 			resText = "Pass"
 			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
@@ -197,7 +197,7 @@ if (WebUI.verifyTextPresent(expectedMsg, false)) {
 		}
 	else
 		{
-			println "Some texts are missing on the Receipt page"
+			println "Payment Link is not Sent Successfully for Manual Entry with Client Account Number"
 			KeywordUtil.markFailed("Some texts are missing on the Receipt page")
 			resText = "Fail"
 			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)

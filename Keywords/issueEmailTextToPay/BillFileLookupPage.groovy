@@ -35,7 +35,8 @@ public class BillFileLookupPage {
 		if (PaymentApp != "") {
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/dd_PaymentApplication'), PaymentApp, false)
 		}
-
+		
+		WebUI.delay(2)
 		if (ClientAccNo != "") {
 
 			WebUI.setText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_CAN'), ClientAccNo)

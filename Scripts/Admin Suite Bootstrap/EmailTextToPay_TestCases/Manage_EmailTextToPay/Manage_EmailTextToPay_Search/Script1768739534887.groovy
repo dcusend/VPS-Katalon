@@ -287,7 +287,7 @@ else {
 
 	if (isRequiredTextPresent == true)
 		{
-			println "All the relevant texts are present on Receipt Page"
+			println "Text present: 'Search completed successfully'"
 			KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
 			resText = "Pass"
 			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
@@ -295,7 +295,7 @@ else {
 		}
 	else
 		{
-			println "Some texts are missing on the Receipt page"
+			println "Text not present: 'Search completed successfully'"
 			KeywordUtil.markFailed("Some texts are missing on the Receipt page")
 			resText = "Fail"
 			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)

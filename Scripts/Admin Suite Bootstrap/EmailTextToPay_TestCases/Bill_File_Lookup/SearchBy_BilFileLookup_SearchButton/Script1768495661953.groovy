@@ -147,6 +147,7 @@ CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(d
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
 
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/Link_leftNav_IssueEmail_TaxtoPay'))
 
 //Validating all scnearios
@@ -185,7 +186,7 @@ if (isRequiredTextPresent) {
 	
 	if (isRequiredTextPresent == true)
 		{
-			println "All the relevant texts are present on Receipt Page"
+			println "TC is Passed: Search button is disabled"
 			KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
 			resText = "Pass"
 			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
@@ -193,7 +194,7 @@ if (isRequiredTextPresent) {
 		}
 	else
 		{
-			println "Some texts are missing on the Receipt page"
+			println "TC is Failed: Search button is not disabled"
 			KeywordUtil.markFailed("Some texts are missing on the Receipt page")
 			resText = "Fail"
 			CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
