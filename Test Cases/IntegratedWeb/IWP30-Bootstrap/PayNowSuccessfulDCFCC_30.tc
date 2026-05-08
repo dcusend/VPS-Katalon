@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PayNowSuccessfulDCFCC_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23022aff-b2ca-4bfc-94eb-f5f519ad0258</testCaseGuid>
+</TestCaseEntity>

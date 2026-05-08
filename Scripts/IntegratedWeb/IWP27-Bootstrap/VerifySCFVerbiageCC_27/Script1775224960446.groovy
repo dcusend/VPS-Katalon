@@ -120,6 +120,8 @@ for (def row = 1; row <= numOfRows; row++)
 				 * CustomKeywords.'iwpPages.ConvenienceFeesBootstrapPage.
 				 * selectAcceptFeeAndProcessPayment'()
 				 */
+				WebUI.delay(GlobalVariable.shortTimeDelay)
+				
 				if (WebUI.verifyTextPresent(("Convenience Fees Acceptance"), false)) {
 					
 					if (WebUI.verifyTextPresent(("This transaction is subject to a Convenience Fees of \$2.00"), false)) {

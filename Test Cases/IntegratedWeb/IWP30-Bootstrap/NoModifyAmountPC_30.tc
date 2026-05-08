@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NoModifyAmountPC_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27b8830c-6e34-4358-b4f8-f76d0b95dee5</testCaseGuid>
+</TestCaseEntity>

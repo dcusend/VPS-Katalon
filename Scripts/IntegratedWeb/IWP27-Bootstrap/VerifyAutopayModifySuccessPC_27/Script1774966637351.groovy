@@ -131,6 +131,8 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 					
+					WebUI.delay(GlobalVariable.shortTimeDelay)
+					
 					WebUI.verifyTextPresent(('Manage Payment Plan'), false)
 					
 					WebUI.verifyTextPresent(('Payment Information'), false)

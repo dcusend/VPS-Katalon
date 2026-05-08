@@ -112,6 +112,8 @@ for (def row = 1; row <= numOfRows; row++)
 			// Select Confirm Button on Payment Confirmation Page
 			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 			
+			WebUI.delay(GlobalVariable.shortTimeDelay)
+			
 			if (WebUI.verifyTextPresent(("Convenience Fees Acceptance"), false)) {
 					
 					if (WebUI.verifyTextPresent(("This transaction is subject to a Convenience Fees of \$2.00"), false)) {

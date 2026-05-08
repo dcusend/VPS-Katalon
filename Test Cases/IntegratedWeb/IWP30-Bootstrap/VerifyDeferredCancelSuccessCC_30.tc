@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDeferredCancelSuccessCC_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b7f482b-f994-42ba-b18f-18e4cf8338ef</testCaseGuid>
+</TestCaseEntity>

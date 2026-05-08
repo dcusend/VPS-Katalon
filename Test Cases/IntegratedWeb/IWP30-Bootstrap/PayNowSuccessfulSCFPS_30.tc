@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PayNowSuccessfulSCFPS_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39a33b0d-7a74-4e57-8d46-bee3fc9c568e</testCaseGuid>
+</TestCaseEntity>

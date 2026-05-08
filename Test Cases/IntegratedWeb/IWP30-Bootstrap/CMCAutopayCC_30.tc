@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CMCAutopayCC_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ef28491-0ed2-4b9f-9cd7-ff9ac5a47d4f</testCaseGuid>
+</TestCaseEntity>

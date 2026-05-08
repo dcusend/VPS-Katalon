@@ -4,5 +4,6 @@
    <name>AmountLessThanMinCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8439ee9d-9f08-408e-a4df-06b3213e4713</testCaseGuid>
 </TestCaseEntity>

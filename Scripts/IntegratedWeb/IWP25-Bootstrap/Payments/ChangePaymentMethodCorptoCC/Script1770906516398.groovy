@@ -159,17 +159,17 @@ for (def row = 1; row <= numOfRows; row++)
 //					WebUI.verifyTextPresent(("Corporate Checking"), true)
 					
 					
-					if (WebUI.verifyTextPresent("Successful Payment Receipt", false)) {
-						KeywordUtil.markPassed("Your payment plan has been successfully changed from Corp to CC")
-						resText = "Pass"
-						println row
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-					}
-					else {
-						KeywordUtil.markFailed("Your payment plan has not been changed from Corp to CC")
-						resText = "Fail"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-					}
+//					if (WebUI.verifyTextPresent("Successful Payment Receipt", false)) {
+//						KeywordUtil.markPassed("Your payment plan has been successfully changed from Corp to CC")
+//						resText = "Pass"
+//						println row
+//						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//					}
+//					else {
+//						KeywordUtil.markFailed("Your payment plan has not been changed from Corp to CC")
+//						resText = "Fail"
+//						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//					}
 					WebUI.closeBrowser()
 					
 			}

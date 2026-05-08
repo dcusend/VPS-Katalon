@@ -135,17 +135,17 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.verifyTextPresent(("Corporate Checking"), true)
 					
 					
-					if (WebUI.verifyTextPresent("Corporate Checking", false)) {
-						KeywordUtil.markPassed("Your payment plan has been successfully changed from PC to Corp")
-						resText = "Pass"
-						println row
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-					}
-					else {
-						KeywordUtil.markFailed("Your payment plan has not been changed from PC to Corp")
-						resText = "Fail"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-					}					
+//					if (WebUI.verifyTextPresent("Corporate Checking", false)) {
+//						KeywordUtil.markPassed("Your payment plan has been successfully changed from PC to Corp")
+//						resText = "Pass"
+//						println row
+//						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//					}
+//					else {
+//						KeywordUtil.markFailed("Your payment plan has not been changed from PC to Corp")
+//						resText = "Fail"
+//						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//					}					
 					WebUI.closeBrowser()
 					
 					

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDeferredModifyStaticTextCorp_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a58af07a-46f1-446e-b6e8-6091cf7118f4</testCaseGuid>
+</TestCaseEntity>

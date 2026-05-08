@@ -8,18 +8,16 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testdata.reader.ExcelFactory
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testdata.reader.ExcelFactory
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-
-
 
 String resText = "Fail"
 String resColumn = "Result"
@@ -31,7 +29,7 @@ def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
 def CardID, CalDate, AddressID, EmailPhoneID, Notes
 
 String path = fileLoc
-nameSheet = "CCDeferredCC"
+nameSheet = "DCFCCVerbiage"
 dataFileEmulator = "IWPTestData/EmulatorData"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
 
@@ -89,7 +87,8 @@ for (def row = 1; row <= numOfRows; row++)
 			// Select Make a Payment Button
 				CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
 
-			
+				WebUI.delay(GlobalVariable.shortTimeDelay)
+				
 			// setData for Cardholder Name
 				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardName'(NameID)
 			
@@ -101,8 +100,6 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			// setData for Email and Phone Number
 				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardEmailAndPhone'(EmailPhoneID)
-				
-				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCCDate'(CalDate)
 				
 			// setData for Amount
 				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataAmount'(Amount)
@@ -118,70 +115,107 @@ for (def row = 1; row <= numOfRows; row++)
 				
 			// Select Confirm Button on Payment Confirmation Page
 				CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
-				
-				Thread.sleep(2000)
-				if (WebUI.verifyTextPresent("Deferred", false))
-					{
-						println "Deferred is present on page. Deferred Pay is created"
+			
+				/*
+				 * //Select Accept Fee and Confirm Payment
+				 * CustomKeywords.'iwpPages.ConvenienceFeesBootstrapPage.
+				 * selectAcceptFeeAndProcessPayment'()
+				 */
+				if (WebUI.verifyTextPresent(("Convenience Fees Acceptance"), false)) {
 					
-						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_ViewScheduledPayments'))
-						
-						if (WebUI.verifyTextPresent("View Scheduled Payments", false)) {
-							WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ScheduledPayments_Bootstrap/a_Edit'))	
-								
-								// Set Data on Edit page
-								CustomKeywords.'iwpPages.editSchedulePaymentBootstrap.setDataSchedPayment'(CardID,UDFID,CalDate)
-								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/chkbox_acceptterms'))
-								WebUI.click(findTestObject('Object Repository/Page_EditSchedPayment/btn_update'))
-								Thread.sleep(GlobalVariable.shortDelay)
-								
-								def editmsgText = WebUI.getText(findTestObject('Object Repository/IWP_Bootstrap/Page_EditScheduledPayment/div_Your payment plan has been successfully modified'))
-								println(editmsgText)
-								if (editmsgText.contains("Your payment plan has been successfully modified")) {
-								WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
-								}
-								Thread.sleep(GlobalVariable.shortDelay)
-								WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ScheduledPayments_Bootstrap/a_Cancel'))
-								
-								/*if (WebUI.verifyTextPresent("Your payment plan has been successfully modified", false)) {						
-								WebUI.click(findTestObject('Object Repository/IWP30/Page_SuccesfulUpdate/btn_back'))
-								}
-								WebUI.click(findTestObject('Object Repository/IWP30/Page_ScheduledPayments/cancel_payment'))*/
-				
-						}
-						Thread.sleep(GlobalVariable.shortDelay)
-						if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) {
-							WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_CancelPaymentPlan/btn_CancelPlan'))
-							/*WebUI.acceptAlert()*/
-							WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ImportantOperation/input_OK'))
-						}
-						
-						def cancelmsgText = WebUI.getText(findTestObject('Object Repository/IWP_Bootstrap/Page_EditScheduledPayment/div_Your payment plan has been successfully modified'))
-						println(cancelmsgText)
-
-
-						if (cancelmsgText.contains("Your payment plan has been successfully canceled"))
-							{
-							KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
-							resText = "Pass"
-							println row
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					if (WebUI.verifyTextPresent(("This transaction is subject to a Convenience Fees of \$2.00"), false)) {
+						isRequiredTextPresent = true
+						println(isRequiredTextPresent)
+					}
+					else {
+						isRequiredTextPresent = false
+					}
+					if(isRequiredTextPresent) {
+						if(WebUI.verifyTextPresent(("Payment Amount"),false)) {
+							isRequiredTextPresent = true
+							println(isRequiredTextPresent)
+							
 						}
 						else {
-							KeywordUtil.markFailed("Your payment plan is not created and cancelled")
-							resText = "Fail"
-							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							isRequiredTextPresent = false
 						}
+					}	
+						if(isRequiredTextPresent) {
+							if(WebUI.verifyTextPresent(("Convenience Fees"), false)) {
+								isRequiredTextPresent = true
+								println(isRequiredTextPresent)
+								
+							}
+							else {
+								isRequiredTextPresent = false
+							}
+						}	
+							if(isRequiredTextPresent) {
+								if(WebUI.verifyTextPresent(("\$10.50"), false)) {
+									isRequiredTextPresent = true
+									println(isRequiredTextPresent)
+									
+								}
+								else {
+									isRequiredTextPresent = false
+								}
+							}	
+							if(isRequiredTextPresent) {
+									if(WebUI.verifyTextPresent(("Total Amount"), false)) {
+										isRequiredTextPresent = true
+										println(isRequiredTextPresent)
+										
+									}
+								else {
+										isRequiredTextPresent = false
+									}
+							}	
+							if(isRequiredTextPresent) {
+										if(WebUI.verifyTextPresent(("\$12.50"), false)) {
+											isRequiredTextPresent = true
+											println(isRequiredTextPresent)
+											
+										}
+							else {
+											isRequiredTextPresent = false
+										}
+							}		
+										
+							if(isRequiredTextPresent) {
+											if(WebUI.verifyTextPresent(("Two transactions will appear on your bank statement, one in the amount of \$10.50 and one in the amount of \$2.00"), false)) {
+												isRequiredTextPresent = true
+												println(isRequiredTextPresent)
+												
+											}
+								else {
+												isRequiredTextPresent = false
+											}
+							}				
+											if (isRequiredTextPresent == true)
+												{
+													println "All the relevant texts are present on Receipt Page"
+													KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
+													resText = "Pass"
+													CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						
-					}
-				else
-					{
-						KeywordUtil.markFailed("Deferred is not present on page")
-						resText = "Fail"
-						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-					}
-			
-			WebUI.closeBrowser()
-			
-}
-			}
+												}
+											else
+												{
+													println "Some texts are missing on the Receipt page"
+					//								KeywordUtil.markFailed("Error on Page is : " + WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode')))
+													resText = "Fail"
+													CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+					//								println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
+												}
+										}
+									else
+										{
+											KeywordUtil.markFailed("Convenience Fees Acceptance not present on page")
+											resText = "Fail"
+											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+										}
+								}
+					WebUI.closeBrowser()
+								}
+					
+				

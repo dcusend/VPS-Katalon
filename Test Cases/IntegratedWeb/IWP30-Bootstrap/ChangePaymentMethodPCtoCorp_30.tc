@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangePaymentMethodPCtoCorp_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5cc925f-b339-4bf4-888d-86e61edfdb9b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NoModifyBillingAddressPC_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d602b25-ed54-448d-a0da-ff3bb6bb0acd</testCaseGuid>
+</TestCaseEntity>

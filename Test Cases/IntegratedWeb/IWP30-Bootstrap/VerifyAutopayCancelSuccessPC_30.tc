@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAutopayCancelSuccessPC_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9a93cacc-b34b-4060-91cd-c6ee8cd7b863</testCaseGuid>
+</TestCaseEntity>
