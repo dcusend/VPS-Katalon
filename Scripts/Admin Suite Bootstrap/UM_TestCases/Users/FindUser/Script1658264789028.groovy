@@ -31,19 +31,55 @@ String path_UserView = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstrap
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
+def numOfRows, dataFile, nameSheet, dataFileEmulator, EmailAddresstoVerify
+
+switch(executionProfile)
+{
+	case "QAProfile":
+				nameSheet = "FindUser"
+				dataFile = "QA/Bootstrap/UM-TestData/FindUser"
+				EmailAddresstoVerify = 'iahmed@govolution.com'
+	break
+	
+	case "QA2Profile":
+				nameSheet = "FindUser"
+				dataFile = "QA/Bootstrap/UM-TestData/FindUser"
+				EmailAddresstoVerify = 'iahmed@govolution.com'
+	break
+	
+	case "DemoProfile":
+				nameSheet = "FindUserDemo"
+				dataFile = "QA/Bootstrap/UM-TestData/FindUserDemo"
+				EmailAddresstoVerify = 'iahmed1@govolution.com'
+	break
+	
+//	case "Production":
+//			appName = findTestData(dataFile).getValue('AppNameProd', row)
+//			appID = findTestData(dataFile).getValue('AppIDProd', row)
+//	break
+//	
+//	case "Upgrade":
+//			appName = findTestData(dataFile).getValue('AppNameProd', row)
+//			appID = findTestData(dataFile).getValue('AppIDProd', row)
+//	break
+}
+
 
 String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
-nameSheet = "FindUser"
-dataFile = "QA/Bootstrap/UM-TestData/FindUser"
-numOfRows = findTestData('QA/Bootstrap/UM-TestData/FindUser').getRowNumbers()
+
+
+
+//numOfRows = findTestData('QA/Bootstrap/UM-TestData/FindUser').getRowNumbers()
+numOfRows = findTestData(dataFile).getRowNumbers()
 println("Number of Records: " + numOfRows)
+
+
 
 
 // For each row in the spreadsheet, execute the given steps
@@ -80,7 +116,7 @@ for (def row = 1; row <= numOfRows; row++)
 						{
 							
 							WebUI.verifyTextPresent('Email Address', true)
-							WebUI.verifyTextPresent('iahmed@govolution.com', true)
+							WebUI.verifyTextPresent(EmailAddresstoVerify, true)
 							WebUI.verifyTextPresent('Username', true)
 							WebUI.verifyTextPresent('chragui', true)
 							WebUI.verifyTextPresent('Account Status', true)

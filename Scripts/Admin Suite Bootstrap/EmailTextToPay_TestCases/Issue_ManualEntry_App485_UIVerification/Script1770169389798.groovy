@@ -75,6 +75,11 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_PaymentApplication'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_PaymentApplication'), 30)
 
+
+// Select 485 Payment Application from the drop down
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_PaymentApplication'),'DeepWebPay485' ,false)
+
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_CAN'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_CAN'), 30)
 
@@ -111,6 +116,26 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_PhoneNumber'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_PhoneNumber'), 30)
 
+
+// Verify the UDFs textboxes
+WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF1'), 30)
+//WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF1'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF2'), 30)
+WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF2'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF3'), 30)
+WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF3'))
+
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF4'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF5'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF6'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF7'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF8'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF9'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF10'))
+
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/btn_SendPaymentLink'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/btn_SendPaymentLink'), 30)
 
@@ -129,12 +154,15 @@ WebUI.verifyTextPresent('State', false)
 WebUI.verifyTextPresent('Zip Code', false)
 WebUI.verifyTextPresent('Email Address', false)
 WebUI.verifyTextPresent('Phone Number', false)
+WebUI.verifyTextPresent('485UDF1', false)
+WebUI.verifyTextPresent('485UDF2', false)
+WebUI.verifyTextPresent('485UDF3', false)
 
 
 // Verify the contents of Filing Year dropdown
 def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'))
 WebUI.verifyEqual(totalOptionsFilingYear, 66)
-WebUI.verifyOptionsPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'),['Virginia','Florida'])
+WebUI.verifyOptionsPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'),['New Hampshire','Maryland'])
 
 
 

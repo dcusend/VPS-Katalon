@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_ManageEmailOrTextToPay</name>
+   <name>txt_FirstName</name>
    <tag></tag>
-   <elementGuidId>fd343384-011b-4fc9-b630-7c8ca7a4ec74</elementGuidId>
+   <elementGuidId>880e067b-348d-4b75-b3db-e01d4997e49a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Manage Email/Text to Pay' or . = 'Manage Email/Text to Pay')]</value>
+         <value>//*[@name = 'searchFirstName' and @id = 'searchFirstName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,17 +16,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Manage Email/Text to Pay</value>
-      <webElementGuid>d576eb99-6166-4f28-9afa-c42839ae83cb</webElementGuid>
+      <value>searchFirstName</value>
+      <webElementGuid>65615dfe-14b7-44f0-98ba-558d32bc8c29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/admin/deep/bootstrap/vadministrator/notifications/managePayNotification/index.do</value>
-      <webElementGuid>b0b40806-80cc-4082-a4c0-22909ba7bdf4</webElementGuid>
+      <value>searchFirstName</value>
+      <webElementGuid>3d35b15a-ff32-403a-aeb0-decb0b3b17de</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -270,14 +270,22 @@ public class loginFunctionality {
 				break
 
 			case "DemoProfile":
-				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+				if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username_Okta'),30)) {
 					System.out.println('We are on Login Page, start populating the fields')
 
-					WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
+					WebUI.setText(findTestObject('Login_Page/Login_Username_Okta'), username_DD)
 
-					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
+					WebUI.setText(findTestObject('Login_Page/Login_Password_Okta'), password_DD)
 
-					WebUI.click(findTestObject('Login_Page/Login_Submit'))
+					WebUI.click(findTestObject('Login_Page/Login_Submit_Okta'))
+					//			if (WebUI.verifyElementPresent(findTestObject('Login_Page/Login_Username'),30)) {
+					//					System.out.println('We are on Login Page, start populating the fields')
+					//
+					//					WebUI.setText(findTestObject('Login_Page/Login_Username'), username_DD)
+					//
+					//					WebUI.setText(findTestObject('Login_Page/Login_Password'), password_DD)
+					//
+					//					WebUI.click(findTestObject('Login_Page/Login_Submit'))
 				}
 				break
 

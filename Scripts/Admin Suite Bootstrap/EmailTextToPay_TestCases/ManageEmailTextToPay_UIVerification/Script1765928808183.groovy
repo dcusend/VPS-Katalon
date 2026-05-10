@@ -50,7 +50,12 @@ deepPassword = GlobalVariable.Password
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)
 
 // Select Manage Emil Text to Pay Link
-WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
+//WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
+
+WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNav_ManageEmailOrTextToPay'))
+WebUI.delay(2)
 
 // Verify Static Text and Elements on Manage Emil Text to Pay Page
 
@@ -75,16 +80,16 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/btn_Filter'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/btn_Filter'), 30)
 
-WebUI.verifyTextPresent('Pay Notification', true)
+//WebUI.verifyTextPresent('Pay Notification', true)
 WebUI.verifyTextPresent('Manage Email/Text to Pay', true)
 WebUI.verifyTextPresent('Payment Application', true)
 WebUI.verifyTextPresent('Start Date', true)
 WebUI.verifyTextPresent('End Date', true)
 WebUI.verifyTextPresent('Search Results', true)
 WebUI.verifyTextPresent('Recipient/Company Name', true)
-WebUI.verifyTextPresent('Link Create Date-Time', true)
-WebUI.verifyTextPresent('Link Expiry Date-Time', true)
-WebUI.verifyTextPresent('Payment Amount', true)
+WebUI.verifyTextPresent('Link Create Date', true)
+WebUI.verifyTextPresent('Link Expiry Date', true)
+WebUI.verifyTextPresent('Bill Amount', true)
 WebUI.verifyTextPresent('Status', true)
 WebUI.verifyTextPresent('Payment ID', true)
 WebUI.verifyTextPresent('Action', true)

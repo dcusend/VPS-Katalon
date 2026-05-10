@@ -86,7 +86,7 @@
  selenium.type("name=amount", ("7.50").toString())
  selenium.type("name=card_number", "4111111111111111")
  selenium.type("name=card_exmo", "06")
- selenium.type("name=card_exyr", "2025")
+ selenium.type("name=card_exyr", "2029")
  selenium.type("name=cvv_data", "")
  selenium.type("name=cvv_state", "")
  selenium.type("name=track_data", "")

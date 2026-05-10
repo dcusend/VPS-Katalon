@@ -29,18 +29,52 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, username_from, password_from
+def numOfRows, dataFile, nameSheet, dataFileEmulator
+
+switch(executionProfile)
+{
+	case "QAProfile":
+				nameSheet = "PassCase"
+				dataFile = "QA/Bootstrap/UM-TestData/PassCase"
+				
+	break
+	
+	case "QA2Profile":
+				nameSheet = "PassCase"
+				dataFile = "QA/Bootstrap/UM-TestData/PassCase"
+				
+	break
+	
+	case "DemoProfile":
+				nameSheet = "PassCaseDemo"
+				dataFile = "QA/Bootstrap/UM-TestData/PassCaseDemo"
+				
+	break
+	
+//	case "Production":
+//			appName = findTestData(dataFile).getValue('AppNameProd', row)
+//			appID = findTestData(dataFile).getValue('AppIDProd', row)
+//	break
+//
+//	case "Upgrade":
+//			appName = findTestData(dataFile).getValue('AppNameProd', row)
+//			appID = findTestData(dataFile).getValue('AppIDProd', row)
+//	break
+}
+
+
 
 String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
-nameSheet = "PassCase"
-dataFile = "QA/Bootstrap/UM-TestData/PassCase"
-numOfRows = findTestData('QA/Bootstrap/UM-TestData/PassCase').getRowNumbers()
+
+
+
+numOfRows = findTestData(dataFile).getRowNumbers()
 println("Number of Records: " + numOfRows)
 
 

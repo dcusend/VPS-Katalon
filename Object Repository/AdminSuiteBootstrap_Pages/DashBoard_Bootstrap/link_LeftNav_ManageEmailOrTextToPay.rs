@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_ManageEmailOrTextToPay</name>
+   <name>link_LeftNav_ManageEmailOrTextToPay</name>
    <tag></tag>
-   <elementGuidId>fd343384-011b-4fc9-b630-7c8ca7a4ec74</elementGuidId>
+   <elementGuidId>c7892708-926d-4cad-ab81-1867f4950573</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -19,7 +19,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Manage Email/Text to Pay</value>
-      <webElementGuid>d576eb99-6166-4f28-9afa-c42839ae83cb</webElementGuid>
+      <webElementGuid>39941cc4-731d-4662-99dc-ab7fce6ba329</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,6 +27,6 @@
       <name>href</name>
       <type>Main</type>
       <value>/admin/deep/bootstrap/vadministrator/notifications/managePayNotification/index.do</value>
-      <webElementGuid>b0b40806-80cc-4082-a4c0-22909ba7bdf4</webElementGuid>
+      <webElementGuid>aaf409f1-c628-4c84-900a-6b0642446f2a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -35,18 +35,52 @@ String path_ModifyUser = "Object Repository/AdminSuiteBootstrap_Pages/UM_Bootstr
 def executionProfile = RC.getExecutionProfile()
 System.out.println ("executionProfile : " + executionProfile)
 String appName, appID, cardNameV, al1V, al2V, zipV, cardTypeV
+def numOfRows, dataFile, nameSheet, dataFileEmulator
+
+switch(executionProfile)
+{
+	case "QAProfile":
+				nameSheet = "ModifyUserPwd"
+				dataFile = "QA/Bootstrap/UM-TestData/ModifyUserPwd"
+				
+	break
+	
+	case "QA2Profile":
+				nameSheet = "ModifyUserPwd"
+				dataFile = "QA/Bootstrap/UM-TestData/ModifyUserPwd"
+				
+	break
+	
+	case "DemoProfile":
+				nameSheet = "ModifyUserPwdDemo"
+				dataFile = "QA/Bootstrap/UM-TestData/ModifyUserPwdDemo"
+				
+	break
+	
+//	case "Production":
+//			appName = findTestData(dataFile).getValue('AppNameProd', row)
+//			appID = findTestData(dataFile).getValue('AppIDProd', row)
+//	break
+//
+//	case "Upgrade":
+//			appName = findTestData(dataFile).getValue('AppNameProd', row)
+//			appID = findTestData(dataFile).getValue('AppIDProd', row)
+//	break
+}
+
+
 
 String resText = "Fail"
 //String datText = today
 String resColumn = "Result"
 String datCloumn = "Date"
 String fileLoc = "KatalonData/Bootstrap/UM-Data.xlsx"
-def numOfRows, dataFile, nameSheet, dataFileEmulator
 
 
-nameSheet = "ModifyUserPwd"
-dataFile = "QA/Bootstrap/UM-TestData/ModifyUserPwd"
-numOfRows = findTestData('QA/Bootstrap/UM-TestData/ModifyUserPwd').getRowNumbers()
+
+
+
+numOfRows = findTestData(dataFile).getRowNumbers()
 println("Number of Records: " + numOfRows)
 
 

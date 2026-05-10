@@ -54,7 +54,8 @@ public class searchPage {
 	@Keyword
 	def selectAddtoCart() {
 
-		WebUI.check(findTestObject(pathOR+'btn_addToCartIcon'))
+		//WebUI.check(findTestObject(pathOR+'btn_addToCartIcon'))
+		WebUI.check(findTestObject(pathOR+'btn_addToCartIcon_Generic'))
 	}
 
 	//select remove from Cart icon

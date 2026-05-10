@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_ManageEmailOrTextToPay</name>
+   <name>link_LeftNav_IssueEmailOrTextToPay</name>
    <tag></tag>
-   <elementGuidId>fd343384-011b-4fc9-b630-7c8ca7a4ec74</elementGuidId>
+   <elementGuidId>f0150ae0-ddfa-4bb4-98b2-5b2786b0ec95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Manage Email/Text to Pay' or . = 'Manage Email/Text to Pay')]</value>
+         <value>//*[(text() = 'Issue Email/Text to Pay' or . = 'Issue Email/Text to Pay')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,15 +18,15 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Manage Email/Text to Pay</value>
-      <webElementGuid>d576eb99-6166-4f28-9afa-c42839ae83cb</webElementGuid>
+      <value>Issue Email/Text to Pay</value>
+      <webElementGuid>413a97d8-3c8d-47af-ac9b-beac52b75beb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/deep/bootstrap/vadministrator/notifications/managePayNotification/index.do</value>
-      <webElementGuid>b0b40806-80cc-4082-a4c0-22909ba7bdf4</webElementGuid>
+      <value>/admin/deep/bootstrap/vadministrator/notifications/issuePayNotification/index.do</value>
+      <webElementGuid>193e6cfd-95ee-483f-ab03-b1d3860eba8a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

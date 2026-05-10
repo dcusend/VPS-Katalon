@@ -44,7 +44,8 @@ switch(executionProfile)
 deepUsername = GlobalVariable.Username
 deepPassword = GlobalVariable.Password
 
-
+println deepUsername
+println deepPassword
 
 // Log into Admin Suite
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)
@@ -60,7 +61,14 @@ WebUI.delay(2)
 
 //WebUI.verifyTextPresent('Pay Notification', true)
 WebUI.verifyTextPresent('Issue Email/Text to Pay', true)
+WebUI.verifyTextPresent('Payment Application', true)
+WebUI.verifyTextPresent('Client Account Number', true)
+WebUI.verifyTextPresent('First Name', true)
+WebUI.verifyTextPresent('Last / Company Name', true)
 
+// Select 485 Payment Application from the drop down
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/dd_PaymentApplication'),'DeepWebPay485' ,false)
+WebUI.delay(2)
 
 // Verify Manual Entry link/button is present
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/btn_ManualEntryTab'))
@@ -84,15 +92,19 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap
 
 // Verify Lookup1 is present
 //WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup1'))
-//WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup1'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup1'), 30)
 
 // Verify Lookup2 is present
 //WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup2'))
-//WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup2'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup2'), 30)
 
 // Verify Lookup3 is present
 //WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup3'))
-//WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup3'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/txt_Lookup3'), 30)
+
+WebUI.verifyTextPresent('Lookup485 1', true)
+WebUI.verifyTextPresent('Lookup485 2', true)
+WebUI.verifyTextPresent('Lookup485 3', true)
 
 // Verify Search button is present
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/btn_Submit'))

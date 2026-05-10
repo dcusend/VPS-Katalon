@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CardExpiredError</name>
+   <name>TestVRelayEmulatorQA</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cfe24f60-cd68-442e-8124-6f59dc7a81bf</testCaseGuid>
+   <testCaseGuid>1d486a27-0005-4a77-93b8-364eae57769f</testCaseGuid>
 </TestCaseEntity>
