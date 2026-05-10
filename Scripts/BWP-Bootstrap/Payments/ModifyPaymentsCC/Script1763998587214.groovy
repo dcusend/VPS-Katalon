@@ -83,6 +83,7 @@ for (def row = 1; row <= numOfRows; row++)
 				// setData for CC Payment Entry Page
 					CustomKeywords.'bwpPagesBootstrap.ccPaymentEntryBootstrapPage.setDataCCMain'(NameID, CardID, EmailPhoneID, AddressID, Amount, UDFID, AppID)
 									
+					WebUI.delay(5)
 					WebUI.verifyTextPresent(("udf data 1"), true)
 					WebUI.verifyTextPresent(("Bridges Waters"), true)
 					WebUI.verifyTextPresent(("0011"), true)

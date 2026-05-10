@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>userDefined8</name>
+   <tag></tag>
+   <elementGuidId>4a3fda11-9eca-40a9-8657-a1cc81c557bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'userDefined8' and @value = 'Soccer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>userDefined8</value>
+      <webElementGuid>b6c0b564-211c-47c9-88d1-7139c60ad95c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Soccer</value>
+      <webElementGuid>ef3a39a0-427a-4c02-9cfb-8b738117974b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

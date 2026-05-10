@@ -42,8 +42,8 @@ public class ModifyCreditCardPage {
 		// Select the Modify button
 		WebUI.click(findTestObject(path_ModifyCreditCard + 'button_Modify'))
 	}
-	
-	
+
+
 	@Keyword
 	def setDataModifyCreditCard_EF(int rowS, dataFileS) {
 
@@ -60,6 +60,7 @@ public class ModifyCreditCardPage {
 		WebUI.selectOptionByLabel(findTestObject(path_ModifyCreditCard + 'select_ExpMonth'), expMonth, true)
 		WebUI.selectOptionByLabel(findTestObject(path_ModifyCreditCard + 'select_ExpYear'), expYear, true)
 
+		WebUI.delay(5)
 		// Select the Modify button
 		WebUI.click(findTestObject(path_ModifyCreditCard + 'button_Modify'))
 	}

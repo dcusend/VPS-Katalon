@@ -79,12 +79,12 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 					
 					// Set Data on Credit Card Payment Entry page
 					CustomKeywords.'iwpPages.ccPaymentEntryPage.setDataCCPM'(row,dataFile)
-					
+					WebUI.delay(2)
 					// Select Continue on Confirm page
-//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
-					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
+					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
+//					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
-					Thread.sleep(10000)
+					WebUI.delay(10)
 					//WebUI.waitForPageLoad(10)
 					
 					// Select Submit button on Confirm CF Page

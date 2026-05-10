@@ -100,7 +100,8 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
-					
+						WebUI.delay(3)
+						
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)													
 						
 						KeywordUtil.logInfo("View Parcel button Exists")
@@ -115,14 +116,14 @@ for (def row = 1; row <= numOfRows; row++)
 									
 									CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)									
 									
-									Thread.sleep(1000)
+									WebUI.delay(3)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
 										if(isRequiredTextPresent == true) {
 											
 											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
-											Thread.sleep(10000)
+											WebUI.delay(3)
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					
@@ -150,10 +151,13 @@ for (def row = 1; row <= numOfRows; row++)
 												WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_modify'))
 												WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_EditPaymentPlan_Autopay/btn_savechanges'))
 												
+												WebUI.delay(5)
+												
 												if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 													WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))
 													WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))
 													
+													WebUI.delay(3)
 													if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
 														KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
 														resText = "Pass"

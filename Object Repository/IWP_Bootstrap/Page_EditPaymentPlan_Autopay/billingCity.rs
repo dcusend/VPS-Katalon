@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>billingCity</name>
+   <tag></tag>
+   <elementGuidId>c9267bd3-77d7-44de-b38a-8beec3bea70b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'billingCity' and @value = 'HOOKSETT']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billingCity</value>
+      <webElementGuid>148efed9-b72e-44fb-9e60-49e6a37e7262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>HOOKSETT</value>
+      <webElementGuid>0b1eafc5-3437-4405-8fe7-8d4135f18ab7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

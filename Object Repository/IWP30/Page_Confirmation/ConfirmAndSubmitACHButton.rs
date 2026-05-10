@@ -10,11 +10,16 @@
          <value>//input[@id='submitYes']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'confirmNotifyAction' and @id = 'submitYes']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#submitYes</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>483ca1d6-8026-49c1-b2ec-29142bc46062</webElementGuid>
+      <webElementGuid>6204098d-d122-4032-9d11-085753f9c8da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>0e078a0d-922f-4f0d-aaa7-e85fe92cd8f6</webElementGuid>
+      <webElementGuid>4c49ac7d-8fc0-433c-a3e2-cd9aff5d97b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>confirmNotifyAction</value>
-      <webElementGuid>6865748d-44e2-4bbb-9e0b-6ccae71af8da</webElementGuid>
+      <webElementGuid>afd1a8d9-91d7-4259-aea5-8e7216ae95bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>submitYes</value>
-      <webElementGuid>0ffbb9f9-ae41-4cff-9f63-1528c78b4763</webElementGuid>
+      <webElementGuid>8dad3620-f87c-44b1-882a-38fff418c9e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +59,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Confirm &amp; Submit</value>
-      <webElementGuid>25273c3e-6b78-4c81-a8f9-15a2f4683293</webElementGuid>
+      <webElementGuid>e9e50a5e-df7b-4395-93ec-7a168222af64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +67,7 @@
       <name>class</name>
       <type>Main</type>
       <value>payor_opt</value>
-      <webElementGuid>0ae54221-2da6-480c-9b10-6ab767bf64cd</webElementGuid>
+      <webElementGuid>f3405a2d-51ae-4eeb-b0a7-0dc4f4c90c7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>setYes();</value>
-      <webElementGuid>4bb06f1d-ae28-467a-b5de-42cd3a104adf</webElementGuid>
+      <webElementGuid>4fdda984-a052-4a7d-a6ac-6e69967c982e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;submitYes&quot;)</value>
-      <webElementGuid>60da7446-e6a1-467f-9ead-c766af29ff90</webElementGuid>
+      <webElementGuid>306957c6-e2be-4853-8208-2e8ffcbe0a9d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='submitYes']</value>
-      <webElementGuid>d1283ecc-e4ea-4f81-9850-ab74783feaed</webElementGuid>
+      <webElementGuid>3dadca72-055e-46d1-b277-a7f5fe7d7699</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>5173b06e-d2be-4244-918b-a276a725a5e5</webElementGuid>
+      <webElementGuid>05827c5e-6776-4214-88ec-12847d9480ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @name = 'confirmNotifyAction' and @id = 'submitYes']</value>
-      <webElementGuid>73aeeef0-aa6b-426c-90a3-74f115b9e1e3</webElementGuid>
+      <webElementGuid>ce0aafa6-3f1d-43b1-95a2-2f2baf773785</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

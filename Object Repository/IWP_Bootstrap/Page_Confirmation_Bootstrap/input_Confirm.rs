@@ -10,11 +10,16 @@
          <value>input[name=&quot;confirmNotifyAction&quot;]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'confirmNotifyAction']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='confirmNotifyAction']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5a46d3f2-0492-4300-b1d7-4b55658d09b6</webElementGuid>
+      <webElementGuid>339e3316-0d89-41ee-8b92-13e4285d370f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>0479c8df-2897-4c80-92fd-acdb50c2af6b</webElementGuid>
+      <webElementGuid>25e88abb-e0f0-4cd9-a97a-3bca6abfab24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>confirmNotifyAction</value>
-      <webElementGuid>bf6cdda2-8bf1-4763-a5d4-e353a38d425f</webElementGuid>
+      <webElementGuid>5d99e467-593f-426c-a12b-cc49ff3255c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block</value>
-      <webElementGuid>4a9be6cd-ada4-499f-a142-d2e97fc8e607</webElementGuid>
+      <webElementGuid>788e0dce-944f-4966-bde4-ff9b48987aee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +59,15 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#waitModal</value>
-      <webElementGuid>44bc8da5-8f9e-432b-947a-0f87fffce6ea</webElementGuid>
+      <webElementGuid>49de3123-5380-49a8-af51-3ce9a45fce31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Confirm</value>
-      <webElementGuid>effca0fe-f021-438c-98a2-3c8cfd5c2154</webElementGuid>
+      <webElementGuid>e9f47b88-9172-4694-a047-2392873b5df9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>setYes();</value>
-      <webElementGuid>cf2575d4-980e-4b49-a85b-8b94289e6462</webElementGuid>
+      <webElementGuid>1df3e062-65f2-4bd0-b59b-682288cbd1d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-1 col-md-offset-6 col-sm-2 col-sm-offset-2 col-xs-12 bootstrap-btn-group&quot;]/input[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>4ca16957-6945-41e2-a592-392e17e3e912</webElementGuid>
+      <webElementGuid>49fcafe4-3f39-456f-b118-8fc50a4ee831</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='confirmNotifyAction']</value>
-      <webElementGuid>860b806f-1605-4d6d-a6c5-b6ea66efc09c</webElementGuid>
+      <webElementGuid>013874b1-39c5-4ddb-ba65-11cfbfee3031</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/input</value>
-      <webElementGuid>70ddeca8-a410-4cd3-99ea-08182aed28e5</webElementGuid>
+      <webElementGuid>77d3c6ac-6dbb-40e8-a46c-4ff57e32d02f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +107,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @name = 'confirmNotifyAction']</value>
-      <webElementGuid>38c81547-d657-4079-810d-cd80488d82c1</webElementGuid>
+      <webElementGuid>24a6fbcf-c4f4-4565-8631-02c94214a270</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

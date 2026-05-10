@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ein</name>
+   <tag></tag>
+   <elementGuidId>e3ad783b-c9f7-4428-a39a-66ef5ab1543b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'ein' and @value = '999999999']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ein</value>
+      <webElementGuid>6b3ef8bc-71a0-4733-816e-1db8814fb3e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>999999999</value>
+      <webElementGuid>199437b7-5804-42a0-ba06-2132359597f7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

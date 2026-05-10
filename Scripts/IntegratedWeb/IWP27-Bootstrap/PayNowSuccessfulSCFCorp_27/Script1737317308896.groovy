@@ -94,7 +94,8 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
 			
-				
+			WebUI.delay(3)
+			
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'), 0))
 					{
 						
@@ -102,6 +103,7 @@ for (def row = 1; row <= numOfRows; row++)
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
 						
+						WebUI.delay(3)
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 						
 						println("isRequired Text value :" + isRequiredTextPresent)
@@ -116,6 +118,8 @@ for (def row = 1; row <= numOfRows; row++)
 									
 									CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 									
+									WebUI.delay(3)
+									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray) 
 									
 
@@ -126,7 +130,7 @@ for (def row = 1; row <= numOfRows; row++)
 											//Select Accept Fee and Confirm Payment
 											CustomKeywords.'iwpPages.ConvenienceFeesBootstrapPage.selectAcceptFeeAndProcessPayment'()
 											
-											Thread.sleep(10000)
+									WebUI.delay(5)
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					

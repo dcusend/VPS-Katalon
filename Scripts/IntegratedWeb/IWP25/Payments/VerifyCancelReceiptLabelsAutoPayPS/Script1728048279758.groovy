@@ -79,7 +79,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
-					
+					WebUI.delay(2)
 					// Set Data on Corporate Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
@@ -88,7 +88,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
-					Thread.sleep(2000)
+					WebUI.delay(10)
 					if (WebUI.verifyTextPresent("AutoPay", false))
 						{
 								
@@ -99,10 +99,13 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							// Populate Test Harness
 							CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 							
+							WebUI.delay(5)
+							
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_ManagePlan_Autopay/btn_cancel'))	
+							WebUI.delay(2)
 							WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))	
 							
-							Thread.sleep(2000)
+							WebUI.delay(2)
 							if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
 								isRequiredTextPresent = true
 								println(isRequiredTextPresent)

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_security_code</name>
+   <tag></tag>
+   <elementGuidId>aeb05e21-f105-463f-a5ae-9da7bcbb5029</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'spc' and @value = '****']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>spc</value>
+      <webElementGuid>5dd33084-9645-445d-9ee2-2be083e864f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>2012</value>
+      <webElementGuid>804bbc54-29b2-4913-b8dc-69a5dc831075</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

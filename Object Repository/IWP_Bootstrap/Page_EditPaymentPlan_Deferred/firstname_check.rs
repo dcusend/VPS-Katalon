@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstname_check</name>
+   <tag></tag>
+   <elementGuidId>a462bf60-4f43-47a1-8549-85ece8c52d3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'billingFirstname' and @value = 'Carlos']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billingFirstname</value>
+      <webElementGuid>14a46669-e10b-427f-adbe-1005251bb6c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Carlos</value>
+      <webElementGuid>63f3faab-f9a8-4f74-aaee-acefbbbefd75</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

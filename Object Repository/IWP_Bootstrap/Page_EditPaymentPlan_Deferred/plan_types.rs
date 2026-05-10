@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plan_types</name>
+   <tag></tag>
+   <elementGuidId>ae1be806-429a-4d03-834f-bfe54ebe2e30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'planTypeShow']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>planTypeShow</value>
+      <webElementGuid>f02cdb1a-7881-40ae-ab45-97cc6385e319</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Deferred</value>
+      <webElementGuid>ff13db57-b4f4-4890-ba14-53ee694eb1ba</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -70,23 +70,25 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethod'(row,dataFile)
 					
-					
+					WebUI.delay(2)
 					// Select Credit Card Payment Method
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/PayByPersonalCheck'))
 					
 					// Select Continue on Confirm page
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_SelectPaymentMethod/MakePaymentButton'))
 					
+					WebUI.delay(5)
 					
 					// Set Data on Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
+					WebUI.delay(2)
 					
 					// Select Continue on Confirm page
 					//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
-					Thread.sleep(2000)
+					WebUI.delay(5)
 					if (WebUI.verifyTextPresent("Deferred", false))
 						{
 							println "Deferred is present on page. Deferred Pay is created"
@@ -96,7 +98,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							def title = findTestData(dataFile).getValue('Title', row)
 							
 							WebUI.switchToWindowTitle(title + 'View Scheduled Payments')
-							Thread.sleep(5000)
+							WebUI.delay(2)
 							
 //							def payment_id_obj = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/payment_plan_id')).toString()
 //							def payment_id = payment_id_obj.substring(17,23)
@@ -115,7 +117,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 								WebUI.acceptAlert()				
 							}
 							
-							Thread.sleep(2000)
+							WebUI.delay(2)
 							
 							if (WebUI.verifyTextPresent("Your payment plan has been successfully canceled", false)) {								
 								KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")

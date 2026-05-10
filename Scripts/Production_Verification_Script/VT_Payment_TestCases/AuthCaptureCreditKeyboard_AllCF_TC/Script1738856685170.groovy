@@ -183,7 +183,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 							
 							WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
 							
-							
+							WebUI.delay(2)
 							if (WebUI.verifyTextPresent('Transaction Successful', true))
 							{
 								WebUI.verifyTextPresent('Transaction Type', true)
@@ -235,12 +235,13 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
 								
-								Thread.sleep(5000)
+								WebUI.delay(5)
 								
 								WebUI.verifyTextPresent('Transaction Successful', true)
 								WebUI.verifyTextPresent('Transaction Type', true)
 								WebUI.verifyTextPresent('Credit', true)
 								
+								WebUI.delay(5)
 								if (WebUI.verifyTextPresent("Transaction Successful", false))
 									{
 										println "Transaction Successful text is present on the Receipt page"
@@ -264,7 +265,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 						}					
 						
 				}
-				WebUI.closeBrowser()
+//				WebUI.closeBrowser()
 				
 		}
 

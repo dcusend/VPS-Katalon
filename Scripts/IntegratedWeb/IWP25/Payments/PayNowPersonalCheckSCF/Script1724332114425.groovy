@@ -81,13 +81,13 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					// Set Data on Payment Entry page
 					CustomKeywords.'iwpPages.achPersonalPaymentEntryPage.setDataACHPPM'(row,dataFile)
 					
-					Thread.sleep(5000)
+					WebUI.delay(2)
 					// Select Continue on Confirm page
 					//WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmButton'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_Confirmation/ConfirmAndSubmitACHButton'))
 					
 					
-					Thread.sleep(7000)
+					WebUI.delay(5)
 					// Select Confirm on Convenience fees page
 						if(WebUI.verifyTextPresent("Make a Real Estate Payment", false)) {
 							isRequiredTextPresent = true
@@ -142,7 +142,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 							}
 						}
 					
-						Thread.sleep(10000)
+						WebUI.delay(5)
 						
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_ConvenienceFees/btn_convFeeNotifyAction'))
 					
@@ -150,7 +150,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 					// Select Submit button on Confirm CF Page
 					//WebUI.click(findTestObject('Object Repository/IWP30/Page_AcceptCF/input_convFeeNotifyAction'))
 							
-					Thread.sleep(10000)
+					WebUI.delay(10)
 					if (WebUI.verifyTextPresent("Successful Payment Receipt", false))
 						{
 							println "Successful Payment Receipt text is present on the Receipt page"

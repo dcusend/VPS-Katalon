@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>confirm_account_number</name>
+   <tag></tag>
+   <elementGuidId>6d89c1bb-c01f-4281-94b0-cea900f48e0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'confirmAccountNumberShow' and @value = '****5489']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>confirmAccountNumberShow</value>
+      <webElementGuid>73591851-9ca7-40ea-8a05-a0ce9afa6ef6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>****5489</value>
+      <webElementGuid>d08680f5-bdb9-48e2-8202-15888fdae142</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plan_type_status</name>
+   <tag></tag>
+   <elementGuidId>c8c58afd-f386-4a4c-a706-e11b61cb28c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'planStatus']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>planStatus</value>
+      <webElementGuid>7a031c3a-f31e-4814-9798-38f02777bf31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>PENDING</value>
+      <webElementGuid>0f736ad5-35f6-461d-930c-643ab59c039f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

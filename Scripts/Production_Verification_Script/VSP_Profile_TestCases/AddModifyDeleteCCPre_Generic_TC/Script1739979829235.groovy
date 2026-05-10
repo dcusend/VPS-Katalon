@@ -115,12 +115,12 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					// Select the Save and Add Credit Card button
 						WebUI.click(findTestObject(path_CreateProfile + 'button_Save  Add Credit Card'))
 						
-						Thread.sleep(2000)
+						WebUI.delay(2)
 						WebUI.verifyTextPresent(("Profile successfully created"), true)
 						
 					// Call the setDataCreditCardNotPre method to Add a Credit Card
 						CustomKeywords.'vspBootstrap.AddCreditCardPage.setDataCreditCardPre_EF'(row,dataFile)
-						Thread.sleep(2000)
+						WebUI.delay(2)
 			
 					// Verify the Static text and Fields
 							WebUI.verifyTextPresent(("Payment Method Created"), true)
@@ -133,7 +133,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					// Call setDataModifyCreditCard method to populate Modify Credit Card page
 						CustomKeywords.'vspBootstrap.ModifyCreditCardPage.setDataModifyCreditCard_EF'(row,dataFile)
-						Thread.sleep(6000)
+						WebUI.delay(3)
 					// Verify Static text
 						WebUI.verifyTextPresent(("Payment Method Modification"), true)
 						WebUI.verifyTextPresent(("Payment method successfully modified"), true)

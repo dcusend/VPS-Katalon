@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//input[@name='changePaymentMethodButton']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @name = 'changePaymentMethodButton' and @value = 'Cancel Plan']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>79b464ef-0c0e-4e14-974d-660303459179</webElementGuid>
+      <webElementGuid>d127f256-b939-4891-94ea-24e95bfce71e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4b6fb057-4300-4266-b45a-f9f376a37ba2</webElementGuid>
+      <webElementGuid>4acf291f-3da3-4117-8bd2-75eaf2dba1db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,15 +49,15 @@
       <name>name</name>
       <type>Main</type>
       <value>changePaymentMethodButton</value>
-      <webElementGuid>aa8c96d5-a96d-4979-9a21-5b74fdd68a18</webElementGuid>
+      <webElementGuid>39d546a7-071c-4b9c-9ea7-74be7b10f185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Cancel Plan</value>
-      <webElementGuid>30f830a1-231d-4127-8d7b-f5f7007bf64a</webElementGuid>
+      <webElementGuid>cea9f88b-eb7c-4287-a08c-35c7400bf59f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>payor_opt</value>
-      <webElementGuid>8d4a3fb8-7f69-47b4-bf7c-707c70790dc3</webElementGuid>
+      <webElementGuid>0c75e6c2-bb59-412f-8254-d6c563fce7c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>changePaymentButton()</value>
-      <webElementGuid>8da241b3-720d-4711-a735-b515e08bc051</webElementGuid>
+      <webElementGuid>b0fced50-9169-4553-8d9b-ab1f81b8b244</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;showButtonDiv&quot;)/input[@class=&quot;payor_opt&quot;]</value>
-      <webElementGuid>694bc872-8a0b-4353-b955-12bbb4c785f8</webElementGuid>
+      <webElementGuid>9cba1df5-5c55-48dd-9091-58a915e358d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='changePaymentMethodButton']</value>
-      <webElementGuid>2b342e1d-6021-460e-a6a2-4de534e49924</webElementGuid>
+      <webElementGuid>6ab46145-7fa1-46e3-a71e-ec30e37c0bb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='showButtonDiv']/input[2]</value>
-      <webElementGuid>41f004e6-8d69-48eb-974f-6cad7d64eb46</webElementGuid>
+      <webElementGuid>bd566fe3-ce07-4c64-b214-357010ea9b6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input[2]</value>
-      <webElementGuid>f868786e-5f1e-49de-9e7c-58ff86ea15db</webElementGuid>
+      <webElementGuid>e3eab5f9-936a-43d6-92cd-44dc856e1848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button' and @name = 'changePaymentMethodButton']</value>
-      <webElementGuid>6b3061e7-d7db-4572-9bdb-02f468979fc4</webElementGuid>
+      <webElementGuid>d2d8ad70-00d8-4256-aa5e-64148afdb472</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

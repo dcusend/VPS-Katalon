@@ -408,5 +408,5 @@ def numOfRows,  nameSheet, dataFileEmulator, isRequiredTextPresent = false
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						}
 				}		
-				WebUI.closeBrowser()		
+//				WebUI.closeBrowser()		
 	}

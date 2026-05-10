@@ -184,4 +184,19 @@
       <initValue>'https://qa.velocitypayment.com/ebills/billLookup/MultiBillHarrisAddress'</initValue>
       <name>MultiBillHarrisAddressURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>shortTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>mediumTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>15</initValue>
+      <name>longTimeDelay</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

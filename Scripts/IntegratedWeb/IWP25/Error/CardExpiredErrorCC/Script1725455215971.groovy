@@ -100,5 +100,5 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator
 //							println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
 						}					
 				}	
-				WebUI.closeBrowser()	
+//				WebUI.closeBrowser()	
 		}

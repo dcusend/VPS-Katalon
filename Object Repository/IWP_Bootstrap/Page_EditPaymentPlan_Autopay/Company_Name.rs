@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Company_Name</name>
+   <tag></tag>
+   <elementGuidId>21900ab5-0226-43a9-9cca-df792eb65fe4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'billingCompanyname' and @id = 'billingCompanyname' and @value = 'Smith Company']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billingCompanyname</value>
+      <webElementGuid>fdef1291-f536-4805-9310-d00ed2492aa1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billingCompanyname</value>
+      <webElementGuid>6d08701f-8635-4b6c-89c2-4f91446a9de2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Smith Company</value>
+      <webElementGuid>e657d885-f7cc-4a93-af80-58e2fe12304e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

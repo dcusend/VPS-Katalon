@@ -94,7 +94,7 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
 
-				//Thread.sleep(10000)
+									WebUI.delay(3)
 				
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'), 0))
 					{
@@ -104,6 +104,8 @@ for (def row = 1; row <= numOfRows; row++)
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
 					
+						WebUI.delay(3)
+						
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)													
 						
 						KeywordUtil.logInfo("View Parcel button Exists")
@@ -119,14 +121,14 @@ for (def row = 1; row <= numOfRows; row++)
 									CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHDefferedMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID,CalDate)
 									
 									
-									Thread.sleep(1000)
+									WebUI.delay(3)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
 										if(isRequiredTextPresent == true) {
 											
 											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
-											Thread.sleep(GlobalVariable.shortDelay)
+											WebUI.delay(3)
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					
@@ -148,7 +150,7 @@ for (def row = 1; row <= numOfRows; row++)
 														WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_SelectPaymentMethod_Bootstrap/input_ViewScheduledPayments'))
 						
 														/*WebUI.switchToWindowTitle('View Scheduled Payments')*/
-														Thread.sleep(GlobalVariable.shortDelay)
+														WebUI.delay(2)
 						
 //														def payment_id_obj = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/payment_plan_id')).toString()
 //														def payment_id = payment_id_obj.substring(17,23)
@@ -179,7 +181,7 @@ for (def row = 1; row <= numOfRows; row++)
 							//															WebUI.click(paymentplan_cancelLink)
 							
 															}
-															Thread.sleep(GlobalVariable.shortDelay)
+															WebUI.delay(5)
 														if (WebUI.verifyTextPresent("Cancel Payment Plan", false)) 
 															{
 																WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_CancelPaymentPlan/btn_CancelPlan'))
@@ -239,7 +241,7 @@ for (def row = 1; row <= numOfRows; row++)
 								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 							}
 							
-							//WebUI.closeBrowser()
+							WebUI.closeBrowser()
 						
 					}}
 													

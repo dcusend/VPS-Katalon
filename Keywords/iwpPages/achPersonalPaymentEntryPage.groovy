@@ -458,7 +458,7 @@ public class achPersonalPaymentEntryPage {
 			}
 
 
-
+			WebUI.delay(5)
 			// Select the Continue button
 			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/btn_Continue'),30)) {
 				WebUI.click(findTestObject('Object Repository/IWP30/Page_ACHPersonalPaymentEntry/btn_Continue'))

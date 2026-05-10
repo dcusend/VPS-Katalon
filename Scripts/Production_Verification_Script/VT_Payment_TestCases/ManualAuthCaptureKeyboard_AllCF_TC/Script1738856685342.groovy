@@ -197,6 +197,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 							
 							WebUI.verifyTextPresent(captureAmount, true)
 
+							WebUI.delay(2)
 							
 							if (WebUI.verifyTextPresent("Transaction Successful", false))
 								{
