@@ -17,8 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def IVTUrl, IVTUserName, IVTPassword, IVTPartnerToken
+import com.kms.katalon.core.configuration.RunConfiguration as RC
+import com.kms.katalon.core.testdata.reader.ExcelFactory
+import com.kms.katalon.core.util.KeywordUtil
+import java.text.DecimalFormat
+import java.util.Random
+import org.apache.commons.lang.RandomStringUtils
 
+def IVTUrl, IVTUserName, IVTPassword, IVTPartnerToken, 
+	resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row, isRequiredTextPresent= false
+
+def executionProfile = RC.getExecutionProfile()
 
 IVTUrl = GlobalVariable.IVTUrl
 
@@ -31,3 +40,74 @@ WebUI.navigateToUrl(IVTUrl)
 //IVTPassword= GlobalVariable.IVTPassword
 //
 //IVTPartnerToken= GlobalVariable.IVTPartnerToken
+
+
+WebUI.verifyTextPresent('Parcels Label', true)
+
+WebUI.verifyTextPresent('Show', true)
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'), 10)
+WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'))
+
+WebUI.verifyTextPresent('entries', true)
+WebUI.verifyTextPresent('Ref Number', true)
+WebUI.verifyTextPresent('Quantity', true)
+WebUI.verifyTextPresent('Amount', true)
+WebUI.verifyTextPresent('Previous', true)
+WebUI.verifyTextPresent('Next', true)
+
+WebUI.verifyTextPresent('Due Amount', true)
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'), 10)
+WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'))
+
+
+//reporting in excel
+if (
+		WebUI.verifyTextPresent('Parcels Label', true) &&
+		
+		WebUI.verifyTextPresent('Show', true) &&
+		WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'), 10) &&
+		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show')) &&
+		
+		WebUI.verifyTextPresent('entries', true) &&
+		WebUI.verifyTextPresent('Ref Number', true) &&
+		WebUI.verifyTextPresent('Quantity', true) &&
+		WebUI.verifyTextPresent('Amount', true) &&
+		WebUI.verifyTextPresent('Previous', true) &&
+		WebUI.verifyTextPresent('Next', true) &&
+		
+		WebUI.verifyTextPresent('Due Amount', true) &&
+		WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount')) &&
+		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount')) 
+	) 
+
+		{
+		isRequiredTextPresent = true
+		println(isRequiredTextPresent) 
+		}
+
+else{
+	 isRequiredTextPresent = false
+	}
+
+	
+	if (isRequiredTextPresent == true)
+			{
+				println "All the relevant texts are present on 'Parcels Label' Page"
+				KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
+				resText = "Pass"
+				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+		
+			}
+	else
+			{
+				println "Some texts are missing on the 'Parcels Label' page"
+				KeywordUtil.markFailed("Some texts are missing on the Receipt page")
+				resText = "Fail"
+				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+			}
+	
+	
+
+

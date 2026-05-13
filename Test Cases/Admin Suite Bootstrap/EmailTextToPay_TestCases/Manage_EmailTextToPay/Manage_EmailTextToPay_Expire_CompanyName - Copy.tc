@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Manage_EmailTextToPay_Search</name>
+   <name>Manage_EmailTextToPay_Expire_CompanyName - Copy</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>dd2010b9-9879-4279-842d-5e3ac8793959</testCaseGuid>
+   <testCaseGuid>a85b41c4-d94d-44ef-9e6a-eb1677f6d304</testCaseGuid>
 </TestCaseEntity>

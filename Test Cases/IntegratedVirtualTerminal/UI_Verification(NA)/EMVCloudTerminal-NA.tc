@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EMVCloudTerminal-NA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3bd92a0b-f6c9-4a78-9dc0-ac9e5f053707</testCaseGuid>
+</TestCaseEntity>

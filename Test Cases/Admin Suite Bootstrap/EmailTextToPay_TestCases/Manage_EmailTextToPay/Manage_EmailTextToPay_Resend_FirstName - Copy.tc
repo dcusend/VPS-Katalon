@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TabBy_ManualEntry_DueDate</name>
+   <name>Manage_EmailTextToPay_Resend_FirstName - Copy</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>37455663-531f-458d-a262-ddafe7afba99</testCaseGuid>
+   <testCaseGuid>7c6bfdcc-4937-4ed4-b091-4a13babd8667</testCaseGuid>
 </TestCaseEntity>

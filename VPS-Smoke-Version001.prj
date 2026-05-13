@@ -4,7 +4,7 @@
    <name>VPS-Smoke-Version001</name>
    <tag></tag>
    <UUID>9a363148-d88b-4e81-8b49-8cfc40f40c0c</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.4.3</modifiedVersion>

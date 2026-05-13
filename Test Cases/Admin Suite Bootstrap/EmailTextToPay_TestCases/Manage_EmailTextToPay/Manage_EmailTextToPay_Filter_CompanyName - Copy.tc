@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ItemDetails</name>
+   <name>Manage_EmailTextToPay_Filter_CompanyName - Copy</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7d7a18c2-63b2-461e-a2d4-e8be6ff300d9</testCaseGuid>
+   <testCaseGuid>c5422eff-fd46-4ccb-8f14-6df25678c3eb</testCaseGuid>
 </TestCaseEntity>

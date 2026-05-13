@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import com.kms.katalon.core.configuration.RunConfiguration as RC
+import com.kms.katalon.core.testdata.reader.ExcelFactory
+import com.kms.katalon.core.util.KeywordUtil
+import java.text.DecimalFormat
+import java.util.Random
+import org.apache.commons.lang.RandomStringUtils
+
+def IVTUrl, IVTUserName, IVTPassword, IVTPartnerToken, 
+	resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row, isRequiredTextPresent= false
+
+def executionProfile = RC.getExecutionProfile()
+
+IVTUrl = GlobalVariable.IVTUrl
+
+WebUI.openBrowser('')
+WebUI.maximizeWindow()
+WebUI.navigateToUrl(IVTUrl)
+
+//IVTUserName= GlobalVariable.IVTUserName
+//
+//IVTPassword= GlobalVariable.IVTPassword
+//
+//IVTPartnerToken= GlobalVariable.IVTPartnerToken
+
+
+

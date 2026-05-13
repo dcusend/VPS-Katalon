@@ -29,7 +29,7 @@ def executionProfile = RC.getExecutionProfile()
 def deepAdminSuiteURL, deepUsername, deepPassword
 
 def M_PaymentApp, M_CAN, M_Amount, M_FirstName, M_LastName, M_Email, M_Phone, M_CompanyName, M_AddressLine1, M_AddressLine2, 
-	 	M_City, M_State, M_ZipCode, M_UDF1,M_UDF2,M_UDF3,M_UDF4,M_UDF5,M_UDF6,M_UDF7,M_UDF8,M_UDF9,M_UDF10,
+	 	M_City, M_State, M_ZipCode, M_UDF1,M_UDF2,M_UDF3,M_UDF4,M_UDF5,M_UDF6,M_UDF7,M_UDF8,M_UDF9,M_UDF10,M_DueDate,
 		 M_PaymentId, M_FilterText
 
 def fileLoc, numOfRows, dataFile, nameSheet, isRequiredTextPresent = false
@@ -135,6 +135,8 @@ for (def row = 1; row <= numOfRows; row++)
 				 
 				 M_CompanyName = RandomStringUtils.randomAlphabetic(10)
 				 
+				 M_DueDate = dataFile.getValue("DueDate", row)
+				 println(M_DueDate)
 				 M_AddressLine1 = dataFile.getValue("AddressLine1", row)
 				 M_AddressLine2 = dataFile.getValue("AddressLine2", row)
 				 M_City = dataFile.getValue("City", row)
@@ -160,10 +162,11 @@ CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(d
 // Select Issue Email or Text to Pay Link
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
 
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/Link_leftNav_IssueEmail_TaxtoPay'))
 
 //filling data into 'Manual Entry' page
-CustomKeywords.'issueEmailTextToPay.ManualEntry_Page.setDataManualEntry'(M_PaymentApp, M_CAN, M_Amount, M_FirstName, M_LastName, M_Email, M_Phone, M_CompanyName, M_AddressLine1, M_AddressLine2, M_City, M_State, M_ZipCode, M_UDF1, M_UDF2, M_UDF3, M_UDF4, M_UDF5, M_UDF6, M_UDF7, M_UDF8, M_UDF9, M_UDF10)
+CustomKeywords.'issueEmailTextToPay.ManualEntry_Page.setDataManualEntry'(M_PaymentApp, M_CAN, M_Amount, M_FirstName, M_LastName, M_Email, M_Phone, M_CompanyName,M_DueDate, M_AddressLine1, M_AddressLine2, M_City, M_State, M_ZipCode, M_UDF1, M_UDF2, M_UDF3, M_UDF4, M_UDF5, M_UDF6, M_UDF7, M_UDF8, M_UDF9, M_UDF10)
 
 //clicking on Send Payment Link
 WebUI.delay(1)
@@ -304,4 +307,35 @@ else {
 		
 	}
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+											//Notes-
+
+//1. deleted these lines from 1st part:
+
+//Date today = new Date()
+//println (today)
+//String datText = today
+
+//2. deleted below excel logging from the 1st part:
+
+//if (isRequiredTextPresent == true)
+//	{
+//		println "All the relevant texts are present on Receipt Page"
+//		KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
+//		resText = "Pass"
+//		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//
+//	}
+//else
+//	{
+//		println "Some texts are missing on the Receipt page"
+//		KeywordUtil.markFailed("Some texts are missing on the Receipt page")
+//		resText = "Fail"
+//		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//	}
+//	
+//3. renmae Row to manualRow in 1st part & Row to searchRow in 2nd part to aviod conflict
+
+//4. inserted whole 2nd part into 1st part from line number 183 means after line nuber 182.
 

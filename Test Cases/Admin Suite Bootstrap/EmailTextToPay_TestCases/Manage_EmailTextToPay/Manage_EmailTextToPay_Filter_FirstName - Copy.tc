@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>EMVCloudTerminal</name>
+   <name>Manage_EmailTextToPay_Filter_FirstName - Copy</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3bd92a0b-f6c9-4a78-9dc0-ac9e5f053707</testCaseGuid>
+   <testCaseGuid>9a28207c-7e4f-4224-a07c-091936ac7de5</testCaseGuid>
 </TestCaseEntity>

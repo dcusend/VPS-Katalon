@@ -47,13 +47,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b339f05-9f62-4219-b486-00e16e154bd7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_DueDate</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f104b858-e83f-4c26-9b19-36dafe06ac8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -197,7 +190,7 @@
       <guid>4ba80d40-6eff-41a1-bea1-5e0bbe428340</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Search</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Search(NA)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
