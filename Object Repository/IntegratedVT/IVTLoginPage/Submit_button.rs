@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Send_to_Payments</name>
+   <name>Submit_button</name>
    <tag></tag>
-   <elementGuidId>9d2fa6da-4736-4da8-9e33-75ac5c2549bc</elementGuidId>
+   <elementGuidId>5b159877-19ea-4588-9486-35e21e622e16</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'sendUiBtn']</value>
+         <value>//*[@id = 'submitBtn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>sendUiBtn</value>
-      <webElementGuid>a5b42974-ee19-46a4-a2c3-994bac8efe27</webElementGuid>
+      <value>submitBtn</value>
+      <webElementGuid>01bf5295-3011-4549-9251-463f6d521941</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

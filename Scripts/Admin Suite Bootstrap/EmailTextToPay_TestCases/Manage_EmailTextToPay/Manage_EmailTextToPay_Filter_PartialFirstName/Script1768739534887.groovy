@@ -26,6 +26,10 @@ import java.text.DecimalFormat
 import java.util.Random
 import org.apache.commons.lang.RandomStringUtils
 
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Calendar
+
 def executionProfile = RC.getExecutionProfile()
 
 def deepAdminSuiteURL, deepUsername, deepPassword
@@ -51,9 +55,9 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.Username
 		deepPassword = GlobalVariable.Password
 	
-	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_1.xlsx"
-	nameSheet = "ManageEmailText"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_1.xlsx", nameSheet, true)
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
+	nameSheet = "ManageEmailTxtFilter_Par1stName"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
 	
 		break
 		
@@ -62,9 +66,9 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.Username
 		deepPassword = GlobalVariable.Password
 		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_1.xlsx'
-	nameSheet = 'ManageEmailText'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_1.xlsx', nameSheet, true)
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
+	nameSheet = "ManageEmailTxtFilter_Par1stName"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
 		
 		break
 			
@@ -73,9 +77,9 @@ switch(executionProfile)
 			deepUsername = GlobalVariable.AutoUserAdminSuite
 			deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Demo_1.xlsx'
-	nameSheet = 'ManageEmailText'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Demo_1.xlsx', nameSheet, true)
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
+	nameSheet = "ManageEmailTxtFilter_Par1stName"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
 	
 		break
 		
@@ -84,85 +88,14 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.AutoUserAdminSuite
 		deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Prod_1.xlsx'
-	nameSheet = 'ManageEmailText'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Prod_1.xlsx', nameSheet, true)
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
+	nameSheet = "ManageEmailTxtFilter_Par1stName"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
 
 		break		
 		
 }
-	
-
-numOfRows = dataFile.getRowNumbers()
-println("Number of Records: " + numOfRows)
-
-
-// For each row in the spreadsheet, execute the given steps
-for (def row = 1; row <= numOfRows; row++)
-	{
-	
-		ExecuteTC = dataFile.getValue('Execute', row)
-		System.out.println('Value of Execute is : ' + ExecuteTC)
-		
-		
-		if (ExecuteTC.equalsIgnoreCase("Y"))
-			{
-				System.out.println('Begin Record Number: ' + row)
-	
-				Date today = new Date()
-				println (today)
-				String datText = today
-				
-				
-				 M_PaymentApp = dataFile.getValue("PaymentApp", row)
-				 				 
-				// Ignore CAN from Excel and generate random 8-digit CAN, bcoz CAN value should not be repeated
-				int randomCAN = 10000000 + new Random().nextInt(90000000)
-				M_CAN = randomCAN.toString()
-				KeywordUtil.logInfo(M_CAN)				 
-				
-				// Ignore Amount from Excel and generate between 0.00 and 999.99, bcoz Amount value should not be repeated
-				Random random = new Random()
-				double amount = random.nextDouble() * 1000
-				DecimalFormat df = new DecimalFormat("###.00")
-				M_Amount = df.format(amount)
-				println(M_Amount)
-				
-				M_FirstName = RandomStringUtils.randomAlphabetic(10)
-				println(M_FirstName)
-				// Get first 5 characters
-				partialFirstName = M_FirstName.substring(0, 5)
-				println(partialFirstName)
-		
-				 M_LastName = RandomStringUtils.randomAlphabetic(10)	
-				 println(M_LastName)
-				 
-				 M_Email = dataFile.getValue("Email", row)	
-				 M_Phone = dataFile.getValue("Phone", row)
-				 
-				 M_CompanyName = RandomStringUtils.randomAlphabetic(10)		
-				 println(M_CompanyName)
-				 
-				 M_DueDate = dataFile.getValue("DueDate", row)
-				 println(M_DueDate)
-				 M_AddressLine1 = dataFile.getValue("AddressLine1", row)
-				 M_AddressLine2 = dataFile.getValue("AddressLine2", row)
-				 M_City = dataFile.getValue("City", row)
-				 M_ZipCode = dataFile.getValue("ZipCode", row)
-				 WebUI.delay(2)
-				 M_State = dataFile.getValue("State", row)
-				 
-				 M_UDF1 = dataFile.getValue("UDF1", row)
-				 M_UDF2 = dataFile.getValue("UDF2", row)
-				 M_UDF3 = dataFile.getValue("UDF3", row)
-				 M_UDF4 = dataFile.getValue("UDF4", row)
-				 M_UDF5 = dataFile.getValue("UDF5", row)
-				 M_UDF6 = dataFile.getValue("UDF6", row)
-				 M_UDF7 = dataFile.getValue("UDF7", row)
-				 M_UDF8 = dataFile.getValue("UDF8", row)
-				 M_UDF9 = dataFile.getValue("UDF9", row)
-				 M_UDF10 = dataFile.getValue("UDF10", row)
-				 
+					 
 
 // Log into Admin Suite
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)
@@ -173,6 +106,64 @@ WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoar
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/Link_leftNav_IssueEmail_TaxtoPay'))
 
+
+//inserting values
+	M_PaymentApp = "DeepWebPay485"
+					 
+	// Ignore CAN from Excel and generate random 8-digit CAN, bcoz CAN value should not be repeated
+	int randomCAN = 10000000 + new Random().nextInt(90000000)
+	M_CAN = randomCAN.toString()
+	KeywordUtil.logInfo(M_CAN)
+	
+	// Ignore Amount from Excel and generate between 0.00 and 999.99, bcoz Amount value should not be repeated
+	Random random = new Random()
+	double amount = random.nextDouble() * 1000
+	DecimalFormat df = new DecimalFormat("###.00")
+	M_Amount = df.format(amount)
+	println(M_Amount)
+	
+	M_FirstName = RandomStringUtils.randomAlphabetic(10)
+	println(M_FirstName)
+	// Get first 5 characters
+	partialFirstName = M_FirstName.substring(0, 5)
+	println(partialFirstName)
+					 
+	M_LastName = RandomStringUtils.randomAlphabetic(10)
+	
+	M_Email = "abc@deluxe.com"
+	
+	M_Phone = "1234567890"
+	
+	M_CompanyName = RandomStringUtils.randomAlphabetic(10)
+			
+	// Get current date
+	Calendar cal = Calendar.getInstance()
+	cal.add(Calendar.DAY_OF_MONTH, 1)  // future date (recommended)
+	M_DueDate = new SimpleDateFormat("MM/dd/yyyy").format(cal.getTime())
+	println(M_DueDate)
+									
+	M_AddressLine1 = "Pune, 123"
+	
+	M_AddressLine2 = "Kothrud"
+	
+	M_City = "Goa"
+	
+	M_ZipCode = "123456"
+	WebUI.delay(2)
+	M_State = "South Carolina"
+	
+	M_UDF1 = "PQ1"
+	M_UDF2 = "PQ2"
+	M_UDF3 = "PQ3"
+	M_UDF4 = ""
+	M_UDF5 = ""
+	M_UDF6 = ""
+	M_UDF7 = ""
+	M_UDF8 = ""
+	M_UDF9 = ""
+	M_UDF10 = ""
+
+
 //filling data into 'Manual Entry' page
 CustomKeywords.'issueEmailTextToPay.ManualEntry_Page.setDataManualEntry'(M_PaymentApp, M_CAN, M_Amount, M_FirstName, M_LastName, M_Email, M_Phone, M_CompanyName,M_DueDate, M_AddressLine1, M_AddressLine2, M_City, M_State, M_ZipCode, M_UDF1, M_UDF2, M_UDF3, M_UDF4, M_UDF5, M_UDF6, M_UDF7, M_UDF8, M_UDF9, M_UDF10)
 
@@ -182,163 +173,109 @@ CustomKeywords.'issueEmailTextToPay.ManualEntry_Page.SendPaymentLink'()
 
 //verifying results
 WebUI.delay(2)
-
 String expectedMsg = 'Payment Link Sent Successfully for Manual Entry with Client Account Number ' + M_CAN
 println(expectedMsg)
 if (WebUI.verifyTextPresent(expectedMsg, false)) {
 		isRequiredTextPresent = true
 		println(isRequiredTextPresent)
-		}
+										                  	
+		numOfRows = dataFile.getRowNumbers()               //Part 2 Manage Email or Text to Pay
+		println("Number of Records: " + numOfRows)
+		
+		
+		for (def searchRow = 1; searchRow <= numOfRows; searchRow++)
+			{
+			
+				ExecuteTC = dataFile.getValue('Run', searchRow)            //changed to Run from Execute
+				System.out.println('Value of Execute is : ' + ExecuteTC)
+				
+				
+				if (ExecuteTC.equalsIgnoreCase("Y"))
+					{
+						System.out.println('Begin Record Number: ' + searchRow)
+			
+						Date today = new Date()
+						println (today)
+						String datText = today
+														
+						M_PaymentId = dataFile.getValue("PaymentId", searchRow)
+						 
+		//Menu
+		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
+		
+		//Select Manage Email or Text to Pay Link
+		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
+		
+		//Search Results
+		CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.SearchResults'(M_PaymentId)
+		
+		//Filter (partialFirstName)
+		CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(partialFirstName)  //T_Filtertext is partialFirstName here
+				
+			
+		//verifying dates
+		CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.DatesVerification'()
+		
+		
+		//verifying Search Results and message (reporting in excel)
+		
+		if (
+			WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false) &&
+			
+			WebUI.verifyTextPresent(partialFirstName, false) &&
+			WebUI.verifyTextPresent(M_LastName, false) 	&&
+			WebUI.verifyTextPresent(M_CompanyName, false) &&
+			
+			WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/AccountNumber'), M_CAN) &&
+			
+			WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/User'), 'iahmed') &&
+			
+			WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillAmount'), "\$${M_Amount}") &&
+		
+			WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Active'), 'Active') &&
+			WebUI.verifyTextPresent('Resend', false) &&
+			WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Resend')) &&
+			WebUI.verifyTextPresent('Expire', false) &&
+			WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Expire'))) {
+			
+			isRequiredTextPresent = true
+			println(isRequiredTextPresent)
+			println("First Name: ${partialFirstName}, Last Name: ${M_LastName}, Company Name: ${M_CompanyName}, Account Number: ${M_CAN}, Bill Amount: ${"\$${M_Amount}"}")  }
+		
 		else {
 			isRequiredTextPresent = false
+			}
+		
+			
+			
+			 if (isRequiredTextPresent == true)
+					{
+						println "All the relevant texts are present on Receipt Page"
+						KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
+						resText = "Pass"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,searchRow)
+				
+					}
+			 else
+					{
+						println "Some texts are missing on the Receipt page"
+						KeywordUtil.markFailed("Some texts are missing on the Receipt page")
+						resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,searchRow)
+					}
+			
+			}
 		}
 		
-	
-	if (isRequiredTextPresent == true)
-			{
-				println "All the relevant texts are present on Receipt Page"
-				KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
-				resText = "Pass"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+									
 		
-			}
-	else
-			{
-				println "Some texts are missing on the Receipt page"
-				KeywordUtil.markFailed("Some texts are missing on the Receipt page")
-				resText = "Fail"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)		
-			}	
-		
-    }
-}
-
-
-								//Part 2 Manage Email or Text to Pay
-
-switch(executionProfile)
-{
+	}
 	
-	case "QAProfile":
-		
-	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx"
-	nameSheet = "ManageEmailTxtFilter_Par1stName"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx", nameSheet, true)
-	
-	break
-		
-	case "QA2Profile":
-		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx'
-	nameSheet = 'ManageEmailTxtFilter_Par1stName'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx', nameSheet, true)
-		
-	break
-			
-	case "DemoProfile":
-		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Demo_2.xlsx'
-	nameSheet = 'ManageEmailTxtFilter_Par1stName'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Demo_2.xlsx', nameSheet, true)
-	
-	break
-		
-	case "Production":
-		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Prod_2.xlsx'
-	nameSheet = 'ManageEmailTxtFilter_Par1stName'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Prod_2.xlsx', nameSheet, true)
-
-	break
-		
-}
-	
-
-numOfRows = dataFile.getRowNumbers()
-println("Number of Records: " + numOfRows)
-
-
-for (def row = 1; row <= numOfRows; row++)
-	{
-	
-		ExecuteTC = dataFile.getValue('Execute', row)
-		System.out.println('Value of Execute is : ' + ExecuteTC)
-		
-		
-		if (ExecuteTC.equalsIgnoreCase("Y"))
-			{
-				System.out.println('Begin Record Number: ' + row)
-	
-				Date today = new Date()
-				println (today)
-				String datText = today
-												
-				 M_PaymentId = dataFile.getValue("PaymentId", row)				
-				 
-//Menu
-WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
-
-//Select Manage Email or Text to Pay Link
-WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
-
-//Search Results
-CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.SearchResults'(M_PaymentId)
-
-//Filter (partialFirstName)
-CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(partialFirstName)  //T_Filtertext is partialFirstName here
-		
-	
-//verifying dates
-CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.DatesVerification'()
-
-
-//verifying Search Results and message (reporting in excel)
-
-if (
-    WebUI.verifyTextPresent('Filter applied successfully. Found 1 record(s).', false) &&
-	
-	WebUI.verifyTextPresent(partialFirstName, false) &&
-    WebUI.verifyTextPresent(M_LastName, false) 	&&
-    WebUI.verifyTextPresent(M_CompanyName, false) && 
-	
-	WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/AccountNumber'), M_CAN) &&
-	
-    WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/User'), 'iahmed') &&
-	
-	WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillAmount'), "\$${M_Amount}") &&
-
-    WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Status_Active'), 'Active') &&
-	WebUI.verifyTextPresent('Resend', false) &&
-	WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Resend')) &&
-	WebUI.verifyTextPresent('Expire', false) &&
-	WebUI.verifyElementClickable(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/Expire'))) {
-	
-    isRequiredTextPresent = true
-    println(isRequiredTextPresent)
-	println("First Name: ${partialFirstName}, Last Name: ${M_LastName}, Company Name: ${M_CompanyName}, Account Number: ${M_CAN}, Bill Amount: ${"\$${M_Amount}"}")  }
-
 else {
-    isRequiredTextPresent = false
-	}
+	 isRequiredTextPresent = false
+	 }
+	 	
+			
 
-	
-	
-	if (isRequiredTextPresent == true)
-			{
-				println "All the relevant texts are present on Receipt Page"
-				KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
-				resText = "Pass"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-		
-			}
-	else
-			{
-				println "Some texts are missing on the Receipt page"
-				KeywordUtil.markFailed("Some texts are missing on the Receipt page")
-				resText = "Fail"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-			}
-	
-	}
-}
+								
 

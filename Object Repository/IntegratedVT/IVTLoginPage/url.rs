@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Send_Request</name>
+   <name>url</name>
    <tag></tag>
-   <elementGuidId>5b159877-19ea-4588-9486-35e21e622e16</elementGuidId>
+   <elementGuidId>e6e2335b-b368-4d2b-b23b-b707e6ac3772</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'sendBtn']</value>
+         <value>//*[@id = 'endpoint']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>sendBtn</value>
-      <webElementGuid>3de0289c-329f-4643-9af0-e30e4f5bf90c</webElementGuid>
+      <value>endpoint</value>
+      <webElementGuid>d29a39a8-d2c2-4948-87a5-554fe980668a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

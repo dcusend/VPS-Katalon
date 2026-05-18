@@ -47,9 +47,9 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.Username
 		deepPassword = GlobalVariable.Password
 	
-	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx"
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
 	nameSheet = "ManageEmailText_Errors_Search"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
 	
 		break
 		
@@ -58,9 +58,9 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.Username
 		deepPassword = GlobalVariable.Password
 		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx'
+	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText.xlsx'
 	nameSheet = 'ManageEmailText_Errors_Search'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx', nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText.xlsx', nameSheet, true)
 		
 		break
 			
@@ -69,9 +69,9 @@ switch(executionProfile)
 			deepUsername = GlobalVariable.AutoUserAdminSuite
 			deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx'
+	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText.xlsx'
 	nameSheet = 'ManageEmailText_Errors_Search'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx', nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText.xlsx', nameSheet, true)
 	
 		break
 		
@@ -80,9 +80,9 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.AutoUserAdminSuite
 		deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx'
+	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText.xlsx'
 	nameSheet = 'ManageEmailText_Errors_Search'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_2.xlsx', nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText.xlsx', nameSheet, true)
 
 		break		
 		
@@ -97,7 +97,7 @@ println("Number of Records: " + numOfRows)
 for (def row = 1; row <= numOfRows; row++)
 	{
 	
-		ExecuteTC = dataFile.getValue('Execute', row)
+		ExecuteTC = dataFile.getValue('Run', row)
 		System.out.println('Value of Execute is : ' + ExecuteTC)
 		
 		

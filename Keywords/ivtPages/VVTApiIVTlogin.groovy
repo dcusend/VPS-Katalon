@@ -20,27 +20,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
+
 public class VVTApiIVTlogin {
 		
 	
-	String Env_In, EndPoint_In, AuthUser_In, AuthPass_In, Token_In, JSONBody_In, SendReq_In, SendToPayment_In
+	String url_In, Environment_In, AuthUser_In, AuthPass_In, Token_In, JSONBody_In
 	
 	
 @Keyword
-def SetDataVVTApiIVTlogin (Env_In, EndPoint_In, AuthUser_In, AuthPass_In, Token_In, JSONBody_In, SendReq_In, SendToPayment_In){
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+def SetDataVVTApiIVTlogin (url_In, Environment_In, AuthUser_In, AuthPass_In, Token_In, JSONBody_In) {
 
- }
+		WebUI.openBrowser(url_In)
+		WebUI.maximizeWindow()
+			
+		if (WebUI.verifyTextPresent('VVTAPI Form POST Tester', true)) {
+			println("We are on 'VVTAPI Form POST Tester' page")
+
+			WebUI.selectOptionByLabel(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Environment'), Environment_In, false)
+			WebUI.setText(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Basic_Auth_User'), AuthUser_In)
+			WebUI.setText(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Basic_Auth_Pass'), AuthPass_In)
+			WebUI.setText(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Partner_Token'), Token_In)
+			WebUI.setText(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/JSON_Body'), JSONBody_In)
+			
+			WebUI.delay(2)						
+			WebUI.click(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Submit_button'))
+			
+		}				
+		
+  }
+ 
 
 }

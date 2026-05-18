@@ -223,7 +223,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qa.velocitypayment.com/VVTAPI/bootstrap/test-vvtapi-request.html'</initValue>
+      <initValue>'https://dev-algorithm.govolution.com/vvtapi/VVTAPI_FORM_POST_TEST_PAGE.html'</initValue>
       <name>IVTUrl</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

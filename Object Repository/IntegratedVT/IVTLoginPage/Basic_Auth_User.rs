@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'Basic Auth User']</value>
+         <value>//*[@id = 'username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Basic Auth User</value>
-      <webElementGuid>bbcd1e33-f402-46b1-8c1b-3307c77efb2b</webElementGuid>
+      <value>username</value>
+      <webElementGuid>2d0245e5-d5f5-4058-83eb-cd30e328c9ac</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

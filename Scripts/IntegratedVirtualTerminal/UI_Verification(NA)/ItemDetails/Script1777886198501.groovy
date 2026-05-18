@@ -49,8 +49,8 @@ WebUI.setText(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show')
 WebUI.click(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Previous'))
 
 WebUI.verifyTextPresent('Show', true)
-WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Endpoint'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Endpoint'), 10)
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/url'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/url'), 10)
 println("'Show' dropdown is present on 'Item Details' Page")
 
 WebUI.verifyTextPresent('Due Amount', true)

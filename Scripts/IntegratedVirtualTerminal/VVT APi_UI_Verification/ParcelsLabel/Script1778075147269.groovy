@@ -49,10 +49,22 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/Parcel
 WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'), 10)
 WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'))
 
-WebUI.verifyTextPresent('entries', true)
-WebUI.verifyTextPresent('Ref Number', true)
+WebUI.verifyTextPresent('Reference Number', true)
 WebUI.verifyTextPresent('Quantity', true)
 WebUI.verifyTextPresent('Amount', true)
+WebUI.verifyTextPresent('Tax Amount', true)
+WebUI.verifyTextPresent('Date', true)
+WebUI.verifyTextPresent('Day', true)
+WebUI.verifyTextPresent('Year', true)
+WebUI.verifyTextPresent('Penaltly number', true)
+WebUI.verifyTextPresent('Location', true)
+WebUI.verifyTextPresent('Cashier Name', true)
+WebUI.verifyTextPresent('Cashier ID', true)
+WebUI.verifyTextPresent('Cashier Role', true)
+WebUI.verifyTextPresent('Daily limit', true)
+WebUI.verifyTextPresent('Product name', true)
+WebUI.verifyTextPresent('Product type', true)
+
 WebUI.verifyTextPresent('Previous', true)
 WebUI.verifyTextPresent('Next', true)
 
@@ -70,10 +82,22 @@ if (
 		WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'), 10) &&
 		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show')) &&
 		
-		WebUI.verifyTextPresent('entries', true) &&
-		WebUI.verifyTextPresent('Ref Number', true) &&
+		WebUI.verifyTextPresent('Reference Number', true) &&
 		WebUI.verifyTextPresent('Quantity', true) &&
 		WebUI.verifyTextPresent('Amount', true) &&
+		WebUI.verifyTextPresent('Tax Amount', true) &&
+		WebUI.verifyTextPresent('Date', true) &&
+		WebUI.verifyTextPresent('Day', true) &&
+		WebUI.verifyTextPresent('Year', true) &&
+		WebUI.verifyTextPresent('Penaltly number', true) &&
+		WebUI.verifyTextPresent('Location', true) &&
+		WebUI.verifyTextPresent('Cashier Name', true) &&
+		WebUI.verifyTextPresent('Cashier ID', true) &&
+		WebUI.verifyTextPresent('Cashier Role', true) &&
+		WebUI.verifyTextPresent('Daily limit', true) &&
+		WebUI.verifyTextPresent('Product name', true) &&
+		WebUI.verifyTextPresent('Product type', true) &&
+				
 		WebUI.verifyTextPresent('Previous', true) &&
 		WebUI.verifyTextPresent('Next', true) &&
 		
