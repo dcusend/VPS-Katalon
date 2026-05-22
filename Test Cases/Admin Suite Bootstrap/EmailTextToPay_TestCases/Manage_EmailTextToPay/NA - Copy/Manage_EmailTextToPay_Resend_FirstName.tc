@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Manage_EmailTextToPay_Resend_FirstName</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5a34166a-560d-43f8-9bfe-e0668a15456a</testCaseGuid>
-</TestCaseEntity>

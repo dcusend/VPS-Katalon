@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Manage_EmailTextToPay_Filter_LastName - Copy</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4f9a7bc7-e0dc-4a5a-b250-b8cc6d1d47f4</testCaseGuid>
-</TestCaseEntity>

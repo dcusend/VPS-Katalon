@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Manage_EmailTextToPay_Filter_CompanyName</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5d0b9bea-f960-4779-9566-50ac9cfba13a</testCaseGuid>
-</TestCaseEntity>

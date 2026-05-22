@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Manage_EmailTextToPay_Expire_FirstName - Copy</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>bbc5e93f-588b-4dea-9e56-695223f6380c</testCaseGuid>
-</TestCaseEntity>

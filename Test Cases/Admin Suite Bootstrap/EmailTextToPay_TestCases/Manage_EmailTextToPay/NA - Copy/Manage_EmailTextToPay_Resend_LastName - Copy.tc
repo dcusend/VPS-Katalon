@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Manage_EmailTextToPay_Resend_LastName - Copy</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>252e2f09-49ac-4c46-8c86-20b62c86f9e5</testCaseGuid>
-</TestCaseEntity>

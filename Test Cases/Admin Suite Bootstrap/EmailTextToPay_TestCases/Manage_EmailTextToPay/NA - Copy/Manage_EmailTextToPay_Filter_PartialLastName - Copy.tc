@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Manage_EmailTextToPay_Filter_PartialLastName - Copy</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>fb797e59-9160-455d-a478-ef20f50afccd</testCaseGuid>
-</TestCaseEntity>

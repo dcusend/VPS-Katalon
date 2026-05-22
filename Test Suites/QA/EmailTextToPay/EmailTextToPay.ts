@@ -54,143 +54,143 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f1907ee3-0ea3-4c39-94ee-83dec7fcaed0</guid>
+      <guid>cef8438e-732a-4338-8618-a485029db5e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_Used_AmountCAN</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_CANAmount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5e6fea6a-b4bf-4607-98a0-a0f85ff9e2a1</guid>
+      <guid>96a7213c-e8b5-4050-8acb-e4ff53fcaaeb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_Used_AmountCAN_Error</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_CANAmount_Error</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9c827061-e5c9-4ecc-8309-84ac0fdade34</guid>
+      <guid>1f84bc3b-75c2-4055-8cb3-3bc33a62d165</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Copy_CompanyName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Copy_CompanyName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>df82db3f-f5a2-490c-860c-b4271c63c169</guid>
+      <guid>b4b4fb1d-77f3-46e2-ae88-53fdd6272700</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Copy_FirstName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Copy_FirstName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b600f4e9-6aea-4a8c-8b5e-5712a1cd1317</guid>
+      <guid>aaf18d53-7515-4d7c-bd07-08441611ce56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Copy_LastName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Copy_LastName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c53967c1-0d48-4565-b856-571871ff51c2</guid>
+      <guid>612f55c2-e0ca-45db-b2b4-bee9eed5bd80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_ErrorsWithNoSearch</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_ErrorsWithNoSearch</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>144ffa87-2615-4c99-beb4-70d640ff1074</guid>
+      <guid>53833a97-ec10-4b90-89a2-e57a5e6b6a25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_ErrorsWithSearch</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_ErrorsWithSearch</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a430a188-c82e-449d-b6f4-edd03a317e10</guid>
+      <guid>a6a0cc47-4ed4-4fcf-a1a0-93146a2f1ace</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Expire_CompanyName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Expire_CompanyName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>facc0d38-b41f-45eb-896d-ad6238f8287b</guid>
+      <guid>caf889bf-2fae-4c80-80f3-3ab2f8acec11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Expire_FirstName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Expire_FirstName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3d3be57c-8bff-4187-8ef1-0b6bb23667a5</guid>
+      <guid>6d1963cb-66ae-48dc-9c28-9febf8488c15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Expire_LastName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Expire_LastName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>540ca243-bb49-4c13-baf1-430745042ada</guid>
+      <guid>a9ebcc01-1cab-4516-ba99-f7da35c2a311</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Filter_CompanyName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Filter_CompanyName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9cf15ab9-ab8f-4a88-89bd-c77b072f5da2</guid>
+      <guid>ce00a306-2ab4-45f0-8f5d-03d75dc6399f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Filter_FirstName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Filter_FirstName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cad6b002-2ec3-4b87-a2c7-7fd84d070e28</guid>
+      <guid>5ae9c71b-6c40-4cc5-b376-089a1bc20908</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Filter_LastName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Filter_LastName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f84adca4-cceb-4983-9e5f-bc32ba280ef7</guid>
+      <guid>8da7a09e-7bf3-4552-864e-ebd2eb1e26b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Filter_PartialCompName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Filter_PartialCompName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c79c932c-3d75-4584-9b51-7422b68b7ba4</guid>
+      <guid>59350d8a-69c7-4039-885a-57abb90d3477</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Filter_PartialFirstName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Filter_PartialFirstName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>293a3f5b-60bb-4685-a54e-2c5acd987c43</guid>
+      <guid>a48edfa8-eaea-4beb-8dde-c36278515cbf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Filter_PartialLastName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Filter_PartialLastName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>92ad57e6-8284-491c-b7ce-aab5650956c6</guid>
+      <guid>0e648129-d26b-4347-b0c8-f86487fe459e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Resend_CompanyName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Resend_CompanyName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a210b23e-feca-4544-b611-6a78172a9ae2</guid>
+      <guid>abcc4b67-eff6-44ba-a848-359c29ab0d03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Resend_FirstName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Resend_FirstName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b95bea54-f196-4929-9fb1-1a2b73da491c</guid>
+      <guid>d2f60fed-b4dc-47ca-b608-17b26e693ff3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Resend_LastName</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Resend_LastName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4ba80d40-6eff-41a1-bea1-5e0bbe428340</guid>
+      <guid>515534d1-bff6-4b73-9564-47ccc00115e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/NA/Manage_EmailTextToPay_Search(NA)</testCaseId>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manage_EmailTextToPay/Manage_EmailTextToPay_Search</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
