@@ -24,16 +24,13 @@ import java.text.DecimalFormat
 import java.util.Random
 import org.apache.commons.lang.RandomStringUtils
 
-def Url, Environment, UserName, Password, PartnerToken, JSONBody       
-
-def fileLoc, nameSheet, dataFile, numOfRows, isRequiredTextPresent= false
+	
+	def Url, Environment, UserName, Password, PartnerToken, JSONBody
+	
+	def fileLoc, nameSheet, dataFile, numOfRows, isRequiredTextPresent= false
+	
 
 def executionProfile = RC.getExecutionProfile()
-
-String resText = "Fail"
-//String datText = today
-String resColumn = "Result"
-String datCloumn = "Date"
 
 
 switch(executionProfile)
@@ -43,7 +40,7 @@ switch(executionProfile)
 			 UserName = GlobalVariable.IVTUserName
 			 Password = GlobalVariable.IVTPassword
 			 PartnerToken= GlobalVariable.IVTPartnerToken
-			 			 
+						  
 		fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx'
 		nameSheet = 'SubmitRequest'
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx', nameSheet, true)
@@ -55,7 +52,7 @@ switch(executionProfile)
 			 UserName = GlobalVariable.IVTUserName
 			 Password = GlobalVariable.IVTPassword
 			 PartnerToken= GlobalVariable.IVTPartnerToken
-			 			 
+						  
 		fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx'
 		nameSheet = 'SubmitRequest'
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx', nameSheet, true)
@@ -67,7 +64,7 @@ switch(executionProfile)
 			 UserName = GlobalVariable.IVTUserName
 			 Password = GlobalVariable.IVTPassword
 			 PartnerToken= GlobalVariable.IVTPartnerToken
-			 			 
+						  
 		fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx'
 		nameSheet = 'SubmitRequest'
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx', nameSheet, true)
@@ -79,7 +76,7 @@ switch(executionProfile)
 			 UserName = GlobalVariable.IVTUserName
 			 Password = GlobalVariable.IVTPassword
 			 PartnerToken= GlobalVariable.IVTPartnerToken
-			 			 
+						  
 		fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx'
 		nameSheet = 'SubmitRequest'
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx', nameSheet, true)
@@ -134,7 +131,7 @@ switch(executionProfile)
 				 Environment = dataFile.getValue("Environment", row)
 				 JSONBody = dataFile.getValue("JSONBody", row)
 
-		    break
+			break
 				 
 }
 							  
@@ -142,6 +139,78 @@ switch(executionProfile)
 // Login(Submit Request)
 CustomKeywords.'ivtPages.VVTApiIVTlogin.SetDataVVTApiIVTlogin'(Url, Environment, UserName, Password, PartnerToken, JSONBody)
 
+
+					//Parcels Label page verification
+
+WebUI.verifyTextPresent('Parcels Label', true)
+
+WebUI.verifyTextPresent('Show', true)
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'), 10)
+WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'))
+
+WebUI.verifyTextPresent('Reference Number', true)
+WebUI.verifyTextPresent('Quantity', true)
+WebUI.verifyTextPresent('Amount', true)
+
+WebUI.verifyTextPresent('Previous', true)
+WebUI.verifyTextPresent('Next', true)
+
+WebUI.verifyTextPresent('Due Amount', true)
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'), 10)
+WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'))
+
+
+//reporting in excel
+if (
+		WebUI.verifyTextPresent('Parcels Label', true) &&
+		
+		WebUI.verifyTextPresent('Show', true) &&
+		WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'), 10) &&
+		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show')) &&
+		
+		WebUI.verifyTextPresent('Reference Number', true) &&
+		WebUI.verifyTextPresent('Quantity', true) &&
+		WebUI.verifyTextPresent('Amount', true) &&
+						
+		WebUI.verifyTextPresent('Previous', true) &&
+		WebUI.verifyTextPresent('Next', true) &&
+		
+		WebUI.verifyTextPresent('Due Amount', true) &&
+		WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount')) &&
+		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount')) 
+	) 
+
+		{
+		isRequiredTextPresent = true
+		println(isRequiredTextPresent) 
+		}
+
+else{
+	 isRequiredTextPresent = false
 	}
-			
+
+	
+	if (isRequiredTextPresent == true)
+			{
+				println "All the relevant texts are present on 'Parcels Label' Page"
+				//KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
+				//resText = "Pass"
+				//CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+		
+			}
+	else
+			{
+				println "Some texts are missing on the 'Parcels Label' page"
+				//KeywordUtil.markFailed("Some texts are missing on the Receipt page")
+				//resText = "Fail"
+				//CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+			}
+	
+	
+	}
+	
 }
+
+

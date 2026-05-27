@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>IVT_Login_Page</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>404eecc9-7444-4932-999d-696f295b3bdf</testCaseGuid>
-</TestCaseEntity>

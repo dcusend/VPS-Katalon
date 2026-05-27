@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Parcels_Label_Section</name>
+   <name>Credit_Debit_Card</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>312a7875-f3d6-48e8-a06a-e0f128d06903</testCaseGuid>
+   <testCaseGuid>6386f2d0-a696-40ae-9d25-426606589920</testCaseGuid>
 </TestCaseEntity>

@@ -24,22 +24,122 @@ import java.text.DecimalFormat
 import java.util.Random
 import org.apache.commons.lang.RandomStringUtils
 
-def IVTUrl, IVTUserName, IVTPassword, IVTPartnerToken, 
-	resText, datText, resColumn, datCloumn, fileLoc, nameSheet, row, isRequiredTextPresent= false
+	def Url, Environment, UserName, Password, PartnerToken, JSONBody
+	
+	def fileLoc, nameSheet, dataFile, numOfRows, isRequiredTextPresent= false
+	
 
 def executionProfile = RC.getExecutionProfile()
 
-IVTUrl = GlobalVariable.IVTUrl
 
-WebUI.openBrowser('')
-WebUI.maximizeWindow()
-WebUI.navigateToUrl(IVTUrl)
+switch(executionProfile)
+{
+	case "QAProfile":
+			 Url = "https://dev-algorithm.govolution.com/vvtapi/VVTAPI_FORM_POST_TEST_PAGE.html"
+			 UserName = GlobalVariable.IVTUserName
+			 Password = GlobalVariable.IVTPassword
+			 PartnerToken= GlobalVariable.IVTPartnerToken
+						  
+		fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx'
+		nameSheet = 'SubmitRequest'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx', nameSheet, true)
+		
+		break
+		
+	case "QA2Profile":
+			 Url = "https://dev-algorithm.govolution.com/vvtapi/VVTAPI_FORM_POST_TEST_PAGE.html"
+			 UserName = GlobalVariable.IVTUserName
+			 Password = GlobalVariable.IVTPassword
+			 PartnerToken= GlobalVariable.IVTPartnerToken
+						  
+		fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx'
+		nameSheet = 'SubmitRequest'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx', nameSheet, true)
+	
+		break
+				
+	case "DemoProfile":
+			 Url = "https://dev-algorithm.govolution.com/vvtapi/VVTAPI_FORM_POST_TEST_PAGE.html"
+			 UserName = GlobalVariable.IVTUserName
+			 Password = GlobalVariable.IVTPassword
+			 PartnerToken= GlobalVariable.IVTPartnerToken
+						  
+		fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx'
+		nameSheet = 'SubmitRequest'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx', nameSheet, true)
 
-//IVTUserName= GlobalVariable.IVTUserName
-//
-//IVTPassword= GlobalVariable.IVTPassword
-//
-//IVTPartnerToken= GlobalVariable.IVTPartnerToken
+		break
+		
+	case "Production":
+			 Url = "https://dev-algorithm.govolution.com/vvtapi/VVTAPI_FORM_POST_TEST_PAGE.html"
+			 UserName = GlobalVariable.IVTUserName
+			 Password = GlobalVariable.IVTPassword
+			 PartnerToken= GlobalVariable.IVTPartnerToken
+						  
+		fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx'
+		nameSheet = 'SubmitRequest'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_Login.xlsx', nameSheet, true)
+
+		break
+			
+}
+
+
+numOfRows = dataFile.getRowNumbers()
+println("Number of Records: " + numOfRows)
+
+
+// For each row in the spreadsheet, execute the given steps
+for (def row = 1; row <= numOfRows; row++)
+	{
+	
+		ExecuteTC = dataFile.getValue('Execute', row)
+		System.out.println('Value of Execute is : ' + ExecuteTC)
+		
+		
+		if (ExecuteTC.equalsIgnoreCase("Y"))
+			{
+				System.out.println('Begin Record Number: ' + row)
+	
+				Date today = new Date()
+				println (today)
+				String datText = today
+								
+				 
+switch(executionProfile)
+{
+	case "QAProfile":
+				 Environment = dataFile.getValue("Environment", row)
+				 JSONBody = dataFile.getValue("JSONBody", row)
+
+			break
+						
+	case "QA2Profile":
+				 Environment = dataFile.getValue("Environment", row)
+				 JSONBody = dataFile.getValue("JSONBody", row)
+
+			break
+		
+	case "DemoProfile":
+				 Environment = dataFile.getValue("Environment", row)
+				 JSONBody = dataFile.getValue("JSONBody", row)
+
+			break
+			
+	case "Production":
+				 Environment = dataFile.getValue("Environment", row)
+				 JSONBody = dataFile.getValue("JSONBody", row)
+
+			break
+				 
+}
+							  
+				 
+// Login(Submit Request)
+CustomKeywords.'ivtPages.VVTApiIVTlogin.SetDataVVTApiIVTlogin'(Url, Environment, UserName, Password, PartnerToken, JSONBody)
+
+
+						//Business Checking page verification
 
 
 WebUI.verifyTextPresent('Payment Details', true)
@@ -187,5 +287,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/Busine
 WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/BusinessChecking/button_Exit'))
 
 
-
+	}
+		
+}
+	
 

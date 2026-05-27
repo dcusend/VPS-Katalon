@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>EMV_Cloud_Terminal</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8bf1b25a-ebb2-4705-b7a7-e1d4b1f7be26</testCaseGuid>
-</TestCaseEntity>
