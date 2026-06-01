@@ -156,6 +156,7 @@ def ExecuteTC, Taxtype, Paymenttype
 						
 					}
 					
+					WebUI.delay(2)
 					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqOBDK95asqKeHw==')
 					//WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), '')
 					WebUI.verifyTextPresent('Please enter a valid FEIN with 9 digits.', true)

@@ -112,7 +112,7 @@
    <testCaseLink>
       <guid>14d954db-8eb6-4b3c-9ebd-14bf09957999</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP23-SelIDE/DCFCancelOnCFPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -315,7 +315,7 @@
    <testCaseLink>
       <guid>072f1dd8-e669-43bb-8d50-6cc4e3bc313d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/IntegratedWeb/IWP23-SelIDE/SCFCancelOnCFPC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

@@ -377,7 +377,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 												{
 													if(isRequiredTextPresent)
 														{
-																if(WebUI.verifyTextPresent('xxxxx6724', true))
+																if(WebUI.verifyTextPresent('xxxxx5544', true))
 																	{
 																		isRequiredTextPresent = true
 																	}
@@ -392,7 +392,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 												{
 													if(isRequiredTextPresent)
 														{
-																if(WebUI.verifyTextPresent('XXXXX6724', true))
+																if(WebUI.verifyTextPresent('XXXXX5544', true))
 																	{
 																		isRequiredTextPresent = true
 																	}

@@ -21,7 +21,8 @@ import com.kms.katalon.core.configuration.RunConfiguration as RC
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 import com.kms.katalon.core.configuration.RunConfiguration
-
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
 String resText = "Fail"
 String resColumn = "Result"
@@ -121,7 +122,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						}
 						else {println("Year is not present in the Excel Spreadsheet")}
 					
-				WebUI.delay(10)
+				WebUI.delay(2)
 						
 // Set Data SSN and Name under Taxpayer
 						CustomKeywords.'rad.getSetDataRAD.setDataRADssnAndName'()
@@ -132,10 +133,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 						
 // Select Joint Filer and populated SSN and Names
-						WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-						WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'),5)
+						//WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+						//WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'),5)
 						WebUI.delay(2)
-						WebUI.check(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'))
+						//WebUI.check(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'))
+						WebElement elementJointFiling = WebUiCommonHelper.findWebElement(findTestObject(orPath_FilingStatus + '/input_JointFiling_userType_New'),30)
+						WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(elementJointFiling))
 						WebUI.delay(2)
 						
 						CustomKeywords.'rad.getSetDataRAD.setDataRADssnAndNameJointFiler'()
@@ -151,10 +154,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			
 			
 // Select Continue Button
-						WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-						WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+						//WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+						//WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
 						WebUI.delay(2)
-						WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+						//WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+						WebElement element = WebUiCommonHelper.findWebElement(findTestObject(orPath_Landing + '/button_Continue'),30)
+						WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 			
 			
 // Verify Summary on Confirmation page
@@ -193,7 +198,9 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 						
 						
-							WebUI.click(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/btn_ChangePaymentMethod'))
+							//WebUI.click(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/btn_ChangePaymentMethod'))
+							WebElement elementCPM = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/btn_ChangePaymentMethod'),30)
+							WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(elementCPM))
 							WebUI.delay(2)
 							
 	// Verify that Select Payment Method page displays

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 only.</description>
+   <name>Personal_Joint_BeforePayments_Corporate_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3f291ad-5b0f-4c63-9dd3-c8b13b638b7e</testCaseGuid>
+</TestCaseEntity>

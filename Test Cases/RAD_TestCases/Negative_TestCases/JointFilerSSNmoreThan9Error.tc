@@ -4,5 +4,6 @@
    <name>JointFilerSSNmoreThan9Error</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f53d6f32-5934-454b-9fbc-f2d1681c5b0d</testCaseGuid>
 </TestCaseEntity>

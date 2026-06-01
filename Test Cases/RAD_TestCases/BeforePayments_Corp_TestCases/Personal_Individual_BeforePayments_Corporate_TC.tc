@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 only.</description>
+   <name>Personal_Individual_BeforePayments_Corporate_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dae69736-1d2a-4a2d-97e4-79bd3fc24219</testCaseGuid>
+</TestCaseEntity>

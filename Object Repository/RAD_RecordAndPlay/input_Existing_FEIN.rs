@@ -6,6 +6,10 @@
    <elementGuidId>ca6118b8-f868-47fc-9391-9a9f4afc9a8b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN *' and @ref_element = 'Object Repository/RAD_RecordAndPlay/iframe_TheSocial Security Number and Re-enter SSN do not match_tx_iframe_taxTypeExisitingFEINIFrame']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#data</value>
       </entry>
@@ -15,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6f86c618-6009-417d-a6e2-3dbc4ef03b04</webElementGuid>
+      <webElementGuid>05fb6ee6-b796-4031-aa17-ca913e283723</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +35,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>e65235e8-d63d-42d3-9916-6e8d2f1eb742</webElementGuid>
+      <webElementGuid>a0615342-058f-4a91-8dbc-46654aeeda51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +43,7 @@
       <name>id</name>
       <type>Main</type>
       <value>data</value>
-      <webElementGuid>958ad8f8-2820-478a-aa88-81eec70fdff2</webElementGuid>
+      <webElementGuid>d2ce234a-1ef2-46e3-bf17-6fcb76700d8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Data</value>
-      <webElementGuid>0faed359-6a28-469c-85e7-d1f98fb41f45</webElementGuid>
+      <webElementGuid>14a92a2d-c044-45e5-a2eb-4567de6606c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +59,15 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>4936d9c9-0b66-4146-bde0-ef66244d3287</webElementGuid>
+      <webElementGuid>cc1059ef-abee-492a-a7d0-3a830704be69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>FEIN Number *</value>
-      <webElementGuid>84717ec8-ce4e-4e03-8abb-28633a4daf3b</webElementGuid>
+      <value>FEIN *</value>
+      <webElementGuid>3c14b7a7-dc77-4e57-954b-adc008449db0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>class</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>95d6bf69-07c5-4caa-bfc9-35d7577fcea6</webElementGuid>
+      <webElementGuid>4980a1c8-7940-48cf-839d-a2ec5b711e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;data&quot;)</value>
-      <webElementGuid>47f8d2af-348c-4cf9-a9d9-b117f8e68a69</webElementGuid>
+      <webElementGuid>ba4f1f9b-067d-45cf-99e5-e977420902b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +91,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/RAD_RecordAndPlay/iframe_TheSocial Security Number and Re-enter SSN do not match_tx_iframe_taxTypeExisitingFEINIFrame</value>
-      <webElementGuid>504c4bf4-e84e-4cdd-8aba-9e9773f067d3</webElementGuid>
+      <webElementGuid>14355fe9-b9ef-4faa-8b92-876dcc1ca336</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +99,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='data']</value>
-      <webElementGuid>fffec072-4fc1-4ade-b51a-42512779b3c9</webElementGuid>
+      <webElementGuid>32d1d728-c21a-4bc4-85d7-9aa15087e99e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[27]</value>
-      <webElementGuid>5e4627f5-15a1-4e4c-aef3-147e4ec526e7</webElementGuid>
+      <webElementGuid>17000f38-44fd-4092-8812-dee53e4309dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'data' and @name = 'Data' and @type = 'password' and @placeholder = 'FEIN Number *']</value>
-      <webElementGuid>9fd3de61-4748-48cb-904c-54cdd0869772</webElementGuid>
+      <webElementGuid>1e11c653-1230-4572-a49c-3ecf2891e93f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

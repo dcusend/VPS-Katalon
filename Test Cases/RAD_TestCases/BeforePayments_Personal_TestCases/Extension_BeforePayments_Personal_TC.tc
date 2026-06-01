@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 Only.</description>
+   <name>Extension_BeforePayments_Personal_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f863080c-5aff-41e2-a1a0-0b5df8bd0aad</testCaseGuid>
+</TestCaseEntity>

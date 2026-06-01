@@ -14,49 +14,49 @@
    <testCaseLink>
       <guid>8a8fa502-7159-42f7-a403-9f706088eea8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/ChangePaymentMethod_CC_TestCases/Estimated_ChangePaymentMethod_CC_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2c50e8dd-3ada-4f82-a601-d89c1182fa93</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/ChangePaymentMethod_CC_TestCases/Existing_ChangePaymentMethod_CC_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>704ae837-5afa-45c4-9c94-e242a5fa8f38</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/ChangePaymentMethod_CC_TestCases/Extension_ChangePaymentMethod_CC_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>efb39ab5-7212-4b5f-9b3d-6e6b8d4772fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/ChangePaymentMethod_CC_TestCases/NewTaxReturn_ChangePaymentMethod_CC_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cc07ce37-bb11-44a5-8f6c-21e00fad6523</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/ChangePaymentMethod_CC_TestCases/Personal_EL_ChangePaymentMethod_CC_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dad96f9a-5ff3-4b02-be48-0630d247b621</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/ChangePaymentMethod_CC_TestCases/Personal_Individual_ChangePaymentMethod_CC_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>534263b4-eca4-4512-859b-a4ca95c3278e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/ChangePaymentMethod_CC_TestCases/Personal_Joint_ChangePaymentMethod_CC_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

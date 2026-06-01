@@ -73,7 +73,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 //		if (WebUI.verifyEqual(totalOptionsPaymentType, 3))
 
 // Updates for August 2023
-		if (WebUI.verifyEqual(totalOptionsPaymentType, 8))
+		if (WebUI.verifyEqual(totalOptionsPaymentType, 9))
 		
 			{
 				System.out.println('Total Options for Payment Type are correct: ' + totalOptionsPaymentType)
@@ -103,9 +103,9 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			
 			
 // Updates for August 2023
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Select', 'Corporate Income Tax',  'Fiduciary Tax', 'Personal Income Tax', 'PTE Non-Electing Non-S Corp', 'PTE Non-Electing S Corp', 'PTE Tax Electing Non-S Corp', 'PTE Tax Electing S Corp'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Select', 'Corporate Income Tax',  'Fiduciary Tax', 'Personal Income Tax', 'PTE Non-Electing Non-S Corp', 'PTE Non-Electing S Corp', 'PTE Tax Electing Non-S Corp', 'PTE Tax Electing S Corp','Digital Advertising Gross Revenues'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2025'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2026'])
 		
 		
 /*
@@ -144,7 +144,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.verifyTextPresent('Payment Amount', true)
 		
-		WebUI.verifyTextPresent('Service Fee: This electronic government service includes a service/convenience fee. Click here for details', true)
+		WebUI.verifyTextPresent('Service Fee: This electronic government service may include a service/convenience fee. Click here for details', true)
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/a_Click here for details'), 30)
 		

@@ -118,12 +118,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"10.00")
 					
 					
-					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
+					//WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
 		
 		
 // Select Continue Button
-					WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+					//WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+					//WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
 					WebUI.delay(5)
 					WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 					WebUI.delay(5)
@@ -134,7 +134,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.click(findTestObject(orPath_Summary + '/button_Proceed to Payment'))
 					WebUI.delay(2)
 					
-// Select Pay by Credit or Debit Card
+// Select Pay by Personal Check
 									
 		if (WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/SelectPaymentMethod/PayByPersonalCheck'), 30))
 		{
@@ -176,9 +176,10 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					def city = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_billingCity'), 'value')
 					WebUI.verifyMatch("GAMBRILLS", city, false)
 					
-					def email = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_emailAddress'), 'value')
+					def email = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_emailAddress_ACH'), 'value')
 					WebUI.verifyMatch("iahmed@govolution.com", email, false)
 					
+										
 					def amount = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input_amount'), 'value')
 					WebUI.verifyMatch("10.00", amount, false)
 					
@@ -188,6 +189,20 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/select_Country'), 'United States', false, 20)
 					
 					WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/select_State'), 'Maryland', false, 20)
+					
+					if (execProfile != "QAProfile" && execProfile != "QA2Profile")
+						{
+							if (WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/btn_Continue_ACH'), 30))
+							{
+								resText = "Pass"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							}
+							else
+							{
+								resText = "Fail"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							}
+						}
 					
 				if (execProfile == "QAProfile" || execProfile == "QA2Profile")
 				{

@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456724'</initValue>
+      <initValue>'123455544'</initValue>
       <name>rad_SSN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,12 +61,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456723'</initValue>
+      <initValue>'123459999'</initValue>
       <name>rad_SSN_Joint</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ctes'</initValue>
+      <initValue>'webb'</initValue>
       <name>rad_SSN_Joint_LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

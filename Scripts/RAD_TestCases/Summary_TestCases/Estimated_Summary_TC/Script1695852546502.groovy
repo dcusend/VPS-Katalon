@@ -100,6 +100,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					CustomKeywords.'rad.getSetDataRAD.setDataRADAddress'()
 				
 					
+					//WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
+					
 // Set Data FEIN
 					if (feinSSN.equalsIgnoreCase("Y"))
 					{
@@ -125,12 +127,15 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
-		
+					
+					//WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
+					WebUI.delay(2)
 		
 // Select Continue Button
-					WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
-					WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+					//WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+					//WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+					//WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+					WebUI.click(findTestObject('Object Repository/RAD_Pages/Landing_Page/button_Continue'))
 		
 		
 // Verify Summary on Confirmation page

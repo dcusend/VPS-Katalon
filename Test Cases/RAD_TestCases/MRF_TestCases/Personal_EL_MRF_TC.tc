@@ -4,5 +4,6 @@
    <name>Personal_EL_MRF_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>503cca4d-8c23-4fca-ae5e-82885e328f1f</testCaseGuid>
 </TestCaseEntity>

@@ -20,6 +20,8 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
 String resText = "Fail"
 String resColumn = "Result"
@@ -99,7 +101,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Set Data Address and Contact Information
 					CustomKeywords.'rad.getSetDataRAD.setDataRADAddress'()
 				
-					WebUI.delay(10)
+					WebUI.delay(2)
 // Set Data FEIN
 					if (feinSSN.equalsIgnoreCase("Y"))
 					{
@@ -119,13 +121,17 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
-		
+					WebUI.delay(5)
 		
 // Select Continue Button
-					WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
-					WebUI.delay(5)
+					//WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+					//WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+					//WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight)', [])
+					//WebUI.delay(2)
 					WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
+					WebElement element = WebUiCommonHelper.findWebElement(findTestObject(orPath_Landing + '/button_Continue'),30)
+					WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+		
 					WebUI.delay(2)
 		
 
@@ -153,8 +159,10 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 30))
 					
 				{
-					
-					WebUI.click(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/btn_ChangePaymentMethod'))
+					//WebUI.executeJavaScript('window.scrollTo(0, document.body.scrollHeight)', [])
+					//WebUI.click(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/btn_ChangePaymentMethod'))
+					WebElement elementCPM = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/btn_ChangePaymentMethod'),30)
+					WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(elementCPM))
 					WebUI.delay(2)
 					
 

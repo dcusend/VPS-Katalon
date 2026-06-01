@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>Estimated_DigitalAdvert_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c79d147f-2bfc-4d2f-98f3-b9c404c15068</testCaseGuid>
+</TestCaseEntity>

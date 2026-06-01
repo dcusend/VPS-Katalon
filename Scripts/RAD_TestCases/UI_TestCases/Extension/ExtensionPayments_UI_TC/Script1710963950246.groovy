@@ -53,7 +53,8 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		
 // Updates for August 2023
-		WebUI.verifyEqual(totalOptionsPaymentType, 8)
+// Updates for May 21, 2026 There are 9 options but 1 is hidden
+		WebUI.verifyEqual(totalOptionsPaymentType, 9)
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Select','Personal Income Tax','Corporate Income Tax','Fiduciary Tax'])
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp'])
@@ -72,7 +73,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyEqual(totalOptionsFilingYear, 1)
 			
 						
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2024'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2025'])
 		
 		
 /*
@@ -111,7 +112,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.verifyTextPresent('Payment Amount', true)
 		
-		WebUI.verifyTextPresent('Service Fee: This electronic government service includes a service/convenience fee. Click here for details', true)
+		WebUI.verifyTextPresent('Service Fee: This electronic government service may include a service/convenience fee. Click here for details', true)
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/a_Click here for details'), 30)
 		
