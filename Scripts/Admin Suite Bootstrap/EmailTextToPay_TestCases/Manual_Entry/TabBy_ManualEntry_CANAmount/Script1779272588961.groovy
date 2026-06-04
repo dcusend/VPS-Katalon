@@ -66,12 +66,12 @@ switch(executionProfile)
 			
 	case "DemoProfile":
 			deepAdminSuiteURL = "https://demo.velocitypayment.com/admin/imtiazdemo"
-			deepUsername = GlobalVariable.AutoUserAdminSuite
-			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			deepUsername = GlobalVariable.Username
+			deepPassword = GlobalVariable.Password
 		
-	fileLoc = "KatalonData/EmailTextToPay/ManualEntry_CANAmount.xlsx"
+	fileLoc = "KatalonData/EmailTextToPay/ManualEntry_CANAmount_Demo.xlsx"
 	nameSheet = "ManualEntry_CANAmount"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/ManualEntry_CANAmount.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/ManualEntry_CANAmount_Demo.xlsx", nameSheet, true)
 	
 		break
 				
@@ -80,9 +80,9 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.AutoUserAdminSuite
 		deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = "KatalonData/EmailTextToPay/ManualEntry_CANAmount.xlsx"
+	fileLoc = "KatalonData/EmailTextToPay/ManualEntry_CANAmount_Prod.xlsx"
 	nameSheet = "ManualEntry_CANAmount"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/ManualEntry_CANAmount.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/ManualEntry_CANAmount_Prod.xlsx", nameSheet, true)
 
 		break	
 		

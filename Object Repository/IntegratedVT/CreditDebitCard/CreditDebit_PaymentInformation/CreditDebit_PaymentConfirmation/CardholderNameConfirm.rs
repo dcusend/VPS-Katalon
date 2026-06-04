@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CardholderNameConfirm</name>
+   <tag></tag>
+   <elementGuidId>f904e863-3e0a-476c-a8ee-ed637fc792c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptForm&quot;]/div/div[5]/div[1]/div/div[4]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptForm&quot;]/div/div[5]/div[1]/div/div[4]/div[2]</value>
+      <webElementGuid>69159af1-d9d2-4c54-b1cf-e71ba02aec6e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
