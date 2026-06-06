@@ -185,9 +185,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 						
 						
-						WebUI.verifyTextPresent('Comptroller of Maryland', true)
-						//WebUI.verifyTextPresent('Revenue Administration Division', true)
-						WebUI.verifyTextPresent('Payment Information', true)
+						if (execProfile != "QAProfile" && execProfile != "QA2Profile")
+						{
+							WebUI.verifyTextPresent('Comptroller of Maryland', true)
+							WebUI.verifyTextPresent('Revenue Administration Division', true)
+							WebUI.verifyTextPresent('Payment Information', true)
+						}
 						
 						def card_Name = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
 						

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Works in all Environments</description>
-   <name>EMailNoMatch</name>
+   <name>Extension_CorporateIncomeTax_UI_TC</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7b319487-60b2-484d-8cbd-cf58ad5e1080</testCaseGuid>
+   <testCaseGuid>63adf5a0-c7e4-408c-93a4-46682e97d665</testCaseGuid>
 </TestCaseEntity>

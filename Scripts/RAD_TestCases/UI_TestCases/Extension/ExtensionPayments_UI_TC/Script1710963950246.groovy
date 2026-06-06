@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObject
 
 WebUI.openBrowser('')
 
@@ -59,10 +61,20 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Select','Personal Income Tax','Corporate Income Tax','Fiduciary Tax'])
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Non-Electing Non-S Corp','PTE Non-Electing S Corp'])
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp'])
-			
-			
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['Digital Advertising Gross Revenues'])
+		//WebUI.verifyOptionNotPresentByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'), "Digital Advertising Gross Revenues", false, 2)
+		//WebUI.verifyOptionNotPresentByValue(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'), "Personal Income Tax", false, 2)
+		//WebUI.verifyOptionsNotPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_PaymentType'),['PTE Tax Electing Non-S Corp','PTE Tax Electing S Corp'])
 		
-
+		
+		// Define the hidden option programmatically
+		TestObject hiddenOption = new TestObject("HiddenOption900")
+		hiddenOption.addProperty("xpath", ConditionType.EQUALS, "//option[@value='900'and contains(@style, 'display: none')]")
+		
+		// Verifies the element is hidden from the user interface
+		WebUI.verifyElementVisible(hiddenOption)	
+		
+//"Digital Advertising Gross Revenues"
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
 				
@@ -139,7 +151,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_PSSN'), 30)
 		
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'), 30)
-		WebUI.delay(10)
+		WebUI.delay(5)
 		
 		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatSSN'), 30)
 		
@@ -263,7 +275,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
 			
-			WebUI.delay(10)
+			WebUI.delay(5)
 			
 			WebUI.verifyElementVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
 			
@@ -281,7 +293,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
 						
-			WebUI.delay(10)
+			WebUI.delay(5)
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN'))
 				
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'))
@@ -325,7 +337,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'))
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'))
 				
-			WebUI.delay(10)
+			WebUI.delay(5)
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN'))
 			WebUI.verifyElementVisible(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'))
 			
@@ -337,7 +349,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 			
 			WebUI.verifyElementNotVisible(findTestObject(orPath_TaxPayer + '/input_suffix'))
 			
-			WebUI.delay(10)
+			WebUI.delay(5)
 			
 			WebUI.verifyElementNotVisible(findTestObject('RAD_RecordAndPlay/input_concatSSN'))
 			

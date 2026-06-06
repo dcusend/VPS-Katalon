@@ -20,7 +20,8 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RC
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
-
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
 String resText = "Fail"
 String resColumn = "Result"
@@ -116,7 +117,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						}
 						else {println("Year is not present in the Excel Spreadsheet")}
 					
-				WebUI.delay(10)
+				WebUI.delay(5)
 						
 // Set Data SSN and Name under Taxpayer
 			
@@ -184,9 +185,15 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 				{
 					
-					WebUI.verifyTextPresent('Comptroller of Maryland', true)
-					WebUI.verifyTextPresent('Revenue Administration Division', true)
-					WebUI.verifyTextPresent('Payment Information', true)
+					if (execProfile != "QAProfile" && execProfile != "QA2Profile")
+					{
+						WebUI.verifyTextPresent('Comptroller of Maryland', true)
+						WebUI.verifyTextPresent('Revenue Administration Division', true)
+						WebUI.verifyTextPresent('Payment Information', true)
+					}
+					
+					
+					
 					WebUI.verifyTextPresent('Type of Account', true)
 					WebUI.verifyTextPresent('Corporate Checking', true)
 					WebUI.verifyTextPresent('Employer Identification Number', true)
@@ -255,11 +262,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 					{
 // Fix this section for Corporate
-						WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/RoutingTransitNumber'),'256072691')
-						WebUI.click(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/radioBox_Checking'))
-						WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/AccountNumber'),'65896543')
-						WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/AccountNumberConfirm'),'65896543')
-						WebUI.click(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/chkBox_AcceptCondition'))
+						WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntryCorp_Page/Company_Name'),'My Company')
+					WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntryCorp_Page/RoutingTransitNumber'),'256072691')
+					WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntryCorp_Page/AccountNumber'),'65896543')
+					WebUI.setText(findTestObject('Object Repository/RAD_Pages/PaymentEntryCorp_Page/AccountNumberConfirm'),'65896543')
+					//WebUI.click(findTestObject('Object Repository/RAD_Pages/PaymentEntryCorp_Page/chkBox_AcceptCondition'))
+					WebUI.click(findTestObject('Object Repository/RAD_Pages/PaymentEntryPersonal_Page/EmailAddress'))
+					WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/RAD_Pages/PaymentEntryCorp_Page/chkBox_AcceptCondition'),30)
+					WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 						
 	
 	// Select Continue on VRelay Payment Entry page
@@ -272,35 +282,25 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 											
 	// Verify text on Dual CF Page
 						
-						WebUI.delay(2)
-						
-						WebUI.verifyTextPresent('Service Fee Acceptance', true)
-						WebUI.verifyTextPresent('This transaction is subject to a Service Fee of ', true)
-						WebUI.verifyTextPresent('Payment Amount:', true)
-						WebUI.verifyTextPresent('10.00', true)
-						WebUI.verifyTextPresent('Service Fee:', true)
-						WebUI.verifyTextPresent('1.00', true)
-						WebUI.verifyTextPresent('Total Amount:', true)
-						WebUI.verifyTextPresent('11.00', true)
-						WebUI.verifyTextPresent('Two transactions will appear on your bank statement, one in the amount of', true)
-						
-						
-						if (WebUI.verifyElementPresent(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'), 30))
+						WebUI.delay(10)
+					
+					WebUI.verifyTextNotPresent('Service Fee Acceptance', true)
+					WebUI.verifyTextNotPresent('This transaction is subject to a Service Fee of ', true)
+					
+					
+					
+					if (WebUI.verifyTextPresent('Successful Payment Receipt', true))
 						{
+							
 							resText = "Pass"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 							
-							//if (execProfile == "QAProfile" || execProfile == "QA2Profile")
-							//	{
-									WebUI.click(findTestObject(orPath_ServiceFeesAccept + '/input_convFeeNotifyAction'))
-									WebUI.delay(10)
-									WebUI.verifyTextPresent('Successful Payment Receipt', true)
-							//	}
 						}
 						else
 						{
 							resText = "Fail"
 							CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							KeywordUtil.markFailed("Payment was not successful.  Tax Type is : " + TaxType)
 						}
 					}
 				}

@@ -6,6 +6,10 @@
    <elementGuidId>2f369050-bbcd-4796-85ef-3569363c8aad</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'taxPaymentType' and @name = 'taxPaymentType']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#taxPaymentType</value>
       </entry>
@@ -15,6 +19,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,6 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
+      <webElementGuid>6621b4d0-3a42-4f36-bde0-d5a25e7a0e34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +35,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>taxPaymentTypeFilling()</value>
+      <webElementGuid>f1b08208-4b7c-4824-a4ed-ad55d89206ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-select</value>
+      <webElementGuid>e72b355d-625a-42b1-8b6d-a19e9b0a773c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>taxPaymentType</value>
+      <webElementGuid>d1233f9e-0f7f-4bfe-9c2a-52e669be2cee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +59,7 @@
       <name>name</name>
       <type>Main</type>
       <value>taxPaymentType</value>
+      <webElementGuid>fca58fab-f324-41ba-ba21-d8eb2d35eb57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,17 +67,19 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Floating label select example</value>
+      <webElementGuid>ed8a1e0f-6e7e-4640-a687-78b8fd488df0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-										    Select
-											Personal
-											Corporate
+      <value>&#xd;
+										    Select&#xd;
+											Personal&#xd;
+											Corporate&#xd;
 										  </value>
+      <webElementGuid>60838086-4cd0-4dc0-a9c8-6aa3e97c095b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;taxPaymentType&quot;)</value>
+      <webElementGuid>51d37c7b-23bd-4da4-a5c2-d96ef4601a14</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,6 +95,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='taxPaymentType']</value>
+      <webElementGuid>2b8e3e81-de24-416c-8879-b1dc23ec6f34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +103,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='taxForm']/div[3]/div/div/select</value>
+      <webElementGuid>161aa873-e817-4075-abe5-76b442ac7664</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a tax type'])[2]/following::select[1]</value>
+      <webElementGuid>bbcaded3-b23b-467e-90be-865e3f84a7a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax Type'])[1]/following::select[1]</value>
+      <webElementGuid>f920a5c1-75d1-4ef7-b167-05c290fc59e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Type'])[1]/preceding::select[1]</value>
+      <webElementGuid>6b10aefd-fb24-4639-b40e-69dbed83603b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a payment type'])[1]/preceding::select[1]</value>
+      <webElementGuid>5ecf08bf-f776-46cb-a75b-fb1d04b0ac5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,5 +143,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/select</value>
+      <webElementGuid>0eeebab7-c56e-4326-a6c6-13ab66b8cfc1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

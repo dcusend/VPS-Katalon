@@ -292,6 +292,20 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>abe3e0d1-0d85-4717-9f05-d25f44761391</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_CorporateIncomeTax_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>447f400b-3ba0-4396-a1a1-6963d23cdf47</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Extension/Extension_PersonalIncomeTax_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>f0fc60a0-a8b4-458c-8c2a-ffa238327095</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -520,6 +534,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/JointFilerSSNmoreThan9Error</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>30fe3663-f34d-4b46-81f3-ce594d8ac5e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/CRNNotZeroError</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
