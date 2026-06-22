@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Personal_Checking_Savings</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>72847cc2-2fb9-4ae2-9bdf-65a66c2f8293</testCaseGuid>
-</TestCaseEntity>

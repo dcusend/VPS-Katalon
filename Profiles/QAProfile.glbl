@@ -174,7 +174,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!77777'</initValue>
+      <initValue>'Hello!99999'</initValue>
       <name>abpNoCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -216,7 +216,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!77777'</initValue>
+      <initValue>'Hello!99999'</initValue>
       <name>abpDCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

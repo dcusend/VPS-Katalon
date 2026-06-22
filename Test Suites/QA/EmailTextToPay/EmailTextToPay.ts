@@ -193,32 +193,4 @@
       <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_Error</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>f75b5790-2177-46d8-bd98-f2e486a07267</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification/Issue_BillFileLookup_UIVerification</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ee2b418e-78a6-43be-82ed-18f884044d5d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification/Issue_ManualEntry_UIVerification</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>aba6dd80-8fd1-43b3-9573-df8253f3237e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification/ManageEmailTextToPay_UIVerification</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5857d210-9003-4226-af44-3800a5eaf818</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification/VerifyEmailTextToPayLinksOnDashboardPage</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

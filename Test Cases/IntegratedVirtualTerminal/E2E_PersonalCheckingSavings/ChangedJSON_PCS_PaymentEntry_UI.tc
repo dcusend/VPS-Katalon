@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangedJSON_PCS_PaymentEntry_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>19f5affc-893f-476f-9f5c-0a22ea17b560</testCaseGuid>
+</TestCaseEntity>

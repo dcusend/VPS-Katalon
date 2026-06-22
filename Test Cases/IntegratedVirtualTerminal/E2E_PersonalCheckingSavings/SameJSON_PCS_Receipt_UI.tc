@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SameJSON_PCS_Receipt_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>409257bb-1521-4f2c-9430-36fdd04453e5</testCaseGuid>
+</TestCaseEntity>

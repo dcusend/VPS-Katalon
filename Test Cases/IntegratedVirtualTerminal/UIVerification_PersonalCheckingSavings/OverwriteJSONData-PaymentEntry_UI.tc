@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OverwriteJSONData-PaymentEntry_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>246d657e-5a07-456d-a4b9-7bca94297d94</testCaseGuid>
+</TestCaseEntity>
