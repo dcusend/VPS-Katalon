@@ -53,66 +53,64 @@ import org.openqa.selenium.Keys as Keys
 
 SoftAssert softAssertion = new SoftAssert();
 WebUI.openBrowser('https://www.google.com/')
-def driver = DriverFactory.getWebDriver()
-String baseUrl = "https://www.google.com/"
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+String baseUrl = 'https://www.google.com/'
+int pageLoadTimeoutSeconds = 30
+
+def to = { String locator -> CustomKeywords.'customClasses.LegacyLocatorUtils.testObjectFromLegacyLocator'(locator) }
 
 def bwpURL = GlobalVariable.BWPURL
-selenium.open(bwpURL)
+if (bwpURL?.startsWith('http://') || bwpURL?.startsWith('https://')) {
+    WebUI.navigateToUrl(bwpURL)
+} else {
+    WebUI.navigateToUrl(baseUrl + bwpURL)
+}
 
-
-
-selenium.type("name=application_id", "623")
-selenium.type("name=message_version", ("1.5").toString())
-
-
-//selenium.type("name=remittance_id", "sdfsdfsdfsdf")
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
-selenium.type("name=remittance_id", genRemIDVoid)
 
+WebUI.setText(to('name=application_id'), '623')
+WebUI.setText(to('name=message_version'), '1.5')
+WebUI.setText(to('name=remittance_id'), genRemIDVoid)
 
-selenium.type("name=amount", ("20.00").toString())
-selenium.type("name=taxAmount", ("1.59").toString())
-selenium.type("name=clientAccountNumber", "abcdefr")
-selenium.type("name=user_defined1", ("udf1 data Hello").toString())
-selenium.type("name=user_defined2", ("udf2 data Hello").toString())
-selenium.type("name=user_defined3", ("udf3 data Hello").toString())
-selenium.type("name=user_defined4", ("udf4 data").toString())
-selenium.type("name=user_defined5", ("udf5 data").toString())
-selenium.type("name=user_defined6", ("udf6 data").toString())
-selenium.type("name=user_defined7", ("udf7 data").toString())
-selenium.type("name=user_defined8", ("udf8 data").toString())
-selenium.type("name=user_defined9", ("udf9 data").toString())
-selenium.type("name=user_defined10", ("udf10 data").toString())
-selenium.click("css=input[type=\"submit\"]")
-selenium.waitForPageToLoad("30000")
-selenium.click("name=paymentMethod")
-selenium.click("css=input[type=\"submit\"]")
-selenium.waitForPageToLoad("30000")
-selenium.type("id=billing-zip-input", "22201")
-selenium.type("name=amount", ("10.00").toString())
-selenium.type("name=userDefined1", ("udf1 data").toString())
-selenium.type("name=userDefined2", ("udf2 data").toString())
-selenium.type("name=userDefined3", ("udf3 data").toString())
-selenium.select("name=variableField4DropdownGroupItemID", "label=Vanilla")
-selenium.select("name=variableField5DropdownGroupItemID", "label=Strawberry")
-selenium.type("name=userDefined8", ("udf8 data").toString())
-selenium.type("name=billingName", ("Mark Zober").toString())
-selenium.type("id=cardNumber", "4111111111111111")
-selenium.type("id=spc", "111")
-selenium.select("name=cardExpMonth", "label=04")
-selenium.select("name=cardExpYear", "label=2028")
-selenium.type("name=billingAddress", ("2311 york road").toString())
-selenium.type("name=billingAddress2", ("suite 600").toString())
-selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
+WebUI.setText(to('name=amount'), '20.00')
+WebUI.setText(to('name=taxAmount'), '1.59')
+WebUI.setText(to('name=clientAccountNumber'), 'abcdefr')
+WebUI.setText(to('name=user_defined1'), 'udf1 data Hello')
+WebUI.setText(to('name=user_defined2'), 'udf2 data Hello')
+WebUI.setText(to('name=user_defined3'), 'udf3 data Hello')
+WebUI.setText(to('name=user_defined4'), 'udf4 data')
+WebUI.setText(to('name=user_defined5'), 'udf5 data')
+WebUI.setText(to('name=user_defined6'), 'udf6 data')
+WebUI.setText(to('name=user_defined7'), 'udf7 data')
+WebUI.setText(to('name=user_defined8'), 'udf8 data')
+WebUI.setText(to('name=user_defined9'), 'udf9 data')
+WebUI.setText(to('name=user_defined10'), 'udf10 data')
+WebUI.click(to('css=input[type="submit"]'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
+WebUI.click(to('name=paymentMethod'))
+WebUI.click(to('css=input[type="submit"]'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
-//softAssertion.assertEquals("4111111111111111", selenium.getValue("id=cardNumber"))
+WebUI.setText(to('id=billing-zip-input'), '22201')
+WebUI.setText(to('name=amount'), '10.00')
+WebUI.setText(to('name=userDefined1'), 'udf1 data')
+WebUI.setText(to('name=userDefined2'), 'udf2 data')
+WebUI.setText(to('name=userDefined3'), 'udf3 data')
+WebUI.selectOptionByLabel(to('name=variableField4DropdownGroupItemID'), 'Vanilla', false)
+WebUI.selectOptionByLabel(to('name=variableField5DropdownGroupItemID'), 'Strawberry', false)
+WebUI.setText(to('name=userDefined8'), 'udf8 data')
+WebUI.setText(to('name=billingName'), 'Mark Zober')
+WebUI.setText(to('id=cardNumber'), '4111111111111111')
+WebUI.setText(to('id=spc'), '111')
+WebUI.selectOptionByLabel(to('name=cardExpMonth'), '04', false)
+WebUI.selectOptionByLabel(to('name=cardExpYear'), '2028', false)
+WebUI.setText(to('name=billingAddress'), '2311 york road')
+WebUI.setText(to('name=billingAddress2'), 'suite 600')
+WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
+
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/creditCardNumber'), 'value', '4111111111111111', 1000)
 
-
-selenium.click("name=ccSubmit")
-selenium.waitForPageToLoad("30000")
-
+WebUI.click(to('name=ccSubmit'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/creditCardNumber'), 'value', '', 1000)

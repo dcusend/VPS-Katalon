@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>MFLNLessThanFiveError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>620d3112-8b84-4608-9cfa-939b6300803d</testCaseGuid>
+</TestCaseEntity>

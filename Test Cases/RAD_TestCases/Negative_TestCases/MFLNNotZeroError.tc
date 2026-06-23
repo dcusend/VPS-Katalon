@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>MFLNNotZeroError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da0fc59b-7d55-453f-a388-8576ef8c583e</testCaseGuid>
+</TestCaseEntity>

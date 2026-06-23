@@ -88,4 +88,18 @@
       <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/TaxPayerSSNNoMatch</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a142e444-8e6d-4574-9946-87a3b1b01c39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/MFLNLessThanFiveError</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a7e71787-4da2-426e-b5f0-294c8b37a755</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/Negative_TestCases/MFLNNotZeroError</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
