@@ -150,7 +150,7 @@ public class CreateProfilePage {
 		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCode'), zipCode)
 		Thread.sleep(5000)
 		WebUI.setText(findTestObject(path_CreateProfile + 'input_PostalCodeExt'), zipCodeExt)
-		
+
 
 
 		def genProfileName = org.apache.commons.lang.RandomStringUtils.random(12, true, true)

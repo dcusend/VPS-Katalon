@@ -10,6 +10,10 @@
          <value>a:nth-of-type(2)</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = concat(&quot;javascript:deferredPaymentAction(&quot; , &quot;'&quot; , &quot;edit&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;107714&quot; , &quot;'&quot; , &quot;);&quot;)]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//table[@id='deferredPaymentHistory']/tbody/tr/td[6]/a[2]</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e0578f8b-618c-4dd9-bf6d-9b6c35f55a68</webElementGuid>
+      <webElementGuid>ea46c479-f5fd-4d20-a2f8-c71cc3392fd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:deferredPaymentAction('edit', '107714');</value>
-      <webElementGuid>21b86ad6-bdfc-4f87-8c97-276614d02af7</webElementGuid>
+      <webElementGuid>d2198066-34f2-4c0e-9e1d-cf816b0603bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>| Edit </value>
-      <webElementGuid>ce2f2361-f126-4f4b-b4ff-912b4c0f63fc</webElementGuid>
+      <webElementGuid>569ee331-e4f6-4ab9-b12c-9f27627bc400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;deferredPaymentHistory&quot;)/tbody[1]/tr[@class=&quot;results-td-odd&quot;]/td[6]/a[2]</value>
-      <webElementGuid>e63142d9-ecde-46fa-aa48-c928e85aa248</webElementGuid>
+      <webElementGuid>86326fc2-4279-4750-960d-bd4197e51140</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='deferredPaymentHistory']/tbody/tr/td[6]/a[2]</value>
-      <webElementGuid>95221dbc-e811-4e08-bd06-20471028a79b</webElementGuid>
+      <webElementGuid>0198e79e-3cf4-425c-b8bb-f651496bef5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'| Edit')]</value>
-      <webElementGuid>7b76d4e1-1bc6-460d-b2dc-49ad06ace37d</webElementGuid>
+      <webElementGuid>5c3be7b9-776e-4e83-a58f-150b06ea63b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/following::a[1]</value>
-      <webElementGuid>9f444d5b-0103-4dbf-a2b4-8b327aa45587</webElementGuid>
+      <webElementGuid>2f7c2208-17e3-4296-a43b-2f648000793e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PENDING'])[1]/following::a[2]</value>
-      <webElementGuid>5061460a-a67d-453c-bb70-6f9d2e6d9d97</webElementGuid>
+      <webElementGuid>4e99874c-ca32-4f39-a4ee-d8e9d92b3b65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='| Cancel'])[1]/preceding::a[1]</value>
-      <webElementGuid>9b2137c7-65aa-4a05-9e27-d3943ede1c68</webElementGuid>
+      <webElementGuid>38c7c356-98b0-4bf5-8168-7988e2044e50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='| Edit']/parent::*</value>
-      <webElementGuid>38b4b13e-35a2-4c91-923e-30231866fd4b</webElementGuid>
+      <webElementGuid>6df5d8cf-39c7-444a-b98c-ce62f009ed3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, &quot;javascript:deferredPaymentAction('edit', '107714');&quot;)]</value>
-      <webElementGuid>f05bdf7c-5cfc-46ae-90c5-d80db71bf546</webElementGuid>
+      <webElementGuid>b6b77155-22ba-4a88-b0a9-dac56ad1a7ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>d13b1f1b-1633-4928-a1ad-bd748e0db990</webElementGuid>
+      <webElementGuid>4130f910-453b-4fe1-bf98-3b03b792c72b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = concat(&quot;javascript:deferredPaymentAction(&quot; , &quot;'&quot; , &quot;edit&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;107714&quot; , &quot;'&quot; , &quot;);&quot;) and (text() = '| Edit ' or . = '| Edit ')]</value>
-      <webElementGuid>2767ddc2-7c01-49d8-8171-9e5069b490d6</webElementGuid>
+      <webElementGuid>0f68e825-39db-49d8-9f79-071a490e699f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

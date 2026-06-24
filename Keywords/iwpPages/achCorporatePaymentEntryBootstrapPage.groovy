@@ -47,14 +47,41 @@ public class achCorporatePaymentEntryBootstrapPage {
 	}
 
 	@Keyword
-	def setDataACHDefferedMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID,ccDate) {
+	def setDataACHMainWithoutStored(nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID) {
 		this.setDataCompanyNameID(nameID)
 		this.setDataACH(ACHID)
 		this.setDataAddress(AddressID)
 		this.setDataEmailAndPhone(EmailPhoneID)
 		this.setDataudf(udfID)
+		//		this.selectCheckboxStoredPaymentMethod()
+		this.selectCheckboxACHTANDC()
+		this.selectContinueButton()
+	}
+
+	@Keyword
+	def setDataACHDefferedMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID,ccDate) {
+		this.setDataAddress(AddressID)
+		this.setDataCompanyNameID(nameID)
+		this.setDataACH(ACHID)
+		this.setDataEmailAndPhone(EmailPhoneID)
+		this.setDataudf(udfID)
 		this.setDataCCDate(ccDate)
 		this.selectCheckboxStoredPaymentMethod()
+		this.selectCheckboxACHTANDC()
+		this.selectContinueButton()
+		WebUI.delay(GlobalVariable.shortTimeDelay)
+	}
+
+
+	@Keyword
+	def setDataACHDefferedMainWithoutStored(nameID,ACHID,EmailPhoneID,AddressID,AmountS, udfID,ccDate) {
+		this.setDataAddress(AddressID)
+		this.setDataCompanyNameID(nameID)
+		this.setDataACH(ACHID)
+		this.setDataEmailAndPhone(EmailPhoneID)
+		this.setDataudf(udfID)
+		this.setDataCCDate(ccDate)
+		//		this.selectCheckboxStoredPaymentMethod()
 		this.selectCheckboxACHTANDC()
 		this.selectContinueButton()
 		WebUI.delay(GlobalVariable.shortTimeDelay)
@@ -144,10 +171,9 @@ public class achCorporatePaymentEntryBootstrapPage {
 			def ID = dataFileAddress.getValue("ID", row)
 
 			if (ID.equals(AddressIDG)) {
-
+				ZIP = dataFileAddress.getValue("ZIP", row)
 				AL1 = dataFileAddress.getValue("AL1", row)
 				AL2 = dataFileAddress.getValue("AL2", row)
-				ZIP = dataFileAddress.getValue("ZIP", row)
 			}
 		}
 	}
@@ -159,6 +185,10 @@ public class achCorporatePaymentEntryBootstrapPage {
 
 		this.getDataAddress(AddressIDS)
 
+		if ((!ZIP.isEmpty())) {
+			WebUI.setText(findTestObject(pathOR + 'input_billingZip'),ZIP)
+		}
+
 		if ((!AL1.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_billingAddress'),AL1)
 		}
@@ -166,11 +196,6 @@ public class achCorporatePaymentEntryBootstrapPage {
 
 		if ((!AL2.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_billingAddress2'),AL2)
-		}
-
-
-		if ((!ZIP.isEmpty())) {
-			WebUI.setText(findTestObject(pathOR + 'input_billingZip'),ZIP)
 		}
 	}
 
@@ -286,13 +311,16 @@ public class achCorporatePaymentEntryBootstrapPage {
 			WebUI.setText(findTestObject(pathOR + 'input_userDefined3'), udf3)
 		}
 
-		if(!udf7.isEmpty()) {
+		if(udf7 != null || udf8 != null) {
 
-			WebUI.selectOptionByLabel(findTestObject(pathOR+'select_userDefined7'), udf7, false)
-		}
-		if(!udf8.isEmpty()) {
+			if(!udf7.isEmpty()) {
 
-			WebUI.selectOptionByLabel(findTestObject(pathOR+'select_userDefined8'), udf8, false)
+				WebUI.selectOptionByLabel(findTestObject(pathOR+'select_userDefined7'), udf7, false)
+			}
+			if(!udf8.isEmpty()) {
+
+				WebUI.selectOptionByLabel(findTestObject(pathOR+'select_userDefined8'), udf8, false)
+			}
 		}
 	}
 

@@ -224,24 +224,23 @@ def numOfRows, dataFile, nameSheet, ExecuteTC, resColumn, datColumn
 													
 								WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
 								
-								Thread.sleep(5000)
+								WebUI.delay(GlobalVariable.shortTimeDelay)
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'a_Credit this transaction'))
 								
-								Thread.sleep(5000)
+								WebUI.delay(GlobalVariable.shortTimeDelay)
 								
 								WebUI.verifyTextPresent('Credit Card Credit', true)
 								
 								
 								WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
 								
-								WebUI.delay(5)
+								WebUI.delay(GlobalVariable.mediumTimeDelay)
 								
 								WebUI.verifyTextPresent('Transaction Successful', true)
 								WebUI.verifyTextPresent('Transaction Type', true)
 								WebUI.verifyTextPresent('Credit', true)
 								
-								WebUI.delay(5)
 								if (WebUI.verifyTextPresent("Transaction Successful", false))
 									{
 										println "Transaction Successful text is present on the Receipt page"

@@ -159,4 +159,29 @@
       <initValue>'Hello!55555'</initValue>
       <name>abpDCFPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'iahmed'</initValue>
+      <name>AutoUserAdminSuite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hello!3333333'</initValue>
+      <name>AutoPasswordAdminSuite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>shortTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>mediumTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>15</initValue>
+      <name>longTimeDelay</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

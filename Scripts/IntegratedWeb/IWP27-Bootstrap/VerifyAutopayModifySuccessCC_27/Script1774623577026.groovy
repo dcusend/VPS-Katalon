@@ -140,6 +140,8 @@ for (def row = 1; row <= numOfRows; row++)
 					
 					WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_EditPaymentPlan_Autopay/btn_savechanges'))
 					
+					WebUI.delay(GlobalVariable.shortTimeDelay)
+					
 					if (WebUI.verifyTextPresent("Edits to your payment plan were completed successfully", false)) {
 						
 						WebUI.verifyTextPresent(('Manage Payment Plan'), false)

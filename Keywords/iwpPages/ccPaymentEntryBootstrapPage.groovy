@@ -32,6 +32,7 @@ public class ccPaymentEntryBootstrapPage {
 
 
 
+
 	//*********************************************************************************************
 
 	/*GetData and SetData for Card Name
@@ -308,6 +309,7 @@ public class ccPaymentEntryBootstrapPage {
 
 		def dataFileUDF = ExcelFactory.getExcelDataWithDefaultSheet(pathSharedData, "UDFData", true)
 
+
 		def numOfRowsUDF = dataFileUDF.getRowNumbers()
 
 
@@ -333,12 +335,12 @@ public class ccPaymentEntryBootstrapPage {
 
 
 
+
 	@Keyword
 	def setDataCardUDF(String UDFIDS) {
 		this.getDataCardUDF(UDFIDS)
 
 		// populate only UDFs 2, 3, 7, 8 since they are the only ones modifiable
-
 		if ((!udf2.isEmpty())) {
 			WebUI.setText(findTestObject(pathOR + 'input_userDefined2'),udf2)
 		}
@@ -349,13 +351,15 @@ public class ccPaymentEntryBootstrapPage {
 		}
 
 
-		if ((!udf7.isEmpty())) {
-			WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined7'),udf7,false)
-		}
+		if(udf7 != null || udf8 != null) {
+			if ((!udf7.isEmpty())) {
+				WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined7'),udf7,false)
+			}
 
 
-		if ((!udf8.isEmpty())) {
-			WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined8'),udf8,false)
+			if ((!udf8.isEmpty())) {
+				WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined8'),udf8,false)
+			}
 		}
 	}
 

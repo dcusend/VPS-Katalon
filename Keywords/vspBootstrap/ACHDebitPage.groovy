@@ -49,8 +49,12 @@ public class ACHDebitPage {
 		UDF10 = findTestData(dataFileS).getValue('UDF10', rowS)
 
 		// SetData
-		WebUI.selectOptionByValue(findTestObject(path_DebitVSP + 'select_StdEntryClass'), sec, true)
-
+		if ((!sec.isEmpty())) {
+			WebUI.selectOptionByValue(findTestObject(path_DebitVSP + 'select_StdEntryClass'), sec, true)
+		}
+		else{
+			println("Sec is not present in the Excel Spreadsheet")
+		}
 
 		if ((!sms.isEmpty())) {
 			WebUI.setText(findTestObject(path_DebitVSP + 'input_smsNumber'), sms)
