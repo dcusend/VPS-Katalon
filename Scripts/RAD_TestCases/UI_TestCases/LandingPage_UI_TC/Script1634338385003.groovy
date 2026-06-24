@@ -97,17 +97,29 @@ if (WebUI.verifyTextPresent('Your Progress', true))
 			 * text was NOT found on the Landing Page') }
 			 */
 
+// OLD			
 			
-			if (WebUI.verifyTextPresent('Official Maryland Gov. Website', true))
+//			if (WebUI.verifyTextPresent('Official Maryland Gov. Website', true))
+//				{
+//				System.out.println('Official Maryland Gov. Website was found on the Landing Page')
+//				}
+//			else
+//				{
+//					System.out.println('Official Maryland Gov. Website was NOT found on the Landing Page')
+//					KeywordUtil.markWarning("Official Maryland Gov. Website was NOT found on the Landing Page")
+//				}
+			 
+			
+//NEW				
+			if (WebUI.verifyTextPresent('An official partner website of the Comptroller of Maryland', true))
 				{
-				System.out.println('Official Maryland Gov. Website was found on the Landing Page')
+				System.out.println('An official partner website of the Comptroller of Maryland was found on the Landing Page')
 				}
 			else
 				{
-					System.out.println('Official Maryland Gov. Website was NOT found on the Landing Page')
-					KeywordUtil.markWarning("Official Maryland Gov. Website was NOT found on the Landing Page")
+					System.out.println('An official partner website of the Comptroller of Maryland was NOT found on the Landing Page')
+					KeywordUtil.markWarning("An official partner website of the Comptroller of Maryland was NOT found on the Landing Page")
 				}
-			
 			
 			
 // Added 10/03/2025 as part of new changes

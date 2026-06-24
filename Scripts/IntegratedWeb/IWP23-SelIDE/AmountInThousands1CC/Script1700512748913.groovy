@@ -1,115 +1,77 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.testobject.SelectorMethod
 
-import com.thoughtworks.selenium.Selenium
-import org.openqa.selenium.firefox.FirefoxDriver
-import org.openqa.selenium.WebDriver
-import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium
-import static org.junit.Assert.*
-import java.util.regex.Pattern
-import static org.apache.commons.lang3.StringUtils.join
-import org.testng.asserts.SoftAssert
-import com.kms.katalon.core.testdata.CSVData
-import org.openqa.selenium.Keys as Keys
-
-SoftAssert softAssertion = new SoftAssert();
 WebUI.openBrowser('https://www.google.com/')
-def driver = DriverFactory.getWebDriver()
-String baseUrl = "https://www.google.com/"
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+String baseUrl = 'https://www.google.com/'
+int pageLoadTimeoutSeconds = 30
 
+def to = { String locator -> CustomKeywords.'customClasses.LegacyLocatorUtils.testObjectFromLegacyLocator'(locator) }
 
 def emulatorURL = GlobalVariable.urlEmulator
-selenium.open(emulatorURL)
+if (emulatorURL?.startsWith('http://') || emulatorURL?.startsWith('https://')) {
+    WebUI.navigateToUrl(emulatorURL)
+} else {
+    WebUI.navigateToUrl(baseUrl + emulatorURL)
+}
 
-
-
-//println("Begin Test: AmountInThousands1CC")
-//selenium.open("https://qa2.velocitypayment.com/agency/config.do?action=editor")
-//selenium.selectWindow("null")
-selenium.select("name=message_version", "label=2.3")
-selenium.waitForPageToLoad("30000")
-selenium.type("name=amount", ("10.00").toString())
-selenium.type("name=client_account_number", "CAN12345")
-selenium.type("name=action_type", "PayNow")
-selenium.type("name=language", "en_US")
-selenium.type("name=billing_firstname", "Mandy")
-selenium.type("name=billing_lastname", "Iguera")
-selenium.type("name=billing_address", ("56 World Center Drive").toString())
-selenium.type("name=billing_address2", ("Suite 600").toString())
-selenium.type("name=billing_country_id", "840")
-selenium.type("name=billing_city", "Orlando")
-selenium.type("name=billing_state", "NH")
-selenium.type("name=billing_zip", "03106")
-selenium.type("name=order_number", "PPPPOOOO")
-selenium.type("name=user_defined1", "udf1")
-selenium.type("name=user_defined2", "udf2")
-selenium.type("name=user_defined3", "udf3")
-selenium.type("name=user_defined4", ("Orange Label").toString())
-selenium.type("name=user_defined5", ("Soccer Label").toString())
-selenium.click("name=submit")
-selenium.waitForPageToLoad("30000")
+WebUI.selectOptionByLabel(to('name=message_version'), '2.3', false)
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.setText(to('name=amount'), '10.00')
+WebUI.setText(to('name=client_account_number'), 'CAN12345')
+WebUI.setText(to('name=action_type'), 'PayNow')
+WebUI.setText(to('name=language'), 'en_US')
+WebUI.setText(to('name=billing_firstname'), 'Mandy')
+WebUI.setText(to('name=billing_lastname'), 'Iguera')
+WebUI.setText(to('name=billing_address'), '56 World Center Drive')
+WebUI.setText(to('name=billing_address2'), 'Suite 600')
+WebUI.setText(to('name=billing_country_id'), '840')
+WebUI.setText(to('name=billing_city'), 'Orlando')
+WebUI.setText(to('name=billing_state'), 'NH')
+WebUI.setText(to('name=billing_zip'), '03106')
+WebUI.setText(to('name=order_number'), 'PPPPOOOO')
+WebUI.setText(to('name=user_defined1'), 'udf1')
+WebUI.setText(to('name=user_defined2'), 'udf2')
+WebUI.setText(to('name=user_defined3'), 'udf3')
+WebUI.setText(to('name=user_defined4'), 'Orange Label')
+WebUI.setText(to('name=user_defined5'), 'Soccer Label')
+WebUI.click(to('name=submit'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
 def testHarnessURL = GlobalVariable.urlTestHarness
-selenium.open(testHarnessURL)
+if (testHarnessURL?.startsWith('http://') || testHarnessURL?.startsWith('https://')) {
+    WebUI.navigateToUrl(testHarnessURL)
+} else {
+    WebUI.navigateToUrl(baseUrl + testHarnessURL)
+}
 
-
-//selenium.open("https://dev-algorithm.govolution.com/vrelaytest/QA2/version_2_2/vrelaytest.html")
-Thread.sleep(2000);
-selenium.type("name=application_id", "653")
-selenium.type("name=message_version", ("2.3").toString())
+WebUI.delay(2)
+WebUI.setText(to('name=application_id'), '653')
+WebUI.setText(to('name=message_version'), '2.3')
 
 def genRemID = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+WebUI.setText(to('name=remittance_id'), genRemID)
+WebUI.click(to('css=input.formSubmit'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.click(to('name=paymentMethod'))
+WebUI.click(to('css=input[type="submit"]'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
-//String remID = selenium.getEval("  " + "Date.now")
-selenium.type("name=remittance_id", genRemID)
-selenium.click("css=input.formSubmit")
-selenium.waitForPageToLoad("30000")
-selenium.selectWindow("null")
-selenium.click("name=paymentMethod")
-selenium.click("css=input[type=\"submit\"]")
-selenium.waitForPageToLoad("30000")
-selenium.type("name=amount", ("3500.00").toString())
-selenium.type("id=cardNumber", "4111111111111111")
-selenium.select("name=cardExpMonth", "label=04")
-selenium.select("name=cardExpYear", "label=2028")
-selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
-selenium.click("id=checkedAcceptCondition")
-selenium.click("name=ccSubmit")
-selenium.waitForPageToLoad("30000")
-//softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
-//softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
-//softAssertion.assertEquals("$3,500.00", selenium.getText("css=td.payor_opt"))
-	
-	WebUI.verifyTextPresent(("Please verify the following information:"), true)
-	WebUI.verifyTextPresent(("Is this information correct"), true)
-	WebUI.verifyTextPresent(("\$3,500.00"), false)
-	
-selenium.click("name=confirmNotifyAction")
-selenium.waitForPageToLoad("30000")
-Thread.sleep(8000);
-//softAssertion.assertEquals("Successful Payment Receipt", selenium.getText("css=td > h2"))
-//softAssertion.assertEquals(Pattern.matches('selenium.getText("css=div.main_col")', "3,500.00.*"), true)
+WebUI.setText(to('name=amount'), '3500.00')
+WebUI.setText(to('id=cardNumber'), '4111111111111111')
+WebUI.selectOptionByLabel(to('name=cardExpMonth'), '04', false)
+WebUI.selectOptionByLabel(to('name=cardExpYear'), '2028', false)
+WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
+WebUI.click(to('id=checkedAcceptCondition'))
+WebUI.click(to('name=ccSubmit'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
-WebUI.verifyTextPresent(("Successful Payment Receipt"), true)
-WebUI.verifyTextPresent(("\$3,500.00"), false)
+WebUI.verifyTextPresent('Please verify the following information:', true)
+WebUI.verifyTextPresent('Is this information correct', true)
+WebUI.verifyTextPresent('\$3,500.00', false)
+
+WebUI.click(to('name=confirmNotifyAction'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(8)
+
+WebUI.verifyTextPresent('Successful Payment Receipt', true)
+WebUI.verifyTextPresent('\$3,500.00', false)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 Only.</description>
+   <name>Extension_BeforePayments_Corporate_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6649147-164a-4a94-a987-4e728c7a9f29</testCaseGuid>
+</TestCaseEntity>

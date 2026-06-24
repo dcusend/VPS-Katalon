@@ -4,5 +4,6 @@
    <name>JointFilerSSNnoMatch-NEW</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>052f2f09-2fb5-4c46-bf6b-2071af677db7</testCaseGuid>
 </TestCaseEntity>

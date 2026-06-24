@@ -31,8 +31,7 @@ public class getSetDataRAD {
 	//----------------------------------------------
 
 	@Keyword
-	def setDataRADssnAndName()
-	{
+	def setDataRADssnAndName() {
 
 		// Get Data
 		def rad_ssn = GlobalVariable.rad_SSN
@@ -43,16 +42,13 @@ public class getSetDataRAD {
 		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),rad_ssn_lastName)
 		WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatSSN'), rad_ssn)
 		WebUI.setText(findTestObject('RAD_RecordAndPlay/input_concatReSSN'), rad_ssn)
-
-
 	}
 
 
 	//----------------------------------------------
 
 	@Keyword
-	def setDataRADssnAndNameJointFiler()
-	{
+	def setDataRADssnAndNameJointFiler() {
 
 		// Get Data
 		def rad_ssn_joint = GlobalVariable.rad_SSN_Joint
@@ -63,9 +59,6 @@ public class getSetDataRAD {
 		WebUI.setText(findTestObject(orPath_FilingStatus + '/input_jointLastName'),rad_ssn_lastName_joint)
 		WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),rad_ssn_joint)
 		WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),rad_ssn_joint)
-
-
-
 	}
 
 
@@ -75,8 +68,7 @@ public class getSetDataRAD {
 
 
 	@Keyword
-	def setDataRADNameOnly()
-	{
+	def setDataRADNameOnly() {
 
 		// Get Data
 		def rad_ssn = GlobalVariable.rad_SSN
@@ -85,8 +77,6 @@ public class getSetDataRAD {
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),"Jimmy")
 		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_lastName'),rad_ssn_lastName)
-
-
 	}
 
 
@@ -96,8 +86,7 @@ public class getSetDataRAD {
 
 
 	@Keyword
-	def setDataRADELSSN()
-	{
+	def setDataRADELSSN() {
 
 		// Get Data
 		def rad_ssn_EL = GlobalVariable.rad_SSN
@@ -105,8 +94,6 @@ public class getSetDataRAD {
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo +'/input_TaxInfo_ExisitingSSN'),rad_ssn_EL)
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_TaxInfo_reTaxTypeExisitingSSN'),rad_ssn_EL)
-
-
 	}
 
 
@@ -115,16 +102,13 @@ public class getSetDataRAD {
 
 
 	@Keyword
-	def setDataRADNoticeInvoiceTen()
-	{
+	def setDataRADNoticeInvoiceTen() {
 
 
 
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'), "1234567890")
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'), "1234567890")
-
-
 	}
 
 
@@ -134,59 +118,47 @@ public class getSetDataRAD {
 
 
 	@Keyword
-	def setDataRADNoticeInvoiceThirteen()
-	{
+	def setDataRADNoticeInvoiceThirteen() {
 
 
 
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_NoticeInvoiceNumber'), "1234567890123")
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_reTypeNoticeInvoiceNumber'), "1234567890123")
-
-
 	}
 
 
 	//-----------------------------------------
 
 	@Keyword
-	def setDataRADFEIN()
-	{
+	def setDataRADFEIN() {
 
 
 
 		// Set Data
 		WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN'), 'RigbBhfdqODKcAsiUrg+1Q==')
 		WebUI.setEncryptedText(findTestObject(orPath_TaxInfo + '/input_FederalEIN_ReEnter'), 'RigbBhfdqODKcAsiUrg+1Q==')
-
-
 	}
 
 
 	//-----------------------------------------
 
 	@Keyword
-	def setDataRADMDCRN()
-	{
+	def setDataRADMDCRN() {
 
 
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MDCRegistration'),"07640126")
-
-
 	}
 
 	//-----------------------------------------
 
 	@Keyword
-	def setDataExistingRADMDCRN()
-	{
+	def setDataExistingRADMDCRN() {
 
 
 		// Set Data
 		WebUI.setText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_MDCRegistrationEL'),"07640126")
-
-
 	}
 
 
@@ -195,14 +167,11 @@ public class getSetDataRAD {
 	//--------------------------------------
 
 	@Keyword
-	def setDataRADBusinessName()
-	{
+	def setDataRADBusinessName() {
 
 
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_businessName'),"My Company")
-
-
 	}
 
 
@@ -210,8 +179,7 @@ public class getSetDataRAD {
 
 
 	@Keyword
-	def setDataRADAddress()
-	{
+	def setDataRADAddress() {
 
 
 		// Set Data
@@ -224,16 +192,13 @@ public class getSetDataRAD {
 		WebUI.setText(findTestObject(orPath_AddressContact + '/input_phoneNumber'),"(703) 894-5000")
 		WebUI.setText(findTestObject(orPath_AddressContact + '/input_eMailAddress'),"iahmed@govolution.com")
 		WebUI.setText(findTestObject(orPath_AddressContact + '/input_reEnterEMailAddress'),"iahmed@govolution.com")
-
-
 	}
 
 
 	//-----------------------------------------
 
 	@Keyword
-	def setDataRADBusinessRep()
-	{
+	def setDataRADBusinessRep() {
 
 
 		// Set Data
@@ -242,16 +207,13 @@ public class getSetDataRAD {
 		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessRepmiddleName'),"")
 		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessReplastName'),"BusRepLname")
 		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'),"")
-
-
 	}
 
 	//-----------------------------------------
 
 
 	@Keyword
-	def setDataRADFEINSSN()
-	{
+	def setDataRADFEINSSN() {
 
 
 
@@ -264,16 +226,13 @@ public class getSetDataRAD {
 
 		WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_FeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
 		WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_RetypeFeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
-
-
 	}
 
 
 	//-----------------------------------------
 
 	@Keyword
-	def setDataRADDecedentSSN()
-	{
+	def setDataRADDecedentSSN() {
 		// Get Data
 		def rad_ssn_Decedent = GlobalVariable.rad_SSN
 
@@ -287,8 +246,7 @@ public class getSetDataRAD {
 
 
 	@Keyword
-	def setDataRADDecedentSSNandName()
-	{
+	def setDataRADDecedentSSNandName() {
 		// Get Data
 		def rad_ssn_Decedent = GlobalVariable.rad_SSN
 		def rad_ssn_lastName = GlobalVariable.rad_SSN_LastName
@@ -304,8 +262,7 @@ public class getSetDataRAD {
 
 
 	@Keyword
-	def setDataRADNewTaxDecedentSSNandName()
-	{
+	def setDataRADNewTaxDecedentSSNandName() {
 		// Get Data
 		def rad_ssn_Decedent = GlobalVariable.rad_SSN
 		def rad_ssn_lastName = GlobalVariable.rad_SSN_LastName
@@ -322,43 +279,32 @@ public class getSetDataRAD {
 
 
 	@Keyword
-	def setDataRADMFLicNumFive()
-	{
+	def setDataRADMFLicNumFive() {
 
 
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MotorFuelLicNum'),"95632")
-
-
 	}
 
 	//----------------------------------
 
 
 	@Keyword
-	def setDataRADMFLicNumSix()
-	{
+	def setDataRADMFLicNumSix() {
 
 
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MotorFuelLicNum'),"758142")
-
-
 	}
 
 	//----------------------------------
 
 
 	@Keyword
-	def setDataRADMFLicNumSixExisting()
-	{
+	def setDataRADMFLicNumSixExisting() {
 
 
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MFLicenseExtLi'),"700142")
-
-
 	}
-
-
 }

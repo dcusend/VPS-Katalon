@@ -7,7 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'addToCardTitleID_90552168880000088']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>7bd78c39-bf8e-499c-a532-975fe57c4c1f</webElementGuid>
+      <webElementGuid>8b1ea39e-eb4c-4e66-a86d-af95bed994fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cartIcon</value>
-      <webElementGuid>344fb7df-4cb7-4173-815c-1394dc6f8b1c</webElementGuid>
+      <webElementGuid>9859b6ed-a9db-47cf-b67d-4cf0a8eacd5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +48,15 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 550 550</value>
-      <webElementGuid>2ffebe0b-c360-42d3-803b-acbfc5747318</webElementGuid>
+      <webElementGuid>e2b7110e-66ea-4b14-b1b9-3553915c9ad4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>addToCartIcon</value>
-      <webElementGuid>7e557993-48c4-44e0-b575-de65a10e3aef</webElementGuid>
+      <value>addToCardTitleID_90552168880000088</value>
+      <webElementGuid>a068a6e8-9223-408a-8a8a-3b526f06fda0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +64,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;billSearchTableBody&quot;)/tr[@class=&quot;ng-scope&quot;]/td[9]/a[@class=&quot;addTo align-items-center d-flex justify-content-center btn py-1 btn rounded-pill resetStyle&quot;]/svg[@id=&quot;addToCartIcon&quot;]</value>
-      <webElementGuid>cefa8bb6-1668-42ed-b1e8-bf602c7e0ede</webElementGuid>
+      <webElementGuid>b041d2cd-88e5-4b95-853c-0a6e544affd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Add to Cart</value>
+      <webElementGuid>6b86e1f4-a888-4e59-8219-99b67706b55f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[6]/following::*[name()='svg'][3]</value>
-      <webElementGuid>526eb7a8-bd2e-42ee-a76e-bc4c8c9c7450</webElementGuid>
+      <webElementGuid>3a5ae882-23a4-4cf3-86ec-642786d95b09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[5]/following::*[name()='svg'][3]</value>
-      <webElementGuid>da5f3367-e529-4dea-adbc-239796b5512b</webElementGuid>
+      <webElementGuid>aebdcc26-187d-43bd-aa89-396c532b1036</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SMITH, DETTA'])[1]/preceding::*[name()='svg'][3]</value>
-      <webElementGuid>cb7d2e5b-9fd5-4fcf-bd6d-a9c08d25b039</webElementGuid>
+      <webElementGuid>3bc8ff29-ff32-47dd-ae2f-2e5b8e41b211</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dec 31, 2021'])[4]/preceding::*[name()='svg'][3]</value>
-      <webElementGuid>2fef8143-85b3-4c04-b3db-a3234152e644</webElementGuid>
+      <webElementGuid>0aa94707-2ae8-45df-a55b-2280686eb2d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +112,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//svg[@id = 'addToCartIcon']</value>
-      <webElementGuid>fe0db0c0-645c-49ca-b474-3ce8343bf8e5</webElementGuid>
+      <webElementGuid>f313a349-e123-42d4-a627-cb9fe2c4e399</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
 String resText = "Fail"
 //String datText = today
@@ -108,13 +110,16 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 
 					WebUI.delay(1)
 					
-					WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+					//WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
 					
+					WebElement element = WebUiCommonHelper.findWebElement(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),30)
+					WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 					
 // Select Joint Filing Radio button
-					WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
+					//WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
 					
-					WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+					//WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 					
 
 					
@@ -123,7 +128,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"1111165230")
 					//WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"222226523")
 					
-					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
 					
 											
 					

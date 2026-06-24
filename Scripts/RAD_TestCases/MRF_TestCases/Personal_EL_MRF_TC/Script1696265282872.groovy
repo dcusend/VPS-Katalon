@@ -148,7 +148,9 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						else
 							{
 								WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
-								WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+								WebUI.verifyTextPresent('The Social Security Number and Re-enter SSN do not', true,FailureHandling.CONTINUE_ON_FAILURE)
+								// Changed 5/21/2026
+								//WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
 							}
 						
 						

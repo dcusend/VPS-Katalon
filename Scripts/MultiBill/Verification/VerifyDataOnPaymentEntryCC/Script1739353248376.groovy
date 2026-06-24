@@ -71,6 +71,7 @@ for (def row = 1; row <= numOfRows; row++)
 		
 		//select add to cart icon
 		CustomKeywords.'multiBillPages.searchPage.selectAddtoCart'()
+		//WebUI.check(findTestObject('Object Repository/MultiBill/MultiBillSearch/btn_addToCartIcon_Generic'))
 		WebUI.delay(2)
 		
 		//click on ViewCart icon

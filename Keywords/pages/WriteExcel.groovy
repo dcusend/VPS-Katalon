@@ -1,116 +1,75 @@
 package pages
 
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
 import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import internal.GlobalVariable
-
-
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testdata.TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-import internal.GlobalVariable
-//import MobileBuiltInKeywords as Mobile
-//import WSBuiltInKeywords as WS
-//import WebUiBuiltInKeywords as WebUI
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFCell
-import org.apache.poi.xssf.usermodel.XSSFCellStyle
-import org.apache.poi.xssf.usermodel.XSSFRow
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.io.IOException
+import org.apache.poi.ss.usermodel.Cell
+import org.apache.poi.ss.usermodel.CellType
+import org.apache.poi.ss.usermodel.Row
+import org.apache.poi.xssf.usermodel.XSSFSheet
+import org.apache.poi.xssf.usermodel.XSSFWorkbook
 
 
 
 
 public class WriteExcel {
 
+	private static int i = 0
 
+	private static Row getOrCreateRow(XSSFSheet sheet, int rowIndex) {
+		Row row = sheet.getRow(rowIndex)
+		return (row != null) ? row : sheet.createRow(rowIndex)
+	}
 
-	private  static int i=0;
+	private static Cell getOrCreateStringCell(Row row, int columnIndex) {
+		Cell cell = row.getCell(columnIndex)
+		return (cell != null) ? cell : row.createCell(columnIndex, CellType.STRING)
+	}
 
 	@Keyword
-	public static void demoKey(String resultText,String dateText, String resultColumn, String dateColumn, String fileLocation, String sheetName, int rowNumber) throws IOException{
-		//FileInputStream fis = new FileInputStream("C:\\KatalonData\\SampleTestdata.xlsx");
-		FileInputStream fis = new FileInputStream(fileLocation);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-		//XSSFSheet sheet = workbook.getSheet("Sheet1");
-		XSSFSheet sheet = workbook.getSheet(sheetName);
+	public static void demoKey(String resultText, String dateText, String resultColumn, String dateColumn, String fileLocation, String sheetName, int rowNumber) throws IOException {
+		new FileInputStream(fileLocation).withCloseable { fis ->
+			new XSSFWorkbook(fis).withCloseable { workbook ->
+				XSSFSheet sheet = workbook.getSheet(sheetName)
+				if (sheet == null) {
+					throw new IllegalArgumentException("Sheet not found: " + sheetName)
+				}
+
+				int rowCount = rowNumber
+				Row row = getOrCreateRow(sheet, rowCount)
+
 		System.out.println(resultText)
-		int rowCount = rowNumber;
-		if (resultColumn =='Result' || resultColumn =='ResultProd'){
-			Row row = sheet.getRow(rowCount);
-			Cell cell = row.createCell(0,0);
-			cell.setCellType(cell.CELL_TYPE_STRING);
-			cell.setCellValue(resultText);
+				if (resultColumn == 'Result' || resultColumn == 'ResultProd') {
+					Cell cell = getOrCreateStringCell(row, 0)
+					cell.setCellValue(resultText)
 			System.out.println("resultText: " + resultText)
-			i = 0;
-		}
+					i = 0
+				}
 
-		if (dateColumn =='Date' || dateColumn =='DateProd'){
-			Row row2 = sheet.getRow(rowCount);
-			Cell cell2 = row2.createCell(1,0);
-			cell2.setCellType(cell2.CELL_TYPE_STRING);
-			cell2.setCellValue(dateText);
+				if (dateColumn == 'Date' || dateColumn == 'DateProd') {
+					Cell cell2 = getOrCreateStringCell(row, 1)
+					cell2.setCellValue(dateText)
 			System.out.println("dateText: " + dateText)
-			//i = rowCount+1;
-		}
+				}
 
-		if (resultColumn =='ResultDemo'){
-			Row row = sheet.getRow(rowCount);
-			Cell cell = row.createCell(2,0);
-			cell.setCellType(cell.CELL_TYPE_STRING);
-			cell.setCellValue(resultText);
+				if (resultColumn == 'ResultDemo') {
+					Cell cell = getOrCreateStringCell(row, 2)
+					cell.setCellValue(resultText)
 			System.out.println("resultText: " + resultText)
-			i = 0;
-		}
+					i = 0
+				}
 
-		if (dateColumn =='DateDemo'){
-			Row row2 = sheet.getRow(rowCount);
-			Cell cell2 = row2.createCell(3,0);
-			cell2.setCellType(cell2.CELL_TYPE_STRING);
-			cell2.setCellValue(dateText);
+				if (dateColumn == 'DateDemo') {
+					Cell cell2 = getOrCreateStringCell(row, 3)
+					cell2.setCellValue(dateText)
 			System.out.println("dateText: " + dateText)
-			//i = rowCount+1;
-		}
+				}
 
-		//FileOutputStream fos = new FileOutputStream("C:\\KatalonData\\SampleTestdata.xlsx");
-		FileOutputStream fos = new FileOutputStream(fileLocation);
-		workbook.write(fos);
-		fos.close();
+				new FileOutputStream(fileLocation).withCloseable { fos ->
+					workbook.write(fos)
+				}
+			}
+		}
 	}
 }

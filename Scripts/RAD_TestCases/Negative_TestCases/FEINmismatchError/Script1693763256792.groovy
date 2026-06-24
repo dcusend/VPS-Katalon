@@ -172,11 +172,13 @@ def ExecuteTC, Taxtype, Paymenttype
 					}
 					
 					
-				
+		
 					
 					
 					
 					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+					
+					WebUI.delay(2)
 					
 					WebUI.verifyTextPresent('The FEIN and Re-type FEIN do not match', true)
 					

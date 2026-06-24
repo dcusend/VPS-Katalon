@@ -4,5 +4,6 @@
    <name>UsernameNotCaseSen</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>820244b3-f709-4f6f-aa64-91c32b49c649</testCaseGuid>
 </TestCaseEntity>

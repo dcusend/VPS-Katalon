@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' Issue Email or Text to Pay' or . = ' Issue Email or Text to Pay') and @href = '/admin/deep/bootstrap/vadministrator/notifications/issuePayNotification/index.do']</value>
+         <value>//*[(text() = 'Issue Email/Text to Pay' or . = 'Issue Email/Text to Pay')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,15 +18,15 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Issue Email or Text to Pay</value>
-      <webElementGuid>7be83b97-caa3-4dc4-b493-8c87766e5c05</webElementGuid>
+      <value>Issue Email/Text to Pay</value>
+      <webElementGuid>8fee5621-ca8e-4904-8181-0a8443332f81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/admin/deep/bootstrap/vadministrator/notifications/issuePayNotification/index.do</value>
-      <webElementGuid>5210afa7-fb30-4bae-af30-5db557919f48</webElementGuid>
+      <webElementGuid>1e0305c5-5dda-45e3-b048-1e4568d0e61d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

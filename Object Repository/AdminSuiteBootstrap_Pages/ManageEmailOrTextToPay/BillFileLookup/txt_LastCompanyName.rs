@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_LastCompanyName</name>
+   <tag></tag>
+   <elementGuidId>fe214159-3c59-478a-955b-cc99d155076a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'searchLastOrCompanyName' and @id = 'searchLastOrCompanyName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>searchLastOrCompanyName</value>
+      <webElementGuid>4155c6f3-303b-492d-9fc5-9e8e93681c61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>searchLastOrCompanyName</value>
+      <webElementGuid>a5ce6cc1-bdab-4538-993e-d3b1a40b9c36</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
