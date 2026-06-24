@@ -7,19 +7,19 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'userDefined7Show' and @value = 'Orange']</value>
+         <value>//*[@value = 'Orange']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>userDefined7Show</value>
-      <webElementGuid>47de1b1b-810e-4180-a439-4cef04b7eb65</webElementGuid>
+      <webElementGuid>4aca9da0-ad2c-46f8-aeba-6b2a98baefcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>value</name>
       <type>Main</type>
       <value>Orange</value>
-      <webElementGuid>57a59402-71f6-4689-b2c7-27ed8dfcabda</webElementGuid>
+      <webElementGuid>511ee84d-ad62-4710-92d7-5641a0b783ca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

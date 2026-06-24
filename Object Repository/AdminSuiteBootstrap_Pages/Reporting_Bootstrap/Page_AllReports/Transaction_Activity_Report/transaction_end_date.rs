@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>transaction_end_date</name>
+   <tag></tag>
+   <elementGuidId>9610ad86-dcc1-4c87-a5bc-26e9095dd6a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'endDateStr' and @id = 'endD']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>endDateStr</value>
+      <webElementGuid>80d20640-21a7-48f7-9128-85d187cb2c10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>endD</value>
+      <webElementGuid>94ddde63-8d90-46c9-8f73-ea60111dd0af</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

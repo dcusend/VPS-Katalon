@@ -4,5 +4,6 @@
    <name>AmountMoreThanMaxCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ab90a79f-3867-446b-9504-e1a38e6b41d9</testCaseGuid>
 </TestCaseEntity>

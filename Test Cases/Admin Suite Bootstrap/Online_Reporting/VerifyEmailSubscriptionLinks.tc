@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyEmailSubscriptionLinks</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3555f21d-d1b0-4d86-9d5f-6f087124c6e3</testCaseGuid>
+</TestCaseEntity>

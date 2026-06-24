@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>transaction_start_date</name>
+   <tag></tag>
+   <elementGuidId>cf45d2b7-f1d1-4235-a596-e9b83067c1b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'startDateStr' and @id = 'startD']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>startDateStr</value>
+      <webElementGuid>857088d6-95ed-48d6-b093-4045f300f097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>startD</value>
+      <webElementGuid>c00f2444-a66b-4a33-b0c6-91129a51a28c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

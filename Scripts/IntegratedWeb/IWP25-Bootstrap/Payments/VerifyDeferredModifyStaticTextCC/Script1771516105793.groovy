@@ -31,7 +31,7 @@ def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
 def CardID, CalDate, AddressID, EmailPhoneID, Notes
 
 String path = fileLoc
-nameSheet = "CCDeferredCC"
+nameSheet = "ModifyStaticTextDeferredCC"
 dataFileEmulator = "IWPTestData/EmulatorData"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
 

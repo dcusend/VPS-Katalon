@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyPaymentConfirmationNoCFCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95145ab1-28d1-4a74-8d80-262636105873</testCaseGuid>
+</TestCaseEntity>

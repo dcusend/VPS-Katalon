@@ -81,7 +81,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dashboard@7005'</initValue>
+      <initValue>'Dashboard@3333'</initValue>
       <name>AutoPasswordAdminSuite</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -133,5 +133,20 @@
       <description></description>
       <initValue>'Hello!66666'</initValue>
       <name>abpDCFPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>shortTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>mediumTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>15</initValue>
+      <name>longTimeDelay</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

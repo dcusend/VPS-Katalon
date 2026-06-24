@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyPaymentConfirmationNoCFCorp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a6c9a9f-e1f0-4377-8bed-7128f125ede9</testCaseGuid>
+</TestCaseEntity>

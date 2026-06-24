@@ -6,19 +6,20 @@
    <elementGuidId>850dcf5f-b2e6-4488-95d4-1cbdf23c84de</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#payNowSubmit</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @id = 'payNowSubmit' and @value = 'Make a Payment']</value>
+         <value>//*[@type = 'submit' and @value = 'Make a Payment']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='payNowSubmit']</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#payNowSubmit</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>504320a0-a143-4e9c-907c-73bbe89240dc</webElementGuid>
+      <webElementGuid>b266e79d-74d2-496d-b12a-3a607edef9df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>00e42eaf-a7e4-4545-864d-dca97ddf1554</webElementGuid>
+      <webElementGuid>d6c2997b-d682-4598-a962-079a639874ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +43,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block</value>
-      <webElementGuid>8b067c0c-1d70-4d35-a6c0-a10b58c79434</webElementGuid>
+      <webElementGuid>1458e6a1-d923-4a41-b9d0-24a35a8ceef7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>payNowSubmit</value>
-      <webElementGuid>28f93bee-6e3a-4f92-82e4-01b5ec95f816</webElementGuid>
+      <webElementGuid>7a4bdea8-c90b-4470-8482-b451ade4990b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Make a Payment</value>
-      <webElementGuid>2860c603-d5fd-44fc-8f7a-eb7b2ba28f98</webElementGuid>
+      <webElementGuid>6bd6c634-5f3c-491a-b6c2-b3949575ee08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>setNull();</value>
-      <webElementGuid>9eba72e7-f01a-45d0-aadf-ce6b2ec80029</webElementGuid>
+      <webElementGuid>7a698715-70b6-4863-ab9d-d2969cf26659</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +75,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>46cd9b0a-4e74-4617-900e-55f10da1cb72</webElementGuid>
+      <webElementGuid>98f4308e-bef1-4d06-a103-8df5533bf4e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;payNowSubmit&quot;)</value>
-      <webElementGuid>3833dc10-9e1f-45a0-8541-72c089ac0fe5</webElementGuid>
+      <webElementGuid>964ad5fc-255f-43f7-b53f-a00334306198</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='payNowSubmit']</value>
-      <webElementGuid>f8d84991-8621-492d-9a92-26c1c7c7f035</webElementGuid>
+      <webElementGuid>710c86df-cbd9-4b8b-a78b-da908f5f9c24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='selectForm']/div/div/input</value>
-      <webElementGuid>1edbbbc6-1c66-4f69-981b-2fd8714d93ba</webElementGuid>
+      <webElementGuid>2da8fc2b-aead-4d39-b8a9-8b031284c0ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>eb3980aa-6ab9-4155-a53d-13d8776ebbed</webElementGuid>
+      <webElementGuid>6bd1b5ed-5238-4509-981d-d188e3600dba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @id = 'payNowSubmit']</value>
-      <webElementGuid>eb0cc243-2c30-495a-9be6-c89ae96480db</webElementGuid>
+      <webElementGuid>4bd94fa5-50c7-4ab2-b4de-0e8bbb06fd9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

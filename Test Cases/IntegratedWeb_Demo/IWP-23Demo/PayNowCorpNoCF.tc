@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PayNowCorpNoCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>431b5968-6cb7-4520-a47a-e7e8eb81baeb</testCaseGuid>
+</TestCaseEntity>
