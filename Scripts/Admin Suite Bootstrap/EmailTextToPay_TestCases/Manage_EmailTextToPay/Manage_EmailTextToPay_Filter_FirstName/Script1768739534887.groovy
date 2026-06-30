@@ -77,9 +77,9 @@ switch(executionProfile)
 			deepUsername = GlobalVariable.AutoUserAdminSuite
 			deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_Demo.xlsx"
 	nameSheet = "ManageEmailTextFilter_FirstName"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_Demo.xlsx", nameSheet, true)
 	
 		break
 		
@@ -88,9 +88,9 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.AutoUserAdminSuite
 		deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_Prod.xlsx"
 	nameSheet = "ManageEmailTextFilter_FirstName"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_Prod.xlsx", nameSheet, true)
 
 		break		
 		
@@ -108,8 +108,39 @@ WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoar
 
 
 //inserting values
-	M_PaymentApp = "DeepWebPay485"
-					 
+
+	switch(executionProfile)
+		{
+			case "QAProfile":
+				
+					M_PaymentApp = "DeepWebPay485"
+					deepUsername = "iahmed"
+						
+					break
+											
+			case "QA2Profile":
+				
+					M_PaymentApp = "DeepWebPay485"	
+					deepUsername = "iahmed"
+						
+					break
+										
+			case "DemoProfile":
+				
+					M_PaymentApp = "Change Me"
+					deepUsername = "iahmed1"
+						
+					break
+								
+			case "Production":
+				
+					M_PaymentApp = "BBP Parking Fees GovTest"
+					deepUsername = "AutoUserProd"
+						
+					break								 
+		 }
+
+		 					 
 	// Ignore CAN from Excel and generate random 8-digit CAN, bcoz CAN value should not be repeated
 	int randomCAN = 10000000 + new Random().nextInt(90000000)
 	M_CAN = randomCAN.toString()
@@ -209,7 +240,7 @@ if (WebUI.verifyTextPresent(expectedMsg, false)) {
 		//Filter (First Name)
 		CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.FilterResults'(M_FirstName)  //T_Filtertext is M_FirstName here
 							
-		//verifying dates
+		//verifying Dates
 		CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.DatesVerification'()
 				
 		//verifying Search Results and message (reporting in excel)	
@@ -222,7 +253,7 @@ if (WebUI.verifyTextPresent(expectedMsg, false)) {
 			
 			WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/AccountNumber'), M_CAN) &&
 			
-			WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/User'), 'iahmed') &&
+			WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/User'), deepUsername) &&
 			
 			WebUI.verifyElementText(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillAmount'), "\$${M_Amount}") &&
 		
@@ -234,7 +265,7 @@ if (WebUI.verifyTextPresent(expectedMsg, false)) {
 			
 			isRequiredTextPresent = true
 			println(isRequiredTextPresent)
-			println("First Name: ${M_FirstName}, Last Name: ${M_LastName}, Company Name: ${M_CompanyName}, Account Number: ${M_CAN}, Bill Amount: ${"\$${M_Amount}"}")  }
+			println("First Name: ${M_FirstName}, Last Name: ${M_LastName}, Company Name: ${M_CompanyName}, Account Number: ${M_CAN}, User: ${deepUsername}, Bill Amount: ${"\$${M_Amount}"}")  }
 		
 		else {
 			isRequiredTextPresent = false

@@ -69,9 +69,9 @@ switch(executionProfile)
 			deepUsername = GlobalVariable.AutoUserAdminSuite
 			deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText.xlsx'
+	fileLoc = 'KatalonData/EmailTextToPay/Manage_EmailText_Demo.xlsx'
 	nameSheet = 'ManageEmailText_Errors_Search'
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText.xlsx', nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/Manage_EmailText_Demo.xlsx', nameSheet, true)
 	
 		break
 		

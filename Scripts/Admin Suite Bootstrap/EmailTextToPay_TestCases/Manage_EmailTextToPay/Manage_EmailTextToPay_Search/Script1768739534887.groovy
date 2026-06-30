@@ -76,9 +76,9 @@ switch(executionProfile)
 			deepUsername = GlobalVariable.AutoUserAdminSuite
 			deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_Demo.xlsx"
 	nameSheet = "ManageEmailTextSearch"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_Demo.xlsx", nameSheet, true)
 	
 		break
 		
@@ -87,9 +87,9 @@ switch(executionProfile)
 		deepUsername = GlobalVariable.AutoUserAdminSuite
 		deepPassword = GlobalVariable.AutoPasswordAdminSuite
 		
-	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText.xlsx"
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_Prod.xlsx"
 	nameSheet = "ManageEmailTextSearch"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_Prod.xlsx", nameSheet, true)
 
 		break		
 		
@@ -105,15 +105,43 @@ WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoar
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/Link_leftNav_IssueEmail_TaxtoPay'))
 
+
 //inserting values
-		M_PaymentApp = "DeepWebPay485"
-						 
+
+	switch(executionProfile)
+		{
+			case "QAProfile":
+				
+					M_PaymentApp = "DeepWebPay485"	
+						
+					break
+											
+			case "QA2Profile":
+				
+					M_PaymentApp = "DeepWebPay485"	
+						
+					break
+										
+			case "DemoProfile":
+				
+					M_PaymentApp = "Change Me"	
+						
+					break
+								
+			case "Production":
+				
+					M_PaymentApp = "BBP Parking Fees GovTest"	
+						
+					break								 
+		 }
+
+								 
 		// Ignore CAN from Excel and generate random 8-digit CAN, bcoz CAN value should not be repeated
 		int randomCAN = 10000000 + new Random().nextInt(90000000)
 		M_CAN = randomCAN.toString()
 		KeywordUtil.logInfo(M_CAN)
 		
-		// Ignore Amount from Excel and generate between 0.00 and 999.99, bcoz Amount value should not be repeated
+		// Ignore AMOUNT from Excel and generate between 0.00 and 999.99, bcoz Amount value should not be repeated
 		Random random = new Random()
 		double amount = random.nextDouble() * 1000
 		DecimalFormat df = new DecimalFormat("###.00")
@@ -197,6 +225,7 @@ if (WebUI.verifyTextPresent(expectedMsg, false)) {
 		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
 		
 		// Select Manage Email or Text to Pay Link
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
 		
 		//Search Results
