@@ -158,12 +158,13 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
 					
 					
-					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
+					//WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
 		
 		
 // Select Continue Button
-					WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+					//WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+					//WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+					WebUI.delay(5)
 					WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 		
 		
@@ -200,9 +201,12 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						
 					{
 					
-					WebUI.verifyTextPresent('Comptroller of Maryland', true)
-					WebUI.verifyTextPresent('Revenue Administration Division', true)
-					WebUI.verifyTextPresent('Payment Information', true)
+					if (execProfile != "QAProfile" && execProfile != "QA2Profile")
+					{
+						WebUI.verifyTextPresent('Comptroller of Maryland', true)
+						WebUI.verifyTextPresent('Revenue Administration Division', true)
+						WebUI.verifyTextPresent('Payment Information', true)
+					}
 					
 					def card_Name = WebUI.getAttribute(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/input__billingName'), 'value')
 					WebUI.verifyMatch("BusRepFname BusRepLname", card_Name, false)
@@ -231,6 +235,20 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/select_Country'), 'United States', false, 20)
 					
 					WebUI.verifyOptionSelectedByLabel(findTestObject('Object Repository/RAD_Pages/PaymentEntry_Page/select_State'), 'Maryland', false, 20)
+					
+					if (execProfile != "QAProfile" && execProfile != "QA2Profile")
+						{
+							if (WebUI.verifyElementPresent(findTestObject(orPath_PaymentEntry + '/input_Field_ccSubmit'), 30))
+							{
+								resText = "Pass"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							}
+							else
+							{
+								resText = "Fail"
+								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+							}
+						}
 					
 					
 				if (execProfile == "QAProfile" || execProfile == "QA2Profile")

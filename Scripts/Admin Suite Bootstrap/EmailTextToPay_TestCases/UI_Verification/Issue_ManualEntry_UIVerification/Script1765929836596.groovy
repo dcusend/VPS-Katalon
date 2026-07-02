@@ -50,17 +50,21 @@ deepPassword = GlobalVariable.Password
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)
 
 // Select Issue Email or Text to Pay Link
-WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_IssueEmailOrTextToPay'))
+//WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_IssueEmailOrTextToPay'))
 
-WebUI.verifyTextPresent('Pay Notification', true)
-WebUI.verifyTextPresent('Issue Email/Text to Pay', true)
+
+WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNav_IssueEmailOrTextToPay'))
+WebUI.delay(2)
+
 
 // Select Manual Entry button
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/btn_ManualEntryTab'))
 
 WebUI.delay(3)
 
-WebUI.verifyTextPresent('Pay Notification', true)
+//WebUI.verifyTextPresent('Pay Notification', true)
 WebUI.verifyTextPresent('Issue Email/Text to Pay', true)
 
 // Verify Bill Lookup button
@@ -95,8 +99,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_City'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_City'), 30)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_State'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_State'), 30)
+WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'), 30)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_ZipCode'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_ZipCode'), 30)
@@ -109,6 +113,30 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/btn_SendPaymentLink'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/btn_SendPaymentLink'), 30)
+
+
+WebUI.verifyTextPresent('Payment Details', false)
+WebUI.verifyTextPresent('Payment Application', false)
+WebUI.verifyTextPresent('Client Account Number', false)
+WebUI.verifyTextPresent('Amount', false)
+WebUI.verifyTextPresent('First Name', false)
+WebUI.verifyTextPresent('Last Name', false)
+WebUI.verifyTextPresent('Company Name', false)
+WebUI.verifyTextPresent('Address Line 1', false)
+WebUI.verifyTextPresent('Address Line 2', false)
+WebUI.verifyTextPresent('City', false)
+WebUI.verifyTextPresent('State', false)
+WebUI.verifyTextPresent('Zip Code', false)
+WebUI.verifyTextPresent('Email Address', false)
+WebUI.verifyTextPresent('Phone Number', false)
+
+
+// Verify the contents of Filing Year dropdown
+def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'))
+WebUI.verifyEqual(totalOptionsFilingYear, 66)
+WebUI.verifyOptionsPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'),['Virginia','Florida'])
+
+
 
 WebUI.verifyTextPresent('At least one contact method (email or phone) must be provided', false)
 

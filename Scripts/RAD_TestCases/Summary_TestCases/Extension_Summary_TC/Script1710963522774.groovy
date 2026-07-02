@@ -131,11 +131,11 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 					
 					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"")
-		
+					WebUI.delay(2)
 		
 // Select Continue Button
-					WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
-					WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
+					//WebUI.scrollToElement(findTestObject(orPath_Landing + '/button_Continue'), 3)
+					//WebUI.waitForElementClickable(findTestObject(orPath_Landing + '/button_Continue'),5)
 					WebUI.click(findTestObject(orPath_Landing + '/button_Continue'))
 		
 		

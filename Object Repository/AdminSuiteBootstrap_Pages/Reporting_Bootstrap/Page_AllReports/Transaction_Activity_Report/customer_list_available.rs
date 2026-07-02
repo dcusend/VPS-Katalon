@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>customer_list_available</name>
+   <tag></tag>
+   <elementGuidId>61c7c36e-9c95-4bba-b1a4-255c32bb2c1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'availableParentCustomerIds']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>availableParentCustomerIds</value>
+      <webElementGuid>eaf94ee1-cec5-4a23-a397-cdbe8df140ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lstBox1</value>
+      <webElementGuid>5bc9bb99-a198-4801-a0b2-6b7c4c9d463e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

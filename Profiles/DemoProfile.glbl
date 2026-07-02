@@ -69,7 +69,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456724'</initValue>
+      <initValue>'123455544'</initValue>
       <name>rad_SSN</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -83,14 +83,14 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456723'</initValue>
+      <initValue>'123459999'</initValue>
       <name>rad_SSN_Joint</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ctes'</initValue>
+      <initValue>'webb'</initValue>
       <name>rad_SSN_Joint_LastName</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -111,7 +111,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!2222222'</initValue>
+      <initValue>'Dashboard@3333'</initValue>
       <name>AutoPasswordAdminSuite</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -192,5 +192,20 @@
       <name>IntegratedVT</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>shortTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>mediumTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>15</initValue>
+      <name>longTimeDelay</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

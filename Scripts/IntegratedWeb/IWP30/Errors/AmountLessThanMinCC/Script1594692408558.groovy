@@ -178,7 +178,7 @@ import internal.GlobalVariable as GlobalVariable
 					if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),30))
 						{
 							
-								WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),"2025",false)
+								WebUI.selectOptionByLabel(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/Year'),"2026",false)
 							
 						}
 					else {println("Year field is missing on CC Payment Entry page")}

@@ -162,6 +162,18 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.verifyTextPresent(("Debit"), true)
 					WebUI.verifyTextPresent(("Personal Checking"), true)
 					
+					
+//					if (WebUI.verifyTextPresent("Personal Checking", false)) {
+//						KeywordUtil.markPassed("Your payment plan has been successfully changed from CC to PC")
+//						resText = "Pass"
+//						println row
+//						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//					}
+//					else {
+//						KeywordUtil.markFailed("Your payment plan has not been changed from CC to PC")
+//						resText = "Fail"
+//						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//					}
 					WebUI.closeBrowser()
 //					
 			}

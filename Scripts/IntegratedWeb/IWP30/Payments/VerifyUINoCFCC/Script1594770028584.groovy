@@ -190,6 +190,8 @@ import internal.GlobalVariable as GlobalVariable
 		
 // Verify Static text on Credit Card Confirmation page
 		
+		WebUI.delay(GlobalVariable.shortTimeDelay)
+		
 		WebUI.verifyTextPresent(("Please verify the following information"), false)
 		
 		WebUI.verifyTextPresent(("CAN Label"), false)

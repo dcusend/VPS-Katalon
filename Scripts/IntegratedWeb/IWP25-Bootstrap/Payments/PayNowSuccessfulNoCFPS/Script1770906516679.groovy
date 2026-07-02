@@ -100,7 +100,7 @@ for (def row = 1; row <= numOfRows; row++)
 			// Select Pay by Personal Check Payment Method
 			
 			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectRadioPayByPersonal'()
-			
+							
 			// Select Make a Payment Method
 			
 			CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()

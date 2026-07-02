@@ -7,19 +7,19 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'userDefined8Show' and @value = 'Soccer']</value>
+         <value>//*[@value = 'Soccer']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>userDefined8Show</value>
-      <webElementGuid>b443720e-96a7-4a7f-9112-9a0ead61f290</webElementGuid>
+      <webElementGuid>893781cb-6db2-4ce5-a27e-c8f68d01f868</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>value</name>
       <type>Main</type>
       <value>Soccer</value>
-      <webElementGuid>40fcdac7-91b6-47d5-b258-6f820752c29d</webElementGuid>
+      <webElementGuid>ae6c2c3a-8933-4606-a114-47426040ccf9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

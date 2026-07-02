@@ -30,7 +30,7 @@ def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
 def ACHID, CalDate, AddressID, EmailPhoneID, Notes
 
 String path = fileLoc
-nameSheet = "NoModifyAmountCorp"
+nameSheet = "NoModifyBillingAddressCorp"
 dataFileEmulator = "IWPTestData/EmulatorData"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
 numOfRows = dataFile.getRowNumbers()

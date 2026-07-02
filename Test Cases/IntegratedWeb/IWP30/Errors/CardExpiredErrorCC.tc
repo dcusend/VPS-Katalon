@@ -4,5 +4,6 @@
    <name>CardExpiredErrorCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d712fd2f-f489-4d9e-be0d-0a300213d7e9</testCaseGuid>
 </TestCaseEntity>

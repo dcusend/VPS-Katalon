@@ -48,7 +48,7 @@ def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
 def ACHID, CalDate, AddressID, EmailPhoneID, Notes
 
 String path = fileLoc
-nameSheet = "CMCAutopayPC"
+nameSheet = "CancelStaticTextAutopayPC"
 dataFileEmulator = "IWPTestData/EmulatorData"
 dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
 numOfRows = dataFile.getRowNumbers()
@@ -210,9 +210,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 					
 					WebUI.verifyTextPresent(('Payment Plan ID'), false)
-					
-//					WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_EditPaymentPlan_Autopay/plan_id'), 10)
-					
+										
 					WebUI.verifyTextPresent(('Bill/Invoice Details'), false)
 					
 					WebUI.verifyTextPresent(('UDF2 Label'), false)

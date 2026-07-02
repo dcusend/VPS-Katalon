@@ -20,7 +20,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!1111111'</initValue>
+      <initValue>'Hello!3333333'</initValue>
       <name>Password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -115,5 +115,20 @@
       <name>expYear</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>shortTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>mediumTimeDelay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>15</initValue>
+      <name>longTimeDelay</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

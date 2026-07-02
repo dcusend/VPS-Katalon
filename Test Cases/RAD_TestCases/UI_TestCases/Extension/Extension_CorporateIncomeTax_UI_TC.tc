@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>Extension_CorporateIncomeTax_UI_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63adf5a0-c7e4-408c-93a4-46682e97d665</testCaseGuid>
+</TestCaseEntity>

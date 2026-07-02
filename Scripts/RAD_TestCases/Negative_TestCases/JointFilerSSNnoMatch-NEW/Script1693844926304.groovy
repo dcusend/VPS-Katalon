@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
 String resText = "Fail"
 //String datText = today
@@ -106,15 +108,26 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					}
 					
 
-					WebUI.delay(1)
+					WebUI.delay(2)
+					//WebUI.setText(findTestObject(orPath_TaxPayer + '/input_BusinessRepsuffix'),"s")
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_streetAddress2'),"2")
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_eMailAddress'),"iahmed@govolution.com")
+					WebUI.setText(findTestObject(orPath_AddressContact + '/input_reEnterEMailAddress'),"iahmed@govolution.com")
+					WebUI.delay(2)
 					
-					WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 2, FailureHandling.CONTINUE_ON_FAILURE)
+					//WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 					
 					
 // Select Joint Filing Radio button
-					WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
+					//WebUI.waitForElementClickable(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),5)
 					
-					WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
+					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
+					
+					WebElement element = WebUiCommonHelper.findWebElement(findTestObject(orPath_FilingStatus + '/input_userType_Joint'),30)
+					WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+					
+					
+					//WebUI.click(findTestObject(orPath_FilingStatus + '/input_userType_Joint'))
 					
 
 					
@@ -123,7 +136,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_JointFilerSSN'),"111116523")
 					WebUI.setText(findTestObject('Object Repository/RAD_RecordAndPlay/input_reTypeJointFilerSSN'),"222226523")
 					
-					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+					WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"100.00")
 					
 											
 					

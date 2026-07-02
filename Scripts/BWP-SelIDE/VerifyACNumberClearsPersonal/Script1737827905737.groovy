@@ -53,77 +53,72 @@ import org.openqa.selenium.Keys as Keys
 
 SoftAssert softAssertion = new SoftAssert();
 WebUI.openBrowser('https://www.google.com/')
-def driver = DriverFactory.getWebDriver()
-String baseUrl = "https://www.google.com/"
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+String baseUrl = 'https://www.google.com/'
+int pageLoadTimeoutSeconds = 30
 
+def to = { String locator -> CustomKeywords.'customClasses.LegacyLocatorUtils.testObjectFromLegacyLocator'(locator) }
 
 def bwpURL = GlobalVariable.BWPURL
-selenium.open(bwpURL)
+if (bwpURL?.startsWith('http://') || bwpURL?.startsWith('https://')) {
+    WebUI.navigateToUrl(bwpURL)
+} else {
+    WebUI.navigateToUrl(baseUrl + bwpURL)
+}
 
-
-
-selenium.type("name=application_id", "623")
-selenium.type("name=message_version", ("1.5").toString())
-
-
-//selenium.type("name=remittance_id", "sdfsdfsdfsdf")
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
-selenium.type("name=remittance_id", genRemIDVoid)
 
-selenium.type("name=amount", ("10.00").toString())
-selenium.type("name=taxAmount", ("1.59").toString())
-selenium.type("name=clientAccountNumber", "1234567")
-selenium.type("name=user_defined1", ("udf1 data").toString())
-selenium.type("name=user_defined2", ("udf2 data").toString())
-selenium.type("name=user_defined3", ("udf3 data").toString())
-selenium.type("name=user_defined4", ("udf4 data").toString())
-selenium.type("name=user_defined5", ("udf5 data").toString())
-selenium.type("name=user_defined6", ("udf6 data").toString())
-selenium.type("name=user_defined7", ("udf7 data").toString())
-selenium.type("name=user_defined8", ("udf8 data").toString())
-selenium.type("name=user_defined9", ("udf9 data").toString())
-selenium.type("name=user_defined10", ("udf10 data").toString())
-selenium.click("css=input[type=\"submit\"]")
-selenium.waitForPageToLoad("30000")
-selenium.click("xpath=(//input[@name='paymentMethod'])[2]")
-selenium.click("css=input[type=\"submit\"]")
-selenium.waitForPageToLoad("30000")
-selenium.type("id=billing-zip-input", "22201")
-selenium.type("name=amount", ("10.00").toString())
-selenium.type("name=userDefined1", ("udf1 data").toString())
-selenium.type("name=userDefined2", ("udf2 data").toString())
-selenium.type("name=userDefined3", ("udf3 data").toString())
-selenium.select("name=variableField4DropdownGroupItemID", "label=Vanilla")
-selenium.select("name=variableField5DropdownGroupItemID", "label=Chocolate")
-selenium.type("name=userDefined6", ("udf6 data").toString())
-selenium.type("name=userDefined7", ("udf7 data").toString())
-selenium.type("name=userDefined8", ("udf8 data").toString())
-selenium.type("name=userDefined9", ("udf9 data").toString())
-selenium.type("name=billingFirstname", "Mark")
-selenium.type("name=billingLastname", "Zober")
-selenium.type("id=routingNumber", "256072691")
-selenium.type("id=accountNumber", "11111111")
-selenium.type("id=confirmAccountNumber", "11111111")
-selenium.click("name=accountType")
-selenium.type("name=billingAddress", ("2311 york road").toString())
-selenium.type("name=billingAddress2", ("suite 600").toString())
-selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
+WebUI.setText(to('name=application_id'), '623')
+WebUI.setText(to('name=message_version'), '1.5')
+WebUI.setText(to('name=remittance_id'), genRemIDVoid)
 
+WebUI.setText(to('name=amount'), '10.00')
+WebUI.setText(to('name=taxAmount'), '1.59')
+WebUI.setText(to('name=clientAccountNumber'), '1234567')
+WebUI.setText(to('name=user_defined1'), 'udf1 data')
+WebUI.setText(to('name=user_defined2'), 'udf2 data')
+WebUI.setText(to('name=user_defined3'), 'udf3 data')
+WebUI.setText(to('name=user_defined4'), 'udf4 data')
+WebUI.setText(to('name=user_defined5'), 'udf5 data')
+WebUI.setText(to('name=user_defined6'), 'udf6 data')
+WebUI.setText(to('name=user_defined7'), 'udf7 data')
+WebUI.setText(to('name=user_defined8'), 'udf8 data')
+WebUI.setText(to('name=user_defined9'), 'udf9 data')
+WebUI.setText(to('name=user_defined10'), 'udf10 data')
+WebUI.click(to('css=input[type="submit"]'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
+WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
+WebUI.click(to('css=input[type="submit"]'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+
+WebUI.setText(to('id=billing-zip-input'), '22201')
+WebUI.setText(to('name=amount'), '10.00')
+WebUI.setText(to('name=userDefined1'), 'udf1 data')
+WebUI.setText(to('name=userDefined2'), 'udf2 data')
+WebUI.setText(to('name=userDefined3'), 'udf3 data')
+WebUI.selectOptionByLabel(to('name=variableField4DropdownGroupItemID'), 'Vanilla', false)
+WebUI.selectOptionByLabel(to('name=variableField5DropdownGroupItemID'), 'Chocolate', false)
+WebUI.setText(to('name=userDefined6'), 'udf6 data')
+WebUI.setText(to('name=userDefined7'), 'udf7 data')
+WebUI.setText(to('name=userDefined8'), 'udf8 data')
+WebUI.setText(to('name=userDefined9'), 'udf9 data')
+WebUI.setText(to('name=billingFirstname'), 'Mark')
+WebUI.setText(to('name=billingLastname'), 'Zober')
+WebUI.setText(to('id=routingNumber'), '256072691')
+WebUI.setText(to('id=accountNumber'), '11111111')
+WebUI.setText(to('id=confirmAccountNumber'), '11111111')
+WebUI.click(to('name=accountType'))
+WebUI.setText(to('name=billingAddress'), '2311 york road')
+WebUI.setText(to('name=billingAddress2'), 'suite 600')
+WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/accountNumber'), 1000)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 1000)
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/accountNumber'), 'value', '11111111', 1000)
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 'value', '11111111', 1000)
 
-
-
-
-selenium.click("name=achSubmit")
-selenium.waitForPageToLoad("30000")
-
-
+WebUI.click(to('name=achSubmit'))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/accountNumber'), 1000)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 1000)

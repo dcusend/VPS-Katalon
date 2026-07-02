@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyCMCDeferredStaticTextCorp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6214b956-5a99-4ef9-aba0-be7cedfa6ae2</testCaseGuid>
+</TestCaseEntity>

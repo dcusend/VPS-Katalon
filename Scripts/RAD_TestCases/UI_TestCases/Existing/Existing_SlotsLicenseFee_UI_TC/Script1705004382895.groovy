@@ -164,7 +164,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		
 // Verify Sevice Fee static text
-		WebUI.verifyTextPresent('Service Fee: This electronic government service includes a service/convenience fee. Click here for details', true)
+		WebUI.verifyTextPresent('Service Fee: This electronic government service may include a service/convenience fee. Click here for details', true)
 		WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/a_Click here for details'), 30)
 
 		

@@ -161,7 +161,8 @@ for (def row = 1; row <= numOfRows; row++)
 						
 						def cancelmsgText = WebUI.getText(findTestObject('Object Repository/IWP_Bootstrap/Page_EditScheduledPayment/div_Your payment plan has been successfully modified'))
 						println(cancelmsgText)
-
+						WebUI.delay(GlobalVariable.shortTimeDelay)
+						
 
 						if (cancelmsgText.contains("Your payment plan has been successfully canceled"))
 							{

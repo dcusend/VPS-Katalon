@@ -4,5 +4,6 @@
    <name>FEINmismatchError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f20a9dad-3cd5-49f4-a617-a66a833b4f79</testCaseGuid>
 </TestCaseEntity>

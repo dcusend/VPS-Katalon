@@ -4,5 +4,6 @@
    <name>EL-NumberValidation</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>27624115-d981-446a-b54e-aa24468291b6</testCaseGuid>
 </TestCaseEntity>

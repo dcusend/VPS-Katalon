@@ -38,7 +38,7 @@ public class editSchedulePaymentBootstrap {
 
 			if (ID.equals(CardIDG)) {
 
-				
+
 				cvv = dataFileCardInfo.getValue("CVV", row)
 			}
 		}
@@ -53,7 +53,7 @@ public class editSchedulePaymentBootstrap {
 			WebUI.setText(findTestObject(pathOR + 'input_spc'),cvv)
 		}
 	}
-	
+
 	@Keyword
 	def getDataCardUDF(String UDFIDG) {
 
@@ -70,7 +70,6 @@ public class editSchedulePaymentBootstrap {
 
 				UDF7 = dataFileUDF.getValue("UDF7", row)
 				UDF8 = dataFileUDF.getValue("UDF8", row)
-				
 			}
 		}
 	}
@@ -93,33 +92,33 @@ public class editSchedulePaymentBootstrap {
 			WebUI.selectOptionByLabel(findTestObject(pathOR + 'select_userDefined8'),UDF8,false)
 		}
 	}
-	
+
 	@Keyword
-	
-		def setDataCCDate(String ccDateS) {
-			ccDate = ccDateS
-			if(!ccDate.isEmpty()) {
-				//This js script is written to set the future date
-				String js = '''
-	 document.getElementById('processDate').value = '12/31/2026'
+
+	def setDataCCDate(String ccDateS) {
+		ccDate = ccDateS
+		if(!ccDate.isEmpty()) {
+			//This js script is written to set the future date
+			String js = '''
+	 document.getElementsByName('paymentProcessDate').value = '12/31/2026'
 	 '''
-				WebUI.executeJavaScript(js, null)
-			}
-			else {
-				println("CCDate is not present in the Excel Spreadsheet")
-			}
+			WebUI.executeJavaScript(js, null)
 		}
-		
-		@Keyword
-		def setDataSchedPayment(String cardIDS,udfIDS,ccDateS) {
+		else {
+			println("CCDate is not present in the Excel Spreadsheet")
+		}
+	}
+
+	@Keyword
+	def setDataSchedPayment(String cardIDS,udfIDS,ccDateS) {
 		this.setDataCardInfo(cardIDS)
 		this.setDataCardUDF(udfIDS)
 		this.setDataCCDate(ccDateS)
 	}
-	
+
 	@Keyword
 	def setDataSchedPaymentACH(String udfIDS,ccDateS) {
-	this.setDataCardUDF(udfIDS)
-	this.setDataCCDate(ccDateS)
-}
+		this.setDataCardUDF(udfIDS)
+		this.setDataCCDate(ccDateS)
+	}
 }

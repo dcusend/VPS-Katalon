@@ -4,5 +4,6 @@
    <name>EMailNoMatch</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7b319487-60b2-484d-8cbd-cf58ad5e1080</testCaseGuid>
 </TestCaseEntity>

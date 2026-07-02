@@ -132,6 +132,8 @@ for (def row = 1; row <= numOfRows; row++)
 					WebUI.click(findTestObject('Object Repository/Page_ManagePaymentPlan_Autopay/btn_cancel'))
 					WebUI.click(findTestObject('Object Repository/IWP30/Page_CancelPlan/btn_cancel'))
 					
+					WebUI.delay(GlobalVariable.shortTimeDelay)
+					
 					if (WebUI.verifyTextPresent("Your payment plan has been cancelled successfully", false)) {
 						KeywordUtil.markPassed("Your payment plan has been successfully created and canceled")
 						resText = "Pass"

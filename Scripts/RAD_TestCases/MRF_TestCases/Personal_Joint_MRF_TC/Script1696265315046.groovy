@@ -157,7 +157,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('Enter first name', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter last name', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
-						WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+						//WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter address', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter city', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter ZIP code', true,FailureHandling.CONTINUE_ON_FAILURE)
@@ -166,7 +166,9 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						WebUI.verifyTextPresent('Enter joint payer first name', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Enter joint payer last name', true,FailureHandling.CONTINUE_ON_FAILURE)
 						WebUI.verifyTextPresent('Please enter a valid SSN with 9 digits', true,FailureHandling.CONTINUE_ON_FAILURE)
-						WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+						//WebUI.verifyTextPresent('Re-type SSN Validation Error', true,FailureHandling.CONTINUE_ON_FAILURE)
+						WebUI.verifyTextPresent('The SSN and Re-type SSN do not match', true,FailureHandling.CONTINUE_ON_FAILURE)
+						
 						
 						
 						

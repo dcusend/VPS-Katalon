@@ -4,5 +4,6 @@
    <name>Existing_MRF_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3ca2f767-b0ae-42b4-9c5d-a2fb9159676b</testCaseGuid>
 </TestCaseEntity>

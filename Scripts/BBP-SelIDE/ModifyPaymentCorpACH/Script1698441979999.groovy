@@ -1,57 +1,28 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.testobject.SelectorMethod
 
-import com.thoughtworks.selenium.Selenium
-import org.openqa.selenium.firefox.FirefoxDriver
-import org.openqa.selenium.WebDriver
-import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium
-import static org.junit.Assert.*
-import java.util.regex.Pattern
-import static org.apache.commons.lang3.StringUtils.join
-import org.testng.asserts.SoftAssert
-import com.kms.katalon.core.testdata.CSVData
-import org.openqa.selenium.Keys as Keys
-
-SoftAssert softAssertion = new SoftAssert();
 WebUI.openBrowser('https://www.google.com/')
-def driver = DriverFactory.getWebDriver()
 String baseUrl = "https://www.google.com/"
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+int pageLoadTimeoutSeconds = 30
+def to = { String locator -> CustomKeywords.'customClasses.LegacyLocatorUtils.testObjectFromLegacyLocator'(locator) }
 
-bbpURL = GlobalVariable.BBPURL
-selenium.open(bbpURL)
+def bbpURL = GlobalVariable.BBPURL
+if (bbpURL?.startsWith('http://') || bbpURL?.startsWith('https://')) {
+	WebUI.navigateToUrl(bbpURL)
+} else {
+	WebUI.navigateToUrl(baseUrl + bbpURL)
+}
 
 
-//selenium.open("/vbillslookup/lookup/testvbillsauto")
-selenium.type("id=field1", "111150")
-selenium.type("id=field2", "111151")
-selenium.click("name=Test")
-Thread.sleep(2000);
-selenium.click("name=paysubmit")
-selenium.waitForPageToLoad("30000")
-selenium.click("xpath=(//input[@name='paymentMethod'])[3]")
-selenium.click("css=input[type=\"submit\"]")
-selenium.waitForPageToLoad("30000")
+WebUI.setText(to("id=field1"), "111150")
+WebUI.setText(to("id=field2"), "111151")
+WebUI.click(to("name=Test"))
+WebUI.delay(2)
+WebUI.click(to("name=paysubmit"))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.click(to("xpath=(//input[@name='paymentMethod'])[3]"))
+WebUI.click(to("css=input[type=\"submit\"]"))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 //softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
 //softAssertion.assertEquals("Please enter the following billing information about your payment:", selenium.getText("css=span.vrelay-header"))
 
@@ -59,28 +30,26 @@ WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), t
 WebUI.verifyTextPresent(("Please enter the following billing information about your payment:"), true)
 
 
-selenium.type("name=amount", ("15.00").toString())
-selenium.type("name=userDefined2", ("UDF2 Data3").toString())
-selenium.type("name=userDefined3", ("UDF3 Data3").toString())
-selenium.select("name=variableField4DropdownGroupItemID", "label=Purple")
-selenium.select("name=variableField5DropdownGroupItemID", "label=Orange")
-selenium.type("name=userDefined6", ("UDF6 Data3").toString())
-selenium.type("name=userDefined7", ("UDF7 Data3").toString())
-selenium.type("name=userDefined8", ("UDF8 Data3").toString())
-selenium.type("name=billingCompanyname", ("My Company").toString())
-selenium.type("id=routingNumber", "256072691")
-selenium.type("id=accountNumber", "33333333")
-selenium.type("id=confirmAccountNumber", "33333333")
-selenium.type("name=ein", "123456789")
-selenium.type("name=billingAddress", ("2311 york road").toString())
-selenium.type("name=billingAddress2", ("suite 600").toString())
-selenium.type("id=billing-zip-input", "21054")
-selenium.type("name=emailAddress", ("iahmed@govolution.com").toString())
-selenium.click("id=checkedAcceptCondition")
-selenium.click("name=achSubmit")
-selenium.waitForPageToLoad("30000")
-softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
-softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
+WebUI.setText(to("name=amount"), ("15.00").toString())
+WebUI.setText(to("name=userDefined2"), ("UDF2 Data3").toString())
+WebUI.setText(to("name=userDefined3"), ("UDF3 Data3").toString())
+WebUI.selectOptionByLabel(to("name=variableField4DropdownGroupItemID"), "Purple", false)
+WebUI.selectOptionByLabel(to("name=variableField5DropdownGroupItemID"), "Orange", false)
+WebUI.setText(to("name=userDefined6"), ("UDF6 Data3").toString())
+WebUI.setText(to("name=userDefined7"), ("UDF7 Data3").toString())
+WebUI.setText(to("name=userDefined8"), ("UDF8 Data3").toString())
+WebUI.setText(to("name=billingCompanyname"), ("My Company").toString())
+WebUI.setText(to("id=routingNumber"), "256072691")
+WebUI.setText(to("id=accountNumber"), "33333333")
+WebUI.setText(to("id=confirmAccountNumber"), "33333333")
+WebUI.setText(to("name=ein"), "123456789")
+WebUI.setText(to("name=billingAddress"), ("2311 york road").toString())
+WebUI.setText(to("name=billingAddress2"), ("suite 600").toString())
+WebUI.setText(to("id=billing-zip-input"), "21054")
+WebUI.setText(to("name=emailAddress"), ("iahmed@govolution.com").toString())
+WebUI.click(to("id=checkedAcceptCondition"))
+WebUI.click(to("name=achSubmit"))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
 WebUI.verifyTextPresent(("Please verify the following information:"), true)
 WebUI.verifyTextPresent(("Is this information correct"), true)
@@ -129,27 +98,27 @@ WebUI.verifyTextPresent(("21054"), true)
 WebUI.verifyTextPresent(("iahmed@govolution.com"), true)
 
 
-selenium.click("document.process.confirmNotifyAction[1]")
-selenium.waitForPageToLoad("30000")
-selenium.type("name=amount", ("20.00").toString())
-selenium.type("name=userDefined2", ("UDF2 Data3 Modified").toString())
-selenium.type("name=userDefined3", ("UDF3 Data3 Modified").toString())
-selenium.select("name=variableField4DropdownGroupItemID", "label=Orange")
-selenium.select("name=variableField5DropdownGroupItemID", "label=Purple")
-selenium.type("name=userDefined6", ("UDF6 Data3 Modified").toString())
-selenium.type("name=userDefined7", ("UDF7 Data3 Modified").toString())
-selenium.type("name=userDefined8", ("UDF8 Data3 Modified").toString())
-selenium.type("name=billingCompanyname", ("My Company Modified").toString())
-selenium.type("id=routingNumber", "055002707")
-selenium.type("id=accountNumber", "44444444")
-selenium.type("id=confirmAccountNumber", "44444444")
-selenium.type("name=ein", "589698745")
-selenium.type("name=billingAddress", ("15 Main street").toString())
-selenium.type("name=billingAddress2", ("Building 5").toString())
-selenium.type("id=billing-zip-input", "22201")
-selenium.type("name=emailAddress", ("imtiazster@gmail.com").toString())
-selenium.click("name=achSubmit")
-selenium.waitForPageToLoad("30000")
+WebUI.click(to("xpath=(//input[@name='confirmNotifyAction'])[2]"))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.setText(to("name=amount"), ("20.00").toString())
+WebUI.setText(to("name=userDefined2"), ("UDF2 Data3 Modified").toString())
+WebUI.setText(to("name=userDefined3"), ("UDF3 Data3 Modified").toString())
+WebUI.selectOptionByLabel(to("name=variableField4DropdownGroupItemID"), "Orange", false)
+WebUI.selectOptionByLabel(to("name=variableField5DropdownGroupItemID"), "Purple", false)
+WebUI.setText(to("name=userDefined6"), ("UDF6 Data3 Modified").toString())
+WebUI.setText(to("name=userDefined7"), ("UDF7 Data3 Modified").toString())
+WebUI.setText(to("name=userDefined8"), ("UDF8 Data3 Modified").toString())
+WebUI.setText(to("name=billingCompanyname"), ("My Company Modified").toString())
+WebUI.setText(to("id=routingNumber"), "055002707")
+WebUI.setText(to("id=accountNumber"), "44444444")
+WebUI.setText(to("id=confirmAccountNumber"), "44444444")
+WebUI.setText(to("name=ein"), "589698745")
+WebUI.setText(to("name=billingAddress"), ("15 Main street").toString())
+WebUI.setText(to("name=billingAddress2"), ("Building 5").toString())
+WebUI.setText(to("id=billing-zip-input"), "22201")
+WebUI.setText(to("name=emailAddress"), ("imtiazster@gmail.com").toString())
+WebUI.click(to("name=achSubmit"))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 //softAssertion.assertEquals("$20.00", selenium.getText("//tr[5]/td[3]"))
 //softAssertion.assertEquals("UDF2 Data3 Modified", selenium.getText("//tr[7]/td[3]"))
 //softAssertion.assertEquals("UDF3 Data3 Modified", selenium.getText("//tr[8]/td[3]"))
@@ -193,9 +162,9 @@ WebUI.verifyTextPresent(("22201"), true)
 WebUI.verifyTextPresent(("imtiazster@gmail.com"), true)
 
 
-selenium.click("name=confirmNotifyAction")
-selenium.waitForPageToLoad("30000")
-Thread.sleep(15000);
+WebUI.click(to("name=confirmNotifyAction"))
+WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(15)
 //softAssertion.assertEquals("$20.00", selenium.getText("//tr[14]/td[2]"))
 //softAssertion.assertEquals(Pattern.matches('selenium.getText("//tr[16]/td[2]")', "4444.*"), true)
 //softAssertion.assertEquals(Pattern.matches('selenium.getText("//tr[16]/td[2]")', "2707.*"), true)

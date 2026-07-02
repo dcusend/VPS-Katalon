@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>this test will verify successful payment through Personal Saving</description>
+   <name>PayNowSuccessfulNoCFPS_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57157aa7-3947-475d-bfe2-3136f9b42574</testCaseGuid>
+</TestCaseEntity>

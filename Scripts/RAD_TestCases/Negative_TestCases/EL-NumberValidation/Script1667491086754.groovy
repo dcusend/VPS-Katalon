@@ -92,6 +92,7 @@ def notInvNumber, errorMsg
 					println notInvNumber
 					
 					//WebUI.verifyTextPresent(errorMsg, true)
+					WebUI.delay(2)
 					
 					if (WebUI.verifyTextPresent(errorMsg, true))
 						{
