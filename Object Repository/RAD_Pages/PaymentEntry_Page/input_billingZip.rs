@@ -6,15 +6,20 @@
    <elementGuidId>b05a2d65-7a01-482d-b1fb-425b07f782ff</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='billing-zip-input']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#billing-zip-input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='billing-zip-input']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'billing-zip-input' and @type = 'text' and @name = 'billingZip']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3c54820a-010e-4c10-a945-479979704103</webElementGuid>
+      <webElementGuid>fc928018-7ea4-4e93-8f7f-9aec6e8b4ff3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>id</name>
       <type>Main</type>
       <value>billing-zip-input</value>
-      <webElementGuid>0db0651a-69b3-4305-8db6-e535b9b0658b</webElementGuid>
+      <webElementGuid>13807809-ffda-4cfb-ab90-da3ea736629b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>e787fccd-db50-404a-aecc-19c2d0f4f32b</webElementGuid>
+      <webElementGuid>c48b3915-174d-4ef9-87e4-d99e57404514</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +51,7 @@
       <name>onchange</name>
       <type>Main</type>
       <value>changeListener4ZipCode(this)</value>
-      <webElementGuid>eb4b5e61-f38a-4e89-acd9-1c058db95d8e</webElementGuid>
+      <webElementGuid>e92c6ee4-13f6-47b2-89a2-47a0157eff63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +59,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ec955cfb-dd94-460f-bd2b-c540a261147b</webElementGuid>
+      <webElementGuid>7c044e92-3e26-4e51-b0c0-ae5673b5be00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +67,15 @@
       <name>name</name>
       <type>Main</type>
       <value>billingZip</value>
-      <webElementGuid>a32986f9-f48b-48bb-a2c9-c459b5fb9de1</webElementGuid>
+      <webElementGuid>6bc77a6b-a2b9-4f44-9e95-08b850dad331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>ZIP Code</value>
-      <webElementGuid>987be284-8465-45fb-8cc6-a90f810b07e2</webElementGuid>
+      <webElementGuid>e3579f10-5fde-4cff-9d24-5c729adfd52e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>dbff4d2b-d791-4754-8120-fd3d09ef4cd4</webElementGuid>
+      <webElementGuid>f1db1c04-7c4e-4e6b-9835-59c5e6f85825</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>size</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>7915d3f4-5e3b-4402-8565-699dd1e708b7</webElementGuid>
+      <webElementGuid>65aeb81f-1a14-4577-9868-8b4328899129</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>value</name>
       <type>Main</type>
       <value>21054</value>
-      <webElementGuid>5a3c0d47-496e-4089-8d3e-936349a8c695</webElementGuid>
+      <webElementGuid>1d6fb707-3ce4-4909-bd1c-aa24a2f1a89c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +107,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>72a0d51f-5168-45ef-83d0-06a1fe140fd7</webElementGuid>
+      <webElementGuid>6e2fc42b-d50e-4b6e-9a15-5063cf3824f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,15 +115,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;billing-zip-input&quot;)</value>
-      <webElementGuid>fe0af0a2-b7c3-48c2-89da-3ecd4c525724</webElementGuid>
+      <webElementGuid>e7125e10-f235-4833-881a-c6a2a80c3c0c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='billing-zip-input']</value>
-      <webElementGuid>4a090694-3fd1-4e50-b71a-4034838672dd</webElementGuid>
+      <webElementGuid>76683817-5dbf-4fd7-9439-0556f81a4c20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +131,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='process']/div/div/div[6]/div[2]/div/input</value>
-      <webElementGuid>5972823f-cc05-493a-b5c4-f00907e3b238</webElementGuid>
+      <webElementGuid>06805c48-6d8a-45d8-8e73-a457e7de92db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +139,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[2]/div/input</value>
-      <webElementGuid>63aaf43e-82ea-47d6-a2d9-b20a20ba1d40</webElementGuid>
+      <webElementGuid>1549bcef-ea21-4198-a87c-aecbef12a6b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +147,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'billing-zip-input' and @type = 'text' and @name = 'billingZip' and @alt = 'ZIP Code']</value>
-      <webElementGuid>724f4d81-cbe2-424a-baca-c3559defc16e</webElementGuid>
+      <webElementGuid>0d83a67b-7f30-4efc-bfc7-294aa0e5806e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

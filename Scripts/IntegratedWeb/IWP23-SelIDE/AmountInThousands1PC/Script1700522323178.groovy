@@ -1,5 +1,7 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.testobject.TestObject as TestObject 
 
 WebUI.openBrowser('https://www.google.com/')
 String baseUrl = 'https://www.google.com/'
@@ -66,7 +68,14 @@ WebUI.click(to('name=accountType'))
 WebUI.setText(to('name=billingAddress'), '104 main road')
 WebUI.setText(to('name=billingAddress2'), '')
 WebUI.setText(to('id=billing-zip-input'), '22201')
-WebUI.click(to('id=checkedAcceptCondition'))
+WebUI.setText(to('name=billingAddress2'), '')
+//WebUI.delay(8)
+WebUI.click(to('name=checkedAcceptCondition'))
+//WebUI.click(to('id=checkedAcceptCondition'))
+//WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryPersonal_Bootstrap/input_checkedAcceptCondition'))
+//WebUI.click(findTestObject('Object Repository/Misc/New Folder/achPersonal_CheckBox'))
+
+//WebUI.delay(8)
 WebUI.click(to('name=achSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 

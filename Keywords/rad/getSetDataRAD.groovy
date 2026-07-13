@@ -307,4 +307,18 @@ public class getSetDataRAD {
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MFLicenseExtLi'),"700142")
 	}
+
+
+	//----------------------------------
+
+@Keyword
+def setDataRADMFInsNumSix() {
+
+
+	// Set Data
+	WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MotorFuelInsNum'),"257142")
+}
+
+	//----------------------------------
+
 }

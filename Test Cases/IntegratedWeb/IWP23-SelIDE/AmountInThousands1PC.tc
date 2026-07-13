@@ -4,5 +4,6 @@
    <name>AmountInThousands1PC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>8e350c96-230f-4928-9a3b-75aedb0177bc</testCaseGuid>
 </TestCaseEntity>

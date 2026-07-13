@@ -53,7 +53,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		def totalOptionsExistingLiability = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'))
 	
 // Added 10/03/2025 as part of new changes
-		WebUI.verifyEqual(totalOptionsExistingLiability, 21)
+		WebUI.verifyEqual(totalOptionsExistingLiability, 20)
 	
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Bay Restoration Fee','Corporate Income Tax','Fiduciary Tax'])

@@ -152,13 +152,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6446bd20-e413-45c2-b5e5-5ec3ce59a6d8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PTEComposite_UI_TC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>549885a6-1d6a-4697-8f1a-f83a6eb0179d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -348,13 +341,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c18234f6-8067-4080-a640-e4e9557f66df</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_PTEComposite_UI_TC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>6586410d-f463-44da-abfe-4441b6006afa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -437,5 +423,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_WithholdingTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>598ada40-191a-4705-91fa-dd4fe582e4a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_MotorFuelFloorTax_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

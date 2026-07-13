@@ -4,5 +4,6 @@
    <name>NewTaxReturn_MRF_TC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d44ca7e9-fee0-4e18-b31e-d2ef2ac89947</testCaseGuid>
 </TestCaseEntity>

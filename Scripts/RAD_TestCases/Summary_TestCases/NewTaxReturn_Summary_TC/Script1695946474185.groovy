@@ -39,7 +39,7 @@ String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN, month
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN, month, MFLicNum, MFInsNum
 
 
 
@@ -60,6 +60,8 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			CRN = findTestData(dataFile).getValue('CRN', row)
 			month = findTestData(dataFile).getValue('Month', row)
 			MFLicNum = findTestData(dataFile).getValue('MFLicNum', row)
+			MFInsNum = findTestData(dataFile).getValue('MFInsNum', row)
+			
 			
 			
 			
@@ -140,7 +142,15 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Populate Motor Fuel License Number for Motor Fuel Tax Types
 					if (MFLicNum.equalsIgnoreCase("Y"))
 					{
-						CustomKeywords.'rad.getSetDataRAD.setDataRADMFLicNumSix'()
+						CustomKeywords.'rad.getSetDataRAD.setDataRADMFLicNumFive'()
+						
+					}
+					
+					
+// Populate Motor Fuel Inspection Number for Motor Fuel Floor Tax Types
+					if (MFInsNum.equalsIgnoreCase("Y"))
+					{
+						CustomKeywords.'rad.getSetDataRAD.setDataRADMFInsNumSix'()
 						
 					}
 					
@@ -706,7 +716,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 							
 							
 							
-							
+// Verify the Motor Fuel License Number for Motor Fuel Tax Types							
 						if (MFLicNum.equalsIgnoreCase("Y"))
 							{
 								
@@ -726,7 +736,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 									
 								if(isRequiredTextPresent)
 									{
-											if(WebUI.verifyTextPresent('758142', true))
+											if(WebUI.verifyTextPresent('95632', true))
 												{
 													isRequiredTextPresent = true
 												}
@@ -753,6 +763,58 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 								
 								
 							}
+							
+							
+
+							
+// Verify the Motor Fuel Inspection Number for Motor Fuel Floor Tax Types
+							if (MFInsNum.equalsIgnoreCase("Y"))
+								{
+									
+									if(isRequiredTextPresent)
+										{
+												if(WebUI.verifyTextPresent('Motor Fuel Inspection Number#:', true))
+													{
+														isRequiredTextPresent = true
+													}
+												else
+													{
+														isRequiredTextPresent = false
+													}
+										}
+										
+										
+										
+									if(isRequiredTextPresent)
+										{
+												if(WebUI.verifyTextPresent('257142', true))
+													{
+														isRequiredTextPresent = true
+													}
+												else
+													{
+														isRequiredTextPresent = false
+													}
+										}
+							
+								}
+							else
+								{
+									if(isRequiredTextPresent)
+										{
+												if(WebUI.verifyTextNotPresent('Motor Fuel Inspection Number#:', true))
+													{
+														isRequiredTextPresent = true
+													}
+												else
+													{
+														isRequiredTextPresent = false
+													}
+										}
+									
+									
+								}
+							
 						
 						
 				

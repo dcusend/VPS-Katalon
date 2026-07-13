@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>MFInsNumNotZeroError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>373f2cdf-6340-4188-9c98-85bebca5c60c</testCaseGuid>
+</TestCaseEntity>

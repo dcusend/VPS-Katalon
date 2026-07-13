@@ -63,7 +63,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Unclaimed Property','Withholding Tax'])
 		
-		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Digital Advertising Gross Revenues','PTE Composite'])
+		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Digital Advertising Gross Revenues','Motor Fuel Floor Tax'])
 		
 // Verify that Filing Year dropdown is present and visible
 	WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)
@@ -144,7 +144,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_suffix'), 30)
 		
-		WebUI.delay(10)
+		WebUI.delay(5)
 		
 		WebUI.verifyElementPresent(findTestObject('RAD_RecordAndPlay/input_concatSSN'), 30)
 		

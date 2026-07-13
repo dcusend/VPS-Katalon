@@ -41,7 +41,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 
 String orPath_TaxPayer = "Object Repository/RAD_Pages/Taxpayer_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN, MFLicNum, MFInsNum
 
 
 
@@ -61,7 +61,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			feinSSN = findTestData(dataFile).getValue('FeinSsn', row)
 			CRN = findTestData(dataFile).getValue('CRN', row)
 			MFLicNum = findTestData(dataFile).getValue('MFLicNum', row)
-			
+			MFInsNum = findTestData(dataFile).getValue('MFInsNum', row)
 			
 			
 			
@@ -161,9 +161,16 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 						{
 							WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MotorFuelLicNum')," ")
 							WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
-							WebUI.verifyTextPresent('Motor Fuel License Number must be 5 or 6 digits in length, with a value greater than zero', true,FailureHandling.CONTINUE_ON_FAILURE)
+							WebUI.verifyTextPresent('Motor Fuel License Number must be 5 digits in length, with a value greater than zero', true,FailureHandling.CONTINUE_ON_FAILURE)
 						}
 					
+						
+					if (MFInsNum.equalsIgnoreCase("Y"))
+						{
+							WebUI.setText(findTestObject(orPath_TaxInfo +'/input_MotorFuelInsNum')," ")
+							WebUI.setText(findTestObject(orPath_Amount + '/input__paymentAmount'),"")
+							WebUI.verifyTextPresent('Motor Fuel Inspection Number must be 6 digits in length, with a value greater than zero', true,FailureHandling.CONTINUE_ON_FAILURE)
+						}
 						
 					
 					resText = "Pass"

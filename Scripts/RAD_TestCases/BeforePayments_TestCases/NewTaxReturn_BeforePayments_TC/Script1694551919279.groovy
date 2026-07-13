@@ -40,7 +40,7 @@ String orPath_PaymentConfirmation = "Object Repository/RAD_Pages/PaymentConfirma
 String orPath_ServiceFeesAccept = "Object Repository/RAD_Pages/ServiceFeeAccept_Page"
 String orPath_PaymentEntry = "Object Repository/RAD_Pages/PaymentEntry_Page"
 
-def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN, month
+def ExecuteTC, TaxType, PaymentType, FilingYear, PeriodEndingMonth, feinSSN, CRN, month, MFLicNum, MFInsNum
 
 def execProfile = RunConfiguration.getExecutionProfile()
 
@@ -62,7 +62,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 			CRN = findTestData(dataFile).getValue('CRN', row)
 			month = findTestData(dataFile).getValue('Month', row)
 			MFLicNum = findTestData(dataFile).getValue('MFLicNum', row)
-			
+			MFInsNum = findTestData(dataFile).getValue('MFInsNum', row)
 			
 			
 			if (ExecuteTC.equalsIgnoreCase("Y"))
@@ -111,7 +111,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					
 // Set Data Address and Contact Information
 					CustomKeywords.'rad.getSetDataRAD.setDataRADAddress'()
-					WebUI.delay(10)
+					WebUI.delay(5)
 					
 // Set Data FEIN
 					if (feinSSN.equalsIgnoreCase("Y"))
@@ -141,6 +141,14 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 					if (MFLicNum.equalsIgnoreCase("Y"))
 					{
 						CustomKeywords.'rad.getSetDataRAD.setDataRADMFLicNumFive'()
+						
+					}
+					
+					
+// Populate Motor Fuel Inspection Number for Motor Fuel Floor Tax Types
+					if (MFInsNum.equalsIgnoreCase("Y"))
+					{
+						CustomKeywords.'rad.getSetDataRAD.setDataRADMFInsNumSix'()
 						
 					}
 					

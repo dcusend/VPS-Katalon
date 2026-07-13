@@ -246,7 +246,7 @@
       <guid>3679a024-b4f8-4a14-9f64-38a88d135f3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PTEComposite_UI_TC</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_PTEComposite_UI_TC_DONOTRUN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
