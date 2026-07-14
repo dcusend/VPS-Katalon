@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_payment_tender_cc</name>
+   <tag></tag>
+   <elementGuidId>6d6cd341-5361-4872-83f0-bf73d1096828</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'paymentTender' and @value = 'CC']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentTender</value>
+      <webElementGuid>b813aa1b-2371-4d02-8cd7-442581ecbca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>CC</value>
+      <webElementGuid>04bd3a86-2932-40cf-96a1-a854d3bdd70e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

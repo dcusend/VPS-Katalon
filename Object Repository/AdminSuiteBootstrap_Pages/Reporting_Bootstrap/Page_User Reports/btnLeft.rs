@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnLeft</name>
+   <tag></tag>
+   <elementGuidId>e1f2a3b4-c5d6-4e7f-8091-a2b3c4d5e6f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnLeft' and @value = '&lt;']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnLeft</value>
+      <webElementGuid>f2a3b4c5-d6e7-4f80-91a2-b3c4d5e6f708</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>&lt;</value>
+      <webElementGuid>a3b4c5d6-e7f8-4091-a2b3-c4d5e6f70819</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

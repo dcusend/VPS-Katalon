@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_help</name>
+   <tag></tag>
+   <elementGuidId>b2fc2609-4621-4c96-9854-61a901700cc8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Help' or . = 'Help') and @href = 'javascript:popitup3()']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Help</value>
+      <webElementGuid>4f610fce-31d2-431a-a037-c9b92344b23f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:popitup3()</value>
+      <webElementGuid>fd5b9e2f-fb1a-415c-a74f-4e33afb977d0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

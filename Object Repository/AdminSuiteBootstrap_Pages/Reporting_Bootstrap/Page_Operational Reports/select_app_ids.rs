@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_app_ids</name>
+   <tag></tag>
+   <elementGuidId>26802564-fa65-4c2c-b186-0ebfbd385206</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'applicationIds']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>applicationIDs</value>
+      <webElementGuid>7b12ca8e-2183-4aa3-a482-14653aec7e35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lstBox2</value>
+      <webElementGuid>653a264f-6fd8-4e7e-bf3e-df7d9a66fbc9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

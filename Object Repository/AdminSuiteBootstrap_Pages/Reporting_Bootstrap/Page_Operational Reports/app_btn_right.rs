@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>app_btn_right</name>
+   <tag></tag>
+   <elementGuidId>4ecae523-0879-433c-885d-01d7b58b0eb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnRight' and @onclick = concat(&quot;moveSelectedOptions(this.form[&quot; , &quot;'&quot; , &quot;availableApplicationIds&quot; , &quot;'&quot; , &quot;],this.form[&quot; , &quot;'&quot; , &quot;applicationIds&quot; , &quot;'&quot; , &quot;]);&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnRight</value>
+      <webElementGuid>69abddc5-2af9-4cf0-bffd-d96a814c306b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>moveSelectedOptions(this.form['availableApplicationIds'],this.form['applicationIds']);</value>
+      <webElementGuid>6f98bc46-5b85-4fdf-8af0-e232a2c2ed61</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

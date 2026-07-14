@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_payment_tender_ach</name>
+   <tag></tag>
+   <elementGuidId>0716f2dd-a65d-4e4b-864f-7b995b8a1367</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'paymentTender' and @value = 'ACH']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentTender</value>
+      <webElementGuid>5f64d90f-d4f7-4841-8247-330a7ead0891</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>ACH</value>
+      <webElementGuid>2b47a8ae-b741-4faa-a4f3-894ce01ebe8b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
