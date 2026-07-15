@@ -25,26 +25,59 @@ def executionProfile = RC.getExecutionProfile()
 def deepAdminSuiteURL, deepUsername, deepPassword
 
 
-switch(executionProfile) 
+switch(executionProfile)
 {
 	case "QAProfile":
-		 	deepAdminSuiteURL = "https://qa.velocitypayment.com/admin/deep"
+			 deepAdminSuiteURL = "https://qa.velocitypayment.com/admin/deep"
+			 deepUsername = GlobalVariable.Username
+			 deepPassword = GlobalVariable.Password
+			 
+			 println deepUsername
+			 println deepPassword
+			 		
+		  break
 		
-		break
-
 	case "QA2Profile":
 			deepAdminSuiteURL = "https://qa2.velocitypayment.com/admin/deep"
+			deepUsername = GlobalVariable.Username
+			deepPassword = GlobalVariable.Password
+			
+			println deepUsername
+			println deepPassword
+				
+		  break
+				
+	case "DemoProfile":
+			deepAdminSuiteURL = "https://demo.velocitypayment.com/admin/imtiazdemo"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+			println deepUsername
+			println deepPassword
+			
+		  break
+		
+	case "Production":
+			deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+			println deepUsername
+			println deepPassword
+			
+	      break
 	
-		break
+	case "Upgrade":
+			deepAdminSuiteURL = "https://Upgrade.velocitypayment.com/admin/testcustomer"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+			println deepUsername
+			println deepPassword
+			
+	      break
+		 			
 }
-
-
-
-//Retreive  Username and Password from Profile
-deepUsername = GlobalVariable.Username
-deepPassword = GlobalVariable.Password
-
-
 
 // Log into Admin Suite
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)

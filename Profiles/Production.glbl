@@ -90,7 +90,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dashboard@7006'</initValue>
+      <initValue>'Hello!7777777'</initValue>
       <name>AutoPasswordAdminSuite</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -120,15 +120,21 @@
       <description></description>
       <initValue>5</initValue>
       <name>shortTimeDelay</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>10</initValue>
       <name>mediumTimeDelay</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>15</initValue>
       <name>longTimeDelay</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

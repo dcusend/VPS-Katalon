@@ -80,6 +80,17 @@ switch(executionProfile)
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_Prod.xlsx', nameSheet, true)
 
 	break	
+	
+	case "Upgrade":
+			deepAdminSuiteURL = "https://Upgrade.velocitypayment.com/admin/testcustomer"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+		fileLoc = 'KatalonData/EmailTextToPay/BillFileLookUp_Upgrade.xlsx'
+		nameSheet = 'BFLU'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_Upgrade.xlsx', nameSheet, true)
+
+	break
 			
 }
 
@@ -137,8 +148,15 @@ switch(executionProfile)
 			Look2 = dataFile.getValue("PhoneNumber", row)
 			Look3 = dataFile.getValue("Lookup3Label", row)
 
-		break
-				 
+			break
+	
+	case "Upgrade":
+			Look1 = dataFile.getValue("AccountNumber", row)
+			Look2 = dataFile.getValue("PhoneNumber", row)
+			Look3 = dataFile.getValue("Lookup3Label", row)
+
+			break
+						 
 }				 
 				 			 
 				 
@@ -304,9 +322,23 @@ switch(executionProfile)
 				}
 			
 				break
-		
-//CAN		
+				
+	case "Upgrade":
+				
+				if (isRequiredTextPresent) {
+				    if (WebUI.verifyTextPresent('Sandesh Patel', false)) {
+				        isRequiredTextPresent = true
+				
+				        println(isRequiredTextPresent)
+				    } else {
+				        isRequiredTextPresent = false
+				    }
+				}
+				
+				break
 
+													
+//CAN		
 	case "QAProfile":
 	
 			if (isRequiredTextPresent) {
@@ -359,6 +391,22 @@ switch(executionProfile)
 			}	
 						
 			break
+			
+			
+	case "Upgrade":
+			
+			if (isRequiredTextPresent) {
+			    if (WebUI.verifyTextPresent('4533213903', false)) {
+			        isRequiredTextPresent = true
+			
+			        println(isRequiredTextPresent)
+			    } else {
+			        isRequiredTextPresent = false
+			    }
+			}
+			
+			break
+			
 		
 //Amount Due
 			
@@ -413,6 +461,21 @@ case "Prouction":
 		}
 
 		break
+		
+case "Upgrade":
+		
+		if (isRequiredTextPresent) {
+		    if (WebUI.verifyTextPresent('$37.00', false)) {
+		        isRequiredTextPresent = true
+		
+		        println(isRequiredTextPresent)
+		    } else {
+		        isRequiredTextPresent = false
+		    }
+		}
+		
+		break	
+		
 }
 
 		

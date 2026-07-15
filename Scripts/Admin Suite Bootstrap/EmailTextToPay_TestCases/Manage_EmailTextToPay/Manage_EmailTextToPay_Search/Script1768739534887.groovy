@@ -93,6 +93,18 @@ switch(executionProfile)
 
 		break		
 		
+		
+	case "Upgrade":
+		deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
+		deepUsername = GlobalVariable.AutoUserAdminSuite
+		deepPassword = GlobalVariable.AutoPasswordAdminSuite
+		
+	fileLoc = "KatalonData/EmailTextToPay/Manage_EmailText_Upgrade.xlsx"
+	nameSheet = "ManageEmailTextSearch"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/Manage_EmailText_Upgrade.xlsx", nameSheet, true)
+
+		break
+		
 }
 	
 
@@ -132,7 +144,14 @@ WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoar
 				
 					M_PaymentApp = "BBP Parking Fees GovTest"	
 						
-					break								 
+					break	
+					
+			case "Upgrade":
+					
+					M_PaymentApp = "BBP Parking Fees GovTest"
+							
+					break
+																 
 		 }
 
 								 
@@ -224,9 +243,42 @@ if (WebUI.verifyTextPresent(expectedMsg, false)) {
 		
 		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
 		
-		// Select Manage Email or Text to Pay Link
-		WebUI.delay(2)
-		WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
+		//Select Manage Email/Text to Pay Link
+		WebUI.delay(1)
+		switch(executionProfile)
+		{
+			case "QAProfile":
+				
+					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
+						
+					break
+											
+			case "QA2Profile":
+				
+					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
+						
+					break
+										
+			case "DemoProfile":
+				
+					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay'))
+						
+					break
+								
+			case "Production":
+				
+					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay_Prod'))
+						
+					break
+					
+			case "Upgrade":
+					
+					WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_ManageEmailOrTextToPay_Prod'))
+							
+					break
+										
+		 }
+		
 		
 		//Search Results
 		CustomKeywords.'issueEmailTextToPay.Manage_EmailText_ToPay.SearchResults'(M_PaymentId)

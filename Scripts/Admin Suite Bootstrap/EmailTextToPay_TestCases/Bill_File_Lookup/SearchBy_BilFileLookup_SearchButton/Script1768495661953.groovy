@@ -80,6 +80,17 @@ switch(executionProfile)
 
 		break
 		
+	case "Upgrade":
+		deepAdminSuiteURL = "https://Upgrade.velocitypayment.com/admin/testcustomer"
+		deepUsername = GlobalVariable.AutoUserAdminSuite
+		deepPassword = GlobalVariable.AutoPasswordAdminSuite
+		
+	fileLoc = 'KatalonData/EmailTextToPay/BillFileLookUp_SearchButton_Upgrade.xlsx'
+	nameSheet = 'SearchButton'
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/BillFileLookUp_SearchButton_Upgrade.xlsx', nameSheet, true)
+
+		break
+				
 }
 
 
@@ -136,9 +147,17 @@ switch(executionProfile)
 			Look2 = dataFile.getValue("PhoneNumber", row)
 			Look3 = dataFile.getValue("Lookup3Label", row)
 
-		break				 
-}				 
-							
+		break	
+					 
+	case "Upgrade":
+		Look1 = dataFile.getValue("AccountNumber", row)
+		Look2 = dataFile.getValue("PhoneNumber", row)
+		Look3 = dataFile.getValue("Lookup3Label", row)
+
+		break
+						 
+}	
+					
 				 
 // Log into Admin Suite
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)

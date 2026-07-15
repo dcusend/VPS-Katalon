@@ -83,7 +83,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dashboard@7005'</initValue>
+      <initValue>'Hello!7777777'</initValue>
       <name>AutoPasswordAdminSuite</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

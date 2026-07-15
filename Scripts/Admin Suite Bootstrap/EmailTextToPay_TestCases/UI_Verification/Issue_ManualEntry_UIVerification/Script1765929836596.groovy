@@ -25,25 +25,60 @@ def executionProfile = RC.getExecutionProfile()
 def deepAdminSuiteURL, deepUsername, deepPassword
 
 
+
 switch(executionProfile)
 {
 	case "QAProfile":
 			 deepAdminSuiteURL = "https://qa.velocitypayment.com/admin/deep"
+			 deepUsername = GlobalVariable.Username
+			 deepPassword = GlobalVariable.Password
+			 
+			 println deepUsername
+			 println deepPassword
+			 		
+		  break
 		
-		break
-
 	case "QA2Profile":
 			deepAdminSuiteURL = "https://qa2.velocitypayment.com/admin/deep"
+			deepUsername = GlobalVariable.Username
+			deepPassword = GlobalVariable.Password
+			
+			println deepUsername
+			println deepPassword
+				
+		  break
+				
+	case "DemoProfile":
+			deepAdminSuiteURL = "https://demo.velocitypayment.com/admin/imtiazdemo"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+			println deepUsername
+			println deepPassword
+			
+		  break
+		
+	case "Production":
+			deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+			println deepUsername
+			println deepPassword
+			
+	      break
 	
-		break
+	case "Upgrade":
+			deepAdminSuiteURL = "https://Upgrade.velocitypayment.com/admin/testcustomer"
+			deepUsername = GlobalVariable.AutoUserAdminSuite
+			deepPassword = GlobalVariable.AutoPasswordAdminSuite
+			
+			println deepUsername
+			println deepPassword
+			
+	      break
+		 			
 }
-
-
-
-//Retreive  Username and Password from Profile
-deepUsername = GlobalVariable.Username
-deepPassword = GlobalVariable.Password
-
 
 
 // Log into Admin Suite
@@ -61,6 +96,8 @@ WebUI.delay(2)
 
 // Select Manual Entry button
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/BillFileLookup/btn_ManualEntryTab'))
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_PaymentApplication'),'DeepWebPay485' ,false)
 
 WebUI.delay(3)
 

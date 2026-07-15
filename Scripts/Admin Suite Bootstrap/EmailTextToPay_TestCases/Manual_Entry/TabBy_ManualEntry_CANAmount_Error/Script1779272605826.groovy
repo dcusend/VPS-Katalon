@@ -84,6 +84,17 @@ switch(executionProfile)
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/EmailTextToPay/ManualEntry_CANAmount_Prod.xlsx", nameSheet, true)
 
 		break
+		
+	case "Upgrade":
+		deepAdminSuiteURL = "https://Upgrade.velocitypayment.com/admin/testcustomer"
+		deepUsername = GlobalVariable.AutoUserAdminSuite
+		deepPassword = GlobalVariable.AutoPasswordAdminSuite
+		
+		fileLoc = 'KatalonData/EmailTextToPay/ManualEntry_CANAmount_Upgrade.xlsx'
+		nameSheet = 'ManualEntry_CANAmount_Error'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/EmailTextToPay/ManualEntry_CANAmount_Upgrade.xlsx', nameSheet, true)
+
+		break
 	
 }
 
