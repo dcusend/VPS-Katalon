@@ -144,13 +144,7 @@ switch(executionProfile)
 			break		
 			
 	case "Production":
-			Look1 = dataFile.getValue("AccountNumber", row)
-			Look2 = dataFile.getValue("PhoneNumber", row)
-			Look3 = dataFile.getValue("Lookup3Label", row)
-
-			break
-	
-	case "Upgrade":
+	case "Upgrade":	
 			Look1 = dataFile.getValue("AccountNumber", row)
 			Look2 = dataFile.getValue("PhoneNumber", row)
 			Look3 = dataFile.getValue("Lookup3Label", row)
@@ -163,26 +157,51 @@ switch(executionProfile)
 // Log into Admin Suite
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)
 
-// Select Issue Email or Text to Pay Link
+// Select Issue Email/Text to Pay Link
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/link_LeftNavEmailTextToPay'))
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/DashBoard_Bootstrap/Link_leftNav_IssueEmail_TaxtoPay'))
 
-//Validating all scnearios
+//Enterning values in the Bill File Lookup page
 CustomKeywords.'issueEmailTextToPay.BillFileLookupPage.setDataBillFileLookup'(PaymentAppName, CAN, FirstName, LastORcompanyName, Look1, Look2, Look3)
 
 CustomKeywords.'issueEmailTextToPay.BillFileLookupPage.Search'()
 
 WebUI.delay(2)
 
-if (WebUI.verifyTextPresent('Found 1 Bill File Record(s) Matching the Search Criteria.', false)) {
-		isRequiredTextPresent = true
-			println(isRequiredTextPresent)
-		}
-		else {
-			isRequiredTextPresent = false
-		}									
+	switch (executionProfile) 
+	 {	
+	    case "QAProfile":
+	    case "QA2Profile":
+	    case "DemoProfile":
+	
+	        if (WebUI.verifyTextPresent('Found 1 Bill File Record(s) Matching the Search Criteria.', false)) {
+	            
+				isRequiredTextPresent = true
+	            	println(isRequiredTextPresent)
+	        } else {
+	            isRequiredTextPresent = false
+	        }
+	        
+			break
+	
+	    case "Production":
+	    case "Upgrade":
+	
+	           if( WebUI.verifyTextPresent('Bill File Record(s) Matching the Search Criteria.', false)) {
+	
+	            isRequiredTextPresent = true
+	            	println(isRequiredTextPresent)
+	        } else {
+	            isRequiredTextPresent = false
+	        }
+	       
+			break			 
+	   }	
+	   			
+	
+//Verifying all texts on the Search Results page		
 
 if (isRequiredTextPresent) {
     if (WebUI.verifyTextPresent('Search Results', false)) {
@@ -311,8 +330,9 @@ switch(executionProfile)
 			
 			
 	case "Production":
-			
-				if (isRequiredTextPresent) {
+	case "Upgrade":
+	
+			if (isRequiredTextPresent) {
 					if (WebUI.verifyTextPresent('Sandesh Patel', false)) {
 						isRequiredTextPresent = true
 						println(isRequiredTextPresent)
@@ -321,21 +341,7 @@ switch(executionProfile)
 					}
 				}
 			
-				break
-				
-	case "Upgrade":
-				
-				if (isRequiredTextPresent) {
-				    if (WebUI.verifyTextPresent('Sandesh Patel', false)) {
-				        isRequiredTextPresent = true
-				
-				        println(isRequiredTextPresent)
-				    } else {
-				        isRequiredTextPresent = false
-				    }
-				}
-				
-				break
+			break
 
 													
 //CAN		
@@ -379,6 +385,7 @@ switch(executionProfile)
 			break
 			
 	case "Production":
+	case "Upgrade":
 	
 			if (isRequiredTextPresent) {
 			    if (WebUI.verifyTextPresent('4533213903', false)) {
@@ -391,22 +398,7 @@ switch(executionProfile)
 			}	
 						
 			break
-			
-			
-	case "Upgrade":
-			
-			if (isRequiredTextPresent) {
-			    if (WebUI.verifyTextPresent('4533213903', false)) {
-			        isRequiredTextPresent = true
-			
-			        println(isRequiredTextPresent)
-			    } else {
-			        isRequiredTextPresent = false
-			    }
-			}
-			
-			break
-			
+		
 		
 //Amount Due
 			
@@ -436,7 +428,7 @@ case "QA2Profile":
 		
 		break
 		
-case "Demo":
+case "DemoProfile":
 		
 		if (isRequiredTextPresent) {
 			if (WebUI.verifyTextPresent('$85.50', false)) {
@@ -449,7 +441,8 @@ case "Demo":
 		
 		break
 		
-case "Prouction":
+case "Production":
+case "Upgrade":
 
 		if (isRequiredTextPresent) {
 			if (WebUI.verifyTextPresent('$37.00', false)) {
@@ -461,21 +454,7 @@ case "Prouction":
 		}
 
 		break
-		
-case "Upgrade":
-		
-		if (isRequiredTextPresent) {
-		    if (WebUI.verifyTextPresent('$37.00', false)) {
-		        isRequiredTextPresent = true
-		
-		        println(isRequiredTextPresent)
-		    } else {
-		        isRequiredTextPresent = false
-		    }
-		}
-		
-		break	
-		
+							
 }
 
 		

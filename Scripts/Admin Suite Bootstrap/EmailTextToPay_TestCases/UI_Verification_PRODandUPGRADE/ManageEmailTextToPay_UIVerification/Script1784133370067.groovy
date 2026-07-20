@@ -26,37 +26,7 @@ def deepAdminSuiteURL, deepUsername, deepPassword
 
 
 switch(executionProfile)
-{
-	case "QAProfile":
-			 deepAdminSuiteURL = "https://qa.velocitypayment.com/admin/deep"
-			 deepUsername = GlobalVariable.Username
-			 deepPassword = GlobalVariable.Password
-			 
-			 println deepUsername
-			 println deepPassword
-			 		
-		  break
-		
-	case "QA2Profile":
-			deepAdminSuiteURL = "https://qa2.velocitypayment.com/admin/deep"
-			deepUsername = GlobalVariable.Username
-			deepPassword = GlobalVariable.Password
-			
-			println deepUsername
-			println deepPassword
-				
-		  break
-				
-	case "DemoProfile":
-			deepAdminSuiteURL = "https://demo.velocitypayment.com/admin/imtiazdemo"
-			deepUsername = GlobalVariable.AutoUserAdminSuite
-			deepPassword = GlobalVariable.AutoPasswordAdminSuite
-			
-			println deepUsername
-			println deepPassword
-			
-		  break
-		
+{	
 	case "Production":
 			deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
 			deepUsername = GlobalVariable.AutoUserAdminSuite
@@ -96,7 +66,7 @@ WebUI.delay(2)
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/dd_SelectPaymentApplication'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/dd_SelectPaymentApplication'), 30)
 
-WebUI.verifyOptionsPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/dd_SelectPaymentApplication'),['Deep459','DeepWebPay485'])
+WebUI.verifyOptionsPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/dd_SelectPaymentApplication'),['BBP Parking Fees GovTest'])
 
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/cal_StartDate'))

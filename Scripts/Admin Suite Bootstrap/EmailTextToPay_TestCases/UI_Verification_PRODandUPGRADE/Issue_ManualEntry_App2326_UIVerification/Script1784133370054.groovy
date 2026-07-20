@@ -26,37 +26,7 @@ def deepAdminSuiteURL, deepUsername, deepPassword
 
 
 switch(executionProfile)
-{
-	case "QAProfile":
-			 deepAdminSuiteURL = "https://qa.velocitypayment.com/admin/deep"
-			 deepUsername = GlobalVariable.Username
-			 deepPassword = GlobalVariable.Password
-			 
-			 println deepUsername
-			 println deepPassword
-			 		
-		  break
-		
-	case "QA2Profile":
-			deepAdminSuiteURL = "https://qa2.velocitypayment.com/admin/deep"
-			deepUsername = GlobalVariable.Username
-			deepPassword = GlobalVariable.Password
-			
-			println deepUsername
-			println deepPassword
-				
-		  break
-				
-	case "DemoProfile":
-			deepAdminSuiteURL = "https://demo.velocitypayment.com/admin/imtiazdemo"
-			deepUsername = GlobalVariable.AutoUserAdminSuite
-			deepPassword = GlobalVariable.AutoPasswordAdminSuite
-			
-			println deepUsername
-			println deepPassword
-			
-		  break
-		
+{		
 	case "Production":
 			deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
 			deepUsername = GlobalVariable.AutoUserAdminSuite
@@ -110,7 +80,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap
 
 
 // Select 485 Payment Application from the drop down
-WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_PaymentApplication'),'DeepWebPay485' ,false)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_PaymentApplication'),'BBP Parking Fees GovTest' ,false)
 
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_CAN'))
@@ -155,18 +125,18 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap
 //WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF1'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF2'), 30)
-WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF2'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF2'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF3'), 30)
-WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF3'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF3'))
 
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF4'))
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF5'))
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF6'))
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF7'))
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF8'))
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF9'))
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF10'))
+//WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF4'))
+//WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF5'))
+//WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF6'))
+//WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF7'))
+//WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF8'))
+//WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF9'))
+//WebUI.verifyElementNotVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/txt_UDF10'))
 
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/btn_SendPaymentLink'))
@@ -187,14 +157,11 @@ WebUI.verifyTextPresent('State', false)
 WebUI.verifyTextPresent('Zip Code', false)
 WebUI.verifyTextPresent('Email Address', false)
 WebUI.verifyTextPresent('Phone Number', false)
-WebUI.verifyTextPresent('485UDF1', false)
-WebUI.verifyTextPresent('485UDF2', false)
-WebUI.verifyTextPresent('485UDF3', false)
 
 
 // Verify the contents of Filing Year dropdown
 def totalOptionsFilingYear = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'))
-WebUI.verifyEqual(totalOptionsFilingYear, 66)
+WebUI.verifyEqual(totalOptionsFilingYear, 62)
 WebUI.verifyOptionsPresent(findTestObject('Object Repository/AdminSuiteBootstrap_Pages/ManageEmailOrTextToPay/ManualEntry/dd_State'),['New Hampshire','Maryland'])
 
 

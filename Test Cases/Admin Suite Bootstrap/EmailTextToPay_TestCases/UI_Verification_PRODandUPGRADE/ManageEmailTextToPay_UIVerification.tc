@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SearchBy_BilFileLookup</name>
+   <name>ManageEmailTextToPay_UIVerification</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>464b93eb-a9a3-48c5-9498-f5872aa8fd05</testCaseGuid>
+   <testCaseGuid>f68d0ccd-582a-40f5-8d72-08d0dbb4e670</testCaseGuid>
 </TestCaseEntity>

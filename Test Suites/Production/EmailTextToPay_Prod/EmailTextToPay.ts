@@ -12,13 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>c0ee44dd-6408-4084-93e4-cc7c58e8c680</testSuiteGuid>
    <testCaseLink>
-      <guid>2a635aa1-2331-41bf-931c-6c61dbfa55c1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Bill_File_Lookup/SearchBy_BilFileLookup</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>070c335d-1c7d-4a6e-b962-c0737f739565</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

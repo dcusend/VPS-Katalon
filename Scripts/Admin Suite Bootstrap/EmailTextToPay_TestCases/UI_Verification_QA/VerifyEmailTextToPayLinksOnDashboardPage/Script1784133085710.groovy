@@ -46,38 +46,9 @@ switch(executionProfile)
 			println deepPassword
 				
 		  break
-				
-	case "DemoProfile":
-			deepAdminSuiteURL = "https://demo.velocitypayment.com/admin/imtiazdemo"
-			deepUsername = GlobalVariable.AutoUserAdminSuite
-			deepPassword = GlobalVariable.AutoPasswordAdminSuite
-			
-			println deepUsername
-			println deepPassword
-			
-		  break
-		
-	case "Production":
-			deepAdminSuiteURL = "https://www.velocitypayment.com/admin/testcustomer"
-			deepUsername = GlobalVariable.AutoUserAdminSuite
-			deepPassword = GlobalVariable.AutoPasswordAdminSuite
-			
-			println deepUsername
-			println deepPassword
-			
-	      break
-	
-	case "Upgrade":
-			deepAdminSuiteURL = "https://Upgrade.velocitypayment.com/admin/testcustomer"
-			deepUsername = GlobalVariable.AutoUserAdminSuite
-			deepPassword = GlobalVariable.AutoPasswordAdminSuite
-			
-			println deepUsername
-			println deepPassword
-			
-	      break
-		 			
+					 			
 }
+
 
 // Log into Admin Suite
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.setDataAdminSuiteLogin'(deepUsername,deepPassword,deepAdminSuiteURL)

@@ -6,12 +6,11 @@
    <elementGuidId>fd343384-011b-4fc9-b630-7c8ca7a4ec74</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/aside/ul/li[8]/ul/li[2]/a[count(. | //*[(text() = 'Manage Email/Text to Pay' or . = 'Manage Email/Text to Pay')]) = count(//*[(text() = 'Manage Email/Text to Pay' or . = 'Manage Email/Text to Pay')])]</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Manage Email/Text to Pay' or . = 'Manage Email/Text to Pay')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,7 +22,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Manage Email/Text to Pay</value>
-      <webElementGuid>e13e162f-0d73-40af-b295-8cb6b8d80e41</webElementGuid>
+      <webElementGuid>1aefb84d-98f5-4535-a101-fc3c3e2580dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,14 +30,14 @@
       <name>href</name>
       <type>Main</type>
       <value>/admin/deep/bootstrap/vadministrator/notifications/managePayNotification/index.do</value>
-      <webElementGuid>d0e3c606-3da8-444a-801e-4e09db843f50</webElementGuid>
+      <webElementGuid>1feddb55-fdc7-47f5-a00f-fd0ce00c50d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/aside/ul/li[8]/ul/li[2]/a</value>
-      <webElementGuid>005850ee-1113-44e3-a63a-dc86e78c4d59</webElementGuid>
+      <webElementGuid>44014b4a-c478-4d2e-a1a8-be3e67966003</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
