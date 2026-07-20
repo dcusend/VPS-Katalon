@@ -185,6 +185,7 @@
       <name>abpDCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
+<<<<<<< HEAD
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -192,6 +193,8 @@
       <name>IntegratedVT</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
+=======
+>>>>>>> f537ce340fb66478312fee567bd8fbd9b7c4ea8b
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

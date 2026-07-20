@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_user</name>
+   <tag></tag>
+   <elementGuidId>114f470c-7473-47ea-900d-337100d35c05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'userIDs' and @id = 'userIDs']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>userIDs</value>
+      <webElementGuid>796a56bc-4ae7-4d07-a1d7-328544ae887f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>userIDs</value>
+      <webElementGuid>9ce254ec-622f-44fd-945c-b2f351a646c5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

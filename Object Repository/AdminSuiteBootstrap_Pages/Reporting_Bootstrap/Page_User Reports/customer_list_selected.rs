@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>customer_list_selected</name>
+   <tag></tag>
+   <elementGuidId>e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8091</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'parentCustomerIds' and @id = 'lstBox2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>parentCustomerIds</value>
+      <webElementGuid>f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8091a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lstBox2</value>
+      <webElementGuid>a7b8c9d0-e1f2-4a3b-4c5d-6e7f8091a2b3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
