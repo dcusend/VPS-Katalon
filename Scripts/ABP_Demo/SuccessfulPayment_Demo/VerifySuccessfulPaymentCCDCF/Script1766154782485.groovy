@@ -68,7 +68,7 @@ import com.kms.katalon.core.util.KeywordUtil
 				 CustomKeywords.'abpPages.PendingBillPage.uncheckSavePaymentMethod'()
 				 
 				 //this method populates credit card data
-				 CustomKeywords.'abpPages.PendingBillPage.setDataCardInfo'(CardID)
+				 CustomKeywords.'abpPages.PendingBillPage_Demo.setDataCardInfo'(CardID)
 				 
 				 //this method populates udf data
 				 CustomKeywords.'abpPages.PendingBillPage.setDataUDF'(udfID)

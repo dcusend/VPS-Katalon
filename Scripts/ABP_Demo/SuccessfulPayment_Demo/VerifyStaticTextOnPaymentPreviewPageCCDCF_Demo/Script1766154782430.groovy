@@ -86,7 +86,7 @@ import com.kms.katalon.core.util.KeywordUtil
 				 
 				 //CustomKeywords.'abpPages.PaymentPreviewPage.clickPaybtnMethod'()
 				 
-				 Thread.sleep(shortDelay)
+				 WebUI.delay(10)
 				 if (WebUI.verifyTextPresent("Payment Preview", false))
 					 {
 						 

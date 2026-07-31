@@ -73,6 +73,7 @@ String fileLoc = "KatalonData/ABPTestDataDemo/SchedulePaymentABP_NoCF_Demo.xlsx"
 				 
 				 CustomKeywords.'abpPages.ScheduledPaymentPage.setDataUDF'(udfID)
 				 
+				 WebUI.delay(2)
 				 CustomKeywords.'abpPages.ScheduledPaymentPage.selectPaymentMethod'(paymentMethod)
 				 
 				 CustomKeywords.'abpPages.ScheduledPaymentPage.checkRadioPaymentPlanType'(paymentPlanType)

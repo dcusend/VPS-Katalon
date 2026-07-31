@@ -93,7 +93,7 @@ import com.kms.katalon.core.util.KeywordUtil
 				 
 				 CustomKeywords.'abpPages.PaymentPreviewPage.clickPaybtnMethod'()
 				 
-				 Thread.sleep(shortDelay)
+				 WebUI.delay(10)
 				 
 				 if (WebUI.verifyTextPresent("Two transactions in the amount of \$"+VTAmount+" and \$"+VTFees+" will appear on your Credit Card or Bank statement", false))
 					 {

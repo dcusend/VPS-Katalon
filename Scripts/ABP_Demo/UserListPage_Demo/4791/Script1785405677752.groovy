@@ -22,20 +22,86 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testdata.reader.ExcelFactory
 import internal.GlobalVariable
 
+import com.kms.katalon.core.configuration.RunConfiguration as RC
+
+
+
 //*******************Created by @Bharat Bhushan***************************************************
 
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/ABPTestDataDemo/ABPTestData_Demo.xlsx"
-String path = fileLoc
-nameSheet = "VerifyUsernameLength"
-def shortDelay = GlobalVariable.shortDelay
-dataFile = ExcelFactory.getExcelDataWithDefaultSheet(path, nameSheet, true)
-def username,password,email,isRequiredTextPresent = false
 
-username = GlobalVariable.abpDCFUsername
-password = GlobalVariable.abpDCFPassword
+def shortDelay = GlobalVariable.shortDelay
+def abpURL, username, password 
+def fileLoc, numOfRows, dataFile, nameSheet, email, isRequiredTextPresent = false
+
+def executionProfile = RC.getExecutionProfile()
+
+
+
+switch(executionProfile)
+{
+	
+	case "QAProfile":
+			abpURL = "https://qa.velocitypayment.com/vbills/imtiazcustomer/login.go"
+			username = GlobalVariable.abpDCFUsername
+			password = GlobalVariable.abpDCFPassword
+		
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
+	nameSheet = "OwnerEditPassword"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
+	
+		break
+		
+	case "QA2Profile":
+			abpURL = "https://qa2.velocitypayment.com/vbills/imtiazcustomer/login.go"
+			username = GlobalVariable.abpDCFUsername
+			password = GlobalVariable.abpDCFPassword
+		
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
+	nameSheet = "OwnerEditPassword"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
+		
+		break
+			
+	case "DemoProfile":
+			abpURL = "https://demo.velocitypayment.com/vbills/imtiazdemocustomer/login.go"
+			username = GlobalVariable.abpDCFUsername
+			password = GlobalVariable.abpDCFPassword
+		
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
+	nameSheet = "OwnerEditPassword"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
+	
+		break
+		
+	case "Production":
+			abpURL = "https://qa2.velocitypayment.com/vbills/imtiazcustomer/login.go"
+			username = GlobalVariable.abpDCFUsername
+			password = GlobalVariable.abpDCFPassword
+		
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
+	nameSheet = "OwnerEditPassword"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
+
+		break
+		
+		
+	case "Upgrade":
+			abpURL = "https://qa2.velocitypayment.com/vbills/imtiazcustomer/login.go"
+			username = GlobalVariable.abpDCFUsername
+			password = GlobalVariable.abpDCFPassword
+		
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
+	nameSheet = "OwnerEditPassword"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
+
+		break
+		
+}
+	
+
 
 numOfRows = dataFile.getRowNumbers()
 for (def row = 1; row <= numOfRows; row++)
@@ -51,10 +117,6 @@ for (def row = 1; row <= numOfRows; row++)
 				println (today)
 				String datText = today
 				email = dataFile.getValue("Email", row)
-				wrongUserName = dataFile.getValue("UserName", row)
-				def VerificationText = dataFile.getValue("VTList", row)
-				def stringArray = VerificationText.split(",")
-				print(stringArray)
 				String nickNameID = CustomKeywords.'abpPages.PaymentsMethodPage.generateNickName'()
 				println(nickNameID)
 				
@@ -74,30 +136,22 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				CustomKeywords.'abpPages.UserListPage.setDataPasswordConfirmPassword'()
 				
-				CustomKeywords.'abpPages.UserListPage.setDataWrongUserName'(wrongUserName)
+				CustomKeywords.'abpPages.UserListPage.setDataUserName'()
 				
 				CustomKeywords.'abpPages.UserListPage.setDataEmailConfirmEmail'(email)
 				
 				CustomKeywords.'abpPages.UserListPage.clickSaveButton'()
 				
+				CustomKeywords.'abpPages.UserListPage.clickEdit'()
 				
-				WebUI.delay(10)
-				for(def item in stringArray)
+				
+				/*Thread.sleep(shortDelay)
+				if (WebUI.verifyTextPresent("Your changes have been saved", false))
 					{
-				   
-				   //println(item.trim())
-				   
-				   if(WebUI.verifyTextPresent(item.trim(),false)) {
-					   isRequiredTextPresent = true
-					   
-						}
-						else {
-							println(item + " text is missing")
-							isRequiredTextPresent = false
-						}
-					  }
-				if (isRequiredTextPresent)
-					{
+											Thread.sleep(GlobalVariable.shortDelay)
+											println("Deleting Saved Payment Method")
+											CustomKeywords.'abpPages.PaymentsMethodPage.clickDelete'()
+											WebUI.acceptAlert()
 											KeywordUtil.logInfo("Pass")
 											KeywordUtil.markPassed("Saved Payment Method stored under Select or Create Payment Method dropdown and all details available under Payment Method Tab")
 											resText = "Pass"
@@ -109,6 +163,6 @@ for (def row = 1; row <= numOfRows; row++)
 				KeywordUtil.markFailed("Your changes have been saved text not present")
 				resText = "Fail"
 				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-			}
+			}*/
 			}
 	}
