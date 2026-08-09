@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TabBy_ManualEntry_CANAmount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>008f663b-d770-47f6-9cae-40f6e369231e</testCaseGuid>
+</TestCaseEntity>

@@ -26,41 +26,45 @@ String path_Email = "Object Repository/AdminSuiteBootstrap_Pages/Reporting_Boots
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.click(findTestObject(path_Dashboard + 'span_Reporting'))
-Thread.sleep(4000)
+
+WebUI.delay(GlobalVariable.shortTimeDelay)
 WebUI.click(findTestObject(path_Dashboard + 'a_Email Subscription'))
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'h1_Email Subscription'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'h1_Email Subscription'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Delivery Format'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Delivery Format'), 30)
-
 WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Email Subscription'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Email Subscription'), 30)
-
-WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Name'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Name'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Report'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Report'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Report Subscription'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Report Subscription'), 30)
+WebUI.verifyElementVisible(findTestObject(path_Email + 'select_Report'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'select_Report'), 30)
+
+WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Name'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Name'), 30)
+
+WebUI.verifyElementVisible(findTestObject(path_Email + 'input__subscriptionName'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'input__subscriptionName'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Schedule'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Schedule'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Subject Type'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Subject Type'), 30)
+WebUI.verifyElementVisible(findTestObject(path_Email + 'select_Schedule'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'select_Schedule'), 30)
+
+WebUI.verifyElementVisible(findTestObject(path_Email + 'div_Email To'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'div_Email To'), 30)
+
+WebUI.verifyElementVisible(findTestObject(path_Email + 'div_User Email Address List'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'div_User Email Address List'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'h6_Available'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'h6_Available'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'h6_Selected'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'h6_Selected'), 30)
-
-WebUI.verifyElementVisible(findTestObject(path_Email + 'input__subscriptionName'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'input__subscriptionName'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'input_Available_btnAllLeft'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'input_Available_btnAllLeft'), 30)
@@ -74,29 +78,34 @@ WebUI.verifyElementPresent(findTestObject(path_Email + 'input_Available_btnLeft'
 WebUI.verifyElementVisible(findTestObject(path_Email + 'input_Available_btnRight'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'input_Available_btnRight'), 30)
 
+WebUI.verifyOptionsPresent(findTestObject(path_Email + 'select_available_emailid'),['Aashi i(Aashu)'])
+WebUI.selectOptionByValue(findTestObject(path_Email + 'select_available_emailid'), 't469858@deluxe.com', false)
+
+WebUI.click(findTestObject(path_Email + 'input_Available_btnRight'))
+
+WebUI.verifyOptionsPresent(findTestObject(path_Email + 'select_Selected_emailTos'),['Aashi i(Aashu)'])
+
+WebUI.verifyElementVisible(findTestObject(path_Email + 'select_Selected_emailTos'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'select_Selected_emailTos'), 30)
+
+WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Delivery Format'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Delivery Format'), 30)
+
+WebUI.verifyElementVisible(findTestObject(path_Email + 'select_delivery'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'select_delivery'), 30)
+
+WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Subject Type'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Subject Type'), 30)
+
 WebUI.verifyElementVisible(findTestObject(path_Email + 'label_Custom'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'label_Custom'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'label_Standard'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'label_Standard'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'select_delivery'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'select_delivery'), 30)
+WebUI.verifyElementVisible(findTestObject(path_Email + 'h3_Report Subscription'))
+WebUI.verifyElementPresent(findTestObject(path_Email + 'h3_Report Subscription'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'select_Report'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'select_Report'), 30)
-
-WebUI.verifyElementVisible(findTestObject(path_Email + 'select_Schedule'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'select_Schedule'), 30)
-
-WebUI.verifyElementVisible(findTestObject(path_Email + 'select_Selected_emailTos'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'select_Selected_emailTos'), 30)
-
-WebUI.verifyElementVisible(findTestObject(path_Email + 'div_User Email Address List'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'div_User Email Address List'), 30)
-
-WebUI.verifyElementVisible(findTestObject(path_Email + 'div_Email To'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'div_Email To'), 30)
 
 WebUI.verifyElementVisible(findTestObject(path_Email + 'button_Reset'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'button_Reset'), 30)
@@ -114,8 +123,15 @@ WebUI.verifyElementPresent(findTestObject(path_Email + 'a_Remove_Prod'), 30)
 WebUI.verifyElementVisible(findTestObject(path_Email + 'td_ESR_txt'))
 WebUI.verifyElementPresent(findTestObject(path_Email + 'td_ESR_txt'), 30)
 
-WebUI.verifyElementVisible(findTestObject(path_Email + 'select_namelist_Prod'))
-WebUI.verifyElementPresent(findTestObject(path_Email + 'select_namelist_Prod'), 30)
+WebUI.verifyTextPresent('ETS By TT Report', false)
+
+WebUI.verifyTextPresent('ETSR', false)
+
+WebUI.verifyTextPresent('IA Parcels Report', false)
+
+WebUI.verifyTextPresent('IA TAR', false)
+
+WebUI.verifyTextPresent('My TAR', false)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OverwriteJSONData-CDC_AcceptFeeAndContinue_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>19db73e0-9dce-49f2-946f-628d0e0f086d</testCaseGuid>
+</TestCaseEntity>

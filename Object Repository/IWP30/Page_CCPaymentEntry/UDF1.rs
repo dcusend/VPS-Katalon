@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UDF1</name>
+   <tag></tag>
+   <elementGuidId>74cc4d08-60e5-4f53-897b-603cb0d29454</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;userDefined1Text&quot;][count(. | //*[@id = 'userDefined1Text']) = count(//*[@id = 'userDefined1Text'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>userDefined1Text</value>
+      <webElementGuid>4f5e5c60-3ee7-41b7-9bfb-312b19889c08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;userDefined1Text&quot;]</value>
+      <webElementGuid>f7cf6c99-c8fa-459e-ab0f-0e35e9524c2d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

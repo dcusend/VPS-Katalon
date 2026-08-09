@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangedJSON_PCS_AcceptFeeAndContinue_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a954c7c0-d476-4605-a0f4-a413d227a2c6</testCaseGuid>
+</TestCaseEntity>

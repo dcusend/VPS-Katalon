@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TabBy_ManualEntry_Used_AmountCAN_Error</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>81c8c02b-e049-4b96-ac85-409983890d1a</testCaseGuid>
+</TestCaseEntity>

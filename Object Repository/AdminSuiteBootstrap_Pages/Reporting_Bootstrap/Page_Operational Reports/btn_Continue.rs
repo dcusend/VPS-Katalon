@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Continue</name>
+   <tag></tag>
+   <elementGuidId>800ea29b-d53a-4f1f-ae21-6a6fd382d051</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1a5aacef-bf1b-42c3-a7d1-2946f8a2aa13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>8d3ad44e-6884-4296-b3d5-40742530afc1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

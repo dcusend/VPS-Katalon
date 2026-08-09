@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangedJSON_BC_Receipt_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5aead12f-a3e5-47bb-af55-5a776fa2760c</testCaseGuid>
+</TestCaseEntity>

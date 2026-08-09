@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UDF4</name>
+   <tag></tag>
+   <elementGuidId>c52fe61b-c11a-4345-97e2-12e5c4a74639</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'UDF4' and @class = 'form-control']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>UDF4</value>
+      <webElementGuid>48ed3ce5-9c26-441b-a2ab-8f8c65dc8a67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>13562946-b286-455c-8b4f-65e63c81a4ed</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

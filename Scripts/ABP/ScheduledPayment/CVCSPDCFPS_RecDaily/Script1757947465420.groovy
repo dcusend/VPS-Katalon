@@ -98,7 +98,8 @@ String fileLoc = "KatalonData/ABPTestData/SchedulePaymentABP_DCF.xlsx"
 				 
 				 if (WebUI.verifyTextPresent("Your changes have been saved", false)) {
 					 
-											
+					
+					 WebUI.delay(3)						
 					 CustomKeywords.'abpPages.PaymentsListPage.clickViewButton'()
 					 
 					 for(def item in stringArray)

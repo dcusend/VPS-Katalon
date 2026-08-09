@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>firstName</name>
+   <tag></tag>
+   <elementGuidId>031cdaa7-afc4-40b8-b2a3-86124ba18bd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'searchFirstName' and @id = 'searchFirstName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>searchFirstName</value>
+      <webElementGuid>03c90313-5845-4536-9354-65546c10fc9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>searchFirstName</value>
+      <webElementGuid>06c70871-2bcf-49cb-922c-3e9bf85c35d6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

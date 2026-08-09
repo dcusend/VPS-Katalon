@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>City</name>
+   <tag></tag>
+   <elementGuidId>5247e562-82cf-48c0-8e5d-22f9ed303abd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;billing-city-input&quot;][count(. | //*[@id = 'billing-city-input']) = count(//*[@id = 'billing-city-input'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billing-city-input</value>
+      <webElementGuid>50275d4c-79e8-46fb-9425-9586f17f8688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;billing-city-input&quot;]</value>
+      <webElementGuid>67cfdee4-2f1f-4538-8d27-6373a0c7bc18</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

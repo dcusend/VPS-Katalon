@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NoModifyAmountCC_30</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>502086dc-b2b8-44e8-94ce-92788d9c966b</testCaseGuid>
+</TestCaseEntity>

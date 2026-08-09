@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manage_EmailTextToPay_Search(NA)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd2010b9-9879-4279-842d-5e3ac8793959</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manage_EmailTextToPay_Copy_LastName</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6048c9f0-33ac-4fa4-88cb-d3cf1713ce51</testCaseGuid>
+</TestCaseEntity>

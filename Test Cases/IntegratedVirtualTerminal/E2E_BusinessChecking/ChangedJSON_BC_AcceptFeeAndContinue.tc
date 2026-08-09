@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangedJSON_BC_AcceptFeeAndContinue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>965d4122-0d5d-4fd2-bdc2-ef155ca54bf4</testCaseGuid>
+</TestCaseEntity>

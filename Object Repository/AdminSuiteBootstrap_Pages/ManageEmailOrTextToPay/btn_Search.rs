@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @class = 'btn btn-custom w-100']</value>
+         <value>//*[@id=&quot;searchForm&quot;]/div/div[4]/div/div/button[count(. | //*[@type = 'submit' and @class = 'btn btn-custom w-100']) = count(//*[@type = 'submit' and @class = 'btn btn-custom w-100'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,7 +19,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>6738d95d-ae46-4a2b-9f79-b9987aa0f8f0</webElementGuid>
+      <webElementGuid>f3a81007-77cd-48c2-b381-70148be6de04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,14 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-custom w-100</value>
-      <webElementGuid>970dccf2-3e39-4af5-95f2-0341b1957331</webElementGuid>
+      <webElementGuid>77b6d380-38d2-4a65-9ad3-5448b816c35d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;searchForm&quot;]/div/div[4]/div/div/button</value>
+      <webElementGuid>fe61852d-2cbb-41a4-9c9e-56202e06921c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

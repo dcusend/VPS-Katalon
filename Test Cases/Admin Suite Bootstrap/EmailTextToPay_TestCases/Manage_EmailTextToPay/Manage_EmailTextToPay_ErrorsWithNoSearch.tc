@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manage_EmailTextToPay_ErrorsWithNoSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7afaa8d5-342c-4055-bb7c-6df42c43cc2b</testCaseGuid>
+</TestCaseEntity>

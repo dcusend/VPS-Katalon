@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Country</name>
+   <tag></tag>
+   <elementGuidId>2c82c670-9036-4a10-91b5-3650b3166d40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;billing-country-input&quot;][count(. | //*[@id = 'billing-country-input']) = count(//*[@id = 'billing-country-input'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billing-country-input</value>
+      <webElementGuid>ebfc76fb-e027-4771-a105-3d97022715da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;billing-country-input&quot;]</value>
+      <webElementGuid>4508431e-bb0e-450d-ac61-2f74f29d2649</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -39,3 +39,42 @@ WebUI.delay(GlobalVariable.shortTimeDelay)
 
 WebUI.click(findTestObject(path_User_Reports + 'a_User Summary Report'))
 
+WebUI.verifyTextPresent('User Summary Report', false)
+
+
+//Step 1
+WebUI.verifyTextPresent('Step 1:Please choose the start and end date', false)
+
+WebUI.verifyTextPresent('Date Range:', false)
+
+WebUI.verifyTextPresent('Start Date and Time:', false)
+
+WebUI.verifyTextPresent('End Date and Time:', false)
+
+WebUI.verifyTextPresent('The Date Range are displayed in EDT', false)
+
+CustomKeywords.'customClasses.predefinedDateRange.verifyPredefinedDateRangeOptions'()
+
+
+CustomKeywords.'customClasses.predefinedDateRange.selectDateRange'('today')
+
+CustomKeywords.'customClasses.predefinedDateRange.selectDateRange'('yesterday')
+
+CustomKeywords.'customClasses.predefinedDateRange.selectDateRange'('thisWeek')
+
+CustomKeywords.'customClasses.predefinedDateRange.selectDateRange'('lastWeek')
+
+CustomKeywords.'customClasses.predefinedDateRange.selectDateRange'('thisMonth')
+
+CustomKeywords.'customClasses.predefinedDateRange.selectDateRange'('lastMonth')
+
+CustomKeywords.'customClasses.predefinedDateRange.selectDateRange'('thisYear')
+
+
+WebUI.verifyElementPresent(findTestObject(path_User_Reports + 'transaction_start_date'), 30)
+
+WebUI.verifyElementPresent(findTestObject(path_User_Reports + 'transaction_end_date'), 30)
+
+WebUI.verifyElementPresent(findTestObject(path_User_Reports + 'btn_Continue'), 30)
+
+WebUI.closeBrowser()

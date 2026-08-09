@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Email_address</name>
+   <tag></tag>
+   <elementGuidId>85ef8393-9178-4694-b665-caafd1a900e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'billEmailAddress' and @id = 'billEmailAddress']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billEmailAddress</value>
+      <webElementGuid>8167fdad-c1a7-428c-860a-12d0315df1de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billEmailAddress</value>
+      <webElementGuid>cae329c5-c390-4ee4-b8dc-4dfd30b04128</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

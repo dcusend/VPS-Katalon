@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 Only</description>
+   <name>Issue_ManualEntry_App2326_UIVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e3e46d0-d5ca-42e7-8f5d-38ad65c03bf3</testCaseGuid>
+</TestCaseEntity>

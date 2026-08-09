@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Manage_EmailTextToPay_Expire_CompanyName</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5377f22-61f7-4b5e-b526-a50d4c4f1e63</testCaseGuid>
+</TestCaseEntity>

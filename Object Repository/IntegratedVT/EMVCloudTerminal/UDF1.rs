@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UDF1</name>
+   <tag></tag>
+   <elementGuidId>65879e2f-f484-47be-a37a-2cef88d8a31a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'userDefined1' and @class = 'form-control' and @id = 'UDF1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>userDefined1</value>
+      <webElementGuid>d5f9672b-fcea-47f1-ada0-9549b6e728bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>9c92d520-375b-419c-8169-e70c17622593</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>UDF1</value>
+      <webElementGuid>f6a7daf0-0b13-4e4f-9ae4-8e129f2b19cc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

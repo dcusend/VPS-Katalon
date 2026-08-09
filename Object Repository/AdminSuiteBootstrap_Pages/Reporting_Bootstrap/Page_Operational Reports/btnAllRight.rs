@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnAllRight</name>
+   <tag></tag>
+   <elementGuidId>b2fb3720-d13d-4440-9271-18ef7e2ab988</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnAllRight' and @value = '>>']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnAllRight</value>
+      <webElementGuid>deb53c4e-43f5-480a-8322-ac710b4df791</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>>></value>
+      <webElementGuid>5ded53eb-02d9-4c0b-ac36-fff7f1f066ce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

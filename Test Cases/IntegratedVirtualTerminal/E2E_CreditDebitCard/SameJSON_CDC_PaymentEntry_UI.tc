@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SameJSON_CDC_PaymentEntry_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>61dce809-3276-4640-9d63-a25cebcd57b4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Modify</name>
+   <tag></tag>
+   <elementGuidId>879d3395-35d1-42e4-a8e8-1f7a869fb894</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[3]/form[1]/table/tbody/tr[24]/td[2]/div/input[2][count(. | //*[@class = 'payor_opt' and @value = 'Modify']) = count(//*[@class = 'payor_opt' and @value = 'Modify'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>payor_opt</value>
+      <webElementGuid>021c97a9-7fcf-4114-98d8-6444d1f51a71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Modify</value>
+      <webElementGuid>0063cd78-dab8-4289-826b-1b87eb83c6e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/form[1]/table/tbody/tr[24]/td[2]/div/input[2]</value>
+      <webElementGuid>30d1645e-99fe-432c-87e3-6078a0f0a436</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

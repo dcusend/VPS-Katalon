@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @class = 'btn btn-custom' and (text() = 'Search' or . = 'Search')]</value>
+         <value>//*[@type = 'submit' and @class = 'btn btn-custom' and (text() = 'Search' or . = 'Search') and @id = 'searchButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,7 +19,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>1ce323ce-df8a-458f-a0b1-966642ee7988</webElementGuid>
+      <webElementGuid>88ed30f0-173c-407b-9ca1-efbe491a1f57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +27,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-custom</value>
-      <webElementGuid>de2a8683-2de6-44fe-9470-5452cc72decd</webElementGuid>
+      <webElementGuid>a321f7f5-2fdb-4991-802f-49a9cfc25358</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +35,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Search</value>
-      <webElementGuid>6a3ff3db-7064-47fc-8599-472bd0daad2a</webElementGuid>
+      <webElementGuid>f6c1bad1-bf49-46e0-823c-1d29b541e8a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>searchButton</value>
+      <webElementGuid>99e34a50-8fda-40c5-8f24-d7f8e02c6be1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

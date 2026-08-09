@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_ManageEmailOrTextToPay_Prod</name>
+   <tag></tag>
+   <elementGuidId>12d4f967-69e1-4acf-b1db-c2844b569d9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/aside/ul/li[11]/ul/li[2]/a[count(. | //*[(text() = 'Manage Email/Text to Pay' or . = 'Manage Email/Text to Pay')]) = count(//*[(text() = 'Manage Email/Text to Pay' or . = 'Manage Email/Text to Pay')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage Email/Text to Pay</value>
+      <webElementGuid>57c00d52-6789-4ce1-b76e-812651f7ccd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/deep/bootstrap/vadministrator/notifications/managePayNotification/index.do</value>
+      <webElementGuid>6d7dc46d-05a9-49f0-aace-deddcd7f2429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/aside/ul/li[11]/ul/li[2]/a</value>
+      <webElementGuid>6c4b539a-8999-4992-b885-6672b175a66b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

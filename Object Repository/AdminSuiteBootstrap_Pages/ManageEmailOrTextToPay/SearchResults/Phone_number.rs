@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Phone_number</name>
+   <tag></tag>
+   <elementGuidId>2b98816e-ff70-4aa4-9a5b-ecc1d3298aa1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'billPhoneNumber' and @id = 'billPhoneNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billPhoneNumber</value>
+      <webElementGuid>c6e6d7d2-0c90-405d-a9e3-aa338bcb25c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billPhoneNumber</value>
+      <webElementGuid>187813ae-7080-4a94-9615-a1f7accb311c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

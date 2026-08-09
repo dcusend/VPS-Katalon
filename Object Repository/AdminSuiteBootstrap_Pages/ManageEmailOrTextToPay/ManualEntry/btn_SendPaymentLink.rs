@@ -7,38 +7,45 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and @class = 'btn btn-custom']</value>
+         <value>//*[@id=&quot;manualEntryForm&quot;]/div[10]/button</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>345c5422-4962-4387-9e1d-ac276555fa0d</webElementGuid>
+      <webElementGuid>8042c696-98c5-4353-a0f8-dca81fa9cea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-custom</value>
-      <webElementGuid>c60111c9-7a8d-4d40-9dae-ef328d25f7f6</webElementGuid>
+      <webElementGuid>28834e4f-be71-44e9-ad7a-2a62b212f6f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Send Payment Link</value>
-      <webElementGuid>e376a18e-944b-4d3a-8d2c-a126415bbf9e</webElementGuid>
+      <value>sendManualPaymentLink()</value>
+      <webElementGuid>da8c6f91-7df3-434f-90a8-605dd9b676fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;manualEntryForm&quot;]/div[10]/button</value>
+      <webElementGuid>b3b20521-e94c-4ed1-bc87-67ec1531b29b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

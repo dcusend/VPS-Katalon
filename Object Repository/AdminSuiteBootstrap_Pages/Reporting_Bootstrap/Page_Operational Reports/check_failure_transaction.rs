@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_failure_transaction</name>
+   <tag></tag>
+   <elementGuidId>20f968c8-3193-46ff-b0d7-2536e2ee0b25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'includeFailedTransactions' and @type = 'checkbox']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>includeFailedTransactions</value>
+      <webElementGuid>349715d2-e605-454d-b23b-41b6dd230e57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>e56199db-776d-4560-b08e-4df25cfab34b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

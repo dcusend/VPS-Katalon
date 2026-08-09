@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TabBy_ManualEntry_CANAmount_Error</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>956ef66f-9090-44f3-9613-a99ab68b9ded</testCaseGuid>
+</TestCaseEntity>

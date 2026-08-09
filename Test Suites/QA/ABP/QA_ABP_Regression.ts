@@ -791,7 +791,7 @@
    <testCaseLink>
       <guid>85b28803-82f2-472f-8395-da7f25a4e9dd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ABP/ScheduledPayment/Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -805,7 +805,7 @@
    <testCaseLink>
       <guid>38dd8442-9db0-45b7-8ccb-c4624eb26510</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ABP/SuccessfulPayment/Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

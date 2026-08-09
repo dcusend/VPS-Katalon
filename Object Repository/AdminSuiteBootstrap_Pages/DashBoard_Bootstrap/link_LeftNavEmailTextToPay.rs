@@ -19,7 +19,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Email &amp;amp; Text to Pay Management</value>
-      <webElementGuid>576dff45-c330-4381-b4a1-6d51f6065ea7</webElementGuid>
+      <webElementGuid>6513e3f4-86d2-471d-ad83-122391cc017b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,6 +27,14 @@
       <name>class</name>
       <type>Main</type>
       <value>app-menu__label</value>
-      <webElementGuid>70ed2658-2546-4728-ab7e-1257b3850ab1</webElementGuid>
+      <webElementGuid>89fec319-90ad-4705-9e08-6bba20327b0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/aside/ul/li[7]/a/span</value>
+      <webElementGuid>373f45d3-c625-43cf-a355-8d3541af2bb6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
