@@ -4,5 +4,6 @@
    <name>DCFBelowFloorCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d60b7bc6-bdcf-406e-8459-4f73270ccaca</testCaseGuid>
 </TestCaseEntity>

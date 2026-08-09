@@ -23,8 +23,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 def multibillRegisterURL=GlobalVariable.MultiBillRegisterURL
 
 
-//searchString = "Lenna Paprocki"
-searchString = GlobalVariable.RegisterSearchString
+searchString = "Diana Abernethy"
+//searchString = GlobalVariable.RegisterSearchString
 
 WebUI.openBrowser(multibillRegisterURL)
 
@@ -88,6 +88,19 @@ WebUI.delay(2)
 					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/btn_Register'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/link_Login'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/PasswordPolicy'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+					
+					
+					
+					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/Username'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/Email'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/CellPhone'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/Password'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/ConfirmPassword'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/FirstName'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+					WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/UserRegistrationPage/LastName'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+					
+					
+					
 					
 					
 		

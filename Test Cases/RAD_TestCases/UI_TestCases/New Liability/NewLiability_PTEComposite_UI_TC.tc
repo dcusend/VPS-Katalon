@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>DO NOT EXECUTE. Works in all Environments</description>
-   <name>NewLiability_PTEComposite_UI_TC_DONOTRUN</name>
+   <description>Works in all Environments</description>
+   <name>NewLiability_PTEComposite_UI_TC</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

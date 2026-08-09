@@ -27,6 +27,7 @@ def multibillHarrisAddressURL = GlobalVariable.MultiBillHarrisAddressURL
 
 WebUI.openBrowser(multibillHarrisAddressURL)
 
+
 WebUI.maximizeWindow()
 
 WebUI.delay(2)
@@ -56,8 +57,19 @@ def totalSearchByOptions = WebUI.getNumberOfTotalOption(findTestObject('Object R
 		
 		
 		WebUI.verifyOptionsPresent(findTestObject('Object Repository/MultiBill/MultibillSearch/dd_Harris_SearchBy'),['Payer Address'])
-		WebUI.verifyOptionNotPresentByLabel(findTestObject('Object Repository/MultiBill/MultibillSearch/dd_Harris_SearchBy'),'Payer Account Number',false,10)
-		WebUI.verifyOptionNotPresentByLabel(findTestObject('Object Repository/MultiBill/MultibillSearch/dd_Harris_SearchBy'),'Payer Name',false,10)
+
+		// Validate hidden options are still in DOM but not available to users.
+		def isPayerAccountNumberHidden = WebUI.executeJavaScript(
+			"var option = document.getElementById('optionAaccountID'); return option && option.hidden === true && option.disabled === true;",
+			null
+		)
+		WebUI.verifyEqual(isPayerAccountNumberHidden, true, FailureHandling.CONTINUE_ON_FAILURE)
+
+		def isPayerNameHidden = WebUI.executeJavaScript(
+			"var option = document.getElementById('optionNameID'); return option && option.hidden === true && option.disabled === true;",
+			null
+		)
+		WebUI.verifyEqual(isPayerNameHidden, true, FailureHandling.CONTINUE_ON_FAILURE)
 		 
 		
 		

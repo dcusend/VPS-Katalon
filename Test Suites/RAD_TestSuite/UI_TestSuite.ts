@@ -431,4 +431,18 @@
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_MotorFuelFloorTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a3b6e19c-e971-4f23-a839-2b84e030df6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_PTEComposite_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f382fe0d-ad01-4692-8766-fa2866a25617</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_EstateTax_UI_TC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

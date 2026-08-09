@@ -4,5 +4,6 @@
    <name>DCFCancelOnCFPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9614ff8a-82e9-472e-82e8-3f2c003684f6</testCaseGuid>
 </TestCaseEntity>

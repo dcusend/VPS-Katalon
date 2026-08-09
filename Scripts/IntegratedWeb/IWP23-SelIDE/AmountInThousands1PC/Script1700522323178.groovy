@@ -16,6 +16,7 @@ if (emulatorURL?.startsWith('http://') || emulatorURL?.startsWith('https://')) {
     WebUI.navigateToUrl(baseUrl + emulatorURL)
 }
 
+WebUI.delay(2)
 WebUI.selectOptionByLabel(to('name=message_version'), '2.3', false)
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 WebUI.setText(to('name=amount'), '10.00')
@@ -47,16 +48,19 @@ if (testHarnessURL?.startsWith('http://') || testHarnessURL?.startsWith('https:/
     WebUI.navigateToUrl(baseUrl + testHarnessURL)
 }
 
+WebUI.delay(2)
 WebUI.setText(to('name=application_id'), '653')
 WebUI.setText(to('name=message_version'), '2.3')
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 WebUI.setText(to('name=remittance_id'), genRemIDVoid)
-
 WebUI.click(to('css=input.formSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
+
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
 WebUI.click(to('css=input[type="submit"]'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.setText(to('name=amount'), '3500.00')
 WebUI.setText(to('name=billingFirstname'), 'Mike')
@@ -69,16 +73,11 @@ WebUI.setText(to('name=billingAddress'), '104 main road')
 WebUI.setText(to('name=billingAddress2'), '')
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=billingAddress2'), '')
-//WebUI.delay(8)
 WebUI.click(to('name=checkedAcceptCondition'))
-//WebUI.click(to('id=checkedAcceptCondition'))
-//WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryPersonal_Bootstrap/input_checkedAcceptCondition'))
-//WebUI.click(findTestObject('Object Repository/Misc/New Folder/achPersonal_CheckBox'))
-
-//WebUI.delay(8)
 WebUI.click(to('name=achSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
+WebUI.delay(2)
 WebUI.verifyTextPresent('Please verify the following information:', true)
 WebUI.verifyTextPresent('Is this information correct', true)
 WebUI.verifyTextPresent('\$3,500.00', false)

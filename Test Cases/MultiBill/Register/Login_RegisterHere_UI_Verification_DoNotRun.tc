@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Works in QA and QA2</description>
-   <name>Login_RegisterHere_UI_Verification</name>
+   <description>Do Not Execute. Works in QA and QA2</description>
+   <name>Login_RegisterHere_UI_Verification_DoNotRun</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

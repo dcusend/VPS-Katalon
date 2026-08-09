@@ -70,7 +70,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Unclaimed Property'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Digital Advertising Gross Revenues','PTE Composite'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Digital Advertising Gross Revenues'])
 		
 		
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)

@@ -4,5 +4,6 @@
    <name>SCFFlatSuccessfulPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>cc9385ed-e85b-4e6c-b19a-f2a675ffd677</testCaseGuid>
 </TestCaseEntity>

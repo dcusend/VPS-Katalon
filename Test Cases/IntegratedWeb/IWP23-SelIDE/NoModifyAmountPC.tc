@@ -4,5 +4,6 @@
    <name>NoModifyAmountPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2e88ebdf-9565-4317-9834-a86a089eaeca</testCaseGuid>
 </TestCaseEntity>

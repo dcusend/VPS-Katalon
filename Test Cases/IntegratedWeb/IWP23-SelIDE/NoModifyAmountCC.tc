@@ -4,5 +4,6 @@
    <name>NoModifyAmountCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f8567d71-e415-4ba2-8362-c6b13338ae35</testCaseGuid>
 </TestCaseEntity>

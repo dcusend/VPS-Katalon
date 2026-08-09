@@ -379,7 +379,7 @@
       <guid>899eba8b-1beb-437a-9b8a-88e5eccd22b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_EstateTax_UI_TC_DONOTRUN</testCaseId>
+      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_EstateTax_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

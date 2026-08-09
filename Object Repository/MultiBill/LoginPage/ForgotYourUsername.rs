@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Forgot your username?' or . = 'Forgot your username?') and @href = '/vrelay/bootstrap/vrelay-username-recovery.html']</value>
+         <value>//*[(text() = 'Forgot username?' or . = 'Forgot username?') and contains(@href, '/vrelay/bootstrap/vrelay-username-recovery.html')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,15 +18,15 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Forgot your username?</value>
-      <webElementGuid>a5929e10-c6bf-4b22-ad75-9896fe472c16</webElementGuid>
+      <value>Forgot username?</value>
+      <webElementGuid>3cfd7c0d-f91d-4397-ae5a-76d9cf5cfb18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/vrelay/bootstrap/vrelay-username-recovery.html</value>
-      <webElementGuid>50ea2a04-dc88-41b8-9028-ccfd5e361287</webElementGuid>
+      <webElementGuid>e06cd522-7d34-4aa2-9895-f671ccabfa9a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

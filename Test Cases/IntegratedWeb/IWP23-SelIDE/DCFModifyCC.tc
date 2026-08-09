@@ -4,5 +4,6 @@
    <name>DCFModifyCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7aa8ad28-7717-423e-ae31-53f48826d3bc</testCaseGuid>
 </TestCaseEntity>

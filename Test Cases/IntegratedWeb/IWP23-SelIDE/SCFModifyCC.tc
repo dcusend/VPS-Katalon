@@ -4,5 +4,6 @@
    <name>SCFModifyCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a88bf2eb-020c-4256-9d73-32b7a2a9b8ae</testCaseGuid>
 </TestCaseEntity>

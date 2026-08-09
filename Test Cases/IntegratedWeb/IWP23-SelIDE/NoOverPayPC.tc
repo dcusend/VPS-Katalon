@@ -4,5 +4,6 @@
    <name>NoOverPayPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b9c2e8c9-44ed-47fd-a90a-e7cbffab5402</testCaseGuid>
 </TestCaseEntity>

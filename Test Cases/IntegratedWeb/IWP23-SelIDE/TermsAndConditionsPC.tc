@@ -4,5 +4,6 @@
    <name>TermsAndConditionsPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e017a6da-1a59-4c71-82b1-8bc15b69f822</testCaseGuid>
 </TestCaseEntity>

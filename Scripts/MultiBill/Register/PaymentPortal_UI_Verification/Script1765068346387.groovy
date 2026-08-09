@@ -22,8 +22,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 def multibillRegisterURL=GlobalVariable.MultiBillRegisterURL
 
 
-//searchString = "Lenna Paprocki"
-searchString = GlobalVariable.RegisterSearchString
+searchString = "Diana Abernethy"
+//searchString = GlobalVariable.RegisterSearchString
 
 WebUI.openBrowser(multibillRegisterURL)
 
@@ -68,7 +68,7 @@ WebUI.delay(2)
 		WebUI.verifyTextPresent('Make a real-time payment', false, FailureHandling.CONTINUE_ON_FAILURE)
 		
 		WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/PaymentPortalPage/link_CreateProfile'), 10, FailureHandling.CONTINUE_ON_FAILURE)
-		WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/PaymentPortalPage/link_LoginNow'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/PaymentPortalPage/btn_SignIn'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/PaymentPortalPage/btn_PayAsAGuest'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 		
 		

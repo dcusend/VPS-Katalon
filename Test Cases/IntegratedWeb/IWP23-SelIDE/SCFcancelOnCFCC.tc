@@ -4,5 +4,6 @@
    <name>SCFcancelOnCFCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>bc8cf163-8166-4030-ab92-a2c846797a24</testCaseGuid>
 </TestCaseEntity>

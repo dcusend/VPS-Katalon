@@ -4,5 +4,6 @@
    <name>NoOverPayCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d891998e-fc13-475a-a7e3-90ec00efcd48</testCaseGuid>
 </TestCaseEntity>

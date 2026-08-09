@@ -41,7 +41,7 @@ WebUI.delay(2)
 	if (WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/Username'), 10, FailureHandling.STOP_ON_FAILURE))
 	{
 		WebUI.setText(findTestObject('Object Repository/MultiBill/LoginPage/Username'), "iahmedups")
-		WebUI.setText(findTestObject('Object Repository/MultiBill/LoginPage/Password'), "American2025@")
+		WebUI.setText(findTestObject('Object Repository/MultiBill/LoginPage/Password'), "American2026@")
 		WebUI.click(findTestObject('Object Repository/MultiBill/LoginPage/btn_SignIn'), FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(5)
 		

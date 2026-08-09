@@ -23,8 +23,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 def multibillRegisterURL=GlobalVariable.MultiBillRegisterURL
 
 
-//searchString = "Lenna Paprocki"
-searchString = GlobalVariable.RegisterSearchString
+searchString = "Diana Abernethy"
+//searchString = GlobalVariable.RegisterSearchString
 
 
 WebUI.openBrowser(multibillRegisterURL)
@@ -59,30 +59,40 @@ WebUI.delay(2)
 		
 		
 		
-// Select Login Now link
-		WebUI.click(findTestObject('Object Repository/MultiBill/PaymentPortalPage/link_LoginNow'), FailureHandling.STOP_ON_FAILURE)
+// Select Sign In link
+		WebUI.click(findTestObject('Object Repository/MultiBill/PaymentPortalPage/btn_SignIn'), FailureHandling.STOP_ON_FAILURE)
+		
+// Select Need Help Signing in link
+        WebUI.click(findTestObject('Object Repository/MultiBill/LoginPage/NeedHelpSigningIn'), FailureHandling.STOP_ON_FAILURE)
 		
 // Select Forgot YOur Password
 		WebUI.click(findTestObject('Object Repository/MultiBill/LoginPage/ForgotYourPassword'), FailureHandling.STOP_ON_FAILURE)
 		
 // Verify if we are on Password Recovery Page
-		if (WebUI.verifyTextPresent('Password Recovery', false, FailureHandling.STOP_ON_FAILURE))
+		if (WebUI.verifyTextPresent('Reset Password', false, FailureHandling.STOP_ON_FAILURE))
 			{
-				WebUI.verifyTextPresent("Enter your username and email to reset your password", false, FailureHandling.CONTINUE_ON_FAILURE)
-				WebUI.verifyTextPresent("Username", false, FailureHandling.CONTINUE_ON_FAILURE)
-				WebUI.verifyTextPresent("Email Address", false, FailureHandling.CONTINUE_ON_FAILURE)
-				WebUI.verifyTextPresent("Remember your password?", false, FailureHandling.CONTINUE_ON_FAILURE)
+				WebUI.verifyTextPresent("Email or Username", false, FailureHandling.CONTINUE_ON_FAILURE)
+				//WebUI.verifyTextPresent("Username", false, FailureHandling.CONTINUE_ON_FAILURE)
+				//WebUI.verifyTextPresent("Email Address", false, FailureHandling.CONTINUE_ON_FAILURE)
+				WebUI.verifyTextPresent("Back to sign in", false, FailureHandling.CONTINUE_ON_FAILURE)
+				WebUI.verifyTextPresent("Return to Portal", false, FailureHandling.CONTINUE_ON_FAILURE)
 				
-				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/Username'), 10, FailureHandling.CONTINUE_ON_FAILURE)
-				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/EMailAddress'), 10, FailureHandling.CONTINUE_ON_FAILURE)
-				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/SendResetLink'), 10, FailureHandling.CONTINUE_ON_FAILURE)
-				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/Login'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 				
-// Select Login link
-				WebUI.click(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/Login'), FailureHandling.STOP_ON_FAILURE)
+				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/EmailOrUsername'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/ResetViaEmail'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/BackToSigIn'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/ReturnToPortal'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 				
-// Verify Username text box on Login Page
-				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/Username'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				
+				//WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/EMailAddress'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				//WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/SendResetLink'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				//WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/Login'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				
+// Select Return to Portal link
+				WebUI.click(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/ReturnToPortal'), FailureHandling.STOP_ON_FAILURE)
+				
+// Verify Payment Portal Page
+				WebUI.verifyTextPresent('Create an Online Profile', false, FailureHandling.STOP_ON_FAILURE)
 			
 			}
 		

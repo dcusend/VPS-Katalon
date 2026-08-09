@@ -64,7 +64,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		WebUI.verifyEqual(totalOptionsFilingYear, 4)
 			
 						
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2025', '2024', '2023'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'),['2026', '2025', '2024'])
 		
 		
 		
@@ -110,7 +110,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		
 		WebUI.verifyTextPresent('Payment Amount', true)
 		
-		WebUI.verifyTextPresent('Service Fee: This electronic government service includes a service/convenience fee. Click here for details', true)
+		WebUI.verifyTextPresent('Service Fee: This electronic government service may include a service/convenience fee. Click here for details', true)
 		
 		WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/a_Click here for details'), 30)
 		
@@ -137,6 +137,9 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 //		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_PSSN'), 30)
 		
 //		WebUI.verifyElementPresent(findTestObject(orPath_TaxPayer + '/input_reEnterPSSN'), 30)
+		
+		
+	
 		
 
 // CHanges 01/30/2024 Begin		
@@ -309,7 +312,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 		
 		
 // Verify Sevice Fee static text
-		WebUI.verifyTextPresent('Service Fee: This electronic government service includes a service/convenience fee. Click here for details', true)
+		WebUI.verifyTextPresent('Service Fee: This electronic government service may include a service/convenience fee. Click here for details', true)
 		WebUI.verifyElementPresent(findTestObject(orPath_Amount + '/a_Click here for details'), 30)
 
 		

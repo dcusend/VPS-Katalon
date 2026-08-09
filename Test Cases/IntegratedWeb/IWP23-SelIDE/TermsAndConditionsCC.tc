@@ -4,5 +4,6 @@
    <name>TermsAndConditionsCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1ecfe7f7-cf4c-445c-be9f-7e59010fc00f</testCaseGuid>
 </TestCaseEntity>

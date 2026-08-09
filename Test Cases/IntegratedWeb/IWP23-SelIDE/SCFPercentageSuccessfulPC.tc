@@ -4,5 +4,6 @@
    <name>SCFPercentageSuccessfulPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d2bd8d10-f96e-491d-8661-317ca2359cab</testCaseGuid>
 </TestCaseEntity>

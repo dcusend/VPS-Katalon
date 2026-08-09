@@ -4,5 +4,6 @@
    <name>SuccessfulPCReqFields</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>23b7701b-4f24-44c2-9188-7e2b6a3a50b5</testCaseGuid>
 </TestCaseEntity>

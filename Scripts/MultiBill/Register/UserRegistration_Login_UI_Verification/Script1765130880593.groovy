@@ -23,8 +23,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 def multibillRegisterURL=GlobalVariable.MultiBillRegisterURL
 
 
-//searchString = "Lenna Paprocki"
-searchString = GlobalVariable.RegisterSearchString
+searchString = "Diana Abernethy"
+//searchString = GlobalVariable.RegisterSearchString
 
 WebUI.openBrowser(multibillRegisterURL)
 

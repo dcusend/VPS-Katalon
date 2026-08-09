@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and @class = 'btn btn-primary btn-login' and (text() = 'Sign In' or . = 'Sign In')]</value>
+         <value>//*[@type = 'submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,22 +19,14 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>05950cfd-855f-4805-bb3c-f4a3f16338d4</webElementGuid>
+      <webElementGuid>fc0a374a-c814-421d-91c3-ea2441642ff6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>btn btn-primary btn-login</value>
-      <webElementGuid>c594f69d-8efe-47d3-9fe9-d49c9472eb13</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Sign In</value>
-      <webElementGuid>d41f63de-ae70-4055-8917-7f787a08e136</webElementGuid>
+      <value>okta-signin-submit</value>
+      <webElementGuid>62c1b182-cfb8-40be-a22e-6588ed2b2f67</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

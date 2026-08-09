@@ -23,8 +23,8 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 def multibillRegisterURL=GlobalVariable.MultiBillRegisterURL
 
 
-//searchString = "Lenna Paprocki"
-searchString = GlobalVariable.RegisterSearchString
+searchString = "Diana Abernethy"
+//searchString = GlobalVariable.RegisterSearchString
 
 
 WebUI.openBrowser(multibillRegisterURL)
@@ -58,9 +58,9 @@ WebUI.delay(2)
 		println "On Payment Portal Page, Continue Verification"
 		
 		
-// Select Login Now link
-		WebUI.click(findTestObject('Object Repository/MultiBill/PaymentPortalPage/link_LoginNow'), FailureHandling.STOP_ON_FAILURE)
-		
+// Select Sign In link
+		WebUI.click(findTestObject('Object Repository/MultiBill/PaymentPortalPage/btn_SignIn'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(2)
 		
 // Verify static text and elements on Login page
 		
@@ -71,14 +71,14 @@ WebUI.delay(2)
 				
 				WebUI.verifyTextPresent('Username', false, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.verifyTextPresent('Password', false, FailureHandling.CONTINUE_ON_FAILURE)
-				WebUI.verifyTextPresent('Need an account?', false, FailureHandling.CONTINUE_ON_FAILURE)
+				//WebUI.verifyTextPresent('Need an account?', false, FailureHandling.CONTINUE_ON_FAILURE)
 				
 				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/Username'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/Password'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/btn_SignIn'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/ForgotYourUsername'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/ForgotYourPassword'), 10, FailureHandling.CONTINUE_ON_FAILURE)
-				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/RegisterHere'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				//WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/RegisterHere'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 				WebUI.verifyElementPresent(findTestObject('Object Repository/MultiBill/LoginPage/ReturnToPortal'), 10, FailureHandling.CONTINUE_ON_FAILURE)
 				
 				
