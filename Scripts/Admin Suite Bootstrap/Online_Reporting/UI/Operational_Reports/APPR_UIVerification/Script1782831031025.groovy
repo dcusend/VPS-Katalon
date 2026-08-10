@@ -42,6 +42,10 @@ WebUI.verifyTextPresent('Active Payment Plan Report', false)
 
 WebUI.verifyTextPresent('Please select a payment application on which to base this report.', false)
 
+WebUI.verifyTextPresent('Customer:', false)
+
+WebUI.verifyTextPresent('Payment Application:', false)
+
 WebUI.verifyOptionsPresent(findTestObject(path_Operation_Reports + 'select_customer'),['imtiaz'])
 
 WebUI.verifyOptionsPresent(findTestObject(path_Operation_Reports + 'select_app'),['AASHU(1234567891111111)'])

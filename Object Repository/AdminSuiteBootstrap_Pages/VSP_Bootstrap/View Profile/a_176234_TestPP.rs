@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_176234_TestPP</name>
+   <tag></tag>
+   <elementGuidId>df887cc7-b123-4d84-8b9d-55872f8ac3f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/imtiaz/bootstrap/vsp/744/profile/ViewProfile?ProfileID=176234' and (text() = 'View' or . = 'View')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/imtiaz/bootstrap/vsp/744/profile/ViewProfile?ProfileID=176234</value>
+      <webElementGuid>898682e8-8126-44cd-9b07-03f2869188ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View</value>
+      <webElementGuid>4fe951a6-ed3c-420d-a4a1-cf9489de93ab</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
