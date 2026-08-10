@@ -4,5 +4,6 @@
    <name>DCFAboveCeilingPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6e7a39d0-391a-4792-a3c6-19aaa8e8e1a7</testCaseGuid>
 </TestCaseEntity>

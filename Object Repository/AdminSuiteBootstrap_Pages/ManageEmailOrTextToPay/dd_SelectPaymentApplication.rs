@@ -19,7 +19,7 @@
       <name>name</name>
       <type>Main</type>
       <value>paymentApplicationId</value>
-      <webElementGuid>cd9349bd-9948-4d63-b80f-4059c561824b</webElementGuid>
+      <webElementGuid>025975d6-ae44-4674-8a14-38a20ca6fcad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,14 @@
       <name>id</name>
       <type>Main</type>
       <value>paymentApplicationId</value>
-      <webElementGuid>6533a3ce-0448-442c-96ad-36b076e29cb8</webElementGuid>
+      <webElementGuid>0c8d4fe1-8412-4057-921f-2fd7996ad1f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select</value>
+      <webElementGuid>faea161d-7845-4b05-b9ee-c4185849f029</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

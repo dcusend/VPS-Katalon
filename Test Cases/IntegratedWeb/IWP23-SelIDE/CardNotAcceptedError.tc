@@ -4,5 +4,6 @@
    <name>CardNotAcceptedError</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f35dbd95-0408-4b95-a94d-d63f04efc13b</testCaseGuid>
 </TestCaseEntity>

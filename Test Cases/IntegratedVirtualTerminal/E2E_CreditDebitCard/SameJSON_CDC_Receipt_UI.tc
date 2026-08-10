@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SameJSON_CDC_Receipt_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a5ccc89-1b46-4d9a-beb1-b4fcd6ccbdf9</testCaseGuid>
+</TestCaseEntity>

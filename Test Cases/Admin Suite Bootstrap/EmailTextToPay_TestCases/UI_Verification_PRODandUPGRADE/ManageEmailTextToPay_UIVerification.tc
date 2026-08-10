@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ManageEmailTextToPay_UIVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f68d0ccd-582a-40f5-8d72-08d0dbb4e670</testCaseGuid>
+</TestCaseEntity>

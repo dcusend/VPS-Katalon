@@ -4,5 +4,6 @@
    <name>AmountInThousands2CC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>863b4285-c6b4-46dd-a146-ccdb43a447a7</testCaseGuid>
 </TestCaseEntity>

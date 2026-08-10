@@ -74,7 +74,7 @@ for (def row = 1; row <= numOfRows; row++)
 				//select credit card payment method from drop down
 				CustomKeywords.'abpPages.PaymentsMethodPage.selectPaymentMethodCC'()
 				
-				//this method populates credit card data 
+				//this method populates credit card data 				
 				CustomKeywords.'abpPages.PaymentsMethodPage.setDataCardInfo'(CardID)
 				
 				

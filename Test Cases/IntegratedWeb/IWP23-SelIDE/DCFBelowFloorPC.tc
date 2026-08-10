@@ -4,5 +4,6 @@
    <name>DCFBelowFloorPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>24505851-5dd0-4895-950e-c88333c02d86</testCaseGuid>
 </TestCaseEntity>

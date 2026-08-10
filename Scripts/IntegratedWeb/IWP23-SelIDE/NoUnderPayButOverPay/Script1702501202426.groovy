@@ -16,6 +16,7 @@ if (emulatorURL?.startsWith('http://') || emulatorURL?.startsWith('https://')) {
     WebUI.navigateToUrl(baseUrl + emulatorURL)
 }
 
+WebUI.delay(2)
 WebUI.selectOptionByLabel(to('name=message_version'), '2.3', false)
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 WebUI.setText(to('name=amount'), '10.00')
@@ -38,6 +39,7 @@ WebUI.setText(to('name=user_defined4'), 'Orange Label')
 WebUI.setText(to('name=user_defined5'), 'Soccer Label')
 WebUI.click(to('name=submit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 def testHarnessURL = GlobalVariable.urlTestHarness
 if (testHarnessURL?.startsWith('http://') || testHarnessURL?.startsWith('https://')) {
@@ -51,12 +53,14 @@ WebUI.setText(to('name=application_id'), '653')
 WebUI.setText(to('name=message_version'), '2.3')
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 WebUI.setText(to('name=remittance_id'), genRemIDVoid)
-
 WebUI.click(to('css=input.formSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
+
 WebUI.click(to('name=paymentMethod'))
 WebUI.click(to('css=input[type="submit"]'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.setText(to('name=amount'), '695.00')
 WebUI.setText(to('id=cardNumber'), '4111111111111111')
@@ -66,6 +70,7 @@ WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
 WebUI.click(to('id=checkedAcceptCondition'))
 WebUI.click(to('name=ccSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.verifyTextPresent('\$695.00', false)
 

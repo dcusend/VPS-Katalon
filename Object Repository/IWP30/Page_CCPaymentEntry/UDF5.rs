@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UDF5</name>
+   <tag></tag>
+   <elementGuidId>dc05f398-84e2-48fd-8dce-6895dc549285</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'userDefined5Text' and @name = 'userDefined5']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>userDefined5Text</value>
+      <webElementGuid>58535fc4-e850-4328-a003-6eadfa4c32e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>userDefined5</value>
+      <webElementGuid>e22aed2a-cc73-44aa-8f43-e5bfd3e709b7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

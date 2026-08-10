@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'password' and @id = 'password' and @name = 'password']</value>
+         <value>//*[@type = 'password' and @id = 'okta-signin-password' and @name = 'password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +19,15 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>8e5f332c-c800-4627-bd06-45de91e77d35</webElementGuid>
+      <webElementGuid>c272949f-4910-4118-a3b3-4ba50e077586</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>77bdd6ff-8022-44fb-ab81-9b8674fc881f</webElementGuid>
+      <value>okta-signin-password</value>
+      <webElementGuid>8c7700bb-34af-43f8-ad5f-42267af84b47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +35,6 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>a2df143d-ed0e-4f23-968c-cfa49ece3282</webElementGuid>
+      <webElementGuid>c5afb920-7e98-44f3-b1cd-01cae4b9e23d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

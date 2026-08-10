@@ -4,5 +4,6 @@
    <name>AmpersandPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>92fa948c-639e-43c7-8c04-5a4b0e02ed83</testCaseGuid>
 </TestCaseEntity>

@@ -6,12 +6,16 @@
    <elementGuidId>de791fc2-640d-4bc9-a346-53266477c8c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='cardExpireYear']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#cardExpireYear</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'cardExpireYear']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cardExpireYear']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>a9eba919-2c84-4442-82f6-8e932f6d0613</webElementGuid>
+      <webElementGuid>4433a620-e2d4-47cb-af41-19c340decb49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>cardExpireYear</value>
-      <webElementGuid>7ed7c194-bba8-4064-adec-273b721eb813</webElementGuid>
+      <webElementGuid>df1de24e-3a61-435b-b018-573c789999d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,10 +49,10 @@
       <name>id</name>
       <type>Main</type>
       <value>cardExpireYear</value>
-      <webElementGuid>1bfac42f-cfa8-4eea-813a-063f241fe88e</webElementGuid>
+      <webElementGuid>f3631fad-be99-47a2-8d36-d1833dba81d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -68,7 +72,7 @@
 2037
 2038
 2039</value>
-      <webElementGuid>c662d16d-883e-407a-a7f5-52b82d3fc403</webElementGuid>
+      <webElementGuid>a5e05d01-8863-46a8-8fd1-2f2debdc888e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +80,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cardExpireYear&quot;)</value>
-      <webElementGuid>ea6d825f-7f3f-4081-9007-22206ffb706b</webElementGuid>
+      <webElementGuid>6ef3f662-2aa0-432f-9e58-584beee81a47</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,7 +88,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='cardExpireYear']</value>
-      <webElementGuid>97901ebf-4077-45fc-b114-f1560ac43abe</webElementGuid>
+      <webElementGuid>981e01c9-dcaf-4afa-a083-fc181b6530bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +96,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='area_creditCard']/table/tbody/tr[4]/td[2]/select[2]</value>
-      <webElementGuid>8822b2ce-d3e9-496e-8a8d-a5ac788e030a</webElementGuid>
+      <webElementGuid>a8512612-69e7-48cc-80a3-e5d9380b1a88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::select[2]</value>
-      <webElementGuid>edd3992a-d4ec-4c5b-9ba6-70fa5ee0ea86</webElementGuid>
+      <webElementGuid>c4968ab0-1f05-43e8-aaca-25e1af7f87fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiration Date:'])[1]/following::select[2]</value>
-      <webElementGuid>9850394b-34cd-409e-b9e6-9f516789b004</webElementGuid>
+      <webElementGuid>69d2434e-f666-45cc-8cc2-08f3d1f39b65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Account Information'])[1]/preceding::select[1]</value>
-      <webElementGuid>101f8adb-c930-4c37-a17a-8dcfdfe7ebd2</webElementGuid>
+      <webElementGuid>900644ec-31a3-4f05-b399-ce3d3c35a51b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +128,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Name:'])[1]/preceding::select[1]</value>
-      <webElementGuid>a34fe984-df40-4a77-b1af-83e9d19abd77</webElementGuid>
+      <webElementGuid>25a738ef-abee-4d4b-8a8a-fe9d0f2f8188</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +136,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select[2]</value>
-      <webElementGuid>8b9663e4-2ca0-420a-8e15-8ada036b7eb6</webElementGuid>
+      <webElementGuid>9c12b21c-5817-4db6-8112-54f8eea95ea1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -170,6 +174,6 @@
 2037
 2038
 2039')]</value>
-      <webElementGuid>27899b05-8c54-4774-b4bb-aac992eb4eef</webElementGuid>
+      <webElementGuid>6692da68-e670-4ab6-8c56-7f5fb99af249</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -20,7 +20,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!2222222'</initValue>
+      <initValue>'Hello!3333333'</initValue>
       <name>Password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -104,14 +104,14 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AutoUserDemo'</initValue>
+      <initValue>'iahmed1'</initValue>
       <name>AutoUserAdminSuite</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Dashboard@3333'</initValue>
+      <initValue>'Hello!2222222'</initValue>
       <name>AutoPasswordAdminSuite</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -139,7 +139,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!66666'</initValue>
+      <initValue>'Hello!77777'</initValue>
       <name>abpNoCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -167,7 +167,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!66666'</initValue>
+      <initValue>'Hello!77777'</initValue>
       <name>abpSCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -181,8 +181,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!66666'</initValue>
+      <initValue>'Velocity@1234'</initValue>
       <name>abpDCFPassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.velocitypayment.com/VVTAPI/bootstrap/PaymentRequestDemo.html'</initValue>
+      <name>IntegratedVT</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

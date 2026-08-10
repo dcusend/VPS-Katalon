@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button']</value>
+         <value>//*[@type = 'button' and (text() = 'Continue' or . = 'Continue')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,6 +19,14 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f3169ace-1f25-41d9-b948-7f19dd7db510</webElementGuid>
+      <webElementGuid>d8478a86-a81f-4390-853d-5eef49764421</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>a79961e3-1b29-49c0-af10-bfbe8e4fe2bf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

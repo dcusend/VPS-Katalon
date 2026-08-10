@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SameJSON_BC_AcceptFeeAndContinue_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>55f64650-998c-4c48-ba74-5e0487f620aa</testCaseGuid>
+</TestCaseEntity>

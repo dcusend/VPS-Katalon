@@ -4,5 +4,6 @@
    <name>DCFAboveCeilingCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>20a7a24a-7b4e-43a7-8f64-43c5f461ea6f</testCaseGuid>
 </TestCaseEntity>

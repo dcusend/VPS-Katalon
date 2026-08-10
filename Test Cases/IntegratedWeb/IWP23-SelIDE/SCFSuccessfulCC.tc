@@ -4,5 +4,6 @@
    <name>SCFSuccessfulCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>cb359450-184a-4804-ba96-c54f4f5bb22d</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NoChangesToJSON-PCS_Receipt_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>743ada01-4434-40d0-bb3d-0cd9ddc8bdc6</testCaseGuid>
+</TestCaseEntity>

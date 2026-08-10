@@ -4,13 +4,32 @@
    <name>app_btn_right</name>
    <tag></tag>
    <elementGuidId>13708dad-5d5b-43a3-bc52-4416b49f5f5f</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'btnRight' and @onclick = concat(&quot;moveSelectedOptions(this.form[&quot; , &quot;'&quot; , &quot;availableApplicationIds&quot; , &quot;'&quot; , &quot;],this.form[&quot; , &quot;'&quot; , &quot;applicationIds&quot; , &quot;'&quot; , &quot;]);&quot;)]</value>
       </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnRight</value>
-      <webElementGuid>feb8ce32-98c8-474c-a2bb-fa19f8edd40d</webElementGuid>
+      <webElementGuid>a28a0f7c-da5a-48e5-8a41-19c5b646c9ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +46,6 @@
       <name>onclick</name>
       <type>Main</type>
       <value>moveSelectedOptions(this.form['availableApplicationIds'],this.form['applicationIds']);</value>
-      <webElementGuid>4a5f2fdd-c51c-4471-b663-56a4262d3551</webElementGuid>
+      <webElementGuid>d8f176e8-fc97-4910-a2b4-c65ebcea3d07</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

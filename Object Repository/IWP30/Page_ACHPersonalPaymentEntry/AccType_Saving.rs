@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AccType_Saving</name>
+   <tag></tag>
+   <elementGuidId>1ead1705-5cd4-4a02-80ad-cad78f3f903a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[3]/form[1]/table/tbody/tr[15]/td[3]/input[2][count(. | //*[@value = '2']) = count(//*[@value = '2'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>accountType</value>
+      <webElementGuid>ccfd675f-bc9b-4a90-8fda-1cf39bd5c4ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>a7c0dc8a-9b28-493f-b45b-71ec4d0db128</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>42bf8b60-ce7c-4c99-abf9-de81609a7d3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/form[1]/table/tbody/tr[15]/td[3]/input[2]</value>
+      <webElementGuid>d4b364af-9089-449e-aff9-d0b32335fd9b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

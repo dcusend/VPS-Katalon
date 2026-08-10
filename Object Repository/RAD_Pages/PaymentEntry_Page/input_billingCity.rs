@@ -6,15 +6,20 @@
    <elementGuidId>bb7ec3d2-4047-4276-a119-dfd68ba74ffe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='billing-city-input']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#billing-city-input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='billing-city-input']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'billing-city-input' and @type = 'text' and @name = 'billingCity']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>598dcc10-3060-44d8-b8d4-6f32f9002a45</webElementGuid>
+      <webElementGuid>1ab9d800-2f17-4195-a6cd-e8621b9c1ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>id</name>
       <type>Main</type>
       <value>billing-city-input</value>
-      <webElementGuid>f0bfcce9-83e2-478b-879e-49564df24e75</webElementGuid>
+      <webElementGuid>d533a7eb-361a-4b05-8ea6-74b61950b9ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>f602bf22-458c-4421-8f73-35e44173e04e</webElementGuid>
+      <webElementGuid>d9c438d5-2030-451a-9ef5-7bdba8da50c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>bf5439e4-b316-4a43-9460-e3a0a8af83df</webElementGuid>
+      <webElementGuid>14e6eebb-1069-455d-acf6-051166700121</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +59,15 @@
       <name>name</name>
       <type>Main</type>
       <value>billingCity</value>
-      <webElementGuid>151aace4-d376-4ac9-835b-b9c2108086eb</webElementGuid>
+      <webElementGuid>a96de5a4-4d84-46e2-ba31-afa23bd483c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>City</value>
-      <webElementGuid>9bb8728f-5819-4b89-9264-45fcdf92854c</webElementGuid>
+      <webElementGuid>c6d71a15-755d-4835-b87d-3b77ba8c721f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>30</value>
-      <webElementGuid>aa29da19-bb4f-44de-9bda-78823ac01ab1</webElementGuid>
+      <webElementGuid>43b0005e-a2c2-4c95-bc7d-765d0b1ce43a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>285d1d26-262b-4677-9974-60e573f58b44</webElementGuid>
+      <webElementGuid>a9478ec1-2479-4678-b0e7-272b5f6098f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>value</name>
       <type>Main</type>
       <value>gambrills</value>
-      <webElementGuid>38b8e1f8-b4ed-41ed-90a8-5ce9ffb02b30</webElementGuid>
+      <webElementGuid>8811058a-e878-4257-9a7a-ad02d26f8871</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>995f313f-0efd-4c6e-bf04-906e080e8195</webElementGuid>
+      <webElementGuid>70f5eb9e-881b-43e6-b19c-0d37d069c8b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,15 +107,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;billing-city-input&quot;)</value>
-      <webElementGuid>2bc69474-bd34-401a-a6a0-5921017222bc</webElementGuid>
+      <webElementGuid>bb2bdef4-52ce-40c4-99ff-ac3140ba34ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='billing-city-input']</value>
-      <webElementGuid>9109ca80-fb8c-4829-88d4-612f6324ad04</webElementGuid>
+      <webElementGuid>11d9ed69-7f47-4ee5-947a-706e363b5150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +123,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='process']/div/div/div[7]/div/div/input</value>
-      <webElementGuid>36848ec2-2022-4fbb-9fe3-d40ecf230cb0</webElementGuid>
+      <webElementGuid>1ae653df-548b-4823-9976-b890cd39c717</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/input</value>
-      <webElementGuid>3a18a818-a30c-4446-a284-10b8bc1b77ed</webElementGuid>
+      <webElementGuid>eb99b893-e2cc-4ef2-846c-65c4b7ad0346</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'billing-city-input' and @type = 'text' and @name = 'billingCity' and @alt = 'City']</value>
-      <webElementGuid>991ef108-cc64-4e01-b7ac-f21934ff1d44</webElementGuid>
+      <webElementGuid>529d01d7-8c39-4f07-bb6b-3382348de347</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

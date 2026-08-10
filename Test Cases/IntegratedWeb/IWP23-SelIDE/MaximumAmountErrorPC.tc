@@ -4,5 +4,6 @@
    <name>MaximumAmountErrorPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a163018c-7961-44d6-8b31-fb9bf8de1774</testCaseGuid>
 </TestCaseEntity>

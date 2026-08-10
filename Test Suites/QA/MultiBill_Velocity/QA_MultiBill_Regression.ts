@@ -211,7 +211,7 @@
       <guid>b74426cd-4c23-40dc-a8e6-a982e3b74832</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MultiBill/Register/Login_RegisterHere_UI_Verification</testCaseId>
+      <testCaseId>Test Cases/MultiBill/Register/Login_RegisterHere_UI_Verification_DoNotRun</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -269,5 +269,26 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/MultiBill/Register/RegisteredUserLogsIn_UI_Verification</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>41987bae-bc89-4d6f-9502-76872169e0fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MultiBill/HarrisClient/HarrisAddress_UIVerification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9dc74770-db5d-451b-8c79-72d761fcec19</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MultiBill/HarrisClient/HarrisCAN_UIVerification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2edd30d8-abe8-409c-8af7-34aa58abafd1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MultiBill/HarrisClient/HarrisPayer_UIVerification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

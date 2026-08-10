@@ -4,5 +4,6 @@
    <name>NoCFModifyCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3b26316b-f52b-412d-800d-1539e8ea17c2</testCaseGuid>
 </TestCaseEntity>

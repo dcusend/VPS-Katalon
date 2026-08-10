@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ChangedJSON_CDC_AcceptFeeAndContinue_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b15369e2-607b-4939-819b-3393b4f4b69d</testCaseGuid>
+</TestCaseEntity>

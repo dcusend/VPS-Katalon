@@ -29,7 +29,7 @@ String fileLoc = "KatalonData/RADTestData/MFLNNotZero.xlsx"
 String nameSheet = "MFLNNotZero"
 String dataFile = "RADTestData/MFLNNotZero"
 
-def ExecuteTC, Taxtype, Paymenttype
+def ExecuteTC, Taxtype, Paymenttype, expectedErrorMsg
 
 
 
@@ -101,6 +101,7 @@ def ExecuteTC, Taxtype, Paymenttype
 								WebUI.selectOptionByLabel(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),Taxtype , false)
 								WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MFLicenseExtLi'),"00000")
+								expectedErrorMsg = "Motor Fuel License Number must be 5 or 6 digits in length, with a value greater than zero"
 						
 						break
 						
@@ -123,6 +124,7 @@ def ExecuteTC, Taxtype, Paymenttype
 								WebUI.selectOptionByLabel(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),Taxtype,false)
 								WebUI.scrollToElement(findTestObject(orPath_Amount + '/input__paymentAmount'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 								WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MotorFuelLicNum'),"00000")
+								expectedErrorMsg = "Motor Fuel License Number must be 5 digits in length, with a value greater than zero"
 						
 						break
 						
@@ -138,9 +140,9 @@ def ExecuteTC, Taxtype, Paymenttype
 					
 					WebUI.delay(2)
 					
-					WebUI.verifyTextPresent('Motor Fuel License Number must be 5 or 6 digits in length, with a value greater than zero', true)
+					WebUI.verifyTextPresent(expectedErrorMsg, true)
 					
-					if (WebUI.verifyTextPresent('Motor Fuel License Number must be 5 or 6 digits in length, with a value greater than zero', true))
+					if (WebUI.verifyTextPresent(expectedErrorMsg, true))
 						{
 							println "Error Message is present on the page"
 							System.out.println('Pass Record Number: ' + row)

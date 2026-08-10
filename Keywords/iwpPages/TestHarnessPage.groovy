@@ -94,5 +94,40 @@ public class TestHarnessPage {
 			println ("Not on Test Harness page")
 		}
 	}
+	
+
+	@Keyword
+	def setDataHarnessParameters(String application_id, String message_version) {
+
+		//remittance_id will be unique
+		def genRemID = org.apache.commons.lang.RandomStringUtils.random(10, true, true)
+
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'), 30)) {
+			println("We are on Test Harness page, start populating")
+
+			WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/ApplicationID'),application_id)
+			WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/MessageVersion'),message_version)
+			WebUI.setText(findTestObject('Object Repository/IWP30/Page_QATestHarness/RemittanceID'),genRemID)
+			
+			println("Generated Remittance ID: " + genRemID)
+			
+			WebUI.click(findTestObject('Object Repository/IWP30/Page_QATestHarness/SubmitButton'))
+		}
+		else {
+			println ("Not on Test Harness page")
+		}
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 

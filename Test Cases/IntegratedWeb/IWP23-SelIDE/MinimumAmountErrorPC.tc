@@ -4,5 +4,6 @@
    <name>MinimumAmountErrorPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2d0da9e9-f210-4e53-880c-0493971c6d40</testCaseGuid>
 </TestCaseEntity>

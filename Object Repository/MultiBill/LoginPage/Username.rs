@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'username' and @name = 'username']</value>
+         <value>//*[@type = 'text' and @id = 'okta-signin-username' and @name = 'username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +19,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2a14b2f3-74e2-4677-86d9-3ff907288516</webElementGuid>
+      <webElementGuid>32940acd-9985-4c8e-9630-1baa1a4db173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>cb4a8091-5533-43ef-bc10-e155c1c03f4c</webElementGuid>
+      <value>okta-signin-username</value>
+      <webElementGuid>f69e7074-3b0e-4f99-b39e-9605d60c7079</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +35,6 @@
       <name>name</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>355a5c50-532b-4d02-b1bb-31e9cbe99717</webElementGuid>
+      <webElementGuid>b26230e4-423e-461a-86b9-ee5d4954ad83</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

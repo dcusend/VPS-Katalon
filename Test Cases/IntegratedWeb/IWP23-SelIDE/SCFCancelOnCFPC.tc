@@ -4,5 +4,6 @@
    <name>SCFCancelOnCFPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>985d2c08-274d-463a-b07a-bddf0c8cc072</testCaseGuid>
 </TestCaseEntity>

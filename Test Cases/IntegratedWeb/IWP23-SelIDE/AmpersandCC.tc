@@ -4,5 +4,6 @@
    <name>AmpersandCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>38c7696f-0418-4ccd-b380-c0c935857545</testCaseGuid>
 </TestCaseEntity>

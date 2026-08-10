@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>MFInsNumLessThanSixError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75afe73c-c006-4509-b5ed-4310d5aa5224</testCaseGuid>
+</TestCaseEntity>

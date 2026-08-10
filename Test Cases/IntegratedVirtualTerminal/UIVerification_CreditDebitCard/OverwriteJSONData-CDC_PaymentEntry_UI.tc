@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OverwriteJSONData-CDC_PaymentEntry_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5b69c21-640b-4d38-ba1b-84be52c472cc</testCaseGuid>
+</TestCaseEntity>

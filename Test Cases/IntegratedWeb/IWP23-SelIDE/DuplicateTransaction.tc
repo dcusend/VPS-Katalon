@@ -4,5 +4,6 @@
    <name>DuplicateTransaction</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>77b978ac-d0af-4cb9-87fb-afb4b56d65cb</testCaseGuid>
 </TestCaseEntity>

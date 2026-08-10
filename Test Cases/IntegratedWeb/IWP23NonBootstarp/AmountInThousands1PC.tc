@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA and QA2 Only</description>
+   <name>AmountInThousands1PC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ed02913-6b2b-4b9e-9c46-57762d88f093</testCaseGuid>
+</TestCaseEntity>

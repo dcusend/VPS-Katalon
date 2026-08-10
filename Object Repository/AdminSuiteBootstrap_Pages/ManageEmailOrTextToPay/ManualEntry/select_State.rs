@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_State</name>
+   <tag></tag>
+   <elementGuidId>2b4d2f8e-598f-4832-ba1b-c5a7ecf2ade8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'stateId' and @name = 'stateId']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>stateId</value>
+      <webElementGuid>d1c3adf9-9d77-401f-ba1f-f94efd552ea5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>stateId</value>
+      <webElementGuid>4789131a-f6c8-4ef0-b7fd-2a92b54172c6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

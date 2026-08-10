@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ConfirmAccountNumber</name>
+   <tag></tag>
+   <elementGuidId>f8ae2581-6fcc-466c-ac97-918fd7fde29e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;password_confirmAccountNumberPC&quot;][count(. | //*[@id = 'password_confirmAccountNumberPC' and @class = 'form-control']) = count(//*[@id = 'password_confirmAccountNumberPC' and @class = 'form-control'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password_confirmAccountNumberPC</value>
+      <webElementGuid>4928448e-c20d-421f-a881-dc221f3b1a61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>c97f5fd6-c670-4802-ad1a-349691dc7e4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;password_confirmAccountNumberPC&quot;]</value>
+      <webElementGuid>0d3c00d4-2df1-412c-ba8f-c9438c3f0da3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

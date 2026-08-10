@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreditDebitCard(NA)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c8deae7-0076-46a8-9b42-ae5bf62d19f7</testCaseGuid>
+</TestCaseEntity>

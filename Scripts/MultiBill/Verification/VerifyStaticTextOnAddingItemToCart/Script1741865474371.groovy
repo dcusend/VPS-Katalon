@@ -26,7 +26,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement
-import org.openqa.selenium.remote.server.handler.FindElement
+//import org.openqa.selenium.remote.server.handler.FindElement
 
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 

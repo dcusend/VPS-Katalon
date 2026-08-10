@@ -19,7 +19,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>10fe22d3-2d0b-4c52-9df7-4c0e9ddb2847</webElementGuid>
+      <webElementGuid>4771abf1-7370-40cc-bc6c-3687b515a73f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,14 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-custom</value>
-      <webElementGuid>d127af4d-693c-4c53-af78-2b1cf1004c91</webElementGuid>
+      <webElementGuid>64d3bfd2-5d9d-490b-8073-2990afcadf75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;filterForm&quot;]/div/div[2]/button</value>
+      <webElementGuid>a142cd5b-8ced-42fc-bb5f-61c27f5b5cb4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

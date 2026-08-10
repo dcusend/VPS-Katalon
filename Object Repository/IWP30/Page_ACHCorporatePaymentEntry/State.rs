@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>State</name>
+   <tag></tag>
+   <elementGuidId>5da50e48-0ac2-495c-b85a-07feb05c1a50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;billingState-select&quot;][count(. | //*[@id = 'billingState-select']) = count(//*[@id = 'billingState-select'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billingState-select</value>
+      <webElementGuid>cef3d9dc-403d-467f-8e19-71472720529d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;billingState-select&quot;]</value>
+      <webElementGuid>006f7052-25a2-4353-94db-9bd2a27c672a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

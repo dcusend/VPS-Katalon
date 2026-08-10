@@ -80,7 +80,7 @@ String fileLoc = "KatalonData/ABPTestData/ABPTestData.xlsx"
 							  {
 							 
 							 //println(item.trim())
-							 
+							 WebUI.delay(GlobalVariable.shortDelay)
 							 if(WebUI.verifyTextPresent(item.trim(),false)) {
 								 isRequiredTextPresent = true
 								 

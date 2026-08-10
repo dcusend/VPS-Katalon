@@ -16,6 +16,7 @@ if (emulatorURL?.startsWith('http://') || emulatorURL?.startsWith('https://')) {
     WebUI.navigateToUrl(baseUrl + emulatorURL)
 }
 
+WebUI.delay(2)
 WebUI.selectOptionByLabel(to('name=message_version'), '2.3', false)
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 WebUI.setText(to('name=amount'), '10.00')
@@ -47,16 +48,19 @@ if (testHarnessURL?.startsWith('http://') || testHarnessURL?.startsWith('https:/
     WebUI.navigateToUrl(baseUrl + testHarnessURL)
 }
 
+WebUI.delay(2)
 WebUI.setText(to('name=application_id'), '635')
 WebUI.setText(to('name=message_version'), '2.3')
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 WebUI.setText(to('name=remittance_id'), genRemIDVoid)
-
 WebUI.click(to('css=input.formSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
+
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
 WebUI.click(to('css=input[type="submit"]'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.setText(to('name=amount'), '10.50')
 WebUI.setText(to('name=userDefined2'), '')
@@ -72,6 +76,7 @@ WebUI.click(to('name=accountType'))
 WebUI.setText(to('name=billingAddress'), '104 main road')
 WebUI.setText(to('name=billingAddress2'), '')
 WebUI.setText(to('id=billing-zip-input'), '22201')
+WebUI.setText(to('name=billingAddress2'), '')
 WebUI.click(to('id=checkedAcceptCondition'))
 
 WebUI.verifyTextPresent('By clicking on the provided checkbox, I authorize ABC Company to initiate an electronic debit to my bank account in the amount displayed above. This authorization is to remain in full force and effect unless I provide written notification to Fairfax Dept Tax Administration within an appropriate time frame to allow Fairfax Dept Tax Administration to act on it.', true)
@@ -80,6 +85,7 @@ WebUI.verifyTextPresent('if you do not accept the terms above', true)
 
 WebUI.click(to('name=achSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.verifyTextPresent('Please verify the following information:', true)
 WebUI.verifyTextPresent('Is this information correct', true)

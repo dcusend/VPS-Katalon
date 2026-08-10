@@ -4,5 +4,6 @@
    <name>DCFPercentageSuccessfulPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dd16d6ee-c630-4b86-831f-57702ab0c323</testCaseGuid>
 </TestCaseEntity>

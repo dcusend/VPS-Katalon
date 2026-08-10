@@ -10,6 +10,10 @@
          <value>td:nth-of-type(5) > a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;userListForm&quot;)/table[@class=&quot;billTable&quot;]/tbody[1]/tr[2]/td[5]/a[1]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//form[@id='userListForm']/table/tbody/tr[2]/td[5]/a</value>
       </entry>
@@ -29,31 +33,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>53fb5e69-853b-4ae7-8f07-41122fa4edcf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>javascript:toURL('/vbills/imtiazcustomer/createUserProfile.go?action=editUser&amp;forgotType=null&amp;id=87444')</value>
-      <webElementGuid>fefa5afc-7b2f-4669-8b08-d32aabd6a88a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>edit</value>
-      <webElementGuid>70657b7e-b992-4949-a5fb-ce171914a971</webElementGuid>
+      <webElementGuid>22ded9d1-eed5-4ae2-a095-58d27303818e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:toURL('/vbills/imtiazcustomer/createUserProfile.go?action=editUser&amp;forgotType=null&amp;id=87444')</value>
+      <webElementGuid>210031ec-b111-4a6e-b3b0-4d079e88630c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>edit</value>
+      <webElementGuid>ba7c94ae-a86c-40a9-8839-f20b2f23225f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;userListForm&quot;)/table[@class=&quot;billTable&quot;]/tbody[1]/tr[2]/td[5]/a[1]</value>
-      <webElementGuid>a191f09d-0f2b-4f0f-9bd6-0a2a3f013334</webElementGuid>
+      <webElementGuid>7db01443-3068-4f1b-9880-cfb0d19ab69a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='userListForm']/table/tbody/tr[2]/td[5]/a</value>
-      <webElementGuid>4ccf0149-0143-405d-981b-a4a72b90bc95</webElementGuid>
+      <webElementGuid>d4aaa03b-f665-4f89-a43c-9d8846c84ad7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'edit')]</value>
-      <webElementGuid>4b01e29d-1bf4-4349-869c-1e7831a4b601</webElementGuid>
+      <webElementGuid>3b549c2d-9ebc-426f-b139-2a5ffdb7181c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Owner'])[1]/following::a[1]</value>
-      <webElementGuid>3d1220c3-1e03-4990-8a30-f7b3ccaea9e0</webElementGuid>
+      <webElementGuid>c139e9e1-5761-41c8-b291-a8fcc20beabb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CAROLYN LINEBERGER'])[2]/following::a[1]</value>
-      <webElementGuid>8ce30ff3-ceeb-4b26-ae61-cd0422a7410c</webElementGuid>
+      <webElementGuid>f8247402-b158-4dcd-9837-bfedf019bdfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='edit']/parent::*</value>
-      <webElementGuid>ca4ea292-1fc2-4875-90f7-108b53223d01</webElementGuid>
+      <webElementGuid>957207fe-cba9-49af-8e3d-96b14e3d6b1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, &quot;javascript:toURL('/vbills/imtiazcustomer/createUserProfile.go?action=editUser&amp;forgotType=null&amp;id=87444')&quot;)]</value>
-      <webElementGuid>1b5d06a9-2fba-4089-9340-e62d55efb9e5</webElementGuid>
+      <webElementGuid>288e6718-67d2-4ceb-b778-2422335acc3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[5]/a</value>
-      <webElementGuid>8d561494-1589-4fd2-b2cf-dd09516fc76d</webElementGuid>
+      <webElementGuid>8309f1c9-6c6c-41f9-8ba5-f56d7b83bf74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = concat(&quot;javascript:toURL(&quot; , &quot;'&quot; , &quot;/vbills/imtiazcustomer/createUserProfile.go?action=editUser&amp;forgotType=null&amp;id=87444&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'edit' or . = 'edit')]</value>
-      <webElementGuid>581423d9-2a3c-436a-ad97-e8c8c9b7af80</webElementGuid>
+      <webElementGuid>6632ad6b-0091-4a2e-a110-10de5ca23a82</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

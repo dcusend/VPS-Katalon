@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in QA and QA2 Only</description>
+   <name>Issue_BillFileLookup_App2326_UIVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1edf035-bdd4-4fc4-bc40-d8ac38cf29bb</testCaseGuid>
+</TestCaseEntity>

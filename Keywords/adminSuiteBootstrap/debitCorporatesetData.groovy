@@ -60,7 +60,7 @@ public class debitCorporatesetData {
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_companyName'), compName)
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_address'), al1)
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_address2'), al2)
-		
+
 		WebUI.setText(findTestObject(path_DebitCorporate + 'input_emailAddress'), emailAddress)
 		Thread.sleep(5000)
 

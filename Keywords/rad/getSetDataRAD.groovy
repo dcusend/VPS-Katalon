@@ -226,6 +226,8 @@ public class getSetDataRAD {
 
 		WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_FeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
 		WebUI.setEncryptedText(findTestObject('Object Repository/RAD_Pages/TaxInfo_Page/input_TaxInfo_RetypeFeinSsn_New_2'), 'RigbBhfdqODKcAsiUrg+1Q==')
+		
+		
 	}
 
 
@@ -307,4 +309,18 @@ public class getSetDataRAD {
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MFLicenseExtLi'),"700142")
 	}
+
+
+	//----------------------------------
+
+@Keyword
+def setDataRADMFInsNumSix() {
+
+
+	// Set Data
+	WebUI.setText(findTestObject(orPath_TaxInfo + '/input_MotorFuelInsNum'),"257142")
+}
+
+	//----------------------------------
+
 }

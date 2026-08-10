@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Confirm</name>
+   <tag></tag>
+   <elementGuidId>8fd164d9-7ddb-4190-a406-62e2589e5973</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'submitYes' and @class = 'payor_opt' and @name = 'confirmNotifyAction']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submitYes</value>
+      <webElementGuid>947cf6e9-672b-44a5-abb5-dc1a127e93bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>payor_opt</value>
+      <webElementGuid>bfe11536-8b8d-4b60-8c89-5d0b8fb163e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>confirmNotifyAction</value>
+      <webElementGuid>c7d13b06-fd14-425a-8f6a-8a065682c011</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

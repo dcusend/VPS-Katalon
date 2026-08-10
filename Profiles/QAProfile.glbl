@@ -174,7 +174,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!66666'</initValue>
+      <initValue>'Hello!99999'</initValue>
       <name>abpNoCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -202,7 +202,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!66666'</initValue>
+      <initValue>'Hello!88888'</initValue>
       <name>abpSCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -216,7 +216,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!66666'</initValue>
+      <initValue>'Hello!99999'</initValue>
       <name>abpDCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -251,7 +251,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/MultiBillHarrisAddress'</initValue>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/MultiBillHarrisPayer'</initValue>
       <name>MultiBillHarrisAddressURL</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
