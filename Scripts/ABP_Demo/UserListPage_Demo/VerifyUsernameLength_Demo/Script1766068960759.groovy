@@ -72,7 +72,7 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				CustomKeywords.'abpPages.UserListPage.setDataFirstNameLastName'()
 				
-				CustomKeywords.'abpPages.UserListPage.setDataPasswordConfirmPassword'()
+				CustomKeywords.'abpPages.UserListPage.setDataLoginConfirmLogin'()
 				
 				CustomKeywords.'abpPages.UserListPage.setDataWrongUserName'(wrongUserName)
 				

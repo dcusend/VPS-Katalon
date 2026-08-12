@@ -23,7 +23,7 @@ import com.kms.katalon.core.testdata.reader.ExcelFactory
 import internal.GlobalVariable
 
 import com.kms.katalon.core.configuration.RunConfiguration as RC
-
+import com.kms.katalon.core.testobject.ConditionType
 
 
 //*******************Created by @Bharat Bhushan***************************************************
@@ -34,10 +34,9 @@ String datCloumn = "Date"
 
 def shortDelay = GlobalVariable.shortDelay
 def abpURL, username, password 
-def fileLoc, numOfRows, dataFile, nameSheet, email, isRequiredTextPresent = false
+def fileLoc, numOfRows, dataFile, nameSheet, email, phone, isRequiredTextPresent = false
 
 def executionProfile = RC.getExecutionProfile()
-
 
 
 switch(executionProfile)
@@ -49,7 +48,7 @@ switch(executionProfile)
 			password = GlobalVariable.abpDCFPassword
 		
 	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
+	nameSheet = "PayerEditPassword"
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
 	
 		break
@@ -60,7 +59,7 @@ switch(executionProfile)
 			password = GlobalVariable.abpDCFPassword
 		
 	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
+	nameSheet = "PayerEditPassword"
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
 		
 		break
@@ -71,7 +70,7 @@ switch(executionProfile)
 			password = GlobalVariable.abpDCFPassword
 		
 	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
+	nameSheet = "PayerEditPassword"
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
 	
 		break
@@ -82,7 +81,7 @@ switch(executionProfile)
 			password = GlobalVariable.abpDCFPassword
 		
 	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
+	nameSheet = "PayerEditPassword"
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
 
 		break
@@ -94,13 +93,14 @@ switch(executionProfile)
 			password = GlobalVariable.abpDCFPassword
 		
 	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
+	nameSheet = "PayerEditPassword"
 	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser_Demo.xlsx", nameSheet, true)
 
 		break
 		
 }
 	
+//Part A- Create Owner
 
 
 numOfRows = dataFile.getRowNumbers()
@@ -117,8 +117,8 @@ for (def row = 1; row <= numOfRows; row++)
 				println (today)
 				String datText = today
 				email = dataFile.getValue("Email", row)
-				String nickNameID = CustomKeywords.'abpPages.PaymentsMethodPage.generateNickName'()
-				println(nickNameID)
+				phone = dataFile.getValue("Phone", row)
+				newEmail = dataFile.getValue("NewEmail", row)
 				
 				WebUI.openBrowser(GlobalVariable.abpURL)
 				WebUI.maximizeWindow()
@@ -130,39 +130,67 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				CustomKeywords.'abpPages.UserListPage.clickAddButton'()
 				
-				CustomKeywords.'abpPages.UserListPage.selectRoleProfileOwner'()
+				CustomKeywords.'abpPages.UserListPage.selectRolePayer'()
 				
 				CustomKeywords.'abpPages.UserListPage.setDataFirstNameLastName'()
 				
-				CustomKeywords.'abpPages.UserListPage.setDataPasswordConfirmPassword'()
-				
 				CustomKeywords.'abpPages.UserListPage.setDataUserName'()
-				
+								
+				CustomKeywords.'abpPages.UserListPage.setDataLoginConfirmLogin'()  //Password
+								
 				CustomKeywords.'abpPages.UserListPage.setDataEmailConfirmEmail'(email)
 				
+				WebUI.delay(2)
 				CustomKeywords.'abpPages.UserListPage.clickSaveButton'()
 				
-				CustomKeywords.'abpPages.UserListPage.clickEdit'()
 				
+//Part B- Change Password of Payer
+															 			  					
+				String selectedUsername = CustomKeywords.'abpPages.UserListPage.clickEditNonProfileOwnerUser'()   //to select non loggedin & Payer 'User Name'
+				println("Payer User Name = " + selectedUsername)
+									
+				//Current Password- user login password
+				WebUI.setText(findTestObject('Object Repository/ABP/Page_UserList/Page_Profile/CurrentPassword'),password)  
+				println(password)
 				
-				/*Thread.sleep(shortDelay)
-				if (WebUI.verifyTextPresent("Your changes have been saved", false))
-					{
-											Thread.sleep(GlobalVariable.shortDelay)
-											println("Deleting Saved Payment Method")
-											CustomKeywords.'abpPages.PaymentsMethodPage.clickDelete'()
-											WebUI.acceptAlert()
-											KeywordUtil.logInfo("Pass")
-											KeywordUtil.markPassed("Saved Payment Method stored under Select or Create Payment Method dropdown and all details available under Payment Method Tab")
-											resText = "Pass"
-											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-								}				
-
+				//change password
+				CustomKeywords.'abpPages.UserListPage.setDataPayerPasswordPayerConfirmPassword'()				
+				
+				WebUI.delay(2)
+				CustomKeywords.'abpPages.UserListPage.clickSaveButton'()
+															
+				
+//Part C- Logging results in Excel Sheet
+				
+		
+			WebUI.delay(2)		
+			if (WebUI.verifyTextPresent("Your changes have been saved", false)) {
+					isRequiredTextPresent = true
+						println(isRequiredTextPresent)
+					}
 			else {
-				KeywordUtil.logInfo("Fail")
-				KeywordUtil.markFailed("Your changes have been saved text not present")
-				resText = "Fail"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-			}*/
-			}
-	}
+					isRequiredTextPresent = false
+					}
+			
+			
+			
+				if (isRequiredTextPresent == true)
+					{
+						println "Password was changed for Payer successfully"
+						KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
+						resText = "Pass"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+				
+					}
+				else
+					{
+						println "Password didn't change for Payer"
+						KeywordUtil.markFailed("Some texts are missing on the Receipt page")
+						resText = "Fail"
+						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+			
+					}
+			
+	 }
+			
+}

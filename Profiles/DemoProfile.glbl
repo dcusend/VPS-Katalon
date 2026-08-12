@@ -181,7 +181,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Velocity@12345'</initValue>
+      <initValue>'Velocity@123'</initValue>
       <name>abpDCFPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
