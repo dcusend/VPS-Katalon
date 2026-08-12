@@ -4,5 +4,6 @@
    <name>SCFBelowFloorPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a6b8a011-9cd0-40f0-980f-44dc34f96682</testCaseGuid>
 </TestCaseEntity>

@@ -16,6 +16,7 @@ if (emulatorURL?.startsWith('http://') || emulatorURL?.startsWith('https://')) {
     WebUI.navigateToUrl(baseUrl + emulatorURL)
 }
 
+WebUI.delay(2)
 WebUI.selectOptionByLabel(to('name=message_version'), '2.3', false)
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 WebUI.setText(to('name=amount'), '10.00')
@@ -47,16 +48,19 @@ if (testHarnessURL?.startsWith('http://') || testHarnessURL?.startsWith('https:/
     WebUI.navigateToUrl(baseUrl + testHarnessURL)
 }
 
+WebUI.delay(2)
 WebUI.setText(to('name=application_id'), '637')
 WebUI.setText(to('name=message_version'), '2.3')
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 WebUI.setText(to('name=remittance_id'), genRemIDVoid)
-
 WebUI.click(to('css=input.formSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+
+WebUI.delay(2)
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
 WebUI.click(to('css=input[type="submit"]'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.setText(to('name=amount'), '10.50')
 WebUI.setText(to('name=billingFirstname'), 'Mike')
@@ -71,6 +75,7 @@ WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.click(to('id=checkedAcceptCondition'))
 WebUI.click(to('name=achSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.verifyTextPresent('Please verify the following information:', true)
 WebUI.verifyTextPresent('Is this information correct', true)
@@ -78,6 +83,7 @@ WebUI.verifyTextPresent('Is this information correct', true)
 WebUI.click(to('name=confirmNotifyAction'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 
+WebUI.delay(2)
 WebUI.verifyTextPresent('This transaction is subject to a Convenience Fees of \$2.00', false)
 WebUI.verifyTextPresent('Payment Amount:', true)
 WebUI.verifyTextPresent('\$10.50', false)

@@ -4,5 +4,6 @@
    <name>VerifyReceiptPageLabelsCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6354477a-13bf-4e1b-9931-a1f9e381bd8d</testCaseGuid>
 </TestCaseEntity>

@@ -117,12 +117,12 @@ def numOfRows, dataFile, nameSheet
 					String datText = today
 					
 					CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite'()
-					
-										
+					WebUI.delay(2)
+					println appName					
 					WebUI.click(findTestObject(path_Dashboard + appName))
 					
 						WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
-						Thread.sleep(2000)
+						WebUI.delay(2)
 						
 						def saleKeyboardEntryLink = WebUI.modifyObjectProperty(findTestObject(path_VT + 'a_KeyboardEntry_Sale'),'href','equals',hrefAppID,true)
 						WebUI.click(saleKeyboardEntryLink)

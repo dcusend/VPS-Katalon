@@ -4,5 +4,6 @@
    <name>SuccessfulCCAllFields</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>05fc9b01-67a2-48e5-a266-1c93497f7068</testCaseGuid>
 </TestCaseEntity>

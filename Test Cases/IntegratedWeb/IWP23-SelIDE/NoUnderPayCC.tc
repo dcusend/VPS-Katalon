@@ -4,5 +4,6 @@
    <name>NoUnderPayCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dccb842f-ead1-406e-8cf8-27e2b7d51e60</testCaseGuid>
 </TestCaseEntity>

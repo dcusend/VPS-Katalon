@@ -16,6 +16,7 @@ if (emulatorURL?.startsWith('http://') || emulatorURL?.startsWith('https://')) {
     WebUI.navigateToUrl(baseUrl + emulatorURL)
 }
 
+WebUI.delay(2)
 WebUI.selectOptionByLabel(to('name=message_version'), '2.3', false)
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 WebUI.setText(to('name=amount'), '10.00')
@@ -38,6 +39,7 @@ WebUI.setText(to('name=user_defined4'), 'Orange Label')
 WebUI.setText(to('name=user_defined5'), 'Soccer Label')
 WebUI.click(to('name=submit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 def testHarnessURL = GlobalVariable.urlTestHarness
 if (testHarnessURL?.startsWith('http://') || testHarnessURL?.startsWith('https://')) {
@@ -51,12 +53,14 @@ WebUI.setText(to('name=application_id'), '636')
 WebUI.setText(to('name=message_version'), '2.3')
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 WebUI.setText(to('name=remittance_id'), genRemIDVoid)
-
 WebUI.click(to('css=input.formSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
+
 WebUI.click(to('name=paymentMethod'))
 WebUI.click(to('css=input[type="submit"]'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.setText(to('name=amount'), '11.50')
 WebUI.setText(to('name=billingName'), 'Leslie Howard')
@@ -71,6 +75,7 @@ WebUI.setText(to('name=emailAddress'), '')
 WebUI.click(to('id=checkedAcceptCondition'))
 WebUI.click(to('name=ccSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.verifyTextPresent('Please verify the following information:', true)
 WebUI.verifyTextPresent('Is this information correct', true)
@@ -89,6 +94,7 @@ WebUI.verifyTextPresent('2/2028', true)
 
 WebUI.executeJavaScript('document.process?.confirmNotifyAction?.[1]?.click()', null)
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.setText(to('name=amount'), '25.50')
 WebUI.setText(to('name=userDefined2'), 'udf2 modified')
@@ -104,6 +110,7 @@ WebUI.setText(to('id=billing-zip-input'), '21054')
 WebUI.setText(to('name=emailAddress'), '')
 WebUI.click(to('name=ccSubmit'))
 WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(2)
 
 WebUI.verifyTextPresent('Please verify the following information:', true)
 WebUI.verifyTextPresent('Is this information correct', true)

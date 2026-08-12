@@ -4,5 +4,6 @@
    <name>NoUnderPayButOverPay</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>12d5e7f8-f3cb-44e2-81c7-d6758f2a3a43</testCaseGuid>
 </TestCaseEntity>

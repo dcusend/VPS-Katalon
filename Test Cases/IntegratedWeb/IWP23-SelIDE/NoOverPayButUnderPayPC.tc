@@ -4,5 +4,6 @@
    <name>NoOverPayButUnderPayPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>dbc22a91-d33d-4f38-9958-23596b5f1151</testCaseGuid>
 </TestCaseEntity>

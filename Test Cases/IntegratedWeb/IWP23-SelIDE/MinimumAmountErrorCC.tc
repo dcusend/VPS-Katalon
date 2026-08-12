@@ -4,5 +4,6 @@
    <name>MinimumAmountErrorCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5b5d628a-71b8-4e75-b8e2-5abf5200d669</testCaseGuid>
 </TestCaseEntity>

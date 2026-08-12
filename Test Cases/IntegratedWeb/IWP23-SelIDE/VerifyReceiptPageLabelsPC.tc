@@ -4,5 +4,6 @@
    <name>VerifyReceiptPageLabelsPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9800021a-1be3-4395-a361-fd55ea45d660</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>MissingReqFieldsPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e2888c55-4cea-43b6-8455-cafc62adab2e</testCaseGuid>
 </TestCaseEntity>

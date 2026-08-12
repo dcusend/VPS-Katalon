@@ -4,5 +4,6 @@
    <name>MissingRequiredFieldsCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d9bd8c56-f222-41fa-9073-350dfb1f546d</testCaseGuid>
 </TestCaseEntity>

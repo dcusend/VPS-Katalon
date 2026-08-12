@@ -4,5 +4,6 @@
    <name>SCFPercentageSuccessfulCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0ee5a4b3-d5cc-4b88-96d4-c087aa6011f6</testCaseGuid>
 </TestCaseEntity>

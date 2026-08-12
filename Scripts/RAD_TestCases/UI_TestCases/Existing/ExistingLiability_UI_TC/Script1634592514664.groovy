@@ -53,7 +53,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		def totalOptionsExistingLiability = WebUI.getNumberOfTotalOption(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'))
 	
 // Added 10/03/2025 as part of new changes
-		WebUI.verifyEqual(totalOptionsExistingLiability, 21)
+		WebUI.verifyEqual(totalOptionsExistingLiability, 20)
 	
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Bay Restoration Fee','Corporate Income Tax','Fiduciary Tax'])
@@ -70,7 +70,7 @@ String orPath_SalesTaxReturnInfo = "Object Repository/RAD_Pages/SalesTaxReturnIn
 		
 		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Unclaimed Property'])
 		
-		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Digital Advertising Gross Revenues','PTE Composite'])
+		WebUI.verifyOptionsPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_TaxType_ExistingLiability'),['Digital Advertising Gross Revenues'])
 		
 		
 		//WebUI.verifyElementPresent(findTestObject(orPath_TaxTypeFilingYear + '/select_FilingYear'), 30)

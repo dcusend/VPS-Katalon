@@ -4,5 +4,6 @@
    <name>SuccessfulPCAllFields</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5ecfdbd1-9778-4127-85b8-d5e336247102</testCaseGuid>
 </TestCaseEntity>

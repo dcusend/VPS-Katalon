@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "4923A790C66A1B0AE4249E43C76C0565",
+  "keywordFileContentHash": "B831F1EC93EF3F4442DB8EEF9DC4FC9F",
   "keywordClasses": [
     {
       "name": "rad.getSetDataRAD",
@@ -96,6 +96,11 @@
         },
         {
           "name": "setDataRADMFLicNumSixExisting",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setDataRADMFInsNumSix",
           "parameters": [],
           "javadoc": ""
         }

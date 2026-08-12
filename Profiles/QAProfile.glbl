@@ -251,7 +251,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/MultiBillHarrisAddress'</initValue>
+      <initValue>'https://qa.velocitypayment.com/ebills/billLookup/MultiBillHarrisPayer'</initValue>
       <name>MultiBillHarrisAddressURL</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

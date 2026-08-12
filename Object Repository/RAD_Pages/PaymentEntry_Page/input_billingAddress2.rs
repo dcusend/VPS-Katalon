@@ -6,15 +6,20 @@
    <elementGuidId>b0a21716-0ef8-4761-8c31-92cded21dc54</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='billingAddress2']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#billingAddress2</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='billingAddress2']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'billingAddress2' and @id = 'billingAddress2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>50ad3bf5-daa6-4b14-a6a4-2a5025253831</webElementGuid>
+      <webElementGuid>c82fc2f2-de90-4bda-806f-f4f9dda6eeea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>55d04b60-3737-488f-8df7-172f13fa32e6</webElementGuid>
+      <webElementGuid>783cdb5e-8575-497f-b143-de238295b6b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>6e002673-dfc2-4729-a966-16e85e578e75</webElementGuid>
+      <webElementGuid>ed66f27c-67b4-41cd-ba77-feaae4847d60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>name</name>
       <type>Main</type>
       <value>billingAddress2</value>
-      <webElementGuid>59e3055f-d076-4d0c-b160-3fdeee44e672</webElementGuid>
+      <webElementGuid>8ea3d7f8-1641-4ce3-99e0-4d250d83494a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +59,15 @@
       <name>id</name>
       <type>Main</type>
       <value>billingAddress2</value>
-      <webElementGuid>9c480fc1-21ac-49c1-ac79-c26e3d684f8a</webElementGuid>
+      <webElementGuid>fc0def99-bd02-4d8b-ba8d-65b0ad51a273</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>Address Line 2</value>
-      <webElementGuid>558e113c-8916-4116-bde4-a7420a7f8697</webElementGuid>
+      <webElementGuid>d409380f-4b4a-4e64-adce-fc8a57d68be7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>13bbcb3a-9794-4efe-bfaf-d9331320edf0</webElementGuid>
+      <webElementGuid>585e1ff0-797f-4ae9-974c-b488791be82c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>d234d696-6c62-4051-87ce-9c97832b02e7</webElementGuid>
+      <webElementGuid>b855d43f-bbb6-406d-9305-c7f37a662306</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Suite 600</value>
-      <webElementGuid>915586d3-b1b4-4333-b1ac-9469e2f11030</webElementGuid>
+      <webElementGuid>5cf2dea7-b1bd-4356-8720-0d4a3af4daa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>53adb7de-2ddb-42b9-8960-295faa5898f5</webElementGuid>
+      <webElementGuid>036ae333-fd07-4c5e-9397-fd2481fc2f70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,15 +107,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;billingAddress2&quot;)</value>
-      <webElementGuid>89fce17d-2a73-467a-9abe-e8d2e5ae04d1</webElementGuid>
+      <webElementGuid>79f17c5e-3211-4d8b-b7ed-9dcf47c968bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='billingAddress2']</value>
-      <webElementGuid>f892cf81-f0af-4493-a5fb-7d7a3852fd57</webElementGuid>
+      <webElementGuid>e7c2dfd5-83d6-4b83-b0c4-adf2d454bea3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +123,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='process']/div/div/div[5]/div[2]/div/input</value>
-      <webElementGuid>392229c1-2893-4c8d-8002-8a6efd13671b</webElementGuid>
+      <webElementGuid>e5b9c902-5c96-40c9-b5d5-cb7becaa0c81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/input</value>
-      <webElementGuid>3f30d5dd-4b34-4c80-9163-7f6bd0a81cd3</webElementGuid>
+      <webElementGuid>cf5b55f2-5f96-4a89-b03c-fafad0f64e5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'billingAddress2' and @id = 'billingAddress2' and @alt = 'Address Line 2']</value>
-      <webElementGuid>7c9146f1-d546-4213-85a7-31677206d12b</webElementGuid>
+      <webElementGuid>a77a38ae-8e69-4e4c-9d19-09328afa7957</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

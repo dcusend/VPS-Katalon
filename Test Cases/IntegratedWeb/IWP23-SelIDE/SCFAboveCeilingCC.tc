@@ -4,5 +4,6 @@
    <name>SCFAboveCeilingCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7d6ca279-9858-4a13-964d-a7228b779f97</testCaseGuid>
 </TestCaseEntity>

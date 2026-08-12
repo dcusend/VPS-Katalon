@@ -4,5 +4,6 @@
    <name>DCFFlatSuccessfulCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>13e67dbf-15e5-45b3-911a-63dee9582213</testCaseGuid>
 </TestCaseEntity>

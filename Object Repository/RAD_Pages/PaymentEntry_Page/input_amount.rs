@@ -6,15 +6,20 @@
    <elementGuidId>187e06d7-8f45-40e3-a47b-5bdad4056b88</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='amount']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#amount</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='amount']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'amount' and @id = 'amount']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>880b593c-322f-438f-94ca-9b8029820109</webElementGuid>
+      <webElementGuid>bb0d468e-b6c6-4f85-9735-efe592a437a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c26fce7c-f56b-46f1-97c6-367cbac4e4e9</webElementGuid>
+      <webElementGuid>1fbf291e-dfef-4d59-9382-3a69f447c597</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>87c8312a-5ae2-4781-81df-25771a7dc70c</webElementGuid>
+      <webElementGuid>f9fe9eb6-586f-499b-9784-329ac84901dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +51,7 @@
       <name>name</name>
       <type>Main</type>
       <value>amount</value>
-      <webElementGuid>cf6fc396-541c-4a89-85f4-ffbd570bf5fa</webElementGuid>
+      <webElementGuid>bbd0dd2d-6a5f-43a0-bf17-630783ccf073</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +59,15 @@
       <name>id</name>
       <type>Main</type>
       <value>amount</value>
-      <webElementGuid>0b8bb5f8-6fd0-4100-b27e-69ae3ecf2edd</webElementGuid>
+      <webElementGuid>2c44742b-7be4-49b1-a4f4-e5b574a4ccf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>Amount</value>
-      <webElementGuid>6f209351-008d-4299-b617-3774c0200d55</webElementGuid>
+      <webElementGuid>72b91a33-5d31-44e8-b6fe-22afa4e61a76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +75,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>d9ffdd35-46cc-468d-ab69-aa433e0cfb65</webElementGuid>
+      <webElementGuid>1a0cfa02-bfe3-4089-857f-843d9943687f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +83,7 @@
       <name>size</name>
       <type>Main</type>
       <value>20</value>
-      <webElementGuid>6ef1156c-a3e4-482c-8c89-c147aab53547</webElementGuid>
+      <webElementGuid>36de2570-cf34-4766-b0db-a0c6ca91b1e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +91,7 @@
       <name>value</name>
       <type>Main</type>
       <value>10.50</value>
-      <webElementGuid>b629b055-96f6-4607-9e44-72a333299826</webElementGuid>
+      <webElementGuid>6788f6a7-fee2-4401-b00d-8a4fea811e63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +99,7 @@
       <name>readonly</name>
       <type>Main</type>
       <value>readonly</value>
-      <webElementGuid>06f2c865-df09-40c7-8d3b-24b26a6a3d15</webElementGuid>
+      <webElementGuid>090392ae-4358-40e2-bfa5-c59bf2e10501</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,15 +107,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;amount&quot;)</value>
-      <webElementGuid>e96373aa-2814-44a5-8629-d132a36ae149</webElementGuid>
+      <webElementGuid>b6fe559f-b854-4706-83a9-aa813faf6962</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='amount']</value>
-      <webElementGuid>c355e327-8d85-4be8-b750-bc9ea21f4d18</webElementGuid>
+      <webElementGuid>cbe59c6a-8833-4f05-998f-1cd222ee76d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +123,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='process']/div/div[2]/div[2]/div/div/div/input</value>
-      <webElementGuid>66747d64-1e35-4f08-a42e-af9f54ecd671</webElementGuid>
+      <webElementGuid>76cc412c-b830-4de4-82d6-9d1754ae6922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div/input</value>
-      <webElementGuid>79ee0bf7-44fa-4a57-8ab9-3593094965e5</webElementGuid>
+      <webElementGuid>58781408-8e9d-4fda-939b-79cdf556073e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'amount' and @id = 'amount' and @alt = 'Amount']</value>
-      <webElementGuid>8ab505b2-5b70-47a5-8c86-210e435cff6d</webElementGuid>
+      <webElementGuid>8c61336f-98b5-4360-a676-9af9de23dfd6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

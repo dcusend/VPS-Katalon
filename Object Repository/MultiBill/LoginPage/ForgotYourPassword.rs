@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Forgot your password?' or . = 'Forgot your password?') and @href = '/vrelay/bootstrap/vrelay-password-recovery.html']</value>
+         <value>//*[(text() = 'Forgot password?' or . = 'Forgot password?') and @class = 'link js-forgot-password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,15 +18,15 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Forgot your password?</value>
-      <webElementGuid>a97cdc5f-0f5e-4d15-9019-8ffc9d2647e2</webElementGuid>
+      <value>Forgot password?</value>
+      <webElementGuid>1c488eda-7b81-450a-8d09-86aca81c5cb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/vrelay/bootstrap/vrelay-password-recovery.html</value>
-      <webElementGuid>858694c1-acb7-4c20-88c6-e414f4833061</webElementGuid>
+      <value>link js-forgot-password</value>
+      <webElementGuid>de4a7343-4f13-49d3-b564-991953825120</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

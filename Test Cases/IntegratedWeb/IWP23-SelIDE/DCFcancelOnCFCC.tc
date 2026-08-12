@@ -4,5 +4,6 @@
    <name>DCFcancelOnCFCC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>bf8a3cff-d535-4486-af05-7009ea4c85c7</testCaseGuid>
 </TestCaseEntity>

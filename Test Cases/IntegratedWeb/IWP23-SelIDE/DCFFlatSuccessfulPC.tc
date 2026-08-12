@@ -4,5 +4,6 @@
    <name>DCFFlatSuccessfulPC</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ab5a41b7-9d46-4adf-ba66-2f4649e9ec68</testCaseGuid>
 </TestCaseEntity>

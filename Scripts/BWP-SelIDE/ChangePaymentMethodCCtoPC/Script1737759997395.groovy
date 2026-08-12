@@ -3,7 +3,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://www.google.com/')
 String baseUrl = 'https://www.google.com/'
-int pageLoadTimeoutSeconds = 30
 
 def to = { String locator -> CustomKeywords.'customClasses.LegacyLocatorUtils.testObjectFromLegacyLocator'(locator) }
 
@@ -16,6 +15,7 @@ if (bwpURL?.startsWith('http://') || bwpURL?.startsWith('https://')) {
 
 def genRemIDVoid = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
 
+WebUI.delay(GlobalVariable.shortTimeDelay)
 WebUI.setText(to('name=application_id'), '623')
 WebUI.setText(to('name=message_version'), '1.5')
 WebUI.setText(to('name=remittance_id'), genRemIDVoid)
@@ -34,11 +34,11 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data Hello')
 WebUI.setText(to('name=user_defined9'), 'udf9 data Hello')
 WebUI.setText(to('name=user_defined10'), 'udf10 data Hello')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(GlobalVariable.shortTimeDelay)
 
 WebUI.click(to('name=paymentMethod'))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(GlobalVariable.shortTimeDelay)
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=amount'), '10.00')
 WebUI.setText(to('name=userDefined1'), 'udf1 data')
@@ -60,17 +60,17 @@ WebUI.setText(to('name=billingAddress2'), 'suite 600')
 WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
 WebUI.click(to('id=checkedAcceptCondition'))
 WebUI.click(to('name=ccSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(GlobalVariable.shortTimeDelay)
 
 WebUI.verifyTextPresent('Please verify the following information:', true)
 WebUI.verifyTextPresent('Is this information correct', true)
 WebUI.verifyTextPresent('Visa.*', true)
 
 WebUI.click(to('name=changePaymentMethodButton'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(GlobalVariable.shortTimeDelay)
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(GlobalVariable.shortTimeDelay)
 
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=amount'), '10.00')
@@ -94,16 +94,16 @@ WebUI.setText(to('name=billingAddress2'), 'suite 600')
 WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
 WebUI.click(to('id=checkedAcceptCondition'))
 WebUI.click(to('name=achSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(GlobalVariable.shortTimeDelay)
 
 WebUI.verifyTextPresent('Please verify the following information:', true)
 WebUI.verifyTextPresent('Is this information correct', true)
 WebUI.verifyTextPresent('Personal Checking.*', true)
 
 WebUI.click(to('name=confirmNotifyAction'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
-Thread.sleep(20000)
-
+WebUI.delay(GlobalVariable.shortTimeDelay)
+//Thread.sleep(20000)
+WebUI.delay(GlobalVariable.longTimeDelay)
 WebUI.verifyTextPresent('Debit.*', true)
 WebUI.verifyTextPresent('Personal.*', true)
 WebUI.verifyTextPresent('Checking.*', true)
