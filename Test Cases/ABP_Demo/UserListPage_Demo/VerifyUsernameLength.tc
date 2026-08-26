@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyUsernameLength</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ad32c0b-f2ce-4180-88f3-980e96d57350</testCaseGuid>
+</TestCaseEntity>

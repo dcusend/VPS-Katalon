@@ -169,42 +169,7 @@ public class UserListPage {
 	
 											//Part A: Profile Owner 
 	
-
-		                                      
-//NOTE- this will only skip to select logged in user(id=328618) but will select only first, Payer and Profile Owner.
-	
-//@Keyword								//skipping loggedin user 'AutoABPUser6211' from edit. It has href id=328618
-//def clickEditNonLoggedinUser() {
-//
-//    WebDriver driver = DriverFactory.getWebDriver()
-//    List<WebElement> rows = driver.findElements(By.tagName("tr"))
-//
-//    for (WebElement row : rows) {
-//
-//        List<WebElement> links = row.findElements(By.linkText("edit"))  	//select only which has 'edit' link
-//
-//        if (!links.isEmpty()) {
-//
-//            String href = links.get(0).getAttribute("href")  				//store the URL behind 'edit' link.
-//            println(href)
-//
-//            if (!href.contains("id=328618")) {								//imp- if we remove ! then it will select loggedin user
-//              
-//                String Username = row.findElements(By.tagName("td")).get(0).getText()   //it doesn't randomly pick Username. It picks first Username from 'User List' not having id=328618
-//
-//                println("Selected Username: " + Username)
-//
-//                links.get(0).click()
-//
-//                return Username
-//            }
-//        }
-//    }
-//
-//    return null
-//}
-	
-
+		                                      	
 @Keyword
 def generateOwnerFirstName() {
 	OwnerFirstName = org.apache.commons.lang.RandomStringUtils.random(8, true, false)
@@ -304,10 +269,45 @@ def setDataOwnerPasswordOwnerConfirmPassword() {
   }
 											   												  
 
+  
+//to edit newly created 'Profile Owner' OR 'Payer'. (common keyword)
+  
+  @Keyword
+  def clickEditByUserName(String targetUserName) {
+  
+	  WebDriver driver = DriverFactory.getWebDriver()
+  
+	  List<WebElement> rows = driver.findElements(By.tagName("tr"))
+  
+	  for (WebElement row : rows) {
+  
+		  List<WebElement> cols = row.findElements(By.tagName("td"))
+  
+		  if (cols.size() < 4) {
+			  continue
+		  }
+  
+		  String actualUserName = cols.get(0).getText().trim()
+  
+		  if (actualUserName.equalsIgnoreCase(targetUserName.trim())) {
+  
+			  println("Selected 'User Name' = " + actualUserName)
+  
+			  row.findElement(By.linkText("edit")).click()
+  
+			  return actualUserName
+		  }
+	  }
+  
+	  KeywordUtil.markFailed("User not found : " + targetUserName)
+  
+	  return null
+  }
+  
+    
 
 //for UI verification in 'User List' after editing 'Owner'-> 1. adding getters 2. creating a new UI verification keyword
-
-  
+ 
 @Keyword
 def getOwnerFirstName() {
 	return OwnerFirstName	
@@ -386,65 +386,8 @@ def verifyEditedOwnerUser(String expectedUserName, String expectedFirstName, Str
 
 
 
-
-//1. always select first 'Profile Owner' user whose href is not id=328618. 2. to change Profile Owner to Payer. 
-//3. to select a user whose Role is not 'Payer' in User List.              4. to edit 'Profile Owner' fields value.
-
-
-@Keyword
-def clickEditNonPayerUser() {
-
-	WebDriver driver = DriverFactory.getWebDriver()
-	List<WebElement> rows = driver.findElements(By.tagName("tr"))
-
-	for (WebElement row : rows) {
-
-		List<WebElement> cols = row.findElements(By.tagName("td"))
-
-		
-		if (cols.size() < 4) {     								// Skip header row
-			continue
-		}
-
-		String userName = cols.get(0).getText().trim()
-		String role     = cols.get(2).getText().trim()
-
-		List<WebElement> editLinks = row.findElements(By.linkText("edit"))
-
-		if (!editLinks.isEmpty()) {
-
-			String href = editLinks.get(0).getAttribute("href")
-
-									
-			if (href.contains("id=328618")) {    			  // Skip logged-in user
-				continue
-			}
-
-			
-			if (role.equalsIgnoreCase("Payer")) {             // Skip existing Payers. select Profile Owner
-				continue
-			}
-			
-			println("User Name      : ${userName}")
-			println("Current 'Role' : ${role}")
-			println("Href Id        : ${href}")
-
-			println("Selected Profile Owner: " + userName)
-			editLinks.get(0).click()
-
-			return userName
-		}
-		
-	}
-		KeywordUtil.markFailed("No non-Payer user found in User List")
-		return null
-	}	
-
-
-
-
 //to verify 'Profile Owner' OR 'Payer' 'Role' in 'User List' page after changing user from Payer to Profile Owner OR from Profile Owner to Payer
-//common keyword for both 'Profile Owner' and 'Payer'.
+//(common keyword) for both 'Profile Owner' and 'Payer'.
 
 @Keyword
 def verifyUserRole(String expectedUserName, String expectedRole) {
@@ -480,6 +423,83 @@ def verifyUserRole(String expectedUserName, String expectedRole) {
 	KeywordUtil.markFailed("User not found : " + expectedUserName)
 }
 
+
+
+//to delete the newly created 'User Name' for both 'Profile Owner' OR 'Payer'.(common keyword)
+
+@Keyword
+def deleteUserByUserName(String targetUserName) {
+
+    WebDriver driver = DriverFactory.getWebDriver()
+
+    List<WebElement> rows = driver.findElements(By.tagName("tr"))
+
+    for (WebElement row : rows) {
+
+        List<WebElement> cols = row.findElements(By.tagName("td"))
+
+        if (cols.size() < 4) {
+            continue
+        }
+
+        String actualUserName = cols.get(0).getText().trim()
+
+        if (actualUserName.equalsIgnoreCase(targetUserName.trim())) {
+
+            println("Deleting 'User Name' = " + actualUserName)
+
+            row.findElement(By.linkText("delete")).click()
+			
+			WebUI.delay(2)
+            WebUI.acceptAlert()    //pop up handling.
+
+            return actualUserName
+        }
+    }
+
+    KeywordUtil.markFailed("User not found : " + targetUserName)
+
+    return null
+}
+
+
+
+//after deletion, verify that user for both 'Profile Owner' OR 'Payer' no longer exists.(common keyword)
+
+@Keyword
+boolean verifyUserDeleted(String targetUserName) {
+
+	WebDriver driver = DriverFactory.getWebDriver()
+
+	List<WebElement> rows = driver.findElements(By.tagName("tr"))
+
+	for (WebElement row : rows) {
+
+		List<WebElement> cols = row.findElements(By.tagName("td"))
+
+		if (cols.size() < 1) {
+			continue
+		}
+
+		String actualUserName = cols.get(0).getText().trim()
+
+		if (actualUserName.equalsIgnoreCase(targetUserName.trim())) {
+
+			println(
+				"User still exists after delete : " + targetUserName
+			)
+
+			return false
+		  }
+	    }
+
+		println(
+		"successfully deleted user : " + targetUserName				
+		  )
+	
+		return true
+		
+}
 
 
 
@@ -586,78 +606,23 @@ def setDataPayerPasswordPayerConfirmPassword() {
   }
 																								 
 
-  
- //1. always select first 'Payer' and user whose href is not id=328618. 2. to change Payer to Profile Owner. 
- //3. to select a user whose Role is not 'Profile Owner' in User List.  4. to edit 'Payer' fields value.
-  
-  
-  @Keyword
-  def clickEditNonProfileOwnerUser() {
-  
-	  WebDriver driver = DriverFactory.getWebDriver()
-	  List<WebElement> rows = driver.findElements(By.tagName("tr"))
-  
-	  for (WebElement row : rows) {
-  
-		  List<WebElement> cols = row.findElements(By.tagName("td"))
-  
-		  
-		  if (cols.size() < 4) {     								// Skip header row
-			  continue
-		  }
-  
-		  String userName = cols.get(0).getText().trim()
-		  String role     = cols.get(2).getText().trim()
-  
-		  List<WebElement> editLinks = row.findElements(By.linkText("edit"))
-  
-		  if (!editLinks.isEmpty()) {
-  
-			  String href = editLinks.get(0).getAttribute("href")
-  
-									  
-			  if (href.contains("id=328618")) {    			  			// Skip logged-in user
-				  continue
-			  }
-  
-			  
-			  if (role.equalsIgnoreCase("Profile Owner")) {             // Skip existing Profile Owner. select only Payer
-				  continue
-			  }
-			  
-			  println("'User Name' 	   : ${userName}")
-			  println("Current 'Role'  : ${role}")
-			  println("Href Id         : ${href}")
-  
-			  println("Selected Payer: " + userName)
-			  editLinks.get(0).click()
-  
-			  return userName
-		  }
-		  
-	  }
-		  KeywordUtil.markFailed("No non-'Profile Owner' user found in User List")
-		  return null
-	  }
-  
-
 
 //for UI verification in 'User List' after editing 'Payer'-> 1. adding getters 2. creating a new UI verification keyword
 
   
 @Keyword
 def getPayerFirstName() {
-	return OwnerFirstName	
+	return PayerFirstName	
 }
 
 @Keyword
 def getPayerLastName() {
-	return OwnerLastName
+	return PayerLastName
 }
 
 @Keyword
 def getPayerUserName() {
-	return OwnerUserName
+	return PayerUserName
 }
 
 

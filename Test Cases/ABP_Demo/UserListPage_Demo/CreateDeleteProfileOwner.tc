@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateDeleteProfileOwner</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13c50531-986c-4953-acac-362d0000065e</testCaseGuid>
+</TestCaseEntity>

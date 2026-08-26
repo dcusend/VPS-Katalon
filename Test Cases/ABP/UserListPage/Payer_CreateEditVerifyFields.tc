@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Payer_CreateEditVerifyFields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>930e731a-17be-45a5-922a-3ce21fa8a9f4</testCaseGuid>
+</TestCaseEntity>

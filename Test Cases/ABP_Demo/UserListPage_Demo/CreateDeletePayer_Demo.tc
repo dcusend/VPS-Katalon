@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>CreateDeletePayer_Demo</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d464645a-f395-4cdb-9849-ca546ed492ea</testCaseGuid>
-</TestCaseEntity>

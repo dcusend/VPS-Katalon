@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Payer_ChangeToOwner_1stUser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>85051f4e-ad4a-41a2-a7c6-46886e71c98e</testCaseGuid>
+</TestCaseEntity>
