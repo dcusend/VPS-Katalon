@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;password_confirmAccountNumberPC&quot;][count(. | //*[@id = 'password_confirmAccountNumberPC' and @class = 'form-control']) = count(//*[@id = 'password_confirmAccountNumberPC' and @class = 'form-control'])]</value>
+         <value>//*[@id = 'confirmAccountNumberPC' and @class = 'form-control']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,8 +18,8 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password_confirmAccountNumberPC</value>
-      <webElementGuid>4928448e-c20d-421f-a881-dc221f3b1a61</webElementGuid>
+      <value>confirmAccountNumberPC</value>
+      <webElementGuid>7a5059f8-b217-44ae-9d49-540541338686</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,14 +27,14 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>c97f5fd6-c670-4802-ad1a-349691dc7e4d</webElementGuid>
+      <webElementGuid>4e8b219d-26fa-4097-9835-2dfa9ff199f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;password_confirmAccountNumberPC&quot;]</value>
-      <webElementGuid>0d3c00d4-2df1-412c-ba8f-c9438c3f0da3</webElementGuid>
+      <webElementGuid>a8318717-8b59-48bd-a81c-5b193697784a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

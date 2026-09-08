@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IVT_LoginPage_SameJSON - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08f2a2e7-bc6d-469e-9fc6-c7b281af9706</testCaseGuid>
+</TestCaseEntity>

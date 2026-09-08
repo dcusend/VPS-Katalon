@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
-import java.util.concurrent.ThreadLocalRandom
 
-public class IVTlogin {
+
+public class IVTlogin_copy {
 		
 	
 	String url_In, Environment_In, AuthUser_In, AuthPass_In, Token_In, JSONBody_In
@@ -29,45 +29,26 @@ public class IVTlogin {
 	
 @Keyword
 def SetDataIVTlogin (url_In, Environment_In, AuthUser_In, AuthPass_In, Token_In, JSONBody_In) {
-	
-		
-	// Part 1: Generate 10-character alphanumeric 'remittanceId'
-	
-	String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-	String remittanceId = (1..10).collect {chars.charAt(ThreadLocalRandom.current().nextInt(chars.length()))
-				}.join()
-
-	println("Generated RemittanceId : " + remittanceId)
-	
-	JSONBody_In = JSONBody_In.replaceAll(           // Replace remittanceId in JSON
-		/"remittanceId"\s*:\s*"[^"]*"/,
-		"\"remittanceId\":\"${remittanceId}\""
-	)
-
-	println("Updated JSON:")
-	println(JSONBody_In)
-	
-		
-	//Part 2: Enter values
-	
 		WebUI.openBrowser(url_In)
 		WebUI.maximizeWindow()
 			
 		if (WebUI.verifyTextPresent('VVTAPI Form POST Tester', true)) {
+			println("We are on 'VVTAPI Form POST Tester' page")
 
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Environment'), Environment_In, false)
 			WebUI.setText(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Basic_Auth_User'), AuthUser_In)
 			WebUI.setText(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Basic_Auth_Pass'), AuthPass_In)
 			WebUI.setText(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Partner_Token'), Token_In)
 			WebUI.setText(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/JSON_Body'), JSONBody_In)
+			println(JSONBody_In)
 			
 			WebUI.delay(2)						
 			WebUI.click(findTestObject('Object Repository/IntegratedVT/IVTLoginPage/Submit_button'))
 			
 		}				
 		
-   }
+  }
  
 
 }

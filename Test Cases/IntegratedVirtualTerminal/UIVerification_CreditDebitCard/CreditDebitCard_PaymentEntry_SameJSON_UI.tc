@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreditDebitCard_PaymentEntry_SameJSON_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>899a96da-8ab1-41aa-86b6-26177d610efc</testCaseGuid>
+</TestCaseEntity>

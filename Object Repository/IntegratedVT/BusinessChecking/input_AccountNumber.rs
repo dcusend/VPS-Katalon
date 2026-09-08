@@ -6,12 +6,16 @@
    <elementGuidId>0eed145f-b258-413a-9458-7bf0d4e09710</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#password_accountNumberBC</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'accountNumberBC' and @class = 'form-control']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='password_accountNumberBC']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#password_accountNumberBC</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ff4023be-e988-44fa-ada8-57130dae0c90</webElementGuid>
+      <webElementGuid>8f36fb02-8f6f-4e43-9582-7eb0a18a40e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>40d44f05-4899-4e9d-8907-36e333b979fe</webElementGuid>
+      <webElementGuid>c6f2b4fa-392e-4a5b-abad-196a48aedf10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +49,23 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>829a490c-ae5f-4107-bada-a6ef9776e1c3</webElementGuid>
+      <webElementGuid>f7354f46-04ac-4c14-a098-40624c0cd610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password_accountNumberBC</value>
-      <webElementGuid>8fd73f33-28f0-4d99-8ac2-85089078339e</webElementGuid>
+      <value>accountNumberBC</value>
+      <webElementGuid>a78e11ca-256b-4fd2-9488-3e928ea613b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password_accountNumberBC</value>
-      <webElementGuid>b20b1a83-5cde-4c8f-90c6-0e163f0c5993</webElementGuid>
+      <value>accountNumberBC</value>
+      <webElementGuid>c1cfc665-b9d0-4c28-bfb4-c7248eaa19bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>6e41a345-c133-4c11-9c2c-03591ff39fb8</webElementGuid>
+      <webElementGuid>0eadf63a-c1bb-43da-b79a-1c45151c5d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,23 +81,23 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>17</value>
-      <webElementGuid>6f8f8b1f-55f5-4f0d-9f65-1298d3d6cc72</webElementGuid>
+      <webElementGuid>030e958b-6488-4de4-a682-1b18fc1f4345</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;password_accountNumberBC&quot;)</value>
-      <webElementGuid>7db14c75-1a65-49bd-b23b-19d43b2081b2</webElementGuid>
+      <webElementGuid>afb51ee0-5c71-48cc-8f1a-52f3793cdfdf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='password_accountNumberBC']</value>
-      <webElementGuid>96a93139-2958-4253-a3ec-c80e6db062b2</webElementGuid>
+      <webElementGuid>166de590-ec07-419d-afad-996430eabb24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='business-check-fields']/div/div[2]/input[2]</value>
-      <webElementGuid>e54eea28-4bb3-4bf9-a417-9686057babdc</webElementGuid>
+      <webElementGuid>689c0e98-0df0-46f8-b4e5-5214a85c6b54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div[2]/input[2]</value>
-      <webElementGuid>c1f405e0-8668-4074-9587-b014f71adfba</webElementGuid>
+      <webElementGuid>e5dfd797-875d-4ab6-a3e0-00b8cf36cc85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'password_accountNumberBC' and @name = 'password_accountNumberBC']</value>
-      <webElementGuid>99ab3a17-d47b-4c1b-8874-b3e1d70c68bd</webElementGuid>
+      <webElementGuid>fcb8fdda-963a-45a2-9996-562bce7e36f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

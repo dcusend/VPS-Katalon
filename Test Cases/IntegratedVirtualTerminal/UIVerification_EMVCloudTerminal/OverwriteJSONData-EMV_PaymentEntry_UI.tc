@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>OverwriteJSONData-EMV_PaymentEntry_UI</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>3700e4db-06cb-4bd7-9a12-0e945859110a</testCaseGuid>
-</TestCaseEntity>

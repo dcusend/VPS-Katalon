@@ -300,21 +300,21 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'561BF40199044AB078F5B243C5CE490D'</initValue>
+      <initValue>'63D3B852D054F6F8AD4A08260721F6AC'</initValue>
       <name>IVTUserName</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Vampire'</initValue>
+      <initValue>'test1'</initValue>
       <name>IVTPassword</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Ashi'</initValue>
+      <initValue>'test'</initValue>
       <name>IVTPartnerToken</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

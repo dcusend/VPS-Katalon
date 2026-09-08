@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>NoChangesToJSON-PL_PaymentEntry_UI</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2e491c9d-565f-47cb-9074-2dfa9bf0ac00</testCaseGuid>
-</TestCaseEntity>

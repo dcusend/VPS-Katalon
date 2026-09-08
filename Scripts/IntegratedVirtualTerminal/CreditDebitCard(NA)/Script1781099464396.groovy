@@ -129,7 +129,7 @@ WebUI.delay(2)
 WebUI.verifyTextPresent('Parcels Label', true)
 
 fileLoc = 'KatalonData/VVTApiIVT/VVTApiIVT_CreditDebit_Card.xlsx'
-nameSheet = 'ParcelsLabel'
+nameSheet = 'ivtPages.ParcelsLabel'
 parcelData = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/VVTApiIVT/VVTApiIVT_CreditDebit_Card.xlsx', nameSheet, true)
 
 
@@ -154,7 +154,7 @@ for (def ParcelsRow = 1; ParcelsRow <= numOfRows; ParcelsRow++)
 			 println(DueAmount)
 		 
 
-CustomKeywords.'ivtPages.ParcelsLabel.SetDataParcelsLabel'(Show, DueAmount )
+CustomKeywords.'ivtPages.ivtPages.ParcelsLabel.SetDataivtPages.ParcelsLabel'(Show, DueAmount )
 
 		 
 

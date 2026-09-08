@@ -6,12 +6,16 @@
    <elementGuidId>4086356c-ce22-4f9c-aa7a-93fe5301c23a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#password_cardSecurityCode</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'cardSecurityCode' and @class = 'form-control']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='password_cardSecurityCode']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#password_cardSecurityCode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ef74d37e-1801-4b69-a428-04b367539232</webElementGuid>
+      <webElementGuid>b79b8d7d-556e-477a-bd70-83de1a2ca343</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>85ca93aa-4de9-4b4e-b843-a82f42fda2fe</webElementGuid>
+      <webElementGuid>3c2dad9a-225a-41a5-a8b3-28846e6cefea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,23 +49,23 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>b3131c69-ed72-4c54-9a1f-01f711b351d3</webElementGuid>
+      <webElementGuid>54627f82-575e-4d5d-87f0-6cdaf7d9165e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password_cardSecurityCode</value>
-      <webElementGuid>c9d2fe02-b42b-4b3a-9ccd-e275f25d3dca</webElementGuid>
+      <value>cardSecurityCode</value>
+      <webElementGuid>713805db-9e05-46ca-b73a-255f3cd3824b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password_cardSecurityCode</value>
-      <webElementGuid>a9694906-7e96-4953-9bb1-a47c36e82959</webElementGuid>
+      <value>cardSecurityCode</value>
+      <webElementGuid>41b2c7ea-759b-4f55-b007-f78d41a66554</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>28e47bc3-4751-42d9-93b9-3fa26a21be0f</webElementGuid>
+      <webElementGuid>4e8a7717-cfb6-4100-ae7b-4f35b92a5563</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,23 +81,23 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>f6bd61b5-8063-4764-a3e8-46139bd44467</webElementGuid>
+      <webElementGuid>c748a5a8-e3af-4906-91bf-3bc34fd050c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;password_cardSecurityCode&quot;)</value>
-      <webElementGuid>45b190b1-de44-4256-a206-260c78f4a2d0</webElementGuid>
+      <webElementGuid>4e7f323a-6b95-4ffc-9fae-b0f7f3390012</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='password_cardSecurityCode']</value>
-      <webElementGuid>62d36459-4700-4100-ae6c-65dfcfc3c93e</webElementGuid>
+      <webElementGuid>73d120d9-c041-4ca8-b9ee-282ebd842c2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='credit-card-fields']/div/div[4]/input[2]</value>
-      <webElementGuid>120ba9b1-4f99-4499-92ad-ceafceea68d3</webElementGuid>
+      <webElementGuid>1b13f7c9-adfd-4d66-921d-e6484783d6a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[4]/input[2]</value>
-      <webElementGuid>70ac8411-86f3-450b-a1a2-209d2d83ef60</webElementGuid>
+      <webElementGuid>ffcc66ba-cc34-4393-90cf-d9f4e4f37dfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'password_cardSecurityCode' and @name = 'password_cardSecurityCode']</value>
-      <webElementGuid>11d2642c-62d1-423a-a72b-96574dd9b9dd</webElementGuid>
+      <webElementGuid>1a9aabad-5d7a-4ccd-9b07-6668848d1d1f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

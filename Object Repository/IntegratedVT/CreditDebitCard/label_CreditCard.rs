@@ -6,16 +6,16 @@
    <elementGuidId>05ccdbf0-aafe-4f40-9b14-2bc78be82564</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#label-method-CreditCard</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'label-method-CreditCard' and @class = 'btn btn-tab']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//label[@id='label-method-CreditCard']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#label-method-CreditCard</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>c5c1d6d1-1e82-4199-a583-11b9f2227923</webElementGuid>
+      <webElementGuid>ea0b51d3-18d1-4124-9ec9-6968f8f73238</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>label-method-CreditCard</value>
-      <webElementGuid>41561849-dc9b-4d31-bab1-4d50fd153a31</webElementGuid>
+      <webElementGuid>e7c86efd-2c18-46c3-9154-dce99a7c34c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-tab</value>
-      <webElementGuid>55c269c3-d845-4c2b-bb2d-0609d3b3f15b</webElementGuid>
+      <webElementGuid>67e1dad5-ab46-4903-9977-8b124dec4fe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>for</name>
       <type>Main</type>
       <value>velocityForm_paymentMethodCreditCard</value>
-      <webElementGuid>3e391e40-4e45-4145-91f1-f7fe06d8a48f</webElementGuid>
+      <webElementGuid>dc3047f2-eb78-4079-9315-59226b79674f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Credit Card</value>
-      <webElementGuid>bd5b79cd-f6fc-4905-8f9a-bd4e101f56a5</webElementGuid>
+      <webElementGuid>a77b6a50-63f4-4112-9295-20f8224b4e0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,15 +73,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;label-method-CreditCard&quot;]</value>
-      <webElementGuid>f9399044-5f66-412f-a7a6-dd8b448d4cc0</webElementGuid>
+      <webElementGuid>eb0b10d5-ef65-49c2-959d-4f5f5872bfdd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//label[@id='label-method-CreditCard']</value>
-      <webElementGuid>8b8ca642-fa57-4415-a2dc-087ac521b53d</webElementGuid>
+      <webElementGuid>6c4a9ce5-7e37-4fbc-9c91-400599e64732</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='velocityForm']/div/div[3]/label[6]</value>
-      <webElementGuid>e00dda36-33d9-47a7-a2ff-86149b85350b</webElementGuid>
+      <webElementGuid>d3030fdd-ce7a-466e-b0fc-dcdb66d228d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMV Cloud Terminal'])[2]/following::label[1]</value>
-      <webElementGuid>f4b868c1-fa8b-45d2-b946-8a57977bf682</webElementGuid>
+      <webElementGuid>a4cd0b7c-8b3c-47d9-80a7-9c1c93333203</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Check'])[1]/following::label[2]</value>
-      <webElementGuid>2ab1141b-ee0e-4f8c-83ac-e7ec88d454c7</webElementGuid>
+      <webElementGuid>73a8b5ba-728b-427b-884a-960ba909cecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Checking /Savings'])[1]/preceding::label[1]</value>
-      <webElementGuid>fa8e86be-77c8-43f7-bfc2-2f3d421691a6</webElementGuid>
+      <webElementGuid>2780c8b7-a1b3-4a1d-8517-6f09e4b3059f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Checking'])[1]/preceding::label[2]</value>
-      <webElementGuid>b276bcdb-69fd-440b-bbd2-59e8571339a6</webElementGuid>
+      <webElementGuid>9bd2bc5f-96ba-4fc9-b629-e1c795c1a245</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[6]</value>
-      <webElementGuid>275a4ff5-62b1-4ee3-befb-658990b41dbe</webElementGuid>
+      <webElementGuid>fa8b3a17-6e08-4b48-a21c-48105f1fa9c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = 'label-method-CreditCard' and (text() = 'Credit Card' or . = 'Credit Card')]</value>
-      <webElementGuid>14961448-11d2-4449-9615-7fd6ee8cec5d</webElementGuid>
+      <webElementGuid>9f507ec4-12b8-4cd4-bf24-6f0578b415a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,102 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonOutput
+import java.util.concurrent.ThreadLocalRandom
+
+String remittanceId = (1..10).collect { ThreadLocalRandom.current().nextInt(10) }.join()
+
+String applicationId = '1024'
+
+Map payload = [
+  amount: 20.00,
+  clientAccountNumber: '123456',
+  applicationId: applicationId,
+  remittanceId: remittanceId,
+  cashierName: 'Cashier1',
+  pinpadName: 'Counter-001',
+  parcel: [
+    ['1', '2', '3','4', '5', '6'],
+    ['1', '2', '3','4', '5', '6'],
+    ['1', '2', '3','4', '5', '6']
+  ],
+  billingAddress: [
+    firstName: 'Jane',
+    lastName: 'Doe',
+    companyName: 'ABC Company',
+    address: '123 Main St',
+    address2: 'Apt 5',
+    postalCode: '22201',
+    city: 'Arlington',
+    state: 'VA',
+    country: 'USA',
+    phone: '111-222-3333',
+    email: 'jane@email.com'
+  ],
+  customData: [
+    user_defined_1: 'value 1',
+    user_defined_2: 'value 2',
+    user_defined_3: 'value 3',
+    user_defined_4: 'value 4',
+    user_defined_5: 'value 5',
+    user_defined_6: 'value 6',
+    user_defined_7: 'value 7',
+    user_defined_8: 'value 8',
+    user_defined_9: 'value 9',
+    user_defined_10: 'value 10'
+  ]
+]
+
+def jsonData = JsonOutput.prettyPrint(JsonOutput.toJson(payload))
+println jsonData
+
+TestObject payloadField = new TestObject('payloadField')
+payloadField.addProperty('id', ConditionType.EQUALS, 'payload')
+
+TestObject envi = new TestObject('envi')
+envi.addProperty('id', ConditionType.EQUALS, 'environment')
+
+TestObject basicUser = new TestObject('basicUser')
+basicUser.addProperty('id', ConditionType.EQUALS, 'username')
+
+TestObject basicPass = new TestObject('basicPass')
+basicPass.addProperty('id', ConditionType.EQUALS, 'password')
+
+TestObject partToken = new TestObject('partToken')
+partToken.addProperty('id', ConditionType.EQUALS, 'partnerToken')
+
+TestObject submitButton = new TestObject('submitButton')
+submitButton.addProperty('id', ConditionType.EQUALS, 'submitBtn')
+
+
+
+		WebUI.openBrowser("https://dev-algorithm.govolution.com/vvtapi/VVTAPI_FORM_POST_TEST_PAGE.html")
+
+		WebUI.maximizeWindow()
+		WebUI.waitForElementVisible(payloadField, 10)
+		WebUI.setText(payloadField, jsonData)
+		
+		WebUI.selectOptionByLabel(envi, "QA", false)
+		
+		WebUI.setText(basicUser, "63D3B852D054F6F8AD4A08260721F6AC")
+		WebUI.setText(basicPass, "test1")
+		WebUI.setText(partToken, "test")
+		WebUI.click(submitButton)
+		
+	

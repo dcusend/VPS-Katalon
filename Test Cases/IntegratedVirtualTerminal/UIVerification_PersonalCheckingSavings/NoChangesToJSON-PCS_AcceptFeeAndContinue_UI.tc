@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>NoChangesToJSON-PCS_AcceptFeeAndContinue_UI</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>23feb00c-949a-430c-96af-2df5c75cf934</testCaseGuid>
-</TestCaseEntity>

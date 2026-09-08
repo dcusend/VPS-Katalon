@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BusinessChecking_PaymentEntry_SameJSON_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd9896bf-75c0-4bd5-b087-581697865b5d</testCaseGuid>
+</TestCaseEntity>

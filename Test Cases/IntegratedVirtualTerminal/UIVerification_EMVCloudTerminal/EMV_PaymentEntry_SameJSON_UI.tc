@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EMV_PaymentEntry_SameJSON_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8154b62-3853-4a08-8a86-02b7511fd293</testCaseGuid>
+</TestCaseEntity>

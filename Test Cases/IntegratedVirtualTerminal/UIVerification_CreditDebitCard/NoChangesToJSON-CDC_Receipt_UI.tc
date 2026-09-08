@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>NoChangesToJSON-CDC_Receipt_UI</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>dae4f187-d9bd-43b4-ad0d-871e15c01571</testCaseGuid>
-</TestCaseEntity>
