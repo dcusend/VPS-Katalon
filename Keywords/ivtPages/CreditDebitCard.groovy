@@ -64,7 +64,7 @@ def SetDataDebitCreditCard (CardNo_In, ExpMM_In, ExpYYYY_In, SecurityCode_In, Na
 	
 	if ((!Phone_In.isEmpty())) {WebUI.setText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_PhoneNumber'), Phone_In)}
 	
-	if ((!PaymentDate_In.isEmpty())) {WebUI.setText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_PaymentDate'), PaymentDate_In)}
+	//if ((!PaymentDate_In.isEmpty())) {WebUI.setText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_PaymentDate'), PaymentDate_In)}
 	
 	if ((!Country_In.isEmpty())) {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/select_Country'), Country_In, false)

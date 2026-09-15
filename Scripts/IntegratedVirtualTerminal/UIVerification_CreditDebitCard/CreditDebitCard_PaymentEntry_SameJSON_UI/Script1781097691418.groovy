@@ -31,6 +31,11 @@ import org.apache.commons.lang.RandomStringUtils
 
 def executionProfile = RC.getExecutionProfile()
 
+String resText = "Fail"
+//String datText = today
+String resColumn = "Result"
+String datCloumn = "Date"
+
 
 switch(executionProfile)
 {
@@ -52,9 +57,9 @@ switch(executionProfile)
 			 Password = GlobalVariable.IVTPassword
 			 PartnerToken= GlobalVariable.IVTPartnerToken
 			 			 
-		fileLoc = 'KatalonData/IVT/IVT_Login.xlsx'
-		nameSheet = 'Submit_SameJson'
-		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_Login.xlsx', nameSheet, true)
+		fileLoc = 'KatalonData/IVT/IVT_SameJSON_UI.xlsx'
+		nameSheet = 'CreditDebitCard_SameJson_Ui'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_SameJSON_UI.xlsx', nameSheet, true)
 	
 		break
 				
@@ -279,8 +284,51 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/Credit
 WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/button_Exit'))
 
 
-	}
-		
-}
+//reporting in excel
+WebUI.delay(2)
+if(((((((((((((((((
 	
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_EmailAddress'),'value', 'jane@email.com', 10, FailureHandling.OPTIONAL) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_PhoneNumber'),'value', '111-222-3333', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_PaymentDate'),'value', '09/10/2026', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/select_Country'),'value', 'US', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_AddressLine1'),'value', '123 Main St', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_ZipCode'),'value', '22201', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/select_State'),'value', 'VA', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_City'),'value', 'Arlington', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF1'),'value', 'value 1', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF2'),'value', 'value 2', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF3'),'value', 'value 3', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF4'),'value', 'value 4', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF5'),'value', 'value 5', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF6'),'value', 'value 6', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF7'),'value', 'value 7', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF8'),'value', 'value 8', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF9'),'value', 'value 9', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/UDF10'),'value', 'value 10', 10, FailureHandling.OPTIONAL)) 
+	
+	{
+	
+		isRequiredTextPresent = true	
+		println("All attribute validations passed")
+	
+		KeywordUtil.markPassed("All EMV attribute validations passed")
+		resText = "Pass"
+	
+		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 
+	
+	} else {
+	
+		isRequiredTextPresent = false	
+		println("One or more attribute validations failed")
+	
+		KeywordUtil.markFailed("One or more EMV attribute validations failed")	
+		resText = "Fail"
+	
+		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+	}
+
+
+ }
+}

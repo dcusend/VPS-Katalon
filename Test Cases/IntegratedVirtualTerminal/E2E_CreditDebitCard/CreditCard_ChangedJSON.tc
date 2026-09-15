@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ChangedJSON_CDC_AcceptFeeAndContinue_UI</name>
+   <name>CreditCard_ChangedJSON</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b15369e2-607b-4939-819b-3393b4f4b69d</testCaseGuid>
+   <testCaseGuid>07a7d1f5-15f8-4b6a-a20c-af8c1ea4afd5</testCaseGuid>
 </TestCaseEntity>

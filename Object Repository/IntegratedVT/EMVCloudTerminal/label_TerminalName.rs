@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_TerminalName</name>
+   <tag></tag>
+   <elementGuidId>bbfecb51-6358-4b9a-84ae-6a8cb1f5673a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'pinpadName' and @id = 'pinpadName' and @class = 'form-control' and @value = 'Counter-001']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>pinpadName</value>
+      <webElementGuid>ce33e18b-ac56-4856-b851-d9d102fd4ce1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pinpadName</value>
+      <webElementGuid>a12ed267-26b1-44ce-925e-749d6966d287</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>5092a0db-1906-460a-ac42-0afaa20b6ed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Counter-001</value>
+      <webElementGuid>12aec830-2192-4e67-8e21-a5aaf3217bcb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

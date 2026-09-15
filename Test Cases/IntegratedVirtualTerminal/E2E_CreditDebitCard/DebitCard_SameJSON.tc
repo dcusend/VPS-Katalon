@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SameJSON_BC_AcceptFeeAndContinue_UI</name>
+   <name>DebitCard_SameJSON</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>55f64650-998c-4c48-ba74-5e0487f620aa</testCaseGuid>
+   <testCaseGuid>dbda87cd-2079-40ad-a999-e627e9c84f0d</testCaseGuid>
 </TestCaseEntity>

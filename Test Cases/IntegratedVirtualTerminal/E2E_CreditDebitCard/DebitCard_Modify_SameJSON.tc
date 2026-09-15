@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ChangedJSON_PCS_Receipt_UI</name>
+   <name>DebitCard_Modify_SameJSON</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>016def7b-e898-4a0e-b467-ce6fd0fe2596</testCaseGuid>
+   <testCaseGuid>2efcaeb8-e23d-4805-a3a3-79597afb065c</testCaseGuid>
 </TestCaseEntity>
