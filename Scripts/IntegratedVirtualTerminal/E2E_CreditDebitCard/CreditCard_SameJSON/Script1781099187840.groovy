@@ -183,7 +183,8 @@ for (def CrediDebitRow = 1; CrediDebitRow <= numOfRows; CrediDebitRow++)
 							
 											  
 			 CardNo_Out = creditDebitData.getValue("CardNo", CrediDebitRow)
-
+			 println(CardNo_Out)
+			 
 			 ExpMM_Out = creditDebitData.getValue("ExpMM", CrediDebitRow)
 			 
 			 ExpYYYY_Out = creditDebitData.getValue("ExpYYYY", CrediDebitRow)

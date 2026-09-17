@@ -185,6 +185,7 @@ for (def PersonalCheckingRow = 1; PersonalCheckingRow <= numOfRows; PersonalChec
 			 RoutingNo_Out = personalCheckingData.getValue("RoutingNo", PersonalCheckingRow)
 
 			 AccountNo_Out = personalCheckingData.getValue("AccountNo", PersonalCheckingRow)
+			 println(AccountNo_Out)
 			 
 			 ConfirmAccNo_Out = personalCheckingData.getValue("ConfirmAccNo", PersonalCheckingRow)
 			 

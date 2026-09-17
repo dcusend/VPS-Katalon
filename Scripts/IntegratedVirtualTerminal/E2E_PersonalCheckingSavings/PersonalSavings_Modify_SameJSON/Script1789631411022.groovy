@@ -31,7 +31,7 @@ import org.apache.commons.lang.RandomStringUtils
 		Email_Out, Phone_Out, PaymentDate_Out, Country_Out, Address_Out, Zip_Out, State_Out, City_Out,
 		UDF1_Out, UDF2_Out, UDF3_Out, UDF4_Out, UDF5_Out, UDF6_Out, UDF7_Out, UDF8_Out, UDF9_Out, UDF10_Out
 
-	def fileLoc, nameSheet, dataFile, numOfRows, isRequiredTextPresent= false, submitData, parcelData, personalCheckingData
+	def fileLoc, nameSheet, dataFile, numOfRows, isRequiredTextPresent= false, submitData, parcelData, personalSavingsData
 	
 	
 
@@ -152,85 +152,85 @@ CustomKeywords.'ivtPages.IVTlogin.SetDataIVTlogin'(Url, Environment, UserName, P
 
 
 
-//Personal Checking
+//Personal Savings 
 WebUI.delay(2)
 WebUI.verifyTextPresent('Personal Checking /Savings', true)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/PersonalCheckingSavings/label_PersonalCheckingSavings'))
 
 
 fileLoc = 'KatalonData/IVT/IVT_SameJSON_E2E.xlsx'
-nameSheet = 'PersonalChecking_SameJson'
-personalCheckingData = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_SameJSON_E2E.xlsx', nameSheet, true)
+nameSheet = 'PersonalSavings_SameJson'
+personalSavingsData = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_SameJSON_E2E.xlsx', nameSheet, true)
 
 
-numOfRows = personalCheckingData.getRowNumbers()
+numOfRows = personalSavingsData.getRowNumbers()
 println("Number of Records: " + numOfRows)
 
-for (def PersonalCheckingRow = 1; PersonalCheckingRow <= numOfRows; PersonalCheckingRow++)
+for (def PersonalSavingsRow = 1; PersonalSavingsRow <= numOfRows; PersonalSavingsRow++)
 {
 
-	ExecuteTC = personalCheckingData.getValue('Execute', PersonalCheckingRow)
+	ExecuteTC = personalSavingsData.getValue('Execute', PersonalSavingsRow)
 	System.out.println('Value of Execute is : ' + ExecuteTC)
 	
 	
 	if (ExecuteTC.equalsIgnoreCase("Y"))
 		{
-			System.out.println('Begin Record Number: ' + PersonalCheckingRow)
+			System.out.println('Begin Record Number: ' + PersonalSavingsRow)
 			
 			Date today = new Date()
 			println (today)
 			String datText = today
 							
 							  
-			 RoutingNo_Out = personalCheckingData.getValue("RoutingNo", PersonalCheckingRow)
+			 RoutingNo_Out = personalSavingsData.getValue("RoutingNo", PersonalSavingsRow)
 
-			 AccountNo_Out = personalCheckingData.getValue("AccountNo", PersonalCheckingRow)
+			 AccountNo_Out = personalSavingsData.getValue("AccountNo", PersonalSavingsRow)
 			 println(AccountNo_Out)
 			 
-			 ConfirmAccNo_Out = personalCheckingData.getValue("ConfirmAccNo", PersonalCheckingRow)
+			 ConfirmAccNo_Out = personalSavingsData.getValue("ConfirmAccNo", PersonalSavingsRow)
 			 
-			 AccType_Out = personalCheckingData.getValue("AccType", PersonalCheckingRow)
+			 AccType_Out = personalSavingsData.getValue("AccType", PersonalSavingsRow)
 						 
-			 FirstName_Out = personalCheckingData.getValue("FirstName", PersonalCheckingRow)
+			 FirstName_Out = personalSavingsData.getValue("FirstName", PersonalSavingsRow)
 			 
-			 LastName_Out = personalCheckingData.getValue("LastName", PersonalCheckingRow)
+			 LastName_Out = personalSavingsData.getValue("LastName", PersonalSavingsRow)
 						  
-			 Email_Out = personalCheckingData.getValue("Email", PersonalCheckingRow)
+			 Email_Out = personalSavingsData.getValue("Email", PersonalSavingsRow)
 			 
-			 Phone_Out = personalCheckingData.getValue("Phone", PersonalCheckingRow)
+			 Phone_Out = personalSavingsData.getValue("Phone", PersonalSavingsRow)
 			 
-			 //PaymentDate_Out = personalCheckingData.getValue("Date", PersonalCheckingRow)
+			 //PaymentDate_Out = personalSavingsData.getValue("Date", PersonalSavingsRow)
 			 
-			 Country_Out = personalCheckingData.getValue("Country", PersonalCheckingRow)
+			 Country_Out = personalSavingsData.getValue("Country", PersonalSavingsRow)
 						  
-			 Address_Out = personalCheckingData.getValue("Address", PersonalCheckingRow)
+			 Address_Out = personalSavingsData.getValue("Address", PersonalSavingsRow)
 						  
-			 Zip_Out = personalCheckingData.getValue("Zip", PersonalCheckingRow)
+			 Zip_Out = personalSavingsData.getValue("Zip", PersonalSavingsRow)
 						  
-			 State_Out = personalCheckingData.getValue("State", PersonalCheckingRow)
+			 State_Out = personalSavingsData.getValue("State", PersonalSavingsRow)
 			 
-			 City_Out = personalCheckingData.getValue("City", PersonalCheckingRow)
+			 City_Out = personalSavingsData.getValue("City", PersonalSavingsRow)
 			 
-			 UDF1_Out = personalCheckingData.getValue("UDF1", PersonalCheckingRow)
+			 UDF1_Out = personalSavingsData.getValue("UDF1", PersonalSavingsRow)
 			 println(UDF1_Out)
 			 
-			 UDF2_Out = personalCheckingData.getValue("UDF2", PersonalCheckingRow)
+			 UDF2_Out = personalSavingsData.getValue("UDF2", PersonalSavingsRow)
 						  
-			 UDF3_Out = personalCheckingData.getValue("UDF3", PersonalCheckingRow)
+			 UDF3_Out = personalSavingsData.getValue("UDF3", PersonalSavingsRow)
 			 
-			 UDF4_Out = personalCheckingData.getValue("UDF4", PersonalCheckingRow)
+			 UDF4_Out = personalSavingsData.getValue("UDF4", PersonalSavingsRow)
 						  
-			 UDF5_Out = personalCheckingData.getValue("UDF5", PersonalCheckingRow)
+			 UDF5_Out = personalSavingsData.getValue("UDF5", PersonalSavingsRow)
 						  
-			 UDF6_Out = personalCheckingData.getValue("UDF6", PersonalCheckingRow)
+			 UDF6_Out = personalSavingsData.getValue("UDF6", PersonalSavingsRow)
 			 
-			 UDF7_Out = personalCheckingData.getValue("UDF7", PersonalCheckingRow)
+			 UDF7_Out = personalSavingsData.getValue("UDF7", PersonalSavingsRow)
 			 
-			 UDF8_Out = personalCheckingData.getValue("UDF8", PersonalCheckingRow)
+			 UDF8_Out = personalSavingsData.getValue("UDF8", PersonalSavingsRow)
 			 
-			 UDF9_Out = personalCheckingData.getValue("UDF9", PersonalCheckingRow)
+			 UDF9_Out = personalSavingsData.getValue("UDF9", PersonalSavingsRow)
 			 
-			 UDF10_Out = personalCheckingData.getValue("UDF10", PersonalCheckingRow)
+			 UDF10_Out = personalSavingsData.getValue("UDF10", PersonalSavingsRow)
 						  
 
 CustomKeywords.'ivtPages.PersonalCheckingSaving.SetDataPersonalCheckingSaving'(
@@ -253,6 +253,18 @@ WebUI.executeJavaScript("""let buttons = document.querySelectorAll('button');
         			   		 btn.click(); } 
 						}); """, null)
 
+
+//Modify
+WebUI.click(findTestObject('Object Repository/IntegratedVT/PersonalCheckingSavings/CheckingSavings_PaymentInformation/Modify'))
+
+WebUI.setText(findTestObject('Object Repository/IntegratedVT/PersonalCheckingSavings/input_AccountNumber'), '12345')
+WebUI.setText(findTestObject('Object Repository/IntegratedVT/PersonalCheckingSavings/input_ConfirmAccountNumber'), '12345')
+WebUI.setText(findTestObject('Object Repository/IntegratedVT/PersonalCheckingSavings/input_FirstName'), 'Bharat')
+WebUI.setText(findTestObject('Object Repository/IntegratedVT/PersonalCheckingSavings/input_LastName'), 'Bhushan')
+
+WebUI.click(findTestObject('Object Repository/IntegratedVT/PersonalCheckingSavings/button_Continue'))
+
+
 //Process Payment
 WebUI.waitForPageLoad(5)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/PersonalCheckingSavings/CheckingSavings_PaymentInformation/ProcessPayment'))
@@ -271,10 +283,14 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/Pers
 //reporting in excel
 WebUI.delay(2)
 if (
-	WebUI.verifyTextPresent('Payment Successful', false)) {
-	
+	WebUI.verifyTextPresent('Payment Successful', false) &&
+	WebUI.verifyTextPresent('BHARAT BHUSHAN', false) &&
+	WebUI.verifyTextPresent('45', false))
+ 
+		{	
 		isRequiredTextPresent = true
-		println(isRequiredTextPresent) }
+		println(isRequiredTextPresent) 
+		}
 
 else {
 	isRequiredTextPresent = false
@@ -286,7 +302,7 @@ else {
 				println "Payment is successful and user is landed on 'Print' page"
 				KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
 				resText = "Pass"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,PersonalCheckingRow)
+				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,PersonalSavingsRow)
 		
 			}
 	 else
@@ -294,7 +310,7 @@ else {
 				println "Payment is not successful and user is not landed on 'Print' page"
 				KeywordUtil.markFailed("Some texts are missing on the Receipt page")
 				resText = "Fail"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,PersonalCheckingRow)
+				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,PersonalSavingsRow)
 			}
 
 
