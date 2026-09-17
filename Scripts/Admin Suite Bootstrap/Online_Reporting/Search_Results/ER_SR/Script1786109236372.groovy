@@ -53,40 +53,40 @@ numOfRows = dataFile.getRowNumbers()
 
 
 // For each row in the spreadsheet, execute the given steps
-//for (def row = 1; row <= numOfRows; row++)
-//	{
-//		
-//				ExecuteTC = dataFile.getValue("Execute", row)
-//				System.out.println('Value of Execute is : ' + ExecuteTC)
-//	
-//		if (ExecuteTC.equalsIgnoreCase("Y"))
-//			{
-//				System.out.println('Begin Record Number: ' + row)
-//	
-//				Date today = new Date()
-//				println (today)
-//				String datText = today
-//				
-//				
-//			ExecuteTC = dataFile.getValue("Execute", row)
-//			System.out.println('Value of Execute is : ' + ExecuteTC)
+for (def row = 1; row <= numOfRows; row++)
+	{
+		
+				ExecuteTC = dataFile.getValue("Execute", row)
+				System.out.println('Value of Execute is : ' + ExecuteTC)
+	
+		if (ExecuteTC.equalsIgnoreCase("Y"))
+			{
+				System.out.println('Begin Record Number: ' + row)
+	
+				Date today = new Date()
+				println (today)
+				String datText = today
+				
+				
+			ExecuteTC = dataFile.getValue("Execute", row)
+			System.out.println('Value of Execute is : ' + ExecuteTC)
 			
 			
 			CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 			
-//			WebUI.delay(GlobalVariable.shortTimeDelay)
-//			
-//			// Select the Payment Application Name
-//			WebUI.click(findTestObject(path_Dashboard + 'a_Access AutoDualCFtpQA'))
-//			
-//			WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
-//			
-//			WebUI.click(findTestObject(path_VT + 'a_KeyboardEntry_Sale'))
-//
-//			CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven_EF'(row,dataFile)			
-//			
-//			if(WebUI.verifyTextPresent('Reason: The credit card type you submitted is not supported. Please choose a different card type.', false)) {
-//				
+			WebUI.delay(GlobalVariable.shortTimeDelay)
+			
+			// Select the Payment Application Name
+			WebUI.click(findTestObject(path_Dashboard + 'a_Access AutoDualCFtpQA'))
+			
+			WebUI.click(findTestObject(path_VT + 'button_Authorization  Capture (Sale)'))
+			
+			WebUI.click(findTestObject(path_VT + 'a_KeyboardEntry_Sale'))
+
+			CustomKeywords.'adminSuiteBootstrap.virtualTerminalSetData.saleKeyboard_DataDriven_EF'(row,dataFile)			
+			
+			if(WebUI.verifyTextPresent('Reason: The credit card type you submitted is not supported. Please choose a different card type.', false)) {
+				
 				WebUI.click(findTestObject(path_Dashboard + 'span_Reporting'))
 				
 				WebUI.click(findTestObject(path_Dashboard + 'a_Operational Reports'))
@@ -137,24 +137,28 @@ numOfRows = dataFile.getRowNumbers()
 				
 				println('Formatted Date: ' + formattedDate)
 				
+				WebUI.verifyTextPresent(formattedDate, false)
 				
+				WebUI.verifyTextPresent('Time Zone:', false)
 				WebUI.verifyTextPresent('EDT', false)
 				
-				boolean isConditionMet = false
-				
-				while (!isConditionMet ) {
-					
-					isConditionMet = WebUI.verifyTextPresent('Nothing found to display.', false) && WebUI.verifyTextPresent('No items found.', false)
-					
-					if(isConditionMet) {						
-						WebUI.delay('120')
-						WebUI.click(findTestObject(path_Operation_Reports + 'btn_GO'))
-                    } 
-					else {
-                        isConditionMet = true
-                    }
-
-				}
+							// If the page shows "Nothing found to display." (or "No items found."), retry by clicking GO
+							// Use FailureHandling.OPTIONAL so verifyTextPresent returns false instead of throwing when not found
+							int retry = 0
+							int maxRetries = 6 // try up to ~6 times (adjust as needed)
+							
+							
+							while ((WebUI.verifyTextPresent('Nothing found to display.', false, FailureHandling.OPTIONAL) ||
+								   WebUI.verifyTextPresent('No items found.', false, FailureHandling.OPTIONAL)) && retry < maxRetries) {
+								KeywordUtil.logInfo("Results not found yet - retry #" + (retry + 1) + " - will wait and click GO")
+								// wait a bit for backend processing (seconds)
+								WebUI.delay(120)
+								WebUI.click(findTestObject(path_Operation_Reports + 'btn_GO'))
+								retry++
+							}
+							if (retry >= maxRetries) {
+								KeywordUtil.logInfo('Max retries reached and results still not found.')
+							}
 				
 				WebUI.verifyTextPresent('Date', false)
 				
@@ -258,12 +262,12 @@ numOfRows = dataFile.getRowNumbers()
 								// Optional: click the link to navigate to transaction detail
 								 WebUI.click(rowLinkObj)
 								 
-								 
+								 WebUI.delay(GlobalVariable.shortTimeDelay)
 								//	Verify Transaction Details Page 
 								 
 								 WebUI.verifyTextPresent('Transaction Details', false)
 								 
-								 WebUI.verifyTextPresent('Transaction ID:', false)
+								 WebUI.verifyTextPresent('Transaction ID', false)
 								 
 								 WebUI.verifyTextPresent(tid, false)
 								 
@@ -274,18 +278,79 @@ numOfRows = dataFile.getRowNumbers()
 								 WebUI.verifyTextPresent('Transaction Type', false)
 								 
 								 WebUI.verifyTextPresent('Authorization and Capture', false)
-								 							 
-								 WebUI.verifyTextPresent('Total Amount', false)
+								 				
+								 WebUI.verifyTextPresent('Remittance ID', false)
 								 
+								 WebUI.verifyTextPresent('Remittance ID', false)
+								 
+								 WebUI.verifyTextPresent('Client Account Number', false)
+								 
+								 WebUI.verifyTextPresent('Tax Amount', false)
+								 
+								 WebUI.verifyTextPresent('$0.00', false)
+								 
+								 WebUI.verifyTextPresent('Total Amount', false)
+								 							 
 								 WebUI.verifyTextPresent(amount, false)
 								 
+								 WebUI.verifyTextPresent('Transaction Date', false)
+								 
+								 WebUI.verifyTextPresent('Parent Transaction', false)
+								 						 
 								 WebUI.verifyTextPresent('Status', false)
 								 
+								 WebUI.verifyTextPresent('Failure', false)
+								 
+								 WebUI.verifyTextPresent('Fail Message', false)
+								 
+								 WebUI.verifyTextPresent('The credit card type you submitted is not supported. Please choose a different card type. [Card type not valid]', false)
+								 
+								 WebUI.verifyTextPresent('Received Via', false)
+								 
+								 WebUI.verifyTextPresent('Virtual Terminal', false)
+								 
+								 WebUI.verifyTextPresent('AVS Response', false)
+								 
+								 WebUI.verifyTextPresent('Approval Code', false)
+								 
+								 WebUI.verifyTextPresent('Transaction Posted by', false)
+								 
+								 WebUI.verifyTextPresent('Phone Number', false)
+								 
+								 WebUI.verifyTextPresent('Credit Card Information', false)
+								 
+								 WebUI.verifyTextPresent('Company', false)
+								 								 
 								 WebUI.verifyTextPresent('Name on Card', false)
 								 
 								 WebUI.verifyTextPresent(lastName, false)
 								 
+								 WebUI.verifyTextPresent('Address Line 1', false)
 								 
+								 WebUI.verifyTextPresent('City', false)
+								 
+								 WebUI.verifyTextPresent('State', false)
+								 
+								 WebUI.verifyTextPresent('ZIP Code', false)
+								 
+								 WebUI.verifyTextPresent('Country', false)
+								 
+								 WebUI.verifyTextPresent('Card Type', false)
+								 
+								 WebUI.verifyTextPresent('Partial Card Number', false)
+								 
+								 WebUI.verifyTextPresent('Expiration Date', false)
+								 
+								 WebUI.verifyTextPresent('Custom Information', false)
+								 
+								 WebUI.verifyTextPresent('Payment Application', false)
+								 
+								 WebUI.verifyTextPresent('AutoDualCFtpQA', false)
+								 
+								 WebUI.verifyTextPresent('UDF1', false)
+								 
+								 WebUI.verifyTextPresent('UDF6', false)
+								 		 
 								 
 								 
 							} else {
@@ -296,10 +361,12 @@ numOfRows = dataFile.getRowNumbers()
 				else {
                     KeywordUtil.logInfo('Condition not met: "Nothing found to display" was not present after waiting.')
 				}
-//			}
-//				
-//			}
-//	}
+				
+				WebUI.closeBrowser()
+			}
+				
+			}
+	}
 
 
 

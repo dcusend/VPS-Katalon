@@ -87,6 +87,7 @@ WebUI.selectOptionByValue(findTestObject(path_Operation_Reports + 'available_app
 WebUI.click(findTestObject(path_Operation_Reports + 'app_btn_right'))
 
 WebUI.delay(GlobalVariable.shortTimeDelay)
+
 WebUI.verifyOptionsPresent(findTestObject(path_Operation_Reports + 'select_appid'),['AutoDualCFtpQA(1234567891111111)'])
 
 WebUI.verifyElementVisible(findTestObject(path_Operation_Reports + 'app_btn_allleft'))

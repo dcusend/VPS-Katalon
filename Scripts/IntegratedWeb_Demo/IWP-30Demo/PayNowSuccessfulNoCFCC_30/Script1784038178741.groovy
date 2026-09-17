@@ -139,7 +139,7 @@ for (def row = 1; row <= numOfRows; row++)
 					}
 			
 			
-//			WebUI.closeBrowser()
+			WebUI.closeBrowser()
 			
 			
 			

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_suffix</name>
+   <tag></tag>
+   <elementGuidId>f51bcfa6-6641-4175-9ed3-0ecea6d0cecc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'cardSuffix' and @id = 'cardSuffix']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cardSuffix</value>
+      <webElementGuid>41188218-25c9-4c21-ac95-11da3c859313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cardSuffix</value>
+      <webElementGuid>934cc1f3-31c7-4c5b-890c-e4cabf31b2b9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plan_id</name>
+   <tag></tag>
+   <elementGuidId>d3eb9e6c-a6ad-4fb7-acd3-2fb9c11d9203</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div[2]/div[1]/div[14]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[2]/div/div[2]/div[1]/div[14]/div[2]</value>
+      <webElementGuid>b160a9bb-9c6f-4d56-9a9a-738cc81485f0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
