@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SameJSON_BC_Receipt_UI</name>
+   <name>BusinessChecking_SameJSON</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e5567922-f679-4440-be52-9cbeb929e211</testCaseGuid>
+   <testCaseGuid>d16c6625-76c2-408b-afe4-c014bc7f5561</testCaseGuid>
 </TestCaseEntity>
