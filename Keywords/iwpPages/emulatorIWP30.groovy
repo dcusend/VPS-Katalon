@@ -354,6 +354,7 @@ class emulatorIWP30 {
 				}
 				else {
 					CAN = findTestData(dataFileE).getValue('CAN', rowE)
+					GlobalVariable.generatedCAN = CAN
 				}
 				Action = findTestData(dataFileE).getValue('Action', rowE)
 				Lang = findTestData(dataFileE).getValue('Lang', rowE)

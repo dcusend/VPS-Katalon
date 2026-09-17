@@ -76,7 +76,7 @@ for (def row = 1; row <= numOfRows; row++)
 			
 	
 			// Open Emulator URL and populate
-			//CustomKeywords.'iwpPages.emulatorIWP30.setDataEmulator_DD'(EmulatorDataKey)
+			CustomKeywords.'iwpPages.emulatorIWP30.setDataEmulator_DD'(EmulatorDataKey)
 			
 			def testHarnessURL = GlobalVariable.urlTestHarness
 			
@@ -165,6 +165,9 @@ for (def row = 1; row <= numOfRows; row++)
 														GlobalVariable.capturedPaymentID = plan_id
 														
 														println("Payment Plan ID: " + plan_id)
+																												
+														def remittance_id = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/remittance_id'))
+														GlobalVariable.capturedRemittanceID = remittance_id
 													}
 											else
 												{
