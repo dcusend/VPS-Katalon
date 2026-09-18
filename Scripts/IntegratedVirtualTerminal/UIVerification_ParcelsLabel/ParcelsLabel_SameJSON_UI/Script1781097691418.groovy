@@ -195,13 +195,19 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/Parcel
 WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'))
 
 
+//'Show' drop down validation
+CustomKeywords.'ivtPages.ParcelsLabel.verifyShowDropDown'()
+
+
 //comparing Parcel table from excel to UI table
 CustomKeywords.'ivtPages.ParcelsLabel.verifyParcelData'(JSONBody)
 
-//Due Amount verification
+
+//'Due Amount' verification
 Amount = WebUI.getAttribute(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'), "value") 
 println(Amount) 
 WebUI.verifyEqual(Amount, parcelData.getValue("Amount", ParcelsRow))
+
 
 
 
@@ -220,6 +226,8 @@ if (
 						
 		WebUI.verifyTextPresent('Previous', true) &&
 		WebUI.verifyTextPresent('Next', true) &&
+		
+		WebUI.verifyTextPresent('Showing 1 to 3 of 3 entries', true) &&
 		
 		WebUI.verifyTextPresent('Due Amount', true) &&
 		WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount')) &&

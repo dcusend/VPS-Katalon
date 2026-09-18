@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_prefix</name>
+   <tag></tag>
+   <elementGuidId>e9e2def7-f69d-4088-96c6-4d587607dbe1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'cardPrefix' and @id = 'cardPrefix']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cardPrefix</value>
+      <webElementGuid>da79c66b-4625-4402-9661-5c058ef46f24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cardPrefix</value>
+      <webElementGuid>68d19734-6ab8-489d-9b41-29d2b08d51cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

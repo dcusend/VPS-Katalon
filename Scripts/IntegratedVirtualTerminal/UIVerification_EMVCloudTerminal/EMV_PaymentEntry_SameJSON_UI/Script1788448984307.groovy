@@ -23,6 +23,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.text.DecimalFormat
 import java.util.Random
 import org.apache.commons.lang.RandomStringUtils
+import java.text.SimpleDateFormat
 
 def Url, Environment, UserName, Password, PartnerToken, JSONBody       
 
@@ -281,8 +282,10 @@ if((((((((((((((((((
 	
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_TerminalName'),'value', 'Counter-001', 10, FailureHandling.OPTIONAL) && 
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_EmailAddress'),'value', 'jane@email.com', 10, FailureHandling.OPTIONAL)) && 
-	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_PhoneNumber'),'value', '111-222-3333', 10, FailureHandling.OPTIONAL)) && 
-	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_PaymentDate'),'value', '09/10/2026', 10, FailureHandling.OPTIONAL)) && 
+	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_PhoneNumber'),'value', '111-222-3333', 10, FailureHandling.OPTIONAL)) && 	
+	
+	WebUI.getAttribute(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_PaymentDate'), 'value').equals(new SimpleDateFormat("MM/dd/yyyy").format(new Date()))) &&
+
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/select_Country'),'value', 'US', 10, FailureHandling.OPTIONAL)) && 
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_AddressLine1'),'value', '123 Main St', 10, FailureHandling.OPTIONAL)) && 
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_ZipCode'),'value', '22201', 10, FailureHandling.OPTIONAL)) && 

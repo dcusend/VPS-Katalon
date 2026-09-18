@@ -7,11 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Plan Type: Deferred'])[1]/following::td[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Payment Plan ID: 107553' or . = 'Payment Plan ID: 107553')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>a01d360e-f413-49da-b254-fe8e14e86270</webElementGuid>
+      <webElementGuid>18191d22-bafd-4696-b9d7-8e2b6ba3368e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>width</name>
       <type>Main</type>
       <value>587</value>
-      <webElementGuid>43f82baf-4970-4621-8ffe-87a9e25b41cc</webElementGuid>
+      <webElementGuid>6e599e18-087b-40d5-be84-a50ad6027663</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +48,7 @@
       <name>align</name>
       <type>Main</type>
       <value>left</value>
-      <webElementGuid>88c84e48-2a84-4503-b351-bbfb047faac0</webElementGuid>
+      <webElementGuid>d033181c-d05c-42ec-95fe-82f8987cb3f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>class</name>
       <type>Main</type>
       <value>payor_opt</value>
-      <webElementGuid>207b80f7-2858-4265-952d-16532ede4163</webElementGuid>
+      <webElementGuid>0a1469c1-3647-43e5-9147-3fcb0124dcfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Payment Plan ID: 107553</value>
-      <webElementGuid>83ddf13b-96b2-4f17-96a1-366b88e534d7</webElementGuid>
+      <webElementGuid>bcd6d33c-e4c9-421c-b99c-ff0c93e6042e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,15 +72,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main_col&quot;]/form[1]/table[1]/tbody[1]/tr[23]/td[@class=&quot;payor_opt&quot;]</value>
-      <webElementGuid>8a078929-26f4-48cd-9af4-7880f83853e0</webElementGuid>
+      <webElementGuid>d7e4e925-f7b2-4192-9ad5-eda6d598e858</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Plan Type: Deferred'])[1]/following::td[3]</value>
-      <webElementGuid>97681b8e-b010-48ca-824f-a5f16c816de1</webElementGuid>
+      <webElementGuid>59e31a37-b772-4922-9fe6-336f963fcd36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Date: 09/19/2024'])[1]/preceding::td[3]</value>
-      <webElementGuid>e45b6403-168d-40f4-aff4-9a7522e00327</webElementGuid>
+      <webElementGuid>977a338f-2434-40ad-99b5-33cb25d4dc7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Payment Plan ID: 107553']/parent::*</value>
-      <webElementGuid>f4f19ec0-be21-4ca9-895a-1a393f15e348</webElementGuid>
+      <webElementGuid>4cfedbc8-91d5-465f-a788-830354195a4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[23]/td[3]</value>
-      <webElementGuid>21e026d4-2ae8-4a68-8a24-882d494f1cf9</webElementGuid>
+      <webElementGuid>244e37d5-9ee6-4de9-93ab-e08ac2645e6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +112,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Payment Plan ID: 107553' or . = 'Payment Plan ID: 107553')]</value>
-      <webElementGuid>dbda7699-06fd-446d-8f67-c8d910c43c30</webElementGuid>
+      <webElementGuid>42f0b7e1-4ca7-4b74-9fe0-5ad1df4e5a62</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

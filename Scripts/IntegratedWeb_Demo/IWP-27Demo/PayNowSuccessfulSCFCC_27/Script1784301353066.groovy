@@ -156,7 +156,8 @@ for (def row = 1; row <= numOfRows; row++)
 											//Select Accept Fee and Confirm Payment
 											CustomKeywords.'iwpPages.ConvenienceFeesBootstrapPage.selectAcceptFeeAndProcessPayment'()
 											
-											WebUI.delay(5)
+											WebUI.delay(GlobalVariable.mediumTimeDelay)
+
 											
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					
@@ -215,7 +216,7 @@ for (def row = 1; row <= numOfRows; row++)
 								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 							}
 							
-//							WebUI.closeBrowser()
+							WebUI.closeBrowser()
 						
 					}}
 													

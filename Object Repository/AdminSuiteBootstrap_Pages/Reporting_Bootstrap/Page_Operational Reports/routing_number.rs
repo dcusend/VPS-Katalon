@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>routing_number</name>
+   <tag></tag>
+   <elementGuidId>fa21074f-ec74-4430-9abb-cc64bc0c6b61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'RTN' and @id = 'RTN']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>RTN</value>
+      <webElementGuid>3f41b7d8-9af0-4ad3-a45f-ebc5ba9dd487</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>RTN</value>
+      <webElementGuid>e2509209-8208-49ae-ac01-3a4f393f3f2d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

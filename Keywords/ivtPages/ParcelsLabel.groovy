@@ -22,6 +22,8 @@ import groovy.json.JsonSlurper
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.util.KeywordUtil
 import internal.GlobalVariable
+import org.openqa.selenium.support.ui.Select
+import com.kms.katalon.core.webui.driver.DriverFactory
 
 public class ParcelsLabel {
 	
@@ -44,7 +46,31 @@ def SetDataParcelsLabel (String Show_In, String DueAmount_In)
 
 	
 	
+	
+//verifying values for 'Show' drop down
+@Keyword
+def verifyShowDropDown() {
+
+    List<String> expectedValues = ['5', '10', '20']
+
+    Select dropdown = new Select(WebUI.findWebElement(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'),10 ))
+
+    List<String> actualValues = dropdown.getOptions().collect {
+        it.getText().trim()
+    }
+
+    println("Expected Values : " + expectedValues)
+    println("Actual Values   : " + actualValues)
+
+    assert actualValues == expectedValues
+
+    KeywordUtil.markPassed("'Show' dropdown contains values: " + actualValues)
+	
+}
 		
+		
+	
+//verifying Parcel Table Data 		
 @Keyword
 def verifyParcelData(String JSONBody) {
 	

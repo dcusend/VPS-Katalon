@@ -46,7 +46,7 @@ numOfRows = dataFile.getRowNumbers()
 println ("Number of Rows : " + numOfRows)
 
 
-for (def row = 1; row <= 1; row++)
+for (def row = 1; row <= numOfRows; row++)
 {
 
 	ExecuteTC = dataFile.getValue("Execute", row)
@@ -90,12 +90,8 @@ for (def row = 1; row <= 1; row++)
 			
 			// Select Make a Payment Button
 				CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
-
-			
-			
-				
-				
-				WebUI.delay(5)
+		
+				WebUI.delay(GlobalVariable.shortTimeDelay)
 				
 				if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'), 0))
 					{
@@ -125,7 +121,7 @@ for (def row = 1; row <= 1; row++)
 						//Click on View Parcel
 						WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
 					
-						WebUI.delay(5)
+							WebUI.delay(GlobalVariable.shortTimeDelay)
 						
 						isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 						
@@ -136,23 +132,23 @@ for (def row = 1; row <= 1; row++)
 									
 									WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ViewParcel/button_close'))
 									
-									WebUI.delay(2)
+									
 									// Select Customer CC Terms Checkbox
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
 									
-									WebUI.delay(5)
+										WebUI.delay(GlobalVariable.shortTimeDelay)
 									// Select Continue Button
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectButtonContinue'()
 									
-									WebUI.delay(5)
+									WebUI.delay(GlobalVariable.shortTimeDelay)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
 										if(isRequiredTextPresent == true) {
 											
 											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
-											WebUI.delay(5)
-											
+										
+											WebUI.delay(GlobalVariable.shortTimeDelay)
 											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					
 										}

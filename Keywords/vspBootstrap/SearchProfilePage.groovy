@@ -40,4 +40,24 @@ public class SearchProfilePage {
 
 
 	}
+	
+	
+	@Keyword
+	def setDataSearchProfileEF(int rowS, dataFileS) {
+
+		String criteria, searchBy
+
+		// GetData
+		criteria = dataFileS.getValue('Criteria', rowS)
+		searchBy = dataFileS.getValue('SearchBy', rowS)
+
+		// SetData
+		String path_SearchProfile = "Object Repository/AdminSuiteBootstrap_Pages/VSP_Bootstrap/SearchProfile/"
+		WebUI.setText(findTestObject(path_SearchProfile + 'input_Criteria'), criteria)
+		WebUI.selectOptionByLabel(findTestObject(path_SearchProfile + 'select_SearchBy'), searchBy, true)
+
+		WebUI.click(findTestObject(path_SearchProfile + 'button_Search'))
+
+
+	}
 }
