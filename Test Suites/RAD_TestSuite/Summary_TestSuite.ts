@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>b9273d81-10b9-48ed-8945-6ac54306f857</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/RAD_TestCases/Summary_TestCases/Existing_Summary_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -35,7 +35,7 @@
    <testCaseLink>
       <guid>85e5ad52-76de-4510-b277-1e79887cac2f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/Summary_TestCases/NewTaxReturn_Summary_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -49,7 +49,7 @@
    <testCaseLink>
       <guid>2230d55c-e45d-495d-b009-d9100d7dcfd8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/Summary_TestCases/Personal_Individual_Summary_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

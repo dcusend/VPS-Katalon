@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SearchBillNoBillDueDateAndNoUDFs</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76acf095-e459-4def-aa40-311bc11aaf17</testCaseGuid>
+</TestCaseEntity>

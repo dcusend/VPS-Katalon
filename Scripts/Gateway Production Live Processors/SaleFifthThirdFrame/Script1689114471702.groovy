@@ -62,6 +62,7 @@ try {
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.fillFields'(saleFields + ['name=remittance_id': genRemID])
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
 	WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(5)
 
 	String receiptText = CustomKeywords.'customClasses.LegacyVLinkScriptUtils.getTextByLocator'('css=pre')
 	WebUI.verifyMatch(receiptText, '(?s).*Transaction failed.*', true)

@@ -67,6 +67,7 @@ WebUI.delay(2)
 		
 // Select Forgot YOur Password
 		WebUI.click(findTestObject('Object Repository/MultiBill/LoginPage/ForgotYourPassword'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(5)
 		
 // Verify if we are on Password Recovery Page
 		if (WebUI.verifyTextPresent('Reset Password', false, FailureHandling.STOP_ON_FAILURE))
@@ -90,6 +91,7 @@ WebUI.delay(2)
 				
 // Select Return to Portal link
 				WebUI.click(findTestObject('Object Repository/MultiBill/ForgotYourPasswordPage/ReturnToPortal'), FailureHandling.STOP_ON_FAILURE)
+				WebUI.delay(5)
 				
 // Verify Payment Portal Page
 				WebUI.verifyTextPresent('Create an Online Profile', false, FailureHandling.STOP_ON_FAILURE)

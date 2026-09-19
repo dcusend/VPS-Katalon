@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_operatorEnable_false</name>
+   <tag></tag>
+   <elementGuidId>443f6133-079a-4e4a-abd0-3859cef4ee59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='radio' and @id='operatorEnableFalse' and @name='operatorEnable' and @value='false']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type='radio']#operatorEnableFalse[name='operatorEnable'][value='false']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @id = 'operatorEnableFalse' and @name = 'operatorEnable' and @value = 'false']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>9507b52b-413d-44b3-8c97-caecd0dbde38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>operatorEnableFalse</value>
+      <webElementGuid>a756164c-8174-44ee-ae84-d3ecea9222b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>operatorEnable</value>
+      <webElementGuid>031c5808-fa19-4966-b96e-7b382e92740b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>c9f7d5af-92d4-4398-907a-9884bf6fd260</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

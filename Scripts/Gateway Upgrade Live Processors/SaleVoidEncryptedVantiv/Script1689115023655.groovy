@@ -36,6 +36,7 @@ try {
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="button"]')
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
     WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(2)
     if (!WebUI.verifyTextPresent('Transaction approved, no errors', false, FailureHandling.OPTIONAL)) return
 
     def sale = parseReceipt(CustomKeywords.'customClasses.LegacyVLinkScriptUtils.getTextByLocator'('css=pre'))
@@ -46,6 +47,7 @@ try {
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.fillFields'(voidFields + ['name=remittance_id': sale.remID, 'name=transaction_id': sale.tranID])
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
     WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(2)
     WebUI.verifyTextPresent('Transaction approved, no errors', false)
 } finally {
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.closeVLinkBrowser'()

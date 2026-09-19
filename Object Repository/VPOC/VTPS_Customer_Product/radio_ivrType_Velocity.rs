@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_ivrType_Velocity</name>
+   <tag></tag>
+   <elementGuidId>f14f58ef-08c1-44d4-9977-20cf5a84ece0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='radio' and @name='ivrType' and @value='Velocity']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type='radio'][name='ivrType'][value='Velocity']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @name = 'ivrType' and @value = 'Velocity']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1ff2fa96-cad2-4d3b-9bf5-ecef4a4f5c62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>762712b5-96a5-47ff-a889-81b43a869d6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ivrType</value>
+      <webElementGuid>a36d583d-dade-408f-aad3-459066ed3a3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Velocity</value>
+      <webElementGuid>b035a945-6039-4886-b662-26cb97639aef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>checked</name>
+      <type>Main</type>
+      <value>checked</value>
+      <webElementGuid>69c25a3b-ea2f-4740-8fe6-2078c2ef1129</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='ivrType' and @value='Velocity']</value>
+      <webElementGuid>8599c066-4ac4-4cca-8cf8-036f7402fb40</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

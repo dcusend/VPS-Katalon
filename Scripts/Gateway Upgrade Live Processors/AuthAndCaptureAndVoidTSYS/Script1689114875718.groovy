@@ -59,6 +59,7 @@ try {
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.fillFields'(authFields + ['name=remittance_id': genRemID])
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
     WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(2) // Wait for the page to fully render before checking for text presence
     if (!WebUI.verifyTextPresent('Transaction approved, no errors', false, FailureHandling.OPTIONAL)) return
 
     def authReceipt = parseReceipt(CustomKeywords.'customClasses.LegacyVLinkScriptUtils.getTextByLocator'('css=pre'), genRemID)
@@ -66,6 +67,7 @@ try {
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.fillFields'(captureFields + ['name=remittance_id': authReceipt.remID, 'name=transaction_id': authReceipt.tranID])
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
     WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(2) // Wait for the page to fully render before checking for text presence
     if (!WebUI.verifyTextPresent('Transaction approved, no errors', false, FailureHandling.OPTIONAL)) return
 
     def captureReceipt = parseReceipt(CustomKeywords.'customClasses.LegacyVLinkScriptUtils.getTextByLocator'('css=pre'), authReceipt.remID)
@@ -73,6 +75,7 @@ try {
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.fillFields'(voidFields + ['name=remittance_id': captureReceipt.remID, 'name=transaction_id': captureReceipt.tranID])
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
     WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(2) // Wait for the page to fully render before checking for text presence
     WebUI.verifyTextPresent('Transaction approved, no errors', false)
 } finally {
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.closeVLinkBrowser'()

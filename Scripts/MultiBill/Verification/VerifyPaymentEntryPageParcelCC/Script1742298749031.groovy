@@ -42,7 +42,7 @@ def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = fa
 def ExecuteTC, searchString
 def rows_count
 def multibillURL=GlobalVariable.MultiBillNoCFURL
-def stringArray=["TaxPayer Name","TaxPayer Address","Due Date","TaxPayer Number","Amount","UDF1","UDF2","UDF3","UDF4","UDF5","UDF6","SIGMON, VIRGINIA","238 10TH AVE NW","Dec 31, 2021","684826","\$16.51","68482620062005000000","SIGMON/ VIRGINIA","RMV","1989 OLDS CUTLASS CIERA 4 Door Sedan","2021","-"]
+def stringArray=["TaxPayer Name","TaxPayer Address","Due Date","TaxPayer Number","Amount","UDF1","UDF2","UDF3","UDF4","UDF5","UDF6","SIGMON, VIRGINIA","238 10TH AVE NW","Dec 31, 2029","684826","\$16.51","68482620062005000000","SIGMON/ VIRGINIA","RMV","1989 OLDS CUTLASS CIERA 4 Door Sedan","2021","-"]
 
 String path = fileLoc
 nameSheet = "VerifyPaymentEntryPageCC"
@@ -115,12 +115,13 @@ for (def row = 1; row <= numOfRows; row++)
 					 CustomKeywords.'iwpPages.selectPaymentMethodBootstrapPage.selectButtonMakeAPayment'()
 					 WebUI.delay(2)
 		
-					 if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'), 0))
+					 if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'), 1))
 						 {
 							 KeywordUtil.logInfo("View Parcel button Exists")
 							 //Click on View Parcel
 							 WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input__viewParcelButton'))
-							 Thread.sleep(GlobalVariable.shortDelay)
+							// Thread.sleep(GlobalVariable.shortDelay)
+							 WebUI.delay(5)
 							 isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 				
 							 if (isRequiredTextPresent == true)
