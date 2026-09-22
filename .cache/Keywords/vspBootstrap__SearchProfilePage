@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "keywordFileContentHash": "689C83C49B2AF64C44A72C82CABA7675",
-=======
-  "keywordFileContentHash": "B955392C438A65B4AD488CA31778015B",
->>>>>>> a6c1f6c536b4a078dea4e226d91d476d74974893
+  "keywordFileContentHash": "3930F08A511E29A3B52F963AB4C44A54",
   "keywordClasses": [
     {
       "name": "vspBootstrap.SearchProfilePage",

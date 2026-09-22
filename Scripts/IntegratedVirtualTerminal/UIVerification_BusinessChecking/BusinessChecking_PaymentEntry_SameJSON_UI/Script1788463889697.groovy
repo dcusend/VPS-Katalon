@@ -23,6 +23,8 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.text.DecimalFormat
 import java.util.Random
 import org.apache.commons.lang.RandomStringUtils
+import java.text.SimpleDateFormat
+
 
 	def Url, Environment, UserName, Password, PartnerToken, JSONBody
 	
@@ -154,6 +156,11 @@ WebUI.verifyTextPresent('Business Checking', true)
 WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/BusinessChecking/label_BusinessChecking'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/BusinessChecking/label_BusinessChecking'), 10)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/BusinessChecking/label_BusinessChecking'))
+
+//verifying empty fields
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_RoutingNumber'),'value','',10)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_AccountNumber'),'value','',10)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_ConfirmAccountNumber'),'value','',10)
 
 WebUI.verifyTextPresent('Routing Transit Number', true)
 WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_RoutingNumber'))
@@ -301,7 +308,9 @@ if(((((((((((((((((((
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_LastName'),'value', 'Doe', 10, FailureHandling.OPTIONAL)) &&
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_EmailAddress'),'value', 'jane@email.com', 10, FailureHandling.OPTIONAL)) &&
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_PhoneNumber'),'value', '111-222-3333', 10, FailureHandling.OPTIONAL)) &&
-	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_PaymentDate'),'value', '09/10/2026', 10, FailureHandling.OPTIONAL)) &&
+
+	WebUI.getAttribute(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_PaymentDate'), 'value').equals(new SimpleDateFormat("MM/dd/yyyy").format(new Date()))) &&
+
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/select_Country'),'value', 'US', 10, FailureHandling.OPTIONAL)) &&
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_AddressLine1'),'value', '123 Main St', 10, FailureHandling.OPTIONAL)) &&
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/BusinessChecking/input_ZipCode'),'value', '22201', 10, FailureHandling.OPTIONAL)) &&

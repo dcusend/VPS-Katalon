@@ -146,17 +146,22 @@ CustomKeywords.'ivtPages.IVTlogin.SetDataIVTlogin'(Url, Environment, UserName, P
 
 //EMV page verification
 
+WebUI.delay(2)
 WebUI.verifyTextPresent('Payment Details', true)
 
-WebUI.verifyTextPresent('EMV Cloud Terminal', true)
+WebUI.verifyTextPresent('EMV Cloud Terminal', true) //OR-WebUI.verifyElementText(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/label_EMVCloudTerminal'), 'EMV Cloud Terminal')
 WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/label_EMVCloudTerminal'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/label_EMVCloudTerminal'), 10)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/label_EMVCloudTerminal'))
 
+//verifying empty fields
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/select_Terminal'),'value','',10)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_CardHolderName'),'value','',10)
+
 WebUI.verifyTextPresent('Terminal Name', true)
 WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_TerminalName'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_TerminalName'), 10)
-//WebUI.verifyElementText(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/label_TerminalName'), 'Counter-001')
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/input_TerminalName'),'value','Counter-001',10)
 
 WebUI.verifyTextPresent('Select a terminal', true)
 WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/EMVCloudTerminal/select_Terminal'))

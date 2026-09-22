@@ -23,6 +23,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.text.DecimalFormat
 import java.util.Random
 import org.apache.commons.lang.RandomStringUtils
+import java.text.SimpleDateFormat
 
 	def Url, Environment, UserName, Password, PartnerToken, JSONBody
 	
@@ -152,6 +153,13 @@ WebUI.verifyTextPresent('Credit/Debit Card', true)
 WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/label_CreditCard'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/label_CreditCard'), 10)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/label_CreditCard'))
+
+//verifying empty fields
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_CardNumber'),'value','',10)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/select_MM'),'value','',10)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/select_YYYY'),'value','',10)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_CardSecurityCode'),'value','',10)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_CardHolderName'),'value','',10)
 
 WebUI.verifyTextPresent('Card Number', true)
 WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_CardNumber'))
@@ -290,7 +298,9 @@ if(((((((((((((((((
 	
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_EmailAddress'),'value', 'jane@email.com', 10, FailureHandling.OPTIONAL) && 
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_PhoneNumber'),'value', '111-222-3333', 10, FailureHandling.OPTIONAL)) && 
-	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_PaymentDate'),'value', '09/10/2026', 10, FailureHandling.OPTIONAL)) && 
+
+	WebUI.getAttribute(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_PaymentDate'), 'value').equals(new SimpleDateFormat("MM/dd/yyyy").format(new Date()))) &&
+
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/select_Country'),'value', 'US', 10, FailureHandling.OPTIONAL)) && 
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_AddressLine1'),'value', '123 Main St', 10, FailureHandling.OPTIONAL)) && 
 	WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_ZipCode'),'value', '22201', 10, FailureHandling.OPTIONAL)) && 
@@ -312,7 +322,7 @@ if(((((((((((((((((
 		isRequiredTextPresent = true	
 		println("All attribute validations passed")
 	
-		KeywordUtil.markPassed("All EMV attribute validations passed")
+		KeywordUtil.markPassed("All Credit/Debit Card attribute validations passed")
 		resText = "Pass"
 	
 		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
@@ -323,7 +333,7 @@ if(((((((((((((((((
 		isRequiredTextPresent = false	
 		println("One or more attribute validations failed")
 	
-		KeywordUtil.markFailed("One or more EMV attribute validations failed")	
+		KeywordUtil.markFailed("One or more Credit/Debit Card attribute validations failed")	
 		resText = "Fail"
 	
 		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
