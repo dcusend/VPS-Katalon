@@ -95,11 +95,12 @@ String fileLoc = "KatalonData/ABPTestData/SchedulePaymentABP_DCF.xlsx"
 				 Thread.sleep(GlobalVariable.shortDelay)
 				 
 				 CustomKeywords.'abpPages.ScheduledPaymentPage.clickSaveButton'()
-				 
+				 				 
 				 if (WebUI.verifyTextPresent("Your changes have been saved", false)) {
 					 
 											
 					 CustomKeywords.'abpPages.PaymentsListPage.clickViewButton'()
+					 WebUI.delay(2)
 					 
 					 for(def item in stringArray)
 						 {

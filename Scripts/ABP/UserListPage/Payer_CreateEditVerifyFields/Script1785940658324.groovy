@@ -47,9 +47,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
+	nameSheet = "PayerEditFields"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 	
 		break
 		
@@ -58,9 +58,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
+	nameSheet = "PayerEditFields"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 		
 		break
 			
@@ -69,9 +69,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
-	nameSheet = "OwnerEditFields"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
+	nameSheet = "PayerEditFields"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 	
 		break
 		
@@ -80,9 +80,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
+	nameSheet = "PayerEditFields"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 
 		break
 		
@@ -92,15 +92,15 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
-	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
+	nameSheet = "PayerEditFields"
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 
 		break
 		
 }
 	
-//Part A- Create Owner
+//Part A- Create Payer
 
 
 numOfRows = dataFile.getRowNumbers()
@@ -119,8 +119,6 @@ for (def row = 1; row <= numOfRows; row++)
 				email = dataFile.getValue("Email", row)
 				phone = dataFile.getValue("Phone", row)
 				newEmail = dataFile.getValue("NewEmail", row)
-				String nickNameID = CustomKeywords.'abpPages.PaymentsMethodPage.generateNickName'()
-				println(nickNameID)
 				
 				WebUI.openBrowser(GlobalVariable.abpURL)
 				WebUI.maximizeWindow()
@@ -132,28 +130,31 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				CustomKeywords.'abpPages.UserListPage.clickAddButton'()
 				
-				CustomKeywords.'abpPages.UserListPage.selectRoleProfileOwner'()
+				CustomKeywords.'abpPages.UserListPage.selectRolePayer'()
 				
 				CustomKeywords.'abpPages.UserListPage.setDataFirstNameLastName'()
 				
-				CustomKeywords.'abpPages.UserListPage.setDataPasswordConfirmPassword'()
+				String createdUserName = CustomKeywords.'abpPages.UserListPage.setDataUserName'()
+				println("Created 'User Name' = " + createdUserName)
 				
-				CustomKeywords.'abpPages.UserListPage.setDataUserName'()
+				CustomKeywords.'abpPages.UserListPage.setDataLoginConfirmLogin'()					
 				
 				CustomKeywords.'abpPages.UserListPage.setDataEmailConfirmEmail'(email)
 				
+				WebUI.delay(5)
 				CustomKeywords.'abpPages.UserListPage.clickSaveButton'()
 				
 				
-//Part B- Change field values of Owner
-															
-				CustomKeywords.'abpPages.UserListPage.clickEdit'()
+//Part B- Changing field values of Payer
+																			
+				String selectedUsername = CustomKeywords.'abpPages.UserListPage.clickEditByUserName'(createdUserName)   //to select only newly created 'Payer'.
+				println("Selected 'Payer' = " + selectedUsername)
 				
-				CustomKeywords.'abpPages.UserListPage.setDataOwnerFirstNameOwnerLastName'()				
-				
-				CustomKeywords.'abpPages.UserListPage.setDataOwnerUserName'()
-					
-				CustomKeywords.'abpPages.UserListPage.setDataOwnerEmailConfirmEmail'(newEmail)
+				def payerData = CustomKeywords.'abpPages.UserListPage.setDataPayerFirstNamePayerLastName'()		
+				println("First Name = " + payerData.firstName)
+				println("Last Name = " + payerData.lastName)
+									
+				CustomKeywords.'abpPages.UserListPage.setDataPayerEmailConfirmEmail'(newEmail)
 				
 				//Current Password- user login password
 				WebUI.setText(findTestObject('Object Repository/ABP/Page_UserList/Page_Profile/CurrentPassword'),password)  
@@ -162,41 +163,45 @@ for (def row = 1; row <= numOfRows; row++)
 				WebUI.setText(findTestObject('Object Repository/ABP/Page_UserList/Page_Profile/PhoneNumber'),phone)
 				println(phone)
 				
+				WebUI.delay(5)
 				CustomKeywords.'abpPages.UserListPage.clickSaveButton'()
-				
-				
-//Part C- Verify Owner's fields name
-				
-				CustomKeywords.'abpPages.UserListPage.clickEdit'()
-				
-				WebUI.verifyTextPresent("Profile Owner", false)
-				WebUI.verifyTextPresent(OwnerFirstName, false)
-				WebUI.verifyTextPresent(OwnerLaststName, false)
-				WebUI.verifyTextPresent(OwnerUserName, false)
-				WebUI.verifyTextPresent(newEmail, false)
-				WebUI.verifyTextPresent(Phone, false)
-				
-//Part D- Logging results in Excel Sheet
-				
-				
-				/*Thread.sleep(shortDelay)
-				if (WebUI.verifyTextPresent("Your changes have been saved", false))
-					{
-											Thread.sleep(GlobalVariable.shortDelay)
-											println("Deleting Saved Payment Method")
-											CustomKeywords.'abpPages.PaymentsMethodPage.clickDelete'()
-											WebUI.acceptAlert()
-											KeywordUtil.logInfo("Pass")
-											KeywordUtil.markPassed("Saved Payment Method stored under Select or Create Payment Method dropdown and all details available under Payment Method Tab")
-											resText = "Pass"
-											CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-								}				
 
-			else {
-				KeywordUtil.logInfo("Fail")
-				KeywordUtil.markFailed("Your changes have been saved text not present")
-				resText = "Fail"
-				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-			}*/
+				
+//Part C- Verify Payer's fields name on 'User List' page
+				
+				WebUI.delay(5)				
+				CustomKeywords.'abpPages.UserListPage.verifyEditedPayerUser'(selectedUsername, payerData.firstName, payerData.lastName, "Payer")
+				
+
+//Part D- Delete the newly created 'Payer'.
+				
+				CustomKeywords.'abpPages.UserListPage.deleteUserByUserName'(createdUserName)				
+													
+
+//Part E- Verify whether deleted user still exist? + Logging results in Excel Sheet.
+								
+			WebUI.delay(2)		
+			
+			boolean isUserDeleted =	CustomKeywords.'abpPages.UserListPage.verifyUserDeleted'(createdUserName)
+			println(" isUserDeleted = " + isUserDeleted)
+			
+	
+	if (isUserDeleted) {
+	
+		println("User deleted successfully")
+		resText = "Pass"
+	
+		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row) }
+			
+				
+	else {
+	
+		println("User still exists after delete")
+		resText = "Fail"
+	
+		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row) }
+					
 			}
+			
 	}
+	

@@ -78,6 +78,7 @@ String fileLoc = "KatalonData/ABPTestData/PaymentsACH.xlsx"
 				 CustomKeywords.'abpPages.ScheduledPaymentPage.selectPaymentPlanFrequency'(paymentPlanFrequency)
 				 Thread.sleep(GlobalVariable.shortDelay)
 				 CustomKeywords.'abpPages.ScheduledPaymentPage.clickSaveButton'()
+				 WebUI.delay(2)
 				 if (WebUI.verifyTextPresent("Your changes have been saved", false)) {
 					 KeywordUtil.markPassed("Your changes have been saved message appeared")
 					 resText = "Pass"

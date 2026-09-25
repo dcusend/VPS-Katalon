@@ -99,6 +99,7 @@ String fileLoc = "KatalonData/ABPTestData/SchedulePaymentABP_DCF.xlsx"
 					 
 											
 					 CustomKeywords.'abpPages.PaymentsListPage.clickViewButton'()
+					 WebUI.delay(2)
 					 
 					 for(def item in stringArray)
 						 {

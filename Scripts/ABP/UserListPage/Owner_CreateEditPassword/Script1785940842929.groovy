@@ -47,9 +47,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
 	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 	
 		break
 		
@@ -58,9 +58,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
 	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 		
 		break
 			
@@ -69,9 +69,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
 	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 	
 		break
 		
@@ -80,9 +80,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
 	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 
 		break
 		
@@ -92,9 +92,9 @@ switch(executionProfile)
 			username = GlobalVariable.abpDCFUsername
 			password = GlobalVariable.abpDCFPassword
 		
-	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx"
+	fileLoc = "KatalonData/ABPTestDataDemo/ABPEditUser.xlsx"
 	nameSheet = "OwnerEditPassword"
-	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditOwner_Demo.xlsx", nameSheet, true)
+	dataFile = ExcelFactory.getExcelDataWithDefaultSheet("KatalonData/ABPTestDataDemo/ABPEditUser.xlsx", nameSheet, true)
 
 		break
 		
@@ -136,13 +136,13 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				CustomKeywords.'abpPages.UserListPage.setDataFirstNameLastName'()
 				
-				CustomKeywords.'abpPages.UserListPage.setDataPasswordConfirmPassword'()
+				CustomKeywords.'abpPages.UserListPage.setDataLoginConfirmLogin'()  //Password
 				
 				CustomKeywords.'abpPages.UserListPage.setDataUserName'()
 				
 				CustomKeywords.'abpPages.UserListPage.setDataEmailConfirmEmail'(email)
 				
-				WebUI.delay(20)
+				WebUI.delay(5)
 				CustomKeywords.'abpPages.UserListPage.clickSaveButton'()
 				
 				
@@ -157,7 +157,7 @@ for (def row = 1; row <= numOfRows; row++)
 				//change password
 				CustomKeywords.'abpPages.UserListPage.setDataOwnerPasswordOwnerConfirmPassword'()				
 				
-				WebUI.delay(20)
+				WebUI.delay(5)
 				CustomKeywords.'abpPages.UserListPage.clickSaveButton'()
 															
 				
