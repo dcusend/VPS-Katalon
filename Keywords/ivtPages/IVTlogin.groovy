@@ -30,20 +30,19 @@ public class IVTlogin {
 @Keyword
 def SetDataIVTlogin (url_In, Environment_In, AuthUser_In, AuthPass_In, Token_In, JSONBody_In) {
 	
-		
+			
 	// Part 1: Generate 10-character alphanumeric 'remittanceId'
 	
 	String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-	String remittanceId = (1..10).collect {chars.charAt(ThreadLocalRandom.current().nextInt(chars.length()))
-				}.join()
-
+	String remittanceId = (1..10).collect {chars.charAt(ThreadLocalRandom.current().nextInt(chars.length()))}.join()
+			
 	println("Generated RemittanceId : " + remittanceId)
 	
-	JSONBody_In = JSONBody_In.replaceAll(           // Replace remittanceId in JSON
-		/"remittanceId"\s*:\s*"[^"]*"/,
-		"\"remittanceId\":\"${remittanceId}\""
-	)
+	GlobalVariable.IVTRemittanceId = remittanceId
+	
+		
+	JSONBody_In = JSONBody_In.replaceAll(/"remittanceId"\s*:\s*"[^"]*"/,"\"remittanceId\":\"${remittanceId}\"") // Replace remittanceId in JSON
 
 	println("Updated JSON:")
 	println(JSONBody_In)

@@ -244,18 +244,8 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/button_Continue'))
 
 
-//Pop up handling
-WebUI.delay(4)
-WebUI.executeJavaScript("""let buttons = document.querySelectorAll('button');
-    					buttons.forEach(btn => {
-        				if(btn.innerText.trim() === 'X')
-						{
-        			   		 btn.click(); } 
-						}); """, null)
-
-
-
 //Modify
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/Modify'))
 
 WebUI.setText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/input_CardNumber'), '6510000000000216')
@@ -269,7 +259,7 @@ WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/butto
 
 //Process Payment
 WebUI.waitForPageLoad(5)
-WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/AcceptFee_ProcessPayment'))
+WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/ProcessPayment'))
 WebUI.waitForPageLoad(10)
 WebUI.delay(5)
 

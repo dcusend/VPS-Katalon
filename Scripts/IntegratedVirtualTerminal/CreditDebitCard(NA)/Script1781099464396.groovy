@@ -258,9 +258,9 @@ WebUI.waitForPageLoad(5)
 //Payment Information page vaidation
 	 
  	 // displayed values from UI
-	 String CardholderName_Info = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CardHolderNameInfo')).trim()
-	 String PaymentAmount_Info = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/PaymentAmountInfo')).trim()
-	 String UserDefinedField1_Info = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/UserDefinedField1Info')).trim()
+	 String CardholderName_Info = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CardHolderName')).trim()
+	 String PaymentAmount_Info = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/PaymentAmount')).trim()
+	 String UserDefinedField1_Info = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/UDF1')).trim()
 	 	 	 	 
 	 // normalize expected values
 	 String expectedName_Info = (Name_Out != null) ? Name_Out.trim() : ""
@@ -308,7 +308,7 @@ WebUI.waitForPageLoad(5)
 		  println("User is on 'Payment Information' page")
 	  	
 	   WebUI.delay(2)
-	   WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/AcceptFee_ProcessPayment'))	 	  	   
+	   WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/ProcessPayment'))	 	  	   
 	   WebUI.waitForPageLoad(20)
 	   WebUI.delay(10)
 	   
@@ -333,12 +333,12 @@ WebUI.waitForPageLoad(5)
 	 // displayed values from UI
 	 	 
 	 WebUI.waitForElementVisible(
-		 findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/CardholderNameConfirm'),10
+		 findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/CardholderName'),10
 	 )
 	 
-	 String CardholderName_Confirm = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/CardholderNameConfirm')).trim()	 
-	 String PaymentAmount_Confirm = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/PaymentAmountConfirm')).trim()
-	 String UserDefinedField1_Confirm = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/UserDefinedField1Confirm')).trim()
+	 String CardholderName_Confirm = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/CardholderName')).trim()	 
+	 String PaymentAmount_Confirm = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/PaymentAmt')).trim()
+	 String UserDefinedField1_Confirm = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/UDF_1')).trim()
 			
 	 String TransactionType_Confirm = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/TransactionType')).trim()	 
 	 String Fee_Confirm = WebUI.getText(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/Fee')).trim() 

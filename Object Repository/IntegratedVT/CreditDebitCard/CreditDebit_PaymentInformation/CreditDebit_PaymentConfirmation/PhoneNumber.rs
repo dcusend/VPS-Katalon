@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PhoneNumber</name>
+   <tag></tag>
+   <elementGuidId>68868af9-10ec-457c-8dde-fcea02c6d769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;phoneNumberDisplay&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;phoneNumberDisplay&quot;]</value>
+      <webElementGuid>5eef6e28-7bc1-4362-8cf1-9ebc5d37f64c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

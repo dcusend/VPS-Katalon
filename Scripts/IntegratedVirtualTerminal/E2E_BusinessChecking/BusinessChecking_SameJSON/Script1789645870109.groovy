@@ -244,15 +244,6 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/BusinessChecking/button_Continue'))
 
 
-//Pop up handling
-WebUI.delay(4)
-WebUI.executeJavaScript("""let buttons = document.querySelectorAll('button');
-    					buttons.forEach(btn => {
-        				if(btn.innerText.trim() === 'X')
-						{
-        			   		 btn.click(); } 
-						}); """, null)
-
 //Process Payment
 WebUI.waitForPageLoad(5)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/BusinessChecking/BusinessChecking_PaymentInformation/ProcessPayment'))

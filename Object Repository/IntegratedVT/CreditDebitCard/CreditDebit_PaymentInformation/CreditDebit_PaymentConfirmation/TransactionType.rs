@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;receiptForm&quot;]/div/div[5]/div[1]/div/div[3]/div[2]</value>
+         <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[3]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;receiptForm&quot;]/div/div[5]/div[1]/div/div[3]/div[2]</value>
-      <webElementGuid>1f822b5b-bd03-4310-883e-bfca372952d8</webElementGuid>
+      <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[3]/div[2]</value>
+      <webElementGuid>d325a693-ac06-44ea-b398-4d1e06f51fc6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
