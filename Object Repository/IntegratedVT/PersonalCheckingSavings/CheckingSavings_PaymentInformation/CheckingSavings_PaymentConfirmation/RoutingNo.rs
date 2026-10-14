@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RoutingNo</name>
+   <tag></tag>
+   <elementGuidId>3597195e-a967-44b5-aff9-dbc8da9c5bd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[7]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[7]/div[2]</value>
+      <webElementGuid>135216cc-b6b3-4936-88f1-ccdbb7e98b28</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

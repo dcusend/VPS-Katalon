@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TotalAmt</name>
+   <tag></tag>
+   <elementGuidId>f7414258-4f0b-4fd8-93a6-fc6b1e548187</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[2]/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[2]/div/div[2]/div[2]</value>
+      <webElementGuid>dbea2497-e485-4606-bc9a-08d4e20c28f2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

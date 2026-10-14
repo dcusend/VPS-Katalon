@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>State</name>
+   <tag></tag>
+   <elementGuidId>ddb31307-4f0c-4ab1-a0ce-bc8ff3dafe4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[1]/div/div[11]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[1]/div/div[11]/div[2]</value>
+      <webElementGuid>cf09d878-8c5a-44bd-9748-8c3a86247ab6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

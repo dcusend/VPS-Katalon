@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AccountType</name>
+   <tag></tag>
+   <elementGuidId>469bd0cd-6c14-44d2-baeb-e3776cf068fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[4]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[4]/div[2]</value>
+      <webElementGuid>6b6bccd8-6e8a-411b-9932-a1139c363b8d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

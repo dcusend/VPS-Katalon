@@ -323,9 +323,9 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/Credit
 WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/Modify'))
 
 WebUI.verifyTextPresent('Exit', true)
-WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/ExitInfo'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/ExitInfo'), 10)
-WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/ExitInfo'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/EXIT'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/EXIT'), 10)
+WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/EXIT'))
 
 //only printing the expected values
 println """

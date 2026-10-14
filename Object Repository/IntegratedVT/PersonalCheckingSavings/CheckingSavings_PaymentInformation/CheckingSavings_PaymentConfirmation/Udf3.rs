@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Udf3</name>
+   <tag></tag>
+   <elementGuidId>81712797-2a90-43f7-abc6-ddb6ee9dad38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[2]/div/div[5]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[2]/div/div[5]/div[2]</value>
+      <webElementGuid>e8361f09-3dbe-45a8-974e-d3d0b3c57b9f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

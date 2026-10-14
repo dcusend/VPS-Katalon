@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PaymentDate</name>
+   <tag></tag>
+   <elementGuidId>3521c52a-3c2d-42fd-90ab-19aa7c16b782</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[8]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[8]/div[2]</value>
+      <webElementGuid>7b79d8eb-4a0d-43eb-a32b-8f0efe5f45f1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

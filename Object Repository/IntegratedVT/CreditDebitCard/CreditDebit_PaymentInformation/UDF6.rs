@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UDF6</name>
+   <name>Udf6</name>
    <tag></tag>
    <elementGuidId>82352cf5-ac6e-43d0-b3df-40271e138380</elementGuidId>
    <selectorCollection>

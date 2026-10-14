@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>COUNTRY</name>
+   <tag></tag>
+   <elementGuidId>1932fa5e-bef9-4a8a-9551-73b168610632</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[11]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptForm&quot;]/div/div[7]/div[1]/div/div[11]/div[2]</value>
+      <webElementGuid>7142695c-c5c2-4a4f-a3ab-9c0f14bc1ac0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

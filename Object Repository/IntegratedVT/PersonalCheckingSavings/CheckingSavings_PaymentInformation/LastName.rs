@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LastName</name>
+   <tag></tag>
+   <elementGuidId>bca773e1-db8f-4402-8906-8714587a0464</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[1]/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[1]/div/div[2]/div[2]</value>
+      <webElementGuid>c5b1b19c-e2ff-41a8-99e4-2e31edd9c424</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

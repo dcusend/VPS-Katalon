@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TypeOfAccount</name>
+   <tag></tag>
+   <elementGuidId>cf6e1086-571e-4c83-bdc2-3f525392d9f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[1]/div/div[4]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[1]/div/div[4]/div[2]</value>
+      <webElementGuid>5347aebc-e244-4994-9898-14448aa759f9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

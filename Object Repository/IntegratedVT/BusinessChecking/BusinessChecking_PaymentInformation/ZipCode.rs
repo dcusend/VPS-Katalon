@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ZipCode</name>
+   <tag></tag>
+   <elementGuidId>ec6d462b-f75c-44f5-8594-d2050b0ea810</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[1]/div/div[13]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[1]/div/div[13]/div[2]</value>
+      <webElementGuid>ca22677a-885e-4835-b1d7-2dec271f26cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalSaving_Receipt_SameJSON_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b2821e5-a9f5-4aed-9080-6891bf958173</testCaseGuid>
+</TestCaseEntity>

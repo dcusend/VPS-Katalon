@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PaymentAmount</name>
+   <tag></tag>
+   <elementGuidId>401f8775-fbb0-4a6a-aa7f-a91ab75f9457</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[2]/div/div[1]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;opalConfirm&quot;]/div/div[5]/div[2]/div/div[1]/div[2]</value>
+      <webElementGuid>313babe6-23f1-4d57-bbb5-2f40429c98ab</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

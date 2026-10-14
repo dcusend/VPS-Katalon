@@ -162,7 +162,7 @@ for (def row = 1; row <= numOfRows; row++)
 															
 				
 //Part C- Delete the newly created 'Profile Owner'.
-				
+				WebUI.delay(2)
 				CustomKeywords.'abpPages.UserListPage.deleteUserByUserName'(createdUserName)				
 													
 

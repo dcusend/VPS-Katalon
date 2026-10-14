@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UDF2</name>
+   <name>Udf2</name>
    <tag></tag>
    <elementGuidId>33554e0c-2d86-4d27-9344-953d19b12872</elementGuidId>
    <selectorCollection>

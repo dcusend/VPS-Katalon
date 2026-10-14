@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PhoneNo</name>
+   <tag></tag>
+   <elementGuidId>2676095a-7c0f-45d7-97a9-4d35198ab1ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;confirmPhoneDisplay&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;confirmPhoneDisplay&quot;]</value>
+      <webElementGuid>ee543397-034e-4e6b-9348-2fc87664ffdc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

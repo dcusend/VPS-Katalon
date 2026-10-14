@@ -87,6 +87,7 @@ import com.kms.katalon.core.util.KeywordUtil
 				 //Nickname textbox gets Disabled once you uncheck saved payment method hence disabling below code
 				 //CustomKeywords.'abpPages.PendingBillPage.setDataNickNameID'(nickNameID)
 				 
+				 WebUI.delay(2)
 				 CustomKeywords.'abpPages.PaymentPreviewPage.clickPaybtnMethod'()
 				 
 				 WebUI.delay(2)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UDF8</name>
+   <name>Udf8</name>
    <tag></tag>
    <elementGuidId>bd1af8cb-43cb-4ce8-b51d-aefec8e2f4fb</elementGuidId>
    <selectorCollection>
