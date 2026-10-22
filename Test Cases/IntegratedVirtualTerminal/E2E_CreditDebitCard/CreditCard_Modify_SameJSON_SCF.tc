@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CreditCard_Modify_ChangedJSON</name>
+   <name>CreditCard_Modify_SameJSON_SCF</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

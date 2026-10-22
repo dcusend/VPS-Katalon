@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Email &amp;amp; Text to Pay Management' or . = 'Email &amp;amp; Text to Pay Management')]</value>
+         <value>//*[(text() = 'Email &amp;amp; Text to Pay Management' or . = 'Email &amp;amp; Text to Pay Management') and @class = 'app-menu__label']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +19,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Email &amp;amp; Text to Pay Management</value>
-      <webElementGuid>6513e3f4-86d2-471d-ad83-122391cc017b</webElementGuid>
+      <webElementGuid>eb44df59-1fd1-467a-8e89-04bd79ab14f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>app-menu__label</value>
-      <webElementGuid>89fec319-90ad-4705-9e08-6bba20327b0e</webElementGuid>
+      <webElementGuid>29515b6f-ae8f-4554-9fde-ab18d8956f16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +35,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/aside/ul/li[7]/a/span</value>
-      <webElementGuid>373f45d3-c625-43cf-a355-8d3541af2bb6</webElementGuid>
+      <webElementGuid>f13fca05-43c6-452b-aa8b-1de7fedcdb3d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

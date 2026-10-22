@@ -5,12 +5,21 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
    <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>c0ee44dd-6408-4084-93e4-cc7c58e8c680</testSuiteGuid>
+   <testCaseLink>
+      <guid>7d6086ad-dc2b-4307-b18c-8a2372c7dfda</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Bill_File_Lookup/SearchBy_BilFileLookup</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
    <testCaseLink>
       <guid>070c335d-1c7d-4a6e-b962-c0737f739565</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -185,5 +194,47 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/Manual_Entry/TabBy_ManualEntry_Error</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>029470f7-d264-4401-a461-40cb722381f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification_PRODandUPGRADE/Issue_BillFileLookup_App2326_UIVerification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>91439120-7b0a-44d2-85ec-1c8886056c30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification_PRODandUPGRADE/Issue_BillFileLookup_UIVerification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>858e01ff-e1bd-4416-9a40-2f98f2bdaa6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification_PRODandUPGRADE/Issue_ManualEntry_App2326_UIVerification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>09bdbf68-51d1-4653-9a77-159eaf43b5c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification_PRODandUPGRADE/Issue_ManualEntry_UIVerification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>906c0240-b421-4d43-b3e0-2b832ebf231c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification_PRODandUPGRADE/ManageEmailTextToPay_UIVerification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0eb9286-2591-4373-8dc3-bc284a13a062</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Suite Bootstrap/EmailTextToPay_TestCases/UI_Verification_PRODandUPGRADE/VerifyEmailTextToPayLinksOnDashboardPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

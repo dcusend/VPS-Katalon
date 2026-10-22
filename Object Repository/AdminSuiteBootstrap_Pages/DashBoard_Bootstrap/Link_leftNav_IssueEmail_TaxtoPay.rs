@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Issue Email/Text to Pay' or . = 'Issue Email/Text to Pay')]</value>
+         <value>/html/body/aside/ul/li[8]/ul/li[1]/a[count(. | //*[(text() = 'Issue Email/Text to Pay' or . = 'Issue Email/Text to Pay')]) = count(//*[(text() = 'Issue Email/Text to Pay' or . = 'Issue Email/Text to Pay')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +19,15 @@
       <name>class</name>
       <type>Main</type>
       <value>treeview-item </value>
-      <webElementGuid>27db2270-aa0f-4c4c-9dfb-d53d62f61a59</webElementGuid>
+      <webElementGuid>cc46fbe0-9de4-4794-8126-8b4ca869e29f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/aside/ul/li[7]/ul/li[1]/a</value>
-      <webElementGuid>5d0264c4-be4a-4ecd-9a59-26bd8dfa1638</webElementGuid>
+      <value>/html/body/aside/ul/li[8]/ul/li[1]/a</value>
+      <webElementGuid>511a4d33-e7ab-47a1-bc85-0747bcb25b48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +35,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Issue Email/Text to Pay</value>
-      <webElementGuid>0ca19f39-71e0-44d0-8b2c-718481fbce2e</webElementGuid>
+      <webElementGuid>46e744fe-c01a-4a48-8a54-2da0300b4255</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
