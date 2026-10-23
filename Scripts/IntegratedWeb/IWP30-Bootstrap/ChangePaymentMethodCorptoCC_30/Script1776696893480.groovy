@@ -151,11 +151,13 @@ for (def row = 1; row <= numOfRows; row++)
 
 					WebUI.verifyTextPresent(("Payment Confirmation"), true)
 					
-					CustomKeywords.'bwpPagesBootstrap.paymentConfirmationBootstrapPage.selectButtonConfirm'()
+					CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 					
 					WebUI.delay(GlobalVariable.shortTimeDelay)
 
 					WebUI.verifyTextPresent(("Successful Payment Receipt"), true)
+					
+					WebUI.delay(GlobalVariable.mediumTimeDelay)
 //					WebUI.verifyTextPresent(("Corporate Checking"), true)
 					
 					

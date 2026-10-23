@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!4444444'</initValue>
+      <initValue>'Hello!5555555'</initValue>
       <name>Password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -230,7 +230,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!4444444'</initValue>
+      <initValue>'Hello!5555555'</initValue>
       <name>AutoPasswordAdminSuite</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

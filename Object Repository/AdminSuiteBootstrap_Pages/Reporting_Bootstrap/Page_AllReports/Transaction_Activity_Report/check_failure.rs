@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_failure</name>
+   <tag></tag>
+   <elementGuidId>0d507b0d-0df9-431c-83fc-cad838911954</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'failure' and @name = 'includeFailedTransactions']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>failure</value>
+      <webElementGuid>6eb2b88a-284d-4844-b16c-1fe5d30403dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>includeFailedTransactions</value>
+      <webElementGuid>2027892c-720d-48df-bf28-189a72ba7946</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

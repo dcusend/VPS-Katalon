@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_pc_web</name>
+   <tag></tag>
+   <elementGuidId>192562c3-fe44-485b-9159-d202fc01ef01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '6' and @value = 'Web']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>6</value>
+      <webElementGuid>d9a2c1d2-d94f-4e92-a95b-c592bb7c3061</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>6</value>
+      <webElementGuid>b25da807-e23c-41e3-83c4-a02e9490aed1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

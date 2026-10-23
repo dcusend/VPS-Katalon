@@ -24,9 +24,10 @@ String path_Dashboard = "Object Repository/AdminSuiteBootstrap_Pages/Dashboard_B
 String path_User = "Object Repository/AdminSuiteBootstrap_Pages/Reporting_Bootstrap/Page_User Reports/"
 
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
+WebUI.delay(GlobalVariable.shortTimeDelay)
 
 WebUI.click(findTestObject(path_Dashboard + 'span_Reporting'))
-Thread.sleep(4000)
+WebUI.delay(GlobalVariable.shortTimeDelay)
 WebUI.click(findTestObject(path_Dashboard + 'a_User Reports'))
 
 WebUI.verifyElementVisible(findTestObject(path_User + 'h1_User Reports'))

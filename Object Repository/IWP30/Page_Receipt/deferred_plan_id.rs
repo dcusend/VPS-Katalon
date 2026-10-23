@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>deferred_plan_id</name>
+   <tag></tag>
+   <elementGuidId>ae835e13-7c4b-4beb-85c1-86091923697d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[1]/div[2]/div/div[2]/div[1]/div[14]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[1]/div[2]/div/div[2]/div[1]/div[14]/div[2]</value>
+      <webElementGuid>6ccc86b5-57ef-493d-b860-a7c0b3427f93</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

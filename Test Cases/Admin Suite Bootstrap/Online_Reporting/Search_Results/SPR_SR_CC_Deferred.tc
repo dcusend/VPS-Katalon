@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SPR_SR_CC_Deferred</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d735290-c131-4265-b3b2-9d3219a11a9f</testCaseGuid>
+</TestCaseEntity>

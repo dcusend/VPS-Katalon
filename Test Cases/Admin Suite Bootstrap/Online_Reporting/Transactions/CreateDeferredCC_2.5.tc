@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateDeferredCC_2.5</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee7729fc-cfed-4204-9e1c-963b98e4ff3e</testCaseGuid>
+</TestCaseEntity>

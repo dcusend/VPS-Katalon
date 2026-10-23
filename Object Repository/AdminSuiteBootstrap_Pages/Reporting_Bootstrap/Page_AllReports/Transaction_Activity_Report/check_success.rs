@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_success</name>
+   <tag></tag>
+   <elementGuidId>d5d42b95-a916-4718-a281-fa668d55281e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'success' and @name = 'includeSuccessfulTransactions']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>success</value>
+      <webElementGuid>0d5d0d66-88d3-4273-b12e-e48d79f204a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>includeSuccessfulTransactions</value>
+      <webElementGuid>4ea42294-e391-4085-96d9-3e27407de697</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

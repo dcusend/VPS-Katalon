@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PayNowNoCFPC_27_Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e17eb137-01e4-4a39-b1aa-3191402f4e6c</testCaseGuid>
+</TestCaseEntity>

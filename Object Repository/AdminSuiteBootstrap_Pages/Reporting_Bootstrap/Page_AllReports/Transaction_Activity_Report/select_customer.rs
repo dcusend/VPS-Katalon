@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_customer</name>
+   <tag></tag>
+   <elementGuidId>437eae34-b4fd-420a-a001-3a632ac883b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'parentCustomerIds']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>parentCustomerIds[]</value>
+      <webElementGuid>50d0656a-147b-490e-bf15-96e17fc3c351</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>parentCustomerIds</value>
+      <webElementGuid>d9b79da9-4b38-4438-a2f9-1024ce693cdb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

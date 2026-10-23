@@ -372,6 +372,12 @@ public class ccPaymentEntryBootstrapPage {
 	//*********************************************************************************************
 
 
+	private String getDatePlusSevenDays() {
+		Calendar cal = Calendar.getInstance()
+		cal.add(Calendar.DAY_OF_YEAR, 7)
+		return new java.text.SimpleDateFormat('MM/dd/yyyy').format(cal.getTime())
+	}
+
 	// placeholder for PaymentDate for Deferred
 
 	@Keyword
@@ -379,10 +385,10 @@ public class ccPaymentEntryBootstrapPage {
 	def setDataCCDate(String ccDateS) {
 		ccDate = ccDateS
 		if(!ccDate.isEmpty()) {
-			//This js script is written to set the future date
-			String js = '''
-	 document.getElementById('processDate').value = '12/31/2026'
-	 '''
+			String futureDate = getDatePlusSevenDays()
+			String js = """
+		 document.getElementById('processDate').value = '${futureDate}'
+		 """
 			WebUI.executeJavaScript(js, null)
 		}
 		else {
@@ -697,10 +703,10 @@ public class ccPaymentEntryBootstrapPage {
 			//			if (WebUI.verifyElementPresent(findTestObject('Object Repository/IWP30/Page_CCPaymentEntry/ProcessDate'),30)) {
 			if ((!ccDate.isEmpty())) {
 
-				//This js script is written to set the future date
-				String js = '''
-				   document.getElementById('processDate').value = '08/09/2025'
-				  '''
+				String futureDate = getDatePlusSevenDays()
+				String js = """
+				   document.getElementById('processDate').value = '${futureDate}'
+				  """
 				WebUI.executeJavaScript(js, null)
 			}
 			else {
@@ -794,7 +800,6 @@ public class ccPaymentEntryBootstrapPage {
 		}
 	}
 }
-
 
 
 

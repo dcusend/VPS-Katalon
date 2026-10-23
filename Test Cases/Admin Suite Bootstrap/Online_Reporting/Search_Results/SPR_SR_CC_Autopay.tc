@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SPR_SR_CC_Autopay</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20d3d3d5-9ff3-4377-8f5a-06409fbe969b</testCaseGuid>
+</TestCaseEntity>

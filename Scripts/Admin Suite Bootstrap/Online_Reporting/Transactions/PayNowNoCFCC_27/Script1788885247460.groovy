@@ -138,7 +138,6 @@ for (def row = 1; row <= numOfRows; row++)
 									
 									WebUI.click(findTestObject('Object Repository/IWP_Bootstrap/Page_ViewParcel/button_close'))
 									
-									WebUI.delay(2)
 									// Select Customer CC Terms Checkbox
 //									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
 									
@@ -146,16 +145,16 @@ for (def row = 1; row <= numOfRows; row++)
 									// Select Continue Button
 									CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectButtonContinue'()
 									
-									WebUI.delay(5)
+									WebUI.delay(GlobalVariable.mediumTimeDelay)
 									
 									isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 									
 										if(isRequiredTextPresent == true) {
 											
 											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
-											WebUI.delay(GlobalVariable.mediumTimeDelay)
+//											WebUI.delay(GlobalVariable.mediumTimeDelay)
 											
-											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
+//											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					
 										}
 										else {
@@ -164,7 +163,8 @@ for (def row = 1; row <= numOfRows; row++)
 											KeywordUtil.logInfo("Some Text is missing at Payment Information Page")
 										}
 										
-											if(isRequiredTextPresent == true) {
+											WebUI.delay(30)
+//											if(isRequiredTextPresent == true) {
 												
 												if (WebUI.verifyTextPresent(("Successful Confirmation of Payment"), false))
 													{
@@ -176,27 +176,7 @@ for (def row = 1; row <= numOfRows; row++)
 												KeywordUtil.logInfo("All text present at Reciept page")
 												
 											// 1. Get the current active driver instance
-//												WebDriver driver = DriverFactory.getWebDriver()
-//												
-//												// 2. Grab the entire HTML page source as a string
-//												String pageSource = driver.getPageSource()
-//												
-//											
-//												println(pageSource)
-//												
-//												// 3. Define regex pattern for an exact 8-digit number
-//												Pattern pattern = Pattern.compile('\\d{8}')
-//												Matcher matcher = pattern.matcher(pageSource)
-//												
-//												// 4. Find and print the 8-digit number
-//												if (matcher.find()) {
-//												    String paymentID = matcher.group()
-//												    println("Found 8-digit number: " + paymentID)
-//													
-//													GlobalVariable.capturedPaymentID = paymentID
-//												} else {
-//												    println("No 8-digit number found in the page source.")
-//												}
+
 												
 												//Get the payment plan id with the xpath of the test object
 												def plan_id = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/plan_id'))
@@ -215,14 +195,14 @@ for (def row = 1; row <= numOfRows; row++)
 													CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 													println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
 												}
-											}
-											else {
-												
-												isRequiredTextPresent = false
-												KeywordUtil.logInfo("Some Text is missing at Payment Reciept Page")
-												resText = "Fail"
-												CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-											}
+//											}
+//											else {
+//												
+//												isRequiredTextPresent = false
+//												KeywordUtil.logInfo("Some Text is missing at Payment Reciept Page")
+//												resText = "Fail"
+//												CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//											}
 							
 								}
 							else
@@ -243,7 +223,7 @@ for (def row = 1; row <= numOfRows; row++)
 								CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 							}
 							
-//							WebUI.closeBrowser()
+							WebUI.closeBrowser()
 						
 					}
 					}

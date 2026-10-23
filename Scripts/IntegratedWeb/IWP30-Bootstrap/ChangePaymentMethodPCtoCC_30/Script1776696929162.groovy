@@ -158,7 +158,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 					WebUI.delay(GlobalVariable.shortTimeDelay)
 					WebUI.verifyTextPresent(("Successful Payment Receipt"), true)
-//
+					WebUI.delay(GlobalVariable.mediumTimeDelay)
 //					if (WebUI.verifyTextPresent("Successful Payment Receipt", false)) {
 //						KeywordUtil.markPassed("Your payment plan has been successfully changed from PC to CC")
 //						resText = "Pass"

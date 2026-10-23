@@ -83,7 +83,7 @@ for (def row = 1; row <= numOfRows; row++)
 				
 					CustomKeywords.'bwpPagesBootstrap.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 					
-					WebUI.delay(5)
+					WebUI.delay(GlobalVariable.mediumTimeDelay)
 					if (WebUI.verifyTextPresent(("Successful Payment Receipt"), false))
 						{
 							println "Successful Payment Receipt text is present on the Receipt page"

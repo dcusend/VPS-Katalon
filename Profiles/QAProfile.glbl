@@ -20,7 +20,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!3333333'</initValue>
+      <initValue>'Hello!5555555'</initValue>
       <name>Password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

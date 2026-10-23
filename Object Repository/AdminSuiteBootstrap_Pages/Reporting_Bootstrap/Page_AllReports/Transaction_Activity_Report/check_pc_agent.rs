@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_pc_agent</name>
+   <tag></tag>
+   <elementGuidId>0db9df18-61bf-4d98-9e28-57b7a14c57a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '5' and @value = 'Agent/Clerk']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>c14423d3-f40d-478f-b428-3a09c6369639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>c71751db-8439-4a1b-b135-476d7a43194b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

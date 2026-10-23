@@ -116,7 +116,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 						
 					CustomKeywords.'adminSuiteBootstrap.debitPersonalsetData.debitPersonal_DataDriven_EF'(row,dataFile)
 					
-						Thread.sleep(2000)
+						WebUI.delay(GlobalVariable.shortTimeDelay)
 						if (WebUI.verifyTextPresent('Transaction Successful', true))
 						{
 							def sdf = WebUI.getText(findTestObject(path_Receipt + 'td_AutoNoC031622113752957Ahm'))
@@ -150,7 +150,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 					
 							WebUI.click(findTestObject(path_SearchResults + 'button_PaymentID'))
 					
-							Thread.sleep(2000)
+							WebUI.delay(GlobalVariable.shortTimeDelay)
 							
 							WebUI.verifyTextPresent('Tender Type', true)
 							
@@ -173,7 +173,7 @@ def numOfRows, dataFile, nameSheet, ExecuteTC
 							
 							WebUI.click(findTestObject(path_TranxDetails + 'button_Submit'))
 							
-							Thread.sleep(2000)
+							WebUI.delay(GlobalVariable.shortTimeDelay)
 							
 							WebUI.verifyTextPresent('Transaction Successful', true)
 							WebUI.verifyTextPresent('Transaction Type', true)

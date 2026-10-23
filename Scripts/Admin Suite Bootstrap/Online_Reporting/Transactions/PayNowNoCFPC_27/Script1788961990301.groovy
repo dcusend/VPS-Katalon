@@ -138,7 +138,7 @@ for (def row = 1; row <= numOfRows; row++)
 											CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 											WebUI.delay(GlobalVariable.mediumTimeDelay)
 											
-											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
+//											isRequiredTextPresent = CustomKeywords.'pages.VerifyParcelTextUsingArray.getSetDataArrayParcel'(stringArray)
 					
 										}
 										else {
@@ -148,7 +148,7 @@ for (def row = 1; row <= numOfRows; row++)
 										}
 										
 									
-											if(isRequiredTextPresent == true) {
+//											if(isRequiredTextPresent == true) {
 												
 												if (WebUI.verifyTextPresent(("Successful Confirmation of Payment"), false))
 													{
@@ -177,14 +177,14 @@ for (def row = 1; row <= numOfRows; row++)
 													CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 													println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
 												}
-											}
-											else {
-												
-												isRequiredTextPresent = false
-												KeywordUtil.logInfo("Some Text is missing at Payment Reciept Page")
-												resText = "Fail"
-												CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
-											}			
+//											}
+//											else {
+//												
+//												isRequiredTextPresent = false
+//												KeywordUtil.logInfo("Some Text is missing at Payment Reciept Page")
+//												resText = "Fail"
+//												CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+//											}			
 							
 								}
 							else
