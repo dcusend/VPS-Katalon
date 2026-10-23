@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BusinessChecking_Modify_SameJSON_SCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f4788c0-cc39-4114-bab9-b5456aef2b38</testCaseGuid>
+</TestCaseEntity>

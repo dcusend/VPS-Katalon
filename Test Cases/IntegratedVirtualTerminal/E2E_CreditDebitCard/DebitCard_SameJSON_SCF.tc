@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitCard_SameJSON_SCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0efd7ca-48c6-41e8-8491-2938d293a48a</testCaseGuid>
+</TestCaseEntity>

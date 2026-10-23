@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalSavings_Modify_SameJSON_SCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c266dc3-2b58-409b-a7e8-24ef26f39f29</testCaseGuid>
+</TestCaseEntity>

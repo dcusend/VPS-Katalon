@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalChecking_SameJSON_SCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5dd76882-c124-4946-83dd-b4b54a5b8b4b</testCaseGuid>
+</TestCaseEntity>
