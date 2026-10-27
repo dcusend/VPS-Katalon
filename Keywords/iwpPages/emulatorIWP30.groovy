@@ -350,9 +350,11 @@ class emulatorIWP30 {
 				println(CAN)
 				if((CAN == null)) {
 					CAN = org.apache.commons.lang.RandomStringUtils.random(12, true, true)
+					GlobalVariable.generatedCAN = CAN
 				}
 				else {
 					CAN = findTestData(dataFileE).getValue('CAN', rowE)
+					GlobalVariable.generatedCAN = CAN
 				}
 				Action = findTestData(dataFileE).getValue('Action', rowE)
 				Lang = findTestData(dataFileE).getValue('Lang', rowE)

@@ -267,7 +267,9 @@ public class virtualTerminalSetData {
 		//		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined5'), UDF5)
 		//		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined6'), UDF6)
 
-		WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), UDF5, true)
+		if ((!UDF5.isEmpty())) {
+			WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF5_DropDown'), UDF5, true)
+		}
 		WebUI.selectOptionByLabel(findTestObject(path_SaleKB + 'select_UDF6_DropDown'), UDF6, true)
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined7'), UDF7)
 		WebUI.setText(findTestObject(path_SaleKB + 'input_userDefined8'), UDF8)

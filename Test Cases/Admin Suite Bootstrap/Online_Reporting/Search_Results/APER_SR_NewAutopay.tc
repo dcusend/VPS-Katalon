@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>APER_SR_NewAutopay</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5402aa5c-7764-4f76-87ac-cbace0f8dfc2</testCaseGuid>
+</TestCaseEntity>

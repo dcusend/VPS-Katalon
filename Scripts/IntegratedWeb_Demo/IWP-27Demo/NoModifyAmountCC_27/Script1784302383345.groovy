@@ -138,7 +138,7 @@ for (def row = 1; row <= numOfRows; row++)
 				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.setDataCardUDF'(UDFID)
 			
 			// Select Customer CC Terms Checkbox
-				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
+//				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectCheckboxCCTerms'()
 				
 			// Select Continue Button
 				CustomKeywords.'iwpPages.ccPaymentEntryBootstrapPage.selectButtonContinue'()

@@ -146,7 +146,7 @@ for (def row = 1; row <= numOfRows; row++)
 			// Select Confirm Button on Payment Confirmation Page
 				CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 				
-						WebUI.delay(GlobalVariable.shortTimeDelay)
+						WebUI.delay(GlobalVariable.mediumTimeDelay)
 						if (WebUI.verifyTextPresent("Successful Payment Receipt", false))
 							{
 								println "Successful Payment Receipt text is present on the Receipt page"

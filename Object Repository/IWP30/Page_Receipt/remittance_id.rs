@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>remittance_id</name>
+   <tag></tag>
+   <elementGuidId>38fde61d-5993-4a20-8a37-31d62f4e0100</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[1]/div/div[2]/div[1]/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[1]/div/div[2]/div[1]/div[2]/div[2]</value>
+      <webElementGuid>b4787b5d-6192-4741-aef7-4c9843b98639</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

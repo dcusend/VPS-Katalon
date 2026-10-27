@@ -46,7 +46,7 @@ numOfRows = dataFile.getRowNumbers()
 println ("Number of Rows : " + numOfRows)
 
 
-for (def row = 1; row <= 1; row++)
+for (def row = 1; row <= numOfRows; row++)
 {
 
 	ExecuteTC = dataFile.getValue("Execute", row)

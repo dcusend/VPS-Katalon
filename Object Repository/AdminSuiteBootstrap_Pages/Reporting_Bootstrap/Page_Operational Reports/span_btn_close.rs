@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_btn_close</name>
+   <tag></tag>
+   <elementGuidId>9ab0a2e4-77da-4bbc-9c82-d59dace8d330</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Close' or . = 'Close')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>05816619-7dfe-4aa6-8bd2-69e581ab7feb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>style</name>
+      <type>Main</type>
+      <value>cursor:pointer</value>
+      <webElementGuid>7d15b48c-59b8-4837-922e-eff044064ddd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
