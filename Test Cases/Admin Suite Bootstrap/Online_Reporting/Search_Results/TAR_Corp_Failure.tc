@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TAR_Corp_Failure</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>56a8f37a-7444-4b96-93b4-7d9b9d67531f</testCaseGuid>
+</TestCaseEntity>

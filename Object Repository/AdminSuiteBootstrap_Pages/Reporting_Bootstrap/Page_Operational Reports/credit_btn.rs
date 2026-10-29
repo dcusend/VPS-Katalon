@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Credit or void this transaction' or . = 'Credit or void this transaction') and @type = 'submit']</value>
+         <value>//*[(text() = 'Credit or void this transaction' or . = 'Credit or void this transaction')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,14 +19,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Credit or void this transaction</value>
-      <webElementGuid>098587f0-8815-4bd9-b14d-b8c4964934cc</webElementGuid>
+      <webElementGuid>e92c323a-0248-477b-a895-946cd32029af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>d2605691-c567-4c8b-8fcf-a14eef3e60dd</webElementGuid>
+      <webElementGuid>e637935f-e3fd-4b49-a09b-1d37ede829c2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

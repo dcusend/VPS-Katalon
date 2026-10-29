@@ -188,7 +188,7 @@ WebUI.verifyTextPresent(timestampEST_WithoutTime, false)
 
 WebUI.verifyTextPresent(GlobalVariable.capturedRemittanceID, false)
 
-WebUI.verifyTextPresent('Carlos Jacinta', false)
+WebUI.verifyTextPresent('Smith Company', false)
 
 WebUI.verifyTextPresent('Online Check', false)
 
@@ -290,13 +290,15 @@ WebUI.verifyTextPresent('Check Account Information', false)
 
 WebUI.verifyTextPresent('Company', false)
 
+WebUI.verifyTextPresent('Smith Company', false)
+
 WebUI.verifyTextPresent("Checkwriter's Name", false)
 
-WebUI.verifyTextPresent('Carlos Jacinta', false)
+WebUI.verifyTextPresent('Smith Company', false)
 
 WebUI.verifyTextPresent('Address Line 1', false)
 
-WebUI.verifyTextPresent('698 manadan terrace', false)
+WebUI.verifyTextPresent('258 Underwood rd', false)
 
 WebUI.verifyTextPresent('Address Line 2', false)
 
@@ -304,15 +306,15 @@ WebUI.verifyTextPresent('Suite 600', false)
 
 WebUI.verifyTextPresent('City', false)
 
-WebUI.verifyTextPresent('HOOKSETT', false)
+WebUI.verifyTextPresent('ARLINGTON', false)
 
 WebUI.verifyTextPresent('State', false)
 
-WebUI.verifyTextPresent('NH', false)
+WebUI.verifyTextPresent('VA', false)
 
 WebUI.verifyTextPresent('ZIP Code', false)
 
-WebUI.verifyTextPresent('03106', false)
+WebUI.verifyTextPresent('22201', false)
 
 WebUI.verifyTextPresent('Country', false)
 
@@ -324,7 +326,7 @@ WebUI.verifyTextPresent('Checking', false)
 
 WebUI.verifyTextPresent('Check Type', false)
 
-WebUI.verifyTextPresent('Personal', false)
+WebUI.verifyTextPresent('Corporate', false)
 
 WebUI.verifyTextPresent('Partial Account Number', false)
 

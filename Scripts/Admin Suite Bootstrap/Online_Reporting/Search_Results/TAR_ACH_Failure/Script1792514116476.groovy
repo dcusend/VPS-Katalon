@@ -113,9 +113,11 @@ WebUI.verifyTextPresent('Credit / Debit Card',  false)
 
 WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_cc_credit'))
 
-WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_oc_payment'))
+WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_cc_payment'))
 
-WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_oc_credit'))
+//WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_oc_payment'))
+//
+//WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_oc_credit'))
 
 WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_success'))
 

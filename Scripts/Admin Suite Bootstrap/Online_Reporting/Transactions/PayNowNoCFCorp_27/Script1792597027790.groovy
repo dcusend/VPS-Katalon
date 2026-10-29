@@ -150,7 +150,7 @@ for (def row = 1; row <= numOfRows; row++)
 										
 //											if(isRequiredTextPresent == true) {
 												
-										WebUI.delay(GlobalVariable.shortTimeDelay)
+												WebUI.delay(GlobalVariable.mediumTimeDelay)
 												if (WebUI.verifyTextPresent(("Successful Confirmation of Payment"), false))
 													{
 														println "Successful Payment Receipt text is present on the Receipt page"
@@ -158,7 +158,16 @@ for (def row = 1; row <= numOfRows; row++)
 														resText = "Pass"
 														CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 								
-												KeywordUtil.logInfo("All text present at Reciept page")
+														KeywordUtil.logInfo("All text present at Reciept page")
+												
+												//Get the payment plan id with the xpath of the test object
+												def plan_id = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/plan_id'))
+												GlobalVariable.capturedPaymentID = plan_id
+												
+												println("Payment Plan ID: " + plan_id)
+																										
+												def remittance_id = WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/remittance_id'))
+												GlobalVariable.capturedRemittanceID = remittance_id
 																							
 											}
 											else
