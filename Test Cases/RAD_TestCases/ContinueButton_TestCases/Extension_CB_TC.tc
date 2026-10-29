@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in all Environments</description>
+   <name>Extension_CB_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5dd62c4d-4ad7-4c0f-84dc-cfaed8af81a2</testCaseGuid>
+</TestCaseEntity>

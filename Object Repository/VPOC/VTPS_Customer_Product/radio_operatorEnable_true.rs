@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_operatorEnable_true</name>
+   <tag></tag>
+   <elementGuidId>7f60fd41-e82c-4558-8925-f2f4e740089e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='radio' and @id='operatorEnableTrue' and @name='operatorEnable' and @value='true']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type='radio']#operatorEnableTrue[name='operatorEnable'][value='true']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @id = 'operatorEnableTrue' and @name = 'operatorEnable' and @value = 'true']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>a7841f5f-47ec-4622-ba0f-770ced68a175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>operatorEnableTrue</value>
+      <webElementGuid>80afad5d-a2e5-462e-a377-a6b46751a2b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>operatorEnable</value>
+      <webElementGuid>fa34b61a-64d8-4f76-a88d-bfb8f6c1ce25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5d608df7-93d5-4b6d-8278-51e017491a22</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

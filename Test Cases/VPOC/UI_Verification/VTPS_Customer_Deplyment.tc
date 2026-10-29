@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VTPS_Customer_Deplyment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>187e8ed1-edfb-4048-9859-21a73c667840</testCaseGuid>
+</TestCaseEntity>

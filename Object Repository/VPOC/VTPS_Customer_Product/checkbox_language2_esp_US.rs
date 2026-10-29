@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_language2_esp_US</name>
+   <tag></tag>
+   <elementGuidId>d7fc8ff8-c2d4-4f67-bf6b-3e8f404f7efa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='checkbox' and @id='language2' and @name='language2' and @value='esp_US']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type='checkbox']#language2[name='language2'][value='esp_US']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @id = 'language2' and @name = 'language2' and @value = 'esp_US']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>7ff0ce79-a53d-4b93-b9be-1055e9ca2c30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>language2</value>
+      <webElementGuid>acc3ffc4-488b-4a5e-849f-3e332a0e8b57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>language2</value>
+      <webElementGuid>2932bdde-2fb7-479f-97a4-78c404f0d92e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>esp_US</value>
+      <webElementGuid>9348a1b3-3afa-486a-b780-8251336af501</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

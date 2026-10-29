@@ -25,6 +25,7 @@ try {
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.fillFields'(saleFields + ['name=remittance_id': remSeed])
     CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
     WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(2)
     String receiptText = CustomKeywords.'customClasses.LegacyVLinkScriptUtils.getTextByLocator'('css=pre')
     WebUI.verifyMatch(receiptText, '(?s).*Transaction failed.*', true)
     WebUI.verifyMatch(receiptText, '(?s).*105Processor reported error.*', true)

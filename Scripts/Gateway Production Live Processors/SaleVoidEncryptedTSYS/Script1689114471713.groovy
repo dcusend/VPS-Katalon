@@ -88,6 +88,7 @@ try {
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="button"]')
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
 	WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(5) // Wait for the page to fully render before checking for text
 
 	boolean saleApproved = WebUI.verifyTextPresent('Transaction approved, no errors', false, FailureHandling.OPTIONAL)
 	if (!saleApproved) {
@@ -107,6 +108,7 @@ try {
 	])
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
 	WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(5)
 	WebUI.verifyTextPresent('Transaction approved, no errors', false)
 } finally {
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.closeVLinkBrowser'()

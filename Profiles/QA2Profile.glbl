@@ -321,6 +321,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://qa2.velocitypayment.com/vpoc/'</initValue>
+      <name>vpoc_URL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>null</initValue>
       <name>capturedPaymentID</name>
       <protected>false</protected>
