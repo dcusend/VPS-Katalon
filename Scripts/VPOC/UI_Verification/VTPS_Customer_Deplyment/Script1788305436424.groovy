@@ -37,7 +37,7 @@ import org.openqa.selenium.Keys as Keys
 	WebUI.verifyTextPresent('IVR Type:', true)
 	WebUI.verifyTextPresent('Velocity', true)
 	WebUI.verifyTextPresent('CertPay', true)
-	WebUI.verifyTextPresent('Number of Applications:', true)
+	WebUI.verifyTextPresent('Number of Applications Mapped:', true)
 	WebUI.verifyTextPresent('No IVR application deployed yet.', true)
 	WebUI.verifyTextPresent('Default Application ID:', true)
 	WebUI.verifyTextPresent('Operator Enable:', true)

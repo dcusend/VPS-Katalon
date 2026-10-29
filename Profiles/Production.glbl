@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://www.velocitypayment.com/client/rad2/index.html'</initValue>
+      <initValue>'https://www.velocitypayment.com/client/rad/index.html'</initValue>
       <name>RADurl</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

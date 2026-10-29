@@ -150,7 +150,7 @@ def numOfRows = findTestData(dataFile).getRowNumbers()
 // Verify Summary on Confirmation page
 					
 					
-					WebUI.delay(2)
+					WebUI.delay(5)
 					
 					def isRequiredTextPresent = false
 					
