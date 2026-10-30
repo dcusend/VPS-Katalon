@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BusinessChecking_ProcessPayment_SameJSON_UI_SCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ca88fa9-ada7-4044-8ac1-fd80958cc550</testCaseGuid>
+</TestCaseEntity>

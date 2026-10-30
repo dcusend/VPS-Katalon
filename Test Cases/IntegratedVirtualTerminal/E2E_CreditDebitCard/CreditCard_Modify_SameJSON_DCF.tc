@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreditCard_Modify_SameJSON_DCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a68bcc09-e236-416f-9a14-5e981c26e7c9</testCaseGuid>
+</TestCaseEntity>

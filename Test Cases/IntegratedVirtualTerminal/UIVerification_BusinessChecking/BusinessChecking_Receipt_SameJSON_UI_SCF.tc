@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BusinessChecking_Receipt_SameJSON_UI_SCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c2d82ee6-129d-40db-b93a-356e697274c6</testCaseGuid>
+</TestCaseEntity>

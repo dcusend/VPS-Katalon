@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalChecking_SameJSON_DCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d04c0b0-6088-4f67-8a3b-48e7861ac709</testCaseGuid>
+</TestCaseEntity>

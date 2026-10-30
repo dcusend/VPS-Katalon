@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalSaving_ProcessPayment_SameJSON_UI_SCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec73dece-8649-489c-99c6-6c6293329058</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitCard_ProcessPayment_SameJSON_UI_SCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>896cf6e6-87ad-4d22-a196-b5b17388280a</testCaseGuid>
+</TestCaseEntity>
