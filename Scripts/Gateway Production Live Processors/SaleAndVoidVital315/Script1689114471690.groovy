@@ -92,6 +92,7 @@ try {
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.fillFields'(saleFields + ['name=remittance_id': genRemID])
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
 	WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(5)
 
 	boolean saleApproved = WebUI.verifyTextPresent('Transaction approved, no errors', false, FailureHandling.OPTIONAL)
 	if (!saleApproved) {
@@ -109,6 +110,7 @@ try {
 	])
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.clickByLocator'('css=input[type="submit"]')
 	WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+	WebUI.delay(5)
 	WebUI.verifyTextPresent('Transaction approved, no errors', false)
 } finally {
 	CustomKeywords.'customClasses.LegacyVLinkScriptUtils.closeVLinkBrowser'()

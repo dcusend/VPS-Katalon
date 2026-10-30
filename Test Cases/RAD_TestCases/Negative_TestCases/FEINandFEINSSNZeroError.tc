@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Works in All Environments</description>
+   <name>FEINandFEINSSNZeroError</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c5a136f-978f-4a73-ae2c-8b215784145b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_ivrType_CertPay</name>
+   <tag></tag>
+   <elementGuidId>52c0dce5-81f5-4e63-b89c-f9db41fd6980</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='radio' and @name='ivrType' and @value='CertPay']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type='radio'][name='ivrType'][value='CertPay']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'radio' and @name = 'ivrType' and @value = 'CertPay']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>d2bedc70-7af1-41ed-bf33-ee3ef51552b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ivrType</value>
+      <webElementGuid>c6160d26-fb71-46a9-9579-20db0f30b916</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>CertPay</value>
+      <webElementGuid>3e9cf92e-bc58-42ea-90c8-66a7ec49368f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

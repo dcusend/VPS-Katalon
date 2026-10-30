@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'modifyAmount_90552168880000088']</value>
+         <value>//*[@type = 'text' and contains(@id, 'modifyAmount_')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +19,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>97dd2fb7-c881-4277-babe-efc800bb43b7</webElementGuid>
+      <webElementGuid>11c3c7db-95fd-4c49-aa66-613c794aeb0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>modifyAmount_90552168880000088</value>
-      <webElementGuid>3203c8ef-284a-4e02-beb8-311129f861c9</webElementGuid>
+      <value>modifyAmount_</value>
+      <webElementGuid>85a77acb-b770-46fc-9e0d-c09a7f3ae7a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,6 +35,6 @@
       <name>value</name>
       <type>Main</type>
       <value>16.51</value>
-      <webElementGuid>11a163cb-714d-4367-aba7-82fc12cf64c8</webElementGuid>
+      <webElementGuid>f4a5235b-7fd9-4a5b-a441-f11ff5872596</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

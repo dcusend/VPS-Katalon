@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Hello!4444444'</initValue>
+      <initValue>'Hello!5555555'</initValue>
       <name>Password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -321,8 +321,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>''</initValue>
       <name>IVTRemittanceId</name>
+=======
+      <initValue>'https://qa2.velocitypayment.com/vpoc/'</initValue>
+      <name>vpoc_URL</name>
+>>>>>>> 9dd2d09d09ecdf3abdb80dfff6d0572abaaa6620
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

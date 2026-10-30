@@ -9,6 +9,10 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>11.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
+=======
+   <projectFileLocation>C:\Users\t465179\Documents\git\VPS-Katalon\VPS-Katalon\VPS-Smoke-Version001.prj</projectFileLocation>
+>>>>>>> 9dd2d09d09ecdf3abdb80dfff6d0572abaaa6620
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

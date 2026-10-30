@@ -25,6 +25,7 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 
 
@@ -74,12 +75,17 @@ for (def row = 1; row <= numOfRows; row++)
 		// Open multibill URL and populate search criteria
 		CustomKeywords.'multiBillPages.searchPage.setDataSearchString'(searchString)
 		
-		WebUI.delay(2)
+		WebUI.delay(5)
 		//Thread.sleep(shortDelay)
+		
+		//TestObject input_Amount_txtBox = new TestObject('input_Amount_txtBox')
+		//input_Amount_txtBox.addProperty('id', ConditionType.MATCHES_REGEX, '^modifyAmount_\\d+$')
+		
 		
 		//Assign boolean value if input_amount element is clickable
 		//def isClickable = WebUI.verifyElementClickable(findTestObject('Object Repository/MultiBill/MultibillSearch/input__amount'))
 		def isClickable = WebUI.verifyElementClickable(findTestObject('Object Repository/MultiBill/MultibillSearch/input_Amount_1651'))
+		//boolean isClickable = WebUI.verifyElementClickable(input_Amount_txtBox, FailureHandling.OPTIONAL)
 		
 		//Checks if Amount is modifiable it is pass else fail
 		if(isClickable) {
