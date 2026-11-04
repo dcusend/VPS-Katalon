@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalChecking_ProcessPayment_SameJSON_UI_DCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66e35be9-947a-4027-82d2-f20d8f32bfca</testCaseGuid>
+</TestCaseEntity>

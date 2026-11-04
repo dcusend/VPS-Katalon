@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalChecking_Receipt_SameJSON_UI_DCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>131c7cbf-fc87-4ac3-8d20-cddd0f973f06</testCaseGuid>
+</TestCaseEntity>
