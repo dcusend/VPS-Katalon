@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Works in all Environments</description>
-   <name>Existing_UnclaimedProperty_UI_TC</name>
+   <name>NewLiability_UnclaimedProperty_UI_TC_DONOTRUN</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cb44417c-cb6f-421c-bc5c-2443c88d5048</testCaseGuid>
+   <testCaseGuid>3be0d6fa-9155-42b9-be3b-f1b72a8a57e5</testCaseGuid>
 </TestCaseEntity>
