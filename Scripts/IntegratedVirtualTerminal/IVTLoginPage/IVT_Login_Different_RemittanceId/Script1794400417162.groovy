@@ -24,7 +24,7 @@ import java.text.DecimalFormat
 import java.util.Random
 import org.apache.commons.lang.RandomStringUtils
 
-def Url, Environment, UserName, Password, PartnerToken, JSONBody, ErrorMessage       
+def Url, Environment, UserName, Password, PartnerToken, JSONBody       
 
 def fileLoc, nameSheet, dataFile, numOfRows, isRequiredTextPresent= false
 
@@ -56,9 +56,9 @@ switch(executionProfile)
 			 Password = GlobalVariable.IVTPassword
 			 PartnerToken= GlobalVariable.IVTPartnerToken
 			 			 
-		fileLoc = 'KatalonData/IVT/IVT_Login.xlsx'
-		nameSheet = 'Submit_ChangedCAN'
-		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_Login.xlsx', nameSheet, true)
+		fileLoc = 'KatalonData/IVT/IVT_Login_ChangedJSON.xlsx'
+		nameSheet = 'Submit_ChangedJSON_RemittanceId'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_Login_ChangedJSON.xlsx', nameSheet, true)
 	
 		break
 				
@@ -140,7 +140,7 @@ switch(executionProfile)
 							  
 				 
 // Login(Submit Request)
-CustomKeywords.'ivtPages.IVTlogin.SetDataIVTlogin'(Url, Environment, UserName, Password, PartnerToken, JSONBody)
+CustomKeywords.'ivtPages.IVTlogin_RemittanceId.SetDataIVTlogin'(Url, Environment, UserName, Password, PartnerToken, JSONBody)
 
 
 //reporting in excel

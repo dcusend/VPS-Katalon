@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IVT_LoginPage_DifferentCAN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1db8d8d-1ced-44b4-8de3-82842b5eb385</testCaseGuid>
+</TestCaseEntity>

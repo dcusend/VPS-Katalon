@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IVT_Login_RemittanceId_Errors</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>54e29e46-ccde-454e-9a0f-77b16f038cba</testCaseGuid>
+</TestCaseEntity>

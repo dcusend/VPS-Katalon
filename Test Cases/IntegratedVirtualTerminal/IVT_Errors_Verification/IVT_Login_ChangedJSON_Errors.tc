@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IVT_Login_ChangedJSON_Errors</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b7de1ec-06f1-4ef2-a467-fcfaf652100d</testCaseGuid>
+</TestCaseEntity>

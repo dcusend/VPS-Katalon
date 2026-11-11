@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IVT_LoginPage_CAN_Errors</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1970afe-3a7f-44e5-a283-cf17ed0364f8</testCaseGuid>
+</TestCaseEntity>

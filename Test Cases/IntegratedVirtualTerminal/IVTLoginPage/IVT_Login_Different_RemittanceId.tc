@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>IVT_LoginPage_DiffCAN</name>
+   <name>IVT_Login_Different_RemittanceId</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b1db8d8d-1ced-44b4-8de3-82842b5eb385</testCaseGuid>
+   <testCaseGuid>f0db49aa-3f77-423d-97b2-796fa3ab2e47</testCaseGuid>
 </TestCaseEntity>

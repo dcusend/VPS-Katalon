@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IVT_Login_Different_ParcelsData</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d39e74c-9479-4d46-b032-c529d39e15f2</testCaseGuid>
+</TestCaseEntity>
