@@ -57,7 +57,7 @@ switch(executionProfile)
 			 PartnerToken= GlobalVariable.IVTPartnerToken
 			 			 
 		fileLoc = 'KatalonData/IVT/IVT_Login_ChangedJSON.xlsx'
-		nameSheet = 'Submit_ChangedJSON'
+		nameSheet = 'Submit_ChangedJSON_ParcelsData'
 		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_Login_ChangedJSON.xlsx', nameSheet, true)
 	
 		break
