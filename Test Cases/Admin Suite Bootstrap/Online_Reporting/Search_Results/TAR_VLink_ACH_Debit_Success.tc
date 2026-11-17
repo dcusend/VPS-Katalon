@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TAR_VLink_ACH_Debit_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51fcddfc-7325-42e8-a2f5-824710210bf4</testCaseGuid>
+</TestCaseEntity>

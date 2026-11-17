@@ -46,6 +46,19 @@ public class achPersonalPaymentEntryBootstrapPage {
 		this.selectCheckboxACHTANDC()
 		this.ntinueButton()
 	}
+	
+	
+	@Keyword
+	def setDataACHMainWithoutStored(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID) {
+		this.setFirstNameLastName(nameID)
+		this.setACHData(ACHID)
+		this.setAddressData(AddressID)
+		this.setEmailAndPhoneData(EmailPhoneID)
+		this.setUDFData(UDFID)
+//		this.selectCheckboxStoredPaymentMethod()
+		this.selectCheckboxACHTANDC()
+		this.ntinueButton()
+	}
 
 	@Keyword
 	def setDataACHDefferedMain(nameID,ACHID,EmailPhoneID,AddressID,AmountS, UDFID,ccDate) {

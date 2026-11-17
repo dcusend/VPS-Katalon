@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VLink_Verify_Channel_Gateway</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3e65b8e-fe1b-4ae8-866a-f0ba64cae022</testCaseGuid>
+</TestCaseEntity>

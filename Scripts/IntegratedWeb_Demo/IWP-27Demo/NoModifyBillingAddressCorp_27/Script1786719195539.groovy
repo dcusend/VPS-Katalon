@@ -88,7 +88,7 @@ for (def row = 1; row <= numOfRows; row++)
 			if(WebUI.verifyElementNotPresent(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCorporate_Bootstrap/input_billingAddress'),10))
 				{
 			
-			CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
+			CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMainWithoutStored'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 			
 			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 			

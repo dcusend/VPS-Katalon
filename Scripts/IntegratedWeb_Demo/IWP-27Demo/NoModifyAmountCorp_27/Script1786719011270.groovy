@@ -85,7 +85,7 @@ for (def row = 1; row <= numOfRows; row++)
 			if(WebUI.verifyElementAttributeValue(findTestObject('Object Repository/IWP_Bootstrap/Page_PaymentEntryCC_Bootstrap/input_amount'), "readonly", 'true', 20))
 				{
 			
-			CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
+			CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMainWithoutStored'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 			
 			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 			

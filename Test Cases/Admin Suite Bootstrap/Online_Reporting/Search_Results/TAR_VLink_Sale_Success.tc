@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TAR_VLink_Sale_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>164bd964-29d9-40e8-81a1-8a5a1e59f5d5</testCaseGuid>
+</TestCaseEntity>

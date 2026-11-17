@@ -84,7 +84,7 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			WebUI.delay(GlobalVariable.shortTimeDelay)
 					
-			CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
+			CustomKeywords.'iwpPages.achCorporatePaymentEntryBootstrapPage.setDataACHMainWithoutStored'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 			
 			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 			

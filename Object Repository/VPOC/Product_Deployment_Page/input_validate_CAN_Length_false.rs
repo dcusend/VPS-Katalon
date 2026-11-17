@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_validate_CAN_Length_false</name>
+   <tag></tag>
+   <elementGuidId>90e668a1-a69c-442b-a8bd-1a41f1270e12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'validateCANLength' and @value = 'false']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>validateCANLength</value>
+      <webElementGuid>9466c981-66bf-4536-a85e-35f8f9bb4c8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>694d4c1e-f6a2-4d9f-a74a-cec2cd3b16cb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

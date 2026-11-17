@@ -119,6 +119,10 @@ WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_cc_payment'))
 //
 //WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_oc_credit'))
 
+WebUI.uncheck(findTestObject(path_Transaction_Report + 'check_success'))
+
+WebUI.check(findTestObject(path_Transaction_Report + 'check_failure'))
+
 WebUI.click(findTestObject(path_Transaction_Report + 'btn_Continue'))
 
 WebUI.verifyTextPresent('Transaction Activity Report', false)
@@ -145,7 +149,7 @@ WebUI.verifyTextPresent(formattedDate, false)
 
 WebUI.verifyTextPresent('Time Zone:', false)
 
-WebUI.verifyTextPresent('EDT', false)
+WebUI.verifyTextPresent('EST', false)
 
 WebUI.verifyTextPresent('Tender Type', false)
 
@@ -164,7 +168,7 @@ WebUI.verifyTextPresent('Summary', false)
 
 WebUI.verifyTextPresent('Transaction ID', false)
 
-WebUI.verifyTextPresent('Success', false)
+WebUI.verifyTextPresent('Failure', false)
 
 WebUI.verifyTextPresent('Date', false)
 
@@ -180,13 +184,13 @@ WebUI.verifyTextPresent('Transaction', false)
 
 WebUI.verifyTextPresent('Total Amount', false)
 
-WebUI.verifyTextPresent(GlobalVariable.capturedPaymentID, false)
+//WebUI.verifyTextPresent(GlobalVariable.capturedPaymentID, false)
 
-WebUI.verifyTextPresent('Success', false)
+WebUI.verifyTextPresent('Failure', false)
 
 WebUI.verifyTextPresent(timestampEST_WithoutTime, false)
 
-WebUI.verifyTextPresent(GlobalVariable.capturedRemittanceID, false)
+//WebUI.verifyTextPresent(GlobalVariable.capturedRemittanceID, false)
 
 WebUI.verifyTextPresent('Carlos Jacinta', false)
 
@@ -195,7 +199,7 @@ WebUI.verifyTextPresent('Online Check', false)
 WebUI.verifyTextPresent('Debit', false)
 //WebUI.verifyTextPresent(GlobalVariable.generatedCAN, false)
 
-WebUI.verifyTextPresent('$10.50', false)
+WebUI.verifyTextPresent('$10.02', false)
 
 WebUI.verifyElementPresent(findTestObject(path_Operation_Reports + 'link_First_Pagination'), 30)
 
@@ -240,7 +244,7 @@ WebUI.verifyTextPresent('General Information', false)
 
 WebUI.verifyTextPresent('Transaction ID', false)
 
-WebUI.verifyTextPresent(GlobalVariable.capturedPaymentID, false)
+//WebUI.verifyTextPresent(GlobalVariable.capturedPaymentID, false)
 
 WebUI.verifyTextPresent('Tender Type', false)
 
@@ -252,7 +256,7 @@ WebUI.verifyTextPresent('Debit', false)
 
 WebUI.verifyTextPresent('Remittance ID', false)
 
-WebUI.verifyTextPresent(GlobalVariable.capturedRemittanceID, false)
+//WebUI.verifyTextPresent(GlobalVariable.capturedRemittanceID, false)
 
 WebUI.verifyTextPresent('Client Account Number', false)
 
@@ -262,7 +266,7 @@ WebUI.verifyTextPresent('$0.00', false)
 
 WebUI.verifyTextPresent('Total Amount', false)
 
-WebUI.verifyTextPresent('$10.50', false)
+WebUI.verifyTextPresent('$10.02', false)
 
 WebUI.verifyTextPresent('Transaction Date', false)
 
@@ -272,7 +276,7 @@ WebUI.verifyTextPresent('Parent Transaction', false)
 
 WebUI.verifyTextPresent('Status', false)
 
-WebUI.verifyTextPresent('Success', false)
+WebUI.verifyTextPresent('Failure', false)
 
 WebUI.verifyTextPresent('Fail Message', false)
 

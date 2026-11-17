@@ -145,7 +145,7 @@ WebUI.verifyTextPresent(formattedDate, false)
 
 WebUI.verifyTextPresent('Time Zone:', false)
 
-WebUI.verifyTextPresent('EDT', false)
+WebUI.verifyTextPresent('EST', false)
 
 WebUI.verifyTextPresent('Tender Type', false)
 
@@ -368,7 +368,7 @@ WebUI.verifyElementPresent(findTestObject(path_Operation_Reports + 'print_btn'),
 
 WebUI.verifyElementPresent(findTestObject(path_Operation_Reports + 'report_btn'), 30)
 
-
+WebUI.closeBrowser()
 
 
 

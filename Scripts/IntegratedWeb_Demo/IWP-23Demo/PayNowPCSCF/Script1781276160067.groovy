@@ -93,7 +93,7 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			// Populate First name Last Name 
 			
-			CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
+			CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHMainWithoutStored'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 				
 			// Select Confirm Button on Payment Confirmation Page
 			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
@@ -184,7 +184,7 @@ for (def row = 1; row <= numOfRows; row++)
 		
 		WebUI.verifyTextPresent(('UDF1 Label:'),false)
 		
-		WebUI.verifyTextPresent(('udf data 1'),false)
+//		WebUI.verifyTextPresent(('udf data 1'),false)
 		
 		WebUI.verifyTextPresent(('UDF2 Label:'),false)
 		

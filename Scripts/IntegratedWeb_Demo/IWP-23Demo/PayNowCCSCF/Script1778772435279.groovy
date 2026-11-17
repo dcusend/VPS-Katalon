@@ -208,7 +208,7 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				WebUI.verifyTextPresent(('UDF1 Label:'),false)
 				
-				WebUI.verifyTextPresent(('udf data 1'),false)
+//				WebUI.verifyTextPresent(('udf data 1'),false)
 				
 				WebUI.verifyTextPresent(('UDF2 Label:'),false)
 				

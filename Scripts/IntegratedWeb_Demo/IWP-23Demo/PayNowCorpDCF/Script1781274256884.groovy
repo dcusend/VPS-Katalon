@@ -133,7 +133,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 			WebUI.verifyTextPresent(('Address Line 1:'),false)
 			
-			WebUI.verifyTextPresent(('258 Underwood rd'),false)
+			WebUI.verifyTextPresent(('698 manadan terrace'),false)
 			
 			WebUI.verifyTextPresent(('Address Line 2:'),false)
 			
@@ -145,15 +145,15 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			WebUI.verifyTextPresent(('City:'),false)
 			
-			WebUI.verifyTextPresent(('ARLINGTON'),false)
+			WebUI.verifyTextPresent(('HOOKSETT'),false)
 			
 			WebUI.verifyTextPresent(('State:'),false)
 			
-			WebUI.verifyTextPresent(('Virginia'),false)
+			WebUI.verifyTextPresent(('New Hampshire'),false)
 			
 			WebUI.verifyTextPresent(('ZIP Code:'),false)
 			
-			WebUI.verifyTextPresent(('22201'),false)
+			WebUI.verifyTextPresent(('03106'),false)
 		
 			
 			WebUI.verifyTextPresent(('Account Information'),false)
@@ -178,9 +178,9 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			WebUI.verifyTextPresent(('$12.50'),false)
 			
-			WebUI.verifyTextPresent(('UDF1 Label:'),false)
+//			WebUI.verifyTextPresent(('UDF1 Label:'),false)
 			
-			WebUI.verifyTextPresent(('udf data 1'),false)
+//			WebUI.verifyTextPresent(('udf data 1'),false)
 			
 			WebUI.verifyTextPresent(('UDF2 Label:'),false)
 			

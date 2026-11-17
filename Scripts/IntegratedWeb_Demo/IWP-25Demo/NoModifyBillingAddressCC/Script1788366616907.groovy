@@ -43,7 +43,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/IWPBootstrapData/VRelayPaymentsCC.xlsx"
+String fileLoc = "KatalonData/IWPBootstrapDataDemo/VRelayPaymentsCC_25.xlsx"
 
 def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID

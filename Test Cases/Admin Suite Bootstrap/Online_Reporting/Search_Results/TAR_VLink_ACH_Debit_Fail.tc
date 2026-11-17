@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TAR_VLink_ACH_Debit_Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7e8fa4a-4ce3-46a9-95e6-c5846606f69e</testCaseGuid>
+</TestCaseEntity>

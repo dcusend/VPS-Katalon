@@ -41,7 +41,7 @@ import org.openqa.selenium.Keys as Keys
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/IWPBootstrapDataDemo/vRelayPaymentsACH.xlsx"
+String fileLoc = "KatalonData/IWPBootstrapDataDemo/vRelayPaymentsACH_27.xlsx"
 
 def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID
@@ -113,7 +113,7 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			// Calling ACH Main method to populate first name ,last name ,Account details,Email,Phone ,Amount ,UDF
 			
-			CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
+			CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHMainWithoutStored'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 			
 			// Select Confirm Button on Payment Confirmation Page
 			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()

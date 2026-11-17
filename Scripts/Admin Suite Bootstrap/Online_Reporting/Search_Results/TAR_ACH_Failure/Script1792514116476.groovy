@@ -152,7 +152,7 @@ WebUI.verifyTextPresent(formattedDate, false)
 
 WebUI.verifyTextPresent('Time Zone:', false)
 
-WebUI.verifyTextPresent('EDT', false)
+WebUI.verifyTextPresent('EST', false)
 
 WebUI.verifyTextPresent('Tender Type', false)
 
@@ -164,20 +164,7 @@ WebUI.verifyTextPresent('Total Credits', false)
 
 WebUI.verifyTextPresent('Net Totals', false)
 
-WebUI.verifyTextPresent('Visa Debit', false)
-
-WebUI.verifyTextPresent('Discover', false)
-
-WebUI.verifyTextPresent('MasterCard Debit', false)
-
-WebUI.verifyTextPresent('American Express', false)
-
-WebUI.verifyTextPresent('MasterCard', false)
-
-WebUI.verifyTextPresent('Visa', false)
-
-//WebUI.verifyTextPresent('On-Line Check', false)
-
+WebUI.verifyTextPresent('On-Line Check', false)
 
 WebUI.verifyTextPresent('Summary', false)
 
@@ -207,14 +194,12 @@ WebUI.verifyTextPresent(timestampEST_WithoutTime, false)
 
 //WebUI.verifyTextPresent(GlobalVariable.capturedRemittanceID, false)
 
-WebUI.verifyTextPresent('Bridges Waters', false)
+WebUI.verifyTextPresent('Carlos Jacinta', false)
 
-WebUI.verifyTextPresent('Credit Card', false)
-
-WebUI.verifyTextPresent('Authorization and Capture', false)
+WebUI.verifyTextPresent('Online Check', false)
 //WebUI.verifyTextPresent(GlobalVariable.generatedCAN, false)
 
-WebUI.verifyTextPresent('$10.11', false)
+WebUI.verifyTextPresent('$10.02', false)
 
 WebUI.verifyElementPresent(findTestObject(path_Operation_Reports + 'link_First_Pagination'), 30)
 
@@ -291,11 +276,11 @@ WebUI.verifyTextPresent('Transaction ID', false)
 
 WebUI.verifyTextPresent('Tender Type', false)
 
-WebUI.verifyTextPresent('Credit Card', false)
+WebUI.verifyTextPresent('Online Check', false)
 
 WebUI.verifyTextPresent('Transaction Type', false)
 
-WebUI.verifyTextPresent('Authorization and Capture', false)
+WebUI.verifyTextPresent('Debit', false)
 
 WebUI.verifyTextPresent('Remittance ID', false)
 
@@ -309,7 +294,7 @@ WebUI.verifyTextPresent('$0.00', false)
 
 WebUI.verifyTextPresent('Total Amount', false)
 
-WebUI.verifyTextPresent('$10.11', false)
+WebUI.verifyTextPresent('$10.02', false)
 
 WebUI.verifyTextPresent('Transaction Date', false)
 
@@ -323,17 +308,17 @@ WebUI.verifyTextPresent('Failure', false)
 
 WebUI.verifyTextPresent('Fail Message', false)
 
-WebUI.verifyTextPresent("The billing address information you entered does not match your bank's records or could not be verified. [Address Verification System initiated void]", false)
+WebUI.verifyTextPresent("The routing transit number you entered is invalid", false)
 
 WebUI.verifyTextPresent('Received Via', false)
 
 WebUI.verifyTextPresent('Integrated Web Payments', false)
 
-WebUI.verifyTextPresent('AVS Response', false)
+//WebUI.verifyTextPresent('AVS Response', false)
+//
+//WebUI.verifyTextPresent('N', false)
 
-WebUI.verifyTextPresent('N', false)
-
-WebUI.verifyTextPresent('Approval Code', false)
+//WebUI.verifyTextPresent('Approval Code', false)
 
 WebUI.verifyTextPresent('Transaction Posted by', false)
 
@@ -341,13 +326,13 @@ WebUI.verifyTextPresent('Email', false)
 
 WebUI.verifyTextPresent('iahmed1@govolution.com', false)
 
-WebUI.verifyTextPresent('Credit Card Information', false)
+WebUI.verifyTextPresent('Check Account Information', false)
 
 WebUI.verifyTextPresent('Company', false)
 
-WebUI.verifyTextPresent('Name on Card', false)
+WebUI.verifyTextPresent("Checkwriter's Name", false)
 
-WebUI.verifyTextPresent('Bridges Waters', false)
+WebUI.verifyTextPresent('Carlos Jacinta', false)
 
 WebUI.verifyTextPresent('Address Line 1', false)
 
@@ -373,17 +358,17 @@ WebUI.verifyTextPresent('Country', false)
 
 WebUI.verifyTextPresent('United States', false)
 
-WebUI.verifyTextPresent('Card Type', false)
+WebUI.verifyTextPresent('Check Type', false)
 
-WebUI.verifyTextPresent('Visa', false)
+WebUI.verifyTextPresent('Personal', false)
 
-WebUI.verifyTextPresent('Partial Card Number', false)
+WebUI.verifyTextPresent('Partial Account Number', false)
 
-WebUI.verifyTextPresent('47 - 0011', false)
+WebUI.verifyTextPresent('5489', false)
 
-WebUI.verifyTextPresent('Expiration Date', false)
+WebUI.verifyTextPresent('Routing Transit Number', false)
 
-WebUI.verifyTextPresent('12/2028', false)
+WebUI.verifyTextPresent('2691', false)
 
 WebUI.verifyTextPresent('Custom Information', false)
 

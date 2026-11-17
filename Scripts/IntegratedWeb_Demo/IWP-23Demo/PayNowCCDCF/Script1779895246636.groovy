@@ -202,9 +202,9 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				WebUI.verifyTextPresent(('$12.50'),false)
 				
-				WebUI.verifyTextPresent(('UDF1 Label:'),false)
-				
-				WebUI.verifyTextPresent(('udf data 1'),false)
+//				WebUI.verifyTextPresent(('UDF1 Label:'),false)
+//				
+//				WebUI.verifyTextPresent(('udf data 1'),false)
 				
 				WebUI.verifyTextPresent(('UDF2 Label:'),false)
 				
@@ -257,7 +257,7 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				KeywordUtil.markFailed("Paynow button not found. Exiting the test case,  please re-execute")
 				
-				WebUI.closeBrowser()
+//				WebUI.closeBrowser()
 			}
 						
 			

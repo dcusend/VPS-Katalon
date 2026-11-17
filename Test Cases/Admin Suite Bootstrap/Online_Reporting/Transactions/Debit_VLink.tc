@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA, QA2 and Demo and Demo2</description>
+   <name>Debit_VLink</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>832600f7-9425-41e9-aed1-c94470ebbd66</testCaseGuid>
+</TestCaseEntity>

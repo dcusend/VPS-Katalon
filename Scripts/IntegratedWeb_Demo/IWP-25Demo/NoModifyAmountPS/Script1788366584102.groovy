@@ -41,7 +41,7 @@ import org.openqa.selenium.Keys as Keys
 String resText = "Fail"
 String resColumn = "Result"
 String datCloumn = "Date"
-String fileLoc = "KatalonData/IWPBootstrapDataDemo/vRelayPaymentsACH.xlsx"
+String fileLoc = "KatalonData/IWPBootstrapDataDemo/vRelayPaymentsACH_25.xlsx"
 
 def numOfRows, dataFile, nameSheet, dataFileEmulator, isRequiredTextPresent = false
 def ExecuteTC, EmulatorDataKey, AppID, MessageVersion, Amount, UDFID, NameID

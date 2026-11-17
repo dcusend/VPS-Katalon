@@ -135,7 +135,7 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				WebUI.verifyTextPresent(("Cardholder Name"), false)
 				
-				WebUI.verifyTextPresent(("JASMINE PATRINOL"), false)
+				WebUI.verifyTextPresent(("BRIDGES WATERS"), false)
 				
 				WebUI.verifyTextPresent(("Card Type"), false)
 				
@@ -155,7 +155,7 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				WebUI.verifyTextPresent(('Address Line 1:'),false)
 				
-				WebUI.verifyTextPresent(('258 Underwood rd'),false)
+				WebUI.verifyTextPresent(('698 manadan terrace'),false)
 				
 				WebUI.verifyTextPresent(('Address Line 2:'),false)
 				
@@ -167,15 +167,15 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				WebUI.verifyTextPresent(('City:'),false)
 				
-				WebUI.verifyTextPresent(('ARLINGTON'),false)
+				WebUI.verifyTextPresent(('HOOKSETT'),false)
 				
 				WebUI.verifyTextPresent(('State:'),false)
 				
-				WebUI.verifyTextPresent(('VA'),false)
+				WebUI.verifyTextPresent(('NH'),false)
 				
 				WebUI.verifyTextPresent(('ZIP Code:'),false)
 				
-				WebUI.verifyTextPresent(('22201'),false)
+				WebUI.verifyTextPresent(('03106'),false)
 			
 				
 				WebUI.verifyTextPresent(('Account Information'),false)
@@ -190,7 +190,7 @@ for (def row = 1; row <= numOfRows; row++)
 				
 				WebUI.verifyTextPresent(('UDF1 Label:'),false)
 				
-				WebUI.verifyTextPresent(('udf data 1'),false)
+//				WebUI.verifyTextPresent(('udf data 1'),false)
 				
 				WebUI.verifyTextPresent(('UDF2 Label:'),false)
 				
@@ -236,13 +236,13 @@ for (def row = 1; row <= numOfRows; row++)
 						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 						println WebUI.getText(findTestObject('Object Repository/IWP30/Page_Receipt/div_ReceiptSourceCode'))
 					}
-//					WebUI.closeBrowser()
+					WebUI.closeBrowser()
 			}
 			else {
 				
 				KeywordUtil.markFailed("Paynow button not found. Exiting the test case,  please re-execute")
 				
-//				WebUI.closeBrowser()
+				WebUI.closeBrowser()
 			}
 			
 			

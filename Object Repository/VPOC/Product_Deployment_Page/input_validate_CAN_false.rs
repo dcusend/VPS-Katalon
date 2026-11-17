@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_validate_CAN_false</name>
+   <tag></tag>
+   <elementGuidId>6796c78c-1819-41c4-ae5b-b7fe9ddce674</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'validateCAN' and @value = 'false']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>validateCAN</value>
+      <webElementGuid>9f55b9a3-6ed9-41e6-8761-0163448da6b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>298d3011-6fe0-48a4-b29c-caa73b1f78e5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

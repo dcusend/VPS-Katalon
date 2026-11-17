@@ -145,7 +145,7 @@ WebUI.verifyTextPresent(formattedDate, false)
 
 WebUI.verifyTextPresent('Time Zone:', false)
 
-WebUI.verifyTextPresent('EDT', false)
+WebUI.verifyTextPresent('EST', false)
 
 WebUI.verifyTextPresent('Tender Type', false)
 

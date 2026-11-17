@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VRelay_Verify_Channel_Web</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>030ff597-c610-41c7-bb0c-86754ef7c2ed</testCaseGuid>
+</TestCaseEntity>

@@ -110,11 +110,10 @@ for (def row = 1; row <= numOfRows; row++)
 			
 			// Calling ACH Main method to populate first name ,last name ,Account details,Email,Phone ,Amount ,UDF
 			
-			CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHMain'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
+			CustomKeywords.'iwpPages.achPersonalPaymentEntryBootstrapPage.setDataACHMainWithoutStored'(NameID, ACHID, EmailPhoneID, AddressID, Amount, UDFID)
 			
 			// Select Confirm Button on Payment Confirmation Page
-			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
-			
+			CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()		
 			
 			WebUI.delay(GlobalVariable.longTimeDelay)
 			

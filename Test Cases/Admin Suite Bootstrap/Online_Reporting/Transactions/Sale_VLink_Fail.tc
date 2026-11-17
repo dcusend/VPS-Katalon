@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>QA, QA2 and Demo and Demo2</description>
+   <name>Sale_VLink_Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99c995be-a975-4c9d-8cdd-23db9cc735fe</testCaseGuid>
+</TestCaseEntity>
