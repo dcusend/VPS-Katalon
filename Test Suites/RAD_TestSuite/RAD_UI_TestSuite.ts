@@ -229,13 +229,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f19d01ca-321d-4fa6-849d-98b622e17861</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/Existing/Existing_UnclaimedProperty_UI_TC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e732b251-20b2-4be0-bf01-684b36fc3241</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -422,13 +415,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_TobaccoTax_UI_TC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>51fe9745-b5ae-4875-98d6-54a8c408235e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/RAD_TestCases/UI_TestCases/New Liability/NewLiability_UnclaimedProperty_UI_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

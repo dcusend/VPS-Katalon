@@ -36,6 +36,8 @@ public class getSetDataRAD {
 		// Get Data
 		def rad_ssn = GlobalVariable.rad_SSN
 		def rad_ssn_lastName = GlobalVariable.rad_SSN_LastName
+		println("SSN: " + rad_ssn)
+		println("Last Name: " + rad_ssn_lastName)
 
 		// Set Data
 		WebUI.setText(findTestObject(orPath_TaxPayer + '/input_firstName'),"Jimmy")

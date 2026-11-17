@@ -42,7 +42,7 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 	def totalOptionsPaymentType = WebUI.getNumberOfTotalOption(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'))
 	
 // Added 10/03/2025 as part of new changes
-	if (WebUI.verifyEqual(totalOptionsPaymentType, 24))
+	if (WebUI.verifyEqual(totalOptionsPaymentType, 23))
 	
 		{
 			System.out.println('Total Options for Payment Type are correct: ' + totalOptionsPaymentType)
@@ -61,7 +61,9 @@ String orPath_TaxInfo = "Object Repository/RAD_Pages/TaxInfo_Page"
 	
 		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Sales and Use Tax','Slots License Fee','Tire Recycling Fee','Tobacco Tax','Transportation Network Services'])
 		
-		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Unclaimed Property','Withholding Tax'])
+		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Withholding Tax'])
+		
+		//WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Unclaimed Property'])
 		
 		WebUI.verifyOptionsPresent(findTestObject('Object Repository/RAD_Pages/Landing_Page/select_NewTaxReturnAmountDue_TaxType'),['Digital Advertising Gross Revenues','Motor Fuel Floor Tax'])
 		
