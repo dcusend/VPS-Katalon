@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>EMV_PaymentEntry_ChangedJSON_UI</name>
+   <name>CreditDebitCard_PaymentEntry_ChangedJSON_UI</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3700e4db-06cb-4bd7-9a12-0e945859110a</testCaseGuid>
+   <testCaseGuid>9b5092d3-441a-48a6-868e-6372eb5266c3</testCaseGuid>
 </TestCaseEntity>

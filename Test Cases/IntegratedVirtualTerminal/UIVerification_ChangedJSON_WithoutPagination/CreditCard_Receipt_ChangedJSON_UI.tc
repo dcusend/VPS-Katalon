@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreditCard_Receipt_ChangedJSON_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7dd4b224-9ad4-4fb8-bca0-deccbc56c29a</testCaseGuid>
+</TestCaseEntity>

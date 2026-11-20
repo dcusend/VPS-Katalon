@@ -26,6 +26,8 @@ import org.apache.commons.lang.RandomStringUtils
 
 def Url, Environment, UserName, Password, PartnerToken, JSONBody       
 
+def Amount, parcelData
+
 def fileLoc, nameSheet, dataFile, numOfRows, isRequiredTextPresent= false
 
 def executionProfile = RC.getExecutionProfile()
@@ -56,9 +58,9 @@ switch(executionProfile)
 			 Password = GlobalVariable.IVTPassword
 			 PartnerToken= GlobalVariable.IVTPartnerToken
 			 			 
-		fileLoc = 'KatalonData/IVT/IVT_Login.xlsx'
-		nameSheet = 'Submit_SameJson'
-		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_Login.xlsx', nameSheet, true)
+		fileLoc = 'KatalonData/IVT/IVT_ChangedJSON_UI.xlsx'
+		nameSheet = 'Submit_ChangedJson_Ui'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_ChangedJSON_UI.xlsx', nameSheet, true)
 	
 		break
 				
@@ -104,14 +106,11 @@ for (def row = 1; row <= numOfRows; row++)
 		if (ExecuteTC.equalsIgnoreCase("Y"))
 			{
 				System.out.println('Begin Record Number: ' + row)
+				
 	
-				Date today = new Date()
-				println (today)
-				String datText = today
-								
 				 
 switch(executionProfile)
-{
+   {
 	case "QAProfile":
 				 Environment = dataFile.getValue("Environment", row)
 				 JSONBody = dataFile.getValue("JSONBody", row)
@@ -136,21 +135,52 @@ switch(executionProfile)
 
 		    break
 				 
-}
+   }
 							  
 				 
 // Login(Submit Request)
 CustomKeywords.'ivtPages.IVTlogin.SetDataIVTlogin'(Url, Environment, UserName, Password, PartnerToken, JSONBody)
-
+			
+  }
+}
+			
 					
 //Parcels Label page verification
+		
+WebUI.delay(2)
 
+fileLoc = 'KatalonData/IVT/IVT_ChangedJSON_UI.xlsx'
+nameSheet = 'ParcelsLabel_ChangedJson_Ui'
+parcelData = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_ChangedJSON_UI.xlsx', nameSheet, true)
+
+
+numOfRows = parcelData.getRowNumbers()
+println("Number of Records: " + numOfRows)
+
+for (def ParcelsRow = 1; ParcelsRow <= numOfRows; ParcelsRow++)
+{
+
+	ExecuteTC = parcelData.getValue('Execute', ParcelsRow)
+	System.out.println('Value of Execute is : ' + ExecuteTC)
+	
+	
+	if (ExecuteTC.equalsIgnoreCase("Y"))
+		{
+			System.out.println('Begin Record Number: ' + ParcelsRow)
+			
+			Date today = new Date()
+			println (today)
+			String datText = today
+															  
+			Amount = parcelData.getValue("Amount", ParcelsRow)
+			 
+			 
 WebUI.verifyTextPresent('Parcels Label', true)
-
+			 
 WebUI.verifyTextPresent('Show', true)
-WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Show'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Show'), 10)
-WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Show'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'), 10)
+WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'))
 
 WebUI.verifyTextPresent('Reference Number', true)
 WebUI.verifyTextPresent('Quantity', true)
@@ -160,18 +190,39 @@ WebUI.verifyTextPresent('Previous', true)
 WebUI.verifyTextPresent('Next', true)
 
 WebUI.verifyTextPresent('Due Amount', true)
-WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Due_Amount'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Due_Amount'), 10)
-WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Due_Amount'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'), 10)
+WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'))
+
+
+//'Show' drop down validation
+CustomKeywords.'ivtPages.ParcelsLabel.verifyShowDropDown'()
+
+
+//select '10' from 'Show' drop down when row count is more than 5 in Parcels Data table 
+WebUI.selectOptionByLabel(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'),'10',false)
+
+
+//comparing Parcel table from excel to UI table
+CustomKeywords.'ivtPages.ParcelsLabel.verifyParcelData'(JSONBody)
+
+
+//'Due Amount' verification
+Amount = WebUI.getAttribute(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount'), "value") 
+println(Amount) 
+WebUI.verifyEqual(Amount, parcelData.getValue("Amount", ParcelsRow))
+
+
 
 
 //reporting in excel
+WebUI.delay(2)
 if (
 		WebUI.verifyTextPresent('Parcels Label', true) &&
 		
 		WebUI.verifyTextPresent('Show', true) &&
-		WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Show'), 10) &&
-		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Show')) &&
+		WebUI.verifyElementPresent(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'), 10) &&
+		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show')) &&
 		
 		WebUI.verifyTextPresent('Reference Number', true) &&
 		WebUI.verifyTextPresent('Quantity', true) &&
@@ -180,9 +231,14 @@ if (
 		WebUI.verifyTextPresent('Previous', true) &&
 		WebUI.verifyTextPresent('Next', true) &&
 		
+		WebUI.verifyTextPresent('Showing 1 to 7 of 7 entries', true) &&
+		
 		WebUI.verifyTextPresent('Due Amount', true) &&
-		WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Due_Amount')) &&
-		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ivtPages.ParcelsLabel/Due_Amount')) 
+		WebUI.verifyElementVisible(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount')) &&
+		WebUI.verifyElementClickable(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Due_Amount')) &&
+		
+		WebUI.verifyEqual(Amount, parcelData.getValue("Amount", ParcelsRow))
+				
 	) 
 
 		{
@@ -198,17 +254,17 @@ else{
 	if (isRequiredTextPresent == true)
 			{
 				println "All the relevant texts are present on 'Parcels Label' Page"
-				//KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
-				//resText = "Pass"
-				//CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+				KeywordUtil.markPassed("All the relevant texts are present on Receipt Page")
+				resText = "Pass"
+				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,ParcelsRow)
 		
 			}
 	else
 			{
 				println "Some texts are missing on the 'Parcels Label' page"
-				//KeywordUtil.markFailed("Some texts are missing on the Receipt page")
-				//resText = "Fail"
-				//CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
+				KeywordUtil.markFailed("Some texts are missing on the Receipt page")
+				resText = "Fail"
+				CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,ParcelsRow)
 			}
 	
 	

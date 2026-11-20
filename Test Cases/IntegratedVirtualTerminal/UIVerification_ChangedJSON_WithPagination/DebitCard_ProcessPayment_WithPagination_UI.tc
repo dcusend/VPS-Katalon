@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitCard_ProcessPayment_WithPagination_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e14335ab-bbe6-43fd-b69b-2decc67ccbfa</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PreviousEnabled</name>
+   <tag></tag>
+   <elementGuidId>3a0277ea-8a06-4f94-98c2-c10cc945041a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;feeLinesTable_previous&quot;]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;feeLinesTable_previous&quot;]/a</value>
+      <webElementGuid>0fce5028-3edb-4a5e-bc36-4b6f085bae8b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

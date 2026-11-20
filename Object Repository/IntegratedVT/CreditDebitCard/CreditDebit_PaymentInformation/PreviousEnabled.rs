@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PreviousEnabled</name>
+   <tag></tag>
+   <elementGuidId>906295d2-73d0-4a1a-ad4b-317a2b0c9e14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;confirmFeeLinesTable_previous&quot;]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;confirmFeeLinesTable_previous&quot;]/a</value>
+      <webElementGuid>0e64bd33-e7da-400f-a7df-4ea47dafab1f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

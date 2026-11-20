@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PreviousEnabled</name>
+   <tag></tag>
+   <elementGuidId>3e94d0fb-1b21-4735-958a-e1a06d02c8ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptFeeLinesTable_previous&quot;]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptFeeLinesTable_previous&quot;]/a</value>
+      <webElementGuid>c0812928-cc13-4815-90e1-7c119f39ad55</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

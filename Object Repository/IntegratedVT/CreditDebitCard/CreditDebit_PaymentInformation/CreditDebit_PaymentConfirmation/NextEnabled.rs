@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NextEnabled</name>
+   <tag></tag>
+   <elementGuidId>9dcf4a98-5b98-4610-bd23-5b5f6a4013ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;receiptFeeLinesTable_next&quot;]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;receiptFeeLinesTable_next&quot;]/a</value>
+      <webElementGuid>ce5e7a7c-0b7f-4094-91b0-c145fcbfdc19</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

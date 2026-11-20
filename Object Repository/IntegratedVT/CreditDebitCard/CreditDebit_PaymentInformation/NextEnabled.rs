@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NextEnabled</name>
+   <tag></tag>
+   <elementGuidId>fbefccc7-46a2-485c-b334-c557f8e3968f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;confirmFeeLinesTable_next&quot;]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;confirmFeeLinesTable_next&quot;]/a</value>
+      <webElementGuid>99a94a69-af9d-485b-9527-a338dedb08cf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
