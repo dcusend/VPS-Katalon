@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AuthOnly</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>639f61ce-7422-4539-9823-cf5aae7c5d6d</testCaseGuid>
+</TestCaseEntity>

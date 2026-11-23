@@ -38,10 +38,10 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data')
 WebUI.setText(to('name=user_defined9'), 'udf9 data')
 WebUI.setText(to('name=user_defined10'), 'udf10 data')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[3]"))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=amount'), '10.00')
 WebUI.setText(to('name=userDefined1'), 'udf1 data')
@@ -76,8 +76,7 @@ WebUI.verifyTextPresent(("This the ACH Custom HTML. This text is to verify that 
 
 
 WebUI.click(to('name=achSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
-
+WebUI.delay(5)
 
 
 //softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
@@ -91,7 +90,7 @@ WebUI.verifyTextPresent(("This the ACH Custom HTML. This text is to verify that 
 
 
 WebUI.click(to('name=confirmNotifyAction'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 Thread.sleep(20000);
 
 

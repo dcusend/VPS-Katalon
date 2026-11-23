@@ -514,4 +514,75 @@ public class virtualTerminalSetData {
 
 		WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
 	}
+
+
+
+//#############################################################################################################################
+
+@Keyword
+def genericKeyboard_DataDriven_EF_NoUDF(int rowS, dataFileS) {
+	
+			String cardName,transCat, cardNumber, CSC, expM, expY, al1, al2, zipCode, emailAddress, phoneNumber, amount
+			//String UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,UDF7,UDF8,UDF9,UDF10
+	
+			// GetData
+			cardName = dataFileS.getValue('CardName', rowS)
+			transCat = dataFileS.getValue('TranxCategory', rowS)
+			cardNumber = dataFileS.getValue('CardNumber', rowS)
+			CSC = dataFileS.getValue('CSC', rowS)
+			expM = dataFileS.getValue('ExpMM', rowS)
+			expY = dataFileS.getValue('ExpYYYY', rowS)
+			al1 = dataFileS.getValue('AL1', rowS)
+			al2 = dataFileS.getValue('AL2', rowS)
+			zipCode = dataFileS.getValue('ZIP', rowS)
+			emailAddress = dataFileS.getValue('Email', rowS)
+			phoneNumber = dataFileS.getValue('Phone', rowS)
+			amount = dataFileS.getValue('Amount', rowS)
+	
+			
+	
+	
+			// SetData
+	
+			String path_SaleKB = "Object Repository/AdminSuiteBootstrap_Pages/VT_Bootstrap/SaleKeyboard/"
+	
+			WebUI.setText(findTestObject(path_SaleKB + 'input__zip'), zipCode)
+			WebUI.setText(findTestObject(path_SaleKB + 'input_cardName'), cardName)
+			WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_transactionCategory'), transCat, true)
+			WebElement element = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cardNumber2'),30)
+			WebUI.executeJavaScript("arguments[0].value ='"+ cardNumber+"' "  , Arrays.asList(element))
+			WebElement element2 = WebUiCommonHelper.findWebElement(findTestObject(path_SaleKB + 'input__cvv'),30)
+			WebUI.executeJavaScript("arguments[0].value ='"+ CSC+"' ", Arrays.asList(element2))
+			WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_MM'), expM, true)
+			WebUI.selectOptionByValue(findTestObject(path_SaleKB + 'select_YYYY'), expY, true)
+			WebUI.setText(findTestObject(path_SaleKB + 'input__address'), al1)
+			WebUI.setText(findTestObject(path_SaleKB + 'input__address2'), al2)
+			//		WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), emailAddress)
+	
+	
+			if ((!emailAddress.isEmpty())) {
+				WebUI.setText(findTestObject(path_SaleKB + 'input_emailAddress'), emailAddress)
+			}
+			else {
+				println("Email Address is not present in the Excel Spreadsheet")
+			}
+	
+			if ((!phoneNumber.isEmpty())) {
+				WebUI.setText(findTestObject(path_SaleKB + 'input_smsNumber'), phoneNumber)
+			}
+			else {
+				println("Phone Number is not present in the Excel Spreadsheet")
+			}
+	
+	
+	
+			WebUI.setText(findTestObject(path_SaleKB + 'input_amount'), amount)
+	
+			
+	
+			WebUI.click(findTestObject(path_SaleKB + 'button_Submit'))
+		}
+		//##################################################################################################################################
+		
 }
+	

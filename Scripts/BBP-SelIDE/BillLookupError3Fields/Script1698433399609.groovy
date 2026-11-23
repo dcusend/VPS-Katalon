@@ -26,7 +26,7 @@ WebUI.setText(to("id=field1"), "666160")
 WebUI.setText(to("id=field2"), "666161")
 WebUI.setText(to("id=field3"), "666162")
 WebUI.click(to("name=Test"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 //softAssertion.assertEquals(Pattern.matches('selenium.getText("id=error_msg")', "Match Found. Please verify the Amount Due below and click \"Continue\" to review your bill information and make a payment."), true)
 

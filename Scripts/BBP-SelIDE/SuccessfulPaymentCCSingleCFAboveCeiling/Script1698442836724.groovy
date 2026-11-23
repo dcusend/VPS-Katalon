@@ -20,10 +20,10 @@ WebUI.setText(to("id=field3"), "666162")
 WebUI.click(to("name=Test"))
 WebUI.delay(2)
 WebUI.click(to("name=paysubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("name=paymentMethod"))
 WebUI.click(to("css=input[type=\"submit\"]"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
 WebUI.verifyTextPresent(("Please enter the following information about your payment:"), true)
@@ -43,18 +43,17 @@ WebUI.setText(to("id=billing-zip-input"), "21054")
 WebUI.setText(to("name=emailAddress"), ("iahmed@govolution.com").toString())
 WebUI.click(to("id=checkedAcceptCondition"))
 WebUI.click(to("name=ccSubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent(("Please verify the following information:"), true)
 WebUI.verifyTextPresent(("Is this information correct"), true)
 
 
 WebUI.click(to("name=confirmNotifyAction"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.delay(15)
 
 WebUI.verifyTextPresent(("Total Amount:"), true)
 WebUI.verifyTextPresent(("\$101.00"), false)
-
 
 

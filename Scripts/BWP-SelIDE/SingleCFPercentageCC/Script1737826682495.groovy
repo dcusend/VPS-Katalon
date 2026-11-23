@@ -34,11 +34,11 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data Hello')
 WebUI.setText(to('name=user_defined9'), 'udf9 data Hello')
 WebUI.setText(to('name=user_defined10'), 'udf10 data Hello')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.click(to('name=paymentMethod'))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=amount'), '60.00')
@@ -55,13 +55,13 @@ WebUI.setText(to('name=billingAddress'), '2311 york road')
 WebUI.setText(to('name=billingAddress2'), 'suite 600')
 WebUI.click(to('id=checkedAcceptCondition'))
 WebUI.click(to('name=ccSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('Please verify the following information:', true)
 WebUI.verifyTextPresent('Is this information correct', true)
 
 WebUI.click(to('name=confirmNotifyAction'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('Payment Amount:', true)
 WebUI.verifyTextPresent('Convenience Fees:', true)
@@ -71,7 +71,7 @@ WebUI.verifyTextPresent('One transaction in the amount of', true)
 WebUI.verifyTextPresent('will appear on your bank statement', true)
 
 WebUI.click(to('name=convFeeNotifyAction'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 Thread.sleep(20000)
 
 WebUI.verifyTextPresent('Successful Payment Receipt', true)

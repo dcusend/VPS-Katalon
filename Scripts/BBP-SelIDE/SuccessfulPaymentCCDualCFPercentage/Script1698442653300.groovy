@@ -19,10 +19,10 @@ WebUI.setText(to("id=field2"), "101111")
 WebUI.click(to("name=Test"))
 WebUI.delay(2)
 WebUI.click(to("name=paysubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("name=paymentMethod"))
 WebUI.click(to("css=input[type=\"submit\"]"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.setText(to("name=amount"), ("60.00").toString())
 WebUI.setText(to("name=userDefined2"), ("UDF2 Data1").toString())
 WebUI.setText(to("name=userDefined3"), ("UDF3 Data1").toString())
@@ -40,7 +40,7 @@ WebUI.setText(to("id=billing-zip-input"), "21054")
 WebUI.setText(to("name=emailAddress"), ("iahmed@govolution.com").toString())
 WebUI.click(to("id=checkedAcceptCondition"))
 WebUI.click(to("name=ccSubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 //softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
 //softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
 
@@ -49,7 +49,7 @@ WebUI.verifyTextPresent(("Is this information correct"), true)
 
 
 WebUI.click(to("name=confirmNotifyAction"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 //softAssertion.assertEquals("This transaction is subject to a Convenience Fees of $6.00.", selenium.getText("css=td.payor_opt > p"))
 //softAssertion.assertEquals("Payment Amount:", selenium.getText("//td[2]"))
 //softAssertion.assertEquals("$60.00", selenium.getText("//td[3]"))
@@ -71,7 +71,7 @@ WebUI.verifyTextPresent(("Two transactions will appear on your bank statement, o
 	
 
 WebUI.click(to("name=convFeeNotifyAction"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.delay(15)
 //softAssertion.assertEquals("$60.00", selenium.getText("//tr[12]/td[2]"))
 //softAssertion.assertEquals("$6.00", selenium.getText("//tr[13]/td[2]"))
@@ -86,6 +86,5 @@ WebUI.verifyTextPresent(("Dual Transaction"), true)
 WebUI.verifyTextPresent(("\$66.00"), false)
 WebUI.verifyTextPresent(("Authorization and Capture"), true)
 WebUI.verifyTextPresent(("Visa"), true)
-
 
 

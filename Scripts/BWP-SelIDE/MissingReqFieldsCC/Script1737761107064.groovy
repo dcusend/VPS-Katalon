@@ -32,10 +32,10 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data')
 WebUI.setText(to('name=user_defined9'), 'udf9 data')
 WebUI.setText(to('name=user_defined10'), 'udf10 data')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to('name=paymentMethod'))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.setText(to('id=billing-zip-input'), '')
 WebUI.setText(to('name=amount'), '')
@@ -57,7 +57,7 @@ WebUI.setText(to('name=billingAddress'), '')
 WebUI.setText(to('name=billingAddress2'), 'suite 600')
 WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
 WebUI.click(to('name=ccSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 
 
@@ -98,7 +98,6 @@ WebUI.verifyTextPresent(("Card expiration date is required"), true)
 WebUI.verifyTextPresent(("Card address Line 1 is required"), true)
 WebUI.verifyTextPresent(("Card ZIP Code is required"), true)
 WebUI.verifyTextPresent(("You must review and accept the Credit Card terms and conditions in order to process a credit transaction."), true)
-
 
 
 

@@ -85,11 +85,11 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data')
 WebUI.setText(to('name=user_defined9'), 'udf9 data')
 WebUI.setText(to('name=user_defined10'), 'udf10 data')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=amount'), '10.00')
@@ -118,7 +118,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/acc
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 'value', '11111111', 1000)
 
 WebUI.click(to('name=achSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/accountNumber'), 1000)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BWP/confirmAccountNumber'), 1000)

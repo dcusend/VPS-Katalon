@@ -21,12 +21,12 @@ WebUI.setText(to("id=field2"), "111151")
 WebUI.click(to("name=Test"))
 WebUI.delay(2)
 WebUI.click(to("name=paysubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("name=paymentMethod"))
 WebUI.click(to("css=input[type=\"submit\"]"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("name=changePaymentMethodButton"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 
 WebUI.verifyTextPresent(("Select Payment Method"), true)
@@ -39,4 +39,3 @@ WebUI.verifyTextPresent(("Pay by Personal Check"), true)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/BBP/SelectPaymentMethod_Page/input_PayByCorp'),30)
 WebUI.verifyTextPresent(("Pay by Corporate Check"), true)
-

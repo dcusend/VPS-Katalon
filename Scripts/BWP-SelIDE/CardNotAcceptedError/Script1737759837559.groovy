@@ -37,10 +37,10 @@ WebUI.setText(to("name=user_defined8"), ("udf8 data").toString())
 WebUI.setText(to("name=user_defined9"), ("udf9 data").toString())
 WebUI.setText(to("name=user_defined10"), ("udf10 data").toString())
 WebUI.click(to("css=input[type=\"submit\"]"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("name=paymentMethod"))
 WebUI.click(to("css=input[type=\"submit\"]"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.setText(to("id=billing-zip-input"), "22201")
 WebUI.setText(to("name=amount"), ("10.00").toString())
 WebUI.setText(to("name=userDefined1"), ("udf1 data").toString())
@@ -59,12 +59,11 @@ WebUI.setText(to("name=billingAddress2"), ("suite 600").toString())
 WebUI.setText(to("name=emailAddress"), ("iahmed@govolution.com").toString())
 WebUI.click(to("id=checkedAcceptCondition"))
 WebUI.click(to("name=ccSubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 //softAssertion.assertEquals("This card type is not accepted, please enter a different credit or debit card number. Only Discover , MasterCard and Visa card(s) is(are) accepted.", selenium.getText("css=span.vrelay-error"))
 WebUI.verifyTextPresent(("This card type is not accepted, please enter a different credit or debit card number."), true)
 
 WebUI.verifyTextPresent(("Only Discover , MasterCard and Visa card\\(s\\) is\\(are\\) accepted."), true)
-
 
 
 

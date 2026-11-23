@@ -19,7 +19,7 @@ WebUI.setText(to("id=field2"), "654321")
 WebUI.click(to("name=Test"))
 WebUI.delay(2)
 WebUI.click(to("name=paysubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.delay(10)
 
 WebUI.verifyTextPresent(("Test vBills Auto - Error"), true)

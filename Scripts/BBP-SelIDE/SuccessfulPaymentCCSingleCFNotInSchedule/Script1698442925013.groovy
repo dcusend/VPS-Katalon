@@ -21,10 +21,10 @@ WebUI.setText(to("id=field3"), "666162")
 WebUI.click(to("name=Test"))
 WebUI.delay(2)
 WebUI.click(to("name=paysubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("name=paymentMethod"))
 WebUI.click(to("css=input[type=\"submit\"]"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 //softAssertion.assertEquals("Required fields are highlighted with an asterisk.", selenium.getText("css=span.required"))
 //softAssertion.assertEquals("Please enter the following information about your payment:", selenium.getText("css=span.vrelay-header"))
 
@@ -46,7 +46,7 @@ WebUI.setText(to("id=billing-zip-input"), "21054")
 WebUI.setText(to("name=emailAddress"), ("iahmed@govolution.com").toString())
 WebUI.click(to("id=checkedAcceptCondition"))
 WebUI.click(to("name=ccSubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 //softAssertion.assertEquals("Please verify the following information:", selenium.getText("css=span.vrelay-header"))
 //softAssertion.assertEquals(Pattern.matches('selenium.getText("css=span.payor_opt")', '^exact:Is this information correct[\\s\\S]$'), true)
 
@@ -55,12 +55,11 @@ WebUI.verifyTextPresent(("Is this information correct"), true)
 
 
 WebUI.click(to("name=confirmNotifyAction"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.delay(15)
 //softAssertion.assertEquals("Total Amount:", selenium.getText("//tr[7]/td"))
 //softAssertion.assertEquals("$10.00", selenium.getText("//tr[7]/td[2]"))
 
 WebUI.verifyTextPresent(("Total Amount:"), true)
 WebUI.verifyTextPresent(("\$10.00"), false)
-
 
