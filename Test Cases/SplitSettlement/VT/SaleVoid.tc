@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SaleVoid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b0e1cc84-d7e7-415a-b9d7-3856ca5d4b5c</testCaseGuid>
+</TestCaseEntity>

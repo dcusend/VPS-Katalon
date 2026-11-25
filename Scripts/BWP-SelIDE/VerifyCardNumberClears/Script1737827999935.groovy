@@ -85,11 +85,11 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data')
 WebUI.setText(to('name=user_defined9'), 'udf9 data')
 WebUI.setText(to('name=user_defined10'), 'udf10 data')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.click(to('name=paymentMethod'))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=amount'), '10.00')
@@ -111,6 +111,6 @@ WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/creditCardNumber'), 'value', '4111111111111111', 1000)
 
 WebUI.click(to('name=ccSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_BWP/creditCardNumber'), 'value', '', 1000)

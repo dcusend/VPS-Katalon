@@ -38,10 +38,10 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data')
 WebUI.setText(to('name=user_defined9'), 'udf9 data')
 WebUI.setText(to('name=user_defined10'), 'udf10 data')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=amount'), '10.00')
 WebUI.setText(to('name=userDefined1'), '')
@@ -64,7 +64,7 @@ WebUI.setText(to('name=billingAddress2'), '')
 WebUI.setText(to('name=emailAddress'), '')
 WebUI.click(to('id=checkedAcceptCondition'))
 WebUI.click(to('name=achSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 
 
@@ -79,7 +79,7 @@ WebUI.verifyTextPresent(("Is this information correct"), true)
 
 
 WebUI.click(to('name=confirmNotifyAction'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 Thread.sleep(20000);
 
 
@@ -98,5 +98,4 @@ Thread.sleep(20000);
 WebUI.verifyTextPresent(("Successful Payment Receipt"), true)
 WebUI.verifyTextPresent(("Personal.*"), true)
 WebUI.verifyTextPresent(("Checking.*"), true)
-
 

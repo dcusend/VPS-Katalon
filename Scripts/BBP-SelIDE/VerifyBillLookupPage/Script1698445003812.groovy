@@ -30,4 +30,4 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/BBP/BillLookup_Page
 WebUI.verifyElementVisible(findTestObject('Object Repository/BBP/BillLookup_Page/button_ModifySearch'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/BBP/BillLookup_Page/button_SearchForBill'))
 
-
+WebUI.delay(5)

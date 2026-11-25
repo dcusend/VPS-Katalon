@@ -32,10 +32,10 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data')
 WebUI.setText(to('name=user_defined9'), 'udf9 data')
 WebUI.setText(to('name=user_defined10'), 'udf10 data')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[3]"))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.setText(to('id=billing-zip-input'), '')
 WebUI.setText(to('name=amount'), '')
@@ -57,7 +57,7 @@ WebUI.setText(to('name=billingAddress'), '')
 WebUI.setText(to('name=billingAddress2'), 'suite 600')
 WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
 WebUI.click(to('name=achSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 
 
@@ -102,7 +102,6 @@ WebUI.verifyTextPresent(("ZIP Code is required"), true)
 WebUI.verifyTextPresent(("City is required.*"), true)
 WebUI.verifyTextPresent(("State is required.*"), true)
 WebUI.verifyTextPresent(("You must review and accept the ACH terms and conditions in order to process an electronic debit transaction.*"), true)
-
 
 
 

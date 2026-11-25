@@ -21,6 +21,5 @@ WebUI.verifyTextPresent(("The information you have entered does not match our re
 WebUI.setText(to("id=field1"), "111150")
 WebUI.setText(to("id=field2"), "111151")
 WebUI.click(to("name=Test"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
 WebUI.delay(5)
 WebUI.verifyTextPresent(("Match Found. Please verify the Amount Due below and click \"Continue\" to review your bill information and make a payment"), true)

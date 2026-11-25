@@ -32,7 +32,7 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data Hello')
 WebUI.setText(to('name=user_defined9'), '')
 WebUI.setText(to('name=user_defined10'), 'udf10 data Hello')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 
 
@@ -48,6 +48,5 @@ WebUI.verifyTextPresent(("Transaction cannot be processed due to missing input \
 
 
 //WebUI.verifyTextPresent(("Please click here to continue."), true)
-
 
 
