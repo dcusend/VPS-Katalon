@@ -124,6 +124,7 @@ for (def row = 1; row <= numOfRows; row++)
 					// Populate Test Harness
 					CustomKeywords.'iwpPages.TestHarnessPage.setDataMethodEF'(row,dataFile)
 					
+					WebUI.delay(GlobalVariable.mediumTimeDelay)
 				if(WebUI.verifyTextPresent("Manage Payment Plan", false)) {
 						
 					

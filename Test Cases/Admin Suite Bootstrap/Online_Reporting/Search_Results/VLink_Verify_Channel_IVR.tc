@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VLink_Verify_Channel_IVR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>67e33fd8-19c7-406d-8b95-6c46cf3b1c98</testCaseGuid>
+</TestCaseEntity>

@@ -156,7 +156,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 					CustomKeywords.'iwpPages.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 					
-					WebUI.delay(GlobalVariable.shortTimeDelay)
+					WebUI.delay(GlobalVariable.mediumTimeDelay)
 					WebUI.verifyTextPresent(("Successful Payment Receipt"), true)
 					WebUI.delay(GlobalVariable.mediumTimeDelay)
 //					if (WebUI.verifyTextPresent("Successful Payment Receipt", false)) {

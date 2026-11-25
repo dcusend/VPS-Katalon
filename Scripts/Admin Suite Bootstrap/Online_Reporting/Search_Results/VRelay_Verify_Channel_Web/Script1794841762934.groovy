@@ -57,7 +57,13 @@ WebUI.selectOptionByValue(findTestObject(path_Transaction_Report + 'selected_app
 
 WebUI.verifyElementPresent(findTestObject(path_Transaction_Report + 'paymentchannel_web'), 10)
 
+WebUI.verifyElementNotPresent(findTestObject(path_Transaction_Report + 'paymentchannel_agent'), 10)
 
+WebUI.verifyElementNotPresent(findTestObject(path_Transaction_Report + 'paymentchannel_gateway'), 10)
+
+WebUI.verifyElementNotPresent(findTestObject(path_Transaction_Report + 'paymentchannel_ivr'), 10)
+
+WebUI.verifyElementNotPresent(findTestObject(path_Transaction_Report + 'paymentchannel_pos'), 10)
 
 
 

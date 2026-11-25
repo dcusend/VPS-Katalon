@@ -132,7 +132,7 @@ for (def row = 1; row <= numOfRows; row++)
 					
 					CustomKeywords.'bwpPagesBootstrap.paymentConfirmationBootstrapPage.selectButtonConfirm'()
 					
-					WebUI.delay(GlobalVariable.shortTimeDelay)
+					WebUI.delay(GlobalVariable.mediumTimeDelay)
 
 					WebUI.verifyTextPresent(("Debit"), true)
 					WebUI.verifyTextPresent(("Personal Checking"), true)
@@ -149,7 +149,7 @@ for (def row = 1; row <= numOfRows; row++)
 						resText = "Fail"
 						CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,row)
 					}
-					WebUI.closeBrowser()
+//					WebUI.closeBrowser()
 					
 			}
 			

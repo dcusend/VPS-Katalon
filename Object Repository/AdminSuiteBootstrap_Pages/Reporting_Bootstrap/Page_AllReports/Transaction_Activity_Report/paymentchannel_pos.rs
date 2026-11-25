@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>paymentchannel_pos</name>
+   <tag></tag>
+   <elementGuidId>88a04fcf-c1e4-4931-a537-fcba28e510c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'paymentChannels' and @id = '4' and @value = '4']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>paymentChannels</value>
+      <webElementGuid>33d236a1-3302-4428-99f0-d43569eb8333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>168d05d6-de3d-4d94-964d-ed81daaf5db5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>021a31f9-f52e-4a05-b877-cb7c6e7fefe8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

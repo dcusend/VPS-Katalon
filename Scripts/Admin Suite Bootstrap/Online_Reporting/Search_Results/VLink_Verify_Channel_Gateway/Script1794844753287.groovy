@@ -28,8 +28,6 @@ String path_Operation_Reports = "Object Repository/AdminSuiteBootstrap_Pages/Rep
 
 
 
-
-
 CustomKeywords.'adminSuiteBootstrap.loginFunctionality.login_AdminSuite_AdminUser'()
 
 WebUI.delay(GlobalVariable.shortTimeDelay)
@@ -56,6 +54,14 @@ WebUI.verifyTextPresent('Please select one or more payment applications on which
 WebUI.selectOptionByValue(findTestObject(path_Transaction_Report + 'selected_app_ids'), '1113', false)
 
 WebUI.verifyElementPresent(findTestObject(path_Transaction_Report + 'paymentchannel_gateway'), 10)
+
+WebUI.verifyElementNotPresent(findTestObject(path_Transaction_Report + 'paymentchannel_web'), 10)
+
+WebUI.verifyElementNotPresent(findTestObject(path_Transaction_Report + 'paymentchannel_ivr'), 10)
+
+WebUI.verifyElementNotPresent(findTestObject(path_Transaction_Report + 'paymentchannel_agent'), 10)
+
+WebUI.verifyElementNotPresent(findTestObject(path_Transaction_Report + 'paymentchannel_pos'), 10)
 
 
 
