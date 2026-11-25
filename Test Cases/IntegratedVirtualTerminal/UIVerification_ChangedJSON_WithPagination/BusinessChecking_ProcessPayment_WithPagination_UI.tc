@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DebitCard_Receipt__UI</name>
+   <name>BusinessChecking_ProcessPayment_WithPagination_UI</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9086e9dd-1795-4f0a-bb0e-6bdde8a42825</testCaseGuid>
+   <testCaseGuid>0fae8b66-ef4f-4e49-b8eb-528dc9eb331d</testCaseGuid>
 </TestCaseEntity>

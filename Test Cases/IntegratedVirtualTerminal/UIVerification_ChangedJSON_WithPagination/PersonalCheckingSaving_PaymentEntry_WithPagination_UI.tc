@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalCheckingSaving_PaymentEntry_WithPagination_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>630f00c8-3ec2-4c6f-b61f-c3b678b7aefc</testCaseGuid>
+</TestCaseEntity>

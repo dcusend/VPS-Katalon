@@ -419,7 +419,7 @@ if(
 		isRequiredTextPresent = true
 		println("Debit Card-Receipt page attribute validations passed")
 	
-		KeywordUtil.markPassed("Credit Card-Receipt page attribute validations passed")
+		KeywordUtil.markPassed("Debit Card-Receipt page attribute validations passed")
 		resText = "Pass"
 	
 		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,CrediDebitRow)
@@ -430,7 +430,7 @@ if(
 		isRequiredTextPresent = false
 		println("Debit Card-Receipt page attribute validations failed")
 	
-		KeywordUtil.markFailed("Credit Card-Receipt page attribute validations failed")
+		KeywordUtil.markFailed("Debit Card-Receipt page attribute validations failed")
 		resText = "Fail"
 	
 		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,CrediDebitRow)

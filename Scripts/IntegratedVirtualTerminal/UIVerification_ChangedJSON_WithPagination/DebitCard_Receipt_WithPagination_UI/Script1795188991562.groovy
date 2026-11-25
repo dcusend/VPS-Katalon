@@ -76,9 +76,9 @@ switch(executionProfile)
 			 Password = GlobalVariable.IVTPassword
 			 PartnerToken= GlobalVariable.IVTPartnerToken
 			 			 
-		fileLoc = 'KatalonData/IVT/IVT_SameJSON_UI.xlsx'
-		nameSheet = 'Submit_SameJson_Ui'
-		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_SameJSON_UI.xlsx', nameSheet, true)
+		fileLoc = 'KatalonData/IVT/IVT_WithPagination_UI.xlsx'
+		nameSheet = 'Submit_WithPagination_Ui'
+		dataFile = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_WithPagination_UI.xlsx', nameSheet, true)
 	
 		break
 				
@@ -184,9 +184,9 @@ WebUI.verifyTextPresent('Credit/Debit Card', true)
 WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/label_CreditCard'))
 
 
-fileLoc = 'KatalonData/IVT/IVT_SameJSON_UI.xlsx'
-nameSheet = 'DebitCard_SameJson_Ui'
-creditDebitData = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_SameJSON_UI.xlsx', nameSheet, true)
+fileLoc = 'KatalonData/IVT/IVT_WithPagination_UI.xlsx'
+nameSheet = 'DebitCard_WithPagination_Ui'
+creditDebitData = ExcelFactory.getExcelDataWithDefaultSheet('KatalonData/IVT/IVT_WithPagination_UI.xlsx', nameSheet, true)
 
 
 numOfRows = creditDebitData.getRowNumbers()
@@ -318,11 +318,18 @@ WebUI.verifyTextPresent('Amount', true)
 WebUI.verifyTextPresent('Previous', true)
 WebUI.verifyTextPresent('Next', true)
 
-WebUI.verifyTextPresent('Showing 1 to 3 of 3 entries', true)
+CustomKeywords.'ivtPages.ParcelsLabel_Pagination.validateShowDropDown'()         //'Show' drop down on Process Payment has same Class as it has on Payment Entry page
 
-CustomKeywords.'ivtPages.ParcelsLabel.verifyShowDropDown'()         //'Show' drop down on Process Payment has same Class as it has on Payment Entry page
-
-CustomKeywords.'ivtPages.ParcelsLabel.verifyParcelData'(JSONBody)   //comparing Parcel Table data on Process Payment page directly from the Json
+WebUI.delay(2)
+CustomKeywords.'ivtPages.ParcelsLabel_Pagination.verifyParcelTable'(JSONBody,0,4)           //1st page data verification
+WebUI.verifyTextPresent('Showing 1 to 5 of 7 entries', true)
+WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/NextEnabled'))		//click on 'Next' button to go to 2nd page
+WebUI.delay(2)
+CustomKeywords.'ivtPages.ParcelsLabel_Pagination.verifyParcelTable'(JSONBody,5,6)			//2nd page data verification
+WebUI.verifyTextPresent('Showing 6 to 7 of 7 entries', true)
+WebUI.click(findTestObject('Object Repository/IntegratedVT/CreditDebitCard/CreditDebit_PaymentInformation/CreditDebit_PaymentConfirmation/PreviousEnabled'))     //click on 'Previous' button to go to 1st page
+WebUI.selectOptionByLabel(findTestObject('Object Repository/IntegratedVT/ParcelsLabel/Show'),'10',false)  	//select 10 from drop down to see all records on 1st page
+WebUI.verifyTextPresent('Showing 1 to 7 of 7 entries', true)
 
 
 //bottom buttons verification
@@ -404,7 +411,7 @@ if(
 		isRequiredTextPresent = true
 		println("Debit Card-Receipt page attribute validations passed")
 	
-		KeywordUtil.markPassed("Credit Card-Receipt page attribute validations passed")
+		KeywordUtil.markPassed("Debit Card-Receipt page attribute validations passed")
 		resText = "Pass"
 	
 		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,CrediDebitRow)
@@ -415,7 +422,7 @@ if(
 		isRequiredTextPresent = false
 		println("Debit Card-Receipt page attribute validations failed")
 	
-		KeywordUtil.markFailed("Credit Card-Receipt page attribute validations failed")
+		KeywordUtil.markFailed("Debit Card-Receipt page attribute validations failed")
 		resText = "Fail"
 	
 		CustomKeywords.'pages.WriteExcel.demoKey'(resText,datText,resColumn,datCloumn,fileLoc,nameSheet,CrediDebitRow)

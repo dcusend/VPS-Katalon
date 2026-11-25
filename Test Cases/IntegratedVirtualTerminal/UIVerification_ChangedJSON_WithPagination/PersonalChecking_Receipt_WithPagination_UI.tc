@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonalChecking_Receipt_WithPagination_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b03f5f0-bb88-4f59-860d-25263879de31</testCaseGuid>
+</TestCaseEntity>

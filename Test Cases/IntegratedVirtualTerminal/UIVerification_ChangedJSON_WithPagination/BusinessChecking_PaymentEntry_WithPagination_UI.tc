@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BusinessChecking_PaymentEntry_WithPagination_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e85e2b8c-8490-4eec-9379-80fecfb27fc8</testCaseGuid>
+</TestCaseEntity>

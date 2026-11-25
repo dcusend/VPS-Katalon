@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DebitCard_Receipt_WithPagination_UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9086e9dd-1795-4f0a-bb0e-6bdde8a42825</testCaseGuid>
+</TestCaseEntity>
