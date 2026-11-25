@@ -20,7 +20,7 @@ WebUI.setText(to("id=field2"), "4106280791")
 WebUI.click(to("name=Test"))
 WebUI.delay(2)
 WebUI.click(to("name=paysubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent(("Select Payment Method"), true)
 
@@ -35,6 +35,6 @@ WebUI.setText(to("id=field2"), "4106280791")
 WebUI.click(to("name=Test"))
 WebUI.delay(2)
 WebUI.click(to("name=paysubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent(("Select Payment Method"), true)

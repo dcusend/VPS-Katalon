@@ -89,10 +89,10 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data')
 WebUI.setText(to('name=user_defined9'), 'udf9 data')
 WebUI.setText(to('name=user_defined10'), 'udf10 data')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.setText(to('id=billing-zip-input'), '22201')
 WebUI.setText(to('name=amount'), '10.00')
 WebUI.setText(to('name=userDefined1'), 'udf1 data')
@@ -115,7 +115,7 @@ WebUI.setText(to('name=billingAddress2'), 'suite 600')
 WebUI.setText(to('name=emailAddress'), 'iahmed@govolution.com')
 WebUI.click(to('id=checkedAcceptCondition'))
 WebUI.click(to('name=achSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 
 
@@ -173,7 +173,7 @@ WebUI.verifyTextPresent(("iahmed@govolution.com.*"), true)
 
 
 WebUI.click(to("xpath=(//input[@name='confirmNotifyAction'])[2]"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.setText(to('id=billing-zip-input'), '03106')
 WebUI.setText(to('name=amount'), '20.00')
 WebUI.setText(to('name=userDefined3'), 'udf3 data Modified')
@@ -187,7 +187,7 @@ WebUI.setText(to('name=billingAddress'), '15 Elm Street')
 WebUI.setText(to('name=billingAddress2'), 'Building 2')
 WebUI.setText(to('name=emailAddress'), 'imtiazster@gmail.com')
 WebUI.click(to('name=achSubmit'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 
 
@@ -241,7 +241,7 @@ WebUI.verifyTextPresent(("imtiazster@gmail.com.*"), true)
 
 
 WebUI.click(to('name=confirmNotifyAction'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 Thread.sleep(20000);
 
 
@@ -285,7 +285,6 @@ WebUI.verifyTextPresent(("15 Elm Street.*"), true)
 WebUI.verifyTextPresent(("HOOKSETT.*"), true)
 WebUI.verifyTextPresent(("New Hampshire.*"), true)
 WebUI.verifyTextPresent(("03106.*"), true)
-
 
 
 

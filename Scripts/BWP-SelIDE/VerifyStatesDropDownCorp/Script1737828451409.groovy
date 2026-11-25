@@ -38,10 +38,10 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data')
 WebUI.setText(to('name=user_defined9'), 'udf9 data')
 WebUI.setText(to('name=user_defined10'), 'udf10 data')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[3]"))
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 //softAssertion.assertEquals("--Select One-- Armed Forces Americas Armed Forces Europe Armed Forces Canada Armed Forces Africa Armed Forces Middle East Armed Forces Pacific Alabama Alaska American Samoa Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Federated States of Micronesia Florida Georgia Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Northern Mariana Islands Ohio Oklahoma Oregon Palau Pennsylvania Puerto Rico Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virgin Islands Virginia Washington West Virginia Wisconsin Wyoming Marshall Island", selenium.getText("id=billingState-select"))
 
 
@@ -52,5 +52,3 @@ WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stat
 WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'North Dakota', false, 10)
 WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'Tennessee', false, 10)
 WebUI.verifyOptionPresentByLabel(findTestObject('Object Repository/Page_BWP/stateDropDown'), 'Pennsylvania', false, 10)
-
-

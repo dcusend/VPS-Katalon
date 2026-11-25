@@ -34,6 +34,6 @@ WebUI.setText(to('name=user_defined8'), 'udf8 data Hello')
 WebUI.setText(to('name=user_defined9'), 'udf9 data Hello')
 WebUI.setText(to('name=user_defined10'), 'udf10 data Hello')
 WebUI.click(to('css=input[type="submit"]'))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent('TestvPortal Auto - Error The following error occurred:  Invalid characters Please&nbsp;&nbsp;click here to continue.', true)

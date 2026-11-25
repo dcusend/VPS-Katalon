@@ -19,10 +19,10 @@ WebUI.setText(to("id=field2"), "111151")
 WebUI.click(to("name=Test"))
 WebUI.delay(2)
 WebUI.click(to("name=paysubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 WebUI.click(to("xpath=(//input[@name='paymentMethod'])[2]"))
 WebUI.click(to("css=input[type=\"submit\"]"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 
 WebUI.verifyTextPresent(("Required fields are highlighted with an asterisk."), true)
 WebUI.verifyTextPresent(("Please enter the following billing information about your payment:"), true)
@@ -48,9 +48,8 @@ WebUI.setText(to("id=billing-zip-input"), "21054")
 WebUI.setText(to("name=emailAddress"), ("iahmed@govolution.com").toString())
 WebUI.click(to("id=checkedAcceptCondition"))
 WebUI.click(to("name=achSubmit"))
-WebUI.waitForPageLoad(pageLoadTimeoutSeconds)
+WebUI.delay(5)
 //softAssertion.assertEquals("Amount is greater than maximum", selenium.getText("css=span.vrelay-error"))
 
 WebUI.verifyTextPresent(("Amount is greater than maximum"), true)
-
 

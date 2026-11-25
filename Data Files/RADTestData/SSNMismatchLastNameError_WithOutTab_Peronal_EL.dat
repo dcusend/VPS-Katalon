@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>SSNMismatchLastNameError_WithOutTab_Peronal_EL</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>49ed186c-6045-4c66-92b5-7fdd0b455350</dataFileGUID>
+   <dataSourceUrl>C:\Users\t465179\Documents\git\VPS-Katalon\VPS-Katalon\KatalonData\RADTestData\SSNMismatchLastNameError_WithOutTab_Back.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Personal_EL</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
